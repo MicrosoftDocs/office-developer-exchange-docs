@@ -5,7 +5,7 @@
       href:
       items:      
         - name: Migration
-          href: articles/migrating-to-exchange-online-and-exchange-2013-technologies.md
+          href: migrating-to-exchange-online-and-exchange-2013-technologies.md
         - name: Web Services
           href:
           items:
@@ -304,3 +304,11 @@
                   href: exchange-web-services/tools-and-resources-for-troubleshooting-ews-applications-for-exchange.md
                 - name: Verifying the results of an EWS or EWS Managed API call
                   href: exchange-web-services/verifying-the-results-of-an-ews-or-ews-managed-api-call.md
+        - name: Ezchange Management Shell
+          href:
+        - name: Transport agents
+          href: 
+        - name: Backup and restore
+          href: 
+        - name: Server API reference
+          href: https://msdn.microsoft.com/en-us/library/dn186243(v=exchg.150).aspx
