@@ -304,7 +304,526 @@
                   href: exchange-web-services/tools-and-resources-for-troubleshooting-ews-applications-for-exchange.md
                 - name: Verifying the results of an EWS or EWS Managed API call
                   href: exchange-web-services/verifying-the-results-of-an-ews-or-ews-managed-api-call.md
-        - name: Ezchange Management Shell
+            - name: Web services reference
+              href: web-service-reference/web-services-reference-for-exchange.md
+              items:
+              - name: EWS reference
+                href: https://msdn.microsoft.com/EN-US/library/bb204119(v=exchg.150).aspx
+              - name: EWS Managed API reference
+                href: https://msdn.microsoft.com/EN-US/library/jj220535(v=exchg.80).aspx
+              - name: Autodiscover web service reference
+                href: web-service-reference/autodiscover-web-service-reference-for-exchange.md
+                items:
+                - name: SOAP Autodiscover web service reference
+                  href: web-service-reference/soap-autodiscover-web-service-reference-for-exchange.md
+                  items:
+                  - name: GetDomainSettings operation (SOAP)
+                    href: web-service-reference/getdomainsettings-operation-soap.md
+                  - name: GetFederationInformation operation (SOAP)
+                    href: web-service-reference/getfederationinformation-operation-soap.md
+                  - name: GetUserSettings operation (SOAP)
+                    href: web-service-reference/getusersettings-operation-soap.md
+                  - name: GetOrganizationRelationshipSettings operation (SOAP)
+                    href: web-service-reference/getorganizationrelationshipsettings-operation-soap.md
+                  - name: SOAP Autodiscover XML elements
+                    href: web-service-reference/soap-autodiscover-xml-elements-for-exchange-2013.md
+                    items:
+                    - name: AlternateMailbox (SOAP)
+                      href: web-service-reference/alternatemailbox-soap.md
+                    - name: AlternateMailboxCollectionSetting (SOAP)
+                      href: web-service-reference/alternatemailboxcollectionsetting-soap.md
+                    - name: AlternateMailboxes (SOAP)
+                      href: web-service-reference/alternatemailboxes-soap.md
+                    - name: AnonymousAccessAllowed (SOAP)
+                      href: web-service-reference/anonymousaccessallowed-soap.md
+                    - name: ApplicationUri (SOAP)
+                      href: web-service-reference/applicationuri-soap.md
+                    - name: ArrayOfDomainResponse (SOAP)
+                      href: web-service-reference/arrayofdomainresponse-soap.md
+                    - name: ArrayOfUserResponse (SOAP)
+                      href: web-service-reference/arrayofuserresponse-soap.md
+                    - name: AuthenticationMethods (SOAP)
+                      href: web-service-reference/authenticationmethods-soap.md
+                    - name: AutodiscoverRequest (SOAP)
+                      href: web-service-reference/autodiscoverrequest-soap.md
+                    - name: AutodiscoverResponse (SOAP)
+                      href: web-service-reference/autodiscoverresponse-soap.md
+                    - name: CanModifyPermissions (SOAP)
+                      href: web-service-reference/canmodifypermissions-soap.md
+                    - name: DeliveryReportEnabled (SOAP)
+                      href: web-service-reference/deliveryreportenabled-soap.md
+                    - name: DisplayName (SOAP)
+                      href: web-service-reference/displayname-soap.md
+                    - name: DocumentSharingLocation (SOAP)
+                      href: web-service-reference/documentsharinglocation-soap.md
+                    - name: DocumentSharingLocations (SOAP)
+                      href: web-service-reference/documentsharinglocations-soap.md
+                    - name: DocumentSharingLocationCollectionSetting (SOAP)
+                      href: web-service-reference/documentsharinglocationcollectionsetting-soap.md
+                    - name: DomainNames (SOAP)
+                      href: web-service-reference/domainnames-soap.md
+                    - name: Domain (SOAP)
+                      href: web-service-reference/domain-soap.md
+                    - name: Domain (GetFederationInformation) (SOAP)
+                      href: web-service-reference/domain-getfederationinformationsoap.md
+                    - name: DomainResponse (SOAP)
+                      href: web-service-reference/domainresponse-soap.md
+                    - name: DomainResponses (SOAP)
+                      href: web-service-reference/domainresponses-soap.md
+                    - name: Domains (SOAP)
+                      href: web-service-reference/domains-soap.md
+                    - name: DomainSettingError (SOAP)
+                      href: web-service-reference/domainsettingerror-soap.md
+                    - name: DomainSettingErrors (SOAP)
+                      href: web-service-reference/domainsettingerrors-soap.md
+                    - name: DomainSetting (SOAP)
+                      href: web-service-reference/domainsetting-soap.md
+                    - name: DomainSettings (SOAP)
+                      href: web-service-reference/domainsettings-soap.md
+                    - name: DomainStringSetting (SOAP)
+                      href: web-service-reference/domainstringsetting-soap.md
+                    - name: EncryptionMethod (SOAP)
+                      href: web-service-reference/encryptionmethod-soap.md
+                    - name: Endpoint (SOAP)
+                      href: web-service-reference/endpoint-soap.md
+                    - name: ErrorCode (SOAP)
+                      href: web-service-reference/errorcode-soap.md
+                    - name: ErrorMessage (SOAP)
+                      href: web-service-reference/errormessage-soap.md
+                    - name: ExternalAccessAllowed (SOAP)
+                      href: web-service-reference/externalaccessallowed-soap.md
+                    - name: FileExtension (SOAP)
+                      href: web-service-reference/fileextension-soap.md
+                    - name: FreeBusyAccessEnabled (SOAP)
+                      href: web-service-reference/freebusyaccessenabled-soap.md
+                    - name: FreeBusyAccessLevel (SOAP)
+                      href: web-service-reference/freebusyaccesslevel-soap.md
+                    - name: GetDomainSettingsRequest (SOAP)
+                      href: web-service-reference/getdomainsettingsrequest-soap.md
+                    - name: GetDomainSettingsRequestMessage (SOAP)
+                      href: web-service-reference/getdomainsettingsrequestmessage-soap.md
+                    - name: GetDomainSettingsResponse (SOAP)
+                      href: web-service-reference/getdomainsettingsresponse-soap.md
+                    - name: GetDomainSettingsResponseMessage (SOAP)
+                      href: web-service-reference/getdomainsettingsresponsemessage-soap.md
+                    - name: GetFederationInformationRequest (SOAP)
+                      href: web-service-reference/getfederationinformationrequest-soap.md
+                    - name: GetFederationInformationRequestMessage (SOAP)
+                      href: web-service-reference/getfederationinformationrequestmessage-soap.md
+                    - name: GetFederationInformationResponse (SOAP)
+                      href: web-service-reference/getfederationinformationresponse-soap.md
+                    - name: GetFederationInformationResponseMessage (SOAP)
+                      href: web-service-reference/getfederationinformationresponsemessage-soap.md
+                    - name: GetOrganizationRelationshipSettingsRequest (SOAP)
+                      href: web-service-reference/getorganizationrelationshipsettingsrequest-soap.md
+                    - name: GetOrganizationRelationshipSettingsRequestMessage (SOAP)
+                      href: web-service-reference/getorganizationrelationshipsettingsrequestmessage-soap.md
+                    - name: GetOrganizationRelationshipSettingsResponse (SOAP)
+                      href: web-service-reference/getorganizationrelationshipsettingsresponse-soap.md
+                    - name: GetOrganizationRelationshipSettingsResponseMessage (SOAP)
+                      href: web-service-reference/getorganizationrelationshipsettingsresponsemessage-soap.md
+                    - name: GetUserSettingsRequest (SOAP)
+                      href: web-service-reference/getusersettingsrequest-soap.md
+                    - name: GetUserSettingsRequestMessage (SOAP)
+                      href: web-service-reference/getusersettingsrequestmessage-soap.md
+                    - name: GetUserSettingsResponse (SOAP)
+                      href: web-service-reference/getusersettingsresponse-soap.md
+                    - name: GetUserSettingsResponseMessage (SOAP)
+                      href: web-service-reference/getusersettingsresponsemessage-soap.md
+                    - name: Hostname (SOAP)
+                      href: web-service-reference/hostname-soap.md
+                    - name: IsDefault (SOAP)
+                      href: web-service-reference/isdefault-soap.md
+                    - name: LegacyDN (SOAP)
+                      href: web-service-reference/legacydn-soap.md
+                    - name: LocationUrl (SOAP)
+                      href: web-service-reference/locationurl-soap.md
+                    - name: Mailbox (SOAP)
+                      href: web-service-reference/mailbox-soap.md
+                    - name: MailTipsAccessEnabled (SOAP)
+                      href: web-service-reference/mailtipsaccessenabled-soap.md
+                    - name: MailTipsAccessLevel (SOAP)
+                      href: web-service-reference/mailtipsaccesslevel-soap.md
+                    - name: MailboxMoveEnabled (SOAP)
+                      href: web-service-reference/mailboxmoveenabled-soap.md
+                    - name: MajorBuildNumber (SOAP)
+                      href: web-service-reference/majorbuildnumber-soap.md
+                    - name: MajorVersion (SOAP)
+                      href: web-service-reference/majorversion-soap.md
+                    - name: MinorBuildNumber (SOAP)
+                      href: web-service-reference/minorbuildnumber-soap.md
+                    - name: MinorVersion (SOAP)
+                      href: web-service-reference/minorversion-soap.md
+                    - name: Name (SOAP)
+                      href: web-service-reference/name-soap.md
+                    - name: OrganizationRelationshipSettingsCollection (SOAP)
+                      href: web-service-reference/organizationrelationshipsettingscollection-soap.md
+                    - name: OrganizationRelationshipSettings (SOAP)
+                      href: web-service-reference/organizationrelationshipsettings-soap.md
+                    - name: Port (SOAP)
+                      href: web-service-reference/port-soap.md
+                    - name: ProtocolConnection (SOAP)
+                      href: web-service-reference/protocolconnection-soap.md
+                    - name: ProtocolConnectionCollectionSetting (SOAP)
+                      href: web-service-reference/protocolconnectioncollectionsetting-soap.md
+                    - name: ProtocolConnections (SOAP)
+                      href: web-service-reference/protocolconnections-soap.md
+                    - name: RedirectTarget (SOAP)
+                      href: web-service-reference/redirecttarget-soap.md
+                    - name: Request (SOAP)
+                      href: web-service-reference/request-soap.md
+                    - name: Request (GetDomainSettings) (SOAP)
+                      href: web-service-reference/request-getdomainsettingssoap.md
+                    - name: Request (GetFederationInformation) (SOAP)
+                      href: web-service-reference/request-getfederationinformationsoap.md
+                    - name: Request (GetOrganizationRelationship) (SOAP)
+                      href: web-service-reference/request-getorganizationrelationshipsoap.md
+                    - name: RequestedVersion (SOAP)
+                      href: web-service-reference/requestedversion-soap.md
+                    - name: RequestedServerVersion (SOAP)
+                      href: web-service-reference/requestedserverversion-soap.md
+                    - name: RequestedSettings (SOAP)
+                      href: web-service-reference/requestedsettings-soap.md
+                    - name: Response (SOAP)
+                      href: web-service-reference/response-soap.md
+                    - name: Response (GetDomainSettings) (SOAP)
+                      href: web-service-reference/response-getdomainsettingssoap.md
+                    - name: Response (GetFederationInformation) (SOAP)
+                      href: web-service-reference/response-getfederationinformationsoap.md
+                    - name: Response (GetOrganizationRelationship) (SOAP)
+                      href: web-service-reference/response-getorganizationrelationshipsoap.md
+                    - name: Server (SOAP)
+                      href: web-service-reference/server-soap.md
+                    - name: ServerVersionInfo (SOAP)
+                      href: web-service-reference/serverversioninfo-soap.md
+                    - name: ServiceUrl (SOAP)
+                      href: web-service-reference/serviceurl-soap.md
+                    - name: Setting (SOAP)
+                      href: web-service-reference/setting-soap.md
+                    - name: SettingName (SOAP)
+                      href: web-service-reference/settingname-soap.md
+                    - name: SmtpAddress (SOAP)
+                      href: web-service-reference/smtpaddress-soap.md
+                    - name: StringSetting (SOAP)
+                      href: web-service-reference/stringsetting-soap.md
+                    - name: SupportedFileExtensions (SOAP)
+                      href: web-service-reference/supportedfileextensions-soap.md
+                    - name: TargetApplicationUri (SOAP)
+                      href: web-service-reference/targetapplicationuri-soap.md
+                    - name: TargetAutodiscoverEpr (SOAP)
+                      href: web-service-reference/targetautodiscoverepr-soap.md
+                    - name: TargetSharingEpr (SOAP)
+                      href: web-service-reference/targetsharingepr-soap.md
+                    - name: TokenIssuer (SOAP)
+                      href: web-service-reference/tokenissuer-soap.md
+                    - name: TokenIssuers (SOAP)
+                      href: web-service-reference/tokenissuers-soap.md
+                    - name: Type (SOAP)
+                      href: web-service-reference/type-soap.md
+                    - name: Uri (SOAP)
+                      href: web-service-reference/uri-soap.md
+                    - name: Url (SOAP)
+                      href: web-service-reference/url-soap.md
+                    - name: User (SOAP)
+                      href: web-service-reference/user-soap.md
+                    - name: UserResponse (SOAP)
+                      href: web-service-reference/userresponse-soap.md
+                    - name: UserResponses (SOAP)
+                      href: web-service-reference/userresponses-soap.md
+                    - name: Users (SOAP)
+                      href: web-service-reference/users-soap.md
+                    - name: UserSetting (SOAP)
+                      href: web-service-reference/usersetting-soap.md
+                    - name: UserSettingError (SOAP)
+                      href: web-service-reference/usersettingerror-soap.md
+                    - name: UserSettingErrors (SOAP)
+                      href: web-service-reference/usersettingerrors-soap.md
+                    - name: UserSettings (SOAP)
+                      href: web-service-reference/usersettings-soap.md
+                    - name: Value (SOAP)
+                      href: web-service-reference/value-soap.md
+                    - name: Version (SOAP)
+                      href: web-service-reference/version-soap.md
+                    - name: WebClientUrl (SOAP)
+                      href: web-service-reference/webclienturl-soap.md
+                    - name: WebClientUrlCollectionSetting (SOAP)
+                      href: web-service-reference/webclienturlcollectionsetting-soap.md
+                    - name: WebClientUrls (SOAP)
+                      href: web-service-reference/webclienturls-soap.md
+                - name: POX Autodiscover web service reference
+                  href: web-service-reference/pox-autodiscover-web-service-reference-for-exchange.md
+                  items:
+                  - name: POX Autodiscover request
+                    href: web-service-reference/pox-autodiscover-request-for-exchange.md
+                  - name: POX Autodiscover response
+                    href: web-service-reference/pox-autodiscover-response-for-exchange.md
+                  - name: POX Autodiscover XML elements
+                    href: web-service-reference/pox-autodiscover-xml-elements-for-exchange.md
+                    items:
+                    - name: AcceptableResponseSchema (POX)
+                      href: web-service-reference/acceptableresponseschema-pox.md
+                    - name: Account (POX)
+                      href: web-service-reference/account-pox.md
+                    - name: AccountType (POX)
+                      href: web-service-reference/accounttype-pox.md
+                    - name: Action (POX)
+                      href: web-service-reference/action-pox.md
+                    - name: AddressBook (POX)
+                      href: web-service-reference/addressbook-pox.md
+                    - name: ASUrl (POX)
+                      href: web-service-reference/asurl-pox.md
+                    - name: AuthPackage (POX)
+                      href: web-service-reference/authpackage-pox.md
+                    - name: AuthRequired (POX)
+                      href: web-service-reference/authrequired-pox.md
+                    - name: AutoDiscover (POX)
+                      href: web-service-reference/autodiscover-pox.md
+                    - name: AutoDiscoverSMTPAddress (POX)
+                      href: web-service-reference/autodiscoversmtpaddress-pox.md
+                    - name: CertPrincipalName (POX)
+                      href: web-service-reference/certprincipalname-pox.md
+                    - name: DebugData (POX)
+                      href: web-service-reference/debugdata-pox.md
+                    - name: DeploymentId (POX)
+                      href: web-service-reference/deploymentid-pox.md
+                    - name: DirectoryPort (POX)
+                      href: web-service-reference/directoryport-pox.md
+                    - name: DisplayName (POX)
+                      href: web-service-reference/displayname-pox.md
+                    - name: DomainName (POX)
+                      href: web-service-reference/domainname-pox.md
+                    - name: DomainRequired (POX)
+                      href: web-service-reference/domainrequired-pox.md
+                    - name: EcpUrl (POX)
+                      href: web-service-reference/ecpurl-pox.md
+                    - name: EcpUrl-aggr (POX)
+                      href: web-service-reference/ecpurl-aggr-pox.md
+                    - name: EcpUrl-extinstall (POX)
+                      href: web-service-reference/ecpurl-extinstall-pox.md
+                    - name: EcpUrl-mt (POX)
+                      href: web-service-reference/ecpurl-mt-pox.md
+                    - name: EcpUrl-photo (POX)
+                      href: web-service-reference/ecpurl-photo-pox.md
+                    - name: EcpUrl-publish (POX)
+                      href: web-service-reference/ecpurl-publish-pox.md
+                    - name: EcpUrl-ret (POX)
+                      href: web-service-reference/ecpurl-ret-pox.md
+                    - name: EcpUrl-sms (POX)
+                      href: web-service-reference/ecpurl-sms-pox.md
+                    - name: EcpUrl-tm (POX)
+                      href: web-service-reference/ecpurl-tm-pox.md
+                    - name: EcpUrl-tmCreating (POX)
+                      href: web-service-reference/ecpurl-tmcreating-pox.md
+                    - name: EcpUrl-tmEditing (POX)
+                      href: web-service-reference/ecpurl-tmediting-pox.md
+                    - name: EcpUrl-tmHiding (POX)
+                      href: web-service-reference/ecpurl-tmhiding-pox.md
+                    - name: EcpUrl-um (POX)
+                      href: web-service-reference/ecpurl-um-pox.md
+                    - name: EMailAddress (POX)
+                      href: web-service-reference/emailaddress-pox.md
+                    - name: EmwsUrl (POX)
+                      href: web-service-reference/emwsurl-pox.md
+                    - name: Error (POX)
+                      href: web-service-reference/error-pox.md
+                    - name: ErrorCode (POX)
+                      href: web-service-reference/errorcode-pox.md
+                    - name: EwsPartnerUrl (POX)
+                      href: web-service-reference/ewspartnerurl-pox.md
+                    - name: EwsUrl (POX)
+                      href: web-service-reference/ewsurl-pox.md
+                    - name: External (POX)
+                      href: web-service-reference/external-pox.md
+                    - name: ExternalUrl (POX)
+                      href: web-service-reference/externalurl-pox.md
+                    - name: GroupingInformation (POX)
+                      href: web-service-reference/groupinginformation-pox.md
+                    - name: Image (POX)
+                      href: web-service-reference/image-pox.md
+                    - name: Internal (POX)
+                      href: web-service-reference/internal-pox.md
+                    - name: InternalUrl (POX)
+                      href: web-service-reference/internalurl-pox.md
+                    - name: IPv6End (POX)
+                      href: web-service-reference/ipv6end-pox.md
+                    - name: IPv6Start (POX)
+                      href: web-service-reference/ipv6start-pox.md
+                    - name: IPv4End (POX)
+                      href: web-service-reference/ipv4end-pox.md
+                    - name: IPv4Start (POX)
+                      href: web-service-reference/ipv4start-pox.md
+                    - name: LegacyDN (POX)
+                      href: web-service-reference/legacydn-pox.md
+                    - name: LoginName (POX)
+                      href: web-service-reference/loginname-pox.md
+                    - name: MailStore (POX)
+                      href: web-service-reference/mailstore-pox.md
+                    - name: MdbDN (POX)
+                      href: web-service-reference/mdbdn-pox.md
+                    - name: Message (POX)
+                      href: web-service-reference/message-pox.md
+                    - name: MicrosoftOnline (POX)
+                      href: web-service-reference/microsoftonline-pox.md
+                    - name: NetworkRequirements (POX)
+                      href: web-service-reference/networkrequirements-pox.md
+                    - name: OABUrl (POX)
+                      href: web-service-reference/oaburl-pox.md
+                    - name: OOFUrl (POX)
+                      href: web-service-reference/oofurl-pox.md
+                    - name: OWAUrl (POX)
+                      href: web-service-reference/owaurl-pox.md
+                    - name: Port (POX)
+                      href: web-service-reference/port-pox.md
+                    - name: Protocol (POX)
+                      href: web-service-reference/protocol-pox.md
+                    - name: PublicFolderInformation (POX)
+                      href: web-service-reference/publicfolderinformation-pox.md
+                    - name: PublicFolderServer (POX)
+                      href: web-service-reference/publicfolderserver-pox.md
+                    - name: RedirectAddr (POX)
+                      href: web-service-reference/redirectaddr-pox.md
+                    - name: RedirectUrl (POX)
+                      href: web-service-reference/redirecturl-pox.md
+                    - name: ReferralPort (POX)
+                      href: web-service-reference/referralport-pox.md
+                    - name: Request (POX)
+                      href: web-service-reference/request-pox.md
+                    - name: Response (POX)
+                      href: web-service-reference/response-pox.md
+                    - name: Server (POX)
+                      href: web-service-reference/server-pox.md
+                    - name: ServerDN (POX)
+                      href: web-service-reference/serverdn-pox.md
+                    - name: ServerVersion (POX)
+                      href: web-service-reference/serverversion-pox.md
+                    - name: ServiceHome (POX)
+                      href: web-service-reference/servicehome-pox.md
+                    - name: SharingUrl (POX)
+                      href: web-service-reference/sharingurl-pox.md
+                    - name: SmtpAddress (POX)
+                      href: web-service-reference/smtpaddress-pox.md
+                    - name: SMTPLast (POX)
+                      href: web-service-reference/smtplast-pox.md
+                    - name: SPA (POX)
+                      href: web-service-reference/spa-pox.md
+                    - name: SSL (POX)
+                      href: web-service-reference/ssl-pox.md
+                    - name: TTL (POX)
+                      href: web-service-reference/ttl-pox.md
+                    - name: Type (POX)
+                      href: web-service-reference/type-pox.md
+                    - name: UMUrl (POX)
+                      href: web-service-reference/umurl-pox.md
+                    - name: UsePOPAuth (POX)
+                      href: web-service-reference/usepopauth-pox.md
+                    - name: User (POX)
+                      href: web-service-reference/user-pox.md
+              - name: Unified Messaging web service reference
+                href: web-service-reference/unified-messaging-web-service-reference-for-exchange.md
+                items:
+                - name: Unified Messaging web service operations
+                  href: web-service-reference/unified-messaging-web-service-operations-for-exchange.md
+                  items:
+                  - name: Disconnect operation (UM web service)
+                    href: web-service-reference/disconnect-operation-um-web-service.md
+                  - name: GetCallInfo operation (UM web service)
+                    href: web-service-reference/getcallinfo-operation-um-web-service.md
+                  - name: GetUMProperties operation (UM web service)
+                    href: web-service-reference/getumproperties-operation-um-web-service.md
+                  - name: IsUMEnabled operation (UM web service)
+                    href: web-service-reference/isumenabled-operation-um-web-service.md
+                  - name: PlayOnPhone operation (UM web service)
+                    href: web-service-reference/playonphone-operation-um-web-service.md
+                  - name: PlayOnPhoneGreeting operation (UM web service)
+                    href: web-service-reference/playonphonegreeting-operation-um-web-service.md
+                  - name: ResetPIN operation (UM web service)
+                    href: web-service-reference/resetpin-operation-um-web-service.md
+                  - name: SetMissedCallNotificationEnabled operation (UM web service)
+                    href: web-service-reference/setmissedcallnotificationenabled-operation-um-web-service.md
+                  - name: SetOofStatus operation (UM web service)
+                    href: web-service-reference/setoofstatus-operation-um-web-service.md
+                  - name: SetPlayOnPhoneDialString operation (UM web service)
+                    href: web-service-reference/setplayonphonedialstring-operation-um-web-service.md
+                  - name: SetTelephoneAccessFolderEmail operation (UM web service)
+                    href: web-service-reference/settelephoneaccessfolderemail-operation-um-web-service.md
+                - name: Unified Messaging web service XML elements
+                  href: web-service-reference/unified-messaging-web-service-xml-elements-for-exchange.md
+                  items:
+                  - name: base64FolderId (UM web service)
+                    href: web-service-reference/base64folderid-um-web-service.md
+                  - name: CallId (UM web service)
+                    href: web-service-reference/callid-um-web-service.md
+                  - name: CallState (UM web service)
+                    href: web-service-reference/callstate-um-web-service.md
+                  - name: dialString (UM web service)
+                    href: web-service-reference/dialstring-um-web-service.md
+                  - name: Disconnect (UM web service)
+                    href: web-service-reference/disconnect-um-web-service.md
+                  - name: DisconnectResponse (UM web service)
+                    href: web-service-reference/disconnectresponse-um-web-service.md
+                  - name: entryId (UM web service)
+                    href: web-service-reference/entryid-um-web-service.md
+                  - name: EventCause (UM web service)
+                    href: web-service-reference/eventcause-um-web-service.md
+                  - name: GetCallInfo (UM web service)
+                    href: web-service-reference/getcallinfo-um-web-service.md
+                  - name: GetCallInfoResponse (UM web service)
+                    href: web-service-reference/getcallinforesponse-um-web-service.md
+                  - name: GetUMProperties (UM web service)
+                    href: web-service-reference/getumproperties-um-web-service.md
+                  - name: GetUMPropertiesResponse (UM web service)
+                    href: web-service-reference/getumpropertiesresponse-um-web-service.md
+                  - name: GreetingType (UM web service)
+                    href: web-service-reference/greetingtype-um-web-service.md
+                  - name: IsUMEnabled (UM web service)
+                    href: web-service-reference/isumenabled-um-web-service.md
+                  - name: IsUMEnabledResponse (UM web service)
+                    href: web-service-reference/isumenabledresponse-um-web-service.md
+                  - name: OofStatus (UM web service)
+                    href: web-service-reference/oofstatus-um-web-service.md
+                  - name: PlayOnPhoneGreeting (UM web service)
+                    href: web-service-reference/playonphonegreeting-um-web-service.md
+                  - name: PlayOnPhoneGreetingResponse (UM web service)
+                    href: web-service-reference/playonphonegreetingresponse-um-web-service.md
+                  - name: PlayOnPhone (UM web service)
+                    href: web-service-reference/playonphone-um-web-service.md
+                  - name: PlayOnPhoneResponse (UM web service)
+                    href: web-service-reference/playonphoneresponse-um-web-service.md
+                  - name: ResetPIN (UM web service)
+                    href: web-service-reference/resetpin-um-web-service.md
+                  - name: ResetPINResponse (UM web service)
+                    href: web-service-reference/resetpinresponse-um-web-service.md
+                  - name: SetMissedCallNotificationEnabled (UM web service)
+                    href: web-service-reference/setmissedcallnotificationenabled-um-web-service.md
+                  - name: SetMissedCallNotificationEnabledResponse (UM web service)
+                    href: web-service-reference/setmissedcallnotificationenabledresponse-um-web-service.md
+                  - name: SetOofStatus (UM web service)
+                    href: web-service-reference/setoofstatus-um-web-service.md
+                  - name: SetOofStatusResponse (UM web service)
+                    href: web-service-reference/setoofstatusresponse-um-web-service.md
+                  - name: SetPlayOnPhoneDialString (UM web service)
+                    href: web-service-reference/setplayonphonedialstring-um-web-service.md
+                  - name: SetPlayOnPhoneDialStringResponse (UM web service)
+                    href: web-service-reference/setplayonphonedialstringresponse-um-web-service.md
+                  - name: SetTelephoneAccessFolderEmail (UM web service)
+                    href: web-service-reference/settelephoneaccessfolderemail-um-web-service.md
+                  - name: SetTelephoneAccessFolderEmailResponse (UM web service)
+                    href: web-service-reference/settelephoneaccessfolderemailresponse-um-web-service.md
+                  - name: Status (UM web service - SetMissedCallNotificationEnabled)
+                    href: web-service-reference/status-um-web-servicesetmissedcallnotificationenabled.md
+                  - name: Status (UM web service - SetOofStatus)
+                    href: web-service-reference/status-um-web-servicesetoofstatus.md
+                  - name: MissedCallNotificationEnabled (UM web service)
+                    href: web-service-reference/missedcallnotificationenabled-um-web-service.md
+                  - name: PlayOnPhoneDialString (UM web service)
+                    href: web-service-reference/playonphonedialstring-um-web-service.md
+                  - name: TelephoneAccessNumbers (UM web service)
+                    href: web-service-reference/telephoneaccessnumbers-um-web-service.md
+                  - name: TelephoneAccessFolderEmail (UM web service)
+                    href: web-service-reference/telephoneaccessfolderemail-um-web-service.md
+              - name: EWS autogenerated proxy reference
+                href: https://msdn.microsoft.com/EN-US/library/jj190899(v=exchg.150).aspx
+        - name: Exchange Management Shell
           href:
         - name: Transport agents
           href: 

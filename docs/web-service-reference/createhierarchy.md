@@ -1,0 +1,73 @@
+---
+title: "CreateHierarchy"
+ 
+ 
+manager: sethgros
+ms.date: 9/17/2015
+ms.audience: Developer
+ms.topic: reference
+ 
+localization_priority: Normal
+api_name:
+- CreateHierarchy
+api_type:
+- schema
+ms.assetid: 630b5610-1c19-4d4a-a5df-8cebb9afd2f4
+description: "The CreateHierarchy element indicates whether a client can create a hierarchy table. This element was introduced in Microsoft Exchange Server 2007 Service Pack 1 (SP1)."
+---
+
+# CreateHierarchy
+
+The **CreateHierarchy** element indicates whether a client can create a hierarchy table. This element was introduced in Microsoft Exchange Server 2007 Service Pack 1 (SP1). 
+  
+```
+<CreateHierarchy>true or false</CreateHierarchy>
+```
+
+ **boolean**
+## Attributes and elements
+
+The following sections describe attributes, child elements, and parent elements.
+  
+#### Attributes
+
+None.
+  
+#### Child elements
+
+None.
+  
+#### Parent elements
+
+|**Element**|**Description**|
+|:-----|:-----|
+|[EffectiveRights](effectiverights.md) <br/> |Contains the rights of the client based on the permission settings for the item or folder. This element was introduced in Exchange 2007 SP1.  <br/> |
+   
+## Text value
+
+A text value of **true** indicates that a client can create a hierarchy table. 
+  
+## Remarks
+
+This property is only used on folder objects.
+  
+The schema that describes this element is located in the EWS virtual directory of the computer that is running Microsoft Exchange Server 2007 that has the Client Access server role installed.
+  
+## Element information
+
+|||
+|:-----|:-----|
+|Namespace  <br/> |http://schemas.microsoft.com/exchange/services/2006/types  <br/> |
+|Schema Name  <br/> |Types schema  <br/> |
+|Validation File  <br/> |Types.xsd  <br/> |
+|Can be Empty  <br/> |False  <br/> |
+   
+## See also
+
+#### Concepts
+
+[EWS XML elements in Exchange](ews-xml-elements-in-exchange.md)
+#### Other resources
+
+[Setting Folder-Level Permissions](http://msdn.microsoft.com/library/c7530e86-5112-401c-b10a-9c054ae59f07%28Office.15%29.aspx)
+

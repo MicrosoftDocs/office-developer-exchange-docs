@@ -1,0 +1,62 @@
+---
+title: "GetUserPhotoResponse"
+ 
+ 
+manager: sethgros
+ms.date: 9/17/2015
+ms.audience: Developer
+ms.topic: reference
+ 
+localization_priority: Normal
+ms.assetid: 29b085e8-95c0-4ba6-83e8-40de36a75be3
+description: "The GetUserPhotoResponse element contains the response to a GetUserPhoto request."
+---
+
+# GetUserPhotoResponse
+
+The **GetUserPhotoResponse** element contains the response to a GetUserPhoto request. 
+  
+```XML
+<GetUserPhotoResponse>
+   <MessageText/>
+   <ResponseCode/>
+   <DescriptiveLinkKey/>
+   <MessageXml/>
+   <HasChanged/>
+   <PictureData/>
+</GetUserPhotoResponse>
+```
+
+ **GetUserPhotoResponseMessageType**
+## Attributes and elements
+
+The following sections describe attributes, child elements, and parent elements.
+  
+#### Attributes
+
+None.
+  
+#### Child elements
+
+[MessageText](messagetext.md) | [ResponseCode](responsecode.md) | [DescriptiveLinkKey](descriptivelinkkey.md) | [MessageXml](messagexml.md) | [HasChanged](haschanged.md) | [PictureData](picturedata.md)
+  
+#### Parent elements
+
+None.
+  
+## Remarks
+
+This element was introduced in Exchange Server 2013.
+  
+The schema that describes this element is located in the IIS virtual directory that hosts Exchange Web Services.
+  
+## Element information
+
+|||
+|:-----|:-----|
+|Namespace  <br/> |http://schemas.microsoft.com/exchange/services/2006/messages  <br/> |
+|Schema name  <br/> |Messages schema  <br/> |
+|Validation file  <br/> |messages.xsd  <br/> |
+|Can be empty  <br/> ||
+   
+
