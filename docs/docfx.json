@@ -21,8 +21,11 @@
     "resource": [
       {
         "files": [
-          "**/*.png",
-          "**/*.jpg"
+              "**/*.png",
+              "**/*.jpg",
+              "**/*.gif",
+              "**/*.bmp",
+              "**/*.jpeg"
         ],
         "exclude": [
           "**/obj/**",
@@ -36,7 +39,12 @@
     "externalReference": [],
     "globalMetadata": {
       "breadcrumb_path": "/exchange/dev/breadcrumb/toc.json",
-      "extendBreadcrumb": true
+      "extendBreadcrumb": true,
+	  "ms.author": "o365devx", 
+	  "author": "o365devx",
+       "ms.topic": "conceptual",
+	   "ms.suite": "office",
+	   "ms.prod" : "exchange"
     },
     "fileMetadata": {},
     "template": [],
