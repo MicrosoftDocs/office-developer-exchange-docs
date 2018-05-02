@@ -370,3 +370,237 @@ A text value is required if this element is used. The following table describes 
 |ErrorMailTipsDisabled  <br/> |This error indicates that mail tips are disabled.  <br/> |
 |ErrorManagedFolderAlreadyExists  <br/> |This error occurs if the managed folder that you are trying to create already exists in a mailbox.  <br/> |
 |ErrorManagedFolderNotFound  <br/> |This error occurs when the folder name that was specified in the request does not map to a managed folder definition in AD DS. You can only create instances of managed folders for folders that are defined in AD DS. Check the name and try again.  <br/> |
+|ErrorManagedFoldersRootFailure  <br/> |This error indicates that the managed folders root was deleted from the mailbox or that a folder exists in the same parent folder that has the name of the managed folder root. This will also occur if the attempt to create the root managed folder fails.  <br/> |
+|ErrorMeetingSuggestionGenerationFailed  <br/> |This error indicates that the suggestions engine encountered a problem when it was trying to generate the suggestions.  <br/> |
+|ErrorMessageDispositionRequired  <br/> | This error occurs if the **MessageDisposition** attribute is not set. This attribute is required for the following:  <br/>  The [CreateItem operation](createitem-operation.md) and the [UpdateItem operation](updateitem-operation.md) when the item being created or updated is a [Message](message-ex15websvcsotherref.md).  <br/> [CancelCalendarItem](cancelcalendaritem.md), [AcceptItem](acceptitem.md), [DeclineItem](declineitem.md), or [TentativelyAcceptItem](tentativelyacceptitem.md) response objects.  <br/> |
+|ErrorMessageSizeExceeded  <br/> |This error indicates that the message that you are trying to send exceeds the allowed limits.  <br/> |
+|ErrorMessageTrackingNoSuchDomain  <br/> |This error indicates that the given domain cannot be found.  <br/> |
+|ErrorMessageTrackingPermanentError  <br/> |This error indicates that the message tracking service cannot track the message.  <br/> |
+| ErrorMessageTrackingTransientError  <br/> |This error indicates that the message tracking service is either down or busy. This error code indicates a transient error. Clients can retry to connect to the server when this error is received.  <br/> |
+|ErrorMimeContentConversionFailed  <br/> |This error occurs when the MIME content is not a valid iCal for a [CreateItem operation](createitem-operation.md). For a [GetItem operation](getitem-operation.md), this response indicates that the MIME content could not be generated.  <br/> |
+|ErrorMimeContentInvalid  <br/> |This error occurs when the MIME content is invalid.  <br/> |
+|ErrorMimeContentInvalidBase64String  <br/> |This error occurs when the MIME content in the request is not a valid base 64 string.  <br/> |
+|ErrorMissingArgument  <br/> |This error indicates that a required argument was missing from the request. The response message text indicates which argument to check.  <br/> |
+|ErrorMissingEmailAddress  <br/> |This error indicates that you specified a distinguished folder ID in the request, but the account that made the request does not have a mailbox on the system. In that case, you must supply a [Mailbox](mailbox.md) sub-element under [DistinguishedFolderId](distinguishedfolderid.md).  <br/> |
+|ErrorMissingEmailAddressForManagedFolder  <br/> |This error indicates that you specified a distinguished folder ID in the request, but the account that made the request does not have a mailbox on the system. In that case, you must supply a [Mailbox](mailbox.md) sub-element under [DistinguishedFolderId](distinguishedfolderid.md). This response is returned from the [CreateManagedFolder operation](createmanagedfolder-operation.md).  <br/> |
+|ErrorMissingInformationEmailAddress  <br/> |This error occurs if the [EmailAddress (NonEmptyStringType)](emailaddress-nonemptystringtype.md) element is missing.  <br/> |
+|ErrorMissingInformationReferenceItemId  <br/> |This error occurs if the [ReferenceItemId](referenceitemid.md) is missing.  <br/> |
+|ErrorMissingInformationSharingFolderId  <br/> |This error code is never returned.  <br/> |
+|ErrorMissingItemForCreateItemAttachment  <br/> |This error is returned when an attempt is made to not include the item element in the **ItemAttachment** element of a [CreateAttachment operation](createattachment-operation.md) request.  <br/> |
+|ErrorMissingManagedFolderId  <br/> |This error occurs when the policy IDs property, property tag 0x6732, for the folder is missing. You should consider this a corrupted folder.  <br/> |
+|ErrorMissingRecipients  <br/> |This error indicates that you tried to send an item without including recipients. Note that if you call the [CreateItem operation](createitem-operation.md) with a message disposition that causes the message to be sent, you will get the following response code: **ErrorInvalidRecipients**.  <br/> |
+|ErrorMissingUserIdInformation  <br/> |This error indicates that a [UserId](userid.md) has not been fully specified in a permissions set.  <br/> |
+|ErrorMoreThanOneAccessModeSpecified  <br/> |This error indicates that you have specified more than one [ExchangeImpersonation](exchangeimpersonation.md) element value within a request.  <br/> |
+|ErrorMoveCopyFailed  <br/> |This error indicates that the move or copy operation failed. Moving occurs in the [CreateItem operation](createitem-operation.md) when you accept a meeting request that is in the Deleted Items folder. In addition, if you decline a meeting request, cancel a calendar item, or remove a meeting from your calendar, it is moved to the Deleted Items folder.  <br/> |
+|ErrorMoveDistinguishedFolder  <br/> |This error occurs if you try to move a distinguished folder.  <br/> |
+|ErrorMultiLegacyMailboxAccess  <br/> |This error occurs when a request attempts to access multiple mailbox servers. This error was introduced in Exchange 2013.  <br/> |
+|ErrorNameResolutionMultipleResults  <br/> |This error occurs if the [ResolveNames operation](resolvenames-operation.md) returns more than one result or the ambiguous name that you specified matches more than one object in the directory. The response code includes the matched names in the response data.  <br/> |
+|ErrorNameResolutionNoMailbox  <br/> |This error indicates that the caller does not have a mailbox on the system. The [ResolveNames operation](resolvenames-operation.md) or [ExpandDL operation](expanddl-operation.md) is invalid for connecting a user without a mailbox.  <br/> |
+|ErrorNameResolutionNoResults  <br/> |This error indicates that the [ResolveNames operation](resolvenames-operation.md) returns no results.  <br/> |
+|ErrorNoApplicableProxyCASServersAvailable  <br/> |This error code MUST be returned when the Web service cannot find a server to handle the request.  <br/> |
+|ErrorNoCalendar  <br/> |This error occurs if there is no Calendar folder for the mailbox.  <br/> |
+|ErrorNoDestinationCASDueToKerberosRequirements  <br/> |This error indicates that the request referred to a mailbox in another Active Directory site, but no Client Access servers in the destination site were configured for Windows Authentication, and therefore the request could not be proxied.  <br/> |
+|ErrorNoDestinationCASDueToSSLRequirements  <br/> |This error indicates that the request referred to a mailbox in another Active Directory site, but no Client Access servers in the destination site were configured for SSL connections, and therefore the request could not be proxied.  <br/> |
+|ErrorNoDestinationCASDueToVersionMismatch  <br/> |This error indicates that the request referred to a mailbox in another Active Directory site, but no Client Access servers in the destination site were of an acceptable product version to receive the request, and therefore the request could not be proxied.  <br/> |
+|ErrorNoFolderClassOverride  <br/> |This error occurs if you set the [FolderClass](folderclass.md) element when you are creating an item other than a generic folder. For typed folders such as [CalendarFolder](calendarfolder.md) and [TasksFolder](tasksfolder.md), the folder class is implied. Setting the folder class to a different folder type by using the [UpdateFolder operation](updatefolder-operation.md) results in the **ErrorObjectTypeChanged** response. Instead, use a generic folder type but set the folder class to the value that you require. Exchange Web Services will create the correct strongly typed folder.  <br/> |
+|ErrorNoFreeBusyAccess  <br/> |This error indicates that the caller does not have free/busy viewing rights on the Calendar folder in question.  <br/> |
+|ErrorNonExistentMailbox  <br/> | This error occurs in the following scenarios:  <br/>  The e-mail address is empty in [CreateManagedFolder](createmanagedfolder.md).  <br/>  The e-mail address does not refer to a valid account in a request that takes an e-mail address in the body or in the SOAP header, such as in an Exchange Impersonation call.  <br/> |
+|ErrorNonPrimarySmtpAddress  <br/> |This error occurs when a caller passes in a non-primary SMTP address. The response includes the correct SMTP address to use.  <br/> |
+|ErrorNoPropertyTagForCustomProperties  <br/> |This error indicates that MAPI properties in the custom range, 0x8000 and greater, cannot be referenced by property tags. You must use the EWS Managed API [PropertySetId](http://msdn.microsoft.com/en-us/library/microsoft.exchange.webservices.data.extendedpropertydefinition.propertysetid%28v=exchg.80%29.aspx)property or the EWS [ExtendedFieldURI](extendedfielduri.md) element with the PropertySetId attribute.  <br/> |
+|ErrorNoPublicFolderReplicaAvailable  <br/> |This response code is not used.  <br/> |
+|ErrorNoPublicFolderServerAvailable  <br/> |This error code MUST be returned if no public folder server is available or if the caller does not have a home public server.  <br/> |
+|ErrorNoRespondingCASInDestinationSite  <br/> |This error indicates that the request referred to a mailbox in another Active Directory site, but none of the Client Access servers in that site responded, and therefore the request could not be proxied.  <br/> |
+|ErrorNotAllowedExternalSharingByPolicy  <br/> |This error indicates that the caller tried to grant permissions in its calendar or contacts folder to a user in another organization, and the attempt failed.  <br/> |
+|ErrorNotDelegate  <br/> |This error indicates that the user is not a delegate for the mailbox. It is returned by the [GetDelegate operation](getdelegate-operation.md), the [RemoveDelegate operation](removedelegate-operation.md), and the [UpdateDelegate operation](updatedelegate-operation.md) when the specified delegate user is not found in the list of delegates.  <br/> |
+|ErrorNotEnoughMemory  <br/> |This error indicates that the operation could not be completed because of insufficient memory.  <br/> |
+|ErrorNotSupportedSharingMessage  <br/> |This error indicates that the sharing message is not supported.  <br/> |
+|ErrorObjectTypeChanged  <br/> |This error occurs if the object type changed.  <br/> |
+|ErrorOccurrenceCrossingBoundary  <br/> |This error occurs when the [Start](start.md) or [End ](end-ex15websvcsotherref.md) time of an occurrence is updated so that the occurrence is scheduled to happen earlier or later than the corresponding previous or next occurrence.  <br/> |
+|ErrorOccurrenceTimeSpanTooBig  <br/> |This error indicates that the time allotment for a given occurrence overlaps with another occurrence of the same recurring item. This response also occurs when the length in minutes of a given occurrence is larger than Int32.MaxValue.  <br/> |
+|ErrorOperationNotAllowedWithPublicFolderRoot  <br/> |This error indicates that the current operation is not valid for the public folder root.  <br/> |
+|ErrorOrganizationNotFederated  <br/> |This error indicates that the requester's organization is not federated so the requester cannot create sharing messages to send to an external user or cannot accept sharing messages received from an external user.  <br/> |
+|ErrorParentFolderIdRequired  <br/> |This response code is not used.  <br/> |
+|ErrorParentFolderNotFound  <br/> |This error occurs in the [CreateFolder operation](createfolder-operation.md) when the parent folder is not found.  <br/> |
+|ErrorPasswordChangeRequired  <br/> |This error indicates that you must change your password before you can access this mailbox. This occurs when a new account has been created and the administrator indicated that the user must change the password at first logon. You cannot update the password by using Exchange Web Services. You must use a tool such as Microsoft Office Outlook Web App to change your password.  <br/> |
+|ErrorPasswordExpired  <br/> |This error indicates that the password has expired. You cannot change the password by using Exchange Web Services. You must use a tool such as Outlook Web App to change your password.  <br/> |
+|ErrorPermissionNotAllowedByPolicy  <br/> |This error indicates that the requester tried to grant permissions in its calendar or contacts folder to an external user but the sharing policy assigned to the requester indicates that the requested permission level is higher than what the sharing policy allows.  <br/> |
+|ErrorPhoneNumberNotDialable  <br/> |This error indicates that the telephone number was not in the correct form.  <br/> |
+|ErrorPropertyUpdate  <br/> |This error indicates that the update failed because of invalid property values. The response message includes the invalid property paths.  <br/> |
+|ErrorPromptPublishingOperationFailed  <br/> |This error is intended for internal use only. This error was introduced in Exchange 2013.  <br/> |
+|ErrorPropertyValidationFailure  <br/> |This response code is not used.  <br/> |
+|ErrorProxiedSubscriptionCallFailure  <br/> |This error indicates that the request referred to a subscription that exists on another Client Access server, but an attempt to proxy the request to that Client Access server failed.  <br/> |
+|ErrorProxyCallFailed  <br/> |This response code is not used.  <br/> |
+|ErrorProxyGroupSidLimitExceeded  <br/> |This error indicates that the request referred to a mailbox in another Active Directory site, and the original caller is a member of more than 3,000 groups.  <br/> |
+|ErrorProxyRequestNotAllowed  <br/> |This error indicates that the request that Exchange Web Services sent to another Client Access server when trying to fulfill a [GetUserAvailabilityRequest](getuseravailabilityrequest.md) request was invalid. This response code typically indicates that a configuration or rights error has occurred, or that someone tried unsuccessfully to mimic an availability proxy request.  <br/> |
+|ErrorProxyRequestProcessingFailed  <br/> |This error indicates that Exchange Web Services tried to proxy an availability request to another Client Access server for fulfillment, but the request failed. This response can be caused by network connectivity issues or request timeout issues.  <br/> |
+|ErrorProxyServiceDiscoveryFailed  <br/> |This error code must be returned if the Web service cannot determine whether the request is to run on the target server or will be proxied to another server.  <br/> |
+|ErrorProxyTokenExpired  <br/> |This response code is not used.  <br/> |
+|ErrorPublicFolderMailboxDiscoveryFailed  <br/> |This error occurs when the public folder mailbox URL cannot be found. This error is intended for internal use only. This error was introduced in Exchange 2013.  <br/> |
+|ErrorPublicFolderOperationFailed  <br/> |This error occurs when an attempt is made to access a public folder and the attempt is unsuccessful. This error was introduced in Exchange 2013Exchange Server 2013.  <br/> |
+|ErrorPublicFolderRequestProcessingFailed  <br/> |This error occurs when the recipient that was passed to the [GetUserAvailability operation](getuseravailability-operation.md) is located on a computer that is running a version of Exchange Server that is earlier than Exchange 2007, and the request to retrieve free/busy information for the recipient from the public folder server failed.  <br/> |
+|ErrorPublicFolderServerNotFound  <br/> |This error occurs when the recipient that was passed to the [GetUserAvailability operation](getuseravailability-operation.md) is located on a computer that is running a version of Exchange Server that is earlier than Exchange 2007, and the request to retrieve free/busy information for the recipient from the public folder server failed because the organizational unit did not have an associated public folder server.  <br/> |
+|ErrorPublicFolderSyncException  <br/> |This error occurs when a synchronization operation succeeds against the primary public folder mailbox but does not succeed against the secondary public folder mailbox. This error was introduced in Exchange 2013.  <br/> |
+|ErrorQueryFilterTooLong  <br/> |This error indicates that the search folder restriction may be valid, but it is not supported by EWS. Exchange Web Services limits restrictions to contain a maximum of 255 filter expressions. If you try to bind to an existing search folder that exceeds 255, this response code is returned.  <br/> |
+|ErrorQuotaExceeded  <br/> |This error occurs when the mailbox quota is exceeded.  <br/> |
+|ErrorReadEventsFailed  <br/> |This error is returned by the [GetEvents operation](getevents-operation.md) or push notifications when a failure occurs while retrieving event information. When this error is returned, the subscription is deleted. Re-create the event synchronization based on a last known watermark.  <br/> |
+|ErrorReadReceiptNotPending  <br/> |This error is returned by the [CreateItem operation](createitem-operation.md) if an attempt was made to suppress a read receipt when the message sender did not request a read receipt on the message or if the message is in the Junk E-mail folder.  <br/> |
+|ErrorRecurrenceEndDateTooBig  <br/> |This error occurs when the end date for the recurrence is after 9/1/4500.  <br/> |
+|ErrorRecurrenceHasNoOccurrence  <br/> |This error occurs when the specified recurrence does not have any occurrence instances in the specified range.  <br/> |
+|ErrorRemoveDelegatesFailed  <br/> |This error indicates that the delegate list failed to be saved after delegates were removed.  <br/> |
+|ErrorRequestAborted  <br/> |This response code is not used.  <br/> |
+|ErrorRequestStreamTooBig  <br/> | This error occurs when the request stream is larger than 400 KB.  <br/> |
+|ErrorRequiredPropertyMissing  <br/> |This error is returned when a required property is missing in a [CreateAttachment operation](createattachment-operation.md) request. The missing property URI is included in the response.  <br/> |
+|ErrorResolveNamesInvalidFolderType  <br/> |This error indicates that the caller has specified a folder that is not a contacts folder to the [ResolveNames operation](resolvenames-operation.md).  <br/> |
+|ErrorResolveNamesOnlyOneContactsFolderAllowed  <br/> |This error indicates that the caller has specified more than one contacts folder to the [ResolveNames operation](resolvenames-operation.md).  <br/> |
+|ErrorResponseSchemaValidation  <br/> |This response code is not used.  <br/> |
+|ErrorRestrictionTooLong  <br/> |This error occurs if the restriction contains more than 255 nodes.  <br/> |
+|ErrorRestrictionTooComplex  <br/> |This error occurs when the restriction cannot be evaluated by Exchange Web Services.  <br/> |
+|ErrorResultSetTooBig  <br/> |This error indicates that the number of calendar entries for a given recipient exceeds the allowed limit of 1000. Reduce the window and try again.  <br/> |
+|ErrorSavedItemFolderNotFound  <br/> |This error occurs when the [SavedItemFolderId](saveditemfolderid.md) is not found.  <br/> |
+|ErrorSchemaValidation  <br/> | This error occurs when the request cannot be validated against the schema.  <br/> |
+|ErrorSearchFolderNotInitialized  <br/> |This error indicates that the search folder was created, but the search criteria were never set on the folder. This only occurs when you access corrupted search folders that were created by using another API or client. To fix this error, use the [UpdateFolder operation](updatefolder-operation.md) to set the [SearchParameters](searchparameters.md) element to include the restriction that should be on the folder.  <br/> |
+|ErrorSendAsDenied  <br/> | This error occurs when both of the following conditions occur:  <br/>  A user has been granted CanActAsOwner permissions but is not granted delegate rights on the principal's mailbox.  <br/>  The same user tries to create and send an e-mail message in the principal's mailbox by using the SendAndSaveCopy option.  <br/>  The result is an ErrorSendAsDenied error and the creation of the e-mail message in the principal's Drafts folder.  <br/> |
+|ErrorSendMeetingCancellationsRequired  <br/> |This error is returned by the [DeleteItem operation](deleteitem-operation.md) if the **SendMeetingCancellations** attribute is missing from the request and the item to delete is a calendar item.  <br/> |
+|ErrorSendMeetingInvitationsOrCancellationsRequired  <br/> |This error is returned by the [UpdateItem operation](updateitem-operation.md) if the **SendMeetingInvitationsOrCancellations** attribute is missing from the request and the item to update is a calendar item.  <br/> |
+|ErrorSendMeetingInvitationsRequired  <br/> |This error is returned by the [CreateItem operation](createitem-operation.md) if the **SendMeetingInvitations** attribute is missing from the request and the item to create is a calendar item.  <br/> |
+|ErrorSentMeetingRequestUpdate  <br/> |This error indicates that after the organizer sends a meeting request, the request cannot be updated. To modify the meeting, modify the calendar item, not the meeting request.  <br/> |
+|ErrorSentTaskRequestUpdate  <br/> |This error indicates that after the task initiator sends a task request, that request cannot be updated.  <br/> |
+|ErrorServerBusy  <br/> |This error occurs when the server is busy.  <br/> |
+|ErrorServiceDiscoveryFailed  <br/> |This error indicates that Exchange Web Services tried to proxy a user availability request to the appropriate forest for the recipient, but it could not determine where to send the request because of a service discovery failure.  <br/> |
+|ErrorSharingNoExternalEwsAvailable  <br/> |This error indicates that the external URL property has not been set in the Active Directory database.  <br/> |
+|ErrorSharingSynchronizationFailed  <br/> |This error indicates that an attempt at synchronizing a sharing folder failed. This error code is returned when the following occurs: The subscription for a sharing folder is not found; the sharing folder is not found; the corresponding directory user is not found; the user no longer exists; the appointment is invalid; the contact item is invalid; there is a communication failure with the remote server.  <br/> |
+|ErrorStaleObject  <br/> |This error occurs in an [UpdateItem operation](updateitem-operation.md) or a [SendItem operation](senditem-operation.md) when the change key is not up-to-date or was not supplied. Call the [GetItem operation](getitem-operation.md) to retrieve an updated change key and then try the operation again.  <br/> |
+|ErrorSubmissionQuotaExceeded  <br/> |This error Indicates that a user cannot immediately send more requests because the submission quota has been reached.  <br/> |
+|ErrorSubscriptionAccessDenied  <br/> |This error occurs when you try to access a subscription by using an account that did not create that subscription. Each subscription can only be accessed by the creator of the subscription.  <br/> |
+|ErrorSubscriptionDelegateAccessNotSupported  <br/> |This error indicates that you cannot create a subscription if you are not the owner or do not have owner access to the mailbox.  <br/> |
+|ErrorSubscriptionNotFound  <br/> |This error occurs if the subscription that corresponds to the specified [SubscriptionId (GetEvents)](subscriptionid-getevents.md) is not found. The subscription may have expired, the Exchange Web Services process may have been restarted, or an invalid subscription was passed in. If the subscription was valid, re-create the subscription with the latest watermark. This is returned by the [Unsubscribe operation](unsubscribe-operation.md) or the [GetEvents operation](getevents-operation.md) responses.  <br/> |
+|ErrorSubscriptionUnsubsribed  <br/> |This error code must be returned when a request is made for a subscription that has been unsubscribed.  <br/> |
+|ErrorSyncFolderNotFound  <br/> |This error is returned by the [SyncFolderItems operation](syncfolderitems-operation.md) if the parent folder that is specified cannot be found.  <br/> |
+|ErrorTeamMailboxNotFound  <br/> |This error indicates that a team mailbox was not found. This error was introduced in Exchange 2013.  <br/> |
+|ErrorTeamMailboxNotLinkedToSharePoint  <br/> |This error indicates that a team mailbox was found but that it is not linked to a SharePoint Server. This error was introduced in Exchange 2013.  <br/> |
+|ErrorTeamMailboxUrlValidationFailed  <br/> |This error indicates that a team mailbox was found but that the link to the SharePoint Server is not valid. This error was introduced in Exchange 2013.  <br/> |
+|ErrorTeamMailboxNotAuthorizedOwner  <br/> |This error code is not used. This error was introduced in Exchange 2013.  <br/> |
+|ErrorTeamMailboxActiveToPendingDelete  <br/> |This error code is not used. This error was introduced in Exchange 2013.  <br/> |
+|ErrorTeamMailboxFailedSendingNotifications  <br/> |This error indicates that an attempt to send a notification to the team mailbox owners was unsuccessful. This error was introduced in Exchange 2013.  <br/> |
+|ErrorTeamMailboxErrorUnknown  <br/> |This error indicates a general error that can occur when trying to access a team mailbox. Try submitting the request at a later time. This error was introduced in Exchange 2013.  <br/> |
+|ErrorTimeIntervalTooBig  <br/> |This error indicates that the time window that was specified is larger than the allowed limit. By default, the allowed limit is 42.  <br/> |
+|ErrorTimeoutExpired  <br/> | This error occurs when there is not enough time to complete the processing of the request.  <br/> |
+|ErrorTimeZone  <br/> |This error indicates that there is a time zone error.  <br/> |
+|ErrorToFolderNotFound  <br/> |This error indicates that the destination folder does not exist.  <br/> |
+|ErrorTokenSerializationDenied  <br/> |This error occurs if the caller tries to do a Token serialization request but does not have the ms-Exch-EPI-TokenSerialization right on the Client Access server.  <br/> |
+|ErrorTooManyObjectsOpened  <br/> |This error occurs when the internal limit on open objects has been exceeded.  <br/> |
+|ErrorUnifiedMessagingDialPlanNotFound  <br/> |This error indicates that a user's dial plan is not available.  <br/> |
+|ErrorUnifiedMessagingReportDataNotFound  <br/> |This error is intended for internal use only. This error was introduced in Exchange 2013.  <br/> |
+|ErrorUnifiedMessagingPromptNotFound  <br/> |This error is intended for internal use only. This error was introduced in Exchange 2013.  <br/> |
+|ErrorUnifiedMessagingRequestFailed  <br/> |This error indicates that the user could not be found.  <br/> |
+|ErrorUnifiedMessagingServerNotFound  <br/> |This error indicates that a valid server for the dial plan can be found to handle the request.  <br/> |
+|ErrorUnableToGetUserOofSettings  <br/> |This response code is not used.  <br/> |
+|ErrorUnableToRemoveImContactFromGroup  <br/> |This error occurs when an unsuccessful attempt is made to remove an IM contact from a group. This error was introduced in Exchange 2013.  <br/> |
+|ErrorUnsupportedCulture  <br/> |This error occurs when you try to set the **Culture** property to a value that is not parsable by the **System.Globalization.CultureInfo** class.  <br/> |
+|ErrorUnsupportedMapiPropertyType  <br/> |This error occurs when a caller tries to use extended properties of types object, object array, error, or null.  <br/> |
+|ErrorUnsupportedMimeConversion  <br/> |This error occurs when you are trying to retrieve or set MIME content for an item other than a [PostItem](postitem.md), [Message](message-ex15websvcsotherref.md), or [CalendarItem](calendaritem.md) object.  <br/> |
+|ErrorUnsupportedPathForQuery  <br/> |This error occurs when the caller passes a property that is invalid for a query. This can occur when calculated properties are used.  <br/> |
+|ErrorUnsupportedPathForSortGroup  <br/> |This error occurs when the caller passes a property that is invalid for a sort or group by property. This can occur when calculated properties are used.  <br/> |
+|ErrorUnsupportedPropertyDefinition  <br/> |This response code is not used.  <br/> |
+|ErrorUnsupportedQueryFilter  <br/> |This error indicates that the search folder restriction may be valid, but it is not supported by EWS.  <br/> |
+|ErrorUnsupportedRecurrence  <br/> |This error indicates that the specified recurrence is not supported for tasks.  <br/> |
+|ErrorUnsupportedSubFilter  <br/> |This response code is not used.  <br/> |
+|ErrorUnsupportedTypeForConversion  <br/> |This error indicates that Exchange Web Services found a property type in the store but it cannot generate XML for the property type.  <br/> |
+|ErrorUpdateDelegatesFailed  <br/> |This error indicates that the delegate list failed to be saved after delegates were updated.  <br/> |
+|ErrorUpdatePropertyMismatch  <br/> |This error occurs when the single property path that is listed in a change description does not match the single property that is being set within the actual [Item](item.md) or [Folder](folder.md) object.  <br/> |
+|ErrorUserNotUnifiedMessagingEnabled  <br/> |This error indicates that the requester is not enabled.  <br/> |
+|ErrorUserNotAllowedByPolicy  <br/> |This error indicates that the requester tried to grant permissions in its calendar or contacts folder to an external user but the sharing policy assigned to the requester indicates that the domain of the external user is not listed in the policy.  <br/> |
+|ErrorUserWithoutFederatedProxyAddress  <br/> |Indicates that the requester's organization has a set of federated domains but the requester's organization does not have any SMTP proxy addresses with one of the federated domains.  <br/> |
+|ErrorValueOutOfRange  <br/> |This error indicates that a calendar view start date or end date was set to 1/1/0001 12:00:00 AM or 12/31/9999 11:59:59 PM.  <br/> |
+|ErrorVirusDetected  <br/> |This error indicates that the Exchange store detected a virus in the message.  <br/> |
+|ErrorVirusMessageDeleted  <br/> |This error indicates that the Exchange store detected a virus in the message and deleted it.  <br/> |
+|ErrorVoiceMailNotImplemented  <br/> |This response code is not used.  <br/> |
+|ErrorWebRequestInInvalidState  <br/> |This response code is not used.  <br/> |
+|ErrorWin32InteropError  <br/> |This error indicates that there was an internal failure during communication with unmanaged code.  <br/> |
+|ErrorWorkingHoursSaveFailed  <br/> |This response code is not used.  <br/> |
+|ErrorWorkingHoursXmlMalformed  <br/> |This response code is not used.  <br/> |
+|ErrorWrongServerVersion  <br/> |This error indicates that a request can only be made to a server that is the same version as the mailbox server.  <br/> |
+|ErrorWrongServerVersionDelegate  <br/> |This error indicates that a request was made by a delegate that has a different server version than the principal's mailbox server.  <br/> |
+|ErrorMissingInformationSharingFolderId  <br/> |This error code is never returned.  <br/> |
+|ErrorDuplicateSOAPHeader  <br/> |Specifies that there are duplicate SOAP headers.  <br/> |
+|ErrorSharingSynchronizationFailed  <br/> | Specifies that an attempt at synchronizing a sharing folder failed. This error code MUST be returned when:  <br/>  The subscription for a sharing folder is not found.  <br/>  The sharing folder was not found.  <br/>  The corresponding directory user was not found.  <br/>  The user no longer exists.  <br/>  The appointment is invalid.  <br/>  The contact item is invalid.  <br/>  There was a communication failure with the remote server.  <br/> |
+|ErrorSharingNoExternalEwsAvailable  <br/> |Specifies that the external URL property has not been set in the Active Directory database. This error code MUST be returned if the external URL property has not been set in the Active Directory database.  <br/> |
+|ErrorFreeBusyDLLimitReached  <br/> |Specifies that the maximum group member count has been reached for obtaining free/busy information for a distribution list. This error MUST be returned when the maximum group member count has been reached for obtaining free/busy information for a distribution list.  <br/> |
+|ErrorInvalidGetSharingFolderRequest  <br/> |Specifies that the DataType and ShareFolderId element are both present in a request. This error code MUST be returned if the DataType and ShareFolderId element are both present in a request.  <br/> |
+|ErrorNotAllowedExternalSharingByPolicy  <br/> |Specifies that the caller attempted to grant permissions in its calendar or contacts folder to a user in another organization and the attempt failed. This error code MUST be returned when the sharing policy is disabled for the caller or when the sharing policy assigned to the caller disallows sharing for the requested level or the requested folder type.  <br/> |
+|ErrorUserNotAllowedByPolicy  <br/> |Specifies that the requestor attempted to grant permissions in its calendar or contacts folder to an external user but the sharing policy assigned to the requestor specifies that the domain of the external user is not listed in the policy.  <br/> |
+|ErrorPermissionNotAllowedByPolicy  <br/> |Specifies that the requestor attempted to grant permissions in its calendar or contacts folder to an external user but the sharing policy assigned to the requestor specifies that the requested permission level is higher is than what the sharing policy allows.  <br/> |
+|ErrorOrganizationNotFederated  <br/> |Specifies that the requestor's organization is not federated so the requestor cannot create sharing messages to send to an external user or cannot accept sharing messages received from an external user. This error code MUST be returned if the requestor's organization is not federated.  <br/> |
+|ErrorMailboxFailover  <br/> |Specifies that an attempt to access a mailbox failed because the mailbox is in a failover process.  <br/> |
+|ErrorInvalidExternalSharingInitiator  <br/> |Specifies that the sharing invitation sender did not create the sharing invitation metadata. This error code MUST be returned if the sharing invitation sender did not create the sharing invitation metadata.  <br/> |
+|ErrorMessageTrackingPermanentError  <br/> |Specifies that the message tracking service cannot track the message.  <br/> |
+|ErrorMessageTrackingTransientError  <br/> |Specifies that either the message tracking service is down or busy. This error code specifies a transient error. Clients can retry to connect to the server when this error is received.  <br/> |
+|ErrorMessageTrackingNoSuchDomain  <br/> |Specifies that the given domain cannot be found.  <br/> |
+|ErrorUserWithoutFederatedProxyAddress  <br/> |Specifies that the requestor's organization has a set of federated domains but the requestor's organization does not have any SMTP proxy addresses with one of the federated domains.  <br/> |
+|ErrorInvalidOrganizationRelationshipForFreeBusy  <br/> |Specifies that a caller requested free/busy information for a user in another organization but the organizational relationship does not have free/busy enabled.  <br/> |
+|ErrorInvalidFederatedOrganizationId  <br/> |Specifies that the requestor's organization federation objects are not properly configured.  <br/> |
+|ErrorInvalidExternalSharingSubscriber  <br/> |Specifies that a sharing message is not intended for the caller.  <br/> |
+|ErrorInvalidSharingData  <br/> |Specifies that the sharing metadata is not valid. This can be caused by invalid XML.  <br/> |
+|ErrorInvalidSharingMessage  <br/> |Specifies that the sharing message is not valid. This can be caused by a missing property.  <br/> |
+|ErrorNotSupportedSharingMessage  <br/> |Specifies that the sharing message is not supported.  <br/> |
+|ErrorApplyConversationActionFailed  <br/> |This error MUST be returned if an action cannot be applied to one or more items in the conversation.  <br/> |
+|ErrorInboxRulesValidationError  <br/> |This error MUST be returned if any rule does not validate.  <br/> |
+|ErrorOutlookRuleBlobExists  <br/> |This error MUST be returned when an attempt to manage Inbox rules occurs after another client has accessed the Inbox rules.  <br/> |
+|ErrorRulesOverQuota  <br/> |This error MUST be returned when a user's rule quota has been exceeded.  <br/> |
+|ErrorNewEventStreamConnectionOpened  <br/> |This error MUST be returned to the first subscription connection if a second subscription connection is opened.  <br/> |
+|ErrorMissedNotificationEvents  <br/> |This error MUST be returned when event notifications are missed.  <br/> |
+|ErrorDuplicateLegacyDistinguishedName  <br/> |This error is returned when there are duplicate legacy distinguished names in Active Directory Domain Services (AD DS). This error was introduced in Exchange 2013.  <br/> |
+|ErrorInvalidClientAccessTokenRequest  <br/> |This error indicates that a request to get a client access token was not valid. This error was introduced in Exchange 2013.  <br/> |
+|ErrorNoSpeechDetected  <br/> |This error is intended for internal use only. This error was introduced in Exchange 2013.  <br/> |
+|ErrorUMServerUnavailable  <br/> |This error is intended for internal use only. This error was introduced in Exchange 2013.  <br/> |
+|ErrorRecipientNotFound  <br/> |This error is intended for internal use only. This error was introduced in Exchange 2013.  <br/> |
+|ErrorRecognizerNotInstalled  <br/> |This error is intended for internal use only. This error was introduced in Exchange 2013.  <br/> |
+|ErrorSpeechGrammarError  <br/> |This error is intended for internal use only. This error was introduced in Exchange 2013.  <br/> |
+|ErrorInvalidManagementRoleHeader  <br/> |This error is returned if the [ManagementRole](managementrole.md) header in the SOAP header is incorrect. This error was introduced in Exchange 2013.  <br/> |
+|ErrorLocationServicesDisabled  <br/> |This error is intended for internal use only. This error was introduced in Exchange 2013.  <br/> |
+|ErrorLocationServicesRequestTimedOut  <br/> |This error is intended for internal use only. This error was introduced in Exchange 2013.  <br/> |
+|ErrorLocationServicesRequestFailed  <br/> |This error is intended for internal use only. This error was introduced in Exchange 2013.  <br/> |
+|ErrorLocationServicesInvalidRequest  <br/> |This error is intended for internal use only. This error was introduced in Exchange 2013.  <br/> |
+|ErrorWeatherServiceDisabled  <br/> |This error is intended for internal use only.  <br/> |
+|ErrorMailboxScopeNotAllowedWithoutQueryString  <br/> |This error is returned when a scoped search attempt is performed without using a [QueryString (String)](querystring-string.md) element for a content indexing search. This is applicable to the **SearchMailboxes** and **FindConversation** operations. This error was introduced in Exchange 2013.  <br/> |
+|ErrorArchiveMailboxSearchFailed  <br/> |This error is returned when an archive mailbox search is unsuccessful. This error was introduced in Exchange 2013.  <br/> |
+|ErrorArchiveMailboxServiceDiscoveryFailed  <br/> |This error is returned when the URL of an archive mailbox is not discoverable. This error was introduced in Exchange 2013.  <br/> |
+|ErrorGetRemoteArchiveFolderFailed  <br/> |This error occurs when the operation to get the remote archive mailbox folder failed.  <br/> |
+|ErrorFindRemoteArchiveFolderFailed  <br/> |This error occurs when the operation to find the remote archive mailbox folder failed.  <br/> |
+|ErrorGetRemoteArchiveItemFailed  <br/> |This error occurs when the operation to get the remote archive mailbox item failed.  <br/> |
+|ErrorExportRemoteArchiveItemsFailed  <br/> |This error occurs when the operation to export remote archive mailbox items failed.  <br/> |
+|ErrorInvalidPhotoSize  <br/> |This error is returned if an invalid photo size is requested from the server. This error was introduced in Exchange 2013.  <br/> |
+|ErrorSearchQueryHasTooManyKeywords  <br/> |This error is returned when an unexpected photo size is requested in a **GetUserPhoto** operation request. This error was introduced in Exchange 2013.  <br/> |
+|ErrorSearchTooManyMailboxes  <br/> |This error is returned when a **SearchMailboxes** operation request contains too many mailboxes to search. This error was introduced in Exchange 2013.  <br/> |
+|ErrorInvalidRetentionTagNone  <br/> |This error indicates that no retention tags were found for this user. This error was introduced in Exchange 2013.  <br/> |
+|ErrorDiscoverySearchesDisabled  <br/> |This error is returned when discovery searches are disabled on a tenant or server. This error was introduced in Exchange 2013.  <br/> |
+|ErrorCalendarSeekToConditionNotSupported  <br/> |This error occurs when attempting to invoke the [FindItem operation](finditem-operation.md) with a [SeekToConditionPageItemView](seektoconditionpageitemview.md) for fetching calendar items, which is not supported.  <br/> |
+|ErrorCalendarIsGroupMailboxForAccept  <br/> |This error is intended for internal use only.  <br/> |
+|ErrorCalendarIsGroupMailboxForDecline  <br/> |This error is intended for internal use only.  <br/> |
+|ErrorCalendarIsGroupMailboxForTentative  <br/> |This error is intended for internal use only.  <br/> |
+|ErrorCalendarIsGroupMailboxForSuppressReadReceipt  <br/> |This error is intended for internal use only.  <br/> |
+|ErrorOrganizationAccessBlocked  <br/> |The tenant is marked for removal.  <br/> |
+|ErrorInvalidLicense  <br/> |The user doesn't have a valid license.  <br/> |
+|ErrorMessagePerFolderCountReceiveQuotaExceeded  <br/> |The message per folder receive quota has been exceeded.  <br/> |
+   
+## Remarks
+
+This element is not required and is not included in all responses. 
+  
+The schema that describes this element is located in the IIS virtual directory that hosts Exchange Web Services.
+  
+## Element information
+
+|||
+|:-----|:-----|
+|Namespace  <br/> |http://schemas.microsoft.com/exchange/services/2006/messages  <br/> |
+|Schema Name  <br/> |Messages schema  <br/> |
+|Validation File  <br/> |Messages.xsd  <br/> |
+|Can be Empty  <br/> |False  <br/> |
+   
+## See also
+
+#### Concepts
+
+[EWS XML elements in Exchange](ews-xml-elements-in-exchange.md)
+

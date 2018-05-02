@@ -45,8 +45,15 @@
 	   "ms.prod" : "exchange"
     },
     "fileMetadata": {
-		"ms.author": "o365devx", 
-	    "author": "o365devx"
+		"ms.author": 
+		{
+		"web-service-reference/**.md" : "o365devx" 
+		
+		},
+	    "author": 
+		{
+		"web-service-reference/**.md" : "o365devx" 
+		}
 	},
     "template": [],
     "dest": "officedocs-dev-exchange-docs",
