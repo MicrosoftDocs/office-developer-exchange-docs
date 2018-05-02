@@ -1,12 +1,9 @@
 ---
 title: "GetCallInfoResponse (UM web service)"
- 
- 
 manager: sethgros
 ms.date: 9/17/2015
 ms.audience: Developer
 ms.topic: reference
- 
 localization_priority: Normal
 api_name:
 - GetCallInfoResponse
@@ -14,6 +11,8 @@ api_type:
 - schema
 ms.assetid: aa5196bf-f5f3-455c-94ea-304fb7920c79
 description: "The GetCallInfoResponse element defines a response to a GetCallInfo operation (UM web service) request."
+ 
+ 
 ---
 
 # GetCallInfoResponse (UM web service)

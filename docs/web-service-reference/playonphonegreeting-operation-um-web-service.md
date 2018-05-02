@@ -1,12 +1,9 @@
 ---
 title: "PlayOnPhoneGreeting operation (UM web service)"
- 
- 
 manager: sethgros
 ms.date: 9/17/2015
 ms.audience: Developer
 ms.topic: reference
- 
 localization_priority: Normal
 api_name:
 - PlayOnPhoneGreeting
@@ -14,6 +11,8 @@ api_type:
 - schema
 ms.assetid: 6deafc40-290b-4bce-9914-b6bcc529f38a
 description: "The PlayOnPhoneGreeting operation makes an outbound call and plays one of the two greeting messages on the telephone."
+ 
+ 
 ---
 
 # PlayOnPhoneGreeting operation (UM web service)

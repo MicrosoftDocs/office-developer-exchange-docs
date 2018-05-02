@@ -1,17 +1,16 @@
 ---
 title: "LegacyDN (POX)"
- 
- 
 manager: sethgros
 ms.date: 9/17/2015
 ms.audience: Developer
 ms.topic: reference
- 
 localization_priority: Normal
 api_type:
 - schema
 ms.assetid: 9fb9529f-52c5-4907-a84b-935b78de16c3
 description: "The LegacyDN element identifies a user's mailbox by legacy distinguished name."
+ 
+ 
 ---
 
 # LegacyDN (POX)

@@ -1,17 +1,16 @@
 ---
 title: "MajorBuildNumber (SOAP)"
- 
- 
 manager: sethgros
 ms.date: 9/17/2015
 ms.audience: Developer
 ms.topic: reference
- 
 localization_priority: Normal
 api_type:
 - schema
 ms.assetid: 7335b1c1-0b47-4452-a8cb-d19cddcfc281
 description: "The MajorBuildNumber element represents major build number for the server."
+ 
+ 
 ---
 
 # MajorBuildNumber (SOAP)

@@ -1,15 +1,14 @@
 ---
 title: "Uri (SOAP)"
- 
- 
 manager: sethgros
 ms.date: 9/17/2015
 ms.audience: Developer
 ms.topic: reference
- 
 localization_priority: Normal
 ms.assetid: 4a82162a-716d-4002-820e-5bbcfb4a9696
 description: "The URI element specifies the security token service that issued the security token."
+ 
+ 
 ---
 
 # Uri (SOAP)

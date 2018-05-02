@@ -1,17 +1,16 @@
 ---
 title: "Response (GetDomainSettings) (SOAP)"
- 
- 
 manager: sethgros
 ms.date: 9/17/2015
 ms.audience: Developer
 ms.topic: reference
- 
 localization_priority: Normal
 api_type:
 - schema
 ms.assetid: a5b052df-93bd-4fe1-ac30-83de9a3dfcd7
 description: "The Response element represents the response to a GetDomainSettings call for an individual domain."
+ 
+ 
 ---
 
 # Response (GetDomainSettings) (SOAP)

@@ -1,12 +1,9 @@
 ---
 title: "GetUMProperties (UM web service)"
- 
- 
 manager: sethgros
 ms.date: 9/17/2015
 ms.audience: Developer
 ms.topic: reference
- 
 localization_priority: Normal
 api_name:
 - GetUMProperties
@@ -14,6 +11,8 @@ api_type:
 - schema
 ms.assetid: 19873b72-ec12-4811-ae5f-6b61f2dbf0cc
 description: "The GetUMProperties element defines a GetUMProperties operation (UM web service) request."
+ 
+ 
 ---
 
 # GetUMProperties (UM web service)

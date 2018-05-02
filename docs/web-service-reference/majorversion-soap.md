@@ -1,17 +1,16 @@
 ---
 title: "MajorVersion (SOAP)"
- 
- 
 manager: sethgros
 ms.date: 9/17/2015
 ms.audience: Developer
 ms.topic: reference
- 
 localization_priority: Normal
 api_type:
 - schema
 ms.assetid: 0b2a83cf-e173-4073-9603-b2ea3b36ec1a
 description: "The MajorVersion element represents the major version number for the server."
+ 
+ 
 ---
 
 # MajorVersion (SOAP)

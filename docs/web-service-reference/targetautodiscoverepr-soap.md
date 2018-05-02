@@ -1,15 +1,14 @@
 ---
 title: "TargetAutodiscoverEpr (SOAP)"
- 
- 
 manager: sethgros
 ms.date: 9/17/2015
 ms.audience: Developer
 ms.topic: reference
- 
 localization_priority: Normal
 ms.assetid: fdb9cc7a-cf0a-431b-9f6f-5f1db1792db7
 description: "The TargetAutodiscoverEpr element represents the TargetAutodiscoverEpr property. The TargetAutodiscoverEpr element is for internal use only. This element is not used by clients."
+ 
+ 
 ---
 
 # TargetAutodiscoverEpr (SOAP)

@@ -1,15 +1,14 @@
 ---
 title: "SmtpAddress (SOAP)"
- 
- 
 manager: sethgros
 ms.date: 9/17/2015
 ms.audience: Developer
 ms.topic: reference
- 
 localization_priority: Normal
 ms.assetid: e833351c-4bd9-4937-8752-c743a7ce57ea
 description: "The SmtpAddress element represents the alternate mailbox SMTP address."
+ 
+ 
 ---
 
 # SmtpAddress (SOAP)

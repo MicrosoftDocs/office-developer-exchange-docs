@@ -1,12 +1,9 @@
 ---
 title: "DisconnectResponse (UM web service)"
- 
- 
 manager: sethgros
 ms.date: 9/17/2015
 ms.audience: Developer
 ms.topic: reference
- 
 localization_priority: Normal
 api_name:
 - DisconnectResponse
@@ -14,6 +11,8 @@ api_type:
 - schema
 ms.assetid: 23806773-32d5-4283-a4d7-230ef80523bd
 description: "The DisconnectResponse element defines a response to a Disconnect operation (UM web service) request."
+ 
+ 
 ---
 
 # DisconnectResponse (UM web service)

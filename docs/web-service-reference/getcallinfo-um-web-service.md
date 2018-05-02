@@ -1,12 +1,9 @@
 ---
 title: "GetCallInfo (UM web service)"
- 
- 
 manager: sethgros
 ms.date: 9/17/2015
 ms.audience: Developer
 ms.topic: reference
- 
 localization_priority: Normal
 api_name:
 - GetCallInfo
@@ -14,6 +11,8 @@ api_type:
 - schema
 ms.assetid: 2758904d-ffb0-46ee-a134-e6394276996c
 description: "The GetCallInfo element defines a request to get information about a call."
+ 
+ 
 ---
 
 # GetCallInfo (UM web service)

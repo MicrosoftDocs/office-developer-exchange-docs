@@ -1,17 +1,16 @@
 ---
 title: "IPv4Start (POX)"
- 
- 
 manager: sethgros
 ms.date: 9/17/2015
 ms.audience: Developer
 ms.topic: reference
- 
 localization_priority: Normal
 api_type:
 - schema
 ms.assetid: 3e3a47b8-22fa-4b07-a3ef-0b92ac69d36c
 description: "The IPv4Start element identifies the start of a range of IP version 4 (IPv4) addresses that are used to identify a computer on a network."
+ 
+ 
 ---
 
 # IPv4Start (POX)

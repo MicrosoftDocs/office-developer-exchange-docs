@@ -1,17 +1,16 @@
 ---
 title: "ServerVersionInfo (SOAP)"
- 
- 
 manager: sethgros
 ms.date: 9/17/2015
 ms.audience: Developer
 ms.topic: reference
- 
 localization_priority: Normal
 api_type:
 - schema
 ms.assetid: 8662647b-e50a-4774-9ba3-a951ae6df781
 description: "The ServerVersionInfo element contains the version of the server that processed the request."
+ 
+ 
 ---
 
 # ServerVersionInfo (SOAP)

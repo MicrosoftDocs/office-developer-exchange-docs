@@ -1,17 +1,16 @@
 ---
 title: "WebClientUrl (SOAP)"
- 
- 
 manager: sethgros
 ms.date: 9/17/2015
 ms.audience: Developer
 ms.topic: reference
- 
 localization_priority: Normal
 api_type:
 - schema
 ms.assetid: 7f8cb6d6-4aac-4a1f-8bec-2dcb90fc1df6
 description: "The WebClientUrl element represents the URL of an Exchange web client."
+ 
+ 
 ---
 
 # WebClientUrl (SOAP)

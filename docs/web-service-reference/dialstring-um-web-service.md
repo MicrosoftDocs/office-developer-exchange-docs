@@ -1,12 +1,9 @@
 ---
 title: "dialString (UM web service)"
- 
- 
 manager: sethgros
 ms.date: 9/17/2015
 ms.audience: Developer
 ms.topic: reference
- 
 localization_priority: Normal
 api_name:
 - dialString
@@ -14,6 +11,8 @@ api_type:
 - schema
 ms.assetid: d1e3cd23-48fe-4ebc-a5c5-2226d223f800
 description: "The dialString element contains the value for the telephone number to dial."
+ 
+ 
 ---
 
 # dialString (UM web service)

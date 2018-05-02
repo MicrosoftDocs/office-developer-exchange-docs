@@ -1,17 +1,16 @@
 ---
 title: "RedirectAddr (POX)"
- 
- 
 manager: sethgros
 ms.date: 9/17/2015
 ms.audience: Developer
 ms.topic: reference
- 
 localization_priority: Normal
 api_type:
 - schema
 ms.assetid: 0e9fa6b6-7991-4dc1-a59a-48e5f8e041e4
 description: "The RedirectAddr element specifies the e-mail address that should be used for a subsequent Autodiscover request."
+ 
+ 
 ---
 
 # RedirectAddr (POX)

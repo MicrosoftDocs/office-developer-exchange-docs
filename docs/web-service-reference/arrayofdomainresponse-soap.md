@@ -1,17 +1,16 @@
 ---
 title: "ArrayOfDomainResponse (SOAP)"
- 
- 
 manager: sethgros
 ms.date: 9/17/2015
 ms.audience: Developer
 ms.topic: reference
- 
 localization_priority: Normal
 api_type:
 - schema
 ms.assetid: 6dbd9221-e019-4981-bcdb-ea370331f407
 description: "The ArrayOfDomainResponse element contains an array of responses for each requested domain's settings."
+ 
+ 
 ---
 
 # ArrayOfDomainResponse (SOAP)

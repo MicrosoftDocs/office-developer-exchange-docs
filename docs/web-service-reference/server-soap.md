@@ -1,17 +1,16 @@
 ---
 title: "Server (SOAP)"
- 
- 
 manager: sethgros
 ms.date: 9/17/2015
 ms.audience: Developer
 ms.topic: reference
- 
 localization_priority: Normal
 api_type:
 - schema
 ms.assetid: bd27f494-520a-459e-adcf-c3f505f27a69
 description: "The Server element represents the alternate mailbox server."
+ 
+ 
 ---
 
 # Server (SOAP)

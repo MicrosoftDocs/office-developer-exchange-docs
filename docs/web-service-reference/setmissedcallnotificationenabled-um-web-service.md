@@ -1,12 +1,9 @@
 ---
 title: "SetMissedCallNotificationEnabled (UM web service)"
- 
- 
 manager: sethgros
 ms.date: 9/17/2015
 ms.audience: Developer
 ms.topic: reference
- 
 localization_priority: Normal
 api_name:
 - SetMissedCallNotificationEnabled
@@ -14,6 +11,8 @@ api_type:
 - schema
 ms.assetid: db01f574-ab6c-45c2-aaac-404cec37790b
 description: "The SetMissedCallNotificationEnabled element defines a request for a SetMissedCallNotificationEnabled operation (UM web service) request."
+ 
+ 
 ---
 
 # SetMissedCallNotificationEnabled (UM web service)

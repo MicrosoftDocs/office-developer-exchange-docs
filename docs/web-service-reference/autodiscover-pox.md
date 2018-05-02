@@ -1,17 +1,16 @@
 ---
 title: "AutoDiscover (POX)"
- 
- 
 manager: sethgros
 ms.date: 9/17/2015
 ms.audience: Developer
 ms.topic: reference
- 
 localization_priority: Normal
 api_type:
 - schema
 ms.assetid: 611fcf5f-780a-42ea-bccb-9462a2f0c095
 description: "The AutoDiscover element is the root element in an Autodiscover request or response."
+ 
+ 
 ---
 
 # AutoDiscover (POX)

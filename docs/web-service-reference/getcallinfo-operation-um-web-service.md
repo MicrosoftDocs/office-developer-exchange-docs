@@ -1,12 +1,9 @@
 ---
 title: "GetCallInfo operation (UM web service)"
- 
- 
 manager: sethgros
 ms.date: 9/17/2015
 ms.audience: Developer
 ms.topic: reference
- 
 localization_priority: Normal
 api_name:
 - GetCallInfo
@@ -14,6 +11,8 @@ api_type:
 - schema
 ms.assetid: 6bccd418-caf7-4eb9-8a6f-410e56a635c3
 description: "The GetCallInfo operation returns the status of the outbound call that is specified by CallId (UM web service)."
+ 
+ 
 ---
 
 # GetCallInfo operation (UM web service)

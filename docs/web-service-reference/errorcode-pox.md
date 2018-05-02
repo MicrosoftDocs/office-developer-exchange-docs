@@ -1,17 +1,16 @@
 ---
 title: "ErrorCode (POX)"
- 
- 
 manager: sethgros
 ms.date: 9/17/2015
 ms.audience: Developer
 ms.topic: reference
- 
 localization_priority: Normal
 api_type:
 - schema
 ms.assetid: 064d73e4-45b7-4797-828e-9df590830db8
 description: "The ErrorCode element contains the error code for an error Autodiscover response."
+ 
+ 
 ---
 
 # ErrorCode (POX)

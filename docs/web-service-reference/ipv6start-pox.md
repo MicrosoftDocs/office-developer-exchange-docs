@@ -1,17 +1,16 @@
 ---
 title: "IPv6Start (POX)"
- 
- 
 manager: sethgros
 ms.date: 9/17/2015
 ms.audience: Developer
 ms.topic: reference
- 
 localization_priority: Normal
 api_type:
 - schema
 ms.assetid: 74fed547-9999-4c9c-9566-f7df811f1048
 description: "The IPv6Start element identifies the start of a range of IP version 6 (IPv6) addresses that are used to identify a computer on a network."
+ 
+ 
 ---
 
 # IPv6Start (POX)

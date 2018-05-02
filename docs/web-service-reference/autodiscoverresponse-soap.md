@@ -1,17 +1,16 @@
 ---
 title: "AutodiscoverResponse (SOAP)"
- 
- 
 manager: sethgros
 ms.date: 9/17/2015
 ms.audience: Developer
 ms.topic: reference
- 
 localization_priority: Normal
 api_type:
 - schema
 ms.assetid: 203a5ac3-ebd0-4514-acbe-bc1c74638127
 description: "The AutodiscoverResponse (SOAP) element represents the base element for all responses that are returned by the Autodiscover service."
+ 
+ 
 ---
 
 # AutodiscoverResponse (SOAP)

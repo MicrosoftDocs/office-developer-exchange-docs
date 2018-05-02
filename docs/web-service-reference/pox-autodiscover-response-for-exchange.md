@@ -1,17 +1,16 @@
 ---
 title: "POX Autodiscover response for Exchange"
- 
- 
 manager: sethgros
 ms.date: 9/17/2015
 ms.audience: Developer
 ms.topic: reference
- 
 localization_priority: Normal
 api_type:
 - schema
 ms.assetid: 08c6c5a2-a67a-4141-a8bd-1b5d560b90a7
 description: "The Autodiscover response contains a response to an Autodiscover request that includes a list of URLs that are used to establish a binding with Exchange Web Services (EWS)."
+ 
+ 
 ---
 
 # POX Autodiscover response for Exchange

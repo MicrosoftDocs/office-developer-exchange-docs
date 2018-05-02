@@ -1,17 +1,16 @@
 ---
 title: "DebugData (POX)"
- 
- 
 manager: sethgros
 ms.date: 9/17/2015
 ms.audience: Developer
 ms.topic: reference
- 
 localization_priority: Normal
 api_type:
 - schema
 ms.assetid: bf614551-f5b0-4f80-bdac-628f685faee9
 description: "The DebugData element contains the debug data for an Autodiscover error response."
+ 
+ 
 ---
 
 # DebugData (POX)

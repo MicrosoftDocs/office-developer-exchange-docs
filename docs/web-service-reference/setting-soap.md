@@ -1,17 +1,16 @@
 ---
 title: "Setting (SOAP)"
- 
- 
 manager: sethgros
 ms.date: 9/17/2015
 ms.audience: Developer
 ms.topic: reference
- 
 localization_priority: Normal
 api_type:
 - schema
 ms.assetid: 43db26e1-f7be-49fd-b26b-fc1b10bd3458
 description: "The Setting element represents a configuration setting to be returned."
+ 
+ 
 ---
 
 # Setting (SOAP)

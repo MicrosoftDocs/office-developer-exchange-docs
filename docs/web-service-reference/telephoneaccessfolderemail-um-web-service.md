@@ -1,12 +1,9 @@
 ---
 title: "TelephoneAccessFolderEmail (UM web service)"
- 
- 
 manager: sethgros
 ms.date: 9/17/2015
 ms.audience: Developer
 ms.topic: reference
- 
 localization_priority: Normal
 api_name:
 - TelephoneAccessFolderEmail
@@ -14,6 +11,8 @@ api_type:
 - schema
 ms.assetid: 5d32ae22-bb9f-4352-a251-d516b66ff35b
 description: "The TelephoneAccessFolderEmail element contains a value that species the identifier of the e-mail folder from which Unified Messaging will read messages over a telephone as contained in a response to a GetUMProperties operation (UM web service) request."
+ 
+ 
 ---
 
 # TelephoneAccessFolderEmail (UM web service)

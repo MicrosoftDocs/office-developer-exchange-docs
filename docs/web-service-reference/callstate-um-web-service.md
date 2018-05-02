@@ -1,12 +1,9 @@
 ---
 title: "CallState (UM web service)"
- 
- 
 manager: sethgros
 ms.date: 9/17/2015
 ms.audience: Developer
 ms.topic: reference
- 
 localization_priority: Normal
 api_name:
 - CallState
@@ -14,6 +11,8 @@ api_type:
 - schema
 ms.assetid: 88670707-12f7-41c5-ac81-dda0c354a2cb
 description: "The CallState element contains a value that indicates the status of a call."
+ 
+ 
 ---
 
 # CallState (UM web service)

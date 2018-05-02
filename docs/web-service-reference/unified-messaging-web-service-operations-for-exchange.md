@@ -1,12 +1,9 @@
 ---
 title: "Unified Messaging web service operations for Exchange"
- 
- 
 manager: sethgros
 ms.date: 9/17/2015
 ms.audience: Developer
 ms.topic: reference
- 
 localization_priority: Normal
 api_name:
 - Unified
@@ -14,6 +11,8 @@ api_type:
 - schema
 ms.assetid: d92455bd-24e8-4255-9f93-2bdeff00d42d
 description: "Find reference information for the Unified Messaging web service operations in Exchange."
+ 
+ 
 ---
 
 # Unified Messaging web service operations for Exchange

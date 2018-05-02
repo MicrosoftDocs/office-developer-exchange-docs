@@ -1,17 +1,16 @@
 ---
 title: "DomainResponse (SOAP)"
- 
- 
 manager: sethgros
 ms.date: 9/17/2015
 ms.audience: Developer
 ms.topic: reference
- 
 localization_priority: Normal
 api_type:
 - schema
 ms.assetid: 6aa319be-3a01-4044-8dfc-8fa1318524c3
 description: "The DomainResponse element contains the requested settings for the specified domain."
+ 
+ 
 ---
 
 # DomainResponse (SOAP)

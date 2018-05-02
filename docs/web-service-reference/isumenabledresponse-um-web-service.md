@@ -1,12 +1,9 @@
 ---
 title: "IsUMEnabledResponse (UM web service)"
- 
- 
 manager: sethgros
 ms.date: 9/17/2015
 ms.audience: Developer
 ms.topic: reference
- 
 localization_priority: Normal
 api_name:
 - IsUMEnabledResponse
@@ -14,6 +11,8 @@ api_type:
 - schema
 ms.assetid: ecb47dd5-c888-47ab-a253-fc49765f5c72
 description: "The IsUMEnabledResponse element defines a response to an IsUMEnabled operation (UM web service) request."
+ 
+ 
 ---
 
 # IsUMEnabledResponse (UM web service)

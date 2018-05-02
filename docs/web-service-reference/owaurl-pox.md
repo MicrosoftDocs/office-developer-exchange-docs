@@ -1,17 +1,16 @@
 ---
 title: "OWAUrl (POX)"
- 
- 
 manager: sethgros
 ms.date: 9/17/2015
 ms.audience: Developer
 ms.topic: reference
- 
 localization_priority: Normal
 api_type:
 - schema
 ms.assetid: 450b86a1-1722-49f5-b541-16c1edc3db7a
 description: "The OWAUrl element describes the URL and authentication schema that is used to access a particular computer that is running Microsoft Exchange Server 2007 that has the Client Access server role installed that hosts Outlook Web Access."
+ 
+ 
 ---
 
 # OWAUrl (POX)

@@ -1,17 +1,16 @@
 ---
 title: "GetUserSettingsRequest (SOAP)"
- 
- 
 manager: sethgros
 ms.date: 9/17/2015
 ms.audience: Developer
 ms.topic: reference
- 
 localization_priority: Normal
 api_type:
 - schema
 ms.assetid: 832a9211-d2d5-4a49-bcb3-1dc6dc3904ed
 description: "The GetUserSettingsRequest element represents a request to retrieve specified settings for one or more users."
+ 
+ 
 ---
 
 # GetUserSettingsRequest (SOAP)

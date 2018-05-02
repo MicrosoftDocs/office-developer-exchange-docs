@@ -1,17 +1,16 @@
 ---
 title: "SettingName (SOAP)"
- 
- 
 manager: sethgros
 ms.date: 9/17/2015
 ms.audience: Developer
 ms.topic: reference
- 
 localization_priority: Normal
 api_type:
 - schema
 ms.assetid: 8bcb0411-58b0-4e37-b97e-00c07dcbecb1
 description: "The SettingName element represents the name of a setting in the response."
+ 
+ 
 ---
 
 # SettingName (SOAP)

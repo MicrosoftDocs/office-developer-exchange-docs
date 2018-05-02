@@ -1,17 +1,16 @@
 ---
 title: "POX Autodiscover request for Exchange"
- 
- 
 manager: sethgros
 ms.date: 3/9/2015
 ms.audience: Developer
 ms.topic: reference
- 
 localization_priority: Normal
 api_type:
 - schema
 ms.assetid: 75671b1d-f35b-497b-8d8c-706f3f2535fd
 description: "The Autodiscover request contains a query for a user's client access configuration."
+ 
+ 
 ---
 
 # POX Autodiscover request for Exchange

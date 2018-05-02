@@ -40,13 +40,14 @@
     "globalMetadata": {
       "breadcrumb_path": "/exchange/dev/breadcrumb/toc.json",
       "extendBreadcrumb": true,
-	  "ms.author": "o365devx", 
-	  "author": "o365devx",
        "ms.topic": "conceptual",
 	   "ms.suite": "office",
 	   "ms.prod" : "exchange"
     },
-    "fileMetadata": {},
+    "fileMetadata": {
+		"ms.author": "o365devx", 
+	    "author": "o365devx"
+	},
     "template": [],
     "dest": "officedocs-dev-exchange-docs",
     "markdownEngineName": "markdig"

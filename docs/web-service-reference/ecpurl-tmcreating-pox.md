@@ -1,15 +1,14 @@
 ---
 title: "EcpUrl-tmCreating (POX)"
- 
- 
 manager: sethgros
 ms.date: 9/17/2015
 ms.audience: Developer
 ms.topic: reference
- 
 localization_priority: Normal
 ms.assetid: c942758e-5ff3-4acb-9080-b8672e56f696
 description: "The EcpUrl-tmCreating element specifies a partial URL that can be combined with the EcpUrl (POX) element's value to generate a URL that can be used to create a new site mailbox."
+ 
+ 
 ---
 
 # EcpUrl-tmCreating (POX)

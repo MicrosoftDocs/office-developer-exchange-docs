@@ -1,15 +1,14 @@
 ---
 title: "SharingUrl (POX)"
- 
- 
 manager: sethgros
 ms.date: 9/17/2015
 ms.audience: Developer
 ms.topic: reference
- 
 localization_priority: Normal
 ms.assetid: d590188a-5aa6-46c6-ab5f-2a0dd6793109
 description: "The SharingUrl element contains the URL of the sharing server used for cross-organization sharing of calendars and contacts."
+ 
+ 
 ---
 
 # SharingUrl (POX)

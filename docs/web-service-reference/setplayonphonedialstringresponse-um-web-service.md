@@ -1,12 +1,9 @@
 ---
 title: "SetPlayOnPhoneDialStringResponse (UM web service)"
- 
- 
 manager: sethgros
 ms.date: 9/17/2015
 ms.audience: Developer
 ms.topic: reference
- 
 localization_priority: Normal
 api_name:
 - SetPlayOnPhoneDialStringResponse
@@ -14,6 +11,8 @@ api_type:
 - schema
 ms.assetid: 88c1960a-0b9e-405d-a634-0d6a66524c1e
 description: "The SetPlayOnPhoneDialStringResponse element defines a response to a SetPlayOnPhoneDialString operation (UM web service) request."
+ 
+ 
 ---
 
 # SetPlayOnPhoneDialStringResponse (UM web service)

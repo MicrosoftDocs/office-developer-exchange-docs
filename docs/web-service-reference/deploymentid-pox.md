@@ -1,17 +1,16 @@
 ---
 title: "DeploymentId (POX)"
- 
- 
 manager: sethgros
 ms.date: 9/17/2015
 ms.audience: Developer
 ms.topic: reference
- 
 localization_priority: Normal
 api_type:
 - schema
 ms.assetid: b879c134-307e-4645-bb53-55d8ba4fad9c
 description: "The DeploymentId element uniquely identifies the Microsoft Exchange Server 2007 forest."
+ 
+ 
 ---
 
 # DeploymentId (POX)

@@ -1,17 +1,16 @@
 ---
 title: "IPv4End (POX)"
- 
- 
 manager: sethgros
 ms.date: 9/17/2015
 ms.audience: Developer
 ms.topic: reference
- 
 localization_priority: Normal
 api_type:
 - schema
 ms.assetid: 2dff4e8f-4812-4fcf-8915-d64a69c89120
 description: "The IPv4End element identifies the end of a range of IP version 4 (IPv4) addresses that are used to identify a computer on the network."
+ 
+ 
 ---
 
 # IPv4End (POX)

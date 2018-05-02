@@ -1,12 +1,9 @@
 ---
 title: "GreetingType (UM web service)"
- 
- 
 manager: sethgros
 ms.date: 9/17/2015
 ms.audience: Developer
 ms.topic: reference
- 
 localization_priority: Normal
 api_name:
 - GreetingType
@@ -14,6 +11,8 @@ api_type:
 - schema
 ms.assetid: 55bdf809-054c-4653-b76b-9fb36e010117
 description: "The GreetingType element defines the type of greeting to use in a PlayOnPhoneGreeting operation (UM web service) request."
+ 
+ 
 ---
 
 # GreetingType (UM web service)

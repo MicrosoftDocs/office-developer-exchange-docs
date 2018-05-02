@@ -1,15 +1,14 @@
 ---
 title: "EmwsUrl (POX)"
- 
- 
 manager: sethgros
 ms.date: 9/17/2015
 ms.audience: Developer
 ms.topic: reference
- 
 localization_priority: Normal
 ms.assetid: cad0fa91-8d75-4dde-a484-518c837ae063
 description: "The EmwsUrl element specifies the URL of the best endpoint instance for Exchange Web Services (EWS) for a mail-enabled user."
+ 
+ 
 ---
 
 # EmwsUrl (POX)

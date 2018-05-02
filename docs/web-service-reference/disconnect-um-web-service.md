@@ -1,12 +1,9 @@
 ---
 title: "Disconnect (UM web service)"
- 
- 
 manager: sethgros
 ms.date: 9/17/2015
 ms.audience: Developer
 ms.topic: reference
- 
 localization_priority: Normal
 api_name:
 - Disconnect
@@ -14,6 +11,8 @@ api_type:
 - schema
 ms.assetid: 2f8c1e8c-3bd4-4988-96b9-735c347b29f7
 description: "The Disconnect element defines a request to disconnect a call."
+ 
+ 
 ---
 
 # Disconnect (UM web service)

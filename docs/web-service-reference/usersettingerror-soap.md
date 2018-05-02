@@ -1,17 +1,16 @@
 ---
 title: "UserSettingError (SOAP)"
- 
- 
 manager: sethgros
 ms.date: 9/17/2015
 ms.audience: Developer
 ms.topic: reference
- 
 localization_priority: Normal
 api_type:
 - schema
 ms.assetid: abb175c5-4f38-4dcc-81e3-b511686862eb
 description: "The UserSettingError element represents an error that is returned as a result of an attempt to get a user setting."
+ 
+ 
 ---
 
 # UserSettingError (SOAP)

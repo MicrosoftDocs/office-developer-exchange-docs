@@ -1,12 +1,9 @@
 ---
 title: "SetOofStatus operation (UM web service)"
- 
- 
 manager: sethgros
 ms.date: 9/17/2015
 ms.audience: Developer
 ms.topic: reference
- 
 localization_priority: Normal
 api_name:
 - SetOofStatus
@@ -14,6 +11,8 @@ api_type:
 - schema
 ms.assetid: 97c271e9-506e-43eb-89cd-46803fc47ee5
 description: "The SetOofStatus operation sets a value that indicates whether the Out of Office (OOF) greeting should be played for the user who makes the request."
+ 
+ 
 ---
 
 # SetOofStatus operation (UM web service)

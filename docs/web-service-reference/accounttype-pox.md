@@ -1,17 +1,16 @@
 ---
 title: "AccountType (POX)"
- 
- 
 manager: sethgros
 ms.date: 9/17/2015
 ms.audience: Developer
 ms.topic: reference
- 
 localization_priority: Normal
 api_type:
 - schema
 ms.assetid: 1e87e78e-d143-4abc-b753-386500d227a5
 description: "The AccountType element represents the account type."
+ 
+ 
 ---
 
 # AccountType (POX)

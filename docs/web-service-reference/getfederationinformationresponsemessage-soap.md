@@ -1,17 +1,16 @@
 ---
 title: "GetFederationInformationResponseMessage (SOAP)"
- 
- 
 manager: sethgros
 ms.date: 9/17/2015
 ms.audience: Developer
 ms.topic: reference
- 
 localization_priority: Normal
 api_type:
 - schema
 ms.assetid: b2b409b1-ea3d-41f4-be0b-ff4c780fc23e
 description: "The GetFederationInformationResponseMessage element defines a response to a GetFederationInformation operation (SOAP) request."
+ 
+ 
 ---
 
 # GetFederationInformationResponseMessage (SOAP)

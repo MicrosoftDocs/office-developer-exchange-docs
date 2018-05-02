@@ -1,15 +1,14 @@
 ---
 title: "EcpUrl-ret (POX)"
- 
- 
 manager: sethgros
 ms.date: 9/17/2015
 ms.audience: Developer
 ms.topic: reference
- 
 localization_priority: Normal
 ms.assetid: 5f090fd2-b0c4-4ca0-a959-1433d73a2069
 description: "The EcpUrl-ret element specifies a partial URL that can be combined with the EcpUrl (POX) element's value to generate a URL that can be used to access retention tag settings for a mail-enabled user."
+ 
+ 
 ---
 
 # EcpUrl-ret (POX)

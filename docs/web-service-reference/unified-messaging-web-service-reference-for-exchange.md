@@ -1,12 +1,9 @@
 ---
 title: "Unified Messaging web service reference for Exchange"
- 
- 
 manager: sethgros
 ms.date: 9/17/2015
 ms.audience: Developer
 ms.topic: reference
- 
 localization_priority: Normal
 api_name:
 - Unified
@@ -14,6 +11,8 @@ api_type:
 - schema
 ms.assetid: 83afea8a-c716-41df-9eb2-e1000357afb6
 description: "Find reference content for the Unified Messaging (UM) web service in Exchange."
+ 
+ 
 ---
 
 # Unified Messaging web service reference for Exchange

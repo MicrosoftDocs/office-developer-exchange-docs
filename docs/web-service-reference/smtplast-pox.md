@@ -1,17 +1,16 @@
 ---
 title: "SMTPLast (POX)"
- 
- 
 manager: sethgros
 ms.date: 9/17/2015
 ms.audience: Developer
 ms.topic: reference
- 
 localization_priority: Normal
 api_type:
 - schema
 ms.assetid: f1aa8bd9-c6ac-41ac-8d2d-56fb20006005
 description: "The SMTPLast element specifies whether the Simple Mail Transfer Protocol (SMTP) server requires that e-mail be downloaded before it sends e-mail by using the SMTP server."
+ 
+ 
 ---
 
 # SMTPLast (POX)

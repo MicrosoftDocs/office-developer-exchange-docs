@@ -1,17 +1,16 @@
 ---
 title: "Account (POX)"
- 
- 
 manager: sethgros
 ms.date: 9/17/2015
 ms.audience: Developer
 ms.topic: reference
- 
 localization_priority: Normal
 api_type:
 - schema
 ms.assetid: 488fdbdc-e9d9-4301-91ab-e22eb42e549e
 description: "The Account element specifies account settings for the user or contains error responses."
+ 
+ 
 ---
 
 # Account (POX)

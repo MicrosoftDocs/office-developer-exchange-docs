@@ -1,12 +1,9 @@
 ---
 title: "Unified Messaging web service XML elements for Exchange"
- 
- 
 manager: sethgros
 ms.date: 9/17/2015
 ms.audience: Developer
 ms.topic: reference
- 
 localization_priority: Normal
 api_name:
 - Unified
@@ -14,6 +11,8 @@ api_type:
 - schema
 ms.assetid: 4f816453-383f-42b3-a48c-9a7c1d86a54d
 description: "Find reference information for the XML elements that are part of the Unified Messaging (UM) web service in Exchange."
+ 
+ 
 ---
 
 # Unified Messaging web service XML elements for Exchange

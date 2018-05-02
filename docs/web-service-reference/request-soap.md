@@ -1,17 +1,16 @@
 ---
 title: "Request (SOAP)"
- 
- 
 manager: sethgros
 ms.date: 9/17/2015
 ms.audience: Developer
 ms.topic: reference
- 
 localization_priority: Normal
 api_type:
 - schema
 ms.assetid: 75696436-997e-49f1-a31b-eb9a8c3526f3
 description: "The Request element contains the requested configuration settings and the target users."
+ 
+ 
 ---
 
 # Request (SOAP)

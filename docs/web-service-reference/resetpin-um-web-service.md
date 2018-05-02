@@ -1,12 +1,9 @@
 ---
 title: "ResetPIN (UM web service)"
- 
- 
 manager: sethgros
 ms.date: 9/17/2015
 ms.audience: Developer
 ms.topic: reference
- 
 localization_priority: Normal
 api_name:
 - ResetPIN
@@ -14,6 +11,8 @@ api_type:
 - schema
 ms.assetid: 383f0735-1caa-4675-a6e1-6dba6c5b1a28
 description: "The ResetPIN element defines a ResetPIN operation (UM web service) request."
+ 
+ 
 ---
 
 # ResetPIN (UM web service)

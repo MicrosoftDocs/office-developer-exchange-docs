@@ -1,17 +1,16 @@
 ---
 title: "Domain (GetFederationInformation) (SOAP)"
- 
- 
 manager: sethgros
 ms.date: 9/17/2015
 ms.audience: Developer
 ms.topic: reference
- 
 localization_priority: Normal
 api_type:
 - schema
 ms.assetid: 56aeb659-8309-47a6-8c41-9f8b0436438c
 description: "The Domain element identifies the domain that has a federation trust."
+ 
+ 
 ---
 
 # Domain (GetFederationInformation) (SOAP)

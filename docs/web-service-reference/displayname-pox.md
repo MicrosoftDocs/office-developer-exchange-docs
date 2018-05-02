@@ -1,17 +1,16 @@
 ---
 title: "DisplayName (POX)"
- 
- 
 manager: sethgros
 ms.date: 9/17/2015
 ms.audience: Developer
 ms.topic: reference
- 
 localization_priority: Normal
 api_type:
 - schema
 ms.assetid: dab23ed1-7fcf-4870-a634-f39d0742923a
 description: "The DisplayName element represents the user's display name."
+ 
+ 
 ---
 
 # DisplayName (POX)

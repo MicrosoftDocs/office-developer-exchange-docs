@@ -1,17 +1,16 @@
 ---
 title: "MinorBuildNumber (SOAP)"
- 
- 
 manager: sethgros
 ms.date: 9/17/2015
 ms.audience: Developer
 ms.topic: reference
- 
 localization_priority: Normal
 api_type:
 - schema
 ms.assetid: 3d2b9edc-8e57-44dc-b63b-75a2eb47c84e
 description: "The MinorBuildNumber element represents minor build number for the server."
+ 
+ 
 ---
 
 # MinorBuildNumber (SOAP)

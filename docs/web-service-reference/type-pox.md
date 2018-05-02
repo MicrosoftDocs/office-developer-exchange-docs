@@ -1,17 +1,16 @@
 ---
 title: "Type (POX)"
- 
- 
 manager: sethgros
 ms.date: 9/17/2015
 ms.audience: Developer
 ms.topic: reference
- 
 localization_priority: Normal
 api_type:
 - schema
 ms.assetid: 9a627244-554f-4223-b9d8-a601b81a4a1a
 description: "The Type element identifies the type of the configured mail account."
+ 
+ 
 ---
 
 # Type (POX)

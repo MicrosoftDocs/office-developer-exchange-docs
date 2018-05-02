@@ -1,12 +1,9 @@
 ---
 title: "CallId (UM web service)"
- 
- 
 manager: sethgros
 ms.date: 9/17/2015
 ms.audience: Developer
 ms.topic: reference
- 
 localization_priority: Normal
 api_name:
 - CallId
@@ -14,6 +11,8 @@ api_type:
 - schema
 ms.assetid: 2e044109-8bf3-488c-a654-459ac62fa1e7
 description: "The CallId element contains the value that represents the identifier of the call in a GetCallInfo (UM web service) request or Disconnect (UM web service) request."
+ 
+ 
 ---
 
 # CallId (UM web service)

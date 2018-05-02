@@ -1,17 +1,16 @@
 ---
 title: "ReferralPort (POX)"
- 
- 
 manager: sethgros
 ms.date: 9/17/2015
 ms.audience: Developer
 ms.topic: reference
- 
 localization_priority: Normal
 api_type:
 - schema
 ms.assetid: cd693f1e-fed4-4eb9-8297-178906f47050
 description: "The ReferralPort element specifies the port that is used to get a referral to a directory."
+ 
+ 
 ---
 
 # ReferralPort (POX)

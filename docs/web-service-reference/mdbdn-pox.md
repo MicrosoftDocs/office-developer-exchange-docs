@@ -1,17 +1,16 @@
 ---
 title: "MdbDN (POX)"
- 
- 
 manager: sethgros
 ms.date: 9/17/2015
 ms.audience: Developer
 ms.topic: reference
- 
 localization_priority: Normal
 api_type:
 - schema
 ms.assetid: 9f35f29f-204d-4178-9d8e-ba83af3afe43
 description: "The MdbDN element represents the distinguished name of the mailbox database."
+ 
+ 
 ---
 
 # MdbDN (POX)

@@ -1,12 +1,9 @@
 ---
 title: "EventCause (UM web service)"
- 
- 
 manager: sethgros
 ms.date: 9/17/2015
 ms.audience: Developer
 ms.topic: reference
- 
 localization_priority: Normal
 api_name:
 - EventCause
@@ -14,6 +11,8 @@ api_type:
 - schema
 ms.assetid: 7b3c1db8-cad4-4050-a50d-b06f065db530
 description: "The EventCause element contains a value that indicates the cause for a call event in a response to a GetCallInfo operation (UM web service) request."
+ 
+ 
 ---
 
 # EventCause (UM web service)

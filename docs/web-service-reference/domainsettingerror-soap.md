@@ -1,17 +1,16 @@
 ---
 title: "DomainSettingError (SOAP)"
- 
- 
 manager: sethgros
 ms.date: 9/17/2015
 ms.audience: Developer
 ms.topic: reference
- 
 localization_priority: Normal
 api_type:
 - schema
 ms.assetid: 48c3f7b5-2ee0-42ce-97a1-a881e2f60327
 description: "The DomainSettingError element represents an error that occurred while retrieving a domain setting. This represents an error from a GetDomainSettings request."
+ 
+ 
 ---
 
 # DomainSettingError (SOAP)

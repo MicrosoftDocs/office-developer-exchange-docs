@@ -1,17 +1,16 @@
 ---
 title: "EMailAddress (POX)"
- 
- 
 manager: sethgros
 ms.date: 9/17/2015
 ms.audience: Developer
 ms.topic: reference
- 
 localization_priority: Normal
 api_type:
 - schema
 ms.assetid: 0e9836a8-ccc9-4cc0-aa6a-9b299c5841d0
 description: "The EMailAddress element identifies the user's e-mail address."
+ 
+ 
 ---
 
 # EMailAddress (POX)

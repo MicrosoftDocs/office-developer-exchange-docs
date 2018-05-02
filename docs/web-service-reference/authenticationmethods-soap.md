@@ -1,17 +1,16 @@
 ---
 title: "AuthenticationMethods (SOAP)"
- 
- 
 manager: sethgros
 ms.date: 9/17/2015
 ms.audience: Developer
 ms.topic: reference
- 
 localization_priority: Normal
 api_type:
 - schema
 ms.assetid: ae97c802-f6ef-46da-b774-ca0a5feb664f
 description: "The AuthenticationMethods element describes the authentication methods that are available for a Web client."
+ 
+ 
 ---
 
 # AuthenticationMethods (SOAP)

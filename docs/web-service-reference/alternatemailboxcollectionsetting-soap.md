@@ -1,17 +1,16 @@
 ---
 title: "AlternateMailboxCollectionSetting (SOAP)"
- 
- 
 manager: sethgros
 ms.date: 9/17/2015
 ms.audience: Developer
 ms.topic: reference
- 
 localization_priority: Normal
 api_type:
 - schema
 ms.assetid: 0ba37d5b-3c19-4fdd-a196-b4723e6ba1b0
 description: "The AlternateMailboxCollectionSetting element contains a collection of alternate mailbox settings."
+ 
+ 
 ---
 
 # AlternateMailboxCollectionSetting (SOAP)

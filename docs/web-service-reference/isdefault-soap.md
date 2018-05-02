@@ -1,15 +1,14 @@
 ---
 title: "IsDefault (SOAP)"
- 
- 
 manager: sethgros
 ms.date: 9/17/2015
 ms.audience: Developer
 ms.topic: reference
- 
 localization_priority: Normal
 ms.assetid: 7358bb88-c441-4f2c-9647-c030e7303e8a
 description: "The IsDefault element indicates whether a document sharing location is the user's default sharing location."
+ 
+ 
 ---
 
 # IsDefault (SOAP)

@@ -1,12 +1,9 @@
 ---
 title: "PlayOnPhoneGreetingResponse (UM web service)"
- 
- 
 manager: sethgros
 ms.date: 9/17/2015
 ms.audience: Developer
 ms.topic: reference
- 
 localization_priority: Normal
 api_name:
 - PlayOnPhoneGreetingResponse
@@ -14,6 +11,8 @@ api_type:
 - schema
 ms.assetid: 7189d69a-9288-4fc8-8d78-4977ee1a7253
 description: "The PlayOnPhoneGreetingResponse element defines a response to a PlayOnPhoneGreeting operation (UM web service) request."
+ 
+ 
 ---
 
 # PlayOnPhoneGreetingResponse (UM web service)

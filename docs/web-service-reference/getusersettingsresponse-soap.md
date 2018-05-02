@@ -1,17 +1,16 @@
 ---
 title: "GetUserSettingsResponse (SOAP)"
- 
- 
 manager: sethgros
 ms.date: 9/17/2015
 ms.audience: Developer
 ms.topic: reference
- 
 localization_priority: Normal
 api_type:
 - schema
 ms.assetid: e7cd470d-5861-41e7-9e66-73ef7a59700b
 description: "The GetUserSettingsResponse element represents a response to a GetUserSettings operation (SOAP) request."
+ 
+ 
 ---
 
 # GetUserSettingsResponse (SOAP)

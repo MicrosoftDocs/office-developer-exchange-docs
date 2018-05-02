@@ -1,15 +1,14 @@
 ---
 title: "DocumentSharingLocation (SOAP)"
- 
- 
 manager: sethgros
 ms.date: 9/17/2015
 ms.audience: Developer
 ms.topic: reference
- 
 localization_priority: Normal
 ms.assetid: 21bc388c-33be-422b-a89d-30ade0fae8f1
 description: "The DocumentSharingLocation element contains location and metadata information for a document sharing location."
+ 
+ 
 ---
 
 # DocumentSharingLocation (SOAP)

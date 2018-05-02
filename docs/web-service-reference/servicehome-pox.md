@@ -1,17 +1,16 @@
 ---
 title: "ServiceHome (POX)"
- 
- 
 manager: sethgros
 ms.date: 9/17/2015
 ms.audience: Developer
 ms.topic: reference
- 
 localization_priority: Normal
 api_type:
 - schema
 ms.assetid: f1b812c3-ae8b-4d89-92e2-41d2fe51e32f
 description: "The ServiceHome element contains the URL of the home page of the Internet service provider (ISP)."
+ 
+ 
 ---
 
 # ServiceHome (POX)

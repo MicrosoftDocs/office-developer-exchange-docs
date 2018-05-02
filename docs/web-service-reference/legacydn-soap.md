@@ -1,17 +1,16 @@
 ---
 title: "LegacyDN (SOAP)"
- 
- 
 manager: sethgros
 ms.date: 9/17/2015
 ms.audience: Developer
 ms.topic: reference
- 
 localization_priority: Normal
 api_type:
 - schema
 ms.assetid: 837072fa-1fd9-4288-b826-5e9fdb2ea35c
 description: "The LegacyDN element represents the alternate mailbox legacy distinguished name."
+ 
+ 
 ---
 
 # LegacyDN (SOAP)

@@ -1,17 +1,16 @@
 ---
 title: "Response (SOAP)"
- 
- 
 manager: sethgros
 ms.date: 9/17/2015
 ms.audience: Developer
 ms.topic: reference
- 
 localization_priority: Normal
 api_type:
 - schema
 ms.assetid: 4c2bcdeb-95ce-4ffa-bd83-118af53b534f
 description: "The Response element contains the response to a GetUserSettings operation (SOAP), GetDomainSettings operation (SOAP), or a GetFederationInformation operation (SOAP) request."
+ 
+ 
 ---
 
 # Response (SOAP)

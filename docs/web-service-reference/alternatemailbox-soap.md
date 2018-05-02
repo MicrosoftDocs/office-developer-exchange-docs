@@ -1,17 +1,16 @@
 ---
 title: "AlternateMailbox (SOAP)"
- 
- 
 manager: sethgros
 ms.date: 9/17/2015
 ms.audience: Developer
 ms.topic: reference
- 
 localization_priority: Normal
 api_type:
 - schema
 ms.assetid: d913a70d-5a85-4b6e-becc-2fb9334b6088
 description: "The AlternateMailbox element represents an alternate mailbox."
+ 
+ 
 ---
 
 # AlternateMailbox (SOAP)

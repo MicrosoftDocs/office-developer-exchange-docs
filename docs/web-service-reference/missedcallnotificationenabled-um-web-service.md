@@ -1,12 +1,9 @@
 ---
 title: "MissedCallNotificationEnabled (UM web service)"
- 
- 
 manager: sethgros
 ms.date: 9/17/2015
 ms.audience: Developer
 ms.topic: reference
- 
 localization_priority: Normal
 api_name:
 - MissedCallNotificationEnabled
@@ -14,6 +11,8 @@ api_type:
 - schema
 ms.assetid: 8e6bf0b1-ff76-474c-ac0f-621b6ab89212
 description: "The MissedCallNotificationEnabled element contains a value that indicates whether a missed call notification is enabled in a response to a GetUMProperties operation (UM web service) request."
+ 
+ 
 ---
 
 # MissedCallNotificationEnabled (UM web service)

@@ -1,17 +1,16 @@
 ---
 title: "EncryptionMethod (SOAP)"
- 
- 
 manager: sethgros
 ms.date: 9/17/2015
 ms.audience: Developer
 ms.topic: reference
- 
 localization_priority: Normal
 api_type:
 - schema
 ms.assetid: bc632c85-ec74-4a00-baec-df5973e032fa
 description: "The EncryptionMethod element represents the cryptographic method that is used for the POP, IMAP, and SMTP protocols."
+ 
+ 
 ---
 
 # EncryptionMethod (SOAP)

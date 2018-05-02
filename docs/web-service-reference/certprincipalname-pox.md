@@ -1,17 +1,16 @@
 ---
 title: "CertPrincipalName (POX)"
- 
- 
 manager: sethgros
 ms.date: 9/17/2015
 ms.audience: Developer
 ms.topic: reference
- 
 localization_priority: Normal
 api_type:
 - schema
 ms.assetid: a24092c9-58be-4008-92c4-68ec5c6c0fa6
 description: "The CertPrincipalName element specifies the Secure Sockets Layer (SSL) certificate principal name that is required to connect to the Microsoft Exchange Server 2007 organization by using SSL."
+ 
+ 
 ---
 
 # CertPrincipalName (POX)

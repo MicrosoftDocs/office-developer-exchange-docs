@@ -1,17 +1,16 @@
 ---
 title: "ProtocolConnectionCollectionSetting (SOAP)"
- 
- 
 manager: sethgros
 ms.date: 9/17/2015
 ms.audience: Developer
 ms.topic: reference
- 
 localization_priority: Normal
 api_type:
 - schema
 ms.assetid: 51f84364-9a5f-4ef2-ba82-f6ef7c65f7cb
 description: "The ProtocolConnectionCollectionSetting element represents a collection of server protocol connection settings."
+ 
+ 
 ---
 
 # ProtocolConnectionCollectionSetting (SOAP)

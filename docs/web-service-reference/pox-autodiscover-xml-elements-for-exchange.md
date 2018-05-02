@@ -1,16 +1,16 @@
 ---
 title: "POX Autodiscover XML elements for Exchange"
-
 manager: sethgros
 ms.date: 9/17/2015
 ms.audience: Developer
 ms.topic: reference
-
 localization_priority: Normal
 api_type:
 - schema
 ms.assetid: 4ea99dcc-4b5a-48be-9cb7-f92851d13b03
 description: "Find XML element reference information for the POX Autodiscover web service in Exchange."
+ 
+ 
 ---
 
 # POX Autodiscover XML elements for Exchange

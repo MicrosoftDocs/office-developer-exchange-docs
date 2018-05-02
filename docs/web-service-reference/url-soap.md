@@ -1,17 +1,16 @@
 ---
 title: "Url (SOAP)"
- 
- 
 manager: sethgros
 ms.date: 9/17/2015
 ms.audience: Developer
 ms.topic: reference
- 
 localization_priority: Normal
 api_type:
 - schema
 ms.assetid: 12e8c9a4-61e5-41a5-a9ea-423ce6f464af
 description: "The Url element contains the URL of a Web client."
+ 
+ 
 ---
 
 # Url (SOAP)

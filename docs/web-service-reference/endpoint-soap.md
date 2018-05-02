@@ -1,15 +1,14 @@
 ---
 title: "Endpoint (SOAP)"
- 
- 
 manager: sethgros
 ms.date: 9/17/2015
 ms.audience: Developer
 ms.topic: reference
- 
 localization_priority: Normal
 ms.assetid: 630cdbb5-d1c7-422c-924a-abf5738e9e5e
 description: "The Endpoint element specifies the security token service endpoint."
+ 
+ 
 ---
 
 # Endpoint (SOAP)

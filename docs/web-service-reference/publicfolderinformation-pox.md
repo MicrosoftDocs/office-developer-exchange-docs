@@ -1,15 +1,14 @@
 ---
 title: "PublicFolderInformation (POX)"
- 
- 
 manager: sethgros
 ms.date: 9/17/2015
 ms.audience: Developer
 ms.topic: reference
- 
 localization_priority: Normal
 ms.assetid: a221aa9e-b4ac-4ec5-aa42-7e2a69e8eaa6
 description: "The PublicFolderInformation element contains information that clients can use to send an Autodiscover request to discover public folder information for the user."
+ 
+ 
 ---
 
 # PublicFolderInformation (POX)

@@ -1,17 +1,16 @@
 ---
 title: "WebClientUrls (SOAP)"
- 
- 
 manager: sethgros
 ms.date: 9/17/2015
 ms.audience: Developer
 ms.topic: reference
- 
 localization_priority: Normal
 api_type:
 - schema
 ms.assetid: fdfe6059-a861-4fa2-a20e-ee6ab820bee9
 description: "The WebClientUrls element represents a user setting that contains a collection of WebClientUrl (SOAP) elements."
+ 
+ 
 ---
 
 # WebClientUrls (SOAP)

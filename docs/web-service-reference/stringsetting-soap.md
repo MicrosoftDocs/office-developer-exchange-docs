@@ -1,17 +1,16 @@
 ---
 title: "StringSetting (SOAP)"
- 
- 
 manager: sethgros
 ms.date: 9/17/2015
 ms.audience: Developer
 ms.topic: reference
- 
 localization_priority: Normal
 api_type:
 - schema
 ms.assetid: bf7096d8-42d4-4bf5-bbdd-851af2754000
 description: "The StringSetting element represents a user setting the value of which is of type string."
+ 
+ 
 ---
 
 # StringSetting (SOAP)

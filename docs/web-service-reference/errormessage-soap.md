@@ -1,17 +1,16 @@
 ---
 title: "ErrorMessage (SOAP)"
- 
- 
 manager: sethgros
 ms.date: 9/17/2015
 ms.audience: Developer
 ms.topic: reference
- 
 localization_priority: Normal
 api_type:
 - schema
 ms.assetid: b84dd664-4c49-42c9-a49f-2ec4a9f7588b
 description: "The ErrorMessage element represents a message that is associated with an error code that is returned by the Autodiscover service."
+ 
+ 
 ---
 
 # ErrorMessage (SOAP)

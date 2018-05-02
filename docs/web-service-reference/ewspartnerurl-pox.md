@@ -1,15 +1,14 @@
 ---
 title: "EwsPartnerUrl (POX)"
- 
- 
 manager: sethgros
 ms.date: 9/17/2015
 ms.audience: Developer
 ms.topic: reference
- 
 localization_priority: Normal
 ms.assetid: 2ebae21c-3efa-4239-9b49-4a3a8871449b
 description: "The EwsPartnerUrl element specifies the URL of the best endpoint instance for Exchange Web Services (EWS) for a mail-enabled user."
+ 
+ 
 ---
 
 # EwsPartnerUrl (POX)

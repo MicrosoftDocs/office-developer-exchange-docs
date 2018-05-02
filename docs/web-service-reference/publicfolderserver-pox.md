@@ -1,15 +1,14 @@
 ---
 title: "PublicFolderServer (POX)"
- 
- 
 manager: sethgros
 ms.date: 9/17/2015
 ms.audience: Developer
 ms.topic: reference
- 
 localization_priority: Normal
 ms.assetid: 37ad46ab-7817-4fdd-ad2d-26cb525cd96b
 description: "The PublicFolderServer element contains the fully-qualified domain name (FQDN) of the public folder server for the user."
+ 
+ 
 ---
 
 # PublicFolderServer (POX)

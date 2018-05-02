@@ -1,17 +1,16 @@
 ---
 title: "LoginName (POX)"
- 
- 
 manager: sethgros
 ms.date: 9/17/2015
 ms.audience: Developer
 ms.topic: reference
- 
 localization_priority: Normal
 api_type:
 - schema
 ms.assetid: 47495d87-23c9-4d51-9f38-8c1d31f937aa
 description: "The LoginName element specifies the user's logon name."
+ 
+ 
 ---
 
 # LoginName (POX)

@@ -1,15 +1,14 @@
 ---
 title: "ExternalUrl (POX)"
- 
- 
 manager: sethgros
 ms.date: 9/17/2015
 ms.audience: Developer
 ms.topic: reference
- 
 localization_priority: Normal
 ms.assetid: 3b647d88-6feb-40d7-9299-b2ca47b707db
 description: "The ExternalUrl element contains the URL for connecting a client to the address book server or a user's mailbox from outside the user's organization by using the MAPI/HTTP protocol."
+ 
+ 
 ---
 
 # ExternalUrl (POX)

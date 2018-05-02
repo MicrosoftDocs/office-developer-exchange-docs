@@ -1,15 +1,14 @@
 ---
 title: "SupportedFileExtensions (SOAP)"
- 
- 
 manager: sethgros
 ms.date: 9/17/2015
 ms.audience: Developer
 ms.topic: reference
- 
 localization_priority: Normal
 ms.assetid: 6f73d18c-7bb1-4ab6-a23b-6d948e590b53
 description: "The SupportedFileExtensions element lists the file extensions that can be stored in a document sharing location."
+ 
+ 
 ---
 
 # SupportedFileExtensions (SOAP)

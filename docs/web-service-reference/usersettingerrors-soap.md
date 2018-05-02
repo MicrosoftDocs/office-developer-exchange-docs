@@ -1,17 +1,16 @@
 ---
 title: "UserSettingErrors (SOAP)"
- 
- 
 manager: sethgros
 ms.date: 9/17/2015
 ms.audience: Developer
 ms.topic: reference
- 
 localization_priority: Normal
 api_type:
 - schema
 ms.assetid: a9b94bae-cab9-412d-a811-801e849ed6c5
 description: "The UserSettingErrors element represents a collection of information about settings that could not be returned."
+ 
+ 
 ---
 
 # UserSettingErrors (SOAP)

@@ -1,13 +1,13 @@
 ---
-
 manager: sethgros
 ms.date: 9/17/2015
 ms.audience: Developer
 ms.topic: reference
-
 localization_priority: Normal
 ms.assetid: 6c969133-6036-448b-af39-a3caf9917e98
 description: "Find reference information for web services in Exchange."
+ 
+ 
 ---
 
 # Web services reference for Exchange

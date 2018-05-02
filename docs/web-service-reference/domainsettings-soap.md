@@ -1,17 +1,16 @@
 ---
 title: "DomainSettings (SOAP)"
- 
- 
 manager: sethgros
 ms.date: 9/17/2015
 ms.audience: Developer
 ms.topic: reference
- 
 localization_priority: Normal
 api_type:
 - schema
 ms.assetid: f3d37f5a-c9ea-4ed9-a011-94d33bda64d1
 description: "The DomainSettings element represents the domain settings that were submitted in an Autodiscover request or returned by an Autodiscover response."
+ 
+ 
 ---
 
 # DomainSettings (SOAP)

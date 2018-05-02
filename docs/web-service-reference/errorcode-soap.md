@@ -1,17 +1,16 @@
 ---
 title: "ErrorCode (SOAP)"
- 
- 
 manager: sethgros
 ms.date: 9/17/2015
 ms.audience: Developer
 ms.topic: reference
- 
 localization_priority: Normal
 api_type:
 - schema
 ms.assetid: 5e5ec861-0191-4ecb-a906-47ce8ed96381
 description: "The ErrorCode element represents an error code that is returned by the Autodiscover service."
+ 
+ 
 ---
 
 # ErrorCode (SOAP)

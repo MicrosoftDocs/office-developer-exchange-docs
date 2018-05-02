@@ -1,12 +1,9 @@
 ---
 title: "PlayOnPhoneDialString (UM web service)"
- 
- 
 manager: sethgros
 ms.date: 9/17/2015
 ms.audience: Developer
 ms.topic: reference
- 
 localization_priority: Normal
 api_name:
 - PlayOnPhoneDialString
@@ -14,6 +11,8 @@ api_type:
 - schema
 ms.assetid: 81ce51b9-c201-4a7d-b29b-351a697970b7
 description: "The PlayOnPhoneDialString element contains a value for the default dial string in a GetUMProperties operation (UM web service) request."
+ 
+ 
 ---
 
 # PlayOnPhoneDialString (UM web service)

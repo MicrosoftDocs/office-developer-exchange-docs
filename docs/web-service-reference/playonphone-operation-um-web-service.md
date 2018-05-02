@@ -1,12 +1,9 @@
 ---
 title: "PlayOnPhone operation (UM web service)"
- 
- 
 manager: sethgros
 ms.date: 9/17/2015
 ms.audience: Developer
 ms.topic: reference
- 
 localization_priority: Normal
 api_name:
 - PlayOnPhone
@@ -14,6 +11,8 @@ api_type:
 - schema
 ms.assetid: 7d55be55-f8b6-4e96-a61e-26fa190217fd
 description: "The PlayOnPhone operation makes an outbound call and plays a specified message over the telephone that is specified by the DialString element."
+ 
+ 
 ---
 
 # PlayOnPhone operation (UM web service)

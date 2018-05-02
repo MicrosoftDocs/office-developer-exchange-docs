@@ -1,17 +1,16 @@
 ---
 title: "Image (POX)"
- 
- 
 manager: sethgros
 ms.date: 9/17/2015
 ms.audience: Developer
 ms.topic: reference
- 
 localization_priority: Normal
 api_type:
 - schema
 ms.assetid: c3dcabdb-8a29-42f8-8ab4-461bf17fb9f6
 description: "The Image element contains the path of an image that is used to brand the configuration experience."
+ 
+ 
 ---
 
 # Image (POX)

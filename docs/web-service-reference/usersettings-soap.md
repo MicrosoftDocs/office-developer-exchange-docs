@@ -1,17 +1,16 @@
 ---
 title: "UserSettings (SOAP)"
- 
- 
 manager: sethgros
 ms.date: 9/17/2015
 ms.audience: Developer
 ms.topic: reference
- 
 localization_priority: Normal
 api_type:
 - schema
 ms.assetid: ac3b827c-2e46-49ef-8c5a-f88084c0a12c
 description: "The UserSettings element represents a collection of user settings."
+ 
+ 
 ---
 
 # UserSettings (SOAP)

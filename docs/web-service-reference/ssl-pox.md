@@ -1,17 +1,16 @@
 ---
 title: "SSL (POX)"
- 
- 
 manager: sethgros
 ms.date: 9/17/2015
 ms.audience: Developer
 ms.topic: reference
- 
 localization_priority: Normal
 api_type:
 - schema
 ms.assetid: a7e2bdcd-a2f7-45a4-adcd-a03fe7fd4d9b
 description: "The SSL element specifies whether secure logon is required."
+ 
+ 
 ---
 
 # SSL (POX)

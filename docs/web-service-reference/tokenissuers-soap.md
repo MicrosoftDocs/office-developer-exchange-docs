@@ -1,15 +1,14 @@
 ---
 title: "TokenIssuers (SOAP)"
- 
- 
 manager: sethgros
 ms.date: 9/17/2015
 ms.audience: Developer
 ms.topic: reference
- 
 localization_priority: Normal
 ms.assetid: 26c55228-184e-4340-bd80-f86be56f3e7a
 description: "The TokenIssuers elements represents the TokenIssuer (SOAP) collection."
+ 
+ 
 ---
 
 # TokenIssuers (SOAP)

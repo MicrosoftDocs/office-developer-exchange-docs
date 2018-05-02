@@ -1,17 +1,16 @@
 ---
 title: "Internal (POX)"
- 
- 
 manager: sethgros
 ms.date: 9/17/2015
 ms.audience: Developer
 ms.topic: reference
- 
 localization_priority: Normal
 api_type:
 - schema
 ms.assetid: 69c22546-ebd6-4a03-b0b4-bbac72ec5551
 description: "The Internal element contains the collection of URLs that a client can use to connect to Exchange from inside the organization's network."
+ 
+ 
 ---
 
 # Internal (POX)

@@ -1,15 +1,14 @@
 ---
 title: "DocumentSharingLocationCollectionSetting (SOAP)"
- 
- 
 manager: sethgros
 ms.date: 9/17/2015
 ms.audience: Developer
 ms.topic: reference
- 
 localization_priority: Normal
 ms.assetid: 0e3346f9-7a55-4e87-b121-9b1ee7f227f4
 description: "The DocumentSharingLocationCollectionSetting element represents a user setting that is a collection of documentation sharing locations and metadata."
+ 
+ 
 ---
 
 # DocumentSharingLocationCollectionSetting (SOAP)

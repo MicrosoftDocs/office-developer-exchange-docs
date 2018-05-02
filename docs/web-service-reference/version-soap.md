@@ -1,17 +1,16 @@
 ---
 title: "Version (SOAP)"
- 
- 
 manager: sethgros
 ms.date: 9/17/2015
 ms.audience: Developer
 ms.topic: reference
- 
 localization_priority: Normal
 api_type:
 - schema
 ms.assetid: 47c9216e-6bfe-48c8-a27a-26f70db8e8d5
 description: "The Version element represents a description of the server product version."
+ 
+ 
 ---
 
 # Version (SOAP)

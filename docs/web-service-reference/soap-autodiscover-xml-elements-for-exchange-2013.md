@@ -1,17 +1,16 @@
 ---
 title: "SOAP Autodiscover XML elements for Exchange 2013"
- 
- 
 manager: sethgros
 ms.date: 9/17/2015
 ms.audience: Developer
 ms.topic: reference
- 
 localization_priority: Normal
 api_type:
 - schema
 ms.assetid: ae18a5b3-ae44-4cff-8654-db8028565e01
 description: "Find XML element reference information for the SOAP Autodiscover web service in Exchange."
+ 
+ 
 ---
 
 # SOAP Autodiscover XML elements for Exchange 2013

@@ -1,12 +1,9 @@
 ---
 title: "Status (UM web service - SetMissedCallNotificationEnabled)"
- 
- 
 manager: sethgros
 ms.date: 9/17/2015
 ms.audience: Developer
 ms.topic: reference
- 
 localization_priority: Normal
 api_name:
 - Status
@@ -14,6 +11,8 @@ api_type:
 - schema
 ms.assetid: e272d905-1a66-44f6-bb1d-59fa9e4d8dea
 description: "The Status element defines the value to use in a SetMissedCallNotificationEnabled operation (UM web service) request."
+ 
+ 
 ---
 
 # Status (UM web service - SetMissedCallNotificationEnabled)

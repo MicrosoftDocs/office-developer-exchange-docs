@@ -1,17 +1,16 @@
 ---
 title: "DomainStringSetting (SOAP)"
- 
- 
 manager: sethgros
 ms.date: 9/17/2015
 ms.audience: Developer
 ms.topic: reference
- 
 localization_priority: Normal
 api_type:
 - schema
 ms.assetid: 268805b5-baf7-4826-b92e-cb9f9f5792ea
 description: "The DomainStringSetting element represents a domain setting the value of which is of type string."
+ 
+ 
 ---
 
 # DomainStringSetting (SOAP)

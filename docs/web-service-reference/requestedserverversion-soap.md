@@ -1,17 +1,16 @@
 ---
 title: "RequestedServerVersion (SOAP)"
- 
- 
 manager: sethgros
 ms.date: 9/17/2015
 ms.audience: Developer
 ms.topic: reference
- 
 localization_priority: Normal
 api_type:
 - schema
 ms.assetid: cf3f9d7a-2add-4457-b009-2929220f90b5
 description: "The RequestedServerVersion element specifies the server version that an Autodiscover method call targets."
+ 
+ 
 ---
 
 # RequestedServerVersion (SOAP)

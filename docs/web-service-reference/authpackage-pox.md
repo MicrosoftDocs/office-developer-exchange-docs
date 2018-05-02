@@ -1,17 +1,16 @@
 ---
 title: "AuthPackage (POX)"
- 
- 
 manager: sethgros
 ms.date: 3/9/2015
 ms.audience: Developer
 ms.topic: reference
- 
 localization_priority: Normal
 api_type:
 - schema
 ms.assetid: 709dbe53-6141-41f8-a2b9-a399bae47991
 description: "The AuthPackage element specifies the authentication scheme that is used when authenticating against the Exchange server that has the Mailbox server role installed."
+ 
+ 
 ---
 
 # AuthPackage (POX)

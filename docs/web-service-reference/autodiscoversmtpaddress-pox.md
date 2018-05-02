@@ -1,15 +1,14 @@
 ---
 title: "AutoDiscoverSMTPAddress (POX)"
- 
- 
 manager: sethgros
 ms.date: 9/17/2015
 ms.audience: Developer
 ms.topic: reference
- 
 localization_priority: Normal
 ms.assetid: 7763d11a-b338-4a02-8a01-938859c05dfb
 description: "The AutoDiscoverSMTPAddress element contains the user's SMTP address that is used for the Autodiscover process."
+ 
+ 
 ---
 
 # AutoDiscoverSMTPAddress (POX)

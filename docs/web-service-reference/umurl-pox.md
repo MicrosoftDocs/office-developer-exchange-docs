@@ -1,17 +1,16 @@
 ---
 title: "UMUrl (POX)"
- 
- 
 manager: sethgros
 ms.date: 9/17/2015
 ms.audience: Developer
 ms.topic: reference
- 
 localization_priority: Normal
 api_type:
 - schema
 ms.assetid: c55b7bf5-3702-4923-b7c9-b0928cde1de2
 description: "The UMUrl element specifies the URL of the best instance of the Unified Messaging Web service for a mail-enabled user."
+ 
+ 
 ---
 
 # UMUrl (POX)

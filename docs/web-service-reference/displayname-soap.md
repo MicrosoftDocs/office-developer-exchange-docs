@@ -1,17 +1,16 @@
 ---
 title: "DisplayName (SOAP)"
- 
- 
 manager: sethgros
 ms.date: 9/17/2015
 ms.audience: Developer
 ms.topic: reference
- 
 localization_priority: Normal
 api_type:
 - schema
 ms.assetid: 37c31ecb-a21e-47c8-befe-1bf4415f244c
 description: "The DisplayName element represents a display name."
+ 
+ 
 ---
 
 # DisplayName (SOAP)

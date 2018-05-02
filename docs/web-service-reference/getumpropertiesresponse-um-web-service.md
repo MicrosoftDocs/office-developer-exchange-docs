@@ -1,12 +1,9 @@
 ---
 title: "GetUMPropertiesResponse (UM web service)"
- 
- 
 manager: sethgros
 ms.date: 9/17/2015
 ms.audience: Developer
 ms.topic: reference
- 
 localization_priority: Normal
 api_name:
 - GetUMPropertiesResponse
@@ -14,6 +11,8 @@ api_type:
 - schema
 ms.assetid: fcd93ce5-7403-46a9-b46e-56d2ebdd2f79
 description: "The GetUMPropertiesResponse element defines a response to a GetUMProperties operation (UM web service) request."
+ 
+ 
 ---
 
 # GetUMPropertiesResponse (UM web service)

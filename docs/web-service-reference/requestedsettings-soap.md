@@ -1,17 +1,16 @@
 ---
 title: "RequestedSettings (SOAP)"
- 
- 
 manager: sethgros
 ms.date: 9/17/2015
 ms.audience: Developer
 ms.topic: reference
- 
 localization_priority: Normal
 api_type:
 - schema
 ms.assetid: 8d713d22-580c-49a5-99f5-ee532443e89a
 description: "The RequestedSettings element contains the names of the requested configuration settings."
+ 
+ 
 ---
 
 # RequestedSettings (SOAP)

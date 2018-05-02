@@ -1,12 +1,9 @@
 ---
 title: "SetTelephoneAccessFolderEmail (UM web service)"
- 
- 
 manager: sethgros
 ms.date: 9/17/2015
 ms.audience: Developer
 ms.topic: reference
- 
 localization_priority: Normal
 api_name:
 - SetTelephoneAccessFolderEmail
@@ -14,6 +11,8 @@ api_type:
 - schema
 ms.assetid: 90759da7-6dba-499e-b8c8-e44a016b3198
 description: "The SetTelephoneAccessFolderEmail element defines a request to set the default e-mail folder from which Unified Messaging will read messages over the telephone."
+ 
+ 
 ---
 
 # SetTelephoneAccessFolderEmail (UM web service)

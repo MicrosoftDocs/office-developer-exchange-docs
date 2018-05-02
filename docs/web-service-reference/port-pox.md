@@ -1,17 +1,16 @@
 ---
 title: "Port (POX)"
- 
- 
 manager: sethgros
 ms.date: 9/17/2015
 ms.audience: Developer
 ms.topic: reference
- 
 localization_priority: Normal
 api_type:
 - schema
 ms.assetid: 4046821a-d6f3-4764-82be-4011221ce7a3
 description: "The Port element specifies the port that is used to connect to the store."
+ 
+ 
 ---
 
 # Port (POX)

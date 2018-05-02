@@ -1,17 +1,16 @@
 ---
 title: "NetworkRequirements (POX)"
- 
- 
 manager: sethgros
 ms.date: 9/17/2015
 ms.audience: Developer
 ms.topic: reference
- 
 localization_priority: Normal
 api_type:
 - schema
 ms.assetid: 1555fd2e-05b6-4b94-907b-dae9174049d9
 description: "The NetworkRequirements element contains the criteria that are used to determine whether the client computer is on a network that meets the requirements of the Internet service provider (ISP) to connect to the server."
+ 
+ 
 ---
 
 # NetworkRequirements (POX)

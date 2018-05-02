@@ -1,15 +1,14 @@
 ---
 title: "TargetSharingEpr (SOAP)"
- 
- 
 manager: sethgros
 ms.date: 3/9/2015
 ms.audience: Developer
 ms.topic: reference
- 
 localization_priority: Normal
 ms.assetid: 0115a740-9264-4e57-a410-197bb39e6c81
 description: "Applies to:"
+ 
+ 
 ---
 
 # TargetSharingEpr (SOAP)

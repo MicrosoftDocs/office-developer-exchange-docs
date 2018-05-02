@@ -1,11 +1,9 @@
 ---
 title: "base64FolderId (UM web service)"
-
 manager: sethgros
 ms.date: 9/17/2015
 ms.audience: Developer
 ms.topic: reference
-
 localization_priority: Normal
 api_name:
 - base64FolderId
@@ -13,6 +11,8 @@ api_type:
 - schema
 ms.assetid: 662f8f2f-49a7-4c7a-9065-98a02a49cfcd
 description: "The base64FolderId element contains the identifier of the folder to specify as the default e-mail folder from which Unified Messaging reads messages over the telephone in a SetTelephoneAccessFolderEmail operation (UM web service) request."
+ 
+ 
 ---
 
 # base64FolderId (UM web service)

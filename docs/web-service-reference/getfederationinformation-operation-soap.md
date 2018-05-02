@@ -1,17 +1,16 @@
 ---
 title: "GetFederationInformation operation (SOAP)"
- 
- 
 manager: sethgros
 ms.date: 9/17/2015
 ms.audience: Developer
 ms.topic: reference
- 
 localization_priority: Normal
 api_type:
 - schema
 ms.assetid: c6666a42-a18f-4e4b-beb6-b25ff62cfcc5
 description: "The GetFederationInformation operation provides information about the federation status of the organization, such as the target URI to be used when requesting tokens that are targeted at this organization, and the other domains that the organization has also federated."
+ 
+ 
 ---
 
 # GetFederationInformation operation (SOAP)

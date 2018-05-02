@@ -1,17 +1,16 @@
 ---
 title: "Type (SOAP)"
- 
- 
 manager: sethgros
 ms.date: 9/17/2015
 ms.audience: Developer
 ms.topic: reference
- 
 localization_priority: Normal
 api_type:
 - schema
 ms.assetid: bf12f857-5a2e-48fc-83a5-096a44204fd8
 description: "The Type element represents the alternate mailbox type."
+ 
+ 
 ---
 
 # Type (SOAP)

@@ -1,12 +1,9 @@
 ---
 title: "GetUMProperties operation (UM web service)"
- 
- 
 manager: sethgros
 ms.date: 9/17/2015
 ms.audience: Developer
 ms.topic: reference
- 
 localization_priority: Normal
 api_name:
 - GetUMProperties
@@ -14,6 +11,8 @@ api_type:
 - schema
 ms.assetid: 301fb9a3-67df-44c4-8ffe-0600237fc344
 description: "The GetUMProperties operation gets all the Unified Messaging properties for the mailbox of the user who is making the request."
+ 
+ 
 ---
 
 # GetUMProperties operation (UM web service)

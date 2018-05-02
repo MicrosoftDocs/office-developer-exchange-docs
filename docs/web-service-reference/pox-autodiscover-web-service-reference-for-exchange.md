@@ -1,17 +1,16 @@
 ---
 title: "POX Autodiscover web service reference for Exchange"
- 
- 
 manager: sethgros
 ms.date: 9/17/2015
 ms.audience: Developer
 ms.topic: reference
- 
 localization_priority: Normal
 api_type:
 - schema
 ms.assetid: 877152f0-f4b1-4f63-b2ce-924f4bdf2d20
 description: "Find reference information for the POX Autodiscover service in Exchange."
+ 
+ 
 ---
 
 # POX Autodiscover web service reference for Exchange

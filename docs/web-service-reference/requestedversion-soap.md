@@ -1,17 +1,16 @@
 ---
 title: "RequestedVersion (SOAP)"
- 
- 
 manager: sethgros
 ms.date: 9/17/2015
 ms.audience: Developer
 ms.topic: reference
- 
 localization_priority: Normal
 api_type:
 - schema
 ms.assetid: 962036c9-9b13-4669-bed2-2502c0f5aabe
 description: "The RequestedVersion element specifies the minimum service version that the client wants the request to be processed on."
+ 
+ 
 ---
 
 # RequestedVersion (SOAP)

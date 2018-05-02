@@ -1,12 +1,9 @@
 ---
 title: "SetOofStatusResponse (UM web service)"
- 
- 
 manager: sethgros
 ms.date: 9/17/2015
 ms.audience: Developer
 ms.topic: reference
- 
 localization_priority: Normal
 api_name:
 - SetOofStatusResponse
@@ -14,6 +11,8 @@ api_type:
 - schema
 ms.assetid: 8985e353-8d5e-48f6-bf1e-9a5ceadd3ce4
 description: "The SetOofStatusResponse element defines a response to a SetOofStatus operation (UM web service) request."
+ 
+ 
 ---
 
 # SetOofStatusResponse (UM web service)

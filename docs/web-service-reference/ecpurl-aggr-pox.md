@@ -1,15 +1,14 @@
 ---
 title: "EcpUrl-aggr (POX)"
- 
- 
 manager: sethgros
 ms.date: 9/17/2015
 ms.audience: Developer
 ms.topic: reference
- 
 localization_priority: Normal
 ms.assetid: 0e7879e3-9b8f-4f23-8291-bacec0e479c0
 description: "The EcpUrl-aggr element specifies a partial URL that can be combined with the EcpUrl (POX) element's value to generate a URL that can be used to access email aggregation settings for a mail-enabled user."
+ 
+ 
 ---
 
 # EcpUrl-aggr (POX)

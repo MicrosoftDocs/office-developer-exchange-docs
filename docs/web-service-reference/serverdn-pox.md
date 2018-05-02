@@ -1,17 +1,16 @@
 ---
 title: "ServerDN (POX)"
- 
- 
 manager: sethgros
 ms.date: 9/17/2015
 ms.audience: Developer
 ms.topic: reference
- 
 localization_priority: Normal
 api_type:
 - schema
 ms.assetid: 2ef73d13-e8bb-43f6-96c7-3ee157fed739
 description: "The ServerDN element specifies the distinguished name of the computer that is running Microsoft Exchange Server 2007."
+ 
+ 
 ---
 
 # ServerDN (POX)

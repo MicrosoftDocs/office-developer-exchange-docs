@@ -1,17 +1,16 @@
 ---
 title: "User (POX)"
- 
- 
 manager: sethgros
 ms.date: 9/17/2015
 ms.audience: Developer
 ms.topic: reference
- 
 localization_priority: Normal
 api_type:
 - schema
 ms.assetid: 7c42b516-77f6-4aee-99d8-b866d82d793a
 description: "The User element provides user-specific information."
+ 
+ 
 ---
 
 # User (POX)

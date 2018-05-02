@@ -1,17 +1,16 @@
 ---
 title: "GetDomainSettingsRequestMessage (SOAP)"
- 
- 
 manager: sethgros
 ms.date: 9/17/2015
 ms.audience: Developer
 ms.topic: reference
- 
 localization_priority: Normal
 api_type:
 - schema
 ms.assetid: 34913595-794c-4c62-9622-877f30931c73
 description: "The GetDomainSettingsRequestMessage element represents a GetDomainSettings operation (SOAP) operation request."
+ 
+ 
 ---
 
 # GetDomainSettingsRequestMessage (SOAP)

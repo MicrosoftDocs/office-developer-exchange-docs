@@ -1,15 +1,14 @@
 ---
 title: "ExternalAccessAllowed (SOAP)"
- 
- 
 manager: sethgros
 ms.date: 9/17/2015
 ms.audience: Developer
 ms.topic: reference
- 
 localization_priority: Normal
 ms.assetid: 967df8c0-ee95-4202-b037-0c4b9fbbf5ee
 description: "The ExternalAccessAllowed element indicates whether a document sharing location is available to outside connections."
+ 
+ 
 ---
 
 # ExternalAccessAllowed (SOAP)

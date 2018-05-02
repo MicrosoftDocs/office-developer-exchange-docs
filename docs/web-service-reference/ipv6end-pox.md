@@ -1,17 +1,16 @@
 ---
 title: "IPv6End (POX)"
- 
- 
 manager: sethgros
 ms.date: 9/17/2015
 ms.audience: Developer
 ms.topic: reference
- 
 localization_priority: Normal
 api_type:
 - schema
 ms.assetid: 85906f6c-4e16-4dd9-a3f2-0c9bffd249ca
 description: "The IPv6Start element identifies the end of a range of IP version 6 (IPv6) addresses that are used to identify a computer on a network."
+ 
+ 
 ---
 
 # IPv6End (POX)

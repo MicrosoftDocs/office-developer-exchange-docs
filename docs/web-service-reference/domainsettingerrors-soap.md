@@ -1,17 +1,16 @@
 ---
 title: "DomainSettingErrors (SOAP)"
- 
- 
 manager: sethgros
 ms.date: 9/17/2015
 ms.audience: Developer
 ms.topic: reference
- 
 localization_priority: Normal
 api_type:
 - schema
 ms.assetid: a4ce19de-f560-4984-8047-ecbbc86c9b91
 description: "The DomainSettingsErrors element contains error information for settings that could not be returned."
+ 
+ 
 ---
 
 # DomainSettingErrors (SOAP)

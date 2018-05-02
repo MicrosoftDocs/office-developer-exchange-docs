@@ -1,12 +1,9 @@
 ---
 title: "IsUMEnabled operation (UM web service)"
- 
- 
 manager: sethgros
 ms.date: 9/17/2015
 ms.audience: Developer
 ms.topic: reference
- 
 localization_priority: Normal
 api_name:
 - IsUMEnabled
@@ -14,6 +11,8 @@ api_type:
 - schema
 ms.assetid: fbe6cd95-f7a5-42b9-8a9d-b6159a269d55
 description: "The IsUMEnabled operation determines whether a mailbox is enabled for Unified Messaging."
+ 
+ 
 ---
 
 # IsUMEnabled operation (UM web service)

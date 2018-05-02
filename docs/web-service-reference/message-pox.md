@@ -1,17 +1,16 @@
 ---
 title: "Message (POX)"
- 
- 
 manager: sethgros
 ms.date: 9/17/2015
 ms.audience: Developer
 ms.topic: reference
- 
 localization_priority: Normal
 api_type:
 - schema
 ms.assetid: b0124b70-28ab-4484-ac81-465a42f42776
 description: "The Message element contains the error message for an error Autodiscover response."
+ 
+ 
 ---
 
 # Message (POX)

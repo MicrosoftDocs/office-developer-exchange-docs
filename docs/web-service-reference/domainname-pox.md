@@ -1,17 +1,16 @@
 ---
 title: "DomainName (POX)"
- 
- 
 manager: sethgros
 ms.date: 9/17/2015
 ms.audience: Developer
 ms.topic: reference
- 
 localization_priority: Normal
 api_type:
 - schema
 ms.assetid: 2b4af2b2-58b5-4f28-9cb3-c07a11377747
 description: "The DomainName element specifies the user's domain."
+ 
+ 
 ---
 
 # DomainName (POX)

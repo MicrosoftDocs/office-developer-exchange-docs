@@ -1,17 +1,16 @@
 ---
 title: "TTL (POX)"
- 
- 
 manager: sethgros
 ms.date: 9/17/2015
 ms.audience: Developer
 ms.topic: reference
- 
 localization_priority: Normal
 api_type:
 - schema
 ms.assetid: 178eefa1-995c-4bea-930b-e51293961191
 description: "The TTL element specifies the Time to Live, in hours, during which the settings remain valid."
+ 
+ 
 ---
 
 # TTL (POX)

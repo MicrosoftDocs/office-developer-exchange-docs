@@ -1,12 +1,9 @@
 ---
 title: "SetPlayOnPhoneDialString (UM web service)"
- 
- 
 manager: sethgros
 ms.date: 9/17/2015
 ms.audience: Developer
 ms.topic: reference
- 
 localization_priority: Normal
 api_name:
 - SetPlayOnPhoneDialString
@@ -14,6 +11,8 @@ api_type:
 - schema
 ms.assetid: 513a5072-c3ac-405f-98c2-0ab982d0a360
 description: "The SetPlayOnPhoneDialString element defines a request to set the default dial string for PlayOnPhone operation (UM web service) and PlayOnPhoneGreeting operation (UM web service) requests."
+ 
+ 
 ---
 
 # SetPlayOnPhoneDialString (UM web service)

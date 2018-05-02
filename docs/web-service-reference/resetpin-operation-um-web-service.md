@@ -1,12 +1,9 @@
 ---
 title: "ResetPIN operation (UM web service)"
- 
- 
 manager: sethgros
 ms.date: 9/17/2015
 ms.audience: Developer
 ms.topic: reference
- 
 localization_priority: Normal
 api_name:
 - ResetPIN
@@ -14,6 +11,8 @@ api_type:
 - schema
 ms.assetid: c0f14a15-3389-4311-8bac-f87930c5f5d4
 description: "The ResetPIN operation changes the PIN (TUI password) to a new random value."
+ 
+ 
 ---
 
 # ResetPIN operation (UM web service)

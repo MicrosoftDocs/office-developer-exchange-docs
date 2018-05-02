@@ -1,17 +1,16 @@
 ---
 title: "DirectoryPort (POX)"
- 
- 
 manager: sethgros
 ms.date: 9/17/2015
 ms.audience: Developer
 ms.topic: reference
- 
 localization_priority: Normal
 api_type:
 - schema
 ms.assetid: ab436b54-ceba-4cd9-aeb4-134f9b93986d
 description: "The DirectoryPort element specifies the port that is used to connect to the directory when the Name Service Provider Interface (NSPI) protocol is used."
+ 
+ 
 ---
 
 # DirectoryPort (POX)

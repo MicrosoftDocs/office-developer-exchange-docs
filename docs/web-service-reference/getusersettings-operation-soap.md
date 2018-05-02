@@ -1,17 +1,16 @@
 ---
 title: "GetUserSettings operation (SOAP)"
- 
- 
 manager: sethgros
 ms.date: 9/17/2015
 ms.audience: Developer
 ms.topic: reference
- 
 localization_priority: Normal
 api_type:
 - schema
 ms.assetid: 758d965c-ef63-4de4-9120-e293abf14ff8
 description: "The GetUserSettings operation contains a query for users' client access configuration."
+ 
+ 
 ---
 
 # GetUserSettings operation (SOAP)

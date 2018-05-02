@@ -1,15 +1,14 @@
 ---
 title: "GetOrganizationRelationshipSettingsResponse (SOAP)"
- 
- 
 manager: sethgros
 ms.date: 9/17/2015
 ms.audience: Developer
 ms.topic: reference
- 
 localization_priority: Normal
 ms.assetid: 2f43b817-92c2-4e04-8095-479d790f768c
 description: "The GetOrganizationRelationshipSettingsResponse element contains the GetOrganizationRelationshipSettings operation (SOAP) response. The GetOrganizationRelationshipSettingsResponse element is for internal use only. This element is not used by clients."
+ 
+ 
 ---
 
 # GetOrganizationRelationshipSettingsResponse (SOAP)

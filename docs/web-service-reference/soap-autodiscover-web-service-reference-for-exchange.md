@@ -1,17 +1,16 @@
 ---
 title: "SOAP Autodiscover web service reference for Exchange"
- 
- 
 manager: sethgros
 ms.date: 9/17/2015
 ms.audience: Developer
 ms.topic: reference
- 
 localization_priority: Normal
 api_type:
 - schema
 ms.assetid: 61c21ea9-7fea-4f56-8ada-bf80e1e6b074
 description: "Find reference information for the SOAP Autodiscover service in Exchange."
+ 
+ 
 ---
 
 # SOAP Autodiscover web service reference for Exchange

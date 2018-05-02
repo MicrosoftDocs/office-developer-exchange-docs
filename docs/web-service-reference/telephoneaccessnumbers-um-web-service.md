@@ -1,12 +1,9 @@
 ---
 title: "TelephoneAccessNumbers (UM web service)"
- 
- 
 manager: sethgros
 ms.date: 9/17/2015
 ms.audience: Developer
 ms.topic: reference
- 
 localization_priority: Normal
 api_name:
 - TelephoneAccessNumbers
@@ -14,6 +11,8 @@ api_type:
 - schema
 ms.assetid: b8990f8a-12c4-4dac-b426-1a767cf95a6e
 description: "The TelephoneAccessNumbers element contains a value that is a list of telephone numbers that users can use to access Unified Messaging as returned in a response to a GetUMProperties operation (UM web service) request."
+ 
+ 
 ---
 
 # TelephoneAccessNumbers (UM web service)

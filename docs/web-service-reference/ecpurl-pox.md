@@ -1,15 +1,14 @@
 ---
 title: "EcpUrl (POX)"
- 
- 
 manager: sethgros
 ms.date: 9/17/2015
 ms.audience: Developer
 ms.topic: reference
- 
 localization_priority: Normal
 ms.assetid: 7cbd6076-9981-4c65-a296-5e57518671b5
 description: "The EcpUrl element specifies the URL of the Exchange Control Panel for a mail-enabled user."
+ 
+ 
 ---
 
 # EcpUrl (POX)

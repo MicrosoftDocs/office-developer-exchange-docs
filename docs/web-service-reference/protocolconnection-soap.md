@@ -1,17 +1,16 @@
 ---
 title: "ProtocolConnection (SOAP)"
- 
- 
 manager: sethgros
 ms.date: 9/17/2015
 ms.audience: Developer
 ms.topic: reference
- 
 localization_priority: Normal
 api_type:
 - schema
 ms.assetid: 6eef2188-6194-48f1-ad7e-46104aecdf56
 description: "The ProtocolConnection element represents the protocol connection of the server Web client."
+ 
+ 
 ---
 
 # ProtocolConnection (SOAP)

@@ -1,17 +1,16 @@
 ---
 title: "Mailbox (SOAP)"
- 
- 
 manager: sethgros
 ms.date: 9/17/2015
 ms.audience: Developer
 ms.topic: reference
- 
 localization_priority: Normal
 api_type:
 - schema
 ms.assetid: 4ad59e5b-4047-4c34-a318-ca06c31d3de8
 description: "The Mailbox element contains the e-mail address of the user to be discovered."
+ 
+ 
 ---
 
 # Mailbox (SOAP)

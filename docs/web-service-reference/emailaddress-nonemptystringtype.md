@@ -1,6 +1,5 @@
 ---
 title: "EmailAddress (NonEmptyStringType)"
-
 manager: sethgros
 ms.date: 9/17/2015
 ms.audience: Developer
@@ -12,6 +11,8 @@ api_type:
 - schema
 ms.assetid: c0c708d1-b016-4902-a294-9af44aea2050
 description: "The EmailAddress element defines the primary SMTP address of a mailbox user."
+ 
+ 
 ---
 
 # EmailAddress (NonEmptyStringType)

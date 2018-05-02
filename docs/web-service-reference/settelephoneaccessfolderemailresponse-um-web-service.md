@@ -1,12 +1,9 @@
 ---
 title: "SetTelephoneAccessFolderEmailResponse (UM web service)"
- 
- 
 manager: sethgros
 ms.date: 9/17/2015
 ms.audience: Developer
 ms.topic: reference
- 
 localization_priority: Normal
 api_name:
 - SetTelephoneAccessFolderEmailResponse
@@ -14,6 +11,8 @@ api_type:
 - schema
 ms.assetid: 01d07114-5764-4ea7-948c-1ae95c287f0c
 description: "The SetTelephoneAccessFolderEmailResponse element defines a response to a SetTelephoneAccessFolderEmail operation (UM web service) request."
+ 
+ 
 ---
 
 # SetTelephoneAccessFolderEmailResponse (UM web service)

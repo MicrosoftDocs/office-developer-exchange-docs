@@ -1,12 +1,9 @@
 ---
 title: "Disconnect operation (UM web service)"
- 
- 
 manager: sethgros
 ms.date: 9/17/2015
 ms.audience: Developer
 ms.topic: reference
- 
 localization_priority: Normal
 api_name:
 - Disconnect
@@ -14,6 +11,8 @@ api_type:
 - schema
 ms.assetid: a987000b-d6e6-49d7-944c-e9c278d0236f
 description: "The Disconnect operation terminates the call that is identified by the specified CallId (UM web service)."
+ 
+ 
 ---
 
 # Disconnect operation (UM web service)

@@ -1,17 +1,16 @@
 ---
 title: "MinorVersion (SOAP)"
- 
- 
 manager: sethgros
 ms.date: 9/17/2015
 ms.audience: Developer
 ms.topic: reference
- 
 localization_priority: Normal
 api_type:
 - schema
 ms.assetid: 2ef4e181-7324-4c88-94a9-1cffefc8c008
 description: "The MinorVersion element represents minor version number for the server."
+ 
+ 
 ---
 
 # MinorVersion (SOAP)

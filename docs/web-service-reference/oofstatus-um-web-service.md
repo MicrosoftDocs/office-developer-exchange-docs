@@ -1,12 +1,9 @@
 ---
 title: "OofStatus (UM web service)"
- 
- 
 manager: sethgros
 ms.date: 9/17/2015
 ms.audience: Developer
 ms.topic: reference
- 
 localization_priority: Normal
 api_name:
 - OofStatus
@@ -14,6 +11,8 @@ api_type:
 - schema
 ms.assetid: 0ba4225a-784e-4e6e-bd20-be45f0f7597c
 description: "The OofStatus element contains a value that indicaties the Unified Messaging Out of Office status for the user who is making a GetUMProperties operation (UM web service) request."
+ 
+ 
 ---
 
 # OofStatus (UM web service)

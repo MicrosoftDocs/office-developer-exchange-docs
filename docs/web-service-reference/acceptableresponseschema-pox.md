@@ -1,17 +1,16 @@
 ---
 title: "AcceptableResponseSchema (POX)"
- 
- 
 manager: sethgros
 ms.date: 9/17/2015
 ms.audience: Developer
 ms.topic: reference
- 
 localization_priority: Normal
 api_type:
 - schema
 ms.assetid: 2f0f77bd-4cbe-4c02-880d-a93b387141d9
 description: "The AcceptableResponseSchema element identifies the schema for an Autodiscover response."
+ 
+ 
 ---
 
 # AcceptableResponseSchema (POX)

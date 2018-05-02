@@ -1,12 +1,9 @@
 ---
 title: "PlayOnPhone (UM web service)"
- 
- 
 manager: sethgros
 ms.date: 9/17/2015
 ms.audience: Developer
 ms.topic: reference
- 
 localization_priority: Normal
 api_name:
 - PlayOnPhone
@@ -14,6 +11,8 @@ api_type:
 - schema
 ms.assetid: 206a2ad1-a01d-4e71-99a1-90c2530423da
 description: "The PlayOnPhone element defines a request to play an item on a telephone."
+ 
+ 
 ---
 
 # PlayOnPhone (UM web service)

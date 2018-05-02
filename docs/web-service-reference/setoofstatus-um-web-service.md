@@ -1,12 +1,9 @@
 ---
 title: "SetOofStatus (UM web service)"
- 
- 
 manager: sethgros
 ms.date: 9/17/2015
 ms.audience: Developer
 ms.topic: reference
- 
 localization_priority: Normal
 api_name:
 - SetOofStatus
@@ -14,6 +11,8 @@ api_type:
 - schema
 ms.assetid: 9fc0ea9c-7a98-4fd7-a90c-cf5639c63a3a
 description: "The SetOofStatus element defines a request to set the Unified Messaging Out of Office (OOF) status for the user who makes the request."
+ 
+ 
 ---
 
 # SetOofStatus (UM web service)

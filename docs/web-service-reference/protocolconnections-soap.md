@@ -1,17 +1,16 @@
 ---
 title: "ProtocolConnections (SOAP)"
- 
- 
 manager: sethgros
 ms.date: 9/17/2015
 ms.audience: Developer
 ms.topic: reference
- 
 localization_priority: Normal
 api_type:
 - schema
 ms.assetid: afcacecd-f081-4419-a6d5-e45070839f9a
 description: "The ProtocolConnections element contains zero or more protocol connections."
+ 
+ 
 ---
 
 # ProtocolConnections (SOAP)

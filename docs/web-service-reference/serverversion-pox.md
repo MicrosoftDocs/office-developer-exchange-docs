@@ -1,17 +1,16 @@
 ---
 title: "ServerVersion (POX)"
- 
- 
 manager: sethgros
 ms.date: 9/17/2015
 ms.audience: Developer
 ms.topic: reference
- 
 localization_priority: Normal
 api_type:
 - schema
 ms.assetid: 2c0bc41c-2452-4fc8-a19c-0e85f9fdbc4a
 description: "The ServerVersion element represents the version number of the computer that is running Microsoft Exchange Server."
+ 
+ 
 ---
 
 # ServerVersion (POX)

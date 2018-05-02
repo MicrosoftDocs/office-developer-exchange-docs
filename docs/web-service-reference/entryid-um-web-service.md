@@ -1,11 +1,9 @@
 ---
 title: "entryId (UM web service)"
-
 manager: sethgros
 ms.date: 9/17/2015
 ms.audience: Developer
 ms.topic: reference
-
 localization_priority: Normal
 api_name:
 - entryId
@@ -13,6 +11,8 @@ api_type:
 - schema
 ms.assetid: ce62eab5-0079-493b-be1f-52b62fdf35dc
 description: "The entryId element contains the value that represents the identifier of the item to play on the telephone in a PlayOnPhone operation (UM web service) request."
+ 
+ 
 ---
 
 # entryId (UM web service)

@@ -1,17 +1,16 @@
 ---
 title: "Server (POX)"
- 
- 
 manager: sethgros
 ms.date: 9/17/2015
 ms.audience: Developer
 ms.topic: reference
- 
 localization_priority: Normal
 api_type:
 - schema
 ms.assetid: 0ce51644-7f3a-408c-a398-814439b658dc
 description: "The Server element specifies the name of the mail server."
+ 
+ 
 ---
 
 # Server (POX)

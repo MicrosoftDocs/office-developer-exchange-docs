@@ -1,15 +1,14 @@
 ---
 title: "AnonymousAccessAllowed (SOAP)"
- 
- 
 manager: sethgros
 ms.date: 9/17/2015
 ms.audience: Developer
 ms.topic: reference
- 
 localization_priority: Normal
 ms.assetid: bf819a65-30f2-4881-a34f-cb30a9c2b6a7
 description: "The AnonymousAccessAllowed element indicates whether a document sharing location requires an authenticated user."
+ 
+ 
 ---
 
 # AnonymousAccessAllowed (SOAP)

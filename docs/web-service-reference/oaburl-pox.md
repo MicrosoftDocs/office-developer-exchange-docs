@@ -1,17 +1,16 @@
 ---
 title: "OABUrl (POX)"
- 
- 
 manager: sethgros
 ms.date: 9/17/2015
 ms.audience: Developer
 ms.topic: reference
- 
 localization_priority: Normal
 api_type:
 - schema
 ms.assetid: 8949a9b7-1871-4031-9a86-61636e695e4c
 description: "The OABUrl element specifies the Offline Address Book configuration server URL for an Exchange topology."
+ 
+ 
 ---
 
 # OABUrl (POX)

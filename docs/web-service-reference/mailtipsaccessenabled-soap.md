@@ -1,15 +1,14 @@
 ---
 title: "MailTipsAccessEnabled (SOAP)"
- 
- 
 manager: sethgros
 ms.date: 9/17/2015
 ms.audience: Developer
 ms.topic: reference
- 
 localization_priority: Normal
 ms.assetid: 205606b0-8b39-4acf-941a-e544efcedd6c
 description: "The MailTipsAccessEnabled element represents the MailTipsAccessEnabled() flag. The MailTipsAccessEnabled element is for internal use only. This element is not used by clients."
+ 
+ 
 ---
 
 # MailTipsAccessEnabled (SOAP)

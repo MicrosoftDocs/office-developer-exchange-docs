@@ -1,17 +1,16 @@
 ---
 title: "Port (SOAP)"
- 
- 
 manager: sethgros
 ms.date: 9/17/2015
 ms.audience: Developer
 ms.topic: reference
- 
 localization_priority: Normal
 api_type:
 - schema
 ms.assetid: 7db8ceb3-0bca-4822-a1aa-f0947b770f26
 description: "The Port element represents the port number to use for the protocol."
+ 
+ 
 ---
 
 # Port (SOAP)

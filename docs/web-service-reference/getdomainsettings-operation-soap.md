@@ -1,17 +1,16 @@
 ---
 title: "GetDomainSettings operation (SOAP)"
- 
- 
 manager: sethgros
 ms.date: 9/17/2015
 ms.audience: Developer
 ms.topic: reference
- 
 localization_priority: Normal
 api_type:
 - schema
 ms.assetid: a6f4a53d-d7f6-4ad1-8afb-78745c500eaa
 description: "The GetDomainSettings operation retrieves the specified settings of the domain for the user. Autodiscover returns the domains that are to be discovered and the requested settings of those domains."
+ 
+ 
 ---
 
 # GetDomainSettings operation (SOAP)

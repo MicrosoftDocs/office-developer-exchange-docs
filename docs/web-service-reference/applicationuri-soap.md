@@ -1,17 +1,16 @@
 ---
 title: "ApplicationUri (SOAP)"
- 
- 
 manager: sethgros
 ms.date: 9/17/2015
 ms.audience: Developer
 ms.topic: reference
- 
 localization_priority: Normal
 api_type:
 - schema
 ms.assetid: 02a213ac-ceb3-456c-8347-f1dbddf64d4f
 description: "The ApplicationUri element defines the location of an application."
+ 
+ 
 ---
 
 # ApplicationUri (SOAP)

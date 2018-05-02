@@ -1,17 +1,16 @@
 ---
 title: "SPA (POX)"
- 
- 
 manager: sethgros
 ms.date: 9/17/2015
 ms.audience: Developer
 ms.topic: reference
- 
 localization_priority: Normal
 api_type:
 - schema
 ms.assetid: fba018d5-0c65-4e1b-9767-d1ce8b356278
 description: "The SPA element indicates whether Secure Password Authentication (SPA) is required."
+ 
+ 
 ---
 
 # SPA (POX)

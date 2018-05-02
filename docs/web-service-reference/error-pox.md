@@ -1,17 +1,16 @@
 ---
 title: "Error (POX)"
- 
- 
 manager: sethgros
 ms.date: 9/17/2015
 ms.audience: Developer
 ms.topic: reference
- 
 localization_priority: Normal
 api_type:
 - schema
 ms.assetid: 91c63b62-ab68-4c32-a2f7-5a87c188335b
 description: "The Error element contains an Autodiscover error response."
+ 
+ 
 ---
 
 # Error (POX)

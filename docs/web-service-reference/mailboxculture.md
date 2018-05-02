@@ -1,0 +1,66 @@
+---
+title: "MailboxCulture"
+ 
+ 
+manager: sethgros
+ms.date: 9/17/2015
+ms.audience: Developer
+ms.topic: reference
+ms.prod: office-online-server
+localization_priority: Normal
+api_name:
+- MailboxCulture
+api_type:
+- schema
+ms.assetid: 105cc061-3c35-455f-b102-8023e2055632
+description: "The MailboxCulture element indicates the culture to use when opening a mailbox. This element occurs in the SOAP header."
+---
+
+# MailboxCulture
+
+The **MailboxCulture** element indicates the culture to use when opening a mailbox. This element occurs in the SOAP header. 
+  
+```
+<MailboxCulture/>
+```
+
+ **MailboxCultureType**
+## Attributes and elements
+
+The following sections describe attributes, child elements, and parent elements.
+  
+#### Attributes
+
+None.
+  
+#### Child elements
+
+None.
+  
+#### Parent elements
+
+None.
+  
+## Text value
+
+The text value indicates the language that is used in the Exchange Web Service operations. The possible values for this element are described by RFC 3066.
+  
+## Remarks
+
+The schema that describes this element is located in the EWS virtual directory of the computer that is running Exchange Server with the Client Access server role installed.
+  
+## Element information
+
+|||
+|:-----|:-----|
+|Namespace  <br/> |http://schemas.microsoft.com/exchange/services/2006/types  <br/> |
+|Schema Name  <br/> |Types schema  <br/> |
+|Validation File  <br/> |Types.xsd  <br/> |
+|Can be Empty  <br/> |False  <br/> |
+   
+## See also
+
+#### Concepts
+
+[EWS XML elements in Exchange](ews-xml-elements-in-exchange.md)
+

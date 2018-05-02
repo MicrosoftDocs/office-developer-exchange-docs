@@ -1,17 +1,16 @@
 ---
 title: "OOFUrl (POX)"
- 
- 
 manager: sethgros
 ms.date: 9/17/2015
 ms.audience: Developer
 ms.topic: reference
- 
 localization_priority: Normal
 api_type:
 - schema
 ms.assetid: 76c5532b-de5f-4227-9284-eab8ef076c55
 description: "The OOFUrl element specifies the URL of the best instance of the Availability service for a mail-enabled user."
+ 
+ 
 ---
 
 # OOFUrl (POX)

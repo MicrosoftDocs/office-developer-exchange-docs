@@ -1,17 +1,16 @@
 ---
 title: "ASUrl (POX)"
- 
- 
 manager: sethgros
 ms.date: 9/17/2015
 ms.audience: Developer
 ms.topic: reference
- 
 localization_priority: Normal
 api_type:
 - schema
 ms.assetid: 6727f282-ec4c-4e61-8414-e7ba5f9865e7
 description: "The ASUrl element specifies the URL of the best endpoint instance of Exchange Availability Web Services for a mail-enabled user."
+ 
+ 
 ---
 
 # ASUrl (POX)

@@ -1,17 +1,16 @@
 ---
 title: "Request (GetFederationInformation) (SOAP)"
- 
- 
 manager: sethgros
 ms.date: 9/17/2015
 ms.audience: Developer
 ms.topic: reference
- 
 localization_priority: Normal
 api_type:
 - schema
 ms.assetid: beeb5371-f57b-4346-9753-035dd42c6bee
 description: "The Request element represents a GetFederationInformationRequest (SOAP) request."
+ 
+ 
 ---
 
 # Request (GetFederationInformation) (SOAP)

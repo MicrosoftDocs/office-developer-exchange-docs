@@ -1,17 +1,16 @@
 ---
 title: "UsePOPAuth (POX)"
- 
- 
 manager: sethgros
 ms.date: 9/17/2015
 ms.audience: Developer
 ms.topic: reference
- 
 localization_priority: Normal
 api_type:
 - schema
 ms.assetid: 28f552d8-6bb8-49b4-a45c-b2053670f1cc
 description: "The UsePOPAuth element indicates whether the authentication information that is provided for a POP3 type of account is also used for Simple Mail Transfer Protocol (SMTP)."
+ 
+ 
 ---
 
 # UsePOPAuth (POX)
