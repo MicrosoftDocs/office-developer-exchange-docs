@@ -4511,6 +4511,6 @@
             - name: 'How to: Validate backup integrity by using the Eseutil tool'
               href: backup-restore/how-to-validate-backup-integrity-by-using-the-eseutil-tool-in-exchange-2013.md
           - name: CChkSGFiles class reference
-            href: bhttps://msdn.microsoft.com/en-us/library/office/bb204219(v=exchg.150).aspx
+            href: https://msdn.microsoft.com/en-us/library/office/bb204219(v=exchg.150).aspx
         - name: Server API reference
           href: https://msdn.microsoft.com/en-us/library/dn186243(v=exchg.150).aspx
