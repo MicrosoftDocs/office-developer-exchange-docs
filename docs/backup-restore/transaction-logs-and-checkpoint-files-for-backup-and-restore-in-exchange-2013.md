@@ -1,7 +1,7 @@
 ---
 title: "Transaction logs and checkpoint files for backup and restore in Exchange 2013"
-ms.author: null
-author: null
+ 
+ 
 manager: sethgros
 ms.date: 9/17/2015
 ms.audience: Developer

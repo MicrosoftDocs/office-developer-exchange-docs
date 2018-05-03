@@ -1,7 +1,7 @@
 ---
 title: "Build backup and restore applications for Exchange 2013"
-ms.author: null
-author: null
+ 
+ 
 manager: sethgros
 ms.date: 9/17/2015
 ms.audience: Developer

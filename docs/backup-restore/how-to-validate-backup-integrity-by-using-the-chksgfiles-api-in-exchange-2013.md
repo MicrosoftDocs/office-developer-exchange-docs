@@ -1,7 +1,7 @@
 ---
 title: "How to Validate backup integrity by using the CHKSGFILES API in Exchange 2013"
-ms.author: null
-author: null
+ 
+ 
 manager: sethgros
 ms.date: 9/17/2015
 ms.audience: Developer

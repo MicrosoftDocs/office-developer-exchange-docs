@@ -4511,6 +4511,35 @@
             - name: 'How to: Validate backup integrity by using the Eseutil tool'
               href: backup-restore/how-to-validate-backup-integrity-by-using-the-eseutil-tool-in-exchange-2013.md
           - name: CChkSGFiles class reference
-            href: https://msdn.microsoft.com/en-us/library/office/bb204219(v=exchg.150).aspx
+            href: backup-restore/cchksgfiles-class-reference.md
+            items:
+            - name: CChkSGFiles.CMaxDbPerSG function
+              href: backup-restore/cchksgfiles-cmaxdbpersg-function.md
+            - name: CChkSGFiles.Delete function
+              href: backup-restore/cchksgfiles-delete-function.md
+            - name: CChkSGFiles.ERR enumeration
+              href: backup-restore/cchksgfiles-err-enumeration.md
+            - name: CChkSGFiles.ErrCheckDbHeaders function
+              href: backup-restore/cchksgfiles-errcheckdbheaders-function.md
+            - name: CChkSGFiles.ErrCheckDbPages function
+              href: backup-restore/cchksgfiles-errcheckdbpages-function.md
+            - name: CChkSGFiles.ErrCheckLogs function
+              href: backup-restore/cchksgfiles-errchecklogs-function.md
+            - name: CChkSGFiles.ErrGetHeader function (reserved)
+              href: backup-restore/cchksgfiles-errgetheader-function-reserved.md
+            - name: CChkSGFiles.ErrInit function
+              href: backup-restore/cchksgfiles-errinit-function.md
+            - name: CChkSGFiles.ErrTerm function
+              href: backup-restore/cchksgfiles-errterm-function.md
+            - name: CChkSGFiles.iDbInvalid enumeration
+              href: backup-restore/cchksgfiles-idbinvalid-enumeration.md
+            - name: CChkSGFiles.New function
+              href: backup-restore/cchksgfiles-new-function.md
+            - name: CChkSGFiles.NO_FLAGS enumeration
+              href: backup-restore/cchksgfiles-no_flags-enumeration.md
+            - name: CChkSGFiles.PAGE_INFO struct
+              href: backup-restore/cchksgfiles-page_info-struct.md
+            - name: CChkSGFiles.PgnoFromFileOffset function
+              href: backup-restore/cchksgfiles-pgnofromfileoffset-function.md
         - name: Server API reference
           href: https://msdn.microsoft.com/en-us/library/dn186243(v=exchg.150).aspx
