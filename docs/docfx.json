@@ -40,8 +40,8 @@
     "globalMetadata": {
       "breadcrumb_path": "/exchange/client-developer/breadcrumb/toc.json",
       "extendBreadcrumb": true,
-       "ms.topic": "conceptual",
-		"uhfHeaderId": "MSDocsHeader-Dev_Office",
+      "ms.topic": "conceptual",
+	  "uhfHeaderId": "MSDocsHeader-Dev_Office",
 	   "ms.suite": "office",
 	   "ms.prod" : "exchange",
 	   "ms.author": "o365devx",
