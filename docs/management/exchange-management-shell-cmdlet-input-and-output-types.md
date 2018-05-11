@@ -1,7 +1,5 @@
 ---
 title: "Exchange Management Shell cmdlet input and output types"
- 
- 
 manager: sethgros
 ms.date: 9/17/2015
 ms.audience: Developer
@@ -16,15 +14,13 @@ description: "Find input and output types for Exchange Management Shell cmdlets.
 
 Find input and output types for Exchange Management Shell cmdlets.
   
- **Last modified:** September 17, 2015 
-  
- * **Applies to:** Exchange Online | Exchange Server 2013 | Office 365 * 
+**Applies to:** Exchange Online | Exchange Server 2013 | Office 365
   
 The following table lists the Exchange Management Shell cmdlets and the input and output type for each cmdlet. For more information about the Exchange cmdlets, see [Exchange 2013 Cmdlets](http://technet.microsoft.com/en-us/library/bb124413%28v=exchg.150%29.aspx) on Technet. 
   
 ## Exchange Management Shell cmdlet input and output types
 
-|**Cmdlet name**|**Input type(s)**|**Output type(s)**|
+|Cmdlet name|Input type(s)|Output type(s)|
 |:-----|:-----|:-----|
 |**Get-AcceptedDomain** <br/> |[AcceptedDomainIdParameter](https://msdn.microsoft.com/library/Microsoft.Exchange.Configuration.Tasks.AcceptedDomainIdParameter.aspx) <br/> [AccountPartitionIdParameter](https://msdn.microsoft.com/library/Microsoft.Exchange.Configuration.Tasks.AccountPartitionIdParameter.aspx) <br/> [OrganizationIdParameter](https://msdn.microsoft.com/library/Microsoft.Exchange.Configuration.Tasks.OrganizationIdParameter.aspx) <br/> [Fqdn](https://msdn.microsoft.com/library/Microsoft.Exchange.Data.Fqdn.aspx) <br/> [Int64](https://msdn.microsoft.com/library/System.Int64.aspx) <br/> [String](https://msdn.microsoft.com/library/System.String.aspx) <br/> |[AcceptedDomain](https://msdn.microsoft.com/library/Microsoft.Exchange.Data.Directory.SystemConfiguration.AcceptedDomain.aspx) <br/> |
 |**New-AcceptedDomain** <br/> |[MailFlowPartnerIdParameter](https://msdn.microsoft.com/library/Microsoft.Exchange.Configuration.Tasks.MailFlowPartnerIdParameter.aspx) <br/> [OrganizationIdParameter](https://msdn.microsoft.com/library/Microsoft.Exchange.Configuration.Tasks.OrganizationIdParameter.aspx) <br/> [RecipientIdParameter](https://msdn.microsoft.com/library/Microsoft.Exchange.Configuration.Tasks.RecipientIdParameter.aspx) <br/> [AuthenticationType](https://msdn.microsoft.com/library/Microsoft.Exchange.Data.Directory.AuthenticationType.aspx) <br/> [LiveIdInstanceType](https://msdn.microsoft.com/library/Microsoft.Exchange.Data.Directory.LiveIdInstanceType.aspx) <br/> [AcceptedDomainType](https://msdn.microsoft.com/library/Microsoft.Exchange.Data.Directory.SystemConfiguration.AcceptedDomainType.aspx) <br/> [Fqdn](https://msdn.microsoft.com/library/Microsoft.Exchange.Data.Fqdn.aspx) <br/> [SmtpDomainWithSubdomains](https://msdn.microsoft.com/library/Microsoft.Exchange.Data.SmtpDomainWithSubdomains.aspx) <br/> [Boolean](https://msdn.microsoft.com/library/System.Boolean.aspx) <br/> [String](https://msdn.microsoft.com/library/System.String.aspx) <br/> |[AcceptedDomain](https://msdn.microsoft.com/library/Microsoft.Exchange.Data.Directory.SystemConfiguration.AcceptedDomain.aspx) <br/> |
@@ -981,8 +977,7 @@ The following table lists the Exchange Management Shell cmdlets and the input an
    
 ## See also
 
-- [How to: Get a list of mail users by using the Exchange Management Shell](how-to-get-a-list-of-mail-users-by-using-the-exchange-management-shell.md)
-    
-- [How to: Use the Exchange Management Shell cmdlet response](how-to-use-the-exchange-management-shell-cmdlet-response.md)
+- [Get a list of mail users by using the Exchange Management Shell](how-to-get-a-list-of-mail-users-by-using-the-exchange-management-shell.md)  
+- [Use the Exchange Management Shell cmdlet response](how-to-use-the-exchange-management-shell-cmdlet-response.md)
     
 

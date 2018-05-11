@@ -1,7 +1,5 @@
 ---
 title: "Create Exchange Management Shell tools"
- 
- 
 manager: sethgros
 ms.date: 9/17/2015
 ms.audience: Developer
@@ -15,10 +13,8 @@ description: "Find information to get started creating Exchange Management Shell
 # Create Exchange Management Shell tools
 
 Find information to get started creating Exchange Management Shell tools for Exchange.
-  
- **Last modified:** September 17, 2015 
-  
- * **Applies to:** Exchange Online | Exchange Server 2013 | Office 365 * 
+
+**Applies to:** Exchange Online | Exchange Server 2013 | Office 365
   
 The Exchange Management Shell provides a rich set of commands, based on the Windows PowerShell platform, for managing Exchange Online, Exchange Online as part of Office 365, or an on-premises version of Exchange starting with Exchange 2013. You can use Exchange Management Shell commands to automate the administration of a server by directly executing the commands, or by using command scripts.
   
@@ -34,7 +30,6 @@ The Exchange Management Shell cmdlets are extensions to Windows PowerShell, a ta
 The Exchange Management Shell cmdlets accept and return objects. For a list of Exchange management shell cmdlets and their input and output types, see [Exchange Management Shell cmdlet input and output types](exchange-management-shell-cmdlet-input-and-output-types.md).
   
 ## In this section
-<a name="SP15GettingStartedTemplate_WhatDoYouNeed"> </a>
 
 - [New and updated Exchange Management Shell cmdlets](new-and-updated-exchange-management-shell-cmdlets.md)
     
@@ -43,14 +38,12 @@ The Exchange Management Shell cmdlets accept and return objects. For a list of E
 - [How to: Get a list of mail users by using the Exchange Management Shell](how-to-get-a-list-of-mail-users-by-using-the-exchange-management-shell.md)
     
 - [How to: Use the Exchange Management Shell cmdlet response](how-to-use-the-exchange-management-shell-cmdlet-response.md)
-    
-## See also
-<a name="SP15GettingStartedTemplate_WhatDoYouNeed"> </a>
 
-- [Exchange Management Shell namespaces](exchange-management-shell-namespaces.md)
-    
-- [Exchange Management Shell](http://technet.microsoft.com/en-us/library/bb123778.aspx)
-    
+
+## See also
+
+- [Exchange Management Shell namespaces](exchange-management-shell-namespaces.md)  
+- [Exchange Management Shell](http://technet.microsoft.com/en-us/library/bb123778.aspx)  
 - [Windows PowerShell](http://msdn.microsoft.com/en-us/library/dd835506%28v=vs.85%29.aspx)
     
 

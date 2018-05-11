@@ -1,7 +1,5 @@
 ---
 title: "Exchange Management Shell namespaces"
- 
- 
 manager: sethgros
 ms.date: 9/17/2015
 ms.audience: Developer
@@ -16,9 +14,7 @@ description: "Find information about the namespaces for the Exchange Management 
 
 Find information about the namespaces for the Exchange Management Shell in Exchange.
   
- **Last modified:** September 17, 2015 
-  
- * **Applies to:** Exchange Online | Exchange Server 2013 | Office 365 * 
+**Applies to:** Exchange Online | Exchange Server 2013 | Office 365
   
 Exchange Management Shell applications for Exchange Online, Exchange Online as part of Office 365, or a version of Exchange starting with Exchange 2013 interact with the Windows PowerShell environment through the types that are exposed by the **System.Management.Automation** namespace. The Exchange Management Shell cmdlets use types from a number of Exchange libraries. This section provides reference information about the types and interfaces from the Exchange libraries that are used by Exchange Management Shell cmdlets. 
   
@@ -138,10 +134,8 @@ The Exchange Management Shell contains the following namespaces:
     
 ## See also
 
-- [Exchange Management Shell](exchange-management-shell.md)
-    
-- [Create Exchange Management Shell tools](create-exchange-management-shell-tools.md)
-    
+- [Exchange Management Shell](exchange-management-shell.md)  
+- [Create Exchange Management Shell tools](create-exchange-management-shell-tools.md) 
 - [Exchange Management Shell cmdlet input and output types](exchange-management-shell-cmdlet-input-and-output-types.md)
     
 
