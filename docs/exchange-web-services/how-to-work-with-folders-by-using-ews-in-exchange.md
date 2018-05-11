@@ -1,12 +1,8 @@
 ---
 title: "How to Work with folders by using EWS in Exchange"
- 
- 
 manager: sethgros
 ms.date: 9/17/2015
 ms.audience: Developer
- 
- 
 localization_priority: Normal
 ms.assetid: 4b3eb746-74c4-42a0-aa2c-742c147f1871
 description: "Learn how to create, get, update, and delete folders by using the EWS Managed API or EWS in Exchange."
@@ -28,9 +24,10 @@ EWS in Exchange uses folders to structure and organize mailboxes. You can create
 |Get a folder hierarchy  <br/> |[Folder.FindFolders](http://msdn.microsoft.com/en-us/library/microsoft.exchange.webservices.data.folder.findfolders%28v=exchg.80%29.aspx) <br/> |[FindFolder](http://msdn.microsoft.com/library/7a9855aa-06cc-45ba-ad2a-645c15b7d031%28Office.15%29.aspx) <br/> |
 |Update a folder  <br/> |[Folder.Update](http://msdn.microsoft.com/en-us/library/microsoft.exchange.webservices.data.folder.update%28v=exchg.80%29.aspx) <br/> |[UpdateFolder](http://msdn.microsoft.com/library/3494c996-b834-4813-b1ca-d99642d8b4e7%28Office.15%29.aspx) <br/> |
 |Delete a folder  <br/> |[Folder.Delete](http://msdn.microsoft.com/en-us/library/microsoft.exchange.webservices.data.folder.delete%28v=exchg.80%29.aspx) <br/> |[DeleteFolder](http://msdn.microsoft.com/library/b0f92682-4895-4bcf-a4a1-e4c2e8403979%28Office.15%29.aspx) <br/> |
-   
-## Create a folder by using the EWS Managed API
+
 <a name="bk_createfolderewsma"> </a>
+
+## Create a folder by using the EWS Managed API
 
 The following code example shows how to use the [Folder](http://msdn.microsoft.com/en-us/library/microsoft.exchange.webservices.data.folder%28v=exchg.80%29.aspx) class to create a new generic folder with a [DisplayName](http://msdn.microsoft.com/en-us/library/microsoft.exchange.webservices.data.folder.displayname%28v=exchg.80%29.aspx) of "Custom Folder" and a [FolderClass](http://msdn.microsoft.com/en-us/library/microsoft.exchange.webservices.data.folder.folderclass%28v=exchg.80%29.aspx) property value of IPF.Note. The [Folder.Save](http://msdn.microsoft.com/en-us/library/microsoft.exchange.webservices.data.folder.save%28v=exchg.80%29.aspx) method saves the folder as a child folder of the Inbox folder. 
   
@@ -449,15 +446,11 @@ The server responds to the **DeleteFolder** request with a [DeleteFolderResponse
 
 After you have retrieved the folders on the server, or made changes to folders, you might want to [synchronize your folder hierarchy](how-to-synchronize-folders-by-using-ews-in-exchange.md) or [subscribe to notifications about folder changes](notification-subscriptions-mailbox-events-and-ews-in-exchange.md) on the server. 
   
-## Additional resources
-<a name="bk_addresources"> </a>
+## See also
 
-- [Folders and items in EWS in Exchange](folders-and-items-in-ews-in-exchange.md)
-    
-- [How to: Work with Exchange mailbox items by using EWS in Exchange](how-to-work-with-exchange-mailbox-items-by-using-ews-in-exchange.md)
-    
-- [Deleting items by using EWS in Exchange](deleting-items-by-using-ews-in-exchange.md)
-    
+- [Folders and items in EWS in Exchange](folders-and-items-in-ews-in-exchange.md)   
+- [How to: Work with Exchange mailbox items by using EWS in Exchange](how-to-work-with-exchange-mailbox-items-by-using-ews-in-exchange.md)    
+- [Deleting items by using EWS in Exchange](deleting-items-by-using-ews-in-exchange.md)   
 - [Develop web service clients for Exchange](develop-web-service-clients-for-exchange.md)
     
 
