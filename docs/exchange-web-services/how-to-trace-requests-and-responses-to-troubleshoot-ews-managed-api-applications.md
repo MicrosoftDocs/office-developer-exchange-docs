@@ -1,24 +1,22 @@
 ---
-title: "How to Trace requests and responses to troubleshoot EWS Managed API applications"
- 
- 
+title: "Trace requests and responses to troubleshoot EWS Managed API apps"
 manager: sethgros
 ms.date: 9/17/2015
 ms.audience: Developer
- 
- 
 localization_priority: Normal
 ms.assetid: 186c1d1d-b8dc-4914-b3cd-6fada7ecd877
-description: "Find out how to trace EWS requests and responses in order to troubleshoot errors in your EWS Managed API application."
+description: "Find out how to trace EWS requests and responses to troubleshoot errors in your EWS Managed API application."
 ---
 
-# How to: Trace requests and responses to troubleshoot EWS Managed API applications
+# Trace requests and responses to troubleshoot EWS Managed API apps
 
-Find out how to trace EWS requests and responses in order to troubleshoot errors in your EWS Managed API application.
+Find out how to trace EWS requests and responses to troubleshoot errors in your EWS Managed API application.
   
 Debugging a web service-based application can be difficult because part of the processing is performed on a remote computer that you might not have access to. Because you cannot step through the code on the server, it can be helpful to see the XML requests and responses that are sent between the client and the server to determine which part of the application is causing an error. 
   
-If you are using EWS, you already have access to the XML request and response; you can put a break point in your code to review the server's response to your request in order to troubleshoot an issue. If you're using the EWS Managed API, you don't have direct access to the EWS request and response. However, you can use tracing methods on the [ExchangeService](http://msdn.microsoft.com/en-us/library/microsoft.exchange.webservices.data.exchangeservice%28v=exchg.80%29.aspx) object to capture the XML request and response, and you can then use the XML to determine why your code is not working. For example, if you did not set a property correctly, you might get an unexpected response, and you can use the trace output to look at the XML request and response to identify the error. The trace output from the EWS Managed API can also help you manually build the XML request to create your EWS application. If you are using EWS, you can create a small application by using EWS Managed API, trace it, and then use the XML request information to help you build your EWS request. 
+If you are using EWS, you already have access to the XML request and response; you can put a break point in your code to review the server's response to your request in order to troubleshoot an issue. If you're using the EWS Managed API, you don't have direct access to the EWS request and response. However, you can use tracing methods on the [ExchangeService](http://msdn.microsoft.com/en-us/library/microsoft.exchange.webservices.data.exchangeservice%28v=exchg.80%29.aspx) object to capture the XML request and response, and you can then use the XML to determine why your code is not working. 
+
+For example, if you did not set a property correctly, you might get an unexpected response, and you can use the trace output to look at the XML request and response to identify the error. The trace output from the EWS Managed API can also help you manually build the XML request to create your EWS application. If you are using EWS, you can create a small application by using EWS Managed API, trace it, and then use the XML request information to help you build your EWS request. 
   
 ## Enabling tracing on the ExchangeService object
 <a name="bk_EnableTracing"> </a>
@@ -71,14 +69,10 @@ class TraceListener : ITraceListener
 ```
 
 ## See also
-<a name="bk_addresources"> </a>
 
 - [Start using web services in Exchange](start-using-web-services-in-exchange.md)
-    
-- [Handling Autodiscover error messages](handling-autodiscover-error-messages.md)
-    
-- [How to: Reference the EWS Managed API assembly](how-to-reference-the-ews-managed-api-assembly.md)
-    
+- [Handling Autodiscover error messages](handling-autodiscover-error-messages.md)    
+- [How to: Reference the EWS Managed API assembly](how-to-reference-the-ews-managed-api-assembly.md)    
 - [How to: Communicate with EWS by using the EWS Managed API](how-to-communicate-with-ews-by-using-the-ews-managed-api.md)
     
 

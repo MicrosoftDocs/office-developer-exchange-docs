@@ -1,18 +1,14 @@
 ---
-title: "How to Communicate with EWS by using the EWS Managed API"
- 
- 
+title: "Communicate with EWS by using the EWS Managed API"
 manager: sethgros
 ms.date: 9/17/2015
 ms.audience: Developer
- 
- 
 localization_priority: Normal
 ms.assetid: d1b78293-da02-413a-875c-681e99146af3
 description: "Find information about how to use the EWS Managed API to communicate with EWS in Exchange."
 ---
 
-# How to: Communicate with EWS by using the EWS Managed API
+# Communicate with EWS by using the EWS Managed API
 
 Find information about how to use the EWS Managed API to communicate with EWS in Exchange.
   
@@ -40,56 +36,51 @@ After you set up an [ExchangeService](https://msdn.microsoft.com/library/Microso
 
 1. Instantiate the **ExchangeService** class. 
     
-  ```cs
-  ExchangeService service = new ExchangeService();
-  ```
+   ```csharp
+    ExchangeService service = new ExchangeService();
+   ```
 
-    > [!NOTE]
-    > Instantiating **ExchangeService** with an empty constructor will create an instance that is bound to the latest known version of Exchange. Alternatively, you can target a specific version of Exchange by specifying version as a parameter. 
-  
- `ExchangeService service = new ExchangeService(ExchangeVersion.Exchange2007_SP1);`
+   > [!NOTE]
+   > Instantiating **ExchangeService** with an empty constructor will create an instance that is bound to the latest known version of Exchange. Alternatively, you can target a specific version of Exchange by specifying version as a parameter. > `ExchangeService service = new ExchangeService(ExchangeVersion.Exchange2007_SP1);`
   
 2. Set the credentials of the user who sends requests to the Exchange server. If you want to connect to EWS from a computer that is logged on to the domain, using the credentials of the authenticated user, set the **UseDefaultCredentials** property on the **ExchangeService** object to **true**.
     
-  ```cs
+   ```cs
   // Connect by using the default credentials of the authenticated user.
   service.UseDefaultCredentials = true;
-  ```
+   ```
 
-    If you do not want to connect by using the default user credentials, set the **Credentials** property on the **ExchangeService** object to explicitly specify the credentials of a different user. If you are using Exchange Online or Exchange Online as part of Office 365, you'll use basic authentication, with just a user name and password. A domain name is required for NTLM authentication. 
+   If you do not want to connect by using the default user credentials, set the **Credentials** property on the **ExchangeService** object to explicitly specify the credentials of a different user. If you are using Exchange Online or Exchange Online as part of Office 365, you'll use basic authentication, with just a user name and password. A domain name is required for NTLM authentication. 
     
-  ```cs
+   ```cs
   // Connect by using the credentials of user1 at contoso.com.
   service.Credentials = new WebCredentials("user1@contoso.com", "password");
-  ```
+   ```
 
-    You can also specify the credentials of the user by using the user's domain name and password.
+   You can also specify the credentials of the user by using the user's domain name and password.
     
-  ```
+   ```cs
   // Connect by using the credentials of contoso/user1.
   service.Credentials = new WebCredentials("user1", "password", "contoso");
-  ```
+   ```
 
-    > [!NOTE]
-    > If the **UseDefaultCredentials** property is set to **true**, the value of the **Credentials** property is ignored. 
+   > [!NOTE]
+   > If the **UseDefaultCredentials** property is set to **true**, the value of the **Credentials** property is ignored. 
   
 3. Set the URL of the EWS endpoint. This URL locates the exchange.asmx file on Client Access server.
     
-  ```cs
+   ```cs
   // Use Autodiscover to set the URL endpoint.
   service.AutodiscoverUrl("user1@contoso.com");
-  ```
+   ```
 
-    > [!NOTE]
-    >  Although you can explicitly set the **Url** property of the **ExchangeService** to a hardcoded value, we recommend that you use the Autodiscover service instead, for the following reasons: >  Autodiscover determines the best endpoint for a given user (the endpoint that is closest to the user's Mailbox server). >  The EWS URL might change if new Client Access servers are deployed. In this scenario, using [Autodiscover](autodiscover-for-exchange.md) means no code changes are necessary. >  You should either set the URL explicitly or call **AutodiscoverUrl**, but you should not do both. 
+   > [!NOTE]
+   >  Although you can explicitly set the **Url** property of the **ExchangeService** to a hardcoded value, we recommend that you use the Autodiscover service instead, for the following reasons: >  Autodiscover determines the best endpoint for a given user (the endpoint that is closest to the user's Mailbox server). >  The EWS URL might change if new Client Access servers are deployed. In this scenario, using [Autodiscover](autodiscover-for-exchange.md) means no code changes are necessary. >  You should either set the URL explicitly or call **AutodiscoverUrl**, but you should not do both. 
   
 ## See also
-<a name="bk_addresources"> </a>
 
-- [Get started with EWS Managed API client applications](get-started-with-ews-managed-api-client-applications.md)
-    
-- [How to: Use Autodiscover to find connection points](how-to-use-autodiscover-to-find-connection-points.md)
-    
+- [Get started with EWS Managed API client applications](get-started-with-ews-managed-api-client-applications.md)   
+- [How to: Use Autodiscover to find connection points](how-to-use-autodiscover-to-find-connection-points.md)   
 - [Develop web service clients for Exchange](develop-web-service-clients-for-exchange.md)
     
 
