@@ -27,7 +27,7 @@ The **AuthPackage** element specifies the authentication scheme that is used whe
   
 [AuthPackage (POX)](authpackage-pox.md)
   
-```
+```xml
 <AuthPackage>basic or kerb or kerbntlm or ntlm or certificate or negotiate or nego2</AuthPackage>
 ```
 

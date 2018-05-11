@@ -20,7 +20,7 @@ description: "The AdjacentMeetingCount element represents the total number of ca
 
 The **AdjacentMeetingCount** element represents the total number of calendar items that are adjacent to a meeting time. 
   
-```
+```xml
 <AdjacentMeetingCount/>
 ```
 

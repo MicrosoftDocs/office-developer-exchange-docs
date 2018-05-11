@@ -20,7 +20,7 @@ description: "The AcceptSharingInvitation element is used to accept an invitatio
 
 The **AcceptSharingInvitation** element is used to accept an invitation that allows access to another user's calendar or contacts data. 
   
-```
+```xml
 <AcceptSharingInvitation>
    <ReferenceItemId/>
 </AcceptSharingInvitation>

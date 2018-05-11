@@ -26,7 +26,7 @@ The **AlternatePublicFolderId** element describes a public folder identifier to 
   
 [AlternatePublicFolderId](alternatepublicfolderid.md)
   
-```
+```xml
 <AlternatePublicFolderId FolderId="" Format="" />
 ```
 

@@ -27,7 +27,7 @@ The **AuthRequired** element specifies whether authentication is required.
   
 [AuthRequired (POX)](authrequired-pox.md)
   
-```
+```xml
 <AuthRequired>on or off</AuthRequired>
 ```
 

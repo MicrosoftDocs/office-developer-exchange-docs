@@ -20,7 +20,7 @@ description: "The AbsoluteMonthlyRecurrence element represents a monthly recurre
 
 The **AbsoluteMonthlyRecurrence** element represents a monthly recurrence pattern. 
   
-```
+```xml
 <AbsoluteMonthlyRecurrence>
    <Interval/>
    <DayOfMonth/>

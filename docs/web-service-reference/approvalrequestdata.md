@@ -16,7 +16,7 @@ description: "The ApprovalRequestData element specifies the approval state of an
 
 The **ApprovalRequestData** element specifies the approval state of an approval request message. 
   
-```
+```xml
 <ApprovalRequestData>
    <IsUndecidedApprovalRequest/>
    <ApprovalDecision/>

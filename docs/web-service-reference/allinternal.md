@@ -20,7 +20,7 @@ description: "The AllInternal element evaluates to true if all recipients of an 
 
 The **AllInternal** element evaluates to **true** if all recipients of an e-mail message are internal to the sender's organization. 
   
-```
+```xml
 <AllInternal/>
 ```
 

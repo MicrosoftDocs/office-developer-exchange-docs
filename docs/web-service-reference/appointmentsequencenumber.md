@@ -20,7 +20,7 @@ description: "The AppointmentSequenceNumber element specifies the sequence numbe
 
 The **AppointmentSequenceNumber** element specifies the sequence number of a version of an appointment. 
   
-```
+```xml
 <AppointmentSequenceNumber/>
 ```
 

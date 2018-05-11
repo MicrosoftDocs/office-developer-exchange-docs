@@ -20,7 +20,7 @@ description: "The AttachmentId element identifies an item or file attachment. Th
 
 The **AttachmentId** element identifies an item or file attachment. This element is used in CreateAttachment responses. 
   
-```
+```xml
 <AttachmentId Id="" RootItemId="" RootItemChangeKey="" />
 ```
 

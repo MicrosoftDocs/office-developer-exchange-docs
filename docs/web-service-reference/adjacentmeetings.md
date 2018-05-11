@@ -20,7 +20,7 @@ description: "The AdjacentMeetings element identifies all calendar items that ar
 
 The **AdjacentMeetings** element identifies all calendar items that are adjacent to a meeting time. 
   
-```
+```xml
 <AdjacentMeetings>
    <CalendarItem/>
 </AdjacentMeetings>

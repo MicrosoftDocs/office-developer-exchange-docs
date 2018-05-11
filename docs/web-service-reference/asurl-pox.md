@@ -27,7 +27,7 @@ The **ASUrl** element specifies the URL of the best endpoint instance of Exchang
   
 [ASUrl (POX)](asurl-pox.md)
   
-```
+```xml
 <ASUrl/>
 ```
 

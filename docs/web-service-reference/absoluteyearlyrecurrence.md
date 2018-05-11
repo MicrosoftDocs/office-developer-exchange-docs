@@ -20,7 +20,7 @@ description: "The AbsoluteYearlyRecurrence element represents a yearly recurrenc
 
 The **AbsoluteYearlyRecurrence** element represents a yearly recurrence pattern. 
   
-```
+```xml
 <AbsoluteYearlyRecurrence>
    <DayOfMonth/>
    <Month/>

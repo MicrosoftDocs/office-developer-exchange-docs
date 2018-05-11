@@ -20,7 +20,7 @@ description: "The AllowNewTimeProposal element indicates whether a new meeting t
 
 The **AllowNewTimeProposal** element indicates whether a new meeting time can be proposed for a meeting by an attendee. 
   
-```
+```xml
 <AllowNewTimeProposal/>
 ```
 

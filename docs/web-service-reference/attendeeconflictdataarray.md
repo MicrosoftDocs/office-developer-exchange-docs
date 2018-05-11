@@ -34,7 +34,7 @@ The **AttendeeConflictDataArray** element contains an array of conflict data for
   
 [AttendeeConflictDataArray](attendeeconflictdataarray.md)
   
-```
+```xml
 <ArrayOfAttendeeConflictData>
    <UnknownAttendeeConflictData>...</UnknownAttendeeConflictData>
    <IndividualAttendeeConflictData>...</IndividualAttendeeConflictData>

@@ -20,7 +20,7 @@ description: "The Address element represents the e-mail address of the mailbox u
 
 The **Address** element represents the e-mail address of the mailbox user. 
   
-```
+```xml
 <Address>...</Address>
 ```
 

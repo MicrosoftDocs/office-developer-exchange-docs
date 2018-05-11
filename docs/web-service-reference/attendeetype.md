@@ -28,7 +28,7 @@ The **AttendeeType** element represents the type of attendee that is identified 
   
 [AttendeeType](attendeetype.md)
   
-```
+```xml
 <AttendeeType>Organizer or Required or Optional or Room or Resource</AttendeeType>
 ```
 

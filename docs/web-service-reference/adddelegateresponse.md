@@ -20,7 +20,7 @@ description: "The AddDelegateResponse element contains the status and result of 
 
 The **AddDelegateResponse** element contains the status and result of an [AddDelegate operation](adddelegate-operation.md) request. 
   
-```
+```xml
 <AddDelegateResponse>
    <ResponseMessages/>
    <MessageText/>

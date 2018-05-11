@@ -20,7 +20,7 @@ description: "The And element specifies that all child elements must match to ev
 
 The **And** element specifies that all child elements must match to evaluate to **true**.
   
-```
+```xml
 <And>
    <AllInternal/>
    <And/>

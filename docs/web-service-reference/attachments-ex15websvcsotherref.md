@@ -20,7 +20,7 @@ description: "The Attachments element contains the items or files that are attac
 
 The **Attachments** element contains the items or files that are attached to an item in the Exchange store. 
   
-```
+```xml
 <Attachments>
    <ItemAttachment/>
    <FileAttachment/>

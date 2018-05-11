@@ -20,7 +20,7 @@ description: "The Argument element specifies arguments to the action."
 
 The **Argument** element specifies arguments to the action. 
   
-```
+```xml
 <Argument Value=""/>
 ```
 

@@ -20,7 +20,7 @@ description: "The AttachmentIds element contains an array of attachment identifi
 
 The **AttachmentIds** element contains an array of attachment identifiers. 
   
-```
+```xml
 <AttachmentIds>
    <AttachmentId Id=""/>
 </AttachmentIds>

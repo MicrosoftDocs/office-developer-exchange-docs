@@ -24,7 +24,7 @@ The **AllowExternalOof** element contains a value that identifies to whom extern
   
 [AllowExternalOof](allowexternaloof.md)
   
-```
+```xml
 <AllowExternalOof>None or Known or All</AllowExternalOof>
 ```
 

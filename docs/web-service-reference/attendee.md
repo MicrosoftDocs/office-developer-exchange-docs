@@ -20,7 +20,7 @@ description: "The Attendee element represents attendees and resources for a meet
 
 The **Attendee** element represents attendees and resources for a meeting. 
   
-```
+```xml
 <Attendee>
    <Mailbox/>
    <ResponseType/>

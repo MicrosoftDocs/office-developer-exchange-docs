@@ -20,7 +20,7 @@ description: "The AbsoluteDate element represents the date when the time changes
 
 The **AbsoluteDate** element represents the date when the time changes from standard or daylight saving time. 
   
-```
+```xml
 <AbsoluteDate/>
 ```
 

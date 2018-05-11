@@ -20,7 +20,7 @@ description: "The AssignedTime element represents the time when a task is assign
 
 The **AssignedTime** element represents the time when a task is assigned to a contact. 
   
-```
+```xml
 <AssignedTime/>
 ```
 

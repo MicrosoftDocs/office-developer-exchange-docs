@@ -20,7 +20,7 @@ description: "The Action element identifies what action must be executed if the 
 
 The **Action** element identifies what action must be executed if the condition part of the rule matches. 
   
-```
+```xml
 <Action Name="">
    <Argument/>
 </Action>

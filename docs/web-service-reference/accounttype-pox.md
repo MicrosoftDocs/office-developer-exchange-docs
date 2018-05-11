@@ -25,7 +25,7 @@ The **AccountType** element represents the account type.
   
 [AccountType (POX)](accounttype-pox.md)
   
-```
+```xml
 <AccountType>email</AccountType>
 ```
 

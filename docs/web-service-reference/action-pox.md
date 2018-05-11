@@ -25,7 +25,7 @@ The **Action** element provides information that is used to determine whether an
   
 [Action (POX)](action-pox.md)
   
-```
+```xml
 <Action>redirectUrl or redirectAddr or settings</Action>
 ```
 

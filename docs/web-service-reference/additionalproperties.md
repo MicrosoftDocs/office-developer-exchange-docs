@@ -20,7 +20,7 @@ description: "The AdditionalProperties element identifies additional properties 
 
 The **AdditionalProperties** element identifies additional properties for use in [GetItem](getitem.md), [UpdateItem](updateitem.md), [CreateItem](createitem.md), [FindItem](finditem.md), or [FindFolder](findfolder.md) requests. 
   
-```
+```xml
 <AdditionalProperties>
    <ExtendedFieldURI/>
    <FieldURI/>

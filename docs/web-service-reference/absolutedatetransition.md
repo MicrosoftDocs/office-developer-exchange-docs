@@ -20,7 +20,7 @@ description: "The AbsoluteDateTransition element represents a time zone transiti
 
 The **AbsoluteDateTransition** element represents a time zone transition that occurs on a specific date and at a specific time. 
   
-```
+```xml
 <AbsoluteDateTransition>
    <To/>
    <DateTime/>

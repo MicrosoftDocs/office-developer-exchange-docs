@@ -26,7 +26,7 @@ The **AggregateOn** element represents the property that is used to determine th
   
 [AggregateOn](aggregateon.md)
   
-```
+```xml
 <AggregateOn>
    <FieldURI/>
 </AggregateOn>

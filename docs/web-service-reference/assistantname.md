@@ -20,7 +20,7 @@ description: "The AssitantName element represents an assistant to a contact."
 
 The **AssitantName** element represents an assistant to a contact. 
   
-```
+```xml
 <AssistantName/>
 ```
 

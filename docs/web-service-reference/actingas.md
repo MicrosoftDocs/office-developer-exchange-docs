@@ -20,7 +20,7 @@ description: "The ActingAs element identifies who the caller is sending as."
 
 The **ActingAs** element identifies who the caller is sending as. 
   
-```
+```xml
 <ActingAs>
    <EmailAddress/>
    <RoutingType/>

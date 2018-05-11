@@ -24,7 +24,7 @@ The **AttachmentShape** element identifies additional properties to return in a 
   
 [AttachmentShape](attachmentshape.md)
   
-```
+```xml
 <AttachmentShape>
    <IncludeMimeContent/>
    <BodyType/>

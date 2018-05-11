@@ -20,7 +20,7 @@ description: "The AcceptItem element represents an Accept reply to a meeting req
 
 The **AcceptItem** element represents an Accept reply to a meeting request. 
   
-```
+```xml
 <AcceptItem>
    <ItemClass/>
    <Sensitivity/>

@@ -20,7 +20,7 @@ description: "The AttachmentId element identifies a single attachment."
 
 The **AttachmentId** element identifies a single attachment. 
   
-```
+```xml
 <AttachmentId Id="" />
 ```
 

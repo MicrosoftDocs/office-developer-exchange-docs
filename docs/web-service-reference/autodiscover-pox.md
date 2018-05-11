@@ -19,7 +19,7 @@ The **AutoDiscover** element is the root element in an Autodiscover request or r
   
 [AutoDiscover (POX)](autodiscover-pox.md)
   
-```
+```xml
 <Autodiscover>
    <Request/>
 </Autodiscover>

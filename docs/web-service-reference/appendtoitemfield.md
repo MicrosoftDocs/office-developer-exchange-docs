@@ -30,7 +30,7 @@ The **AppendToItemField** element identifies data to append to a single property
   
 [AppendToItemField](appendtoitemfield.md)
   
-```
+```xml
 <AppendToItemField>
    <FieldURI/>
    <Item/>

@@ -20,7 +20,7 @@ description: "The AppointmentReplyTime element represents the date and time that
 
 The **AppointmentReplyTime** element represents the date and time that an attendee replied to a meeting request. 
   
-```
+```xml
 <AppointmentReplyTime/>
 ```
 
