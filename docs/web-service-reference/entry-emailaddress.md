@@ -38,7 +38,7 @@ The following sections describe attributes, child elements, and parent elements.
 |**RoutingType** <br/> |Defines the routing that is used for the mailbox. The default is SMTP. This attribute is optional.  <br/> |
 |**MailboxType** <br/> |Defines the mailbox type of a mailbox user. This attribute is optional.  <br/> |
    
-#### Child elements
+### Child elements
 
 None.
   

@@ -41,7 +41,7 @@ The following sections describe attributes, child elements, and parent elements.
 |**InitialName** <br/> |Defines the first name in the contacts list to return in the response. If the specified initial name is not in the contacts list, the next alphabetical name as defined by the cultural context will be returned, except if the next name comes after **FinalName**. If the **InitialName** attribute is omitted, the response will contain a list of contacts that starts with the first name in the contact list. This attribute is optional.  <br/> |
 |**FinalName** <br/> |Defines the last name in the contacts list to return in the response. If the **FinalName** attribute is omitted, the response will contain all subsequent contacts in the specified sort order. If the specified final name is not in the contacts list, the next alphabetical name as defined by the cultural context will be excluded.  <br/> For example, if FinalName="Name", but Name is not in the contacts list, contacts that have display names of Name1 or NAME will not be included.  <br/> This attribute is optional.  <br/> |
    
-#### Child elements
+### Child elements
 
 None.
   

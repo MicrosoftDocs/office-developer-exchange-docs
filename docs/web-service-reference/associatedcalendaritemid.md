@@ -36,7 +36,7 @@ The following sections describe attributes, child elements, and parent elements.
 |**Id** <br/> |Identifies the calendar item that is associated with meeting.  <br/> |
 |**ChangeKey** <br/> |Identifies a specific version of the calendar item that is associated with a meeting.  <br/> |
    
-#### Child elements
+### Child elements
 
 None.
   

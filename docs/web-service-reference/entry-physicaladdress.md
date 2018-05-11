@@ -41,7 +41,7 @@ The following sections describe attributes, child elements, and parent elements.
 |:-----|:-----|
 |**Key** <br/> | Identifies a physical address. The following are the possible values for this attribute:  <br/>  Business  <br/>  Home  <br/>  Other  <br/> |
    
-#### Child elements
+### Child elements
 
 |**Element**|**Description**|
 |:-----|:-----|

@@ -35,7 +35,7 @@ The following sections describe attributes, child elements, and parent elements.
 |:-----|:-----|
 |**Key** <br/> | Identifies the telephone number. The Key attribute is of type **PhoneNumberKeyType**. The following are the possible values for this attribute:  <br/>  AssistantPhone  <br/>  BusinessFax  <br/>  BusinessPhone  <br/>  BusinessPhone2  <br/>  Callback  <br/>  CarPhone  <br/>  CompanyMainPhone  <br/>  HomeFax  <br/>  HomePhone  <br/>  HomePhone2  <br/>  Isdn  <br/>  MobilePhone  <br/>  OtherFax  <br/>  OtherTelephone  <br/>  Pager  <br/>  PrimaryPhone  <br/>  RadioPhone  <br/>  Telex  <br/>  TtyTddPhone  <br/> |
    
-#### Child elements
+### Child elements
 
 None.
   

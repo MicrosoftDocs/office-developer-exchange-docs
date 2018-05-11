@@ -47,7 +47,7 @@ The following sections describe attributes, child elements, and parent elements.
 |:-----|:-----|
 |**enabled** <br/> |A Boolean value that indicates whether the pipeline tracing feature is enabled for the Client Access or the Mailbox server. The value is **true** if pipeline tracing is enabled; otherwise, the value is **false** or the element is not present.  <br/> |
    
-#### Child elements
+### Child elements
 
 None.
   

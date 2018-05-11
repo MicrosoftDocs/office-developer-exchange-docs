@@ -39,7 +39,7 @@ The following sections describe attributes, child elements, and parent elements.
 
 None.
   
-#### Child elements
+### Child elements
 
 [DisplayName (string)](displayname-string.md) | [RetentionId](retentionid.md) | [RetentionPeriod](retentionperiod.md) | [Type (ElcFolderType)](type-elcfoldertype.md) | [RetentionAction](retentionaction.md) | [Description](description.md) | [IsVisible](isvisible.md) | [OptedInto](optedinto.md) | [IsArchive](isarchive.md)
   

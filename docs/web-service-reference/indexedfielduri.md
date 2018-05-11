@@ -51,7 +51,7 @@ The following sections describe attributes, child elements, and parent elements.
 |contacts:EmailAddress  <br/> |Represents the e-mail address of a contact.  <br/> |
 |distributionlist:Members:Member  <br/> |Represents a member of a distribution list.  <br/> |
    
-#### Child elements
+### Child elements
 
 None.
   

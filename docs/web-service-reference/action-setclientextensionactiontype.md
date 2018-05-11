@@ -42,7 +42,7 @@ The following sections describe attributes, child elements, and parent elements.
 |Install  <br/> |Indicates an installation action.  <br/> |
 |Uninstall  <br/> |Indicates an uninstallation action.  <br/> |
    
-#### Child elements
+### Child elements
 
 |**Element**|**Description**|
 |:-----|:-----|

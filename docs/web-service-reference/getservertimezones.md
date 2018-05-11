@@ -42,7 +42,7 @@ The following sections describe attributes, child elements, and parent elements.
 |**true** <br/> |Return the complete definitions for each time zone.  <br/> |
 |**false** <br/> |Return only the name and identifier for each time zone.  <br/> |
    
-#### Child elements
+### Child elements
 
 |**Element**|**Description**|
 |:-----|:-----|

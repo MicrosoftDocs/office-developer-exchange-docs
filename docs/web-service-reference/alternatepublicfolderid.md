@@ -53,7 +53,7 @@ The following sections describe attributes, child elements, and parent elements.
 |StoreId  <br/> |Describes Exchange store identifiers.  <br/> |
 |OwaId  <br/> |Describes an Outlook Web Access identifier.  <br/> |
    
-#### Child elements
+### Child elements
 
 None.
   

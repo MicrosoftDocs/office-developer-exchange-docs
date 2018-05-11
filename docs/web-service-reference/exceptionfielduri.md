@@ -49,7 +49,7 @@ The following sections describe attributes, child elements, and parent elements.
 |recurrence:Interval  <br/> |Identifies the interval as containing an error.  <br/> |
 |recurrence:NumberOfOccurrences  <br/> |Identifies the number of occurrences as containing an error.  <br/> |
    
-#### Child elements
+### Child elements
 
 None.
   

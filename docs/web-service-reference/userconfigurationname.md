@@ -37,7 +37,7 @@ The following sections describe attributes, child elements, and parent elements.
 |:-----|:-----|
 |**Name** <br/> |Contains a string value that represents the name of a user configuration object. This attribute is required.  <br/> |
    
-#### Child elements
+### Child elements
 
 |**Element**|**Description**|
 |:-----|:-----|

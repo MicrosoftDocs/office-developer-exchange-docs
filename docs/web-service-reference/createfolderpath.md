@@ -32,7 +32,7 @@ The following sections describe attributes, child elements, and parent elements.
 
 None.
   
-#### Child elements
+### Child elements
 
 [ParentFolderId (TargetFolderIdType)](parentfolderid-targetfolderidtype.md) | [RelativeFolderPath](relativefolderpath.md)
   

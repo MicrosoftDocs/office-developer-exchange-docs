@@ -42,7 +42,7 @@ The following sections describe attributes, child elements, and parent elements.
 |:-----|:-----|
 |**SubscribeToAllFolders** <br/> |Indicates whether the server will subscribe to all folders in the user's mailbox. A value of **true** indicates that the server will subscribe.  <br/> |
    
-#### Child elements
+### Child elements
 
 |**Element**|**Description**|
 |:-----|:-----|

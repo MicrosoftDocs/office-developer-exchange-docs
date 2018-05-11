@@ -38,7 +38,7 @@ The following sections describe attributes, child elements, and parent elements.
 |:-----|:-----|
 |**Traversal** <br/> |Describes how a search folder traverses the folder hierarchy. The options are for either a **Deep** or a **Shallow** search.  <br/> |
    
-#### Child elements
+### Child elements
 
 |**Element**|**Description**|
 |:-----|:-----|

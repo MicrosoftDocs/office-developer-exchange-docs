@@ -31,7 +31,7 @@ The following sections describe attributes, child elements, and parent elements.
 |:-----|:-----|
 |IsExplicit  <br/> |Indicates whether a policy tag was explicitly set on an item or folder.  <br/> A text value of **true** for the **IsExplicit** attribute indicates that the policy tag was explicitly set on the item or folder. A text value of **false** indicates that the policy tag was implicitly set on the item or folder based on the parent folder policy tag.  <br/> |
    
-#### Child elements
+### Child elements
 
 None.
   

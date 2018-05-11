@@ -37,7 +37,7 @@ The following sections describe attributes, child elements, and parent elements.
 |:-----|:-----|
 |**Attributes** <br/> |Contains group attributes.  <br/> |
    
-#### Child elements
+### Child elements
 
 |**Element**|**Description**|
 |:-----|:-----|

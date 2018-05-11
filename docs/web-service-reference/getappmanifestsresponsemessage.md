@@ -44,7 +44,7 @@ The following sections describe attributes, child elements, and parent elements.
 |Warning  <br/> |Indicates a warning.  <br/> |
 |Error  <br/> |Indicates an error.  <br/> |
    
-#### Child elements
+### Child elements
 
 |**Element**|**Description**|
 |:-----|:-----|

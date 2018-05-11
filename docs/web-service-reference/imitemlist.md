@@ -32,7 +32,7 @@ The following sections describe attributes, child elements, and parent elements.
 
 None.
   
-#### Child elements
+### Child elements
 
 [Groups (ArrayOfImGroupType)](groups-arrayofimgrouptype.md) | [Personas](personas-ex15websvcsotherref.md)
   

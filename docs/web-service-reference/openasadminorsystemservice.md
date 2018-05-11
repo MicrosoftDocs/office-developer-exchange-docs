@@ -37,7 +37,7 @@ The following sections describe attributes, child elements, and parent elements.
 |:-----|:-----|
 |LogonType  <br/> |Not intended for client use.  <br/> |
    
-#### Child elements
+### Child elements
 
 |**Element**|**Description**|
 |:-----|:-----|

@@ -41,7 +41,7 @@ The following sections describe attributes, child elements, and parent elements.
 |IncludesLastItemInRange  <br/> |Indicates whether the current results contain the last folder in the query, such that further paging is not needed.  <br/> |
 |TotalItemsInView  <br/> |Represents the total number of folders that pass the restriction.  <br/> |
    
-#### Child elements
+### Child elements
 
 |**Element**|**Description**|
 |:-----|:-----|

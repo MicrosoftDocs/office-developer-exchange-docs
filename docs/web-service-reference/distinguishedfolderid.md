@@ -84,7 +84,7 @@ The following sections describe attributes, child elements, and parent elements.
 |peopleconnect  <br/> |Represents the people connect folder.  <br/> |
 |favorites  <br/> |Represents the Favorites folder.  <br/> |
    
-#### Child elements
+### Child elements
 
 |**Element**|**Description**|
 |:-----|:-----|

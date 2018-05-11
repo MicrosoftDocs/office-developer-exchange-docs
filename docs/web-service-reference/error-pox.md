@@ -44,7 +44,7 @@ The following sections describe attributes, child elements, and parent elements.
 |Time  <br/> |Represents the time when the error response was returned.  <br/> |
 |Id  <br/> |Represents a hash of the name of the computer that is running Microsoft Exchange Server 2007 that has the Client Access server role installed.  <br/> |
    
-#### Child elements
+### Child elements
 
 |**Element**|**Description**|
 |:-----|:-----|

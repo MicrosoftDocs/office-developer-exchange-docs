@@ -42,7 +42,7 @@ The following sections describe attributes, child elements, and parent elements.
 |Period  <br/> |Specifies that the time zone transition target is a time zone period.  <br/> |
 |Group  <br/> |Specifies that the time zone transition target is a group of time zone transitions.  <br/> |
    
-#### Child elements
+### Child elements
 
 None.
   

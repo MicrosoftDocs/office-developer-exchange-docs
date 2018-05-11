@@ -42,7 +42,7 @@ The following sections describe attributes, child elements, and parent elements.
 |**HTML** <br/> |Converts all bodies to HTML.  <br/> |
 |**Text** <br/> |Converts all bodies to plain text.  <br/> |
    
-#### Child elements
+### Child elements
 
 None.
   

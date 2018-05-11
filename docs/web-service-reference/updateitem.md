@@ -67,7 +67,7 @@ The following sections describe attributes, child elements, and parent elements.
 |SendToAllAndSaveCopy  <br/> |The calendar item is updated, the meeting update is sent to all attendees, and a copy is saved in the Sent Items folder.  <br/> |
 |SendToChangedAndSaveCopy  <br/> |The calendar item is updated, the meeting update is sent to all attendees that are affected by the change in the meeting, and a copy is saved in the Sent Items folder.  <br/> |
    
-#### Child elements
+### Child elements
 
 |**Element**|**Description**|
 |:-----|:-----|

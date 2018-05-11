@@ -34,7 +34,7 @@ The following sections describe attributes, child elements, and parent elements.
 |IsJunk  <br/> |A text value of **true** for the **IsJunk** attribute indicates that the email sender is added to the blocked sender list. A value of **false** indicates that the email sender is removed from the blocked sender list, if the email sender is already on the list.  <br/> |
 |MoveItem  <br/> |A text value of **true** for the **MoveItem** attribute indicates that the item is moved to the default junk mail folder. A value of **false** indicates that the item is not moved to the default junk mail folder.  <br/> |
    
-#### Child elements
+### Child elements
 
 [ItemIds](itemids.md)
   

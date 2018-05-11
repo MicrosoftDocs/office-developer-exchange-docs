@@ -36,7 +36,7 @@ The following sections describe attributes, child elements, and parent elements.
 |Name  <br/> |Identifies the name of a domain. This attribute is required.  <br/> |
 |IncludeSubdomains  <br/> |Indicates whether subdomains of the domain identified by the **Name** attribute are considered internal. This attribute is optional.  <br/> |
    
-#### Child elements
+### Child elements
 
 None.
   

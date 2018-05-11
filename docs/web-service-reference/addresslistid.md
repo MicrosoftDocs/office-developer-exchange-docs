@@ -32,7 +32,7 @@ The following sections describe attributes, child elements, and parent elements.
 |:-----|:-----|
 |**Id** <br/> |A string address list identifier. This attribute is required.  <br/> |
    
-#### Child elements
+### Child elements
 
 None.
   

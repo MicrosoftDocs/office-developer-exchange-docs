@@ -63,7 +63,7 @@ The following sections describe attributes, child elements, and parent elements.
 |AllOccurrences  <br/> |A delete item request deletes the master task, and therefore all recurring tasks that are associated with the master task.  <br/> |
 |SpecifiedOccurrenceOnly  <br/> |A delete item request deletes only specific occurrences of a task.  <br/> |
    
-#### Child elements
+### Child elements
 
 |**Element**|**Description**|
 |:-----|:-----|

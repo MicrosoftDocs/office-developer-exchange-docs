@@ -40,7 +40,7 @@ The following sections describe attributes, child elements, and parent elements.
 |**UserOverridable** <br/> |Specifies whether the rule is mandatory. If the rule is mandatory, this attribute value must be **false**. A required attribute of type Boolean.  <br/> |
 |**Priority** <br/> |Specifies the rule priority. A required attribute of type int with a minimum value of 1.  <br/> |
    
-#### Child elements
+### Child elements
 
 |**Element**|**Description**|
 |:-----|:-----|

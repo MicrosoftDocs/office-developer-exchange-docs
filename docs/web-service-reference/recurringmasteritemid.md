@@ -36,7 +36,7 @@ The following sections describe attributes, child elements, and parent elements.
 |**OccurrenceId** <br/> |Identifies a single occurrence of a recurring master item. This attribute is required.  <br/> |
 |**ChangeKey** <br/> |Identifies a specific version of a single occurrence of a recurring master item. Additionally, the recurring master item is also identified because it and the single occurrence will contain the same change key. This attribute is optional.  <br/> |
    
-#### Child elements
+### Child elements
 
 None.
   

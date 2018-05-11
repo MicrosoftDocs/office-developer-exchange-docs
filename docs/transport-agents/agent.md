@@ -57,7 +57,7 @@ The following sections describe attributes, child elements, and parent elements.
 |**assemblyPath** <br/> |The fully qualified path, including the file name, of the assembly that contains the code for the agent. This attribute requires a nonempty string value that contains at least one character.  <br/> |
 |**enabled** <br/> |A Boolean value that indicates whether the agent is enabled. The value is **true** if the agent is enabled; otherwise, the value is **false**. This attribute is required.  <br/> |
    
-#### Child elements
+### Child elements
 
 None.
   

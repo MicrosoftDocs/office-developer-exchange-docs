@@ -35,7 +35,7 @@ The following sections describe attributes, child elements, and parent elements.
 |:-----|:-----|
 |**HeaderName** <br/> |Identifies the header name.  <br/> |
    
-#### Child elements
+### Child elements
 
 None.
   

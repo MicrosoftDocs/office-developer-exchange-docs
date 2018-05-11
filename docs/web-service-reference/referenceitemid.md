@@ -36,7 +36,7 @@ The following sections describe attributes, child elements, and parent elements.
 |**Id** <br/> |Identifies a specific item in the Exchange store.  <br/> |
 |**ChangeKey** <br/> |Identifies a specific version of an item.  <br/> |
    
-#### Child elements
+### Child elements
 
 None.
   

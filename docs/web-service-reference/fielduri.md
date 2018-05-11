@@ -378,7 +378,7 @@ The following sections describe attributes, child elements, and parent elements.
 |persona:PostalAddress  <br/> |Identifies the **PostalAddress** property.  <br/> |
 |persona:Bodies  <br/> |Identifies the **Bodies** property.  <br/> |
    
-#### Child elements
+### Child elements
 
 None.
   

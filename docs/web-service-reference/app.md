@@ -31,7 +31,7 @@ The following sections describe attributes, child elements, and parent elements.
 
 None.
   
-#### Child elements
+### Child elements
 
 [Metadata](metadata-ex15websvcsotherref.md) | [Manifest](manifest.md)
   

@@ -45,7 +45,7 @@ The following sections describe attributes, child elements, and parent elements.
 |:-----|:-----|
 |**timeLimitInMilliseconds** <br/> |A positive integer value that specifies the time, in milliseconds, for the server to wait for an agent to return from an event before it writes a warning to the event log. Performance can decrease if this value is too small. The suggested value for this attribute is 300,000, which equates to 5 minutes.  <br/> |
    
-#### Child elements
+### Child elements
 
 None.
   

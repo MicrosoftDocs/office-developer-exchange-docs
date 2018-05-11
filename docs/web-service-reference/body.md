@@ -39,7 +39,7 @@ The following sections describe attributes, child elements, and parent elements.
 |HTML  <br/> |Indicates that the body is in HTML.  <br/> |
 |Text  <br/> |Indicates that the body is in text.  <br/> |
    
-#### Child elements
+### Child elements
 
 None.
   

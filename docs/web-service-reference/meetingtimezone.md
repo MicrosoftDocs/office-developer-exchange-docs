@@ -39,7 +39,7 @@ The following sections describe attributes, child elements, and parent elements.
 |:-----|:-----|
 |**TimeZoneName** <br/> |Describes the name of the time zone.  <br/> |
    
-#### Child elements
+### Child elements
 
 |**Element**|**Description**|
 |:-----|:-----|

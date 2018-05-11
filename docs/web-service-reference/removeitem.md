@@ -37,7 +37,7 @@ The following sections describe attributes, child elements, and parent elements.
 |:-----|:-----|
 |**ObjectName** <br/> |Represents the name of the RemoveItem reply object class as an English string.  <br/> |
    
-#### Child elements
+### Child elements
 
 |**Element**|**Description**|
 |:-----|:-----|

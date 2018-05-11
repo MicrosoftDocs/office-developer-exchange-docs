@@ -35,7 +35,7 @@ The following sections describe attributes, child elements, and parent elements.
 |:-----|:-----|
 |**CharacterSet** <br/> |If set, the value for this attribute is ignored by the server.  <br/> |
    
-#### Child elements
+### Child elements
 
 None.
   

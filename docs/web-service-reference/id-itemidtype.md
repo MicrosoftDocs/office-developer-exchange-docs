@@ -32,7 +32,7 @@ The following sections describe attributes, child elements, and parent elements.
 |Id  <br/> |The text value of the **Id** attribute is the identifier of the item.  <br/> |
 |ChangeKey  <br/> |The text value of the **ChangeKey** attribute is the change key of the item.  <br/> |
    
-#### Child elements
+### Child elements
 
 None.
   

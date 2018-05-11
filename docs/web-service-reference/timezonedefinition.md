@@ -41,7 +41,7 @@ The following sections describe attributes, child elements, and parent elements.
 |Id  <br/> |Represents the unique identifier of the time zone.  <br/> |
 |Name  <br/> |Represents the descriptive name of the time zone.  <br/> |
    
-#### Child elements
+### Child elements
 
 |**Element**|**Description**|
 |:-----|:-----|

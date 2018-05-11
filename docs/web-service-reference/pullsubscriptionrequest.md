@@ -44,7 +44,7 @@ The following sections describe attributes, child elements, and parent elements.
 |:-----|:-----|
 |**SubscribeToAllFolders** <br/> |Indicates whether to subscribe to all available folders. This attribute is optional.  <br/> |
    
-#### Child elements
+### Child elements
 
 |**Element**|**Description**|
 |:-----|:-----|

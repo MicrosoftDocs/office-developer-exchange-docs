@@ -48,7 +48,7 @@ The following sections describe attributes, child elements, and parent elements.
 |Deep  <br/> |Instructs the FindFolder operation to search in all child folders of the identified parent folder and to return only the folder IDs for items that have not been deleted. This is called a deep traversal.  <br/> |
 |SoftDeleted  <br/> |Instructs the FindFolder operation to perform a shallow traversal search for deleted items.  <br/> |
    
-#### Child elements
+### Child elements
 
 |**Element**|**Description**|
 |:-----|:-----|

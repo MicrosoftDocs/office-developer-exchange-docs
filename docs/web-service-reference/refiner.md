@@ -34,7 +34,7 @@ The following sections describe attributes, child elements, and parent elements.
 
 None.
   
-#### Child elements
+### Child elements
 
 [Name (string)](name-string.md) | [Value](value.md) | [Count](count.md) | [Token (String)](token-string.md)
   

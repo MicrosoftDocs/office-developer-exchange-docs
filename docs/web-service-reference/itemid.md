@@ -36,7 +36,7 @@ The following sections describe attributes, child elements, and parent elements.
 |**Id** <br/> |Identifies a specific item in the Exchange store. **Id** is case-sensitive; therefore, comparisons between **Ids** must be case-sensitive or binary.  <br/> |
 |**ChangeKey** <br/> | Identifies a specific version of an item. A **ChangeKey** is required for the following scenarios:  <br/>  The [UpdateItem](updateitem.md) element requires a **ChangeKey** if the **ConflictResolution** attribute is set to AutoResolve. AutoResolve is a default value. If the **ChangeKey** attribute is not included, the response will return a [ResponseCode](responsecode.md) value equal to **ErrorChangeKeyRequired**.  <br/>  The [SendItem](senditem.md) element requires a **ChangeKey** to test whether the attempted operation will act upon the most recent version of an item. If the **ChangeKey** attribute is not included in the **ItemId** or if the **ChangeKey** is empty, the response will return a [ResponseCode](responsecode.md) value equal to **ErrorStaleObject**.  <br/> |
    
-#### Child elements
+### Child elements
 
 None.
   

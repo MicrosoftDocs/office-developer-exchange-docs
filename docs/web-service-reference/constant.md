@@ -35,7 +35,7 @@ The following sections describe attributes, child elements, and parent elements.
 |:-----|:-----|
 |**Value** <br/> |Specifies the value to compare in the restriction.  <br/> |
    
-#### Child elements
+### Child elements
 
 None.
   

@@ -62,7 +62,7 @@ The following sections describe attributes, child elements, and parent elements.
 |LooseAndIgnoreNonSpace  <br/> |To be removed.  <br/> |
 |LooseAndIgnoreCaseAndIgnoreNonSpace  <br/> |To be removed.  <br/> |
    
-#### Child elements
+### Child elements
 
 |**Element**|**Description**|
 |:-----|:-----|

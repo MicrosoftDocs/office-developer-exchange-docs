@@ -49,7 +49,7 @@ The following sections describe attributes, child elements, and parent elements.
 |Ascending  <br/> |The groups are ordered in ascending order.  <br/> |
 |Descending  <br/> |The groups are ordered in descending order.  <br/> |
    
-#### Child elements
+### Child elements
 
 |**Element**|**Description**|
 |:-----|:-----|

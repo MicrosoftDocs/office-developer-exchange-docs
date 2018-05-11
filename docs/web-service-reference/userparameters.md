@@ -35,7 +35,7 @@ The following sections describe attributes, child elements, and parent elements.
 |UserId  <br/> |The text value of the **UserId** attribute is the identifier of the user.  <br/> |
 |EnabledOnly  <br/> |The text value of the **EnabledOnly** indicates whether the response only contains the enabled extensions.  <br/> |
    
-#### Child elements
+### Child elements
 
 [UserEnabledExtensions](userenabledextensions.md) | [UserDisabledExtensions](userdisabledextensions.md)
   

@@ -35,7 +35,7 @@ The following sections describe attributes, child elements, and parent elements.
 |:-----|:-----|
 |**Value** <br/> |A non-empty string value that represents the value of an argument to the action part of a protection rule. This attribute is required.  <br/> |
    
-#### Child elements
+### Child elements
 
 None.
   

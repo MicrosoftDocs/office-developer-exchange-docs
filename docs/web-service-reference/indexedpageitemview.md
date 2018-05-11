@@ -44,7 +44,7 @@ The following sections describe attributes, child elements, and parent elements.
 |Beginning  <br/> |The paged view starts at the beginning of the found conversation or item set.  <br/> |
 |End  <br/> |The paged view starts at the end of the found conversation or item set.  <br/> |
    
-#### Child elements
+### Child elements
 
 None.
   

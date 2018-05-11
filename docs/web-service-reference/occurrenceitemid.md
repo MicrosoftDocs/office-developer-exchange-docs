@@ -37,7 +37,7 @@ The following sections describe attributes, child elements, and parent elements.
 |**ChangeKey** <br/> |Identifies a specific version of the recurring master or an item occurrence. If either the recurring master or any of its occurrences change, the **ChangeKey** changes. The **ChangeKey** is the same for the recurring master and all occurrences.  <br/> |
 |**InstanceIndex** <br/> |Identifies the index of the item occurrence. This attribute is required. This value represents an integer.  <br/> |
    
-#### Child elements
+### Child elements
 
 None.
   

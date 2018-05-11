@@ -53,7 +53,7 @@ The following sections describe attributes, child elements, and parent elements.
 |Digest  <br/> |Digest authentication.  <br/> |
 |Basic  <br/> |Basic authentication.  <br/> |
    
-#### Child elements
+### Child elements
 
 None.
   

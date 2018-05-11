@@ -44,7 +44,7 @@ The following sections describe attributes, child elements, and parent elements.
 |**RootItemId** <br/> |Identifies the root item of a deleted attachment.  <br/> |
 |**RootItemChangeKey** <br/> |Identifies the new change key of the root item of a deleted attachment.  <br/> |
    
-#### Child elements
+### Child elements
 
 None.
   

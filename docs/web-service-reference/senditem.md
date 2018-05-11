@@ -45,7 +45,7 @@ The following sections describe attributes, child elements, and parent elements.
 |**true** <br/> |If the [SavedItemFolderId](saveditemfolderid.md) element is not present, the item is saved in the Sent Items folder. If the [SavedItemFolderId](saveditemfolderid.md) element is present, the item is saved in the folder that is specified by the [SavedItemFolderId](saveditemfolderid.md) element.  <br/> |
 |**false** <br/> |If the [SavedItemFolderId](saveditemfolderid.md) element is not present, the item is not saved. If the [SavedItemFolderId](saveditemfolderid.md) element is present, an error response will be returned with a [ResponseCode](responsecode.md) element that contains the **ErrorInvalidSendItemSaveSettings** value.  <br/> |
    
-#### Child elements
+### Child elements
 
 |**Element**|**Description**|
 |:-----|:-----|

@@ -55,7 +55,7 @@ The following sections describe attributes, child elements, and parent elements.
 |SendOnlyToAll  <br/> |The meeting request is sent to all attendees but is not saved in the Sent Items folder.  <br/> |
 |SendToAllAndSaveCopy  <br/> |The meeting request is sent to all attendees and a copy is saved in the folder that is identified by the [SavedItemFolderId](saveditemfolderid.md) element.  <br/> |
    
-#### Child elements
+### Child elements
 
 |**Element**|**Description**|
 |:-----|:-----|

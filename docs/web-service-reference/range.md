@@ -34,7 +34,7 @@ The following sections describe attributes, child elements, and parent elements.
 |**Count** <br/> |The text value of the **Count** attribute is the number of occurrences of the recurring item. This is an **integer** value.  <br/> |
 |**CompareOriginalStartTime** <br/> |The text value of **true** for the **CompareOriginalStartTime** attribute indicates that the client should compare the original start time with the new start time. A value of **false** indicates that the client does not need to compare the original start time with the new start time.  <br/> |
    
-#### Child elements
+### Child elements
 
 None.
   

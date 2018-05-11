@@ -29,7 +29,7 @@ The following sections describe attributes, child elements, and parent elements.
 
 None.
   
-#### Child elements
+### Child elements
 
 The child elements are not defined in the Exchange Web Services schema.
   

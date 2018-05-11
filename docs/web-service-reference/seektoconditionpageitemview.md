@@ -34,7 +34,7 @@ The following sections describe attributes, child elements, and parent elements.
 |BasePoint  <br/> |The text value of the **BasePoint** attribute is the base point from where the search will start. A text value of **Beginning** indicates that the search will start at the beginning of the result set. A text value of **End** indicates that the search will start at the end of the result set.  <br/> |
 |MaxEntriesReturned  <br/> |The text value of the **MaxEntriesReturned** attribute is the maximum number of items that can be returned in a result set.  <br/> |
    
-#### Child elements
+### Child elements
 
 [Condition (RestrictionType)](condition-restrictiontype.md)
   

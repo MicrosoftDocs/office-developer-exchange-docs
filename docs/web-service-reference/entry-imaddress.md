@@ -35,7 +35,7 @@ The following sections describe attributes, child elements, and parent elements.
 |:-----|:-----|
 |**Key** <br/> | Identifies the IM address. The following are the possible values for this attribute:  <br/>  ImAddress1  <br/>  ImAddress2  <br/>  ImAddress3  <br/> |
    
-#### Child elements
+### Child elements
 
 None.
   

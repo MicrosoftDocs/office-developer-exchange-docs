@@ -45,7 +45,7 @@ The following sections describe attributes, child elements, and parent elements.
 |**True** <br/> |Delegate user permissions are returned in addition to the delegate user information that is returned in the [UserId](userid.md) element.  <br/> |
 |**False** <br/> |[UserId](userid.md) information is returned.  <br/> |
    
-#### Child elements
+### Child elements
 
 |**Element**|**Description**|
 |:-----|:-----|

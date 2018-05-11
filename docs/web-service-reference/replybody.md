@@ -37,7 +37,7 @@ The following sections describe attributes, child elements, and parent elements.
 |:-----|:-----|
 |xml:lang  <br/> |Specifies the language used in the **ReplyBody** contents. This attribute is optional. The possible values of this attribute are defined by IETF RFC 3066.  <br/> |
    
-#### Child elements
+### Child elements
 
 |**Element**|**Description**|
 |:-----|:-----|

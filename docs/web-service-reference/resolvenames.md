@@ -64,7 +64,7 @@ The following sections describe attributes, child elements, and parent elements.
 |Default  <br/> |The Default set of contact item properties is returned. For more information, see [Response shapes in EWS](http://msdn.microsoft.com/library/1c5ddc0a-c4e0-4488-8972-7543b5b464df%28Office.15%29.aspx).  <br/> |
 |AllProperties  <br/> |The AllProperties set of contact item properties are returned. For more information, see [Response shapes in EWS](http://msdn.microsoft.com/library/1c5ddc0a-c4e0-4488-8972-7543b5b464df%28Office.15%29.aspx).  <br/> |
    
-#### Child elements
+### Child elements
 
 |**Element**|**Description**|
 |:-----|:-----|

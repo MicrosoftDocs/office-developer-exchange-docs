@@ -42,7 +42,7 @@ The following sections describe attributes, child elements, and parent elements.
 |**IncludesLastItemInRange** <br/> |Indicates whether the current results contain the last item in the query, such that further paging is not needed.  <br/> |
 |**TotalItemsInView** <br/> |Represents the total number of items that pass the restriction. In a grouped [FindItem operation](finditem-operation.md), the **TotalItemsInView** attribute returns the total number of items in the view plus the total number of groups.  <br/> |
    
-#### Child elements
+### Child elements
 
 |**Element**|**Description**|
 |:-----|:-----|

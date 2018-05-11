@@ -35,7 +35,7 @@ The following sections describe attributes, child elements, and parent elements.
 |:-----|:-----|
 |**Id** <br/> |Specifies the attachment identifier.  <br/> |
    
-#### Child elements
+### Child elements
 
 None.
   

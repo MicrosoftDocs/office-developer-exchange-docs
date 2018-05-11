@@ -32,7 +32,7 @@ The following sections describe attributes, child elements, and parent elements.
 |Id  <br/> |The text value of the **Id** attribute is the identifier of the mailbox.  <br/> |
 |IsArchive  <br/> |The text value of the **IsArchive** attribute indicates whether the mailbox is an archive mailbox. A text value of **true** for the **IsArchive** attribute indicates that the mailbox is an archive mailbox. A value of **false** for the **IsArchive** attribute indicates that the mailbox is a primary mailbox.  <br/> |
    
-#### Child elements
+### Child elements
 
 None.
   

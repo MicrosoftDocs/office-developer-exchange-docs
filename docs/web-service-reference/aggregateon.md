@@ -43,7 +43,7 @@ The following sections describe attributes, child elements, and parent elements.
 |:-----|:-----|
 |**Aggregate** <br/> | Indicates the maximum or minimum value of the property identified by the [FieldURI](fielduri.md) element that is used for ordering the groups of items. The following are the possible values:  <br/>  Minimum  <br/>  Maximum  <br/> |
    
-#### Child elements
+### Child elements
 
 |**Element**|**Description**|
 |:-----|:-----|

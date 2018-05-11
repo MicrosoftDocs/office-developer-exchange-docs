@@ -35,7 +35,7 @@ The following sections describe attributes, child elements, and parent elements.
 |:-----|:-----|
 |Id  <br/> |Identifies the phone call to disconnect. This attribute is required.  <br/> |
    
-#### Child elements
+### Child elements
 
 None.
   

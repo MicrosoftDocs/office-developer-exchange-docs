@@ -60,7 +60,7 @@ The following sections describe attributes, child elements, and parent elements.
 |Organization  <br/> |Indicates that the app is for an organization.  <br/> |
 |Default  <br/> |Indicates that the app is a default app.  <br/> |
    
-#### Child elements
+### Child elements
 
 |**Element**|**Description**|
 |:-----|:-----|

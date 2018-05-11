@@ -85,7 +85,7 @@ The following sections describe attributes, child elements, and parent elements.
 |String  <br/> |A Unicode string.  <br/> |
 |StringArray  <br/> |An array of Unicode strings.  <br/> |
    
-#### Child elements
+### Child elements
 
 None.
   

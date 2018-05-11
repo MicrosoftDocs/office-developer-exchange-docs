@@ -38,7 +38,7 @@ The following sections describe attributes, child elements, and parent elements.
 |MinorBuildNumber  <br/> |Describes the minor build number.  <br/> |
 |Version  <br/> |Describes the Exchange Web Services (EWS) schema version.  <br/> |
    
-#### Child elements
+### Child elements
 
 None.
   

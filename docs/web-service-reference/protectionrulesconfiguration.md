@@ -38,7 +38,7 @@ The following sections describe attributes, child elements, and parent elements.
 |:-----|:-----|
 |**RefreshInterval** <br/> |Specifies how often, in whole hours, the client should request protection rules from the server. This attribute is required and its value must be an integer that is equal to or greater than 1.  <br/> |
    
-#### Child elements
+### Child elements
 
 |**Element**|**Description**|
 |:-----|:-----|

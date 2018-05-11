@@ -37,7 +37,7 @@ The following sections describe attributes, child elements, and parent elements.
 |ReturnDeletedItems  <br/> |Indicates that deleted items should be returned.  <br/> |
 |ReturnHighlightTerms  <br/> |Indicates that highlighted terms should be returned.  <br/> |
    
-#### Child elements
+### Child elements
 
 None.
   

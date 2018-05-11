@@ -84,7 +84,7 @@ The following sections describe attributes, child elements, and parent elements.
 |String  <br/> |Indicates a string.  <br/> |
 |StringArray  <br/> |Indicates an array of strings.  <br/> |
    
-#### Child elements
+### Child elements
 
 None.
   

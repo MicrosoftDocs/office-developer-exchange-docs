@@ -51,7 +51,7 @@ The following sections describe attributes, child elements, and parent elements.
 |SoftDeleted  <br/> |Returns only the identities of items that are in a folder's dumpster. Note that a soft-deleted traversal combined with a search restriction will result in zero items returned even if there are items that match the search criteria.  <br/> |
 |Associated  <br/> |Returns only the identities of associated items in the folder.  <br/> |
    
-#### Child elements
+### Child elements
 
 |**Element**|**Description**|
 |:-----|:-----|

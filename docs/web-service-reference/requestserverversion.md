@@ -47,7 +47,7 @@ The following sections describe attributes, child elements, and parent elements.
 |Exchange2013  <br/> |Target the schema files for Exchange 2013.  <br/> |
 |Exchange2013_SP1  <br/> |Target the schema files for Exchange 2013 Service Pack 1 (SP1).  <br/> |
    
-#### Child elements
+### Child elements
 
 None.
   

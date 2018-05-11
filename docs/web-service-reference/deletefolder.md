@@ -45,7 +45,7 @@ The following sections describe attributes, child elements, and parent elements.
 |SoftDelete  <br/> |A folder is moved to the dumpster if the dumpster is enabled.  <br/> |
 |MoveToDeletedItems  <br/> |A folder is moved to the Deleted Items folder.  <br/> |
    
-#### Child elements
+### Child elements
 
 |**Element**|**Description**|
 |:-----|:-----|

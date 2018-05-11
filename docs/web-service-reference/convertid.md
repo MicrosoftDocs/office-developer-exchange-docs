@@ -48,7 +48,7 @@ The following sections describe attributes, child elements, and parent elements.
 |**StoreId** <br/> |Represents the Exchange store identifier.  <br/> |
 |**OwaId** <br/> |Represents the Outlook Web Access identifier format.  <br/> |
    
-#### Child elements
+### Child elements
 
 |**Element**|**Description**|
 |:-----|:-----|

@@ -37,7 +37,7 @@ The following sections describe attributes, child elements, and parent elements.
 |**RootItemId** <br/> |Identifies the unique identifier of the root store item to which the attachment is attached.  <br/> |
 |**RootItemChangeKey** <br/> |Identifies the change key of the root store item to which the attachment is attached.  <br/> |
    
-#### Child elements
+### Child elements
 
 None.
   

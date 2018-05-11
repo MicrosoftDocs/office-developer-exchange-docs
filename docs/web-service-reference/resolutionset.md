@@ -49,7 +49,7 @@ The following sections describe attributes, child elements, and parent elements.
 |**IncludesLastItemInRange** <br/> |This attribute will be true if the current results contain the last item in the query, so that additional paging is not needed.  <br/> |
 |**TotalItemsInView** <br/> |Represents the total number of items in the view.  <br/> |
    
-#### Child elements
+### Child elements
 
 |**Element**|**Description**|
 |:-----|:-----|

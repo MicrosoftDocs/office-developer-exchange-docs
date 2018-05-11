@@ -31,7 +31,7 @@ The following sections describe attributes, child elements, and parent elements.
 |:-----|:-----|
 |**IsExplicit** <br/> |Specifies whether the retention policy is explicitly set on an item or folder or whether it is inherited from a parent folder.  <br/> |
    
-#### Child elements
+### Child elements
 
 None.
   

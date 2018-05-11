@@ -40,7 +40,7 @@ The following sections describe attributes, child elements, and parent elements.
 |Id  <br/> |Represents the unique identifier of the time zone definition.  <br/> |
 |Name  <br/> |Represents the descriptive name of the time zone definition.  <br/> |
    
-#### Child elements
+### Child elements
 
 |**Element**|**Description**|
 |:-----|:-----|

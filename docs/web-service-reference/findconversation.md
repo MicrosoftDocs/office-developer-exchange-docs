@@ -74,7 +74,7 @@ The following sections describe attributes, child elements, and parent elements.
 |NoClutter  <br/> |For internal use only.  <br/> |
 |Clutter  <br/> |For internal use only.  <br/> |
    
-#### Child elements
+### Child elements
 
 |**Element**|**Description**|
 |:-----|:-----|

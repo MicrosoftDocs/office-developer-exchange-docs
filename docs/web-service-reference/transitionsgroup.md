@@ -39,7 +39,7 @@ The following sections describe attributes, child elements, and parent elements.
 |:-----|:-----|
 |Id  <br/> |A string value that represents the unique identifier of the transitions group.  <br/> |
    
-#### Child elements
+### Child elements
 
 |**Element**|**Description**|
 |:-----|:-----|

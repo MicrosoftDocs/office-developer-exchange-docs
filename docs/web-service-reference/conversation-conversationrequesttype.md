@@ -32,7 +32,7 @@ The following sections describe attributes, child elements, and parent elements.
 
 None.
   
-#### Child elements
+### Child elements
 
 [ConversationId](conversationid.md) | [SyncState (base64Binary)](syncstate-base64binary.md)
   
