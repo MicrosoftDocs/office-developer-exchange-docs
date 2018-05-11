@@ -1,7 +1,5 @@
 ---
 title: "agent"
- 
- 
 manager: sethgros
 ms.date: 9/17/2015
 ms.audience: Developer
@@ -17,20 +15,15 @@ description: "Last modified: September 17, 2015"
 ---
 
 # agent
-
- **Last modified:** September 17, 2015 
   
- * **Applies to:** Exchange Server 2013 * 
+**Applies to:** Exchange Server 2013
   
 The **agent** element contains configuration information about an installed agent. 
   
-[configuration](configuration.md)
-  
-[mexRuntime](mexruntime.md)
-  
-[agentList](agentlist.md)
-  
-[agent](agent.md)
+- [configuration](configuration.md) 
+- [mexRuntime](mexruntime.md)
+- [agentList](agentlist.md)
+- [agent](agent.md)
   
 ```XML
 <agent
@@ -42,7 +35,8 @@ The **agent** element contains configuration information about an installed agen
 </agent>
 ```
 
- **agentType (complexType)**
+**agentType (complexType)**
+
 ## Attributes and elements
 
 The following sections describe attributes, child elements, and parent elements.
@@ -78,7 +72,5 @@ None.
    
 ## See also
 
-#### Concepts
-
-[Agents configuration file elements for Exchange 2013](agents-configuration-file-elements-for-exchange-2013.md)
+- [Agents configuration file elements for Exchange 2013](agents-configuration-file-elements-for-exchange-2013.md)
 

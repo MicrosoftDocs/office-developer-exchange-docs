@@ -1,7 +1,5 @@
 ---
 title: "How to Create a DeliveryAgent transport agent for Exchange 2013"
- 
- 
 manager: sethgros
 ms.date: 9/17/2015
 ms.audience: Developer
@@ -16,9 +14,7 @@ description: "Find out how to create a custom DeliveryAgent transport agent to u
 
 Find out how to create a custom DeliveryAgent transport agent to use with Exchange 2013.
   
- **Last modified:** September 17, 2015 
-  
- * **Applies to:** Exchange Server 2013 * 
+**Applies to:** Exchange Server 2013
   
 The [DeliveryAgentFactory\<Manager\>](https://msdn.microsoft.com/library/Microsoft.Exchange.Data.Transport.Delivery.DeliveryAgentFactory`1.aspx) and [DeliveryAgent](https://msdn.microsoft.com/library/Microsoft.Exchange.Data.DeliveryType.DeliveryAgent.aspx) classes are the base classes for transport agents that are designed to run on the Transport service on an Exchange Server 2013 Mailbox server. You might implement handlers in your DeliveryAgent transport agent for the events provided by the [DeliveryAgent](https://msdn.microsoft.com/library/Microsoft.Exchange.Data.DeliveryType.DeliveryAgent.aspx) class that are listed in the following table. 
   
@@ -38,17 +34,17 @@ The following procedure describes how to create a custom DeliveryAgent transport
 
 1. Add references to the namespaces.
     
-  ```cs
-      using Microsoft.Exchange.Data.Transport;
-      using Microsoft.Exchange.Data.Transport.Delivery;
-  
-  ```
+   ```cs
+        using Microsoft.Exchange.Data.Transport;
+        using Microsoft.Exchange.Data.Transport.Delivery;
+    
+   ```
 
-    You can find these namespaces on your Exchange server. By adding a reference to these namespaces, you will have access to the [DeliveryAgent](https://msdn.microsoft.com/library/Microsoft.Exchange.Data.DeliveryType.DeliveryAgent.aspx) members. 
+   You can find these namespaces on your Exchange server. By adding a reference to these namespaces, you will have access to the [DeliveryAgent](https://msdn.microsoft.com/library/Microsoft.Exchange.Data.DeliveryType.DeliveryAgent.aspx) members. 
     
 2. Implement the derived class for the [DeliveryAgentFactory\<Manager\>](https://msdn.microsoft.com/library/Microsoft.Exchange.Data.Transport.Delivery.DeliveryAgentFactory`1.aspx) class. 
     
-  ```cs
+   ```cs
       public class MyDeliveryAgentFactory : DeliveryAgentFactory<MyDeliveryAgentFactory.MyDeliveryAgentManager>
       {
           static MyDeliveryAgentFactory()
@@ -70,13 +66,13 @@ The following procedure describes how to create a custom DeliveryAgent transport
           }
       }
   
-  ```
+   ```
 
-    This code will instantiate the derived class and override the **CreateAgent** method to create an instance of your new custom agent. Additional methods, such as **Close**, can also be overridden in this class to execute custom code. A [DeliveryAgentManager](https://msdn.microsoft.com/library/Microsoft.Exchange.Data.Transport.Delivery.DeliveryAgentManager.aspx) class is created to override the [SupportedDeliveryProtocol](https://msdn.microsoft.com/library/Microsoft.Exchange.Data.Transport.Delivery.DeliveryAgentManager.SupportedDeliveryProtocol.aspx) property and set the protocol your agent will use. 
+   This code will instantiate the derived class and override the **CreateAgent** method to create an instance of your new custom agent. Additional methods, such as **Close**, can also be overridden in this class to execute custom code. A [DeliveryAgentManager](https://msdn.microsoft.com/library/Microsoft.Exchange.Data.Transport.Delivery.DeliveryAgentManager.aspx) class is created to override the [SupportedDeliveryProtocol](https://msdn.microsoft.com/library/Microsoft.Exchange.Data.Transport.Delivery.DeliveryAgentManager.SupportedDeliveryProtocol.aspx) property and set the protocol your agent will use. 
     
 3. Define your agent.
     
-  ```cs
+   ```cs
       public class MyDeliveryAgent : DeliveryAgent
       {
           public MyDeliveryAgent(SmtpServer server)
@@ -87,20 +83,16 @@ The following procedure describes how to create a custom DeliveryAgent transport
           }
       }
   
-  ```
+   ```
 
-    After you define your agent class, you can add you custom functionality. In this example, the three events, [OnCloseConnection](https://msdn.microsoft.com/library/Microsoft.Exchange.Data.Transport.Delivery.DeliveryAgent.OnCloseConnection.aspx) , [OnDeliverMailItem](https://msdn.microsoft.com/library/Microsoft.Exchange.Data.Transport.Delivery.DeliveryAgent.OnDeliverMailItem.aspx) and [OnOpenConnection](https://msdn.microsoft.com/library/Microsoft.Exchange.Data.Transport.Delivery.DeliveryAgent.OnOpenConnection.aspx) , are redirected to your custom event handlers. 
+   After you define your agent class, you can add you custom functionality. In this example, the three events, [OnCloseConnection](https://msdn.microsoft.com/library/Microsoft.Exchange.Data.Transport.Delivery.DeliveryAgent.OnCloseConnection.aspx) , [OnDeliverMailItem](https://msdn.microsoft.com/library/Microsoft.Exchange.Data.Transport.Delivery.DeliveryAgent.OnDeliverMailItem.aspx) and [OnOpenConnection](https://msdn.microsoft.com/library/Microsoft.Exchange.Data.Transport.Delivery.DeliveryAgent.OnOpenConnection.aspx) , are redirected to your custom event handlers. 
     
 ## See also
 
 - [Transport agent concepts in Exchange 2013](transport-agent-concepts-in-exchange-2013.md)
-    
-- [Transport agent reference for Exchange 2013](transport-agent-reference-for-exchange-2013.md)
-    
-- [DeliveryAgentFactory\<Manager\>](https://msdn.microsoft.com/library/Microsoft.Exchange.Data.Transport.Delivery.DeliveryAgentFactory`1.aspx)
-    
-- [DeliveryAgent](https://msdn.microsoft.com/library/Microsoft.Exchange.Data.DeliveryType.DeliveryAgent.aspx)
-    
+- [Transport agent reference for Exchange 2013](transport-agent-reference-for-exchange-2013.md)    
+- [DeliveryAgentFactory\<Manager\>](https://msdn.microsoft.com/library/Microsoft.Exchange.Data.Transport.Delivery.DeliveryAgentFactory`1.aspx)   
+- [DeliveryAgent](https://msdn.microsoft.com/library/Microsoft.Exchange.Data.DeliveryType.DeliveryAgent.aspx)    
 - [DeliveryAgentManager](https://msdn.microsoft.com/library/Microsoft.Exchange.Data.Transport.Delivery.DeliveryAgentManager.aspx)
     
 

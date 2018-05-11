@@ -1,7 +1,5 @@
 ---
 title: "agentList"
- 
- 
 manager: sethgros
 ms.date: 9/17/2015
 ms.audience: Developer
@@ -17,18 +15,14 @@ description: "Last modified: September 17, 2015"
 ---
 
 # agentList
-
- **Last modified:** September 17, 2015 
   
- * **Applies to:** Exchange Server 2013 * 
+**Applies to:** Exchange Server 2013
   
 The **agentList** element contains an [agent](agent.md) element for each installed agent. 
   
-[configuration](configuration.md)
-  
-[mexRuntime](mexruntime.md)
-  
-[agentList](agentlist.md)
+- [configuration](configuration.md)
+- [mexRuntime](mexruntime.md)
+- [agentList](agentlist.md)
   
 ```XML
 <agentList>
@@ -36,7 +30,8 @@ The **agentList** element contains an [agent](agent.md) element for each install
 </agentList>
 ```
 
- **agentListType (complexType)**
+**agentListType (complexType)**
+
 ## Attributes and elements
 
 The following sections describe attributes, child elements, and parent elements.
@@ -68,7 +63,5 @@ None.
    
 ## See also
 
-#### Concepts
-
-[Agents configuration file elements for Exchange 2013](agents-configuration-file-elements-for-exchange-2013.md)
+- [Agents configuration file elements for Exchange 2013](agents-configuration-file-elements-for-exchange-2013.md)
 

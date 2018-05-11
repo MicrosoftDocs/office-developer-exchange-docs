@@ -1,7 +1,5 @@
 ---
 title: "Transport agent concepts in Exchange 2013"
- 
- 
 manager: sethgros
 ms.date: 9/17/2015
 ms.audience: Developer
@@ -16,9 +14,7 @@ description: "Find information about how the transport agent pipeline and server
 
 Find information about how the transport agent pipeline and server role architecture in Exchange 2013 affect transport agent development, and the classes that you can use to develop transport agents. 
   
- **Last modified:** September 17, 2015 
-  
- * **Applies to:** Exchange Server 2013 * 
+**Applies to:** Exchange Server 2013 
   
 You can use the class library provided in Exchange Server 2013 to implement transport agents that register for events and take actions on messages as they pass through the transport pipeline. You can also use transport agents to modify messages and convert content. 
   
@@ -30,9 +26,7 @@ This article provides information about transport agents and the transport pipel
 Transport agents are derived from one of the following three classes:
   
 - [SmtpReceiveAgent](https://msdn.microsoft.com/library/Microsoft.Exchange.Data.Transport.Smtp.SmtpReceiveAgent.aspx)
-    
 - [RoutingAgent](https://msdn.microsoft.com/library/Microsoft.Exchange.Data.Transport.Routing.RoutingAgent.aspx)
-    
 - [DeliveryAgent](https://msdn.microsoft.com/library/Microsoft.Exchange.Data.Transport.Delivery.DeliveryAgent.aspx)
     
 The transport pipeline refers to the flow of message data within the boundaries of an Exchange 2013 organization. The pipeline consists of the services listed in the following table.
@@ -122,24 +116,15 @@ The following namespaces contain types that you can use to read, write, and modi
 After you write your transport agent, you [install and manage your agent](http://technet.microsoft.com/en-us/library/bb125175%28v=exchg.150%29.aspx) by using the Exchange Management Shell. For more information, see [Creating transport agents for Exchange 2013](creating-transport-agents-for-exchange-2013.md). 
   
 ## See also
-<a name="AdditionalResources"> </a>
 
-- [Transport agents in Exchange 2013](transport-agents-in-exchange-2013.md)
-    
-- [Transport agent reference for Exchange 2013](transport-agent-reference-for-exchange-2013.md)
-    
-- [Reading and modifying messages in the Exchange 2013 transport pipeline](reading-and-modifying-messages-in-the-exchange-2013-transport-pipeline.md)
-    
-- [What's New in Exchange 2013](http://technet.microsoft.com/en-us/library/jj150540%28v=exchg.150%29.aspx)
-    
-- [Exchange 2013 Server Role Architecture](http://blogs.technet.com/b/exchange/archive/2013/01/23/exchange-2013-server-role-architecture.aspx)
-    
-- [Mailbox and Client Access Servers](http://technet.microsoft.com/en-us/library/jj150519%28v=exchg.150%29.aspx)
-    
-- [Exchange Server 2013 Mail Flow](http://technet.microsoft.com/en-us/library/aa996349.aspx)
-    
-- [Exchange Server 2013 Mail Routing](http://technet.microsoft.com/en-us/library/aa998825%28v=exchg.150%29.aspx)
-    
+- [Transport agents in Exchange 2013](transport-agents-in-exchange-2013.md)    
+- [Transport agent reference for Exchange 2013](transport-agent-reference-for-exchange-2013.md)   
+- [Reading and modifying messages in the Exchange 2013 transport pipeline](reading-and-modifying-messages-in-the-exchange-2013-transport-pipeline.md)    
+- [What's New in Exchange 2013](http://technet.microsoft.com/en-us/library/jj150540%28v=exchg.150%29.aspx)   
+- [Exchange 2013 Server Role Architecture](http://blogs.technet.com/b/exchange/archive/2013/01/23/exchange-2013-server-role-architecture.aspx)    
+- [Mailbox and Client Access Servers](http://technet.microsoft.com/en-us/library/jj150519%28v=exchg.150%29.aspx)   
+- [Exchange Server 2013 Mail Flow](http://technet.microsoft.com/en-us/library/aa996349.aspx)    
+- [Exchange Server 2013 Mail Routing](http://technet.microsoft.com/en-us/library/aa998825%28v=exchg.150%29.aspx)   
 - [Exchange Management Shell](http://technet.microsoft.com/en-us/library/bb123778%28v=exchg.150%29.aspx)
     
 
