@@ -1,18 +1,14 @@
 ---
-title: "How to Validate a server certificate for the EWS Managed API"
- 
- 
+title: "Validate a server certificate for the EWS Managed API"
 manager: sethgros
 ms.date: 9/17/2015
 ms.audience: Developer
- 
- 
 localization_priority: Normal
 ms.assetid: 1fe0b215-8340-4bc8-a6ce-4f591ca9e353
 description: "Learn how to create and reference a certificate validation callback method so that you can make EWS Managed API requests to an Exchange server."
 ---
 
-# How to: Validate a server certificate for the EWS Managed API
+# Validate a server certificate for the EWS Managed API
 
 Learn how to create and reference a certificate validation callback method so that you can make EWS Managed API requests to an Exchange server.
   
@@ -28,9 +24,7 @@ To set up to validate a server certificate, ensure that the following are true:
 - You are creating a managed application that includes a reference to the following required .NET Framework namespaces: 
     
   - **System.Net**
-    
-  - **System.Net.Security**
-    
+  - **System.Net.Security**  
   - **System.Security.Cryptography.X509Certificates**
     
 ## Example: Callback method to validate a server certificate for the EWS Managed API
@@ -38,11 +32,10 @@ To set up to validate a server certificate, ensure that the following are true:
 
 The following code example shows how to create an X509 certificate validation callback method for the EWS Managed API. This method will validate an X509 certificate and only return true when either of the following criteria are met: 
   
-- The certificate is valid and traces back to a valid root certificate.
-    
+- The certificate is valid and traces back to a valid root certificate.    
 - The certificate is valid and is self-signed by the server that returned it. 
     
-> [!SECURITY NOTE]
+> [!IMPORTANT]
 > The certificate validation callback method in this example provides sufficient security for development and testing of EWS Managed API applications. However, it might not provide sufficient security for your deployed application. You should always make sure that the certificate validation callback method that you use meets the security requirements of your organization. 
   
 ```cs
@@ -114,10 +107,8 @@ After you have created the validation callback method for the EWS Managed API, y
 - [How to: Get domain settings from an Exchange server](how-to-get-domain-settings-from-an-exchange-server.md)
     
 ## See also
-<a name="bk_addresources"> </a>
 
-- [Setting up your EWS application](setting-up-your-ews-application.md)
-    
+- [Setting up your EWS application](setting-up-your-ews-application.md)  
 - [Start using web services in Exchange](start-using-web-services-in-exchange.md)
     
 
