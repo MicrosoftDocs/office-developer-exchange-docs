@@ -1,5 +1,5 @@
 ---
-title: "How to Create a RoutingAgent transport agent for Exchange 2013"
+title: "Create a RoutingAgent transport agent for Exchange 2013"
 manager: sethgros
 ms.date: 9/17/2015
 ms.audience: Developer
@@ -10,7 +10,7 @@ ms.assetid: 3f0e745f-9289-4f31-8877-926692a8c133
 description: "Find out how to create a custom RoutingAgent transport agent to use with Exchange 2013."
 ---
 
-# How to: Create a RoutingAgent transport agent for Exchange 2013
+# Create a RoutingAgent transport agent for Exchange 2013
 
 Find out how to create a custom RoutingAgent transport agent to use with Exchange 2013.
   

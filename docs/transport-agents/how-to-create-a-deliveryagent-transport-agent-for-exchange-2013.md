@@ -1,5 +1,5 @@
 ---
-title: "How to Create a DeliveryAgent transport agent for Exchange 2013"
+title: "Create a DeliveryAgent transport agent for Exchange 2013"
 manager: sethgros
 ms.date: 9/17/2015
 ms.audience: Developer
@@ -10,7 +10,7 @@ ms.assetid: 4af904d7-b315-4849-92b1-66018f76ffdf
 description: "Find out how to create a custom DeliveryAgent transport agent to use with Exchange 2013."
 ---
 
-# How to: Create a DeliveryAgent transport agent for Exchange 2013
+# Create a DeliveryAgent transport agent for Exchange 2013
 
 Find out how to create a custom DeliveryAgent transport agent to use with Exchange 2013.
   

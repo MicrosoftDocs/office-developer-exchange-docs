@@ -50,7 +50,7 @@ The following sections describe attributes, child elements, and parent elements.
 |:-----|:-----|
 |**Success** <br/> |Describes a request that is fulfilled.  <br/> |
 |**Warning** <br/> | Describes a request that was not processed. A warning may be returned if an error occurred while an item in the request was processed and subsequent items could not be processed.<br/><br/>The following are examples of sources for warnings:<br/>- The Exchange store is offline during the batch.<br/>- Active Directory Domain Services (AD DS) is offline.<br/>- Mailboxes are moved.<br/>- MDB is offline.<br/>- Password is expired.  <br/>- Quota is exceeded. |
-|**Error** <br/> | Describes a request that cannot be fulfilled.<br/><br/>The following are examples of sources for errors:<br/>- Invalid attributes or elements<br/>- Attributes or elements out of range<br/>- Unknown tag<br/>- Attribute or element not valid in the context<br/>- Unauthorized access attempted by any client<br/>- Server-side failure in response to a valid client-side call<br/>- Information about the error can be found in the [ResponseCode](responsecode.md) and [MessageText](messagetext.md) elements. |
+|**Error** <br/> | Describes a request that cannot be fulfilled.<br/><br/>The following are examples of sources for errors:<br/>- Invalid attributes or elements<br/>- Attributes or elements out of range<br/>- Unknown tag<br/>- Attribute or element not valid in the context<br/>- Unauthorized access attempted by any client<br/>- Server-side failure in response to a valid client-side call<br/><br/>Information about the error can be found in the [ResponseCode](responsecode.md) and [MessageText](messagetext.md) elements. |
    
 ### Child elements
 

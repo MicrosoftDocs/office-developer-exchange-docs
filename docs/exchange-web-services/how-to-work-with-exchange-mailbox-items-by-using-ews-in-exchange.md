@@ -1,22 +1,20 @@
 ---
-title: "How to Work with Exchange mailbox items by using EWS in Exchange"
- 
- 
+title: "Work with Exchange mailbox items by using EWS in Exchange"
 manager: sethgros
 ms.date: 9/17/2015
 ms.audience: Developer
- 
- 
 localization_priority: Normal
 ms.assetid: 721deb84-f85d-45d0-84c1-0ed55f359969
 description: "Learn how to create, get, update, and delete items by using the EWS Managed API or EWS in Exchange."
 ---
 
-# How to: Work with Exchange mailbox items by using EWS in Exchange
+# Work with Exchange mailbox items by using EWS in Exchange
 
 Learn how to create, get, update, and delete items by using the EWS Managed API or EWS in Exchange.
   
-You can use the EWS Managed API or EWS to work with items in a mailbox. You can use generic items — EWS Managed API [Item](http://msdn.microsoft.com/en-us/library/microsoft.exchange.webservices.data.item%28v=exchg.80%29.aspx) objects or EWS [Item](http://msdn.microsoft.com/library/4dfe8f48-e7b4-444d-bdf9-a34e180f598b%28Office.15%29.aspx) types — to perform some operations (getting an item or deleting an item by using the item's identifier); however, most of the time you'll have to use a [strongly typed item](folders-and-items-in-ews-in-exchange.md#bk_item) to perform a get or update operation because you'll need access to the properties that are specific to the strongly typed item. For example, you can't use a generic item to retrieve an item that contains a start and end date - you need an EWS Managed API [Appointment](http://msdn.microsoft.com/en-us/library/microsoft.exchange.webservices.data.appointment%28v=exchg.80%29.aspx) object or an EWS [CalendarItem](http://msdn.microsoft.com/library/b0c1fd27-b6da-46e5-88b8-88f00c71ba80%28Office.15%29.aspx) type to do that. And if you're using the EWS Managed API, you always have to create strongly typed items, because the generic **Item** class does not have a constructor. If you're working with an item that is not strongly typed, you can always use the base **Item** class to work with the item. 
+You can use the EWS Managed API or EWS to work with items in a mailbox. You can use generic items — EWS Managed API [Item](http://msdn.microsoft.com/en-us/library/microsoft.exchange.webservices.data.item%28v=exchg.80%29.aspx) objects or EWS [Item](http://msdn.microsoft.com/library/4dfe8f48-e7b4-444d-bdf9-a34e180f598b%28Office.15%29.aspx) types — to perform some operations (getting an item or deleting an item by using the item's identifier); however, most of the time you'll have to use a [strongly typed item](folders-and-items-in-ews-in-exchange.md#bk_item) to perform a get or update operation because you'll need access to the properties that are specific to the strongly typed item. 
+
+For example, you can't use a generic item to retrieve an item that contains a start and end date - you need an EWS Managed API [Appointment](http://msdn.microsoft.com/en-us/library/microsoft.exchange.webservices.data.appointment%28v=exchg.80%29.aspx) object or an EWS [CalendarItem](http://msdn.microsoft.com/library/b0c1fd27-b6da-46e5-88b8-88f00c71ba80%28Office.15%29.aspx) type to do that. And if you're using the EWS Managed API, you always have to create strongly typed items, because the generic **Item** class does not have a constructor. If you're working with an item that is not strongly typed, you can always use the base **Item** class to work with the item. 
   
 **Table 1. EWS Managed API methods and EWS operations for working with items**
 
@@ -406,12 +404,9 @@ For more details about deleting items, see [Deleting items by using EWS in Excha
 You can move or copy items between mailboxes by using the [ExportItems](http://msdn.microsoft.com/library/e2846abb-0b16-4732-bbd8-038a674672f6%28Office.15%29.aspx) and [UploadItems](http://msdn.microsoft.com/library/a88cbe99-7968-454d-a545-4f92c330909f%28Office.15%29.aspx) operations. To learn more, see [Exporting and importing items by using EWS in Exchange](exporting-and-importing-items-by-using-ews-in-exchange.md).
   
 ## See also
-<a name="bk_addresources"> </a>
 
-- [Folders and items in EWS in Exchange](folders-and-items-in-ews-in-exchange.md)
-    
-- [How to: Work with folders by using EWS in Exchange](how-to-work-with-folders-by-using-ews-in-exchange.md)
-    
+- [Folders and items in EWS in Exchange](folders-and-items-in-ews-in-exchange.md)    
+- [How to: Work with folders by using EWS in Exchange](how-to-work-with-folders-by-using-ews-in-exchange.md)    
 - [Deleting items by using EWS in Exchange](deleting-items-by-using-ews-in-exchange.md)
     
 

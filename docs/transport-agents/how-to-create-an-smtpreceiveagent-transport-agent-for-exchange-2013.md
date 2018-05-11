@@ -1,5 +1,5 @@
 ---
-title: "How to Create an SmtpReceiveAgent transport agent for Exchange 2013"
+title: "Create an SmtpReceiveAgent transport agent for Exchange 2013"
 manager: sethgros
 ms.date: 9/17/2015
 ms.audience: Developer
@@ -10,7 +10,7 @@ ms.assetid: cdc7c462-74a7-49d6-95b2-155d783840e9
 description: "Find out how to create a custom SmtpReceiveAgent transport agent to use with Exchange 2013."
 ---
 
-# How to: Create an SmtpReceiveAgent transport agent for Exchange 2013
+# Create an SmtpReceiveAgent transport agent for Exchange 2013
 
 Find out how to create a custom SmtpReceiveAgent transport agent to use with Exchange 2013.
   
