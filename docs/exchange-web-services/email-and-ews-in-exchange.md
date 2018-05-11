@@ -122,7 +122,7 @@ If you're updating an email message, see [Email properties and elements in EWS i
     
 - [How to: Process email messages in batches by using EWS in Exchange](how-to-process-email-messages-in-batches-by-using-ews-in-exchange.md)
     
-## Additional resources
+## See also
 <a name="bk_addresources"> </a>
 
 - [Develop web service clients for Exchange](develop-web-service-clients-for-exchange.md)

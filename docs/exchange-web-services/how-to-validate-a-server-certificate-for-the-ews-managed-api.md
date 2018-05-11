@@ -113,7 +113,7 @@ After you have created the validation callback method for the EWS Managed API, y
     
 - [How to: Get domain settings from an Exchange server](how-to-get-domain-settings-from-an-exchange-server.md)
     
-## Additional resources
+## See also
 <a name="bk_addresources"> </a>
 
 - [Setting up your EWS application](setting-up-your-ews-application.md)

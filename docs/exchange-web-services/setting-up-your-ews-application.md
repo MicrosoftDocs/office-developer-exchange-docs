@@ -28,7 +28,7 @@ When you create a client application that calls web services on Exchange Online,
     
 - [How to: Validate a server certificate for the EWS Managed API](how-to-validate-a-server-certificate-for-the-ews-managed-api.md)
     
-## Additional resources
+## See also
 <a name="bk_addresources"> </a>
 
 - [Start using web services in Exchange](start-using-web-services-in-exchange.md)

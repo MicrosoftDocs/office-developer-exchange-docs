@@ -86,7 +86,7 @@ Now that you've learned about the tools and resources that you can use to troubl
     
 - [Microsoft Support](http://support.microsoft.com/ph/730/en-us) — Contact a Microsoft support professional for assistance. 
     
-## Additional resources
+## See also
 <a name="bk_addresources"> </a>
 
 See the following articles:

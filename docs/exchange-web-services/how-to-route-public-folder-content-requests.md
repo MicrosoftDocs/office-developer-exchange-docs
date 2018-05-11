@@ -276,7 +276,7 @@ Expect: 100-continue
 </soap:Envelope>
 ```
 
-## Additional resources
+## See also
 <a name="bk_addresources"> </a>
 
 - [Public folder access with EWS in Exchange](public-folder-access-with-ews-in-exchange.md)

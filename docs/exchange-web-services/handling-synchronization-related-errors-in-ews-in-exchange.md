@@ -27,7 +27,7 @@ If your application synchronizes items and folders, you might have to handle syn
 |ErrorTimeoutExpired  <br/> |Send too many requests.  <br/> |Limiting your batches to 10 items per batch to avoid getting [throttled](ews-throttling-in-exchange.md).  <br/> |
 |[ServiceResponseException](http://msdn.microsoft.com/en-us/library/microsoft.exchange.webservices.data.serviceresponseexception%28v=exchg.80%29.aspx) <br/> |Connect to EWS when the server is offline or there is a problem with connectivity.  <br/> |Checking connectivity with the server and retrying your request later. This is likely a transient service error or network error.  <br/> |
    
-## Additional resources
+## See also
 <a name="bk_addresources"> </a>
 
 - [Mailbox synchronization and EWS in Exchange](mailbox-synchronization-and-ews-in-exchange.md)

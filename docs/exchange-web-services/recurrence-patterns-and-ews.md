@@ -341,7 +341,7 @@ You use all the same methods and operations to work with recurring series as you
     
 - [How to: Update a recurring series by using EWS in Exchange](how-to-update-a-recurring-series-by-using-ews-in-exchange.md)
     
-## Additional resources
+## See also
 <a name="bk_addresources"> </a>
 
 - [Calendars and EWS in Exchange](calendars-and-ews-in-exchange.md)

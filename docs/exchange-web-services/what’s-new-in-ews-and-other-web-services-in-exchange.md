@@ -153,7 +153,7 @@ The propose new time feature was introduced in version 15.00.0800.007 of Exchang
   
 The EWS Managed API does not implement this functionality.
   
-## Additional resources
+## See also
 <a name="bk_addresources"> </a>
 
 - [Explore the EWS Managed API, EWS, and web services in Exchange](http://msdn.microsoft.com/library/53553207-ff98-4fdb-8716-4ae02fee83bf%28Office.15%29.aspx)

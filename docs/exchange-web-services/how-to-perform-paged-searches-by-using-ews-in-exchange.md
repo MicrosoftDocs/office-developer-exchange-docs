@@ -339,7 +339,7 @@ The server sends the following response, which contains three items. The respons
 </s:Envelope>
 ```
 
-## Additional resources
+## See also
 <a name="bk_addresources"> </a>
 
 - [Search and EWS in Exchange](search-and-ews-in-exchange.md)

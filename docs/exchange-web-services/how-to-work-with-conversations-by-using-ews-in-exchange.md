@@ -565,7 +565,7 @@ The [GetConversationItems](http://msdn.microsoft.com/en-us/library/office/micros
   
 The **FindConversation** EWS Managed API method and the **FindConversation** EWS method are not available in the initial release version of Exchange 2010 or in Exchange 2007. 
   
-## Additional resources
+## See also
 <a name="bk_addresources"> </a>
 
 - [Email and EWS in Exchange](email-and-ews-in-exchange.md)

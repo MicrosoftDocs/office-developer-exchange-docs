@@ -288,7 +288,7 @@ The following code example shows how to use the [CreateItem](http://msdn.microso
 
 The server responds to the **CreateItem** request with a [CreateItemResponse](http://msdn.microsoft.com/library/742a46a0-2475-45a0-b44f-90639a3f5a43%28Office.15%29.aspx) message that includes a [ResponseCode](http://msdn.microsoft.com/library/4b84d670-74c9-4d6d-84e7-f0a9f76f0d93%28Office.15%29.aspx) value of **NoError**, which indicates that the email was created successfully, and the [ItemId](http://msdn.microsoft.com/library/3350b597-57a0-4961-8f44-8624946719b4%28Office.15%29.aspx) of the newly created message. 
   
-## Additional resources
+## See also
 <a name="bk_addresources"> </a>
 
 - [Email and EWS in Exchange](email-and-ews-in-exchange.md)

@@ -70,7 +70,7 @@ class TraceListener : ITraceListener
 
 ```
 
-## Additional resources
+## See also
 <a name="bk_addresources"> </a>
 
 - [Start using web services in Exchange](start-using-web-services-in-exchange.md)

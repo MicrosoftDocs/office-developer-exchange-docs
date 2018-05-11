@@ -233,7 +233,7 @@ The following example request updates the time zone of the appointment, and also
 </soap:Envelope>
 ```
 
-## Additional resources
+## See also
 <a name="bk_addresources"> </a>
 
 - [Time zones and EWS in Exchange](time-zones-and-ews-in-exchange.md)

@@ -520,7 +520,7 @@ Now that you're familiar with using search filters in basic searches, you can mo
     
 - [How to: Perform paged searches by using EWS in Exchange](how-to-perform-paged-searches-by-using-ews-in-exchange.md)
     
-## Additional resources
+## See also
 <a name="bk_addresources"> </a>
 
 - [Search and EWS in Exchange](search-and-ews-in-exchange.md)

@@ -258,7 +258,7 @@ Finding the endpoint by following the Autodiscover process returns the requested
     
 - [How to: Get user settings from Exchange by using Autodiscover](how-to-get-user-settings-from-exchange-by-using-autodiscover.md)
     
-## Additional resources
+## See also
 <a name="bk_addresources"> </a>
 
 - [Setting up your EWS application](setting-up-your-ews-application.md)

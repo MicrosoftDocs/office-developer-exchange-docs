@@ -415,7 +415,7 @@ The following example shows the request XML for deleting a user configuration ob
 
 The [response XML](http://msdn.microsoft.com/library/93e44690-be2d-4fdb-96a8-4ded3c193aed%28Office.15%29.aspx) is simple and indicates whether the delete request was a success or whether an error occurred. 
   
-## Additional resources
+## See also
 <a name="bk_addresources"> </a>
 
 - [Persistent application settings in EWS in Exchange](persistent-application-settings-in-ews-in-exchange.md)

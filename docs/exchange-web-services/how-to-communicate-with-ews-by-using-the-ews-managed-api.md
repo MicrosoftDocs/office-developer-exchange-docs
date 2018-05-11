@@ -83,7 +83,7 @@ After you set up an [ExchangeService](https://msdn.microsoft.com/library/Microso
     > [!NOTE]
     >  Although you can explicitly set the **Url** property of the **ExchangeService** to a hardcoded value, we recommend that you use the Autodiscover service instead, for the following reasons: >  Autodiscover determines the best endpoint for a given user (the endpoint that is closest to the user's Mailbox server). >  The EWS URL might change if new Client Access servers are deployed. In this scenario, using [Autodiscover](autodiscover-for-exchange.md) means no code changes are necessary. >  You should either set the URL explicitly or call **AutodiscoverUrl**, but you should not do both. 
   
-## Additional resources
+## See also
 <a name="bk_addresources"> </a>
 
 - [Get started with EWS Managed API client applications](get-started-with-ews-managed-api-client-applications.md)

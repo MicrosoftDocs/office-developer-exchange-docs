@@ -112,7 +112,7 @@ The following elements are used in the response SOAP body:
 
 The SOAP envelope will not return an error code if an attempt is made to get a user photo for an email address that doesn't exist in the organization. A 500 HTTP status code will be returned in the response to indicate that the request was unsuccessful. 
   
-## Additional resources
+## See also
 
 - [EWS operations in Exchange](ews-operations-in-exchange.md)
     

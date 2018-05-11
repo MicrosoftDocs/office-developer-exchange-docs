@@ -64,7 +64,7 @@ The articles in this section explain how to use EWS and web services in your Exc
     
 - [Verifying the results of an EWS or EWS Managed API call](verifying-the-results-of-an-ews-or-ews-managed-api-call.md)
     
-## Additional resources
+## See also
 <a name="bk_addresources"> </a>
 
 - [Explore the EWS Managed API, EWS, and web services in Exchange](http://msdn.microsoft.com/library/53553207-ff98-4fdb-8716-4ae02fee83bf%28Office.15%29.aspx)

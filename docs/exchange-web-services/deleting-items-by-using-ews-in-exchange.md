@@ -115,7 +115,7 @@ Some points to note about deleting items:
     
 - [Handling deletion-related errors in EWS in Exchange](handling-deletion-related-errors-in-ews-in-exchange.md)
     
-## Additional resources
+## See also
 <a name="bk_addresources"> </a>
 
 - [Folders and items in EWS in Exchange](folders-and-items-in-ews-in-exchange.md)

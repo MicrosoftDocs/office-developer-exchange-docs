@@ -182,7 +182,7 @@ static void CreateSearchFolder(ExchangeService service)
     
 - [How to: Work with search folders by using EWS in Exchange](how-to-work-with-search-folders-by-using-ews-in-exchange.md)
     
-## Additional resources
+## See also
 <a name="bk_addresources"> </a>
 
 - [Develop web service clients for Exchange](develop-web-service-clients-for-exchange.md)

@@ -202,7 +202,7 @@ After you have received events from the server, the [next step](how-to-stream-no
 
 After you've received notifications, you can [sync the folder hierarchy](how-to-synchronize-folders-by-using-ews-in-exchange.md) or [sync the contents of the folder that changed](how-to-synchronize-items-by-using-ews-in-exchange.md).
   
-## Additional resources
+## See also
 <a name="bk_addresources"> </a>
 
 - [Notification subscriptions, mailbox events, and EWS in Exchange](notification-subscriptions-mailbox-events-and-ews-in-exchange.md)

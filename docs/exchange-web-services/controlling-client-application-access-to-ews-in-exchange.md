@@ -77,7 +77,7 @@ Administrators use the following Exchange Management Shell cmdlets to configure 
     
 - [Set-OrganizationConfig](http://technet.microsoft.com/en-us/library/aa997443.aspx)
     
-## Additional resources
+## See also
 <a name="bk_addresources"> </a>
 
 - [Start using web services in Exchange](start-using-web-services-in-exchange.md)

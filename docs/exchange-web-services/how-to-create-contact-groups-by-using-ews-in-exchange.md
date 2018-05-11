@@ -96,7 +96,7 @@ The following is an example of a successful XML response to the request. Notice 
    </CreateItemResponse>
 ```
 
-## Additional resources
+## See also
 <a name="bk_addresources"> </a>
 
 - [Distribution groups and EWS in Exchange](distribution-groups-and-ews-in-exchange.md)

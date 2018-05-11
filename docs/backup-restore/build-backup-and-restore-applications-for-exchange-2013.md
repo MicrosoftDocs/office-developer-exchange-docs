@@ -96,7 +96,7 @@ Information required to successfully complete backup and restore operations amon
     
 - [How to: Validate backup integrity by using the Eseutil tool in Exchange 2013](how-to-validate-backup-integrity-by-using-the-eseutil-tool-in-exchange-2013.md)
     
-## Additional resources
+## See also
 <a name="bk_addresources"> </a>
 
 - [Backup and restore for Exchange 2013](backup-and-restore-for-exchange-2013.md)

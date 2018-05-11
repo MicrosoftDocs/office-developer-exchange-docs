@@ -304,7 +304,7 @@ The following example shows the response from the server with the search results
 </s:Envelope>
 ```
 
-## Additional resources
+## See also
 <a name="bk_addresources"> </a>
 
 - [Search and EWS in Exchange](search-and-ews-in-exchange.md)

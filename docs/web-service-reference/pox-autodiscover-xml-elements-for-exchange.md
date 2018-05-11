@@ -28,7 +28,7 @@ The documentation in this section is based on the POX Autodiscover XML element i
   
 [Unified Messaging web service reference for Exchange](unified-messaging-web-service-reference-for-exchange.md)
   
-## Additional resources
+## See also
 <a name="bk_addresources"> </a>
 
 - [Autodiscover web service reference for Exchange](autodiscover-web-service-reference-for-exchange.md)

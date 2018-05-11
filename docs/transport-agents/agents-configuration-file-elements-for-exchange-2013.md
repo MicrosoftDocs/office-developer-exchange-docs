@@ -86,7 +86,7 @@ The following code shows the element hierarchy in the configuration XML file.
     
 - [monitoring](monitoring.md)
     
-## Additional resources
+## See also
 <a name="bk_elementreflist"> </a>
 
 - [Transport agents in Exchange 2013](transport-agents-in-exchange-2013.md)

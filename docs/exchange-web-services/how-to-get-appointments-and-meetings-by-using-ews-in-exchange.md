@@ -214,7 +214,7 @@ The calendar folder is a little different from other folders in a mailbox becaus
   
 Instead, what you really want to do is something akin to applying a  *Dataview*  onto a union of two SQL tables, using a [CalendarView](http://msdn.microsoft.com/en-us/library/microsoft.exchange.webservices.data.calendarview%28v=exchg.80%29.aspx) object. Note that for performance reasons, we recommend that you use the [PropertySet](http://msdn.microsoft.com/en-us/library/microsoft.exchange.webservices.data.propertyset%28v=exchg.80%29.aspx) property to limit the size of the response by indicating the number of appointments or meetings you want returned, as well as the specific properties you want. 
   
-## Additional resources
+## See also
 <a name="bk_additional"> </a>
 
 - [Calendars and EWS in Exchange](calendars-and-ews-in-exchange.md)

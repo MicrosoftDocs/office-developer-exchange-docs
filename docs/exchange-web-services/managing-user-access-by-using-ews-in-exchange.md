@@ -28,7 +28,7 @@ If your application needs additional control over the accounts on an Exchange se
     
 - Using Windows PowerShell and Windows PowerShell scripts to call Exchange Management Shell cmdlets. You can find a complete list of the [Exchange Management Shell cmdlets](http://technet.microsoft.com/en-us/library/bb124413%28v=exchg.150%29.aspx) on TechNet, along with examples that show how to use them. 
     
-## Additional resources
+## See also
 <a name="bk_addresources"> </a>
 
 - [Setting up your EWS application](setting-up-your-ews-application.md)

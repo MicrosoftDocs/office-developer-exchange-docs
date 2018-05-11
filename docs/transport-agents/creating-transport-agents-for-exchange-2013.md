@@ -144,7 +144,7 @@ For more information about installing, enabling, and managing your agent, see [M
     
 - [How to: Create a DeliveryAgent transport agent for Exchange 2013](how-to-create-a-deliveryagent-transport-agent-for-exchange-2013.md)
     
-## Additional resources
+## See also
 <a name="bk_addresources"> </a>
 
 - [Transport agent concepts in Exchange 2013](transport-agent-concepts-in-exchange-2013.md)

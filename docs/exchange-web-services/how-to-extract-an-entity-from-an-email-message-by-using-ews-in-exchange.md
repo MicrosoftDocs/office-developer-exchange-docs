@@ -367,7 +367,7 @@ The value of the **ItemId** element is shortened for readability.
 
 Notice that all addresses, contacts, email addresses, phone numbers, tasks, and URLs were extracted as expected. The meeting suggestion, however, is a bit more complex. Notice the start time and end time of the meeting suggestion are not what you might expect. The start time in the email was "this Friday at 7", but the extracted value for the start time is 10/1/0104 2:00:00 PM. This is because the start time and end time extracted by the server are encoded dates. For more information about interpreting **dateTime** values in meeting suggestions, see [[MS-OXCEXT]: Client Extension Message Object Protocol](http://msdn.microsoft.com/en-us/library/hh968601%28v=exchg.80%29.aspx).
   
-## Additional resources
+## See also
 <a name="bk_addresources"> </a>
 
 - [Email and EWS in Exchange](email-and-ews-in-exchange.md)

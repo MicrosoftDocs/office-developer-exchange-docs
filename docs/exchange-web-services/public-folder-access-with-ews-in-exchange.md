@@ -110,7 +110,7 @@ The value for the X-AnchorMailbox and X-PublicFolderMailbox can differ depending
 
 In Exchange 2007 and Exchange 2010, the **ConvertId** operation works as expected when converting public folder identifiers from the EWS identifier to the store identifier. 
   
-## Additional resources
+## See also
 <a name="bk_addresources"> </a>
 
 - [Develop web service clients for Exchange](develop-web-service-clients-for-exchange.md)

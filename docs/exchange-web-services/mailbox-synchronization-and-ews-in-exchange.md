@@ -165,7 +165,7 @@ You might wonder, can I filter my notifications (and therefore only trigger sync
     
 - [Handling synchronization-related errors in EWS in Exchange](handling-synchronization-related-errors-in-ews-in-exchange.md)
     
-## Additional resources
+## See also
 <a name="bk_addresources"> </a>
 
 - [Develop web service clients for Exchange](develop-web-service-clients-for-exchange.md)

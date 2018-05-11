@@ -224,7 +224,7 @@ When the three appointments created by the previous EWS example requests are vie
 
 Now that you know how to create appointments in specific time zones, you might want to [update the time zones on existing appointments](how-to-update-the-time-zone-for-an-appointment-by-using-ews-in-exchange.md) to a different one. 
   
-## Additional resources
+## See also
 <a name="bk_addresources"> </a>
 
 - [Time zones and EWS in Exchange](time-zones-and-ews-in-exchange.md)

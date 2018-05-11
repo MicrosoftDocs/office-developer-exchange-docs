@@ -134,7 +134,7 @@ The following types have been updated in Exchange 2013:
     
 - [SmtpSession](https://msdn.microsoft.com/library/Microsoft.Exchange.Data.Transport.Smtp.SmtpSession.aspx)
     
-## Additional resources
+## See also
 
 - [Transport agent concepts in Exchange 2013](transport-agent-concepts-in-exchange-2013.md)
     

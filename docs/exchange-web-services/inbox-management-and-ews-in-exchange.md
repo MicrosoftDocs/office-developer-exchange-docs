@@ -131,7 +131,7 @@ Although you can create a rule that will move all mail from a specific sender to
     
 - [How to: Add and remove email addresses from the Blocked Senders List by using EWS in Exchange](how-to-add-and-remove-email-addresses-from-the-blocked-senders-list-by-using-ews.md)
     
-## Additional resources
+## See also
 <a name="bk_addresources"> </a>
 
 - [Develop web service clients for Exchange](develop-web-service-clients-for-exchange.md)

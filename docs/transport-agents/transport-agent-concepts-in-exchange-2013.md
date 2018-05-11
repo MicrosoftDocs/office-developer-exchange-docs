@@ -121,7 +121,7 @@ The following namespaces contain types that you can use to read, write, and modi
     
 After you write your transport agent, you [install and manage your agent](http://technet.microsoft.com/en-us/library/bb125175%28v=exchg.150%29.aspx) by using the Exchange Management Shell. For more information, see [Creating transport agents for Exchange 2013](creating-transport-agents-for-exchange-2013.md). 
   
-## Additional resources
+## See also
 <a name="AdditionalResources"> </a>
 
 - [Transport agents in Exchange 2013](transport-agents-in-exchange-2013.md)

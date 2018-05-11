@@ -351,7 +351,7 @@ using (FileStream file = new FileStream(ContactName + ".jpg", FileMode.Create, S
 
 ```
 
-## Additional resources
+## See also
 <a name="bk_EWS"> </a>
 
 - [People and contacts in EWS in Exchange](people-and-contacts-in-ews-in-exchange.md)

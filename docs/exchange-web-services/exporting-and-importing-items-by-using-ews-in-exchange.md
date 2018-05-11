@@ -58,7 +58,7 @@ Other options are available for exporing and importing items to and from an Exch
     
 - [How to: Import items by using EWS in Exchange](how-to-import-items-by-using-ews-in-exchange.md)
     
-## Additional resources
+## See also
 <a name="bk_addresources"> </a>
 
 - [Backup, Restore, and Disaster Recovery](http://technet.microsoft.com/en-us/library/dd876874%28v=exchg.150%29.aspx)

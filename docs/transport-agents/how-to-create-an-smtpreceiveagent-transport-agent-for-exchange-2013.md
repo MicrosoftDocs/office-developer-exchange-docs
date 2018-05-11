@@ -97,7 +97,7 @@ The following procedure describes how to create a custom SmtpReceiveAgent transp
 
     After you define your agent class, you can add your custom functionality. In this example, the [OnEndOfData](https://msdn.microsoft.com/library/Microsoft.Exchange.Data.Transport.Smtp.SmtpReceiveAgent.OnEndOfData.aspx) event is redirected to your custom event handler. 
     
-## Additional resources
+## See also
 
 - [Transport agent concepts in Exchange 2013](transport-agent-concepts-in-exchange-2013.md)
     

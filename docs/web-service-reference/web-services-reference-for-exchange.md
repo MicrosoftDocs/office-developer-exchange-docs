@@ -33,7 +33,7 @@ For information about which set of APIs to use, see [EWS client design overview 
   
 The Exchange XML reference is based on the XML instances that are sent between the client and the server. The XML is described in the WSDL and XSD files for the EWS and SOAP Autodiscover services. The UM web service and the POX Autodiscover service do not have published WSDL and schema files that describe their structure. The XML reference for the services that do not have schema files is based on the XML instances that can be observed and captured as they are exchanged between the client and the service.
   
-## Additional resources
+## See also
 <a name="bk_addresources"> </a>
 
 - [Explore the EWS Managed API, EWS, and web services in Exchange](http://msdn.microsoft.com/library/53553207-ff98-4fdb-8716-4ae02fee83bf%28Office.15%29.aspx)

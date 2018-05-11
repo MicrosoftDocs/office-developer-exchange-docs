@@ -207,7 +207,7 @@ The error response SOAP body contains the following elements:
     
 For additional error codes that are generic to EWS and specific to this operation, see [ResponseCode](responsecode.md).
   
-## Additional resources
+## See also
 <a name="bk_addresources"> </a>
 
 - [PerformReminderAction](performreminderaction.md)

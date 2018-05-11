@@ -80,7 +80,7 @@ If you want to go deeper to understand the specific differences between Exchange
     
 - Download [EWSEditor](http://ewseditor.codeplex.com/). You can use EWSEditor to specify different target schema versions and submit queries based on the target schema version.
     
-## Additional resources
+## See also
 <a name="bk_addresources"> </a>
 
 - [EWS client design overview for Exchange](ews-client-design-overview-for-exchange.md)

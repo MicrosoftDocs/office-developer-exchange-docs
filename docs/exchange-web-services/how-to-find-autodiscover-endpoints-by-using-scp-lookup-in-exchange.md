@@ -328,7 +328,7 @@ The next step in the Autodiscover process is to send Autodiscover requests to th
     
 - [Handling Autodiscover error messages](handling-autodiscover-error-messages.md)
     
-## Additional resources
+## See also
 <a name="bk_addresources"> </a>
 
 - [Autodiscover for Exchange](autodiscover-for-exchange.md)

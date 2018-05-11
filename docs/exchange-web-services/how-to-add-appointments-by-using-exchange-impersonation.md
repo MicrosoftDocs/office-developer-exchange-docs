@@ -185,7 +185,7 @@ The following example shows the response XML that is returned by the **CreateIte
 
 Again, this is the same XML that is returned when you use the **CreateItem** operation without using impersonation. 
   
-## Additional resources
+## See also
 <a name="bk_addresources"> </a>
 
 - [Impersonation and EWS in Exchange](impersonation-and-ews-in-exchange.md)

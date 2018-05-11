@@ -116,7 +116,7 @@ IM contacts are stored in a hidden folder called QuickContacts. You can use the 
     
 - [How to: Get user photos by using EWS in Exchange](how-to-get-user-photos-by-using-ews-in-exchange.md)
     
-## Additional resources
+## See also
 <a name="PEOPLESEARCH"> </a>
 
 - [Develop web service clients for Exchange](develop-web-service-clients-for-exchange.md)

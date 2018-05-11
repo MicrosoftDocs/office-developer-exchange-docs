@@ -118,7 +118,7 @@ The following EWS SOAP response shows the successful response. The [MovedItemId]
 </s:Envelope>
 ```
 
-## Additional resources
+## See also
 <a name="bk_addresources"> </a>
 
 - [Inbox management and EWS in Exchange](inbox-management-and-ews-in-exchange.md)

@@ -271,7 +271,7 @@ The following example shows the request XML when you use the [UpdateItem](http:/
 </s:Envelope>
 ```
 
-## Additional resources
+## See also
 <a name="bk_addresources"> </a>
 
 - [Calendars and EWS in Exchange](calendars-and-ews-in-exchange.md)

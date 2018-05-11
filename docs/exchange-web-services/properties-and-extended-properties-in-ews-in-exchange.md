@@ -192,7 +192,7 @@ If you want to learn more about how you can use extended properties in your appl
     
 - [EWS property-related errors](ews-property-related-errors.md)
     
-## Additional resources
+## See also
 <a name="bk_addresources"> </a>
 
 - [Start using web services in Exchange](start-using-web-services-in-exchange.md)

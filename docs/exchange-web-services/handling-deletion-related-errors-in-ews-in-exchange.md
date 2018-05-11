@@ -31,7 +31,7 @@ If your application [deletes items and folders](deleting-items-by-using-ews-in-e
 |ErrorItemNotFound  <br/> |Access a permanently deleted item.  <br/> |Removing references to an item when it is deleted from the store. If an item is recovered, make sure that you reinstate required references to the client.  <br/> |
 |ErrorSendMeetingCancellationsRequired  <br/> |Delete a calendar item without specifying whether meeting cancellations should be sent.  <br/> |Specifying that meeting cancellations should or should not be sent.  <br/> |
    
-## Additional resources
+## See also
 <a name="bk_addresources"> </a>
 
 - [Deleting items by using EWS in Exchange](deleting-items-by-using-ews-in-exchange.md)

@@ -68,7 +68,7 @@ Refreshing your cached configuration information can help with some errors, but 
 |HTTP status errors          Example: 503 Service Unavailable  <br/> |[ServiceRemoteException](https://msdn.microsoft.com/library/Microsoft.Exchange.WebServices.Data.ServiceRemoteException.aspx) <br/> |HTTP status errors can happen for a lot of different reasons. However, it's a good idea to try Autodiscover to see if a new EWS endpoint is available for the user.  <br/> |
 |EWS error codes          Example: **ErrorConnectionFailed** <br/> |[ResponseCodeType](https://msdn.microsoft.com/library/Microsoft.Exchange.WebServices.Data.ResponseCodeType.aspx) <br/> | Most EWS error codes don't warrant refreshing your configuration information. However, the following specifically indicate that the configuration information needs to be updated:  <br/> **ErrorConnectionFailed** <br/> **ErrorMailboxMoveInProgress** <br/> |
    
-## Additional resources
+## See also
 <a name="bk_addresources"> </a>
 
 - [Autodiscover for Exchange](autodiscover-for-exchange.md)

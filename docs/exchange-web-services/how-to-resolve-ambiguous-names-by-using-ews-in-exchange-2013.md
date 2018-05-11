@@ -176,7 +176,7 @@ You're not always going to come up with candidates for your ambiguous name. The 
 
 ```
 
-## Additional resources
+## See also
 <a name="bk_addresources"> </a>
 
 - [People and contacts in EWS in Exchange](people-and-contacts-in-ews-in-exchange.md)

@@ -109,7 +109,7 @@ The first time that you provision an x-header in Exchange Online, Exchange Onlin
 
 This article shows you how to provision an x-header for a single mailbox by sending an email to a user. You can also provision an x-header for many users by [sending a batch email to a list of recipients](how-to-process-email-messages-in-batches-by-using-ews-in-exchange.md) in the caller's organization. 
   
-## Additional resources
+## See also
 <a name="bk_addresources"> </a>
 
 - [Properties and extended properties in EWS in Exchange](properties-and-extended-properties-in-ews-in-exchange.md)

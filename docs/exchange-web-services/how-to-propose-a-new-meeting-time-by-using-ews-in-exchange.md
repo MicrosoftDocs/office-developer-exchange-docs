@@ -204,7 +204,7 @@ The following figure shows the process that occurs between the meeting organizer
 
 The propose new time feature was introduced in Exchange build version 15.00.0800.007. In earlier versions of Exchange, EWS application users have to send a separate email to the meeting organizer to request a different meeting time. 
   
-## Additional resources
+## See also
 <a name="bk_addresources"> </a>
 
 - [Calendars and EWS in Exchange](calendars-and-ews-in-exchange.md)

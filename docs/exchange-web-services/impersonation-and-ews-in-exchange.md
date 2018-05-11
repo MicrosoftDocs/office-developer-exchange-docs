@@ -60,7 +60,7 @@ You can read more about [configuring impersonation](how-to-configure-impersonati
     
 - [How to: Add appointments by using Exchange impersonation](how-to-add-appointments-by-using-exchange-impersonation.md)
     
-## Additional resources
+## See also
 <a name="bk_addresources"> </a>
 
 - [Develop web service clients for Exchange](develop-web-service-clients-for-exchange.md)

@@ -127,7 +127,7 @@ Or if you're using EWS, add the elements to the [AdditionalProperties](http://ms
 |[TextBody](http://msdn.microsoft.com/en-us/library/microsoft.exchange.webservices.data.item.textbody%28v=exchg.80%29.aspx) <br/> |[TextBody](http://msdn.microsoft.com/library/bd0c0bce-3e7c-47c7-af7f-5ee5f5ad9820%28Office.15%29.aspx) <br/> |Read-only  <br/> |
 |[UniqueBody](http://msdn.microsoft.com/en-us/library/microsoft.exchange.webservices.data.item.uniquebody%28v=exchg.80%29.aspx) <br/> |[UniqueBody](http://msdn.microsoft.com/library/06bc95d7-121c-433b-bd27-c2b0eb8c011f%28Office.15%29.aspx) <br/> |Read-only  <br/> |
    
-## Additional resources
+## See also
 <a name="bk_addresources"> </a>
 
 - [Email and EWS in Exchange](email-and-ews-in-exchange.md)

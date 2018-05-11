@@ -100,7 +100,7 @@ The following procedure describes how to validate data integrity in your backup 
   
   ```
 
-## Additional resources
+## See also
 
 - [CChkSGFiles class reference](cchksgfiles-class-reference.md)
     

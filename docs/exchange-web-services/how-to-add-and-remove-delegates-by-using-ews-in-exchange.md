@@ -299,7 +299,7 @@ After you add delegates to calendar, email, and task folders, the delegate can a
     
 If the folders for which you added delegates include child folders that were created before you granted the delegate access, the delegate will not be able to access those folders without additional permissions. To add these permissions, or modify permissions for any other folders, see [How to: Set folder permissions for another user by using EWS in Exchange](how-to-set-folder-permissions-for-another-user-by-using-ews-in-exchange.md).
   
-## Additional resources
+## See also
 <a name="bk_addresources"> </a>
 
 - [Delegate access and EWS in Exchange](delegate-access-and-ews-in-exchange.md)

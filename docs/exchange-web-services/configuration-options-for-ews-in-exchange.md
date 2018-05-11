@@ -56,7 +56,7 @@ Most client application scenarios don't require changes to server configuration 
 |Throttling  <br/> |No  <br/> |[Throttling settings](ews-throttling-in-exchange.md) <br/> |
 |User agent filtering  <br/> |Yes  <br/> |[User agent filtering](how-to-control-access-to-ews-in-exchange.md) <br/> |
    
-## Additional resources
+## See also
 <a name="bk_addresources"> </a>
 
 - [How to: Get service configuration information by using EWS in Exchange](how-to-get-service-configuration-information-by-using-ews-in-exchange.md)

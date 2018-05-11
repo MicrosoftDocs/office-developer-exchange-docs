@@ -27,7 +27,7 @@ The WSDL operation content in this section provides overview information and req
     
 - [EWS XML elements in Exchange](ews-xml-elements-in-exchange.md)
     
-## Additional resources
+## See also
 <a name="bk_addresources"> </a>
 
 - [Web services reference for Exchange](web-services-reference-for-exchange.md)

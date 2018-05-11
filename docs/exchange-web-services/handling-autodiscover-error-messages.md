@@ -153,7 +153,7 @@ When you get a new URL in an Autodiscover redirect response, you should first va
     
 If the URL passes validation, resend the request to this new URL.
   
-## Additional resources
+## See also
 <a name="bk_addresources"> </a>
 
 - [Autodiscover for Exchange](autodiscover-for-exchange.md)

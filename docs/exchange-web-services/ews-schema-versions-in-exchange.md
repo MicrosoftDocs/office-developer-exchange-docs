@@ -97,7 +97,7 @@ Before the EWS schema is updated for a new version, the current version of the s
   
 The original file name then represents the latest schema. All new features are added to the latest schema, with the exception of updates and fixes to the earlier versions of the schema. 
   
-## Additional resources
+## See also
 <a name="bk_addresources"> </a>
 
 - [EWS schema versions in Exchange](ews-schema-versions-in-exchange.md)

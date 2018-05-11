@@ -239,7 +239,7 @@ End Function
 
 The **GetUserInformation** method will return no more than  _count_ mailbox users. To simplify the code for this example, the method does not filter or otherwise limit the mailbox users that are returned. 
   
-## Additional resources
+## See also
 <a name="bk_addresources"> </a>
 
 - [Create Exchange Management Shell tools](create-exchange-management-shell-tools.md)

@@ -72,7 +72,7 @@ The CHKSGFILES API is intended for use with versions of Visual Studio starting w
     
 - [CChkSGFiles.PgnoFromFileOffset function](cchksgfiles-pgnofromfileoffset-function.md)
     
-## Additional resources
+## See also
 <a name="bk_addresources"> </a>
 
 - [Exchange Online and Exchange 2013 development](http://msdn.microsoft.com/library/f33d1093-75ba-4ff2-8d15-b0bf73a401bf%28Office.15%29.aspx)

@@ -51,7 +51,7 @@ A portal application extends an existing web page or portal to include Exchange 
 
 A service application is usually a background job built into an existing application that extends to Exchange to correlate data between the system and the Exchange store. Service applications typically do not have a user interface and use impersonation or OAuth for authentication and access. Creating a service account to impersonate users is common in EWS service apps because you can grant a single account permission to impersonate a set of users and perform mailbox operations for those accounts. For example, an EWS service application can synchronize data between marketing lists in a CRM solution and Exchange distribution groups by using a service account and impersonation.
   
-## Additional resources
+## See also
 <a name="bk_addresources"> </a>
 
 - [Start using web services in Exchange](start-using-web-services-in-exchange.md)

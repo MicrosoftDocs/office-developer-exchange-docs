@@ -55,7 +55,7 @@ The most common way to add a reference is to use Visual Studio. We know that som
   c:\Windows\Microsoft.NET\Framework\3.5\csc /target: winexe /out: build\testApplication /reference: build\Microsoft.Exchange.WebServices.dll program.cs
   ```
 
-## Additional resources
+## See also
 <a name="bk_addresources"> </a>
 
 - [Get started with EWS Managed API client applications](get-started-with-ews-managed-api-client-applications.md)

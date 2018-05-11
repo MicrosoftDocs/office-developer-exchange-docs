@@ -324,7 +324,7 @@ public static void SaveEmailAttachment(ExchangeService service, ItemId itemId)
 }
 ```
 
-## Additional resources
+## See also
 <a name="bk_addresources"> </a>
 
 - [Attachments and EWS in Exchange](attachments-and-ews-in-exchange.md)

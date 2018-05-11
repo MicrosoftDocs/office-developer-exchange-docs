@@ -370,7 +370,7 @@ The following example shows the response XML that is returned by the **GetItem**
 </s:Envelope>
 ```
 
-## Additional resources
+## See also
 <a name="bk_addresources"> </a>
 
 - [Calendars and EWS in Exchange](calendars-and-ews-in-exchange.md)

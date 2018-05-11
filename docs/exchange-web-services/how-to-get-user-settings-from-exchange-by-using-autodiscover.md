@@ -337,7 +337,7 @@ The following example shows the POX response that is returned by the server.
 
 After you've retrieved the necessary configuration details for your user from the server, you are ready to communicate with Exchange to do the things your application needs to do. What you do next depends on how you communicate with Exchange and what you want to accomplish. If you need some inspiration, and you're using EWS, you might explore the [Exchange 101 code samples](http://code.msdn.microsoft.com/exchange/Exchange-2013-101-Code-3c38582c) for some ideas. 
   
-## Additional resources
+## See also
 <a name="bk_addresources"> </a>
 
 - [Autodiscover for Exchange](autodiscover-for-exchange.md)

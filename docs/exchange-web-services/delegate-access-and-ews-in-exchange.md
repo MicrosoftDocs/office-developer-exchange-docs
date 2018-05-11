@@ -158,7 +158,7 @@ If an item ID was retrieved by the [FindItem](http://msdn.microsoft.com/library/
     
 - [Handling delegation-related errors in EWS in Exchange](handling-delegation-related-errors-in-ews-in-exchange.md)
     
-## Additional resources
+## See also
 <a name="bk_addresources"> </a>
 
 - [Develop web service clients for Exchange](develop-web-service-clients-for-exchange.md)

@@ -91,7 +91,7 @@ The following procedure describes how to create a custom DeliveryAgent transport
 
     After you define your agent class, you can add you custom functionality. In this example, the three events, [OnCloseConnection](https://msdn.microsoft.com/library/Microsoft.Exchange.Data.Transport.Delivery.DeliveryAgent.OnCloseConnection.aspx) , [OnDeliverMailItem](https://msdn.microsoft.com/library/Microsoft.Exchange.Data.Transport.Delivery.DeliveryAgent.OnDeliverMailItem.aspx) and [OnOpenConnection](https://msdn.microsoft.com/library/Microsoft.Exchange.Data.Transport.Delivery.DeliveryAgent.OnOpenConnection.aspx) , are redirected to your custom event handlers. 
     
-## Additional resources
+## See also
 
 - [Transport agent concepts in Exchange 2013](transport-agent-concepts-in-exchange-2013.md)
     

@@ -48,7 +48,7 @@ If you're using the **ExchangeService.AutodiscoverUrl** method in the EWS Manage
   
 If you're using the POX Autodiscover service, [you cannot request specific properties](autodiscover-for-exchange.md#bk_Options).
   
-## Additional resources
+## See also
 <a name="bk_addresources"> </a>
 
 - [Autodiscover for Exchange](autodiscover-for-exchange.md)

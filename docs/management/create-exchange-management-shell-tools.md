@@ -44,7 +44,7 @@ The Exchange Management Shell cmdlets accept and return objects. For a list of E
     
 - [How to: Use the Exchange Management Shell cmdlet response](how-to-use-the-exchange-management-shell-cmdlet-response.md)
     
-## Additional resources
+## See also
 <a name="SP15GettingStartedTemplate_WhatDoYouNeed"> </a>
 
 - [Exchange Management Shell namespaces](exchange-management-shell-namespaces.md)

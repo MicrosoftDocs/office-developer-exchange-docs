@@ -302,7 +302,7 @@ The following table lists the HTTP status codes that are returned by throttling 
 |HTTP 500  <br/> |Indicates an internal server error with the ErrorServerBusy error code. This indicates that the client should delay sending additional requests until a later time. The response may contain a back off hint called BackOffMilliseconds. If present, the value of BackOffMilliseconds should be used as the duration until the client resubmits a request.  <br/> |
 |HTTP 200  <br/> |Contains an EWS schema-based error response with an ErrorInternalServerError error code. An inner ErrorServerBusy error code may be present. This indicates that the client should delay sending additional requests until a later time.  <br/> |
    
-## Additional resources
+## See also
 <a name="bk_addresources"> </a>
 
 - [Exchange Workload Management](http://technet.microsoft.com/en-us/library/jj150503.aspx)

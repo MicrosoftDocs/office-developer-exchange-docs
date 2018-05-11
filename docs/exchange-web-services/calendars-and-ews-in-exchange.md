@@ -114,7 +114,7 @@ Note that recurrence properties exist on all calendar items, but they are popula
     
 - [Recurrence patterns and EWS](recurrence-patterns-and-ews.md)
     
-## Additional resources
+## See also
 <a name="bk_addresources"> </a>
 
 - [Develop web service clients for Exchange](develop-web-service-clients-for-exchange.md)

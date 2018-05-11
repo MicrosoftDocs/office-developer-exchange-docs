@@ -170,7 +170,7 @@ The sample code requires an App.config file with the following entries:
 </configuration>
 ```
 
-## Additional resources
+## See also
 <a name="bk_addresources"> </a>
 
 - [Authentication and EWS in Exchange](authentication-and-ews-in-exchange.md)

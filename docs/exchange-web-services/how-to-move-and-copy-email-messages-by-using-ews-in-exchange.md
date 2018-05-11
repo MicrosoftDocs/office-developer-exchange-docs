@@ -137,7 +137,7 @@ This is also the XML request that is sent by the EWS Managed API when calling th
 
 The server responds to the **CopyItem** request with a [CopyItemResponse](http://msdn.microsoft.com/library/ae402bc1-4589-45e0-a929-f368c916a7e4%28Office.15%29.aspx) message that includes a [ResponseCode](http://msdn.microsoft.com/library/4b84d670-74c9-4d6d-84e7-f0a9f76f0d93%28Office.15%29.aspx) value of **NoError**, which indicates that the email message was copied successfully. The response also includes the **ItemId** for the email message in the new folder, which is important to store because the **ItemId** is different in the new folder. 
   
-## Additional resources
+## See also
 <a name="bk_addresources"> </a>
 
 - [Email and EWS in Exchange](email-and-ews-in-exchange.md)

@@ -46,7 +46,7 @@ Exchange 2013 provides a library of classes that support the extension of the Ex
     
 - [Transport agent reference for Exchange 2013](transport-agent-reference-for-exchange-2013.md)
     
-## Additional resources
+## See also
 
 - [Exchange Online and Exchange 2013 development](http://msdn.microsoft.com/library/f33d1093-75ba-4ff2-8d15-b0bf73a401bf%28Office.15%29.aspx)
     

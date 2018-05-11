@@ -77,7 +77,7 @@ Before you can configure impersonation, you need:
 
 After your administrator grants impersonation permissions, you can use the service account to make calls against other users' accounts. You can verify role assignments by using the [Get-ManagementRoleAssignment](http://msdn.microsoft.com/library/a3a6ee46-061b-444a-8639-43a416309445.aspx) cmdlet. 
   
-## Additional resources
+## See also
 <a name="bk_addresources"> </a>
 
 - [Impersonation and EWS in Exchange](impersonation-and-ews-in-exchange.md)

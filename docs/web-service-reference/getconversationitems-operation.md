@@ -256,7 +256,7 @@ The following example shows an error response to a **GetConversationItems** oper
 </s:Envelope>
 ```
 
-## Additional resources
+## See also
 
 - [EWS operations in Exchange](ews-operations-in-exchange.md)
     

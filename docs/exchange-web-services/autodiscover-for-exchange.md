@@ -124,7 +124,7 @@ You can access Autodiscover either by using the SOAP or the POX web service. The
     
 - [Improving performance when using Autodiscover for Exchange](improving-performance-when-using-autodiscover-for-exchange.md)
     
-## Additional resources
+## See also
 <a name="bk_addresources"> </a>
 
 - [Start using web services in Exchange](start-using-web-services-in-exchange.md)

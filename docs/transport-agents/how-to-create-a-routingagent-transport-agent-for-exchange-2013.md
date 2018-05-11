@@ -84,7 +84,7 @@ The following procedure describes how to create a custom RoutingAgent transport 
 
     After you define your agent class, you can add you custom functionality. In this example, the two events, [OnSubmittedMessage](https://msdn.microsoft.com/library/Microsoft.Exchange.Data.Transport.Routing.RoutingAgent.OnSubmittedMessage.aspx) and [OnRoutedMessage](https://msdn.microsoft.com/library/Microsoft.Exchange.Data.Transport.Routing.RoutingAgent.OnRoutedMessage.aspx) , are redirected to your custom event handlers. 
     
-## Additional resources
+## See also
 
 - [Transport agent concepts in Exchange 2013](transport-agent-concepts-in-exchange-2013.md)
     

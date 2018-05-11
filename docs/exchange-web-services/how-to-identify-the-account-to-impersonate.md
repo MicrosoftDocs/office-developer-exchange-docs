@@ -108,7 +108,7 @@ In an EWS SOAP request, the [SID](http://msdn.microsoft.com/library/2f33b29b-163
 </soap:Header>
 ```
 
-## Additional resources
+## See also
 <a name="bk_addresources"> </a>
 
 - [Impersonation and EWS in Exchange](impersonation-and-ews-in-exchange.md)

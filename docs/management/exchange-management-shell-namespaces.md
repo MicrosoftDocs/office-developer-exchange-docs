@@ -136,7 +136,7 @@ The Exchange Management Shell contains the following namespaces:
     
 - [Microsoft.Exchange.WorkloadManagement](https://msdn.microsoft.com/library/Microsoft.Exchange.WorkloadManagement.aspx)
     
-## Additional resources
+## See also
 
 - [Exchange Management Shell](exchange-management-shell.md)
     

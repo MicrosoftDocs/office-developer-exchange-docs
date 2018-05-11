@@ -63,7 +63,7 @@ We maintain reports for these latencies and use them to continuously improve EWS
 
 After you've added client instrumentation to your application, you're better prepared if something goes wrong. If that happens, you can use your instrumentation data to [troubleshoot your application](tools-and-resources-for-troubleshooting-ews-applications-for-exchange.md).
   
-## Additional resources
+## See also
 <a name="bk_addresources"> </a>
 
 - [EWS client design overview for Exchange](ews-client-design-overview-for-exchange.md)

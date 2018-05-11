@@ -373,7 +373,7 @@ xmlns:t="http://schemas.microsoft.com/exchange/services/2006/types">
 
 ```
 
-## Additional resources
+## See also
 <a name="bk_additional"> </a>
 
 - [Calendars and EWS in Exchange](calendars-and-ews-in-exchange.md)

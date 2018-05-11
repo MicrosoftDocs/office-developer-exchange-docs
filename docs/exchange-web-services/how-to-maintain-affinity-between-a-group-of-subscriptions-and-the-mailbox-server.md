@@ -337,7 +337,7 @@ In Exchange 2010, the client only knows the address of the load balancer, and th
   
 You might notice that the exchangecookie that Exchange 2010 uses is still returned by later versions. There's no harm in including this cookie in requests, but later versions of Exchange ignore it.
   
-## Additional resources
+## See also
 <a name="bk_addresources"> </a>
 
 - [Notification subscriptions, mailbox events, and EWS in Exchange](notification-subscriptions-mailbox-events-and-ews-in-exchange.md)

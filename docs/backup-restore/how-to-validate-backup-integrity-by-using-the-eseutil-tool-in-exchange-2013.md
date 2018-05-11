@@ -63,7 +63,7 @@ The requester must verify that all the exit ERRORLEVEL error values that are ret
   
 Before the requester calls the **BackupComplete** method, it must make sure that the status of the backup component reflects the result of the consistency check. If any corruption was found, the status will be FALSE; if no corruption was found, the status will be TRUE. 
   
-## Additional resources
+## See also
 
 - [How to: Validate backup integrity by using the CHKSGFILES API in Exchange 2013](how-to-validate-backup-integrity-by-using-the-chksgfiles-api-in-exchange-2013.md)
     

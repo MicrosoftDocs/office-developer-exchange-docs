@@ -43,7 +43,7 @@ This section also provides examples and descriptions of the messages that are us
     
 - [SOAP Autodiscover XML elements for Exchange 2013](soap-autodiscover-xml-elements-for-exchange-2013.md)
     
-## Additional resources
+## See also
 <a name="bk_addresources"> </a>
 
 - [Autodiscover web service reference for Exchange](autodiscover-web-service-reference-for-exchange.md)

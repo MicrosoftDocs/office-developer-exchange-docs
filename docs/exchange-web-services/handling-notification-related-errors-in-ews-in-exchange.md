@@ -39,7 +39,7 @@ If your application subscribes to and gets notifications, you might have to hand
 
 When a subscription is lost, or is no longer accessible, it is best to create a new subscription and not include the old watermark in the new subscription. Resubscribing with the old watermark causes a linear scan for events, which is costly. Instead, create a new subscription and compare folder properties to look for content changes that occurred between the lost subscription and the new subscription. The extended folder properties that we recommend that you check are **PR_LOCAL_COMMIT_TIME_MAX** (0x670a0040) and **PR_DELETED_COUNT_TOTAL** (0x670b0003). You can do this by [creating an extended property definition](properties-and-extended-properties-in-ews-in-exchange.md).
   
-## Additional resources
+## See also
 <a name="bk_addresources"> </a>
 
 - [Notification subscriptions, mailbox events, and EWS in Exchange](notification-subscriptions-mailbox-events-and-ews-in-exchange.md)

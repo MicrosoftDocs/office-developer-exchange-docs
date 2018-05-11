@@ -182,7 +182,7 @@ You can use the [CreateItem](http://msdn.microsoft.com/library/78a52120-f1d0-4ed
 
 After you import items into a mailbox, you might want to [create a custom folder to store your imported items](how-to-work-with-folders-by-using-ews-in-exchange.md), or [synchronize your client and mailbox items](mailbox-synchronization-and-ews-in-exchange.md).
   
-## Additional resources
+## See also
 <a name="bk_addresources"> </a>
 
 - [Exporting and importing items by using EWS in Exchange](exporting-and-importing-items-by-using-ews-in-exchange.md)

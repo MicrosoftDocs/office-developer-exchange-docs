@@ -222,7 +222,7 @@ The [TnefWriter](https://msdn.microsoft.com/library/Microsoft.Exchange.Data.Cont
 
 The vCard namespace contains classes, structures, and enumerations used to read and write contact information contained in an email message that is in the vCard data format. The namespace contains a contact reader and writer, an exception class, a property reader, a parameter reader, and supporting enumerations that allow you to read vCard data associated with an email message.
   
-## Additional resources
+## See also
 <a name="bk_addiitionalresources"> </a>
 
 - [Transport agents in Exchange 2013](transport-agents-in-exchange-2013.md)

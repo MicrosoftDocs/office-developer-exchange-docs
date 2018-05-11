@@ -71,7 +71,7 @@ Note that the EWS Managed API [HasAttachments](http://msdn.microsoft.com/en-us/l
     
 - [How to: Delete attachments by using EWS in Exchange](how-to-delete-attachments-by-using-ews-in-exchange.md)
     
-## Additional resources
+## See also
 <a name="bk_additionalresources"> </a>
 
 - [Develop web service clients for Exchange](develop-web-service-clients-for-exchange.md)

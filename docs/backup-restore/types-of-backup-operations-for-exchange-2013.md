@@ -125,7 +125,7 @@ When the [VSS_BACKUP_TYPE](http://msdn.microsoft.com/en-us/library/windows/deskt
     
 - A log file with the logical path Exchange Server\Microsoft Information Store\\<Server Name\>\\<Database GUID\>
     
-## Additional resources
+## See also
 <a name="bk_AdditionalResources"> </a>
 
 - [Build backup and restore applications for Exchange 2013](build-backup-and-restore-applications-for-exchange-2013.md)

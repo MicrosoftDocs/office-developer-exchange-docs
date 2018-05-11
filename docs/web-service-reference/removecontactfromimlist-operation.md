@@ -144,7 +144,7 @@ The following elements are used in the error response SOAP body:
     
 - [DescriptiveLinkKey](descriptivelinkkey.md)
     
-## Additional resources
+## See also
 
 - [EWS operations in Exchange](ews-operations-in-exchange.md)
     

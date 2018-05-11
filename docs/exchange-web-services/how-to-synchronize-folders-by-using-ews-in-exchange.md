@@ -261,7 +261,7 @@ If you're using the EWS Managed API, after you get the list of new or changed fo
   
 If you're using EWS, use the [GetFolder operation](http://msdn.microsoft.com/library/355bcf93-dc71-4493-b177-622afac5fdb9%28Office.15%29.aspx) to get properties on the new or changed folders and update or create the folders on the client. 
   
-## Additional resources
+## See also
 <a name="bk_addresources"> </a>
 
 - [Mailbox synchronization and EWS in Exchange](mailbox-synchronization-and-ews-in-exchange.md)

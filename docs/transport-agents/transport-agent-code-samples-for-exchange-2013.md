@@ -36,7 +36,7 @@ The following table lists the sample agents for Exchange 2013.
 |[Exchange 2013: Build a Mailbox server logging transport agent](http://code.msdn.microsoft.com/Exchange/Exchange-2013-Build-a-fc8632e5) <br/> |This agent responds to the [OnRoutedMessage](https://msdn.microsoft.com/library/Microsoft.Exchange.Data.Transport.Routing.RoutingAgent.OnRoutedMessage.aspx) transport pipeline event and synchronously logs the message to a file on the local hard disk.  <br/> |
 |[Exchange 2013: Build an X-header transport agent](http://code.msdn.microsoft.com/Exchange/Exchange-2013-Build-an-32f62f5a) <br/> |This agent responds to the [OnEndOfHeaders](https://msdn.microsoft.com/library/Microsoft.Exchange.Data.Transport.Smtp.SmtpReceiveAgent.OnEndOfHeaders.aspx) event and read and modify X-headers in messages.  <br/> |
    
-## Additional resources
+## See also
 <a name="bk_addresources"> </a>
 
 - [Transport agent concepts in Exchange 2013](transport-agent-concepts-in-exchange-2013.md)

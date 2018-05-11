@@ -208,7 +208,7 @@ Note that you can get the same result by replacing the **OccurrenceItemId** elem
 
 ```
 
-## Additional resources
+## See also
 <a name="bk_addresources"> </a>
 
 - [Recurrence patterns and EWS](recurrence-patterns-and-ews.md)

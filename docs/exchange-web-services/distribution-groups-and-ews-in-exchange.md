@@ -108,7 +108,7 @@ You can [use Exchange Management Shell cmdlets](http://msdn.microsoft.com/en-us/
     
 - [How to: Expand distribution groups by using EWS in Exchange 2013](how-to-expand-distribution-groups-by-using-ews-in-exchange-2013.md)
     
-## Additional resources
+## See also
 <a name="bk_addresources"> </a>
 
 - [Develop web service clients for Exchange](develop-web-service-clients-for-exchange.md)

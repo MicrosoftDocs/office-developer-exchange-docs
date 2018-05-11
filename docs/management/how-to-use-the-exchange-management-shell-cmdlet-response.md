@@ -61,7 +61,7 @@ Next
 
 ```
 
-## Additional resources
+## See also
 <a name="bk_addresources"> </a>
 
 - [Create Exchange Management Shell tools](create-exchange-management-shell-tools.md)

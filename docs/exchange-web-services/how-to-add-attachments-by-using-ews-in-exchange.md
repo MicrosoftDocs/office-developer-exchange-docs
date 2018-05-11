@@ -637,7 +637,7 @@ The server responds to the **CreateAttachment** request with a [CreateAttachment
 </s:Envelope>
 ```
 
-## Additional resources
+## See also
 <a name="bk_addresources"> </a>
 
 - [Attachments and EWS in Exchange](attachments-and-ews-in-exchange.md)

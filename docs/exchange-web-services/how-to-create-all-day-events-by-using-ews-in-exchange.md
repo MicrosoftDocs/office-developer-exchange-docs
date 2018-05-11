@@ -101,7 +101,7 @@ The following example shows an EWS [CreateItem operation](http://msdn.microsoft.
 </soap:Envelope>
 ```
 
-## Additional resources
+## See also
 <a name="bk_addresources"> </a>
 
 - [Calendars and EWS in Exchange](calendars-and-ews-in-exchange.md)

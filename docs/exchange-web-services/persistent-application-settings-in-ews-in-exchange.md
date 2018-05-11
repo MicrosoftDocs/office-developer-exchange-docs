@@ -89,7 +89,7 @@ Most users are not aware of and typically don't access the root mailbox folder. 
 
 User configuration objects are available on Exchange Online, Exchange Online as part of Office 365, and versions of Exchange starting with Exchange 2010.
   
-## Additional resources
+## See also
 <a name="bk_addresources"> </a>
 
 - [How to: Manage persistent application settings by using EWS in Exchange](how-to-manage-persistent-application-settings-by-using-ews-in-exchange.md)

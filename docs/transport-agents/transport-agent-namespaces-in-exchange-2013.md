@@ -47,7 +47,7 @@ The following namespaces contain types that you can use to create and extend tra
 |[Microsoft.Exchange.Data.Transport.Routing](https://msdn.microsoft.com/library/Microsoft.Exchange.Data.Transport.Routing.aspx) <br/> |Contains types that support the extension of the Exchange 2013 transport routing behavior.  <br/> |
 |[Microsoft.Exchange.Data.Transport.Smtp](https://msdn.microsoft.com/library/Microsoft.Exchange.Data.Transport.Smtp.aspx) <br/> |Contains types that support the extension of the Exchange 2013 transport SMTP behavior.  <br/> |
    
-## Additional resources
+## See also
 
 - [Transport agents in Exchange 2013](transport-agents-in-exchange-2013.md)
     

@@ -979,7 +979,7 @@ The following table lists the Exchange Management Shell cmdlets and the input an
 |**Stop-HistoricalSearch** <br/> |[OrganizationIdParameter](https://msdn.microsoft.com/library/Microsoft.Exchange.Configuration.Tasks.OrganizationIdParameter.aspx) <br/> [Guid](https://msdn.microsoft.com/library/System.Guid.aspx) <br/> ||
 |**Suspend-SyncRequest** <br/> |[Fqdn](https://msdn.microsoft.com/library/Microsoft.Exchange.Data.Fqdn.aspx) <br/> [String](https://msdn.microsoft.com/library/System.String.aspx) <br/> ||
    
-## Additional resources
+## See also
 
 - [How to: Get a list of mail users by using the Exchange Management Shell](how-to-get-a-list-of-mail-users-by-using-the-exchange-management-shell.md)
     

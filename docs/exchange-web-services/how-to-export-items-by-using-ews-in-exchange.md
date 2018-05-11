@@ -258,7 +258,7 @@ The following example shows the response to a request to get the MIME stream. Th
 
 After exporting items, you might want to [import items into Exchange](how-to-import-items-by-using-ews-in-exchange.md).
   
-## Additional resources
+## See also
 <a name="bk_addresources"> </a>
 
 - [Exporting and importing items by using EWS in Exchange](exporting-and-importing-items-by-using-ews-in-exchange.md)

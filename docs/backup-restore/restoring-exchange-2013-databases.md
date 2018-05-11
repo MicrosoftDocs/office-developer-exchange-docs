@@ -67,7 +67,7 @@ In some scenarios, you might need to recover a backup set to another server; For
   
 In these scenarios, the file paths for the target database as well as its object GUIDs are different than those for the original database. Therefore, your application has to call the [SetRestoreOptions](http://msdn.microsoft.com/en-us/library/windows/desktop/aa382856%28v=vs.85%29.aspx) method with an XML document that indicates the source and target database information, and call the [AddNewTarget](http://msdn.microsoft.com/en-us/library/windows/desktop/aa382648%28v=vs.85%29.aspx) method to specify the directory paths to restore the backup files to. For the Exchange writer, this restore is the same as restoring to a recovery database. For more information, see [Restoring Exchange databases to a recovery database](restoring-exchange-2013-databases.md#bk_RecoveryDatabase) earlier in this article. 
   
-## Additional resources
+## See also
 <a name="bk_AdditionalResources"> </a>
 
 - [Types of backup operations for Exchange 2013](types-of-backup-operations-for-exchange-2013.md)

@@ -428,7 +428,7 @@ If you're using the EWS Managed API, after you get the list of new or changed it
   
 If you're using EWS, use the [GetItem operation](http://msdn.microsoft.com/library/e3590b8b-c2a7-4dad-a014-6360197b68e4%28Office.15%29.aspx) to get properties on the new or changed items and update the items on the client. 
   
-## Additional resources
+## See also
 <a name="bk_addresources"> </a>
 
 - [Mailbox synchronization and EWS in Exchange](mailbox-synchronization-and-ews-in-exchange.md)

@@ -199,7 +199,7 @@ The XML request to expand a contact group is similar to a request to expand a di
 
 The structure of the XML response to a request to expand a contact group is the same as the response to a request to expand a universal distribution group.
   
-## Additional resources
+## See also
 <a name="bk_addresources"> </a>
 
 - [Distribution groups and EWS in Exchange](distribution-groups-and-ews-in-exchange.md)

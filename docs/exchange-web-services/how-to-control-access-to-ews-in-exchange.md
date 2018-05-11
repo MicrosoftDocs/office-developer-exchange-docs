@@ -89,7 +89,7 @@ Set-CASMailbox -Identity adam@contoso.com -EwsEnabled:$true
 
 |
    
-## Additional resources
+## See also
 <a name="bk_addresources"> </a>
 
 - [Setting up your EWS application](setting-up-your-ews-application.md)

@@ -163,7 +163,7 @@ The error response SOAP body contains the following elements:
     
 For additional error codes that are generic to EWS, see [ResponseCode](responsecode.md).
   
-## Additional resources
+## See also
 <a name="bk_addresources"> </a>
 
 - [GetReminders operation](getreminders-operation.md)

@@ -41,7 +41,7 @@ The articles in this section describe Exchange Management Shell features that ar
     
 - [Exchange Management Shell namespaces](exchange-management-shell-namespaces.md)
     
-## Additional resources
+## See also
 
 - [Exchange Management Shell on TechNet](http://technet.microsoft.com/en-us/library/bb123778%28v=exchg.150%29.aspx)
     

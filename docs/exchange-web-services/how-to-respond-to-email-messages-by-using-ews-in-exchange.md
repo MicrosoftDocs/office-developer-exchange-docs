@@ -240,7 +240,7 @@ public static void FindRecentlySent(EmailMessage messageToCheck)
 }
 ```
 
-## Additional resources
+## See also
 <a name="bk_addresources"> </a>
 
 - [Email and EWS in Exchange](email-and-ews-in-exchange.md)

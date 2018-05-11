@@ -729,7 +729,7 @@ The following cmdlets were removed from Exchange 2013:
     
 - **Set-UMServer**
     
-## Additional resources
+## See also
 <a name="bk_addresources"> </a>
 
 - [Exchange Management Shell cmdlet input and output types](exchange-management-shell-cmdlet-input-and-output-types.md)

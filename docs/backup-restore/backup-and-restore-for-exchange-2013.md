@@ -55,7 +55,7 @@ Although the VSS writer architecture was updated in Exchange 2013, the underlyin
     
 - [CChkSGFiles class reference](cchksgfiles-class-reference.md)
     
-## Additional resources
+## See also
 <a name="bk_addresources"> </a>
 
 - [Volume Shadow Copy Service (Windows)](http://msdn.microsoft.com/en-us/library/windows/desktop/bb968832%28v=vs.85%29.aspx)

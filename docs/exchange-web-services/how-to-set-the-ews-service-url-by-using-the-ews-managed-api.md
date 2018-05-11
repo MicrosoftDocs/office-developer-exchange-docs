@@ -54,7 +54,7 @@ service.Url = new Uri("https://computername.domain.contoso.com/EWS/Exchange.asmx
 
 ```
 
-## Additional resources
+## See also
 <a name="bk_addresources"> </a>
 
 - [Get started with EWS Managed API client applications](get-started-with-ews-managed-api-client-applications.md)

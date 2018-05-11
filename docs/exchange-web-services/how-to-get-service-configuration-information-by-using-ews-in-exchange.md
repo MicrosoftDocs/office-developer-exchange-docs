@@ -102,7 +102,7 @@ After you request service configuration information, use the [XmlDocument class]
     
 - If UM is enabled, [learn about how to play mailbox items](http://blogs.msdn.com/b/exchangedev/archive/2009/11/05/play-exchange-2010-mailbox-items-on-your-phone-by-using-the-ews-managed-api.aspx) over your phone. 
     
-## Additional resources
+## See also
 <a name="bk_addresources"> </a>
 
 - [Configuration options for EWS in Exchange](configuration-options-for-ews-in-exchange.md)

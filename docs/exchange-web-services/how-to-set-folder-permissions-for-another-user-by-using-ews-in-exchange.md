@@ -617,7 +617,7 @@ After you give a user permission to a specific folder, the user can access the f
     
 - [How to: Access contacts as a delegate by using EWS in Exchange](how-to-access-contacts-as-a-delegate-by-using-ews-in-exchange.md)
     
-## Additional resources
+## See also
 <a name="bk_addresources"> </a>
 
 - [Delegate access and EWS in Exchange](delegate-access-and-ews-in-exchange.md)
