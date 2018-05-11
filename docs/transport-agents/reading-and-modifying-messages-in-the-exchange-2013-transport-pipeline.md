@@ -1,7 +1,5 @@
 ---
 title: "Reading and modifying messages in the Exchange 2013 transport pipeline"
- 
- 
 manager: sethgros
 ms.date: 9/17/2015
 ms.audience: Developer
@@ -16,25 +14,15 @@ description: "Learn about the .NET Framework classes you can use in your Exchang
 
 Learn about the .NET Framework classes you can use in your Exchange 2013 transport agents to read, write, and modify messages.
   
- **Last modified:** September 17, 2015 
+**Applies to:** Exchange Server 2013
   
- * **Applies to:** Exchange Server 2013 * 
-  
-[Classes used to read, write, or modify messages](#Namespaces.md)
-  
-[Encoders namespace](#Encoders.md)
-  
-[iCalendar namespace](#iCalendar.md)
-  
-[MIME namespace](#MIME.md)
-  
-[TextConverters namespace](#TextConverters.md)
-  
-[Tnef namespace](#TNEF.md)
-  
-[vCard namespace](#vCard.md)
-  
-[Additional resources](#bk_addiitionalresources.md)
+- Classes used to read, write, or modify messages
+- Encoders namespace
+- iCalendar namespace
+- MIME namespace
+- TextConverters namespace
+- Tnef namespace
+- vCard namespace
   
 As messages pass through the transport pipeline, your transport agent can read, write, and convert message content between different data formats. For example, you can read and write MIME data, identify incoming messages that are in Uuencoded or Quoted-printable (qp) format, and then convert them to a standard used by your organization, or read and then save calendar or contact information associated with incoming messages. 
   
@@ -44,9 +32,10 @@ This article provides information about the .NET Framework classes that you can 
   
 > [!CAUTION]
 > Many of the properties and parameters in the content conversion APIs allow values large enough to cause performance problems, including denial of service. When you use the content conversion APIs in a transport agent, you should implement limits on the property and parameter value sizes you support when reading or writing in order to limit resource consumption by your agent. 
-  
-## Classes used to read, write, or modify messages
+
 <a name="Namespaces"> </a>
+
+## Classes used to read, write, or modify messages
 
 The following table lists the .NET Framework classes that you can use to read, write, and modify email messages.
   
@@ -223,14 +212,10 @@ The [TnefWriter](https://msdn.microsoft.com/library/Microsoft.Exchange.Data.Cont
 The vCard namespace contains classes, structures, and enumerations used to read and write contact information contained in an email message that is in the vCard data format. The namespace contains a contact reader and writer, an exception class, a property reader, a parameter reader, and supporting enumerations that allow you to read vCard data associated with an email message.
   
 ## See also
-<a name="bk_addiitionalresources"> </a>
 
-- [Transport agents in Exchange 2013](transport-agents-in-exchange-2013.md)
-    
-- [Transport agent concepts in Exchange 2013](transport-agent-concepts-in-exchange-2013.md)
-    
+- [Transport agents in Exchange 2013](transport-agents-in-exchange-2013.md)  
+- [Transport agent concepts in Exchange 2013](transport-agent-concepts-in-exchange-2013.md) 
 - [Transport agent reference for Exchange 2013](transport-agent-reference-for-exchange-2013.md)
-    
 - [MIME Media Types](http://www.iana.org/assignments/media-types)
     
 
