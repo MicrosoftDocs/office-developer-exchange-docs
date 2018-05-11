@@ -39,7 +39,7 @@ None.
 |:-----|:-----|
 |[SmtpAddress](smtpaddress.md) <br/> |Represents the Simple Mail Transfer Protocol (SMTP) recipient address of a calendar or contact sharing request.  <br/> |
    
-#### Parent elements
+### Parent elements
 
 |**Element**|**Description**|
 |:-----|:-----|

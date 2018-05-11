@@ -47,7 +47,7 @@ None.
 |[ItemId](itemid.md) <br/> |Represents the identifier of the free/busy item.  <br/> |
 |[ParentFolderId](parentfolderid.md) <br/> |Represents the identifier of the parent folder of the free/busy item.  <br/> |
    
-#### Parent elements
+### Parent elements
 
 |**Element**|**Description**|
 |:-----|:-----|

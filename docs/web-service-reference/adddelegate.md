@@ -45,7 +45,7 @@ None.
 |[DeliverMeetingRequests](delivermeetingrequests.md) <br/> |Defines how meeting requests are handled between the delegate and the principal. This element was introduced in Microsoft Exchange Server 2007 Service Pack 1 (SP1).  <br/> |
 |[Mailbox](mailbox.md) <br/> |Identifies a mail-enabled Active Directory directory service object.  <br/> |
    
-#### Parent elements
+### Parent elements
 
 None.
   

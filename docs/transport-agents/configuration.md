@@ -49,7 +49,7 @@ None.
 |:-----|:-----|
 |[mexRuntime](mexruntime.md) <br/> |Contains elements that define configuration information for agent monitoring and configuration information for SMTP and routing agents that are installed.  <br/> |
    
-#### Parent elements
+### Parent elements
 
 None.
   

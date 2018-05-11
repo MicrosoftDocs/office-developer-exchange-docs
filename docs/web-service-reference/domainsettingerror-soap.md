@@ -42,7 +42,7 @@ None.
 |[ErrorMessage (SOAP)](errormessage-soap.md) <br/> |Contains the error message that is associated with the specific request.  <br/> |
 |[SettingName (SOAP)](settingname-soap.md) <br/> |Represents the name of the setting.  <br/> |
    
-#### Parent elements
+### Parent elements
 
 |**Element**|**Description**|
 |:-----|:-----|

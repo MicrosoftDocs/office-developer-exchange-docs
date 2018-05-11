@@ -44,7 +44,7 @@ The following sections describe attributes, child elements, and parent elements.
 |:-----|:-----|
 |[Argument](argument.md) <br/> |Specifies arguments to the action. This element will not occur if the specified action does not require arguments to be specified. This element can occur one or more times if an action requires one or more arguments. The **RightsProtectMessage** action will contain a single argument.  <br/> |
    
-#### Parent elements
+### Parent elements
 
 |**Element**|**Description**|
 |:-----|:-----|

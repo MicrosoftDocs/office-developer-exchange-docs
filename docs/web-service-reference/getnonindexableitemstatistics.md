@@ -37,7 +37,7 @@ None.
 |:-----|:-----|
 |[Mailboxes (NonEmptyArrayOfLegacyDNsType)](mailboxes-nonemptyarrayoflegacydnstype.md) <br/> |Specifies an array of **Mailbox** elements.  <br/> |
    
-#### Parent elements
+### Parent elements
 
 None.
   

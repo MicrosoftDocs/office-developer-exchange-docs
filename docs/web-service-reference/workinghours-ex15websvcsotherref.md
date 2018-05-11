@@ -53,7 +53,7 @@ None.
 |[TimeZone (Availability)](timezone-availability.md) <br/> |Contains elements that identify time zone information. This element also contains information about the transition between standard time and daylight saving time. This element is required if the **WorkingHours** element is used.  <br/> |
 |[WorkingPeriodArray](workingperiodarray.md) <br/> |Contains working period information for the mailbox user. This element is required if the **WorkingHours** element is used.  <br/> |
    
-#### Parent elements
+### Parent elements
 
 |**Element**|**Description**|
 |:-----|:-----|

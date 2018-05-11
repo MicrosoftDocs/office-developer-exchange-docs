@@ -45,7 +45,7 @@ None.
 |:-----|:-----|
 |[Rule (RuleType)](rule-ruletype.md) <br/> |Contains a single rule and represents a rule in the user's mailbox.  <br/> |
    
-#### Parent elements
+### Parent elements
 
 |**Element**|**Description**|
 |:-----|:-----|

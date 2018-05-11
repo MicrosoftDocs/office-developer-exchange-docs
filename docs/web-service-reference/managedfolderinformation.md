@@ -59,7 +59,7 @@ None.
 |[FolderSize](foldersize.md) <br/> |Describes the total size of all the contents of a managed folder.  <br/> |
 |[HomePage](homepage.md) <br/> |Specifies the URL that will be the default home page for the managed folder.  <br/> |
    
-#### Parent elements
+### Parent elements
 
 |**Element**|**Description**|
 |:-----|:-----|

@@ -43,7 +43,7 @@ None.
 |[ActingAs](actingas.md) <br/> |Identifies who the caller is sending as. This element is optional. If this element is not present, the authenticated user is assumed to be the sender. The **ActingAs** element must be included for requesting sender hints. An ErrorInvalidArgument error can be returned in a response if the **ActingAs** element is missing, does not include a routing type, does not include an e-mail address, contains an invalid e-mail address, does not resolve to a user in Active Directory Domain Services (AD DS), or resolves to multiple users in AD DS.  <br/> |
 |[RequestedConfiguration](requestedconfiguration.md) <br/> |Contains the requested service configurations. This element is required.  <br/> |
    
-#### Parent elements
+### Parent elements
 
 None.
   

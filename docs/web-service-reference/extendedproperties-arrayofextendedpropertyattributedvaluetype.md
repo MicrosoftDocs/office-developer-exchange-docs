@@ -35,7 +35,7 @@ None.
 
 [ExtendedPropertyAttributedValue](extendedpropertyattributedvalue.md)
   
-#### Parent elements
+### Parent elements
 
 [Persona](persona.md)
   

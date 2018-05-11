@@ -40,7 +40,7 @@ The following sections describe attributes, child elements, and parent elements.
 
 None.
   
-#### Parent elements
+### Parent elements
 
 [MeetingMessage](meetingmessage.md) | [MeetingRequest](meetingrequest.md) | [MeetingResponse](meetingresponse.md) | [MeetingCancellation](meetingcancellation.md) | [ReminderMessageData](remindermessagedata.md)
   

@@ -36,7 +36,7 @@ None.
 
 [UserOptions](useroptions.md) | [VotingResponse](votingresponse.md)
   
-#### Parent elements
+### Parent elements
 
 [Message](message-ex15websvcsotherref.md)
   

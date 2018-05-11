@@ -48,7 +48,7 @@ None.
 |[ItemId](itemid.md) <br/> |Represents the identifier of the deleted item.  <br/> |
 |[ParentFolderId](parentfolderid.md) <br/> |Represents the identifier of the parent folder of the deleted item or folder before deletion.  <br/> |
    
-#### Parent elements
+### Parent elements
 
 |**Element**|**Description**|
 |:-----|:-----|

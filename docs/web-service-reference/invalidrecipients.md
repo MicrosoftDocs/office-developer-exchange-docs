@@ -41,7 +41,7 @@ None.
 |:-----|:-----|
 |[InvalidRecipient](invalidrecipient.md) <br/> |Contains the SMTP address of the invalid recipient and information about why the recipient is invalid.  <br/> |
    
-#### Parent elements
+### Parent elements
 
 |**Element**|**Description**|
 |:-----|:-----|

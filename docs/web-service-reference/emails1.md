@@ -37,7 +37,7 @@ None.
 |:-----|:-----|
 |[EmailAddressAttributedValue](emailaddressattributedvalue.md) <br/> |Specifies an instance of an array of email addresses and their associated attributions.  <br/> |
    
-#### Parent elements
+### Parent elements
 
 |**Element**|**Description**|
 |:-----|:-----|

@@ -39,7 +39,7 @@ The following sections describe attributes, child elements, and parent elements.
 
 [UserEnabledExtensions](userenabledextensions.md) | [UserDisabledExtensions](userdisabledextensions.md)
   
-#### Parent elements
+### Parent elements
 
 [GetClientExtension](getclientextension.md)
   

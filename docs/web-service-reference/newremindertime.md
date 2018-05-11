@@ -33,7 +33,7 @@ None.
 
 None.
   
-#### Parent elements
+### Parent elements
 
 [ReminderItemAction](reminderitemaction.md)
   

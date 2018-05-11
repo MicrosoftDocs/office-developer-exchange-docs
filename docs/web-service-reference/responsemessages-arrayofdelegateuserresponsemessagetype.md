@@ -41,7 +41,7 @@ None.
 |:-----|:-----|
 |[DelegateUserResponseMessageType](delegateuserresponsemessagetype.md) <br/> |Contains response messages for delegate management operations.  <br/> |
    
-#### Parent elements
+### Parent elements
 
 |**Element**|**Description**|
 |:-----|:-----|

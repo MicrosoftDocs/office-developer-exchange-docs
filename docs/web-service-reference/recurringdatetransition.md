@@ -47,7 +47,7 @@ None.
 |[Month (Time Zone Transition)](month-time-zone-transition.md) <br/> |Represents the month in which the time zone transition occurs.  <br/> |
 |[Day](day.md) <br/> |Represents the day of the month on which the time zone transition occurs.  <br/> |
    
-#### Parent elements
+### Parent elements
 
 |**Element**|**Description**|
 |:-----|:-----|

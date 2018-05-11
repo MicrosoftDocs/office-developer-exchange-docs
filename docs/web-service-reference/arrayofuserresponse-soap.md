@@ -38,7 +38,7 @@ None.
 |:-----|:-----|
 |[UserResponse (SOAP)](userresponse-soap.md) <br/> |Contains the requested settings for the specified user.  <br/> |
    
-#### Parent elements
+### Parent elements
 
 None.
   

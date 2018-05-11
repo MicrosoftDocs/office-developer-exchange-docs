@@ -43,7 +43,7 @@ None.
 |:-----|:-----|
 |[SmtpAddress (POX)](smtpaddress-pox.md) <br/> |Contains the SMTP address assigned to the public folder message store configured for the user. This SMTP address can be used in the [EMailAddress (POX)](emailaddress-pox.md) element of an Autodiscover request to discover public folder settings.  <br/> |
    
-#### Parent elements
+### Parent elements
 
 |**Element**|**Description**|
 |:-----|:-----|

@@ -35,7 +35,7 @@ None.
 
 [MailboxQuery](mailboxquery.md)
   
-#### Parent elements
+### Parent elements
 
 [SearchMailboxes](searchmailboxes.md) | [SearchMailboxesResult](searchmailboxesresult.md)
   

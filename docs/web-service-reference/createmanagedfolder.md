@@ -43,7 +43,7 @@ None.
 |[FolderNames](foldernames.md) <br/> |Contains an array of named managed folders to add to a mailbox.  <br/> |
 |[Mailbox](mailbox.md) <br/> |Identifies a mail-enabled Active Directory directory service object.  <br/> |
    
-#### Parent elements
+### Parent elements
 
 None.
   

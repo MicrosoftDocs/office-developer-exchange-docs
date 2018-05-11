@@ -41,7 +41,7 @@ None.
 |:-----|:-----|
 |[Permission](permission.md) <br/> |Defines the access that a delegate has to a folder. This element was introduced in Exchange 2007 SP1.  <br/> |
    
-#### Parent elements
+### Parent elements
 
 |**Element**|**Description**|
 |:-----|:-----|

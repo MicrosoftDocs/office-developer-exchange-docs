@@ -51,7 +51,7 @@ None.
 |:-----|:-----|
 |[CalendarEvent](calendarevent.md) <br/> |Represents a unique calendar item occurrence.  <br/> |
    
-#### Parent elements
+### Parent elements
 
 |**Element**|**Description**|
 |:-----|:-----|

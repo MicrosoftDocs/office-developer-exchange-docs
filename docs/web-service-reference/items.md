@@ -61,7 +61,7 @@ None.
 |[Task](task.md) <br/> |Represents a task in the Exchange store.  <br/> |
 |[PostItem](postitem.md) <br/> |Represents a post item in the Exchange store.  <br/> |
    
-#### Parent elements
+### Parent elements
 
 |**Element**|**Description**|
 |:-----|:-----|

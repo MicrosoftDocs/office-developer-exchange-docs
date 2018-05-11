@@ -50,7 +50,7 @@ None.
 |[MergedFreeBusyIntervalInMinutes](mergedfreebusyintervalinminutes.md) <br/> |Represents the time difference between two successive slots in the **FreeBusyMerged** view.  <br/> |
 |[RequestedView](requestedview.md) <br/> |Defines the type of calendar information that a client requests.  <br/> |
    
-#### Parent elements
+### Parent elements
 
 |**Element**|**Description**|
 |:-----|:-----|

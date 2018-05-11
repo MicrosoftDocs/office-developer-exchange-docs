@@ -58,7 +58,7 @@ The following sections describe attributes, child elements, and parent elements.
 |[MessageXml](messagexml.md) <br/> |Provides additional error response information.  <br/> |
 |[SharingFolderId](sharingfolderid.md) <br/> |Represents the identifier of the local folder in a sharing relationship.  <br/> |
    
-#### Parent elements
+### Parent elements
 
 None.
   

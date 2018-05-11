@@ -43,7 +43,7 @@ The following sections describe attributes, child elements, and parent elements.
 |:-----|:-----|
 |ConnectingSID  <br/> |Not intended for client use.  <br/> |
    
-#### Parent elements
+### Parent elements
 
 None.
   

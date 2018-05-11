@@ -53,7 +53,7 @@ None.
 |[RecipientTrackingEvents](recipienttrackingevents.md) <br/> |Contains a list of one or more tracking events for the recipients.  <br/> |
 |[Properties (ArrayOfTrackingPropertiesType)](properties-arrayoftrackingpropertiestype.md) <br/> |Contains a list of one or more tracking properties.  <br/> |
    
-#### Parent elements
+### Parent elements
 
 |**Element**|**Description**|
 |:-----|:-----|

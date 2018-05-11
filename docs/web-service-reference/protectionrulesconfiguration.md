@@ -45,7 +45,7 @@ The following sections describe attributes, child elements, and parent elements.
 |[Rules ](rules-ex15websvcsotherref.md) <br/> |An array of protection rules. This element is required.  <br/> |
 |[InternalDomains (SmtpDomainList)](internaldomains-smtpdomainlist.md) <br/> |Identifies the list of internal SMTP domains of the organization. This element is required.  <br/> |
    
-#### Parent elements
+### Parent elements
 
 |**Element**|**Description**|
 |:-----|:-----|

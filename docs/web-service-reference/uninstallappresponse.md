@@ -38,7 +38,7 @@ None.
 
 [MessageXml](messagexml.md) | [ResponseCode](responsecode.md) | [DescriptiveLinkKey](descriptivelinkkey.md) | [MessageXml](messagexml.md)
   
-#### Parent elements
+### Parent elements
 
 None.
   

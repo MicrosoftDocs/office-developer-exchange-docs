@@ -39,7 +39,7 @@ None.
 |[Address (string)](address-string.md) <br/> |Specifies an address.  <br/> |
 |[Position](position.md) <br/> |Specifies the position in an email message.  <br/> |
    
-#### Parent elements
+### Parent elements
 
 |**Element**|**Description**|
 |:-----|:-----|

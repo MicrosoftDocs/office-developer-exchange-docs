@@ -57,7 +57,7 @@ None.
 |[Exceptions](exceptions.md) <br/> |Identifies the exceptions that represent all the available rule exception conditions for the inbox rule.  <br/> |
 |[Actions](actions.md) <br/> |Represents the actions to be taken on a message when the conditions are fulfilled.  <br/> |
    
-#### Parent elements
+### Parent elements
 
 |**Element**|**Description**|
 |:-----|:-----|

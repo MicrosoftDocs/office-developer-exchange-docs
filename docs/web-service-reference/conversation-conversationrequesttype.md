@@ -36,7 +36,7 @@ None.
 
 [ConversationId](conversationid.md) | [SyncState (base64Binary)](syncstate-base64binary.md)
   
-#### Parent elements
+### Parent elements
 
 [Conversations](conversations-ex15websvcsotherref.md)
   

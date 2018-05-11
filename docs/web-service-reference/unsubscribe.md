@@ -43,7 +43,7 @@ None.
 |:-----|:-----|
 |[SubscriptionId (GetEvents)](subscriptionid-getevents.md) <br/> |Represents the identifier for a subscription.  <br/> |
    
-#### Parent elements
+### Parent elements
 
 None.
   

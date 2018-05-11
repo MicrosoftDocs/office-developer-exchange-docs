@@ -43,7 +43,7 @@ None.
 |:-----|:-----|
 |[Items (NonEmptyArrayOfUploadItemsType)](items-nonemptyarrayofuploaditemstype.md) <br/> |Contains an array of items to upload into a mailbox.  <br/> |
    
-#### Parent elements
+### Parent elements
 
 None.
   

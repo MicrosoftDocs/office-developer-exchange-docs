@@ -46,7 +46,7 @@ None.
 |[TokenIssuers (SOAP)](tokenissuers-soap.md) <br/> |Represents a collection of security tokens, which contain security token service identifiers and endpoints.  <br/> |
 |[Domains (SOAP)](domains-soap.md) <br/> |Represents the domains the configurations for which are returned in a [GetDomainSettings operation (SOAP)](getdomainsettings-operation-soap.md) **GetDomainSettings** operation or the domains the organization has federated in a [GetFederationInformation operation (SOAP)](getfederationinformation-operation-soap.md) **GetFederationInformation** operation.  <br/> |
    
-#### Parent elements
+### Parent elements
 
 None.
   

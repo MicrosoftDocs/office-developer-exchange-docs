@@ -57,7 +57,7 @@ None.
 |:-----|:-----|
 |[BusyType](busytype.md) <br/> |Represents the free/busy status of a user for a suggested meeting time.  <br/> |
    
-#### Parent elements
+### Parent elements
 
 |**Element**|**Description**|
 |:-----|:-----|

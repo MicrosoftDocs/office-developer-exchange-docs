@@ -35,7 +35,7 @@ None.
 |:-----|:-----|
 |[Response (GetOrganizationRelationship) (SOAP)](response-getorganizationrelationshipsoap.md) <br/> |Contains the [GetOrganizationRelationshipSettings operation (SOAP)](getorganizationrelationshipsettings-operation-soap.md) response information.  <br/> |
    
-#### Parent elements
+### Parent elements
 
 None.
   

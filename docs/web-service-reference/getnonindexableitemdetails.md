@@ -43,7 +43,7 @@ None.
 |[PageItemReference](pageitemreference.md) <br/> |Specifies the reference for a page item.  <br/> |
 |[PageDirection](pagedirection.md) <br/> |Contains the direction for pagination in the search result.  <br/> |
    
-#### Parent elements
+### Parent elements
 
 None.
   

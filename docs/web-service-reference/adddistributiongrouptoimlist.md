@@ -36,7 +36,7 @@ None.
 
 [SmtpAddress](smtpaddress.md) | [DisplayName (NonEmptyStringType)](displayname-nonemptystringtype.md)
   
-#### Parent elements
+### Parent elements
 
 None.
   

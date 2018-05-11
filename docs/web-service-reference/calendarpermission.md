@@ -59,7 +59,7 @@ None.
 |[ReadItems (CalendarPermissionType)](readitems-calendarpermissiontype.md) <br/> |Indicates whether a user has permission to read items within a calendar folder. This element was introduced in Exchange 2007 SP1.  <br/> |
 |[UserId](userid.md) <br/> |Identifies a delegate user or a user who has folder access permissions. This element was introduced in Exchange 2007 SP1.  <br/> |
    
-#### Parent elements
+### Parent elements
 
 |**Element**|**Description**|
 |:-----|:-----|

@@ -41,7 +41,7 @@ None.
 |:-----|:-----|
 |[Interval](interval.md) <br/> |Defines the interval, in weeks, since the task was completed, after which a new task is regenerated.  <br/> |
    
-#### Parent elements
+### Parent elements
 
 |**Element**|**Description**|
 |:-----|:-----|

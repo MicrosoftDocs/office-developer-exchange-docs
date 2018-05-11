@@ -54,7 +54,7 @@ None.
 |[Delete (ItemSync)](delete-itemsync.md) <br/> |Identifies a single item to delete in the local client store.  <br/> |
 |[ReadFlagChange](readflagchange.md) <br/> |Returned in [SyncFolderItems operation](syncfolderitems-operation.md) responses when an item has been read. This property is read-only.  <br/> |
    
-#### Parent elements
+### Parent elements
 
 |**Element**|**Description**|
 |:-----|:-----|

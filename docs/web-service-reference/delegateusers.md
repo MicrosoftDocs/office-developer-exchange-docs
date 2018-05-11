@@ -41,7 +41,7 @@ None.
 |:-----|:-----|
 |[DelegateUser](delegateuser.md) <br/> |Identifies a single delegate to add to or update in a mailbox.  <br/> |
    
-#### Parent elements
+### Parent elements
 
 |**Element**|**Description**|
 |:-----|:-----|

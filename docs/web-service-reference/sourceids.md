@@ -49,7 +49,7 @@ None.
 |[AlternatePublicFolderId](alternatepublicfolderid.md) <br/> |Describes a public folder identifier to convert.  <br/> |
 |[AlternatePublicFolderItemId](alternatepublicfolderitemid.md) <br/> |Describes a public folder item identifier to convert.  <br/> |
    
-#### Parent elements
+### Parent elements
 
 |**Element**|**Description**|
 |:-----|:-----|

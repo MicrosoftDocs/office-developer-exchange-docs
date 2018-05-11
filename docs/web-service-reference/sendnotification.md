@@ -41,7 +41,7 @@ None.
 |:-----|:-----|
 |[ResponseMessages](responsemessages.md) <br/> |Contains the push notifications that are sent by the Client Access server.  <br/> |
    
-#### Parent elements
+### Parent elements
 
 None.
   

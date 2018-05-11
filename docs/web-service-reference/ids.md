@@ -41,7 +41,7 @@ None.
 |:-----|:-----|
 |[Id (TimeZone)](id-timezone.md) <br/> |The element that identifies a single time zone definition.  <br/> |
    
-#### Parent elements
+### Parent elements
 
 |**Element**|**Description**|
 |:-----|:-----|

@@ -49,7 +49,7 @@ None.
 |:-----|:-----|
 |[String](string.md) <br/> |Contains a single conversation recipient.  <br/> |
    
-#### Parent elements
+### Parent elements
 
 |**Element**|**Description**|
 |:-----|:-----|

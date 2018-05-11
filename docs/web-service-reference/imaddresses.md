@@ -41,7 +41,7 @@ None.
 |:-----|:-----|
 |[Entry (IMAddress)](entry-imaddress.md) <br/> |Represents an instant messaging address for a contact.  <br/> |
    
-#### Parent elements
+### Parent elements
 
 |**Element**|**Description**|
 |:-----|:-----|

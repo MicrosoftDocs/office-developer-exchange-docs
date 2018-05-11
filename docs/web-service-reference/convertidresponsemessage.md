@@ -65,7 +65,7 @@ The following sections describe attributes, child elements, and parent elements.
 |[MessageXml](messagexml.md) <br/> |Provides additional error response information.  <br/> |
 |[AlternateId](alternateid.md) <br/> |Describes a converted identifier in the response.  <br/> |
    
-#### Parent elements
+### Parent elements
 
 |**Element**|**Description**|
 |:-----|:-----|

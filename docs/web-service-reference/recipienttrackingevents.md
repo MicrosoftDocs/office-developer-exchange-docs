@@ -41,7 +41,7 @@ None.
 |:-----|:-----|
 |[RecipientTrackingEvent](recipienttrackingevent.md) <br/> |Contains details for a specific event in the tracking report.  <br/> |
    
-#### Parent elements
+### Parent elements
 
 |**Element**|**Description**|
 |:-----|:-----|

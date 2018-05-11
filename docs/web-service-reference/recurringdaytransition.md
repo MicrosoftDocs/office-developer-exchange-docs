@@ -49,7 +49,7 @@ None.
 |[DayOfWeek (TimeZone)](dayofweek-timezone.md) <br/> |Represents the day of the week on which the time zone transition occurs.  <br/> |
 |[Occurrence (Time Zone Transition)](occurrence-time-zone-transition.md) <br/> |Represents the occurrence of the day of the week in the month that the time zone transition occurs.  <br/> |
    
-#### Parent elements
+### Parent elements
 
 |**Element**|**Description**|
 |:-----|:-----|

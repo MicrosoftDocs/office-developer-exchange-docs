@@ -59,7 +59,7 @@ The following sections describe attributes, child elements, and parent elements.
 |[MessageXml](messagexml.md) <br/> |Provides additional error response information.  <br/> |
 |[TimeZoneDefinitions](timezonedefinitions.md) <br/> |Contains an array of time zone definitions.  <br/> |
    
-#### Parent elements
+### Parent elements
 
 |**Element**|**Description**|
 |:-----|:-----|

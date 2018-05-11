@@ -37,7 +37,7 @@ None.
 |:-----|:-----|
 |[StringArrayAttributedValue](stringarrayattributedvalue.md) <br/> |Specifies an instance of an array of string data for a persona element.  <br/> |
    
-#### Parent elements
+### Parent elements
 
 |**Element**|**Description**|
 |:-----|:-----|

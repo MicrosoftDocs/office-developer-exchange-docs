@@ -53,7 +53,7 @@ None.
 |:-----|:-----|
 |[WorkingPeriod](workingperiod.md) <br/> |Contains the work week days and hours of the mailbox user.  <br/> |
    
-#### Parent elements
+### Parent elements
 
 |**Element**|**Description**|
 |:-----|:-----|

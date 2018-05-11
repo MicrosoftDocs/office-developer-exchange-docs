@@ -41,7 +41,7 @@ None.
 |:-----|:-----|
 |[RestrictedGroupIdentifier](restrictedgroupidentifier.md) <br/> |Represents the group security identifier (SID) and attributes for a restricted group.  <br/> |
    
-#### Parent elements
+### Parent elements
 
 |**Element**|**Description**|
 |:-----|:-----|

@@ -38,7 +38,7 @@ None.
 
 [MailboxId](mailboxid.md) | [DisplayName (string)](displayname-string.md) | [ItemCount](itemcount.md) | [Size (long)](size-long.md)
   
-#### Parent elements
+### Parent elements
 
 [MailboxStats](mailboxstats.md)
   

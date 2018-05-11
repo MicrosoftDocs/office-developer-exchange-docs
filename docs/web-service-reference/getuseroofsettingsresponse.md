@@ -45,7 +45,7 @@ None.
 |[OofSettings](oofsettings.md) <br/> |Contains the OOF settings.  <br/> |
 |[AllowExternalOof](allowexternaloof.md) <br/> |Contains a value that identifies to whom external OOF messages are sent.  <br/> |
    
-#### Parent elements
+### Parent elements
 
 None.
   

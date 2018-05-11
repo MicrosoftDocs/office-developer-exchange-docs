@@ -41,7 +41,7 @@ None.
 |[ParentInternetMessageId](parentinternetmessageid.md) <br/> |Specifies the identifier of the parent Internet message.  <br/> |
 |[ItemIds (NonEmptyArrayOfItemIdsType)](itemids-nonemptyarrayofitemidstype.md) <br/> |Specifies all the items in the conversation node.  <br/> |
    
-#### Parent elements
+### Parent elements
 
 |**Element**|**Description**|
 |:-----|:-----|

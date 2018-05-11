@@ -37,7 +37,7 @@ None.
 |:-----|:-----|
 |[PhoneNumberAttributedValue](phonenumberattributedvalue.md) <br/> |Contains a single attributed phone number for a persona.  <br/> |
    
-#### Parent elements
+### Parent elements
 
 |**Element**|**Description**|
 |:-----|:-----|

@@ -40,7 +40,7 @@ None.
 
 [MessageText](messagetext.md) | [ResponseCode](responsecode.md) | [DescriptiveLinkKey](descriptivelinkkey.md) | [MessageXml](messagexml.md) | [People](people.md) | [TotalNumberOfPeopleInView](totalnumberofpeopleinview.md)
   
-#### Parent elements
+### Parent elements
 
 [ResponseMessages](responsemessages.md)
   

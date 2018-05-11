@@ -37,7 +37,7 @@ None.
 |:-----|:-----|
 |[BodyContentAttributedValue](bodycontentattributedvalue.md) <br/> |Specifies the body content of an item.  <br/> |
    
-#### Parent elements
+### Parent elements
 
 |**Element**|**Description**|
 |:-----|:-----|

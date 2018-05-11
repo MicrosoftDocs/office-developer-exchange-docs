@@ -38,7 +38,7 @@ None.
 
 [IsUndecidedApprovalRequest](isundecidedapprovalrequest.md) | [ApprovalDecision](approvaldecision.md) | [ApprovalDecisionMaker](approvaldecisionmaker.md) | [ApprovalDecisionTime](approvaldecisiontime.md)
   
-#### Parent elements
+### Parent elements
 
 [Message](message-ex15websvcsotherref.md)
   

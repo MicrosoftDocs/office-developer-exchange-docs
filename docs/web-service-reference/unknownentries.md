@@ -41,7 +41,7 @@ None.
 |:-----|:-----|
 |[UnknownEntry](unknownentry.md) <br/> |Represents a single unknown permission entry that cannot be resolved against Active Directory. This element was introduced in Exchange 2007 SP1.  <br/> |
    
-#### Parent elements
+### Parent elements
 
 |**Element**|**Description**|
 |:-----|:-----|

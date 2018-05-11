@@ -33,7 +33,7 @@ None.
 
 None.
   
-#### Parent elements
+### Parent elements
 
 [Values (ArrayOfStringValueType)](values-arrayofstringvaluetype.md)
   

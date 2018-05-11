@@ -35,7 +35,7 @@ None.
 
 [Manifest](manifest.md)
   
-#### Parent elements
+### Parent elements
 
 [GetAppManifestsResponse](getappmanifestsresponse.md)
   

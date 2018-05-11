@@ -51,7 +51,7 @@ None.
 |[NotesFolderPermissionLevel](notesfolderpermissionlevel.md) <br/> |Contains the permissions for the default Notes folder. This element was introduced in Exchange 2007 SP1.  <br/> |
 |[JournalFolderPermissionLevel](journalfolderpermissionlevel.md) <br/> |Contains the permissions for the default Journal folder. This element was introduced in Exchange 2007 SP1.  <br/> |
    
-#### Parent elements
+### Parent elements
 
 |**Element**|**Description**|
 |:-----|:-----|

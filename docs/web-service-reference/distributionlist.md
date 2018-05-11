@@ -123,7 +123,7 @@ None.
 |[ContactSource](contactsource.md) <br/> |Describes whether the contact is located in the Exchange store or in Active Directory Domain Services (AD DS).  <br/> |
 |[Members (MemberListType)](members-memberlisttype.md) <br/> |Contains a list of members of the distribution list.  <br/> |
    
-#### Parent elements
+### Parent elements
 
 |**Element**|**Description**|
 |:-----|:-----|

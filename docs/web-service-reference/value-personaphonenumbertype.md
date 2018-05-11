@@ -36,7 +36,7 @@ None.
 
 [Number](number.md) | [Type (string)](type-string.md)
   
-#### Parent elements
+### Parent elements
 
 [PhoneNumberAttributedValue](phonenumberattributedvalue.md)
   

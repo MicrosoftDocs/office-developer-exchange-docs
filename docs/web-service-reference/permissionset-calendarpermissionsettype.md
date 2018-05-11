@@ -43,7 +43,7 @@ None.
 |[CalendarPermissions](calendarpermissions.md) <br/> |Contains an array of calendar permissions for a folder. This element was introduced in Exchange 2007 SP1.  <br/> |
 |[UnknownEntries](unknownentries.md) <br/> |Contains an array of unknown entries that cannot be resolved against the Active Directory directory service. This element was introduced in Exchange 2007 SP1.  <br/> |
    
-#### Parent elements
+### Parent elements
 
 |**Element**|**Description**|
 |:-----|:-----|

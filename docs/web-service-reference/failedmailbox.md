@@ -43,7 +43,7 @@ None.
 |[ErrorMessage](errormessage.md) <br/> |Represents the reason for the validation error.  <br/> |
 |[IsArchive](isarchive.md) <br/> |Specifies a Boolean value that indicates whether the mailbox is an archive.  <br/> |
    
-#### Parent elements
+### Parent elements
 
 |**Element**|**Description**|
 |:-----|:-----|

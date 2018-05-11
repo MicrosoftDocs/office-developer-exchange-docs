@@ -41,7 +41,7 @@ None.
 |:-----|:-----|
 |[String](string.md) <br/> |Represents a comma-separated list of contact names.  <br/> |
    
-#### Parent elements
+### Parent elements
 
 |**Element**|**Description**|
 |:-----|:-----|

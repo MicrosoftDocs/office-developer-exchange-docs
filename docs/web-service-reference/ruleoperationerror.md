@@ -43,7 +43,7 @@ None.
 |[OperationIndex](operationindex.md) <br/> |Indicates the index of the operation in the request that caused the rule operation error.  <br/> |
 |[ValidationErrors](validationerrors.md) <br/> |Represents an array of rule validation errors on each rule field that has an error.  <br/> |
    
-#### Parent elements
+### Parent elements
 
 |**Element**|**Description**|
 |:-----|:-----|

@@ -59,7 +59,7 @@ None.
 |[SearchFolder](searchfolder.md) <br/> |Represents a search folder contained in a mailbox.  <br/> |
 |[TasksFolder](tasksfolder.md) <br/> |Represents a task folder contained in a mailbox.  <br/> |
    
-#### Parent elements
+### Parent elements
 
 |**Element**|**Description**|
 |:-----|:-----|

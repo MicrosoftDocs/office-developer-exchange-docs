@@ -38,7 +38,7 @@ None.
 |:-----|:-----|
 |[Request (GetFederationInformation) (SOAP)](request-getfederationinformationsoap.md) <br/> |Represents a **GetFederationInformation** request.  <br/> |
    
-#### Parent elements
+### Parent elements
 
 None.
   

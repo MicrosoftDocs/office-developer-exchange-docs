@@ -35,7 +35,7 @@ None.
 
 [Phone (PhoneEntityType)](phone-phoneentitytype.md)
   
-#### Parent elements
+### Parent elements
 
 [EntityExtractionResult](entityextractionresult.md)
   

@@ -63,7 +63,7 @@ None.
 |[ReceivedBy](receivedby.md) <br/> |Identifies the delegate in a delegate access scenario. This element was introduced in Microsoft Exchange Server 2007 Service Pack 1 (SP1).  <br/> |
 |[ReceivedRepresenting](receivedrepresenting.md) <br/> |Identifies the principal in a delegate access scenario. This element was introduced in Exchange 2007 SP1.  <br/> |
    
-#### Parent elements
+### Parent elements
 
 |**Element**|**Description**|
 |:-----|:-----|

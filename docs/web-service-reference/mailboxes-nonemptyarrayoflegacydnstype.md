@@ -35,7 +35,7 @@ None.
 
 [LegacyDN](legacydn.md)
   
-#### Parent elements
+### Parent elements
 
 [GetNonIndexableItemStatistics](getnonindexableitemstatistics.md)
   

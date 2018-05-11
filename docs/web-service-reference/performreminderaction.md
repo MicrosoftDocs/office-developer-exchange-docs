@@ -35,7 +35,7 @@ None.
 
 [ReminderItemActions](reminderitemactions.md)
   
-#### Parent elements
+### Parent elements
 
 None.
   

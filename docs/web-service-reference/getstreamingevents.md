@@ -45,7 +45,7 @@ None.
 |[SubscriptionId (GetStreamingEvents)](subscriptionid-getstreamingevents.md) <br/> |Represents the identifier for a subscription that is queried for events.  <br/> |
 |[ConnectionTimeout](connectiontimeout.md) <br/> |Represents the number of minutes to keep a connection open.  <br/> |
    
-#### Parent elements
+### Parent elements
 
 None.
   

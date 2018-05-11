@@ -53,7 +53,7 @@ None.
 |[DiagnosticsLevel](diagnosticslevel.md) <br/> |Specifies timing and performance information that will be used to derive the tracking report. This element is optional.  <br/> |
 |[Properties (ArrayOfTrackingPropertiesType)](properties-arrayoftrackingpropertiestype.md) <br/> |Specifies a list of one or more tracking properties. This element is optional.  <br/> |
    
-#### Parent elements
+### Parent elements
 
 None.
   

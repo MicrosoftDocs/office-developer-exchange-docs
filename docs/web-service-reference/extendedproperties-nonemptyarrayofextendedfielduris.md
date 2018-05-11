@@ -35,7 +35,7 @@ None.
 
 [ExtendedProperty (PathToExtendedFieldType)](extendedproperty-pathtoextendedfieldtype.md)
   
-#### Parent elements
+### Parent elements
 
 [GetImItems](getimitems.md) | [GetImItemList](getimitemlist.md)
   

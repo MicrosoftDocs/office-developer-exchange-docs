@@ -67,7 +67,7 @@ The following sections describe attributes, child elements, and parent elements.
 |[SubscriptionId (GetEvents)](subscriptionid-getevents.md) <br/> |Represents the identifier for a subscription.  <br/> |
 |[Watermark](watermark.md) <br/> |Represents an event bookmark in the mailbox event queue.  <br/> |
    
-#### Parent elements
+### Parent elements
 
 |**Element**|**Description**|
 |:-----|:-----|

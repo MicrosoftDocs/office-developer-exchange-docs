@@ -37,7 +37,7 @@ None.
 |:-----|:-----|
 |[ResponseMessages](responsemessages.md) <br/> |Contains the response messages for an Exchange Web Services (EWS) request.  <br/> |
    
-#### Parent elements
+### Parent elements
 
 None.
   

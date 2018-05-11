@@ -33,7 +33,7 @@ None.
 
 None.
   
-#### Parent elements
+### Parent elements
 
 [Attribution (PersonaAttributionType)](attribution-personaattributiontype.md)
   

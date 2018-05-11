@@ -43,7 +43,7 @@ The following sections describe attributes, child elements, and parent elements.
 |:-----|:-----|
 |[SecurityIdentifier](securityidentifier.md) <br/> |Represents the security descriptor definition language (SDDL) form of a security identifier.  <br/> |
    
-#### Parent elements
+### Parent elements
 
 |**Element**|**Description**|
 |:-----|:-----|

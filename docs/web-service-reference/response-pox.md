@@ -45,7 +45,7 @@ None.
 |[User (POX)](user-pox.md) <br/> |Provides user-specific information. This element is optional.  <br/> |
 |[Account (POX)](account-pox.md) <br/> |Specifies account settings for the user.  <br/> |
    
-#### Parent elements
+### Parent elements
 
 |**Element**|**Description**|
 |:-----|:-----|

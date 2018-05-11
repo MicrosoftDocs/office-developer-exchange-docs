@@ -41,7 +41,7 @@ None.
 |:-----|:-----|
 |[Mailbox](mailbox.md) <br/> |Identifies a mail enabled Active Directory object that identifies the sender.  <br/> |
    
-#### Parent elements
+### Parent elements
 
 |**Element**|**Description**|
 |:-----|:-----|

@@ -59,7 +59,7 @@ None.
 |[BusyType](busytype.md) <br/> |Represents the free/busy status set for a calendar event. This is a required child element.  <br/> |
 |[CalendarEventDetails](calendareventdetails.md) <br/> |Provides additional information for a calendar event. This is an optional child element.  <br/> |
    
-#### Parent elements
+### Parent elements
 
 |**Element**|**Description**|
 |:-----|:-----|

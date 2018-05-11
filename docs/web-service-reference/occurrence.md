@@ -47,7 +47,7 @@ None.
 |[End ](end-ex15websvcsotherref.md) <br/> |Represents the end time of a modified occurrence of a recurring calendar item.  <br/> |
 |[OriginalStart](originalstart.md) <br/> |Represents the original start time of a modified occurrence of a recurring calendar item.  <br/> |
    
-#### Parent elements
+### Parent elements
 
 |**Element**|**Description**|
 |:-----|:-----|

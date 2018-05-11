@@ -61,7 +61,7 @@ None.
 |[TooBigGroupAttendeeConflictData](toobiggroupattendeeconflictdata.md) <br/> |Represents an attendee that resolved as a distribution list that was too large to expand.  <br/> |
 |[GroupAttendeeConflictData](groupattendeeconflictdata.md) <br/> |Contains aggregate conflict information about the number of users available, the number of users who have conflicts, and the number of users who do not have availability information in a distribution list for a suggested meeting time.  <br/> |
    
-#### Parent elements
+### Parent elements
 
 |**Element**|**Description**|
 |:-----|:-----|

@@ -35,7 +35,7 @@ None.
 
 [Refiner](refiner.md)
   
-#### Parent elements
+### Parent elements
 
 [SearchMailboxesResult](searchmailboxesresult.md)
   

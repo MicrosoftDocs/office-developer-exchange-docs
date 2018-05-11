@@ -47,7 +47,7 @@ None.
 |[ItemId](itemid.md) <br/> |Represents the identifier of a new mail item.  <br/> |
 |[ParentFolderId](parentfolderid.md) <br/> |Represents the identifier of the parent folder of the new mail item.  <br/> |
    
-#### Parent elements
+### Parent elements
 
 |**Element**|**Description**|
 |:-----|:-----|

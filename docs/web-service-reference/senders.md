@@ -35,7 +35,7 @@ None.
 
 [SmtpAddress](smtpaddress.md)
   
-#### Parent elements
+### Parent elements
 
 [FindMailboxStatisticsByKeywords](findmailboxstatisticsbykeywords.md)
   

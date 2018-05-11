@@ -48,7 +48,7 @@ The following sections describe attributes, child elements, and parent elements.
 |[AbsoluteDate](absolutedate.md) <br/> |Represents the date when the time changes from standard time or daylight saving time.  <br/> |
 |[Time (TimeChangeType)](time-timechangetype.md) <br/> |Describes the time when the time changes between standard time and daylight saving time.  <br/> |
    
-#### Parent elements
+### Parent elements
 
 |**Element**|**Description**|
 |:-----|:-----|

@@ -39,7 +39,7 @@ None.
 
 [Keyword](keyword.md) | [ItemHits](itemhits.md) | [Size (long)](size-long.md)
   
-#### Parent elements
+### Parent elements
 
 [MailboxStatisticsSearchResult](mailboxstatisticssearchresult.md)
   

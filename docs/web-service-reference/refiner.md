@@ -38,7 +38,7 @@ None.
 
 [Name (string)](name-string.md) | [Value](value.md) | [Count](count.md) | [Token (String)](token-string.md)
   
-#### Parent elements
+### Parent elements
 
 [Refiners](refiners.md)
   

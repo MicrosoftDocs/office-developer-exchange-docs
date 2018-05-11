@@ -33,7 +33,7 @@ None.
 
 None.
   
-#### Parent elements
+### Parent elements
 
 [Manifests](manifests.md) | [InstallApp](installapp.md) | [ClientExtension](clientextension.md)
   

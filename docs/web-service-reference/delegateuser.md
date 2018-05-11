@@ -47,7 +47,7 @@ None.
 |[ReceiveCopiesOfMeetingMessages](receivecopiesofmeetingmessages.md) <br/> |Indicates whether a delegate receives copies of meeting-related messages that are addressed to the principal. This element was introduced in Exchange 2007 SP1.  <br/> |
 |[ViewPrivateItems](viewprivateitems.md) <br/> |Indicates whether a delegate has permission to view private calendar items in the principal's mailbox. This element was introduced in Exchange 2007 SP1.  <br/> |
    
-#### Parent elements
+### Parent elements
 
 |**Element**|**Description**|
 |:-----|:-----|

@@ -35,7 +35,7 @@ None.
 
 [TaskSuggestion](tasksuggestion.md)
   
-#### Parent elements
+### Parent elements
 
 [EntityExtractionResult](entityextractionresult.md)
   

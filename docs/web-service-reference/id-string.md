@@ -33,7 +33,7 @@ None.
 
 None.
   
-#### Parent elements
+### Parent elements
 
 [DisableApp](disableapp.md) | [UninstallApp](uninstallapp.md)
   

@@ -35,7 +35,7 @@ None.
 
 [Phone](phone.md)
   
-#### Parent elements
+### Parent elements
 
 [Contact (ContactType)](contact-contacttype.md)
   

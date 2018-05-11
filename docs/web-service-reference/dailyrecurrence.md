@@ -41,7 +41,7 @@ None.
 |:-----|:-----|
 |[Interval](interval.md) <br/> |Defines the interval, in days, between two consecutive recurring items. The value must be in the range from 1 to 999.  <br/> |
    
-#### Parent elements
+### Parent elements
 
 |**Element**|**Description**|
 |:-----|:-----|

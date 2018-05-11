@@ -57,7 +57,7 @@ None.
 |[IncludePersonalArchive](includepersonalarchive.md) <br/> |Specifies whether to include the personal archive in the search.  <br/> |
 |[IncludeUnsearchableItems](includeunsearchableitems.md) <br/> |Specifies whether to include items that cannot be searched.  <br/> |
    
-#### Parent elements
+### Parent elements
 
 None.
   

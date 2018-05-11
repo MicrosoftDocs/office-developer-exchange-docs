@@ -41,7 +41,7 @@ None.
 |:-----|:-----|
 |[Mailbox (Availability)](mailbox-availability.md) <br/> |Identifies the mailbox user for a SetUserOofSettings or GetUserOofSettings request.  <br/> |
    
-#### Parent elements
+### Parent elements
 
 None.
   

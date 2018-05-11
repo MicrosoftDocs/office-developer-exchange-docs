@@ -44,7 +44,7 @@ None.
 |[Values](values.md) <br/> |Contains a collection of values for a multivalued extended MAPI property.  <br/> |
 |[Value](value.md) <br/> |Contains the value of single-valued MAPI extended property.  <br/> |
    
-#### Parent elements
+### Parent elements
 
 |**Element**|**Description**|
 |:-----|:-----|

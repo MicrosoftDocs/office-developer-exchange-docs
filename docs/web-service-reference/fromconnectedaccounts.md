@@ -41,7 +41,7 @@ None.
 |:-----|:-----|
 |[String](string.md) <br/> |Represents an e-mail account name from which incoming messages have to have been aggregated in order for the condition or exception to apply.  <br/> |
    
-#### Parent elements
+### Parent elements
 
 |**Element**|**Description**|
 |:-----|:-----|

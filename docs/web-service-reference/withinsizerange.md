@@ -43,7 +43,7 @@ None.
 |[MinimumSize](minimumsize.md) <br/> |Specifies the minimum size that a message must be in order for the condition or exception to apply.  <br/> |
 |[MaximumSize](maximumsize.md) <br/> |Specifies the maximum size that a message must be in order for the condition or exception to apply.  <br/> |
    
-#### Parent elements
+### Parent elements
 
 |**Element**|**Description**|
 |:-----|:-----|

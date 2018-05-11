@@ -45,7 +45,7 @@ None.
 |[PushSubscriptionRequest](pushsubscriptionrequest.md) <br/> |Represents a subscription to a push-based event notification.  <br/> |
 |[StreamingSubscriptionRequest](streamingsubscriptionrequest.md) <br/> |Represents a subscription to a streaming event notification.  <br/> |
    
-#### Parent elements
+### Parent elements
 
 None.
   

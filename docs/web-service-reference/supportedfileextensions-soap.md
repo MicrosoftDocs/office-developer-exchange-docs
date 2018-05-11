@@ -34,7 +34,7 @@ None.
 |:-----|:-----|
 |[FileExtension (SOAP)](fileextension-soap.md) <br/> |Represents a file extension.  <br/> |
    
-#### Parent elements
+### Parent elements
 
 |**Element**|**Description**|
 |:-----|:-----|

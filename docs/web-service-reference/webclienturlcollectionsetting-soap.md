@@ -40,7 +40,7 @@ None.
 |:-----|:-----|
 |[WebClientUrl (SOAP)](webclienturl-soap.md) <br/> |Represents the URL of an Exchange Web client.  <br/> |
    
-#### Parent elements
+### Parent elements
 
 None.
   

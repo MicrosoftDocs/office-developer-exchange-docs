@@ -55,7 +55,7 @@ The following sections describe attributes, child elements, and parent elements.
 |[StatusFrequency](statusfrequency.md) <br/> |Represents the frequency, specified in minutes, at which notification messages will be sent to the client when no events have occurred.  <br/> |
 |[Url ](url-ex15websvcsotherref.md) <br/> |Represents the location of the client Web service for push notifications.  <br/> |
    
-#### Parent elements
+### Parent elements
 
 |**Element**|**Description**|
 |:-----|:-----|

@@ -41,7 +41,7 @@ None.
 |:-----|:-----|
 |[Interval](interval.md) <br/> |Defines the interval, in months, between two consecutive recurring items.  <br/> |
    
-#### Parent elements
+### Parent elements
 
 |**Element**|**Description**|
 |:-----|:-----|

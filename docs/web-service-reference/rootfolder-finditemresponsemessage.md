@@ -49,7 +49,7 @@ The following sections describe attributes, child elements, and parent elements.
 |[Items](items.md) <br/> |Contains an array of items found that have the search criteria identified in the [FindItem operation](finditem-operation.md) request.  <br/> |
 |[Groups](groups.md) <br/> |Contains a collection of groups found that have the search and aggregation criteria identified in the [FindItem operation](finditem-operation.md) request.  <br/> |
    
-#### Parent elements
+### Parent elements
 
 |**Element**|**Description**|
 |:-----|:-----|

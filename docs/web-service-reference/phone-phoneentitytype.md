@@ -38,7 +38,7 @@ None.
 
 [Position](position.md) | [OriginalPhoneString](originalphonestring.md) | [PhoneString](phonestring.md) | [Type (string)](type-string.md)
   
-#### Parent elements
+### Parent elements
 
 [PhoneNumbers (ArrayOfPhoneEntitiesType)](phonenumbers-arrayofphoneentitiestype.md)
   

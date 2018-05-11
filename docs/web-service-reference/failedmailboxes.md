@@ -37,7 +37,7 @@ None.
 |:-----|:-----|
 |[FailedMailbox](failedmailbox.md) <br/> |Specifies the error message for a mailbox that failed on search.  <br/> |
    
-#### Parent elements
+### Parent elements
 
 |**Element**|**Description**|
 |:-----|:-----|

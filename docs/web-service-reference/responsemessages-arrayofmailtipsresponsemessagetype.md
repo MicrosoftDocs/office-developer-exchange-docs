@@ -41,7 +41,7 @@ None.
 |:-----|:-----|
 |[MailTipsResponseMessageType](mailtipsresponsemessagetype.md) <br/> |Represents mail tips settings.  <br/> |
    
-#### Parent elements
+### Parent elements
 
 |**Element**|**Description**|
 |:-----|:-----|

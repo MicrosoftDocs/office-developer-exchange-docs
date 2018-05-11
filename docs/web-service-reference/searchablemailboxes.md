@@ -35,7 +35,7 @@ None.
 
 [SearchableMailbox](searchablemailbox.md)
   
-#### Parent elements
+### Parent elements
 
 [GetSearchableMailboxesResponse](getsearchablemailboxesresponse.md)
   

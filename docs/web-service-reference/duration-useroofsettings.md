@@ -43,7 +43,7 @@ None.
 |[StartTime](starttime.md) <br/> |Represents the start of the time span set with an OOF status. This element is required.  <br/> |
 |[EndTime](endtime.md) <br/> |Represents the end of the time span set with an OOF status. This element is required.  <br/> |
    
-#### Parent elements
+### Parent elements
 
 |**Element**|**Description**|
 |:-----|:-----|

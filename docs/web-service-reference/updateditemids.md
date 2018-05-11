@@ -36,7 +36,7 @@ None.
 
 [ItemId](itemid.md)
   
-#### Parent elements
+### Parent elements
 
 [PerformReminderActionResponse](performreminderactionresponse.md)
   

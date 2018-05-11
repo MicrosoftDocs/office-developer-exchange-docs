@@ -36,7 +36,7 @@ None.
 
 [ContactId](contactid.md) | [GroupId](groupid.md)
   
-#### Parent elements
+### Parent elements
 
 None.
   

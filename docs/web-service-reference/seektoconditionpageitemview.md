@@ -38,7 +38,7 @@ The following sections describe attributes, child elements, and parent elements.
 
 [Condition (RestrictionType)](condition-restrictiontype.md)
   
-#### Parent elements
+### Parent elements
 
 [FindConversation](findconversation.md) | [FindItem](finditem.md)
   

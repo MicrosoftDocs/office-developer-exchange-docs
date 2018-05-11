@@ -40,7 +40,7 @@ None.
 |[Request (POX)](request-pox.md) <br/> |Contains the request to the Autodiscover service.  <br/> |
 |[Response (POX)](response-pox.md) <br/> |Contains the response from the Autodiscover service.  <br/> |
    
-#### Parent elements
+### Parent elements
 
 None.
   

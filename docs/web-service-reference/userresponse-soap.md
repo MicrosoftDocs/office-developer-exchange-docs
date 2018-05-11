@@ -46,7 +46,7 @@ None.
 |[UserSettingErrors (SOAP)](usersettingerrors-soap.md) <br/> |Represents a collection of information about settings that could not be returned.  <br/> |
 |[UserSettings (SOAP)](usersettings-soap.md) <br/> |The requested settings for the user.  <br/> |
    
-#### Parent elements
+### Parent elements
 
 |**Element**|**Description**|
 |:-----|:-----|

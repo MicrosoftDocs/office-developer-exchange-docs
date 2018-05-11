@@ -49,7 +49,7 @@ None.
 |[StartTime](starttime.md) <br/> |Represents the start of a time span queried for the user availability information.  <br/> |
 |[EndTime](endtime.md) <br/> |Represents the end of a time span queried for the user availability information.  <br/> |
    
-#### Parent elements
+### Parent elements
 
 |**Element**|**Description**|
 |:-----|:-----|

@@ -43,7 +43,7 @@ None.
 |:-----|:-----|
 |[ItemIds (NonEmptyArrayOfItemIdsType)](itemids-nonemptyarrayofitemidstype.md) <br/> |Contains an array of item identifiers that identify the items to export from a mailbox.  <br/> |
    
-#### Parent elements
+### Parent elements
 
 None.
   

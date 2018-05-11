@@ -48,7 +48,7 @@ The following sections describe attributes, child elements, and parent elements.
 |:-----|:-----|
 |[ClientExtension](clientextension.md) <br/> |Contains user and configuration information about an app.  <br/> |
    
-#### Parent elements
+### Parent elements
 
 |**Element**|**Description**|
 |:-----|:-----|

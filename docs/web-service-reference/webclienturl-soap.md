@@ -46,7 +46,7 @@ None.
 |[AuthenticationMethods (SOAP)](authenticationmethods-soap.md) <br/> |Represents the authentication method to use when accessing the specified URL.  <br/> |
 |[Url (SOAP)](url-soap.md) <br/> |Represents the web address for the URL.  <br/> |
    
-#### Parent elements
+### Parent elements
 
 |**Element**|**Description**|
 |:-----|:-----|

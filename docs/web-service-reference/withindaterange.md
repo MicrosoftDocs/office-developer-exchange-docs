@@ -43,7 +43,7 @@ None.
 |[StartDateTime](startdatetime.md) <br/> |Specifies the rule time period and indicates that the rule condition is met after this value.  <br/> |
 |[EndDateTime](enddatetime.md) <br/> |Specifies the rule time period and indicates that the rule condition is met before this value.  <br/> |
    
-#### Parent elements
+### Parent elements
 
 |**Element**|**Description**|
 |:-----|:-----|

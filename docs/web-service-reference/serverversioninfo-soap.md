@@ -46,7 +46,7 @@ None.
 |[MinorBuildNumber (SOAP)](minorbuildnumber-soap.md) <br/> |The minor build number for the server.  <br/> |
 |[Version (SOAP)](version-soap.md) <br/> |A description of the server product version.  <br/> |
    
-#### Parent elements
+### Parent elements
 
 None.
   

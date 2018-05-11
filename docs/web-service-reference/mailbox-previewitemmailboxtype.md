@@ -36,7 +36,7 @@ None.
 
 [MailboxId](mailboxid.md) | [PrimarySmtpAddress (string)](primarysmtpaddress-string.md)
   
-#### Parent elements
+### Parent elements
 
 [SearchPreviewItem](searchpreviewitem.md)
   

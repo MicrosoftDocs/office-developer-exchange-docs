@@ -42,7 +42,7 @@ None.
 |:-----|:-----|
 |[SearchExpression](searchexpression.md) <br/> | Represents the base class for expressions within a restriction. There must be two or more search expressions in an And operation.  <br/>  One of the following elements must be substituted for the **SearchExpression** element:  <br/> [Exists](exists.md) <br/> [Excludes](excludes.md) <br/> [IsEqualTo](isequalto.md) <br/> [IsNotEqualTo](isnotequalto.md) <br/> [IsGreaterThan](isgreaterthan.md) <br/> [IsGreaterThanOrEqualTo](isgreaterthanorequalto.md) <br/> [IsLessThan](islessthan.md) <br/> [IsLessThanOrEqualTo](islessthanorequalto.md) <br/> [Contains](contains.md) <br/> [Not](not.md) <br/> **And** <br/> [Or](or.md) <br/> |
    
-#### Parent elements
+### Parent elements
 
 |**Element**|**Description**|
 |:-----|:-----|

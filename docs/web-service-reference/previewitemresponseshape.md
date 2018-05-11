@@ -36,7 +36,7 @@ None.
 
 [BaseShape (PreviewItemBaseShapeType)](baseshape-previewitembaseshapetype.md) | [AdditionalProperties](additionalproperties.md)
   
-#### Parent elements
+### Parent elements
 
 [SearchMailboxes](searchmailboxes.md)
   

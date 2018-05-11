@@ -41,7 +41,7 @@ None.
 |:-----|:-----|
 |[String](string.md) <br/> |Contains the name of a contact's child.  <br/> |
    
-#### Parent elements
+### Parent elements
 
 |**Element**|**Description**|
 |:-----|:-----|

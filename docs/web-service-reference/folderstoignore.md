@@ -36,7 +36,7 @@ None.
 
 [FolderId](folderid.md) | [DistinguishedFolderId](distinguishedfolderid.md)
   
-#### Parent elements
+### Parent elements
 
 [GetConversationItems](getconversationitems.md)
   

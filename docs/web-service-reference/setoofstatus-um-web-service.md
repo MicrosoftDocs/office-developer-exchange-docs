@@ -42,7 +42,7 @@ None.
 |:-----|:-----|
 |[Status (UM web service - SetOofStatus)](status-um-web-servicesetoofstatus.md) <br/> |Defines a value to use in a [SetOofStatus operation (UM web service)](setoofstatus-operation-um-web-service.md) request.  <br/> |
    
-#### Parent elements
+### Parent elements
 
 None.
   

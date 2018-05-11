@@ -38,7 +38,7 @@ None.
 |:-----|:-----|
 |[Setting (SOAP)](setting-soap.md) <br/> |Represents a configuration setting to be returned.  <br/> |
    
-#### Parent elements
+### Parent elements
 
 |**Element**|**Description**|
 |:-----|:-----|

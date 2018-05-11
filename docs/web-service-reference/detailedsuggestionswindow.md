@@ -49,7 +49,7 @@ None.
 |[StartTime](starttime.md) <br/> |Represents the start of the time span queried for detailed information about suggested meeting times.  <br/> |
 |[EndTime](endtime.md) <br/> |Represents the end of the time span queried for detailed information about suggested meeting times.  <br/> |
    
-#### Parent elements
+### Parent elements
 
 |**Element**|**Description**|
 |:-----|:-----|

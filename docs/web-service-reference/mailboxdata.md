@@ -51,7 +51,7 @@ None.
 |[AttendeeType](attendeetype.md) <br/> |Represents the type of attendee identified in the [Email (EmailAddressType)](email-emailaddresstype.md) element. This is used in requests for meeting suggestions.  <br/> |
 |[ExcludeConflicts](excludeconflicts.md) <br/> |Specifies whether to return suggested times for calendar times that conflict among the attendees.  <br/> |
    
-#### Parent elements
+### Parent elements
 
 |**Element**|**Description**|
 |:-----|:-----|

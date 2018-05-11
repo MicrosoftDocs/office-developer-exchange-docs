@@ -38,7 +38,7 @@ None.
 |:-----|:-----|
 |[AlternateMailboxes (SOAP)](alternatemailboxes-soap.md) <br/> |Represents a collection of alternate mailboxes.  <br/> |
    
-#### Parent elements
+### Parent elements
 
 None.
   

@@ -69,7 +69,7 @@ The following sections describe attributes, child elements, and parent elements.
 |:-----|:-----|
 |[ItemIds](itemids.md) <br/> |Contains an array of items, occurrence items, and recurring master items to delete from a mailbox in the Exchange store. The [DeleteItem operation](deleteitem-operation.md) can be performed on any item type.  <br/> |
    
-#### Parent elements
+### Parent elements
 
 None.
   

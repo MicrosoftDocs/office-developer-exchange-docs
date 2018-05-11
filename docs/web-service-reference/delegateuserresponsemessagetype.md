@@ -49,7 +49,7 @@ None.
 |[MessageXml](messagexml.md) <br/> |Provides additional error response information.  <br/> |
 |[DelegateUser](delegateuser.md) <br/> |Identifies a single delegate that is returned in a delegate management response.  <br/> |
    
-#### Parent elements
+### Parent elements
 
 |**Element**|**Description**|
 |:-----|:-----|

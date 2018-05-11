@@ -131,7 +131,7 @@ None.
 |[References](references.md) <br/> |Represents the Usenet header that is used to associate replies with the original messages.  <br/> |
 |[Sender](sender.md) <br/> |Identifies the sender of an item.  <br/> |
    
-#### Parent elements
+### Parent elements
 
 |**Element**|**Description**|
 |:-----|:-----|

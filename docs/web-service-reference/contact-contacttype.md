@@ -48,7 +48,7 @@ None.
 |[Addresses (ArrayOfAddressesType)](addresses-arrayofaddressestype.md) <br/> |Specifies an array of **Address** elements.  <br/> |
 |[ContactString](contactstring.md) <br/> |Specifies the display name of a contact.  <br/> |
    
-#### Parent elements
+### Parent elements
 
 |**Element**|**Description**|
 |:-----|:-----|

@@ -41,7 +41,7 @@ None.
 
 [Guid](guid-ex15websvcsotherref.md) | [PrimarySmtpAddress (string)](primarysmtpaddress-string.md) | [IsExternalMailbox](isexternalmailbox.md) | [ExternalEmailAddress](externalemailaddress.md) | [DisplayName (string)](displayname-string.md) | [IsMembershipGroup](ismembershipgroup.md) | [ReferenceId](referenceid.md)
   
-#### Parent elements
+### Parent elements
 
 [SearchableMailboxes](searchablemailboxes.md)
   

@@ -47,7 +47,7 @@ None.
 |[RestrictedGroupSids](restrictedgroupsids.md) <br/> |Represents the group security identifier and attributes for a restricted group.  <br/> |
 |[PrimarySmtpAddress](primarysmtpaddress.md) <br/> |Represents the primary Simple Mail Transfer Protocol (SMTP) address of an account to be used for server-to-server authorization.  <br/> |
    
-#### Parent elements
+### Parent elements
 
 None.
   

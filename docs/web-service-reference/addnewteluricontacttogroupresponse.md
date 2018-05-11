@@ -38,7 +38,7 @@ None.
 
 [Persona](persona.md) | [MessageText](messagetext.md) | [ResponseCode](responsecode.md) | [DescriptiveLinkKey](descriptivelinkkey.md)
   
-#### Parent elements
+### Parent elements
 
 None.
   

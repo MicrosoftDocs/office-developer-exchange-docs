@@ -38,7 +38,7 @@ None.
 |:-----|:-----|
 |[DomainSettingError (SOAP)](domainsettingerror-soap.md) <br/> |Represents an error that occurred while retrieving a domain setting. This represents an error from a [GetDomainSettings operation (SOAP)](getdomainsettings-operation-soap.md) operation request.  <br/> |
    
-#### Parent elements
+### Parent elements
 
 |**Element**|**Description**|
 |:-----|:-----|

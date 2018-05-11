@@ -37,7 +37,7 @@ None.
 |:-----|:-----|
 |[EmailAddressEntity](emailaddressentity.md) <br/> |Specifies a single email address entity.  <br/> |
    
-#### Parent elements
+### Parent elements
 
 |**Element**|**Description**|
 |:-----|:-----|

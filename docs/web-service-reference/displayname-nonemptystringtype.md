@@ -33,7 +33,7 @@ None.
 
 None.
   
-#### Parent elements
+### Parent elements
 
 [AddDistributionGroupToImList](adddistributiongrouptoimlist.md) | [AddImGroup](addimgroup.md) | [AddNewImContactToGroup](addnewimcontacttogroup.md) | [ImGroup](imgroup.md)
   

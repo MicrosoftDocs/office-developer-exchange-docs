@@ -238,7 +238,7 @@ None.
 |[RecurrenceId](recurrenceid.md) <br/> |Used to identify a specific instance of a recurring calendar item.  <br/> |
 |[DateTimeStamp](datetimestamp.md) <br/> |Indicates the date and time that an instance of an iCalendar object was created.  <br/> |
    
-#### Parent elements
+### Parent elements
 
 |**Element**|**Description**|
 |:-----|:-----|

@@ -41,7 +41,7 @@ None.
 |:-----|:-----|
 |[UserId](userid.md) <br/> |Identifies a delegate to get or remove from a principal's mailbox. This element was introduced in Exchange 2007 SP1.  <br/> |
    
-#### Parent elements
+### Parent elements
 
 |**Element**|**Description**|
 |:-----|:-----|

@@ -40,7 +40,7 @@ None.
 |[Name (SOAP)](name-soap.md) <br/> |Represents the name of a setting.  <br/> |
 |[Value (SOAP)](value-soap.md) <br/> |Represents a user setting value.  <br/> |
    
-#### Parent elements
+### Parent elements
 
 None.
   

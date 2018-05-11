@@ -41,7 +41,7 @@ None.
 |:-----|:-----|
 |[AttachmentIds](attachmentids.md) <br/> |Contains an array of attachment identifiers that are used to delete the attachments.  <br/> |
    
-#### Parent elements
+### Parent elements
 
 None.
   

@@ -36,7 +36,7 @@ None.
 
 [Email (String)](email-string.md) | [SizeRequested](sizerequested.md)
   
-#### Parent elements
+### Parent elements
 
 None.
   

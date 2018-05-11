@@ -41,7 +41,7 @@ None.
 |:-----|:-----|
 |[Domain](domain.md) <br/> |Identifies a single SMTP domain.  <br/> |
    
-#### Parent elements
+### Parent elements
 
 |**Element**|**Description**|
 |:-----|:-----|

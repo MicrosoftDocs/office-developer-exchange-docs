@@ -37,7 +37,7 @@ None.
 |:-----|:-----|
 |[Response (SOAP)](response-soap.md) <br/> |Contains the response to a [GetDomainSettings operation (SOAP)](getdomainsettings-operation-soap.md) request.  <br/> |
    
-#### Parent elements
+### Parent elements
 
 None. The **GetDomainSettingsResponseMessage** element is the top element within the SOAP body. 
   

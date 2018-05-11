@@ -57,7 +57,7 @@ None.
 |[FirstHopServer](firsthopserver.md) <br/> |Contains the name of the server in the forest that first accepted the message.  <br/> |
 |[Properties (ArrayOfTrackingPropertiesType)](properties-arrayoftrackingpropertiestype.md) <br/> |Contains a list of one or more tracking properties.  <br/> |
    
-#### Parent elements
+### Parent elements
 
 |**Element**|**Description**|
 |:-----|:-----|

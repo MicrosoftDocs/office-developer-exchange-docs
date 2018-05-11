@@ -40,7 +40,7 @@ None.
 |[ErrorMessage (SOAP)](errormessage-soap.md) <br/> |Represents a message that is associated with an error code that is returned by the Autodiscover service.  <br/> |
 |[OrganizationRelationshipSettingsCollection (SOAP)](organizationrelationshipsettingscollection-soap.md) <br/> |Represents a list of organization relationships that match the query.  <br/> |
    
-#### Parent elements
+### Parent elements
 
 None.
   

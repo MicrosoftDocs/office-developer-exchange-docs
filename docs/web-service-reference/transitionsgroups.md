@@ -41,7 +41,7 @@ None.
 |:-----|:-----|
 |[TransitionsGroup](transitionsgroup.md) <br/> |Represents an array of time zone transitions.  <br/> |
    
-#### Parent elements
+### Parent elements
 
 |**Element**|**Description**|
 |:-----|:-----|

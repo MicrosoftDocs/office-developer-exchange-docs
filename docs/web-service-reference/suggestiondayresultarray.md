@@ -47,7 +47,7 @@ None.
 |:-----|:-----|
 |[SuggestionDayResult](suggestiondayresult.md) <br/> |Represents a single day that contains suggested meeting times.  <br/> |
    
-#### Parent elements
+### Parent elements
 
 |**Element**|**Description**|
 |:-----|:-----|

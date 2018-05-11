@@ -36,7 +36,7 @@ None.
 
 [Value](value.md) | [BodyType](bodytype.md)
   
-#### Parent elements
+### Parent elements
 
 [BodyContentAttributedValue](bodycontentattributedvalue.md)
   

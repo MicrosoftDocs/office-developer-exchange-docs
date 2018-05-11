@@ -35,7 +35,7 @@ None.
 
 [SearchPreviewItem](searchpreviewitem.md)
   
-#### Parent elements
+### Parent elements
 
 [SearchMailboxesResult](searchmailboxesresult.md)
   

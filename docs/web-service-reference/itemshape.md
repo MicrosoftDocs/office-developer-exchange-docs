@@ -51,7 +51,7 @@ None.
 |[FilterHtmlContent](filterhtmlcontent.md) <br/> |Specifies whether HTML content filtering is enabled.  <br/> |
 |[AdditionalProperties](additionalproperties.md) <br/> |Identifies additional properties to return in a response.  <br/> |
    
-#### Parent elements
+### Parent elements
 
 |**Element**|**Description**|
 |:-----|:-----|

@@ -42,7 +42,7 @@ None.
 |[Port (SOAP)](port-soap.md) <br/> |Represents the port number to use for the protocol.  <br/> |
 |[EncryptionMethod (SOAP)](encryptionmethod-soap.md) <br/> |Represents the cryptographic method that is used for the POP, IMAP, and SMTP protocols.  <br/> |
    
-#### Parent elements
+### Parent elements
 
 |**Element**|**Description**|
 |:-----|:-----|

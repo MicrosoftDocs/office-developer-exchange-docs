@@ -41,7 +41,7 @@ None.
 |:-----|:-----|
 |[TimeZoneDefinition](timezonedefinition.md) <br/> |Specifies the periods and transitions that define a time zone.  <br/> |
    
-#### Parent elements
+### Parent elements
 
 |**Element**|**Description**|
 |:-----|:-----|

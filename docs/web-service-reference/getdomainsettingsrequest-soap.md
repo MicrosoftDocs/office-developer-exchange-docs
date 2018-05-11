@@ -42,7 +42,7 @@ None.
 |[RequestedSettings (SOAP)](requestedsettings-soap.md) <br/> |Contains the names of the requested domain configuration settings.  <br/> |
 |[RequestedVersion (SOAP)](requestedversion-soap.md) <br/> |Specifies the server version that the provider will use.  <br/> |
    
-#### Parent elements
+### Parent elements
 
 None.
   

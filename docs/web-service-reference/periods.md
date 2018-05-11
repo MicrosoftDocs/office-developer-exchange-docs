@@ -41,7 +41,7 @@ None.
 |:-----|:-----|
 |[Period](period.md) <br/> |Defines the name, time offset, and unique identifier for a specific stage of the time zone.  <br/> |
    
-#### Parent elements
+### Parent elements
 
 |**Element**|**Description**|
 |:-----|:-----|

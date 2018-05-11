@@ -53,7 +53,7 @@ The following sections describe attributes, child elements, and parent elements.
 |[Watermark](watermark.md) <br/> |Represents an event bookmark in the mailbox events table. This is used to create a subscription that starts at an event that is represented by the watermark. If the watermark from a Subscribe request is not found, an error response will be returned to the client. This error may occur if the watermark is older than 30 days or if the watermark was never present in the mailbox.  <br/> |
 |[Timeout](timeout.md) <br/> |Represents the duration, in minutes, that the subscription can remain idle without a GetEvents request from the client.  <br/> |
    
-#### Parent elements
+### Parent elements
 
 |**Element**|**Description**|
 |:-----|:-----|

@@ -37,7 +37,7 @@ None.
 
 [ActionType (ReminderActionType)](actiontype-reminderactiontype.md) | [ItemId](itemid.md) | [NewReminderTime](newremindertime.md)
   
-#### Parent elements
+### Parent elements
 
 [ReminderItemActions](reminderitemactions.md)
   

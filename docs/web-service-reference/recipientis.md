@@ -39,7 +39,7 @@ None.
 |:-----|:-----|
 |[Value (ProtectionRuleValueType)](value-protectionrulevaluetype.md) <br/> |Identifies a recipient.  <br/> |
    
-#### Parent elements
+### Parent elements
 
 |**Element**|**Description**|
 |:-----|:-----|

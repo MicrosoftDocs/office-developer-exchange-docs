@@ -44,7 +44,7 @@ None.
 |[EmailAddress (NonEmptyStringType)](emailaddress-nonemptystringtype.md) <br/> |Identifies the user's e-mail address.  <br/> |
 |[LegacyDN (POX)](legacydn-pox.md) <br/> |Identifies a user's mailbox by legacy distinguished name.  <br/> |
    
-#### Parent elements
+### Parent elements
 
 |**Element**|**Description**|
 |:-----|:-----|

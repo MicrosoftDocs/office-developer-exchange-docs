@@ -41,7 +41,7 @@ None.
 |:-----|:-----|
 |[Start](start.md) <br/> |Represents the start time of a deleted occurrence of a recurring calendar item.  <br/> |
    
-#### Parent elements
+### Parent elements
 
 |**Element**|**Description**|
 |:-----|:-----|

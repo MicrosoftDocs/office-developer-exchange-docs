@@ -37,7 +37,7 @@ The following sections describe attributes, child elements, and parent elements.
 
 Ranges
   
-#### Parent elements
+### Parent elements
 
 ItemIds | GlobalItemIds | DraftItemIds| ContactIds | GroupIds
   

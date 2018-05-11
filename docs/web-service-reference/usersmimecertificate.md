@@ -35,7 +35,7 @@ None.
 |:-----|:-----|
 |[Base64Binary](base64binary.md) <br/> |Contains a Base64-encoded value.  <br/> |
    
-#### Parent elements
+### Parent elements
 
 |**Element name**|**Description**|
 |:-----|:-----|

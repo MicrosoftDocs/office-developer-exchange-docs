@@ -37,7 +37,7 @@ None.
 |:-----|:-----|
 |[Request (GetDomainSettings) (SOAP)](request-getdomainsettingssoap.md) <br/> |Contains a request to return domain settings.  <br/> |
    
-#### Parent elements
+### Parent elements
 
 None.
   

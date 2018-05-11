@@ -135,7 +135,7 @@ None.
 |[ReceivedRepresenting](receivedrepresenting.md) <br/> |Identifies the principal in a delegate access scenario. This element was introduced in Exchange 2007 SP1.  <br/> |
 |[NewBodyContent](newbodycontent.md) <br/> |Represents the new body content of a post item.  <br/> |
    
-#### Parent elements
+### Parent elements
 
 |**Element**|**Description**|
 |:-----|:-----|

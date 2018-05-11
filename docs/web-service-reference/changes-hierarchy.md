@@ -53,7 +53,7 @@ None.
 |[Update (FolderSync)](update-foldersync.md) <br/> |Identifies a single folder to update in the local client store.  <br/> |
 |[Delete (FolderSync)](delete-foldersync.md) <br/> |Identifies a single folder to delete in the local client store.  <br/> |
    
-#### Parent elements
+### Parent elements
 
 |**Element**|**Description**|
 |:-----|:-----|

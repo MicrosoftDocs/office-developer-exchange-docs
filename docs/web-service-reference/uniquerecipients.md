@@ -49,7 +49,7 @@ None.
 |:-----|:-----|
 |[String](string.md) <br/> |Represents a unique recipient of a conversation. This element is read-only.  <br/> |
    
-#### Parent elements
+### Parent elements
 
 |**Element**|**Description**|
 |:-----|:-----|

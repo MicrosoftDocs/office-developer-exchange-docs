@@ -39,7 +39,7 @@ None.
 |[ID (String)](id-string.md) <br/> |Specifies the identifier of an item.  <br/> |
 |[DisableReason](disablereason.md) <br/> |Specifies the reason for disabling an app.  <br/> |
    
-#### Parent elements
+### Parent elements
 
 None.
   

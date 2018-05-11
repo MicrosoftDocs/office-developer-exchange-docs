@@ -35,7 +35,7 @@ None.
 
 [EmailAddress (string)](emailaddress-string.md)
   
-#### Parent elements
+### Parent elements
 
 [Contact (ContactType)](contact-contacttype.md)
   

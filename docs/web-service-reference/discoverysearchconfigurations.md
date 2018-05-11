@@ -37,7 +37,7 @@ None.
 |:-----|:-----|
 |[DiscoverySearchConfiguration](discoverysearchconfiguration.md) <br/> |Specifies the configuration for eDiscovery search.  <br/> |
    
-#### Parent elements
+### Parent elements
 
 |**Element**|**Description**|
 |:-----|:-----|

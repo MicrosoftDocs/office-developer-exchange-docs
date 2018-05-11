@@ -45,7 +45,7 @@ None.
 |[DaysOfWeek (DaysOfWeekType)](daysofweek-daysofweektype.md) <br/> |Describes which days of the week are in the weekly recurrence pattern.  <br/> |
 |[FirstDayOfWeek](firstdayofweek.md) <br/> |Specifies the first day of the week.  <br/> |
    
-#### Parent elements
+### Parent elements
 
 |**Element**|**Description**|
 |:-----|:-----|

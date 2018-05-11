@@ -38,7 +38,7 @@ None.
 
 [TelUriAddress](teluriaddress.md) | [ImContactSipUriAddress](imcontactsipuriaddress.md) | [ImTelephoneNumber](imtelephonenumber.md) | [GroupId](groupid.md)
   
-#### Parent elements
+### Parent elements
 
 None.
   

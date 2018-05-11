@@ -37,7 +37,7 @@ None.
 |:-----|:-----|
 |[Manifest](manifest.md) <br/> |Contains the base64-encoded app manifest file.  <br/> |
    
-#### Parent elements
+### Parent elements
 
 None.
   

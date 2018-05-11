@@ -36,7 +36,7 @@ The following sections describe attributes, child elements, and parent elements.
 
 None.
   
-#### Parent elements
+### Parent elements
 
 [AddImContactToGroup](addimcontacttogroup.md) | [RemoveContactFromImList](removecontactfromimlist.md) | [RemoveImContactFromGroup](removeimcontactfromgroup.md)
   

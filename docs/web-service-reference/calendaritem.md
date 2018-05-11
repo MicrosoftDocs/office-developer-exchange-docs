@@ -197,7 +197,7 @@ None.
 |[ConversationId](conversationid.md) <br/> |Contains the identifier of an item or conversation.  <br/> |
 |[UniqueBody](uniquebody.md) <br/> |Represents an HTML fragment or plain text which represents the unique body of this conversation.  <br/> |
    
-#### Parent elements
+### Parent elements
 
 |**Element**|**Description**|
 |:-----|:-----|

@@ -42,7 +42,7 @@ None.
 |[Mailbox (SOAP)](mailbox-soap.md) <br/> |Contains the e-mail address of the user to be discovered.  <br/> |
 |[RequestedSettings (SOAP)](requestedsettings-soap.md) <br/> |Contains the names of the requested configuration settings.  <br/> |
    
-#### Parent elements
+### Parent elements
 
 |**Element**|**Description**|
 |:-----|:-----|

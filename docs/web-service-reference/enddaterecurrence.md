@@ -43,7 +43,7 @@ None.
 |[StartDate (Recurrence)](startdate-recurrence.md) <br/> |Represents the start date of a recurring task or calendar item.  <br/> |
 |[EndDate (Recurrence)](enddate-recurrence.md) <br/> |Represents the end date of a recurring task or calendar item.  <br/> |
    
-#### Parent elements
+### Parent elements
 
 |**Element**|**Description**|
 |:-----|:-----|

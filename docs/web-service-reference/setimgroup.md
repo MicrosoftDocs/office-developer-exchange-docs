@@ -36,7 +36,7 @@ None.
 
 [GroupId](groupid.md) | [NewDisplayName](newdisplayname.md)
   
-#### Parent elements
+### Parent elements
 
 None.
   

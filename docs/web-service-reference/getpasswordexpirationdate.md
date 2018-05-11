@@ -37,7 +37,7 @@ None.
 |:-----|:-----|
 |[MailboxSmtpAddress](mailboxsmtpaddress.md) <br/> |Represents the email address of the email account for which the password expiration date is to be returned.  <br/> |
    
-#### Parent elements
+### Parent elements
 
 None.
   

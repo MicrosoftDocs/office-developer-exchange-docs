@@ -47,7 +47,7 @@ The following sections describe attributes, child elements, and parent elements.
 |:-----|:-----|
 |[Folders](folders-ex15websvcsotherref.md) <br/> |Contains an array of folders found by using the [FindFolder operation](findfolder-operation.md).  <br/> |
    
-#### Parent elements
+### Parent elements
 
 |**Element**|**Description**|
 |:-----|:-----|

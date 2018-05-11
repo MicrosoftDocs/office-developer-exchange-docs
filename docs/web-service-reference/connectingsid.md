@@ -48,7 +48,7 @@ None.
 |[PrimarySmtpAddress](primarysmtpaddress.md) <br/> |Represents the primary Simple Mail Transfer Protocol (SMTP) address of the account to use for Exchange impersonation. If the primary SMTP address is supplied, it will cost an extra Active Directory directory service lookup in order to obtain the SID of the user. We recommend that you use the SID or UPN if they are available.  <br/> |
 |[SmtpAddress](smtpaddress.md) <br/> |Represents the Simple Mail Transfer Protocol (SMTP) address of the account to use for Exchange Impersonation. If the SMTP address is supplied, it will cost an extra Active Directory lookup in order to obtain the SID of the user. We recommend that you use the SID or UPN if they are available.  <br/> |
    
-#### Parent elements
+### Parent elements
 
 |**Element**|**Description**|
 |:-----|:-----|

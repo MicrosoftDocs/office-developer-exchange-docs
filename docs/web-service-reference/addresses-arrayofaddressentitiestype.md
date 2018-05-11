@@ -37,7 +37,7 @@ None.
 |:-----|:-----|
 |[AddressEntity](addressentity.md) <br/> |Specifies a single address entity.  <br/> |
    
-#### Parent elements
+### Parent elements
 
 |**Element**|**Description**|
 |:-----|:-----|

@@ -90,7 +90,7 @@ The following sections describe attributes, child elements, and parent elements.
 |:-----|:-----|
 |[Mailbox](mailbox.md) <br/> |Identifies a primary SMTP address. Proxy addresses are not allowed.  <br/> |
    
-#### Parent elements
+### Parent elements
 
 |**Element**|**Description**|
 |:-----|:-----|

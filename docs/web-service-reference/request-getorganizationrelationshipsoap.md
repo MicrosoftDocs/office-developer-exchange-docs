@@ -36,7 +36,7 @@ None.
 |:-----|:-----|
 |[Domains (SOAP)](domains-soap.md) <br/> |Represents the domains for which Autodiscover is to be run and that are to be used in a query.  <br/> |
    
-#### Parent elements
+### Parent elements
 
 |**Element**|**Description**|
 |:-----|:-----|

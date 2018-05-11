@@ -37,7 +37,7 @@ None.
 |:-----|:-----|
 |[Response (SOAP)](response-soap.md) <br/> |Contains the response to a [GetUserSettings operation (SOAP)](getusersettings-operation-soap.md) request.  <br/> |
    
-#### Parent elements
+### Parent elements
 
 None.
   

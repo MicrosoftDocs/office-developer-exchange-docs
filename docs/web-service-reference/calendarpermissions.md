@@ -41,7 +41,7 @@ None.
 |:-----|:-----|
 |[CalendarPermission](calendarpermission.md) <br/> |Defines the access that a delegate user has to a calendar folder.  <br/> |
    
-#### Parent elements
+### Parent elements
 
 |**Element**|**Description**|
 |:-----|:-----|

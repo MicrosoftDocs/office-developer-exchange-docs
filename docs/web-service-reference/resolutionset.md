@@ -55,7 +55,7 @@ The following sections describe attributes, child elements, and parent elements.
 |:-----|:-----|
 |[Resolution](resolution.md) <br/> |Contains a single resolved entity.  <br/> |
    
-#### Parent elements
+### Parent elements
 
 |**Element**|**Description**|
 |:-----|:-----|

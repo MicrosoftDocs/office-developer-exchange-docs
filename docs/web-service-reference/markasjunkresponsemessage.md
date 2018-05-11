@@ -39,7 +39,7 @@ None.
 
 [MessageText](messagetext.md) | [ResponseCode](responsecode.md) | [DescriptiveLinkKey](descriptivelinkkey.md) | [MessageXml](messagexml.md) | [MovedItemId](moveditemid.md)
   
-#### Parent elements
+### Parent elements
 
 [ResponseMessages](responsemessages.md)
   

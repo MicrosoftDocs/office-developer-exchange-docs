@@ -35,7 +35,7 @@ None.
 
 [SearchExpression](searchexpression.md)
   
-#### Parent elements
+### Parent elements
 
 [FindPeople](findpeople.md)
   

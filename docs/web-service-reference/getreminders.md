@@ -39,7 +39,7 @@ None.
 
 [BeginTime](begintime.md) | [EndTime (ReminderMessageDataType)](endtime-remindermessagedatatype.md) | [MaxItems](maxitems.md) | [ReminderType](remindertype.md)
   
-#### Parent elements
+### Parent elements
 
 None.
   

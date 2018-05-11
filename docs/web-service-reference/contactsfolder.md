@@ -61,7 +61,7 @@ None.
 |[SharingEffectiveRights (PermissionReadAccessType)](sharingeffectiverights-permissionreadaccesstype.md) <br/> |Indicates the permissions that the user has for the contact data that is being shared.  <br/> |
 |[PermissionSet (PermissionSetType)](permissionset-permissionsettype.md) <br/> |Contains all the configured permissions for a folder.  <br/> |
    
-#### Parent elements
+### Parent elements
 
 |**Element**|**Description**|
 |:-----|:-----|

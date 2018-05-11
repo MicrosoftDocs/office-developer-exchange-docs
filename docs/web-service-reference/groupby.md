@@ -58,7 +58,7 @@ The following sections describe attributes, child elements, and parent elements.
 |[ExtendedFieldURI](extendedfielduri.md) <br/> |Identifies extended MAPI properties to get, set, or create.  <br/> |
 |[AggregateOn](aggregateon.md) <br/> |Represents the field that is used to determine the order of groups in a response.  <br/> |
    
-#### Parent elements
+### Parent elements
 
 |**Element**|**Description**|
 |:-----|:-----|

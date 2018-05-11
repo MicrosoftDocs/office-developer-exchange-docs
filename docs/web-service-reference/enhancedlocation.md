@@ -41,7 +41,7 @@ None.
 |[Annotation](annotation.md) <br/> |Contains optional notes added by a user.  <br/> |
 |[PostalAddress (PersonaPostalAddressType)](postaladdress-personapostaladdresstype.md) <br/> |Specifies the postal address for a persona.  <br/> |
    
-#### Parent elements
+### Parent elements
 
 |**Element**|**Description**|
 |:-----|:-----|

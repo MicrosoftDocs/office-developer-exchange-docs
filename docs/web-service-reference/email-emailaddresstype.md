@@ -53,7 +53,7 @@ None.
 |[Address (string)](address-string.md) <br/> |Represents the e-mail address of the mailbox user.  <br/> |
 |[RoutingType (EmailAddress)](routingtype-emailaddress.md) <br/> |Represents the routing protocol for the message.  <br/> |
    
-#### Parent elements
+### Parent elements
 
 |**Element**|**Description**|
 |:-----|:-----|

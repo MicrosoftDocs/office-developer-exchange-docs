@@ -37,7 +37,7 @@ None.
 |:-----|:-----|
 |[EmailUser](emailuser.md) <br/> |Specifies an email recipient or Active Directory contact.  <br/> |
    
-#### Parent elements
+### Parent elements
 
 |**Element**|**Description**|
 |:-----|:-----|

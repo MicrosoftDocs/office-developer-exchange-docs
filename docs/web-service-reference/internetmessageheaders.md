@@ -41,7 +41,7 @@ None.
 |:-----|:-----|
 |[InternetMessageHeader](internetmessageheader.md) <br/> |Represents the Internet message header for a given header within the headers collection.  <br/> |
    
-#### Parent elements
+### Parent elements
 
 |**Element**|**Description**|
 |:-----|:-----|

@@ -47,7 +47,7 @@ None.
 |[SIPResponseText](sipresponsetext.md) <br/> |Specifies the SIP response text. This element is optional.  <br/> |
 |[SIPResponseCode](sipresponsecode.md) <br/> |Specifies the SIP response code. This element is optional.  <br/> |
    
-#### Parent elements
+### Parent elements
 
 |**Element**|**Description**|
 |:-----|:-----|

@@ -43,7 +43,7 @@ None.
 |[Mailbox (Availability)](mailbox-availability.md) <br/> |Identifies the mailbox user for a SetUserOofSettings or GetUserOofSettings request.  <br/> |
 |[UserOofSettings](useroofsettings.md) <br/> |Specifies the OOF settings.  <br/> |
    
-#### Parent elements
+### Parent elements
 
 None.
   

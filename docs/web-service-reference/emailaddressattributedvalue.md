@@ -39,7 +39,7 @@ None.
 |[Value (EmailAddressType)](value-emailaddresstype.md) <br/> |Specifies the value of an **EmailAddress** associated with an attributions array.  <br/> |
 |[Attributions (ArrayOfValueAttributionsType)](attributions-arrayofvalueattributionstype.md) <br/> |Specifies an array of attributions for its associated **Value** element.  <br/> |
    
-#### Parent elements
+### Parent elements
 
 |**Element**|**Description**|
 |:-----|:-----|

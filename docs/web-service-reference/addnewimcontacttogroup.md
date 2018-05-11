@@ -37,7 +37,7 @@ None.
 
 [ImAddress (NonEmptyStringType)](imaddress-nonemptystringtype.md) | [DisplayName (NonEmptyStringType)](displayname-nonemptystringtype.md) | [GroupId](groupid.md)
   
-#### Parent elements
+### Parent elements
 
 None.
   

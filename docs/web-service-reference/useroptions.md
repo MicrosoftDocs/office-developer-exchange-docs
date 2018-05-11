@@ -35,7 +35,7 @@ None.
 
 [VotingOptionData](votingoptiondata.md)
   
-#### Parent elements
+### Parent elements
 
 [VotingInformation](votinginformation.md)
   

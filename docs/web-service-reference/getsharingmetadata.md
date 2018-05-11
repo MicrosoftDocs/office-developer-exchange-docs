@@ -45,7 +45,7 @@ None.
 |[SenderSmtpAddress](sendersmtpaddress.md) <br/> |Represents the SMTP email address that corresponds to the mailbox that contains the folder that is identified by the [IdOfFolderToShare](idoffoldertoshare.md) element. This element is required.  <br/> |
 |[Recipients (ArrayOfSmtpAddressType)](recipients-arrayofsmtpaddresstype.md) <br/> |Represents the SMTP email addresses of one or more entities that will be granted access to the data in the folder that is identified by the [IdOfFolderToShare](idoffoldertoshare.md) element. This element is required.  <br/> |
    
-#### Parent elements
+### Parent elements
 
 None.
   

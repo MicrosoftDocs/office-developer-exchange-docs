@@ -37,7 +37,7 @@ None.
 |:-----|:-----|
 |[Request (SOAP)](request-soap.md) <br/> |Contains the requested configuration settings.  <br/> |
    
-#### Parent elements
+### Parent elements
 
 None.
   

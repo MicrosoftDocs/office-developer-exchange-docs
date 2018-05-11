@@ -47,7 +47,7 @@ None.
 |[SetRuleOperation](setruleoperation.md) <br/> |Represents an operation to update an Inbox rule.  <br/> |
 |[DeleteRuleOperation](deleteruleoperation.md) <br/> |Represents an operation to delete an Inbox rule.  <br/> |
    
-#### Parent elements
+### Parent elements
 
 |**Element**|**Description**|
 |:-----|:-----|

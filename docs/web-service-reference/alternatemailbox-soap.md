@@ -46,7 +46,7 @@ None.
 |[Server (SOAP)](server-soap.md) <br/> |Represents the alternate mailbox server.  <br/> |
 |[SmtpAddress (SOAP)](smtpaddress-soap.md) <br/> |Represents the alternate mailbox SMTP address.  <br/> |
    
-#### Parent elements
+### Parent elements
 
 |**Element**|**Description**|
 |:-----|:-----|

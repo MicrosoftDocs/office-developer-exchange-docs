@@ -38,7 +38,7 @@ The following sections describe attributes, child elements, and parent elements.
 
 [Ranges](ranges.md)
   
-#### Parent elements
+### Parent elements
 
 [ItemIds](itemids.md) | [GlobalItemIds](globalitemids.md) | [DraftItemIds](draftitemids.md) | [ContactIds](contactids.md) | [GroupIds](groupids.md)
   

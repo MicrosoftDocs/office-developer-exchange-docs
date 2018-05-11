@@ -43,7 +43,7 @@ None.
 |[AttachmentShape](attachmentshape.md) <br/> |Identifies additional extended item properties to return in a response to a [GetAttachment](getattachment.md) request. This element is optional.  <br/> |
 |[AttachmentIds](attachmentids.md) <br/> |Contains an array of attachment identifiers.  <br/> |
    
-#### Parent elements
+### Parent elements
 
 None.
   

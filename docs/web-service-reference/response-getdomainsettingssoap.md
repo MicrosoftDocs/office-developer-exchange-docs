@@ -42,7 +42,7 @@ None.
 |[ErrorCode (SOAP)](errorcode-soap.md) <br/> |Contains the error code that is associated with the response, if applicable.  <br/> |
 |[ErrorMessage (SOAP)](errormessage-soap.md) <br/> |Contains the error message that is associated with the response, if applicable.  <br/> |
    
-#### Parent elements
+### Parent elements
 
 |**Element**|**Description**|
 |:-----|:-----|

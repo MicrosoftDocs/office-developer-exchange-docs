@@ -35,7 +35,7 @@ None.
 
 [RetentionPolicyTag](retentionpolicytag.md)
   
-#### Parent elements
+### Parent elements
 
 [GetUserRetentionPolicyTagsResponse](getuserretentionpolicytagsresponse.md)
   

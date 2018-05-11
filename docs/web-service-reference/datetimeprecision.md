@@ -33,7 +33,7 @@ None
 
 None.
   
-#### Parent elements
+### Parent elements
 
 The **DateTimePrecision** element is located in the SOAP header. 
   

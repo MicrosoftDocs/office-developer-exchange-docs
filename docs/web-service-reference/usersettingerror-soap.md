@@ -42,7 +42,7 @@ None.
 |[ErrorMessage (SOAP)](errormessage-soap.md) <br/> |Respresents a message associated with an error code that is returned by the Autodiscover service.  <br/> |
 |[SettingName (SOAP)](settingname-soap.md) <br/> |Represents the name of a user setting.  <br/> |
    
-#### Parent elements
+### Parent elements
 
 |**Element**|**Description**|
 |:-----|:-----|

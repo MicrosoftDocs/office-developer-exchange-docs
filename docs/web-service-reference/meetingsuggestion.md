@@ -40,7 +40,7 @@ None.
 
 [Attendees](attendees.md) | [Location](location.md) | [Subject](subject.md) | [MeetingString](meetingstring.md) | [StartTime](starttime.md) | [EndTime](endtime.md)
   
-#### Parent elements
+### Parent elements
 
 [MeetingSuggestions](meetingsuggestions.md)
   

@@ -33,7 +33,7 @@ None.
 
 None.
   
-#### Parent elements
+### Parent elements
 
 [Value (PersonaPhoneNumberType)](value-personaphonenumbertype.md) | [PhoneNumber](phonenumber.md)
   

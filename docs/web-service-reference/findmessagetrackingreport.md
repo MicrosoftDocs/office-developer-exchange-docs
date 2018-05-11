@@ -65,7 +65,7 @@ None.
 |[ServerHint](serverhint.md) <br/> |Represents the starting point for tracking a message in a remote site or forest.  <br/> |
 |[Properties (ArrayOfTrackingPropertiesType)](properties-arrayoftrackingpropertiestype.md) <br/> |Contains a list of one or more tracking properties. This element is optional.  <br/> |
    
-#### Parent elements
+### Parent elements
 
 None.
   

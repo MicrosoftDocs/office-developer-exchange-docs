@@ -37,7 +37,7 @@ None.
 
 [EmailAddress (EmailAddressType)](emailaddress-emailaddresstype.md) | [SharePointSiteUrl](sharepointsiteurl.md) | [State (TeamMailboxLifecycleStateType)](state-teammailboxlifecyclestatetype.md)
   
-#### Parent elements
+### Parent elements
 
 None.
   

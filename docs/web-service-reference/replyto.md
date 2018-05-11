@@ -41,7 +41,7 @@ None.
 |:-----|:-----|
 |[Mailbox](mailbox.md) <br/> |Identifies a mail-enabled Active Directory directory service object to which a reply is sent.  <br/> |
    
-#### Parent elements
+### Parent elements
 
 |**Element**|**Description**|
 |:-----|:-----|

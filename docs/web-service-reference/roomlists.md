@@ -43,7 +43,7 @@ None.
 |:-----|:-----|
 |[Address (EmailAddressType)](address-emailaddresstype.md) <br/> |Defines the e-mail address and display name that represents the room list. This element is optional.  <br/> |
    
-#### Parent elements
+### Parent elements
 
 |**Element**|**Description**|
 |:-----|:-----|

@@ -41,7 +41,7 @@ None.
 |:-----|:-----|
 |[UserConfigurationName](userconfigurationname.md) <br/> |Represents the name of the user configuration object to delete.  <br/> |
    
-#### Parent elements
+### Parent elements
 
 None.
   

@@ -48,7 +48,7 @@ The following sections describe attributes, child elements, and parent elements.
 |[TransitionsGroups](transitionsgroups.md) <br/> |Represents an array of [TransitionsGroup](transitionsgroup.md) elements that specify time zone transitions.  <br/> |
 |[Transitions](transitions.md) <br/> |Represents an array of time zone transitions.  <br/> |
    
-#### Parent elements
+### Parent elements
 
 |**Element**|**Description**|
 |:-----|:-----|

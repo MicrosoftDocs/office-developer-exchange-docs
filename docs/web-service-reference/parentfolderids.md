@@ -42,7 +42,7 @@ None.
 |[FolderId](folderid.md) <br/> |Contains the identifier and change key of a folder. The **ParentFolderIds** element must use either this element or the [DistinguishedFolderId](distinguishedfolderid.md) element.  <br/> |
 |[DistinguishedFolderId](distinguishedfolderid.md) <br/> |Identifies Microsoft Exchange Server 2007 folders that can be referenced by name. The **ParentFolderIds** element must use either this element or the [FolderId](folderid.md) element.  <br/> |
    
-#### Parent elements
+### Parent elements
 
 |**Element**|**Description**|
 |:-----|:-----|

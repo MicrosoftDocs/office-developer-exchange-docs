@@ -49,7 +49,7 @@ None.
 |[IsHidden](ishidden.md) <br/> |Contains a Boolean value that indicates whether the underlying contact or Active Directory recipient should be hidden or displayed as part of the persona.  <br/> |
 |[FolderId](folderid.md) <br/> |Contains the identifier and change key of a folder.  <br/> |
    
-#### Parent elements
+### Parent elements
 
 |**Element**|**Description**|
 |:-----|:-----|

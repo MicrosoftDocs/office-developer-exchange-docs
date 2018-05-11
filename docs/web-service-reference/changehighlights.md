@@ -47,7 +47,7 @@ None.
 |[HasEndTimeChanged](hasendtimechanged.md) <br/> |Specifies whether the end time for a meeting has changed.  <br/> |
 |[End ](end-ex15websvcsotherref.md) <br/> |Represents the end of a duration.  <br/> |
    
-#### Parent elements
+### Parent elements
 
 |**Element**|**Description**|
 |:-----|:-----|

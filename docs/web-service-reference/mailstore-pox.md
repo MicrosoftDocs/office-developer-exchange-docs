@@ -47,7 +47,7 @@ None.
 |[ExternalUrl (POX)](externalurl-pox.md) <br/> |Contains the URL that should be used to access the user's mailbox from outside the organization's network by means of the MAPI/HTTP protocol.  <br/> |
 |[InternalUrl (POX)](internalurl-pox.md) <br/> |Contains the URL that should be used to access the user's mailbox from inside the organization's network by means of the MAPI/HTTP protocol.  <br/> |
    
-#### Parent elements
+### Parent elements
 
 |**Element**|**Description**|
 |:-----|:-----|

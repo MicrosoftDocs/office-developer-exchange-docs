@@ -45,7 +45,7 @@ None.
 |[ResponseType](responsetype.md) <br/> |Represents the type of recipient response that is received for a meeting. This property is only relevant to a meeting organizer's calendar item.  <br/> |
 |[LastResponseTime](lastresponsetime.md) <br/> |Represents the date and time of the latest response that is received.  <br/> |
    
-#### Parent elements
+### Parent elements
 
 |**Element**|**Description**|
 |:-----|:-----|

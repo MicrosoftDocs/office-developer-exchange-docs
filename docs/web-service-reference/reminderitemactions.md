@@ -35,7 +35,7 @@ None.
 
 [ReminderItemAction](reminderitemaction.md)
   
-#### Parent elements
+### Parent elements
 
 [PerformReminderAction](performreminderaction.md)
   

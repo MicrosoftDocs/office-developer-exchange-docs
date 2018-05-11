@@ -37,7 +37,7 @@ None.
 |:-----|:-----|
 |[PhoneNumberAttributedValue](phonenumberattributedvalue.md) <br/> |Specifies an instance of an array of phone numbers and their associated attributions.  <br/> |
    
-#### Parent elements
+### Parent elements
 
 |**Element**|**Description**|
 |:-----|:-----|

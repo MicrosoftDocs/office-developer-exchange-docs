@@ -41,7 +41,7 @@ None.
 |:-----|:-----|
 |[MailboxSmtpAddress](mailboxsmtpaddress.md) <br/> |Represents the SMTP address of the user whose Inbox rules are to be retrieved.  <br/> |
    
-#### Parent elements
+### Parent elements
 
 None.
   

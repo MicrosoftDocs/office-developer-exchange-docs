@@ -44,7 +44,7 @@ None.
 |[ApplicationUri (SOAP)](applicationuri-soap.md) <br/> |Defines the location of an application.  <br/> |
 |[Domains (SOAP)](domains-soap.md) <br/> |Represents the domain collection the configurations for which are returned in a [GetDomainSettings operation (SOAP)](getdomainsettings-operation-soap.md), or the domains that the organization has federated in a [GetFederationInformation operation (SOAP)](getfederationinformation-operation-soap.md).  <br/> |
    
-#### Parent elements
+### Parent elements
 
 |**Element**|**Description**|
 |:-----|:-----|

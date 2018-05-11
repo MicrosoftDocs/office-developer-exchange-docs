@@ -38,7 +38,7 @@ None
 |[Uri (SOAP)](uri-soap.md) <br/> |The URI of the security token service that issued the security token.  <br/> |
 |[Endpoint (SOAP)](endpoint-soap.md) <br/> |The web service Endpoint URI.  <br/> |
    
-#### Parent elements
+### Parent elements
 
 |**Element**|**Description**|
 |:-----|:-----|

@@ -45,7 +45,7 @@ None.
 |[SubscriptionId (GetEvents)](subscriptionid-getevents.md) <br/> |Represents the identifier for a subscription that is queried for events.  <br/> |
 |[Watermark](watermark.md) <br/> |Represents the last watermark returned to the client. If GetEvents has not been called for this subscription, the client uses the watermark returned from the Subscribe request. Otherwise, the watermark from the last event in the last GetEvents response is used.  <br/> |
    
-#### Parent elements
+### Parent elements
 
 None.
   

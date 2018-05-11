@@ -37,7 +37,7 @@ None.
 
 [Mailbox (string)](mailbox-string.md) | [Status (HoldStatusType)](status-holdstatustype.md) | [AdditionalInfo](additionalinfo.md)
   
-#### Parent elements
+### Parent elements
 
 [MailboxHoldStatuses](mailboxholdstatuses.md)
   

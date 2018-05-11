@@ -35,7 +35,7 @@ None.
 
 [Reminder](reminder.md)
   
-#### Parent elements
+### Parent elements
 
 [GetRemindersResponse](getremindersresponse.md)
   

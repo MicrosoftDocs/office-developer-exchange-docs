@@ -40,7 +40,7 @@ None.
 
 [Name (string)](name-string.md) | [EmailAddress (NonEmptyStringType)](emailaddress-nonemptystringtype.md) | [RoutingType (EmailAddressType)](routingtype-emailaddresstype.md) | [MailboxType](mailboxtype.md) | [ItemId](itemid.md) | [OriginalDisplayName](originaldisplayname.md)
   
-#### Parent elements
+### Parent elements
 
 [GetPersona](getpersona.md)
   

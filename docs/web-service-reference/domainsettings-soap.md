@@ -38,7 +38,7 @@ None.
 |:-----|:-----|
 |[DomainSetting (SOAP)](domainsetting-soap.md) <br/> |Contains domain settings that are returned by a [GetDomainSettings operation (SOAP)](getdomainsettings-operation-soap.md) request.  <br/> |
    
-#### Parent elements
+### Parent elements
 
 |**Element**|**Description**|
 |:-----|:-----|

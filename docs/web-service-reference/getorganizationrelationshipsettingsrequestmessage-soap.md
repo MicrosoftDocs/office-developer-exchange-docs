@@ -36,7 +36,7 @@ None.
 |:-----|:-----|
 |[Request (GetOrganizationRelationship) (SOAP)](request-getorganizationrelationshipsoap.md) <br/> |Represents a [GetOrganizationRelationshipSettingsRequest (SOAP)](getorganizationrelationshipsettingsrequest-soap.md) request.  <br/> |
    
-#### Parent elements
+### Parent elements
 
 None.
   

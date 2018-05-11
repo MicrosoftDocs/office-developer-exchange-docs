@@ -53,7 +53,7 @@ None.
 |[InternalReply](internalreply.md) <br/> |Contains the OOF response sent to other users in the user's domain or trusted domains.  <br/> |
 |[ExternalReply](externalreply.md) <br/> |Contains the OOF response sent to addresses outside the recipient's domain or trusted domains.  <br/> |
    
-#### Parent elements
+### Parent elements
 
 |**Element**|**Description**|
 |:-----|:-----|

@@ -41,7 +41,7 @@ None.
 |:-----|:-----|
 |[Member](member-ex15websvcsotherref.md) <br/> |Provides an identifier for a fully resolved e-mail address, and the status of that address on the server. This element is optional.  <br/> |
    
-#### Parent elements
+### Parent elements
 
 |**Element**|**Description**|
 |:-----|:-----|

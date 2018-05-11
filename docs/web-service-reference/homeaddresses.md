@@ -37,7 +37,7 @@ None.
 |:-----|:-----|
 |[PostalAddressAttributedValue](postaladdressattributedvalue.md) <br/> |Specifies an instance of an array of postal addresses and their associated attributions.  <br/> |
    
-#### Parent elements
+### Parent elements
 
 |**Element**|**Description**|
 |:-----|:-----|

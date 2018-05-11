@@ -42,7 +42,7 @@ None.
 |[FolderId](folderid.md) <br/> |Contains the required identifier and the optional change key of a folder in which a new folder is created or the folder that is searched for the [FindConversation operation](findconversation-operation.md). Using this element excludes the use of the [DistinguishedFolderId](distinguishedfolderid.md) element.  <br/> |
 |[DistinguishedFolderId](distinguishedfolderid.md) <br/> |Identifies default Microsoft Exchange Server 2007 folders. Using this element excludes the use of the [FolderId](folderid.md) element.  <br/> |
    
-#### Parent elements
+### Parent elements
 
 |**Element**|**Description**|
 |:-----|:-----|

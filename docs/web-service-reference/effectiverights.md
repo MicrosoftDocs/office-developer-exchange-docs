@@ -53,7 +53,7 @@ None.
 |[Read](read.md) <br/> |Indicates whether a client can read a folder or item.  <br/> |
 |[ViewPrivateItems](viewprivateitems.md) <br/> |Indicates whether a private item can be viewed.  <br/> |
    
-#### Parent elements
+### Parent elements
 
 |**Element**|**Description**|
 |:-----|:-----|

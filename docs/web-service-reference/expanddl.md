@@ -41,7 +41,7 @@ None
 |:-----|:-----|
 |[Mailbox](mailbox.md) <br/> |Identifies a fully resolved e-mail address or a distribution list. This mailbox represents the distribution list to expand.  <br/> |
    
-#### Parent elements
+### Parent elements
 
 None.
   

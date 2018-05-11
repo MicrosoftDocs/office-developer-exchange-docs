@@ -54,7 +54,7 @@ None.
 |[StatusEvent](statusevent.md) <br/> |Represents a notification that no new activity has occurred in the mailbox.  <br/> |
 |[FreeBusyChangedEvent](freebusychangedevent.md) <br/> |Represents an event in which an item's free/busy time has changed.  <br/> |
    
-#### Parent elements
+### Parent elements
 
 |**Element**|**Description**|
 |:-----|:-----|

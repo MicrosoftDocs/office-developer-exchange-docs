@@ -59,7 +59,7 @@ The following sections describe attributes, child elements, and parent elements.
 |[EncryptedSharedFolderDataCollection](encryptedsharedfolderdatacollection.md) <br/> |Contains a collection of data structures that a client can use to authorize the sharing of its calendar or contact data with other clients.  <br/> |
 |[InvalidRecipients](invalidrecipients.md) <br/> |Represents recipients of the folder sharing request that are invalid.  <br/> |
    
-#### Parent elements
+### Parent elements
 
 |**Element**|**Description**|
 |:-----|:-----|

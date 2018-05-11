@@ -49,7 +49,7 @@ The following sections describe attributes, child elements, and parent elements.
 |[FolderIds](folderids.md) <br/> |Contains an array of folder identifiers that are used to identify folders to monitor for event notifications.  <br/> |
 |[EventTypes](eventtypes.md) <br/> |Contains a collection of event notifications that are used to create a subscription.  <br/> |
    
-#### Parent elements
+### Parent elements
 
 |**Element**|**Description**|
 |:-----|:-----|

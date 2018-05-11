@@ -43,7 +43,7 @@ None.
 |[FreeBusyResponseArray](freebusyresponsearray.md) <br/> |Contains the requested users' availability information and the response status.  <br/> |
 |[SuggestionsResponse](suggestionsresponse.md) <br/> |Contains response status information and suggestion data for requested meeting suggestions.  <br/> |
    
-#### Parent elements
+### Parent elements
 
 None.
   

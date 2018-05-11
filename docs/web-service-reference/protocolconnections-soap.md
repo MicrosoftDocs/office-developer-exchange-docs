@@ -38,7 +38,7 @@ None.
 |:-----|:-----|
 |[ProtocolConnections (SOAP)](protocolconnections-soap.md) <br/> |Contains zero or more protocol connections.  <br/> |
    
-#### Parent elements
+### Parent elements
 
 |**Element**|**Description**|
 |:-----|:-----|

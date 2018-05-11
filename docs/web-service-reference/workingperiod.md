@@ -59,7 +59,7 @@ None.
 |[StartTimeInMinutes](starttimeinminutes.md) <br/> |Represents the start of the working day for a mailbox user.  <br/> |
 |[EndTimeInMinutes](endtimeinminutes.md) <br/> |Represents the end of the working day for a mailbox user.  <br/> |
    
-#### Parent elements
+### Parent elements
 
 |**Element**|**Description**|
 |:-----|:-----|

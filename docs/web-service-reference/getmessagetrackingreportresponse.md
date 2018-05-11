@@ -65,7 +65,7 @@ The following sections describe attributes, child elements, and parent elements.
 |[Errors](errors-ex15websvcsotherref.md) <br/> |Contains a property bag to store errors that are returned through the Web service.  <br/> |
 |[Properties (ArrayOfTrackingPropertiesType)](properties-arrayoftrackingpropertiestype.md) <br/> |Contains a list of one or more tracking properties.  <br/> |
    
-#### Parent elements
+### Parent elements
 
 None.
   

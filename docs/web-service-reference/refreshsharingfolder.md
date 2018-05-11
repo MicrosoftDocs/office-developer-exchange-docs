@@ -39,7 +39,7 @@ None.
 |:-----|:-----|
 |[SharingFolderId](sharingfolderid.md) <br/> |Represents the identifier of the local folder in a sharing relationship.  <br/> |
    
-#### Parent elements
+### Parent elements
 
 None.
   

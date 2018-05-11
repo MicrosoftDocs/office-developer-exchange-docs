@@ -67,7 +67,7 @@ The following sections describe attributes, child elements, and parent elements.
 |[Items](items.md) <br/> |Contains an array of updated items.  <br/> |
 |[ConflictResults](conflictresults.md) <br/> |Contains the number of conflicts in an [UpdateItem operation](updateitem-operation.md) response.  <br/> |
    
-#### Parent elements
+### Parent elements
 
 |**Element**|**Description**|
 |:-----|:-----|

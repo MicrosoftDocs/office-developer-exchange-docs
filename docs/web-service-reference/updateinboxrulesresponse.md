@@ -59,7 +59,7 @@ The following sections describe attributes, child elements, and parent elements.
 |[MessageXml](messagexml.md) <br/> |Provides additional error response information.  <br/> |
 |[RuleOperationErrors](ruleoperationerrors.md) <br/> |Represents an array of rule validation errors on each rule field that has an error.  <br/> |
    
-#### Parent elements
+### Parent elements
 
 None.
   

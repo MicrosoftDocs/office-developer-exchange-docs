@@ -35,7 +35,7 @@ None.
 
 [Actions (ArrayOfSetClientExtensionActionsType)](actions-arrayofsetclientextensionactionstype.md)
   
-#### Parent elements
+### Parent elements
 
 None.
   

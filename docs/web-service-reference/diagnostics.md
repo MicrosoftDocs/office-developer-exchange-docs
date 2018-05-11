@@ -42,7 +42,7 @@ None.
 |:-----|:-----|
 |[String](string.md) <br/> |Contains a string that is used by items, contacts, tasks, and conversations.  <br/> |
    
-#### Parent elements
+### Parent elements
 
 |**Element**|**Description**|
 |:-----|:-----|

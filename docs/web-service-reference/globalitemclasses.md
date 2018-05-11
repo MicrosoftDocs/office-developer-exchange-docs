@@ -49,7 +49,7 @@ None.
 |:-----|:-----|
 |[ItemClass](itemclass.md) <br/> |Represents the message class of an item.  <br/> |
    
-#### Parent elements
+### Parent elements
 
 |**Element**|**Description**|
 |:-----|:-----|

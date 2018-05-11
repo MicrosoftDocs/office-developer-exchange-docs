@@ -33,7 +33,7 @@ None.
 
 None.
   
-#### Parent elements
+### Parent elements
 
 [PostalAddress (PersonaPostalAddressType)](postaladdress-personapostaladdresstype.md)
   

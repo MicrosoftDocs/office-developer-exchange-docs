@@ -52,7 +52,7 @@ The following sections describe attributes, child elements, and parent elements.
 |[Message (POX)](message-pox.md) <br/> |Contains the error message for an error Autodiscover response.  <br/> |
 |[DebugData (POX)](debugdata-pox.md) <br/> |Contains the debug data for an error Autodiscover response.  <br/> |
    
-#### Parent elements
+### Parent elements
 
 |**Element**|**Description**|
 |:-----|:-----|

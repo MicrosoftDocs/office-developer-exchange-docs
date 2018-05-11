@@ -41,7 +41,7 @@ None.
 |:-----|:-----|
 |[String](string.md) <br/> |Contains a string that identifies an event.  <br/> |
    
-#### Parent elements
+### Parent elements
 
 |**Element**|**Description**|
 |:-----|:-----|

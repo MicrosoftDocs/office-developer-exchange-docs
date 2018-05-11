@@ -46,7 +46,7 @@ None.
 |[ErrorCode (SOAP)](errorcode-soap.md) <br/> |Specifies the error code that is associated with the specific request.  <br/> |
 |[ErrorMessage (SOAP)](errormessage-soap.md) <br/> |Specifies the error message that is associated with the specific request.  <br/> |
    
-#### Parent elements
+### Parent elements
 
 |**Element**|**Description**|
 |:-----|:-----|

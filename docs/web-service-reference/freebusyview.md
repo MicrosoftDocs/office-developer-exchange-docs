@@ -55,7 +55,7 @@ None.
 |[CalendarEventArray](calendareventarray.md) <br/> |Contains a set of unique calendar item occurrences that represent the requested user's availability.  <br/> |
 |[WorkingHours](workinghours-ex15websvcsotherref.md) <br/> |Represents the time zone settings and working hours for the requested mailbox user.  <br/> |
    
-#### Parent elements
+### Parent elements
 
 |**Element**|**Description**|
 |:-----|:-----|

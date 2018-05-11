@@ -67,7 +67,7 @@ None.
 |[ServerReplyWithMessage](serverreplywithmessage.md) <br/> |Indicates. the ID of the template message that is to be sent as a reply to incoming messages.  <br/> |
 |[StopProcessingRules](stopprocessingrules.md) <br/> |Indicates whether subsequent rules are to be evaluated.  <br/> |
    
-#### Parent elements
+### Parent elements
 
 |**Element**|**Description**|
 |:-----|:-----|

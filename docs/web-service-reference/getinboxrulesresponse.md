@@ -61,7 +61,7 @@ The following sections describe attributes, child elements, and parent elements.
 |[OutlookRuleBlobExists](outlookruleblobexists.md) <br/> |Indicates whether a Microsoft Outlook rule blob exists in the user's mailbox.  <br/> |
 |[InboxRules](inboxrules.md) <br/> |Represents an array of the rules in the user's mailbox.  <br/> |
    
-#### Parent elements
+### Parent elements
 
 None.
   

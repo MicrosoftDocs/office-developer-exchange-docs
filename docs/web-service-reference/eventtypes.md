@@ -41,7 +41,7 @@ None.
 |:-----|:-----|
 |[EventType](eventtype.md) <br/> |Represents a requested event notification type that is used to create a subscription.  <br/> |
    
-#### Parent elements
+### Parent elements
 
 |**Element**|**Description**|
 |:-----|:-----|

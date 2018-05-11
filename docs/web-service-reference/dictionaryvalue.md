@@ -43,7 +43,7 @@ None.
 |[Type (UserConfiguration)](type-userconfiguration.md) <br/> |Specifies the dictionary object type.  <br/> |
 |[Value (UserConfiguration)](value-userconfiguration.md) <br/> |Specifies the dictionary object value as a string.  <br/> |
    
-#### Parent elements
+### Parent elements
 
 |**Element**|**Description**|
 |:-----|:-----|

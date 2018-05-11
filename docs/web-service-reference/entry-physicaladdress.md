@@ -51,7 +51,7 @@ The following sections describe attributes, child elements, and parent elements.
 |[CountryOrRegion](countryorregion.md) <br/> |Represents the country or region for a given physical address.  <br/> |
 |[PostalCode](postalcode.md) <br/> |Represents the postal code for a contact item.  <br/> |
    
-#### Parent elements
+### Parent elements
 
 |**Element**|**Description**|
 |:-----|:-----|

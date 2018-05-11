@@ -70,7 +70,7 @@ The following sections describe attributes, child elements, and parent elements.
 |[MessageXml](messagexml.md) <br/> |Provides additional error response information.  <br/> |
 |[DLExpansion](dlexpansion.md) <br/> |Contains an array of mailboxes that are contained in a distribution list.  <br/> |
    
-#### Parent elements
+### Parent elements
 
 |**Element**|**Description**|
 |:-----|:-----|

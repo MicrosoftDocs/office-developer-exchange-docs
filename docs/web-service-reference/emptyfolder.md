@@ -48,7 +48,7 @@ The following sections describe attributes, child elements, and parent elements.
 |:-----|:-----|
 |[FolderIds](folderids.md) <br/> |Contains an array of folder identifiers that are used to identify folders to delete.  <br/> |
    
-#### Parent elements
+### Parent elements
 
 None.
   

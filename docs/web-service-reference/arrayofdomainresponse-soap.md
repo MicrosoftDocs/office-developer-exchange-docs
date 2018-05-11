@@ -38,7 +38,7 @@ None.
 |:-----|:-----|
 |[DomainResponse (SOAP)](domainresponse-soap.md) <br/> |Contains the requested settings for the specified domain.  <br/> |
    
-#### Parent elements
+### Parent elements
 
 None.
   

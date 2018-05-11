@@ -45,7 +45,7 @@ None.
 |:-----|:-----|
 |[FreeBusyResponse](freebusyresponse.md) <br/> |Contains the free/busy information for a single mailbox user and the response status.  <br/> |
    
-#### Parent elements
+### Parent elements
 
 |**Element**|**Description**|
 |:-----|:-----|

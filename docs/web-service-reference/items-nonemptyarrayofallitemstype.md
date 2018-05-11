@@ -81,7 +81,7 @@ None.
 |[SuppressReadReceipt](suppressreadreceipt.md) <br/> |Used to suppress read receipts.  <br/> |
 |[AcceptSharingInvitation](acceptsharinginvitation.md) <br/> |Used to accept an invitation that allows access to another user's calendar or contacts data.  <br/> |
    
-#### Parent elements
+### Parent elements
 
 |**Element**|**Description**|
 |:-----|:-----|

@@ -42,7 +42,7 @@ None.
 |:-----|:-----|
 |[dialString (UM web service)](dialstring-um-web-service.md) <br/> |The telephone number to set as the default dial string.  <br/> |
    
-#### Parent elements
+### Parent elements
 
 None.
   

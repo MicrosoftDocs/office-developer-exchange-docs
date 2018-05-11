@@ -38,7 +38,7 @@ None.
 |:-----|:-----|
 |[UserSetting (SOAP)](usersetting-soap.md) <br/> |Represents a single user setting.  <br/> |
    
-#### Parent elements
+### Parent elements
 
 |**Element**|**Description**|
 |:-----|:-----|

@@ -36,7 +36,7 @@ None.
 |:-----|:-----|
 |[DocumentSharingLocation (SOAP)](documentsharinglocation-soap.md) <br/> |Contains the location and metadata for a document sharing location.  <br/> |
    
-#### Parent elements
+### Parent elements
 
 |**Element**|**Description**|
 |:-----|:-----|

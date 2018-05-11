@@ -43,7 +43,7 @@ None.
 |[DueDate](duedate.md) <br/> |Represents the date when an item is due.  <br/> |
 |[CompleteDate](completedate.md) <br/> |Represents the date on which an item was completed.  <br/> |
    
-#### Parent elements
+### Parent elements
 
 |**Element**|**Description**|
 |:-----|:-----|

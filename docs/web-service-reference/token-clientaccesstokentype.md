@@ -38,7 +38,7 @@ None.
 
 [ID (String)](id-string.md) | [TokenType](tokentype.md) | [TokenValue](tokenvalue.md) | [TTL](ttl.md)
   
-#### Parent elements
+### Parent elements
 
 [GetClientAccessTokenResponseMessage](getclientaccesstokenresponsemessage.md)
   

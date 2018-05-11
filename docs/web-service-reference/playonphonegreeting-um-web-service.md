@@ -44,7 +44,7 @@ None.
 |[GreetingType (UM web service)](greetingtype-um-web-service.md) <br/> |Defines the type of greeting to use in a [PlayOnPhoneGreeting operation (UM web service)](playonphonegreeting-operation-um-web-service.md) request.  <br/> |
 |[dialString (UM web service)](dialstring-um-web-service.md) <br/> |Contains the value for the telephone number to dial.  <br/> |
    
-#### Parent elements
+### Parent elements
 
 None.
   

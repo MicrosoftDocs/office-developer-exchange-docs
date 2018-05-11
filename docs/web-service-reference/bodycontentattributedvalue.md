@@ -39,7 +39,7 @@ None.
 |[Value (BodyContentType)](value-bodycontenttype.md) <br/> |Specifies the value of a **BodyContentAttributedValue** element.  <br/> |
 |[Attributions (ArrayOfPersonaAttributionsType)](attributions-arrayofpersonaattributionstype.md) <br/> |Specifies an array of attribution information for one or more of the contacts or active directory recipients aggregated into the associated persona.  <br/> |
    
-#### Parent elements
+### Parent elements
 
 |**Element**|**Description**|
 |:-----|:-----|

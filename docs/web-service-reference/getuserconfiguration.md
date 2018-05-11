@@ -43,7 +43,7 @@ None.
 |[UserConfigurationName](userconfigurationname.md) <br/> |Represents the name of a user configuration object. This element must be present in a GetUserConfiguration request.  <br/> |
 |[UserConfigurationProperties](userconfigurationproperties.md) <br/> |Specifies the user configuration property types to return. This element must be present in a GetUserConfiguration request.  <br/> |
    
-#### Parent elements
+### Parent elements
 
 None.
   

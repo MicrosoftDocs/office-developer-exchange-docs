@@ -43,7 +43,7 @@ None.
 |:-----|:-----|
 |[ConnectingSID](connectingsid.md) <br/> |Represents an account to impersonate when you are using the ExchangeImpersonation SOAP header.  <br/> |
    
-#### Parent elements
+### Parent elements
 
 None.
   

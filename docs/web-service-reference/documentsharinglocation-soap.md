@@ -50,7 +50,7 @@ None.
 |[CanModifyPermissions (SOAP)](canmodifypermissions-soap.md) <br/> |Indicates whether the user can modify access permissions to the document sharing location.  <br/> |
 |[IsDefault (SOAP)](isdefault-soap.md) <br/> |Indicates whether the document sharing location is the user's default sharing location.  <br/> |
    
-#### Parent elements
+### Parent elements
 
 |**Element**|**Description**|
 |:-----|:-----|

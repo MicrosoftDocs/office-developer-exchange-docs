@@ -37,7 +37,7 @@ None.
 
 [ReadFlag](readflag.md) | [SuppressReadReceipts](suppressreadreceipts.md) | [FolderIds](folderids.md)
   
-#### Parent elements
+### Parent elements
 
 None.
   

@@ -36,7 +36,7 @@ None.
 
 [Value](value.md) | [Attributions (ArrayOfValueAttributionsType)](attributions-arrayofvalueattributionstype.md)
   
-#### Parent elements
+### Parent elements
 
 [Children (ArrayOfStringArrayAttributedValuesType)](children-arrayofstringarrayattributedvaluestype.md)
   

@@ -38,7 +38,7 @@ None.
 |:-----|:-----|
 |[User (SOAP)](user-soap.md) <br/> |Represents the e-mail address of a user.  <br/> |
    
-#### Parent elements
+### Parent elements
 
 |**Element**|**Description**|
 |:-----|:-----|

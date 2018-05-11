@@ -35,7 +35,7 @@ None.
 
 [String](string.md)
   
-#### Parent elements
+### Parent elements
 
 [GetClientExtension](getclientextension.md)
   

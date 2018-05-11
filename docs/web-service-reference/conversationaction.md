@@ -65,7 +65,7 @@ None.
 |[IsRead](isread.md) <br/> |Indicates whether a message has been read.  <br/> |
 |[DeleteType](deletetype.md) <br/> |Indicates how items in a conversation are deleted.  <br/> |
    
-#### Parent elements
+### Parent elements
 
 |**Element**|**Description**|
 |:-----|:-----|

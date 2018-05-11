@@ -41,7 +41,7 @@ None.
 |:-----|:-----|
 |[UserConfiguration](userconfiguration.md) <br/> |Defines a single user configuration object.  <br/> |
    
-#### Parent elements
+### Parent elements
 
 None.
   

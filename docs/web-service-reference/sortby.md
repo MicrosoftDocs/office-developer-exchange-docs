@@ -38,7 +38,7 @@ The following sections describe attributes, child elements, and parent elements.
 
 [FieldURI](fielduri.md) | [IndexedFieldURI](indexedfielduri.md)
   
-#### Parent elements
+### Parent elements
 
 [SearchMailboxes](searchmailboxes.md)
   

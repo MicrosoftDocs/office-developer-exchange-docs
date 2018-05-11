@@ -57,7 +57,7 @@ The following sections describe attributes, child elements, and parent elements.
 |[DescriptiveLinkKey](descriptivelinkkey.md) <br/> |Currently unused and is reserved for future use. It contains a value of 0.  <br/> |
 |[MessageXml](messagexml.md) <br/> |Provides additional error response information.  <br/> |
    
-#### Parent elements
+### Parent elements
 
 |**Element**|**Description**|
 |:-----|:-----|

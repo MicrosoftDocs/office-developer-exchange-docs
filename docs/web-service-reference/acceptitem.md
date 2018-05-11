@@ -71,7 +71,7 @@ None.
 |[ProposedStart](proposedstart.md) <br/> |Specifies the proposed start time of the meeting.  <br/> |
 |[ProposedEnd](proposedend.md) <br/> |Specifies the proposed end time of the meeting.  <br/> |
    
-#### Parent elements
+### Parent elements
 
 |**Element**|**Description**|
 |:-----|:-----|

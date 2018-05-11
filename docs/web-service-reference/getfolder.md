@@ -43,7 +43,7 @@ None.
 |[FolderShape](foldershape.md) <br/> |Identifies the properties to get for each folder identified in the [FolderIds](folderids.md) element.  <br/> |
 |[FolderIds](folderids.md) <br/> |Contains an array of folder identifiers that are used to identify folders to get from a mailbox in the Exchange store.  <br/> |
    
-#### Parent elements
+### Parent elements
 
 None.
   

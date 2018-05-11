@@ -45,7 +45,7 @@ None.
 |[UserSettingErrors (SOAP)](usersettingerrors-soap.md) <br/> |Represents a collection of [UserSettingError (SOAP)](usersettingerror-soap.md) elements.  <br/> |
 |[UserSettings (SOAP)](usersettings-soap.md) <br/> |Represents a collection of [UserSetting (SOAP)](usersetting-soap.md) elements.  <br/> |
    
-#### Parent elements
+### Parent elements
 
 None.
   

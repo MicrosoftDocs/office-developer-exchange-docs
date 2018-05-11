@@ -39,7 +39,7 @@ None.
 |[Occurrence (Time Zone Transition)](occurrence-time-zone-transition.md) <br/> |Specifies the date of the occurrence of a calendar item.  <br/> |
 |[IsOccurrencePresent](isoccurrencepresent.md) <br/> |Specifies a Boolean value that indicates whether an occurrence of the calendar item is present.  <br/> |
    
-#### Parent elements
+### Parent elements
 
 |**Element**|**Description**|
 |:-----|:-----|

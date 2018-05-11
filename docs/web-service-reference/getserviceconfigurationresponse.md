@@ -59,7 +59,7 @@ The following sections describe attributes, child elements, and parent elements.
 |[MessageXml](messagexml.md) <br/> |Provides additional error response information.  <br/> |
 |[ResponseMessages (ArrayOfServiceConfigurationResponseMessageType)](responsemessages-arrayofserviceconfigurationresponsemessagetype.md) <br/> |Contains an array of service configuration response messages.  <br/> |
    
-#### Parent elements
+### Parent elements
 
 None.
   

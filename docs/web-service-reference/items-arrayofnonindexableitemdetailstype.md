@@ -35,7 +35,7 @@ None.
 
 [NonIndexableItemDetail](nonindexableitemdetail.md)
   
-#### Parent elements
+### Parent elements
 
 [NonIndexableItemDetailsResult](nonindexableitemdetailsresult.md)
   

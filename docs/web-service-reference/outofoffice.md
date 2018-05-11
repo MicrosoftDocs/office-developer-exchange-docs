@@ -43,7 +43,7 @@ None.
 |[ReplyBody](replybody.md) <br/> |Contains an Out of Office (OOF) message and the language used for the message.  <br/> |
 |[Duration (UserOofSettings)](duration-useroofsettings.md) <br/> |Contains the duration that the OOF status is enabled if the [OofState](oofstate.md) element is set to Scheduled.  <br/> |
    
-#### Parent elements
+### Parent elements
 
 |**Element**|**Description**|
 |:-----|:-----|

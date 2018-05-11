@@ -39,7 +39,7 @@ None.
 |[Name (string)](name-string.md) <br/> |Specifies a search refiner name or key or the name of an email user.  <br/> |
 |[UserId (string)](userid-string.md) <br/> |Specifies the user identifier of an email user.  <br/> |
    
-#### Parent elements
+### Parent elements
 
 |**Element**|**Description**|
 |:-----|:-----|

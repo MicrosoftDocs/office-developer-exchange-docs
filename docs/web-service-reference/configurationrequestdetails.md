@@ -33,7 +33,7 @@ None.
 
 The child elements are not defined in the Exchange Web Services schema.
   
-#### Parent elements
+### Parent elements
 
 [GetServiceConfiguration](getserviceconfiguration.md)
   

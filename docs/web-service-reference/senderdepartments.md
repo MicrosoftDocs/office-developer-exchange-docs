@@ -41,7 +41,7 @@ None.
 |:-----|:-----|
 |[Value (ProtectionRuleValueType)](value-protectionrulevaluetype.md) <br/> |Identifies a single sender department.  <br/> |
    
-#### Parent elements
+### Parent elements
 
 |**Element**|**Description**|
 |:-----|:-----|

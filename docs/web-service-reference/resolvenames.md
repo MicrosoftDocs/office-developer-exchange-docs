@@ -71,7 +71,7 @@ The following sections describe attributes, child elements, and parent elements.
 |[ParentFolderIds](parentfolderids.md) <br/> |Contains an array of contact folder identifiers that would be searched if the **SearchScope** attribute is set to ActiveDirectoryContacts, Contacts, or ContactsActiveDirectory. The ParentFolderIds array can only contain a single contact folder identifier. If the **ParentFolderIds** element is not present, the default Contacts folder is searched.  <br/> The folder identifier can be used for delegate access.  <br/> Active Directory searches are performed by using access control lists (ACLs). Some users might not have the rights to see some Active Directory objects.  <br/> This element is optional.  <br/> |
 |[UnresolvedEntry](unresolvedentry.md) <br/> |Contains the name of a contact or distribution list to resolve.  <br/> |
    
-#### Parent elements
+### Parent elements
 
 None.
   

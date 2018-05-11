@@ -40,7 +40,7 @@ None.
 |[Token](token.md) <br/> |Contains encrypted data that represents the identification token for the shared data.  <br/> |
 |[Data](data.md) <br/> |Contains encrypted data that represents the shared data.  <br/> |
    
-#### Parent elements
+### Parent elements
 
 |**Element**|**Description**|
 |:-----|:-----|

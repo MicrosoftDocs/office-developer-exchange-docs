@@ -43,7 +43,7 @@ None.
 |[BaseShape](baseshape.md) <br/> |Identifies the basic configuration of properties to return in a response.  <br/> |
 |[AdditionalProperties](additionalproperties.md) <br/> |Identifies additional properties to return in a response.  <br/> |
    
-#### Parent elements
+### Parent elements
 
 |**Element**|**Description**|
 |:-----|:-----|

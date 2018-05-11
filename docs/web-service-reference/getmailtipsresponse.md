@@ -41,7 +41,7 @@ None.
 |:-----|:-----|
 |[ResponseMessages (ArrayOfMailTipsResponseMessageType)](responsemessages-arrayofmailtipsresponsemessagetype.md) <br/> |Represents a list of mail tips response messages.  <br/> |
    
-#### Parent elements
+### Parent elements
 
 None.
   

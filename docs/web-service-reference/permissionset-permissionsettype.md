@@ -43,7 +43,7 @@ None.
 |[Permissions](permissions.md) <br/> |Contains the collection of permissions for a folder. This element was introduced in Exchange 2007 SP1.  <br/> |
 |[UnknownEntries](unknownentries.md) <br/> |Contains an array of unknown entries that cannot be resolved against the Active Directory directory service. This element was introduced in Exchange 2007 SP1.  <br/> |
    
-#### Parent elements
+### Parent elements
 
 |**Element**|**Description**|
 |:-----|:-----|

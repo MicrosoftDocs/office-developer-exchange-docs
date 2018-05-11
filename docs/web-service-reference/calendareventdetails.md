@@ -69,7 +69,7 @@ None.
 |[IsReminderSet](isreminderset.md) <br/> |Indicates whether a reminder has been set for the calendar event.  <br/> |
 |[IsPrivate](isprivate.md) <br/> |Indicates whether the calendar item is private.  <br/> |
    
-#### Parent elements
+### Parent elements
 
 |**Element**|**Description**|
 |:-----|:-----|

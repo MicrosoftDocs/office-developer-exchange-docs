@@ -41,7 +41,7 @@ None.
 |[SearchQuery](searchquery.md) <br/> |Specifies the name of an eDiscovery search query.  <br/> |
 |[SearchableMailboxes](searchablemailboxes.md) <br/> |Contains a list of the mailboxes returned from a **GetSearchableMailboxes** request.  <br/> |
    
-#### Parent elements
+### Parent elements
 
 |**Element**|**Description**|
 |:-----|:-----|

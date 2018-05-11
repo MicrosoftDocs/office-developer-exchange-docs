@@ -47,7 +47,7 @@ None.
 |[ExternalUrl (POX)](externalurl-pox.md) <br/> |Contains the URL that should be used to access the address book from outside the organization's network by using the MAPI/HTTP protocol.  <br/> |
 |[InternalUrl (POX)](internalurl-pox.md) <br/> |Contains the URL that should be used to access the address book from inside the organization's network by using the MAPI/HTTP protocol.  <br/> |
    
-#### Parent elements
+### Parent elements
 
 |**Element**|**Description**|
 |:-----|:-----|

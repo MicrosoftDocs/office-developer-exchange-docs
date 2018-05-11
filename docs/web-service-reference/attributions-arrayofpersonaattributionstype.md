@@ -37,7 +37,7 @@ None.
 |:-----|:-----|
 |[Attribution (PersonaAttributionType)](attribution-personaattributiontype.md) <br/> |Specifies an instance in an array of attributes for a **PersonaType** element.  <br/> |
    
-#### Parent elements
+### Parent elements
 
 |**Element**|**Description**|
 |:-----|:-----|

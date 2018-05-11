@@ -35,7 +35,7 @@ None.
 
 [TokenRequest](tokenrequest.md)
   
-#### Parent elements
+### Parent elements
 
 [GetClientAccessToken](getclientaccesstoken.md)
   

@@ -36,7 +36,7 @@ None.
 
 [Groups (ArrayOfImGroupType)](groups-arrayofimgrouptype.md) | [Personas](personas-ex15websvcsotherref.md)
   
-#### Parent elements
+### Parent elements
 
 [GetImItemsResponse](getimitemsresponse.md) | [GetImItemListResponse](getimitemlistresponse.md)
   

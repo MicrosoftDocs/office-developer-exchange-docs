@@ -36,7 +36,7 @@ None.
 
 [DisplayName (VotingOptionDataType)](displayname-votingoptiondatatype.md) | [SendPrompt](sendprompt.md)
   
-#### Parent elements
+### Parent elements
 
 [UserOptions](useroptions.md)
   

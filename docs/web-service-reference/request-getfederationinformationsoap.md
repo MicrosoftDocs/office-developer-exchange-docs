@@ -38,7 +38,7 @@ None.
 |:-----|:-----|
 |[Domain (GetFederationInformation) (SOAP)](domain-getfederationinformationsoap.md) <br/> |Identifies the domain that has a federation trust.  <br/> |
    
-#### Parent elements
+### Parent elements
 
 |**Element**|**Description**|
 |:-----|:-----|

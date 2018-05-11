@@ -63,7 +63,7 @@ The following sections describe attributes, child elements, and parent elements.
 |[ErrorSubscriptionIds](errorsubscriptionids.md) <br/> |Contains a list of subscription IDs that are invalid.  <br/> |
 |[ConnectionStatus](connectionstatus.md) <br/> |Provides a text description of the status of a streaming subscription.  <br/> |
    
-#### Parent elements
+### Parent elements
 
 |**Element**|**Description**|
 |:-----|:-----|

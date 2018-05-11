@@ -45,7 +45,7 @@ None.
 |:-----|:-----|
 |[TrackingPropertyType](trackingpropertytype.md) <br/> |Represents a name and value pair of strings that is used to create properties for message tracking reports.  <br/> |
    
-#### Parent elements
+### Parent elements
 
 |**Element**|**Description**|
 |:-----|:-----|

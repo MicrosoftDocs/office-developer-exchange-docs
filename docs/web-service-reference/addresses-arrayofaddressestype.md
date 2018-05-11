@@ -37,7 +37,7 @@ None.
 |:-----|:-----|
 |[Address (ContactType)](address-contacttype.md) <br/> |Specifies the address of a contact.  <br/> |
    
-#### Parent elements
+### Parent elements
 
 |**Element**|**Description**|
 |:-----|:-----|

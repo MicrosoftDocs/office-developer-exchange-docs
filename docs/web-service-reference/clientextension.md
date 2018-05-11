@@ -67,7 +67,7 @@ The following sections describe attributes, child elements, and parent elements.
 |[SpecificUsers](specificusers.md) <br/> |Specifies the email accounts that can access the app.  <br/> |
 |[Manifest](manifest.md) <br/> |Contains the base-64 encoded app manifest file.  <br/> |
    
-#### Parent elements
+### Parent elements
 
 |**Element**|**Description**|
 |:-----|:-----|

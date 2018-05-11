@@ -41,7 +41,7 @@ None.
 |:-----|:-----|
 |[FolderChanges](folderchanges.md) <br/> |Contains a collection of changes for a specified folder.  <br/> |
    
-#### Parent elements
+### Parent elements
 
 None.
   

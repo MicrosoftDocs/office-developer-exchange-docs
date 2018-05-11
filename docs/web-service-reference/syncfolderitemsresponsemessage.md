@@ -69,7 +69,7 @@ The following sections describe attributes, child elements, and parent elements.
 |[IncludesLastItemInRange](includeslastiteminrange.md) <br/> |Indicates whether the last item to synchronize has been included in the response.  <br/> |
 |[Changes (Items)](changes-items.md) <br/> |Contains a sequence array of change types that represent the types of differences between the items on the client and the items on the Exchange server.  <br/> |
    
-#### Parent elements
+### Parent elements
 
 |**Element**|**Description**|
 |:-----|:-----|

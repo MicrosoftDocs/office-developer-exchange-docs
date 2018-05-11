@@ -44,7 +44,7 @@ The following sections describe attributes, child elements, and parent elements.
 |[FolderId](folderid.md) <br/> |Represents the folder identifier of the folder that contains the user configuration object.  <br/> |
 |[DistinguishedFolderId](distinguishedfolderid.md) <br/> |Represents a distinguished folder name of the folder that contains the user configuration object.  <br/> |
    
-#### Parent elements
+### Parent elements
 
 |**Element**|**Description**|
 |:-----|:-----|

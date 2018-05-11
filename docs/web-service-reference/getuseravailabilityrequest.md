@@ -47,7 +47,7 @@ None.
 |[FreeBusyViewOptions](freebusyviewoptions.md) <br/> |Specifies the type of free/busy information returned in the response.  <br/> |
 |[SuggestionsViewOptions](suggestionsviewoptions.md) <br/> |Contains the options for obtaining meeting suggestion information.  <br/> |
    
-#### Parent elements
+### Parent elements
 
 None.
   

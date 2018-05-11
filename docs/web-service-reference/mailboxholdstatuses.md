@@ -35,7 +35,7 @@ None.
 
 [MailboxHoldStatus](mailboxholdstatus.md)
   
-#### Parent elements
+### Parent elements
 
 [MailboxHoldResult](mailboxholdresult.md)
   

@@ -45,7 +45,7 @@ None.
 |:-----|:-----|
 |[RuleId](ruleid.md) <br/> |Specifies the identifier of the rule to delete.  <br/> |
    
-#### Parent elements
+### Parent elements
 
 |**Element**|**Description**|
 |:-----|:-----|

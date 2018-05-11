@@ -38,7 +38,7 @@ None.
 |:-----|:-----|
 |[Response (GetFederationInformation) (SOAP)](response-getfederationinformationsoap.md) <br/> |Contains the [GetFederationInformation operation (SOAP)](getfederationinformation-operation-soap.md) response information.  <br/> |
    
-#### Parent elements
+### Parent elements
 
 None.
   

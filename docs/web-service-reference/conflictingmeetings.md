@@ -41,7 +41,7 @@ None.
 |:-----|:-----|
 |[CalendarItem](calendaritem.md) <br/> |Represents an Exchange calendar item.  <br/> |
    
-#### Parent elements
+### Parent elements
 
 |**Element**|**Description**|
 |:-----|:-----|

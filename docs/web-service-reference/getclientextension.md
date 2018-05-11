@@ -37,7 +37,7 @@ None.
 
 [RequestedExtensionIds](requestedextensionids.md) | [UserParameters](userparameters.md) | [IsDebug](isdebug.md)
   
-#### Parent elements
+### Parent elements
 
 None.
   

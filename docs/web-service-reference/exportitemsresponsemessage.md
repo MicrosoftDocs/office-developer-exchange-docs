@@ -67,7 +67,7 @@ The following sections describe attributes, child elements, and parent elements.
 |[ItemId](itemid.md) <br/> |Contains the item identifier of an exported item.  <br/> |
 |[Data (base64Binary)](data-base64binary.md) <br/> |Contains the contents of an exported item.  <br/> |
    
-#### Parent elements
+### Parent elements
 
 |**Element**|**Description**|
 |:-----|:-----|

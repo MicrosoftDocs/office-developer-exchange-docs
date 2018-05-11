@@ -41,7 +41,7 @@ None.
 |:-----|:-----|
 |[Watermark](watermark.md) <br/> |Represents the last valid watermark for a subscription.  <br/> |
    
-#### Parent elements
+### Parent elements
 
 |**Element**|**Description**|
 |:-----|:-----|

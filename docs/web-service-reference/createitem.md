@@ -62,7 +62,7 @@ The following sections describe attributes, child elements, and parent elements.
 |[SavedItemFolderId](saveditemfolderid.md) <br/> |Identifies the target folder where a new item can be created. If the **MessageDisposition** attribute is set to SendOnly, a created message will only be sent. The message will not be put in the folder that is identified by the [SavedItemFolderId](saveditemfolderid.md) element.  <br/> |
 |[Items (NonEmptyArrayOfAllItemsType)](items-nonemptyarrayofallitemstype.md) <br/> |Contains an array of items to create in the folder that is identified by the [SavedItemFolderId](saveditemfolderid.md) element.  <br/> |
    
-#### Parent elements
+### Parent elements
 
 None.
   

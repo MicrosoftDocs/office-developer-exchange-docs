@@ -41,7 +41,7 @@ None.
 |:-----|:-----|
 |[Attendee](attendee.md) <br/> |Represents attendees and resources for a meeting.  <br/> |
    
-#### Parent elements
+### Parent elements
 
 |**Element**|**Description**|
 |:-----|:-----|

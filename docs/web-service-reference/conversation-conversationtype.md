@@ -100,7 +100,7 @@ None.
 |[ItemIds](itemids.md) <br/> |Contains the collection of item identifiers for all conversation items in the current folder.  <br/> |
 |[GlobalItemIds](globalitemids.md) <br/> |Contains the collection of item identifiers for all conversation items in a mailbox.  <br/> |
    
-#### Parent elements
+### Parent elements
 
 |**Element**|**Description**|
 |:-----|:-----|

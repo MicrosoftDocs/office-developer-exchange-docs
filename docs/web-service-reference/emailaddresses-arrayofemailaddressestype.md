@@ -37,7 +37,7 @@ None.
 |:-----|:-----|
 |[Address (EmailAddressType)](address-emailaddresstype.md) <br/> |Represents a fully resolved e-mail address.  <br/> |
    
-#### Parent elements
+### Parent elements
 
 |**Element**|**Description**|
 |:-----|:-----|

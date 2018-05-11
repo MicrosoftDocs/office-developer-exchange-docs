@@ -33,7 +33,7 @@ None.
 
 None.
   
-#### Parent elements
+### Parent elements
 
 [DiscoverySearchConfiguration](discoverysearchconfiguration.md)
   

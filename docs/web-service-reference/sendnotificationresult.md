@@ -41,7 +41,7 @@ None.
 |:-----|:-----|
 |[SubscriptionStatus](subscriptionstatus.md) <br/> |Describes the status of a push subscription.  <br/> |
    
-#### Parent elements
+### Parent elements
 
 None.
   

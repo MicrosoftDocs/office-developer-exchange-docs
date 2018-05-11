@@ -51,7 +51,7 @@ None.
 |[FilterHtmlContent](filterhtmlcontent.md) <br/> |Specifies whether potentially unsafe HTML content is filtered from an attachment. This element is optional.  <br/> |
 |[AdditionalProperties](additionalproperties.md) <br/> |Identifies additional properties to return in a response. This element is optional.  <br/> |
    
-#### Parent elements
+### Parent elements
 
 |**Element**|**Description**|
 |:-----|:-----|

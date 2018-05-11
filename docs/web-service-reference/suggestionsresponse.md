@@ -47,7 +47,7 @@ None.
 |[ResponseMessage](responsemessage.md) <br/> |Provides descriptive information about the response status.  <br/> |
 |[SuggestionDayResultArray](suggestiondayresultarray.md) <br/> |Contains an array of meeting suggestions organized by date.  <br/> |
    
-#### Parent elements
+### Parent elements
 
 |**Element**|**Description**|
 |:-----|:-----|

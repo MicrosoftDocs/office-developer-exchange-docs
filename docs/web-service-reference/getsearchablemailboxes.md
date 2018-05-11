@@ -36,7 +36,7 @@ None.
 
 [SearchFilter](searchfilter.md) | [ExpandGroupMembership](expandgroupmembership.md)
   
-#### Parent elements
+### Parent elements
 
 None.
   

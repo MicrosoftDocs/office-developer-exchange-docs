@@ -33,7 +33,7 @@ None.
 
 None.
   
-#### Parent elements
+### Parent elements
 
 [SearchMailboxesResult](searchmailboxesresult.md) | [MailboxStat](mailboxstat.md) | [NonIndexableItemStatistic](nonindexableitemstatistic.md)
   

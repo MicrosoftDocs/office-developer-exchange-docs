@@ -41,7 +41,7 @@ None.
 |:-----|:-----|
 |[Value](value.md) <br/> |Contains a value of an extended property.  <br/> |
    
-#### Parent elements
+### Parent elements
 
 |**Element**|**Description**|
 |:-----|:-----|

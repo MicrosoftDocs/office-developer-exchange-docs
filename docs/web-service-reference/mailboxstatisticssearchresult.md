@@ -38,7 +38,7 @@ None.
 
 [UserMailbox](usermailbox.md) | [KeywordStatisticsSearchResult](keywordstatisticssearchresult.md)
   
-#### Parent elements
+### Parent elements
 
 [FindMailboxStatisticsByKeywordsResponseMessage](findmailboxstatisticsbykeywordsresponsemessage.md)
   

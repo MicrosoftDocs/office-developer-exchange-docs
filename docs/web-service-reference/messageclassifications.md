@@ -41,7 +41,7 @@ None
 |:-----|:-----|
 |[String](string.md) <br/> |Represents a message classification.  <br/> |
    
-#### Parent elements
+### Parent elements
 
 |**Element**|**Description**|
 |:-----|:-----|

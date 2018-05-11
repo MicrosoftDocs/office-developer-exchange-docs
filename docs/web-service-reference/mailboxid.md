@@ -33,7 +33,7 @@ None.
 
 None.
   
-#### Parent elements
+### Parent elements
 
 [MailboxStat](mailboxstat.md) | [Mailbox (PreviewItemMailboxType)](mailbox-previewitemmailboxtype.md)
   

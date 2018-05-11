@@ -41,7 +41,7 @@ None.
 |:-----|:-----|
 |[Error](error.md) <br/> |Represents a single validation error on a particular rule property value, predicate property value, or action property value  <br/> |
    
-#### Parent elements
+### Parent elements
 
 |**Element**|**Description**|
 |:-----|:-----|

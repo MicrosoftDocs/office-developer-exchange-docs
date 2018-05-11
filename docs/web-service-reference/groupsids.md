@@ -41,7 +41,7 @@ None.
 |:-----|:-----|
 |[GroupIdentifier](groupidentifier.md) <br/> |Represents a single security identifier and attribute for an Active Directory object group of which the account is a member.  <br/> |
    
-#### Parent elements
+### Parent elements
 
 |**Element**|**Description**|
 |:-----|:-----|

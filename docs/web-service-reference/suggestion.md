@@ -59,7 +59,7 @@ None.
 |[SuggestionQuality](suggestionquality.md) <br/> |Represents the quality of the suggested meeting time.  <br/> |
 |[AttendeeConflictDataArray](attendeeconflictdataarray.md) <br/> |Contains an array of information that describes conflicts between users and resources and the suggested meeting time.  <br/> |
    
-#### Parent elements
+### Parent elements
 
 |**Element**|**Description**|
 |:-----|:-----|

@@ -55,7 +55,7 @@ None.
 |[GroupIndex](groupindex.md) <br/> |Represents the property value that is used to group items in a grouped [FindItem operation](finditem-operation.md) call.  <br/> |
 |[Items](items.md) <br/> |Contains an array of grouped items.  <br/> |
    
-#### Parent elements
+### Parent elements
 
 |**Element**|**Description**|
 |:-----|:-----|

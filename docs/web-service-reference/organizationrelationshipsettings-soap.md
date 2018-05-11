@@ -56,7 +56,7 @@ None.
 |[TargetAutodiscoverEpr (SOAP)](targetautodiscoverepr-soap.md) <br/> |Represents the [TargetAutodiscoverEpr](https://msdn.microsoft.com/library/Microsoft.Exchange.Data.Directory.SystemConfiguration.OrganizationRelationship.TargetAutodiscoverEpr.aspx) property.  <br/> |
 |[TargetSharingEpr (SOAP)](targetsharingepr-soap.md) <br/> |Represents the [TargetSharingEpr](https://msdn.microsoft.com/library/Microsoft.Exchange.Data.Directory.SystemConfiguration.OrganizationRelationship.TargetSharingEpr.aspx) property.  <br/> |
    
-#### Parent elements
+### Parent elements
 
 |**Element**|**Description**|
 |:-----|:-----|

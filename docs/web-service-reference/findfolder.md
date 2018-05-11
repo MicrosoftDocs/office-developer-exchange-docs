@@ -58,7 +58,7 @@ The following sections describe attributes, child elements, and parent elements.
 |[Restriction](restriction.md) <br/> |Defines a restriction or query that is used to filter folders in a FindFolder operation. This element is optional.  <br/> |
 |[ParentFolderIds](parentfolderids.md) <br/> |Identifies folders for the FindFolder operation to search.  <br/> |
    
-#### Parent elements
+### Parent elements
 
 None.
   

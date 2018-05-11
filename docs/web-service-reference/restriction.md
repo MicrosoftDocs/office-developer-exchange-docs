@@ -53,7 +53,7 @@ None.
 |[Or](or.md) <br/> |Represents a search expression that performs a logical **OR** operation on the search expression it contains. The **Or** element will return **true** if any of its children return **true**.  <br/> |
 |[SearchExpression](searchexpression.md) <br/> |Represents the substituted element within a restriction. This element is not used in an XML instance document.  <br/> |
    
-#### Parent elements
+### Parent elements
 
 |**Element**|**Description**|
 |:-----|:-----|

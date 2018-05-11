@@ -41,7 +41,7 @@ None.
 |:-----|:-----|
 |[ResponseMessage](responsemessage.md) <br/> |Provides descriptive information about the response status.  <br/> |
    
-#### Parent elements
+### Parent elements
 
 None.
   

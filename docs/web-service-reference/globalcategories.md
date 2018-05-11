@@ -49,7 +49,7 @@ None.
 |:-----|:-----|
 |[String](string.md) <br/> |Contains a single category.  <br/> |
    
-#### Parent elements
+### Parent elements
 
 |**Element**|**Description**|
 |:-----|:-----|

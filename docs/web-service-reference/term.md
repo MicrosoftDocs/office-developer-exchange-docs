@@ -36,7 +36,7 @@ None.
 
 [Scope (HighlightTermType)](scope-highlighttermtype.md) | [Value](value.md)
   
-#### Parent elements
+### Parent elements
 
 [HighlightTerms](highlightterms.md)
   

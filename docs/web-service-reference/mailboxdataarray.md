@@ -47,7 +47,7 @@ None.
 |:-----|:-----|
 |[MailboxData](mailboxdata.md) <br/> |Represents an individual mailbox user and options for the type of data to be returned about the mailbox user.  <br/> |
    
-#### Parent elements
+### Parent elements
 
 |**Element**|**Description**|
 |:-----|:-----|

@@ -71,7 +71,7 @@ The following sections describe attributes, child elements, and parent elements.
 |[ExtendedFieldURI](extendedfielduri.md) <br/> |Identifies MAPI properties.  <br/> |
 |[Constant](constant.md) <br/> |Identifies a constant value in a restriction.  <br/> |
    
-#### Parent elements
+### Parent elements
 
 |**Element**|**Description**|
 |:-----|:-----|

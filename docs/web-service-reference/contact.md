@@ -199,7 +199,7 @@ None.
 |[ManagerMailbox](managermailbox.md) <br/> |Contains SMTP information that identifies the manager mailbox of the contact.  <br/> |
 |[DirectReports](directreports.md) <br/> |Contains SMTP information that identifies the direct reports of a contact.  <br/> |
    
-#### Parent elements
+### Parent elements
 
 |**Element name**|**Description**|
 |:-----|:-----|

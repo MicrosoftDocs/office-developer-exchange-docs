@@ -35,7 +35,7 @@ None.
 
 [SearchItemKind](searchitemkind.md)
   
-#### Parent elements
+### Parent elements
 
 [FindMailboxStatisticsByKeywords](findmailboxstatisticsbykeywords.md)
   

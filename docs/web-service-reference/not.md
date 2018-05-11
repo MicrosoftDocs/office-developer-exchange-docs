@@ -41,7 +41,7 @@ None.
 |:-----|:-----|
 |[SearchExpression](searchexpression.md) <br/> | Represents the base class for expressions within a restriction. One of the following elements must be substituted for the **SearchExpression** element:  <br/> [Exists](exists.md) <br/> [Excludes](excludes.md) <br/> [IsEqualTo](isequalto.md) <br/> [IsNotEqualTo](isnotequalto.md) <br/> [IsGreaterThan](isgreaterthan.md) <br/> [IsGreaterThanOrEqualTo](isgreaterthanorequalto.md) <br/> [IsLessThan](islessthan.md) <br/> [IsLessThanOrEqualTo](islessthanorequalto.md) <br/> [Contains](contains.md) <br/> **Not** <br/> [And](and.md) <br/> [Or](or.md) <br/> |
    
-#### Parent elements
+### Parent elements
 
 |**Element**|**Description**|
 |:-----|:-----|

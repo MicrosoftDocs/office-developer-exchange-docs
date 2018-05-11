@@ -41,7 +41,7 @@ None.
 |[DataType](datatype.md) <br/> |Describes the type of data that is shared by a shared folder. This element is optional.  <br/> |
 |[SharedFolderId](sharedfolderid.md) <br/> |Represents the identifier of the shared folder whose local folder identifier should be returned. This element is optional.  <br/> |
    
-#### Parent elements
+### Parent elements
 
 None.
   

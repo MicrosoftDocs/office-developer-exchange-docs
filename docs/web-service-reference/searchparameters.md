@@ -45,7 +45,7 @@ The following sections describe attributes, child elements, and parent elements.
 |[Restriction](restriction.md) <br/> |Represents the restriction or query that is used to filter items or folders in FindItem/FindFolder and search folder operations.  <br/> |
 |[BaseFolderIds](basefolderids.md) <br/> |Represents the collection of folders that will be mined to determine the contents of a search folder.  <br/> |
    
-#### Parent elements
+### Parent elements
 
 |**Element**|**Description**|
 |:-----|:-----|

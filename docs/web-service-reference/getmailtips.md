@@ -45,7 +45,7 @@ None.
 |[Recipients (ArrayOfRecipientsType)](recipients-arrayofrecipientstype.md) <br/> |Contains a list of recipients to check for mail tips.  <br/> |
 |[MailTipsRequested](mailtipsrequested.md) <br/> |Contains the types of mail tips requested from the service.  <br/> |
    
-#### Parent elements
+### Parent elements
 
 None.
   

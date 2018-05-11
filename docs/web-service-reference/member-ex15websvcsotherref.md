@@ -45,7 +45,7 @@ The following sections describe attributes, child elements, and parent elements.
 |[Mailbox](mailbox.md) <br/> |Represents the e-mail address of the distribution list member. This element is optional.  <br/> |
 |[Status (MemberStatusType)](status-memberstatustype.md) <br/> |Provides information about the status of a distribution list member. This element is optional.  <br/> |
    
-#### Parent elements
+### Parent elements
 
 |**Element**|**Description**|
 |:-----|:-----|

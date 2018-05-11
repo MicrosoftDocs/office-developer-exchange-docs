@@ -60,7 +60,7 @@ None.
 |[PublicFolderInformation (POX)](publicfolderinformation-pox.md) <br/> |Contains information that clients can use to send an Autodiscover request to discover public folder information for the user.  <br/> |
 |[Error (POX)](error-pox.md) <br/> |Contains an Autodiscover error response.  <br/> |
    
-#### Parent elements
+### Parent elements
 
 |**Element**|**Description**|
 |:-----|:-----|

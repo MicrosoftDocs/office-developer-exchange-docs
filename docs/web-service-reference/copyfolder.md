@@ -43,7 +43,7 @@ None.
 |[ToFolderId](tofolderid.md) <br/> |Represents the destination folder for a copied folder.  <br/> |
 |[FolderIds](folderids.md) <br/> |Contains an array of folders to copy to the folder identified by the [ToFolderId](tofolderid.md) element.  <br/> |
    
-#### Parent elements
+### Parent elements
 
 None.
   

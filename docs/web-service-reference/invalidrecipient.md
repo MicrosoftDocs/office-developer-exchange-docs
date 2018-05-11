@@ -46,7 +46,7 @@ None.
 |[ResponseCode (InvalidRecipientResponseCodeType)](responsecode-invalidrecipientresponsecodetype.md) <br/> |Provides an error code that identifies the specific error that the request encountered. This element is required.  <br/> |
 |[MessageText](messagetext.md) <br/> |Provides a text description of the status of the response. This element is optional.  <br/> |
    
-#### Parent elements
+### Parent elements
 
 |**Element**|**Description**|
 |:-----|:-----|

@@ -41,7 +41,7 @@ None.
 |:-----|:-----|
 |[Entry (PhoneNumber)](entry-phonenumber.md) <br/> |Represents a telephone number for a contact.  <br/> |
    
-#### Parent elements
+### Parent elements
 
 |**Element**|**Description**|
 |:-----|:-----|

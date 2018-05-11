@@ -35,7 +35,7 @@ None.
 
 [Action (SetClientExtensionActionType)](action-setclientextensionactiontype.md)
   
-#### Parent elements
+### Parent elements
 
 [SetClientExtension](setclientextension.md)
   

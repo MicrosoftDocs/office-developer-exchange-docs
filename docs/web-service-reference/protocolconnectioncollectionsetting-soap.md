@@ -40,7 +40,7 @@ None.
 |[Name (SOAP)](name-soap.md) <br/> |Represents the name of a setting.  <br/> |
 |[ProtocolConnections (SOAP)](protocolconnections-soap.md) <br/> |Contains zero or more protocol connections.  <br/> |
    
-#### Parent elements
+### Parent elements
 
 None.
   

@@ -45,7 +45,7 @@ None.
 |[MailboxType](mailboxtype.md) <br/> |Represents the type of mailbox that is represented by the e-mail address.  <br/> |
 |[ItemId](itemid.md) <br/> |Contains the unique identifier and change key of an item in the Exchange store.  <br/> |
    
-#### Parent elements
+### Parent elements
 
 |**Element**|**Description**|
 |:-----|:-----|

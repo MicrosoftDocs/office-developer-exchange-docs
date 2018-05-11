@@ -35,7 +35,7 @@ None.
 
 [Value (ArrayOfStringValueType)](value-arrayofstringvaluetype.md)
   
-#### Parent elements
+### Parent elements
 
 [StringArrayAttributedValue](stringarrayattributedvalue.md)
   

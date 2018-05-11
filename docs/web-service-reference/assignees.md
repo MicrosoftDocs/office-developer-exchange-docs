@@ -39,7 +39,7 @@ None.
 |[Name (EmailAddress)](name-emailaddress.md) <br/> |Represents the display name of the mailbox user.  <br/> |
 |[UserId (string)](userid-string.md) <br/> |Specifies the user identifier of an email user.  <br/> |
    
-#### Parent elements
+### Parent elements
 
 |**Element**|**Description**|
 |:-----|:-----|

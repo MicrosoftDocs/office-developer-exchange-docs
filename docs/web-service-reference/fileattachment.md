@@ -59,7 +59,7 @@ None.
 |[IsContactPhoto](iscontactphoto.md) <br/> |Indicates whether the file attachment is a contact picture.  <br/> |
 |[Content](content.md) <br/> |Contains the Base64-encoded contents of the file attachment.  <br/> |
    
-#### Parent elements
+### Parent elements
 
 |**Element**|**Description**|
 |:-----|:-----|

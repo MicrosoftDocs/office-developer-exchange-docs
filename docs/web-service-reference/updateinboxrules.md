@@ -45,7 +45,7 @@ None.
 |[RemoveOutlookRuleBlob](removeoutlookruleblob.md) <br/> |Indicates whether to remove the Microsoft Outlook rule blob.  <br/> |
 |[Operations](operations.md) <br/> |Contains an array of rule operations that can be performed on an Inbox.  <br/> |
    
-#### Parent elements
+### Parent elements
 
 None.
   

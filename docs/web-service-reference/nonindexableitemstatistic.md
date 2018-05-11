@@ -37,7 +37,7 @@ None.
 
 [Mailbox (string)](mailbox-string.md) | [ItemCount](itemcount.md) | [ErrorMessage](errormessage.md)
   
-#### Parent elements
+### Parent elements
 
 [NonIndexableItemStatistics](nonindexableitemstatistics.md)
   

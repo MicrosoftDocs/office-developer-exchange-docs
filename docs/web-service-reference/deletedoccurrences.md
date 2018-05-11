@@ -41,7 +41,7 @@ None.
 |:-----|:-----|
 |[DeletedOccurrence](deletedoccurrence.md) <br/> |Represents a deleted occurrence of a recurring calendar item.  <br/> |
    
-#### Parent elements
+### Parent elements
 
 |**Element**|**Description**|
 |:-----|:-----|

@@ -38,7 +38,7 @@ None.
 
 [ItemId](itemid.md) | [OccurrenceItemId](occurrenceitemid.md) | [RecurringMasterItemId](recurringmasteritemid.md) | [RecurringMasterItemIdRanges](recurringmasteritemidranges.md)
   
-#### Parent elements
+### Parent elements
 
 [GetImItems](getimitems.md)
   

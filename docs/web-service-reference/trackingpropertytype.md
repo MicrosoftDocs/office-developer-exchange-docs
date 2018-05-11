@@ -47,7 +47,7 @@ None.
 |[Name (Message Tracking)](name-message-tracking.md) <br/> |Defines a name for the message tracking report property.  <br/> |
 |[Value (Message Tracking)](value-message-tracking.md) <br/> |Defines a value for the message tracking report property. This element is optional.  <br/> |
    
-#### Parent elements
+### Parent elements
 
 |**Element**|**Description**|
 |:-----|:-----|

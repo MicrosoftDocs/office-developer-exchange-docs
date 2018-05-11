@@ -41,7 +41,7 @@ None.
 |:-----|:-----|
 |[Entry (EmailAddress)](entry-emailaddress.md) <br/> |Represents a single e-mail address for a contact.  <br/> |
    
-#### Parent elements
+### Parent elements
 
 |**Element**|**Description**|
 |:-----|:-----|

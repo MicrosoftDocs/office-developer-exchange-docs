@@ -138,7 +138,7 @@ The following sections describe attributes, child elements, and parent elements.
 |[AddressBook (POX)](addressbook-pox.md) <br/> |Contains the specifications for connecting a client to the address book server by using the MAPI/HTTP protocol. This element is only present if the **Type** attribute on the **Protocol** element is present and set to "mapiHttp". The **AddressBook** element is applicable to clients that implement the MAPI/HTTP protocol and target Exchange Online and versions of Exchange starting with 15.00.0847.032.  <br/> |
 |[MailStore (POX)](mailstore-pox.md) <br/> |Contains the specifications for connecting a client to the user's mailbox by using the MAPI/HTTP protocol. This element is only present if the **Type** attribute on the **Protocol** element is present and set to "mapiHttp". The **MailStore** element is applicable to clients that implement the MAPI/HTTP protocol and target Exchange Online and versions of Exchange starting with 15.00.0847.032.  <br/> |
    
-#### Parent elements
+### Parent elements
 
 |**Element**|**Description**|
 |:-----|:-----|

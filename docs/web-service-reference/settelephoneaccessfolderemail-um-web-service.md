@@ -42,7 +42,7 @@ None.
 |:-----|:-----|
 |[base64FolderId (UM web service)](base64folderid-um-web-service.md) <br/> |The identifier of the e-mail folder.  <br/> |
    
-#### Parent elements
+### Parent elements
 
 None.
   

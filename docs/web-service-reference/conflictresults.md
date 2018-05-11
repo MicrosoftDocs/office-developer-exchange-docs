@@ -49,7 +49,7 @@ None.
 |:-----|:-----|
 |[Count](count.md) <br/> |Contains the number of conflicts in an [UpdateItem operation](updateitem-operation.md) response.  <br/> |
    
-#### Parent elements
+### Parent elements
 
 |**Element**|**Description**|
 |:-----|:-----|

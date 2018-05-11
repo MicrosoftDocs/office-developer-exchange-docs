@@ -49,7 +49,7 @@ None.
 |[DistinguishedUser](distinguisheduser.md) <br/> |Identifies Anonymous and Default user accounts for delegate access.  <br/> |
 |[ExternalUserIdentity](externaluseridentity.md) <br/> |Identifies an external delegate user or an external user who has folder access permissions.  <br/> |
    
-#### Parent elements
+### Parent elements
 
 |**Element**|**Description**|
 |:-----|:-----|

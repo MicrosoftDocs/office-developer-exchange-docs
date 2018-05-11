@@ -45,7 +45,7 @@ None.
 |[DayOfWeekIndex](dayofweekindex.md) <br/> |Describes which week in a month is used in a relative yearly recurrence pattern.  <br/> |
 |[Month (Item Recurrence)](month-item-recurrence.md) <br/> |Describes the month when a yearly recurring item occurs.  <br/> |
    
-#### Parent elements
+### Parent elements
 
 |**Element**|**Description**|
 |:-----|:-----|

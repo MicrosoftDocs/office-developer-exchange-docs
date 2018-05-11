@@ -49,7 +49,7 @@ None.
 |[MailboxType](mailboxtype.md) <br/> |Represents the type of mailbox that is represented by an e-mail user. This element is optional.  <br/> |
 |[ItemId](itemid.md) <br/> |Defines the item identifier of a contact or private distribution list for recipients from a user's Contacts folder. This element is optional.  <br/> |
    
-#### Parent elements
+### Parent elements
 
 |**Element**|**Description**|
 |:-----|:-----|

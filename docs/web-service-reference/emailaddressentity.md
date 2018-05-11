@@ -37,7 +37,7 @@ None.
 |:-----|:-----|
 |[EmailAddress (string)](emailaddress-string.md) <br/> |Specifies a single email address.  <br/> |
    
-#### Parent elements
+### Parent elements
 
 |**Element**|**Description**|
 |:-----|:-----|

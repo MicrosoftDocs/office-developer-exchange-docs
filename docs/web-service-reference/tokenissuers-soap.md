@@ -36,7 +36,7 @@ None
 |:-----|:-----|
 |[TokenIssuer (SOAP)](tokenissuer-soap.md) <br/> |Specifies the [Uri (SOAP)](uri-soap.md) and [Endpoint (SOAP)](endpoint-soap.md) for the security token service.  <br/> |
    
-#### Parent elements
+### Parent elements
 
 |**Element**|**Description**|
 |:-----|:-----|

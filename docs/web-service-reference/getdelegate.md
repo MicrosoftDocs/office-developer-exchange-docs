@@ -52,7 +52,7 @@ The following sections describe attributes, child elements, and parent elements.
 |[Mailbox](mailbox.md) <br/> |Identifies the principal's mailbox.  <br/> |
 |[UserIds](userids.md) <br/> |Contains an array of delegate users to get from a principal's mailbox. This element was introduced in Exchange 2007 SP1.  <br/> |
    
-#### Parent elements
+### Parent elements
 
 None.
   

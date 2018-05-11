@@ -35,7 +35,7 @@ None.
 
 [KeywordStat](keywordstat.md)
   
-#### Parent elements
+### Parent elements
 
 [SearchMailboxesResult](searchmailboxesresult.md)
   

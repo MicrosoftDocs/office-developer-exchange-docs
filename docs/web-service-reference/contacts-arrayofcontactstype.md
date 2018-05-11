@@ -37,7 +37,7 @@ None.
 |:-----|:-----|
 |[Contact (ContactType)](contact-contacttype.md) <br/> |Specifies a contact in the Unified Contact Store.  <br/> |
    
-#### Parent elements
+### Parent elements
 
 |**Element**|**Description**|
 |:-----|:-----|

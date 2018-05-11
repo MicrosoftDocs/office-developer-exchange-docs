@@ -39,7 +39,7 @@ None.
 |[SearchId](searchid.md) <br/> |Specifies the identifier of the search.  <br/> |
 |[ExpandGroupMembership](expandgroupmembership.md) <br/> |Contains a Boolean value that indicates whether to expand the membership of the group returned from a **GetSearchableMailboxes** request.  <br/> |
    
-#### Parent elements
+### Parent elements
 
 None.
   

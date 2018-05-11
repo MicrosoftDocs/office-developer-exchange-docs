@@ -35,7 +35,7 @@ None.
 
 [UrlEntity](urlentity.md)
   
-#### Parent elements
+### Parent elements
 
 [EntityExtractionResult](entityextractionresult.md)
   

@@ -39,7 +39,7 @@ None.
 |[Value (ExtendedPropertyType)](value-extendedpropertytype.md) <br/> |Specifies an array of extended properties for a persona.  <br/> |
 |[Attributions (ArrayOfValueAttributionsType)](attributions-arrayofvalueattributionstype.md) <br/> |Specifies an array of attributions for its associated **Value** element.  <br/> |
    
-#### Parent elements
+### Parent elements
 
 |**Element**|**Description**|
 |:-----|:-----|

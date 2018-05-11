@@ -86,7 +86,7 @@ The following sections describe attributes, child elements, and parent elements.
 |[QueryString (QueryStringType)](querystring-querystringtype.md) <br/> |Specifies a mailbox query string based on Advanced Query Syntax (AQS).  <br/> |
 |[ConversationShape](conversationshape.md) <br/> |Identifies the property set to return in a [FindConversation operation](findconversation-operation.md) response.  <br/> |
    
-#### Parent elements
+### Parent elements
 
 None.
   

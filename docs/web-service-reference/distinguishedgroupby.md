@@ -45,7 +45,7 @@ None.
 |:-----|:-----|
 |[StandardGroupBy](standardgroupby.md) <br/> |Represents the standard grouping and aggregating mechanisms for a grouped FindItem operation.  <br/> |
    
-#### Parent elements
+### Parent elements
 
 |**Element**|**Description**|
 |:-----|:-----|

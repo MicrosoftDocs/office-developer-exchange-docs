@@ -41,7 +41,7 @@ None.
 |:-----|:-----|
 |[Entry (PhysicalAddress)](entry-physicaladdress.md) <br/> |Describes a single physical address for a contact item.  <br/> |
    
-#### Parent elements
+### Parent elements
 
 |**Element**|**Description**|
 |:-----|:-----|

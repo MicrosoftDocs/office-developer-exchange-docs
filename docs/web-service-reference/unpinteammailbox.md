@@ -35,7 +35,7 @@ None.
 
 [EmailAddress (EmailAddressType)](emailaddress-emailaddresstype.md)
   
-#### Parent elements
+### Parent elements
 
 None.
   

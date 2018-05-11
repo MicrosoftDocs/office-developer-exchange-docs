@@ -36,7 +36,7 @@ None.
 
 [Mailbox (string)](mailbox-string.md) | [SearchScope](searchscope.md)
   
-#### Parent elements
+### Parent elements
 
 [MailboxSearchScopes](mailboxsearchscopes.md)
   

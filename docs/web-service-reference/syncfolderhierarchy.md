@@ -44,7 +44,7 @@ None.
 |[SyncFolderId](syncfolderid.md) <br/> |Represents the folder that contains the items to synchronize. This element is optional.  <br/> |
 |[SyncState](syncstate-ex15websvcsotherref.md) <br/> |Contains a base64-encoded form of the synchronization data that is updated after each successful request. This is used to identify the synchronization state.  <br/> |
    
-#### Parent elements
+### Parent elements
 
 None.
   

@@ -61,7 +61,7 @@ None.
 |[IsModerated](ismoderated.md) <br/> |Indicates whether the recipient's mailbox is being moderated.  <br/> |
 |[InvalidRecipient (MailTips)](invalidrecipient-mailtips.md) <br/> |Indicates whether the recipient is invalid.  <br/> |
    
-#### Parent elements
+### Parent elements
 
 |**Element**|**Description**|
 |:-----|:-----|

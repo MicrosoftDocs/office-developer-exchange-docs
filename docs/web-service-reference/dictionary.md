@@ -41,7 +41,7 @@ None.
 |:-----|:-----|
 |[DictionaryEntry](dictionaryentry.md) <br/> |Specifies the contents of a single dictionary entry property.  <br/> |
    
-#### Parent elements
+### Parent elements
 
 |**Element**|**Description**|
 |:-----|:-----|

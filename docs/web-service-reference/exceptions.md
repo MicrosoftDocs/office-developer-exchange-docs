@@ -107,7 +107,7 @@ None.
 |[WithinDateRange](withindaterange.md) <br/> |Specifies the date range within which incoming messages have to have been received in order for the condition or exception to apply.  <br/> |
 |[WithinSizeRange](withinsizerange.md) <br/> |Specifies the minimum and maximum sizes that incoming messages must be in order for the condition or exception to apply.  <br/> |
    
-#### Parent elements
+### Parent elements
 
 |**Element**|**Description**|
 |:-----|:-----|

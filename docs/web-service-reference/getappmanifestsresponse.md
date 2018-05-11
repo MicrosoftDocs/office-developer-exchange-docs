@@ -36,7 +36,7 @@ None.
 
 [ResponseCode](responsecode.md) | [Manifests](manifests.md) | [Apps](apps.md)
   
-#### Parent elements
+### Parent elements
 
 None.
   

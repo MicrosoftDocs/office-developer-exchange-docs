@@ -67,7 +67,7 @@ The following sections describe attributes, child elements, and parent elements.
 |[ParentFolderIds](parentfolderids.md) <br/> |Identifies folders to search for the FindItem and FindFolder operations.  <br/> |
 |[QueryString (QueryStringType)](querystring-querystringtype.md) <br/> |Contains a mailbox query string based on Advanced Query Syntax (AQS).  <br/> |
    
-#### Parent elements
+### Parent elements
 
 None.
   

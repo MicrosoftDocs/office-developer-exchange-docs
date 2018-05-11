@@ -37,7 +37,7 @@ None.
 |:-----|:-----|
 |[ExtendedProperty](extendedproperty.md) <br/> |Identifies extended MAPI properties on folders and items.  <br/> |
    
-#### Parent elements
+### Parent elements
 
 |**Element**|**Description**|
 |:-----|:-----|

@@ -43,7 +43,7 @@ None.
 
 [DisplayName (string)](displayname-string.md) | [RetentionId](retentionid.md) | [RetentionPeriod](retentionperiod.md) | [Type (ElcFolderType)](type-elcfoldertype.md) | [RetentionAction](retentionaction.md) | [Description](description.md) | [IsVisible](isvisible.md) | [OptedInto](optedinto.md) | [IsArchive](isarchive.md)
   
-#### Parent elements
+### Parent elements
 
 [RetentionPolicyTags](retentionpolicytags.md)
   

@@ -37,7 +37,7 @@ None.
 
 None.
   
-#### Parent elements
+### Parent elements
 
 [FindMessageTrackingReport](findmessagetrackingreport.md) | [GetMessageTrackingReport](getmessagetrackingreport.md)
   

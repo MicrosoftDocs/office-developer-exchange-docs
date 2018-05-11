@@ -37,7 +37,7 @@ None.
 
 [FolderId](folderid.md) | [DistinguishedFolderId](distinguishedfolderid.md) | [AddressListId](addresslistid.md)
   
-#### Parent elements
+### Parent elements
 
 [ArchiveItem](archiveitem.md)
   

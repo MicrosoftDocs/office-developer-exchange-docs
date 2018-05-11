@@ -36,7 +36,7 @@ None.
 
 [PhoneNumberAttributedValue](phonenumberattributedvalue.md)
   
-#### Parent elements
+### Parent elements
 
 [Persona](persona.md)
   

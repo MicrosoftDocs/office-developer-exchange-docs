@@ -45,7 +45,7 @@ None.
 |:-----|:-----|
 |[FolderChange](folderchange.md) <br/> |Represents a single change to be performed on a single folder.  <br/> |
    
-#### Parent elements
+### Parent elements
 
 |**Element**|**Description**|
 |:-----|:-----|

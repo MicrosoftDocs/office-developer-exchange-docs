@@ -35,7 +35,7 @@ None.
 
 [NonIndexableItemStatistic](nonindexableitemstatistic.md)
   
-#### Parent elements
+### Parent elements
 
 [GetNonIndexableItemStatisticsResponse](getnonindexableitemstatisticsresponse.md) , [GetNonIndexableItemStatisticsResponseMessage](getnonindexableitemstatisticsresponsemessage.md)
   
