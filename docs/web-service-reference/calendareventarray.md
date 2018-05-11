@@ -41,7 +41,7 @@ The **CalendarEventArray** element contains a set of unique calendar item occurr
 
 The following sections describe attributes, child elements, and parent elements.
   
-#### Attributes
+### Attributes
 
 None.
   

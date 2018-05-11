@@ -29,7 +29,7 @@ The **IsAutomaticReply** element indicates whether incoming messages must be aut
 
 The following sections describe attributes, child elements, and parent elements.
   
-#### Attributes
+### Attributes
 
 None.
   

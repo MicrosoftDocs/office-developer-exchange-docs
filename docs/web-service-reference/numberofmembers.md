@@ -47,7 +47,7 @@ The **NumberOfMembers** element represents the number of users, resources, and r
 
 The following sections describe attributes, child elements, and parent elements.
   
-#### Attributes
+### Attributes
 
 None.
   

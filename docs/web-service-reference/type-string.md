@@ -25,7 +25,7 @@ The **Type** element specifies the type of postal address or phone number, for e
 
 The following sections describe attributes, child elements, and parent elements.
   
-#### Attributes
+### Attributes
 
 None.
   

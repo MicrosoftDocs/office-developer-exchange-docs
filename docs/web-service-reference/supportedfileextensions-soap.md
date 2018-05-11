@@ -24,7 +24,7 @@ The **SupportedFileExtensions** element lists the file extensions that can be st
 
 The following sections describe attributes, child elements, and parent elements.
   
-#### Attributes
+### Attributes
 
 None.
   

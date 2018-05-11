@@ -31,7 +31,7 @@ The **Folders** element contains an array of folders that are used in folder ope
 
 The following sections describe attributes, child elements, and parent elements.
   
-#### Attributes
+### Attributes
 
 None.
   

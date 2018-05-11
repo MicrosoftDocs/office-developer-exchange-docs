@@ -30,7 +30,7 @@ The **GetUserSettingsResponse** element represents a response to a [GetUserSetti
 
 The following sections describe attributes, child elements, and parent elements.
   
-#### Attributes
+### Attributes
 
 None.
   

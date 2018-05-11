@@ -25,7 +25,7 @@ The **InPlaceHoldIdentity** element specifies the identity of a hold that preser
 
 The following sections describe attributes, child elements, and parent elements.
   
-#### Attributes
+### Attributes
 
 None.
   

@@ -25,7 +25,7 @@ The **MailboxScope** element identifies whether a search or fetch for a conversa
 
 The following sections describe attributes, child elements, and parent elements.
   
-#### Attributes
+### Attributes
 
 None.
   

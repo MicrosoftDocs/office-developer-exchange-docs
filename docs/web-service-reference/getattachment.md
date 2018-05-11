@@ -32,7 +32,7 @@ The **GetAttachment** element is the root element in a request to get an attachm
 
 The following sections describe attributes, child elements, and parent elements.
   
-#### Attributes
+### Attributes
 
 None.
   

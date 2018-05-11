@@ -27,7 +27,7 @@ The **GetPasswordExpirationDate** element defines a request to get the password 
 
 The following sections describe attributes, child elements, and parent elements.
   
-#### Attributes
+### Attributes
 
 None.
   

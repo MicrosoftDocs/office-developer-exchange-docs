@@ -26,7 +26,7 @@ The **Version** element represents a description of the server product version.
 
 The following sections describe attributes, child elements, and parent elements.
   
-#### Attributes
+### Attributes
 
 None.
   

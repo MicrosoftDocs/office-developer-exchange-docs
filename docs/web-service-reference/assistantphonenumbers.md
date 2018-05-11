@@ -27,7 +27,7 @@ The **AssistantPhoneNumbers** element specifies an array of assistant phone numb
 
 The following sections describe attributes, child elements, and parent elements.
   
-#### Attributes
+### Attributes
 
 None.
   

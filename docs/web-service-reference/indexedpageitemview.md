@@ -29,7 +29,7 @@ The **IndexedPageItemView** element describes how paged conversation or item inf
 
 The following sections describe attributes, child elements, and parent elements.
   
-#### Attributes
+### Attributes
 
 |**Attribute**|**Description**|
 |:-----|:-----|

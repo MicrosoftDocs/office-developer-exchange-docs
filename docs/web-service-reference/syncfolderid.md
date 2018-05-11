@@ -31,7 +31,7 @@ The **SyncFolderId** element represents the folder that contains the items to sy
 
 The following sections describe attributes, child elements, and parent elements.
   
-#### Attributes
+### Attributes
 
 None.
   

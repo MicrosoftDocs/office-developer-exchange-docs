@@ -29,7 +29,7 @@ The **IsFromMe** element indicates whether a user sent an item to him or herself
 
 The following sections describe attributes, child elements, and parent elements.
   
-#### Attributes
+### Attributes
 
 None.
   

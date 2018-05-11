@@ -25,7 +25,7 @@ The **OptedInto** element specifies a Boolean value that indicates whether the u
 
 The following sections describe attributes, child elements, and parent elements.
   
-#### Attributes
+### Attributes
 
 None.
   

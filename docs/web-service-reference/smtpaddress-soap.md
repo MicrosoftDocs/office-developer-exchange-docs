@@ -24,7 +24,7 @@ The **SmtpAddress** element represents the alternate mailbox SMTP address.
 
 The following sections describe attributes, child elements, and parent elements.
   
-#### Attributes
+### Attributes
 
 None.
   

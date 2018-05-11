@@ -26,7 +26,7 @@ The **Domain** element contains a federated domain in a **GetFederationInformati
 
 The following sections describe attributes, child elements, and parent elements.
   
-#### Attributes
+### Attributes
 
 None.
   

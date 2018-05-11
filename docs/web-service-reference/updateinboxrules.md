@@ -33,7 +33,7 @@ The **UpdateInboxRules** element defines a request to update the Inbox rules in 
 
 The following sections describe attributes, child elements, and parent elements.
   
-#### Attributes
+### Attributes
 
 None.
   

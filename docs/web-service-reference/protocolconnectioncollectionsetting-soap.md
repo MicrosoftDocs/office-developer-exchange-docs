@@ -29,7 +29,7 @@ The **ProtocolConnectionCollectionSetting** element represents a collection of s
 
 The following sections describe attributes, child elements, and parent elements.
   
-#### Attributes
+### Attributes
 
 None.
   

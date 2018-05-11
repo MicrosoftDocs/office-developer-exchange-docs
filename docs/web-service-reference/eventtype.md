@@ -29,7 +29,7 @@ The **EventType** element is used to create a subscription and identifies an eve
 
 The following sections describe attributes, child elements, and parent elements.
   
-#### Attributes
+### Attributes
 
 None.
   

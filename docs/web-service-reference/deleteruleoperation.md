@@ -35,7 +35,7 @@ The **DeleteRuleOperation** element contains an operation to delete an existing 
 
 The following sections describe attributes, child elements, and parent elements.
   
-#### Attributes
+### Attributes
 
 None.
   

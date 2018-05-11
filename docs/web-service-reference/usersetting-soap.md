@@ -28,7 +28,7 @@ The [UserSetting (SOAP)](usersetting-soap.md) element represents a single user s
 
 The following sections describe attributes, child elements, and parent elements.
   
-#### Attributes
+### Attributes
 
 None.
   

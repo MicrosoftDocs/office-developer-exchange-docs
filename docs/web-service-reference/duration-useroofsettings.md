@@ -32,7 +32,7 @@ The **Duration** element specifies the duration that the out of office (OOF) sta
 
 The following sections describe attributes, child elements, and parent elements.
   
-#### Attributes
+### Attributes
 
 None.
   

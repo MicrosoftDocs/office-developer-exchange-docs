@@ -27,7 +27,7 @@ The **Refiners** element specifies a list of one or more **Refiner** elements.
 
 The following sections describe attributes, child elements, and parent elements.
   
-#### Attributes
+### Attributes
 
 None.
   

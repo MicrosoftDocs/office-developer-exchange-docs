@@ -25,7 +25,7 @@ The **ReceivedTime** element specifies the time at which an item was received.
 
 The following sections describe attributes, child elements, and parent elements.
   
-#### Attributes
+### Attributes
 
 None.
   

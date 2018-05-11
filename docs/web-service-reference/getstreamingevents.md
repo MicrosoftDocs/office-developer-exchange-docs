@@ -34,7 +34,7 @@ The **GetStreamingEvents** element represents the operation that is used by clie
 
 The following sections describe attributes, child elements, and parent elements.
   
-#### Attributes
+### Attributes
 
 None.
   

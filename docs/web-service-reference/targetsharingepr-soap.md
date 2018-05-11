@@ -26,7 +26,7 @@ The **TargetSharingEpr** element represents the **TargetSharingEpr** property. T
 
 The following sections describe attributes, child elements, and parent elements.
   
-#### Attributes
+### Attributes
 
 None.
   

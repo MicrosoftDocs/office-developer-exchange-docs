@@ -30,7 +30,7 @@ The **GetUserSettingsRequest** element represents a request to retrieve specifie
 
 The following sections describe attributes, child elements, and parent elements.
   
-#### Attributes
+### Attributes
 
 None.
   

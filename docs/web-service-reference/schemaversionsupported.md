@@ -25,7 +25,7 @@ The **SchemaVersionSupported** element contains the version of the manifest sche
 
 The following sections describe attributes, child elements, and parent elements.
   
-#### Attributes
+### Attributes
 
 None.
   

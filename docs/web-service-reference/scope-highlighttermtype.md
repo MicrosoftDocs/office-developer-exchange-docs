@@ -25,7 +25,7 @@ The **Scope** element specifies the string to be highlighted.
 
 The following sections describe attributes, child elements, and parent elements.
   
-#### Attributes
+### Attributes
 
 None.
   

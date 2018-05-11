@@ -33,7 +33,7 @@ The **DocumentSharingLocation** element contains location and metadata informati
 
 The following sections describe attributes, child elements, and parent elements.
   
-#### Attributes
+### Attributes
 
 None.
   

@@ -38,7 +38,7 @@ The **FolderChange** element represents a collection of changes to be performed 
 
 The following sections describe attributes, child elements, and parent elements.
   
-#### Attributes
+### Attributes
 
 None.
   

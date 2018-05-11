@@ -32,7 +32,7 @@ The **IsGreaterThanOrEqualTo** element represents a search expression that compa
 
 The following sections describe attributes, child elements, and parent elements.
   
-#### Attributes
+### Attributes
 
 None.
   

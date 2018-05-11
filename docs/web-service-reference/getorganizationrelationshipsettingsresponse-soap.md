@@ -28,7 +28,7 @@ The **GetOrganizationRelationshipSettingsResponse** element contains the [GetOrg
 
 The following sections describe attributes, child elements, and parent elements.
   
-#### Attributes
+### Attributes
 
 None.
   

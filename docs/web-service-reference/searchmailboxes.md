@@ -35,7 +35,7 @@ The **SearchMailboxes** element indicates the beginning of the **SearchMailboxes
 
 The following sections describe attributes, child elements, and parent elements.
   
-#### Attributes
+### Attributes
 
 None.
   

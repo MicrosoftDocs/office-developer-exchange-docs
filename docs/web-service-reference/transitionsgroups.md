@@ -31,7 +31,7 @@ The **TransitionsGroups** element represents an array of time zone transition gr
 
 The following sections describe attributes, child elements, and parent elements.
   
-#### Attributes
+### Attributes
 
 None.
   

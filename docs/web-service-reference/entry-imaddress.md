@@ -29,7 +29,7 @@ The **Entry** element represents an instant messaging (IM) address for a contact
 
 The following sections describe attributes, child elements, and parent elements.
   
-#### Attributes
+### Attributes
 
 |**Attribute**|**Description**|
 |:-----|:-----|

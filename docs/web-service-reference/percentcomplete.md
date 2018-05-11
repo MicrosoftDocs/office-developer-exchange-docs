@@ -29,7 +29,7 @@ The **PercentComplete** element describes the completion status of a task.
 
 The following sections describe attributes, child elements, and parent elements.
   
-#### Attributes
+### Attributes
 
 None.
   

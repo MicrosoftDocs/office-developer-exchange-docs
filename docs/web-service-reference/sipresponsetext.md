@@ -29,7 +29,7 @@ The **SIPResponseText** element specifies the SIP response text.
 
 The following sections describe attributes, child elements, and parent elements.
   
-#### Attributes
+### Attributes
 
 None.
   

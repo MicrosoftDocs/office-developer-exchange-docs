@@ -25,7 +25,7 @@ The **ApprovalDecisionMaker** element specifies the display name of the person w
 
 The following sections describe attributes, child elements, and parent elements.
   
-#### Attributes
+### Attributes
 
 None.
   

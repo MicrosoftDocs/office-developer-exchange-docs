@@ -31,7 +31,7 @@ The **DailyRegeneration** element describes the frequency, in days, in which a t
 
 The following sections describe attributes, child elements, and parent elements.
   
-#### Attributes
+### Attributes
 
 None.
   

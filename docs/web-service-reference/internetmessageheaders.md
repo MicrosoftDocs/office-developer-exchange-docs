@@ -31,7 +31,7 @@ The **InternetMessageHeaders** element contains a collection of some of the Inte
 
 The following sections describe attributes, child elements, and parent elements.
   
-#### Attributes
+### Attributes
 
 None.
   

@@ -29,7 +29,7 @@ The **ExternalMemberCount** element represents the count of external members in 
 
 The following sections describe attributes, child elements, and parent elements.
   
-#### Attributes
+### Attributes
 
 None.
   

@@ -25,7 +25,7 @@ The **ReturnNewItemIds** element indicates whether the item identifiers of new i
 
 The following sections describe attributes, child elements, and parent elements.
   
-#### Attributes
+### Attributes
 
 None.
   

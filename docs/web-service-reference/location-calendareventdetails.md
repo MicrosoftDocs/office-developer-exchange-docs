@@ -45,7 +45,7 @@ The **Location** element represents the location field of the calendar item.
 
 The following sections describe attributes, child elements, and parent elements.
   
-#### Attributes
+### Attributes
 
 None.
   

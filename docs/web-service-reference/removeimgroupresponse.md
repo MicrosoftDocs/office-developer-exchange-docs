@@ -30,7 +30,7 @@ The **RemoveImGroupResponse** element represents a response to a **RemoveImGroup
 
 The following sections describe attributes, child elements, and parent elements.
   
-#### Attributes
+### Attributes
 
 None.
   

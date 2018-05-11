@@ -25,7 +25,7 @@ The **Mailbox** element contains an identifier for a mailbox.
 
 The following sections describe attributes, child elements, and parent elements.
   
-#### Attributes
+### Attributes
 
 None.
   

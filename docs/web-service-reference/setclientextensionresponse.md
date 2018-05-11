@@ -27,7 +27,7 @@ The **SetClientExtensionResponse** element contains the response to a **SetClien
 
 The following sections describe attributes, child elements, and parent elements.
   
-#### Attributes
+### Attributes
 
 None.
   

@@ -25,7 +25,7 @@ The **GetAppManifests** element is the base element for a request to return the 
 
 The following sections describe attributes, child elements, and parent elements.
   
-#### Attributes
+### Attributes
 
 None.
   

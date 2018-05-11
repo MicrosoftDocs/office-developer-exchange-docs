@@ -29,7 +29,7 @@ The **Date** element represents the date and time at which the event occurred.
 
 The following sections describe attributes, child elements, and parent elements.
   
-#### Attributes
+### Attributes
 
 None.
   

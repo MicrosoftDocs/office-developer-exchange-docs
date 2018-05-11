@@ -31,7 +31,7 @@ The **SetUserOofSettingsResponse** element contains the result of a [SetUserOofS
 
 The following sections describe attributes, child elements, and parent elements.
   
-#### Attributes
+### Attributes
 
 None.
   

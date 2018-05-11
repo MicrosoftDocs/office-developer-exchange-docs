@@ -36,7 +36,7 @@ The **SuggestionsResponse** element contains response status information and sug
 
 The following sections describe attributes, child elements, and parent elements.
   
-#### Attributes
+### Attributes
 
 None.
   

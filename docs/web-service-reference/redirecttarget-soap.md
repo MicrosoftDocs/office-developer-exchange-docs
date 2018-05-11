@@ -26,7 +26,7 @@ The [RedirectTarget (SOAP)](redirecttarget-soap.md) element contains the target 
 
 The following sections describe attributes, child elements, and parent elements.
   
-#### Attributes
+### Attributes
 
 None.
   

@@ -29,7 +29,7 @@ The **UserSid** element represents the security descriptor definition language (
 
 The following sections describe attributes, child elements, and parent elements.
   
-#### Attributes
+### Attributes
 
 None.
   

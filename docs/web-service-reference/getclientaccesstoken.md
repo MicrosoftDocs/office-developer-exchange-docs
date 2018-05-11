@@ -27,7 +27,7 @@ The **GetClientAccessToken** element contains a request to get a client access t
 
 The following sections describe attributes, child elements, and parent elements.
   
-#### Attributes
+### Attributes
 
 None.
   

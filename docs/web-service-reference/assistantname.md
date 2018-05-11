@@ -29,7 +29,7 @@ The **AssitantName** element represents an assistant to a contact.
 
 The following sections describe attributes, child elements, and parent elements.
   
-#### Attributes
+### Attributes
 
 None.
   

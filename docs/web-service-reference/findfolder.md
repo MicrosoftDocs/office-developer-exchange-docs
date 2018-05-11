@@ -34,7 +34,7 @@ The **FindFolder** element defines a request to find folders in a mailbox.
 
 The following sections describe attributes, child elements, and parent elements.
   
-#### Attributes
+### Attributes
 
 |**Attribute**|**Description**|
 |:-----|:-----|

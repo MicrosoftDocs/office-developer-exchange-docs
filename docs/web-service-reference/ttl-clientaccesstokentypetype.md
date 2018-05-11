@@ -25,7 +25,7 @@ The **TTL** element indicates the time to live value for the token.
 
 The following sections describe attributes, child elements, and parent elements.
   
-#### Attributes
+### Attributes
 
 None.
   

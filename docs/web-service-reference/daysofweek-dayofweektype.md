@@ -29,7 +29,7 @@ The **DaysOfWeek** element describes days of the week that are used in item recu
 
 The following sections describe attributes, child elements, and parent elements.
   
-#### Attributes
+### Attributes
 
 None.
   

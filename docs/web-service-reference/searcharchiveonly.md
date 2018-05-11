@@ -25,7 +25,7 @@ The **SearchArchiveOnly** element indicates whether only the archive mailbox is 
 
 The following sections describe attributes, child elements, and parent elements.
   
-#### Attributes
+### Attributes
 
 None.
   

@@ -26,7 +26,7 @@ The **ErrorCode** element represents an error code that is returned by the Autod
 
 The following sections describe attributes, child elements, and parent elements.
   
-#### Attributes
+### Attributes
 
 None.
   

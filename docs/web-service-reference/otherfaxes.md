@@ -28,7 +28,7 @@ The **OtherFaxes** element specifies an array of fax phone number values and the
 
 The following sections describe attributes, child elements, and parent elements.
   
-#### Attributes
+### Attributes
 
 None.
   

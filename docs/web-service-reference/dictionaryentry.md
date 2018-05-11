@@ -32,7 +32,7 @@ The **DictionaryEntry** element specifies the contents of a single dictionary en
 
 The following sections describe attributes, child elements, and parent elements.
   
-#### Attributes
+### Attributes
 
 None.
   

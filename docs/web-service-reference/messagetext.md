@@ -29,7 +29,7 @@ The **MessageText** element provides a text description of the status of the res
 
 The following sections describe attributes, child elements, and parent elements.
   
-#### Attributes
+### Attributes
 
 None
   

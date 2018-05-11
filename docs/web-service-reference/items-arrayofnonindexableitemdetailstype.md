@@ -27,7 +27,7 @@ The **Items** element contains an array of item details for non-indexable items.
 
 The following sections describe attributes, child elements, and parent elements.
   
-#### Attributes
+### Attributes
 
 None.
   

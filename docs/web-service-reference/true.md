@@ -1,7 +1,5 @@
 ---
 title: "True"
- 
- 
 manager: sethgros
 ms.date: 9/17/2015
 ms.audience: Developer
@@ -20,16 +18,17 @@ description: "The True element specifies a condition that always matches."
 
 The **True** element specifies a condition that always matches. 
   
-```
+```xml
 <True/>
 ```
 
- **ProtectionRuleTrueType**
+**ProtectionRuleTrueType**
+
 ## Attributes and elements
 
 The following sections describe attributes, child elements, and parent elements.
   
-#### Attributes
+### Attributes
 
 None.
   
@@ -63,7 +62,5 @@ The schema that describes this element is located in the IIS virtual directory t
    
 ## See also
 
-#### Concepts
-
-[EWS XML elements in Exchange](ews-xml-elements-in-exchange.md)
+- [EWS XML elements in Exchange](ews-xml-elements-in-exchange.md)
 

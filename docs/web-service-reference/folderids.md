@@ -32,7 +32,7 @@ The **FolderIds** element contains an array of folder identifiers that are used 
 
 The following sections describe attributes, child elements, and parent elements.
   
-#### Attributes
+### Attributes
 
 None.
   

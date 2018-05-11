@@ -25,7 +25,7 @@ The **HasLocationChanged** element specifies whether the location property of a 
 
 The following sections describe attributes, child elements, and parent elements.
   
-#### Attributes
+### Attributes
 
 None.
   

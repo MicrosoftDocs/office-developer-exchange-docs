@@ -28,7 +28,7 @@ The **VotingInformation** element specifies voting information on a voting messa
 
 The following sections describe attributes, child elements, and parent elements.
   
-#### Attributes
+### Attributes
 
 None.
   

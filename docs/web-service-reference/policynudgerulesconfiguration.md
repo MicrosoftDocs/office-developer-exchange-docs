@@ -25,7 +25,7 @@ The **PolicyNudgeRulesConfiguration** element contains the data loss prevention 
 
 The following sections describe attributes, child elements, and parent elements.
   
-#### Attributes
+### Attributes
 
 None.
   

@@ -25,7 +25,7 @@ The **ReminderTime** element specifies the time for the reminder to occur.
 
 The following sections describe attributes, child elements, and parent elements.
   
-#### Attributes
+### Attributes
 
 None.
   

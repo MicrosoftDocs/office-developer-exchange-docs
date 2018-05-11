@@ -25,7 +25,7 @@ The **SearchItemKind** element indicates the type of items that are searched for
 
 The following sections describe attributes, child elements, and parent elements.
   
-#### Attributes
+### Attributes
 
 None.
   

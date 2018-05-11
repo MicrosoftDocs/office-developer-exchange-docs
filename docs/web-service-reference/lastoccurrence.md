@@ -34,7 +34,7 @@ The **LastOccurrence** element represents the last occurrence of a recurring cal
 
 The following sections describe attributes, child elements, and parent elements.
   
-#### Attributes
+### Attributes
 
 None.
   

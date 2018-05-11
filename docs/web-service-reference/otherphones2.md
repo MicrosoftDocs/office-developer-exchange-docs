@@ -28,7 +28,7 @@ The **OtherPhones2** element specifies an array of phone values and the identifi
 
 The following sections describe attributes, child elements, and parent elements.
   
-#### Attributes
+### Attributes
 
 None.
   

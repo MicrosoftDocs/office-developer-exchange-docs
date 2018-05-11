@@ -28,7 +28,7 @@ The **AlternateMailboxes** element represents a collection of alternate mailboxe
 
 The following sections describe attributes, child elements, and parent elements.
   
-#### Attributes
+### Attributes
 
 None.
   

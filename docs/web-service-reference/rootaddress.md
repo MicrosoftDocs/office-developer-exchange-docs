@@ -29,7 +29,7 @@ The **RootAddress** element represents the first address that starts the event f
 
 The following sections describe attributes, child elements, and parent elements.
   
-#### Attributes
+### Attributes
 
 None.
   

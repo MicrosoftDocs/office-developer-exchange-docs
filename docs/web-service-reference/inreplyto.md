@@ -29,7 +29,7 @@ The **InReplyTo** element represents the identifier of the item to which this it
 
 The following sections describe attributes, child elements, and parent elements.
   
-#### Attributes
+### Attributes
 
 None.
   

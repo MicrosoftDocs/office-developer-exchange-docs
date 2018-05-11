@@ -40,7 +40,7 @@ The **DeleteItemResponseMessage** element contains the status and result of a si
 
 The following sections describe attributes, child elements, and parent elements.
   
-#### Attributes
+### Attributes
 
 |**Attribute**|**Description**|
 |:-----|:-----|

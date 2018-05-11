@@ -43,7 +43,7 @@ The **SuggestionQuality** element represents the quality of the suggested meetin
 
 The following sections describe attributes, child elements, and parent elements.
   
-#### Attributes
+### Attributes
 
 None.
   

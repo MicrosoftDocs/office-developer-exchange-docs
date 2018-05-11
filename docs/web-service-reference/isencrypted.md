@@ -29,7 +29,7 @@ The **IsEncrypted** element indicates whether incoming messages must be S/MIME e
 
 The following sections describe attributes, child elements, and parent elements.
   
-#### Attributes
+### Attributes
 
 None.
   

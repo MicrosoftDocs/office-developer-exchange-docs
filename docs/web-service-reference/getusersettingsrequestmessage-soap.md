@@ -27,7 +27,7 @@ The **GetUserSettingsRequestMessage** element represents a [GetUserSettings oper
 
 The following sections describe attributes, child elements, and parent elements.
   
-#### Attributes
+### Attributes
 
 None.
   

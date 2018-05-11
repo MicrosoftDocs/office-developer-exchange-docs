@@ -25,7 +25,7 @@ The **PhoneticFullName** element contains the full name of a contact, including 
 
 The following sections describe attributes, child elements, and parent elements.
   
-#### Attributes
+### Attributes
 
 None.
   

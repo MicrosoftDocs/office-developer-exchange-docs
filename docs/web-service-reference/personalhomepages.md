@@ -27,7 +27,7 @@ The **PersonalHomePages** element specifies an array of home pages and the ident
 
 The following sections describe attributes, child elements, and parent elements.
   
-#### Attributes
+### Attributes
 
 None.
   

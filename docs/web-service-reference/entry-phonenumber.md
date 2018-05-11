@@ -29,7 +29,7 @@ The **Entry** element represents a telephone number for a contact.
 
 The following sections describe attributes, child elements, and parent elements.
   
-#### Attributes
+### Attributes
 
 |**Attribute**|**Description**|
 |:-----|:-----|

@@ -25,7 +25,7 @@ The **SharePointSiteURL** element contains the Uniform Resource Locator (URL) of
 
 The following sections describe attributes, child elements, and parent elements.
   
-#### Attributes
+### Attributes
 
 None.
   

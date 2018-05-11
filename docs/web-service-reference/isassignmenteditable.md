@@ -29,7 +29,7 @@ The **IsAssignmentEditable** element represents the task type.
 
 The following sections describe attributes, child elements, and parent elements.
   
-#### Attributes
+### Attributes
 
 None.
   

@@ -27,7 +27,7 @@ The **GetPersona** element contains the request to get a persona.
 
 The following sections describe attributes, child elements, and parent elements.
   
-#### Attributes
+### Attributes
 
 None.
   

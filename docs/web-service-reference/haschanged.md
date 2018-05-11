@@ -25,7 +25,7 @@ The **HasChanged** element indicates whether a user's photo has changed.
 
 The following sections describe attributes, child elements, and parent elements.
   
-#### Attributes
+### Attributes
 
 None.
   

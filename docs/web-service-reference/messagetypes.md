@@ -27,7 +27,7 @@ The **MessageTypes** element specifies an array of messages to search.
 
 The following sections describe attributes, child elements, and parent elements.
   
-#### Attributes
+### Attributes
 
 None.
   

@@ -29,7 +29,7 @@ The **DeliveryStatus** element specifies the status for a message.
 
 The following sections describe attributes, child elements, and parent elements.
   
-#### Attributes
+### Attributes
 
 None.
   

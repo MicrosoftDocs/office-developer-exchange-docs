@@ -39,7 +39,7 @@ The **GetRoomListsResponse** element defines the response from a [GetRoomLists o
 
 The following sections describe attributes, child elements, and parent elements.
   
-#### Attributes
+### Attributes
 
 |**Attribute**|**Description**|
 |:-----|:-----|

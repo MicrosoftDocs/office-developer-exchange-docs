@@ -28,7 +28,7 @@ The **ArrayOfUserResponse** element contains an array of [UserResponse (SOAP)](u
 
 The following sections describe attributes, child elements, and parent elements.
   
-#### Attributes
+### Attributes
 
 None.
   

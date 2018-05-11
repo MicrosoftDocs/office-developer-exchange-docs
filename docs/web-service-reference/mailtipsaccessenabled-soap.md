@@ -24,7 +24,7 @@ The **MailTipsAccessEnabled** element represents the **MailTipsAccessEnabled()**
 
 The following sections describe attributes, child elements, and parent elements.
   
-#### Attributes
+### Attributes
 
 None.
   

@@ -25,7 +25,7 @@ The **SubscriptionId** element represents the identifier for a streaming subscri
 
 The following sections describe attributes, child elements, and parent elements.
   
-#### Attributes
+### Attributes
 
 None.
   

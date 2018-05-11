@@ -25,7 +25,7 @@ The **PageItemSize** element specifies the number of items to return in a search
 
 The following sections describe attributes, child elements, and parent elements.
   
-#### Attributes
+### Attributes
 
 None.
   

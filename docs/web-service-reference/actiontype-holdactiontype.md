@@ -25,7 +25,7 @@ The **ActionType** element indicates the type of action for the hold.
 
 The following sections describe attributes, child elements, and parent elements.
   
-#### Attributes
+### Attributes
 
 None.
   

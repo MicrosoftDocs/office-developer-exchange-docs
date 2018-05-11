@@ -33,7 +33,7 @@ The **RedirectAddr** element specifies the e-mail address that should be used fo
 
 The following sections describe attributes, child elements, and parent elements.
   
-#### Attributes
+### Attributes
 
 None.
   

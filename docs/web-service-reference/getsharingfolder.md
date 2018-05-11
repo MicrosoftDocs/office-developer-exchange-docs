@@ -29,7 +29,7 @@ The **GetSharingFolder** element defines a request to get the local folder ident
 
 The following sections describe attributes, child elements, and parent elements.
   
-#### Attributes
+### Attributes
 
 None.
   

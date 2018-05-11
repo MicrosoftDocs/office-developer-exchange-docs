@@ -25,7 +25,7 @@ The **ErrorCode** element represents a rule validation error code that describes
 
 The following sections describe attributes, child elements, and parent elements.
   
-#### Attributes
+### Attributes
 
 None.
   

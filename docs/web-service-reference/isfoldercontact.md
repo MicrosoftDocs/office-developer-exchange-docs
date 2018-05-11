@@ -29,7 +29,7 @@ The **IsFolderContact** element indicates whether a user is a contact for a fold
 
 The following sections describe attributes, child elements, and parent elements.
   
-#### Attributes
+### Attributes
 
 None.
   

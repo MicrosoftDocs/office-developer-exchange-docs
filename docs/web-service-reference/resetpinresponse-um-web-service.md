@@ -30,7 +30,7 @@ The ResetPINResponse element defines a response to a [ResetPIN operation (UM web
 
 The following sections describe attributes, child elements, and parent elements.
   
-#### Attributes
+### Attributes
 
 None.
   

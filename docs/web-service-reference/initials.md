@@ -29,7 +29,7 @@ The **Initials** element represents the initials of a contact.
 
 The following sections describe attributes, child elements, and parent elements.
   
-#### Attributes
+### Attributes
 
 None.
   

@@ -29,7 +29,7 @@ The **State** element represents the state of residence for a contact item.
 
 The following sections describe attributes, child elements, and parent elements.
   
-#### Attributes
+### Attributes
 
 None.
   

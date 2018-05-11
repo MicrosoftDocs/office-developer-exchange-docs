@@ -32,7 +32,7 @@ The **Diagnostics** element provides timing and performance information that is 
 
 The following sections describe attributes, child elements, and parent elements.
   
-#### Attributes
+### Attributes
 
 None.
   

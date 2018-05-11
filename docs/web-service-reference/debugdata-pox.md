@@ -29,7 +29,7 @@ The **DebugData** element contains the debug data for an Autodiscover error resp
 
 The following sections describe attributes, child elements, and parent elements.
   
-#### Attributes
+### Attributes
 
 None.
   

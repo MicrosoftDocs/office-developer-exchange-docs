@@ -31,7 +31,7 @@ The **ContainsHeaderStrings** element indicates the strings that must appear in 
 
 The following sections describe attributes, child elements, and parent elements.
   
-#### Attributes
+### Attributes
 
 None.
   

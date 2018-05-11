@@ -29,7 +29,7 @@ The **Priority** element indicates the order in which a rule is to be run.
 
 The following sections describe attributes, child elements, and parent elements.
   
-#### Attributes
+### Attributes
 
 None.
   

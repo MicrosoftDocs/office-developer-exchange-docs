@@ -31,7 +31,7 @@ The **RestrictedGroupSids** element represents a collection of restricted groups
 
 The following sections describe attributes, child elements, and parent elements.
   
-#### Attributes
+### Attributes
 
 None.
   

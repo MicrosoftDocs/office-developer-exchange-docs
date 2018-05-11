@@ -29,7 +29,7 @@ The **Delegator** element contains the name of the delegator who assigned the ta
 
 The following sections describe attributes, child elements, and parent elements.
   
-#### Attributes
+### Attributes
 
 None.
   

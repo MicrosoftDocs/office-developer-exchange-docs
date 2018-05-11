@@ -35,7 +35,7 @@ The **Mailbox** element identifies a mail-enabled Active Directory object.
 
 The following sections describe attributes, child elements, and parent elements.
   
-#### Attributes
+### Attributes
 
 None.
   

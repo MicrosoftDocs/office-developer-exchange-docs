@@ -38,7 +38,7 @@ The **AttachmentShape** element identifies additional properties to return in a 
 
 The following sections describe attributes, child elements, and parent elements.
   
-#### Attributes
+### Attributes
 
 None.
   

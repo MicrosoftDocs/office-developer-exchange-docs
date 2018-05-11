@@ -29,7 +29,7 @@ The **GetClientExtension** element represents a request to get a client extensio
 
 The following sections describe attributes, child elements, and parent elements.
   
-#### Attributes
+### Attributes
 
 None.
   

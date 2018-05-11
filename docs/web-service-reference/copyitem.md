@@ -33,7 +33,7 @@ The **CopyItem** element defines a request to copy an item in a mailbox in the E
 
 The following sections describe attributes, child elements, and parent elements.
   
-#### Attributes
+### Attributes
 
 None.
   

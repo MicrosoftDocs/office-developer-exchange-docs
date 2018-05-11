@@ -27,7 +27,7 @@ The **ToRecipients** element specifies a list of recipients to whom the item was
 
 The following sections describe attributes, child elements, and parent elements.
   
-#### Attributes
+### Attributes
 
 None.
   

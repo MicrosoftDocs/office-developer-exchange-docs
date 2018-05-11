@@ -42,7 +42,7 @@ The **FreeBusyView** element contains availability information for a specific us
 
 The following sections describe attributes, child elements, and parent elements.
   
-#### Attributes
+### Attributes
 
 None.
   

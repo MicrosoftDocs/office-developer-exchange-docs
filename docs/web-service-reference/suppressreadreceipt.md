@@ -31,7 +31,7 @@ The **SuppressReadReceipt** element is used to suppress read receipts.
 
 The following sections describe attributes, child elements, and parent elements.
   
-#### Attributes
+### Attributes
 
 None.
   

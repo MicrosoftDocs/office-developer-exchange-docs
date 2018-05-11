@@ -28,7 +28,7 @@ The **MailboxSearchScope** element specifies a mailbox and a search scope for a 
 
 The following sections describe attributes, child elements, and parent elements.
   
-#### Attributes
+### Attributes
 
 None.
   

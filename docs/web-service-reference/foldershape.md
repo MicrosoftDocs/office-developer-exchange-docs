@@ -32,7 +32,7 @@ The **FolderShape** element identifies the folder properties to include in a [Ge
 
 The following sections describe attributes, child elements, and parent elements.
   
-#### Attributes
+### Attributes
 
 None.
   

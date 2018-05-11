@@ -68,7 +68,7 @@ The **Item** element represents a generic item in the Exchange store.
 
 The following sections describe attributes, child elements, and parent elements.
   
-#### Attributes
+### Attributes
 
 None.
   

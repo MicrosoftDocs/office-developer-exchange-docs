@@ -35,7 +35,7 @@ The **StatusFrequency** element represents the maximum timeout value, in minutes
 
 The following sections describe attributes, child elements, and parent elements.
   
-#### Attributes
+### Attributes
 
 None.
   

@@ -29,7 +29,7 @@ The **BaseShape** element identifies the set of properties to return in an item 
 
 The following sections describe attributes, child elements, and parent elements.
   
-#### Attributes
+### Attributes
 
 None.
   

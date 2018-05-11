@@ -28,7 +28,7 @@ The **DomainSettingsErrors** element contains error information for settings tha
 
 The following sections describe attributes, child elements, and parent elements.
   
-#### Attributes
+### Attributes
 
 None.
   

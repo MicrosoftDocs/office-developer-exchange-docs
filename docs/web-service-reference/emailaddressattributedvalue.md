@@ -28,7 +28,7 @@ The **EmailAddressAttributedValue** element specifies an instance of an array of
 
 The following sections describe attributes, child elements, and parent elements.
   
-#### Attributes
+### Attributes
 
 None.
   

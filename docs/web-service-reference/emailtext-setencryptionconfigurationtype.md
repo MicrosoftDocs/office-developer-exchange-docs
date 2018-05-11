@@ -24,7 +24,7 @@ The **EmailText (SetEncryptionConfigurationType)** element is intended for inter
 
 The following sections describe attributes, child elements, and parent elements.
   
-#### Attributes
+### Attributes
 
 None.
   

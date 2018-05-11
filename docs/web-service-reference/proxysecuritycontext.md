@@ -29,7 +29,7 @@ The **ProxySecurityContext** element is used by HTTP proxy of the computer that 
 
 The following sections describe attributes, child elements, and parent elements.
   
-#### Attributes
+### Attributes
 
 None.
   

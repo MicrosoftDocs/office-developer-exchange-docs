@@ -35,7 +35,7 @@ The **TTL** element specifies the Time to Live, in hours, during which the setti
 
 The following sections describe attributes, child elements, and parent elements.
   
-#### Attributes
+### Attributes
 
 None.
   

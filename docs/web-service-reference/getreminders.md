@@ -31,7 +31,7 @@ The **GetReminders** element specifies a request to get reminders.
 
 The following sections describe attributes, child elements, and parent elements.
   
-#### Attributes
+### Attributes
 
 None.
   

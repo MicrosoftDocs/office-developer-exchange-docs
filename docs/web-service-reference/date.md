@@ -39,7 +39,7 @@ The **Date** element represents the date that contains the suggested meeting tim
 
 The following sections describe attributes, child elements, and parent elements.
   
-#### Attributes
+### Attributes
 
 None.
   

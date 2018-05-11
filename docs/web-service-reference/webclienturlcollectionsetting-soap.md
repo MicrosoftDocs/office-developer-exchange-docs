@@ -30,7 +30,7 @@ The [WebClientUrlCollectionSetting (SOAP)](webclienturlcollectionsetting-soap.md
 
 The following sections describe attributes, child elements, and parent elements.
   
-#### Attributes
+### Attributes
 
 None.
   

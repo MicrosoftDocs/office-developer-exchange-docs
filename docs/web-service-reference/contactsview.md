@@ -33,7 +33,7 @@ The **ContactsView** element defines a search for contact items based on alphabe
 
 The following sections describe attributes, child elements, and parent elements.
   
-#### Attributes
+### Attributes
 
 |**Attribute**|**Description**|
 |:-----|:-----|

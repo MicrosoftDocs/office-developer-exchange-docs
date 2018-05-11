@@ -25,7 +25,7 @@ The **ErrorMessage** element represents the reason for the validation error.
 
 The following sections describe attributes, child elements, and parent elements.
   
-#### Attributes
+### Attributes
 
 None.
   

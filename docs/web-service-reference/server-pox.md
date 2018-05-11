@@ -35,7 +35,7 @@ The **Server** element specifies the name of the mail server.
 
 The following sections describe attributes, child elements, and parent elements.
   
-#### Attributes
+### Attributes
 
 None.
   

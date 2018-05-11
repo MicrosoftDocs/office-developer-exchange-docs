@@ -35,7 +35,7 @@ The **RetentionPolicyTag** element specifies the retention policy for a mailbox 
 
 The following sections describe attributes, child elements, and parent elements.
   
-#### Attributes
+### Attributes
 
 None.
   

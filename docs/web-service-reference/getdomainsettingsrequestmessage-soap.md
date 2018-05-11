@@ -27,7 +27,7 @@ The **GetDomainSettingsRequestMessage** element represents a [GetDomainSettings 
 
 The following sections describe attributes, child elements, and parent elements.
   
-#### Attributes
+### Attributes
 
 None.
   

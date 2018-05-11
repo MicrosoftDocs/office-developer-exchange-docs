@@ -25,7 +25,7 @@ The **LocationSource** element specifies information about the origin of the ass
 
 The following sections describe attributes, child elements, and parent elements.
   
-#### Attributes
+### Attributes
 
 None.
   

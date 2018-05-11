@@ -30,7 +30,7 @@ The **DisableAppResponse** element specifies the response to a **DisableApp** re
 
 The following sections describe attributes, child elements, and parent elements.
   
-#### Attributes
+### Attributes
 
 None.
   

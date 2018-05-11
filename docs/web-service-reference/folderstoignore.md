@@ -28,7 +28,7 @@ The **FoldersToIgnore** element identifies a list of folders that are ignored wh
 
 The following sections describe attributes, child elements, and parent elements.
   
-#### Attributes
+### Attributes
 
 None.
   

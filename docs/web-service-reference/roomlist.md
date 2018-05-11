@@ -39,7 +39,7 @@ The **RoomList** element represents an e-mail address that identifies a list of 
 
 The following sections describe attributes, child elements, and parent elements.
   
-#### Attributes
+### Attributes
 
 None.
   

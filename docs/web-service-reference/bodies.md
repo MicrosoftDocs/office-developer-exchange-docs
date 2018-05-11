@@ -27,7 +27,7 @@ The **Bodies** element specifies an array of **BodyContentAttributedValue** elem
 
 The following sections describe attributes, child elements, and parent elements.
   
-#### Attributes
+### Attributes
 
 None.
   

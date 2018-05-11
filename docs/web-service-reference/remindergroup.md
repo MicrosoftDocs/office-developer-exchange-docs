@@ -25,7 +25,7 @@ The **ReminderGroup** element specifies whether the reminder is for a calendar i
 
 The following sections describe attributes, child elements, and parent elements.
   
-#### Attributes
+### Attributes
 
 None.
   

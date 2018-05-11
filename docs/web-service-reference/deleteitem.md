@@ -31,7 +31,7 @@ The **DeleteItem** element defines a request to delete an item from a mailbox in
 
 The following sections describe attributes, child elements, and parent elements.
   
-#### Attributes
+### Attributes
 
 |**Attribute**|**Description**|
 |:-----|:-----|

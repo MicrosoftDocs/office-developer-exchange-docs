@@ -25,7 +25,7 @@ The **ApiVersionSupported** element contains the version of the JavaScript API f
 
 The following sections describe attributes, child elements, and parent elements.
   
-#### Attributes
+### Attributes
 
 None.
   

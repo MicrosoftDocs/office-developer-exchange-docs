@@ -25,7 +25,7 @@ The **PersonaType** element specifies the type of the persona, for example, a pe
 
 The following sections describe attributes, child elements, and parent elements.
   
-#### Attributes
+### Attributes
 
 None.
   

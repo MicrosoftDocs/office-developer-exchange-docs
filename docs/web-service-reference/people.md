@@ -27,7 +27,7 @@ The **People** element specifies an array of persona data returned as the result
 
 The following sections describe attributes, child elements, and parent elements.
   
-#### Attributes
+### Attributes
 
 None.
   

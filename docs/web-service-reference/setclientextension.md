@@ -27,7 +27,7 @@ The **SetClientExtension** element contains a request to set a client extension.
 
 The following sections describe attributes, child elements, and parent elements.
   
-#### Attributes
+### Attributes
 
 None.
   

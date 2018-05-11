@@ -25,7 +25,7 @@ The **StartTime (ReminderMessageDataType)** element specifies the starting time 
 
 The following sections describe attributes, child elements, and parent elements.
   
-#### Attributes
+### Attributes
 
 None.
   

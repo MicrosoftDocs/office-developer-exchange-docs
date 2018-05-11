@@ -27,7 +27,7 @@ The **UnpinTeamMailbox** element contains the request to unpin a site mailbox fr
 
 The following sections describe attributes, child elements, and parent elements.
   
-#### Attributes
+### Attributes
 
 None.
   

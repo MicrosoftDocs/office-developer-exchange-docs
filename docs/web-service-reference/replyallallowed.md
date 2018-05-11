@@ -25,7 +25,7 @@ The **ReplyAllAllowed** element specifies whether a reply all is allowed for rig
 
 The following sections describe attributes, child elements, and parent elements.
   
-#### Attributes
+### Attributes
 
 None.
   

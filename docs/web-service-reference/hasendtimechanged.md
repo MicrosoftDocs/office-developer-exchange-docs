@@ -25,7 +25,7 @@ The **HasEndTimeChanged** element specifies whether the end time for a meeting h
 
 The following sections describe attributes, child elements, and parent elements.
   
-#### Attributes
+### Attributes
 
 None.
   

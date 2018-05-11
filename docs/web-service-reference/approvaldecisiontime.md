@@ -25,7 +25,7 @@ The **ApprovalDecisionTime** element specifies the time at which the approval de
 
 The following sections describe attributes, child elements, and parent elements.
   
-#### Attributes
+### Attributes
 
 None.
   

@@ -26,7 +26,7 @@ The **MinorVersion** element represents minor version number for the server.
 
 The following sections describe attributes, child elements, and parent elements.
   
-#### Attributes
+### Attributes
 
 None.
   

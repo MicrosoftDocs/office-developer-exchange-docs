@@ -31,7 +31,7 @@ The **RuleOperationErrors** element represents an array of rule validation error
 
 The following sections describe attributes, child elements, and parent elements.
   
-#### Attributes
+### Attributes
 
 None.
   

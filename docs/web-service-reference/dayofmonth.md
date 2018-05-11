@@ -29,7 +29,7 @@ The **DayOfMonth** element describes the day in a month that a recurring item oc
 
 The following sections describe attributes, child elements, and parent elements.
   
-#### Attributes
+### Attributes
 
 None.
   

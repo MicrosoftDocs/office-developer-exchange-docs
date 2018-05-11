@@ -25,7 +25,7 @@ The **ItemHits** element identifies how many times a keyword was found.
 
 The following sections describe attributes, child elements, and parent elements.
   
-#### Attributes
+### Attributes
 
 None.
   

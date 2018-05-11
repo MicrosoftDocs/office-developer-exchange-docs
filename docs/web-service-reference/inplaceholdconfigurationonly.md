@@ -25,7 +25,7 @@ The **InPlaceHoldConfigurationOnly** element specifies whether to include the in
 
 The following sections describe attributes, child elements, and parent elements.
   
-#### Attributes
+### Attributes
 
 None.
   

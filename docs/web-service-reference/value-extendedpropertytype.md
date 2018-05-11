@@ -29,7 +29,7 @@ The **Value** element specifies an array of extended properties for a persona.
 
 The following sections describe attributes, child elements, and parent elements.
   
-#### Attributes
+### Attributes
 
 None.
   

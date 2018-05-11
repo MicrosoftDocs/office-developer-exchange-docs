@@ -25,7 +25,7 @@ The **ModifyRecipientsAllowed** element specifies whether modification of the re
 
 The following sections describe attributes, child elements, and parent elements.
   
-#### Attributes
+### Attributes
 
 None.
   

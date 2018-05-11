@@ -25,7 +25,7 @@ The **TotalNumberOfPeopleInView** element specifies the total number of personas
 
 The following sections describe attributes, child elements, and parent elements.
   
-#### Attributes
+### Attributes
 
 None.
   

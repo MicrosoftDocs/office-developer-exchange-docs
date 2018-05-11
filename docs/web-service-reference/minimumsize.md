@@ -25,7 +25,7 @@ The **MinimumSize** element represents the minimum size that a message must be i
 
 The following sections describe attributes, child elements, and parent elements.
   
-#### Attributes
+### Attributes
 
 None.
   

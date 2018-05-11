@@ -29,7 +29,7 @@ The **UserConfigurationProperties** element specifies the property types to get 
 
 The following sections describe attributes, child elements, and parent elements.
   
-#### Attributes
+### Attributes
 
 None.
   

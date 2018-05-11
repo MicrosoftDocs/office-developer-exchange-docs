@@ -29,7 +29,7 @@ The **StartDate** element represents the start date of an item.
 
 The following sections describe attributes, child elements, and parent elements.
   
-#### Attributes
+### Attributes
 
 None.
   

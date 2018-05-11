@@ -27,7 +27,7 @@ The **ReminderItemActions** element specifies the actions for reminder items.
 
 The following sections describe attributes, child elements, and parent elements.
   
-#### Attributes
+### Attributes
 
 None.
   

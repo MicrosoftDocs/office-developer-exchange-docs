@@ -37,7 +37,7 @@ The **GlobalLastDeliveryTime** element contains the delivery time of the message
 
 The following sections describe attributes, child elements, and parent elements.
   
-#### Attributes
+### Attributes
 
 None.
   

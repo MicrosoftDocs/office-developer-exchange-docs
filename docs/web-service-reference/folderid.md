@@ -29,7 +29,7 @@ The **FolderId** element contains the identifier and change key of a folder.
 
 The following sections describe attributes, child elements, and parent elements.
   
-#### Attributes
+### Attributes
 
 |**Attribute**|**Description**|
 |:-----|:-----|

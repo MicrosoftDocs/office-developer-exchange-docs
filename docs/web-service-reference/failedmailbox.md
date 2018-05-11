@@ -30,7 +30,7 @@ The **FailedMailbox** element specifies the error message for a mailbox that fai
 
 The following sections describe attributes, child elements, and parent elements.
   
-#### Attributes
+### Attributes
 
 None.
   

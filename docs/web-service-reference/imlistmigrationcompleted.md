@@ -25,7 +25,7 @@ The **ImListMigrationCompleted** element indicates whether the Exchange store co
 
 The following sections describe attributes, child elements, and parent elements.
   
-#### Attributes
+### Attributes
 
 None.
   

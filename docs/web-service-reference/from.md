@@ -31,7 +31,7 @@ The **From** element represents the address from which the message was sent.
 
 The following sections describe attributes, child elements, and parent elements.
   
-#### Attributes
+### Attributes
 
 None.
   

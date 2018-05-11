@@ -25,7 +25,7 @@ The **ExternalEmailAddress** element contains the external email address of the 
 
 The following sections describe attributes, child elements, and parent elements.
   
-#### Attributes
+### Attributes
 
 None.
   

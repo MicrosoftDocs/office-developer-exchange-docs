@@ -25,7 +25,7 @@ The **PolicyTag** element specifies the retention identifier on an item or folde
 
 The following sections describe attributes, child elements, and parent elements.
   
-#### Attributes
+### Attributes
 
 |**Attribute**|**Description**|
 |:-----|:-----|

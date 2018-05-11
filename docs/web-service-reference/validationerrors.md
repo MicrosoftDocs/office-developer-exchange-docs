@@ -31,7 +31,7 @@ The **ValidationErrors** element represents an array of rule validation errors o
 
 The following sections describe attributes, child elements, and parent elements.
   
-#### Attributes
+### Attributes
 
 None.
   

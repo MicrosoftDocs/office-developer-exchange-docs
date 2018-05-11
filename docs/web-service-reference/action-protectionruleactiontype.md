@@ -32,7 +32,7 @@ The **Action** element identifies what action must be executed if the condition 
 
 The following sections describe attributes, child elements, and parent elements.
   
-#### Attributes
+### Attributes
 
 |**Attribute**|**Description**|
 |:-----|:-----|

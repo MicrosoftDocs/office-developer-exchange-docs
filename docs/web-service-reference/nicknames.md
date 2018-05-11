@@ -27,7 +27,7 @@ The **Nicknames** element specifies an array of nickname values and the identifi
 
 The following sections describe attributes, child elements, and parent elements.
   
-#### Attributes
+### Attributes
 
 None.
   

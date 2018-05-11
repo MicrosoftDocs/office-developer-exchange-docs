@@ -31,7 +31,7 @@ The **GetPersonaResponseMessage** contains the response data resulting from a **
 
 The following sections describe attributes, child elements, and parent elements.
   
-#### Attributes
+### Attributes
 
 None.
   

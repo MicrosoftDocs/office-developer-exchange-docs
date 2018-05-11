@@ -29,7 +29,7 @@ The **EnhancedLocation** element specifies location information such as the name
 
 The following sections describe attributes, child elements, and parent elements.
   
-#### Attributes
+### Attributes
 
 None.
   

@@ -29,7 +29,7 @@ The **QueryString** element contains a mailbox query string based on Advanced Qu
 
 The following sections describe attributes, child elements, and parent elements.
   
-#### Attributes
+### Attributes
 
 |**Attribute**|**Description**|
 |:-----|:-----|

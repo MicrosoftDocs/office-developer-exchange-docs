@@ -31,7 +31,7 @@ The **FromAddresses** element indicates the e-mail addresses from which incoming
 
 The following sections describe attributes, child elements, and parent elements.
   
-#### Attributes
+### Attributes
 
 None.
   

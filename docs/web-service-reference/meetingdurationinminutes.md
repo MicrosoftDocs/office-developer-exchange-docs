@@ -35,7 +35,7 @@ The **MeetingDurationInMinutes** element specifies the duration of the meeting t
 
 The following sections describe attributes, child elements, and parent elements.
   
-#### Attributes
+### Attributes
 
 None.
   

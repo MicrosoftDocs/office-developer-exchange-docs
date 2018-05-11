@@ -25,7 +25,7 @@ The **CompanyNameSortKey** element contains the sort key for a company name.
 
 The following sections describe attributes, child elements, and parent elements.
   
-#### Attributes
+### Attributes
 
 None.
   

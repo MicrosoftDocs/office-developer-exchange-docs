@@ -40,7 +40,7 @@ The **CalendarPermission** element defines the access that a user has to a Calen
 
 The following sections describe attributes, child elements, and parent elements.
   
-#### Attributes
+### Attributes
 
 None.
   

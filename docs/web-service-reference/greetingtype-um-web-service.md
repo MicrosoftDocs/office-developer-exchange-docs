@@ -32,7 +32,7 @@ The **GreetingType** element defines the type of greeting to use in a [PlayOnPho
 
 The following sections describe attributes, child elements, and parent elements.
   
-#### Attributes
+### Attributes
 
 None.
   

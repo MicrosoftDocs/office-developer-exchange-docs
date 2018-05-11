@@ -27,7 +27,7 @@ The **PhoneNumbers** element specifies an array of extracted phone numbers.
 
 The following sections describe attributes, child elements, and parent elements.
   
-#### Attributes
+### Attributes
 
 None.
   

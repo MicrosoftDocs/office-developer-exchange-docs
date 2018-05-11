@@ -26,7 +26,7 @@ The **Name** element represents the name of a setting.
 
 The following sections describe attributes, child elements, and parent elements.
   
-#### Attributes
+### Attributes
 
 None.
   

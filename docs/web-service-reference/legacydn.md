@@ -25,7 +25,7 @@ The **LegacyDN** element identifies a mailbox by its legacy distinguished name.
 
 The following sections describe attributes, child elements, and parent elements.
   
-#### Attributes
+### Attributes
 
 None.
   

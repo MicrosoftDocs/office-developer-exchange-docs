@@ -37,7 +37,7 @@ The **GlobalMessageCount** element contains the total number of conversation ite
 
 The following sections describe attributes, child elements, and parent elements.
   
-#### Attributes
+### Attributes
 
 None.
   

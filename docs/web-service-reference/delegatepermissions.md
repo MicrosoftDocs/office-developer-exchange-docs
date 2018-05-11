@@ -36,7 +36,7 @@ The **DelegatePermissions** element contains the delegate permission-level setti
 
 The following sections describe attributes, child elements, and parent elements.
   
-#### Attributes
+### Attributes
 
 None.
   

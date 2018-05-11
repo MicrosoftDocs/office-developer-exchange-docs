@@ -39,7 +39,7 @@ The **OofSettings** element contains the Out of Office (OOF) settings.
 
 The following sections describe attributes, child elements, and parent elements.
   
-#### Attributes
+### Attributes
 
 None.
   

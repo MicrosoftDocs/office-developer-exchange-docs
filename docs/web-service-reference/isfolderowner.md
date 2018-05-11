@@ -29,7 +29,7 @@ The **IsFolderOwner** element indicates whether a user is the owner of a folder.
 
 The following sections describe attributes, child elements, and parent elements.
   
-#### Attributes
+### Attributes
 
 None.
   

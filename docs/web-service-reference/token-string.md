@@ -25,7 +25,7 @@ The **Token** element contains a search refiner token.
 
 The following sections describe attributes, child elements, and parent elements.
   
-#### Attributes
+### Attributes
 
 None.
   

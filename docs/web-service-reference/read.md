@@ -29,7 +29,7 @@ The **Read** element indicates whether a client can read a folder or item. This 
 
 The following sections describe attributes, child elements, and parent elements.
   
-#### Attributes
+### Attributes
 
 None.
   

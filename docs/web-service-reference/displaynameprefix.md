@@ -25,7 +25,7 @@ The **DisplayNamePrefix** element specifies the prefix of the display name of th
 
 The following sections describe attributes, child elements, and parent elements.
   
-#### Attributes
+### Attributes
 
 None.
   

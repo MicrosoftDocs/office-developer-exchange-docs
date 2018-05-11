@@ -26,7 +26,7 @@ The **MajorVersion** element represents the major version number for the server.
 
 The following sections describe attributes, child elements, and parent elements.
   
-#### Attributes
+### Attributes
 
 None.
   

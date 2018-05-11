@@ -76,7 +76,7 @@ The **PostItem** element represents a post item in the Exchange store.
 
 The following sections describe attributes, child elements, and parent elements.
   
-#### Attributes
+### Attributes
 
 None.
   

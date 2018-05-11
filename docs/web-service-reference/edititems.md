@@ -29,7 +29,7 @@ The **EditItems** element indicates which items in a folder a user has permissio
 
 The following sections describe attributes, child elements, and parent elements.
   
-#### Attributes
+### Attributes
 
 None.
   

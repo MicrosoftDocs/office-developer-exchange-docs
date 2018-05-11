@@ -27,7 +27,7 @@ The **MobilePhones** element specifies an array of mobile phone numbers and the 
 
 The following sections describe attributes, child elements, and parent elements.
   
-#### Attributes
+### Attributes
 
 None.
   

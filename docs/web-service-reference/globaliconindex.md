@@ -25,7 +25,7 @@ The **GlobalIconIndex** element identifies the global icon index for all items i
 
 The following sections describe attributes, child elements, and parent elements.
   
-#### Attributes
+### Attributes
 
 None.
   

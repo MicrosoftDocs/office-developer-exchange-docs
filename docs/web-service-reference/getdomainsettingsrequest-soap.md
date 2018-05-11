@@ -30,7 +30,7 @@ The **GetDomainSettingsRequest** element represents a [GetDomainSettings operati
 
 The following sections describe attributes, child elements, and parent elements.
   
-#### Attributes
+### Attributes
 
 None.
   

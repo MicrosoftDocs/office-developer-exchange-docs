@@ -35,7 +35,7 @@ The **MaximumResultsByDay** element specifies the number of suggested meeting ti
 
 The following sections describe attributes, child elements, and parent elements.
   
-#### Attributes
+### Attributes
 
 None.
   

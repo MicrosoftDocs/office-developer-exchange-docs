@@ -28,7 +28,7 @@ The **ArrayOfDomainResponse** element contains an array of responses for each re
 
 The following sections describe attributes, child elements, and parent elements.
   
-#### Attributes
+### Attributes
 
 None.
   

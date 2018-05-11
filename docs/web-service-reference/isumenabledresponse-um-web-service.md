@@ -30,7 +30,7 @@ The **IsUMEnabledResponse** element defines a response to an [IsUMEnabled operat
 
 The following sections describe attributes, child elements, and parent elements.
   
-#### Attributes
+### Attributes
 
 None.
   

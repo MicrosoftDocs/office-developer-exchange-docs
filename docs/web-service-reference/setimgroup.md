@@ -28,7 +28,7 @@ The **SetImGroup** element represents a request to change the display name of an
 
 The following sections describe attributes, child elements, and parent elements.
   
-#### Attributes
+### Attributes
 
 None.
   

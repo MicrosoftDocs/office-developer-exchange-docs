@@ -31,7 +31,7 @@ The **ReceivedBy** element identifies the delegate in a delegate access scenario
 
 The following sections describe attributes, child elements, and parent elements.
   
-#### Attributes
+### Attributes
 
 None.
   

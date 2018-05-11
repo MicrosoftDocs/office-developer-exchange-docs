@@ -31,7 +31,7 @@ The **Ids** element contains an array of time zone definition identifiers.
 
 The following sections describe attributes, child elements, and parent elements.
   
-#### Attributes
+### Attributes
 
 None.
   

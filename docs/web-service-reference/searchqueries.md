@@ -27,7 +27,7 @@ The **SearchQueries** element contains a list of mailboxes and associated querie
 
 The following sections describe attributes, child elements, and parent elements.
   
-#### Attributes
+### Attributes
 
 None.
   

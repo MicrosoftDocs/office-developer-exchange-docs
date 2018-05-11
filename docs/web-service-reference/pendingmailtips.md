@@ -29,7 +29,7 @@ The **PendingMailTips** element indicates that the mail tips in this element cou
 
 The following sections describe attributes, child elements, and parent elements.
   
-#### Attributes
+### Attributes
 
 None.
   

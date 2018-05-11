@@ -32,7 +32,7 @@ The **Attachments** element contains the items or files that are attached to an 
 
 The following sections describe attributes, child elements, and parent elements.
   
-#### Attributes
+### Attributes
 
 None.
   

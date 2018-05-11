@@ -32,7 +32,7 @@ The **SyncFolderHierarchy** element defines a request to synchronize a folder hi
 
 The following sections describe attributes, child elements, and parent elements.
   
-#### Attributes
+### Attributes
 
 None.
   

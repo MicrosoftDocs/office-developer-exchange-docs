@@ -33,7 +33,7 @@ The **AccountType** element represents the account type.
 
 The following sections describe attributes, child elements, and parent elements.
   
-#### Attributes
+### Attributes
 
 None.
   

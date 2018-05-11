@@ -41,7 +41,7 @@ The **Internal** element contains the collection of URLs that a client can use t
 
 The following sections describe attributes, child elements, and parent elements.
   
-#### Attributes
+### Attributes
 
 None.
   

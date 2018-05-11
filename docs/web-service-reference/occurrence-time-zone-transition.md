@@ -29,7 +29,7 @@ The **Occurrence** element represents the occurrence of the day of the week in t
 
 The following sections describe attributes, child elements, and parent elements.
   
-#### Attributes
+### Attributes
 
 None.
   

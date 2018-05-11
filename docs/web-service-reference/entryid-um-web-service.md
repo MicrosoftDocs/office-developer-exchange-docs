@@ -34,7 +34,7 @@ The **entryId** element contains the value that represents the identifier of the
 
 The following sections describe attributes, child elements, and parent elements.
   
-#### Attributes
+### Attributes
 
 None.
   

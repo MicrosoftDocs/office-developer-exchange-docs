@@ -33,7 +33,7 @@ The **Data** element contains encrypted data that represents the shared data.
 
 The following sections describe attributes, child elements, and parent elements.
   
-#### Attributes
+### Attributes
 
 None.
   

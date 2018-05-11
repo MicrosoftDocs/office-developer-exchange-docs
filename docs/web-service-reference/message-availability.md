@@ -29,7 +29,7 @@ The **Message** element contains the out of Office (OOF) response.
 
 The following sections describe attributes, child elements, and parent elements.
   
-#### Attributes
+### Attributes
 
 None.
   

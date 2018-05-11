@@ -29,7 +29,7 @@ The **ReminderMinutesBeforeStart** element represents the number of minutes befo
 
 The following sections describe attributes, child elements, and parent elements.
   
-#### Attributes
+### Attributes
 
 None.
   

@@ -25,7 +25,7 @@ The **ErrorDescription** element describes the error that is returned in informa
 
 The following sections describe attributes, child elements, and parent elements.
   
-#### Attributes
+### Attributes
 
 None.
   

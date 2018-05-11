@@ -28,7 +28,7 @@ The **GetFederationInformationRequestMessage** element prepares a call to the se
 
 The following sections describe attributes, child elements, and parent elements.
   
-#### Attributes
+### Attributes
 
 None.
   

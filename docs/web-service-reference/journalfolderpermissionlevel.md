@@ -31,7 +31,7 @@ The **JournalFolderPermissionLevel** element contains the permissions for the de
 
 The following sections describe attributes, child elements, and parent elements.
   
-#### Attributes
+### Attributes
 
 None.
   

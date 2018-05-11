@@ -31,7 +31,7 @@ The **ReceivedRepresenting** element identifies the principal in a delegate acce
 
 The following sections describe attributes, child elements, and parent elements.
   
-#### Attributes
+### Attributes
 
 None.
   

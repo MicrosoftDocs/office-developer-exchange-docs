@@ -32,7 +32,7 @@ The **PermissionSet** element contains all the permissions that are configured f
 
 The following sections describe attributes, child elements, and parent elements.
   
-#### Attributes
+### Attributes
 
 None.
   

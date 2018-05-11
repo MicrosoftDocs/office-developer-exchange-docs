@@ -29,7 +29,7 @@ The **DelegationState** element represents the status of a delegated task.
 
 The following sections describe attributes, child elements, and parent elements.
   
-#### Attributes
+### Attributes
 
 None.
   

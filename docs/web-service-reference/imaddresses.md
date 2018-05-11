@@ -31,7 +31,7 @@ The **ImAddresses** element represents a collection of instant messaging address
 
 The following sections describe attributes, child elements, and parent elements.
   
-#### Attributes
+### Attributes
 
 None.
   

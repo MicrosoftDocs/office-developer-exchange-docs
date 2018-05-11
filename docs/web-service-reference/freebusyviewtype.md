@@ -39,7 +39,7 @@ The **FreeBusyViewType** element represents the type of free/busy information re
 
 The following sections describe attributes, child elements, and parent elements.
   
-#### Attributes
+### Attributes
 
 None.
   

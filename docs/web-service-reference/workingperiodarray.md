@@ -43,7 +43,7 @@ The **WorkingPeriodArray** element contains working period information for the m
 
 The following sections describe attributes, child elements, and parent elements.
   
-#### Attributes
+### Attributes
 
 None.
   

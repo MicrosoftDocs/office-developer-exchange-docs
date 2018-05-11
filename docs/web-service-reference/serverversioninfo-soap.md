@@ -32,7 +32,7 @@ The **ServerVersionInfo** element contains the version of the server that proces
 
 The following sections describe attributes, child elements, and parent elements.
   
-#### Attributes
+### Attributes
 
 None.
   

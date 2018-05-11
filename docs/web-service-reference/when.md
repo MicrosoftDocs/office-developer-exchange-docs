@@ -29,7 +29,7 @@ The **When** element provides information about when a calendar or meeting item 
 
 The following sections describe attributes, child elements, and parent elements.
   
-#### Attributes
+### Attributes
 
 None.
   

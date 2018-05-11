@@ -29,7 +29,7 @@ The **PrincipalName** element represents the user principal name (UPN) of the ac
 
 The following sections describe attributes, child elements, and parent elements.
   
-#### Attributes
+### Attributes
 
 None.
   

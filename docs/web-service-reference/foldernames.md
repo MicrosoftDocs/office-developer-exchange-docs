@@ -35,7 +35,7 @@ The **FolderNames** element contains an array of named managed folders to add to
 
 The following sections describe attributes, child elements, and parent elements.
   
-#### Attributes
+### Attributes
 
 None.
   

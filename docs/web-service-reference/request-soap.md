@@ -30,7 +30,7 @@ The **Request** element contains the requested configuration settings and the ta
 
 The following sections describe attributes, child elements, and parent elements.
   
-#### Attributes
+### Attributes
 
 None.
   

@@ -29,7 +29,7 @@ The **MailTipsRequested** element contains the types of mail tips requested from
 
 The following sections describe attributes, child elements, and parent elements.
   
-#### Attributes
+### Attributes
 
 None.
   

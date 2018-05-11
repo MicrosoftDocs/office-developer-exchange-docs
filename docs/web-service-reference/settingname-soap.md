@@ -26,7 +26,7 @@ The **SettingName** element represents the name of a setting in the response.
 
 The following sections describe attributes, child elements, and parent elements.
   
-#### Attributes
+### Attributes
 
 None.
   

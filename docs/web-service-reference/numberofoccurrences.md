@@ -29,7 +29,7 @@ The **NumberOfOccurrences** element contains the number of occurrences of a recu
 
 The following sections describe attributes, child elements, and parent elements.
   
-#### Attributes
+### Attributes
 
 None.
   

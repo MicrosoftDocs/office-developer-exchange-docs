@@ -31,7 +31,7 @@ The **SentToAddresses** element indicates the e-mail addresses that incoming mes
 
 The following sections describe attributes, child elements, and parent elements.
   
-#### Attributes
+### Attributes
 
 None.
   

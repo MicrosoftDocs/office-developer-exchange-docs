@@ -25,7 +25,7 @@ The **DistinguishedFolderId** element identifies folders that can be referenced 
 
 The following sections describe attributes, child elements, and parent elements.
   
-#### Attributes
+### Attributes
 
 None.
   

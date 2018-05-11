@@ -29,7 +29,7 @@ The **Address** element represents the e-mail address of the mailbox user.
 
 The following sections describe attributes, child elements, and parent elements.
   
-#### Attributes
+### Attributes
 
 None.
   

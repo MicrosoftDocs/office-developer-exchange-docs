@@ -28,7 +28,7 @@ The **Mailbox** element contains the mailbox identifier and the user's primary S
 
 The following sections describe attributes, child elements, and parent elements.
   
-#### Attributes
+### Attributes
 
 None.
   

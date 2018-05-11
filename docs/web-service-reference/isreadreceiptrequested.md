@@ -29,7 +29,7 @@ The **IsReadReceiptRequested** element indicates whether the sender of an item r
 
 The following sections describe attributes, child elements, and parent elements.
   
-#### Attributes
+### Attributes
 
 None.
   

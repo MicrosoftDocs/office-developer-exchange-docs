@@ -30,7 +30,7 @@ The **MailboxStatisticsSearchResult** element contains the results of a keyword 
 
 The following sections describe attributes, child elements, and parent elements.
   
-#### Attributes
+### Attributes
 
 None.
   

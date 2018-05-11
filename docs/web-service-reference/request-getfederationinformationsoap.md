@@ -28,7 +28,7 @@ The **Request** element represents a [GetFederationInformationRequest (SOAP)](ge
 
 The following sections describe attributes, child elements, and parent elements.
   
-#### Attributes
+### Attributes
 
 None.
   

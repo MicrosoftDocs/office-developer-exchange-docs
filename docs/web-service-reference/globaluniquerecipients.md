@@ -39,7 +39,7 @@ The **GlobalUniqueRecipients** element contains the recipient list of a conversa
 
 The following sections describe attributes, child elements, and parent elements.
   
-#### Attributes
+### Attributes
 
 None.
   

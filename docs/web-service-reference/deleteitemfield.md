@@ -41,7 +41,7 @@ The **DeleteItemField** element represents an operation to delete a given proper
 
 The following sections describe attributes, child elements, and parent elements.
   
-#### Attributes
+### Attributes
 
 None.
   

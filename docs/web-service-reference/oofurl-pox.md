@@ -35,7 +35,7 @@ The **OOFUrl** element specifies the URL of the best instance of the Availabilit
 
 The following sections describe attributes, child elements, and parent elements.
   
-#### Attributes
+### Attributes
 
 None.
   

@@ -29,7 +29,7 @@ The **Duration** element represents the duration of a calendar item.
 
 The following sections describe attributes, child elements, and parent elements.
   
-#### Attributes
+### Attributes
 
 None.
   

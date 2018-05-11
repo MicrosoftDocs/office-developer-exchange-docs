@@ -27,7 +27,7 @@ The **RemoveImGroup** element represents a request to remove an instant messagin
 
 The following sections describe attributes, child elements, and parent elements.
   
-#### Attributes
+### Attributes
 
 None.
   

@@ -29,7 +29,7 @@ The **DateTimeSent** element represents the date and time at which an item in a 
 
 The following sections describe attributes, child elements, and parent elements.
   
-#### Attributes
+### Attributes
 
 None.
   

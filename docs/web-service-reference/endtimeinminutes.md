@@ -45,7 +45,7 @@ The **EndTimeInMinutes** element represents the end of the working day for a mai
 
 The following sections describe attributes, child elements, and parent elements.
   
-#### Attributes
+### Attributes
 
 None.
   

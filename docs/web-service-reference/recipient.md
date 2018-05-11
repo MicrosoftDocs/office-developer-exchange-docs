@@ -35,7 +35,7 @@ The **Recipient** element represents the recipient for whom the event occurred.
 
 The following sections describe attributes, child elements, and parent elements.
   
-#### Attributes
+### Attributes
 
 None.
   

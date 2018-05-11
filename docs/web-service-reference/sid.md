@@ -29,7 +29,7 @@ The **SID** element represents the security descriptor definition language (SDDL
 
 The following sections describe attributes, child elements, and parent elements.
   
-#### Attributes
+### Attributes
 
 None.
   

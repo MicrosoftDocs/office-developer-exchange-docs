@@ -36,7 +36,7 @@ The **OrganizationRelationshipSettings** element represents a list of organizati
 
 The following sections describe attributes, child elements, and parent elements.
   
-#### Attributes
+### Attributes
 
 None.
   

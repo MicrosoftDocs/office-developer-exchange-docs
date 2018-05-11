@@ -25,7 +25,7 @@ The **ManagedByOrganization** element specifies the managing organization.
 
 The following sections describe attributes, child elements, and parent elements.
   
-#### Attributes
+### Attributes
 
 None.
   

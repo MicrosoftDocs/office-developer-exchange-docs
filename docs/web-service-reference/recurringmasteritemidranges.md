@@ -27,7 +27,7 @@ The **RecurringMasterItemIdRanges** element specifies an array of occurrence ran
 
 The following sections describe attributes, child elements, and parent elements.
   
-#### Attributes
+### Attributes
 
 |**Attribute**|**Description**|
 |:-----|:-----|

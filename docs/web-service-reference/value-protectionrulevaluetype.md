@@ -29,7 +29,7 @@ The **Value** element identifies a single recipient or sender department.
 
 The following sections describe attributes, child elements, and parent elements.
   
-#### Attributes
+### Attributes
 
 None.
   

@@ -31,7 +31,7 @@ The **UnknownEntries** element contains an array of unknown permission entries t
 
 The following sections describe attributes, child elements, and parent elements.
   
-#### Attributes
+### Attributes
 
 None.
   

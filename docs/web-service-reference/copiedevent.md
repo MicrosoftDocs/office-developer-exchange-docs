@@ -36,7 +36,7 @@ The **CopiedEvent** element represents an event in which an item or folder is co
 
 The following sections describe attributes, child elements, and parent elements.
   
-#### Attributes
+### Attributes
 
 None.
   

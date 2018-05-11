@@ -29,7 +29,7 @@ The **SentToOrCcMe** element indicates whether the owner of the mailbox has to b
 
 The following sections describe attributes, child elements, and parent elements.
   
-#### Attributes
+### Attributes
 
 None.
   

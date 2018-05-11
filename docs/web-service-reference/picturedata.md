@@ -25,7 +25,7 @@ The **PictureData** element contains the stream of picture data.
 
 The following sections describe attributes, child elements, and parent elements.
   
-#### Attributes
+### Attributes
 
 None.
   

@@ -37,7 +37,7 @@ The **MessageCount** element contains the total number of conversation items in 
 
 The following sections describe attributes, child elements, and parent elements.
   
-#### Attributes
+### Attributes
 
 None.
   

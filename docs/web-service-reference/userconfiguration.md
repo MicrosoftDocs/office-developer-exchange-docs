@@ -35,7 +35,7 @@ The **UserConfiguration** element defines a single user configuration object.
 
 The following sections describe attributes, child elements, and parent elements.
   
-#### Attributes
+### Attributes
 
 None.
   

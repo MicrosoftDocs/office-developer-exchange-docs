@@ -27,7 +27,7 @@ The **MailboxSearchScopes** element specifies a list of one or more mailboxes an
 
 The following sections describe attributes, child elements, and parent elements.
   
-#### Attributes
+### Attributes
 
 None.
   

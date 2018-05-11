@@ -36,7 +36,7 @@ The **StreamingSubscriptionRequest** element represents a subscription to a stre
 
 The following sections describe attributes, child elements, and parent elements.
   
-#### Attributes
+### Attributes
 
 |**Attribute**|**Description**|
 |:-----|:-----|

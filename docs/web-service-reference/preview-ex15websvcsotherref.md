@@ -25,7 +25,7 @@ The **Preview** element specifies the first 256 characters of an item for displa
 
 The following sections describe attributes, child elements, and parent elements.
   
-#### Attributes
+### Attributes
 
 None.
   

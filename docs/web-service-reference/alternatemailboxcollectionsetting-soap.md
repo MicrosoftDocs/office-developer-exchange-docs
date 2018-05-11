@@ -28,7 +28,7 @@ The **AlternateMailboxCollectionSetting** element contains a collection of alter
 
 The following sections describe attributes, child elements, and parent elements.
   
-#### Attributes
+### Attributes
 
 None.
   

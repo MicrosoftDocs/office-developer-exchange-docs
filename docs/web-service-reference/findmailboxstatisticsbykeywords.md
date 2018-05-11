@@ -37,7 +37,7 @@ The **FindMailboxStatisticsByKeywords** element specifies a request to search fo
 
 The following sections describe attributes, child elements, and parent elements.
   
-#### Attributes
+### Attributes
 
 None.
   

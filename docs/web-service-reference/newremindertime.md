@@ -25,7 +25,7 @@ The **NewReminderTime** element specifies a new time for a reminder.
 
 The following sections describe attributes, child elements, and parent elements.
   
-#### Attributes
+### Attributes
 
 None.
   

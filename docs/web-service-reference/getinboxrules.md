@@ -31,7 +31,7 @@ The **GetInboxRules** element defines a request to get the Inbox rules on a mail
 
 The following sections describe attributes, child elements, and parent elements.
   
-#### Attributes
+### Attributes
 
 None.
   

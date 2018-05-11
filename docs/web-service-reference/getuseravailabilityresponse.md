@@ -32,7 +32,7 @@ The **GetUserAvailabilityResponse** element is the root element that contains th
 
 The following sections describe attributes, child elements, and parent elements.
   
-#### Attributes
+### Attributes
 
 None.
   

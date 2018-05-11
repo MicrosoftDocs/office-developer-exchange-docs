@@ -25,7 +25,7 @@ The **Email** element identifies the email address of the user whose photo is re
 
 The following sections describe attributes, child elements, and parent elements.
   
-#### Attributes
+### Attributes
 
 None.
   

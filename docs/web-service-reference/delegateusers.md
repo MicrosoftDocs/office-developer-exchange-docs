@@ -31,7 +31,7 @@ The **DelegateUsers** element contains the identities of delegates to add to or 
 
 The following sections describe attributes, child elements, and parent elements.
   
-#### Attributes
+### Attributes
 
 None.
   

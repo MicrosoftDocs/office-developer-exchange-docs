@@ -29,7 +29,7 @@ The **Subject** element represents the subject property of Exchange store items.
 
 The following sections describe attributes, child elements, and parent elements.
   
-#### Attributes
+### Attributes
 
 None.
   

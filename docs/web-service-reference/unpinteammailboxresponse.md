@@ -30,7 +30,7 @@ The **UnpinTeamMailboxResponse** element contains a response to a request to unp
 
 The following sections describe attributes, child elements, and parent elements.
   
-#### Attributes
+### Attributes
 
 None.
   

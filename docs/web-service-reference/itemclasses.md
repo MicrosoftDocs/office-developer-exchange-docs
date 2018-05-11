@@ -31,7 +31,7 @@ The **ItemClasses** element represents the item classes that must be stamped on 
 
 The following sections describe attributes, child elements, and parent elements.
   
-#### Attributes
+### Attributes
 
 None.
   

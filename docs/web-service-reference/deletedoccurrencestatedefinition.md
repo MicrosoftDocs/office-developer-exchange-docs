@@ -28,7 +28,7 @@ The **DeletedOccurrenceStateDefinition** specifies the state for a deleted occur
 
 The following sections describe attributes, child elements, and parent elements.
   
-#### Attributes
+### Attributes
 
 None.
   

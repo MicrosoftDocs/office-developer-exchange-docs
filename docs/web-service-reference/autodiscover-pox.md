@@ -29,7 +29,7 @@ The **AutoDiscover** element is the root element in an Autodiscover request or r
 
 The following sections describe attributes, child elements, and parent elements.
   
-#### Attributes
+### Attributes
 
 None.
   

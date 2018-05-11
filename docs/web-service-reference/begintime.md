@@ -25,7 +25,7 @@ The **BeginTime** element specifies the beginning of the time span to query for 
 
 The following sections describe attributes, child elements, and parent elements.
   
-#### Attributes
+### Attributes
 
 None.
   

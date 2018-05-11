@@ -27,7 +27,7 @@ The **Personas** element specifies an array of personas returned from the **GetI
 
 The following sections describe attributes, child elements, and parent elements.
   
-#### Attributes
+### Attributes
 
 None.
   

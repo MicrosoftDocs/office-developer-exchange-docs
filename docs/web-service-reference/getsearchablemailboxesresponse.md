@@ -32,7 +32,7 @@ The **GetSearchableMailboxesResponse** element contains the response to a **GetS
 
 The following sections describe attributes, child elements, and parent elements.
   
-#### Attributes
+### Attributes
 
 None.
   

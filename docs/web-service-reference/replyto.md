@@ -31,7 +31,7 @@ The **ReplyTo** element identifies an array of addresses to which replies should
 
 The following sections describe attributes, child elements, and parent elements.
   
-#### Attributes
+### Attributes
 
 None.
   

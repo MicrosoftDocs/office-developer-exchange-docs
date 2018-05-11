@@ -35,7 +35,7 @@ The **SyncFolderItems** element defines a request to synchronize items in an Exc
 
 The following sections describe attributes, child elements, and parent elements.
   
-#### Attributes
+### Attributes
 
 None.
   

@@ -34,7 +34,7 @@ The **InvalidRecipient** element contains the SMTP address of the invalid recipi
 
 The following sections describe attributes, child elements, and parent elements.
   
-#### Attributes
+### Attributes
 
 None.
   

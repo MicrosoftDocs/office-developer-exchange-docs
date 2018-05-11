@@ -29,7 +29,7 @@ The **PermanentDelete** element indicates whether messages are to be permanently
 
 The following sections describe attributes, child elements, and parent elements.
   
-#### Attributes
+### Attributes
 
 None.
   

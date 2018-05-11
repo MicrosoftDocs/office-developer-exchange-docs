@@ -39,7 +39,7 @@ The **GlobalCategories** element contains the category list for all conversation
 
 The following sections describe attributes, child elements, and parent elements.
   
-#### Attributes
+### Attributes
 
 None.
   

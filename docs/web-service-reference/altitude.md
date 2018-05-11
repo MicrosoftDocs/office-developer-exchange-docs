@@ -25,7 +25,7 @@ The **Altitude** element specifies the altitude of a postal address.
 
 The following sections describe attributes, child elements, and parent elements.
   
-#### Attributes
+### Attributes
 
 None.
   

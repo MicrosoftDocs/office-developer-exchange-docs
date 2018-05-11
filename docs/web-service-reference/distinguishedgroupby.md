@@ -35,7 +35,7 @@ The **DistinguishedGroupBy** element provides standard groupings for FindItem qu
 
 The following sections describe attributes, child elements, and parent elements.
   
-#### Attributes
+### Attributes
 
 None.
   

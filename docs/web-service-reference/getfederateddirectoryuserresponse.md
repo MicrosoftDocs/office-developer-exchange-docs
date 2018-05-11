@@ -24,7 +24,7 @@ The **GetFederatedDirectoryUserResponse** element is intended for internal use o
 
 The following sections describe attributes, child elements, and parent elements.
   
-#### Attributes
+### Attributes
 
 None.
   

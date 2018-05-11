@@ -35,7 +35,7 @@ The **Errors** element contains a property bag to store errors that are returned
 
 The following sections describe attributes, child elements, and parent elements.
   
-#### Attributes
+### Attributes
 
 None.
   

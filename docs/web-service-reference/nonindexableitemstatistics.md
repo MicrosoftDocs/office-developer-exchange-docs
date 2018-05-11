@@ -27,7 +27,7 @@ The **NonIndexableItemStatistics** element contains an array of statistics for i
 
 The following sections describe attributes, child elements, and parent elements.
   
-#### Attributes
+### Attributes
 
 None.
   

@@ -31,7 +31,7 @@ The **RelativeFolderPath** element contains an array of folders that indicate th
 
 The following sections describe attributes, child elements, and parent elements.
   
-#### Attributes
+### Attributes
 
 None.
   

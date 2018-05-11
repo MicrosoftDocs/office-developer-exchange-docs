@@ -24,7 +24,7 @@ The **TargetApplicationUri** element defines the target application URI. The **T
 
 The following sections describe attributes, child elements, and parent elements.
   
-#### Attributes
+### Attributes
 
 None.
   

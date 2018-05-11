@@ -31,7 +31,7 @@ The **Transition** element represents a time zone transition.
 
 The following sections describe attributes, child elements, and parent elements.
   
-#### Attributes
+### Attributes
 
 None.
   

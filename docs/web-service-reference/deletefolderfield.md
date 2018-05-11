@@ -41,7 +41,7 @@ The **DeleteFolderField** element represents an operation to delete a given prop
 
 The following sections describe attributes, child elements, and parent elements.
   
-#### Attributes
+### Attributes
 
 None.
   

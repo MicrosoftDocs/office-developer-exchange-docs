@@ -26,7 +26,7 @@ The **Mailbox** element contains the e-mail address of the user to be discovered
 
 The following sections describe attributes, child elements, and parent elements.
   
-#### Attributes
+### Attributes
 
 None.
   

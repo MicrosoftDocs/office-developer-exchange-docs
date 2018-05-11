@@ -41,7 +41,7 @@ The **Delete** element identifies a single folder to delete in the local client 
 
 The following sections describe attributes, child elements, and parent elements.
   
-#### Attributes
+### Attributes
 
 None.
   

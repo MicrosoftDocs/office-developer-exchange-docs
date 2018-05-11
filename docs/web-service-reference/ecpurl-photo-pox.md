@@ -33,7 +33,7 @@ The **EcpUrl-photo** element specifies a partial URL that can be combined with t
 
 The following sections describe attributes, child elements, and parent elements.
   
-#### Attributes
+### Attributes
 
 None.
   

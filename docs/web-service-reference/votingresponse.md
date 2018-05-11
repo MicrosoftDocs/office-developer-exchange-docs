@@ -25,7 +25,7 @@ The **VotingResponse** element specifies the submitted vote. This element is onl
 
 The following sections describe attributes, child elements, and parent elements.
   
-#### Attributes
+### Attributes
 
 None.
   

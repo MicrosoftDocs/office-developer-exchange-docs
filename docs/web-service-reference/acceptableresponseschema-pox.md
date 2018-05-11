@@ -31,7 +31,7 @@ The **AcceptableResponseSchema** element identifies the schema for an Autodiscov
 
 The following sections describe attributes, child elements, and parent elements.
   
-#### Attributes
+### Attributes
 
 None.
   

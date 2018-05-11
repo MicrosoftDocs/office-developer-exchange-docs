@@ -37,7 +37,7 @@ The **AttendeeType** element represents the type of attendee that is identified 
 
 The following sections describe attributes, child elements, and parent elements.
   
-#### Attributes
+### Attributes
 
 None.
   

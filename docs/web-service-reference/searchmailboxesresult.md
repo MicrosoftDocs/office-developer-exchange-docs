@@ -37,7 +37,7 @@ The **SearchMailboxesResult** element contains the result of the **SearchMailbox
 
 The following sections describe attributes, child elements, and parent elements.
   
-#### Attributes
+### Attributes
 
 None.
   

@@ -30,7 +30,7 @@ The **Token** element specifies a client access token.
 
 The following sections describe attributes, child elements, and parent elements.
   
-#### Attributes
+### Attributes
 
 None.
   

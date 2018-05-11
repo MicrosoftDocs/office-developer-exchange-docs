@@ -27,7 +27,7 @@ The **UserDisabledExtensions** element lists the disabled apps.
 
 The following sections describe attributes, child elements, and parent elements.
   
-#### Attributes
+### Attributes
 
 None.
   

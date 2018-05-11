@@ -27,7 +27,7 @@ The **SpouseNames** element specifies an array of spouse or partner names and th
 
 The following sections describe attributes, child elements, and parent elements.
   
-#### Attributes
+### Attributes
 
 None.
   

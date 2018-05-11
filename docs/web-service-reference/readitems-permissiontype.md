@@ -29,7 +29,7 @@ The **ReadItems** element indicates whether a user has permission to read items 
 
 The following sections describe attributes, child elements, and parent elements.
   
-#### Attributes
+### Attributes
 
 None.
   

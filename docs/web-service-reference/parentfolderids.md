@@ -31,7 +31,7 @@ The **ParentFolderIds** element identifies folders for the FindItem and FindFold
 
 The following sections describe attributes, child elements, and parent elements.
   
-#### Attributes
+### Attributes
 
 None.
   

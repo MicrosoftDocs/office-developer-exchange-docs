@@ -36,7 +36,7 @@ The **GetDelegateResponse** element contains the status and result of a [GetDele
 
 The following sections describe attributes, child elements, and parent elements.
   
-#### Attributes
+### Attributes
 
 None.
   

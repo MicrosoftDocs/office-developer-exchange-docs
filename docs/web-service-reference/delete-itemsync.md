@@ -41,7 +41,7 @@ The **Delete** element identifies a single item to delete in the local client st
 
 The following sections describe attributes, child elements, and parent elements.
   
-#### Attributes
+### Attributes
 
 None.
   

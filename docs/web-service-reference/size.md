@@ -29,7 +29,7 @@ The **Size** element represents the size in bytes of an item or all the items in
 
 The following sections describe attributes, child elements, and parent elements.
   
-#### Attributes
+### Attributes
 
 None.
   

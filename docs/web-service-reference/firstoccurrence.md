@@ -34,7 +34,7 @@ The **FirstOccurrence** element represents the first occurrence of a recurring c
 
 The following sections describe attributes, child elements, and parent elements.
   
-#### Attributes
+### Attributes
 
 None.
   

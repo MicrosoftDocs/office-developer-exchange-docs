@@ -26,7 +26,7 @@ The **Request** element represents a [GetOrganizationRelationshipSettingsRequest
 
 The following sections describe attributes, child elements, and parent elements.
   
-#### Attributes
+### Attributes
 
 None.
   

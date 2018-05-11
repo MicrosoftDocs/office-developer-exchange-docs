@@ -47,7 +47,7 @@ The **WorkingPeriod** element contains the work week days and hours of the mailb
 
 The following sections describe attributes, child elements, and parent elements.
   
-#### Attributes
+### Attributes
 
 None.
   

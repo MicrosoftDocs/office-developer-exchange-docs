@@ -28,7 +28,7 @@ The **GetAppManifestsResponse** element defines the response for a **GetAppManif
 
 The following sections describe attributes, child elements, and parent elements.
   
-#### Attributes
+### Attributes
 
 None.
   

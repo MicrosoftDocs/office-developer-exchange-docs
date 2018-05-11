@@ -29,7 +29,7 @@ The **HasAttachments** element represents a property that is set to **true** if 
 
 The following sections describe attributes, child elements, and parent elements.
   
-#### Attributes
+### Attributes
 
 None.
   

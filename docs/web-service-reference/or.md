@@ -32,7 +32,7 @@ The **Or** element represents a search expression that performs a logical **OR**
 
 The following sections describe attributes, child elements, and parent elements.
   
-#### Attributes
+### Attributes
 
 None.
   

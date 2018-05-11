@@ -41,7 +41,7 @@ The **ResponseObjects** element contains a collection of all the response object
 
 The following sections describe attributes, child elements, and parent elements.
   
-#### Attributes
+### Attributes
 
 None.
   

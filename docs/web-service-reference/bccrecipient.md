@@ -29,7 +29,7 @@ The **BccRecipient** element represents a recipient to receive a blind carbon co
 
 The following sections describe attributes, child elements, and parent elements.
   
-#### Attributes
+### Attributes
 
 None.
   

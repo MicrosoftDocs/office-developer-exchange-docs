@@ -29,7 +29,7 @@ The **SmtpAddress** element represents the Simple Mail Transfer Protocol (SMTP) 
 
 The following sections describe attributes, child elements, and parent elements.
   
-#### Attributes
+### Attributes
 
 None.
   

@@ -45,7 +45,7 @@ The **IsPrivate** element indicates whether the calendar item is private.
 
 The following sections describe attributes, child elements, and parent elements.
   
-#### Attributes
+### Attributes
 
 None.
   

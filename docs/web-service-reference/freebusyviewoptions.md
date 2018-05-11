@@ -38,7 +38,7 @@ The **FreeBusyViewOptions** element specifies the type of free/busy information 
 
 The following sections describe attributes, child elements, and parent elements.
   
-#### Attributes
+### Attributes
 
 None.
   

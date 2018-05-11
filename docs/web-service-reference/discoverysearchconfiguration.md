@@ -29,7 +29,7 @@ The **DiscoverySearchConfiguration** element specifies the configuration for eDi
 
 The following sections describe attributes, child elements, and parent elements.
   
-#### Attributes
+### Attributes
 
 None.
   

@@ -110,7 +110,7 @@ The **Contact** element represents a contact item in the Exchange store.
 
 The following sections describe attributes, child elements, and parent elements.
   
-#### Attributes
+### Attributes
 
 None.
   

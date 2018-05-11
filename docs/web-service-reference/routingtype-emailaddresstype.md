@@ -29,7 +29,7 @@ The **RoutingType** element defines the address type for the mailbox.
 
 The following sections describe attributes, child elements, and parent elements.
   
-#### Attributes
+### Attributes
 
 None.
   

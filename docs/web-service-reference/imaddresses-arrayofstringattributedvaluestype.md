@@ -27,7 +27,7 @@ The **ImAddresses** element specifies an array of instant message addresses and 
 
 The following sections describe attributes, child elements, and parent elements.
   
-#### Attributes
+### Attributes
 
 None.
   

@@ -29,7 +29,7 @@ The **IsNDR** element indicates whether incoming messages must be non-delivery r
 
 The following sections describe attributes, child elements, and parent elements.
   
-#### Attributes
+### Attributes
 
 None.
   

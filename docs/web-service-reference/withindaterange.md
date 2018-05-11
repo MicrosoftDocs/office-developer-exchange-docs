@@ -32,7 +32,7 @@ The **WithinDateRange** element specifies the date range within which incoming m
 
 The following sections describe attributes, child elements, and parent elements.
   
-#### Attributes
+### Attributes
 
 None.
   

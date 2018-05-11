@@ -87,7 +87,7 @@ The **MeetingCancellation** element represents a meeting cancellation in the Exc
 
 The following sections describe attributes, child elements, and parent elements.
   
-#### Attributes
+### Attributes
 
 None.
   

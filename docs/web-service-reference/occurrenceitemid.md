@@ -29,7 +29,7 @@ The **OccurrenceItemId** element identifies a single occurrence of a recurring i
 
 The following sections describe attributes, child elements, and parent elements.
   
-#### Attributes
+### Attributes
 
 |**Attribute**|**Description**|
 |:-----|:-----|

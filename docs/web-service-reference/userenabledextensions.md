@@ -27,7 +27,7 @@ The **UserEnabledExtensions** element lists the enabled apps.
 
 The following sections describe attributes, child elements, and parent elements.
   
-#### Attributes
+### Attributes
 
 None.
   

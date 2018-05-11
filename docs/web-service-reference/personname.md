@@ -25,7 +25,7 @@ The **PersonName** element specifies the name of an individual found by means of
 
 The following sections describe attributes, child elements, and parent elements.
   
-#### Attributes
+### Attributes
 
 None.
   

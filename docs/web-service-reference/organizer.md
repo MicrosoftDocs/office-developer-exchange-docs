@@ -31,7 +31,7 @@ The **Organizer** element represents the organizer of a meeting.
 
 The following sections describe attributes, child elements, and parent elements.
   
-#### Attributes
+### Attributes
 
 None.
   

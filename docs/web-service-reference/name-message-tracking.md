@@ -29,7 +29,7 @@ The **Name** element represents the property name for a message tracking report.
 
 The following sections describe attributes, child elements, and parent elements.
   
-#### Attributes
+### Attributes
 
 None.
   

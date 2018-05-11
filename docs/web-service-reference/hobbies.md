@@ -27,7 +27,7 @@ The **Hobbies** element specifies an array of hobbies and the identifiers of the
 
 The following sections describe attributes, child elements, and parent elements.
   
-#### Attributes
+### Attributes
 
 None.
   

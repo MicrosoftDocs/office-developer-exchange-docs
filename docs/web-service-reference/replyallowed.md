@@ -25,7 +25,7 @@ The **ReplyAllowed** element specifies whether a reply is allowed for rights man
 
 The following sections describe attributes, child elements, and parent elements.
   
-#### Attributes
+### Attributes
 
 None.
   

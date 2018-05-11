@@ -29,7 +29,7 @@ The **PreviousHopServer** element represents the previous server name that accep
 
 The following sections describe attributes, child elements, and parent elements.
   
-#### Attributes
+### Attributes
 
 None.
   

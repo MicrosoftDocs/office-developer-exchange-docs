@@ -37,7 +37,7 @@ The **DeleteType** element indicates how items in a conversation are deleted.
 
 The following sections describe attributes, child elements, and parent elements.
   
-#### Attributes
+### Attributes
 
 None.
   

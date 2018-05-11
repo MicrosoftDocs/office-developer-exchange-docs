@@ -31,7 +31,7 @@ The **KeywordStatisticsSearchResult** element contains a single keyword search r
 
 The following sections describe attributes, child elements, and parent elements.
   
-#### Attributes
+### Attributes
 
 None.
   

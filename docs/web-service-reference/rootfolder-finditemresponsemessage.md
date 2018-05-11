@@ -32,7 +32,7 @@ The **RootFolder** element contains the results of a search of a single root fol
 
 The following sections describe attributes, child elements, and parent elements.
   
-#### Attributes
+### Attributes
 
 |**Attribute**|**Description**|
 |:-----|:-----|

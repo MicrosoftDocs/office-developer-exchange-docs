@@ -25,7 +25,7 @@ The **Location (ReminderMessageDataType)** element specifies the location of the
 
 The following sections describe attributes, child elements, and parent elements.
   
-#### Attributes
+### Attributes
 
 None.
   

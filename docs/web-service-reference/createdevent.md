@@ -34,7 +34,7 @@ The **CreatedEvent** element represents an event in which an item or folder is c
 
 The following sections describe attributes, child elements, and parent elements.
   
-#### Attributes
+### Attributes
 
 None.
   

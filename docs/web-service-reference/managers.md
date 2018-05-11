@@ -27,7 +27,7 @@ The **Managers** element specifies an array of manager names and the identifiers
 
 The following sections describe attributes, child elements, and parent elements.
   
-#### Attributes
+### Attributes
 
 None.
   

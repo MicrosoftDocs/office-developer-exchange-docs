@@ -31,7 +31,7 @@ The **Categories** element contains a collection of strings that identify the ca
 
 The following sections describe attributes, child elements, and parent elements.
   
-#### Attributes
+### Attributes
 
 None.
   

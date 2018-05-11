@@ -25,7 +25,7 @@ The **PhoneticFirstName** element contains the first name of a contact, spelled 
 
 The following sections describe attributes, child elements, and parent elements.
   
-#### Attributes
+### Attributes
 
 None.
   

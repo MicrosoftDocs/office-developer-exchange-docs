@@ -31,7 +31,7 @@ The **SendSMSAlertToRecipients** element indicates the mobile phone numbers to w
 
 The following sections describe attributes, child elements, and parent elements.
   
-#### Attributes
+### Attributes
 
 None.
   

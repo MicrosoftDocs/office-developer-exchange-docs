@@ -30,7 +30,7 @@ The **AddNewTelUriContactToGroup** element specifies the input data for the **Ad
 
 The following sections describe attributes, child elements, and parent elements.
   
-#### Attributes
+### Attributes
 
 None.
   

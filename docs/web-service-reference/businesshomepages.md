@@ -27,7 +27,7 @@ The **BusinessHomePages** element specifies an array of business home pages and 
 
 The following sections describe attributes, child elements, and parent elements.
   
-#### Attributes
+### Attributes
 
 None.
   

@@ -37,7 +37,7 @@ The **OWAUrl** element describes the URL and authentication schema that is used 
 
 The following sections describe attributes, child elements, and parent elements.
   
-#### Attributes
+### Attributes
 
 |**Attribute**|**Description**|
 |:-----|:-----|

@@ -25,7 +25,7 @@ The **IsOrganizer** element specifies a Boolean value that indicates whether thi
 
 The following sections describe attributes, child elements, and parent elements.
   
-#### Attributes
+### Attributes
 
 None.
   

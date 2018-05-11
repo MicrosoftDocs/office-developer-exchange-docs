@@ -29,7 +29,7 @@ The **Content** element contains the Base64-encoded contents of a file attachmen
 
 The following sections describe attributes, child elements, and parent elements.
   
-#### Attributes
+### Attributes
 
 None.
   

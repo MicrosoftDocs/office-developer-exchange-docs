@@ -28,7 +28,7 @@ The **Users** element represents a collection of e-mail addresses of the users f
 
 The following sections describe attributes, child elements, and parent elements.
   
-#### Attributes
+### Attributes
 
 None.
   

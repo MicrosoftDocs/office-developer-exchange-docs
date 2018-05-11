@@ -31,7 +31,7 @@ The **DeletedOccurrence** element represents a deleted occurrence of a recurring
 
 The following sections describe attributes, child elements, and parent elements.
   
-#### Attributes
+### Attributes
 
 None.
   

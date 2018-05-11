@@ -25,7 +25,7 @@ The **ID** element specifies the identifier of an app.
 
 The following sections describe attributes, child elements, and parent elements.
   
-#### Attributes
+### Attributes
 
 None.
   

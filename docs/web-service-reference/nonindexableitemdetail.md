@@ -35,7 +35,7 @@ The **NonIndexableItemDetail** element specifies detail information about an ite
 
 The following sections describe attributes, child elements, and parent elements.
   
-#### Attributes
+### Attributes
 
 None.
   

@@ -25,7 +25,7 @@ The **Accuracy** element specifies the accuracy of the latitude and longitude of
 
 The following sections describe attributes, child elements, and parent elements.
   
-#### Attributes
+### Attributes
 
 None.
   

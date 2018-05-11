@@ -29,7 +29,7 @@ The **Name** element represents the display name of the mailbox user.
 
 The following sections describe attributes, child elements, and parent elements.
   
-#### Attributes
+### Attributes
 
 None.
   

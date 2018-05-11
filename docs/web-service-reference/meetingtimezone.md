@@ -33,7 +33,7 @@ The **MeetingTimeZone** element represents the time zone of the location where t
 
 The following sections describe attributes, child elements, and parent elements.
   
-#### Attributes
+### Attributes
 
 |**Attribute**|**Description**|
 |:-----|:-----|

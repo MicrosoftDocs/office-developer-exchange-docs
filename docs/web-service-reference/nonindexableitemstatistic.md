@@ -29,7 +29,7 @@ The **NonIndexableItemStatistic** element contains a single statistic for an ite
 
 The following sections describe attributes, child elements, and parent elements.
   
-#### Attributes
+### Attributes
 
 None.
   

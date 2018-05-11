@@ -35,7 +35,7 @@ The **RecurringDayTransition** element represents a time zone transition that oc
 
 The following sections describe attributes, child elements, and parent elements.
   
-#### Attributes
+### Attributes
 
 None.
   

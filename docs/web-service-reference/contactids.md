@@ -30,7 +30,7 @@ The **ContactIds** element contains an array of contact item identifiers.
 
 The following sections describe attributes, child elements, and parent elements.
   
-#### Attributes
+### Attributes
 
 None.
   

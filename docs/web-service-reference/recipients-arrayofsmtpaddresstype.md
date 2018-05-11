@@ -29,7 +29,7 @@ The **Recipients** element specifies an array of recipients of a message.
 
 The following sections describe attributes, child elements, and parent elements.
   
-#### Attributes
+### Attributes
 
 None.
   

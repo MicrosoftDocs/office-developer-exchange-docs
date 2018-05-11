@@ -31,7 +31,7 @@ The **GetPasswordExpirationDateResponse** element defines the response to a [Get
 
 The following sections describe attributes, child elements, and parent elements.
   
-#### Attributes
+### Attributes
 
 |**Attribute**|**Description**|
 |:-----|:-----|

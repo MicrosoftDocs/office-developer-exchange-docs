@@ -35,7 +35,7 @@ The **GoodThreshold** element specifies the percentage of attendees that must ha
 
 The following sections describe attributes, child elements, and parent elements.
   
-#### Attributes
+### Attributes
 
 None.
   

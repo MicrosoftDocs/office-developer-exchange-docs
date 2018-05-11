@@ -45,7 +45,7 @@ The **Create** element identifies a single folder to create in the local client 
 
 The following sections describe attributes, child elements, and parent elements.
   
-#### Attributes
+### Attributes
 
 None.
   

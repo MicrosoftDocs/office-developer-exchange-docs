@@ -31,7 +31,7 @@ The **CcRecipients** element represents a collection of recipients that will rec
 
 The following sections describe attributes, child elements, and parent elements.
   
-#### Attributes
+### Attributes
 
 None.
   

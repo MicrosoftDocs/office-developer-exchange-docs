@@ -30,7 +30,7 @@ The **ApprovalRequestData** element specifies the approval state of an approval 
 
 The following sections describe attributes, child elements, and parent elements.
   
-#### Attributes
+### Attributes
 
 None.
   

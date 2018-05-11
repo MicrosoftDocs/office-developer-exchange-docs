@@ -29,7 +29,7 @@ The **TotalMemberCount** element represents the count of all members in a group.
 
 The following sections describe attributes, child elements, and parent elements.
   
-#### Attributes
+### Attributes
 
 None.
   

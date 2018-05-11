@@ -31,7 +31,7 @@ The **ResponseMessages** element contains the response messages for an Exchange 
 
 The following sections describe attributes, child elements, and parent elements.
   
-#### Attributes
+### Attributes
 
 None.
   

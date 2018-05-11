@@ -27,7 +27,7 @@ The **EmailAddresses** element specifies an array of all email addresses of the 
 
 The following sections describe attributes, child elements, and parent elements.
   
-#### Attributes
+### Attributes
 
 None.
   

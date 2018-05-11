@@ -31,7 +31,7 @@ The **ForwardAsAttachmentToRecipients** element indicates the e-mail addresses t
 
 The following sections describe attributes, child elements, and parent elements.
   
-#### Attributes
+### Attributes
 
 None.
   

@@ -29,7 +29,7 @@ The **TotalCount** element represents the total count of items within a given fo
 
 The following sections describe attributes, child elements, and parent elements.
   
-#### Attributes
+### Attributes
 
 None.
   

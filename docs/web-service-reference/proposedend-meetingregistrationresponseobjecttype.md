@@ -25,7 +25,7 @@ The **ProposedEnd (MeetingRegistrationResponseObjectType)** element specifies an
 
 The following sections describe attributes, child elements, and parent elements.
   
-#### Attributes
+### Attributes
 
 None.
   

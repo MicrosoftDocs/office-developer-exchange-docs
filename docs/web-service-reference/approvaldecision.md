@@ -25,7 +25,7 @@ The **ApprovalDecision** element specifies the decision made on an approval requ
 
 The following sections describe attributes, child elements, and parent elements.
   
-#### Attributes
+### Attributes
 
 None.
   

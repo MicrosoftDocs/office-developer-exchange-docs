@@ -38,7 +38,7 @@ The **DetailedSuggestionsWindow** element identifies the time span that is queri
 
 The following sections describe attributes, child elements, and parent elements.
   
-#### Attributes
+### Attributes
 
 None.
   

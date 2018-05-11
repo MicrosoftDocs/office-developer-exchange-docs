@@ -25,7 +25,7 @@ The **BusinessName** element specifies the name of a business.
 
 The following sections describe attributes, child elements, and parent elements.
   
-#### Attributes
+### Attributes
 
 None.
   

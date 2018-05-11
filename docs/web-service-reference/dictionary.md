@@ -31,7 +31,7 @@ The **Dictionary** element defines a set of dictionary property entries for a us
 
 The following sections describe attributes, child elements, and parent elements.
   
-#### Attributes
+### Attributes
 
 None.
   

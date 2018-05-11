@@ -33,7 +33,7 @@ The **OutlookRuleBlobExists** element indicates whether a Microsoft Outlook rule
 
 The following sections describe attributes, child elements, and parent elements.
   
-#### Attributes
+### Attributes
 
 None.
   

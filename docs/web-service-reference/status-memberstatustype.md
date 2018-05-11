@@ -29,7 +29,7 @@ The **Status** element provides information about the status of a distribution l
 
 The following sections describe attributes, child elements, and parent elements.
   
-#### Attributes
+### Attributes
 
 None.
   

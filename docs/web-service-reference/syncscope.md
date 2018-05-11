@@ -29,7 +29,7 @@ The **SyncScope** element specifies whether just items or items and folder assoc
 
 The following sections describe attributes, child elements, and parent elements.
   
-#### Attributes
+### Attributes
 
 None.
   

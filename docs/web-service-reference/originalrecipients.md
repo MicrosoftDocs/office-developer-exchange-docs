@@ -31,7 +31,7 @@ The **OriginalRecipients** element represents a list of e-mail addresses of the 
 
 The following sections describe attributes, child elements, and parent elements.
   
-#### Attributes
+### Attributes
 
 None.
   

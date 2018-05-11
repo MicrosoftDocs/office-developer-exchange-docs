@@ -31,7 +31,7 @@ The **DeleteAttachment** element is the root element in a request to delete an a
 
 The following sections describe attributes, child elements, and parent elements.
   
-#### Attributes
+### Attributes
 
 None.
   

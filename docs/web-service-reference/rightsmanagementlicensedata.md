@@ -42,7 +42,7 @@ The **RightsManagementLicenseData** element specifies information about the righ
 
 The following sections describe attributes, child elements, and parent elements.
   
-#### Attributes
+### Attributes
 
 None.
   

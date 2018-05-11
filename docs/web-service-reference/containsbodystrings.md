@@ -31,7 +31,7 @@ The **ContainsBodyStrings** element indicates the strings that must appear in th
 
 The following sections describe attributes, child elements, and parent elements.
   
-#### Attributes
+### Attributes
 
 None.
   

@@ -29,7 +29,7 @@ The **YomiFirstName** element represents the name that is used in Japan for the 
 
 The following sections describe attributes, child elements, and parent elements.
   
-#### Attributes
+### Attributes
 
 None.
   

@@ -25,7 +25,7 @@ The **MaxItems** element specifies the maximum number of items to return in the 
 
 The following sections describe attributes, child elements, and parent elements.
   
-#### Attributes
+### Attributes
 
 None.
   

@@ -29,7 +29,7 @@ The **Server** element represents the physical server where the event occurred.
 
 The following sections describe attributes, child elements, and parent elements.
   
-#### Attributes
+### Attributes
 
 None.
   

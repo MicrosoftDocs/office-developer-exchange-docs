@@ -24,7 +24,7 @@ The **ExternalDirectoryObjectId (GetFederatedDirectoryUserType)** element is int
 
 The following sections describe attributes, child elements, and parent elements.
   
-#### Attributes
+### Attributes
 
 None.
   

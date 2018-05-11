@@ -31,7 +31,7 @@ The **GetFolderResponse** element defines a response to a GetFolder request.
 
 The following sections describe attributes, child elements, and parent elements.
   
-#### Attributes
+### Attributes
 
 None.
   

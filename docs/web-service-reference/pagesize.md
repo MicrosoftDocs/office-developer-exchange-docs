@@ -25,7 +25,7 @@ The **PageSize** element contains the number of items to be returned in a single
 
 The following sections describe attributes, child elements, and parent elements.
   
-#### Attributes
+### Attributes
 
 None.
   

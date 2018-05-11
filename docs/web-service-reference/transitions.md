@@ -34,7 +34,7 @@ The **Transitions** element represents an array of time zone transitions.
 
 The following sections describe attributes, child elements, and parent elements.
   
-#### Attributes
+### Attributes
 
 |**Attribute**|**Description**|
 |:-----|:-----|

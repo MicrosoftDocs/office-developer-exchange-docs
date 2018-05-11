@@ -25,7 +25,7 @@ The **SizeRequested** element contains the requested photo size for a **GetUserP
 
 The following sections describe attributes, child elements, and parent elements.
   
-#### Attributes
+### Attributes
 
 None.
   

@@ -25,7 +25,7 @@ The **RetentionAction** element specifies the action performed on items with the
 
 The following sections describe attributes, child elements, and parent elements.
   
-#### Attributes
+### Attributes
 
 None.
   

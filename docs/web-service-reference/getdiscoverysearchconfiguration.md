@@ -28,7 +28,7 @@ The **GetDiscoverySearchConfiguration** element specifies a request to retrieve 
 
 The following sections describe attributes, child elements, and parent elements.
   
-#### Attributes
+### Attributes
 
 None.
   

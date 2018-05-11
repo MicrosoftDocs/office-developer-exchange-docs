@@ -35,7 +35,7 @@ The **CreateRuleOperation** element represents an operation to create a new Inbo
 
 The following sections describe attributes, child elements, and parent elements.
   
-#### Attributes
+### Attributes
 
 None.
   

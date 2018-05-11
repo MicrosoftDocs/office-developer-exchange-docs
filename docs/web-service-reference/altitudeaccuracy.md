@@ -25,7 +25,7 @@ The **AltitudeAccuracy** element specifies the accuracy of the altitude property
 
 The following sections describe attributes, child elements, and parent elements.
   
-#### Attributes
+### Attributes
 
 None.
   

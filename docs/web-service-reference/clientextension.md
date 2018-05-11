@@ -28,7 +28,7 @@ The **ClientExtension** element contains user and configuration information abou
 
 The following sections describe attributes, child elements, and parent elements.
   
-#### Attributes
+### Attributes
 
 |**Attribute**|**Description**|
 |:-----|:-----|

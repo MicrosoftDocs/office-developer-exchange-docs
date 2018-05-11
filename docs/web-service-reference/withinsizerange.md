@@ -32,7 +32,7 @@ The **WithinSizeRange** element specifies the minimum and maximum sizes that inc
 
 The following sections describe attributes, child elements, and parent elements.
   
-#### Attributes
+### Attributes
 
 None.
   

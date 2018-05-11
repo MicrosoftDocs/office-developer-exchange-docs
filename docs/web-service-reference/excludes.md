@@ -32,7 +32,7 @@ The **Excludes** element performs a bitwise mask of the specified property and a
 
 The following sections describe attributes, child elements, and parent elements.
   
-#### Attributes
+### Attributes
 
 None.
   

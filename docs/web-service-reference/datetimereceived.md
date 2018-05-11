@@ -29,7 +29,7 @@ The **DateTimeReceived** element represents the date and time that an item in a 
 
 The following sections describe attributes, child elements, and parent elements.
   
-#### Attributes
+### Attributes
 
 None.
   

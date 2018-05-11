@@ -25,7 +25,7 @@ The **RetentionDate** element specifies the last date that an item must be retai
 
 The following sections describe attributes, child elements, and parent elements.
   
-#### Attributes
+### Attributes
 
 None.
   

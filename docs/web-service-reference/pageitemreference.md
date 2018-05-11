@@ -25,7 +25,7 @@ The **PageItemReference** element specifies the reference for a page item.
 
 The following sections describe attributes, child elements, and parent elements.
   
-#### Attributes
+### Attributes
 
 None.
   

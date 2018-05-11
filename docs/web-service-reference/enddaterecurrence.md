@@ -32,7 +32,7 @@ The **EndDateRecurrence** element describes the start date and the end date of a
 
 The following sections describe attributes, child elements, and parent elements.
   
-#### Attributes
+### Attributes
 
 None.
   

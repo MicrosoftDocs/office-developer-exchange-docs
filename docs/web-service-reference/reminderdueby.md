@@ -29,7 +29,7 @@ The **ReminderDueBy** element represents the date and time when the event occurs
 
 The following sections describe attributes, child elements, and parent elements.
   
-#### Attributes
+### Attributes
 
 None.
   

@@ -25,7 +25,7 @@ The **ItemHoldPeriod** element specifies the amount of time to hold content that
 
 The following sections describe attributes, child elements, and parent elements.
   
-#### Attributes
+### Attributes
 
 None.
   

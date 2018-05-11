@@ -25,7 +25,7 @@ The **CreatedTime** element specifies the time at which the item was created.
 
 The following sections describe attributes, child elements, and parent elements.
   
-#### Attributes
+### Attributes
 
 None.
   

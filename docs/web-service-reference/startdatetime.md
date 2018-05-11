@@ -29,7 +29,7 @@ The **StartDateTime** element specifies the start date and time for a rule or a 
 
 The following sections describe attributes, child elements, and parent elements.
   
-#### Attributes
+### Attributes
 
 None.
   

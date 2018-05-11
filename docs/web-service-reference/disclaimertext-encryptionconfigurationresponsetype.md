@@ -24,7 +24,7 @@ The **DisclaimerText (EncryptionConfigurationResponseType)** element is intended
 
 The following sections describe attributes, child elements, and parent elements.
   
-#### Attributes
+### Attributes
 
 None.
   

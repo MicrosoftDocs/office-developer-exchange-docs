@@ -31,7 +31,7 @@ The **AddImGroupResponse** defines a response to an **AddImGroup** request.
 
 The following sections describe attributes, child elements, and parent elements.
   
-#### Attributes
+### Attributes
 
 None.
   

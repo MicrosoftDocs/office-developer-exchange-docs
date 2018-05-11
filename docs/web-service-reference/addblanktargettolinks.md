@@ -25,7 +25,7 @@ The **AddBlankTargetToLinks** element specifies that the target attribute in HTM
 
 The following sections describe attributes, child elements, and parent elements.
   
-#### Attributes
+### Attributes
 
 None.
   

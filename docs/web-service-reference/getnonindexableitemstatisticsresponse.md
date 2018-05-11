@@ -31,7 +31,7 @@ The **GetNonIndexableItemStatisticsResponse** element specifies the response to 
 
 The following sections describe attributes, child elements, and parent elements.
   
-#### Attributes
+### Attributes
 
 None.
   

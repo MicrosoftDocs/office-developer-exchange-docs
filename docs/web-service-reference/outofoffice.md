@@ -32,7 +32,7 @@ The **OutOfOffice** element represents the response message and a duration time 
 
 The following sections describe attributes, child elements, and parent elements.
   
-#### Attributes
+### Attributes
 
 None.
   

@@ -27,7 +27,7 @@ The **AggregationRestriction** element specifies a value that is applied to a se
 
 The following sections describe attributes, child elements, and parent elements.
   
-#### Attributes
+### Attributes
 
 None.
   

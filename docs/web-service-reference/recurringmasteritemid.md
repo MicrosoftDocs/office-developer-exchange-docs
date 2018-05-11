@@ -29,7 +29,7 @@ The **RecurringMasterItemId** element identifies a recurrence master item by ide
 
 The following sections describe attributes, child elements, and parent elements.
   
-#### Attributes
+### Attributes
 
 |**Attribute**|**Description**|
 |:-----|:-----|

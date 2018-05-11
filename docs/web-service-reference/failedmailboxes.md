@@ -27,7 +27,7 @@ The **FailedMailboxes** element specifies an array of mailboxes that failed on s
 
 The following sections describe attributes, child elements, and parent elements.
   
-#### Attributes
+### Attributes
 
 None.
   

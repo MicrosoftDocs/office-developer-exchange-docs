@@ -29,7 +29,7 @@ The **StartTime** element represents the start of a time span.
 
 The following sections describe attributes, child elements, and parent elements.
   
-#### Attributes
+### Attributes
 
 None.
   

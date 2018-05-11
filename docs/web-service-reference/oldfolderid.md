@@ -29,7 +29,7 @@ The **OldFolderId** element contains the original identifier of a folder that wa
 
 The following sections describe attributes, child elements, and parent elements.
   
-#### Attributes
+### Attributes
 
 |**Attribute**|**Description**|
 |:-----|:-----|

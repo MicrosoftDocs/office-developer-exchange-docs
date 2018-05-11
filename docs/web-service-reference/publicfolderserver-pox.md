@@ -33,7 +33,7 @@ The **PublicFolderServer** element contains the fully-qualified domain name (FQD
 
 The following sections describe attributes, child elements, and parent elements.
   
-#### Attributes
+### Attributes
 
 None.
   

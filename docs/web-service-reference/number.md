@@ -25,7 +25,7 @@ The **Number** element specifies a phone number.
 
 The following sections describe attributes, child elements, and parent elements.
   
-#### Attributes
+### Attributes
 
 None.
   

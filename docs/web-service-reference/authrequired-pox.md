@@ -35,7 +35,7 @@ The **AuthRequired** element specifies whether authentication is required.
 
 The following sections describe attributes, child elements, and parent elements.
   
-#### Attributes
+### Attributes
 
 None.
   

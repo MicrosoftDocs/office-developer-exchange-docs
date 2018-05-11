@@ -27,7 +27,7 @@ The **ExtendedProperties** element contains the extended properties used for a p
 
 The following sections describe attributes, child elements, and parent elements.
   
-#### Attributes
+### Attributes
 
 None.
   

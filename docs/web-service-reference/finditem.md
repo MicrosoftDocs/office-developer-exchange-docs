@@ -37,7 +37,7 @@ The **FindItem** element defines a request to find items in a mailbox.
 
 The following sections describe attributes, child elements, and parent elements.
   
-#### Attributes
+### Attributes
 
 |**Attribute**|**Description**|
 |:-----|:-----|

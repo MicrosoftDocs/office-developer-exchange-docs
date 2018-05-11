@@ -33,7 +33,7 @@ The **UpdateDelegate** element defines a request to update delegates in a mailbo
 
 The following sections describe attributes, child elements, and parent elements.
   
-#### Attributes
+### Attributes
 
 None.
   

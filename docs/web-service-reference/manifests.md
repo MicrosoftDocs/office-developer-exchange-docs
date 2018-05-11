@@ -27,7 +27,7 @@ The **Manifests** element contains a collection of base64-encoded app manifests 
 
 The following sections describe attributes, child elements, and parent elements.
   
-#### Attributes
+### Attributes
 
 None.
   

@@ -33,7 +33,7 @@ The **EndTimeZone** element defines the time zone for the end time of a [Calenda
 
 The following sections describe attributes, child elements, and parent elements.
   
-#### Attributes
+### Attributes
 
 |**Attribute**|**Description**|
 |:-----|:-----|

@@ -33,7 +33,7 @@ The **Subscribe** element contains the properties used to create subscriptions.
 
 The following sections describe attributes, child elements, and parent elements.
   
-#### Attributes
+### Attributes
 
 None.
   

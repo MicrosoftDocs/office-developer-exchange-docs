@@ -25,7 +25,7 @@ The **DirectReports** element contains SMTP information that identifies the dire
 
 The following sections describe attributes, child elements, and parent elements.
   
-#### Attributes
+### Attributes
 
 None.
   

@@ -32,7 +32,7 @@ The **BaseFolderIds** element represents the collection of folders that will be 
 
 The following sections describe attributes, child elements, and parent elements.
   
-#### Attributes
+### Attributes
 
 None.
   

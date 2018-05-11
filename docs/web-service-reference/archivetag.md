@@ -25,7 +25,7 @@ The **ArchiveTag** element specifies the retention identifier of the archive tag
 
 The following sections describe attributes, child elements, and parent elements.
   
-#### Attributes
+### Attributes
 
 |**Attribute**|**Description**|
 |:-----|:-----|

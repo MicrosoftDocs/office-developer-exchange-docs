@@ -25,7 +25,7 @@ The **IsHidden** element contains a Boolean value that indicates whether the und
 
 The following sections describe attributes, child elements, and parent elements.
   
-#### Attributes
+### Attributes
 
 None.
   

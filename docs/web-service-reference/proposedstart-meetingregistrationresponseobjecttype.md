@@ -25,7 +25,7 @@ The **ProposedStart (MeetingRegistrationResponseObjectType)** element specifies 
 
 The following sections describe attributes, child elements, and parent elements.
   
-#### Attributes
+### Attributes
 
 None.
   

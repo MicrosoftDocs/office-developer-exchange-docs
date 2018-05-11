@@ -39,7 +39,7 @@ The **MergedFreeBusy** element contains the merged free/busy stream of data.
 
 The following sections describe attributes, child elements, and parent elements.
   
-#### Attributes
+### Attributes
 
 None.
   

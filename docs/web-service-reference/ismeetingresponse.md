@@ -29,7 +29,7 @@ The **IsMeetngResponsequest** element indicates whether incoming messages must b
 
 The following sections describe attributes, child elements, and parent elements.
   
-#### Attributes
+### Attributes
 
 None.
   

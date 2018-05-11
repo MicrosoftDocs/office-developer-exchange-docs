@@ -33,7 +33,7 @@ The **Unsubscribe** element contains the properties used to unsubscribe from a s
 
 The following sections describe attributes, child elements, and parent elements.
   
-#### Attributes
+### Attributes
 
 None.
   

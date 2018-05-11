@@ -27,7 +27,7 @@ The **WeddingAnniversaries** element specifies an array of wedding anniversary d
 
 The following sections describe attributes, child elements, and parent elements.
   
-#### Attributes
+### Attributes
 
 None.
   

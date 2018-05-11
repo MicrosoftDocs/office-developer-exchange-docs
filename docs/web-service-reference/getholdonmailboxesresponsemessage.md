@@ -31,7 +31,7 @@ The **GetHoldOnMailboxesResponseMessage** element specifies the response message
 
 The following sections describe attributes, child elements, and parent elements.
   
-#### Attributes
+### Attributes
 
 |**Attribute**|**Description**|
 |:-----|:-----|

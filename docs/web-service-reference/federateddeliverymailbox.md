@@ -35,7 +35,7 @@ The **FederatedDeliveryMailbox** element represents the mailbox to which a cross
 
 The following sections describe attributes, child elements, and parent elements.
   
-#### Attributes
+### Attributes
 
 None.
   

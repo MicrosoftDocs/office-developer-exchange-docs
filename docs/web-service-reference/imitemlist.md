@@ -28,7 +28,7 @@ The **ImItemList** element contains a list of instant messaging groups and insta
 
 The following sections describe attributes, child elements, and parent elements.
   
-#### Attributes
+### Attributes
 
 None.
   

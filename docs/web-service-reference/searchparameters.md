@@ -32,7 +32,7 @@ The **SearchParameters** element represents the parameters that define a search 
 
 The following sections describe attributes, child elements, and parent elements.
   
-#### Attributes
+### Attributes
 
 |**Attribute**|**Description**|
 |:-----|:-----|

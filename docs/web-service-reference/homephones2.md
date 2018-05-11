@@ -27,7 +27,7 @@ The **HomePhones2** element specifies an array of **HomePhone2** values and the 
 
 The following sections describe attributes, child elements, and parent elements.
   
-#### Attributes
+### Attributes
 
 None.
   

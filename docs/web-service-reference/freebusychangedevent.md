@@ -34,7 +34,7 @@ The **FreeBusyChangedEvent** element represents an event in which an item's free
 
 The following sections describe attributes, child elements, and parent elements.
   
-#### Attributes
+### Attributes
 
 None.
   

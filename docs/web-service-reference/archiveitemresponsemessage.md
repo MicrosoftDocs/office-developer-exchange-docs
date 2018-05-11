@@ -31,7 +31,7 @@ The **ArchiveItemResponseMessage** element specifies the response message to an 
 
 The following sections describe attributes, child elements, and parent elements.
   
-#### Attributes
+### Attributes
 
 |**Attribute**|**Description**|
 |:-----|:-----|

@@ -27,7 +27,7 @@ The **MailboxHoldStatuses** element specifies a list of one or more **MailboxHol
 
 The following sections describe attributes, child elements, and parent elements.
   
-#### Attributes
+### Attributes
 
 None.
   

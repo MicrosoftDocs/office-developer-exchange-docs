@@ -29,7 +29,7 @@ The **HomePage** element specifies the URL that will be the default home page fo
 
 The following sections describe attributes, child elements, and parent elements.
   
-#### Attributes
+### Attributes
 
 None.
   

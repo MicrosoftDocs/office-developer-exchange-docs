@@ -25,7 +25,7 @@ The **ProposeNewTime** element specifies a response object that indicates that t
 
 The following sections describe attributes, child elements, and parent elements.
   
-#### Attributes
+### Attributes
 
 ****
 

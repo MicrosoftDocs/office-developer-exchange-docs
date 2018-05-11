@@ -29,7 +29,7 @@ The **ItemClass** element represents the message class of an item.
 
 The following sections describe attributes, child elements, and parent elements.
   
-#### Attributes
+### Attributes
 
 None.
   

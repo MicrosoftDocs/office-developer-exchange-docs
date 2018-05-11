@@ -37,7 +37,7 @@ The **GlobalImportance** element contains the aggregated importance for all conv
 
 The following sections describe attributes, child elements, and parent elements.
   
-#### Attributes
+### Attributes
 
 None.
   

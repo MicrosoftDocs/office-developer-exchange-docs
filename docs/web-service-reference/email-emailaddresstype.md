@@ -41,7 +41,7 @@ The **Email** element represents the mailbox user for a GetUserAvailability quer
 
 The following sections describe attributes, child elements, and parent elements.
   
-#### Attributes
+### Attributes
 
 None.
   

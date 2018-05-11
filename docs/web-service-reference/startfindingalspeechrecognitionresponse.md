@@ -25,7 +25,7 @@ The **StartFindInGALSpeechRecognitionResponse** element is intended for internal
 
 The following sections describe attributes, child elements, and parent elements.
   
-#### Attributes
+### Attributes
 
 None.
   

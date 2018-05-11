@@ -27,7 +27,7 @@ The **EmptyFolder** element defines a request to empty a folder in a mailbox in 
 
 The following sections describe attributes, child elements, and parent elements.
   
-#### Attributes
+### Attributes
 
 |**Attribute**|**Description**|
 |:-----|:-----|

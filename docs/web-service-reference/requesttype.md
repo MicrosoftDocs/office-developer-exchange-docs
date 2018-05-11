@@ -29,7 +29,7 @@ The **RequestType** element identifies whether a proxy request is a cross-site o
 
 The following sections describe attributes, child elements, and parent elements.
   
-#### Attributes
+### Attributes
 
 None.
   

@@ -24,7 +24,7 @@ The **LocationUrl** element represents the URL of a document sharing location.
 
 The following sections describe attributes, child elements, and parent elements.
   
-#### Attributes
+### Attributes
 
 None.
   

@@ -29,7 +29,7 @@ The **IsDraft** element indicates whether an item has not yet been sent.
 
 The following sections describe attributes, child elements, and parent elements.
   
-#### Attributes
+### Attributes
 
 None.
   

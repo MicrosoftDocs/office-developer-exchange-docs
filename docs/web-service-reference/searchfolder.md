@@ -42,7 +42,7 @@ The **SearchFolder** element represents a search folder that is contained in a m
 
 The following sections describe attributes, child elements, and parent elements.
   
-#### Attributes
+### Attributes
 
 None.
   

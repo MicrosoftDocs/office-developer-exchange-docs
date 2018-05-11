@@ -30,7 +30,7 @@ The **Response** element represents the response to a **GetDomainSettings** call
 
 The following sections describe attributes, child elements, and parent elements.
   
-#### Attributes
+### Attributes
 
 None.
   

@@ -25,7 +25,7 @@ The **Size** element specifies the total size of one or more mailbox items.
 
 The following sections describe attributes, child elements, and parent elements.
   
-#### Attributes
+### Attributes
 
 None.
   

@@ -35,7 +35,7 @@ The **ServerVersion** element represents the version number of the computer that
 
 The following sections describe attributes, child elements, and parent elements.
   
-#### Attributes
+### Attributes
 
 None.
   

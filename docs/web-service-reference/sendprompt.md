@@ -25,7 +25,7 @@ The **SendPrompt** element specifies the type of action allowed for a voting opt
 
 The following sections describe attributes, child elements, and parent elements.
   
-#### Attributes
+### Attributes
 
 None.
   

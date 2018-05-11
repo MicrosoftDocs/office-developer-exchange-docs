@@ -29,7 +29,7 @@ The **ReceiveCopiesOfMeetingMessages** element indicates whether a delegate rece
 
 The following sections describe attributes, child elements, and parent elements.
   
-#### Attributes
+### Attributes
 
 None.
   

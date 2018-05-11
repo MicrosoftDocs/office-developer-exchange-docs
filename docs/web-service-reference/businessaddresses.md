@@ -27,7 +27,7 @@ The **BusinessAddresses** element specifies an array of business addresses and t
 
 The following sections describe attributes, child elements, and parent elements.
   
-#### Attributes
+### Attributes
 
 None.
   

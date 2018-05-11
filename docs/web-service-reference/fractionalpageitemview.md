@@ -33,7 +33,7 @@ The **FractionalPageItemView** element describes where the paged view starts and
 
 The following sections describe attributes, child elements, and parent elements.
   
-#### Attributes
+### Attributes
 
 |**Attribute**|**Description**|
 |:-----|:-----|

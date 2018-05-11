@@ -37,7 +37,7 @@ The **EffectiveRights** element contains the client's rights based on the permis
 
 The following sections describe attributes, child elements, and parent elements.
   
-#### Attributes
+### Attributes
 
 None.
   

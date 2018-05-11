@@ -29,7 +29,7 @@ The **DeleteItems** element indicates which items in a folder a user has permiss
 
 The following sections describe attributes, child elements, and parent elements.
   
-#### Attributes
+### Attributes
 
 None.
   

@@ -25,7 +25,7 @@ The **AppStatus** element value indicates the status of the mail app.
 
 The following sections describe attributes, child elements, and parent elements.
   
-#### Attributes
+### Attributes
 
 None.
   

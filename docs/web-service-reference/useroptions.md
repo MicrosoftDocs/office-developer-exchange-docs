@@ -27,7 +27,7 @@ The **UserOptions** element specifies the list of voting options on a message.
 
 The following sections describe attributes, child elements, and parent elements.
   
-#### Attributes
+### Attributes
 
 None.
   

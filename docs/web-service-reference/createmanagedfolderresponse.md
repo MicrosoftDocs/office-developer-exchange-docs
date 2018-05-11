@@ -31,7 +31,7 @@ The **CreateManagedFolderResponse** element defines a response to a CreateManage
 
 The following sections describe attributes, child elements, and parent elements.
   
-#### Attributes
+### Attributes
 
 None.
   

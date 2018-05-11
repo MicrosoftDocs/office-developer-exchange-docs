@@ -31,7 +31,7 @@ The **ConvertIdResponse** element contains a response to a ConvertId request. Th
 
 The following sections describe attributes, child elements, and parent elements.
   
-#### Attributes
+### Attributes
 
 None.
   

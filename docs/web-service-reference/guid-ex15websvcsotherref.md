@@ -25,7 +25,7 @@ The **Guid** element specifies the globally unique identifier of the mailbox.
 
 The following sections describe attributes, child elements, and parent elements.
   
-#### Attributes
+### Attributes
 
 None.
   

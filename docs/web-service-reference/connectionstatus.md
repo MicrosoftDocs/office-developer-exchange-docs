@@ -29,7 +29,7 @@ The **ConnectionStatus** element provides a text description of the status of a 
 
 The following sections describe attributes, child elements, and parent elements.
   
-#### Attributes
+### Attributes
 
 None.
   

@@ -46,7 +46,7 @@ The **DeclineItem** element represents a Decline reply to a meeting request.
 
 The following sections describe attributes, child elements, and parent elements.
   
-#### Attributes
+### Attributes
 
 None.
   

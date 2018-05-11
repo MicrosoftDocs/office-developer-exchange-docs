@@ -33,7 +33,7 @@ The **Rooms** element is a list of one or more elements that represent meeting r
 
 The following sections describe attributes, child elements, and parent elements.
   
-#### Attributes
+### Attributes
 
 None.
   

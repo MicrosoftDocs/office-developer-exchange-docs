@@ -29,7 +29,7 @@ The **IsApprovalRequest** element indicates whether incoming messages must be ap
 
 The following sections describe attributes, child elements, and parent elements.
   
-#### Attributes
+### Attributes
 
 None.
   

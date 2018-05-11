@@ -39,7 +39,7 @@ The **MessageTrackingSearchResult** element contains a single message result for
 
 The following sections describe attributes, child elements, and parent elements.
   
-#### Attributes
+### Attributes
 
 None.
   

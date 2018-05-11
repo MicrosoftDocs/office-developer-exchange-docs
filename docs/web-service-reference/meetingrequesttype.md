@@ -29,7 +29,7 @@ The **MeetingRequestType** element describes the type of the meeting request.
 
 The following sections describe attributes, child elements, and parent elements.
   
-#### Attributes
+### Attributes
 
 None.
   

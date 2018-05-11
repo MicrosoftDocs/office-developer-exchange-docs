@@ -34,7 +34,7 @@ The **GetSharingFolderResponse** element defines a response to a [GetSharingFold
 
 The following sections describe attributes, child elements, and parent elements.
   
-#### Attributes
+### Attributes
 
 |**Attribute**|**Description**|
 |:-----|:-----|

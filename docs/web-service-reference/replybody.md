@@ -31,7 +31,7 @@ The **ReplyBody** element contains an Out of Office (OOF) message and the langua
 
 The following sections describe attributes, child elements, and parent elements.
   
-#### Attributes
+### Attributes
 
 |**Attribute**|**Description**|
 |:-----|:-----|

@@ -27,7 +27,7 @@ The **Departments** element specifies an array of department names and the ident
 
 The following sections describe attributes, child elements, and parent elements.
   
-#### Attributes
+### Attributes
 
 None.
   

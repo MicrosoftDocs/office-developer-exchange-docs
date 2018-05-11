@@ -24,7 +24,7 @@ The **MailTipsAccessLevel** element represents the **MailTipsAccessLevel** prope
 
 The following sections describe attributes, child elements, and parent elements.
   
-#### Attributes
+### Attributes
 
 None.
   

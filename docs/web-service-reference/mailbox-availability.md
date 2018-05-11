@@ -33,7 +33,7 @@ The **Mailbox** element represents the mailbox user for a SetUserOofSettings or 
 
 The following sections describe attributes, child elements, and parent elements.
   
-#### Attributes
+### Attributes
 
 None.
   

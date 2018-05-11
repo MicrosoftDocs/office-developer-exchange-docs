@@ -39,7 +39,7 @@ The **DayQuality** element represents the quality of the day for containing qual
 
 The following sections describe attributes, child elements, and parent elements.
   
-#### Attributes
+### Attributes
 
 None.
   

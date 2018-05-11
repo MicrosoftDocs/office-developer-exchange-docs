@@ -35,7 +35,7 @@ The **AddDelegateResponse** element contains the status and result of an [AddDel
 
 The following sections describe attributes, child elements, and parent elements.
   
-#### Attributes
+### Attributes
 
 None.
   

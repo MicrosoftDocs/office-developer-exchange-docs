@@ -29,7 +29,7 @@ The **FieldURI** element identifies frequently referenced properties by URI.
 
 The following sections describe attributes, child elements, and parent elements.
   
-#### Attributes
+### Attributes
 
 |**Attribute**|**Description**|
 |:-----|:-----|

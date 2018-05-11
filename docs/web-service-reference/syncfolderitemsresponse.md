@@ -31,7 +31,7 @@ The **SyncFolderItemsResponse** element defines a response to a SyncFolderItems 
 
 The following sections describe attributes, child elements, and parent elements.
   
-#### Attributes
+### Attributes
 
 None.
   

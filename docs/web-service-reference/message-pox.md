@@ -29,7 +29,7 @@ The **Message** element contains the error message for an error Autodiscover res
 
 The following sections describe attributes, child elements, and parent elements.
   
-#### Attributes
+### Attributes
 
 None.
   

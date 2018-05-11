@@ -29,7 +29,7 @@ The **MyResponseType** element contains the status of or response to a calendar 
 
 The following sections describe attributes, child elements, and parent elements.
   
-#### Attributes
+### Attributes
 
 None.
   

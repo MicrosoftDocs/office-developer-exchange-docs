@@ -27,7 +27,7 @@ The **MailboxStats** element specifies a list of one or more **MailboxStat** ele
 
 The following sections describe attributes, child elements, and parent elements.
   
-#### Attributes
+### Attributes
 
 None.
   

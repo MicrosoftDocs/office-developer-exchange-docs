@@ -32,7 +32,7 @@ The **Recurrence** element contains the recurrence pattern for calendar items an
 
 The following sections describe attributes, child elements, and parent elements.
   
-#### Attributes
+### Attributes
 
 None.
   

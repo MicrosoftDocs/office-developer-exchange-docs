@@ -29,7 +29,7 @@ The **FolderSize** element describes the total size of all the contents of a man
 
 The following sections describe attributes, child elements, and parent elements.
   
-#### Attributes
+### Attributes
 
 None.
   

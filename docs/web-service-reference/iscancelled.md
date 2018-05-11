@@ -29,7 +29,7 @@ The **IsCancelled** element indicates whether an appointment or meeting has been
 
 The following sections describe attributes, child elements, and parent elements.
   
-#### Attributes
+### Attributes
 
 None.
   

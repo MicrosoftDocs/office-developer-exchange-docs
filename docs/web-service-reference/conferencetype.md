@@ -29,7 +29,7 @@ The **ConferenceType** element describes the type of conferencing that is perfor
 
 The following sections describe attributes, child elements, and parent elements.
   
-#### Attributes
+### Attributes
 
 None.
   

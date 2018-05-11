@@ -29,7 +29,7 @@ The **Value** element contains the value of an extended property.
 
 The following sections describe attributes, child elements, and parent elements.
   
-#### Attributes
+### Attributes
 
 None.
   

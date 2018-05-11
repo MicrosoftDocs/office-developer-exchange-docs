@@ -37,7 +37,7 @@ The **MailboxDataArray** element contains a list of mailboxes to query for avail
 
 The following sections describe attributes, child elements, and parent elements.
   
-#### Attributes
+### Attributes
 
 None.
   

@@ -31,7 +31,7 @@ The **MonthlyRegeneration** element describes the frequency, in months, of which
 
 The following sections describe attributes, child elements, and parent elements.
   
-#### Attributes
+### Attributes
 
 None.
   

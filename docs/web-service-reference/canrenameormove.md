@@ -29,7 +29,7 @@ The **CanRenameOrMove** element indicates whether a managed folder can be rename
 
 The following sections describe attributes, child elements, and parent elements.
   
-#### Attributes
+### Attributes
 
 None.
   

@@ -29,7 +29,7 @@ The **PostedTime** element represents the time at which a [PostItem](postitem.md
 
 The following sections describe attributes, child elements, and parent elements.
   
-#### Attributes
+### Attributes
 
 None.
   

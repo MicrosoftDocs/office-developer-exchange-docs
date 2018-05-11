@@ -29,7 +29,7 @@ The **CustomMailTip** element represents a customized mail tip message.
 
 The following sections describe attributes, child elements, and parent elements.
   
-#### Attributes
+### Attributes
 
 None.
   

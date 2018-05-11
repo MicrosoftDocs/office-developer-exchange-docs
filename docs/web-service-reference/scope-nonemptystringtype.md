@@ -29,7 +29,7 @@ The **Scope** element specifies the scope of the message tracking report.
 
 The following sections describe attributes, child elements, and parent elements.
   
-#### Attributes
+### Attributes
 
 None.
   

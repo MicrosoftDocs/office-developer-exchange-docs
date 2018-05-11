@@ -36,7 +36,7 @@ The **MailTipsConfiguration** element contains service configuration information
 
 The following sections describe attributes, child elements, and parent elements.
   
-#### Attributes
+### Attributes
 
 None.
   

@@ -24,7 +24,7 @@ The **DisclaimerText (SetEncryptionConfigurationType)** element is intended for 
 
 The following sections describe attributes, child elements, and parent elements.
   
-#### Attributes
+### Attributes
 
 None.
   

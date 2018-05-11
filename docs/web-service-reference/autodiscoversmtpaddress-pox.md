@@ -31,7 +31,7 @@ The **AutoDiscoverSMTPAddress** element contains the user's SMTP address that is
 
 The following sections describe attributes, child elements, and parent elements.
   
-#### Attributes
+### Attributes
 
 None.
   

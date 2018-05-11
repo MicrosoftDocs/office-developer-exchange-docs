@@ -37,7 +37,7 @@ The **RootItemId** element identifies the root item of a deleted attachment.
 
 The following sections describe attributes, child elements, and parent elements.
   
-#### Attributes
+### Attributes
 
 |**Attribute**|**Description**|
 |:-----|:-----|

@@ -32,7 +32,7 @@ The **MoveToFolder** element specifies the identifier of the folder to which ema
 
 The following sections describe attributes, child elements, and parent elements.
   
-#### Attributes
+### Attributes
 
 None.
   

@@ -32,7 +32,7 @@ The **IsGreaterThan** element represents a search expression that compares a pro
 
 The following sections describe attributes, child elements, and parent elements.
   
-#### Attributes
+### Attributes
 
 None.
   

@@ -25,7 +25,7 @@ The **Timeout** element specifies the length of time before a pull subscription 
 
 The following sections describe attributes, child elements, and parent elements.
   
-#### Attributes
+### Attributes
 
 None.
   

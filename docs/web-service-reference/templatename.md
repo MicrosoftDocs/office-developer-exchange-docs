@@ -25,7 +25,7 @@ The **TemplateName** element specifies the name of the Rights Management templat
 
 The following sections describe attributes, child elements, and parent elements.
   
-#### Attributes
+### Attributes
 
 None.
   

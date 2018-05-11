@@ -31,7 +31,7 @@ The **Periods** element represents an array of periods that define the time offs
 
 The following sections describe attributes, child elements, and parent elements.
   
-#### Attributes
+### Attributes
 
 None.
   

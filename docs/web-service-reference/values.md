@@ -31,7 +31,7 @@ The **Values** element contains a collection of values for an extended property.
 
 The following sections describe attributes, child elements, and parent elements.
   
-#### Attributes
+### Attributes
 
 None.
   

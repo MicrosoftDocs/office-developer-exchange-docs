@@ -32,7 +32,7 @@ The **GetConversationItems** element defines a request to get a set of items tha
 
 The following sections describe attributes, child elements, and parent elements.
   
-#### Attributes
+### Attributes
 
 None.
   

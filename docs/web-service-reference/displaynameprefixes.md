@@ -27,7 +27,7 @@ The **DisplayNamePrefixes** element specifies an array of display name prefixes 
 
 The following sections describe attributes, child elements, and parent elements.
   
-#### Attributes
+### Attributes
 
 None.
   

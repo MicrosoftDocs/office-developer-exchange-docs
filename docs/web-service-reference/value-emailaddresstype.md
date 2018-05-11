@@ -32,7 +32,7 @@ The **Value** element specifies the value of an **EmailAddress** associated with
 
 The following sections describe attributes, child elements, and parent elements.
   
-#### Attributes
+### Attributes
 
 None.
   

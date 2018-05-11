@@ -31,7 +31,7 @@ The **FindMailboxStatisticsByKeywordsResponseMessage** element specifies the res
 
 The following sections describe attributes, child elements, and parent elements.
   
-#### Attributes
+### Attributes
 
 |**Attribute**|**Description**|
 |:-----|:-----|

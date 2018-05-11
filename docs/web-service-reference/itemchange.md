@@ -38,7 +38,7 @@ The **ItemChange** element contains an item identifier and the updates to apply 
 
 The following sections describe attributes, child elements, and parent elements.
   
-#### Attributes
+### Attributes
 
 None.
   

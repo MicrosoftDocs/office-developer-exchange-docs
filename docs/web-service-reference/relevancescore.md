@@ -25,7 +25,7 @@ The **RelevanceScore** element specifies an integer that represents how relevant
 
 The following sections describe attributes, child elements, and parent elements.
   
-#### Attributes
+### Attributes
 
 None.
   

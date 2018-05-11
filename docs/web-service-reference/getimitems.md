@@ -29,7 +29,7 @@ The **GetImItems** request element defines a request to get information about th
 
 The following sections describe attributes, child elements, and parent elements.
   
-#### Attributes
+### Attributes
 
 None.
   

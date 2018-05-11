@@ -39,7 +39,7 @@ The **GlobalUniqueUnreadSenders** element specifies a list of all the people who
 
 The following sections describe attributes, child elements, and parent elements.
   
-#### Attributes
+### Attributes
 
 None.
   

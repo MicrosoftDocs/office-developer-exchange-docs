@@ -24,7 +24,7 @@ The **Endpoint** element specifies the security token service endpoint.
 
 The following sections describe attributes, child elements, and parent elements.
   
-#### Attributes
+### Attributes
 
 None
   

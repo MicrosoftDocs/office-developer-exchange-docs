@@ -32,7 +32,7 @@ The **DictionaryValue** element specifies the dictionary value for a dictionary 
 
 The following sections describe attributes, child elements, and parent elements.
   
-#### Attributes
+### Attributes
 
 None.
   

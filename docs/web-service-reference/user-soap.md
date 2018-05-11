@@ -30,7 +30,7 @@ The **User** element represents the identity of a single user.
 
 The following sections describe attributes, child elements, and parent elements.
   
-#### Attributes
+### Attributes
 
 None.
   

@@ -25,7 +25,7 @@ The **ErrorCode** element specifies the error code of a failed search performed 
 
 The following sections describe attributes, child elements, and parent elements.
   
-#### Attributes
+### Attributes
 
 None.
   

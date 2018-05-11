@@ -29,7 +29,7 @@ The **BaseItemId** element represents the base class for IDs that represent item
 
 The following sections describe attributes, child elements, and parent elements.
   
-#### Attributes
+### Attributes
 
 None.
   

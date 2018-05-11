@@ -35,7 +35,7 @@ The **Operations** element contains an array of rule operations that can be perf
 
 The following sections describe attributes, child elements, and parent elements.
   
-#### Attributes
+### Attributes
 
 None.
   

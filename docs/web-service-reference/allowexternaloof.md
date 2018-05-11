@@ -33,7 +33,7 @@ The **AllowExternalOof** element contains a value that identifies to whom extern
 
 The following sections describe attributes, child elements, and parent elements.
   
-#### Attributes
+### Attributes
 
 None.
   

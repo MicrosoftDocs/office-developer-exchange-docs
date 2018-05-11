@@ -25,7 +25,7 @@ The **OriginalDisplayName** element contains the original display name associate
 
 The following sections describe attributes, child elements, and parent elements.
   
-#### Attributes
+### Attributes
 
 None.
   

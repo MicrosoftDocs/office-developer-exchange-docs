@@ -85,7 +85,7 @@ The **Message** element represents a Microsoft Exchange e-mail message.
 
 The following sections describe attributes, child elements, and parent elements.
   
-#### Attributes
+### Attributes
 
 None.
   

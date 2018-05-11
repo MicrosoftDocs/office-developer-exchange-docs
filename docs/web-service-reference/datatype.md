@@ -29,7 +29,7 @@ The **DataType** element describes the type of data that is shared by a shared f
 
 The following sections describe attributes, child elements, and parent elements.
   
-#### Attributes
+### Attributes
 
 None.
   

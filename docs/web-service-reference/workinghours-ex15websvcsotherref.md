@@ -42,7 +42,7 @@ The **WorkingHours** element represents the time zone settings and working hours
 
 The following sections describe attributes, child elements, and parent elements.
   
-#### Attributes
+### Attributes
 
 None.
   

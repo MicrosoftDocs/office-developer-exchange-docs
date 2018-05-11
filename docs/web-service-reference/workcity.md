@@ -25,7 +25,7 @@ The **WorkCity** element specifies the city where the associated persona works.
 
 The following sections describe attributes, child elements, and parent elements.
   
-#### Attributes
+### Attributes
 
 None.
   

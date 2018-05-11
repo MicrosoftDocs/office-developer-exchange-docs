@@ -30,7 +30,7 @@ The **Phone** element specifies a single phone number that results from a phone 
 
 The following sections describe attributes, child elements, and parent elements.
   
-#### Attributes
+### Attributes
 
 None.
   

@@ -25,7 +25,7 @@ The **RMSTemplateId** element specifies the identifier of the Rights Management 
 
 The following sections describe attributes, child elements, and parent elements.
   
-#### Attributes
+### Attributes
 
 None.
   

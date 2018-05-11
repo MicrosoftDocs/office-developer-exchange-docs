@@ -31,7 +31,7 @@ The **ContainsSubjectOrBodyStrings** element indicates the strings that must app
 
 The following sections describe attributes, child elements, and parent elements.
   
-#### Attributes
+### Attributes
 
 None.
   

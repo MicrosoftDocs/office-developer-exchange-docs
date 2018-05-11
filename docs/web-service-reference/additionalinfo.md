@@ -25,7 +25,7 @@ The **AdditionalInfo** element specifies additional information about the hold s
 
 The following sections describe attributes, child elements, and parent elements.
   
-#### Attributes
+### Attributes
 
 None.
   

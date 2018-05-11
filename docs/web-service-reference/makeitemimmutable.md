@@ -25,7 +25,7 @@ The **MakeItemImmutable** element specifies a Boolean value that indicates wheth
 
 The following sections describe attributes, child elements, and parent elements.
   
-#### Attributes
+### Attributes
 
 None.
   

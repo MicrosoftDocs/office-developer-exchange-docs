@@ -35,7 +35,7 @@ The **ItemIds** element contains an array of item identifiers that identify the 
 
 The following sections describe attributes, child elements, and parent elements.
   
-#### Attributes
+### Attributes
 
 None.
   

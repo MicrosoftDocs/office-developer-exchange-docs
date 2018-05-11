@@ -24,7 +24,7 @@ The **IsDefault** element indicates whether a document sharing location is the u
 
 The following sections describe attributes, child elements, and parent elements.
   
-#### Attributes
+### Attributes
 
 None.
   

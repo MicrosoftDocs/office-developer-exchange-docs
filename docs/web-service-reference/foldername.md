@@ -35,7 +35,7 @@ The **FolderName** element identifies a single managed custom folder to add to a
 
 The following sections describe attributes, child elements, and parent elements.
   
-#### Attributes
+### Attributes
 
 None.
   

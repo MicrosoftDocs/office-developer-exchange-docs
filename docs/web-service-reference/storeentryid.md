@@ -25,7 +25,7 @@ The **StoreEntryId** element contains the Exchange store identifier of an item.
 
 The following sections describe attributes, child elements, and parent elements.
   
-#### Attributes
+### Attributes
 
 None.
   

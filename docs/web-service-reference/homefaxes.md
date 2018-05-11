@@ -27,7 +27,7 @@ The **HomeFaxes** element specifies an array of home fax numbers and the identif
 
 The following sections describe attributes, child elements, and parent elements.
   
-#### Attributes
+### Attributes
 
 None.
   

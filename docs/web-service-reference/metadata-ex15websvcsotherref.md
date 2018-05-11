@@ -28,7 +28,7 @@ The **Metadata** element contains metadata about the mail app.
 
 The following sections describe attributes, child elements, and parent elements.
   
-#### Attributes
+### Attributes
 
 None.
   

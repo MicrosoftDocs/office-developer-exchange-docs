@@ -27,7 +27,7 @@ The **Mailboxes** element contains a list of mailboxes affected by the hold.
 
 The following sections describe attributes, child elements, and parent elements.
   
-#### Attributes
+### Attributes
 
 None.
   

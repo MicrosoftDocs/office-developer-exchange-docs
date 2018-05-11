@@ -29,7 +29,7 @@ The **RecipientIs** element specifies that any recipient of the e-mail message m
 
 The following sections describe attributes, child elements, and parent elements.
   
-#### Attributes
+### Attributes
 
 None.
   

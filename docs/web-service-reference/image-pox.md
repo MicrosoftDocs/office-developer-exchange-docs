@@ -33,7 +33,7 @@ The **Image** element contains the path of an image that is used to brand the co
 
 The following sections describe attributes, child elements, and parent elements.
   
-#### Attributes
+### Attributes
 
 None.
   

@@ -25,7 +25,7 @@ The **Latitude** element specifies the latitude of the location of the associate
 
 The following sections describe attributes, child elements, and parent elements.
   
-#### Attributes
+### Attributes
 
 None.
   

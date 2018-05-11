@@ -43,7 +43,7 @@ The **SyncFolderHierarchyResponseMessage** element contains the status and resul
 
 The following sections describe attributes, child elements, and parent elements.
   
-#### Attributes
+### Attributes
 
 |**Attribute**|**Description**|
 |:-----|:-----|

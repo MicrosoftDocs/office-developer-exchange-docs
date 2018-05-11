@@ -29,7 +29,7 @@ The **SharedFolderId** element represents the identifier of the shared folder th
 
 The following sections describe attributes, child elements, and parent elements.
   
-#### Attributes
+### Attributes
 
 None.
   

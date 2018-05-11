@@ -32,7 +32,7 @@ The **EmailAddress (GetPersonaType)** element specifies the email address associ
 
 The following sections describe attributes, child elements, and parent elements.
   
-#### Attributes
+### Attributes
 
 None.
   

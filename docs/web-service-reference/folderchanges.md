@@ -35,7 +35,7 @@ The **FolderChanges** element represents a collection of changes for a folder.
 
 The following sections describe attributes, child elements, and parent elements.
   
-#### Attributes
+### Attributes
 
 None.
   

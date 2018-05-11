@@ -41,7 +41,7 @@ The **ContactsFolder** element represents a contacts folder that is contained in
 
 The following sections describe attributes, child elements, and parent elements.
   
-#### Attributes
+### Attributes
 
 None.
   

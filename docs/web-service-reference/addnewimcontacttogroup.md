@@ -29,7 +29,7 @@ The **AddNewImContactToGroup** element defines a request to add a new instant me
 
 The following sections describe attributes, child elements, and parent elements.
   
-#### Attributes
+### Attributes
 
 None.
   

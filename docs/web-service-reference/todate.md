@@ -25,7 +25,7 @@ The **ToDate** element specifies the date that the message was received.
 
 The following sections describe attributes, child elements, and parent elements.
   
-#### Attributes
+### Attributes
 
 None.
   

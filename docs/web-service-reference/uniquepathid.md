@@ -29,7 +29,7 @@ The **UniquePathId** element represents a string that is different for each path
 
 The following sections describe attributes, child elements, and parent elements.
   
-#### Attributes
+### Attributes
 
 None.
   

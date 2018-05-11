@@ -24,7 +24,7 @@ The **ExternalAccessAllowed** element indicates whether a document sharing locat
 
 The following sections describe attributes, child elements, and parent elements.
   
-#### Attributes
+### Attributes
 
 None.
   

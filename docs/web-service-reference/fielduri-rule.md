@@ -25,7 +25,7 @@ The **FieldURI** element specifies the URI to the rule field that caused the val
 
 The following sections describe attributes, child elements, and parent elements.
   
-#### Attributes
+### Attributes
 
 None.
   

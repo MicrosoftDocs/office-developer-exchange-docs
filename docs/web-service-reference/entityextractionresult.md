@@ -33,7 +33,7 @@ The **EntityExtractionResult** element specifies the **EntityExtractionResult** 
 
 The following sections describe attributes, child elements, and parent elements.
   
-#### Attributes
+### Attributes
 
 None.
   

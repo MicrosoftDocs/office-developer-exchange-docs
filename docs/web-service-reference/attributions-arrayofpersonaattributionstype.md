@@ -27,7 +27,7 @@ The **Attributions** element specifies an array of attribution information for o
 
 The following sections describe attributes, child elements, and parent elements.
   
-#### Attributes
+### Attributes
 
 None.
   

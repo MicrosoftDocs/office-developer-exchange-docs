@@ -31,7 +31,7 @@ The **Groups** element contains a collection of groups that are found with the s
 
 The following sections describe attributes, child elements, and parent elements.
   
-#### Attributes
+### Attributes
 
 None.
   

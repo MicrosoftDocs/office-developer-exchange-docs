@@ -25,7 +25,7 @@ The **Description** element specifies the descriptive text for the retention pol
 
 The following sections describe attributes, child elements, and parent elements.
   
-#### Attributes
+### Attributes
 
 None.
   

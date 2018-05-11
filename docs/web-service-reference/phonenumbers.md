@@ -31,7 +31,7 @@ The **PhoneNumbers** element represents a collection of telephone numbers for a 
 
 The following sections describe attributes, child elements, and parent elements.
   
-#### Attributes
+### Attributes
 
 None.
   

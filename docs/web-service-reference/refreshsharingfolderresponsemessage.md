@@ -34,7 +34,7 @@ The **RefreshSharingFolderResponseMessage** element contains the status and resu
 
 The following sections describe attributes, child elements, and parent elements.
   
-#### Attributes
+### Attributes
 
 |**Attribute**|**Description**|
 |:-----|:-----|

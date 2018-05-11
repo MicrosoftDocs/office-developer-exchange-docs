@@ -33,7 +33,7 @@ The **StartTimeZone** element defines the time zone for the start time of a [Cal
 
 The following sections describe attributes, child elements, and parent elements.
   
-#### Attributes
+### Attributes
 
 |**Attribute**|**Description**|
 |:-----|:-----|

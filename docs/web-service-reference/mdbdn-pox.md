@@ -35,7 +35,7 @@ The **MdbDN** element represents the distinguished name of the mailbox database.
 
 The following sections describe attributes, child elements, and parent elements.
   
-#### Attributes
+### Attributes
 
 None.
   

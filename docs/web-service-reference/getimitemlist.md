@@ -27,7 +27,7 @@ The **GetImItemList** element defines a request to get a list of instant messagi
 
 The following sections describe attributes, child elements, and parent elements.
   
-#### Attributes
+### Attributes
 
 None.
   

@@ -25,7 +25,7 @@ The **ReminderText** element specifies the text of a reminder message.
 
 The following sections describe attributes, child elements, and parent elements.
   
-#### Attributes
+### Attributes
 
 None.
   

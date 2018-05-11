@@ -40,7 +40,7 @@ The **FileAttachment** element represents a file that is attached to an item in 
 
 The following sections describe attributes, child elements, and parent elements.
   
-#### Attributes
+### Attributes
 
 None.
   

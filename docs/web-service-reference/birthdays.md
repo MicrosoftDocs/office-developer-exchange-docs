@@ -27,7 +27,7 @@ The **Birthdays** element specifies an array of birthdays, stored as strings, an
 
 The following sections describe attributes, child elements, and parent elements.
   
-#### Attributes
+### Attributes
 
 None.
   

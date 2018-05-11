@@ -29,7 +29,7 @@ The **RefreshSharingFolder** element defines a request to refresh the specified 
 
 The following sections describe attributes, child elements, and parent elements.
   
-#### Attributes
+### Attributes
 
 None.
   

@@ -31,7 +31,7 @@ The **DeleteUserConfiguration** element represents a request to delete a user co
 
 The following sections describe attributes, child elements, and parent elements.
   
-#### Attributes
+### Attributes
 
 None.
   

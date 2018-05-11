@@ -27,7 +27,7 @@ The **GetDomainSettingsResponseMessage** element contains a response to a [GetDo
 
 The following sections describe attributes, child elements, and parent elements.
   
-#### Attributes
+### Attributes
 
 None.
   

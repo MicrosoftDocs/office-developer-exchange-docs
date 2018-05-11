@@ -30,7 +30,7 @@ The **AddNewTelUriContactToGroupResponse** element specifies the result data for
 
 The following sections describe attributes, child elements, and parent elements.
   
-#### Attributes
+### Attributes
 
 None.
   

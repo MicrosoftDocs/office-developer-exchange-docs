@@ -31,7 +31,7 @@ The **EMailAddress** element identifies the user's e-mail address.
 
 The following sections describe attributes, child elements, and parent elements.
   
-#### Attributes
+### Attributes
 
 None.
   

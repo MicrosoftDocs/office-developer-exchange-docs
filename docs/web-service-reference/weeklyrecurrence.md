@@ -33,7 +33,7 @@ The **WeeklyRecurrence** element describes a weekly recurrence pattern.
 
 The following sections describe attributes, child elements, and parent elements.
   
-#### Attributes
+### Attributes
 
 None.
   

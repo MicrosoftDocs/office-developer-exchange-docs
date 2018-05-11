@@ -25,7 +25,7 @@ The **InlineImageUrlTemplate** element specifies a template for an inline image 
 
 The following sections describe attributes, child elements, and parent elements.
   
-#### Attributes
+### Attributes
 
 None.
   

@@ -29,7 +29,7 @@ The **DiagnosticsLevel** element represents timing and performance information t
 
 The following sections describe attributes, child elements, and parent elements.
   
-#### Attributes
+### Attributes
 
 None.
   

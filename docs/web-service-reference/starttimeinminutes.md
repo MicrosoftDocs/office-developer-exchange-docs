@@ -45,7 +45,7 @@ The **StartTimeInMinutes** element represents the start of the working day for a
 
 The following sections describe attributes, child elements, and parent elements.
   
-#### Attributes
+### Attributes
 
 None.
   

@@ -42,7 +42,7 @@ The **RecipientTrackingEvent** element contains information for a single event f
 
 The following sections describe attributes, child elements, and parent elements.
   
-#### Attributes
+### Attributes
 
 None.
   

@@ -28,7 +28,7 @@ The **BodyContentAttributedValue** element specifies the body content of an item
 
 The following sections describe attributes, child elements, and parent elements.
   
-#### Attributes
+### Attributes
 
 None.
   

@@ -29,7 +29,7 @@ The **Path** element is the base schema type for all property identifiers. This 
 
 The following sections describe attributes, child elements, and parent elements.
   
-#### Attributes
+### Attributes
 
 None.
   

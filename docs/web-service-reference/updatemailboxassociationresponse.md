@@ -24,7 +24,7 @@ The **UpdateMailboxAssociationResponse** element is intended for internal use on
 
 The following sections describe attributes, child elements, and parent elements.
   
-#### Attributes
+### Attributes
 
 None.
   

@@ -31,7 +31,7 @@ The **GetEventsResponse** element represents a response to a GetEvents request.
 
 The following sections describe attributes, child elements, and parent elements.
   
-#### Attributes
+### Attributes
 
 None.
   

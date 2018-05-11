@@ -28,7 +28,7 @@ The **UserSettingErrors** element represents a collection of information about s
 
 The following sections describe attributes, child elements, and parent elements.
   
-#### Attributes
+### Attributes
 
 None.
   

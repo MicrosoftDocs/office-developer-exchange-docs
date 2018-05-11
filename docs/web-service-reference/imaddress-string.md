@@ -25,7 +25,7 @@ The **ImAddress** element contains the primary instant messaging address of a pe
 
 The following sections describe attributes, child elements, and parent elements.
   
-#### Attributes
+### Attributes
 
 None.
   

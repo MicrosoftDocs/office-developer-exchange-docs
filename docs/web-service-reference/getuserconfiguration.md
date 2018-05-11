@@ -32,7 +32,7 @@ The **GetUserConfiguration** element represent a request to get a user configura
 
 The following sections describe attributes, child elements, and parent elements.
   
-#### Attributes
+### Attributes
 
 None.
   

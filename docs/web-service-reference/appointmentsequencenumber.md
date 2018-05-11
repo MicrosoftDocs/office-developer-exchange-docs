@@ -29,7 +29,7 @@ The **AppointmentSequenceNumber** element specifies the sequence number of a ver
 
 The following sections describe attributes, child elements, and parent elements.
   
-#### Attributes
+### Attributes
 
 None.
   

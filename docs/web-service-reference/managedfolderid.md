@@ -29,7 +29,7 @@ The **ManagedFolderId** element contains the folder ID of the managed folder.
 
 The following sections describe attributes, child elements, and parent elements.
   
-#### Attributes
+### Attributes
 
 None.
   

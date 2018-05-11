@@ -27,7 +27,7 @@ The **RemoveDistributionGroupFromImList** element represents a request to remove
 
 The following sections describe attributes, child elements, and parent elements.
   
-#### Attributes
+### Attributes
 
 None.
   

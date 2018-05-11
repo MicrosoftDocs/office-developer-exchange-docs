@@ -32,7 +32,7 @@ The **IsLessThan** element represents a search expression that compares a proper
 
 The following sections describe attributes, child elements, and parent elements.
   
-#### Attributes
+### Attributes
 
 None.
   

@@ -29,7 +29,7 @@ The **MailboxType** element represents the type of mailbox that is represented b
 
 The following sections describe attributes, child elements, and parent elements.
   
-#### Attributes
+### Attributes
 
 None.
   

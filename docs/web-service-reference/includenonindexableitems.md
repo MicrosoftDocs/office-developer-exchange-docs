@@ -25,7 +25,7 @@ The **IncludeNonIndexableItems** element contains a **Boolean** value to indicat
 
 The following sections describe attributes, child elements, and parent elements.
   
-#### Attributes
+### Attributes
 
 None.
   

@@ -35,7 +35,7 @@ The **PurportedSender** element contains contact information for the alleged sen
 
 The following sections describe attributes, child elements, and parent elements.
   
-#### Attributes
+### Attributes
 
 None.
   

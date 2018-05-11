@@ -33,7 +33,7 @@ The **MessageXml** element provides additional error response information.
 
 The following sections describe attributes, child elements, and parent elements.
   
-#### Attributes
+### Attributes
 
 None.
   

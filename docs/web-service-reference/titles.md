@@ -27,7 +27,7 @@ The **Titles** element specifies an array of job titles and the identifiers of t
 
 The following sections describe attributes, child elements, and parent elements.
   
-#### Attributes
+### Attributes
 
 None.
   

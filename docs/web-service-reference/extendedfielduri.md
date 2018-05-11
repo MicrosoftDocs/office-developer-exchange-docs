@@ -29,7 +29,7 @@ The **ExtendedFieldURI** element identifies an extended MAPI property.
 
 The following sections describe attributes, child elements, and parent elements.
   
-#### Attributes
+### Attributes
 
 |**Attribute**|**Description**|
 |:-----|:-----|

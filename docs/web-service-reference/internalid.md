@@ -29,7 +29,7 @@ The **InternalId** element represents an integer value for the event identificat
 
 The following sections describe attributes, child elements, and parent elements.
   
-#### Attributes
+### Attributes
 
 None.
   

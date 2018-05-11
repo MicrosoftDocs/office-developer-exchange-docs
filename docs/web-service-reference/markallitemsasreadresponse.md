@@ -27,7 +27,7 @@ The **MarkAllItemsAsReadResponse** element specifies the response to a **MarkAll
 
 The following sections describe attributes, child elements, and parent elements.
   
-#### Attributes
+### Attributes
 
 None.
   

@@ -28,7 +28,7 @@ The **StringAttributedValue** element specifies an instance in an array of attri
 
 The following sections describe attributes, child elements, and parent elements.
   
-#### Attributes
+### Attributes
 
 None.
   

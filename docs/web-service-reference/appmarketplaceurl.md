@@ -25,7 +25,7 @@ The **AppMarketplaceUrl** element specifies the URL for the app marketplace.
 
 The following sections describe attributes, child elements, and parent elements.
   
-#### Attributes
+### Attributes
 
 None.
   

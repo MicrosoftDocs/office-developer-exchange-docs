@@ -28,7 +28,7 @@ The **DeleteFromFolderStateDefinition** element specifies the state when an item
 
 The following sections describe attributes, child elements, and parent elements.
   
-#### Attributes
+### Attributes
 
 None.
   

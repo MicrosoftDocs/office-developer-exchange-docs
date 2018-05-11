@@ -29,7 +29,7 @@ The **CreateHierarchy** element indicates whether a client can create a hierarch
 
 The following sections describe attributes, child elements, and parent elements.
   
-#### Attributes
+### Attributes
 
 None.
   

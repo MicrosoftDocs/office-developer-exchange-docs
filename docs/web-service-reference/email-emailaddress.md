@@ -25,7 +25,7 @@ The **Email** element identifies an attendee to a meeting.
 
 The following sections describe attributes, child elements, and parent elements.
   
-#### Attributes
+### Attributes
 
 None.
   

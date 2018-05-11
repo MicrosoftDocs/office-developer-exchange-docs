@@ -32,7 +32,7 @@ The **CreateManagedFolder** element defines a request to add managed custom fold
 
 The following sections describe attributes, child elements, and parent elements.
   
-#### Attributes
+### Attributes
 
 None.
   

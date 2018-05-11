@@ -33,7 +33,7 @@ The **EwsPartnerUrl** element specifies the URL of the best endpoint instance fo
 
 The following sections describe attributes, child elements, and parent elements.
   
-#### Attributes
+### Attributes
 
 None.
   

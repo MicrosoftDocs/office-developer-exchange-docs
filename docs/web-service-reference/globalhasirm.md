@@ -25,7 +25,7 @@ The **GlobalHasIrm** element specifies whether at least one message in the conve
 
 The following sections describe attributes, child elements, and parent elements.
   
-#### Attributes
+### Attributes
 
 None.
   

@@ -29,7 +29,7 @@ The **ResponseCode** element provides information about why the recipient is inv
 
 The following sections describe attributes, child elements, and parent elements.
   
-#### Attributes
+### Attributes
 
 None.
   

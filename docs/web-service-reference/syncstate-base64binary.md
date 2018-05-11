@@ -25,7 +25,7 @@ The **SyncState** element specifies the synchronization state of a conversation.
 
 The following sections describe attributes, child elements, and parent elements.
   
-#### Attributes
+### Attributes
 
 None.
   

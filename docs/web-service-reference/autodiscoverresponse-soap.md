@@ -33,7 +33,7 @@ The **AutodiscoverResponse (SOAP)** element represents the base element for all 
 
 The following sections describe attributes, child elements, and parent elements.
   
-#### Attributes
+### Attributes
 
 None.
   

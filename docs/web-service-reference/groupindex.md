@@ -43,7 +43,7 @@ The **GroupIndex** element represents the property value that is used to group i
 
 The following sections describe attributes, child elements, and parent elements.
   
-#### Attributes
+### Attributes
 
 None.
   

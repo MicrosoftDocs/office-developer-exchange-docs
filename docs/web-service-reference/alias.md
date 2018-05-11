@@ -25,7 +25,7 @@ The **Alias** element contains the email alias of a contact.
 
 The following sections describe attributes, child elements, and parent elements.
   
-#### Attributes
+### Attributes
 
 None.
   

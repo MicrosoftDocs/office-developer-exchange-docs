@@ -27,7 +27,7 @@ The **Emails2** element contains an array of **EmailAddressAttributedValue** val
 
 The following sections describe attributes, child elements, and parent elements.
   
-#### Attributes
+### Attributes
 
 None.
   

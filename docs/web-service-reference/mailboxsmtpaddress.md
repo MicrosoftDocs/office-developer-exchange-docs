@@ -29,7 +29,7 @@ The **MailboxSmtpAddress** element represents the SMTP address of the user whose
 
 The following sections describe attributes, child elements, and parent elements.
   
-#### Attributes
+### Attributes
 
 None.
   

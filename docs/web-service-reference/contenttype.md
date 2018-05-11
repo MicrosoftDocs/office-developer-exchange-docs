@@ -29,7 +29,7 @@ The **ContentType** element describes the Multipurpose Internet Mail Extensions 
 
 The following sections describe attributes, child elements, and parent elements.
   
-#### Attributes
+### Attributes
 
 None.
   

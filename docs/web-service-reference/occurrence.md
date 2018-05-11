@@ -34,7 +34,7 @@ The **Occurrence** element represents a single modified occurrence of a recurrin
 
 The following sections describe attributes, child elements, and parent elements.
   
-#### Attributes
+### Attributes
 
 None.
   

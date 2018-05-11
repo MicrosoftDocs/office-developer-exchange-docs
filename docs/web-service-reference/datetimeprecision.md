@@ -25,7 +25,7 @@ The **DateTimePrecision** element specifies the precision for returned date/time
 
 The following sections describe attributes, child elements, and parent elements.
   
-#### Attributes
+### Attributes
 
 None
   

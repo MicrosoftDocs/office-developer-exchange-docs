@@ -32,7 +32,7 @@ The **ChangeHighlights** element specifies what has changed between two versions
 
 The following sections describe attributes, child elements, and parent elements.
   
-#### Attributes
+### Attributes
 
 None.
   

@@ -33,7 +33,7 @@ The **UpdateItemInRecoverableItemsResponseMessage** element specifies the respon
 
 The following sections describe attributes, child elements, and parent elements.
   
-#### Attributes
+### Attributes
 
 None.
   

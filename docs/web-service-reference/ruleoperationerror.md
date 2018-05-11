@@ -32,7 +32,7 @@ The **RuleOperationError** element represents a rule operation error.
 
 The following sections describe attributes, child elements, and parent elements.
   
-#### Attributes
+### Attributes
 
 None.
   

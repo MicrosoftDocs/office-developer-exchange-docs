@@ -29,7 +29,7 @@ The **DialString** element represents the dial string of the telephone number th
 
 The following sections describe attributes, child elements, and parent elements.
   
-#### Attributes
+### Attributes
 
 None.
   

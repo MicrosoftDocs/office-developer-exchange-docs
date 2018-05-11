@@ -33,7 +33,7 @@ The **UnresolvedEntry** element contains the name of a contact or distribution l
 
 The following sections describe attributes, child elements, and parent elements.
   
-#### Attributes
+### Attributes
 
 None.
   

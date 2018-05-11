@@ -29,7 +29,7 @@ The **IsNotSupported** element indicates whether the rule cannot be modified by 
 
 The following sections describe attributes, child elements, and parent elements.
   
-#### Attributes
+### Attributes
 
 None.
   

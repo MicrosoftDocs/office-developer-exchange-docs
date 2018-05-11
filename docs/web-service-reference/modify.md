@@ -29,7 +29,7 @@ The **Modify** element indicates whether a client can modify a folder or item. T
 
 The following sections describe attributes, child elements, and parent elements.
   
-#### Attributes
+### Attributes
 
 None.
   

@@ -29,7 +29,7 @@ The **IntendedFreeBusyStatus** element represents the intended status for the ca
 
 The following sections describe attributes, child elements, and parent elements.
   
-#### Attributes
+### Attributes
 
 None.
   

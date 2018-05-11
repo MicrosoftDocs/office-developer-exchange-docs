@@ -28,7 +28,7 @@ The **DomainResponses** element contains an array of responses for each requeste
 
 The following sections describe attributes, child elements, and parent elements.
   
-#### Attributes
+### Attributes
 
 None.
   

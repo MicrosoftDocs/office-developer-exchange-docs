@@ -35,7 +35,7 @@ The **Properties** element contains a list of one or more tracking properties.
 
 The following sections describe attributes, child elements, and parent elements.
   
-#### Attributes
+### Attributes
 
 None.
   

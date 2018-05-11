@@ -28,7 +28,7 @@ The **PhoneNumber** element specifies the default phone number of the associated
 
 The following sections describe attributes, child elements, and parent elements.
   
-#### Attributes
+### Attributes
 
 None.
   

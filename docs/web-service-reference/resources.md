@@ -31,7 +31,7 @@ The **Resources** element represents a scheduled resource for a meeting.
 
 The following sections describe attributes, child elements, and parent elements.
   
-#### Attributes
+### Attributes
 
 None.
   

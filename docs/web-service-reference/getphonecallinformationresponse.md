@@ -34,7 +34,7 @@ The **GetPhoneCallInformationResponse** element defines a response to a single G
 
 The following sections describe attributes, child elements, and parent elements.
   
-#### Attributes
+### Attributes
 
 |**Attribute**|**Description**|
 |:-----|:-----|

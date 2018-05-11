@@ -30,7 +30,7 @@ The **MailboxStat** element specifies statistics for a mailbox searched by disco
 
 The following sections describe attributes, child elements, and parent elements.
   
-#### Attributes
+### Attributes
 
 None.
   

@@ -45,7 +45,7 @@ The **IsException** element indicates whether an instance of a recurring calenda
 
 The following sections describe attributes, child elements, and parent elements.
   
-#### Attributes
+### Attributes
 
 None.
   

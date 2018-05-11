@@ -35,7 +35,7 @@ The **ConnectingSID** element represents an account to impersonate when you are 
 
 The following sections describe attributes, child elements, and parent elements.
   
-#### Attributes
+### Attributes
 
 None.
   

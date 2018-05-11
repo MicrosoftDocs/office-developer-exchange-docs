@@ -33,7 +33,7 @@ The **AdditionalProperties** element identifies additional properties for use in
 
 The following sections describe attributes, child elements, and parent elements.
   
-#### Attributes
+### Attributes
 
 None.
   

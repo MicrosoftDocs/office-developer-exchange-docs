@@ -27,7 +27,7 @@ The **HomePhones** element specifies an array of home phone numbers and the iden
 
 The following sections describe attributes, child elements, and parent elements.
   
-#### Attributes
+### Attributes
 
 None.
   

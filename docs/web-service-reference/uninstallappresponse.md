@@ -30,7 +30,7 @@ The **UninstallAppResponse** element specifies the response to an **UninstallApp
 
 The following sections describe attributes, child elements, and parent elements.
   
-#### Attributes
+### Attributes
 
 None.
   

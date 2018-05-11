@@ -29,7 +29,7 @@ The **Culture** element represents the culture for a given item in a mailbox.
 
 The following sections describe attributes, child elements, and parent elements.
   
-#### Attributes
+### Attributes
 
 None.
   

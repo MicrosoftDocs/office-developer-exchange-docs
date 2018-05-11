@@ -28,7 +28,7 @@ The **Value** element specifies a phone number and type information and is assoc
 
 The following sections describe attributes, child elements, and parent elements.
   
-#### Attributes
+### Attributes
 
 None.
   

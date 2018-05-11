@@ -25,7 +25,7 @@ The **PrintAllowed** element specifies whether printing is enabled.
 
 The following sections describe attributes, child elements, and parent elements.
   
-#### Attributes
+### Attributes
 
 None.
   

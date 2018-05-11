@@ -32,7 +32,7 @@ The **ExtendedProperty** element identifies extended MAPI properties on folders 
 
 The following sections describe attributes, child elements, and parent elements.
   
-#### Attributes
+### Attributes
 
 None.
   

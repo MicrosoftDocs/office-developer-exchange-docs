@@ -25,7 +25,7 @@ The **TokenType** element identifies the type of client access token that will b
 
 The following sections describe attributes, child elements, and parent elements.
   
-#### Attributes
+### Attributes
 
 None.
   

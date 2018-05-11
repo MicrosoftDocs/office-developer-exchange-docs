@@ -30,7 +30,7 @@ The **DraftItemIds** element contains an array of item identifiers to draft item
 
 The following sections describe attributes, child elements, and parent elements.
   
-#### Attributes
+### Attributes
 
 None.
   

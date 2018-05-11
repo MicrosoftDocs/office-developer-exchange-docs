@@ -29,7 +29,7 @@ The **PrimarySmtpAddress** element represents the primary Simple Mail Transfer P
 
 The following sections describe attributes, child elements, and parent elements.
   
-#### Attributes
+### Attributes
 
 None.
   

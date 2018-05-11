@@ -39,7 +39,7 @@ The **MailboxData** element represents an individual mailbox user and options fo
 
 The following sections describe attributes, child elements, and parent elements.
   
-#### Attributes
+### Attributes
 
 None.
   

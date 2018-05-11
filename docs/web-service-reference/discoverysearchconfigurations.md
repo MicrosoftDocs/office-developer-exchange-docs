@@ -27,7 +27,7 @@ The **DiscoverySearchConfigurations** element specifies an array of **DiscoveryS
 
 The following sections describe attributes, child elements, and parent elements.
   
-#### Attributes
+### Attributes
 
 None.
   

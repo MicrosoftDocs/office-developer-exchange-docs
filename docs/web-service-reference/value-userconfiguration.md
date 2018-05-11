@@ -29,7 +29,7 @@ The **Value** element specifies the dictionary object value as a string.
 
 The following sections describe attributes, child elements, and parent elements.
   
-#### Attributes
+### Attributes
 
 None.
   

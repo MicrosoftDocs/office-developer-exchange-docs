@@ -25,7 +25,7 @@ The **IconIndex** element identifies the icon index for an item or conversation.
 
 The following sections describe attributes, child elements, and parent elements.
   
-#### Attributes
+### Attributes
 
 None.
   

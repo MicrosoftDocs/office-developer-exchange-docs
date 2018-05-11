@@ -27,7 +27,7 @@ The **TokenIssuer** element specifies the [Uri (SOAP)](uri-soap.md) and [Endpoin
 
 The following sections describe attributes, child elements, and parent elements.
   
-#### Attributes
+### Attributes
 
 None
   

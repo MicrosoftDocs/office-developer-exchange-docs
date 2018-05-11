@@ -33,7 +33,7 @@ The **DisplayName** element represents the user's display name.
 
 The following sections describe attributes, child elements, and parent elements.
   
-#### Attributes
+### Attributes
 
 None.
   

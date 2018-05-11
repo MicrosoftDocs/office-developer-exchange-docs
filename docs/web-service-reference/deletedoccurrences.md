@@ -31,7 +31,7 @@ The **DeletedOccurrences** element contains an array of deleted occurrences of a
 
 The following sections describe attributes, child elements, and parent elements.
   
-#### Attributes
+### Attributes
 
 None.
   

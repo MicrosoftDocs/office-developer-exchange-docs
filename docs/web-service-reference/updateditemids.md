@@ -28,7 +28,7 @@ The **UpdatedItemIds** element specifies the identifiers of updated reminder ite
 
 The following sections describe attributes, child elements, and parent elements.
   
-#### Attributes
+### Attributes
 
 None.
   

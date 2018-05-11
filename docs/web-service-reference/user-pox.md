@@ -36,7 +36,7 @@ The **User** element provides user-specific information.
 
 The following sections describe attributes, child elements, and parent elements.
   
-#### Attributes
+### Attributes
 
 None.
   

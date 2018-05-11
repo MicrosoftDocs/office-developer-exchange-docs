@@ -26,7 +26,7 @@ The **Hostname** element represents the host name portion of the full computer n
 
 The following sections describe attributes, child elements, and parent elements.
   
-#### Attributes
+### Attributes
 
 None.
   

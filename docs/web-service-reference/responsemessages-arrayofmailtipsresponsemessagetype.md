@@ -31,7 +31,7 @@ The **ResponseMessages** element represents a list of mail tips response message
 
 The following sections describe attributes, child elements, and parent elements.
   
-#### Attributes
+### Attributes
 
 None.
   

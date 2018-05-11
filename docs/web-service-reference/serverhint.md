@@ -29,7 +29,7 @@ The **ServerHint** element represents the starting point for tracking a message 
 
 The following sections describe attributes, child elements, and parent elements.
   
-#### Attributes
+### Attributes
 
 None.
   

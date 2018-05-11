@@ -30,7 +30,7 @@ The **ProtocolConnection** element represents the protocol connection of the ser
 
 The following sections describe attributes, child elements, and parent elements.
   
-#### Attributes
+### Attributes
 
 None.
   

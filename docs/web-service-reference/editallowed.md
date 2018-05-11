@@ -25,7 +25,7 @@ The **EditAllowed** element specifies whether Information Rights Management can 
 
 The following sections describe attributes, child elements, and parent elements.
   
-#### Attributes
+### Attributes
 
 None.
   

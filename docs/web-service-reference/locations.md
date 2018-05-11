@@ -27,7 +27,7 @@ The **Locations** element specifies an array of location values and the identifi
 
 The following sections describe attributes, child elements, and parent elements.
   
-#### Attributes
+### Attributes
 
 None.
   

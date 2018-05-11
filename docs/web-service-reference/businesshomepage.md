@@ -29,7 +29,7 @@ The **BusinessHomePage** element represents the Home page (Web address) for the 
 
 The following sections describe attributes, child elements, and parent elements.
   
-#### Attributes
+### Attributes
 
 None.
   

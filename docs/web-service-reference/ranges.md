@@ -27,7 +27,7 @@ The **Ranges** element specifies an array of recurrence ranges.
 
 The following sections describe attributes, child elements, and parent elements.
   
-#### Attributes
+### Attributes
 
 None.
   

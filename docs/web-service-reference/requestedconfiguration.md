@@ -31,7 +31,7 @@ The **RequestedConfiguration** element contains the requested service configurat
 
 The following sections describe attributes, child elements, and parent elements.
   
-#### Attributes
+### Attributes
 
 None.
   

@@ -29,7 +29,7 @@ The **IsResponseRequested** element indicates whether a response to an item is r
 
 The following sections describe attributes, child elements, and parent elements.
   
-#### Attributes
+### Attributes
 
 None.
   

@@ -29,7 +29,7 @@ The **AllInternal** element evaluates to **true** if all recipients of an e-mail
 
 The following sections describe attributes, child elements, and parent elements.
   
-#### Attributes
+### Attributes
 
 None.
   

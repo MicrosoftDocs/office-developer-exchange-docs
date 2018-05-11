@@ -25,7 +25,7 @@ The **PrimarySmtpAddress** element specifies the primary Simple Mail Transfer Pr
 
 The following sections describe attributes, child elements, and parent elements.
   
-#### Attributes
+### Attributes
 
 None.
   

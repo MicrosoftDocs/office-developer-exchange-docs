@@ -25,7 +25,7 @@ The **YomiCompanyName** element specifies the phonetic Japanese company name of 
 
 The following sections describe attributes, child elements, and parent elements.
   
-#### Attributes
+### Attributes
 
 None.
   

@@ -25,7 +25,7 @@ The **EndDate** element specifies the end date of the item the reminder is for.
 
 The following sections describe attributes, child elements, and parent elements.
   
-#### Attributes
+### Attributes
 
 None.
   

@@ -31,7 +31,7 @@ The **RedirectToRecipients** element indicates the e-mail addresses to which mes
 
 The following sections describe attributes, child elements, and parent elements.
   
-#### Attributes
+### Attributes
 
 None.
   

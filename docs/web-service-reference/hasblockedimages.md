@@ -25,7 +25,7 @@ The **HasBlockedImages** element specifies a Boolean value that indicates whethe
 
 The following sections describe attributes, child elements, and parent elements.
   
-#### Attributes
+### Attributes
 
 None.
   

@@ -35,7 +35,7 @@ The **Sender** element represents the e-mail address for the sender of the messa
 
 The following sections describe attributes, child elements, and parent elements.
   
-#### Attributes
+### Attributes
 
 None.
   

@@ -37,7 +37,7 @@ The **GlobalSize** element contains the size of the conversation calculated from
 
 The following sections describe attributes, child elements, and parent elements.
   
-#### Attributes
+### Attributes
 
 None.
   

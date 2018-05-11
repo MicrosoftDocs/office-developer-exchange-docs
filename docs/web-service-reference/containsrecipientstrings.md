@@ -31,7 +31,7 @@ The **ContainsRecipientStrings** element indicates the strings that must appear 
 
 The following sections describe attributes, child elements, and parent elements.
   
-#### Attributes
+### Attributes
 
 None.
   

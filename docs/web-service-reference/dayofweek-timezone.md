@@ -29,7 +29,7 @@ The **DayOfWeek** element represents the day of the week on which the time zone 
 
 The following sections describe attributes, child elements, and parent elements.
   
-#### Attributes
+### Attributes
 
 None.
   

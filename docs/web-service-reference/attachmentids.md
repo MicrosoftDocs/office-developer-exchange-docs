@@ -31,7 +31,7 @@ The **AttachmentIds** element contains an array of attachment identifiers.
 
 The following sections describe attributes, child elements, and parent elements.
   
-#### Attributes
+### Attributes
 
 None.
   

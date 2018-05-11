@@ -35,7 +35,7 @@ The **StandardGroupBy** element represents the standard grouping and aggregating
 
 The following sections describe attributes, child elements, and parent elements.
   
-#### Attributes
+### Attributes
 
 None.
   

@@ -29,7 +29,7 @@ The **Month** element describes the month when a yearly recurring item occurs.
 
 The following sections describe attributes, child elements, and parent elements.
   
-#### Attributes
+### Attributes
 
 None.
   

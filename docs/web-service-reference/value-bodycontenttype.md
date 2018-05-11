@@ -28,7 +28,7 @@ The **Value** element specifies the value of a **BodyContentAttributedValue** el
 
 The following sections describe attributes, child elements, and parent elements.
   
-#### Attributes
+### Attributes
 
 None.
   

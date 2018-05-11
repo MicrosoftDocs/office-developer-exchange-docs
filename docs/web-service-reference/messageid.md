@@ -29,7 +29,7 @@ The **MessageId** element represents the message identification to search for.
 
 The following sections describe attributes, child elements, and parent elements.
   
-#### Attributes
+### Attributes
 
 None.
   

@@ -29,7 +29,7 @@ The **EncryptedSharedFolderDataCollection** element contains a collection of dat
 
 The following sections describe attributes, child elements, and parent elements.
   
-#### Attributes
+### Attributes
 
 None.
   

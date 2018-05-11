@@ -29,7 +29,7 @@ The **MarkAllItemsAsRead** element contains the request to mark all the items in
 
 The following sections describe attributes, child elements, and parent elements.
   
-#### Attributes
+### Attributes
 
 None.
   

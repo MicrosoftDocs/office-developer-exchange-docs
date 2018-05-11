@@ -28,7 +28,7 @@ The **ArchiveItem** element contains the source folder Id and an array of item I
 
 The following sections describe attributes, child elements, and parent elements.
   
-#### Attributes
+### Attributes
 
 None.
   

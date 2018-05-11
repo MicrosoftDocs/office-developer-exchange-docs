@@ -41,7 +41,7 @@ The **Items** element contains an array of items.
 
 The following sections describe attributes, child elements, and parent elements.
   
-#### Attributes
+### Attributes
 
 None.
   

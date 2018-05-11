@@ -27,7 +27,7 @@ The **Mailboxes** element contains an array of mailboxes.
 
 The following sections describe attributes, child elements, and parent elements.
   
-#### Attributes
+### Attributes
 
 None.
   

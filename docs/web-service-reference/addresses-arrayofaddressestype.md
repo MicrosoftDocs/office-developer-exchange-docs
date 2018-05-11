@@ -27,7 +27,7 @@ The **Addresses** element specifies an array of **Address** elements.
 
 The following sections describe attributes, child elements, and parent elements.
   
-#### Attributes
+### Attributes
 
 None.
   

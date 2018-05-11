@@ -29,7 +29,7 @@ The **End** element represents the end of a duration.
 
 The following sections describe attributes, child elements, and parent elements.
   
-#### Attributes
+### Attributes
 
 None.
   

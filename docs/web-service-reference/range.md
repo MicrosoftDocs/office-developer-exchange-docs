@@ -25,7 +25,7 @@ The **Range** element specifies a range of calendar item occurrences for a repea
 
 The following sections describe attributes, child elements, and parent elements.
   
-#### Attributes
+### Attributes
 
 |**Attribute**|**Description**|
 |:-----|:-----|

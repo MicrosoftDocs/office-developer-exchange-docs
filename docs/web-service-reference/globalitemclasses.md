@@ -39,7 +39,7 @@ The **GlobalItemClasses** element contains a list of item classes that represent
 
 The following sections describe attributes, child elements, and parent elements.
   
-#### Attributes
+### Attributes
 
 None.
   

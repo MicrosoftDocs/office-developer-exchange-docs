@@ -25,7 +25,7 @@ The **Longitude** element specifies the longitude of the location of the associa
 
 The following sections describe attributes, child elements, and parent elements.
   
-#### Attributes
+### Attributes
 
 None.
   

@@ -34,7 +34,7 @@ The **Error** element represents a single validation error on a particular rule 
 
 The following sections describe attributes, child elements, and parent elements.
   
-#### Attributes
+### Attributes
 
 None.
   

@@ -29,7 +29,7 @@ The **IsEnabled** element indicates whether the rule is enabled.
 
 The following sections describe attributes, child elements, and parent elements.
   
-#### Attributes
+### Attributes
 
 None.
   

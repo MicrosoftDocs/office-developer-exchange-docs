@@ -34,7 +34,7 @@ The **NewMailEvent** element represents an event that is triggered by a new mail
 
 The following sections describe attributes, child elements, and parent elements.
   
-#### Attributes
+### Attributes
 
 None.
   

@@ -30,7 +30,7 @@ The **SetImGroupResponse** element represents a response to a **SetImGroup** req
 
 The following sections describe attributes, child elements, and parent elements.
   
-#### Attributes
+### Attributes
 
 None.
   

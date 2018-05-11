@@ -28,7 +28,7 @@ The **CreateFolderPath** element is used to create a folder path and includes a 
 
 The following sections describe attributes, child elements, and parent elements.
   
-#### Attributes
+### Attributes
 
 None.
   

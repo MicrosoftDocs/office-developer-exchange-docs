@@ -30,7 +30,7 @@ The **GetUMProperties** element defines a [GetUMProperties operation (UM web ser
 
 The following sections describe attributes, child elements, and parent elements.
   
-#### Attributes
+### Attributes
 
 None.
   

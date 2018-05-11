@@ -29,7 +29,7 @@ The **TimeZone** element provides a text description of a time zone.
 
 The following sections describe attributes, child elements, and parent elements.
   
-#### Attributes
+### Attributes
 
 None.
   

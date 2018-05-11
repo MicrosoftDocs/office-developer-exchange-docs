@@ -27,7 +27,7 @@ The **ClientExtensions** element contains an array of user and configuration inf
 
 The following sections describe attributes, child elements, and parent elements.
   
-#### Attributes
+### Attributes
 
 None.
   

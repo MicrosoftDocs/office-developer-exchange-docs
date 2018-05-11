@@ -39,7 +39,7 @@ The **UniqueRecipients** element contains the recipient list of a conversation i
 
 The following sections describe attributes, child elements, and parent elements.
   
-#### Attributes
+### Attributes
 
 None.
   

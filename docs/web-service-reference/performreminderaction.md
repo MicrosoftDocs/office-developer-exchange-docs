@@ -27,7 +27,7 @@ The **PerformReminderAction** element specifies a request to perform a reminder 
 
 The following sections describe attributes, child elements, and parent elements.
   
-#### Attributes
+### Attributes
 
 None.
   

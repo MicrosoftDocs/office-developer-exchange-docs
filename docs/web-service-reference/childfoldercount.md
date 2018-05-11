@@ -29,7 +29,7 @@ The **ChildFolderCount** element represents the number of immediate child folder
 
 The following sections describe attributes, child elements, and parent elements.
   
-#### Attributes
+### Attributes
 
 None.
   

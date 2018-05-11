@@ -25,7 +25,7 @@ The **ContentExpiryDate** element specifies the expiration date of the content.
 
 The following sections describe attributes, child elements, and parent elements.
   
-#### Attributes
+### Attributes
 
 None.
   

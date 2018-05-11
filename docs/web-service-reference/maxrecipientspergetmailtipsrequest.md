@@ -29,7 +29,7 @@ The **MaxRecipientsPerGetMailTipsRequest** element indicates the maximum number 
 
 The following sections describe attributes, child elements, and parent elements.
   
-#### Attributes
+### Attributes
 
 None.
   

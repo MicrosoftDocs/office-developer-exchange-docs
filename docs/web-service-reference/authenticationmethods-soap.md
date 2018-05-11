@@ -26,7 +26,7 @@ The **AuthenticationMethods** element describes the authentication methods that 
 
 The following sections describe attributes, child elements, and parent elements.
   
-#### Attributes
+### Attributes
 
 None.
   

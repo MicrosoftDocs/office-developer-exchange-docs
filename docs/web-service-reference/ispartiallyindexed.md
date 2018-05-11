@@ -25,7 +25,7 @@ The **IsPartiallyIndexed** element indicates whether the item is partially index
 
 The following sections describe attributes, child elements, and parent elements.
   
-#### Attributes
+### Attributes
 
 None.
   

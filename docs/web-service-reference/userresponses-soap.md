@@ -28,7 +28,7 @@ The **UserResponses** element contains the configuration settings for each reque
 
 The following sections describe attributes, child elements, and parent elements.
   
-#### Attributes
+### Attributes
 
 None.
   

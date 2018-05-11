@@ -29,7 +29,7 @@ The **FolderClass** element represents the folder class for a folder.
 
 The following sections describe attributes, child elements, and parent elements.
   
-#### Attributes
+### Attributes
 
 None.
   

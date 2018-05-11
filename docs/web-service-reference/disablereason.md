@@ -25,7 +25,7 @@ The **DisableReason** element specifies the reason for disabling an app.
 
 The following sections describe attributes, child elements, and parent elements.
   
-#### Attributes
+### Attributes
 
 None.
   

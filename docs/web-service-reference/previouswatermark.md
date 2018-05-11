@@ -29,7 +29,7 @@ The **PreviousWatermark** element represents the watermark of the latest event t
 
 The following sections describe attributes, child elements, and parent elements.
   
-#### Attributes
+### Attributes
 
 None.
   

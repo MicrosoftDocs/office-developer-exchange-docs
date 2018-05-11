@@ -37,7 +37,7 @@ The **ProcessRightAway** element indicates whether the response is sent as soon 
 
 The following sections describe attributes, child elements, and parent elements.
   
-#### Attributes
+### Attributes
 
 None.
   

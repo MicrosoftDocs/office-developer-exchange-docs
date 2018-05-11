@@ -31,7 +31,7 @@ The **SenderDepartments** element specifies that the department of the sender ma
 
 The following sections describe attributes, child elements, and parent elements.
   
-#### Attributes
+### Attributes
 
 None.
   

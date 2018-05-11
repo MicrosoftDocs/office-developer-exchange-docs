@@ -31,7 +31,7 @@ The **EmailAddresses** element represents a collection of e-mail addresses for a
 
 The following sections describe attributes, child elements, and parent elements.
   
-#### Attributes
+### Attributes
 
 None.
   

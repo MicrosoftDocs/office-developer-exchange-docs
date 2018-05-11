@@ -33,7 +33,7 @@ The **RemoveOutlookRuleBlob** element indicates whether to remove the Microsoft 
 
 The following sections describe attributes, child elements, and parent elements.
   
-#### Attributes
+### Attributes
 
 None.
   

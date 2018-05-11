@@ -32,7 +32,7 @@ The **CopyFolder** element defines a request to copy folders in a mailbox in the
 
 The following sections describe attributes, child elements, and parent elements.
   
-#### Attributes
+### Attributes
 
 None.
   

@@ -25,7 +25,7 @@ The **PhoneString** element specifies the phone number for an extracted contact.
 
 The following sections describe attributes, child elements, and parent elements.
   
-#### Attributes
+### Attributes
 
 None.
   

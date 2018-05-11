@@ -29,7 +29,7 @@ The **LastResponseTime** element represents the date and time of the latest resp
 
 The following sections describe attributes, child elements, and parent elements.
   
-#### Attributes
+### Attributes
 
 None.
   

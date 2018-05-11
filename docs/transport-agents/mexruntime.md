@@ -40,7 +40,7 @@ The **mexRuntime** element contains elements that define configuration informati
 
 The following sections describe attributes, child elements, and parent elements.
   
-#### Attributes
+### Attributes
 
 None.
   

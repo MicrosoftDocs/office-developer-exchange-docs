@@ -31,7 +31,7 @@ The **Companies** element represents the collection of companies that are associ
 
 The following sections describe attributes, child elements, and parent elements.
   
-#### Attributes
+### Attributes
 
 None.
   

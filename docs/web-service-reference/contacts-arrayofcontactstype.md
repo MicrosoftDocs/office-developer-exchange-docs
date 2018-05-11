@@ -27,7 +27,7 @@ The **Contacts** element specifies an array of contacts.
 
 The following sections describe attributes, child elements, and parent elements.
   
-#### Attributes
+### Attributes
 
 None.
   

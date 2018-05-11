@@ -25,7 +25,7 @@ The **IsUndecidedApprovalRequest** element specifies whether an approval request
 
 The following sections describe attributes, child elements, and parent elements.
   
-#### Attributes
+### Attributes
 
 None.
   

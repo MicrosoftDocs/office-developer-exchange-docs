@@ -31,7 +31,7 @@ The **SortOrder** element defines how items are sorted in a **FindItem** or **Fi
 
 The following sections describe attributes, child elements, and parent elements.
   
-#### Attributes
+### Attributes
 
 None.
   

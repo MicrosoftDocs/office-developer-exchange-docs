@@ -25,7 +25,7 @@ The **IncludePersonalArchive** element specifies whether to include the personal
 
 The following sections describe attributes, child elements, and parent elements.
   
-#### Attributes
+### Attributes
 
 None.
   

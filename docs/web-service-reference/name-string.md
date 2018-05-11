@@ -25,7 +25,7 @@ The **Name** element specifies a search refiner name.
 
 The following sections describe attributes, child elements, and parent elements.
   
-#### Attributes
+### Attributes
 
 None.
   

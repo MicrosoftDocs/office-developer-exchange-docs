@@ -29,7 +29,7 @@ The **MeetingRequestWasSent** element indicates whether a meeting request has be
 
 The following sections describe attributes, child elements, and parent elements.
   
-#### Attributes
+### Attributes
 
 None.
   

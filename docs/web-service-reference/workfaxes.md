@@ -27,7 +27,7 @@ The **WorkFaxes** element specifies an array of work fax numbers and the identif
 
 The following sections describe attributes, child elements, and parent elements.
   
-#### Attributes
+### Attributes
 
 None.
   

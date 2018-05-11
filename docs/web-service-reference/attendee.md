@@ -33,7 +33,7 @@ The **Attendee** element represents attendees and resources for a meeting.
 
 The following sections describe attributes, child elements, and parent elements.
   
-#### Attributes
+### Attributes
 
 None.
   

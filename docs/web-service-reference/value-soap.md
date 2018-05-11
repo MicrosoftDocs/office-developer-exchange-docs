@@ -32,7 +32,7 @@ The **Value** element represents a user setting value.
 
 The following sections describe attributes, child elements, and parent elements.
   
-#### Attributes
+### Attributes
 
 None.
   

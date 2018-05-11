@@ -27,7 +27,7 @@ The **GetNonIndexableItemStatistics** element specifies a request to retrieve no
 
 The following sections describe attributes, child elements, and parent elements.
   
-#### Attributes
+### Attributes
 
 None.
   

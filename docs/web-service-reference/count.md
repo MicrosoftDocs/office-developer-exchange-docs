@@ -39,7 +39,7 @@ The [Count](count.md) element contains the number of conflicts in an [UpdateItem
 
 The following sections describe attributes, child elements, and parent elements.
   
-#### Attributes
+### Attributes
 
 None.
   

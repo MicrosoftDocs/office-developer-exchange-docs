@@ -29,7 +29,7 @@ The **IsRead** element indicates whether a message has been read.
 
 The following sections describe attributes, child elements, and parent elements.
   
-#### Attributes
+### Attributes
 
 None.
   

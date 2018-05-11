@@ -29,7 +29,7 @@ The **City** element represents the city name that is associated with a contact.
 
 The following sections describe attributes, child elements, and parent elements.
   
-#### Attributes
+### Attributes
 
 None.
   

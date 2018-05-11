@@ -31,7 +31,7 @@ The **Notifications** element contains an array of information about the subscri
 
 The following sections describe attributes, child elements, and parent elements.
   
-#### Attributes
+### Attributes
 
 None.
   

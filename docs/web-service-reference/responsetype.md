@@ -29,7 +29,7 @@ The **ResponseType** element represents the type of recipient response that is r
 
 The following sections describe attributes, child elements, and parent elements.
   
-#### Attributes
+### Attributes
 
 None.
   

@@ -31,7 +31,7 @@ The **UpdateFolder** element represents the operation that is used to update pro
 
 The following sections describe attributes, child elements, and parent elements.
   
-#### Attributes
+### Attributes
 
 None.
   

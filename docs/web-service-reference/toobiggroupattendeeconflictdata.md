@@ -45,7 +45,7 @@ The **TooBigGroupAttendeeConflictData** element represents an attendee that was 
 
 The following sections describe attributes, child elements, and parent elements.
   
-#### Attributes
+### Attributes
 
 None.
   

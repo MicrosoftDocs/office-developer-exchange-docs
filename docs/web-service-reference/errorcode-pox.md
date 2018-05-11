@@ -29,7 +29,7 @@ The **ErrorCode** element contains the error code for an error Autodiscover resp
 
 The following sections describe attributes, child elements, and parent elements.
   
-#### Attributes
+### Attributes
 
 None.
   

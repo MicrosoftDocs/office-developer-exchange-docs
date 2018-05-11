@@ -29,7 +29,7 @@ The **IsInError** element indicates whether the rule is in an error condition.
 
 The following sections describe attributes, child elements, and parent elements.
   
-#### Attributes
+### Attributes
 
 None.
   

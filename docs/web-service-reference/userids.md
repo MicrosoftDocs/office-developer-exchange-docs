@@ -31,7 +31,7 @@ The **UserIds** element contains an array of delegate users to get or remove fro
 
 The following sections describe attributes, child elements, and parent elements.
   
-#### Attributes
+### Attributes
 
 None.
   

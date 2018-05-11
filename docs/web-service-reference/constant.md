@@ -29,7 +29,7 @@ The **Constant** element identifies a constant value in a restriction.
 
 The following sections describe attributes, child elements, and parent elements.
   
-#### Attributes
+### Attributes
 
 |**Attribute**|**Description**|
 |:-----|:-----|

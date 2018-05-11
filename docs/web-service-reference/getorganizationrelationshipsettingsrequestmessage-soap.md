@@ -26,7 +26,7 @@ The **GetOrganizationRelationshipSettingRequestMessage** element represents a [G
 
 The following sections describe attributes, child elements, and parent elements.
   
-#### Attributes
+### Attributes
 
 None.
   

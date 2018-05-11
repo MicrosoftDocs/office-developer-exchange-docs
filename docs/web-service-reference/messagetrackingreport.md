@@ -37,7 +37,7 @@ The **MessageTrackingReport** element contains a single message that is returned
 
 The following sections describe attributes, child elements, and parent elements.
   
-#### Attributes
+### Attributes
 
 None.
   

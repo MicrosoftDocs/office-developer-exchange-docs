@@ -34,7 +34,7 @@ The **DelegateUser** element identifies a single delegate to add or update in a 
 
 The following sections describe attributes, child elements, and parent elements.
   
-#### Attributes
+### Attributes
 
 None.
   

@@ -29,7 +29,7 @@ The **DistinguishedUser** element identifies Anonymous and Default user accounts
 
 The following sections describe attributes, child elements, and parent elements.
   
-#### Attributes
+### Attributes
 
 None.
   

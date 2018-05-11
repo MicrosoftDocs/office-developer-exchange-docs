@@ -30,7 +30,7 @@ The **DomainSettingError** element represents an error that occurred while retri
 
 The following sections describe attributes, child elements, and parent elements.
   
-#### Attributes
+### Attributes
 
 None.
   

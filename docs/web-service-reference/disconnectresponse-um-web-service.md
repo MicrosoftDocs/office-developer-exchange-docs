@@ -30,7 +30,7 @@ The **DisconnectResponse** element defines a response to a [Disconnect operation
 
 The following sections describe attributes, child elements, and parent elements.
   
-#### Attributes
+### Attributes
 
 None.
   

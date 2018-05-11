@@ -29,7 +29,7 @@ The **InternetMessageId** element represents the Internet message identifier of 
 
 The following sections describe attributes, child elements, and parent elements.
   
-#### Attributes
+### Attributes
 
 None.
   

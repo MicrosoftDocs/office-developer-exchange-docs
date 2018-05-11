@@ -41,7 +41,7 @@ The **SuggestionDayResult** element represents a single day that contains sugges
 
 The following sections describe attributes, child elements, and parent elements.
   
-#### Attributes
+### Attributes
 
 None.
   

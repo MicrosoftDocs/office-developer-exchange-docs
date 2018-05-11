@@ -32,7 +32,7 @@ The **NumberedRecurrence** element describes the start date and the number of oc
 
 The following sections describe attributes, child elements, and parent elements.
   
-#### Attributes
+### Attributes
 
 None.
   

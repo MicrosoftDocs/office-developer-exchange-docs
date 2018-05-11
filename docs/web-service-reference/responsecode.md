@@ -33,7 +33,7 @@ The **ResponseCode** element provides status information about the request.
 
 The following sections describe attributes, child elements, and parent elements.
   
-#### Attributes
+### Attributes
 
 None.
   

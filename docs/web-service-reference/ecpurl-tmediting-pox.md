@@ -33,7 +33,7 @@ The **EcpUrl-tmEditing** element specifies a partial URL that can be combined wi
 
 The following sections describe attributes, child elements, and parent elements.
   
-#### Attributes
+### Attributes
 
 None.
   

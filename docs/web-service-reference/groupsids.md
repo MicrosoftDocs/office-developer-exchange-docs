@@ -31,7 +31,7 @@ The **GroupSids** element represents a collection of Active Directory directory 
 
 The following sections describe attributes, child elements, and parent elements.
   
-#### Attributes
+### Attributes
 
 None.
   

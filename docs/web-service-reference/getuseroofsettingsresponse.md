@@ -33,7 +33,7 @@ The **GetUserOofSettingsResponse** element contains the response message and the
 
 The following sections describe attributes, child elements, and parent elements.
   
-#### Attributes
+### Attributes
 
 None.
   

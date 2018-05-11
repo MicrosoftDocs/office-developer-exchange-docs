@@ -27,7 +27,7 @@ The **GivenNames** element specifies an array of given name values and the ident
 
 The following sections describe attributes, child elements, and parent elements.
   
-#### Attributes
+### Attributes
 
 None.
   

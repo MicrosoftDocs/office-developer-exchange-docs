@@ -25,7 +25,7 @@ The **HomeCitySortKey** element represents the sort key for the home city.
 
 The following sections describe attributes, child elements, and parent elements.
   
-#### Attributes
+### Attributes
 
 None.
   

@@ -29,7 +29,7 @@ The **References** element represents the Usenet header that is used to associat
 
 The following sections describe attributes, child elements, and parent elements.
   
-#### Attributes
+### Attributes
 
 None.
   

@@ -47,7 +47,7 @@ The **agent** element contains configuration information about an installed agen
 
 The following sections describe attributes, child elements, and parent elements.
   
-#### Attributes
+### Attributes
 
 |**Attribute**|**Description**|
 |:-----|:-----|

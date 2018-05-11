@@ -25,7 +25,7 @@ The **PostOfficeBox** element specifies the "post office box" portion of a posta
 
 The following sections describe attributes, child elements, and parent elements.
   
-#### Attributes
+### Attributes
 
 None.
   

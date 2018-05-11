@@ -26,7 +26,7 @@ The **Domain** element identifies the domain that has a federation trust.
 
 The following sections describe attributes, child elements, and parent elements.
   
-#### Attributes
+### Attributes
 
 None.
   

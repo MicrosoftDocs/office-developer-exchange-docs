@@ -32,7 +32,7 @@ The **GetCallInfo** element defines a request to get information about a call.
 
 The following sections describe attributes, child elements, and parent elements.
   
-#### Attributes
+### Attributes
 
 None.
   

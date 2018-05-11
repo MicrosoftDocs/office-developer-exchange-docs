@@ -29,7 +29,7 @@ The **MessageTrackingReportId** element represents the message by its message ID
 
 The following sections describe attributes, child elements, and parent elements.
   
-#### Attributes
+### Attributes
 
 None.
   

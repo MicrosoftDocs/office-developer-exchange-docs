@@ -45,7 +45,7 @@ The **IsRecurring** element indicates whether the calendar event is an instance 
 
 The following sections describe attributes, child elements, and parent elements.
   
-#### Attributes
+### Attributes
 
 None.
   

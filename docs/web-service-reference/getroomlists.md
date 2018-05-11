@@ -29,7 +29,7 @@ The **GetRoomLists** element is the root element in a request for a list of emai
 
 The following sections describe attributes, child elements, and parent elements.
   
-#### Attributes
+### Attributes
 
 None.
   

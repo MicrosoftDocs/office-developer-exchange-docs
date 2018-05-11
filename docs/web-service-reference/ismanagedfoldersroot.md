@@ -29,7 +29,7 @@ The **IsManagedFoldersRoot** element indicates whether the managed folder is the
 
 The following sections describe attributes, child elements, and parent elements.
   
-#### Attributes
+### Attributes
 
 None.
   

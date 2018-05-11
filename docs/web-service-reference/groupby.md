@@ -36,7 +36,7 @@ The **GroupBy** element specifies an arbitrary grouping for FindItem queries.
 
 The following sections describe attributes, child elements, and parent elements.
   
-#### Attributes
+### Attributes
 
 |**Attribute**|**Description**|
 |:-----|:-----|

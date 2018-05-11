@@ -30,7 +30,7 @@ The **Response** element contains the response to a [GetUserSettings operation (
 
 The following sections describe attributes, child elements, and parent elements.
   
-#### Attributes
+### Attributes
 
 None.
   

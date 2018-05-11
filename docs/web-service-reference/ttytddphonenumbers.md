@@ -27,7 +27,7 @@ The **TTYTDDPhoneNumbers** element specifies an array of TTY or TDD text telepho
 
 The following sections describe attributes, child elements, and parent elements.
   
-#### Attributes
+### Attributes
 
 None.
   

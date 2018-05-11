@@ -38,7 +38,7 @@ The **OofStatus** element contains a value that indicaties the Unified Messaging
 
 The following sections describe attributes, child elements, and parent elements.
   
-#### Attributes
+### Attributes
 
 None.
   

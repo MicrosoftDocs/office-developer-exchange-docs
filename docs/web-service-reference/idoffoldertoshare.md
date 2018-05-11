@@ -29,7 +29,7 @@ The **IdOfFolderToShare** element represents the identifier of the folder on the
 
 The following sections describe attributes, child elements, and parent elements.
   
-#### Attributes
+### Attributes
 
 |**Attribute**|**Description**|
 |:-----|:-----|

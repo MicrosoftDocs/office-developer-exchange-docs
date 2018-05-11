@@ -25,7 +25,7 @@ The **UID (ReminderType)** element identifies the calendar item associated with 
 
 The following sections describe attributes, child elements, and parent elements.
   
-#### Attributes
+### Attributes
 
 None.
   

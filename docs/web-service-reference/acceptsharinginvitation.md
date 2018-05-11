@@ -31,7 +31,7 @@ The **AcceptSharingInvitation** element is used to accept an invitation that all
 
 The following sections describe attributes, child elements, and parent elements.
   
-#### Attributes
+### Attributes
 
 None.
   

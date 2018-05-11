@@ -28,7 +28,7 @@ The **DocumentSharingLocationCollectionSetting** element represents a user setti
 
 The following sections describe attributes, child elements, and parent elements.
   
-#### Attributes
+### Attributes
 
 None.
   

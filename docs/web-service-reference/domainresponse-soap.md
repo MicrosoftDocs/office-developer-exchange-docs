@@ -32,7 +32,7 @@ The **DomainResponse** element contains the requested settings for the specified
 
 The following sections describe attributes, child elements, and parent elements.
   
-#### Attributes
+### Attributes
 
 None.
   

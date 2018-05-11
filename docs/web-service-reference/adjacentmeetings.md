@@ -31,7 +31,7 @@ The **AdjacentMeetings** element identifies all calendar items that are adjacent
 
 The following sections describe attributes, child elements, and parent elements.
   
-#### Attributes
+### Attributes
 
 None.
   

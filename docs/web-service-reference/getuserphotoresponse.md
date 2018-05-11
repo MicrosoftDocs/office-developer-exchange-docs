@@ -32,7 +32,7 @@ The **GetUserPhotoResponse** element contains the response to a GetUserPhoto req
 
 The following sections describe attributes, child elements, and parent elements.
   
-#### Attributes
+### Attributes
 
 None.
   

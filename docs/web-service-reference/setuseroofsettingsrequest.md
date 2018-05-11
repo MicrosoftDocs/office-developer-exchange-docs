@@ -32,7 +32,7 @@ The **SetUserOofSettingsRequest** element contains the arguments used to set a m
 
 The following sections describe attributes, child elements, and parent elements.
   
-#### Attributes
+### Attributes
 
 None.
   

@@ -37,7 +37,7 @@ The **ServiceConfigurationResponseMessageType** element contains service configu
 
 The following sections describe attributes, child elements, and parent elements.
   
-#### Attributes
+### Attributes
 
 |**Attribute**|**Description**|
 |:-----|:-----|

@@ -24,7 +24,7 @@ The **GetFederatedDirectoryGroupResponse** element is intended for internal use 
 
 The following sections describe attributes, child elements, and parent elements.
   
-#### Attributes
+### Attributes
 
 None.
   

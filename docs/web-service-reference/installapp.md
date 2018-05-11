@@ -27,7 +27,7 @@ The **InstallApp** element specifies the request to install an app.
 
 The following sections describe attributes, child elements, and parent elements.
   
-#### Attributes
+### Attributes
 
 None.
   

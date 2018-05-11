@@ -29,7 +29,7 @@ The **GivenName** element contains a contact's given name.
 
 The following sections describe attributes, child elements, and parent elements.
   
-#### Attributes
+### Attributes
 
 None.
   

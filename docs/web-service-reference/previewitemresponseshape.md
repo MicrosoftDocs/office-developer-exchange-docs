@@ -28,7 +28,7 @@ The **PreviewItemResponseShape** element contains the requested property set to 
 
 The following sections describe attributes, child elements, and parent elements.
   
-#### Attributes
+### Attributes
 
 None.
   

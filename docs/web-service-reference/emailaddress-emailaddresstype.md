@@ -31,7 +31,7 @@ The **EmailAddress** element specifies the fully resolved SMTP address for the s
 
 The following sections describe attributes, child elements, and parent elements.
   
-#### Attributes
+### Attributes
 
 None.
   

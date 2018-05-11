@@ -25,7 +25,7 @@ The **GroupId** element uniquely identifies a group.
 
 The following sections describe attributes, child elements, and parent elements.
   
-#### Attributes
+### Attributes
 
 |**Attribute**|**Description**|
 |:-----|:-----|

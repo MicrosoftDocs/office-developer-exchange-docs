@@ -24,7 +24,7 @@ The **URI** element specifies the security token service that issued the securit
 
 The following sections describe attributes, child elements, and parent elements.
   
-#### Attributes
+### Attributes
 
 None
   

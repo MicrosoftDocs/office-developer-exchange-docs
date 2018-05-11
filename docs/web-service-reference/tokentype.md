@@ -25,7 +25,7 @@ The **TokenType** element specifies the type of token.
 
 The following sections describe attributes, child elements, and parent elements.
   
-#### Attributes
+### Attributes
 
 None.
   

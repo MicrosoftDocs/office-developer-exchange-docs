@@ -29,7 +29,7 @@ The **Offset** element describes the offset from the [BaseOffset](baseoffset.md)
 
 The following sections describe attributes, child elements, and parent elements.
   
-#### Attributes
+### Attributes
 
 None.
   

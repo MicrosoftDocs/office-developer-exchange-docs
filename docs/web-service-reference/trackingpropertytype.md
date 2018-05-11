@@ -36,7 +36,7 @@ The **TrackingPropertyType** element represents a name and value pair of strings
 
 The following sections describe attributes, child elements, and parent elements.
   
-#### Attributes
+### Attributes
 
 None.
   

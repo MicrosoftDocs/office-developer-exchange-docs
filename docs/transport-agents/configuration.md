@@ -39,7 +39,7 @@ The **configuration** element is the root element for the agents configuration f
 
 The following sections describe attributes, child elements, and parent elements.
   
-#### Attributes
+### Attributes
 
 None.
   

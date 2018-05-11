@@ -35,7 +35,7 @@ The **ItemChanges** element contains an array of [ItemChange](itemchange.md) ele
 
 The following sections describe attributes, child elements, and parent elements.
   
-#### Attributes
+### Attributes
 
 None.
   

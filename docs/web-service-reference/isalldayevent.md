@@ -29,7 +29,7 @@ The **IsAllDayEvent** element indicates whether a calendar item or meeting reque
 
 The following sections describe attributes, child elements, and parent elements.
   
-#### Attributes
+### Attributes
 
 None.
   

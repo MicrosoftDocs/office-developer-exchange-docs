@@ -29,7 +29,7 @@ The **Time** element represents the transition time of day to and from standard 
 
 The following sections describe attributes, child elements, and parent elements.
   
-#### Attributes
+### Attributes
 
 None.
   

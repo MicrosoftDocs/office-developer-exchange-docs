@@ -35,7 +35,7 @@ The **CertPrincipalName** element specifies the Secure Sockets Layer (SSL) certi
 
 The following sections describe attributes, child elements, and parent elements.
   
-#### Attributes
+### Attributes
 
 None.
   

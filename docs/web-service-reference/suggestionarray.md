@@ -41,7 +41,7 @@ The **SuggestionArray** element contains an array of meeting suggestions.
 
 The following sections describe attributes, child elements, and parent elements.
   
-#### Attributes
+### Attributes
 
 None.
   

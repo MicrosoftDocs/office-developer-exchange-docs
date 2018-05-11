@@ -34,7 +34,7 @@ The **GetSharingFolderResponseMessage** element contains the status and result o
 
 The following sections describe attributes, child elements, and parent elements.
   
-#### Attributes
+### Attributes
 
 |**Attribute**|**Description**|
 |:-----|:-----|

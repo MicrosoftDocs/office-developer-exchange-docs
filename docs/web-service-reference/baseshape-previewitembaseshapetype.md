@@ -25,7 +25,7 @@ The **BaseShape** element specifies either the default preview with all properti
 
 The following sections describe attributes, child elements, and parent elements.
   
-#### Attributes
+### Attributes
 
 None.
   

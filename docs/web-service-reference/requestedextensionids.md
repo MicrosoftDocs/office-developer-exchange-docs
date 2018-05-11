@@ -27,7 +27,7 @@ The **RequestedExtensionIds** element contains an array of extension identifiers
 
 The following sections describe attributes, child elements, and parent elements.
   
-#### Attributes
+### Attributes
 
 None.
   

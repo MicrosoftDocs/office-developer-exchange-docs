@@ -27,7 +27,7 @@ The **Senders** element specifies an array of Simple Mail Transfer Protocol (SMT
 
 The following sections describe attributes, child elements, and parent elements.
   
-#### Attributes
+### Attributes
 
 None.
   

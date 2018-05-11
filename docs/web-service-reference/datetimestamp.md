@@ -29,7 +29,7 @@ The **DateTimeStamp** element indicates the date and time that an instance of a 
 
 The following sections describe attributes, child elements, and parent elements.
   
-#### Attributes
+### Attributes
 
 None.
   

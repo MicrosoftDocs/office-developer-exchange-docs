@@ -25,7 +25,7 @@ The **ReminderType** element specifies the type of reminders to return.
 
 The following sections describe attributes, child elements, and parent elements.
   
-#### Attributes
+### Attributes
 
 None.
   

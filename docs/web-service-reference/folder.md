@@ -41,7 +41,7 @@ The **Folder** element defines a folder to create, get, find, synchronize, or up
 
 The following sections describe attributes, child elements, and parent elements.
   
-#### Attributes
+### Attributes
 
 None.
   

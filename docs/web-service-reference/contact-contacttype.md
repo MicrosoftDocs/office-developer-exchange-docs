@@ -32,7 +32,7 @@ The **Contact** element specifies a contact in the Unified Contact Store.
 
 The following sections describe attributes, child elements, and parent elements.
   
-#### Attributes
+### Attributes
 
 None.
   

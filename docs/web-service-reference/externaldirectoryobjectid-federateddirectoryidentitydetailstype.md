@@ -24,7 +24,7 @@ The **ExternalDirectoryObjectId (FederatedDirectoryIdentityDetailsType)** elemen
 
 The following sections describe attributes, child elements, and parent elements.
   
-#### Attributes
+### Attributes
 
 None.
   

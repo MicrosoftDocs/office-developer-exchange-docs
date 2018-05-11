@@ -29,7 +29,7 @@ The **MimeContent** element contains the ASCII MIME stream of an object that is 
 
 The following sections describe attributes, child elements, and parent elements.
   
-#### Attributes
+### Attributes
 
 |**Attribute**|**Description**|
 |:-----|:-----|

@@ -25,7 +25,7 @@ The **DisplayNameFirstLastSortKey** element contains the sort key for a display 
 
 The following sections describe attributes, child elements, and parent elements.
   
-#### Attributes
+### Attributes
 
 None.
   

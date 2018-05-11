@@ -47,7 +47,7 @@ The **IndividualAttendeeConflictData** element contains a user's or contact's fr
 
 The following sections describe attributes, child elements, and parent elements.
   
-#### Attributes
+### Attributes
 
 None.
   

@@ -25,7 +25,7 @@ The **ExportAllowed** element specifies whether exporting is enabled.
 
 The following sections describe attributes, child elements, and parent elements.
   
-#### Attributes
+### Attributes
 
 None.
   

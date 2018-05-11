@@ -29,7 +29,7 @@ The **EncryptedSharedFolderData** element contains the encrypted data that a cli
 
 The following sections describe attributes, child elements, and parent elements.
   
-#### Attributes
+### Attributes
 
 None.
   

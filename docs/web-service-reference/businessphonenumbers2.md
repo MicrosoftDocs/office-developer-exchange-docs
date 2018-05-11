@@ -28,7 +28,7 @@ The **BusinessPhoneNumbers2** element specifies an array of **BusinessPhoneNumbe
 
 The following sections describe attributes, child elements, and parent elements.
   
-#### Attributes
+### Attributes
 
 None.
   

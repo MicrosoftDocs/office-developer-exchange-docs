@@ -32,7 +32,7 @@ The **FindPeopleResponseMessage** element specifies the response message for a *
 
 The following sections describe attributes, child elements, and parent elements.
   
-#### Attributes
+### Attributes
 
 None.
   

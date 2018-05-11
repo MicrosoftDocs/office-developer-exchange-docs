@@ -29,7 +29,7 @@ The **DeliveryRestricted** element indicates whether delivery restrictions will 
 
 The following sections describe attributes, child elements, and parent elements.
   
-#### Attributes
+### Attributes
 
 None.
   

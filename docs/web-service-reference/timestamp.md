@@ -29,7 +29,7 @@ The **Timestamp** element represents the timestamp of a mailbox event.
 
 The following sections describe attributes, child elements, and parent elements.
   
-#### Attributes
+### Attributes
 
 None.
   

@@ -24,7 +24,7 @@ The **PortalText (SetEncryptionConfigurationType)** element is intended for inte
 
 The following sections describe attributes, child elements, and parent elements.
   
-#### Attributes
+### Attributes
 
 None.
   

@@ -29,7 +29,7 @@ The **ExternalUserIdentity** element identifies an external delegate user or an 
 
 The following sections describe attributes, child elements, and parent elements.
   
-#### Attributes
+### Attributes
 
 None.
   

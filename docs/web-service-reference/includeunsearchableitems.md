@@ -25,7 +25,7 @@ The **IncludeUnsearchableItems** element specifies whether to include items that
 
 The following sections describe attributes, child elements, and parent elements.
   
-#### Attributes
+### Attributes
 
 None.
   

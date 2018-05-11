@@ -28,7 +28,7 @@ The **PersonaShape** element specifies the set of persona properties to be retur
 
 The following sections describe attributes, child elements, and parent elements.
   
-#### Attributes
+### Attributes
 
 None.
   

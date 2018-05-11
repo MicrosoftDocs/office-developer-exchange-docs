@@ -26,7 +26,7 @@ The **DocumentSharingLocations** element contains a list of location and metadat
 
 The following sections describe attributes, child elements, and parent elements.
   
-#### Attributes
+### Attributes
 
 None.
   

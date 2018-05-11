@@ -25,7 +25,7 @@ The **QueryString** element specifies a set of values to be returned that match 
 
 The following sections describe attributes, child elements, and parent elements.
   
-#### Attributes
+### Attributes
 
 None.
   

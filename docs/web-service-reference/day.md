@@ -29,7 +29,7 @@ The **Day** element represents the day of the month on which the time zone trans
 
 The following sections describe attributes, child elements, and parent elements.
   
-#### Attributes
+### Attributes
 
 None.
   

@@ -33,7 +33,7 @@ The **ExchangeImpersonation** element is used in the SOAP header of a request. W
 
 The following sections describe attributes, child elements, and parent elements.
   
-#### Attributes
+### Attributes
 
 None.
   

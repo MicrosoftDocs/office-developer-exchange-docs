@@ -29,7 +29,7 @@ The **DomainStringSetting** element represents a domain setting the value of whi
 
 The following sections describe attributes, child elements, and parent elements.
   
-#### Attributes
+### Attributes
 
 None.
   

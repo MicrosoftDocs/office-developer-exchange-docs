@@ -28,7 +28,7 @@ The **DomainSettings** element represents the domain settings that were submitte
 
 The following sections describe attributes, child elements, and parent elements.
   
-#### Attributes
+### Attributes
 
 None.
   

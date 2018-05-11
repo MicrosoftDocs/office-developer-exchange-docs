@@ -25,7 +25,7 @@ The **UniqueBodyType** element specifies whether the unique body is returned in 
 
 The following sections describe attributes, child elements, and parent elements.
   
-#### Attributes
+### Attributes
 
 None.
   

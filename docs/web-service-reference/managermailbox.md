@@ -25,7 +25,7 @@ The **ManagerMailbox** element contains SMTP information that identifies the mai
 
 The following sections describe attributes, child elements, and parent elements.
   
-#### Attributes
+### Attributes
 
 None.
   

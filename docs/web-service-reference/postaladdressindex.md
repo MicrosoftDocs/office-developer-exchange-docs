@@ -29,7 +29,7 @@ The **PostalAddressIndex** element represents the display types for physical add
 
 The following sections describe attributes, child elements, and parent elements.
   
-#### Attributes
+### Attributes
 
 None.
   

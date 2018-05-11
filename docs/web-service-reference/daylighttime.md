@@ -40,7 +40,7 @@ The **DaylightTime** element represents an offset from the time relative to Coor
 
 The following sections describe attributes, child elements, and parent elements.
   
-#### Attributes
+### Attributes
 
 None.
   

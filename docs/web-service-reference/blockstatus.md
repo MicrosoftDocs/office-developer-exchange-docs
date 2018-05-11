@@ -25,7 +25,7 @@ The **BlockStatus** element specifies the block status of an item.
 
 The following sections describe attributes, child elements, and parent elements.
   
-#### Attributes
+### Attributes
 
 None.
   

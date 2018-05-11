@@ -29,7 +29,7 @@ The **SubmittedTime** element represents the time that the message entered the s
 
 The following sections describe attributes, child elements, and parent elements.
   
-#### Attributes
+### Attributes
 
 None.
   

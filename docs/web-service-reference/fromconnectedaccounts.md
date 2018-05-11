@@ -31,7 +31,7 @@ The **FromConnectedAccounts** element represents the e-mail account names from w
 
 The following sections describe attributes, child elements, and parent elements.
   
-#### Attributes
+### Attributes
 
 None.
   

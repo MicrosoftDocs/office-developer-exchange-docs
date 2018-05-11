@@ -25,7 +25,7 @@ The **ConvertHtmlCodePageToUTF8** element indicates whether the item HTML body i
 
 The following sections describe attributes, child elements, and parent elements.
   
-#### Attributes
+### Attributes
 
 None.
   

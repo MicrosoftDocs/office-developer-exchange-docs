@@ -39,7 +39,7 @@ The **Rule** element contains a single rule and represents a rule in a user's ma
 
 The following sections describe attributes, child elements, and parent elements.
   
-#### Attributes
+### Attributes
 
 None.
   

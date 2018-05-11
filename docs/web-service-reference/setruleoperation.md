@@ -35,7 +35,7 @@ The **SetRuleOperation** element represents an operation to update an existing r
 
 The following sections describe attributes, child elements, and parent elements.
   
-#### Attributes
+### Attributes
 
 None.
   

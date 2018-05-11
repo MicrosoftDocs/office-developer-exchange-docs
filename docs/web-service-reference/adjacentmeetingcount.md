@@ -29,7 +29,7 @@ The **AdjacentMeetingCount** element represents the total number of calendar ite
 
 The following sections describe attributes, child elements, and parent elements.
   
-#### Attributes
+### Attributes
 
 None.
   

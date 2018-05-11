@@ -32,7 +32,7 @@ The **Recurrence** element contains recurrence information for recurring tasks.
 
 The following sections describe attributes, child elements, and parent elements.
   
-#### Attributes
+### Attributes
 
 None.
   

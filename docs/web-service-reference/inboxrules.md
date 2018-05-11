@@ -35,7 +35,7 @@ The **InboxRules** element represents an array of rules in the user's mailbox.
 
 The following sections describe attributes, child elements, and parent elements.
   
-#### Attributes
+### Attributes
 
 None.
   

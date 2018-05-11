@@ -41,7 +41,7 @@ The **GlobalItemIds** element contains the collection of item identifiers for al
 
 The following sections describe attributes, child elements, and parent elements.
   
-#### Attributes
+### Attributes
 
 None.
   

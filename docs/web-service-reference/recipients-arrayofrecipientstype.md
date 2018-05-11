@@ -31,7 +31,7 @@ The **Recipients** element represents a collection of recipients that receive a 
 
 The following sections describe attributes, child elements, and parent elements.
   
-#### Attributes
+### Attributes
 
 None.
   

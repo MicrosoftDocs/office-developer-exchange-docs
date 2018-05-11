@@ -33,7 +33,7 @@ The **AddDelegate** element defines a request to add delegates to a mailbox. Thi
 
 The following sections describe attributes, child elements, and parent elements.
   
-#### Attributes
+### Attributes
 
 None.
   

@@ -32,7 +32,7 @@ The **UserResponse** element represents a response to a GetUserSettings request 
 
 The following sections describe attributes, child elements, and parent elements.
   
-#### Attributes
+### Attributes
 
 None.
   

@@ -31,7 +31,7 @@ The **UpdateFolderResponse** element defines the response to an UpdateFolder req
 
 The following sections describe attributes, child elements, and parent elements.
   
-#### Attributes
+### Attributes
 
 None.
   

@@ -30,7 +30,7 @@ The **Flag** element specifies a flag on a mailbox item.
 
 The following sections describe attributes, child elements, and parent elements.
   
-#### Attributes
+### Attributes
 
 None.
   

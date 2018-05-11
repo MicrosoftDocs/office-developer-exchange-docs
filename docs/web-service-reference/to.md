@@ -29,7 +29,7 @@ The **To** element specifies the target of the time zone transition. The target 
 
 The following sections describe attributes, child elements, and parent elements.
   
-#### Attributes
+### Attributes
 
 |**Attribute**|**Description**|
 |:-----|:-----|

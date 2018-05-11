@@ -25,7 +25,7 @@ The **ActionType** element specifies the action to take on the reminder.
 
 The following sections describe attributes, child elements, and parent elements.
   
-#### Attributes
+### Attributes
 
 None.
   

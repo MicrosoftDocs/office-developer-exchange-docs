@@ -25,7 +25,7 @@ The **ProposedStart (AttendeeType)** element specifies an attendee's proposed st
 
 The following sections describe attributes, child elements, and parent elements.
   
-#### Attributes
+### Attributes
 
 None.
   

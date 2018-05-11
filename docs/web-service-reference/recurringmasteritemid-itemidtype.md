@@ -25,7 +25,7 @@ The **RecurringMasterItemId (ItemIdType)** element identifies a recurrence maste
 
 The following sections describe attributes, child elements, and parent elements.
   
-#### Attributes
+### Attributes
 
 ****
 

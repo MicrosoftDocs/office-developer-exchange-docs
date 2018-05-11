@@ -78,7 +78,7 @@ The **PostReplyItem** element contains a reply to a post item. This element was 
 
 The following sections describe attributes, child elements, and parent elements.
   
-#### Attributes
+### Attributes
 
 None.
   

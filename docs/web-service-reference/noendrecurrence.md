@@ -31,7 +31,7 @@ The **NoEndRecurrence** element describes the start date of an item recurrence p
 
 The following sections describe attributes, child elements, and parent elements.
   
-#### Attributes
+### Attributes
 
 None.
   

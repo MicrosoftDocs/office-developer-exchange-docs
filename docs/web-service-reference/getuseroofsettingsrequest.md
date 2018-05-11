@@ -31,7 +31,7 @@ The **GetUserOofSettingsRequest** element is the root element that contains the 
 
 The following sections describe attributes, child elements, and parent elements.
   
-#### Attributes
+### Attributes
 
 None.
   

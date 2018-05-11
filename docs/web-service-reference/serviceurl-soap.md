@@ -24,7 +24,7 @@ The **ServiceUrl** element represents the URL of a document sharing web service.
 
 The following sections describe attributes, child elements, and parent elements.
   
-#### Attributes
+### Attributes
 
 None.
   

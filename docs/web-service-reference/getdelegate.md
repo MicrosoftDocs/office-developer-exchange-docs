@@ -32,7 +32,7 @@ The **GetDelegate** element defines a request to get information about delegates
 
 The following sections describe attributes, child elements, and parent elements.
   
-#### Attributes
+### Attributes
 
 |**Attribute**|**Description**|
 |:-----|:-----|

@@ -43,7 +43,7 @@ The **FindMessageTrackingReport** element specifies criteria for the types of me
 
 The following sections describe attributes, child elements, and parent elements.
   
-#### Attributes
+### Attributes
 
 None.
   

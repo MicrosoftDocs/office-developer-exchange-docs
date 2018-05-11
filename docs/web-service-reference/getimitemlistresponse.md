@@ -31,7 +31,7 @@ The **GetImItemListResponse** element defines a response to a **GetImItemList** 
 
 The following sections describe attributes, child elements, and parent elements.
   
-#### Attributes
+### Attributes
 
 None.
   

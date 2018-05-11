@@ -33,7 +33,7 @@ The **SearchableMailbox** element specifies a mailbox returned from a **GetSearc
 
 The following sections describe attributes, child elements, and parent elements.
   
-#### Attributes
+### Attributes
 
 None.
   

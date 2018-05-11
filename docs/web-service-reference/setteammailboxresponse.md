@@ -30,7 +30,7 @@ The **SetTeamMailboxResponse** element represents a response to a **SetTeamMailb
 
 The following sections describe attributes, child elements, and parent elements.
   
-#### Attributes
+### Attributes
 
 None.
   

@@ -25,7 +25,7 @@ The **MaxItemsToReturn** element identifies the maximum number of conversations 
 
 The following sections describe attributes, child elements, and parent elements.
   
-#### Attributes
+### Attributes
 
 None.
   

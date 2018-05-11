@@ -25,7 +25,7 @@ The **DisplayNameFirstLast** element specifies the display name of the associate
 
 The following sections describe attributes, child elements, and parent elements.
   
-#### Attributes
+### Attributes
 
 None.
   

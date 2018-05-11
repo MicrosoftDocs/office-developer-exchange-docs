@@ -35,7 +35,7 @@ The **MinimumSuggestionQuality** element defines the quality of meeting suggesti
 
 The following sections describe attributes, child elements, and parent elements.
   
-#### Attributes
+### Attributes
 
 None.
   

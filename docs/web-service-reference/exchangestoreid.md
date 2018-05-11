@@ -25,7 +25,7 @@ The **ExchangeStoreId** element specifies the instant messaging (IM) group ident
 
 The following sections describe attributes, child elements, and parent elements.
   
-#### Attributes
+### Attributes
 
 |**Attribute**|**Description**|
 |:-----|:-----|

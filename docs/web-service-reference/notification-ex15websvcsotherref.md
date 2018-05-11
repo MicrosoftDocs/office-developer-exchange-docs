@@ -34,7 +34,7 @@ The **Notification** element contains information about the subscription and the
 
 The following sections describe attributes, child elements, and parent elements.
   
-#### Attributes
+### Attributes
 
 None.
   

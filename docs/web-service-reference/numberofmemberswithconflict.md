@@ -47,7 +47,7 @@ The **NumberOfMembersWithConflict** element represents the number of distributio
 
 The following sections describe attributes, child elements, and parent elements.
   
-#### Attributes
+### Attributes
 
 None.
   

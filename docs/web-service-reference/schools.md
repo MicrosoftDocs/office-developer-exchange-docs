@@ -27,7 +27,7 @@ The **Schools** element specifies an array of school names and the identifiers o
 
 The following sections describe attributes, child elements, and parent elements.
   
-#### Attributes
+### Attributes
 
 None.
   

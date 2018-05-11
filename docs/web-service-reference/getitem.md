@@ -32,7 +32,7 @@ The **GetItem** element defines a request to get an item from a mailbox in the E
 
 The following sections describe attributes, child elements, and parent elements.
   
-#### Attributes
+### Attributes
 
 None.
   

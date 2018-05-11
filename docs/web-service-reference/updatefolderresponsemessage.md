@@ -41,7 +41,7 @@ The **UpdateFolderResponseMessage** element contains the status and result of up
 
 The following sections describe attributes, child elements, and parent elements.
   
-#### Attributes
+### Attributes
 
 |**Attribute**|**Description**|
 |:-----|:-----|

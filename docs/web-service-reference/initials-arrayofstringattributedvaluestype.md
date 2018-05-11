@@ -27,7 +27,7 @@ The **Initials** element specifies an array of initials values and the identifie
 
 The following sections describe attributes, child elements, and parent elements.
   
-#### Attributes
+### Attributes
 
 None.
   

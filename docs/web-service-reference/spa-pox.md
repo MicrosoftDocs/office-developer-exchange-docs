@@ -35,7 +35,7 @@ The **SPA** element indicates whether Secure Password Authentication (SPA) is re
 
 The following sections describe attributes, child elements, and parent elements.
   
-#### Attributes
+### Attributes
 
 None.
   

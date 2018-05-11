@@ -33,7 +33,7 @@ The **GetSharingMetadata** element defines a request to get an opaque authentica
 
 The following sections describe attributes, child elements, and parent elements.
   
-#### Attributes
+### Attributes
 
 None.
   

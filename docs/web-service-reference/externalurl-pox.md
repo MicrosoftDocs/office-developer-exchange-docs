@@ -23,7 +23,7 @@ The **ExternalUrl** element contains the URL for connecting a client to the addr
 
 The following sections describe attributes, child elements, and parent elements.
   
-#### Attributes
+### Attributes
 
 None.
   

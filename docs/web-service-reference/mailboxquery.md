@@ -28,7 +28,7 @@ The **MailboxQuery** element specifies a query and the scope of a discovery sear
 
 The following sections describe attributes, child elements, and parent elements.
   
-#### Attributes
+### Attributes
 
 None.
   

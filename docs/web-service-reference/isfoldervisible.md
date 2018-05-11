@@ -29,7 +29,7 @@ The **IsFolderVisible** element indicates whether a user can view a folder. This
 
 The following sections describe attributes, child elements, and parent elements.
   
-#### Attributes
+### Attributes
 
 None.
   

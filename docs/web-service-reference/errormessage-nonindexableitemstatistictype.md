@@ -25,7 +25,7 @@ The **ErrorMessage** element contains the error message that describes why an it
 
 The following sections describe attributes, child elements, and parent elements.
   
-#### Attributes
+### Attributes
 
 None.
   

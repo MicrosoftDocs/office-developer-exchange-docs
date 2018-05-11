@@ -31,7 +31,7 @@ The **InternalReply** element contains the out of office (OOF) response sent to 
 
 The following sections describe attributes, child elements, and parent elements.
   
-#### Attributes
+### Attributes
 
 |**Attribute**|**Description**|
 |:-----|:-----|

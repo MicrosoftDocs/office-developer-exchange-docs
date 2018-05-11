@@ -31,7 +31,7 @@ The **EventTypes** element contains a collection of event notification types tha
 
 The following sections describe attributes, child elements, and parent elements.
   
-#### Attributes
+### Attributes
 
 None.
   

@@ -27,7 +27,7 @@ The **Values** element specifies the values in an array of persona properties as
 
 The following sections describe attributes, child elements, and parent elements.
   
-#### Attributes
+### Attributes
 
 None.
   

@@ -34,7 +34,7 @@ The **GetEvents** element represents the operation used by pull clients to reque
 
 The following sections describe attributes, child elements, and parent elements.
   
-#### Attributes
+### Attributes
 
 None.
   

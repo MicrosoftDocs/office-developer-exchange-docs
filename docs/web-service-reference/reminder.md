@@ -36,7 +36,7 @@ The **Reminder** element specifies a reminder for a task or a calendar item.
 
 The following sections describe attributes, child elements, and parent elements.
   
-#### Attributes
+### Attributes
 
 None.
   

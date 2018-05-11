@@ -31,7 +31,7 @@ The **Restriction** element represents the restriction or query that is used to 
 
 The following sections describe attributes, child elements, and parent elements.
   
-#### Attributes
+### Attributes
 
 None.
   

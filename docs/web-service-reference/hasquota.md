@@ -29,7 +29,7 @@ The **HasQuota** element indicates whether the managed folder has a quota.
 
 The following sections describe attributes, child elements, and parent elements.
   
-#### Attributes
+### Attributes
 
 None.
   

@@ -35,7 +35,7 @@ The **DomainName** element specifies the user's domain.
 
 The following sections describe attributes, child elements, and parent elements.
   
-#### Attributes
+### Attributes
 
 None.
   

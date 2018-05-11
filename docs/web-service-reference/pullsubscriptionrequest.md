@@ -38,7 +38,7 @@ The **PullSubscriptionRequest** element represents a subscription to a pull-base
 
 The following sections describe attributes, child elements, and parent elements.
   
-#### Attributes
+### Attributes
 
 |**Attribute**|**Description**|
 |:-----|:-----|

@@ -29,7 +29,7 @@ The **ReportTemplate** element represents the type of report to get.
 
 The following sections describe attributes, child elements, and parent elements.
   
-#### Attributes
+### Attributes
 
 None.
   

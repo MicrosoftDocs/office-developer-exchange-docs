@@ -34,7 +34,7 @@ The **GetUserAvailabilityRequest** element contains the arguments used to obtain
 
 The following sections describe attributes, child elements, and parent elements.
   
-#### Attributes
+### Attributes
 
 None.
   

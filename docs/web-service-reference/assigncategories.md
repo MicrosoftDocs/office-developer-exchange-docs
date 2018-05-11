@@ -35,7 +35,7 @@ The **AssignCategories** element represents the categories that are stamped on e
 
 The following sections describe attributes, child elements, and parent elements.
   
-#### Attributes
+### Attributes
 
 None.
   

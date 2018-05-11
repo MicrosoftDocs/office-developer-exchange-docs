@@ -25,7 +25,7 @@ The **Language (DiscoverySearchConfigurationType)** element identifies the cultu
 
 The following sections describe attributes, child elements, and parent elements.
   
-#### Attributes
+### Attributes
 
 None.
   

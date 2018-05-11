@@ -25,7 +25,7 @@ The **IsPermanentFailure** element indicates whether a previous attempt to index
 
 The following sections describe attributes, child elements, and parent elements.
   
-#### Attributes
+### Attributes
 
 None.
   

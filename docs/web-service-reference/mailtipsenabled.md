@@ -29,7 +29,7 @@ The **MailTipsEnabled** element indicates whether the mail tips service is avail
 
 The following sections describe attributes, child elements, and parent elements.
   
-#### Attributes
+### Attributes
 
 None.
   

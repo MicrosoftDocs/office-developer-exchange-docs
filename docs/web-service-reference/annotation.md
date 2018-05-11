@@ -25,7 +25,7 @@ The **Annotation** element contains optional notes added by a user.
 
 The following sections describe attributes, child elements, and parent elements.
   
-#### Attributes
+### Attributes
 
 None.
   

@@ -29,7 +29,7 @@ The **SyncState** element contains a base64-encoded form of the synchronization 
 
 The following sections describe attributes, child elements, and parent elements.
   
-#### Attributes
+### Attributes
 
 None.
   

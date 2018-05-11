@@ -25,7 +25,7 @@ The **DisplayName** element contains the display name of a new instant messaging
 
 The following sections describe attributes, child elements, and parent elements.
   
-#### Attributes
+### Attributes
 
 None.
   

@@ -25,7 +25,7 @@ The **MailboxId** element specifies an identifier for the mailbox that is access
 
 The following sections describe attributes, child elements, and parent elements.
   
-#### Attributes
+### Attributes
 
 None.
   

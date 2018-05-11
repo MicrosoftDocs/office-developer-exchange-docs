@@ -28,7 +28,7 @@ The **GetSearchableMailboxes** element contains a request to get a list of mailb
 
 The following sections describe attributes, child elements, and parent elements.
   
-#### Attributes
+### Attributes
 
 None.
   

@@ -27,7 +27,7 @@ The **CompanyNames** element contains an array of company names and the identifi
 
 The following sections describe attributes, child elements, and parent elements.
   
-#### Attributes
+### Attributes
 
 None.
   

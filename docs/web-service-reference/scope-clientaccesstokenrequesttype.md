@@ -25,7 +25,7 @@ The **Scope (ClientAccessTokenRequestType)** element specifies a token scope.
 
 The following sections describe attributes, child elements, and parent elements.
   
-#### Attributes
+### Attributes
 
 None.
   

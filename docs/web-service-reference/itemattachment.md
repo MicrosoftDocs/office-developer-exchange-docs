@@ -39,7 +39,7 @@ The **ItemAttachment** element represents an Exchange item that is attached to a
 
 The following sections describe attributes, child elements, and parent elements.
   
-#### Attributes
+### Attributes
 
 None.
   

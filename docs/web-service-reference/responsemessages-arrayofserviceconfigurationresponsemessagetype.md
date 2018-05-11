@@ -31,7 +31,7 @@ The **ResponseMessages** element contains an array of service configuration resp
 
 The following sections describe attributes, child elements, and parent elements.
   
-#### Attributes
+### Attributes
 
 None.
   

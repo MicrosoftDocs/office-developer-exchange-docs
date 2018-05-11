@@ -28,7 +28,7 @@ The **GetFederationInformationRequest** element represents the parameters of a c
 
 The following sections describe attributes, child elements, and parent elements.
   
-#### Attributes
+### Attributes
 
 None.
   

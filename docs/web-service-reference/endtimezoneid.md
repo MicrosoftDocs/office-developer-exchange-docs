@@ -25,7 +25,7 @@ The **EndTimeZoneId** element specifies the time zone in which a meeting takes p
 
 The following sections describe attributes, child elements, and parent elements.
   
-#### Attributes
+### Attributes
 
 None.
   

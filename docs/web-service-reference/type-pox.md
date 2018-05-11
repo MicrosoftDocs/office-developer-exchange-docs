@@ -35,7 +35,7 @@ The **Type** element identifies the type of the configured mail account.
 
 The following sections describe attributes, child elements, and parent elements.
   
-#### Attributes
+### Attributes
 
 None.
   

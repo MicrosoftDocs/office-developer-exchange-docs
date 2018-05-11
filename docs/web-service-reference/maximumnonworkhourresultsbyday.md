@@ -35,7 +35,7 @@ The **MaximumNonWorkHourResultsByDay** element specifies the number of suggested
 
 The following sections describe attributes, child elements, and parent elements.
   
-#### Attributes
+### Attributes
 
 None.
   

@@ -27,7 +27,7 @@ The **CreateFolderPathResponse** element is used to return a folder path.
 
 The following sections describe attributes, child elements, and parent elements.
   
-#### Attributes
+### Attributes
 
 None.
   

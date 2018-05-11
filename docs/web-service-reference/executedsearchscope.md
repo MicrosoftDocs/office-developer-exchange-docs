@@ -29,7 +29,7 @@ The **ExecutedSearchScope** element contains the scope of the search that was pe
 
 The following sections describe attributes, child elements, and parent elements.
   
-#### Attributes
+### Attributes
 
 None.
   

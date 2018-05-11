@@ -25,7 +25,7 @@ The **ForwardAllowed** element specifies whether forwarding emails is enabled.
 
 The following sections describe attributes, child elements, and parent elements.
   
-#### Attributes
+### Attributes
 
 None.
   

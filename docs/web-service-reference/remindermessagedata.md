@@ -32,7 +32,7 @@ The **ReminderMessageData** element specifies the data in a reminder message.
 
 The following sections describe attributes, child elements, and parent elements.
   
-#### Attributes
+### Attributes
 
 None.
   

@@ -33,7 +33,7 @@ The **HasPicture** element indicates whether the contact item has a file attachm
 
 The following sections describe attributes, child elements, and parent elements.
   
-#### Attributes
+### Attributes
 
 None.
   

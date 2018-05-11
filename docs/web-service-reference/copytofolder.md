@@ -32,7 +32,7 @@ The **CopyToFolder** element specifies the identifier of the folder that email i
 
 The following sections describe attributes, child elements, and parent elements.
   
-#### Attributes
+### Attributes
 
 None.
   

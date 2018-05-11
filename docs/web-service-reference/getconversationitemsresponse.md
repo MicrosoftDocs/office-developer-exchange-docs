@@ -27,7 +27,7 @@ The **GetConversationItemsResponse** element defines a response to a **GetConver
 
 The following sections describe attributes, child elements, and parent elements.
   
-#### Attributes
+### Attributes
 
 None.
   

@@ -29,7 +29,7 @@ The **StringSetting** element represents a user setting the value of which is of
 
 The following sections describe attributes, child elements, and parent elements.
   
-#### Attributes
+### Attributes
 
 None.
   

@@ -32,7 +32,7 @@ The **GetClientExtensionResponse** element contains the response to get configur
 
 The following sections describe attributes, child elements, and parent elements.
   
-#### Attributes
+### Attributes
 
 None.
   

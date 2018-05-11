@@ -30,7 +30,7 @@ The **SetImListMigrationCompletedResponse** element represents a response to a *
 
 The following sections describe attributes, child elements, and parent elements.
   
-#### Attributes
+### Attributes
 
 None.
   

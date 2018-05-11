@@ -37,7 +37,7 @@ The **Error** element contains an Autodiscover error response.
 
 The following sections describe attributes, child elements, and parent elements.
   
-#### Attributes
+### Attributes
 
 |**Attribute**|**Description**|
 |:-----|:-----|

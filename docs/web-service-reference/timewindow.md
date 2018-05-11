@@ -38,7 +38,7 @@ The **TimeWindow** element identifies the time span queried for the user availab
 
 The following sections describe attributes, child elements, and parent elements.
   
-#### Attributes
+### Attributes
 
 None.
   

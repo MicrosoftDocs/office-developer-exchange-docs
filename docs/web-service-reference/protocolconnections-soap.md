@@ -28,7 +28,7 @@ The **ProtocolConnections** element contains zero or more protocol connections.
 
 The following sections describe attributes, child elements, and parent elements.
   
-#### Attributes
+### Attributes
 
 None.
   

@@ -25,7 +25,7 @@ The **Manifest** element contains the base64-encoded app manifest file.
 
 The following sections describe attributes, child elements, and parent elements.
   
-#### Attributes
+### Attributes
 
 None.
   

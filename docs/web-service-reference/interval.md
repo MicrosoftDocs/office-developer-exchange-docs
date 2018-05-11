@@ -29,7 +29,7 @@ The **Interval** element defines the interval between two consecutive recurring 
 
 The following sections describe attributes, child elements, and parent elements.
   
-#### Attributes
+### Attributes
 
 None.
   

@@ -33,7 +33,7 @@ The **PublicFolderInformation** element contains information that clients can us
 
 The following sections describe attributes, child elements, and parent elements.
   
-#### Attributes
+### Attributes
 
 None.
   

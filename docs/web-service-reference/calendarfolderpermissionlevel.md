@@ -31,7 +31,7 @@ The **CalendarFolderPermissionLevel** element contains the permissions for the d
 
 The following sections describe attributes, child elements, and parent elements.
   
-#### Attributes
+### Attributes
 
 None.
   

@@ -35,7 +35,7 @@ The **RecipientFilter** element represents a recipient address to use with the s
 
 The following sections describe attributes, child elements, and parent elements.
   
-#### Attributes
+### Attributes
 
 None.
   

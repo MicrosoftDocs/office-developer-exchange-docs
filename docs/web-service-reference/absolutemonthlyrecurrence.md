@@ -32,7 +32,7 @@ The **AbsoluteMonthlyRecurrence** element represents a monthly recurrence patter
 
 The following sections describe attributes, child elements, and parent elements.
   
-#### Attributes
+### Attributes
 
 None.
   

@@ -45,7 +45,7 @@ The **Actions** element represents the set of actions that are available to be t
 
 The following sections describe attributes, child elements, and parent elements.
   
-#### Attributes
+### Attributes
 
 None.
   

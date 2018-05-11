@@ -38,7 +38,7 @@ The **FreeBusyResponse** element contains the free/busy information for a single
 
 The following sections describe attributes, child elements, and parent elements.
   
-#### Attributes
+### Attributes
 
 None.
   

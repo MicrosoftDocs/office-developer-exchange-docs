@@ -27,7 +27,7 @@ The **Professions** element specifies an array of **Profession** values and the 
 
 The following sections describe attributes, child elements, and parent elements.
   
-#### Attributes
+### Attributes
 
 None.
   

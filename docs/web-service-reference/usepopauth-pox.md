@@ -35,7 +35,7 @@ The **UsePOPAuth** element indicates whether the authentication information that
 
 The following sections describe attributes, child elements, and parent elements.
   
-#### Attributes
+### Attributes
 
 None.
   

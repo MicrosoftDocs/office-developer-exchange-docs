@@ -29,7 +29,7 @@ The **ShowExternalRecipientCount** element indicates whether consumers of the [G
 
 The following sections describe attributes, child elements, and parent elements.
   
-#### Attributes
+### Attributes
 
 None.
   

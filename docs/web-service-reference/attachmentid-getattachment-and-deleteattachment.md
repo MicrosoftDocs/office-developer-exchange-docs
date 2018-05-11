@@ -29,7 +29,7 @@ The **AttachmentId** element identifies a single attachment.
 
 The following sections describe attributes, child elements, and parent elements.
   
-#### Attributes
+### Attributes
 
 |**Attribute**|**Description**|
 |:-----|:-----|

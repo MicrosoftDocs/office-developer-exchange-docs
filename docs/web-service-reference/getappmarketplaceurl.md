@@ -25,7 +25,7 @@ The **GetAppMarketplaceUrl** element specifies the request to retrieve the URL f
 
 The following sections describe attributes, child elements, and parent elements.
   
-#### Attributes
+### Attributes
 
 None.
   

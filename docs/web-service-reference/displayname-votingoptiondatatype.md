@@ -25,7 +25,7 @@ The **DisplayName (VotingOptionDataType)** element specifies the display name of
 
 The following sections describe attributes, child elements, and parent elements.
   
-#### Attributes
+### Attributes
 
 None.
   

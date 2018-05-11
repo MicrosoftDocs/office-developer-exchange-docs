@@ -31,7 +31,7 @@ The **BccRecipients** element represents a collection of recipients to receive a
 
 The following sections describe attributes, child elements, and parent elements.
   
-#### Attributes
+### Attributes
 
 None.
   

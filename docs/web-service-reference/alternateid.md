@@ -29,7 +29,7 @@ The **AlternateId** element describes an identifier to convert in a request and 
 
 The following sections describe attributes, child elements, and parent elements.
   
-#### Attributes
+### Attributes
 
 |**Attribute**|**Description**|
 |:-----|:-----|

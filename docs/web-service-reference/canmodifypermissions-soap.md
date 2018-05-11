@@ -24,7 +24,7 @@ The **CanModifyPermissions** element indicates whether a user can modify access 
 
 The following sections describe attributes, child elements, and parent elements.
   
-#### Attributes
+### Attributes
 
 None.
   

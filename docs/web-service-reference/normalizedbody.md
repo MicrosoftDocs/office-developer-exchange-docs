@@ -25,7 +25,7 @@ The **NormalizedBody** element specifies an HTML representation of the **Body** 
 
 The following sections describe attributes, child elements, and parent elements.
   
-#### Attributes
+### Attributes
 
 |**Attribute**|**Description**|
 |:-----|:-----|

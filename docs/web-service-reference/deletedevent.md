@@ -34,7 +34,7 @@ The **DeletedEvent** element represents an event in which an item or folder is d
 
 The following sections describe attributes, child elements, and parent elements.
   
-#### Attributes
+### Attributes
 
 None.
   

@@ -41,7 +41,7 @@ The **Update** element identifies a single folder to update in the local client 
 
 The following sections describe attributes, child elements, and parent elements.
   
-#### Attributes
+### Attributes
 
 None.
   

@@ -29,7 +29,7 @@ The **HiddenRecipient** element indicates that the recipient was added by an org
 
 The following sections describe attributes, child elements, and parent elements.
   
-#### Attributes
+### Attributes
 
 None.
   

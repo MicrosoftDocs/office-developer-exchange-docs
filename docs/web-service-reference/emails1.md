@@ -27,7 +27,7 @@ The **Emails1** element specifies an array of **EmailAddressAttributedValue** va
 
 The following sections describe attributes, child elements, and parent elements.
   
-#### Attributes
+### Attributes
 
 None.
   

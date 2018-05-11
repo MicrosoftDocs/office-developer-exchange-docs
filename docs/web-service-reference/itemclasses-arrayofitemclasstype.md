@@ -35,7 +35,7 @@ The **ItemClasses** element contains a list of item classes that represents all 
 
 The following sections describe attributes, child elements, and parent elements.
   
-#### Attributes
+### Attributes
 
 None.
   

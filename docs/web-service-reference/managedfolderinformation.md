@@ -40,7 +40,7 @@ The **ManagedFolderInformation** element contains information about a managed cu
 
 The following sections describe attributes, child elements, and parent elements.
   
-#### Attributes
+### Attributes
 
 None.
   

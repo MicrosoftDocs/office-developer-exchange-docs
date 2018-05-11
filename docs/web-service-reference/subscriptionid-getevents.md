@@ -29,7 +29,7 @@ The **SubscriptionId** element represents the identifier for a subscription.
 
 The following sections describe attributes, child elements, and parent elements.
   
-#### Attributes
+### Attributes
 
 None.
   

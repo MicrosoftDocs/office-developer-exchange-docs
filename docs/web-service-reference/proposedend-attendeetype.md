@@ -25,7 +25,7 @@ The **ProposedEnd (AttendeeType)** element specifies an attendee's proposed end 
 
 The following sections describe attributes, child elements, and parent elements.
   
-#### Attributes
+### Attributes
 
 None.
   

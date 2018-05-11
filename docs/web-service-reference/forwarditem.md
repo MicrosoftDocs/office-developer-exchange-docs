@@ -42,7 +42,7 @@ The **ForwardItem** element contains an Exchange store item to forward to recipi
 
 The following sections describe attributes, child elements, and parent elements.
   
-#### Attributes
+### Attributes
 
 None.
   

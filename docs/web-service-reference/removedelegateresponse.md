@@ -35,7 +35,7 @@ The **RemoveDelegateResponse** element contains the status and result of a [Remo
 
 The following sections describe attributes, child elements, and parent elements.
   
-#### Attributes
+### Attributes
 
 None.
   

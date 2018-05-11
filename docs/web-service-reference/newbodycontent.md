@@ -29,7 +29,7 @@ The **NewBodyContent** element represents the new body content of a message.
 
 The following sections describe attributes, child elements, and parent elements.
   
-#### Attributes
+### Attributes
 
 |**Attribute**|**Description**|
 |:-----|:-----|

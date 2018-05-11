@@ -31,7 +31,7 @@ The **SendNotification** element contains the push notifications that are sent b
 
 The following sections describe attributes, child elements, and parent elements.
   
-#### Attributes
+### Attributes
 
 None.
   

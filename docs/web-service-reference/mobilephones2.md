@@ -27,7 +27,7 @@ The **MobilePhones2** element specifies an array of **MobilePhone** values and t
 
 The following sections describe attributes, child elements, and parent elements.
   
-#### Attributes
+### Attributes
 
 None.
   

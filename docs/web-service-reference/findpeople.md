@@ -33,7 +33,7 @@ The **FindPeople** element specifies a set of data used in a FindPeople request.
 
 The following sections describe attributes, child elements, and parent elements.
   
-#### Attributes
+### Attributes
 
 None.
   

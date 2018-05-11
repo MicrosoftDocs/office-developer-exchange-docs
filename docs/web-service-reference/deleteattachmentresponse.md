@@ -31,7 +31,7 @@ The **DeleteAttachmentResponse** defines a response to a DeleteAttachment reques
 
 The following sections describe attributes, child elements, and parent elements.
   
-#### Attributes
+### Attributes
 
 None.
   

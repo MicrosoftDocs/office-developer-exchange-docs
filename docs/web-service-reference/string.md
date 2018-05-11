@@ -29,7 +29,7 @@ The **String** element represents a string that is used by items, contacts, task
 
 The following sections describe attributes, child elements, and parent elements.
   
-#### Attributes
+### Attributes
 
 None.
   

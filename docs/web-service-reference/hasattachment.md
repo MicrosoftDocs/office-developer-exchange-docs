@@ -25,7 +25,7 @@ The **HasAttachment** element specifies a Boolean value to indicate whether the 
 
 The following sections describe attributes, child elements, and parent elements.
   
-#### Attributes
+### Attributes
 
 None.
   

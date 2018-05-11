@@ -32,7 +32,7 @@ The **Request** element contains the request to the Autodiscover service.
 
 The following sections describe attributes, child elements, and parent elements.
   
-#### Attributes
+### Attributes
 
 None.
   

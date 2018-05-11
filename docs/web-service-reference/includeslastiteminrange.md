@@ -37,7 +37,7 @@ The **IncludesLastItemInRange** element indicates whether the last item to synch
 
 The following sections describe attributes, child elements, and parent elements.
   
-#### Attributes
+### Attributes
 
 None.
   

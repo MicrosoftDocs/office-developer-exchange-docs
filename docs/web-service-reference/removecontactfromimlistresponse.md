@@ -30,7 +30,7 @@ The **RemoveContactFromImListResponse** element represents a response to a **Rem
 
 The following sections describe attributes, child elements, and parent elements.
   
-#### Attributes
+### Attributes
 
 None.
   

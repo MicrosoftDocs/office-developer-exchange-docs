@@ -31,7 +31,7 @@ The **InternalDomains** element identifies the list of internal SMTP domains of 
 
 The following sections describe attributes, child elements, and parent elements.
   
-#### Attributes
+### Attributes
 
 None.
   

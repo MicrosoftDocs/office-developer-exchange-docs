@@ -35,7 +35,7 @@ The **AuthPackage** element specifies the authentication scheme that is used whe
 
 The following sections describe attributes, child elements, and parent elements.
   
-#### Attributes
+### Attributes
 
 None.
   

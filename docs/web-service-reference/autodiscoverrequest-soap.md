@@ -26,7 +26,7 @@ The **AutodiscoverRequest** element represents the base element for all Autodisc
 
 The following sections describe attributes, child elements, and parent elements.
   
-#### Attributes
+### Attributes
 
 None.
   

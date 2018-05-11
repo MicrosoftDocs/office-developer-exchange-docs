@@ -29,7 +29,7 @@ The **CanDelete** element indicates whether a managed folder can be deleted by a
 
 The following sections describe attributes, child elements, and parent elements.
   
-#### Attributes
+### Attributes
 
 None.
   

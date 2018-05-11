@@ -25,7 +25,7 @@ The **FormattedAddress** element specifies the formatted display value of the as
 
 The following sections describe attributes, child elements, and parent elements.
   
-#### Attributes
+### Attributes
 
 None.
   

@@ -32,7 +32,7 @@ The **GetFolder** element defines a request to get a folder from a mailbox in th
 
 The following sections describe attributes, child elements, and parent elements.
   
-#### Attributes
+### Attributes
 
 None.
   

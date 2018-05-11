@@ -29,7 +29,7 @@ The **ReminderIsSet** element indicates whether a reminder has been set for an i
 
 The following sections describe attributes, child elements, and parent elements.
   
-#### Attributes
+### Attributes
 
 None.
   

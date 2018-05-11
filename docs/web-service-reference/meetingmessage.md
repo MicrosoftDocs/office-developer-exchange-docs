@@ -87,7 +87,7 @@ The **MeetingMessage** element represents a meeting in the Exchange store.
 
 The following sections describe attributes, child elements, and parent elements.
   
-#### Attributes
+### Attributes
 
 None.
   

@@ -35,7 +35,7 @@ The **ReferralPort** element specifies the port that is used to get a referral t
 
 The following sections describe attributes, child elements, and parent elements.
   
-#### Attributes
+### Attributes
 
 None.
   

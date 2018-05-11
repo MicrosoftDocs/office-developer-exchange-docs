@@ -29,7 +29,7 @@ The **MustDisplayComment** element indicates whether the managed folder comment 
 
 The following sections describe attributes, child elements, and parent elements.
   
-#### Attributes
+### Attributes
 
 None.
   

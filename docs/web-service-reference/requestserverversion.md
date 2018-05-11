@@ -29,7 +29,7 @@ The **RequestServerVersion** element contains the versioning information that id
 
 The following sections describe attributes, child elements, and parent elements.
   
-#### Attributes
+### Attributes
 
 |**Attribute**|**Description**|
 |:-----|:-----|

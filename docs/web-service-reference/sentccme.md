@@ -29,7 +29,7 @@ The **SentCcMe** element indicates whether the owner of the mailbox has to be in
 
 The following sections describe attributes, child elements, and parent elements.
   
-#### Attributes
+### Attributes
 
 None.
   

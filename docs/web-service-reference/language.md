@@ -25,7 +25,7 @@ The **Language** element contains the language used for the search query.
 
 The following sections describe attributes, child elements, and parent elements.
   
-#### Attributes
+### Attributes
 
 None.
   

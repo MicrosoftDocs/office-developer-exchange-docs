@@ -41,7 +41,7 @@ The **PostalAddress** element specifies the postal address for a persona.
 
 The following sections describe attributes, child elements, and parent elements.
   
-#### Attributes
+### Attributes
 
 None.
   

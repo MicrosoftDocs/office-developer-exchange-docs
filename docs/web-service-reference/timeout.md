@@ -29,7 +29,7 @@ The **Timeout** element represents the duration, in minutes, that the subscripti
 
 The following sections describe attributes, child elements, and parent elements.
   
-#### Attributes
+### Attributes
 
 None.
   

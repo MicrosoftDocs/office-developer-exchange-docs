@@ -29,7 +29,7 @@ The **EndDateTime** element specifies the end date and time for a rule or a sear
 
 The following sections describe attributes, child elements, and parent elements.
   
-#### Attributes
+### Attributes
 
 None.
   

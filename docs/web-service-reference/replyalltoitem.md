@@ -42,7 +42,7 @@ The **ReplyToAllItem** element contains a reply to the sender and all identified
 
 The following sections describe attributes, child elements, and parent elements.
   
-#### Attributes
+### Attributes
 
 None.
   

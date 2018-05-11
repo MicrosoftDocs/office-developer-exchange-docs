@@ -29,7 +29,7 @@ The **BinaryData** element contains binary data property content.
 
 The following sections describe attributes, child elements, and parent elements.
   
-#### Attributes
+### Attributes
 
 None.
   

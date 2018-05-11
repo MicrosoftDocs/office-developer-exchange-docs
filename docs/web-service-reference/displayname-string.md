@@ -29,7 +29,7 @@ The **DisplayName** element defines the display name of a folder, contact, distr
 
 The following sections describe attributes, child elements, and parent elements.
   
-#### Attributes
+### Attributes
 
 None.
   

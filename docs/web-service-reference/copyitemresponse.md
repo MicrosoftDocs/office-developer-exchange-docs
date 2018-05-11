@@ -31,7 +31,7 @@ The **CopyItemResponse** element defines a response to a CopyItem request.
 
 The following sections describe attributes, child elements, and parent elements.
   
-#### Attributes
+### Attributes
 
 None.
   

@@ -31,7 +31,7 @@ The **MessageTrackingSearchResults** element contains a list of records that mat
 
 The following sections describe attributes, child elements, and parent elements.
   
-#### Attributes
+### Attributes
 
 None.
   

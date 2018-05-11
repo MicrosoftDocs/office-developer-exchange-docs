@@ -24,7 +24,7 @@ The **AnonymousAccessAllowed** element indicates whether a document sharing loca
 
 The following sections describe attributes, child elements, and parent elements.
   
-#### Attributes
+### Attributes
 
 None.
   

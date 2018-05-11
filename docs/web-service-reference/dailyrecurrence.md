@@ -31,7 +31,7 @@ The **DailyRecurrence** element describes the frequency, in days, in which a cal
 
 The following sections describe attributes, child elements, and parent elements.
   
-#### Attributes
+### Attributes
 
 None.
   

@@ -31,7 +31,7 @@ The **RecipientTrackingEvents** element represents a collection of one or more e
 
 The following sections describe attributes, child elements, and parent elements.
   
-#### Attributes
+### Attributes
 
 None.
   

@@ -35,7 +35,7 @@ The **DelegateUserResponseMessageType** element contains the response message fo
 
 The following sections describe attributes, child elements, and parent elements.
   
-#### Attributes
+### Attributes
 
 None.
   

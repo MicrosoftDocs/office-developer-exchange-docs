@@ -29,7 +29,7 @@ The **CompleteDate** element represents the date on which an item was completed.
 
 The following sections describe attributes, child elements, and parent elements.
   
-#### Attributes
+### Attributes
 
 None.
   

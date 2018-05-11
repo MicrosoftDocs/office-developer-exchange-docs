@@ -31,7 +31,7 @@ The **GetMailTipsResponse** element represents the response message for a [GetMa
 
 The following sections describe attributes, child elements, and parent elements.
   
-#### Attributes
+### Attributes
 
 None.
   

@@ -28,7 +28,7 @@ The **EmailUser** element specifies an email recipient.
 
 The following sections describe attributes, child elements, and parent elements.
   
-#### Attributes
+### Attributes
 
 None.
   

@@ -29,7 +29,7 @@ The **Delete** element indicates whether a client can delete a folder or item.
 
 The following sections describe attributes, child elements, and parent elements.
   
-#### Attributes
+### Attributes
 
 None.
   

@@ -31,7 +31,7 @@ The **RequiredAttendees** element represents attendees that are required to atte
 
 The following sections describe attributes, child elements, and parent elements.
   
-#### Attributes
+### Attributes
 
 None.
   

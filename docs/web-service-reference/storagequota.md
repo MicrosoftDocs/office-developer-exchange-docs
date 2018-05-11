@@ -29,7 +29,7 @@ The **StorageQuota** element describes the storage quota for the managed folder.
 
 The following sections describe attributes, child elements, and parent elements.
   
-#### Attributes
+### Attributes
 
 None.
   

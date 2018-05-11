@@ -27,7 +27,7 @@ The **Reminders** element specifies the reminders returned in the response to a 
 
 The following sections describe attributes, child elements, and parent elements.
   
-#### Attributes
+### Attributes
 
 None.
   

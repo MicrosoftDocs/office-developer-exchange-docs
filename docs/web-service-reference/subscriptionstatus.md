@@ -29,7 +29,7 @@ The **SubscriptionStatus** element describes the status of a push subscription.
 
 The following sections describe attributes, child elements, and parent elements.
   
-#### Attributes
+### Attributes
 
 None.
   

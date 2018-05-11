@@ -30,7 +30,7 @@ The **UserSettingError** element represents an error that is returned as a resul
 
 The following sections describe attributes, child elements, and parent elements.
   
-#### Attributes
+### Attributes
 
 None.
   

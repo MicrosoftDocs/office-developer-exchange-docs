@@ -27,7 +27,7 @@ The **EmailAddressEntity** element specifies a single email address entity.
 
 The following sections describe attributes, child elements, and parent elements.
   
-#### Attributes
+### Attributes
 
 None.
   

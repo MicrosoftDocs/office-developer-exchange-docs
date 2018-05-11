@@ -31,7 +31,7 @@ The **RestrictGroupIdentifier** element represents the group security identifier
 
 The following sections describe attributes, child elements, and parent elements.
   
-#### Attributes
+### Attributes
 
 |**Attribute**|**Description**|
 |:-----|:-----|

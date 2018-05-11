@@ -33,7 +33,7 @@ The **RedirectUrl** element contains the URL of the computer that is running Mic
 
 The following sections describe attributes, child elements, and parent elements.
   
-#### Attributes
+### Attributes
 
 None.
   

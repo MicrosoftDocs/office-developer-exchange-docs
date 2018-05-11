@@ -29,7 +29,7 @@ The **IsReadReceipt** element indicates whether incoming messages must be read r
 
 The following sections describe attributes, child elements, and parent elements.
   
-#### Attributes
+### Attributes
 
 None.
   

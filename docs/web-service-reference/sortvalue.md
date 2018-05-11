@@ -25,7 +25,7 @@ The **SortValue** element specifies a value used for sorting.
 
 The following sections describe attributes, child elements, and parent elements.
   
-#### Attributes
+### Attributes
 
 None.
   

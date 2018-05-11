@@ -29,7 +29,7 @@ The **Department** element represents the contact's department at work.
 
 The following sections describe attributes, child elements, and parent elements.
   
-#### Attributes
+### Attributes
 
 None.
   

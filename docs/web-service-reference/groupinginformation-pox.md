@@ -33,7 +33,7 @@ The **GroupingInformation** element contains a value that is used to group the u
 
 The following sections describe attributes, child elements, and parent elements.
   
-#### Attributes
+### Attributes
 
 None.
   

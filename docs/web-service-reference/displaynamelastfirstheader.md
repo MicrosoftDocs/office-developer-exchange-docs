@@ -25,7 +25,7 @@ The **DisplayNameLastFirstHeader** element specifies the header for the display 
 
 The following sections describe attributes, child elements, and parent elements.
   
-#### Attributes
+### Attributes
 
 None.
   

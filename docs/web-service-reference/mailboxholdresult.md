@@ -29,7 +29,7 @@ The **MailboxHoldResult** element contains the result of the **GetHoldOnMailboxe
 
 The following sections describe attributes, child elements, and parent elements.
   
-#### Attributes
+### Attributes
 
 None.
   

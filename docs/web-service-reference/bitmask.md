@@ -29,7 +29,7 @@ The **Bitmask** element represents a hexadecimal or decimal mask to be used duri
 
 The following sections describe attributes, child elements, and parent elements.
   
-#### Attributes
+### Attributes
 
 |**Attribute**|**Description**|
 |:-----|:-----|

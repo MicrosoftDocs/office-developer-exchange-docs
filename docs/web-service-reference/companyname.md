@@ -29,7 +29,7 @@ The **CompanyName** element represents the company name that is associated with 
 
 The following sections describe attributes, child elements, and parent elements.
   
-#### Attributes
+### Attributes
 
 None.
   

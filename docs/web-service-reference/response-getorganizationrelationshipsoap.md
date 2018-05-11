@@ -28,7 +28,7 @@ The **Response** element contains the [GetOrganizationRelationshipSettings opera
 
 The following sections describe attributes, child elements, and parent elements.
   
-#### Attributes
+### Attributes
 
 None.
   

@@ -26,7 +26,7 @@ The **DisplayName** element represents a display name.
 
 The following sections describe attributes, child elements, and parent elements.
   
-#### Attributes
+### Attributes
 
 None.
   

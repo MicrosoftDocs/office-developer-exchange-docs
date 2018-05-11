@@ -27,7 +27,7 @@ The **GetHoldOnMailboxes** element contains the request to get the hold status f
 
 The following sections describe attributes, child elements, and parent elements.
   
-#### Attributes
+### Attributes
 
 None.
   

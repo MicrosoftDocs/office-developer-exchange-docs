@@ -31,7 +31,7 @@ The **ServerReplyWithMessage** element indicates the ID of the template message 
 
 The following sections describe attributes, child elements, and parent elements.
   
-#### Attributes
+### Attributes
 
 None.
   

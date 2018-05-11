@@ -35,7 +35,7 @@ The **SendingAs** element represents an e-mail address that a user is trying to 
 
 The following sections describe attributes, child elements, and parent elements.
   
-#### Attributes
+### Attributes
 
 None.
   

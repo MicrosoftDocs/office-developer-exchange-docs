@@ -25,7 +25,7 @@ The **EndTime** element represents the end of the time span to query for reminde
 
 The following sections describe attributes, child elements, and parent elements.
   
-#### Attributes
+### Attributes
 
 None.
   

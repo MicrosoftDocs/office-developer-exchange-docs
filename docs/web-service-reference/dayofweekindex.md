@@ -29,7 +29,7 @@ The **DayOfWeekIndex** element describes which week in a month is used in a rela
 
 The following sections describe attributes, child elements, and parent elements.
   
-#### Attributes
+### Attributes
 
 None.
   

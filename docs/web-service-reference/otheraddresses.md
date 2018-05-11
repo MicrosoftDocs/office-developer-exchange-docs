@@ -27,7 +27,7 @@ The **OtherAddresses** element specifies an array of address values and the iden
 
 The following sections describe attributes, child elements, and parent elements.
   
-#### Attributes
+### Attributes
 
 None.
   

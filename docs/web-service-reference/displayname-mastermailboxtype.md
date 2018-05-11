@@ -24,7 +24,7 @@ The **DisplayName (MasterMailboxType)** element is intended for internal use onl
 
 The following sections describe attributes, child elements, and parent elements.
   
-#### Attributes
+### Attributes
 
 None.
   

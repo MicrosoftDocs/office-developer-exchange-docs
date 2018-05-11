@@ -39,7 +39,7 @@ The **PushSubscriptionRequest** element represents a subscription to a push-base
 
 The following sections describe attributes, child elements, and parent elements.
   
-#### Attributes
+### Attributes
 
 |**Attribute**|**Description**|
 |:-----|:-----|

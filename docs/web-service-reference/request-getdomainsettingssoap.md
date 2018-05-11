@@ -29,7 +29,7 @@ The **Request** element contains a request to return domain settings.
 
 The following sections describe attributes, child elements, and parent elements.
   
-#### Attributes
+### Attributes
 
 None.
   

@@ -42,7 +42,7 @@ The **Resolution** element contains a single resolved entity.
 
 The following sections describe attributes, child elements, and parent elements.
   
-#### Attributes
+### Attributes
 
 None.
   

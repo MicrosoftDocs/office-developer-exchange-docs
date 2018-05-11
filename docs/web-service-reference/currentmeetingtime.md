@@ -35,7 +35,7 @@ The **CurrentMeetingTime** element represents the start time of a meeting that y
 
 The following sections describe attributes, child elements, and parent elements.
   
-#### Attributes
+### Attributes
 
 None.
   

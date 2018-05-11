@@ -25,7 +25,7 @@ The **SourceId** element specifies the identifier of the attributed contact in a
 
 The following sections describe attributes, child elements, and parent elements.
   
-#### Attributes
+### Attributes
 
 |**Attribute**|**Description**|
 |:-----|:-----|

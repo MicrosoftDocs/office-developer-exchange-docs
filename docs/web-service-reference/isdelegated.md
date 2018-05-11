@@ -29,7 +29,7 @@ The **IsDelegated** element indicates whether a meeting was handled by an accoun
 
 The following sections describe attributes, child elements, and parent elements.
   
-#### Attributes
+### Attributes
 
 None.
   

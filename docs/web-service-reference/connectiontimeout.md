@@ -33,7 +33,7 @@ The **ConnectionTimeout** element specifies the number of minutes to keep a conn
 
 The following sections describe attributes, child elements, and parent elements.
   
-#### Attributes
+### Attributes
 
 None.
   

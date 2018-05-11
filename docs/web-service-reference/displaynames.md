@@ -27,7 +27,7 @@ The **DisplayNames** element specifies an array of display names and the identif
 
 The following sections describe attributes, child elements, and parent elements.
   
-#### Attributes
+### Attributes
 
 None
   

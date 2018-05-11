@@ -35,7 +35,7 @@ The **UserId** element identifies a delegate user or a user who has folder acces
 
 The following sections describe attributes, child elements, and parent elements.
   
-#### Attributes
+### Attributes
 
 None.
   

@@ -25,7 +25,7 @@ The **UserSMIMECertificate** element contains a value that encodes a contact's S
 
 The following sections describe attributes, child elements, and parent elements.
   
-#### Attributes
+### Attributes
 
 None.
   

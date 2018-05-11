@@ -29,7 +29,7 @@ The **IsInline** element represents whether the attachment appears inline within
 
 The following sections describe attributes, child elements, and parent elements.
   
-#### Attributes
+### Attributes
 
 None.
   

@@ -27,7 +27,7 @@ The **MarkAsJunkResponse** element specifies the response to a **MarkAsJunk** re
 
 The following sections describe attributes, child elements, and parent elements.
   
-#### Attributes
+### Attributes
 
 None.
   

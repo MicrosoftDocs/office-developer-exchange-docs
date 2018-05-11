@@ -29,7 +29,7 @@ The **SenderSmtpAddress** element represents the SMTP e-mail address correspondi
 
 The following sections describe attributes, child elements, and parent elements.
   
-#### Attributes
+### Attributes
 
 None.
   

@@ -31,7 +31,7 @@ The **OptionalAttendees** element represents attendees who are not required to a
 
 The following sections describe attributes, child elements, and parent elements.
   
-#### Attributes
+### Attributes
 
 None.
   

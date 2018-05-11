@@ -33,7 +33,7 @@ The **GetMailTips** element represents the recipients and types of mail tips to 
 
 The following sections describe attributes, child elements, and parent elements.
   
-#### Attributes
+### Attributes
 
 None.
   

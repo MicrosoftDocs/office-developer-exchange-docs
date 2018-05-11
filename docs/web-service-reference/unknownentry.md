@@ -29,7 +29,7 @@ The **UnknownEntry** element represents a single unknown permission entry that c
 
 The following sections describe attributes, child elements, and parent elements.
   
-#### Attributes
+### Attributes
 
 None.
   

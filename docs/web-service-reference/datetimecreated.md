@@ -29,7 +29,7 @@ The **DateTimeCreated** element represents the date and time that an item in the
 
 The following sections describe attributes, child elements, and parent elements.
   
-#### Attributes
+### Attributes
 
 None.
   

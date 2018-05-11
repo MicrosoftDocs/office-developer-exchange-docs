@@ -41,7 +41,7 @@ The **messageSnapshot** element contains an attribute that specifies whether the
 
 The following sections describe attributes, child elements, and parent elements.
   
-#### Attributes
+### Attributes
 
 |**Attribute**|**Description**|
 |:-----|:-----|

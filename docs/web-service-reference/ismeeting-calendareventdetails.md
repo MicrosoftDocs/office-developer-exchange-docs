@@ -45,7 +45,7 @@ The **IsMeeting** element indicates whether the calendar event is a meeting or a
 
 The following sections describe attributes, child elements, and parent elements.
   
-#### Attributes
+### Attributes
 
 None.
   

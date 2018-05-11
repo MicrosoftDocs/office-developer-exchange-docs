@@ -46,7 +46,7 @@ The **CalendarEvent** element represents a unique calendar item occurrence.
 
 The following sections describe attributes, child elements, and parent elements.
   
-#### Attributes
+### Attributes
 
 None.
   

@@ -31,7 +31,7 @@ The **InvalidRecipients** element represents the recipients of a folder sharing 
 
 The following sections describe attributes, child elements, and parent elements.
   
-#### Attributes
+### Attributes
 
 None.
   

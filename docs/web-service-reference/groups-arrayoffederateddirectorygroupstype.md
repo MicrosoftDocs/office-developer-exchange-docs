@@ -24,7 +24,7 @@ The **Groups (ArrayOfFederatedDirectoryGroupsType)** element is intended for int
 
 The following sections describe attributes, child elements, and parent elements.
   
-#### Attributes
+### Attributes
 
 None.
   

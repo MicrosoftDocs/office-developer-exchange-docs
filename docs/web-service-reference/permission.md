@@ -40,7 +40,7 @@ The **Permission** element defines the access that a user has to a folder.
 
 The following sections describe attributes, child elements, and parent elements.
   
-#### Attributes
+### Attributes
 
 None.
   

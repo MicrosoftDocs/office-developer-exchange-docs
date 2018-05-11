@@ -29,7 +29,7 @@ The **IncludeMimeContent** element specifies whether the Multipurpose Internet M
 
 The following sections describe attributes, child elements, and parent elements.
   
-#### Attributes
+### Attributes
 
 None.
   

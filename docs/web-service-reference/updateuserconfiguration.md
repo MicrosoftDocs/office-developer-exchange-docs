@@ -31,7 +31,7 @@ The **UpdateUserConfiguration** element represents a request to update a user co
 
 The following sections describe attributes, child elements, and parent elements.
   
-#### Attributes
+### Attributes
 
 None.
   

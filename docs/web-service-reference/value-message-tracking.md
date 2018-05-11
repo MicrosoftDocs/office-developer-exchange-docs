@@ -29,7 +29,7 @@ The **Value** element represents the property value for a message tracking repor
 
 The following sections describe attributes, child elements, and parent elements.
   
-#### Attributes
+### Attributes
 
 None.
   

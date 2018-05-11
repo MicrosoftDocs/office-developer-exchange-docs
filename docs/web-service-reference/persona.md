@@ -125,7 +125,7 @@ The **Persona** element specifies a set of persona data returned by a **GetPerso
 
 The following sections describe attributes, child elements, and parent elements.
   
-#### Attributes
+### Attributes
 
 None.
   

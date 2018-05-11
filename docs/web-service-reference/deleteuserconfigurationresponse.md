@@ -29,7 +29,7 @@ The **DeleteUserConfigurationResponse** element defines a response to a single *
 
 The following sections describe attributes, child elements, and parent elements.
   
-#### Attributes
+### Attributes
 
 None.
   

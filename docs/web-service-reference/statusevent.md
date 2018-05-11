@@ -31,7 +31,7 @@ The **StatusEvent** element represents a notification that no new activity has o
 
 The following sections describe attributes, child elements, and parent elements.
   
-#### Attributes
+### Attributes
 
 None.
   

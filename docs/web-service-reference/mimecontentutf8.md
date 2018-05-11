@@ -25,7 +25,7 @@ The **MimeContentUTF8** element contains the UTF-8 MIME stream of an object that
 
 The following sections describe attributes, child elements, and parent elements.
   
-#### Attributes
+### Attributes
 
 |**Attribute**|**Description**|
 |:-----|:-----|

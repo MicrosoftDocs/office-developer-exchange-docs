@@ -28,7 +28,7 @@ The **Term** element specifies a highlighted term in a **FindConversation** or *
 
 The following sections describe attributes, child elements, and parent elements.
   
-#### Attributes
+### Attributes
 
 None.
   

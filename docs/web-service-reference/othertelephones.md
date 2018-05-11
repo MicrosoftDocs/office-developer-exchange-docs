@@ -28,7 +28,7 @@ The **OtherTelephones** element specifies an array of telephone values and the i
 
 The following sections describe attributes, child elements, and parent elements.
   
-#### Attributes
+### Attributes
 
 None.
   

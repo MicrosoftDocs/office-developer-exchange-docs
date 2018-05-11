@@ -39,7 +39,7 @@ The **Actions** element contains a list of actions associated with Inbox rules.
 
 The following sections describe attributes, child elements, and parent elements.
   
-#### Attributes
+### Attributes
 
 None.
   

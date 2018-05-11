@@ -28,7 +28,7 @@ The **Domains** element represents the domain collection that is returned in a [
 
 The following sections describe attributes, child elements, and parent elements.
   
-#### Attributes
+### Attributes
 
 None.
   

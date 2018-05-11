@@ -28,7 +28,7 @@ The **GlobalParentFolderIds** element specifies the identifiers of the global pa
 
 The following sections describe attributes, child elements, and parent elements.
   
-#### Attributes
+### Attributes
 
 None.
   

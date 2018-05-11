@@ -27,7 +27,7 @@ The **PerformReminderActionResponse** element specifies the response to a **Perf
 
 The following sections describe attributes, child elements, and parent elements.
   
-#### Attributes
+### Attributes
 
 None.
   

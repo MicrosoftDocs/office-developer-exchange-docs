@@ -25,7 +25,7 @@ The **TemplateDescription** element specifies the description of the Rights Mana
 
 The following sections describe attributes, child elements, and parent elements.
   
-#### Attributes
+### Attributes
 
 None.
   

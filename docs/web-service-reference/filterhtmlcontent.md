@@ -29,7 +29,7 @@ The **FilterHtmlContent** element specifies whether potentially unsafe HTML cont
 
 The following sections describe attributes, child elements, and parent elements.
   
-#### Attributes
+### Attributes
 
 None.
   

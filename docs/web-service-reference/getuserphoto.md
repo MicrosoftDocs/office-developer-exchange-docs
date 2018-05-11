@@ -28,7 +28,7 @@ The **GetUserPhoto** element contains the request to get a user's photo.
 
 The following sections describe attributes, child elements, and parent elements.
   
-#### Attributes
+### Attributes
 
 None.
   

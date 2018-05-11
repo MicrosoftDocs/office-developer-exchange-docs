@@ -37,7 +37,7 @@ The **GetMessageTrackingReport** element contains the request for the [GetMessag
 
 The following sections describe attributes, child elements, and parent elements.
   
-#### Attributes
+### Attributes
 
 None.
   

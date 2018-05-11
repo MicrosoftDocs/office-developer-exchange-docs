@@ -31,7 +31,7 @@ The **ExpandDL** element defines a request to expand a distribution list.
 
 The following sections describe attributes, child elements, and parent elements.
   
-#### Attributes
+### Attributes
 
 None
   

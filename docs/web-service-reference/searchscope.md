@@ -25,7 +25,7 @@ The **SearchScope** element specifies the scope of a search.
 
 The following sections describe attributes, child elements, and parent elements.
   
-#### Attributes
+### Attributes
 
 None.
   

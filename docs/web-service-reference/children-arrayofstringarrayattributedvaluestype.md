@@ -27,7 +27,7 @@ The **Children** element specifies an array of child names and identifiers of th
 
 The following sections describe attributes, child elements, and parent elements.
   
-#### Attributes
+### Attributes
 
 None.
   

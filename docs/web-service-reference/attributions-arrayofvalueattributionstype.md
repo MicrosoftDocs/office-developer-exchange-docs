@@ -27,7 +27,7 @@ The **Attributions** element specifies an array of attributions for its associat
 
 The following sections describe attributes, child elements, and parent elements.
   
-#### Attributes
+### Attributes
 
 None.
   

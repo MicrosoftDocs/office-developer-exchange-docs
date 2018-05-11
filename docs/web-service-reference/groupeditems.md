@@ -44,7 +44,7 @@ The **GroupedItems** element represents a collection of items that are the resul
 
 The following sections describe attributes, child elements, and parent elements.
   
-#### Attributes
+### Attributes
 
 None.
   

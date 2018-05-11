@@ -25,7 +25,7 @@ The **State** element contains the lifecycle state that is set on a site mailbox
 
 The following sections describe attributes, child elements, and parent elements.
   
-#### Attributes
+### Attributes
 
 None.
   

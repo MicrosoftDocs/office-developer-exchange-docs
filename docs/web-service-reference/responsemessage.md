@@ -34,7 +34,7 @@ The **ResponseMessage** element provides descriptive information about the respo
 
 The following sections describe attributes, child elements, and parent elements.
   
-#### Attributes
+### Attributes
 
 |**Attribute**|**Description**|
 |:-----|:-----|

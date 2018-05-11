@@ -27,7 +27,7 @@ The **App** element contains information about an XML manifest file for a mail a
 
 The following sections describe attributes, child elements, and parent elements.
   
-#### Attributes
+### Attributes
 
 None.
   

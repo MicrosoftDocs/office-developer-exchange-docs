@@ -31,7 +31,7 @@ The **SendNotificationResult** element contains the response of a client applica
 
 The following sections describe attributes, child elements, and parent elements.
   
-#### Attributes
+### Attributes
 
 None.
   

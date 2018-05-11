@@ -27,7 +27,7 @@ The **HighlightTerms** element identifies the highlighted terms returned in a **
 
 The following sections describe attributes, child elements, and parent elements.
   
-#### Attributes
+### Attributes
 
 None.
   

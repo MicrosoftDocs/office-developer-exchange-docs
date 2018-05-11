@@ -37,7 +37,7 @@ The **GlobalHasAttachments** element contains a value that indicates whether at 
 
 The following sections describe attributes, child elements, and parent elements.
   
-#### Attributes
+### Attributes
 
 None.
   

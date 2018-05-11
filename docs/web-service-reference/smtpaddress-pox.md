@@ -33,7 +33,7 @@ The **SmtpAddress** element contains the SMTP address assigned to the public fol
 
 The following sections describe attributes, child elements, and parent elements.
   
-#### Attributes
+### Attributes
 
 None.
   

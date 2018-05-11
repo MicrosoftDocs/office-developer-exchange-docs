@@ -25,7 +25,7 @@ The **Deduplication** element indicates whether the search result should remove 
 
 The following sections describe attributes, child elements, and parent elements.
   
-#### Attributes
+### Attributes
 
 None.
   

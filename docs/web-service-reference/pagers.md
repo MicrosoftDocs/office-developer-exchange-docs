@@ -28,7 +28,7 @@ The **Pagers** element specifies an array of pager phone numbers and the identif
 
 The following sections describe attributes, child elements, and parent elements.
   
-#### Attributes
+### Attributes
 
 None.
   

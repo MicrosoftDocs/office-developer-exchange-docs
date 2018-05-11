@@ -33,7 +33,7 @@ The **SharingUrl** element contains the URL of the sharing server used for cross
 
 The following sections describe attributes, child elements, and parent elements.
   
-#### Attributes
+### Attributes
 
 None.
   

@@ -45,7 +45,7 @@ The **DayOfWeek** element contains the list of working days scheduled for the ma
 
 The following sections describe attributes, child elements, and parent elements.
   
-#### Attributes
+### Attributes
 
 None.
   

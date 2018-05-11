@@ -36,7 +36,7 @@ The **ItemShape** element identifies a set of properties to return in a [GetItem
 
 The following sections describe attributes, child elements, and parent elements.
   
-#### Attributes
+### Attributes
 
 None.
   

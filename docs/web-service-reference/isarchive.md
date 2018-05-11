@@ -25,7 +25,7 @@ The **IsArchive** element specifies a Boolean value that indicates whether the m
 
 The following sections describe attributes, child elements, and parent elements.
   
-#### Attributes
+### Attributes
 
 None.
   

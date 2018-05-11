@@ -28,7 +28,7 @@ The **DisableApp** element specifies a request to disable an app.
 
 The following sections describe attributes, child elements, and parent elements.
   
-#### Attributes
+### Attributes
 
 None.
   

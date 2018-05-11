@@ -25,7 +25,7 @@ The **MovedItemId** element specifies the identifier of the item that was moved 
 
 The following sections describe attributes, child elements, and parent elements.
   
-#### Attributes
+### Attributes
 
 |**Attribute**|**Description**|
 |:-----|:-----|

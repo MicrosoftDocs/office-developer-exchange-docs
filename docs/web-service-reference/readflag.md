@@ -25,7 +25,7 @@ The **ReadFlag** element indicates the read state to set on items in a folder.
 
 The following sections describe attributes, child elements, and parent elements.
   
-#### Attributes
+### Attributes
 
 None.
   

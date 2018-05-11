@@ -32,7 +32,7 @@ The **RemoveDelegate** element defines a request to remove delegates from a mail
 
 The following sections describe attributes, child elements, and parent elements.
   
-#### Attributes
+### Attributes
 
 None.
   

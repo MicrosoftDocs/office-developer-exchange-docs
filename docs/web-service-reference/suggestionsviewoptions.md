@@ -43,7 +43,7 @@ The **SuggestionsViewOptions** element contains the options for obtaining meetin
 
 The following sections describe attributes, child elements, and parent elements.
   
-#### Attributes
+### Attributes
 
 None.
   

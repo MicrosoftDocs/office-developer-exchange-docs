@@ -29,7 +29,7 @@ The **UnreadCount** element contains the count of unread items within a folder.
 
 The following sections describe attributes, child elements, and parent elements.
   
-#### Attributes
+### Attributes
 
 None.
   

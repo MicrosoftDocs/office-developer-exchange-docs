@@ -35,7 +35,7 @@ The **DomainRequired** element indicates whether the domain is required for auth
 
 The following sections describe attributes, child elements, and parent elements.
   
-#### Attributes
+### Attributes
 
 None.
   

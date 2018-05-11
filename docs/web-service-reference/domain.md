@@ -29,7 +29,7 @@ The **Domain** element identifies a single SMTP domain.
 
 The following sections describe attributes, child elements, and parent elements.
   
-#### Attributes
+### Attributes
 
 |**Attribute**|**Description**|
 |:-----|:-----|

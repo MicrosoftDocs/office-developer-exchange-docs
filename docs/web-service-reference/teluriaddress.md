@@ -25,7 +25,7 @@ The **TelUriAddress** element contains the tel Uniform Resource Identifier (URI)
 
 The following sections describe attributes, child elements, and parent elements.
   
-#### Attributes
+### Attributes
 
 None.
   

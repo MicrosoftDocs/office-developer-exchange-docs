@@ -27,7 +27,7 @@ The **Mailboxes** element specifies an array of mailboxes identified by legacy d
 
 The following sections describe attributes, child elements, and parent elements.
   
-#### Attributes
+### Attributes
 
 None.
   

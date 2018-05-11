@@ -33,7 +33,7 @@ The **ServiceHome** element contains the URL of the home page of the Internet se
 
 The following sections describe attributes, child elements, and parent elements.
   
-#### Attributes
+### Attributes
 
 None.
   

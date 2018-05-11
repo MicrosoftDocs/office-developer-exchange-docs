@@ -25,7 +25,7 @@ The **ParentInternetMessageId** element specifies the Internet message identifie
 
 The following sections describe attributes, child elements, and parent elements.
   
-#### Attributes
+### Attributes
 
 None.
   

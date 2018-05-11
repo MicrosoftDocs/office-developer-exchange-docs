@@ -31,7 +31,7 @@ The **SearchMailboxesResponseMessage** element specifies the response message fo
 
 The following sections describe attributes, child elements, and parent elements.
   
-#### Attributes
+### Attributes
 
 None.
   

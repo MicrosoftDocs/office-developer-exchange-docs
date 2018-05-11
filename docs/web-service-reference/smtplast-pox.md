@@ -35,7 +35,7 @@ The **SMTPLast** element specifies whether the Simple Mail Transfer Protocol (SM
 
 The following sections describe attributes, child elements, and parent elements.
   
-#### Attributes
+### Attributes
 
 None.
   

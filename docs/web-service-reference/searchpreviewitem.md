@@ -47,7 +47,7 @@ The **SearchPreviewItem** element specifies the item preview for a discovery sea
 
 The following sections describe attributes, child elements, and parent elements.
   
-#### Attributes
+### Attributes
 
 None.
   

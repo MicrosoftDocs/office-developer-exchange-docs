@@ -33,7 +33,7 @@ The **CalendarView** element defines a [FindItem operation](finditem-operation.m
 
 The following sections describe attributes, child elements, and parent elements.
   
-#### Attributes
+### Attributes
 
 |**Attribute**|**Description**|
 |:-----|:-----|

@@ -39,7 +39,7 @@ The [ConflictResults](conflictresults.md) element contains the number of conflic
 
 The following sections describe attributes, child elements, and parent elements.
   
-#### Attributes
+### Attributes
 
 None.
   

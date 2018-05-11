@@ -28,7 +28,7 @@ The **ExtendedPropertyAttributedValue** element specifies extended properties fo
 
 The following sections describe attributes, child elements, and parent elements.
   
-#### Attributes
+### Attributes
 
 None.
   

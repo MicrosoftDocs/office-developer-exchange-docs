@@ -29,7 +29,7 @@ The **MailboxFull** element indicates whether the mailbox for the recipient is f
 
 The following sections describe attributes, child elements, and parent elements.
   
-#### Attributes
+### Attributes
 
 None.
   

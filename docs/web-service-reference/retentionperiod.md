@@ -25,7 +25,7 @@ The **RetentionPeriod** element specifies the number of days that the retention 
 
 The following sections describe attributes, child elements, and parent elements.
   
-#### Attributes
+### Attributes
 
 None.
   

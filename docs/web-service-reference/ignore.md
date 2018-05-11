@@ -35,7 +35,7 @@ The **Ignore** element identifies items to skip during synchronization.
 
 The following sections describe attributes, child elements, and parent elements.
   
-#### Attributes
+### Attributes
 
 None.
   

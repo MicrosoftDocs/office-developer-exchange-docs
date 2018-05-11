@@ -28,7 +28,7 @@ The **NonIndexableItemDetailsResult** element specifies the results of the **Get
 
 The following sections describe attributes, child elements, and parent elements.
   
-#### Attributes
+### Attributes
 
 None.
   

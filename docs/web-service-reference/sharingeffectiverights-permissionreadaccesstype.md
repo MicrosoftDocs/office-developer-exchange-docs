@@ -29,7 +29,7 @@ The **SharingEffectiveRights** element indicates the permissions that the user h
 
 The following sections describe attributes, child elements, and parent elements.
   
-#### Attributes
+### Attributes
 
 None.
   

@@ -33,7 +33,7 @@ The **FindItemResponse** element defines a response to a FindItem request.
 
 The following sections describe attributes, child elements, and parent elements.
   
-#### Attributes
+### Attributes
 
 None.
   

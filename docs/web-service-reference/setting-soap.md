@@ -26,7 +26,7 @@ The **Setting** element represents a configuration setting to be returned.
 
 The following sections describe attributes, child elements, and parent elements.
   
-#### Attributes
+### Attributes
 
 None.
   

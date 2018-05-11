@@ -42,7 +42,7 @@ The **monitoring** element contains configuration information that defines how a
 
 The following sections describe attributes, child elements, and parent elements.
   
-#### Attributes
+### Attributes
 
 None.
   

@@ -29,7 +29,7 @@ The **MailboxHoldStatus** element specifies the hold status of the mailbox.
 
 The following sections describe attributes, child elements, and parent elements.
   
-#### Attributes
+### Attributes
 
 None.
   

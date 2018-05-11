@@ -33,7 +33,7 @@ The **RelativeYearlyRecurrence** element describes a relative yearly recurrence 
 
 The following sections describe attributes, child elements, and parent elements.
   
-#### Attributes
+### Attributes
 
 None.
   

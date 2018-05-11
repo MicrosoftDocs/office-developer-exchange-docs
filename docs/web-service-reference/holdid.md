@@ -25,7 +25,7 @@ The **HoldId** element contains the mailbox hold identifier.
 
 The following sections describe attributes, child elements, and parent elements.
   
-#### Attributes
+### Attributes
 
 None.
   

@@ -31,7 +31,7 @@ The **MessageClassifications** element represents the message classifications th
 
 The following sections describe attributes, child elements, and parent elements.
   
-#### Attributes
+### Attributes
 
 None
   

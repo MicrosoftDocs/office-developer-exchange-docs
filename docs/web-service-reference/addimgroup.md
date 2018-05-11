@@ -27,7 +27,7 @@ The **AddImGroup** element defines a request to add a new instant messaging grou
 
 The following sections describe attributes, child elements, and parent elements.
   
-#### Attributes
+### Attributes
 
 None.
   

@@ -29,7 +29,7 @@ The **Manager** element represents a contact's manager.
 
 The following sections describe attributes, child elements, and parent elements.
   
-#### Attributes
+### Attributes
 
 None.
   
