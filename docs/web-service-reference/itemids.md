@@ -16,7 +16,7 @@ description: "The ItemIds element contains the unique identities of items, occur
 
 # ItemIds
   
-The **ItemIds** element contains the unique identities of items, occurrence items, and recurring master items that are used to delete, send, get, move, or copy items in the Exchange store. 
+The **ItemIds** element contains the unique identities of items, occurrence items, and recurring master items that are used to delete, send, get, move, or copy items in the Exchange store.
   
 ```xml
 <ItemIds>
@@ -30,7 +30,7 @@ The **ItemIds** element contains the unique identities of items, occurrence item
 
 ## Attributes and elements
 
-The following sections describe attributes, child elements, and parent elements.
+The following sections describe attributes, child elements, and parent elements. 
   
 ### Attributes
 
