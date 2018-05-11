@@ -9,25 +9,19 @@ api_type:
 - schema
 ms.assetid: 2c0bc41c-2452-4fc8-a19c-0e85f9fdbc4a
 description: "The ServerVersion element represents the version number of the computer that is running Microsoft Exchange Server."
- 
- 
 ---
 
 # ServerVersion (POX)
 
 The **ServerVersion** element represents the version number of the computer that is running Microsoft Exchange Server. 
   
-[AutoDiscover (POX)](autodiscover-pox.md)
+- [AutoDiscover (POX)](autodiscover-pox.md) 
+- [Response (POX)](response-pox.md)
+- [Account (POX)](account-pox.md)
+- [Protocol (POX)](protocol-pox.md)
+- [ServerVersion (POX)](serverversion-pox.md)
   
-[Response (POX)](response-pox.md)
-  
-[Account (POX)](account-pox.md)
-  
-[Protocol (POX)](protocol-pox.md)
-  
-[ServerVersion (POX)](serverversion-pox.md)
-  
-```
+```xml
 <ServerVersion/>
 ```
 
@@ -61,7 +55,7 @@ The **ServerVersion** value is only valid if the [Type (POX)](type-pox.md) eleme
 
 The following example coverts a **ServerVersion** value that is returned in an Autodiscover response to obtain and display the MajorVersion, MinorVersion, and MajorBuildNumber. This example enables you to enter a hexadecimal value for the **ServerVersion** value. If no **ServerVersion** value is entered, a default **ServerVersion** value of 738180DA is used. 
   
-```
+```csharp
 static void Main(string[] args)
 {
     // Convert a ServerVersion value that is returned from an Autodiscover request.
@@ -106,7 +100,5 @@ static void Main(string[] args)
 
 ## See also
 
-#### Concepts
-
-[POX Autodiscover XML elements for Exchange](pox-autodiscover-xml-elements-for-exchange.md)
+- [POX Autodiscover XML elements for Exchange](pox-autodiscover-xml-elements-for-exchange.md)
 
