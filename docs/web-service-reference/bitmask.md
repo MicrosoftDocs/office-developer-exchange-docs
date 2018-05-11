@@ -32,7 +32,7 @@ The following sections describe attributes, child elements, and parent elements.
 
 |**Attribute**|**Description**|
 |:-----|:-----|
-|**Value** | Represents a decimal or hexadecimal bitmask. The value is represented by the following regular expression: `((0x|0X)[0-9A-Fa-f]*)|([0-9]*)`.<br/><br/>The following are examples of hexadecimal values for this attribute:<br/>- 0x12AF<br/>- 0X334AE<br/><br/>The following are examples of decimal values for this attribute:<br/>- 10<br/>- 255<br/>- 4562 |
+|**Value** | Represents a decimal or hexadecimal bitmask. The value is represented by the following regular expression:<br/>`((0x|0X)[0-9A-Fa-f]*)|([0-9]*)`.<br/><br/>The following are examples of hexadecimal values for this attribute:<br/>- 0x12AF<br/>- 0X334AE<br/><br/>The following are examples of decimal values for this attribute:<br/>- 10<br/>- 255<br/>- 4562 |
    
 ### Child elements
 
