@@ -16,7 +16,8 @@ Find out how to create a custom SmtpReceiveAgent transport agent to use with Exc
   
 **Applies to:** Exchange Server 2013
   
-![Related code snippets and sample apps](media/mod_icon_links_samples.png)
+Related code snippets and sample apps:
+
 - [Exchange 2013: Build a body conversion transport agent](http://code.msdn.microsoft.com/Exchange/Exchange-2013-Build-a-body-ed36ecb0)
   
 The [SmtpReceiveAgentFactory](https://msdn.microsoft.com/library/Microsoft.Exchange.Data.Transport.Smtp.SmtpReceiveAgentFactory.aspx) and [SmtpReceiveAgent](https://msdn.microsoft.com/library/Microsoft.Exchange.Data.Transport.Smtp.SmtpReceiveAgent.aspx) classes enable you to extend the behavior of the Front End Transport service on a Client Access Server or the Transport service on a Mailbox server. You can use these classes to implement transport agents that are designed to respond to messages as they come into your organization. 
