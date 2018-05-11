@@ -32,7 +32,7 @@ The most common way to add a reference is to use Visual Studio. We know that som
 4. To use the EWS Managed API in your application, add a **using** statement for the **Microsoft.Exchange.WebServices.Data** namespace. 
     
    ```cs
-  using Microsoft.Exchange.WebServices.Data;
+    using Microsoft.Exchange.WebServices.Data;
    ```
 
 ### To add a reference and build your application with the command-line compiler
@@ -42,13 +42,13 @@ The most common way to add a reference is to use Visual Studio. We know that som
 2. In your source code editor, add a **using** statement to the source code for the **Microsoft.Exchange.WebServices.Data** namespace. 
     
    ```cs
-  using Microsoft.Exchange.WebServices.Data;
+    using Microsoft.Exchange.WebServices.Data;
    ```
 
 3. Run the command-line compiler to build the application. The following command uses the .NET Framework C# compiler to build the Windows application defined in the source code file "program.cs". It assumes that the compiler is located in the default installation directory and that the Microsoft.Exchange.WebServices.dll file is in a subdirectory of the current directory named "build".
     
    ```cs
-  c:\Windows\Microsoft.NET\Framework\3.5\csc /target: winexe /out: build\testApplication /reference: build\Microsoft.Exchange.WebServices.dll program.cs
+    c:\Windows\Microsoft.NET\Framework\3.5\csc /target: winexe /out: build\testApplication /reference: build\Microsoft.Exchange.WebServices.dll program.cs
    ```
 
 ## See also

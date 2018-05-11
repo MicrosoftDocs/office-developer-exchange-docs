@@ -32,7 +32,7 @@ service.TraceEnabled = true;
 
 ```
 
-After you set the [TraceEnabled](http://msdn.microsoft.com/en-us/library/microsoft.exchange.webservices.data.exchangeservicebase.traceenabled%28v=exchg.80%29.aspx) property to **true**, all requests that match the trace flags will be sent to the specified trace listener. You can specify a single trace flag, or you can specify multiple trace flags by combining them with a logical **OR**. You can use the [TraceFlags enumeration](http://msdn.microsoft.com/en-us/library/ microsoft.exchange.webservices.data.traceflags%28v=exchg.80%29.aspx) to specify values for EWS and for Autodiscover requests and responses. 
+After you set the [TraceEnabled](http://msdn.microsoft.com/en-us/library/microsoft.exchange.webservices.data.exchangeservicebase.traceenabled%28v=exchg.80%29.aspx) property to **true**, all requests that match the trace flags will be sent to the specified trace listener. You can specify a single trace flag, or you can specify multiple trace flags by combining them with a logical **OR**. You can use the [TraceFlags enumeration](http://msdn.microsoft.com/en-us/library/microsoft.exchange.webservices.data.traceflags%28v=exchg.80%29.aspx) to specify values for EWS and for Autodiscover requests and responses. 
   
 ## Implementing a TraceListener object
 <a name="bk_traceListener"> </a>
