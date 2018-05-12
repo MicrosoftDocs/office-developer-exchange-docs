@@ -1,5 +1,5 @@
 ---
-title: "How to Set folder permissions for another user by using EWS in Exchange"
+title: "Set folder permissions for another user by using EWS in Exchange"
  
  
 manager: sethgros
@@ -12,7 +12,7 @@ ms.assetid: 7eb81676-a780-4c56-b4f2-c4ed2697107d
 description: "Learn how to set permission levels on a folder by using the EWS Managed API or EWS in Exchange."
 ---
 
-# How to: Set folder permissions for another user by using EWS in Exchange
+# Set folder permissions for another user by using EWS in Exchange
 
 Learn how to set permission levels on a folder by using the EWS Managed API or EWS in Exchange.
   
@@ -611,18 +611,18 @@ If you try to add two sets of permissions for the same user, you will receive a 
 
 After you give a user permission to a specific folder, the user can access the folder as a delegate. For more information, see:
   
-- [How to: Access email as a delegate by using EWS in Exchange](how-to-access-email-as-a-delegate-by-using-ews-in-exchange.md)
+- [Access email as a delegate by using EWS in Exchange](how-to-access-email-as-a-delegate-by-using-ews-in-exchange.md)
     
-- [How to: Access a calendar as a delegate by using EWS in Exchange](how-to-access-a-calendar-as-a-delegate-by-using-ews-in-exchange.md)
+- [Access a calendar as a delegate by using EWS in Exchange](how-to-access-a-calendar-as-a-delegate-by-using-ews-in-exchange.md)
     
-- [How to: Access contacts as a delegate by using EWS in Exchange](how-to-access-contacts-as-a-delegate-by-using-ews-in-exchange.md)
+- [Access contacts as a delegate by using EWS in Exchange](how-to-access-contacts-as-a-delegate-by-using-ews-in-exchange.md)
     
-## Additional resources
-<a name="bk_addresources"> </a>
+## See also
+
 
 - [Delegate access and EWS in Exchange](delegate-access-and-ews-in-exchange.md)
     
-- [How to: Add and remove delegates by using EWS in Exchange](how-to-add-and-remove-delegates-by-using-ews-in-exchange.md)
+- [Add and remove delegates by using EWS in Exchange](how-to-add-and-remove-delegates-by-using-ews-in-exchange.md)
     
 - [Folders and items in EWS in Exchange](folders-and-items-in-ews-in-exchange.md)
     

@@ -29,17 +29,17 @@ The **Constant** element identifies a constant value in a restriction.
 
 The following sections describe attributes, child elements, and parent elements.
   
-#### Attributes
+### Attributes
 
 |**Attribute**|**Description**|
 |:-----|:-----|
 |**Value** <br/> |Specifies the value to compare in the restriction.  <br/> |
    
-#### Child elements
+### Child elements
 
 None.
   
-#### Parent elements
+### Parent elements
 
 |**Element**|**Description**|
 |:-----|:-----|
@@ -63,7 +63,7 @@ The schema that describes this element is located in the EWS virtual directory o
    
 ## See also
 
-#### Concepts
+
 
 [EWS XML elements in Exchange](ews-xml-elements-in-exchange.md)
 

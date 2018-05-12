@@ -34,11 +34,11 @@ The **RecurringDateTransition** element represents a time zone transition that o
 
 The following sections describe attributes, child elements, and parent elements.
   
-#### Attributes
+### Attributes
 
 None.
   
-#### Child elements
+### Child elements
 
 |**Element**|**Description**|
 |:-----|:-----|
@@ -47,7 +47,7 @@ None.
 |[Month (Time Zone Transition)](month-time-zone-transition.md) <br/> |Represents the month in which the time zone transition occurs.  <br/> |
 |[Day](day.md) <br/> |Represents the day of the month on which the time zone transition occurs.  <br/> |
    
-#### Parent elements
+### Parent elements
 
 |**Element**|**Description**|
 |:-----|:-----|
@@ -71,7 +71,7 @@ The schema that describes this element is located in the EWS virtual directory o
    
 ## See also
 
-#### Concepts
+
 
 [EWS XML elements in Exchange](ews-xml-elements-in-exchange.md)
 

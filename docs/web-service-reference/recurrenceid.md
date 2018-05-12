@@ -29,15 +29,15 @@ The **RecurrenceId** element is used to identify a specific instance of a recurr
 
 The following sections describe attributes, child elements, and parent elements.
   
-#### Attributes
+### Attributes
 
 None.
   
-#### Child elements
+### Child elements
 
 None.
   
-#### Parent elements
+### Parent elements
 
 |**Element**|**Description**|
 |:-----|:-----|
@@ -66,7 +66,7 @@ This property is used with the [UID](uid.md) property to identify a specific ins
    
 ## See also
 
-#### Concepts
+
 
 [EWS XML elements in Exchange](ews-xml-elements-in-exchange.md)
 

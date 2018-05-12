@@ -28,15 +28,15 @@ The **AddDistributionGroupToImList** element defines a request to add a distribu
 
 The following sections describe attributes, child elements, and parent elements.
   
-#### Attributes
+### Attributes
 
 None.
   
-#### Child elements
+### Child elements
 
 [SmtpAddress](smtpaddress.md) | [DisplayName (NonEmptyStringType)](displayname-nonemptystringtype.md)
   
-#### Parent elements
+### Parent elements
 
 None.
   

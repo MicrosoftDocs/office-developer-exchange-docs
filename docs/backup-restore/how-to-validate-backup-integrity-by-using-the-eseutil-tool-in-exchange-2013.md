@@ -1,5 +1,5 @@
 ---
-title: "How to Validate backup integrity by using the Eseutil tool in Exchange 2013"
+title: "Validate backup integrity by using the Eseutil tool in Exchange 2013"
  
  
 manager: sethgros
@@ -12,13 +12,11 @@ ms.assetid: b0d325ba-4482-4ca2-9a69-c890f985b206
 description: "Find out how to use the Eseutil command-line tool to validate a backup of the Exchange store."
 ---
 
-# How to: Validate backup integrity by using the Eseutil tool in Exchange 2013
+#  Validate backup integrity by using the Eseutil tool in Exchange 2013
 
-Find out how to use the Eseutil command-line tool to validate a backup of the Exchange store.
+Find out how to use the Eseutil command-line tool to validate a backup of the Exchange store. 
   
- **Last modified:** September 17, 2015 
-  
- * **Applies to:** Exchange Server 2013 * 
+**Applies to:** Exchange Server 2013 
   
 Because the Volume Shadow Copy Service (VSS) can create backups while Exchange continues to write to the database, the server does not touch all the pages and perform the necessary consistency checks. For this reason, any backup and restore application that uses VSS must verify snapshot consistency. Exchange Server 2013 supports the following two methods for checking snapshot consistency: 
   
@@ -26,7 +24,7 @@ Because the Volume Shadow Copy Service (VSS) can create backups while Exchange c
     
 - The Eseutil command-line tool
     
-We recommend that you use the CHKSGFILES API because it is easier for the backup application to detect, diagnose, and report errors that are found during the CHKSGFILES consistency check. For information about how to use the CHKSGFILES API, see [How to: Validate backup integrity by using the CHKSGFILES API in Exchange 2013](how-to-validate-backup-integrity-by-using-the-chksgfiles-api-in-exchange-2013.md).
+We recommend that you use the CHKSGFILES API because it is easier for the backup application to detect, diagnose, and report errors that are found during the CHKSGFILES consistency check. For information about how to use the CHKSGFILES API, see [Validate backup integrity by using the CHKSGFILES API in Exchange 2013](how-to-validate-backup-integrity-by-using-the-chksgfiles-api-in-exchange-2013.md).
   
 ## Running the Eseutil tool
 
@@ -63,9 +61,9 @@ The requester must verify that all the exit ERRORLEVEL error values that are ret
   
 Before the requester calls the **BackupComplete** method, it must make sure that the status of the backup component reflects the result of the consistency check. If any corruption was found, the status will be FALSE; if no corruption was found, the status will be TRUE. 
   
-## Additional resources
+## See also
 
-- [How to: Validate backup integrity by using the CHKSGFILES API in Exchange 2013](how-to-validate-backup-integrity-by-using-the-chksgfiles-api-in-exchange-2013.md)
+- [Validate backup integrity by using the CHKSGFILES API in Exchange 2013](how-to-validate-backup-integrity-by-using-the-chksgfiles-api-in-exchange-2013.md)
     
 - [Build backup and restore applications for Exchange 2013](build-backup-and-restore-applications-for-exchange-2013.md)
     

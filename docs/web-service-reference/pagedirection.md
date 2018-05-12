@@ -25,15 +25,15 @@ The **PageDirection** element contains the direction for pagination in the searc
 
 The following sections describe attributes, child elements, and parent elements.
   
-#### Attributes
+### Attributes
 
 None.
   
-#### Child elements
+### Child elements
 
 None.
   
-#### Parent elements
+### Parent elements
 
 [SearchMailboxes](searchmailboxes.md) | [GetNonIndexableItemDetails](getnonindexableitemdetails.md)
   

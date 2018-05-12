@@ -40,7 +40,7 @@ For nonrecurring tasks or for the last occurrence of a recurring task, the Updat
   
 ## See also
 
-#### Reference
+
 
 [UpdateItem operation](updateitem-operation.md)
 

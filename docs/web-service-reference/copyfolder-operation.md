@@ -197,10 +197,10 @@ To find other options for the error response message of the CopyFolder operation
   
 ## See also
 
-#### Reference
+
 
 [MoveFolder operation](movefolder-operation.md)
-#### Concepts
+
 
 [EWS XML elements in Exchange](ews-xml-elements-in-exchange.md)
 

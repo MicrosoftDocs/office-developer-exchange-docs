@@ -28,15 +28,15 @@ The **ArchiveItem** element contains the source folder Id and an array of item I
 
 The following sections describe attributes, child elements, and parent elements.
   
-#### Attributes
+### Attributes
 
 None.
   
-#### Child elements
+### Child elements
 
 [ArchiveSourceFolderId](archivesourcefolderid.md) | [ItemIds](itemids.md)
   
-#### Parent elements
+### Parent elements
 
 None.
   

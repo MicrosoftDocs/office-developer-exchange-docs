@@ -27,15 +27,15 @@ The **GetHoldOnMailboxes** element contains the request to get the hold status f
 
 The following sections describe attributes, child elements, and parent elements.
   
-#### Attributes
+### Attributes
 
 None.
   
-#### Child elements
+### Child elements
 
 [HoldId](holdid.md)
   
-#### Parent elements
+### Parent elements
 
 None.
   

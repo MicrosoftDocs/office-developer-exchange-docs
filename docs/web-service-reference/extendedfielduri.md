@@ -29,7 +29,7 @@ The **ExtendedFieldURI** element identifies an extended MAPI property.
 
 The following sections describe attributes, child elements, and parent elements.
   
-#### Attributes
+### Attributes
 
 |**Attribute**|**Description**|
 |:-----|:-----|
@@ -85,11 +85,11 @@ The following sections describe attributes, child elements, and parent elements.
 |String  <br/> |A Unicode string.  <br/> |
 |StringArray  <br/> |An array of Unicode strings.  <br/> |
    
-#### Child elements
+### Child elements
 
 None.
   
-#### Parent elements
+### Parent elements
 
 |**Element**|**Description**|
 |:-----|:-----|
@@ -177,12 +177,12 @@ The following example of a request creates an item that has two custom propertie
    
 ## See also
 
-#### Reference
+
 
 [FieldURI](fielduri.md)
   
 [IndexedFieldURI](indexedfielduri.md)
-#### Concepts
+
 
 [EWS XML elements in Exchange](ews-xml-elements-in-exchange.md)
 

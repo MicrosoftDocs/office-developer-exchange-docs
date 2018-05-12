@@ -25,15 +25,15 @@ The **SearchQuery** element specifies the discovery search query.
 
 The following sections describe attributes, child elements, and parent elements.
   
-#### Attributes
+### Attributes
 
 None.
   
-#### Child elements
+### Child elements
 
 None.
   
-#### Parent elements
+### Parent elements
 
 [DiscoverySearchConfiguration](discoverysearchconfiguration.md)
   

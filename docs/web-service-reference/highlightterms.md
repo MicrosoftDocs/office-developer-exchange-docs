@@ -27,15 +27,15 @@ The **HighlightTerms** element identifies the highlighted terms returned in a **
 
 The following sections describe attributes, child elements, and parent elements.
   
-#### Attributes
+### Attributes
 
 None.
   
-#### Child elements
+### Child elements
 
 Term
   
-#### Parent elements
+### Parent elements
 
 [FindConversationResponse](findconversationresponse.md) | [FindItemResponseMessage](finditemresponsemessage.md)
   

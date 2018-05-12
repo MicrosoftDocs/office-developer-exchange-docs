@@ -32,18 +32,18 @@ The **WithinDateRange** element specifies the date range within which incoming m
 
 The following sections describe attributes, child elements, and parent elements.
   
-#### Attributes
+### Attributes
 
 None.
   
-#### Child elements
+### Child elements
 
 |**Element**|**Description**|
 |:-----|:-----|
 |[StartDateTime](startdatetime.md) <br/> |Specifies the rule time period and indicates that the rule condition is met after this value.  <br/> |
 |[EndDateTime](enddatetime.md) <br/> |Specifies the rule time period and indicates that the rule condition is met before this value.  <br/> |
    
-#### Parent elements
+### Parent elements
 
 |**Element**|**Description**|
 |:-----|:-----|
@@ -69,7 +69,7 @@ The schema that describes this element is located in the IIS virtual directory t
    
 ## See also
 
-#### Concepts
+
 
 [EWS XML elements in Exchange](ews-xml-elements-in-exchange.md)
 

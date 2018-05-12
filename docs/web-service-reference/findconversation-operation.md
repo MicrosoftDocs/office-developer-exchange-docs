@@ -260,15 +260,15 @@ The following elements are used in the error response:
     
 ## See also
 
-#### Reference
+
 
 [ApplyConversationAction operation](applyconversationaction-operation.md)
-#### Concepts
+
 
 [EWS operations in Exchange](ews-operations-in-exchange.md)
   
 [EWS XML elements in Exchange](ews-xml-elements-in-exchange.md)
-#### Other resources
+
 
 [Conversations in EWS](http://msdn.microsoft.com/library/91e64629-db6c-4c94-9dcb-d386232e8467%28Office.15%29.aspx)
 

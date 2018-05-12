@@ -29,15 +29,15 @@ The **AddNewImContactToGroup** element defines a request to add a new instant me
 
 The following sections describe attributes, child elements, and parent elements.
   
-#### Attributes
+### Attributes
 
 None.
   
-#### Child elements
+### Child elements
 
 [ImAddress (NonEmptyStringType)](imaddress-nonemptystringtype.md) | [DisplayName (NonEmptyStringType)](displayname-nonemptystringtype.md) | [GroupId](groupid.md)
   
-#### Parent elements
+### Parent elements
 
 None.
   

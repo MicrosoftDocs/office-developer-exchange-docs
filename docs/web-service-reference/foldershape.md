@@ -32,18 +32,18 @@ The **FolderShape** element identifies the folder properties to include in a [Ge
 
 The following sections describe attributes, child elements, and parent elements.
   
-#### Attributes
+### Attributes
 
 None.
   
-#### Child elements
+### Child elements
 
 |**Element**|**Description**|
 |:-----|:-----|
 |[BaseShape](baseshape.md) <br/> |Identifies the basic configuration of properties to return in a response.  <br/> |
 |[AdditionalProperties](additionalproperties.md) <br/> |Identifies additional properties to return in a response.  <br/> |
    
-#### Parent elements
+### Parent elements
 
 |**Element**|**Description**|
 |:-----|:-----|
@@ -89,7 +89,7 @@ The following example of a request demonstrates how to find all folders located 
    
 ## See also
 
-#### Reference
+
 
 [FindFolder](findfolder.md)
 

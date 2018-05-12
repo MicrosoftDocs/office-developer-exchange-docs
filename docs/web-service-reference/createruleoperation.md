@@ -35,17 +35,17 @@ The **CreateRuleOperation** element represents an operation to create a new Inbo
 
 The following sections describe attributes, child elements, and parent elements.
   
-#### Attributes
+### Attributes
 
 None.
   
-#### Child elements
+### Child elements
 
 |**Element**|**Description**|
 |:-----|:-----|
 |[Rule (RuleType)](rule-ruletype.md) <br/> |Represents a rule to be created in a user's mailbox.  <br/> |
    
-#### Parent elements
+### Parent elements
 
 |**Element**|**Description**|
 |:-----|:-----|
@@ -70,14 +70,14 @@ The schema that describes this element is located in the IIS virtual directory t
    
 ## See also
 
-#### Reference
+
 
 [UpdateInboxRules](updateinboxrules.md)
   
 [SetRuleOperation](setruleoperation.md)
   
 [DeleteRuleOperation](deleteruleoperation.md)
-#### Concepts
+
 
 [EWS XML elements in Exchange](ews-xml-elements-in-exchange.md)
 

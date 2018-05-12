@@ -28,15 +28,15 @@ The **Value** element specifies the value of a **BodyContentAttributedValue** el
 
 The following sections describe attributes, child elements, and parent elements.
   
-#### Attributes
+### Attributes
 
 None.
   
-#### Child elements
+### Child elements
 
 [Value](value.md) | [BodyType](bodytype.md)
   
-#### Parent elements
+### Parent elements
 
 [BodyContentAttributedValue](bodycontentattributedvalue.md)
   

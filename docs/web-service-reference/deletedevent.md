@@ -34,11 +34,11 @@ The **DeletedEvent** element represents an event in which an item or folder is d
 
 The following sections describe attributes, child elements, and parent elements.
   
-#### Attributes
+### Attributes
 
 None.
   
-#### Child elements
+### Child elements
 
 |**Element**|**Description**|
 |:-----|:-----|
@@ -48,7 +48,7 @@ None.
 |[ItemId](itemid.md) <br/> |Represents the identifier of the deleted item.  <br/> |
 |[ParentFolderId](parentfolderid.md) <br/> |Represents the identifier of the parent folder of the deleted item or folder before deletion.  <br/> |
    
-#### Parent elements
+### Parent elements
 
 |**Element**|**Description**|
 |:-----|:-----|
@@ -69,7 +69,7 @@ The schema that describes this element is located in the EWS virtual directory o
    
 ## See also
 
-#### Reference
+
 
 [Subscribe operation](subscribe-operation.md)
   

@@ -28,17 +28,17 @@ The **SortBy** element contains an item property used for sorting the search res
 
 The following sections describe attributes, child elements, and parent elements.
   
-#### Attributes
+### Attributes
 
 |**Attribute**|**Description**|
 |:-----|:-----|
 |Order  <br/> |The text value of the **Order** attribute is the sort order. A text value of **Ascending** indicates that the results are in ascending order. A text value of **Descending** indicates that the results are in descending order.  <br/> |
    
-#### Child elements
+### Child elements
 
 [FieldURI](fielduri.md) | [IndexedFieldURI](indexedfielduri.md)
   
-#### Parent elements
+### Parent elements
 
 [SearchMailboxes](searchmailboxes.md)
   

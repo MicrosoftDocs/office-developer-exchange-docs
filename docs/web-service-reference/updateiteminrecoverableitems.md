@@ -30,15 +30,15 @@ The **UpdateItemInRecoverableItems** element specifies a request to update an it
 
 The following sections describe attributes, child elements, and parent elements.
   
-#### Attributes
+### Attributes
 
 None.
   
-#### Child elements
+### Child elements
 
 [ItemId](itemid.md) | [Updates (Item)](updates-item.md) | [Attachments](attachments-ex15websvcsotherref.md) | [MakeItemImmutable](makeitemimmutable.md)
   
-#### Parent elements
+### Parent elements
 
 None.
   

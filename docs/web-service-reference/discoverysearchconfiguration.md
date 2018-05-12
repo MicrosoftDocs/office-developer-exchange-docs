@@ -29,11 +29,11 @@ The **DiscoverySearchConfiguration** element specifies the configuration for eDi
 
 The following sections describe attributes, child elements, and parent elements.
   
-#### Attributes
+### Attributes
 
 None.
   
-#### Child elements
+### Child elements
 
 |**Element**|**Description**|
 |:-----|:-----|
@@ -41,7 +41,7 @@ None.
 |[SearchQuery](searchquery.md) <br/> |Specifies the name of an eDiscovery search query.  <br/> |
 |[SearchableMailboxes](searchablemailboxes.md) <br/> |Contains a list of the mailboxes returned from a **GetSearchableMailboxes** request.  <br/> |
    
-#### Parent elements
+### Parent elements
 
 |**Element**|**Description**|
 |:-----|:-----|
@@ -64,7 +64,7 @@ The schema that describes this element is located in the IIS virtual directory t
    
 ## See also
 
-#### Concepts
+
 
 [EWS XML elements in Exchange](ews-xml-elements-in-exchange.md)
 

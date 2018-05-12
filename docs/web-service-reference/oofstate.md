@@ -29,15 +29,15 @@ The **OofState** element is used to get or set the user's Out of Office (OOF) st
 
 The following sections describe attributes, child elements, and parent elements.
   
-#### Attributes
+### Attributes
 
 None.
   
-#### Child elements
+### Child elements
 
 None.
   
-#### Parent elements
+### Parent elements
 
 |**Element**|**Description**|
 |:-----|:-----|
@@ -106,7 +106,7 @@ The following example of a SetUserOofSettings request enables the **OofState**.
    
 ## See also
 
-#### Reference
+
 
 [GetUserOofSettings operation](getuseroofsettings-operation.md)
   

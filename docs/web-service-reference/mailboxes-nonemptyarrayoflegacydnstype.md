@@ -27,15 +27,15 @@ The **Mailboxes** element specifies an array of mailboxes identified by legacy d
 
 The following sections describe attributes, child elements, and parent elements.
   
-#### Attributes
+### Attributes
 
 None.
   
-#### Child elements
+### Child elements
 
 [LegacyDN](legacydn.md)
   
-#### Parent elements
+### Parent elements
 
 [GetNonIndexableItemStatistics](getnonindexableitemstatistics.md)
   

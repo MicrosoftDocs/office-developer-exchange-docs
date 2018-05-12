@@ -28,18 +28,18 @@ The **GlobalParentFolderIds** element specifies the identifiers of the global pa
 
 The following sections describe attributes, child elements, and parent elements.
   
-#### Attributes
+### Attributes
 
 None.
   
-#### Child elements
+### Child elements
 
 |**Element**|**Description**|
 |:-----|:-----|
 |[FolderId](folderid.md) <br/> |Contains the identifier and change key of a folder.  <br/> |
 |[DistinguishedFolderId](distinguishedfolderid.md) <br/> |Identifies folders that can be referenced by name.  <br/> |
    
-#### Parent elements
+### Parent elements
 
 |**Element**|**Description**|
 |:-----|:-----|
@@ -62,7 +62,7 @@ The schema that describes this element is located in the IIS virtual directory t
    
 ## See also
 
-#### Concepts
+
 
 [EWS XML elements in Exchange](ews-xml-elements-in-exchange.md)
 

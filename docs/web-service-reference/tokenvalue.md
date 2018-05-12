@@ -25,15 +25,15 @@ The **TokenValue** element specifies the encoded client access token.
 
 The following sections describe attributes, child elements, and parent elements.
   
-#### Attributes
+### Attributes
 
 None.
   
-#### Child elements
+### Child elements
 
 None.
   
-#### Parent elements
+### Parent elements
 
 [Token (ClientAccessTokenType)](token-clientaccesstokentype.md)
   

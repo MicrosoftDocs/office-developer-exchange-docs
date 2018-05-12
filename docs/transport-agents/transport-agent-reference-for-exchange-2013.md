@@ -1,7 +1,5 @@
 ---
 title: "Transport agent reference for Exchange 2013"
- 
- 
 manager: sethgros
 ms.date: 9/17/2015
 ms.audience: Developer
@@ -16,9 +14,7 @@ description: "Find reference information for transport agents in Exchange 2013."
 
 Find reference information for transport agents in Exchange 2013.
   
- **Last modified:** September 17, 2015 
-  
- * **Applies to:** Exchange Server 2013 * 
+**Applies to:** Exchange Server 2013 
   
 This section provides reference information for transport agents and content converters. Use this information to help you build transport agent applications for Exchange Server 2013.
   
@@ -30,9 +26,6 @@ This section provides reference information for transport agents and content con
     
 ## See also
 
-#### Concepts
-
-[Transport agents in Exchange 2013](transport-agents-in-exchange-2013.md)
-  
-[Transport agent concepts in Exchange 2013](transport-agent-concepts-in-exchange-2013.md)
+- [Transport agents in Exchange 2013](transport-agents-in-exchange-2013.md)
+- [Transport agent concepts in Exchange 2013](transport-agent-concepts-in-exchange-2013.md)
 

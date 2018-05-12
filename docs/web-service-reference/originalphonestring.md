@@ -25,15 +25,15 @@ The **OriginalPhoneString** element specifies the original phone number for a co
 
 The following sections describe attributes, child elements, and parent elements.
   
-#### Attributes
+### Attributes
 
 None.
   
-#### Child elements
+### Child elements
 
 None.
   
-#### Parent elements
+### Parent elements
 
 [Phone](phone.md) | [Phone (PhoneEntityType)](phone-phoneentitytype.md)
   

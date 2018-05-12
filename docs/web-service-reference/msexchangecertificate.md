@@ -25,17 +25,17 @@ The **MSExchangeCertificate** element contains a value that encodes the Microsof
 
 The following sections describe attributes, child elements, and parent elements.
   
-#### Attributes
+### Attributes
 
 None.
   
-#### Child elements
+### Child elements
 
 |**Element name**|**Description**|
 |:-----|:-----|
 |[Base64Binary](base64binary.md) <br/> |Contains a Base64-encoded value.  <br/> |
    
-#### Parent elements
+### Parent elements
 
 |**Element name**|**Description**|
 |:-----|:-----|
@@ -62,10 +62,10 @@ This element was introduced in Exchange Server 2010 Service Pack 2 (SP2).
    
 ## See also
 
-#### Concepts
+
 
 [EWS XML elements in Exchange](ews-xml-elements-in-exchange.md)
-#### Other resources
+
 
 [Creating Contacts (Exchange Web Services)](http://msdn.microsoft.com/library/4845917e-70d1-481c-bbd7-011ec6571789%28Office.15%29.aspx)
 

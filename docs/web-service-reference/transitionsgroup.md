@@ -33,13 +33,13 @@ The **TransitionsGroup** element represents an array of time zone transitions.
 
 The following sections describe attributes, child elements, and parent elements.
   
-#### Attributes
+### Attributes
 
 |**Attribute**|**Description**|
 |:-----|:-----|
 |Id  <br/> |A string value that represents the unique identifier of the transitions group.  <br/> |
    
-#### Child elements
+### Child elements
 
 |**Element**|**Description**|
 |:-----|:-----|
@@ -47,7 +47,7 @@ The following sections describe attributes, child elements, and parent elements.
 |[RecurringDayTransition](recurringdaytransition.md) <br/> |Represents a time zone transition that occurs on the same day each year.  <br/> |
 |[RecurringDateTransition](recurringdatetransition.md) <br/> |Represents a time zone transition that occurs on a specified day of the year.  <br/> |
    
-#### Parent elements
+### Parent elements
 
 |**Element**|**Description**|
 |:-----|:-----|
@@ -68,7 +68,7 @@ The schema that describes this element is located in the EWS virtual directory o
    
 ## See also
 
-#### Concepts
+
 
 [EWS XML elements in Exchange](ews-xml-elements-in-exchange.md)
 

@@ -1,22 +1,18 @@
 ---
-title: "How to Set the EWS service URL by using the EWS Managed API"
- 
- 
+title: "Set the EWS service URL by using the EWS Managed API"
 manager: sethgros
 ms.date: 9/17/2015
 ms.audience: Developer
- 
- 
 localization_priority: Normal
 ms.assetid: cddf6525-1c04-484b-a911-56c2f0f1f7b6
 description: "Find information about how to set the EWS service URL in your EWS Managed API application."
 ---
 
-# How to: Set the EWS service URL by using the EWS Managed API
+# Set the EWS service URL by using the EWS Managed API
 
 Find information about how to set the EWS service URL in your EWS Managed API application.
   
-The service URL is the address that Exchange uses to communicate with Exchange Web Services (EWS). After your EWS Managed API application has this address, and has appropriate access to [communicate with EWS](how-to-communicate-with-ews-by-using-the-ews-managed-api.md), it can make calls to the [ExchangeService class](http://msdn.microsoft.com/en-us/library/ microsoft.exchange.webservices.data.exchangeservice%28v=exchg.80%29.aspx). The service URL for an on-premises Exchange server might look like the following. 
+The service URL is the address that Exchange uses to communicate with Exchange Web Services (EWS). After your EWS Managed API application has this address, and has appropriate access to [communicate with EWS](how-to-communicate-with-ews-by-using-the-ews-managed-api.md), it can make calls to the [ExchangeService class](http://msdn.microsoft.com/en-us/library/microsoft.exchange.webservices.data.exchangeservice%28v=exchg.80%29.aspx). The service URL for an on-premises Exchange server might look like the following. 
   
 ```HTML
 https://computer.domain.contoso.com/EWS/Exchange.asmx
@@ -54,17 +50,12 @@ service.Url = new Uri("https://computername.domain.contoso.com/EWS/Exchange.asmx
 
 ```
 
-## Additional resources
-<a name="bk_addresources"> </a>
+## See also
 
-- [Get started with EWS Managed API client applications](get-started-with-ews-managed-api-client-applications.md)
-    
-- [Setting up your Exchange application development environment](setting-up-your-exchange-application-development-environment.md)
-    
-- [How to: Control access to EWS in Exchange](how-to-control-access-to-ews-in-exchange.md)
-    
-- [How to: Communicate with EWS by using the EWS Managed API](how-to-communicate-with-ews-by-using-the-ews-managed-api.md)
-    
-- [How to: Use Autodiscover to find connection points](how-to-use-autodiscover-to-find-connection-points.md)
+- [Get started with EWS Managed API client applications](get-started-with-ews-managed-api-client-applications.md)   
+- [Setting up your Exchange application development environment](setting-up-your-exchange-application-development-environment.md)   
+- [Control access to EWS in Exchange](how-to-control-access-to-ews-in-exchange.md) 
+- [Communicate with EWS by using the EWS Managed API](how-to-communicate-with-ews-by-using-the-ews-managed-api.md)  
+- [Use Autodiscover to find connection points](how-to-use-autodiscover-to-find-connection-points.md)
     
 

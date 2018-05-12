@@ -31,11 +31,11 @@ The **EmailAddress** element specifies the fully resolved SMTP address for the s
 
 The following sections describe attributes, child elements, and parent elements.
   
-#### Attributes
+### Attributes
 
 None.
   
-#### Child elements
+### Child elements
 
 |**Element**|**Description**|
 |:-----|:-----|
@@ -45,7 +45,7 @@ None.
 |[MailboxType](mailboxtype.md) <br/> |Represents the type of mailbox that is represented by the e-mail address.  <br/> |
 |[ItemId](itemid.md) <br/> |Contains the unique identifier and change key of an item in the Exchange store.  <br/> |
    
-#### Parent elements
+### Parent elements
 
 |**Element**|**Description**|
 |:-----|:-----|
@@ -72,7 +72,7 @@ The **EmailAddress** element is applicable for clients that target Exchange Onli
    
 ## See also
 
-#### Concepts
+
 
 [EWS XML elements in Exchange](ews-xml-elements-in-exchange.md)
 

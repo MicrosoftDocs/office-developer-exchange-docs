@@ -27,17 +27,17 @@ The **GetDomainSettingsRequestMessage** element represents a [GetDomainSettings 
 
 The following sections describe attributes, child elements, and parent elements.
   
-#### Attributes
+### Attributes
 
 None.
   
-#### Child elements
+### Child elements
 
 |**Element**|**Description**|
 |:-----|:-----|
 |[Request (GetDomainSettings) (SOAP)](request-getdomainsettingssoap.md) <br/> |Contains a request to return domain settings.  <br/> |
    
-#### Parent elements
+### Parent elements
 
 None.
   
@@ -56,7 +56,7 @@ None.
    
 ## See also
 
-#### Reference
+
 
 [GetDomainSettings operation (SOAP)](getdomainsettings-operation-soap.md)
 

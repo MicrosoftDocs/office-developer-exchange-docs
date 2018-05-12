@@ -31,11 +31,11 @@ The **Folders** element contains an array of folders that are used in folder ope
 
 The following sections describe attributes, child elements, and parent elements.
   
-#### Attributes
+### Attributes
 
 None.
   
-#### Child elements
+### Child elements
 
 |**Element**|**Description**|
 |:-----|:-----|
@@ -45,7 +45,7 @@ None.
 |[SearchFolder](searchfolder.md) <br/> |Represents a Search folder contained in a mailbox.  <br/> |
 |[TasksFolder](tasksfolder.md) <br/> |Represents a Tasks folder in a mailbox.  <br/> |
    
-#### Parent elements
+### Parent elements
 
 |**Element**|**Description**|
 |:-----|:-----|
@@ -76,7 +76,7 @@ The schema that describes this element is located in the EWS virtual directory o
    
 ## See also
 
-#### Reference
+
 
 [ParentFolderId (TargetFolderIdType)](parentfolderid-targetfolderidtype.md)
 

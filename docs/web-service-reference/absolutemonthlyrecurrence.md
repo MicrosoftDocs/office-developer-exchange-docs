@@ -20,7 +20,7 @@ description: "The AbsoluteMonthlyRecurrence element represents a monthly recurre
 
 The **AbsoluteMonthlyRecurrence** element represents a monthly recurrence pattern. 
   
-```
+```xml
 <AbsoluteMonthlyRecurrence>
    <Interval/>
    <DayOfMonth/>
@@ -32,18 +32,18 @@ The **AbsoluteMonthlyRecurrence** element represents a monthly recurrence patter
 
 The following sections describe attributes, child elements, and parent elements.
   
-#### Attributes
+### Attributes
 
 None.
   
-#### Child elements
+### Child elements
 
 |**Element**|**Description**|
 |:-----|:-----|
 |[DayOfMonth](dayofmonth.md) <br/> |Describes the day in a month that a recurring item occurs. The range of values for this property is 1 to 31. If for a particular month this value is larger than the number of days in the month, the last day of the month is assumed for this property.  <br/> |
 |[Interval](interval.md) <br/> |Defines the interval between two consecutive recurring items. For example, if the **Interval** element has a value of 5, the recurring item occurs every 5 months. The range of valid values is from 1 to 99.  <br/> |
    
-#### Parent elements
+### Parent elements
 
 |**Element**|**Description**|
 |:-----|:-----|
@@ -65,7 +65,7 @@ The schema that describes this element is located in the EWS virtual directory o
    
 ## See also
 
-#### Concepts
+
 
 [EWS XML elements in Exchange](ews-xml-elements-in-exchange.md)
 

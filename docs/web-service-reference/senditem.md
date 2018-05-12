@@ -32,7 +32,7 @@ The **SendItem** element is the root element in a request to send an item in the
 
 The following sections describe attributes, child elements, and parent elements.
   
-#### Attributes
+### Attributes
 
 |**Attribute**|**Description**|
 |:-----|:-----|
@@ -45,14 +45,14 @@ The following sections describe attributes, child elements, and parent elements.
 |**true** <br/> |If the [SavedItemFolderId](saveditemfolderid.md) element is not present, the item is saved in the Sent Items folder. If the [SavedItemFolderId](saveditemfolderid.md) element is present, the item is saved in the folder that is specified by the [SavedItemFolderId](saveditemfolderid.md) element.  <br/> |
 |**false** <br/> |If the [SavedItemFolderId](saveditemfolderid.md) element is not present, the item is not saved. If the [SavedItemFolderId](saveditemfolderid.md) element is present, an error response will be returned with a [ResponseCode](responsecode.md) element that contains the **ErrorInvalidSendItemSaveSettings** value.  <br/> |
    
-#### Child elements
+### Child elements
 
 |**Element**|**Description**|
 |:-----|:-----|
 |[ItemIds](itemids.md) <br/> |Contains the unique identities of items, occurrence items, and recurring master items that are used to delete, send, get, move, or copy items in the Exchange store.  <br/> |
 |[SavedItemFolderId](saveditemfolderid.md) <br/> |Identifies the target folder for operations that update, send, and create items in the Exchange store.  <br/> |
    
-#### Parent elements
+### Parent elements
 
 None.
   
@@ -73,7 +73,7 @@ The schema that describes this element is located in the EWS virtual directory o
    
 ## See also
 
-#### Reference
+
 
 [SendItem operation](senditem-operation.md)
 

@@ -30,15 +30,15 @@ The **IsUMEnabledResponse** element defines a response to an [IsUMEnabled operat
 
 The following sections describe attributes, child elements, and parent elements.
   
-#### Attributes
+### Attributes
 
 None.
   
-#### Child elements
+### Child elements
 
 None.
   
-#### Parent elements
+### Parent elements
 
 None.
   
@@ -61,7 +61,7 @@ A Boolean text value is required. The following are the possible values:
    
 ## See also
 
-#### Reference
+
 
 [IsUMEnabled operation (UM web service)](isumenabled-operation-um-web-service.md)
 

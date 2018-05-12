@@ -258,8 +258,8 @@ In addition, depending on what you're trying to accomplish in your request, you 
     
 - [Handling deletion-related errors in EWS in Exchange](handling-deletion-related-errors-in-ews-in-exchange.md)
     
-## Additional resources
-<a name="bk_addresources"> </a>
+## See also
+
 
 - [Develop web service clients for Exchange](develop-web-service-clients-for-exchange.md)
     

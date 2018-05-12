@@ -46,11 +46,11 @@ The **Suggestion** element represents a single meeting suggestion.
 
 The following sections describe attributes, child elements, and parent elements.
   
-#### Attributes
+### Attributes
 
 None.
   
-#### Child elements
+### Child elements
 
 |**Element**|**Description**|
 |:-----|:-----|
@@ -59,7 +59,7 @@ None.
 |[SuggestionQuality](suggestionquality.md) <br/> |Represents the quality of the suggested meeting time.  <br/> |
 |[AttendeeConflictDataArray](attendeeconflictdataarray.md) <br/> |Contains an array of information that describes conflicts between users and resources and the suggested meeting time.  <br/> |
    
-#### Parent elements
+### Parent elements
 
 |**Element**|**Description**|
 |:-----|:-----|
@@ -80,12 +80,12 @@ The schema that describes this element is located in the EWS virtual directory o
    
 ## See also
 
-#### Reference
+
 
 [GetUserAvailability operation](getuseravailability-operation.md)
   
 [GetUserAvailabilityResponse](getuseravailabilityresponse.md)
-#### Other resources
+
 
 [Getting User Availability](http://msdn.microsoft.com/library/d4133fcb-9b0f-4e6b-aadf-a389da83516a%28Office.15%29.aspx)
 

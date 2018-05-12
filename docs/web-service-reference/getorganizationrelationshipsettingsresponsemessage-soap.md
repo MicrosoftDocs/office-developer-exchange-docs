@@ -25,17 +25,17 @@ The **GetOrganizationRelationshipSettingsResponseMessage** element defines a res
 
 The following sections describe attributes, child elements, and parent elements.
   
-#### Attributes
+### Attributes
 
 None.
   
-#### Child elements
+### Child elements
 
 |**Element**|**Description**|
 |:-----|:-----|
 |[Response (GetOrganizationRelationship) (SOAP)](response-getorganizationrelationshipsoap.md) <br/> |Contains the [GetOrganizationRelationshipSettings operation (SOAP)](getorganizationrelationshipsettings-operation-soap.md) response information.  <br/> |
    
-#### Parent elements
+### Parent elements
 
 None.
   
@@ -50,7 +50,7 @@ None.
    
 ## See also
 
-#### Reference
+
 
 [GetOrganizationRelationshipSettings operation (SOAP)](getorganizationrelationshipsettings-operation-soap.md)
 

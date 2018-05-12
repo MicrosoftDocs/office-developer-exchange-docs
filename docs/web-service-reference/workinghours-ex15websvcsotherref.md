@@ -42,18 +42,18 @@ The **WorkingHours** element represents the time zone settings and working hours
 
 The following sections describe attributes, child elements, and parent elements.
   
-#### Attributes
+### Attributes
 
 None.
   
-#### Child elements
+### Child elements
 
 |**Element**|**Description**|
 |:-----|:-----|
 |[TimeZone (Availability)](timezone-availability.md) <br/> |Contains elements that identify time zone information. This element also contains information about the transition between standard time and daylight saving time. This element is required if the **WorkingHours** element is used.  <br/> |
 |[WorkingPeriodArray](workingperiodarray.md) <br/> |Contains working period information for the mailbox user. This element is required if the **WorkingHours** element is used.  <br/> |
    
-#### Parent elements
+### Parent elements
 
 |**Element**|**Description**|
 |:-----|:-----|
@@ -76,12 +76,12 @@ The schema that describes this element is located in the EWS virtual directory o
    
 ## See also
 
-#### Reference
+
 
 [GetUserAvailability operation](getuseravailability-operation.md)
   
 [GetUserAvailabilityResponse](getuseravailabilityresponse.md)
-#### Other resources
+
 
 [Getting User Availability](http://msdn.microsoft.com/library/d4133fcb-9b0f-4e6b-aadf-a389da83516a%28Office.15%29.aspx)
 

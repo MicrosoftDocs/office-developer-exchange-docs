@@ -33,18 +33,18 @@ The **ParentItemId** element identifies the parent item that links to an associa
 
 The following sections describe attributes, child elements, and parent elements.
   
-#### Attributes
+### Attributes
 
 |**Attribute**|**Description**|
 |:-----|:-----|
 |**Id** <br/> |Identifies a single item in the Exchange store to associate with an attachment. This value is a string. This attribute is required.  <br/> |
 |**ChangeKey** <br/> |Identifies an unspecified version of an item that is identified by the **Id** attribute in the Exchange store. This is used to make sure that a current item is used when it is updated with an attachment. This value is a string. This attribute is optional.  <br/> |
    
-#### Child elements
+### Child elements
 
 None.
   
-#### Parent elements
+### Parent elements
 
 |**Element**|**Description**|
 |:-----|:-----|
@@ -67,7 +67,7 @@ The schema that describes this element is located in the EWS virtual directory o
    
 ## See also
 
-#### Reference
+
 
 [CreateAttachment operation](createattachment-operation.md)
 

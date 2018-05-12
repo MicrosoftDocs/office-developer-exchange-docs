@@ -35,11 +35,11 @@ The **PurportedSender** element contains contact information for the alleged sen
 
 The following sections describe attributes, child elements, and parent elements.
   
-#### Attributes
+### Attributes
 
 None.
   
-#### Child elements
+### Child elements
 
 |**Element**|**Description**|
 |:-----|:-----|
@@ -49,7 +49,7 @@ None.
 |[MailboxType](mailboxtype.md) <br/> |Represents the type of mailbox that is represented by the e-mail address.. This element is optional.  <br/> |
 |[ItemId](itemid.md) <br/> |Defines the item identifier of a contact or private distribution list for recipients from a user's contacts folder. This element is optional.  <br/> |
    
-#### Parent elements
+### Parent elements
 
 |**Element**|**Description**|
 |:-----|:-----|
@@ -76,10 +76,10 @@ The schema that describes this element is located in the IIS virtual directory t
    
 ## See also
 
-#### Reference
+
 
 [GetMessageTrackingReport operation](getmessagetrackingreport-operation.md)
-#### Concepts
+
 
 [EWS XML elements in Exchange](ews-xml-elements-in-exchange.md)
 

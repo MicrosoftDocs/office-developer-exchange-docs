@@ -271,10 +271,10 @@ To find other options for the response message of the ExpandDL operation, explor
   
 ## See also
 
-#### Reference
+
 
 [ResolveNames operation](resolvenames-operation.md)
-#### Concepts
+
 
 [EWS XML elements in Exchange](ews-xml-elements-in-exchange.md)
 

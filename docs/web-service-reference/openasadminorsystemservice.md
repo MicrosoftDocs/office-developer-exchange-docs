@@ -31,19 +31,19 @@ The **OpenAsAdminOrSystemService** element is for internal use only. This elemen
 
 The following sections describe attributes, child elements, and parent elements.
   
-#### Attributes
+### Attributes
 
 |**Attribute**|**Description**|
 |:-----|:-----|
 |LogonType  <br/> |Not intended for client use.  <br/> |
    
-#### Child elements
+### Child elements
 
 |**Element**|**Description**|
 |:-----|:-----|
 |ConnectingSID  <br/> |Not intended for client use.  <br/> |
    
-#### Parent elements
+### Parent elements
 
 None.
   
@@ -66,7 +66,7 @@ The schema that describes this element is located in the IIS virtual directory t
    
 ## See also
 
-#### Concepts
+
 
 [EWS XML elements in Exchange](ews-xml-elements-in-exchange.md)
 

@@ -1,5 +1,5 @@
 ---
-title: "How to Add appointments by using Exchange impersonation"
+title: "Add appointments by using Exchange impersonation"
  
  
 manager: sethgros
@@ -12,7 +12,7 @@ ms.assetid: 78d5e51b-900f-4302-b9a8-fdc9aa4b65a5
 description: "Learn how to use impersonation with the EWS Managed API or EWS in Exchange to add appointments to users' calendars."
 ---
 
-# How to: Add appointments by using Exchange impersonation
+# Add appointments by using Exchange impersonation
 
 Learn how to use impersonation with the EWS Managed API or EWS in Exchange to add appointments to users' calendars.
   
@@ -26,7 +26,7 @@ When you are using impersonation, keep in mind the following:
     
 ## Prerequisites
 
-Your application needs an account to use to connect to the Exchange server before it can use impersonation. We suggest that you use a service account for the application that has been granted the Application Impersonation role for the accounts that it will be accessing. For more information, see [How to: Configure impersonation](how-to-configure-impersonation.md)
+Your application needs an account to use to connect to the Exchange server before it can use impersonation. We suggest that you use a service account for the application that has been granted the Application Impersonation role for the accounts that it will be accessing. For more information, see [Configure impersonation](how-to-configure-impersonation.md)
   
 ## Add appointments by using impersonation with the EWS Managed API
 
@@ -185,18 +185,18 @@ The following example shows the response XML that is returned by the **CreateIte
 
 Again, this is the same XML that is returned when you use the **CreateItem** operation without using impersonation. 
   
-## Additional resources
-<a name="bk_addresources"> </a>
+## See also
+
 
 - [Impersonation and EWS in Exchange](impersonation-and-ews-in-exchange.md)
     
 - [ApplicationImpersonation role](http://technet.microsoft.com/en-us/library/dd776119%28v=exchg.150%29.aspx)
     
-- [How to: Configure impersonation](how-to-configure-impersonation.md)
+- [Configure impersonation](how-to-configure-impersonation.md)
     
-- [How to: Identify the account to impersonate](how-to-identify-the-account-to-impersonate.md)
+- [Identify the account to impersonate](how-to-identify-the-account-to-impersonate.md)
     
-- [How to: Create appointments and meetings by using EWS in Exchange 2013](how-to-create-appointments-and-meetings-by-using-ews-in-exchange-2013.md)
+- [Create appointments and meetings by using EWS in Exchange 2013](how-to-create-appointments-and-meetings-by-using-ews-in-exchange-2013.md)
     
 - [CreateItem operation (calendar item)](http://msdn.microsoft.com/library/aa4a7c94-f668-4bd2-8079-c855f6ab17e1%28Office.15%29.aspx)
     

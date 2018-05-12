@@ -39,11 +39,11 @@ The **MailboxData** element represents an individual mailbox user and options fo
 
 The following sections describe attributes, child elements, and parent elements.
   
-#### Attributes
+### Attributes
 
 None.
   
-#### Child elements
+### Child elements
 
 |**Element**|**Description**|
 |:-----|:-----|
@@ -51,7 +51,7 @@ None.
 |[AttendeeType](attendeetype.md) <br/> |Represents the type of attendee identified in the [Email (EmailAddressType)](email-emailaddresstype.md) element. This is used in requests for meeting suggestions.  <br/> |
 |[ExcludeConflicts](excludeconflicts.md) <br/> |Specifies whether to return suggested times for calendar times that conflict among the attendees.  <br/> |
    
-#### Parent elements
+### Parent elements
 
 |**Element**|**Description**|
 |:-----|:-----|
@@ -91,12 +91,12 @@ A client application can define one to many **MailboxData** elements.
    
 ## See also
 
-#### Reference
+
 
 [GetUserAvailability operation](getuseravailability-operation.md)
   
 [GetUserAvailabilityRequest](getuseravailabilityrequest.md)
-#### Other resources
+
 
 [Getting User Availability](http://msdn.microsoft.com/library/d4133fcb-9b0f-4e6b-aadf-a389da83516a%28Office.15%29.aspx)
 

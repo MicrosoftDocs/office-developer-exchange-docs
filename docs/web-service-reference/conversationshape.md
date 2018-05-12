@@ -28,15 +28,15 @@ The **ConversationShape** element identifies the property set to return in a **F
 
 The following sections describe attributes, child elements, and parent elements.
   
-#### Attributes
+### Attributes
 
 None.
   
-#### Child elements
+### Child elements
 
 [BaseShape](baseshape.md) | [AdditionalProperties](additionalproperties.md)
   
-#### Parent elements
+### Parent elements
 
 [FindConversation](findconversation.md)
   

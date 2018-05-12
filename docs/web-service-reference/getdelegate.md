@@ -32,7 +32,7 @@ The **GetDelegate** element defines a request to get information about delegates
 
 The following sections describe attributes, child elements, and parent elements.
   
-#### Attributes
+### Attributes
 
 |**Attribute**|**Description**|
 |:-----|:-----|
@@ -45,14 +45,14 @@ The following sections describe attributes, child elements, and parent elements.
 |**True** <br/> |Delegate user permissions are returned in addition to the delegate user information that is returned in the [UserId](userid.md) element.  <br/> |
 |**False** <br/> |[UserId](userid.md) information is returned.  <br/> |
    
-#### Child elements
+### Child elements
 
 |**Element**|**Description**|
 |:-----|:-----|
 |[Mailbox](mailbox.md) <br/> |Identifies the principal's mailbox.  <br/> |
 |[UserIds](userids.md) <br/> |Contains an array of delegate users to get from a principal's mailbox. This element was introduced in Exchange 2007 SP1.  <br/> |
    
-#### Parent elements
+### Parent elements
 
 None.
   
@@ -71,10 +71,10 @@ The schema that describes this element is located in the EWS virtual directory o
    
 ## See also
 
-#### Reference
+
 
 [GetDelegate operation](getdelegate-operation.md)
-#### Concepts
+
 
 [EWS XML elements in Exchange](ews-xml-elements-in-exchange.md)
 

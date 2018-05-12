@@ -35,15 +35,15 @@ The **RetentionPolicyTag** element specifies the retention policy for a mailbox 
 
 The following sections describe attributes, child elements, and parent elements.
   
-#### Attributes
+### Attributes
 
 None.
   
-#### Child elements
+### Child elements
 
 [DisplayName (string)](displayname-string.md) | [RetentionId](retentionid.md) | [RetentionPeriod](retentionperiod.md) | [Type (ElcFolderType)](type-elcfoldertype.md) | [RetentionAction](retentionaction.md) | [Description](description.md) | [IsVisible](isvisible.md) | [OptedInto](optedinto.md) | [IsArchive](isarchive.md)
   
-#### Parent elements
+### Parent elements
 
 [RetentionPolicyTags](retentionpolicytags.md)
   

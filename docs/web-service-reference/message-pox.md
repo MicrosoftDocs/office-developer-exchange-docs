@@ -29,15 +29,15 @@ The **Message** element contains the error message for an error Autodiscover res
 
 The following sections describe attributes, child elements, and parent elements.
   
-#### Attributes
+### Attributes
 
 None.
   
-#### Child elements
+### Child elements
 
 None.
   
-#### Parent elements
+### Parent elements
 
 |**Element**|**Description**|
 |:-----|:-----|
@@ -49,7 +49,7 @@ The text value represents the error message for the error Autodiscover response.
   
 ## See also
 
-#### Concepts
+
 
 [POX Autodiscover XML elements for Exchange](pox-autodiscover-xml-elements-for-exchange.md)
 

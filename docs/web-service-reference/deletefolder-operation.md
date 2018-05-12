@@ -172,10 +172,10 @@ To find other options for the error response message of the **DeleteFolder** ope
   
 ## See also
 
-#### Concepts
+
 
 [EWS XML elements in Exchange](ews-xml-elements-in-exchange.md)
-#### Other resources
+
 
 [Deleting Folders](http://msdn.microsoft.com/library/1958add5-5071-4239-adb2-40f7a7d74aee%28Office.15%29.aspx)
 

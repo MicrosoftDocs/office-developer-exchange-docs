@@ -1,5 +1,5 @@
 ---
-title: "How to Manage persistent application settings by using EWS in Exchange"
+title: "Manage persistent application settings by using EWS in Exchange"
  
  
 manager: sethgros
@@ -12,7 +12,7 @@ ms.assetid: 90f561f2-e40e-4f5b-b321-f86dbf4a1b71
 description: "Learn how to create, find, get, update, and delete persistent application settings by using the EWS Managed API or EWS in Exchange."
 ---
 
-# How to: Manage persistent application settings by using EWS in Exchange
+# Manage persistent application settings by using EWS in Exchange
 
 Learn how to create, find, get, update, and delete persistent application settings by using the EWS Managed API or EWS in Exchange. 
   
@@ -415,8 +415,8 @@ The following example shows the request XML for deleting a user configuration ob
 
 The [response XML](http://msdn.microsoft.com/library/93e44690-be2d-4fdb-96a8-4ded3c193aed%28Office.15%29.aspx) is simple and indicates whether the delete request was a success or whether an error occurred. 
   
-## Additional resources
-<a name="bk_addresources"> </a>
+## See also
+
 
 - [Persistent application settings in EWS in Exchange](persistent-application-settings-in-ews-in-exchange.md)
     

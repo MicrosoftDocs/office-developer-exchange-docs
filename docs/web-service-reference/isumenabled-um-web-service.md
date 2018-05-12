@@ -28,15 +28,15 @@ The **IsUMEnabled** element indicates whether a mailbox is enabled for Unified M
 
 The following sections describe attributes, child elements, and parent elements.
   
-#### Attributes
+### Attributes
 
 None.
   
-#### Child elements
+### Child elements
 
 None.
   
-#### Parent elements
+### Parent elements
 
 None.
   
@@ -59,10 +59,10 @@ To determine whether a mailbox is enabled for Unified Messaging, use the [IsUMEn
    
 ## See also
 
-#### Reference
+
 
 [IsUMEnabled operation (UM web service)](isumenabled-operation-um-web-service.md)
-#### Concepts
+
 
 [Unified Messaging web service XML elements for Exchange](unified-messaging-web-service-xml-elements-for-exchange.md)
 

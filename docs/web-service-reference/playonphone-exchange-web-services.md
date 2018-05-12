@@ -29,18 +29,18 @@ The **PlayOnPhone** element represents a request to read an item on a phone.
 
 The following sections describe attributes, child elements, and parent elements.
   
-#### Attributes
+### Attributes
 
 None.
   
-#### Child elements
+### Child elements
 
 |**Element**|**Description**|
 |:-----|:-----|
 |[ItemId](itemid.md) <br/> |Represents the identifier of an item to play on a phone. This element is required.  <br/> |
 |[DialString (Exchange Web Services)](dialstring-exchange-web-services.md) <br/> |Represents the dial string of the phone number that is called to play an item by phone. This element is required.  <br/> |
    
-#### Parent elements
+### Parent elements
 
 None.
   
@@ -59,7 +59,7 @@ The schema that describes this element is located in the EWS virtual directory o
    
 ## See also
 
-#### Concepts
+
 
 [EWS XML elements in Exchange](ews-xml-elements-in-exchange.md)
 

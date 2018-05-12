@@ -28,17 +28,17 @@ The **ProtocolConnections** element contains zero or more protocol connections.
 
 The following sections describe attributes, child elements, and parent elements.
   
-#### Attributes
+### Attributes
 
 None.
   
-#### Child elements
+### Child elements
 
 |**Element**|**Description**|
 |:-----|:-----|
 |[ProtocolConnections (SOAP)](protocolconnections-soap.md) <br/> |Contains zero or more protocol connections.  <br/> |
    
-#### Parent elements
+### Parent elements
 
 |**Element**|**Description**|
 |:-----|:-----|
@@ -59,7 +59,7 @@ None.
    
 ## See also
 
-#### Reference
+
 
 [GetUserSettings operation (SOAP)](getusersettings-operation-soap.md)
   

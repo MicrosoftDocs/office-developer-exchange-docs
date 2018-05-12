@@ -31,15 +31,15 @@ The **MarkAsJunkResponseMessage** element specifies the response message for a *
 
 The following sections describe attributes, child elements, and parent elements.
   
-#### Attributes
+### Attributes
 
 None.
   
-#### Child elements
+### Child elements
 
 [MessageText](messagetext.md) | [ResponseCode](responsecode.md) | [DescriptiveLinkKey](descriptivelinkkey.md) | [MessageXml](messagexml.md) | [MovedItemId](moveditemid.md)
   
-#### Parent elements
+### Parent elements
 
 [ResponseMessages](responsemessages.md)
   

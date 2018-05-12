@@ -31,15 +31,15 @@ The **RelativeFolderPath** element contains an array of folders that indicate th
 
 The following sections describe attributes, child elements, and parent elements.
   
-#### Attributes
+### Attributes
 
 None.
   
-#### Child elements
+### Child elements
 
 [Folder](folder.md) | [CalendarFolder](calendarfolder.md) | [ContactsFolder](contactsfolder.md) | [SearchFolder](searchfolder.md) | [TasksFolder](tasksfolder.md)
   
-#### Parent elements
+### Parent elements
 
 [CreateFolderPath](createfolderpath.md)
   

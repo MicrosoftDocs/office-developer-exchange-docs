@@ -29,15 +29,15 @@ The **ReminderItemAction** element specifies the action for a reminder item.
 
 The following sections describe attributes, child elements, and parent elements.
   
-#### Attributes
+### Attributes
 
 None.
   
-#### Child elements
+### Child elements
 
 [ActionType (ReminderActionType)](actiontype-reminderactiontype.md) | [ItemId](itemid.md) | [NewReminderTime](newremindertime.md)
   
-#### Parent elements
+### Parent elements
 
 [ReminderItemActions](reminderitemactions.md)
   
@@ -58,10 +58,10 @@ The schema that describes this element is located in the IIS virtual directory t
    
 ## See also
 
-#### Reference
+
 
 [ReminderItemActions](reminderitemactions.md)
-#### Concepts
+
 
 [EWS XML elements in Exchange](ews-xml-elements-in-exchange.md)
 

@@ -28,17 +28,17 @@ The **GetFederationInformationRequestMessage** element prepares a call to the se
 
 The following sections describe attributes, child elements, and parent elements.
   
-#### Attributes
+### Attributes
 
 None.
   
-#### Child elements
+### Child elements
 
 |**Element**|**Description**|
 |:-----|:-----|
 |[Request (GetFederationInformation) (SOAP)](request-getfederationinformationsoap.md) <br/> |Represents a **GetFederationInformation** request.  <br/> |
    
-#### Parent elements
+### Parent elements
 
 None.
   
@@ -57,7 +57,7 @@ None.
    
 ## See also
 
-#### Reference
+
 
 [GetFederationInformation operation (SOAP)](getfederationinformation-operation-soap.md)
 

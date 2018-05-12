@@ -37,11 +37,11 @@ The **EffectiveRights** element contains the client's rights based on the permis
 
 The following sections describe attributes, child elements, and parent elements.
   
-#### Attributes
+### Attributes
 
 None.
   
-#### Child elements
+### Child elements
 
 |**Element**|**Description**|
 |:-----|:-----|
@@ -53,7 +53,7 @@ None.
 |[Read](read.md) <br/> |Indicates whether a client can read a folder or item.  <br/> |
 |[ViewPrivateItems](viewprivateitems.md) <br/> |Indicates whether a private item can be viewed.  <br/> |
    
-#### Parent elements
+### Parent elements
 
 |**Element**|**Description**|
 |:-----|:-----|
@@ -97,10 +97,10 @@ The schema that describes this element is located in the IIS virtual directory t
    
 ## See also
 
-#### Concepts
+
 
 [EWS XML elements in Exchange](ews-xml-elements-in-exchange.md)
-#### Other resources
+
 
 [Setting Folder-Level Permissions](http://msdn.microsoft.com/library/c7530e86-5112-401c-b10a-9c054ae59f07%28Office.15%29.aspx)
 

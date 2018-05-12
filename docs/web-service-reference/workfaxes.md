@@ -27,15 +27,15 @@ The **WorkFaxes** element specifies an array of work fax numbers and the identif
 
 The following sections describe attributes, child elements, and parent elements.
   
-#### Attributes
+### Attributes
 
 None.
   
-#### Child elements
+### Child elements
 
 [PhoneNumberAttributedValue](phonenumberattributedvalue.md)
   
-#### Parent elements
+### Parent elements
 
 [Persona](persona.md)
   

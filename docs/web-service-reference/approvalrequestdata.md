@@ -16,7 +16,7 @@ description: "The ApprovalRequestData element specifies the approval state of an
 
 The **ApprovalRequestData** element specifies the approval state of an approval request message. 
   
-```
+```xml
 <ApprovalRequestData>
    <IsUndecidedApprovalRequest/>
    <ApprovalDecision/>
@@ -30,15 +30,15 @@ The **ApprovalRequestData** element specifies the approval state of an approval 
 
 The following sections describe attributes, child elements, and parent elements.
   
-#### Attributes
+### Attributes
 
 None.
   
-#### Child elements
+### Child elements
 
 [IsUndecidedApprovalRequest](isundecidedapprovalrequest.md) | [ApprovalDecision](approvaldecision.md) | [ApprovalDecisionMaker](approvaldecisionmaker.md) | [ApprovalDecisionTime](approvaldecisiontime.md)
   
-#### Parent elements
+### Parent elements
 
 [Message](message-ex15websvcsotherref.md)
   
@@ -59,10 +59,10 @@ The schema that describes this element is located in the IIS virtual directory t
    
 ## See also
 
-#### Reference
+
 
 [Message](message-ex15websvcsotherref.md)
-#### Concepts
+
 
 [EWS XML elements in Exchange](ews-xml-elements-in-exchange.md)
 

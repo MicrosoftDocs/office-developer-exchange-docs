@@ -27,15 +27,15 @@ The **SearchQueries** element contains a list of mailboxes and associated querie
 
 The following sections describe attributes, child elements, and parent elements.
   
-#### Attributes
+### Attributes
 
 None.
   
-#### Child elements
+### Child elements
 
 [MailboxQuery](mailboxquery.md)
   
-#### Parent elements
+### Parent elements
 
 [SearchMailboxes](searchmailboxes.md) | [SearchMailboxesResult](searchmailboxesresult.md)
   

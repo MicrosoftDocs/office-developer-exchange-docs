@@ -27,15 +27,15 @@ The **GetClientAccessToken** element contains a request to get a client access t
 
 The following sections describe attributes, child elements, and parent elements.
   
-#### Attributes
+### Attributes
 
 None.
   
-#### Child elements
+### Child elements
 
 [TokenRequests](tokenrequests.md)
   
-#### Parent elements
+### Parent elements
 
 None.
   

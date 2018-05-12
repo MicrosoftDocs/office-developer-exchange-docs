@@ -1,5 +1,5 @@
 ---
-title: "How to Extract an entity from an email message by using EWS in Exchange"
+title: "Extract an entity from an email message by using EWS in Exchange"
  
  
 manager: sethgros
@@ -12,7 +12,7 @@ ms.assetid: 6396b009-5f6e-41eb-a75a-224d43e864ae
 description: "Learn how to extract information from the body of an email message by using the EWS Managed API or EWS in Exchange."
 ---
 
-# How to: Extract an entity from an email message by using EWS in Exchange
+# Extract an entity from an email message by using EWS in Exchange
 
 Learn how to extract information from the body of an email message by using the EWS Managed API or EWS in Exchange.
   
@@ -367,8 +367,8 @@ The value of the **ItemId** element is shortened for readability.
 
 Notice that all addresses, contacts, email addresses, phone numbers, tasks, and URLs were extracted as expected. The meeting suggestion, however, is a bit more complex. Notice the start time and end time of the meeting suggestion are not what you might expect. The start time in the email was "this Friday at 7", but the extracted value for the start time is 10/1/0104 2:00:00 PM. This is because the start time and end time extracted by the server are encoded dates. For more information about interpreting **dateTime** values in meeting suggestions, see [[MS-OXCEXT]: Client Extension Message Object Protocol](http://msdn.microsoft.com/en-us/library/hh968601%28v=exchg.80%29.aspx).
   
-## Additional resources
-<a name="bk_addresources"> </a>
+## See also
+
 
 - [Email and EWS in Exchange](email-and-ews-in-exchange.md)
     

@@ -29,15 +29,15 @@ The **RequestType** element identifies whether a proxy request is a cross-site o
 
 The following sections describe attributes, child elements, and parent elements.
   
-#### Attributes
+### Attributes
 
 None.
   
-#### Child elements
+### Child elements
 
 None.
   
-#### Parent elements
+### Parent elements
 
 This element does not have a parent in the schema. This element is used in the SOAP header. For more information about how this element is used, see the WSDL file.
   
@@ -60,7 +60,7 @@ A text value is required for this element. The following are the possible values
    
 ## See also
 
-#### Concepts
+
 
 [EWS XML elements in Exchange](ews-xml-elements-in-exchange.md)
 

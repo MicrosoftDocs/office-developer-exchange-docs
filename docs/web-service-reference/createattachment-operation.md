@@ -314,7 +314,7 @@ If multiple attachments are attached to an item in a single round trip, the Root
   
 ## See also
 
-#### Reference
+
 
 [DeleteAttachment operation](deleteattachment-operation.md)
   

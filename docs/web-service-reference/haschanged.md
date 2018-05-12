@@ -25,15 +25,15 @@ The **HasChanged** element indicates whether a user's photo has changed.
 
 The following sections describe attributes, child elements, and parent elements.
   
-#### Attributes
+### Attributes
 
 None.
   
-#### Child elements
+### Child elements
 
 None.
   
-#### Parent elements
+### Parent elements
 
 [GetUserPhotoResponse](getuserphotoresponse.md)
   

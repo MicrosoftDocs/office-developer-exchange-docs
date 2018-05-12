@@ -32,15 +32,15 @@ The **ReminderMessageData** element specifies the data in a reminder message.
 
 The following sections describe attributes, child elements, and parent elements.
   
-#### Attributes
+### Attributes
 
 None.
   
-#### Child elements
+### Child elements
 
 [ReminderText](remindertext.md) | [Location](location.md) | [StartTime (ReminderMessageDataType)](starttime-remindermessagedatatype.md) | [EndTime (ReminderMessageDataType)](endtime-remindermessagedatatype.md) | [AssociatedCalendarItemId](associatedcalendaritemid.md)
   
-#### Parent elements
+### Parent elements
 
 [Message](message-ex15websvcsotherref.md)
   
@@ -63,10 +63,10 @@ Versions of Exchange starting with build number 15.00.0913.09 can include the **
    
 ## See also
 
-#### Reference
+
 
 [Message](message-ex15websvcsotherref.md)
-#### Concepts
+
 
 [EWS XML elements in Exchange](ews-xml-elements-in-exchange.md)
 

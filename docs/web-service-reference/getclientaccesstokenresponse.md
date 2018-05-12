@@ -27,15 +27,15 @@ The **GetClientAccessTokenResponse** element contains the response to a **GetCli
 
 The following sections describe attributes, child elements, and parent elements.
   
-#### Attributes
+### Attributes
 
 None.
   
-#### Child elements
+### Child elements
 
 [ResponseMessages](responsemessages.md)
   
-#### Parent elements
+### Parent elements
 
 None.
   

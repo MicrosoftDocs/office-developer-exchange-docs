@@ -188,7 +188,7 @@ For error codes that are generic to EWS, see [ResponseCode](responsecode.md).
   
 ## See also
 
-#### Other resources
+
 
 [Retention policies in EWS](http://msdn.microsoft.com/library/a132872f-0228-4bcb-aac2-bf64fb07e58e%28Office.15%29.aspx)
 

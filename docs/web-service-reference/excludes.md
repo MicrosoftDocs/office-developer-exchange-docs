@@ -32,11 +32,11 @@ The **Excludes** element performs a bitwise mask of the specified property and a
 
 The following sections describe attributes, child elements, and parent elements.
   
-#### Attributes
+### Attributes
 
 None.
   
-#### Child elements
+### Child elements
 
 |**Element**|**Description**|
 |:-----|:-----|
@@ -45,7 +45,7 @@ None.
 |[ExtendedFieldURI](extendedfielduri.md) <br/> |Identifies MAPI properties.  <br/> |
 |[Bitmask](bitmask.md) <br/> |Represents a hexadecimal or decimal mask to be used during an [Excludes](excludes.md) restriction operation. If the bitmask represents a hexadecimal number, it must be prefixed by 0x or 0X. Otherwise, it will be considered a decimal number.  <br/> |
    
-#### Parent elements
+### Parent elements
 
 |**Element**|**Description**|
 |:-----|:-----|
@@ -79,7 +79,7 @@ The schema that describes this element is located in the EWS virtual directory o
    
 ## See also
 
-#### Concepts
+
 
 [EWS XML elements in Exchange](ews-xml-elements-in-exchange.md)
 

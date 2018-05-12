@@ -32,15 +32,15 @@ The **CallState** element contains a value that indicates the status of a call.
 
 The following sections describe attributes, child elements, and parent elements.
   
-#### Attributes
+### Attributes
 
 None.
   
-#### Child elements
+### Child elements
 
 None.
   
-#### Parent elements
+### Parent elements
 
 |**Element**|**Description**|
 |:-----|:-----|
@@ -77,7 +77,7 @@ A text value is required. The following are the possible values:
    
 ## See also
 
-#### Reference
+
 
 [GetCallInfo operation (UM web service)](getcallinfo-operation-um-web-service.md)
   

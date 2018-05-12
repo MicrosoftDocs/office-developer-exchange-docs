@@ -27,15 +27,15 @@ The **EmailAddresses** element specifies an array of extracted email addresses.
 
 The following sections describe attributes, child elements, and parent elements.
   
-#### Attributes
+### Attributes
 
 None.
   
-#### Child elements
+### Child elements
 
 [EmailAddress (string)](emailaddress-string.md)
   
-#### Parent elements
+### Parent elements
 
 [Contact (ContactType)](contact-contacttype.md)
   

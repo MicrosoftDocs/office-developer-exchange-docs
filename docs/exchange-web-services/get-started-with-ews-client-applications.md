@@ -431,8 +431,8 @@ Now that you've written your first EWS application, you're ready to discover oth
     
 If you run into any issues with your application, [try posting a question or comment in the forum](http://social.technet.microsoft.com/Forums/exchange/en-US/home?forum=exchangesvrdevelopment) (and don't forget to read the first post). 
   
-## Additional resources
-<a name="bk_addresources"> </a>
+## See also
+
 
 - [Start using web services in Exchange](start-using-web-services-in-exchange.md)
     

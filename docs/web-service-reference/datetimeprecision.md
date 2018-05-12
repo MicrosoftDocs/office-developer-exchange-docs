@@ -25,15 +25,15 @@ The **DateTimePrecision** element specifies the precision for returned date/time
 
 The following sections describe attributes, child elements, and parent elements.
   
-#### Attributes
+### Attributes
 
 None
   
-#### Child elements
+### Child elements
 
 None.
   
-#### Parent elements
+### Parent elements
 
 The **DateTimePrecision** element is located in the SOAP header. 
   

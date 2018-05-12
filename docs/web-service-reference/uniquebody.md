@@ -29,7 +29,7 @@ The **UniqueBody** element represents an HTML fragment or plain text which repre
 
 The following sections describe attributes, child elements, and parent elements.
   
-#### Attributes
+### Attributes
 
 |**Attribute**|**Description**|
 |:-----|:-----|
@@ -42,11 +42,11 @@ The following sections describe attributes, child elements, and parent elements.
 |**HTML** <br/> |Converts all bodies to HTML.  <br/> |
 |**Text** <br/> |Converts all bodies to plain text.  <br/> |
    
-#### Child elements
+### Child elements
 
 None.
   
-#### Parent elements
+### Parent elements
 
 |**Element**|**Description**|
 |:-----|:-----|
@@ -82,7 +82,7 @@ The schema that describes this element is located in the IIS virtual directory t
    
 ## See also
 
-#### Concepts
+
 
 [EWS XML elements in Exchange](ews-xml-elements-in-exchange.md)
 

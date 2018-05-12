@@ -27,15 +27,15 @@ The **SetImListMigrationCompleted** element represents a request to indicate whe
 
 The following sections describe attributes, child elements, and parent elements.
   
-#### Attributes
+### Attributes
 
 None.
   
-#### Child elements
+### Child elements
 
 [ImListMigrationCompleted](imlistmigrationcompleted.md)
   
-#### Parent elements
+### Parent elements
 
 None.
   

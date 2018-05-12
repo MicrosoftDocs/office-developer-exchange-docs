@@ -33,14 +33,14 @@ The **StartTimeZone** element defines the time zone for the start time of a [Cal
 
 The following sections describe attributes, child elements, and parent elements.
   
-#### Attributes
+### Attributes
 
 |**Attribute**|**Description**|
 |:-----|:-----|
 |Id  <br/> |Represents the unique identifier of the time zone definition.  <br/> |
 |Name  <br/> |Represents the descriptive name of the time zone definition.  <br/> |
    
-#### Child elements
+### Child elements
 
 |**Element**|**Description**|
 |:-----|:-----|
@@ -48,7 +48,7 @@ The following sections describe attributes, child elements, and parent elements.
 |[TransitionsGroups](transitionsgroups.md) <br/> |Represents an array of [TransitionsGroup](transitionsgroup.md) elements that specify time zone transitions.  <br/> |
 |[Transitions](transitions.md) <br/> |Represents an array of time zone transitions.  <br/> |
    
-#### Parent elements
+### Parent elements
 
 |**Element**|**Description**|
 |:-----|:-----|
@@ -70,7 +70,7 @@ The schema that describes this element is located in the EWS virtual directory o
    
 ## See also
 
-#### Concepts
+
 
 [EWS XML elements in Exchange](ews-xml-elements-in-exchange.md)
 

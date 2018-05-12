@@ -28,18 +28,18 @@ The **UserParameters** element contains a list of enabled and disabled client ex
 
 The following sections describe attributes, child elements, and parent elements.
   
-#### Attributes
+### Attributes
 
 |**Attribute**|**Description**|
 |:-----|:-----|
 |UserId  <br/> |The text value of the **UserId** attribute is the identifier of the user.  <br/> |
 |EnabledOnly  <br/> |The text value of the **EnabledOnly** indicates whether the response only contains the enabled extensions.  <br/> |
    
-#### Child elements
+### Child elements
 
 [UserEnabledExtensions](userenabledextensions.md) | [UserDisabledExtensions](userdisabledextensions.md)
   
-#### Parent elements
+### Parent elements
 
 [GetClientExtension](getclientextension.md)
   

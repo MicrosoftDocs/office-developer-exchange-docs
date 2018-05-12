@@ -27,15 +27,15 @@ The **TokenRequests** element contains an array of token requests.
 
 The following sections describe attributes, child elements, and parent elements.
   
-#### Attributes
+### Attributes
 
 None.
   
-#### Child elements
+### Child elements
 
 [TokenRequest](tokenrequest.md)
   
-#### Parent elements
+### Parent elements
 
 [GetClientAccessToken](getclientaccesstoken.md)
   

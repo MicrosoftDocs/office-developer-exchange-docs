@@ -25,15 +25,15 @@ The **DisplayName** element contains the display name of a new instant messaging
 
 The following sections describe attributes, child elements, and parent elements.
   
-#### Attributes
+### Attributes
 
 None.
   
-#### Child elements
+### Child elements
 
 None.
   
-#### Parent elements
+### Parent elements
 
 [AddDistributionGroupToImList](adddistributiongrouptoimlist.md) | [AddImGroup](addimgroup.md) | [AddNewImContactToGroup](addnewimcontacttogroup.md) | [ImGroup](imgroup.md)
   

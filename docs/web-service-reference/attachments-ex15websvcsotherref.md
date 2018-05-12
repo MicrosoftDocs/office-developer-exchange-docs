@@ -20,7 +20,7 @@ description: "The Attachments element contains the items or files that are attac
 
 The **Attachments** element contains the items or files that are attached to an item in the Exchange store. 
   
-```
+```xml
 <Attachments>
    <ItemAttachment/>
    <FileAttachment/>
@@ -32,18 +32,18 @@ The **Attachments** element contains the items or files that are attached to an 
 
 The following sections describe attributes, child elements, and parent elements.
   
-#### Attributes
+### Attributes
 
 None.
   
-#### Child elements
+### Child elements
 
 |**Element**|**Description**|
 |:-----|:-----|
 |[ItemAttachment](itemattachment.md) <br/> |Represents an Exchange item that is attached to another Exchange item.  <br/> |
 |[FileAttachment](fileattachment.md) <br/> |Represents a file that is attached to an item in the Exchange store.  <br/> |
    
-#### Parent elements
+### Parent elements
 
 |**Element**|**Description**|
 |:-----|:-----|
@@ -82,7 +82,7 @@ The schema that describes this element is located in the EWS virtual directory o
    
 ## See also
 
-#### Concepts
+
 
 [EWS XML elements in Exchange](ews-xml-elements-in-exchange.md)
 

@@ -29,7 +29,7 @@ The **ExceptionFieldURI** element identifies particular errors in a request. Thi
 
 The following sections describe attributes, child elements, and parent elements.
   
-#### Attributes
+### Attributes
 
 |**Attribute**|**Description**|
 |:-----|:-----|
@@ -49,11 +49,11 @@ The following sections describe attributes, child elements, and parent elements.
 |recurrence:Interval  <br/> |Identifies the interval as containing an error.  <br/> |
 |recurrence:NumberOfOccurrences  <br/> |Identifies the number of occurrences as containing an error.  <br/> |
    
-#### Child elements
+### Child elements
 
 None.
   
-#### Parent elements
+### Parent elements
 
 |**Element**|**Description**|
 |:-----|:-----|
@@ -74,7 +74,7 @@ The schema that describes this element is located in the EWS virtual directory o
    
 ## See also
 
-#### Concepts
+
 
 [EWS XML elements in Exchange](ews-xml-elements-in-exchange.md)
 

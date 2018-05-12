@@ -29,7 +29,7 @@ The **RequestServerVersion** element contains the versioning information that id
 
 The following sections describe attributes, child elements, and parent elements.
   
-#### Attributes
+### Attributes
 
 |**Attribute**|**Description**|
 |:-----|:-----|
@@ -47,11 +47,11 @@ The following sections describe attributes, child elements, and parent elements.
 |Exchange2013  <br/> |Target the schema files for Exchange 2013.  <br/> |
 |Exchange2013_SP1  <br/> |Target the schema files for Exchange 2013 Service Pack 1 (SP1).  <br/> |
    
-#### Child elements
+### Child elements
 
 None.
   
-#### Parent elements
+### Parent elements
 
 The **RequestServerVersion** element is located in the SOAP header. 
   
@@ -70,10 +70,10 @@ The schema that describes this element is located in the IIS virtual directory t
    
 ## See also
 
-#### Concepts
+
 
 [EWS XML elements in Exchange](ews-xml-elements-in-exchange.md)
-#### Other resources
+
 
 [Versioning Requests](http://msdn.microsoft.com/library/76877b0a-d2e5-4c74-9295-7b445a41d46a%28Office.15%29.aspx)
 

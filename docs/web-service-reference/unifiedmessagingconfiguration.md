@@ -33,11 +33,11 @@ The **UnifiedMessagingConfiguration** element contains service configuration inf
 
 The following sections describe attributes, child elements, and parent elements.
   
-#### Attributes
+### Attributes
 
 None.
   
-#### Child elements
+### Child elements
 
 |**Element**|**Description**|
 |:-----|:-----|
@@ -45,7 +45,7 @@ None.
 |[PlayOnPhoneDialString (Exchange Web Services)](playonphonedialstring-exchange-web-services.md) <br/> |Identifies the Play-on-Phone dial string. This element is required.  <br/> |
 |[PlayOnPhoneEnabled](playonphoneenabled.md) <br/> |Indicates whether the Play-on-Phone feature is enabled. This element is required.  <br/> |
    
-#### Parent elements
+### Parent elements
 
 |**Element**|**Description**|
 |:-----|:-----|
@@ -70,7 +70,7 @@ The schema that describes this element is located in the IIS virtual directory t
    
 ## See also
 
-#### Concepts
+
 
 [EWS XML elements in Exchange](ews-xml-elements-in-exchange.md)
 

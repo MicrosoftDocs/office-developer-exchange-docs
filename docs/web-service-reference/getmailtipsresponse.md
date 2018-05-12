@@ -31,17 +31,17 @@ The **GetMailTipsResponse** element represents the response message for a [GetMa
 
 The following sections describe attributes, child elements, and parent elements.
   
-#### Attributes
+### Attributes
 
 None.
   
-#### Child elements
+### Child elements
 
 |**Element**|**Description**|
 |:-----|:-----|
 |[ResponseMessages (ArrayOfMailTipsResponseMessageType)](responsemessages-arrayofmailtipsresponsemessagetype.md) <br/> |Represents a list of mail tips response messages.  <br/> |
    
-#### Parent elements
+### Parent elements
 
 None.
   
@@ -64,10 +64,10 @@ The schema that describes this element is located in the IIS virtual directory t
    
 ## See also
 
-#### Reference
+
 
 [GetMailTips operation](getmailtips-operation.md)
-#### Concepts
+
 
 [EWS XML elements in Exchange](ews-xml-elements-in-exchange.md)
 

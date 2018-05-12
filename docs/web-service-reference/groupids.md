@@ -30,15 +30,15 @@ The **GroupIds** element identifies an array of instant messaging group identifi
 
 The following sections describe attributes, child elements, and parent elements.
   
-#### Attributes
+### Attributes
 
 None.
   
-#### Child elements
+### Child elements
 
 [ItemId](itemid.md) | [OccurrenceItemId](occurrenceitemid.md) | [RecurringMasterItemId](recurringmasteritemid.md) | [RecurringMasterItemIdRanges](recurringmasteritemidranges.md)
   
-#### Parent elements
+### Parent elements
 
 [GetImItems](getimitems.md)
   

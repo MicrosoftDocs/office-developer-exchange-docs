@@ -25,15 +25,15 @@ The **LobbyBypass** element specifies the online meeting setting to bypass the v
 
 The following sections describe attributes, child elements, and parent elements.
   
-#### Attributes
+### Attributes
 
 None.
   
-#### Child elements
+### Child elements
 
 None.
   
-#### Parent elements
+### Parent elements
 
 [OnlineMeetingSettings](onlinemeetingsettings.md)
   

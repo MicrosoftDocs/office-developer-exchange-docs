@@ -25,15 +25,15 @@ The **PersonName** element specifies the name of an individual found by means of
 
 The following sections describe attributes, child elements, and parent elements.
   
-#### Attributes
+### Attributes
 
 None.
   
-#### Child elements
+### Child elements
 
 None.
   
-#### Parent elements
+### Parent elements
 
 [Contact (ContactType)](contact-contacttype.md)
   

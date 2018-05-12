@@ -85,22 +85,22 @@ When you create an appointment or meeting, the time zone that applies to the sta
     
 ## In this section
 
-- [How to: Create appointments in a specific time zone by using EWS in Exchange](how-to-create-appointments-in-a-specific-time-zone-by-using-ews-in-exchange.md)
+- [Create appointments in a specific time zone by using EWS in Exchange](how-to-create-appointments-in-a-specific-time-zone-by-using-ews-in-exchange.md)
     
-- [How to: Update the time zone for an appointment by using EWS in Exchange](how-to-update-the-time-zone-for-an-appointment-by-using-ews-in-exchange.md)
+- [Update the time zone for an appointment by using EWS in Exchange](how-to-update-the-time-zone-for-an-appointment-by-using-ews-in-exchange.md)
     
-## Additional resources
-<a name="bk_addresources"> </a>
+## See also
+
 
 - [Develop web service clients for Exchange](develop-web-service-clients-for-exchange.md)
     
 - [EWS schema versions in Exchange](ews-schema-versions-in-exchange.md)
     
-- [How to: Create appointments and meetings by using EWS in Exchange 2013](how-to-create-appointments-and-meetings-by-using-ews-in-exchange-2013.md)
+- [Create appointments and meetings by using EWS in Exchange 2013](how-to-create-appointments-and-meetings-by-using-ews-in-exchange-2013.md)
     
-- [How to: Update appointments and meetings by using EWS in Exchange](how-to-update-appointments-and-meetings-by-using-ews-in-exchange.md)
+- [Update appointments and meetings by using EWS in Exchange](how-to-update-appointments-and-meetings-by-using-ews-in-exchange.md)
     
-- [How to: Create all-day events by using EWS in Exchange](how-to-create-all-day-events-by-using-ews-in-exchange.md)
+- [Create all-day events by using EWS in Exchange](how-to-create-all-day-events-by-using-ews-in-exchange.md)
     
 - [DateTime Structure](http://msdn.microsoft.com/en-us/library/system.datetime%28v=vs.110%29.aspx)
     

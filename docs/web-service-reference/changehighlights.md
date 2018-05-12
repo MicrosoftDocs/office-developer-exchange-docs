@@ -32,11 +32,11 @@ The **ChangeHighlights** element specifies what has changed between two versions
 
 The following sections describe attributes, child elements, and parent elements.
   
-#### Attributes
+### Attributes
 
 None.
   
-#### Child elements
+### Child elements
 
 |**Element**|**Description**|
 |:-----|:-----|
@@ -47,7 +47,7 @@ None.
 |[HasEndTimeChanged](hasendtimechanged.md) <br/> |Specifies whether the end time for a meeting has changed.  <br/> |
 |[End ](end-ex15websvcsotherref.md) <br/> |Represents the end of a duration.  <br/> |
    
-#### Parent elements
+### Parent elements
 
 |**Element**|**Description**|
 |:-----|:-----|
@@ -70,7 +70,7 @@ The schema that describes this element is located in the IIS virtual directory t
    
 ## See also
 
-#### Concepts
+
 
 [EWS XML elements in Exchange](ews-xml-elements-in-exchange.md)
 

@@ -33,17 +33,17 @@ The **ExpandDLResponse** element defines a response to a request to expand a dis
 
 The following sections describe attributes, child elements, and parent elements.
   
-#### Attributes
+### Attributes
 
 None.
   
-#### Child elements
+### Child elements
 
 |**Element**|**Description**|
 |:-----|:-----|
 |[ResponseMessages](responsemessages.md) <br/> |Contains the response messages for an Exchange Web Services request.  <br/> |
    
-#### Parent elements
+### Parent elements
 
 None.
   
@@ -62,7 +62,7 @@ The schema that describes this element is located in the EWS virtual directory o
    
 ## See also
 
-#### Reference
+
 
 [ExpandDL](expanddl.md)
   

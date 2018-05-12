@@ -28,15 +28,15 @@ The **PhoneNumber** element specifies the default phone number of the associated
 
 The following sections describe attributes, child elements, and parent elements.
   
-#### Attributes
+### Attributes
 
 None.
   
-#### Child elements
+### Child elements
 
 [Number](number.md) | [Type (string)](type-string.md)
   
-#### Parent elements
+### Parent elements
 
 [Persona](persona.md)
   

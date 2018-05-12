@@ -336,8 +336,8 @@ The following table lists the user configuration operations.
 |[GetUserConfiguration operation](getuserconfiguration-operation.md) <br/> |Exchange 2010  <br/> |
 |[UpdateUserConfiguration operation](updateuserconfiguration-operation.md) <br/> |Exchange 2010  <br/> |
    
-## Additional resources
-<a name="bk_addresources"> </a>
+## See also
+
 
 - [Explore the EWS Managed API, EWS, and web services in Exchange](http://msdn.microsoft.com/library/53553207-ff98-4fdb-8716-4ae02fee83bf%28Office.15%29.aspx)
     

@@ -24,17 +24,17 @@ The **SupportedFileExtensions** element lists the file extensions that can be st
 
 The following sections describe attributes, child elements, and parent elements.
   
-#### Attributes
+### Attributes
 
 None.
   
-#### Child elements
+### Child elements
 
 |**Element**|**Description**|
 |:-----|:-----|
 |[FileExtension (SOAP)](fileextension-soap.md) <br/> |Represents a file extension.  <br/> |
    
-#### Parent elements
+### Parent elements
 
 |**Element**|**Description**|
 |:-----|:-----|
@@ -51,10 +51,10 @@ None.
    
 ## See also
 
-#### Reference
+
 
 [GetUserSettings operation (SOAP)](getusersettings-operation-soap.md)
-#### Concepts
+
 
 [Autodiscover web service reference for Exchange](autodiscover-web-service-reference-for-exchange.md)
   

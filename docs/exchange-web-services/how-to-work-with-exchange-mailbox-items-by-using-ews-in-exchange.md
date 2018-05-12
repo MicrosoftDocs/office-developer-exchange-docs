@@ -1,22 +1,20 @@
 ---
-title: "How to Work with Exchange mailbox items by using EWS in Exchange"
- 
- 
+title: "Work with Exchange mailbox items by using EWS in Exchange"
 manager: sethgros
 ms.date: 9/17/2015
 ms.audience: Developer
- 
- 
 localization_priority: Normal
 ms.assetid: 721deb84-f85d-45d0-84c1-0ed55f359969
 description: "Learn how to create, get, update, and delete items by using the EWS Managed API or EWS in Exchange."
 ---
 
-# How to: Work with Exchange mailbox items by using EWS in Exchange
+# Work with Exchange mailbox items by using EWS in Exchange
 
 Learn how to create, get, update, and delete items by using the EWS Managed API or EWS in Exchange.
   
-You can use the EWS Managed API or EWS to work with items in a mailbox. You can use generic items — EWS Managed API [Item](http://msdn.microsoft.com/en-us/library/microsoft.exchange.webservices.data.item%28v=exchg.80%29.aspx) objects or EWS [Item](http://msdn.microsoft.com/library/4dfe8f48-e7b4-444d-bdf9-a34e180f598b%28Office.15%29.aspx) types — to perform some operations (getting an item or deleting an item by using the item's identifier); however, most of the time you'll have to use a [strongly typed item](folders-and-items-in-ews-in-exchange.md#bk_item) to perform a get or update operation because you'll need access to the properties that are specific to the strongly typed item. For example, you can't use a generic item to retrieve an item that contains a start and end date - you need an EWS Managed API [Appointment](http://msdn.microsoft.com/en-us/library/microsoft.exchange.webservices.data.appointment%28v=exchg.80%29.aspx) object or an EWS [CalendarItem](http://msdn.microsoft.com/library/b0c1fd27-b6da-46e5-88b8-88f00c71ba80%28Office.15%29.aspx) type to do that. And if you're using the EWS Managed API, you always have to create strongly typed items, because the generic **Item** class does not have a constructor. If you're working with an item that is not strongly typed, you can always use the base **Item** class to work with the item. 
+You can use the EWS Managed API or EWS to work with items in a mailbox. You can use generic items — EWS Managed API [Item](http://msdn.microsoft.com/en-us/library/microsoft.exchange.webservices.data.item%28v=exchg.80%29.aspx) objects or EWS [Item](http://msdn.microsoft.com/library/4dfe8f48-e7b4-444d-bdf9-a34e180f598b%28Office.15%29.aspx) types — to perform some operations (getting an item or deleting an item by using the item's identifier); however, most of the time you'll have to use a [strongly typed item](folders-and-items-in-ews-in-exchange.md#bk_item) to perform a get or update operation because you'll need access to the properties that are specific to the strongly typed item. 
+
+For example, you can't use a generic item to retrieve an item that contains a start and end date - you need an EWS Managed API [Appointment](http://msdn.microsoft.com/en-us/library/microsoft.exchange.webservices.data.appointment%28v=exchg.80%29.aspx) object or an EWS [CalendarItem](http://msdn.microsoft.com/library/b0c1fd27-b6da-46e5-88b8-88f00c71ba80%28Office.15%29.aspx) type to do that. And if you're using the EWS Managed API, you always have to create strongly typed items, because the generic **Item** class does not have a constructor. If you're working with an item that is not strongly typed, you can always use the base **Item** class to work with the item. 
   
 **Table 1. EWS Managed API methods and EWS operations for working with items**
 
@@ -57,7 +55,7 @@ message.ToRecipients.Add("sadie@contoso.com");
 message.SendAndSaveCopy();
 ```
 
-To learn how to create a meeting or appointment item by using the EWS Managed API, see [How to: Create appointments and meetings by using EWS in Exchange 2013](how-to-create-appointments-and-meetings-by-using-ews-in-exchange-2013.md).
+To learn how to create a meeting or appointment item by using the EWS Managed API, see [Create appointments and meetings by using EWS in Exchange 2013](how-to-create-appointments-and-meetings-by-using-ews-in-exchange-2013.md).
   
 ## Create an item by using EWS
 <a name="bk_createews"> </a>
@@ -104,7 +102,7 @@ For example, you can create an email message and send it by using the code in th
 
 The server responds to the **CreateItem** request with a [CreateItemResponse](http://msdn.microsoft.com/library/742a46a0-2475-45a0-b44f-90639a3f5a43%28Office.15%29.aspx) message that includes a [ResponseCode](http://msdn.microsoft.com/en-us/library/aa580757%28v=exchg.150%29.aspx) value of **NoError**, which indicates that the email was created successfully, and the [ItemId](http://msdn.microsoft.com/library/3350b597-57a0-4961-8f44-8624946719b4%28Office.15%29.aspx) of the newly created message. 
   
-To learn how to create a meeting or appointment item by using EWS, see [How to: Create appointments and meetings by using EWS in Exchange 2013](how-to-create-appointments-and-meetings-by-using-ews-in-exchange-2013.md).
+To learn how to create a meeting or appointment item by using EWS, see [Create appointments and meetings by using EWS in Exchange 2013](how-to-create-appointments-and-meetings-by-using-ews-in-exchange-2013.md).
   
 ## Get an item by using the EWS Managed API
 <a name="bk_getewsma"> </a>
@@ -166,7 +164,7 @@ FindItemsResults<Appointment> appointments = calendar.FindAppointments(cView);
 
 Note that the information the server returns in the **Bind** method response is different than the information that the server returns for a **FindItem** or **FindAppointment** method response. The **Bind** method can return all the schematized properties, whereas the **FindItem** and **FindAppointment** methods do not return all the schematized properties. So if you need full access to the item, you'll have to use the **Bind** method. If you don't have the item **Id** of the item you'd like to retrieve, use the **FindItem** or **FindAppointment** methods to retrieve the Id, and then use the **Bind** method to retrieve the properties you need. 
   
-To learn how to get a meeting or appointment item by using the EWS Managed API, see [How to: Get appointments and meetings by using EWS in Exchange](how-to-get-appointments-and-meetings-by-using-ews-in-exchange.md).
+To learn how to get a meeting or appointment item by using the EWS Managed API, see [Get appointments and meetings by using EWS in Exchange](how-to-get-appointments-and-meetings-by-using-ews-in-exchange.md).
   
 ## Get an item by using EWS
 <a name="bk_getews"> </a>
@@ -272,7 +270,7 @@ The server responds to the **FindItem** request with a [FindItemResponse](http:/
   
 Note that the information the server returns in the **GetItem** operation response is different than the information the server returns in a **FindItem** or **FindAppointment** operation response. The **GetItem** operation can return all the schematized properties, whereas the **FindItem** and **FindAppointment** operations do not return all the schematized properties. So if you need full access to the item, you'll have to use the **GetItem** operation. If you don't have the **ItemId** of the item you'd like to retrieve, use the **FindItem** or **FindAppointment** operations to retrieve the **ItemId**, and then use the **GetItem** operation to retrieve the elements you need. 
   
-To learn how to get a meeting or appointment item by using EWS, see [How to: Get appointments and meetings by using EWS in Exchange](how-to-get-appointments-and-meetings-by-using-ews-in-exchange.md).
+To learn how to get a meeting or appointment item by using EWS, see [Get appointments and meetings by using EWS in Exchange](how-to-get-appointments-and-meetings-by-using-ews-in-exchange.md).
   
 ## Update an item by using the EWS Managed API
 <a name="bk_updateewsma"> </a>
@@ -300,7 +298,7 @@ item.Subject = "New subject";
 item.Update(ConflictResolutionMode.AlwaysOverwrite);
 ```
 
-To learn how to update a meeting or appointment item by using the EWS Managed API, see [How to: Update appointments and meetings by using EWS in Exchange](how-to-update-appointments-and-meetings-by-using-ews-in-exchange.md).
+To learn how to update a meeting or appointment item by using the EWS Managed API, see [Update appointments and meetings by using EWS in Exchange](how-to-update-appointments-and-meetings-by-using-ews-in-exchange.md).
   
 ## Update an item by using EWS
 <a name="bk_updateews"> </a>
@@ -341,7 +339,7 @@ The following example shows the XML **UpdateItem** operation request that is sen
 
 The server responds to the **UpdateItem** request with a [UpdateItemResponse](http://msdn.microsoft.com/library/023b79b4-c675-4669-9112-d85499ec4fc4%28Office.15%29.aspx) message that includes the a [ResponseCode](http://msdn.microsoft.com/en-us/library/aa580757%28v=exchg.150%29.aspx) value of **NoError**, which indicates that the item update was successful.
   
-To learn how to update a meeting or appointment item by using EWS, see [How to: Update appointments and meetings by using EWS in Exchange](how-to-update-appointments-and-meetings-by-using-ews-in-exchange.md).
+To learn how to update a meeting or appointment item by using EWS, see [Update appointments and meetings by using EWS in Exchange](how-to-update-appointments-and-meetings-by-using-ews-in-exchange.md).
   
 ## Delete an item by using the EWS Managed API
 <a name="bk_deleteewsma"> </a>
@@ -371,7 +369,7 @@ Item item = Item.Bind(service, itemId);
 item.Delete(DeleteMode.MoveToDeletedItems);
 ```
 
-For more details about deleting items, see [Deleting items by using EWS in Exchange](deleting-items-by-using-ews-in-exchange.md). To learn how to delete a meeting or appointment item by using the EWS Managed API, see [How to: Delete appointments and cancel meetings by using EWS in Exchange](how-to-delete-appointments-and-cancel-meetings-by-using-ews-in-exchange.md).
+For more details about deleting items, see [Deleting items by using EWS in Exchange](deleting-items-by-using-ews-in-exchange.md). To learn how to delete a meeting or appointment item by using the EWS Managed API, see [Delete appointments and cancel meetings by using EWS in Exchange](how-to-delete-appointments-and-cancel-meetings-by-using-ews-in-exchange.md).
   
 ## Delete an item by using EWS
 <a name="bk_deleteews"> </a>
@@ -398,20 +396,17 @@ The following example shows the XML request that is sent to the server to move t
 
 The server responds to the **DeleteItem** request with a [DeleteItemResponse](http://msdn.microsoft.com/library/86463d66-fe47-4a19-a81b-e24841e816ab%28Office.15%29.aspx) message that includes the a [ResponseCode](http://msdn.microsoft.com/en-us/library/aa580757%28v=exchg.150%29.aspx) value of **NoError**, which indicates that the item deletion was successful.
   
-For more details about deleting items, see [Deleting items by using EWS in Exchange](deleting-items-by-using-ews-in-exchange.md). To learn how to delete a meeting or appointment item by using EWS, see [How to: Delete appointments and cancel meetings by using EWS in Exchange](how-to-delete-appointments-and-cancel-meetings-by-using-ews-in-exchange.md).
+For more details about deleting items, see [Deleting items by using EWS in Exchange](deleting-items-by-using-ews-in-exchange.md). To learn how to delete a meeting or appointment item by using EWS, see [Delete appointments and cancel meetings by using EWS in Exchange](how-to-delete-appointments-and-cancel-meetings-by-using-ews-in-exchange.md).
   
 ## Move or copy items to another mailbox
 <a name="bk_movecopybtnmailboxes"> </a>
 
 You can move or copy items between mailboxes by using the [ExportItems](http://msdn.microsoft.com/library/e2846abb-0b16-4732-bbd8-038a674672f6%28Office.15%29.aspx) and [UploadItems](http://msdn.microsoft.com/library/a88cbe99-7968-454d-a545-4f92c330909f%28Office.15%29.aspx) operations. To learn more, see [Exporting and importing items by using EWS in Exchange](exporting-and-importing-items-by-using-ews-in-exchange.md).
   
-## Additional resources
-<a name="bk_addresources"> </a>
+## See also
 
-- [Folders and items in EWS in Exchange](folders-and-items-in-ews-in-exchange.md)
-    
-- [How to: Work with folders by using EWS in Exchange](how-to-work-with-folders-by-using-ews-in-exchange.md)
-    
+- [Folders and items in EWS in Exchange](folders-and-items-in-ews-in-exchange.md)    
+- [Work with folders by using EWS in Exchange](how-to-work-with-folders-by-using-ews-in-exchange.md)    
 - [Deleting items by using EWS in Exchange](deleting-items-by-using-ews-in-exchange.md)
     
 

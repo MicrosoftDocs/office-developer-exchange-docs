@@ -33,17 +33,17 @@ The **ApplyConversationActionResponse** element defines a response to an [ApplyC
 
 The following sections describe attributes, child elements, and parent elements.
   
-#### Attributes
+### Attributes
 
 None.
   
-#### Child elements
+### Child elements
 
 |**Element**|**Description**|
 |:-----|:-----|
 |[ResponseMessages](responsemessages.md) <br/> |Contains the response messages for an Exchange Web Services request.  <br/> |
    
-#### Parent elements
+### Parent elements
 
 None.
   
@@ -66,10 +66,10 @@ This element was introduced in Exchange Server 2010 Service Pack 1 (SP1).
    
 ## See also
 
-#### Reference
+
 
 [ApplyConversationAction operation](applyconversationaction-operation.md)
-#### Concepts
+
 
 [EWS XML elements in Exchange](ews-xml-elements-in-exchange.md)
 

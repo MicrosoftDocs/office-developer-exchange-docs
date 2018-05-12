@@ -33,11 +33,11 @@ The **TimeZone** element contains elements that identify time zone information. 
 
 The following sections describe attributes, child elements, and parent elements.
   
-#### Attributes
+### Attributes
 
 None.
   
-#### Child elements
+### Child elements
 
 |**Element**|**Description**|
 |:-----|:-----|
@@ -45,7 +45,7 @@ None.
 |[StandardTime](standardtime.md) <br/> |Represents an offset from the time relative to UTC represented by the [Bias (UTC)](bias-utc.md) element. This element also contains information about the transition to standard time from daylight saving time in regions where daylight saving time is observed.  <br/> |
 |[DaylightTime](daylighttime.md) <br/> |Represents an offset from the time relative to UTC represented by the [Bias (UTC)](bias-utc.md) element in regions where daylight saving time is observed. This element also contains information about when the transition to daylight saving time from standard time occurs.  <br/> |
    
-#### Parent elements
+### Parent elements
 
 |**Element**|**Description**|
 |:-----|:-----|
@@ -91,12 +91,12 @@ The following example shows part of an XML request that identifies an offset fro
    
 ## See also
 
-#### Reference
+
 
 [GetUserAvailability operation](getuseravailability-operation.md)
   
 [Bias](bias.md)
-#### Other resources
+
 
 [Getting User Availability](http://msdn.microsoft.com/library/d4133fcb-9b0f-4e6b-aadf-a389da83516a%28Office.15%29.aspx)
 

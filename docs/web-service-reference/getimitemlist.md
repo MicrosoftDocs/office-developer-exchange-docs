@@ -27,15 +27,15 @@ The **GetImItemList** element defines a request to get a list of instant messagi
 
 The following sections describe attributes, child elements, and parent elements.
   
-#### Attributes
+### Attributes
 
 None.
   
-#### Child elements
+### Child elements
 
 [ExtendedProperties (NonEmptyArrayOfExtendedFieldURIs)](extendedproperties-nonemptyarrayofextendedfielduris.md)
   
-#### Parent elements
+### Parent elements
 
 None.
   

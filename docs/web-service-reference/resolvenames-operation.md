@@ -218,10 +218,10 @@ The following elements are used in the error response:
     
 ## See also
 
-#### Reference
+
 
 [ExpandDL operation](expanddl-operation.md)
-#### Other resources
+
 
 [Using Name Resolution](http://msdn.microsoft.com/library/9257fb07-89d2-46eb-b885-e2173fe6fbc1%28Office.15%29.aspx)
 

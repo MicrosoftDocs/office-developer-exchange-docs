@@ -27,15 +27,15 @@ The **Professions** element specifies an array of **Profession** values and the 
 
 The following sections describe attributes, child elements, and parent elements.
   
-#### Attributes
+### Attributes
 
 None.
   
-#### Child elements
+### Child elements
 
 [StringAttributedValue](stringattributedvalue.md)
   
-#### Parent elements
+### Parent elements
 
 Persona
   

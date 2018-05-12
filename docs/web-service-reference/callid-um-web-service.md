@@ -36,15 +36,15 @@ The **CallId** element contains the value that represents the identifier of the 
 
 The following sections describe attributes, child elements, and parent elements.
   
-#### Attributes
+### Attributes
 
 None.
   
-#### Child elements
+### Child elements
 
 None.
   
-#### Parent elements
+### Parent elements
 
 |**Element**|**Description**|
 |:-----|:-----|
@@ -70,7 +70,7 @@ To initial a call, use the [PlayOnPhone operation (UM web service)](playonphone-
    
 ## See also
 
-#### Reference
+
 
 [GetCallInfo operation (UM web service)](getcallinfo-operation-um-web-service.md)
   

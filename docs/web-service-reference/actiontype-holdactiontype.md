@@ -25,15 +25,15 @@ The **ActionType** element indicates the type of action for the hold.
 
 The following sections describe attributes, child elements, and parent elements.
   
-#### Attributes
+### Attributes
 
 None.
   
-#### Child elements
+### Child elements
 
 None.
   
-#### Parent elements
+### Parent elements
 
 [SetHoldOnMailboxes](setholdonmailboxes.md)
   

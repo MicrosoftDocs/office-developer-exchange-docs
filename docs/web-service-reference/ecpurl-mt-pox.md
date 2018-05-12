@@ -33,15 +33,15 @@ The **EcpUrl-mt** element specifies a partial URL that can be combined with the 
 
 The following sections describe attributes, child elements, and parent elements.
   
-#### Attributes
+### Attributes
 
 None.
   
-#### Child elements
+### Child elements
 
 None.
   
-#### Parent elements
+### Parent elements
 
 |**Element**|**Description**|
 |:-----|:-----|
@@ -64,7 +64,7 @@ The **EcpUrl-mt** element is an optional child element of the **Protocol** eleme
   
 ## See also
 
-#### Concepts
+
 
 [POX Autodiscover XML elements for Exchange](pox-autodiscover-xml-elements-for-exchange.md)
 

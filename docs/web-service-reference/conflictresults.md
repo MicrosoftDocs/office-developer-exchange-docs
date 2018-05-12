@@ -39,17 +39,17 @@ The [ConflictResults](conflictresults.md) element contains the number of conflic
 
 The following sections describe attributes, child elements, and parent elements.
   
-#### Attributes
+### Attributes
 
 None.
   
-#### Child elements
+### Child elements
 
 |**Element**|**Description**|
 |:-----|:-----|
 |[Count](count.md) <br/> |Contains the number of conflicts in an [UpdateItem operation](updateitem-operation.md) response.  <br/> |
    
-#### Parent elements
+### Parent elements
 
 |**Element**|**Description**|
 |:-----|:-----|
@@ -70,7 +70,7 @@ The schema that describes this element is located in the EWS virtual directory o
    
 ## See also
 
-#### Reference
+
 
 [UpdateItem operation](updateitem-operation.md)
   

@@ -27,15 +27,15 @@ The **Urls** element specifies an array of URLs for a persona.
 
 The following sections describe attributes, child elements, and parent elements.
   
-#### Attributes
+### Attributes
 
 None.
   
-#### Child elements
+### Child elements
 
 [Url ](url-ex15websvcsotherref.md)
   
-#### Parent elements
+### Parent elements
 
 [Contact (ContactType)](contact-contacttype.md)
   

@@ -30,15 +30,15 @@ The **AddNewTelUriContactToGroup** element specifies the input data for the **Ad
 
 The following sections describe attributes, child elements, and parent elements.
   
-#### Attributes
+### Attributes
 
 None.
   
-#### Child elements
+### Child elements
 
 [TelUriAddress](teluriaddress.md) | [ImContactSipUriAddress](imcontactsipuriaddress.md) | [ImTelephoneNumber](imtelephonenumber.md) | [GroupId](groupid.md)
   
-#### Parent elements
+### Parent elements
 
 None.
   
@@ -59,10 +59,10 @@ The schema that describes this element is located in the IIS virtual directory t
    
 ## See also
 
-#### Reference
+
 
 [AddNewTelUriContactToGroup operation](addnewteluricontacttogroup-operation.md)
-#### Concepts
+
 
 [EWS XML elements in Exchange](ews-xml-elements-in-exchange.md)
 

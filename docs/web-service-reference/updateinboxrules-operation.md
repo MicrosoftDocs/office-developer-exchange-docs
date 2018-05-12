@@ -336,7 +336,7 @@ The following elements are used in the response:
     
 ## See also
 
-#### Reference
+
 
 [GetInboxRules operation](getinboxrules-operation.md)
 

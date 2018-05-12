@@ -28,17 +28,17 @@ The **DomainSettings** element represents the domain settings that were submitte
 
 The following sections describe attributes, child elements, and parent elements.
   
-#### Attributes
+### Attributes
 
 None.
   
-#### Child elements
+### Child elements
 
 |**Element**|**Description**|
 |:-----|:-----|
 |[DomainSetting (SOAP)](domainsetting-soap.md) <br/> |Contains domain settings that are returned by a [GetDomainSettings operation (SOAP)](getdomainsettings-operation-soap.md) request.  <br/> |
    
-#### Parent elements
+### Parent elements
 
 |**Element**|**Description**|
 |:-----|:-----|
@@ -59,7 +59,7 @@ None.
    
 ## See also
 
-#### Reference
+
 
 [GetDomainSettings operation (SOAP)](getdomainsettings-operation-soap.md)
 

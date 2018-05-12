@@ -1,5 +1,5 @@
 ---
-title: "How to Import items by using EWS in Exchange"
+title: "Import items by using EWS in Exchange"
  
  
 manager: sethgros
@@ -12,7 +12,7 @@ ms.assetid: dd3d3221-c98e-4fa0-81f0-77f733d2f432
 description: "Learn how to import appointments, emails, contacts, tasks, and other items by using the EWS Managed API or EWS in Exchange."
 ---
 
-# How to: Import items by using EWS in Exchange
+# Import items by using EWS in Exchange
 
 Learn how to import appointments, emails, contacts, tasks, and other items by using the EWS Managed API or EWS in Exchange.
   
@@ -182,12 +182,12 @@ You can use the [CreateItem](http://msdn.microsoft.com/library/78a52120-f1d0-4ed
 
 After you import items into a mailbox, you might want to [create a custom folder to store your imported items](how-to-work-with-folders-by-using-ews-in-exchange.md), or [synchronize your client and mailbox items](mailbox-synchronization-and-ews-in-exchange.md).
   
-## Additional resources
-<a name="bk_addresources"> </a>
+## See also
+
 
 - [Exporting and importing items by using EWS in Exchange](exporting-and-importing-items-by-using-ews-in-exchange.md)
     
-- [How to: Export items by using EWS in Exchange](how-to-export-items-by-using-ews-in-exchange.md)
+- [Export items by using EWS in Exchange](how-to-export-items-by-using-ews-in-exchange.md)
     
 - [Folders and items in EWS in Exchange](folders-and-items-in-ews-in-exchange.md)
     

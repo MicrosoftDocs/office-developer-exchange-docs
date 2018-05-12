@@ -110,11 +110,11 @@ The **Contact** element represents a contact item in the Exchange store.
 
 The following sections describe attributes, child elements, and parent elements.
   
-#### Attributes
+### Attributes
 
 None.
   
-#### Child elements
+### Child elements
 
 |**Element name**|**Description**|
 |:-----|:-----|
@@ -199,7 +199,7 @@ None.
 |[ManagerMailbox](managermailbox.md) <br/> |Contains SMTP information that identifies the manager mailbox of the contact.  <br/> |
 |[DirectReports](directreports.md) <br/> |Contains SMTP information that identifies the direct reports of a contact.  <br/> |
    
-#### Parent elements
+### Parent elements
 
 |**Element name**|**Description**|
 |:-----|:-----|
@@ -233,10 +233,10 @@ The schema that describes this element is located in the IIS virtual directory t
    
 ## See also
 
-#### Concepts
+
 
 [EWS XML elements in Exchange](ews-xml-elements-in-exchange.md)
-#### Other resources
+
 
 [Creating Contacts (Exchange Web Services)](http://msdn.microsoft.com/library/4845917e-70d1-481c-bbd7-011ec6571789%28Office.15%29.aspx)
   

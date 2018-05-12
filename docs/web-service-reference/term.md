@@ -28,15 +28,15 @@ The **Term** element specifies a highlighted term in a **FindConversation** or *
 
 The following sections describe attributes, child elements, and parent elements.
   
-#### Attributes
+### Attributes
 
 None.
   
-#### Child elements
+### Child elements
 
 [Scope (HighlightTermType)](scope-highlighttermtype.md) | [Value](value.md)
   
-#### Parent elements
+### Parent elements
 
 [HighlightTerms](highlightterms.md)
   

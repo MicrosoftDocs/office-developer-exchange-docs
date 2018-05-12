@@ -31,11 +31,11 @@ The **Restriction** element represents the restriction or query that is used to 
 
 The following sections describe attributes, child elements, and parent elements.
   
-#### Attributes
+### Attributes
 
 None.
   
-#### Child elements
+### Child elements
 
 |**Element**|**Description**|
 |:-----|:-----|
@@ -53,7 +53,7 @@ None.
 |[Or](or.md) <br/> |Represents a search expression that performs a logical **OR** operation on the search expression it contains. The **Or** element will return **true** if any of its children return **true**.  <br/> |
 |[SearchExpression](searchexpression.md) <br/> |Represents the substituted element within a restriction. This element is not used in an XML instance document.  <br/> |
    
-#### Parent elements
+### Parent elements
 
 |**Element**|**Description**|
 |:-----|:-----|
@@ -76,7 +76,7 @@ The schema that describes this element is located in the EWS virtual directory o
    
 ## See also
 
-#### Concepts
+
 
 [EWS XML elements in Exchange](ews-xml-elements-in-exchange.md)
 

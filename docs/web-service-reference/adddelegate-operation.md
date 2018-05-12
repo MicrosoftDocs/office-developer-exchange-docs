@@ -159,7 +159,7 @@ If the ErrorDelegateAlreadyExists response code is returned when you try to add 
   
 ## See also
 
-#### Other resources
+
 
 [Adding Delegates](http://msdn.microsoft.com/library/3a744150-66a3-4a13-9433-793603ba5038%28Office.15%29.aspx)
 

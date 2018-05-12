@@ -35,15 +35,15 @@ The **DirectoryPort** element specifies the port that is used to connect to the 
 
 The following sections describe attributes, child elements, and parent elements.
   
-#### Attributes
+### Attributes
 
 None.
   
-#### Child elements
+### Child elements
 
 None.
   
-#### Parent elements
+### Parent elements
 
 |**Element**|**Description**|
 |:-----|:-----|
@@ -59,7 +59,7 @@ The **DirectoryPort** element is only used when the [Type (POX)](type-pox.md) el
   
 ## See also
 
-#### Concepts
+
 
 [POX Autodiscover XML elements for Exchange](pox-autodiscover-xml-elements-for-exchange.md)
 

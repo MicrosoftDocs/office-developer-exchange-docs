@@ -30,15 +30,15 @@ The ResetPIN element defines a [ResetPIN operation (UM web service)](resetpin-op
 
 The following sections describe attributes, child elements, and parent elements.
   
-#### Attributes
+### Attributes
 
 None.
   
-#### Child elements
+### Child elements
 
 None.
   
-#### Parent elements
+### Parent elements
 
 None.
   
@@ -57,7 +57,7 @@ None.
    
 ## See also
 
-#### Reference
+
 
 [ResetPIN operation (UM web service)](resetpin-operation-um-web-service.md)
 

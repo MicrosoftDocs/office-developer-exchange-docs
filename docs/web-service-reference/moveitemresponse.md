@@ -31,17 +31,17 @@ The **MoveItemResponse** element defines a response to a MoveItem request.
 
 The following sections describe attributes, child elements, and parent elements.
   
-#### Attributes
+### Attributes
 
 None.
   
-#### Child elements
+### Child elements
 
 |**Element**|**Description**|
 |:-----|:-----|
 |[ResponseMessages](responsemessages.md) <br/> |Contains the response messages for an Exchange Web Services request.  <br/> |
    
-#### Parent elements
+### Parent elements
 
 None.
   

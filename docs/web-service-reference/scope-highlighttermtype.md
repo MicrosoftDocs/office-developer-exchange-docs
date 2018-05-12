@@ -25,15 +25,15 @@ The **Scope** element specifies the string to be highlighted.
 
 The following sections describe attributes, child elements, and parent elements.
   
-#### Attributes
+### Attributes
 
 None.
   
-#### Child elements
+### Child elements
 
 None.
   
-#### Parent elements
+### Parent elements
 
 [Term](term.md)
   

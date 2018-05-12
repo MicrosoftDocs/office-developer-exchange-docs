@@ -28,15 +28,15 @@ The **GetUserPhoto** element contains the request to get a user's photo.
 
 The following sections describe attributes, child elements, and parent elements.
   
-#### Attributes
+### Attributes
 
 None.
   
-#### Child elements
+### Child elements
 
 [Email (String)](email-string.md) | [SizeRequested](sizerequested.md)
   
-#### Parent elements
+### Parent elements
 
 None.
   

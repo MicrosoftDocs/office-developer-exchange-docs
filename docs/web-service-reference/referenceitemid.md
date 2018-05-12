@@ -29,18 +29,18 @@ The **ReferenceItemId** element identifies the item to which the response object
 
 The following sections describe attributes, child elements, and parent elements.
   
-#### Attributes
+### Attributes
 
 |**Attribute**|**Description**|
 |:-----|:-----|
 |**Id** <br/> |Identifies a specific item in the Exchange store.  <br/> |
 |**ChangeKey** <br/> |Identifies a specific version of an item.  <br/> |
    
-#### Child elements
+### Child elements
 
 None.
   
-#### Parent elements
+### Parent elements
 
 |**Element**|**Description**|
 |:-----|:-----|
@@ -70,7 +70,7 @@ The schema that describes this element is located in the IIS Virtual directory t
    
 ## See also
 
-#### Concepts
+
 
 [EWS XML elements in Exchange](ews-xml-elements-in-exchange.md)
 

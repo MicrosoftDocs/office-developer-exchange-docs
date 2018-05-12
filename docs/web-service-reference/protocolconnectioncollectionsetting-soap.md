@@ -29,18 +29,18 @@ The **ProtocolConnectionCollectionSetting** element represents a collection of s
 
 The following sections describe attributes, child elements, and parent elements.
   
-#### Attributes
+### Attributes
 
 None.
   
-#### Child elements
+### Child elements
 
 |**Element**|**Description**|
 |:-----|:-----|
 |[Name (SOAP)](name-soap.md) <br/> |Represents the name of a setting.  <br/> |
 |[ProtocolConnections (SOAP)](protocolconnections-soap.md) <br/> |Contains zero or more protocol connections.  <br/> |
    
-#### Parent elements
+### Parent elements
 
 None.
   
@@ -59,7 +59,7 @@ None.
    
 ## See also
 
-#### Reference
+
 
 [GetUserSettings operation (SOAP)](getusersettings-operation-soap.md)
   

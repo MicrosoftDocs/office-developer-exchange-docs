@@ -27,15 +27,15 @@ The **ExtendedProperties** element contains the extended properties used for the
 
 The following sections describe attributes, child elements, and parent elements.
   
-#### Attributes
+### Attributes
 
 None.
   
-#### Child elements
+### Child elements
 
 [ExtendedProperty (PathToExtendedFieldType)](extendedproperty-pathtoextendedfieldtype.md)
   
-#### Parent elements
+### Parent elements
 
 [GetImItems](getimitems.md) | [GetImItemList](getimitemlist.md)
   

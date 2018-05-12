@@ -281,7 +281,7 @@ The following elements are used in the error response:
     
 ## See also
 
-#### Reference
+
 
 [GetItem operation](getitem-operation.md)
 

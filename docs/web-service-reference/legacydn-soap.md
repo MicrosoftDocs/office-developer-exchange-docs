@@ -26,15 +26,15 @@ The **LegacyDN** element represents the alternate mailbox legacy distinguished n
 
 The following sections describe attributes, child elements, and parent elements.
   
-#### Attributes
+### Attributes
 
 None.
   
-#### Child elements
+### Child elements
 
 None.
   
-#### Parent elements
+### Parent elements
 
 |**Element**|**Description**|
 |:-----|:-----|
@@ -55,7 +55,7 @@ The value of the **LegacyDN** element is the alternate mailbox legacy distinguis
    
 ## See also
 
-#### Reference
+
 
 [AlternateMailboxCollectionSetting (SOAP)](alternatemailboxcollectionsetting-soap.md)
 

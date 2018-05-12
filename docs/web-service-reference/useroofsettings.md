@@ -39,11 +39,11 @@ The **UserOofSettings** element specifies the Out of Office (OOF) settings.
 
 The following sections describe attributes, child elements, and parent elements.
   
-#### Attributes
+### Attributes
 
 None.
   
-#### Child elements
+### Child elements
 
 |**Element**|**Description**|
 |:-----|:-----|
@@ -53,7 +53,7 @@ None.
 |[InternalReply](internalreply.md) <br/> |Contains the OOF response sent to other users in the user's domain or trusted domains.  <br/> |
 |[ExternalReply](externalreply.md) <br/> |Contains the OOF response sent to addresses outside the recipient's domain or trusted domains.  <br/> |
    
-#### Parent elements
+### Parent elements
 
 |**Element**|**Description**|
 |:-----|:-----|
@@ -107,7 +107,7 @@ The following example of a SetUserOofSettings request sets the OoFState to **Ena
    
 ## See also
 
-#### Reference
+
 
 [SetUserOofSettings operation](setuseroofsettings-operation.md)
 

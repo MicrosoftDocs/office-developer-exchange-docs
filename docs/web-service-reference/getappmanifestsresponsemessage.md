@@ -30,7 +30,7 @@ The **GetAppManifestsResponseMessage** element specifies the response message fo
 
 The following sections describe attributes, child elements, and parent elements.
   
-#### Attributes
+### Attributes
 
 |**Attribute**|**Description**|
 |:-----|:-----|
@@ -44,7 +44,7 @@ The following sections describe attributes, child elements, and parent elements.
 |Warning  <br/> |Indicates a warning.  <br/> |
 |Error  <br/> |Indicates an error.  <br/> |
    
-#### Child elements
+### Child elements
 
 |**Element**|**Description**|
 |:-----|:-----|
@@ -53,7 +53,7 @@ The following sections describe attributes, child elements, and parent elements.
 |[MessageXml](messagexml.md) <br/> |Provides additional error response information.  <br/> |
 |[ResponseCode](responsecode.md) <br/> |Provides status information about the request.  <br/> |
    
-#### Parent elements
+### Parent elements
 
 |**Element**|**Description**|
 |:-----|:-----|
@@ -76,7 +76,7 @@ The schema that describes this element is located in the IIS virtual directory t
    
 ## See also
 
-#### Concepts
+
 
 [EWS XML elements in Exchange](ews-xml-elements-in-exchange.md)
 

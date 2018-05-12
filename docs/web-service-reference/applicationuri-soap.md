@@ -26,15 +26,15 @@ The **ApplicationUri** element defines the location of an application.
 
 The following sections describe attributes, child elements, and parent elements.
   
-#### Attributes
+### Attributes
 
 None.
   
-#### Child elements
+### Child elements
 
 None.
   
-#### Parent elements
+### Parent elements
 
 |**Element**|**Description**|
 |:-----|:-----|
@@ -55,7 +55,7 @@ The text value represents the URI of the application.
    
 ## See also
 
-#### Reference
+
 
 [GetFederationInformation operation (SOAP)](getfederationinformation-operation-soap.md)
 

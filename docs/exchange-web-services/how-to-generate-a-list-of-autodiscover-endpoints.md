@@ -1,5 +1,5 @@
 ---
-title: "How to Generate a list of Autodiscover endpoints"
+title: "Generate a list of Autodiscover endpoints"
  
  
 manager: sethgros
@@ -12,7 +12,7 @@ ms.assetid: 82394d3c-9fc7-4b3c-b48d-1fe983c198f7
 description: "Find out how to generate a prioritized list of Autodiscover endpoints."
 ---
 
-# How to: Generate a list of Autodiscover endpoints
+# Generate a list of Autodiscover endpoints
 
 Find out how to generate a prioritized list of Autodiscover endpoints.
   
@@ -73,12 +73,12 @@ The EWS application in this example prefers the SOAP Autodiscover web service, s
 
 After you generate a list of Autodiscover endpoints, try them by [sending requests to those endpoints](how-to-get-user-settings-from-exchange-by-using-autodiscover.md).
   
-## Additional resources
-<a name="bk_addresources"> </a>
+## See also
+
 
 - [Autodiscover for Exchange](autodiscover-for-exchange.md)
     
-- [How to: Find Autodiscover endpoints by using SCP lookup in Exchange](how-to-find-autodiscover-endpoints-by-using-scp-lookup-in-exchange.md)
+- [Find Autodiscover endpoints by using SCP lookup in Exchange](how-to-find-autodiscover-endpoints-by-using-scp-lookup-in-exchange.md)
     
 - [Handling Autodiscover error messages](handling-autodiscover-error-messages.md)
     

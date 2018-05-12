@@ -32,17 +32,17 @@ The **GetCallInfo** element defines a request to get information about a call.
 
 The following sections describe attributes, child elements, and parent elements.
   
-#### Attributes
+### Attributes
 
 None.
   
-#### Child elements
+### Child elements
 
 |**Element**|**Description**|
 |:-----|:-----|
 |[CallId (UM web service)](callid-um-web-service.md) <br/> |Contains the identifier of the call about which to get information.  <br/> |
    
-#### Parent elements
+### Parent elements
 
 None.
   
@@ -61,7 +61,7 @@ None.
    
 ## See also
 
-#### Reference
+
 
 [GetCallInfo operation (UM web service)](getcallinfo-operation-um-web-service.md)
 

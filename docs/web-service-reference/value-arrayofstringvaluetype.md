@@ -25,15 +25,15 @@ The **Value** element specifies a value in an array of persona properties associ
 
 The following sections describe attributes, child elements, and parent elements.
   
-#### Attributes
+### Attributes
 
 None.
   
-#### Child elements
+### Child elements
 
 None.
   
-#### Parent elements
+### Parent elements
 
 [Values (ArrayOfStringValueType)](values-arrayofstringvaluetype.md)
   

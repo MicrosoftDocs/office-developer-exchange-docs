@@ -29,15 +29,15 @@ The **MailboxHoldResult** element contains the result of the **GetHoldOnMailboxe
 
 The following sections describe attributes, child elements, and parent elements.
   
-#### Attributes
+### Attributes
 
 None.
   
-#### Child elements
+### Child elements
 
 [HoldId](holdid.md) | [Query](query.md) | [MailboxHoldStatuses](mailboxholdstatuses.md)
   
-#### Parent elements
+### Parent elements
 
 None.
   

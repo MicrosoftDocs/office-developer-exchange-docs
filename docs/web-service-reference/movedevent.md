@@ -36,11 +36,11 @@ The **MovedEvent** element represents an event in which an item or folder is mov
 
 The following sections describe attributes, child elements, and parent elements.
   
-#### Attributes
+### Attributes
 
 None.
   
-#### Child elements
+### Child elements
 
 |**Element**|**Description**|
 |:-----|:-----|
@@ -53,7 +53,7 @@ None.
 |[OldItemId](olditemid.md) <br/> |Contains the unique identifier of the original item before it was moved.  <br/> |
 |[OldParentFolderId](oldparentfolderid.md) <br/> |Contains the identifier of the original parent folder of an item or folder that was moved.  <br/> |
    
-#### Parent elements
+### Parent elements
 
 |**Element**|**Description**|
 |:-----|:-----|
@@ -74,7 +74,7 @@ The schema that describes this element is located in the EWS virtual directory o
    
 ## See also
 
-#### Reference
+
 
 [Subscribe operation](subscribe-operation.md)
   

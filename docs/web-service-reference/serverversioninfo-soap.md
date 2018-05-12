@@ -32,11 +32,11 @@ The **ServerVersionInfo** element contains the version of the server that proces
 
 The following sections describe attributes, child elements, and parent elements.
   
-#### Attributes
+### Attributes
 
 None.
   
-#### Child elements
+### Child elements
 
 |**Element**|**Description**|
 |:-----|:-----|
@@ -46,7 +46,7 @@ None.
 |[MinorBuildNumber (SOAP)](minorbuildnumber-soap.md) <br/> |The minor build number for the server.  <br/> |
 |[Version (SOAP)](version-soap.md) <br/> |A description of the server product version.  <br/> |
    
-#### Parent elements
+### Parent elements
 
 None.
   

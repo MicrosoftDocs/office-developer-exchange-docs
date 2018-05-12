@@ -35,15 +35,15 @@ The **UsePOPAuth** element indicates whether the authentication information that
 
 The following sections describe attributes, child elements, and parent elements.
   
-#### Attributes
+### Attributes
 
 None.
   
-#### Child elements
+### Child elements
 
 None.
   
-#### Parent elements
+### Parent elements
 
 |**Element**|**Description**|
 |:-----|:-----|
@@ -59,7 +59,7 @@ The **UsePOPAuth** element is only used when [Type (POX)](type-pox.md) is SMTP.
   
 ## See also
 
-#### Concepts
+
 
 [POX Autodiscover XML elements for Exchange](pox-autodiscover-xml-elements-for-exchange.md)
 

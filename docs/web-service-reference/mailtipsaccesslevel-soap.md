@@ -24,15 +24,15 @@ The **MailTipsAccessLevel** element represents the **MailTipsAccessLevel** prope
 
 The following sections describe attributes, child elements, and parent elements.
   
-#### Attributes
+### Attributes
 
 None.
   
-#### Child elements
+### Child elements
 
 None.
   
-#### Parent elements
+### Parent elements
 
 |**Element**|**Description**|
 |:-----|:-----|
@@ -53,7 +53,7 @@ This element specifies the maximum amount of mail tips detail that will be retur
    
 ## See also
 
-#### Reference
+
 
 [GetOrganizationRelationshipSettings operation (SOAP)](getorganizationrelationshipsettings-operation-soap.md)
 

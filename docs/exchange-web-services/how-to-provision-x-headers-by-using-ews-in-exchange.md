@@ -1,5 +1,5 @@
 ---
-title: "How to Provision x-headers by using EWS in Exchange"
+title: "Provision x-headers by using EWS in Exchange"
  
  
 manager: sethgros
@@ -12,7 +12,7 @@ ms.assetid: 45a99a14-a85f-47f8-af48-18eb6c6cc230
 description: "Learn how to provision x-headers for a mailbox by using the EWS Managed API or EWS in Exchange."
 ---
 
-# How to: Provision x-headers by using EWS in Exchange
+# Provision x-headers by using EWS in Exchange
 
 Learn how to provision x-headers for a mailbox by using the EWS Managed API or EWS in Exchange.
   
@@ -109,8 +109,8 @@ The first time that you provision an x-header in Exchange Online, Exchange Onlin
 
 This article shows you how to provision an x-header for a single mailbox by sending an email to a user. You can also provision an x-header for many users by [sending a batch email to a list of recipients](how-to-process-email-messages-in-batches-by-using-ews-in-exchange.md) in the caller's organization. 
   
-## Additional resources
-<a name="bk_addresources"> </a>
+## See also
+
 
 - [Properties and extended properties in EWS in Exchange](properties-and-extended-properties-in-ews-in-exchange.md)
     
@@ -124,6 +124,6 @@ This article shows you how to provision an x-header for a single mailbox by send
     
 - [EWS, MIME, and the missing Internet message headers](http://msdn.microsoft.com/library/office/hh545614%28v=exchg.140%29.aspx)
     
-- [How to: Process email messages in batches by using EWS in Exchange](how-to-process-email-messages-in-batches-by-using-ews-in-exchange.md)
+- [Process email messages in batches by using EWS in Exchange](how-to-process-email-messages-in-batches-by-using-ews-in-exchange.md)
     
 

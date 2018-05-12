@@ -33,15 +33,15 @@ The **EmwsUrl** element specifies the URL of the best endpoint instance for Exch
 
 The following sections describe attributes, child elements, and parent elements.
   
-#### Attributes
+### Attributes
 
 None.
   
-#### Child elements
+### Child elements
 
 None.
   
-#### Parent elements
+### Parent elements
 
 |**Element**|**Description**|
 |:-----|:-----|
@@ -57,7 +57,7 @@ The **EmwsUrl** element is an optional child element of the **Protocol** element
   
 ## See also
 
-#### Concepts
+
 
 [POX Autodiscover XML elements for Exchange](pox-autodiscover-xml-elements-for-exchange.md)
 

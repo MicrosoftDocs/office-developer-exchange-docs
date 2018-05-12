@@ -31,20 +31,20 @@ The **UserConfigurationName** element represents the name of a user configuratio
 
 The following sections describe attributes, child elements, and parent elements.
   
-#### Attributes
+### Attributes
 
 |**Attribute**|**Description**|
 |:-----|:-----|
 |**Name** <br/> |Contains a string value that represents the name of a user configuration object. This attribute is required.  <br/> |
    
-#### Child elements
+### Child elements
 
 |**Element**|**Description**|
 |:-----|:-----|
 |[FolderId](folderid.md) <br/> |Represents the folder identifier of the folder that contains the user configuration object.  <br/> |
 |[DistinguishedFolderId](distinguishedfolderid.md) <br/> |Represents a distinguished folder name of the folder that contains the user configuration object.  <br/> |
    
-#### Parent elements
+### Parent elements
 
 |**Element**|**Description**|
 |:-----|:-----|
@@ -71,7 +71,7 @@ The schema that describes this element is located in the IIS virtual directory t
    
 ## See also
 
-#### Concepts
+
 
 [EWS XML elements in Exchange](ews-xml-elements-in-exchange.md)
 

@@ -32,17 +32,17 @@ The **SetOofStatus** element defines a request to set the Unified Messaging Out 
 
 The following sections describe attributes, child elements, and parent elements.
   
-#### Attributes
+### Attributes
 
 None.
   
-#### Child elements
+### Child elements
 
 |**Element**|**Description**|
 |:-----|:-----|
 |[Status (UM web service - SetOofStatus)](status-um-web-servicesetoofstatus.md) <br/> |Defines a value to use in a [SetOofStatus operation (UM web service)](setoofstatus-operation-um-web-service.md) request.  <br/> |
    
-#### Parent elements
+### Parent elements
 
 None.
   
@@ -61,7 +61,7 @@ None.
    
 ## See also
 
-#### Reference
+
 
 [SetOofStatus operation (UM web service)](setoofstatus-operation-um-web-service.md)
   

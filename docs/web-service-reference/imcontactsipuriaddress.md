@@ -25,15 +25,15 @@ The **ImContactSipUriAddress** element contains the SIP URI address of a contact
 
 The following sections describe attributes, child elements, and parent elements.
   
-#### Attributes
+### Attributes
 
 None.
   
-#### Child elements
+### Child elements
 
 None.
   
-#### Parent elements
+### Parent elements
 
 [AddNewTelUriContactToGroup](addnewteluricontacttogroup.md)
   

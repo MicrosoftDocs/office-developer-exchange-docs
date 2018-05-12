@@ -45,11 +45,11 @@ The **Actions** element represents the set of actions that are available to be t
 
 The following sections describe attributes, child elements, and parent elements.
   
-#### Attributes
+### Attributes
 
 None.
   
-#### Child elements
+### Child elements
 
 |**Element**|**Description**|
 |:-----|:-----|
@@ -67,7 +67,7 @@ None.
 |[ServerReplyWithMessage](serverreplywithmessage.md) <br/> |Indicates. the ID of the template message that is to be sent as a reply to incoming messages.  <br/> |
 |[StopProcessingRules](stopprocessingrules.md) <br/> |Indicates whether subsequent rules are to be evaluated.  <br/> |
    
-#### Parent elements
+### Parent elements
 
 |**Element**|**Description**|
 |:-----|:-----|
@@ -92,10 +92,10 @@ The schema that describes this element is located in the IIS virtual directory t
    
 ## See also
 
-#### Reference
+
 
 [Conditions](conditions.md)
-#### Concepts
+
 
 [EWS XML elements in Exchange](ews-xml-elements-in-exchange.md)
 

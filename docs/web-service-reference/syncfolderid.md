@@ -31,18 +31,18 @@ The **SyncFolderId** element represents the folder that contains the items to sy
 
 The following sections describe attributes, child elements, and parent elements.
   
-#### Attributes
+### Attributes
 
 None.
   
-#### Child elements
+### Child elements
 
 |**Element**|**Description**|
 |:-----|:-----|
 |[FolderId](folderid.md) <br/> |Contains the identifier and change key of a folder.  <br/> |
 |[DistinguishedFolderId](distinguishedfolderid.md) <br/> |Identifies MicrosoftExchange Server 2007 folders that can be referenced by name.  <br/> |
    
-#### Parent elements
+### Parent elements
 
 |**Element**|**Description**|
 |:-----|:-----|
@@ -64,10 +64,10 @@ The schema that describes this element is located in the EWS virtual directory o
    
 ## See also
 
-#### Reference
+
 
 [SyncFolderItems operation](syncfolderitems-operation.md)
-#### Concepts
+
 
 [EWS XML elements in Exchange](ews-xml-elements-in-exchange.md)
 

@@ -27,15 +27,15 @@ The **TaskSuggestions** element specifies an array of task suggestions extracted
 
 The following sections describe attributes, child elements, and parent elements.
   
-#### Attributes
+### Attributes
 
 None.
   
-#### Child elements
+### Child elements
 
 [TaskSuggestion](tasksuggestion.md)
   
-#### Parent elements
+### Parent elements
 
 [EntityExtractionResult](entityextractionresult.md)
   

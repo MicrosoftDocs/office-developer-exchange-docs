@@ -57,7 +57,7 @@ The following example of a Disconnect response shows a response to the Disconnec
 
 ## See also
 
-#### Reference
+
 
 [Disconnect (UM web service)](disconnect-um-web-service.md)
   

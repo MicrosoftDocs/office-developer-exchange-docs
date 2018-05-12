@@ -28,15 +28,15 @@ The **Value** element specifies a phone number and type information and is assoc
 
 The following sections describe attributes, child elements, and parent elements.
   
-#### Attributes
+### Attributes
 
 None.
   
-#### Child elements
+### Child elements
 
 [Number](number.md) | [Type (string)](type-string.md)
   
-#### Parent elements
+### Parent elements
 
 [PhoneNumberAttributedValue](phonenumberattributedvalue.md)
   

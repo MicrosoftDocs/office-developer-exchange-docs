@@ -32,11 +32,11 @@ The **DomainResponse** element contains the requested settings for the specified
 
 The following sections describe attributes, child elements, and parent elements.
   
-#### Attributes
+### Attributes
 
 None.
   
-#### Child elements
+### Child elements
 
 |**Element**|**Description**|
 |:-----|:-----|
@@ -46,7 +46,7 @@ None.
 |[ErrorCode (SOAP)](errorcode-soap.md) <br/> |Specifies the error code that is associated with the specific request.  <br/> |
 |[ErrorMessage (SOAP)](errormessage-soap.md) <br/> |Specifies the error message that is associated with the specific request.  <br/> |
    
-#### Parent elements
+### Parent elements
 
 |**Element**|**Description**|
 |:-----|:-----|
@@ -68,7 +68,7 @@ None.
    
 ## See also
 
-#### Reference
+
 
 [GetDomainSettings operation (SOAP)](getdomainsettings-operation-soap.md)
 

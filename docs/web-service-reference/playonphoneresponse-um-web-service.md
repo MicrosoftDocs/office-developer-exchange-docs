@@ -30,15 +30,15 @@ The **PlayOnPhoneResponse** element defines a response to a [PlayOnPhone operati
 
 The following sections describe attributes, child elements, and parent elements.
   
-#### Attributes
+### Attributes
 
 None.
   
-#### Child elements
+### Child elements
 
 None.
   
-#### Parent elements
+### Parent elements
 
 None.
   
@@ -57,7 +57,7 @@ A text value is required. The text value is the call identifier to use for the v
    
 ## See also
 
-#### Reference
+
 
 [PlayOnPhone operation (UM web service)](playonphone-operation-um-web-service.md)
 

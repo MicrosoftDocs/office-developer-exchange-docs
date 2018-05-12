@@ -32,18 +32,18 @@ The **Duration** element specifies the duration that the out of office (OOF) sta
 
 The following sections describe attributes, child elements, and parent elements.
   
-#### Attributes
+### Attributes
 
 None.
   
-#### Child elements
+### Child elements
 
 |**Element**|**Description**|
 |:-----|:-----|
 |[StartTime](starttime.md) <br/> |Represents the start of the time span set with an OOF status. This element is required.  <br/> |
 |[EndTime](endtime.md) <br/> |Represents the end of the time span set with an OOF status. This element is required.  <br/> |
    
-#### Parent elements
+### Parent elements
 
 |**Element**|**Description**|
 |:-----|:-----|
@@ -102,7 +102,7 @@ The following example of a [SetUserOofSettings operation](setuseroofsettings-ope
    
 ## See also
 
-#### Reference
+
 
 [GetUserOofSettings operation](getuseroofsettings-operation.md)
   

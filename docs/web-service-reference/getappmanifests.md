@@ -25,15 +25,15 @@ The **GetAppManifests** element is the base element for a request to return the 
 
 The following sections describe attributes, child elements, and parent elements.
   
-#### Attributes
+### Attributes
 
 None.
   
-#### Child elements
+### Child elements
 
 [ApiVersionSupported](apiversionsupported.md) | [SchemaVersionSupported](schemaversionsupported.md)
   
-#### Parent elements
+### Parent elements
 
 None.
   
@@ -56,7 +56,7 @@ The **GetAppManifests** element is applicable for clients that target Exchange O
    
 ## See also
 
-#### Concepts
+
 
 [EWS XML elements in Exchange](ews-xml-elements-in-exchange.md)
 

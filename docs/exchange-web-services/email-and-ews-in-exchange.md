@@ -36,7 +36,7 @@ Because email messages are simply [strongly typed items](folders-and-items-in-ew
 ## Create an email message by using the EWS Managed API
 <a name="bk_createewsma"> </a>
 
-You can create an email message by using the EWS Managed API [Save](http://msdn.microsoft.com/en-us/library/microsoft.exchange.webservices.data.emailmessage.save%28v=exchg.80%29.aspx) method, as shown in the code in the following example. Note that the example only saves the message in the Drafts folder, it does not send the message. For information about how to send the message or create and send the message in one step, see [How to: Send email messages by using EWS in Exchange](how-to-send-email-messages-by-using-ews-in-exchange.md).
+You can create an email message by using the EWS Managed API [Save](http://msdn.microsoft.com/en-us/library/microsoft.exchange.webservices.data.emailmessage.save%28v=exchg.80%29.aspx) method, as shown in the code in the following example. Note that the example only saves the message in the Drafts folder, it does not send the message. For information about how to send the message or create and send the message in one step, see [Send email messages by using EWS in Exchange](how-to-send-email-messages-by-using-ews-in-exchange.md).
   
 This example assumes that **service** is a valid [ExchangeService](http://msdn.microsoft.com/en-us/library/microsoft.exchange.webservices.data.exchangeservice%28v=exchg.80%29.aspx) object and that the user has been authenticated to an Exchange server. 
   
@@ -56,7 +56,7 @@ Console.WriteLine("A draft email message with the subject '" + message.Subject +
 ## Create an email message by using EWS
 <a name="bk_createews"> </a>
 
-You can create an email message by using the EWS [CreateItem](http://msdn.microsoft.com/library/fe6bb7fc-8918-4e6e-b0a1-b7e0ef44c3d1%28Office.15%29.aspx) operation, as shown in the following example. This is also the XML request that the EWS Managed API sends when you [create an email message](#bk_createewsma). Note that the following example only saves the message in the Drafts folder, it does not send the message. For information about how to send the message or create and send the message in one ste, see [How to: Send email messages by using EWS in Exchange](how-to-send-email-messages-by-using-ews-in-exchange.md).
+You can create an email message by using the EWS [CreateItem](http://msdn.microsoft.com/library/fe6bb7fc-8918-4e6e-b0a1-b7e0ef44c3d1%28Office.15%29.aspx) operation, as shown in the following example. This is also the XML request that the EWS Managed API sends when you [create an email message](#bk_createewsma). Note that the following example only saves the message in the Drafts folder, it does not send the message. For information about how to send the message or create and send the message in one ste, see [Send email messages by using EWS in Exchange](how-to-send-email-messages-by-using-ews-in-exchange.md).
   
 ```XML
 <?xml version="1.0" encoding="utf-8"?>
@@ -94,14 +94,14 @@ The server responds to the **CreateItem** request with a [CreateItemResponse](ht
 ## Get, update, and delete an email message by using the EWS Managed API
 <a name="bk_getewsma"> </a>
 
-You can use the EWS Managed API to get, update, or delete an email message in the same way that you perform these actions on any generic item from the Exchange store. For more information, see [How to: Work with Exchange mailbox items by using EWS in Exchange](how-to-work-with-exchange-mailbox-items-by-using-ews-in-exchange.md).
+You can use the EWS Managed API to get, update, or delete an email message in the same way that you perform these actions on any generic item from the Exchange store. For more information, see [Work with Exchange mailbox items by using EWS in Exchange](how-to-work-with-exchange-mailbox-items-by-using-ews-in-exchange.md).
   
 If you're updating an email message, see [Email properties and elements in EWS in Exchange](email-properties-and-elements-in-ews-in-exchange.md) for a list of writable email message properties. To send a draft message after you've updated it, see [Send a draft email message by using the EWS Managed API](how-to-send-email-messages-by-using-ews-in-exchange.md#bk_senddraftewsma).
   
 ## Get, update, and delete an email message by using EWS
 <a name="bk_getews"> </a>
 
-You can use EWS to get, update, and delete an email message in the same way that you perform these actions on any generic item from the Exchange store. For more information, see [How to: Work with Exchange mailbox items by using EWS in Exchange](how-to-work-with-exchange-mailbox-items-by-using-ews-in-exchange.md).
+You can use EWS to get, update, and delete an email message in the same way that you perform these actions on any generic item from the Exchange store. For more information, see [Work with Exchange mailbox items by using EWS in Exchange](how-to-work-with-exchange-mailbox-items-by-using-ews-in-exchange.md).
   
 If you're updating an email message, see [Email properties and elements in EWS in Exchange](email-properties-and-elements-in-ews-in-exchange.md) for a list of writable email message properties. To send a draft message after you've updated it, see [Send a draft email message by using EWS](how-to-send-email-messages-by-using-ews-in-exchange.md#bk_senddraftews).
   
@@ -110,20 +110,20 @@ If you're updating an email message, see [Email properties and elements in EWS i
 
 - [Email properties and elements in EWS in Exchange](email-properties-and-elements-in-ews-in-exchange.md)
     
-- [How to: Send email messages by using EWS in Exchange](how-to-send-email-messages-by-using-ews-in-exchange.md)
+- [Send email messages by using EWS in Exchange](how-to-send-email-messages-by-using-ews-in-exchange.md)
     
-- [How to: Respond to email messages by using EWS in Exchange](how-to-respond-to-email-messages-by-using-ews-in-exchange.md)
+- [Respond to email messages by using EWS in Exchange](how-to-respond-to-email-messages-by-using-ews-in-exchange.md)
     
-- [How to: Move and copy email messages by using EWS in Exchange](how-to-move-and-copy-email-messages-by-using-ews-in-exchange.md)
+- [Move and copy email messages by using EWS in Exchange](how-to-move-and-copy-email-messages-by-using-ews-in-exchange.md)
     
-- [How to: Work with conversations by using EWS in Exchange](how-to-work-with-conversations-by-using-ews-in-exchange.md)
+- [Work with conversations by using EWS in Exchange](how-to-work-with-conversations-by-using-ews-in-exchange.md)
     
-- [How to: Extract an entity from an email message by using EWS in Exchange](how-to-extract-an-entity-from-an-email-message-by-using-ews-in-exchange.md)
+- [Extract an entity from an email message by using EWS in Exchange](how-to-extract-an-entity-from-an-email-message-by-using-ews-in-exchange.md)
     
-- [How to: Process email messages in batches by using EWS in Exchange](how-to-process-email-messages-in-batches-by-using-ews-in-exchange.md)
+- [Process email messages in batches by using EWS in Exchange](how-to-process-email-messages-in-batches-by-using-ews-in-exchange.md)
     
-## Additional resources
-<a name="bk_addresources"> </a>
+## See also
+
 
 - [Develop web service clients for Exchange](develop-web-service-clients-for-exchange.md)
     

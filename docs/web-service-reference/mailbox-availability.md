@@ -33,11 +33,11 @@ The **Mailbox** element represents the mailbox user for a SetUserOofSettings or 
 
 The following sections describe attributes, child elements, and parent elements.
   
-#### Attributes
+### Attributes
 
 None.
   
-#### Child elements
+### Child elements
 
 |**Element**|**Description**|
 |:-----|:-----|
@@ -45,7 +45,7 @@ None.
 |[Address (string)](address-string.md) <br/> |Represents the e-mail address of the mailbox user. This element is required.  <br/> |
 |[RoutingType (EmailAddress)](routingtype-emailaddress.md) <br/> |Represents the routing protocol for the message. This element is optional in the SetUserOofSettingsRequest. The GetUserOofSettingsRequest will return this element.  <br/> |
    
-#### Parent elements
+### Parent elements
 
 |**Element**|**Description**|
 |:-----|:-----|
@@ -69,7 +69,7 @@ The schema that describes this element is located in the EWS virtual directory o
    
 ## See also
 
-#### Reference
+
 
 [GetUserOofSettings operation](getuseroofsettings-operation.md)
   

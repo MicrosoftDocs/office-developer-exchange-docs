@@ -31,15 +31,15 @@ The **SetHoldOnMailboxesResponseMessage** element specifies the response message
 
 The following sections describe attributes, child elements, and parent elements.
   
-#### Attributes
+### Attributes
 
 None.
   
-#### Child elements
+### Child elements
 
 [MessageText](messagetext.md) | [ResponseCode](responsecode.md) | [DescriptiveLinkKey](descriptivelinkkey.md) | [MessageXml](messagexml.md) | [MailboxHoldResult](mailboxholdresult.md)
   
-#### Parent elements
+### Parent elements
 
 [ResponseMessages](responsemessages.md)
   

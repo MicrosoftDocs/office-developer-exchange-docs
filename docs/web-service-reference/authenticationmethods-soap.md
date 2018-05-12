@@ -9,8 +9,6 @@ api_type:
 - schema
 ms.assetid: ae97c802-f6ef-46da-b774-ca0a5feb664f
 description: "The AuthenticationMethods element describes the authentication methods that are available for a Web client."
- 
- 
 ---
 
 # AuthenticationMethods (SOAP)
@@ -26,15 +24,15 @@ The **AuthenticationMethods** element describes the authentication methods that 
 
 The following sections describe attributes, child elements, and parent elements.
   
-#### Attributes
+### Attributes
 
 None.
   
-#### Child elements
+### Child elements
 
 None.
   
-#### Parent elements
+### Parent elements
 
 |**Element**|**Description**|
 |:-----|:-----|
@@ -55,7 +53,7 @@ The text value of the **AuthenticationMethods** element is the URL of the Outloo
    
 ## See also
 
-#### Reference
+
 
 [GetUserSettings operation (SOAP)](getusersettings-operation-soap.md)
 

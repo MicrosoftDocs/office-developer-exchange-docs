@@ -27,15 +27,15 @@ The **UserRoles** element specifies the user roles that the calling user, or the
 
 The following sections describe attributes, child elements, and parent elements.
   
-#### Attributes
+### Attributes
 
 None.
   
-#### Child elements
+### Child elements
 
 [Role](role.md)
   
-#### Parent elements
+### Parent elements
 
 [ManagementRole](managementrole.md)
   

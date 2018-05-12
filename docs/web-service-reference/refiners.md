@@ -27,15 +27,15 @@ The **Refiners** element specifies a list of one or more **Refiner** elements.
 
 The following sections describe attributes, child elements, and parent elements.
   
-#### Attributes
+### Attributes
 
 None.
   
-#### Child elements
+### Child elements
 
 [Refiner](refiner.md)
   
-#### Parent elements
+### Parent elements
 
 [SearchMailboxesResult](searchmailboxesresult.md)
   

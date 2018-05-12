@@ -25,15 +25,15 @@ The **PersonaObjectStatus** element specifies whether the information in the ass
 
 The following sections describe attributes, child elements, and parent elements.
   
-#### Attributes
+### Attributes
 
 None.
   
-#### Child elements
+### Child elements
 
 None.
   
-#### Parent elements
+### Parent elements
 
 [Persona](persona.md)
   

@@ -32,15 +32,15 @@ The **MeetingSuggestion** element specifies a proposed meeting.
 
 The following sections describe attributes, child elements, and parent elements.
   
-#### Attributes
+### Attributes
 
 None.
   
-#### Child elements
+### Child elements
 
 [Attendees](attendees.md) | [Location](location.md) | [Subject](subject.md) | [MeetingString](meetingstring.md) | [StartTime](starttime.md) | [EndTime](endtime.md)
   
-#### Parent elements
+### Parent elements
 
 [MeetingSuggestions](meetingsuggestions.md)
   

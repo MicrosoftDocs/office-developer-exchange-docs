@@ -35,15 +35,15 @@ The **NonIndexableItemDetail** element specifies detail information about an ite
 
 The following sections describe attributes, child elements, and parent elements.
   
-#### Attributes
+### Attributes
 
 None.
   
-#### Child elements
+### Child elements
 
 [ItemId](itemid.md) | [ErrorCode (ItemIndexErrorType)](errorcode-itemindexerrortype.md) | [ErrorDescription](errordescription.md) | [IsPartiallyIndexed](ispartiallyindexed.md) | [IsPermanentFailure](ispermanentfailure.md) | [SortValue](sortvalue.md) | [AttemptCount](attemptcount.md) | [LastAttemptTime](lastattempttime.md) | [AdditionalInfo](additionalinfo.md)
   
-#### Parent elements
+### Parent elements
 
 [Items (ArrayOfNonIndexableItemDetailsType)](items-arrayofnonindexableitemdetailstype.md)
   

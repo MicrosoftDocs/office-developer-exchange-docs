@@ -25,18 +25,18 @@ The **TextBody** element specifies the text body.
 
 The following sections describe attributes, child elements, and parent elements.
   
-#### Attributes
+### Attributes
 
 |**Attribute**|**Description**|
 |:-----|:-----|
 |BodyTypeType  <br/> |Indicates the body type. The value of **Text** for the **BodyTypeType** attribute indicates that the body is in plain text form. The value of **HTML** for the **BodyTypeType** attribute indicates that the body is in HTML form. The **BodyTypeType** attribute is required.  <br/> |
 |IsTruncated  <br/> |Indicates that the body contents have been truncated. A text value of **false** for the **IsTruncated** attribute indicates that the body contents have not been truncated. The normalized body will be truncated if the text body length is longer than the value set in the [MaximumBodySize](maximumbodysize.md) element.  <br/> |
    
-#### Child elements
+### Child elements
 
 None.
   
-#### Parent elements
+### Parent elements
 
 [Item](item.md) | [Contact](contact.md) | [Message](message-ex15websvcsotherref.md) | [DistributionList](distributionlist.md) | [CalendarItem](calendaritem.md) | [PostItem](postitem.md) | [Task](task.md)
   

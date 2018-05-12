@@ -31,17 +31,17 @@ The **Not** element represents a search expression that negates the Boolean valu
 
 The following sections describe attributes, child elements, and parent elements.
   
-#### Attributes
+### Attributes
 
 None.
   
-#### Child elements
+### Child elements
 
 |**Element**|**Description**|
 |:-----|:-----|
 |[SearchExpression](searchexpression.md) <br/> | Represents the base class for expressions within a restriction. One of the following elements must be substituted for the **SearchExpression** element:  <br/> [Exists](exists.md) <br/> [Excludes](excludes.md) <br/> [IsEqualTo](isequalto.md) <br/> [IsNotEqualTo](isnotequalto.md) <br/> [IsGreaterThan](isgreaterthan.md) <br/> [IsGreaterThanOrEqualTo](isgreaterthanorequalto.md) <br/> [IsLessThan](islessthan.md) <br/> [IsLessThanOrEqualTo](islessthanorequalto.md) <br/> [Contains](contains.md) <br/> **Not** <br/> [And](and.md) <br/> [Or](or.md) <br/> |
    
-#### Parent elements
+### Parent elements
 
 |**Element**|**Description**|
 |:-----|:-----|
@@ -65,7 +65,7 @@ The schema that describes this element is located in the EWS virtual directory o
    
 ## See also
 
-#### Concepts
+
 
 [EWS XML elements in Exchange](ews-xml-elements-in-exchange.md)
 

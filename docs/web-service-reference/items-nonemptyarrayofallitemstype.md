@@ -51,11 +51,11 @@ The **Items** element contains a set of items to create.
 
 The following sections describe attributes, child elements, and parent elements.
   
-#### Attributes
+### Attributes
 
 None.
   
-#### Child elements
+### Child elements
 
 |**Element**|**Description**|
 |:-----|:-----|
@@ -81,7 +81,7 @@ None.
 |[SuppressReadReceipt](suppressreadreceipt.md) <br/> |Used to suppress read receipts.  <br/> |
 |[AcceptSharingInvitation](acceptsharinginvitation.md) <br/> |Used to accept an invitation that allows access to another user's calendar or contacts data.  <br/> |
    
-#### Parent elements
+### Parent elements
 
 |**Element**|**Description**|
 |:-----|:-----|
@@ -103,12 +103,12 @@ The schema that describes this element is located in the IIS virtual directory t
    
 ## See also
 
-#### Reference
+
 
 [CreateFolder operation](createfolder-operation.md)
   
 [CreateItem operation](createitem-operation.md)
-#### Other resources
+
 
 [Creating Folders (Exchange Web Services)](http://msdn.microsoft.com/library/3b15b0ec-8691-45ed-9a24-a91ff732d6cf%28Office.15%29.aspx)
 

@@ -32,20 +32,20 @@ The **SearchParameters** element represents the parameters that define a search 
 
 The following sections describe attributes, child elements, and parent elements.
   
-#### Attributes
+### Attributes
 
 |**Attribute**|**Description**|
 |:-----|:-----|
 |**Traversal** <br/> |Describes how a search folder traverses the folder hierarchy. The options are for either a **Deep** or a **Shallow** search.  <br/> |
    
-#### Child elements
+### Child elements
 
 |**Element**|**Description**|
 |:-----|:-----|
 |[Restriction](restriction.md) <br/> |Represents the restriction or query that is used to filter items or folders in FindItem/FindFolder and search folder operations.  <br/> |
 |[BaseFolderIds](basefolderids.md) <br/> |Represents the collection of folders that will be mined to determine the contents of a search folder.  <br/> |
    
-#### Parent elements
+### Parent elements
 
 |**Element**|**Description**|
 |:-----|:-----|
@@ -66,7 +66,7 @@ The schema that describes this element is located in the EWS virtual directory o
    
 ## See also
 
-#### Concepts
+
 
 [EWS XML elements in Exchange](ews-xml-elements-in-exchange.md)
 

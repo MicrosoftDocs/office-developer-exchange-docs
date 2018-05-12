@@ -34,7 +34,7 @@ The **FindFolder** element defines a request to find folders in a mailbox.
 
 The following sections describe attributes, child elements, and parent elements.
   
-#### Attributes
+### Attributes
 
 |**Attribute**|**Description**|
 |:-----|:-----|
@@ -48,7 +48,7 @@ The following sections describe attributes, child elements, and parent elements.
 |Deep  <br/> |Instructs the FindFolder operation to search in all child folders of the identified parent folder and to return only the folder IDs for items that have not been deleted. This is called a deep traversal.  <br/> |
 |SoftDeleted  <br/> |Instructs the FindFolder operation to perform a shallow traversal search for deleted items.  <br/> |
    
-#### Child elements
+### Child elements
 
 |**Element**|**Description**|
 |:-----|:-----|
@@ -58,7 +58,7 @@ The following sections describe attributes, child elements, and parent elements.
 |[Restriction](restriction.md) <br/> |Defines a restriction or query that is used to filter folders in a FindFolder operation. This element is optional.  <br/> |
 |[ParentFolderIds](parentfolderids.md) <br/> |Identifies folders for the FindFolder operation to search.  <br/> |
    
-#### Parent elements
+### Parent elements
 
 None.
   
@@ -98,7 +98,7 @@ The following example of a FindFolder request shows how to form a request to fin
    
 ## See also
 
-#### Reference
+
 
 [FindFolder operation](findfolder-operation.md)
 

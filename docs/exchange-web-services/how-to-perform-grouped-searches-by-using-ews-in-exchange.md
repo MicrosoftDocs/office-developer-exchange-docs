@@ -1,5 +1,5 @@
 ---
-title: "How to Perform grouped searches by using EWS in Exchange"
+title: "Perform grouped searches by using EWS in Exchange"
  
  
 manager: sethgros
@@ -12,7 +12,7 @@ ms.assetid: 55de92eb-8e8b-4156-8ad9-dd3828024242
 description: "Find out how to perform grouped searches in your EWS Managed API or EWS application that targets Exchange."
 ---
 
-# How to: Perform grouped searches by using EWS in Exchange
+# Perform grouped searches by using EWS in Exchange
 
 Find out how to perform grouped searches in your EWS Managed API or EWS application that targets Exchange.
   
@@ -323,8 +323,8 @@ Versions of Exchange starting with major version 15 and ending with build 15.0.7
   
 Versions of Exchange starting with major version 15 return extra **Group** or **GroupedItems** elements with the **xsi:nil** attribute set to **true** in the SOAP response. If you are using the EWS Managed API, these extra elements will cause a [ServiceXmlDeserializationException](http://msdn.microsoft.com/en-us/library/microsoft.exchange.webservices.data.servicexmldeserializationexception%28v=exchg.80%29.aspx) to be thrown. If you are using EWS, these extra elements should be ignored. 
   
-## Additional resources
-<a name="bk_addresources"> </a>
+## See also
+
 
 - [Search and EWS in Exchange](search-and-ews-in-exchange.md)
     

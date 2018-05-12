@@ -25,15 +25,15 @@ The **Language (DiscoverySearchConfigurationType)** element identifies the cultu
 
 The following sections describe attributes, child elements, and parent elements.
   
-#### Attributes
+### Attributes
 
 None.
   
-#### Child elements
+### Child elements
 
 None.
   
-#### Parent elements
+### Parent elements
 
 [DiscoverySearchConfiguration](discoverysearchconfiguration.md)
   
@@ -60,10 +60,10 @@ The schema that describes this element is located in the IIS virtual directory t
    
 ## See also
 
-#### Reference
+
 
 [DiscoverySearchConfiguration](discoverysearchconfiguration.md)
-#### Concepts
+
 
 [EWS XML elements in Exchange](ews-xml-elements-in-exchange.md)
 

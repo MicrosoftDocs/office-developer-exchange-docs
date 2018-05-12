@@ -1,5 +1,5 @@
 ---
-title: "How to Delete attachments by using EWS in Exchange"
+title: "Delete attachments by using EWS in Exchange"
  
  
 manager: sethgros
@@ -12,7 +12,7 @@ ms.assetid: 71871ac7-ee1a-4f93-9e81-77f312d432f4
 description: "Learn how to delete attachments from items by using the EWS Managed API or EWS in Exchange."
 ---
 
-# How to: Delete attachments by using EWS in Exchange
+# Delete attachments by using EWS in Exchange
 
 Learn how to delete attachments from items by using the EWS Managed API or EWS in Exchange.
   
@@ -287,13 +287,13 @@ The server responds to the **DeleteAttachment** request with a [DeleteAttachment
 </s:Envelope>
 ```
 
-## Additional resources
-<a name="bk_addresources"> </a>
+## See also
+
 
 - [Attachments and EWS in Exchange](attachments-and-ews-in-exchange.md)
     
-- [How to: Add attachments by using EWS in Exchange](how-to-add-attachments-by-using-ews-in-exchange.md)
+- [Add attachments by using EWS in Exchange](how-to-add-attachments-by-using-ews-in-exchange.md)
     
-- [How to: Get attachments by using EWS in Exchange](how-to-get-attachments-by-using-ews-in-exchange.md)
+- [Get attachments by using EWS in Exchange](how-to-get-attachments-by-using-ews-in-exchange.md)
     
 

@@ -28,15 +28,15 @@ The **TokenRequest** element specifies a single token request.
 
 The following sections describe attributes, child elements, and parent elements.
   
-#### Attributes
+### Attributes
 
 None.
   
-#### Child elements
+### Child elements
 
 [ID (String)](id-string.md) | [TokenType (ClientAccessTokenType)](tokentype-clientaccesstokentype.md)
   
-#### Parent elements
+### Parent elements
 
 [TokenRequests](tokenrequests.md)
   

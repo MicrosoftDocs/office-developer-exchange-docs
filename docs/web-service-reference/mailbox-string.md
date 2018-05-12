@@ -25,15 +25,15 @@ The **Mailbox** element contains an identifier for a mailbox.
 
 The following sections describe attributes, child elements, and parent elements.
   
-#### Attributes
+### Attributes
 
 None.
   
-#### Child elements
+### Child elements
 
 None.
   
-#### Parent elements
+### Parent elements
 
 [NonIndexableItemStatistic](nonindexableitemstatistic.md) | [MailboxHoldStatus](mailboxholdstatus.md) | [FailedMailbox](failedmailbox.md) | [MailboxSearchScope](mailboxsearchscope.md)
   

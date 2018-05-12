@@ -32,17 +32,17 @@ The **SetPlayOnPhoneDialString** element defines a request to set the default di
 
 The following sections describe attributes, child elements, and parent elements.
   
-#### Attributes
+### Attributes
 
 None.
   
-#### Child elements
+### Child elements
 
 |**Element**|**Description**|
 |:-----|:-----|
 |[dialString (UM web service)](dialstring-um-web-service.md) <br/> |The telephone number to set as the default dial string.  <br/> |
    
-#### Parent elements
+### Parent elements
 
 None.
   
@@ -61,7 +61,7 @@ None.
    
 ## See also
 
-#### Reference
+
 
 [SetPlayOnPhoneDialString operation (UM web service)](setplayonphonedialstring-operation-um-web-service.md)
 

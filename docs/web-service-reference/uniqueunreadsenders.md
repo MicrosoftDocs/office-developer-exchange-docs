@@ -39,17 +39,17 @@ The **UniqueUnreadSenders** element contains a list of all the people who have s
 
 The following sections describe attributes, child elements, and parent elements.
   
-#### Attributes
+### Attributes
 
 None.
   
-#### Child elements
+### Child elements
 
 |**Element**|**Description**|
 |:-----|:-----|
 |[String](string.md) <br/> |Contains a single conversation sender.  <br/> |
    
-#### Parent elements
+### Parent elements
 
 |**Element**|**Description**|
 |:-----|:-----|
@@ -74,12 +74,12 @@ This element was introduced in Exchange Server 2010 Service Pack 1 (SP1).The sch
    
 ## See also
 
-#### Reference
+
 
 [FindConversation operation](findconversation-operation.md)
   
 [ApplyConversationAction operation](applyconversationaction-operation.md)
-#### Other resources
+
 
 [Conversations in EWS](http://msdn.microsoft.com/library/91e64629-db6c-4c94-9dcb-d386232e8467%28Office.15%29.aspx)
 

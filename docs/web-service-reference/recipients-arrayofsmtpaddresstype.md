@@ -29,17 +29,17 @@ The **Recipients** element specifies an array of recipients of a message.
 
 The following sections describe attributes, child elements, and parent elements.
   
-#### Attributes
+### Attributes
 
 None.
   
-#### Child elements
+### Child elements
 
 |**Element**|**Description**|
 |:-----|:-----|
 |[SmtpAddress](smtpaddress.md) <br/> |Represents the Simple Mail Transfer Protocol (SMTP) recipient address of a calendar or contact sharing request.  <br/> |
    
-#### Parent elements
+### Parent elements
 
 |**Element**|**Description**|
 |:-----|:-----|
@@ -60,10 +60,10 @@ The schema that describes this element is located in the IIS Virtual directory t
    
 ## See also
 
-#### Reference
+
 
 [GetSharingMetadata operation](getsharingmetadata-operation.md)
-#### Concepts
+
 
 [EWS XML elements in Exchange](ews-xml-elements-in-exchange.md)
 

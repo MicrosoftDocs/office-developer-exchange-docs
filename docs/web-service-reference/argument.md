@@ -20,7 +20,7 @@ description: "The Argument element specifies arguments to the action."
 
 The **Argument** element specifies arguments to the action. 
   
-```
+```xml
 <Argument Value=""/>
 ```
 
@@ -29,17 +29,17 @@ The **Argument** element specifies arguments to the action.
 
 The following sections describe attributes, child elements, and parent elements.
   
-#### Attributes
+### Attributes
 
 |**Attribute**|**Description**|
 |:-----|:-----|
 |**Value** <br/> |A non-empty string value that represents the value of an argument to the action part of a protection rule. This attribute is required.  <br/> |
    
-#### Child elements
+### Child elements
 
 None.
   
-#### Parent elements
+### Parent elements
 
 |**Element**|**Description**|
 |:-----|:-----|
@@ -64,7 +64,7 @@ The schema that describes this element is located in the IIS virtual directory t
    
 ## See also
 
-#### Concepts
+
 
 [EWS XML elements in Exchange](ews-xml-elements-in-exchange.md)
 

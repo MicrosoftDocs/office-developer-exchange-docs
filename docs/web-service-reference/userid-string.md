@@ -25,15 +25,15 @@ The **UserId** element specifies the user identifier of an email user.
 
 The following sections describe attributes, child elements, and parent elements.
   
-#### Attributes
+### Attributes
 
 None.
   
-#### Child elements
+### Child elements
 
 None.
   
-#### Parent elements
+### Parent elements
 
 [EmailUser](emailuser.md)
   

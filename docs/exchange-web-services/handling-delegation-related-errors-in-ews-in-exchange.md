@@ -32,8 +32,8 @@ If your application uses delegation or adds or removes delegates, you might have
 |ErrorWrongServerVersionDelegate  <br/> |Make a request from a delegate that has a different server version than the principal's mailbox server.  <br/> |Using a delegate or adding a delegate whose mailbox has the same server version as the mailbox owner.  <br/> |
 |ErrorMissingEmailAddress  <br/> |Make a request using a delegate account that does not have a mailbox.  <br/> |Adding a mailbox to the delegate's account.  <br/> |
    
-## Additional resources
-<a name="bk_addresources"> </a>
+## See also
+
 
 - [Delegate access and EWS in Exchange](delegate-access-and-ews-in-exchange.md)
     

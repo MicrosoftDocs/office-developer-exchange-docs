@@ -34,11 +34,11 @@ The **Notification** element contains information about the subscription and the
 
 The following sections describe attributes, child elements, and parent elements.
   
-#### Attributes
+### Attributes
 
 None.
   
-#### Child elements
+### Child elements
 
 |**Element**|**Description**|
 |:-----|:-----|
@@ -54,7 +54,7 @@ None.
 |[StatusEvent](statusevent.md) <br/> |Represents a notification that no new activity has occurred in the mailbox.  <br/> |
 |[FreeBusyChangedEvent](freebusychangedevent.md) <br/> |Represents an event in which an item's free/busy time has changed.  <br/> |
    
-#### Parent elements
+### Parent elements
 
 |**Element**|**Description**|
 |:-----|:-----|
@@ -80,7 +80,7 @@ The schema that describes this element is located in the IIS virtual directory t
    
 ## See also
 
-#### Reference
+
 
 [Subscribe operation](subscribe-operation.md)
   

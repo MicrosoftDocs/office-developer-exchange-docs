@@ -29,15 +29,15 @@ The **MarkAllItemsAsRead** element contains the request to mark all the items in
 
 The following sections describe attributes, child elements, and parent elements.
   
-#### Attributes
+### Attributes
 
 None.
   
-#### Child elements
+### Child elements
 
 [ReadFlag](readflag.md) | [SuppressReadReceipts](suppressreadreceipts.md) | [FolderIds](folderids.md)
   
-#### Parent elements
+### Parent elements
 
 None.
   

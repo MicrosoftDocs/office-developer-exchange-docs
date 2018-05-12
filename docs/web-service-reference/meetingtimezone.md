@@ -33,13 +33,13 @@ The **MeetingTimeZone** element represents the time zone of the location where t
 
 The following sections describe attributes, child elements, and parent elements.
   
-#### Attributes
+### Attributes
 
 |**Attribute**|**Description**|
 |:-----|:-----|
 |**TimeZoneName** <br/> |Describes the name of the time zone.  <br/> |
    
-#### Child elements
+### Child elements
 
 |**Element**|**Description**|
 |:-----|:-----|
@@ -47,7 +47,7 @@ The following sections describe attributes, child elements, and parent elements.
 |[Standard](standard.md) <br/> |Represents the date and time when the time changes from daylight saving time to standard time.  <br/> |
 |[Daylight](daylight.md) <br/> |Represents the date and time when the time changes from standard time to daylight saving time.  <br/> |
    
-#### Parent elements
+### Parent elements
 
 |**Element**|**Description**|
 |:-----|:-----|
@@ -69,7 +69,7 @@ The schema that describes this element is located in the EWS virtual directory o
    
 ## See also
 
-#### Concepts
+
 
 [EWS XML elements in Exchange](ews-xml-elements-in-exchange.md)
 

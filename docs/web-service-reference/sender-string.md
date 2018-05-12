@@ -25,15 +25,15 @@ The **Sender** element specifies the e-mail address of the person who sent an it
 
 The following sections describe attributes, child elements, and parent elements.
   
-#### Attributes
+### Attributes
 
 None.
   
-#### Child elements
+### Child elements
 
 None.
   
-#### Parent elements
+### Parent elements
 
 [SearchPreviewItem](searchpreviewitem.md)
   

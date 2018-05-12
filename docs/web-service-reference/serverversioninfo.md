@@ -28,7 +28,7 @@ The **ServerVersionInfo** element represents the Microsoft Exchange Server versi
 
 The following sections describe attributes, child elements, and parent elements.
   
-#### Attributes
+### Attributes
 
 |**Attribute**|**Description**|
 |:-----|:-----|
@@ -38,11 +38,11 @@ The following sections describe attributes, child elements, and parent elements.
 |MinorBuildNumber  <br/> |Describes the minor build number.  <br/> |
 |Version  <br/> |Describes the Exchange Web Services (EWS) schema version.  <br/> |
    
-#### Child elements
+### Child elements
 
 None.
   
-#### Parent elements
+### Parent elements
 
 None.
   
@@ -63,7 +63,7 @@ The schema that describes this element is located in the EWS virtual directory o
    
 ## See also
 
-#### Concepts
+
 
 [EWS XML elements in Exchange](ews-xml-elements-in-exchange.md)
 

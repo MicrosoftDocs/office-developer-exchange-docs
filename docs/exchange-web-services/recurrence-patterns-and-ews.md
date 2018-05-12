@@ -331,23 +331,23 @@ You use all the same methods and operations to work with recurring series as you
   
 ## In this section
 
-- [How to: Access a recurring series by using EWS in Exchange](how-to-access-a-recurring-series-by-using-ews-in-exchange.md)
+- [Access a recurring series by using EWS in Exchange](how-to-access-a-recurring-series-by-using-ews-in-exchange.md)
     
-- [How to: Create a recurring series by using EWS in Exchange](how-to-create-a-recurring-series-by-using-ews-in-exchange.md)
+- [Create a recurring series by using EWS in Exchange](how-to-create-a-recurring-series-by-using-ews-in-exchange.md)
     
-- [How to: Delete appointments in a recurring series by using EWS in Exchange](how-to-delete-appointments-in-a-recurring-series-by-using-ews-in-exchange.md)
+- [Delete appointments in a recurring series by using EWS in Exchange](how-to-delete-appointments-in-a-recurring-series-by-using-ews-in-exchange.md)
     
-- [How to: Update a recurring series by using EWS](how-to-update-a-recurring-series-by-using-ews.md)
+- [Update a recurring series by using EWS](how-to-update-a-recurring-series-by-using-ews.md)
     
-- [How to: Update a recurring series by using EWS in Exchange](how-to-update-a-recurring-series-by-using-ews-in-exchange.md)
+- [Update a recurring series by using EWS in Exchange](how-to-update-a-recurring-series-by-using-ews-in-exchange.md)
     
-## Additional resources
-<a name="bk_addresources"> </a>
+## See also
+
 
 - [Calendars and EWS in Exchange](calendars-and-ews-in-exchange.md)
     
 - [Develop web service clients for Exchange](develop-web-service-clients-for-exchange.md)
     
-- [How to: Get appointments and meetings by using EWS in Exchange](how-to-get-appointments-and-meetings-by-using-ews-in-exchange.md)
+- [Get appointments and meetings by using EWS in Exchange](how-to-get-appointments-and-meetings-by-using-ews-in-exchange.md)
     
 

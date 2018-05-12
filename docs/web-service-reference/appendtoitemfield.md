@@ -30,7 +30,7 @@ The **AppendToItemField** element identifies data to append to a single property
   
 [AppendToItemField](appendtoitemfield.md)
   
-```
+```xml
 <AppendToItemField>
    <FieldURI/>
    <Item/>
@@ -42,11 +42,11 @@ The **AppendToItemField** element identifies data to append to a single property
 
 The following sections describe attributes, child elements, and parent elements.
   
-#### Attributes
+### Attributes
 
 None.
   
-#### Child elements
+### Child elements
 
 |**Element**|**Description**|
 |:-----|:-----|
@@ -64,7 +64,7 @@ None.
 |[MeetingCancellation](meetingcancellation.md) <br/> |Represents a meeting cancellation in the Exchange store.  <br/> |
 |[Task](task.md) <br/> |Represents a task in the Exchange store.  <br/> |
    
-#### Parent elements
+### Parent elements
 
 |**Element**|**Description**|
 |:-----|:-----|
@@ -92,10 +92,10 @@ The schema that describes this element is located in the EWS virtual directory o
    
 ## See also
 
-#### Reference
+
 
 [UpdateItem operation](updateitem-operation.md)
-#### Concepts
+
 
 [EWS XML elements in Exchange](ews-xml-elements-in-exchange.md)
 

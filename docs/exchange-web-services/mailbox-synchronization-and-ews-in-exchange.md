@@ -159,14 +159,14 @@ You might wonder, can I filter my notifications (and therefore only trigger sync
 ## In this section
 <a name="bk_filteredsync"> </a>
 
-- [How to: Synchronize folders by using EWS in Exchange](how-to-synchronize-folders-by-using-ews-in-exchange.md)
+- [Synchronize folders by using EWS in Exchange](how-to-synchronize-folders-by-using-ews-in-exchange.md)
     
-- [How to: Synchronize items by using EWS in Exchange](how-to-synchronize-items-by-using-ews-in-exchange.md)
+- [Synchronize items by using EWS in Exchange](how-to-synchronize-items-by-using-ews-in-exchange.md)
     
 - [Handling synchronization-related errors in EWS in Exchange](handling-synchronization-related-errors-in-ews-in-exchange.md)
     
-## Additional resources
-<a name="bk_addresources"> </a>
+## See also
+
 
 - [Develop web service clients for Exchange](develop-web-service-clients-for-exchange.md)
     

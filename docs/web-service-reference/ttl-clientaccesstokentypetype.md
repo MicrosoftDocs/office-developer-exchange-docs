@@ -25,15 +25,15 @@ The **TTL** element indicates the time to live value for the token.
 
 The following sections describe attributes, child elements, and parent elements.
   
-#### Attributes
+### Attributes
 
 None.
   
-#### Child elements
+### Child elements
 
 None.
   
-#### Parent elements
+### Parent elements
 
 [TokenRequest](tokenrequest.md) | [Token](token.md)
   

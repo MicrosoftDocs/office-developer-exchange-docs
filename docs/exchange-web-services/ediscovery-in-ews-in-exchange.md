@@ -36,7 +36,7 @@ The eDiscovery functionality that is exposed by EWS is available via operations 
 |[SearchMailboxes](http://msdn.microsoft.com/library/8a67c1d8-d021-4e68-aa62-35f7d9c2edc7%28Office.15%29.aspx) <br/> |Searches for items in specific mailboxes that match query keywords.  <br/> |
 |[SetHoldOnMailboxes](http://msdn.microsoft.com/library/9015a0d8-3495-461b-aa79-797d23169585%28Office.15%29.aspx) <br/> |Sets a query-based hold on items.  <br/> |
    
-## Additional resources
+## See also
 
 - [Develop web service clients for Exchange](develop-web-service-clients-for-exchange.md)
     

@@ -25,15 +25,15 @@ The **ProposedEnd** element specifies the proposed end time of a meeting.
 
 The following sections describe attributes, child elements, and parent elements.
   
-#### Attributes
+### Attributes
 
 None.
   
-#### Child elements
+### Child elements
 
 None.
   
-#### Parent elements
+### Parent elements
 
 [MeetingResponse](meetingresponse.md)
   

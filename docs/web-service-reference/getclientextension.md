@@ -29,15 +29,15 @@ The **GetClientExtension** element represents a request to get a client extensio
 
 The following sections describe attributes, child elements, and parent elements.
   
-#### Attributes
+### Attributes
 
 None.
   
-#### Child elements
+### Child elements
 
 [RequestedExtensionIds](requestedextensionids.md) | [UserParameters](userparameters.md) | [IsDebug](isdebug.md)
   
-#### Parent elements
+### Parent elements
 
 None.
   

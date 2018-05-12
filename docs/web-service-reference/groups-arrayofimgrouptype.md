@@ -27,15 +27,15 @@ The **Groups** element represents an array of instant messaging (IM) groups.
 
 The following sections describe attributes, child elements, and parent elements.
   
-#### Attributes
+### Attributes
 
 None.
   
-#### Child elements
+### Child elements
 
 [ImGroup](imgroup.md)
   
-#### Parent elements
+### Parent elements
 
 [ImItemList](imitemlist.md)
   

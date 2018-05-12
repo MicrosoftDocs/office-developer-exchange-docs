@@ -33,11 +33,11 @@ The **RelativeYearlyRecurrence** element describes a relative yearly recurrence 
 
 The following sections describe attributes, child elements, and parent elements.
   
-#### Attributes
+### Attributes
 
 None.
   
-#### Child elements
+### Child elements
 
 |**Element**|**Description**|
 |:-----|:-----|
@@ -45,7 +45,7 @@ None.
 |[DayOfWeekIndex](dayofweekindex.md) <br/> |Describes which week in a month is used in a relative yearly recurrence pattern.  <br/> |
 |[Month (Item Recurrence)](month-item-recurrence.md) <br/> |Describes the month when a yearly recurring item occurs.  <br/> |
    
-#### Parent elements
+### Parent elements
 
 |**Element**|**Description**|
 |:-----|:-----|
@@ -69,7 +69,7 @@ The schema that describes this element is located in the EWS virtual directory o
    
 ## See also
 
-#### Concepts
+
 
 [EWS XML elements in Exchange](ews-xml-elements-in-exchange.md)
 

@@ -31,19 +31,19 @@ The **ExternalReply** element contains the out of office (OOF) response that is 
 
 The following sections describe attributes, child elements, and parent elements.
   
-#### Attributes
+### Attributes
 
 |**Attribute**|**Description**|
 |:-----|:-----|
 |xml:lang  <br/> |Specifies the language used in the **ExternalReply** message. The possible values for this attribute are defined by IETF RFC 3066.  <br/> |
    
-#### Child elements
+### Child elements
 
 |**Element**|**Description**|
 |:-----|:-----|
 |[Message (Availability)](message-availability.md) <br/> |Contains the OOF response.  <br/> |
    
-#### Parent elements
+### Parent elements
 
 |**Element**|**Description**|
 |:-----|:-----|
@@ -98,7 +98,7 @@ The following example of a SetUserOofSettings request sets the [OofState](oofsta
    
 ## See also
 
-#### Reference
+
 
 [SetUserOofSettings operation](setuseroofsettings-operation.md)
 

@@ -29,15 +29,15 @@ The **BaseShape** element identifies the set of properties to return in an item 
 
 The following sections describe attributes, child elements, and parent elements.
   
-#### Attributes
+### Attributes
 
 None.
   
-#### Child elements
+### Child elements
 
 None
   
-#### Parent elements
+### Parent elements
 
 |**Element**|**Description**|
 |:-----|:-----|
@@ -106,7 +106,7 @@ To return properties in addition to those identified by the [BaseShape](baseshap
    
 ## See also
 
-#### Reference
+
 
 [FolderShape](foldershape.md)
   

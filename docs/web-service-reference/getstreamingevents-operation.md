@@ -170,7 +170,7 @@ When processing a **GetStreamingEvents** request, the Client Access server perfo
     
 ## See also
 
-#### Reference
+
 
 [Subscribe operation](subscribe-operation.md)
   

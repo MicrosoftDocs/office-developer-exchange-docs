@@ -25,15 +25,15 @@ The **Scope (ClientAccessTokenRequestType)** element specifies a token scope.
 
 The following sections describe attributes, child elements, and parent elements.
   
-#### Attributes
+### Attributes
 
 None.
   
-#### Child elements
+### Child elements
 
 None.
   
-#### Parent elements
+### Parent elements
 
 [TokenRequest](tokenrequest.md)
   
@@ -58,10 +58,10 @@ The schema that describes this element is located in the IIS virtual directory t
    
 ## See also
 
-#### Reference
+
 
 [TokenRequest](tokenrequest.md)
-#### Concepts
+
 
 [EWS XML elements in Exchange](ews-xml-elements-in-exchange.md)
 

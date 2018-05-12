@@ -29,15 +29,15 @@ The **Phone** element specifies a single phone number that results from a contac
 
 The following sections describe attributes, child elements, and parent elements.
   
-#### Attributes
+### Attributes
 
 None.
   
-#### Child elements
+### Child elements
 
 [OriginalPhoneString](originalphonestring.md) | [PhoneString](phonestring.md) | [Type (string)](type-string.md)
   
-#### Parent elements
+### Parent elements
 
 [PhoneNumbers (ArrayOfPhonesType)](phonenumbers-arrayofphonestype.md)
   

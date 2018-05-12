@@ -1,7 +1,5 @@
 ---
 title: "Bitmask"
- 
- 
 manager: sethgros
 ms.date: 9/17/2015
 ms.audience: Developer
@@ -20,26 +18,27 @@ description: "The Bitmask element represents a hexadecimal or decimal mask to be
 
 The **Bitmask** element represents a hexadecimal or decimal mask to be used during an [Excludes](excludes.md) restriction operation. 
   
-```
+```xml
 <Bitmask Value="" />
 ```
 
- **ExcludesValueType**
+**ExcludesValueType**
+
 ## Attributes and elements
 
 The following sections describe attributes, child elements, and parent elements.
   
-#### Attributes
+### Attributes
 
 |**Attribute**|**Description**|
 |:-----|:-----|
-|**Value** <br/> | Represents a decimal or hexadecimal bitmask. The value is represented by the following regular expression: ((0x|0X)[0-9A-Fa-f]\*)|([0-9]\*).  <br/>  The following are examples of hexadecimal values for this attribute:  <br/>  0x12AF  <br/>  0X334AE  <br/>  The following are examples of decimal values for this attribute:  <br/>  10  <br/>  255  <br/>  4562  <br/> |
+|**Value** | Represents a decimal or hexadecimal bitmask. The value is represented by the following regular expression:<br/>`((0x|0X)[0-9A-Fa-f]*)|([0-9]*)`.<br/><br/>The following are examples of hexadecimal values for this attribute:<br/>- 0x12AF<br/>- 0X334AE<br/><br/>The following are examples of decimal values for this attribute:<br/>- 10<br/>- 255<br/>- 4562 |
    
-#### Child elements
+### Child elements
 
 None.
   
-#### Parent elements
+### Parent elements
 
 |**Element**|**Description**|
 |:-----|:-----|
@@ -62,7 +61,5 @@ The schema that describes this element is located in the EWS virtual directory o
    
 ## See also
 
-#### Concepts
-
-[EWS XML elements in Exchange](ews-xml-elements-in-exchange.md)
+- [EWS XML elements in Exchange](ews-xml-elements-in-exchange.md)
 

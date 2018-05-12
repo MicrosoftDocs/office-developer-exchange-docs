@@ -1,5 +1,5 @@
 ---
-title: "How to Work with search folders by using EWS in Exchange"
+title: "Work with search folders by using EWS in Exchange"
  
  
 manager: sethgros
@@ -12,7 +12,7 @@ ms.assetid: abe703c5-6d85-46d9-bf20-230c34782a9f
 description: "Find out how to create, get, update, and delete search folders by using the EWS Managed API or EWS in Exchange."
 ---
 
-# How to: Work with search folders by using EWS in Exchange
+# Work with search folders by using EWS in Exchange
 
 Find out how to create, get, update, and delete search folders by using the EWS Managed API or EWS in Exchange.
   
@@ -465,12 +465,12 @@ If you're using EWS, use the [DeleteFolder operation](http://msdn.microsoft.com/
 
 The server responds with a [DeleteFolderResponse](http://msdn.microsoft.com/library/27578bda-ef0a-4a33-bccc-2c1bc1735424%28Office.15%29.aspx) message that includes a [ResponseCode](http://msdn.microsoft.com/library/4b84d670-74c9-4d6d-84e7-f0a9f76f0d93%28Office.15%29.aspx) value of **NoError**, which indicates success.
   
-## Additional resources
-<a name="bk_addresources"> </a>
+## See also
+
 
 - [Search and EWS in Exchange](search-and-ews-in-exchange.md)
     
-- [How to: Use search filters with EWS in Exchange](how-to-use-search-filters-with-ews-in-exchange.md)
+- [Use search filters with EWS in Exchange](how-to-use-search-filters-with-ews-in-exchange.md)
     
 - [SearchFolder class](http://msdn.microsoft.com/en-us/library/microsoft.exchange.webservices.data.searchfolder%28v=exchg.80%29.aspx)
     

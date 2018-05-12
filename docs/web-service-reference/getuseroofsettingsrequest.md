@@ -31,17 +31,17 @@ The **GetUserOofSettingsRequest** element is the root element that contains the 
 
 The following sections describe attributes, child elements, and parent elements.
   
-#### Attributes
+### Attributes
 
 None.
   
-#### Child elements
+### Child elements
 
 |**Element**|**Description**|
 |:-----|:-----|
 |[Mailbox (Availability)](mailbox-availability.md) <br/> |Identifies the mailbox user for a SetUserOofSettings or GetUserOofSettings request.  <br/> |
    
-#### Parent elements
+### Parent elements
 
 None.
   
@@ -79,7 +79,7 @@ The following is an example of a GetUserOofSettings request that gets a single u
    
 ## See also
 
-#### Reference
+
 
 [GetUserOofSettings operation](getuseroofsettings-operation.md)
 

@@ -170,7 +170,7 @@ The EWS identifier format changed between the initial release version of Exchang
   
 The **ConvertId** operation converts public folder identifiers from the EWS identifier to the store identifier in Exchange 2007 and Exchange 2010. 
   
-## Additional resources
+## See also
 <a name="bk_ConvertIdVersionDiff"> </a>
 
 - [Converting Identifiers](http://msdn.microsoft.com/library/a5391746-b6ef-4f48-8fc8-8255258651aa%28Office.15%29.aspx)

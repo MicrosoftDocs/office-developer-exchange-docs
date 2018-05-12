@@ -26,15 +26,15 @@ The **Apps** element contains information about all the XML manifest files for a
 
 The following sections describe attributes, child elements, and parent elements.
   
-#### Attributes
+### Attributes
 
 None.
   
-#### Child elements
+### Child elements
 
 [App](app.md)
   
-#### Parent elements
+### Parent elements
 
 [GetAppManifestsResponse](getappmanifestsresponse.md)
   
@@ -55,12 +55,12 @@ The schema that describes this element is located in the IIS virtual directory t
    
 ## See also
 
-#### Reference
+
 
 [App](app.md)
   
 [GetAppManifestsResponse](getappmanifestsresponse.md)
-#### Concepts
+
 
 [EWS XML elements in Exchange](ews-xml-elements-in-exchange.md)
 

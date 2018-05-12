@@ -24,15 +24,15 @@ The **MailBoxMoveEnabled** element represents the **MailboxMoveEnabled()** flag.
 
 The following sections describe attributes, child elements, and parent elements.
   
-#### Attributes
+### Attributes
 
 None.
   
-#### Child elements
+### Child elements
 
 None.
   
-#### Parent elements
+### Parent elements
 
 |**Element**|**Description**|
 |:-----|:-----|
@@ -49,7 +49,7 @@ None.
    
 ## See also
 
-#### Reference
+
 
 [GetOrganizationRelationshipSettings operation (SOAP)](getorganizationrelationshipsettings-operation-soap.md)
 

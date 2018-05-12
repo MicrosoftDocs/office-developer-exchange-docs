@@ -28,15 +28,15 @@ The **GetSearchableMailboxes** element contains a request to get a list of mailb
 
 The following sections describe attributes, child elements, and parent elements.
   
-#### Attributes
+### Attributes
 
 None.
   
-#### Child elements
+### Child elements
 
 [SearchFilter](searchfilter.md) | [ExpandGroupMembership](expandgroupmembership.md)
   
-#### Parent elements
+### Parent elements
 
 None.
   

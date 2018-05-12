@@ -35,17 +35,17 @@ The **Items** element contains an array of items to upload into a mailbox.
 
 The following sections describe attributes, child elements, and parent elements.
   
-#### Attributes
+### Attributes
 
 None.
   
-#### Child elements
+### Child elements
 
 |**Element**|**Description**|
 |:-----|:-----|
 |[Item (UploadItemType)](item-uploaditemtype.md) <br/> |Represents a single item to upload into a mailbox.  <br/> |
    
-#### Parent elements
+### Parent elements
 
 |**Element**|**Description**|
 |:-----|:-----|
@@ -70,7 +70,7 @@ The schema that describes this element is located in the IIS virtual directory t
    
 ## See also
 
-#### Reference
+
 
 [ExportItems operation](exportitems-operation.md)
   

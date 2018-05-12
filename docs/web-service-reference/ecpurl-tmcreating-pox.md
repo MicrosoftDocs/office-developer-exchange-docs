@@ -33,15 +33,15 @@ The **EcpUrl-tmCreating** element specifies a partial URL that can be combined w
 
 The following sections describe attributes, child elements, and parent elements.
   
-#### Attributes
+### Attributes
 
 None.
   
-#### Child elements
+### Child elements
 
 None.
   
-#### Parent elements
+### Parent elements
 
 |**Element**|**Description**|
 |:-----|:-----|
@@ -57,7 +57,7 @@ The **EcpUrl-tmCreating** element is an optional child element of the **Protocol
   
 ## See also
 
-#### Concepts
+
 
 [POX Autodiscover XML elements for Exchange](pox-autodiscover-xml-elements-for-exchange.md)
 

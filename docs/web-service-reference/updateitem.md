@@ -32,7 +32,7 @@ The **UpdateItem** element defines a request to update an item in a mailbox.
 
 The following sections describe attributes, child elements, and parent elements.
   
-#### Attributes
+### Attributes
 
 |**Attribute**|**Description**|
 |:-----|:-----|
@@ -67,14 +67,14 @@ The following sections describe attributes, child elements, and parent elements.
 |SendToAllAndSaveCopy  <br/> |The calendar item is updated, the meeting update is sent to all attendees, and a copy is saved in the Sent Items folder.  <br/> |
 |SendToChangedAndSaveCopy  <br/> |The calendar item is updated, the meeting update is sent to all attendees that are affected by the change in the meeting, and a copy is saved in the Sent Items folder.  <br/> |
    
-#### Child elements
+### Child elements
 
 |**Element**|**Description**|
 |:-----|:-----|
 |[SavedItemFolderId](saveditemfolderid.md) <br/> |Identifies the target folder for operations that update, send, and create items in the Exchange store.  <br/> |
 |[ItemChanges](itemchanges.md) <br/> |Contains an array of [ItemChange](itemchange.md) elements that identify items and the updates to apply to the items.  <br/> |
    
-#### Parent elements
+### Parent elements
 
 None.
   
@@ -93,7 +93,7 @@ The schema that describes this element is located in the IIS virtual directory t
    
 ## See also
 
-#### Reference
+
 
 [UpdateItem operation](updateitem-operation.md)
 

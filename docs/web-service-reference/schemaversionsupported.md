@@ -25,15 +25,15 @@ The **SchemaVersionSupported** element contains the version of the manifest sche
 
 The following sections describe attributes, child elements, and parent elements.
   
-#### Attributes
+### Attributes
 
 None.
   
-#### Child elements
+### Child elements
 
 None.
   
-#### Parent elements
+### Parent elements
 
 [GetAppManifests](getappmanifests.md)
   
@@ -56,10 +56,10 @@ This element was introduced in Exchange Server 2013 Service Pack 1 (SP1).
    
 ## See also
 
-#### Reference
+
 
 [GetAppManifests](getappmanifests.md)
-#### Concepts
+
 
 [EWS XML elements in Exchange](ews-xml-elements-in-exchange.md)
 

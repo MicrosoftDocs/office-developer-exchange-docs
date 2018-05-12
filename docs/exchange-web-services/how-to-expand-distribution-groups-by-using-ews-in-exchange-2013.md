@@ -1,5 +1,5 @@
 ---
-title: "How to Expand distribution groups by using EWS in Exchange 2013"
+title: "Expand distribution groups by using EWS in Exchange 2013"
  
  
 manager: sethgros
@@ -12,7 +12,7 @@ ms.assetid: 25ee84e7-63bc-4f51-9b7d-e7f46fd574d5
 description: "Learn how to expand a distribution group by using the EWS Managed API or EWS in Exchange."
 ---
 
-# How to: Expand distribution groups by using EWS in Exchange 2013
+# Expand distribution groups by using EWS in Exchange 2013
 
 Learn how to expand a distribution group by using the EWS Managed API or EWS in Exchange.
   
@@ -199,11 +199,11 @@ The XML request to expand a contact group is similar to a request to expand a di
 
 The structure of the XML response to a request to expand a contact group is the same as the response to a request to expand a universal distribution group.
   
-## Additional resources
-<a name="bk_addresources"> </a>
+## See also
+
 
 - [Distribution groups and EWS in Exchange](distribution-groups-and-ews-in-exchange.md)
     
-- [How to: Create contact groups by using EWS in Exchange](how-to-create-contact-groups-by-using-ews-in-exchange.md)
+- [Create contact groups by using EWS in Exchange](how-to-create-contact-groups-by-using-ews-in-exchange.md)
     
 

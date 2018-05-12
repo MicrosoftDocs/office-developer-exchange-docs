@@ -32,18 +32,18 @@ The **PermissionSet** element contains all the permissions that are configured f
 
 The following sections describe attributes, child elements, and parent elements.
   
-#### Attributes
+### Attributes
 
 None.
   
-#### Child elements
+### Child elements
 
 |**Element**|**Description**|
 |:-----|:-----|
 |[CalendarPermissions](calendarpermissions.md) <br/> |Contains an array of calendar permissions for a folder. This element was introduced in Exchange 2007 SP1.  <br/> |
 |[UnknownEntries](unknownentries.md) <br/> |Contains an array of unknown entries that cannot be resolved against the Active Directory directory service. This element was introduced in Exchange 2007 SP1.  <br/> |
    
-#### Parent elements
+### Parent elements
 
 |**Element**|**Description**|
 |:-----|:-----|
@@ -70,10 +70,10 @@ For applications that target Exchange Online, Exchange Online as part of Office 
    
 ## See also
 
-#### Concepts
+
 
 [EWS XML elements in Exchange](ews-xml-elements-in-exchange.md)
-#### Other resources
+
 
 [Setting Folder-Level Permissions](http://msdn.microsoft.com/library/c7530e86-5112-401c-b10a-9c054ae59f07%28Office.15%29.aspx)
 

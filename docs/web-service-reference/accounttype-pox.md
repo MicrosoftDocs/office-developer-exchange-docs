@@ -25,7 +25,7 @@ The **AccountType** element represents the account type.
   
 [AccountType (POX)](accounttype-pox.md)
   
-```
+```xml
 <AccountType>email</AccountType>
 ```
 
@@ -33,15 +33,15 @@ The **AccountType** element represents the account type.
 
 The following sections describe attributes, child elements, and parent elements.
   
-#### Attributes
+### Attributes
 
 None.
   
-#### Child elements
+### Child elements
 
 None.
   
-#### Parent elements
+### Parent elements
 
 |**Element**|**Description**|
 |:-----|:-----|
@@ -53,7 +53,7 @@ The text value represents the account type. The possible value is **email**, whi
   
 ## See also
 
-#### Concepts
+
 
 [POX Autodiscover XML elements for Exchange](pox-autodiscover-xml-elements-for-exchange.md)
 

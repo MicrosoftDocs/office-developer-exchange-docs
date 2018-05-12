@@ -25,15 +25,15 @@ The **PageItemSize** element specifies the number of items to return in a search
 
 The following sections describe attributes, child elements, and parent elements.
   
-#### Attributes
+### Attributes
 
 None.
   
-#### Child elements
+### Child elements
 
 None.
   
-#### Parent elements
+### Parent elements
 
 [SearchMailboxesResult](searchmailboxesresult.md)
   

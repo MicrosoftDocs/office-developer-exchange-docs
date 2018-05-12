@@ -455,7 +455,7 @@ The following example shows an error response to a **GetImItemList** operation r
 </s:Envelope>
 ```
 
-## Additional resources
+## See also
 
 - [AddImGroup operation](addimgroup-operation.md)
     

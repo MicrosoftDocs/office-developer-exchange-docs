@@ -29,7 +29,7 @@ The **QueryString** element contains a mailbox query string based on Advanced Qu
 
 The following sections describe attributes, child elements, and parent elements.
   
-#### Attributes
+### Attributes
 
 |**Attribute**|**Description**|
 |:-----|:-----|
@@ -37,11 +37,11 @@ The following sections describe attributes, child elements, and parent elements.
 |ReturnDeletedItems  <br/> |Indicates that deleted items should be returned.  <br/> |
 |ReturnHighlightTerms  <br/> |Indicates that highlighted terms should be returned.  <br/> |
    
-#### Child elements
+### Child elements
 
 None.
   
-#### Parent elements
+### Parent elements
 
 |**Element**|**Description**|
 |:-----|:-----|
@@ -217,12 +217,12 @@ The following example shows a successful response to the request.
    
 ## See also
 
-#### Reference
+
 
 [FindItem operation](finditem-operation.md)
   
 [FindConversation operation](findconversation-operation.md)
-#### Concepts
+
 
 [EWS XML elements in Exchange](ews-xml-elements-in-exchange.md)
 

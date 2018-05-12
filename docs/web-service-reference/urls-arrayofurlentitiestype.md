@@ -27,15 +27,15 @@ The **Urls** element specifies an array of URLs that are the result of entity ex
 
 The following sections describe attributes, child elements, and parent elements.
   
-#### Attributes
+### Attributes
 
 None.
   
-#### Child elements
+### Child elements
 
 [UrlEntity](urlentity.md)
   
-#### Parent elements
+### Parent elements
 
 [EntityExtractionResult](entityextractionresult.md)
   

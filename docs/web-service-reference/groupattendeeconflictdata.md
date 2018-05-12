@@ -50,11 +50,11 @@ The **GroupAttendeeConflictData** element contains aggregate conflict informatio
 
 The following sections describe attributes, child elements, and parent elements.
   
-#### Attributes
+### Attributes
 
 None.
   
-#### Child elements
+### Child elements
 
 |**Element**|**Description**|
 |:-----|:-----|
@@ -63,7 +63,7 @@ None.
 |[NumberOfMembersWithConflict](numberofmemberswithconflict.md) <br/> |Represents the number of distribution list members who have a conflict with a suggested meeting time. This element represents members who have a **Busy**, **OOF**, or **Tentative** status.  <br/> |
 |[NumberOfMembersWithNoData](numberofmemberswithnodata.md) <br/> |Represents the number of group members who do not have published free/busy data to compare to a suggested meeting time. This element represents members of a distribution list that is too large or members who have **No Data** status.  <br/> |
    
-#### Parent elements
+### Parent elements
 
 |**Element**|**Description**|
 |:-----|:-----|
@@ -86,12 +86,12 @@ The schema that describes this element is located in the EWS virtual directory o
    
 ## See also
 
-#### Reference
+
 
 [GetUserAvailability operation](getuseravailability-operation.md)
   
 [GetUserAvailabilityResponse](getuseravailabilityresponse.md)
-#### Other resources
+
 
 [Getting User Availability](http://msdn.microsoft.com/library/d4133fcb-9b0f-4e6b-aadf-a389da83516a%28Office.15%29.aspx)
 

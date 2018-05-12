@@ -35,17 +35,17 @@ The **FolderChanges** element represents a collection of changes for a folder.
 
 The following sections describe attributes, child elements, and parent elements.
   
-#### Attributes
+### Attributes
 
 None.
   
-#### Child elements
+### Child elements
 
 |**Element**|**Description**|
 |:-----|:-----|
 |[FolderChange](folderchange.md) <br/> |Represents a single change to be performed on a single folder.  <br/> |
    
-#### Parent elements
+### Parent elements
 
 |**Element**|**Description**|
 |:-----|:-----|
@@ -66,7 +66,7 @@ The schema that describes this element is located in the EWS virtual directory o
    
 ## See also
 
-#### Reference
+
 
 [UpdateFolder operation](updatefolder-operation.md)
 

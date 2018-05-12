@@ -25,15 +25,15 @@ The **SuppressReadReceipts** element indicates whether read receipts should be s
 
 The following sections describe attributes, child elements, and parent elements.
   
-#### Attributes
+### Attributes
 
 None.
   
-#### Child elements
+### Child elements
 
 None.
   
-#### Parent elements
+### Parent elements
 
 [ConversationAction](conversationaction.md) | [MarkAllItemsAsRead](markallitemsasread.md)
   

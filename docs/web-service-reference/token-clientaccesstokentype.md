@@ -30,15 +30,15 @@ The **Token** element specifies a client access token.
 
 The following sections describe attributes, child elements, and parent elements.
   
-#### Attributes
+### Attributes
 
 None.
   
-#### Child elements
+### Child elements
 
 [ID (String)](id-string.md) | [TokenType](tokentype.md) | [TokenValue](tokenvalue.md) | [TTL](ttl.md)
   
-#### Parent elements
+### Parent elements
 
 [GetClientAccessTokenResponseMessage](getclientaccesstokenresponsemessage.md)
   

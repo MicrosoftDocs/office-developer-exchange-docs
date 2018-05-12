@@ -25,15 +25,15 @@ The **RightsManagedMessageDecryptionStatus** element specifies the rights manage
 
 The following sections describe attributes, child elements, and parent elements.
   
-#### Attributes
+### Attributes
 
 None.
   
-#### Child elements
+### Child elements
 
 None.
   
-#### Parent elements
+### Parent elements
 
 [RightsManagementLicenseData](rightsmanagementlicensedata.md)
   

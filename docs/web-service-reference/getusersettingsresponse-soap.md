@@ -30,11 +30,11 @@ The **GetUserSettingsResponse** element represents a response to a [GetUserSetti
 
 The following sections describe attributes, child elements, and parent elements.
   
-#### Attributes
+### Attributes
 
 None.
   
-#### Child elements
+### Child elements
 
 |**Element**|**Description**|
 |:-----|:-----|
@@ -42,7 +42,7 @@ None.
 |[ErrorMessage (SOAP)](errormessage-soap.md) <br/> |Represents a message that is associated with an error code that is returned by the Autodiscover service.  <br/> |
 |[UserResponses (SOAP)](userresponses-soap.md) <br/> |Contains the configuration settings for each requested user.  <br/> |
    
-#### Parent elements
+### Parent elements
 
 None.
   
@@ -61,7 +61,7 @@ None.
    
 ## See also
 
-#### Reference
+
 
 [GetUserSettings operation (SOAP)](getusersettings-operation-soap.md)
 

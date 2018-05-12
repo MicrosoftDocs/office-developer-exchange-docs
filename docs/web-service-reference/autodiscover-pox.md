@@ -19,7 +19,7 @@ The **AutoDiscover** element is the root element in an Autodiscover request or r
   
 [AutoDiscover (POX)](autodiscover-pox.md)
   
-```
+```xml
 <Autodiscover>
    <Request/>
 </Autodiscover>
@@ -29,24 +29,24 @@ The **AutoDiscover** element is the root element in an Autodiscover request or r
 
 The following sections describe attributes, child elements, and parent elements.
   
-#### Attributes
+### Attributes
 
 None.
   
-#### Child elements
+### Child elements
 
 |**Element**|**Description**|
 |:-----|:-----|
 |[Request (POX)](request-pox.md) <br/> |Contains the request to the Autodiscover service.  <br/> |
 |[Response (POX)](response-pox.md) <br/> |Contains the response from the Autodiscover service.  <br/> |
    
-#### Parent elements
+### Parent elements
 
 None.
   
 ## See also
 
-#### Concepts
+
 
 [POX Autodiscover XML elements for Exchange](pox-autodiscover-xml-elements-for-exchange.md)
 

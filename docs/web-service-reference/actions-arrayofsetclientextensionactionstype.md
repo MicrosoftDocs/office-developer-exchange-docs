@@ -27,15 +27,15 @@ The **Actions** element identifies an array of actions to perform on a client ex
 
 The following sections describe attributes, child elements, and parent elements.
   
-#### Attributes
+### Attributes
 
 None.
   
-#### Child elements
+### Child elements
 
 [Action (SetClientExtensionActionType)](action-setclientextensionactiontype.md)
   
-#### Parent elements
+### Parent elements
 
 [SetClientExtension](setclientextension.md)
   

@@ -27,7 +27,7 @@ The **EmptyFolder** element defines a request to empty a folder in a mailbox in 
 
 The following sections describe attributes, child elements, and parent elements.
   
-#### Attributes
+### Attributes
 
 |**Attribute**|**Description**|
 |:-----|:-----|
@@ -42,13 +42,13 @@ The following sections describe attributes, child elements, and parent elements.
 |SoftDelete  <br/> |A messages and folders are moved to the dumpster if the dumpster is enabled.  <br/> |
 |MoveToDeletedItems  <br/> |A messages and folders are moved to the Deleted Items folder.  <br/> |
    
-#### Child elements
+### Child elements
 
 |**Element**|**Description**|
 |:-----|:-----|
 |[FolderIds](folderids.md) <br/> |Contains an array of folder identifiers that are used to identify folders to delete.  <br/> |
    
-#### Parent elements
+### Parent elements
 
 None.
   
@@ -71,7 +71,7 @@ The schema that describes this element is located in the IIS virtual directory t
    
 ## See also
 
-#### Reference
+
 
 [EmptyFolder operation](emptyfolder-operation.md)
 

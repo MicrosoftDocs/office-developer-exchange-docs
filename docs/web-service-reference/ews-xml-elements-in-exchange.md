@@ -37,8 +37,8 @@ The EWS WSDL file, services.wsdl, does not fully conform to the WSDL standard be
   
 The messages.xsd schema file contains the element definitions for the top-level elements in the SOAP body. With the exception of the error response codes, most of the definitions in messages.xsd are specific to an operation. The types.xsd schema contains the definitions for the SOAP headers and all the common definitions that are shared across operations.
   
-## Additional resources
-<a name="bk_addresources"> </a>
+## See also
+
 
 - [EWS reference for Exchange](ews-reference-for-exchange.md)
     

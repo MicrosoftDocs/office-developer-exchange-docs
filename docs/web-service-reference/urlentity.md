@@ -28,15 +28,15 @@ The **UrlEntity** element identifies a single extracted URL entity.
 
 The following sections describe attributes, child elements, and parent elements.
   
-#### Attributes
+### Attributes
 
 None.
   
-#### Child elements
+### Child elements
 
 [Position](position.md) | [Url ](url-ex15websvcsotherref.md)
   
-#### Parent elements
+### Parent elements
 
 [Urls (ArrayOfUrlEntitiesType)](urls-arrayofurlentitiestype.md)
   

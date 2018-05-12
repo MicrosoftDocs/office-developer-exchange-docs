@@ -32,17 +32,17 @@ The **SetMissedCallNotificationEnabled** element defines a request for a [SetMis
 
 The following sections describe attributes, child elements, and parent elements.
   
-#### Attributes
+### Attributes
 
 None.
   
-#### Child elements
+### Child elements
 
 |**Element**|**Description**|
 |:-----|:-----|
 |[Status (UM web service - SetMissedCallNotificationEnabled)](status-um-web-servicesetmissedcallnotificationenabled.md) <br/> |Defines the value to use in a [SetMissedCallNotificationEnabled operation (UM web service)](setmissedcallnotificationenabled-operation-um-web-service.md) request.  <br/> |
    
-#### Parent elements
+### Parent elements
 
 None.
   
@@ -61,7 +61,7 @@ None.
    
 ## See also
 
-#### Reference
+
 
 [SetMissedCallNotificationEnabled operation (UM web service)](setmissedcallnotificationenabled-operation-um-web-service.md)
 

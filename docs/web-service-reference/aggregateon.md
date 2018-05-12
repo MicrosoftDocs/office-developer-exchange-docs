@@ -26,7 +26,7 @@ The **AggregateOn** element represents the property that is used to determine th
   
 [AggregateOn](aggregateon.md)
   
-```
+```xml
 <AggregateOn>
    <FieldURI/>
 </AggregateOn>
@@ -37,13 +37,13 @@ The **AggregateOn** element represents the property that is used to determine th
 
 The following sections describe attributes, child elements, and parent elements.
   
-#### Attributes
+### Attributes
 
 |**Attribute**|**Description**|
 |:-----|:-----|
 |**Aggregate** <br/> | Indicates the maximum or minimum value of the property identified by the [FieldURI](fielduri.md) element that is used for ordering the groups of items. The following are the possible values:  <br/>  Minimum  <br/>  Maximum  <br/> |
    
-#### Child elements
+### Child elements
 
 |**Element**|**Description**|
 |:-----|:-----|
@@ -51,7 +51,7 @@ The following sections describe attributes, child elements, and parent elements.
 |[IndexedFieldURI](indexedfielduri.md) <br/> |Identifies individual members of a dictionary.  <br/> |
 |[ExtendedFieldURI](extendedfielduri.md) <br/> |Identifies extended MAPI properties to get, set, or create.  <br/> |
    
-#### Parent elements
+### Parent elements
 
 |**Element**|**Description**|
 |:-----|:-----|
@@ -189,13 +189,13 @@ To sort the items in a group, use the [SortOrder](sortorder.md) element.
    
 ## See also
 
-#### Reference
+
 
 [FindItem operation](finditem-operation.md)
-#### Concepts
+
 
 [EWS XML elements in Exchange](ews-xml-elements-in-exchange.md)
-#### Other resources
+
 
 [Finding Items](http://msdn.microsoft.com/library/63af1f9c-464b-4fca-9ae3-3d60f24ca93c%28Office.15%29.aspx)
 

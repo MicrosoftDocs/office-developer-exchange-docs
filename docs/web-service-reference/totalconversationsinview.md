@@ -25,15 +25,15 @@ The **TotalConversationsInView** element contains the count of conversations ret
 
 The following sections describe attributes, child elements, and parent elements.
   
-#### Attributes
+### Attributes
 
 None.
   
-#### Child elements
+### Child elements
 
 None.
   
-#### Parent elements
+### Parent elements
 
 [FindConversationResponse](findconversationresponse.md)
   

@@ -31,15 +31,15 @@ The **AutoDiscoverSMTPAddress** element contains the user's SMTP address that is
 
 The following sections describe attributes, child elements, and parent elements.
   
-#### Attributes
+### Attributes
 
 None.
   
-#### Child elements
+### Child elements
 
 None.
   
-#### Parent elements
+### Parent elements
 
 |**Element**|**Description**|
 |:-----|:-----|
@@ -55,7 +55,7 @@ The **AutoDiscoverSMTPAddress** element is an optional child element of the **Us
   
 ## See also
 
-#### Concepts
+
 
 [POX Autodiscover XML elements for Exchange](pox-autodiscover-xml-elements-for-exchange.md)
 

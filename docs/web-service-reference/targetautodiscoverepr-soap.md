@@ -24,15 +24,15 @@ The **TargetAutodiscoverEpr** element represents the **TargetAutodiscoverEpr** p
 
 The following sections describe attributes, child elements, and parent elements.
   
-#### Attributes
+### Attributes
 
 None.
   
-#### Child elements
+### Child elements
 
 None.
   
-#### Parent elements
+### Parent elements
 
 |**Element**|**Description**|
 |:-----|:-----|
@@ -57,7 +57,7 @@ This element specifies the Autodiscover URL of the server for the external organ
    
 ## See also
 
-#### Reference
+
 
 [GetOrganizationRelationshipSettings operation (SOAP)](getorganizationrelationshipsettings-operation-soap.md)
 

@@ -27,15 +27,15 @@ The **App** element contains information about an XML manifest file for a mail a
 
 The following sections describe attributes, child elements, and parent elements.
   
-#### Attributes
+### Attributes
 
 None.
   
-#### Child elements
+### Child elements
 
 [Metadata](metadata-ex15websvcsotherref.md) | [Manifest](manifest.md)
   
-#### Parent elements
+### Parent elements
 
 [Apps](apps.md)
   
@@ -56,14 +56,14 @@ The schema that describes this element is located in the IIS virtual directory t
    
 ## See also
 
-#### Reference
+
 
 [Apps](apps.md)
   
 [Metadata](metadata-ex15websvcsotherref.md)
   
 [Manifest](manifest.md)
-#### Concepts
+
 
 [EWS XML elements in Exchange](ews-xml-elements-in-exchange.md)
 

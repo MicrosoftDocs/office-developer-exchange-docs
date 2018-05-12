@@ -38,11 +38,11 @@ The **FreeBusyViewOptions** element specifies the type of free/busy information 
 
 The following sections describe attributes, child elements, and parent elements.
   
-#### Attributes
+### Attributes
 
 None.
   
-#### Child elements
+### Child elements
 
 |**Element**|**Description**|
 |:-----|:-----|
@@ -50,7 +50,7 @@ None.
 |[MergedFreeBusyIntervalInMinutes](mergedfreebusyintervalinminutes.md) <br/> |Represents the time difference between two successive slots in the **FreeBusyMerged** view.  <br/> |
 |[RequestedView](requestedview.md) <br/> |Defines the type of calendar information that a client requests.  <br/> |
    
-#### Parent elements
+### Parent elements
 
 |**Element**|**Description**|
 |:-----|:-----|
@@ -126,10 +126,10 @@ The following example obtains a list of meetings and a free/busy stream in 60-mi
    
 ## See also
 
-#### Reference
+
 
 [GetUserAvailability operation](getuseravailability-operation.md)
-#### Other resources
+
 
 [Getting User Availability](http://msdn.microsoft.com/library/d4133fcb-9b0f-4e6b-aadf-a389da83516a%28Office.15%29.aspx)
 

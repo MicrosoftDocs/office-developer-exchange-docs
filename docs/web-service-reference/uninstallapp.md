@@ -27,15 +27,15 @@ The **UninstallApp** element specifies a request to uninstall an app by its iden
 
 The following sections describe attributes, child elements, and parent elements.
   
-#### Attributes
+### Attributes
 
 None.
   
-#### Child elements
+### Child elements
 
 [ID (String)](id-string.md)
   
-#### Parent elements
+### Parent elements
 
 None.
   

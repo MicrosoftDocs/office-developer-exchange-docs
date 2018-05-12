@@ -37,8 +37,8 @@ This section contains reference information for the SOAP Autodiscover service an
     
 - [POX Autodiscover web service reference for Exchange](pox-autodiscover-web-service-reference-for-exchange.md)
     
-## Additional resources
-<a name="bk_addresources"> </a>
+## See also
+
 
 - [Web services reference for Exchange](web-services-reference-for-exchange.md)
     

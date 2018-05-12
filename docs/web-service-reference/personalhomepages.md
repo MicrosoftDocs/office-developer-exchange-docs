@@ -27,15 +27,15 @@ The **PersonalHomePages** element specifies an array of home pages and the ident
 
 The following sections describe attributes, child elements, and parent elements.
   
-#### Attributes
+### Attributes
 
 None.
   
-#### Child elements
+### Child elements
 
 [StringAttributedValue](stringattributedvalue.md)
   
-#### Parent elements
+### Parent elements
 
 [Persona](persona.md)
   

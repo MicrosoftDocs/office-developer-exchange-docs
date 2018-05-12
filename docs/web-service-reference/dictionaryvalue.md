@@ -32,18 +32,18 @@ The **DictionaryValue** element specifies the dictionary value for a dictionary 
 
 The following sections describe attributes, child elements, and parent elements.
   
-#### Attributes
+### Attributes
 
 None.
   
-#### Child elements
+### Child elements
 
 |**Element**|**Description**|
 |:-----|:-----|
 |[Type (UserConfiguration)](type-userconfiguration.md) <br/> |Specifies the dictionary object type.  <br/> |
 |[Value (UserConfiguration)](value-userconfiguration.md) <br/> |Specifies the dictionary object value as a string.  <br/> |
    
-#### Parent elements
+### Parent elements
 
 |**Element**|**Description**|
 |:-----|:-----|
@@ -68,7 +68,7 @@ The schema that describes this element is located in the IIS virtual directory t
    
 ## See also
 
-#### Concepts
+
 
 [EWS XML elements in Exchange](ews-xml-elements-in-exchange.md)
 

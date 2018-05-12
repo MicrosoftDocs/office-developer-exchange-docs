@@ -1,5 +1,5 @@
 ---
-title: "How to Send email messages by using EWS in Exchange"
+title: "Send email messages by using EWS in Exchange"
  
  
 manager: sethgros
@@ -12,7 +12,7 @@ ms.assetid: 5290fafe-8b51-4275-a27e-baf497fc969c
 description: "Learn how to send new or draft email messages, or to send a delayed email message by using the EWS Managed API or EWS in Exchange."
 ---
 
-# How to: Send email messages by using EWS in Exchange
+# Send email messages by using EWS in Exchange
 
 Learn how to send new or draft email messages, or to send a delayed email message by using the EWS Managed API or EWS in Exchange.
   
@@ -288,11 +288,11 @@ The following code example shows how to use the [CreateItem](http://msdn.microso
 
 The server responds to the **CreateItem** request with a [CreateItemResponse](http://msdn.microsoft.com/library/742a46a0-2475-45a0-b44f-90639a3f5a43%28Office.15%29.aspx) message that includes a [ResponseCode](http://msdn.microsoft.com/library/4b84d670-74c9-4d6d-84e7-f0a9f76f0d93%28Office.15%29.aspx) value of **NoError**, which indicates that the email was created successfully, and the [ItemId](http://msdn.microsoft.com/library/3350b597-57a0-4961-8f44-8624946719b4%28Office.15%29.aspx) of the newly created message. 
   
-## Additional resources
-<a name="bk_addresources"> </a>
+## See also
+
 
 - [Email and EWS in Exchange](email-and-ews-in-exchange.md)
     
-- [How to: Respond to email messages by using EWS in Exchange](how-to-respond-to-email-messages-by-using-ews-in-exchange.md)
+- [Respond to email messages by using EWS in Exchange](how-to-respond-to-email-messages-by-using-ews-in-exchange.md)
     
 

@@ -25,15 +25,15 @@ The **PictureData** element contains the stream of picture data.
 
 The following sections describe attributes, child elements, and parent elements.
   
-#### Attributes
+### Attributes
 
 None.
   
-#### Child elements
+### Child elements
 
 None.
   
-#### Parent elements
+### Parent elements
 
 [GetUserPhotoResponse](getuserphotoresponse.md)
   

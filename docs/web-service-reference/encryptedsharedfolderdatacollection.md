@@ -29,17 +29,17 @@ The **EncryptedSharedFolderDataCollection** element contains a collection of dat
 
 The following sections describe attributes, child elements, and parent elements.
   
-#### Attributes
+### Attributes
 
 None.
   
-#### Child elements
+### Child elements
 
 |**Element**|**Description**|
 |:-----|:-----|
 |[EncryptedSharedFolderData](encryptedsharedfolderdata.md) <br/> |Contains the encrypted data that a client can use to authorize the sharing of its calendar or contact data with other clients.  <br/> |
    
-#### Parent elements
+### Parent elements
 
 |**Element**|**Description**|
 |:-----|:-----|
@@ -61,10 +61,10 @@ The schema that describes this element is located in the IIS Virtual directory t
    
 ## See also
 
-#### Reference
+
 
 [GetSharingMetadata operation](getsharingmetadata-operation.md)
-#### Concepts
+
 
 [EWS XML elements in Exchange](ews-xml-elements-in-exchange.md)
 

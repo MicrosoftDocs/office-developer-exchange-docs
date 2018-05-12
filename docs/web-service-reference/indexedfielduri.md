@@ -29,7 +29,7 @@ The **IndexedFieldURI** element identifies individual members of a dictionary.
 
 The following sections describe attributes, child elements, and parent elements.
   
-#### Attributes
+### Attributes
 
 |**Attribute**|**Description**|
 |:-----|:-----|
@@ -51,11 +51,11 @@ The following sections describe attributes, child elements, and parent elements.
 |contacts:EmailAddress  <br/> |Represents the e-mail address of a contact.  <br/> |
 |distributionlist:Members:Member  <br/> |Represents a member of a distribution list.  <br/> |
    
-#### Child elements
+### Child elements
 
 None.
   
-#### Parent elements
+### Parent elements
 
 |**Element**|**Description**|
 |:-----|:-----|
@@ -78,7 +78,7 @@ The schema that describes this element is located in the IIS virtual directory t
    
 ## See also
 
-#### Concepts
+
 
 [EWS XML elements in Exchange](ews-xml-elements-in-exchange.md)
 

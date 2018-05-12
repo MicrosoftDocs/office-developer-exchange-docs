@@ -31,15 +31,15 @@ The **GetImItemsResponse** element defines a response to a **GetImItems** reques
 
 The following sections describe attributes, child elements, and parent elements.
   
-#### Attributes
+### Attributes
 
 None.
   
-#### Child elements
+### Child elements
 
 [MessageText](messagetext.md) | [ResponseCode](responsecode.md) | [DescriptiveLinkKey](descriptivelinkkey.md) | [MessageXml](messagexml.md) | [ImItemList](imitemlist.md)
   
-#### Parent elements
+### Parent elements
 
 None.
   

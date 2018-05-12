@@ -286,15 +286,15 @@ The following elements are used in the response:
     
 ## See also
 
-#### Reference
+
 
 [UpdateItem operation (task)](updateitem-operation-task.md)
   
 [UpdateItem operation (contact)](updateitem-operation-contact.md)
-#### Concepts
+
 
 [EWS XML elements in Exchange](ews-xml-elements-in-exchange.md)
-#### Other resources
+
 
 [Updating Contacts](http://msdn.microsoft.com/library/9a865953-b94a-4229-b632-2dee433314be%28Office.15%29.aspx)
   

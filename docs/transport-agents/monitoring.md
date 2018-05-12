@@ -1,7 +1,5 @@
 ---
 title: "monitoring"
- 
- 
 manager: sethgros
 ms.date: 9/17/2015
 ms.audience: Developer
@@ -17,18 +15,14 @@ description: "Last modified: September 17, 2015"
 ---
 
 # monitoring
-
- **Last modified:** September 17, 2015 
   
- * **Applies to:** Exchange Server 2013 * 
+**Applies to:** Exchange Server 2013
   
 The **monitoring** element contains configuration information that defines how and when the Front End transport service or the Transport service monitors agents that are installed. 
   
-[configuration](configuration.md)
-  
-[mexRuntime](mexruntime.md)
-  
-[monitoring](monitoring.md)
+- [configuration](configuration.md)  
+- [mexRuntime](mexruntime.md)  
+- [monitoring](monitoring.md)
   
 ```XML
 <monitoring>
@@ -37,23 +31,24 @@ The **monitoring** element contains configuration information that defines how a
 </monitoring>
 ```
 
- **monitoringType (complexType)**
+**monitoringType (complexType)**
+
 ## Attributes and elements
 
 The following sections describe attributes, child elements, and parent elements.
   
-#### Attributes
+### Attributes
 
 None.
   
-#### Child elements
+### Child elements
 
 |**Element**|**Description**|
 |:-----|:-----|
 |[agentExecution](agentexecution.md) <br/> |Defines the time, in milliseconds, for the Client Access or the Mailbox server to wait for an agent to return from an event before it writes to the event log.  <br/> |
 |[messageSnapshot](messagesnapshot.md) <br/> |Contains an attribute that specifies whether the pipeline tracing feature is enabled for the Client Access or the Mailbox server.  <br/> |
    
-#### Parent elements
+### Parent elements
 
 |**Element**|**Description**|
 |:-----|:-----|
@@ -70,7 +65,5 @@ None.
    
 ## See also
 
-#### Concepts
-
-[Agents configuration file elements for Exchange 2013](agents-configuration-file-elements-for-exchange-2013.md)
+- [Agents configuration file elements for Exchange 2013](agents-configuration-file-elements-for-exchange-2013.md)
 

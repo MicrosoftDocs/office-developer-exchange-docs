@@ -28,15 +28,15 @@ The **AddImContactToGroup** element defines a request to add an existing instant
 
 The following sections describe attributes, child elements, and parent elements.
   
-#### Attributes
+### Attributes
 
 None.
   
-#### Child elements
+### Child elements
 
 [ContactId](contactid.md) | [GroupId](groupid.md)
   
-#### Parent elements
+### Parent elements
 
 None.
   

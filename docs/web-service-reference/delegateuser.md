@@ -34,11 +34,11 @@ The **DelegateUser** element identifies a single delegate to add or update in a 
 
 The following sections describe attributes, child elements, and parent elements.
   
-#### Attributes
+### Attributes
 
 None.
   
-#### Child elements
+### Child elements
 
 |**Element**|**Description**|
 |:-----|:-----|
@@ -47,7 +47,7 @@ None.
 |[ReceiveCopiesOfMeetingMessages](receivecopiesofmeetingmessages.md) <br/> |Indicates whether a delegate receives copies of meeting-related messages that are addressed to the principal. This element was introduced in Exchange 2007 SP1.  <br/> |
 |[ViewPrivateItems](viewprivateitems.md) <br/> |Indicates whether a delegate has permission to view private calendar items in the principal's mailbox. This element was introduced in Exchange 2007 SP1.  <br/> |
    
-#### Parent elements
+### Parent elements
 
 |**Element**|**Description**|
 |:-----|:-----|
@@ -69,15 +69,15 @@ The schema that describes this element is located in the EWS virtual directory o
    
 ## See also
 
-#### Reference
+
 
 [AddDelegate operation](adddelegate-operation.md)
   
 [UpdateDelegate operation](updatedelegate-operation.md)
-#### Concepts
+
 
 [EWS XML elements in Exchange](ews-xml-elements-in-exchange.md)
-#### Other resources
+
 
 [Adding Delegates](http://msdn.microsoft.com/library/3a744150-66a3-4a13-9433-793603ba5038%28Office.15%29.aspx)
 

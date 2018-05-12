@@ -31,17 +31,17 @@ The **GetRooms** element is the root element in a request to get a list of rooms
 
 The following sections describe attributes, child elements, and parent elements.
   
-#### Attributes
+### Attributes
 
 None.
   
-#### Child elements
+### Child elements
 
 |**Element**|**Description**|
 |:-----|:-----|
 |[RoomList](roomlist.md) <br/> |Represents an e-mail address that identifies a list of meeting rooms  <br/> |
    
-#### Parent elements
+### Parent elements
 
 None.
   
@@ -64,7 +64,7 @@ The schema that describes this element is located in the IIS virtual directory t
    
 ## See also
 
-#### Concepts
+
 
 [EWS XML elements in Exchange](ews-xml-elements-in-exchange.md)
 

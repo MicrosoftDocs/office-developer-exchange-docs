@@ -34,15 +34,15 @@ The **Status** element defines the value to use in a [SetOofStatus operation (UM
 
 The following sections describe attributes, child elements, and parent elements.
   
-#### Attributes
+### Attributes
 
 None.
   
-#### Child elements
+### Child elements
 
 None.
   
-#### Parent elements
+### Parent elements
 
 |**Element**|**Description**|
 |:-----|:-----|
@@ -67,7 +67,7 @@ A Boolean value is required. The following are the possible values:
    
 ## See also
 
-#### Reference
+
 
 [SetOofStatus operation (UM web service)](setoofstatus-operation-um-web-service.md)
 

@@ -25,15 +25,15 @@ The **MeetingString** element specifies the name of the meeting as the result of
 
 The following sections describe attributes, child elements, and parent elements.
   
-#### Attributes
+### Attributes
 
 None.
   
-#### Child elements
+### Child elements
 
 None.
   
-#### Parent elements
+### Parent elements
 
 [MeetingSuggestion](meetingsuggestion.md)
   

@@ -31,17 +31,17 @@ The **DeleteUserConfiguration** element represents a request to delete a user co
 
 The following sections describe attributes, child elements, and parent elements.
   
-#### Attributes
+### Attributes
 
 None.
   
-#### Child elements
+### Child elements
 
 |**Element**|**Description**|
 |:-----|:-----|
 |[UserConfigurationName](userconfigurationname.md) <br/> |Represents the name of the user configuration object to delete.  <br/> |
    
-#### Parent elements
+### Parent elements
 
 None.
   
@@ -64,7 +64,7 @@ The schema that describes this element is located in the IIS virtual directory t
    
 ## See also
 
-#### Concepts
+
 
 [EWS XML elements in Exchange](ews-xml-elements-in-exchange.md)
 

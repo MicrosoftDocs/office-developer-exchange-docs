@@ -1,12 +1,8 @@
 ---
 title: "Folders and items in EWS in Exchange"
- 
- 
 manager: sethgros
 ms.date: 9/17/2015
 ms.audience: Developer
- 
- 
 localization_priority: Normal
 ms.assetid: 9d8cf6fa-85a4-45ac-8165-e4d3ab92594e
 description: "Learn about folders and mailbox items and how your EWS Managed API or EWS client represents them."
@@ -19,9 +15,10 @@ Learn about folders and mailbox items and how your EWS Managed API or EWS client
 Folders are the organizing element of an Exchange mailbox. Folders can contain mailbox items, such as email messages, contacts, appointments, meetings, and tasks, or they can contain other folders. Exchange includes different types of folders, but the folder types are similar to each other. The main difference between them is the type of item they contain.
   
 Items, however, have unique types. Each item type has a different set of properties or schema to define it. In this article, we'll discuss the types of folders and items that are available and the differences between them.
-  
-## Folders
+
 <a name="bk_folders"> </a>
+
+## Folders
 
 Folders all derive from the same base class or base type, the [Folder](http://msdn.microsoft.com/en-us/library/microsoft.exchange.webservices.data.folder%28v=EXCHG.80%29.aspx) class in the EWS Managed API, or the [Folder](http://msdn.microsoft.com/library/812948d8-c7db-45ce-bb3a-77233a53a974%28Office.15%29.aspx) type in EWS. The following figure shows the EWS Managed API classes and EWS types. 
   
@@ -71,7 +68,7 @@ The following caveats apply to the EWS Managed API [Folder.FolderClass](http://m
   
 - If set, the value of the property or element must agree with the derived class or type of the folder. For example, the **FolderClass** property or element can't indicate that the folder is a Contacts folder while the class or type of the folder indicates the folder is a Calendar folder. 
     
-- You can either [create folders](how-to-work-with-folders-by-using-ews-in-exchange.md#bk_create) of a specific type without setting the **FolderClass** property or element, or you can create a folder with the generic folder type and specify the **FolderClass** property or element. Both options create the same result. 
+- You can either [create folders](how-to-work-with-folders-by-using-ews-in-exchange.md#bk_createfolderewsma) of a specific type without setting the **FolderClass** property or element, or you can create a folder with the generic folder type and specify the **FolderClass** property or element. Both options create the same result. 
     
 - After you set the **FolderClass** value by creating a specific type of folder or by setting the **FolderClass** property or element itself, you cannot change it. For example, you cannot change an IPF.Note folder to an IPF.Contact folder. You can, however, change it to an IPF.Note.Contoso folder. 
     
@@ -84,19 +81,22 @@ You can determine what permissions the client has on the folders, such as delete
 ### Public folders
 
 Public folders are designed for shared access and provide an easy and effective way to collect, organize, and share information with other people in your workgroup or organization. You can also use public folders to archive distribution group content. For in-depth information about public folders, see [Public folder access with EWS in Exchange](public-folder-access-with-ews-in-exchange.md).
-  
-### Hidden folders
+
 <a name="bk_hiddenfolders"> </a>
 
-All the folders that Exchange creates at the root of the mailbox are hidden, and you can use the EWS Managed API or EWS to hide additional folders under the Top of Information Store. For more information about hidden folders, see [How to: Work with hidden folders by using EWS in Exchange](how-to-work-with-hidden-folders-by-using-ews-in-exchange.md). 
-  
-### Search folders
+### Hidden folders
+
+All the folders that Exchange creates at the root of the mailbox are hidden, and you can use the EWS Managed API or EWS to hide additional folders under the Top of Information Store. For more information about hidden folders, see [Work with hidden folders by using EWS in Exchange](how-to-work-with-hidden-folders-by-using-ews-in-exchange.md). 
+
 <a name="bk_hiddenfolders"> </a>
+
+### Search folders
 
 Search folders are just like regular folders, except that they have a property or element that defines the search filter. You can create search folders in any folder in an Exchange mailbox, and you create them in the same way that you create any other folder. However, for a search folder to appear in Outlook, Outlook Web App, or Outlook Live, [SearchFolder](http://msdn.microsoft.com/en-us/library/microsoft.exchange.webservices.data.searchfolder%28v=exchg.80%29.aspx) objects that you create by using the EWS Managed API must be located in the [WellKnownFolderName.SearchFolders](http://msdn.microsoft.com/en-us/library/microsoft.exchange.webservices.data.wellknownfoldername%28v=exchg.80%29.aspx) folder, and [SearchFolder](http://msdn.microsoft.com/library/1a7d408b-2e98-4391-8834-085ed6d5757c%28Office.15%29.aspx) types that you create by using EWS must be located in the [DistinguishedFolderId.SearchFolders](http://msdn.microsoft.com/library/50018162-2941-4227-8a5b-d6b4686bb32f%28Office.15%29.aspx) folder. If the search folder is created in a different location, it is still available and you can view it in custom client applications. 
-  
-## Items
+
 <a name="bk_item"> </a>
+
+## Items
 
 EWS in Exchange uses **Items** to represent individual email messages, appointments, meetings, contacts, distribution lists, tasks, posts, and other items, in a mailbox. Items are either strongly typed, which means that they have a specific associated class or schema, or not strongly typed, also known as generic items. Generic items are [Item](http://msdn.microsoft.com/en-us/library/microsoft.exchange.webservices.data.item%28v=exchg.80%29.aspx) objects in the EWS Managed API and [Item](http://msdn.microsoft.com/library/4dfe8f48-e7b4-444d-bdf9-a34e180f598b%28Office.15%29.aspx) types in EWS. Common items like email messages, contacts, distribution lists, posts, and tasks are strongly typed, and you can set specific schematized properties or elements on them. 
   
@@ -126,34 +126,33 @@ Some folders have restrictions about the types of items that they can contain. T
 |[ContactsFolder](http://msdn.microsoft.com/en-us/library/microsoft.exchange.webservices.data.contactsfolder%28v=exchg.80%29.aspx) <br/> |[ContactsFolder](http://msdn.microsoft.com/library/6c299de8-2087-4aeb-8e66-2bc7586509a6%28Office.15%29.aspx) <br/> |You can only create new EWS Managed API [Contact](http://msdn.microsoft.com/en-us/library/microsoft.exchange.webservices.data.contact%28v=exchg.80%29.aspx) and [ContactGroup](http://msdn.microsoft.com/en-us/library/microsoft.exchange.webservices.data.contactgroup%28v=exchg.80%29.aspx) objects, or EWS [Contact](http://msdn.microsoft.com/library/66bfff50-7a91-4d81-b6a0-610b9962f677%28Office.15%29.aspx) types or [DistributionList](http://msdn.microsoft.com/library/f65aea01-e870-44a2-8571-fa6c001341cc%28Office.15%29.aspx) types in the Contacts folder. You can move other item types into the Contacts folder, but the client might not display them  <br/> |
 |[SearchFolder](http://msdn.microsoft.com/en-us/library/microsoft.exchange.webservices.data.searchfolder%28v=exchg.80%29.aspx) <br/> |[SearchFolder](http://msdn.microsoft.com/library/1a7d408b-2e98-4391-8834-085ed6d5757c%28Office.15%29.aspx) <br/> |No restrictions. Items are not actually located in the Search folder; they are located elsewhere in the mailbox.  <br/> |
 |[TasksFolder](http://msdn.microsoft.com/en-us/library/microsoft.exchange.webservices.data.tasksfolder%28v=exchg.80%29.aspx) <br/> |[TasksFolder](http://msdn.microsoft.com/library/5a9a4612-8064-4986-b467-c44f268c64df%28Office.15%29.aspx) <br/> |You can only create new EWS Managed API [Task](http://msdn.microsoft.com/en-us/library/microsoft.exchange.webservices.data.task%28v=exchg.80%29.aspx) objects or EWS [Task](http://msdn.microsoft.com/library/7c84927e-db28-4c5d-b0b5-cbcc2b88d869%28Office.15%29.aspx) types in the Tasks folder. You can move other item types into the Tasks folder, but the client might not display them  <br/> |
-   
-## Upgrading from earlier product versions
+
 <a name="bk_upgrading"> </a>
+
+## Upgrading from earlier product versions
 
 Folders have for the most part remained unchanged in earlier and current product versions. Note, however, that earlier versions of Exchange use managed folders to perform messaging records management (MRM). Exchange Online, Exchange Online as part of Office 365, and versions of Exchange starting with Exchange 2013 use retention policies for MRM. You can [upgrade managed folders to use retention policies](http://technet.microsoft.com/en-us/library/dd298032%28v=exchg.150%29.aspx). 
   
 Items have not changed in earlier and current product versions.
-  
-## In this section
+
 <a name="bk_inthissection"> </a>
 
-- [How to: Work with folders by using EWS in Exchange](how-to-work-with-folders-by-using-ews-in-exchange.md)
-    
-- [How to: Work with hidden folders by using EWS in Exchange](how-to-work-with-hidden-folders-by-using-ews-in-exchange.md)
-    
-- [How to: Work with Exchange mailbox items by using EWS in Exchange](how-to-work-with-exchange-mailbox-items-by-using-ews-in-exchange.md)
-    
-- [Deleting items by using EWS in Exchange](deleting-items-by-using-ews-in-exchange.md)
-    
-- [Exporting and importing items by using EWS in Exchange](exporting-and-importing-items-by-using-ews-in-exchange.md)
-    
-## Additional resources
-<a name="bk_addresources"> </a>
+## In this section
 
-- [Develop web service clients for Exchange](develop-web-service-clients-for-exchange.md)
+- [Work with folders by using EWS in Exchange](how-to-work-with-folders-by-using-ews-in-exchange.md)
     
-- [Start using web services in Exchange](start-using-web-services-in-exchange.md)
+- [Work with hidden folders by using EWS in Exchange](how-to-work-with-hidden-folders-by-using-ews-in-exchange.md)
     
+- [Work with Exchange mailbox items by using EWS in Exchange](how-to-work-with-exchange-mailbox-items-by-using-ews-in-exchange.md)
+    
+- [Delete items by using EWS in Exchange](deleting-items-by-using-ews-in-exchange.md)
+    
+- [Export and import items by using EWS in Exchange](exporting-and-importing-items-by-using-ews-in-exchange.md)
+    
+## See also
+
+- [Develop web service clients for Exchange](develop-web-service-clients-for-exchange.md)   
+- [Start using web services in Exchange](start-using-web-services-in-exchange.md)   
 - [EWS client design overview for Exchange](ews-client-design-overview-for-exchange.md)
     
 

@@ -27,15 +27,15 @@ The **MessageTypes** element specifies an array of messages to search.
 
 The following sections describe attributes, child elements, and parent elements.
   
-#### Attributes
+### Attributes
 
 None.
   
-#### Child elements
+### Child elements
 
 [SearchItemKind](searchitemkind.md)
   
-#### Parent elements
+### Parent elements
 
 [FindMailboxStatisticsByKeywords](findmailboxstatisticsbykeywords.md)
   

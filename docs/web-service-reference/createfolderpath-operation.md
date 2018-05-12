@@ -246,7 +246,7 @@ The error response SOAP body contains the following elements:
     
 For additional error codes that are generic to EWS and specific to this operation, see [ResponseCode](responsecode.md).
   
-## Additional resources
+## See also
 
 - [EWS operations in Exchange](ews-operations-in-exchange.md)
     

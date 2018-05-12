@@ -1,7 +1,5 @@
 ---
 title: "MaximumResultsByDay"
- 
- 
 manager: sethgros
 ms.date: 9/17/2015
 ms.audience: Developer
@@ -26,24 +24,25 @@ The **MaximumResultsByDay** element specifies the number of suggested meeting ti
   
 [MaximumResultsByDay](maximumresultsbyday.md)
   
-```
+```xml
 <MaximumResultsByDay>...</MaximumResultsByDay>
 ```
 
- **int**
+**int**
+
 ## Attributes and elements
 
 The following sections describe attributes, child elements, and parent elements.
   
-#### Attributes
+### Attributes
 
 None.
   
-#### Child elements
+### Child elements
 
 None.
   
-#### Parent elements
+### Parent elements
 
 |**Element**|**Description**|
 |:-----|:-----|
@@ -71,10 +70,6 @@ This element is required if the [SuggestionsViewOptions](suggestionsviewoptions.
    
 ## See also
 
-#### Reference
-
-[GetUserAvailability operation](getuseravailability-operation.md)
-#### Other resources
-
-[Getting User Availability](http://msdn.microsoft.com/library/d4133fcb-9b0f-4e6b-aadf-a389da83516a%28Office.15%29.aspx)
+- [GetUserAvailability operation](getuseravailability-operation.md)
+- [Getting User Availability](http://msdn.microsoft.com/library/d4133fcb-9b0f-4e6b-aadf-a389da83516a%28Office.15%29.aspx)
 

@@ -32,11 +32,11 @@ The **UserResponse** element represents a response to a GetUserSettings request 
 
 The following sections describe attributes, child elements, and parent elements.
   
-#### Attributes
+### Attributes
 
 None.
   
-#### Child elements
+### Child elements
 
 |**Element**|**Description**|
 |:-----|:-----|
@@ -46,7 +46,7 @@ None.
 |[UserSettingErrors (SOAP)](usersettingerrors-soap.md) <br/> |Represents a collection of information about settings that could not be returned.  <br/> |
 |[UserSettings (SOAP)](usersettings-soap.md) <br/> |The requested settings for the user.  <br/> |
    
-#### Parent elements
+### Parent elements
 
 |**Element**|**Description**|
 |:-----|:-----|
@@ -64,7 +64,7 @@ None.
    
 ## See also
 
-#### Concepts
+
 
 [SOAP Autodiscover XML elements for Exchange 2013](soap-autodiscover-xml-elements-for-exchange-2013.md)
 

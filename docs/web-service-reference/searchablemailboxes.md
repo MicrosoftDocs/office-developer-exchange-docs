@@ -27,15 +27,15 @@ The **SearchableMailboxes** element contains an array of the mailboxes returned 
 
 The following sections describe attributes, child elements, and parent elements.
   
-#### Attributes
+### Attributes
 
 None.
   
-#### Child elements
+### Child elements
 
 [SearchableMailbox](searchablemailbox.md)
   
-#### Parent elements
+### Parent elements
 
 [GetSearchableMailboxesResponse](getsearchablemailboxesresponse.md)
   

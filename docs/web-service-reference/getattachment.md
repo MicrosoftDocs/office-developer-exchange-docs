@@ -32,18 +32,18 @@ The **GetAttachment** element is the root element in a request to get an attachm
 
 The following sections describe attributes, child elements, and parent elements.
   
-#### Attributes
+### Attributes
 
 None.
   
-#### Child elements
+### Child elements
 
 |**Element**|**Description**|
 |:-----|:-----|
 |[AttachmentShape](attachmentshape.md) <br/> |Identifies additional extended item properties to return in a response to a [GetAttachment](getattachment.md) request. This element is optional.  <br/> |
 |[AttachmentIds](attachmentids.md) <br/> |Contains an array of attachment identifiers.  <br/> |
    
-#### Parent elements
+### Parent elements
 
 None.
   
@@ -64,7 +64,7 @@ The schema that describes this element is located in the EWS virtual directory o
    
 ## See also
 
-#### Reference
+
 
 [GetAttachment operation](getattachment-operation.md)
   

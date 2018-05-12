@@ -35,17 +35,17 @@ The **DeleteRuleOperation** element contains an operation to delete an existing 
 
 The following sections describe attributes, child elements, and parent elements.
   
-#### Attributes
+### Attributes
 
 None.
   
-#### Child elements
+### Child elements
 
 |**Element**|**Description**|
 |:-----|:-----|
 |[RuleId](ruleid.md) <br/> |Specifies the identifier of the rule to delete.  <br/> |
    
-#### Parent elements
+### Parent elements
 
 |**Element**|**Description**|
 |:-----|:-----|
@@ -70,14 +70,14 @@ The schema that describes this element is located in the IIS virtual directory t
    
 ## See also
 
-#### Reference
+
 
 [UpdateInboxRules](updateinboxrules.md)
   
 [SetRuleOperation](setruleoperation.md)
   
 [CreateRuleOperation](createruleoperation.md)
-#### Concepts
+
 
 [EWS XML elements in Exchange](ews-xml-elements-in-exchange.md)
 

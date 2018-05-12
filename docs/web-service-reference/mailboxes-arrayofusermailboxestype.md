@@ -27,15 +27,15 @@ The **Mailboxes** element contains an array of mailboxes.
 
 The following sections describe attributes, child elements, and parent elements.
   
-#### Attributes
+### Attributes
 
 None.
   
-#### Child elements
+### Child elements
 
 [UserMailbox](usermailbox.md)
   
-#### Parent elements
+### Parent elements
 
 [FindMailboxStatisticsByKeywords](findmailboxstatisticsbykeywords.md)
   

@@ -25,15 +25,15 @@ The **ID** element specifies the identifier of an app.
 
 The following sections describe attributes, child elements, and parent elements.
   
-#### Attributes
+### Attributes
 
 None.
   
-#### Child elements
+### Child elements
 
 None.
   
-#### Parent elements
+### Parent elements
 
 [DisableApp](disableapp.md) | [UninstallApp](uninstallapp.md)
   

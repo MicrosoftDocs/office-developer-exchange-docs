@@ -57,7 +57,7 @@ The following example of a SetTelephoneAccessFolderEmail response shows a respon
 
 ## See also
 
-#### Reference
+
 
 [SetTelephoneAccessFolderEmail (UM web service)](settelephoneaccessfolderemail-um-web-service.md)
   

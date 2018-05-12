@@ -1,5 +1,5 @@
 ---
-title: "How to Respond to email messages by using EWS in Exchange"
+title: "Respond to email messages by using EWS in Exchange"
  
  
 manager: sethgros
@@ -12,7 +12,7 @@ ms.assetid: 9d584991-4d67-4d36-ae2f-99970af8488f
 description: "Learn how to respond to email messages by using the EWS Managed API or EWS in Exchange."
 ---
 
-# How to: Respond to email messages by using EWS in Exchange
+# Respond to email messages by using EWS in Exchange
 
 Learn how to respond to email messages by using the EWS Managed API or EWS in Exchange.
   
@@ -240,11 +240,11 @@ public static void FindRecentlySent(EmailMessage messageToCheck)
 }
 ```
 
-## Additional resources
-<a name="bk_addresources"> </a>
+## See also
+
 
 - [Email and EWS in Exchange](email-and-ews-in-exchange.md)
     
-- [How to: Send email messages by using EWS in Exchange](how-to-send-email-messages-by-using-ews-in-exchange.md)
+- [Send email messages by using EWS in Exchange](how-to-send-email-messages-by-using-ews-in-exchange.md)
     
 

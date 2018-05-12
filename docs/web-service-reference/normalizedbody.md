@@ -25,18 +25,18 @@ The **NormalizedBody** element specifies an HTML representation of the **Body** 
 
 The following sections describe attributes, child elements, and parent elements.
   
-#### Attributes
+### Attributes
 
 |**Attribute**|**Description**|
 |:-----|:-----|
 |BodyType  <br/> |Indicates the body type. The value of **Text** for the **BodyType** attribute indicates that the body is in plain text form. The value of **HTML** for the **BodyType** attribute indicates that the body is in HTML form. The **BodyType** attribute is required.  <br/> |
 |IsTruncated  <br/> |Indicates that the body contents have been truncated. A text value of **false** for the **IsTruncated** attribute indicates that the body contents have not been truncated. The normalized body will be truncated if the normalized body length is longer than the value set in the [MaximumBodySize](maximumbodysize.md) element.  <br/> |
    
-#### Child elements
+### Child elements
 
 None.
   
-#### Parent elements
+### Parent elements
 
 [Item](item.md) | [Message](message-ex15websvcsotherref.md) | [MeetingMessage](meetingmessage.md) | [MeetingRequest](meetingrequest.md) | [MeetingResponse](meetingresponse.md) | [MeetingCancellation](meetingcancellation.md) | [Task](task.md) | [PostItem](postitem.md) | [CalendarItem](calendaritem.md) | [Contact](contact.md) | [DistributionList](distributionlist.md)
   

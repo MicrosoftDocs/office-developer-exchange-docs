@@ -30,15 +30,15 @@ The **SetTelephoneAccessFolderEmailResponse** element defines a response to a [S
 
 The following sections describe attributes, child elements, and parent elements.
   
-#### Attributes
+### Attributes
 
 None.
   
-#### Child elements
+### Child elements
 
 None.
   
-#### Parent elements
+### Parent elements
 
 None.
   
@@ -57,7 +57,7 @@ None.
    
 ## See also
 
-#### Reference
+
 
 [SetTelephoneAccessFolderEmail operation (UM web service)](settelephoneaccessfolderemail-operation-um-web-service.md)
 

@@ -25,15 +25,15 @@ The **CreationTime** element specifies when the persona was created.
 
 The following sections describe attributes, child elements, and parent elements.
   
-#### Attributes
+### Attributes
 
 None.
   
-#### Child elements
+### Child elements
 
 None.
   
-#### Parent elements
+### Parent elements
 
 [Persona](persona.md)
   

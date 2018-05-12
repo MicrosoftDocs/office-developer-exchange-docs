@@ -1,5 +1,5 @@
 ---
-title: "How to Get attachments by using EWS in Exchange"
+title: "Get attachments by using EWS in Exchange"
  
  
 manager: sethgros
@@ -12,7 +12,7 @@ ms.assetid: 12ce3cc0-a201-42e4-93e1-1f57961ff711
 description: "Learn how to get attachments from EWS items by using the EWS Managed API or EWS in Exchange."
 ---
 
-# How to: Get attachments by using EWS in Exchange
+# Get attachments by using EWS in Exchange
 
 Learn how to get attachments from EWS items by using the EWS Managed API or EWS in Exchange.
   
@@ -324,13 +324,13 @@ public static void SaveEmailAttachment(ExchangeService service, ItemId itemId)
 }
 ```
 
-## Additional resources
-<a name="bk_addresources"> </a>
+## See also
+
 
 - [Attachments and EWS in Exchange](attachments-and-ews-in-exchange.md)
     
-- [How to: Add attachments by using EWS in Exchange](how-to-add-attachments-by-using-ews-in-exchange.md)
+- [Add attachments by using EWS in Exchange](how-to-add-attachments-by-using-ews-in-exchange.md)
     
-- [How to: Delete attachments by using EWS in Exchange](how-to-delete-attachments-by-using-ews-in-exchange.md)
+- [Delete attachments by using EWS in Exchange](how-to-delete-attachments-by-using-ews-in-exchange.md)
     
 

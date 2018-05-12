@@ -30,11 +30,11 @@ The **DomainSettingError** element represents an error that occurred while retri
 
 The following sections describe attributes, child elements, and parent elements.
   
-#### Attributes
+### Attributes
 
 None.
   
-#### Child elements
+### Child elements
 
 |**Element**|**Description**|
 |:-----|:-----|
@@ -42,7 +42,7 @@ None.
 |[ErrorMessage (SOAP)](errormessage-soap.md) <br/> |Contains the error message that is associated with the specific request.  <br/> |
 |[SettingName (SOAP)](settingname-soap.md) <br/> |Represents the name of the setting.  <br/> |
    
-#### Parent elements
+### Parent elements
 
 |**Element**|**Description**|
 |:-----|:-----|
@@ -63,7 +63,7 @@ None.
    
 ## See also
 
-#### Reference
+
 
 [GetDomainSettings operation (SOAP)](getdomainsettings-operation-soap.md)
 

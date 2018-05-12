@@ -33,11 +33,11 @@ The **DocumentSharingLocation** element contains location and metadata informati
 
 The following sections describe attributes, child elements, and parent elements.
   
-#### Attributes
+### Attributes
 
 None.
   
-#### Child elements
+### Child elements
 
 |**Element**|**Description**|
 |:-----|:-----|
@@ -50,7 +50,7 @@ None.
 |[CanModifyPermissions (SOAP)](canmodifypermissions-soap.md) <br/> |Indicates whether the user can modify access permissions to the document sharing location.  <br/> |
 |[IsDefault (SOAP)](isdefault-soap.md) <br/> |Indicates whether the document sharing location is the user's default sharing location.  <br/> |
    
-#### Parent elements
+### Parent elements
 
 |**Element**|**Description**|
 |:-----|:-----|
@@ -71,10 +71,10 @@ None.
    
 ## See also
 
-#### Reference
+
 
 [GetUserSettings operation (SOAP)](getusersettings-operation-soap.md)
-#### Concepts
+
 
 [Autodiscover web service reference for Exchange](autodiscover-web-service-reference-for-exchange.md)
   

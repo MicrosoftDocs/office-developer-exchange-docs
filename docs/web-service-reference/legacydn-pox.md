@@ -25,15 +25,15 @@ The **LegacyDN** element identifies a user's mailbox by legacy distinguished nam
 
 The following sections describe attributes, child elements, and parent elements.
   
-#### Attributes
+### Attributes
 
 None.
   
-#### Child elements
+### Child elements
 
 None.
   
-#### Parent elements
+### Parent elements
 
 |**Element**|**Description**|
 |:-----|:-----|
@@ -50,7 +50,7 @@ The [EmailAddress (NonEmptyStringType)](emailaddress-nonemptystringtype.md) elem
   
 ## See also
 
-#### Concepts
+
 
 [POX Autodiscover XML elements for Exchange](pox-autodiscover-xml-elements-for-exchange.md)
 

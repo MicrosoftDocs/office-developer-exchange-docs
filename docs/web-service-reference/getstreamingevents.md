@@ -34,18 +34,18 @@ The **GetStreamingEvents** element represents the operation that is used by clie
 
 The following sections describe attributes, child elements, and parent elements.
   
-#### Attributes
+### Attributes
 
 None.
   
-#### Child elements
+### Child elements
 
 |**Element**|**Description**|
 |:-----|:-----|
 |[SubscriptionId (GetStreamingEvents)](subscriptionid-getstreamingevents.md) <br/> |Represents the identifier for a subscription that is queried for events.  <br/> |
 |[ConnectionTimeout](connectiontimeout.md) <br/> |Represents the number of minutes to keep a connection open.  <br/> |
    
-#### Parent elements
+### Parent elements
 
 None.
   
@@ -68,14 +68,14 @@ The schema that describes this element is located in the IIS virtual directory t
    
 ## See also
 
-#### Reference
+
 
 [Subscribe operation](subscribe-operation.md)
   
 [GetStreamingEvents operation](getstreamingevents-operation.md)
   
 [Unsubscribe operation](unsubscribe-operation.md)
-#### Concepts
+
 
 [EWS XML elements in Exchange](ews-xml-elements-in-exchange.md)
 

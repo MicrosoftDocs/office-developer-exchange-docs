@@ -25,18 +25,18 @@ The **ContactId** element uniquely identifies a contact.
 
 The following sections describe attributes, child elements, and parent elements.
   
-#### Attributes
+### Attributes
 
 |**Attribute**|**Description**|
 |:-----|:-----|
 |Id  <br/> |The text value of the **Id** attribute is the identifier of the contact item.  <br/> |
 |ChangeKey  <br/> |The text value of the **ChangeKey** attribute is the change key of the contact item.  <br/> |
    
-#### Child elements
+### Child elements
 
 None.
   
-#### Parent elements
+### Parent elements
 
 [AddImContactToGroup](addimcontacttogroup.md) | [RemoveContactFromImList](removecontactfromimlist.md) | [RemoveImContactFromGroup](removeimcontactfromgroup.md)
   

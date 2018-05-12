@@ -25,18 +25,18 @@ The **PersonaId** element specifies the persona identifier for the associated pe
 
 The following sections describe attributes, child elements, and parent elements.
   
-#### Attributes
+### Attributes
 
 |**Attribute**|**Description**|
 |:-----|:-----|
 |Id  <br/> |The text value of the **Id** attribute is the identifier of the persona.  <br/> |
 |ChangeKey  <br/> |The text value of the **ChangeKey** attribute is the change key of the persona.  <br/> |
    
-#### Child elements
+### Child elements
 
 None.
   
-#### Parent elements
+### Parent elements
 
 [GetPersona](getpersona.md) | [Persona](persona.md)
   

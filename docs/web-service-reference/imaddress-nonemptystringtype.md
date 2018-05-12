@@ -25,15 +25,15 @@ The **ImAddress** element contains the instant messaging address of a new contac
 
 The following sections describe attributes, child elements, and parent elements.
   
-#### Attributes
+### Attributes
 
 None.
   
-#### Child elements
+### Child elements
 
 None.
   
-#### Parent elements
+### Parent elements
 
 [AddNewImContactToGroup](addnewimcontacttogroup.md)
   

@@ -110,13 +110,13 @@ IM contacts are stored in a hidden folder called QuickContacts. You can use the 
 ## In this section
 <a name="PEOPLESEARCH"> </a>
 
-- [How to: Process contacts in batches by using EWS in Exchange](how-to-process-contacts-in-batches-by-using-ews-in-exchange.md)
+- [Process contacts in batches by using EWS in Exchange](how-to-process-contacts-in-batches-by-using-ews-in-exchange.md)
     
-- [How to: Resolve ambiguous names by using EWS in Exchange 2013](how-to-resolve-ambiguous-names-by-using-ews-in-exchange-2013.md)
+- [Resolve ambiguous names by using EWS in Exchange 2013](how-to-resolve-ambiguous-names-by-using-ews-in-exchange-2013.md)
     
-- [How to: Get user photos by using EWS in Exchange](how-to-get-user-photos-by-using-ews-in-exchange.md)
+- [Get user photos by using EWS in Exchange](how-to-get-user-photos-by-using-ews-in-exchange.md)
     
-## Additional resources
+## See also
 <a name="PEOPLESEARCH"> </a>
 
 - [Develop web service clients for Exchange](develop-web-service-clients-for-exchange.md)

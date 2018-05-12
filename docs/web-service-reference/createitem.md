@@ -32,7 +32,7 @@ The **CreateItem** element defines a request to create an item in the Exchange s
 
 The following sections describe attributes, child elements, and parent elements.
   
-#### Attributes
+### Attributes
 
 |**Attribute**|**Description**|
 |:-----|:-----|
@@ -55,14 +55,14 @@ The following sections describe attributes, child elements, and parent elements.
 |SendOnlyToAll  <br/> |The meeting request is sent to all attendees but is not saved in the Sent Items folder.  <br/> |
 |SendToAllAndSaveCopy  <br/> |The meeting request is sent to all attendees and a copy is saved in the folder that is identified by the [SavedItemFolderId](saveditemfolderid.md) element.  <br/> |
    
-#### Child elements
+### Child elements
 
 |**Element**|**Description**|
 |:-----|:-----|
 |[SavedItemFolderId](saveditemfolderid.md) <br/> |Identifies the target folder where a new item can be created. If the **MessageDisposition** attribute is set to SendOnly, a created message will only be sent. The message will not be put in the folder that is identified by the [SavedItemFolderId](saveditemfolderid.md) element.  <br/> |
 |[Items (NonEmptyArrayOfAllItemsType)](items-nonemptyarrayofallitemstype.md) <br/> |Contains an array of items to create in the folder that is identified by the [SavedItemFolderId](saveditemfolderid.md) element.  <br/> |
    
-#### Parent elements
+### Parent elements
 
 None.
   
@@ -81,14 +81,14 @@ The schema that describes this element is located in the EWS virtual directory o
    
 ## See also
 
-#### Reference
+
 
 [CreateItemResponse](createitemresponse.md)
   
 [CreateItem operation](createitem-operation.md)
   
  **CreateItemType**
-#### Other resources
+
 
 [Creating E-mail Messages](http://msdn.microsoft.com/library/05bfb83c-2866-427d-a9fe-14ba3cb02793%28Office.15%29.aspx)
   

@@ -258,7 +258,7 @@ The response SOAP body contains the following elements:
 
 The **GetImItems** operation does not validate identifiers and will not return the expected **ErrorInvalidImContactId** or **ErrorInvalidImGroupId** error response if an invalid contact or group identifier is provided to the service. 
   
-## Additional resources
+## See also
 
 - [EWS operations in Exchange](ews-operations-in-exchange.md)
     

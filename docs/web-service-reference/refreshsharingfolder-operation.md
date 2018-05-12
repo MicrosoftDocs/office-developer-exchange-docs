@@ -162,7 +162,7 @@ The following elements are used in the error response:
     
 ## See also
 
-#### Reference
+
 
 [RefreshSharingFolder](refreshsharingfolder.md)
   
@@ -171,7 +171,7 @@ The following elements are used in the error response:
 [RefreshSharingFolderResponseMessage](refreshsharingfolderresponsemessage.md)
   
 [RefreshSharingFolderResponseMessageType](https://msdn.microsoft.com/library/ExchangeWebServices.RefreshSharingFolderResponseMessageType.aspx)
-#### Concepts
+
 
 [EWS operations in Exchange](ews-operations-in-exchange.md)
   

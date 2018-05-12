@@ -27,15 +27,15 @@ The **Titles** element specifies an array of job titles and the identifiers of t
 
 The following sections describe attributes, child elements, and parent elements.
   
-#### Attributes
+### Attributes
 
 None.
   
-#### Child elements
+### Child elements
 
 [StringAttributedValue](stringattributedvalue.md)
   
-#### Parent elements
+### Parent elements
 
 [Persona](persona.md)
   

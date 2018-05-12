@@ -32,11 +32,11 @@ The **ExtendedProperty** element identifies extended MAPI properties on folders 
 
 The following sections describe attributes, child elements, and parent elements.
   
-#### Attributes
+### Attributes
 
 None.
   
-#### Child elements
+### Child elements
 
 |**Element**|**Description**|
 |:-----|:-----|
@@ -44,7 +44,7 @@ None.
 |[Values](values.md) <br/> |Contains a collection of values for a multivalued extended MAPI property.  <br/> |
 |[Value](value.md) <br/> |Contains the value of single-valued MAPI extended property.  <br/> |
    
-#### Parent elements
+### Parent elements
 
 |**Element**|**Description**|
 |:-----|:-----|
@@ -80,7 +80,7 @@ The schema that describes this element is located in the EWS virtual directory o
    
 ## See also
 
-#### Concepts
+
 
 [EWS XML elements in Exchange](ews-xml-elements-in-exchange.md)
 

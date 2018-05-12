@@ -37,11 +37,11 @@ The **GetMessageTrackingReport** element contains the request for the [GetMessag
 
 The following sections describe attributes, child elements, and parent elements.
   
-#### Attributes
+### Attributes
 
 None.
   
-#### Child elements
+### Child elements
 
 |**Element**|**Description**|
 |:-----|:-----|
@@ -53,7 +53,7 @@ None.
 |[DiagnosticsLevel](diagnosticslevel.md) <br/> |Specifies timing and performance information that will be used to derive the tracking report. This element is optional.  <br/> |
 |[Properties (ArrayOfTrackingPropertiesType)](properties-arrayoftrackingpropertiestype.md) <br/> |Specifies a list of one or more tracking properties. This element is optional.  <br/> |
    
-#### Parent elements
+### Parent elements
 
 None.
   
@@ -72,10 +72,10 @@ The schema that describes this element is located in the IIS virtual directory t
    
 ## See also
 
-#### Reference
+
 
 [GetMessageTrackingReport operation](getmessagetrackingreport-operation.md)
-#### Concepts
+
 
 [EWS XML elements in Exchange](ews-xml-elements-in-exchange.md)
 

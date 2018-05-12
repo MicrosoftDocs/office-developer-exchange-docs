@@ -34,11 +34,11 @@ The **GetUserAvailabilityRequest** element contains the arguments used to obtain
 
 The following sections describe attributes, child elements, and parent elements.
   
-#### Attributes
+### Attributes
 
 None.
   
-#### Child elements
+### Child elements
 
 |**Element**|**Description**|
 |:-----|:-----|
@@ -47,7 +47,7 @@ None.
 |[FreeBusyViewOptions](freebusyviewoptions.md) <br/> |Specifies the type of free/busy information returned in the response.  <br/> |
 |[SuggestionsViewOptions](suggestionsviewoptions.md) <br/> |Contains the options for obtaining meeting suggestion information.  <br/> |
    
-#### Parent elements
+### Parent elements
 
 None.
   
@@ -118,12 +118,12 @@ The following example shows a request for free/busy information.
    
 ## See also
 
-#### Reference
+
 
 [GetUserAvailability operation](getuseravailability-operation.md)
   
 [GetUserAvailabilityResponse](getuseravailabilityresponse.md)
-#### Other resources
+
 
 [Getting User Availability](http://msdn.microsoft.com/library/d4133fcb-9b0f-4e6b-aadf-a389da83516a%28Office.15%29.aspx)
 

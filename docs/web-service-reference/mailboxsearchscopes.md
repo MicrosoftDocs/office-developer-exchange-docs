@@ -27,15 +27,15 @@ The **MailboxSearchScopes** element specifies a list of one or more mailboxes an
 
 The following sections describe attributes, child elements, and parent elements.
   
-#### Attributes
+### Attributes
 
 None.
   
-#### Child elements
+### Child elements
 
 [MailboxSearchScope](mailboxsearchscope.md)
   
-#### Parent elements
+### Parent elements
 
 [MailboxQuery](mailboxquery.md)
   

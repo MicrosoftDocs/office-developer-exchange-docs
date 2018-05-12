@@ -29,15 +29,15 @@ The **MailboxHoldStatus** element specifies the hold status of the mailbox.
 
 The following sections describe attributes, child elements, and parent elements.
   
-#### Attributes
+### Attributes
 
 None.
   
-#### Child elements
+### Child elements
 
 [Mailbox (string)](mailbox-string.md) | [Status (HoldStatusType)](status-holdstatustype.md) | [AdditionalInfo](additionalinfo.md)
   
-#### Parent elements
+### Parent elements
 
 [MailboxHoldStatuses](mailboxholdstatuses.md)
   

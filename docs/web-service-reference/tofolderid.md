@@ -31,18 +31,18 @@ The **ToFolderId** element represents the destination folder for a copied or mov
 
 The following sections describe attributes, child elements, and parent elements.
   
-#### Attributes
+### Attributes
 
 None.
   
-#### Child elements
+### Child elements
 
 |**Element**|**Description**|
 |:-----|:-----|
 |[FolderId](folderid.md) <br/> |Contains the identifier of a destination folder for a copied or moved item or folder.  <br/> |
 |[DistinguishedFolderId](distinguishedfolderid.md) <br/> |Identifies a named destination folder for a copied or moved item or folder.  <br/> |
    
-#### Parent elements
+### Parent elements
 
 |**Element**|**Description**|
 |:-----|:-----|
@@ -66,7 +66,7 @@ The schema that describes this element is located in the EWS virtual directory o
    
 ## See also
 
-#### Reference
+
 
 [MoveFolder operation](movefolder-operation.md)
   

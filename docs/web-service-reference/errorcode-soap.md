@@ -26,15 +26,15 @@ The **ErrorCode** element represents an error code that is returned by the Autod
 
 The following sections describe attributes, child elements, and parent elements.
   
-#### Attributes
+### Attributes
 
 None.
   
-#### Child elements
+### Child elements
 
 None.
   
-#### Parent elements
+### Parent elements
 
 |**Element**|**Description**|
 |:-----|:-----|
@@ -75,7 +75,7 @@ The text value represents the error code for an Autodiscover error response. The
    
 ## See also
 
-#### Reference
+
 
 [GetUserSettings operation (SOAP)](getusersettings-operation-soap.md)
   

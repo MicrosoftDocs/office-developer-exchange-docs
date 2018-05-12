@@ -32,18 +32,18 @@ The **CopyFolder** element defines a request to copy folders in a mailbox in the
 
 The following sections describe attributes, child elements, and parent elements.
   
-#### Attributes
+### Attributes
 
 None.
   
-#### Child elements
+### Child elements
 
 |**Element**|**Description**|
 |:-----|:-----|
 |[ToFolderId](tofolderid.md) <br/> |Represents the destination folder for a copied folder.  <br/> |
 |[FolderIds](folderids.md) <br/> |Contains an array of folders to copy to the folder identified by the [ToFolderId](tofolderid.md) element.  <br/> |
    
-#### Parent elements
+### Parent elements
 
 None.
   
@@ -62,7 +62,7 @@ The schema that describes this element is located in the EWS virtual directory o
    
 ## See also
 
-#### Reference
+
 
 [CopyFolder operation](copyfolder-operation.md)
 

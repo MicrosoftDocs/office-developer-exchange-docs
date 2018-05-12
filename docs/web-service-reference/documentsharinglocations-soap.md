@@ -26,17 +26,17 @@ The **DocumentSharingLocations** element contains a list of location and metadat
 
 The following sections describe attributes, child elements, and parent elements.
   
-#### Attributes
+### Attributes
 
 None.
   
-#### Child elements
+### Child elements
 
 |**Element**|**Description**|
 |:-----|:-----|
 |[DocumentSharingLocation (SOAP)](documentsharinglocation-soap.md) <br/> |Contains the location and metadata for a document sharing location.  <br/> |
    
-#### Parent elements
+### Parent elements
 
 |**Element**|**Description**|
 |:-----|:-----|
@@ -53,10 +53,10 @@ None.
    
 ## See also
 
-#### Reference
+
 
 [GetUserSettings operation (SOAP)](getusersettings-operation-soap.md)
-#### Concepts
+
 
 [Autodiscover web service reference for Exchange](autodiscover-web-service-reference-for-exchange.md)
   

@@ -1,5 +1,5 @@
 ---
-title: "How to Get appointments and meetings by using EWS in Exchange"
+title: "Get appointments and meetings by using EWS in Exchange"
  
  
 manager: sethgros
@@ -12,7 +12,7 @@ ms.assetid: 1bae582a-8cb3-4e77-be2a-7e107fad26fe
 description: "Learn how to get appointments and meetings by using the EWS Managed API or EWS in Exchange."
 ---
 
-# How to: Get appointments and meetings by using EWS in Exchange
+# Get appointments and meetings by using EWS in Exchange
 
 Learn how to get appointments and meetings by using the EWS Managed API or EWS in Exchange.
   
@@ -214,16 +214,16 @@ The calendar folder is a little different from other folders in a mailbox becaus
   
 Instead, what you really want to do is something akin to applying a  *Dataview*  onto a union of two SQL tables, using a [CalendarView](http://msdn.microsoft.com/en-us/library/microsoft.exchange.webservices.data.calendarview%28v=exchg.80%29.aspx) object. Note that for performance reasons, we recommend that you use the [PropertySet](http://msdn.microsoft.com/en-us/library/microsoft.exchange.webservices.data.propertyset%28v=exchg.80%29.aspx) property to limit the size of the response by indicating the number of appointments or meetings you want returned, as well as the specific properties you want. 
   
-## Additional resources
+## See also
 <a name="bk_additional"> </a>
 
 - [Calendars and EWS in Exchange](calendars-and-ews-in-exchange.md)
     
-- [How to: Create appointments and meetings by using EWS in Exchange 2013](how-to-create-appointments-and-meetings-by-using-ews-in-exchange-2013.md)
+- [Create appointments and meetings by using EWS in Exchange 2013](how-to-create-appointments-and-meetings-by-using-ews-in-exchange-2013.md)
     
-- [How to: Update appointments and meetings by using EWS in Exchange](how-to-update-appointments-and-meetings-by-using-ews-in-exchange.md)
+- [Update appointments and meetings by using EWS in Exchange](how-to-update-appointments-and-meetings-by-using-ews-in-exchange.md)
     
-- [How to: Delete appointments and cancel meetings by using EWS in Exchange](how-to-delete-appointments-and-cancel-meetings-by-using-ews-in-exchange.md)
+- [Delete appointments and cancel meetings by using EWS in Exchange](how-to-delete-appointments-and-cancel-meetings-by-using-ews-in-exchange.md)
     
 - [Develop web service clients for Exchange](develop-web-service-clients-for-exchange.md)
     

@@ -25,7 +25,7 @@ This operation was introduced in Exchange Server 2013.
 The **RemoveContactFromImList** operation is a simple operation that accepts a user's email address and the requested photo size and returns the photo stream in the response. 
   
 > [!NOTE]
-> EWS has both a SOAP and a REST-based operation to get user photos. For information about the REST interface, see [How to: Get user photos by using EWS in Exchange](http://msdn.microsoft.com/library/f86d1099-1f57-47dc-abf2-4d5ae4e900a9%28Office.15%29.aspx). 
+> EWS has both a SOAP and a REST-based operation to get user photos. For information about the REST interface, see [Get user photos by using EWS in Exchange](http://msdn.microsoft.com/library/f86d1099-1f57-47dc-abf2-4d5ae4e900a9%28Office.15%29.aspx). 
   
 ### GetUserPhoto operation SOAP headers
 
@@ -112,10 +112,9 @@ The following elements are used in the response SOAP body:
 
 The SOAP envelope will not return an error code if an attempt is made to get a user photo for an email address that doesn't exist in the organization. A 500 HTTP status code will be returned in the response to indicate that the request was unsuccessful. 
   
-## Additional resources
+## See also
 
-- [EWS operations in Exchange](ews-operations-in-exchange.md)
-    
-- [How to: Get user photos by using EWS in Exchange](http://msdn.microsoft.com/library/f86d1099-1f57-47dc-abf2-4d5ae4e900a9%28Office.15%29.aspx)
+- [EWS operations in Exchange](ews-operations-in-exchange.md)   
+- [Get user photos by using EWS in Exchange](http://msdn.microsoft.com/library/f86d1099-1f57-47dc-abf2-4d5ae4e900a9%28Office.15%29.aspx)
     
 

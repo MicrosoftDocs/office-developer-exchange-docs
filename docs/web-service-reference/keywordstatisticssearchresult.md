@@ -31,15 +31,15 @@ The **KeywordStatisticsSearchResult** element contains a single keyword search r
 
 The following sections describe attributes, child elements, and parent elements.
   
-#### Attributes
+### Attributes
 
 None.
   
-#### Child elements
+### Child elements
 
 [Keyword](keyword.md) | [ItemHits](itemhits.md) | [Size (long)](size-long.md)
   
-#### Parent elements
+### Parent elements
 
 [MailboxStatisticsSearchResult](mailboxstatisticssearchresult.md)
   

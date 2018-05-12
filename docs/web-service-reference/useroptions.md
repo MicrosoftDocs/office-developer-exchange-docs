@@ -27,15 +27,15 @@ The **UserOptions** element specifies the list of voting options on a message.
 
 The following sections describe attributes, child elements, and parent elements.
   
-#### Attributes
+### Attributes
 
 None.
   
-#### Child elements
+### Child elements
 
 [VotingOptionData](votingoptiondata.md)
   
-#### Parent elements
+### Parent elements
 
 [VotingInformation](votinginformation.md)
   
@@ -56,10 +56,10 @@ The schema that describes this element is located in the IIS virtual directory t
    
 ## See also
 
-#### Reference
+
 
 [VotingInformation](votinginformation.md)
-#### Concepts
+
 
 [EWS XML elements in Exchange](ews-xml-elements-in-exchange.md)
 

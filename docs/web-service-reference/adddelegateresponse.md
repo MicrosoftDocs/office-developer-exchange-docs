@@ -20,7 +20,7 @@ description: "The AddDelegateResponse element contains the status and result of 
 
 The **AddDelegateResponse** element contains the status and result of an [AddDelegate operation](adddelegate-operation.md) request. 
   
-```
+```xml
 <AddDelegateResponse>
    <ResponseMessages/>
    <MessageText/>
@@ -35,11 +35,11 @@ The **AddDelegateResponse** element contains the status and result of an [AddDel
 
 The following sections describe attributes, child elements, and parent elements.
   
-#### Attributes
+### Attributes
 
 None.
   
-#### Child elements
+### Child elements
 
 |**Element**|**Description**|
 |:-----|:-----|
@@ -49,7 +49,7 @@ None.
 |[DescriptiveLinkKey](descriptivelinkkey.md) <br/> |Currently unused and is reserved for future use. It contains a value of 0.  <br/> |
 |[MessageXml](messagexml.md) <br/> |Provides additional error response information.  <br/> |
    
-#### Parent elements
+### Parent elements
 
 None.
   
@@ -68,13 +68,13 @@ The schema that describes this element is located in the EWS virtual directory o
    
 ## See also
 
-#### Reference
+
 
 [AddDelegate operation](adddelegate-operation.md)
-#### Concepts
+
 
 [EWS XML elements in Exchange](ews-xml-elements-in-exchange.md)
-#### Other resources
+
 
 [Adding Delegates](http://msdn.microsoft.com/library/3a744150-66a3-4a13-9433-793603ba5038%28Office.15%29.aspx)
 

@@ -1,5 +1,5 @@
 ---
-title: "How to Work with hidden folders by using EWS in Exchange"
+title: "Work with hidden folders by using EWS in Exchange"
  
  
 manager: sethgros
@@ -12,7 +12,7 @@ ms.assetid: 7ae7c045-cd90-4c9f-baf5-0464d5058f45
 description: "Learn how to make a folder hidden and find hidden folders by using the EWS Managed API or EWS in Exchange."
 ---
 
-# How to: Work with hidden folders by using EWS in Exchange
+# Work with hidden folders by using EWS in Exchange
 
 Learn how to make a folder hidden and find hidden folders by using the EWS Managed API or EWS in Exchange.
   
@@ -350,13 +350,13 @@ The [FolderId](http://msdn.microsoft.com/library/00d14e3e-4365-4f21-8f88-eaeea73
 
 After you have hidden or unhidden folders, you might want to get the folder hierarchy or [synchronize the folder hierarchy](how-to-synchronize-folders-by-using-ews-in-exchange.md). The examples that show you how to [get a folder hierarchy by using the EWS Managed API](how-to-work-with-folders-by-using-ews-in-exchange.md#bk_getfolderhierarchyewsma) or [get a folder hierarchy by using EWS](how-to-work-with-folders-by-using-ews-in-exchange.md#bk_getfolderhierarchyews) also indicate which folders in the hierarchy are hidden. 
   
-## Additional resources
-<a name="bk_addresources"> </a>
+## See also
+
 
 - [Folders and items in EWS in Exchange](folders-and-items-in-ews-in-exchange.md)
     
-- [How to: Work with folders by using EWS in Exchange](how-to-work-with-folders-by-using-ews-in-exchange.md)
+- [Work with folders by using EWS in Exchange](how-to-work-with-folders-by-using-ews-in-exchange.md)
     
-- [How to: Work with search folders by using EWS in Exchange](how-to-work-with-search-folders-by-using-ews-in-exchange.md)
+- [Work with search folders by using EWS in Exchange](how-to-work-with-search-folders-by-using-ews-in-exchange.md)
     
 

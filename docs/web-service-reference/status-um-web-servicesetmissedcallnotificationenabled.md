@@ -34,15 +34,15 @@ The **Status** element defines the value to use in a [SetMissedCallNotificationE
 
 The following sections describe attributes, child elements, and parent elements.
   
-#### Attributes
+### Attributes
 
 None.
   
-#### Child elements
+### Child elements
 
 None.
   
-#### Parent elements
+### Parent elements
 
 |**Element**|**Description**|
 |:-----|:-----|
@@ -67,7 +67,7 @@ A Boolean text value is required. The following are the possible values:
    
 ## See also
 
-#### Reference
+
 
 [SetMissedCallNotificationEnabled operation (UM web service)](setmissedcallnotificationenabled-operation-um-web-service.md)
 

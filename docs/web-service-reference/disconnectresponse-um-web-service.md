@@ -30,15 +30,15 @@ The **DisconnectResponse** element defines a response to a [Disconnect operation
 
 The following sections describe attributes, child elements, and parent elements.
   
-#### Attributes
+### Attributes
 
 None.
   
-#### Child elements
+### Child elements
 
 None.
   
-#### Parent elements
+### Parent elements
 
 None.
   
@@ -57,7 +57,7 @@ None.
    
 ## See also
 
-#### Reference
+
 
 [Disconnect operation (UM web service)](disconnect-operation-um-web-service.md)
 

@@ -72,11 +72,11 @@ The **DistributionList** element represents a distribution list.
 
 The following sections describe attributes, child elements, and parent elements.
   
-#### Attributes
+### Attributes
 
 None.
   
-#### Child elements
+### Child elements
 
 |**Element**|**Description**|
 |:-----|:-----|
@@ -123,7 +123,7 @@ None.
 |[ContactSource](contactsource.md) <br/> |Describes whether the contact is located in the Exchange store or in Active Directory Domain Services (AD DS).  <br/> |
 |[Members (MemberListType)](members-memberlisttype.md) <br/> |Contains a list of members of the distribution list.  <br/> |
    
-#### Parent elements
+### Parent elements
 
 |**Element**|**Description**|
 |:-----|:-----|
@@ -155,7 +155,7 @@ The schema that describes this element is located in the IIS virtual directory t
    
 ## See also
 
-#### Concepts
+
 
 [EWS XML elements in Exchange](ews-xml-elements-in-exchange.md)
 

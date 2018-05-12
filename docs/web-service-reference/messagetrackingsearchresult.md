@@ -39,11 +39,11 @@ The **MessageTrackingSearchResult** element contains a single message result for
 
 The following sections describe attributes, child elements, and parent elements.
   
-#### Attributes
+### Attributes
 
 None.
   
-#### Child elements
+### Child elements
 
 |**Element**|**Description**|
 |:-----|:-----|
@@ -57,7 +57,7 @@ None.
 |[FirstHopServer](firsthopserver.md) <br/> |Contains the name of the server in the forest that first accepted the message.  <br/> |
 |[Properties (ArrayOfTrackingPropertiesType)](properties-arrayoftrackingpropertiestype.md) <br/> |Contains a list of one or more tracking properties.  <br/> |
    
-#### Parent elements
+### Parent elements
 
 |**Element**|**Description**|
 |:-----|:-----|
@@ -82,10 +82,10 @@ The schema that describes this element is located in the IIS virtual directory t
    
 ## See also
 
-#### Reference
+
 
 [FindMessageTrackingReport operation](findmessagetrackingreport-operation.md)
-#### Concepts
+
 
 [EWS XML elements in Exchange](ews-xml-elements-in-exchange.md)
 

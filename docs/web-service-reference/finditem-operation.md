@@ -215,7 +215,7 @@ For more options for a **FindItem** error response message, explore the schema h
 
 Versions of Exchange starting with major version 15 and ending with build 15.0.898.11 return an ErrorInvalidOperation value in the [ResponseCode](responsecode.md) element when the **FindItem** operation is used to search multiple folders in an archive mailbox. 
   
-## Additional resources
+## See also
 
 - [Finding Items](http://msdn.microsoft.com/library/63af1f9c-464b-4fca-9ae3-3d60f24ca93c%28Office.15%29.aspx)
     

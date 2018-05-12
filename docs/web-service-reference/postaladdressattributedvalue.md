@@ -28,15 +28,15 @@ The **PostalAddressAttributedValue** element specifies an instance of an array o
 
 The following sections describe attributes, child elements, and parent elements.
   
-#### Attributes
+### Attributes
 
 None.
   
-#### Child elements
+### Child elements
 
 [Value (PersonaPostalAddressType)](value-personapostaladdresstype.md) | [Attributions (ArrayOfValueAttributionsType)](attributions-arrayofvalueattributionstype.md)
   
-#### Parent elements
+### Parent elements
 
 [BusinessAddresses](businessaddresses.md) | [HomeAddresses](homeaddresses.md) | [OtherAddresses](otheraddresses.md)
   

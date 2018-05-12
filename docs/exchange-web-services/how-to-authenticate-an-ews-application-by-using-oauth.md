@@ -1,5 +1,5 @@
 ---
-title: "How to Authenticate an EWS application by using OAuth"
+title: "Authenticate an EWS application by using OAuth"
  
  
 manager: sethgros
@@ -12,7 +12,7 @@ ms.assetid: 1d8d57f9-4df5-4f21-9bbb-a89e0e259052
 description: "Learn how to use OAuth authentication with your EWS Managed API applications."
 ---
 
-# How to: Authenticate an EWS application by using OAuth
+# Authenticate an EWS application by using OAuth
 
 Learn how to use OAuth authentication with your EWS Managed API applications.
   
@@ -170,8 +170,8 @@ The sample code requires an App.config file with the following entries:
 </configuration>
 ```
 
-## Additional resources
-<a name="bk_addresources"> </a>
+## See also
+
 
 - [Authentication and EWS in Exchange](authentication-and-ews-in-exchange.md)
     

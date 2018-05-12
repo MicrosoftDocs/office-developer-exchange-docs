@@ -25,7 +25,7 @@ The **Action** element provides information that is used to determine whether an
   
 [Action (POX)](action-pox.md)
   
-```
+```xml
 <Action>redirectUrl or redirectAddr or settings</Action>
 ```
 
@@ -33,15 +33,15 @@ The **Action** element provides information that is used to determine whether an
 
 The following sections describe attributes, child elements, and parent elements.
   
-#### Attributes
+### Attributes
 
 None.
   
-#### Child elements
+### Child elements
 
 None.
   
-#### Parent elements
+### Parent elements
 
 |**Element**|**Description**|
 |:-----|:-----|
@@ -59,7 +59,7 @@ The text value represents whether another Autodiscover request is necessary to r
    
 ## See also
 
-#### Concepts
+
 
 [POX Autodiscover XML elements for Exchange](pox-autodiscover-xml-elements-for-exchange.md)
 

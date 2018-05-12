@@ -35,11 +35,11 @@ The **RecurringDayTransition** element represents a time zone transition that oc
 
 The following sections describe attributes, child elements, and parent elements.
   
-#### Attributes
+### Attributes
 
 None.
   
-#### Child elements
+### Child elements
 
 |**Element**|**Description**|
 |:-----|:-----|
@@ -49,7 +49,7 @@ None.
 |[DayOfWeek (TimeZone)](dayofweek-timezone.md) <br/> |Represents the day of the week on which the time zone transition occurs.  <br/> |
 |[Occurrence (Time Zone Transition)](occurrence-time-zone-transition.md) <br/> |Represents the occurrence of the day of the week in the month that the time zone transition occurs.  <br/> |
    
-#### Parent elements
+### Parent elements
 
 |**Element**|**Description**|
 |:-----|:-----|
@@ -73,7 +73,7 @@ The schema that describes this element is located in the EWS virtual directory o
    
 ## See also
 
-#### Concepts
+
 
 [EWS XML elements in Exchange](ews-xml-elements-in-exchange.md)
 

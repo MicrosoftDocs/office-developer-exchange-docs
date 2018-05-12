@@ -30,11 +30,11 @@ The **Request** element contains the requested configuration settings and the ta
 
 The following sections describe attributes, child elements, and parent elements.
   
-#### Attributes
+### Attributes
 
 None.
   
-#### Child elements
+### Child elements
 
 |**Element**|**Description**|
 |:-----|:-----|
@@ -42,7 +42,7 @@ None.
 |[RequestedSettings (SOAP)](requestedsettings-soap.md) <br/> |Contains the names of the requested configuration settings.  <br/> |
 |[RequestedVersion (SOAP)](requestedversion-soap.md) <br/> |Specifies the specific server version that the provider would like to use.  <br/> |
    
-#### Parent elements
+### Parent elements
 
 |**Element**|**Description**|
 |:-----|:-----|
@@ -63,7 +63,7 @@ None.
    
 ## See also
 
-#### Reference
+
 
 [GetUserSettings operation (SOAP)](getusersettings-operation-soap.md)
 

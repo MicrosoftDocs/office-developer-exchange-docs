@@ -28,17 +28,17 @@ The **AlternateMailboxes** element represents a collection of alternate mailboxe
 
 The following sections describe attributes, child elements, and parent elements.
   
-#### Attributes
+### Attributes
 
 None.
   
-#### Child elements
+### Child elements
 
 |**Element**|**Description**|
 |:-----|:-----|
 |[AlternateMailbox (SOAP)](alternatemailbox-soap.md) <br/> |Represents an alternate mailbox.  <br/> |
    
-#### Parent elements
+### Parent elements
 
 |**Element**|**Description**|
 |:-----|:-----|

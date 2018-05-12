@@ -35,8 +35,8 @@ The articles in this section provide examples and descriptions of the messages t
     
 - [POX Autodiscover XML elements for Exchange](pox-autodiscover-xml-elements-for-exchange.md)
     
-## Additional resources
-<a name="bk_addresources"> </a>
+## See also
+
 
 - [Autodiscover web service reference for Exchange](autodiscover-web-service-reference-for-exchange.md)
     

@@ -28,15 +28,15 @@ The **Pagers** element specifies an array of pager phone numbers and the identif
 
 The following sections describe attributes, child elements, and parent elements.
   
-#### Attributes
+### Attributes
 
 None.
   
-#### Child elements
+### Child elements
 
 [PhoneNumberAttributedValue](phonenumberattributedvalue.md)
   
-#### Parent elements
+### Parent elements
 
 [Persona](persona.md)
   

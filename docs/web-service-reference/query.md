@@ -25,15 +25,15 @@ The **Query** element contains the search query for the hold.
 
 The following sections describe attributes, child elements, and parent elements.
   
-#### Attributes
+### Attributes
 
 None.
   
-#### Child elements
+### Child elements
 
 None.
   
-#### Parent elements
+### Parent elements
 
 [SetHoldOnMailboxes](setholdonmailboxes.md) | [MailboxHoldResult](mailboxholdresult.md) | [MailboxQuery](mailboxquery.md)
   

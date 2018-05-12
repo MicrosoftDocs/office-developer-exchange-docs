@@ -32,15 +32,15 @@ The **GetUserPhotoResponse** element contains the response to a GetUserPhoto req
 
 The following sections describe attributes, child elements, and parent elements.
   
-#### Attributes
+### Attributes
 
 None.
   
-#### Child elements
+### Child elements
 
 [MessageText](messagetext.md) | [ResponseCode](responsecode.md) | [DescriptiveLinkKey](descriptivelinkkey.md) | [MessageXml](messagexml.md) | [HasChanged](haschanged.md) | [PictureData](picturedata.md)
   
-#### Parent elements
+### Parent elements
 
 None.
   

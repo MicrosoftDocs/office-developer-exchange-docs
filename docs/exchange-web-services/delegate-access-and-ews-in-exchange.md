@@ -34,7 +34,7 @@ When it comes to sending mail or scheduling meetings, delegates can be given "se
   
 When is it appropriate to modify folder permissions directly? Generally, when you want to provide a user access to a folder, but do not want to grant the user "send on behalf of" permissions, when your permissions requirements do not map to the [DelegateFolderPermissionLevel](http://msdn.microsoft.com/en-us/library/microsoft.exchange.webservices.data.delegatefolderpermissionlevel%28v=exchg.80%29.aspx) EWS Managed API enumeration values or the [PermissionLevel](http://msdn.microsoft.com/library/87978600-3523-451e-a725-ef092c543e2a%28Office.15%29.aspx) EWS element values, or when you want to provide a user access to a single custom folder. 
   
-If you only need to modify folder permissions to achieve your goal, and do not need to add a delegate (that is, you don't need "send on behalf of" permissions), see [How to: Set folder permissions for another user by using EWS in Exchange](how-to-set-folder-permissions-for-another-user-by-using-ews-in-exchange.md). 
+If you only need to modify folder permissions to achieve your goal, and do not need to add a delegate (that is, you don't need "send on behalf of" permissions), see [Set folder permissions for another user by using EWS in Exchange](how-to-set-folder-permissions-for-another-user-by-using-ews-in-exchange.md). 
   
 Note that you can also use [Outlook](http://office.microsoft.com/en-us/outlook-help/allow-someone-else-to-manage-your-mail-and-calendar-HA102749417.aspx) or the [Exchange Management Shell](http://technet.microsoft.com/en-us/library/bb124097%28v=exchg.150%29.aspx) to set up delegate access. 
   
@@ -146,20 +146,20 @@ If an item ID was retrieved by the [FindItem](http://msdn.microsoft.com/library/
 ## In this section
 <a name="bk_implicit"> </a>
 
-- [How to: Add and remove delegates by using EWS in Exchange](how-to-add-and-remove-delegates-by-using-ews-in-exchange.md)
+- [Add and remove delegates by using EWS in Exchange](how-to-add-and-remove-delegates-by-using-ews-in-exchange.md)
     
-- [How to: Access a calendar as a delegate by using EWS in Exchange](how-to-access-a-calendar-as-a-delegate-by-using-ews-in-exchange.md)
+- [Access a calendar as a delegate by using EWS in Exchange](how-to-access-a-calendar-as-a-delegate-by-using-ews-in-exchange.md)
     
-- [How to: Access contacts as a delegate by using EWS in Exchange](how-to-access-contacts-as-a-delegate-by-using-ews-in-exchange.md)
+- [Access contacts as a delegate by using EWS in Exchange](how-to-access-contacts-as-a-delegate-by-using-ews-in-exchange.md)
     
-- [How to: Access email as a delegate by using EWS in Exchange](how-to-access-email-as-a-delegate-by-using-ews-in-exchange.md)
+- [Access email as a delegate by using EWS in Exchange](how-to-access-email-as-a-delegate-by-using-ews-in-exchange.md)
     
-- [How to: Set folder permissions for another user by using EWS in Exchange](how-to-set-folder-permissions-for-another-user-by-using-ews-in-exchange.md)
+- [Set folder permissions for another user by using EWS in Exchange](how-to-set-folder-permissions-for-another-user-by-using-ews-in-exchange.md)
     
 - [Handling delegation-related errors in EWS in Exchange](handling-delegation-related-errors-in-ews-in-exchange.md)
     
-## Additional resources
-<a name="bk_addresources"> </a>
+## See also
+
 
 - [Develop web service clients for Exchange](develop-web-service-clients-for-exchange.md)
     

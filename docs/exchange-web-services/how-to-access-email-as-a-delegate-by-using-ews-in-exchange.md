@@ -1,5 +1,5 @@
 ---
-title: "How to Access email as a delegate by using EWS in Exchange"
+title: "Access email as a delegate by using EWS in Exchange"
  
  
 manager: sethgros
@@ -12,7 +12,7 @@ ms.assetid: a8123604-c7c0-405d-a0ed-7a9b4a431bfd
 description: "Learn how to access email as a delegate by using the EWS Managed API or EWS in Exchange."
 ---
 
-# How to: Access email as a delegate by using EWS in Exchange
+# Access email as a delegate by using EWS in Exchange
 
 Learn how to access email as a delegate by using the EWS Managed API or EWS in Exchange.
   
@@ -391,14 +391,14 @@ You can use the EWS Managed API to get, update, or delete an email in the same w
 |Update an email  <br/> |[GetItem](http://msdn.microsoft.com/library/a41c29c9-c4e6-4aa4-8e28-ccb0b478fee8%28Office.15%29.aspx) followed by [UpdateItem](http://msdn.microsoft.com/library/5d027523-e0bc-4da2-b60b-0cb9fc1fdfe4%28Office.15%29.aspx) <br/> |[Update an item by using EWS](how-to-work-with-exchange-mailbox-items-by-using-ews-in-exchange.md#bk_updateews) <br/> |
 |Delete an email  <br/> |[GetItem](http://msdn.microsoft.com/library/a41c29c9-c4e6-4aa4-8e28-ccb0b478fee8%28Office.15%29.aspx) followed by [DeleteItem](http://msdn.microsoft.com/library/3e26c416-fa12-476e-bfd2-5c1f4bb7b348%28Office.15%29.aspx) <br/> |[Delete an item by using EWS](how-to-work-with-exchange-mailbox-items-by-using-ews-in-exchange.md#bk_deleteews) <br/> |
    
-## Additional resources
-<a name="bk_addresources"> </a>
+## See also
+
 
 - [Delegate access and EWS in Exchange](delegate-access-and-ews-in-exchange.md)
     
-- [How to: Add and remove delegates by using EWS in Exchange](how-to-add-and-remove-delegates-by-using-ews-in-exchange.md)
+- [Add and remove delegates by using EWS in Exchange](how-to-add-and-remove-delegates-by-using-ews-in-exchange.md)
     
-- [How to: Set folder permissions for another user by using EWS in Exchange](how-to-set-folder-permissions-for-another-user-by-using-ews-in-exchange.md)
+- [Set folder permissions for another user by using EWS in Exchange](how-to-set-folder-permissions-for-another-user-by-using-ews-in-exchange.md)
     
 - [Calendars and EWS in Exchange](calendars-and-ews-in-exchange.md)
     

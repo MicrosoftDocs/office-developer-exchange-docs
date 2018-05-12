@@ -34,7 +34,7 @@ The **AttendeeConflictDataArray** element contains an array of conflict data for
   
 [AttendeeConflictDataArray](attendeeconflictdataarray.md)
   
-```
+```xml
 <ArrayOfAttendeeConflictData>
    <UnknownAttendeeConflictData>...</UnknownAttendeeConflictData>
    <IndividualAttendeeConflictData>...</IndividualAttendeeConflictData>
@@ -48,11 +48,11 @@ The **AttendeeConflictDataArray** element contains an array of conflict data for
 
 The following sections describe attributes, child elements, and parent elements.
   
-#### Attributes
+### Attributes
 
 None.
   
-#### Child elements
+### Child elements
 
 |**Element**|**Description**|
 |:-----|:-----|
@@ -61,7 +61,7 @@ None.
 |[TooBigGroupAttendeeConflictData](toobiggroupattendeeconflictdata.md) <br/> |Represents an attendee that resolved as a distribution list that was too large to expand.  <br/> |
 |[GroupAttendeeConflictData](groupattendeeconflictdata.md) <br/> |Contains aggregate conflict information about the number of users available, the number of users who have conflicts, and the number of users who do not have availability information in a distribution list for a suggested meeting time.  <br/> |
    
-#### Parent elements
+### Parent elements
 
 |**Element**|**Description**|
 |:-----|:-----|
@@ -84,12 +84,12 @@ The schema that describes this element is located in the EWS virtual directory o
    
 ## See also
 
-#### Reference
+
 
 [GetUserAvailability operation](getuseravailability-operation.md)
   
 [GetUserAvailabilityResponse](getuseravailabilityresponse.md)
-#### Other resources
+
 
 [Getting User Availability](http://msdn.microsoft.com/library/d4133fcb-9b0f-4e6b-aadf-a389da83516a%28Office.15%29.aspx)
 

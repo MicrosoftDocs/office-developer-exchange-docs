@@ -27,17 +27,17 @@ The **GetPasswordExpirationDate** element defines a request to get the password 
 
 The following sections describe attributes, child elements, and parent elements.
   
-#### Attributes
+### Attributes
 
 None.
   
-#### Child elements
+### Child elements
 
 |**Element name**|**Description**|
 |:-----|:-----|
 |[MailboxSmtpAddress](mailboxsmtpaddress.md) <br/> |Represents the email address of the email account for which the password expiration date is to be returned.  <br/> |
    
-#### Parent elements
+### Parent elements
 
 None.
   
@@ -58,10 +58,10 @@ This element was introduced in Exchange Server 2010 Service Pack 2 (SP2).
    
 ## See also
 
-#### Reference
+
 
 [GetPasswordExpirationDate operation](getpasswordexpirationdate-operation.md)
-#### Concepts
+
 
 [EWS XML elements in Exchange](ews-xml-elements-in-exchange.md)
 

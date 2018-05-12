@@ -32,18 +32,18 @@ The **RemoveDelegate** element defines a request to remove delegates from a mail
 
 The following sections describe attributes, child elements, and parent elements.
   
-#### Attributes
+### Attributes
 
 None.
   
-#### Child elements
+### Child elements
 
 |**Element**|**Description**|
 |:-----|:-----|
 |[Mailbox](mailbox.md) <br/> |Identifies the principal's mailbox.  <br/> |
 |[UserIds](userids.md) <br/> |Contains an array of delegate users to remove from a principal's mailbox. This element was introduced in Exchange 2007 SP1.  <br/> |
    
-#### Parent elements
+### Parent elements
 
 None.
   
@@ -62,10 +62,10 @@ The schema that describes this element is located in the EWS virtual directory o
    
 ## See also
 
-#### Reference
+
 
 [RemoveDelegate operation](removedelegate-operation.md)
-#### Concepts
+
 
 [EWS XML elements in Exchange](ews-xml-elements-in-exchange.md)
 

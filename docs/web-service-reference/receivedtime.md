@@ -25,15 +25,15 @@ The **ReceivedTime** element specifies the time at which an item was received.
 
 The following sections describe attributes, child elements, and parent elements.
   
-#### Attributes
+### Attributes
 
 None.
   
-#### Child elements
+### Child elements
 
 None.
   
-#### Parent elements
+### Parent elements
 
 [SearchPreviewItem](searchpreviewitem.md)
   

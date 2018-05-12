@@ -30,15 +30,15 @@ The **SetPlayOnPhoneDialStringResponse** element defines a response to a [SetPla
 
 The following sections describe attributes, child elements, and parent elements.
   
-#### Attributes
+### Attributes
 
 None.
   
-#### Child elements
+### Child elements
 
 None.
   
-#### Parent elements
+### Parent elements
 
 None.
   
@@ -57,7 +57,7 @@ None.
    
 ## See also
 
-#### Reference
+
 
 [SetPlayOnPhoneDialString operation (UM web service)](setplayonphonedialstring-operation-um-web-service.md)
 

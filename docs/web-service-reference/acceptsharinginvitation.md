@@ -20,7 +20,7 @@ description: "The AcceptSharingInvitation element is used to accept an invitatio
 
 The **AcceptSharingInvitation** element is used to accept an invitation that allows access to another user's calendar or contacts data. 
   
-```
+```xml
 <AcceptSharingInvitation>
    <ReferenceItemId/>
 </AcceptSharingInvitation>
@@ -31,17 +31,17 @@ The **AcceptSharingInvitation** element is used to accept an invitation that all
 
 The following sections describe attributes, child elements, and parent elements.
   
-#### Attributes
+### Attributes
 
 None.
   
-#### Child elements
+### Child elements
 
 |**Element**|**Description**|
 |:-----|:-----|
 |[ReferenceItemId](referenceitemid.md) <br/> |Identifies the item to which the response object refers.  <br/> |
    
-#### Parent elements
+### Parent elements
 
 |**Element**|**Description**|
 |:-----|:-----|
@@ -63,10 +63,10 @@ The schema that describes this element is located in the IIS virtual directory t
    
 ## See also
 
-#### Reference
+
 
 [CreateItem (AcceptSharingInvitation)](createitem-acceptsharinginvitation.md)
-#### Concepts
+
 
 [EWS XML elements in Exchange](ews-xml-elements-in-exchange.md)
 

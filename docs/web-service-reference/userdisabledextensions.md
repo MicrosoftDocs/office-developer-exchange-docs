@@ -27,15 +27,15 @@ The **UserDisabledExtensions** element lists the disabled apps.
 
 The following sections describe attributes, child elements, and parent elements.
   
-#### Attributes
+### Attributes
 
 None.
   
-#### Child elements
+### Child elements
 
 [String](string.md)
   
-#### Parent elements
+### Parent elements
 
 [UserParameters](userparameters.md)
   

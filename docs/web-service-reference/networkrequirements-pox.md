@@ -40,11 +40,11 @@ The **NetworkRequirements** element contains the criteria that are used to deter
 
 The following sections describe attributes, child elements, and parent elements.
   
-#### Attributes
+### Attributes
 
 None.
   
-#### Child elements
+### Child elements
 
 |**Element**|**Description**|
 |:-----|:-----|
@@ -53,7 +53,7 @@ None.
 |[IPv6Start (POX)](ipv6start-pox.md) <br/> |Identifies the start of a range of IP version 6 (IPv6) addresses that are used to identify a computer on a network.  <br/> |
 |[IPv6End (POX)](ipv6end-pox.md) <br/> |Identifies the end of a range of IP version 6 (IPv6) addresses that are used to identify a computer on a network.  <br/> |
    
-#### Parent elements
+### Parent elements
 
 |**Element**|**Description**|
 |:-----|:-----|
@@ -67,7 +67,7 @@ The **NetworkRequirements** element is optional.
   
 ## See also
 
-#### Concepts
+
 
 [POX Autodiscover XML elements for Exchange](pox-autodiscover-xml-elements-for-exchange.md)
 

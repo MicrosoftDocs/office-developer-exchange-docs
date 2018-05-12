@@ -31,7 +31,7 @@ The **RootFolder** element contains the results of a search of a single root fol
 
 The following sections describe attributes, child elements, and parent elements.
   
-#### Attributes
+### Attributes
 
 |**Attribute**|**Description**|
 |:-----|:-----|
@@ -41,13 +41,13 @@ The following sections describe attributes, child elements, and parent elements.
 |IncludesLastItemInRange  <br/> |Indicates whether the current results contain the last folder in the query, such that further paging is not needed.  <br/> |
 |TotalItemsInView  <br/> |Represents the total number of folders that pass the restriction.  <br/> |
    
-#### Child elements
+### Child elements
 
 |**Element**|**Description**|
 |:-----|:-----|
 |[Folders](folders-ex15websvcsotherref.md) <br/> |Contains an array of folders found by using the [FindFolder operation](findfolder-operation.md).  <br/> |
    
-#### Parent elements
+### Parent elements
 
 |**Element**|**Description**|
 |:-----|:-----|
@@ -68,10 +68,10 @@ The schema that describes this element is located in the EWS virtual directory o
    
 ## See also
 
-#### Reference
+
 
 [FindFolder operation](findfolder-operation.md)
-#### Other resources
+
 
 [Finding Folders](http://msdn.microsoft.com/library/9124d868-017a-43f0-b915-5c0082cacec9%28Office.15%29.aspx)
 

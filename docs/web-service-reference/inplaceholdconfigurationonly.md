@@ -25,15 +25,15 @@ The **InPlaceHoldConfigurationOnly** element specifies whether to include the in
 
 The following sections describe attributes, child elements, and parent elements.
   
-#### Attributes
+### Attributes
 
 None.
   
-#### Child elements
+### Child elements
 
 None.
   
-#### Parent elements
+### Parent elements
 
 [GetDiscoverySearchConfiguration](getdiscoverysearchconfiguration.md)
   

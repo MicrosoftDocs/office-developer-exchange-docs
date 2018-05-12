@@ -31,7 +31,7 @@ The **ConvertId** element defines a request to convert item and folder identifie
 
 The following sections describe attributes, child elements, and parent elements.
   
-#### Attributes
+### Attributes
 
 |**Attribute**|**Description**|
 |:-----|:-----|
@@ -48,13 +48,13 @@ The following sections describe attributes, child elements, and parent elements.
 |**StoreId** <br/> |Represents the Exchange store identifier.  <br/> |
 |**OwaId** <br/> |Represents the Outlook Web Access identifier format.  <br/> |
    
-#### Child elements
+### Child elements
 
 |**Element**|**Description**|
 |:-----|:-----|
 |[SourceIds](sourceids.md) <br/> |Contains the source identifiers to convert.  <br/> |
    
-#### Parent elements
+### Parent elements
 
 None.
   
@@ -73,13 +73,13 @@ The schema that describes this element is located in the EWS virtual directory o
    
 ## See also
 
-#### Reference
+
 
 [ConvertId operation](convertid-operation.md)
-#### Concepts
+
 
 [EWS XML elements in Exchange](ews-xml-elements-in-exchange.md)
-#### Other resources
+
 
 [Converting Identifiers](http://msdn.microsoft.com/library/a5391746-b6ef-4f48-8fc8-8255258651aa%28Office.15%29.aspx)
 

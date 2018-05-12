@@ -30,15 +30,15 @@ The **DraftItemIds** element contains an array of item identifiers to draft item
 
 The following sections describe attributes, child elements, and parent elements.
   
-#### Attributes
+### Attributes
 
 None.
   
-#### Child elements
+### Child elements
 
 [ItemId](itemid.md) | [OccurrenceItemId](occurrenceitemid.md) | [RecurringMasterItemId](recurringmasteritemid.md) | [RecurringMasterItemIdRanges](recurringmasteritemidranges.md)
   
-#### Parent elements
+### Parent elements
 
 [Conversation (ConversationType)](conversation-conversationtype.md)
   

@@ -1,5 +1,5 @@
 ---
-title: "How to Perform paged searches by using EWS in Exchange"
+title: "Perform paged searches by using EWS in Exchange"
  
  
 manager: sethgros
@@ -12,7 +12,7 @@ ms.assetid: 64ed70e4-32eb-4c25-bfc4-43d1477296e5
 description: "Find out how to perform paged searches in your EWS Managed API or EWS application that targets Exchange."
 ---
 
-# How to: Perform paged searches by using EWS in Exchange
+# Perform paged searches by using EWS in Exchange
 
 Find out how to perform paged searches in your EWS Managed API or EWS application that targets Exchange.
   
@@ -339,8 +339,8 @@ The server sends the following response, which contains three items. The respons
 </s:Envelope>
 ```
 
-## Additional resources
-<a name="bk_addresources"> </a>
+## See also
+
 
 - [Search and EWS in Exchange](search-and-ews-in-exchange.md)
     

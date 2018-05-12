@@ -28,17 +28,17 @@ The **GetFederationInformationRequest** element represents the parameters of a c
 
 The following sections describe attributes, child elements, and parent elements.
   
-#### Attributes
+### Attributes
 
 None.
   
-#### Child elements
+### Child elements
 
 |**Element**|**Description**|
 |:-----|:-----|
 |[Domain (GetFederationInformation) (SOAP)](domain-getfederationinformationsoap.md) <br/> |Identifies the domain that has a federation trust.  <br/> |
    
-#### Parent elements
+### Parent elements
 
 None.
   
@@ -57,7 +57,7 @@ None.
    
 ## See also
 
-#### Reference
+
 
 [GetFederationInformation operation (SOAP)](getfederationinformation-operation-soap.md)
 

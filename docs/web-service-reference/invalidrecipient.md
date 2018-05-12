@@ -34,11 +34,11 @@ The **InvalidRecipient** element contains the SMTP address of the invalid recipi
 
 The following sections describe attributes, child elements, and parent elements.
   
-#### Attributes
+### Attributes
 
 None.
   
-#### Child elements
+### Child elements
 
 |**Element**|**Description**|
 |:-----|:-----|
@@ -46,7 +46,7 @@ None.
 |[ResponseCode (InvalidRecipientResponseCodeType)](responsecode-invalidrecipientresponsecodetype.md) <br/> |Provides an error code that identifies the specific error that the request encountered. This element is required.  <br/> |
 |[MessageText](messagetext.md) <br/> |Provides a text description of the status of the response. This element is optional.  <br/> |
    
-#### Parent elements
+### Parent elements
 
 |**Element**|**Description**|
 |:-----|:-----|
@@ -67,10 +67,10 @@ The schema that describes this element is located in the IIS virtual directory t
    
 ## See also
 
-#### Reference
+
 
 [GetSharingMetadata operation](getsharingmetadata-operation.md)
-#### Concepts
+
 
 [EWS XML elements in Exchange](ews-xml-elements-in-exchange.md)
 

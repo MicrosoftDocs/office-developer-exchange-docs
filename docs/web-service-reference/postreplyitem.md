@@ -78,11 +78,11 @@ The **PostReplyItem** element contains a reply to a post item. This element was 
 
 The following sections describe attributes, child elements, and parent elements.
   
-#### Attributes
+### Attributes
 
 None.
   
-#### Child elements
+### Child elements
 
 |**Element**|**Description**|
 |:-----|:-----|
@@ -135,7 +135,7 @@ None.
 |[ReceivedRepresenting](receivedrepresenting.md) <br/> |Identifies the principal in a delegate access scenario. This element was introduced in Exchange 2007 SP1.  <br/> |
 |[NewBodyContent](newbodycontent.md) <br/> |Represents the new body content of a post item.  <br/> |
    
-#### Parent elements
+### Parent elements
 
 |**Element**|**Description**|
 |:-----|:-----|
@@ -159,7 +159,7 @@ The schema that describes this element is located in the EWS virtual directory o
    
 ## See also
 
-#### Concepts
+
 
 [EWS XML elements in Exchange](ews-xml-elements-in-exchange.md)
 

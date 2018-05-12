@@ -27,15 +27,15 @@ The **Senders** element specifies an array of Simple Mail Transfer Protocol (SMT
 
 The following sections describe attributes, child elements, and parent elements.
   
-#### Attributes
+### Attributes
 
 None.
   
-#### Child elements
+### Child elements
 
 [SmtpAddress](smtpaddress.md)
   
-#### Parent elements
+### Parent elements
 
 [FindMailboxStatisticsByKeywords](findmailboxstatisticsbykeywords.md)
   

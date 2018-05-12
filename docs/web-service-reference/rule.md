@@ -32,7 +32,7 @@ The **Rule** element contains a single protection rule.
 
 The following sections describe attributes, child elements, and parent elements.
   
-#### Attributes
+### Attributes
 
 |**Attribute**|**Description**|
 |:-----|:-----|
@@ -40,14 +40,14 @@ The following sections describe attributes, child elements, and parent elements.
 |**UserOverridable** <br/> |Specifies whether the rule is mandatory. If the rule is mandatory, this attribute value must be **false**. A required attribute of type Boolean.  <br/> |
 |**Priority** <br/> |Specifies the rule priority. A required attribute of type int with a minimum value of 1.  <br/> |
    
-#### Child elements
+### Child elements
 
 |**Element**|**Description**|
 |:-----|:-----|
 |[Condition](condition.md) <br/> |Identifies the condition that must be satisfied for the action part of the rule to be executed.  <br/> |
 |[Action (ProtectionRuleActionType)](action-protectionruleactiontype.md) <br/> |Identifies what action must be executed if the condition part of the rule matches.  <br/> |
    
-#### Parent elements
+### Parent elements
 
 |**Element**|**Description**|
 |:-----|:-----|
@@ -72,7 +72,7 @@ The schema that describes this element is located in the IIS virtual directory t
    
 ## See also
 
-#### Concepts
+
 
 [EWS XML elements in Exchange](ews-xml-elements-in-exchange.md)
 

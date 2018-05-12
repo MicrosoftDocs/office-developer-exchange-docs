@@ -29,15 +29,15 @@ The **DescriptiveLinkKey** element is currently unused and is reserved for futur
 
 The following sections describe attributes, child elements, and parent elements.
   
-#### Attributes
+### Attributes
 
 None.
   
-#### Child elements
+### Child elements
 
 None.
   
-#### Parent elements
+### Parent elements
 
 |**Element**|**Description**|
 |:-----|:-----|
@@ -107,7 +107,7 @@ The schema that describes this element is located in the IIS virtual directory t
    
 ## See also
 
-#### Concepts
+
 
 [EWS reference for Exchange](ews-reference-for-exchange.md)
   

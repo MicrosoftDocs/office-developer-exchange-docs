@@ -29,7 +29,7 @@ The **FieldURI** element identifies frequently referenced properties by URI.
 
 The following sections describe attributes, child elements, and parent elements.
   
-#### Attributes
+### Attributes
 
 |**Attribute**|**Description**|
 |:-----|:-----|
@@ -378,11 +378,11 @@ The following sections describe attributes, child elements, and parent elements.
 |persona:PostalAddress  <br/> |Identifies the **PostalAddress** property.  <br/> |
 |persona:Bodies  <br/> |Identifies the **Bodies** property.  <br/> |
    
-#### Child elements
+### Child elements
 
 None.
   
-#### Parent elements
+### Parent elements
 
 |**Element**|**Description**|
 |:-----|:-----|
@@ -455,7 +455,7 @@ The following example shows how to use the FieldURI element.
    
 ## See also
 
-#### Concepts
+
 
 [EWS XML elements in Exchange](ews-xml-elements-in-exchange.md)
 

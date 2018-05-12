@@ -25,15 +25,15 @@ The **StartTime (ReminderMessageDataType)** element specifies the starting time 
 
 The following sections describe attributes, child elements, and parent elements.
   
-#### Attributes
+### Attributes
 
 None.
   
-#### Child elements
+### Child elements
 
 None.
   
-#### Parent elements
+### Parent elements
 
 [ReminderMessageData](remindermessagedata.md)
   
@@ -58,10 +58,10 @@ The schema that describes this element is located in the IIS virtual directory t
    
 ## See also
 
-#### Reference
+
 
 [ReminderMessageData](remindermessagedata.md)
-#### Concepts
+
 
 [EWS XML elements in Exchange](ews-xml-elements-in-exchange.md)
 

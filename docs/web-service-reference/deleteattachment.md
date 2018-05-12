@@ -31,17 +31,17 @@ The **DeleteAttachment** element is the root element in a request to delete an a
 
 The following sections describe attributes, child elements, and parent elements.
   
-#### Attributes
+### Attributes
 
 None.
   
-#### Child elements
+### Child elements
 
 |**Element**|**Description**|
 |:-----|:-----|
 |[AttachmentIds](attachmentids.md) <br/> |Contains an array of attachment identifiers that are used to delete the attachments.  <br/> |
    
-#### Parent elements
+### Parent elements
 
 None.
   
@@ -60,7 +60,7 @@ The schema that describes this element is located in the EWS virtual directory o
    
 ## See also
 
-#### Reference
+
 
 [DeleteAttachment operation](deleteattachment-operation.md)
 

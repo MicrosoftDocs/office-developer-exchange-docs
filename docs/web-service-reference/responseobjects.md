@@ -41,11 +41,11 @@ The **ResponseObjects** element contains a collection of all the response object
 
 The following sections describe attributes, child elements, and parent elements.
   
-#### Attributes
+### Attributes
 
 None.
   
-#### Child elements
+### Child elements
 
 |**Element**|**Description**|
 |:-----|:-----|
@@ -61,7 +61,7 @@ None.
 |[SuppressReadReceipt](suppressreadreceipt.md) <br/> |Used to suppress read receipt requests.  <br/> |
 |[AcceptSharingInvitation](acceptsharinginvitation.md) <br/> |Used to accept an invitation that allows access to another user's calendar or contacts data.  <br/> |
    
-#### Parent elements
+### Parent elements
 
 |**Element**|**Description**|
 |:-----|:-----|
@@ -92,7 +92,7 @@ The schema that describes this element is located in the IIS virtual directory t
    
 ## See also
 
-#### Concepts
+
 
 [EWS XML elements in Exchange](ews-xml-elements-in-exchange.md)
 

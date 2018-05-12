@@ -25,15 +25,15 @@ The **Country** element identifies a country identifier in a postal address.
 
 The following sections describe attributes, child elements, and parent elements.
   
-#### Attributes
+### Attributes
 
 None.
   
-#### Child elements
+### Child elements
 
 None.
   
-#### Parent elements
+### Parent elements
 
 [PostalAddress (PersonaPostalAddressType)](postaladdress-personapostaladdresstype.md)
   

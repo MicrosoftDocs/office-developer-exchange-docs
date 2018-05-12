@@ -43,18 +43,18 @@ This section also provides examples and descriptions of the messages that are us
     
 - [SOAP Autodiscover XML elements for Exchange 2013](soap-autodiscover-xml-elements-for-exchange-2013.md)
     
-## Additional resources
-<a name="bk_addresources"> </a>
+## See also
+
 
 - [Autodiscover web service reference for Exchange](autodiscover-web-service-reference-for-exchange.md)
     
 - [Autodiscover for Exchange](http://msdn.microsoft.com/library/da0f9402-4e35-42c7-a15e-1e9e4e966e8b%28Office.15%29.aspx)
     
-- [How to: Use Autodiscover to find connection points](http://msdn.microsoft.com/library/03896542-549b-4c45-973c-98f9025ea26c%28Office.15%29.aspx)
+- [Use Autodiscover to find connection points](http://msdn.microsoft.com/library/03896542-549b-4c45-973c-98f9025ea26c%28Office.15%29.aspx)
     
-- [How to: Get user settings from Exchange by using Autodiscover](http://msdn.microsoft.com/library/6d90c305-4802-4e18-8d52-f60349feaa8d%28Office.15%29.aspx)
+- [Get user settings from Exchange by using Autodiscover](http://msdn.microsoft.com/library/6d90c305-4802-4e18-8d52-f60349feaa8d%28Office.15%29.aspx)
     
-- [How to: Get domain settings from an Exchange server](http://msdn.microsoft.com/library/2f9acb81-5135-4f72-94e8-65c235d725e6%28Office.15%29.aspx)
+- [Get domain settings from an Exchange server](http://msdn.microsoft.com/library/2f9acb81-5135-4f72-94e8-65c235d725e6%28Office.15%29.aspx)
     
 - [Start using web services in Exchange](http://msdn.microsoft.com/library/e1b07a92-0595-4bf1-bd6b-c07e66a8c923%28Office.15%29.aspx)
     

@@ -25,15 +25,15 @@ The **ConfigurationRequestDetails** element contains client state for policy nud
 
 The following sections describe attributes, child elements, and parent elements.
   
-#### Attributes
+### Attributes
 
 None.
   
-#### Child elements
+### Child elements
 
 The child elements are not defined in the Exchange Web Services schema.
   
-#### Parent elements
+### Parent elements
 
 [GetServiceConfiguration](getserviceconfiguration.md)
   

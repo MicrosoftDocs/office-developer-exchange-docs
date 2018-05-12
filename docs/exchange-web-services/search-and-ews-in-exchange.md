@@ -172,18 +172,18 @@ static void CreateSearchFolder(ExchangeService service)
 ## In this section
 <a name="bk_InThisSection"> </a>
 
-- [How to: Use search filters with EWS in Exchange](how-to-use-search-filters-with-ews-in-exchange.md)
+- [Use search filters with EWS in Exchange](how-to-use-search-filters-with-ews-in-exchange.md)
     
-- [How to: Perform an AQS search by using EWS in Exchange](how-to-perform-an-aqs-search-by-using-ews-in-exchange.md)
+- [Perform an AQS search by using EWS in Exchange](how-to-perform-an-aqs-search-by-using-ews-in-exchange.md)
     
-- [How to: Perform paged searches by using EWS in Exchange](how-to-perform-paged-searches-by-using-ews-in-exchange.md)
+- [Perform paged searches by using EWS in Exchange](how-to-perform-paged-searches-by-using-ews-in-exchange.md)
     
-- [How to: Perform grouped searches by using EWS in Exchange](how-to-perform-grouped-searches-by-using-ews-in-exchange.md)
+- [Perform grouped searches by using EWS in Exchange](how-to-perform-grouped-searches-by-using-ews-in-exchange.md)
     
-- [How to: Work with search folders by using EWS in Exchange](how-to-work-with-search-folders-by-using-ews-in-exchange.md)
+- [Work with search folders by using EWS in Exchange](how-to-work-with-search-folders-by-using-ews-in-exchange.md)
     
-## Additional resources
-<a name="bk_addresources"> </a>
+## See also
+
 
 - [Develop web service clients for Exchange](develop-web-service-clients-for-exchange.md)
     

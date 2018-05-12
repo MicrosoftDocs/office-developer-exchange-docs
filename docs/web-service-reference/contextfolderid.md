@@ -39,18 +39,18 @@ The **ContextFolderId** element indicates the folder that is targeted for action
 
 The following sections describe attributes, child elements, and parent elements.
   
-#### Attributes
+### Attributes
 
 None.
   
-#### Child elements
+### Child elements
 
 |**Element**|**Description**|
 |:-----|:-----|
 |[FolderId](folderid.md) <br/> |Contains the identifier and change key of the context folder.  <br/> |
 |[DistinguishedFolderId](distinguishedfolderid.md) <br/> |Identifies folders that can be referenced by name.  <br/> |
    
-#### Parent elements
+### Parent elements
 
 |**Element**|**Description**|
 |:-----|:-----|
@@ -75,7 +75,7 @@ The schema that describes this element is located in the IIS virtual directory t
    
 ## See also
 
-#### Reference
+
 
 [ApplyConversationAction operation](applyconversationaction-operation.md)
 

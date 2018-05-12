@@ -36,15 +36,15 @@ The **dialString** element contains the value for the telephone number to dial.
 
 The following sections describe attributes, child elements, and parent elements.
   
-#### Attributes
+### Attributes
 
 None.
   
-#### Child elements
+### Child elements
 
 None.
   
-#### Parent elements
+### Parent elements
 
 |**Element**|**Description**|
 |:-----|:-----|
@@ -66,7 +66,7 @@ A text value is required. The text value must contain a valid dialing number.
    
 ## See also
 
-#### Reference
+
 
 [PlayOnPhone (UM web service)](playonphone-um-web-service.md)
   

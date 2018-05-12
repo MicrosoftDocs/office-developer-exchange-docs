@@ -27,15 +27,15 @@ The **MailboxStats** element specifies a list of one or more **MailboxStat** ele
 
 The following sections describe attributes, child elements, and parent elements.
   
-#### Attributes
+### Attributes
 
 None.
   
-#### Child elements
+### Child elements
 
 [MailboxStat](mailboxstat.md)
   
-#### Parent elements
+### Parent elements
 
 [SearchMailboxesResult](searchmailboxesresult.md)
   

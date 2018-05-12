@@ -29,15 +29,15 @@ The **NonIndexableItemStatistic** element contains a single statistic for an ite
 
 The following sections describe attributes, child elements, and parent elements.
   
-#### Attributes
+### Attributes
 
 None.
   
-#### Child elements
+### Child elements
 
 [Mailbox (string)](mailbox-string.md) | [ItemCount](itemcount.md) | [ErrorMessage](errormessage.md)
   
-#### Parent elements
+### Parent elements
 
 [NonIndexableItemStatistics](nonindexableitemstatistics.md)
   

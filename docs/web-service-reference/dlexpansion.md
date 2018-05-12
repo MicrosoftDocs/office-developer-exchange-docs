@@ -39,7 +39,7 @@ The **DLExpansion** element contains an array of mailboxes that are contained in
 
 The following sections describe attributes, child elements, and parent elements.
   
-#### Attributes
+### Attributes
 
 |**Attribute**|**Description**|
 |:-----|:-----|
@@ -49,13 +49,13 @@ The following sections describe attributes, child elements, and parent elements.
 |**IncludesLastItemInRange** <br/> |Indicates whether the current results contain the last item in the query so that additional paging is not needed.  <br/> |
 |**TotalItemsInView** <br/> |Represents the total number of items in the view.  <br/> |
    
-#### Child elements
+### Child elements
 
 |**Element**|**Description**|
 |:-----|:-----|
 |[Mailbox](mailbox.md) <br/> |Identifies a mail-enabled Active Directory directory service object.  <br/> |
    
-#### Parent elements
+### Parent elements
 
 |**Element**|**Description**|
 |:-----|:-----|
@@ -76,10 +76,10 @@ The schema that describes this element is located in the EWS virtual directory o
    
 ## See also
 
-#### Reference
+
 
 [ExpandDL operation](expanddl-operation.md)
-#### Concepts
+
 
 [EWS XML elements in Exchange](ews-xml-elements-in-exchange.md)
   

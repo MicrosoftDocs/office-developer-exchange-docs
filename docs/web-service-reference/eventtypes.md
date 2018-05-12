@@ -31,17 +31,17 @@ The **EventTypes** element contains a collection of event notification types tha
 
 The following sections describe attributes, child elements, and parent elements.
   
-#### Attributes
+### Attributes
 
 None.
   
-#### Child elements
+### Child elements
 
 |**Element**|**Description**|
 |:-----|:-----|
 |[EventType](eventtype.md) <br/> |Represents a requested event notification type that is used to create a subscription.  <br/> |
    
-#### Parent elements
+### Parent elements
 
 |**Element**|**Description**|
 |:-----|:-----|
@@ -68,7 +68,7 @@ The schema that describes this element is located in the IIS virtual directory t
    
 ## See also
 
-#### Reference
+
 
 [Subscribe operation](subscribe-operation.md)
   

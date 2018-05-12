@@ -27,15 +27,15 @@ The **Reminders** element specifies the reminders returned in the response to a 
 
 The following sections describe attributes, child elements, and parent elements.
   
-#### Attributes
+### Attributes
 
 None.
   
-#### Child elements
+### Child elements
 
 [Reminder](reminder.md)
   
-#### Parent elements
+### Parent elements
 
 [GetRemindersResponse](getremindersresponse.md)
   
@@ -56,10 +56,10 @@ The schema that describes this element is located in the IIS virtual directory t
    
 ## See also
 
-#### Reference
+
 
 [GetRemindersResponse](getremindersresponse.md)
-#### Concepts
+
 
 [EWS XML elements in Exchange](ews-xml-elements-in-exchange.md)
 

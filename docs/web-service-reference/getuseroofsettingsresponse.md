@@ -33,11 +33,11 @@ The **GetUserOofSettingsResponse** element contains the response message and the
 
 The following sections describe attributes, child elements, and parent elements.
   
-#### Attributes
+### Attributes
 
 None.
   
-#### Child elements
+### Child elements
 
 |**Element**|**Description**|
 |:-----|:-----|
@@ -45,7 +45,7 @@ None.
 |[OofSettings](oofsettings.md) <br/> |Contains the OOF settings.  <br/> |
 |[AllowExternalOof](allowexternaloof.md) <br/> |Contains a value that identifies to whom external OOF messages are sent.  <br/> |
    
-#### Parent elements
+### Parent elements
 
 None.
   
@@ -64,7 +64,7 @@ The schema that describes this element is located in the EWS virtual directory o
    
 ## See also
 
-#### Reference
+
 
 [GetUserOofSettings operation](getuseroofsettings-operation.md)
   

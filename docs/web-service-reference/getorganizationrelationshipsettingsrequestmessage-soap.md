@@ -26,17 +26,17 @@ The **GetOrganizationRelationshipSettingRequestMessage** element represents a [G
 
 The following sections describe attributes, child elements, and parent elements.
   
-#### Attributes
+### Attributes
 
 None.
   
-#### Child elements
+### Child elements
 
 |**Element**|**Description**|
 |:-----|:-----|
 |[Request (GetOrganizationRelationship) (SOAP)](request-getorganizationrelationshipsoap.md) <br/> |Represents a [GetOrganizationRelationshipSettingsRequest (SOAP)](getorganizationrelationshipsettingsrequest-soap.md) request.  <br/> |
    
-#### Parent elements
+### Parent elements
 
 None.
   
@@ -51,7 +51,7 @@ None.
    
 ## See also
 
-#### Reference
+
 
 [GetOrganizationRelationshipSettings operation (SOAP)](getorganizationrelationshipsettings-operation-soap.md)
 

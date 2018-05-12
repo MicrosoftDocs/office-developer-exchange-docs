@@ -1,5 +1,5 @@
 ---
-title: "How to Create a recurring series by using EWS in Exchange"
+title: "Create a recurring series by using EWS in Exchange"
  
  
 manager: sethgros
@@ -12,7 +12,7 @@ ms.assetid: 88ed6e87-25f7-4a54-83fa-d757a0ff2528
 description: "Learn how to create recurring meetings by using the EWS Managed API or EWS in Exchange."
 ---
 
-# How to: Create a recurring series by using EWS in Exchange
+# Create a recurring series by using EWS in Exchange
 
 Learn how to create recurring meetings by using the EWS Managed API or EWS in Exchange.
   
@@ -326,21 +326,21 @@ The **ItemId** and **ChangeKey** attributes are shortened for readability.
 
 ```
 
-## Additional resources
-<a name="bk_addresources"> </a>
+## See also
+
 
 - [Calendars and EWS in Exchange](calendars-and-ews-in-exchange.md)
     
-- [How to: Create appointments and meetings by using EWS in Exchange 2013](how-to-create-appointments-and-meetings-by-using-ews-in-exchange-2013.md)
+- [Create appointments and meetings by using EWS in Exchange 2013](how-to-create-appointments-and-meetings-by-using-ews-in-exchange-2013.md)
     
 - [Recurrence patterns and EWS](recurrence-patterns-and-ews.md)
     
-- [How to: Access a recurring series by using EWS in Exchange](how-to-access-a-recurring-series-by-using-ews-in-exchange.md)
+- [Access a recurring series by using EWS in Exchange](how-to-access-a-recurring-series-by-using-ews-in-exchange.md)
     
-- [How to: Delete appointments in a recurring series by using EWS in Exchange](how-to-delete-appointments-in-a-recurring-series-by-using-ews-in-exchange.md)
+- [Delete appointments in a recurring series by using EWS in Exchange](how-to-delete-appointments-in-a-recurring-series-by-using-ews-in-exchange.md)
     
-- [How to: Update a recurring series by using EWS](how-to-update-a-recurring-series-by-using-ews.md)
+- [Update a recurring series by using EWS](how-to-update-a-recurring-series-by-using-ews.md)
     
-- [How to: Update a recurring series by using EWS in Exchange](how-to-update-a-recurring-series-by-using-ews-in-exchange.md)
+- [Update a recurring series by using EWS in Exchange](how-to-update-a-recurring-series-by-using-ews-in-exchange.md)
     
 

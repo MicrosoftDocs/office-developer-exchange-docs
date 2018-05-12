@@ -152,7 +152,7 @@ Errors returned for this operation are related to an invalid format of the input
 
 ```
 
-## Additional resources
+## See also
 
 - [EWS operations in Exchange](ews-operations-in-exchange.md)
     

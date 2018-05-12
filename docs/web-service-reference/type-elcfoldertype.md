@@ -25,15 +25,15 @@ The **Type** element specifies the type of folder used in a retention policy.
 
 The following sections describe attributes, child elements, and parent elements.
   
-#### Attributes
+### Attributes
 
 None.
   
-#### Child elements
+### Child elements
 
 None.
   
-#### Parent elements
+### Parent elements
 
 [RetentionPolicyTag](retentionpolicytag.md)
   

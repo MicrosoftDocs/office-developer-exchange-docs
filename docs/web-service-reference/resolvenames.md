@@ -32,7 +32,7 @@ The **ResolveNames** element defines a request to resolve ambiguous names.
 
 The following sections describe attributes, child elements, and parent elements.
   
-#### Attributes
+### Attributes
 
 |**Attribute**|**Description**|
 |:-----|:-----|
@@ -64,14 +64,14 @@ The following sections describe attributes, child elements, and parent elements.
 |Default  <br/> |The Default set of contact item properties is returned. For more information, see [Response shapes in EWS](http://msdn.microsoft.com/library/1c5ddc0a-c4e0-4488-8972-7543b5b464df%28Office.15%29.aspx).  <br/> |
 |AllProperties  <br/> |The AllProperties set of contact item properties are returned. For more information, see [Response shapes in EWS](http://msdn.microsoft.com/library/1c5ddc0a-c4e0-4488-8972-7543b5b464df%28Office.15%29.aspx).  <br/> |
    
-#### Child elements
+### Child elements
 
 |**Element**|**Description**|
 |:-----|:-----|
 |[ParentFolderIds](parentfolderids.md) <br/> |Contains an array of contact folder identifiers that would be searched if the **SearchScope** attribute is set to ActiveDirectoryContacts, Contacts, or ContactsActiveDirectory. The ParentFolderIds array can only contain a single contact folder identifier. If the **ParentFolderIds** element is not present, the default Contacts folder is searched.  <br/> The folder identifier can be used for delegate access.  <br/> Active Directory searches are performed by using access control lists (ACLs). Some users might not have the rights to see some Active Directory objects.  <br/> This element is optional.  <br/> |
 |[UnresolvedEntry](unresolvedentry.md) <br/> |Contains the name of a contact or distribution list to resolve.  <br/> |
    
-#### Parent elements
+### Parent elements
 
 None.
   
@@ -90,17 +90,17 @@ The schema that describes this element is located in the IIS virtual directory t
    
 ## See also
 
-#### Reference
+
 
 [ResolveNames operation](resolvenames-operation.md)
   
 [ResolveNamesType](https://msdn.microsoft.com/library/ExchangeWebServices.ResolveNamesType.aspx)
   
 [ResolveNamesSearchScopeType](https://msdn.microsoft.com/library/ExchangeWebServices.ResolveNamesSearchScopeType.aspx)
-#### Concepts
+
 
 [EWS XML elements in Exchange](ews-xml-elements-in-exchange.md)
-#### Other resources
+
 
 [Using Name Resolution](http://msdn.microsoft.com/library/9257fb07-89d2-46eb-b885-e2173fe6fbc1%28Office.15%29.aspx)
 

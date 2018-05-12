@@ -20,7 +20,7 @@ description: "The AbsoluteDateTransition element represents a time zone transiti
 
 The **AbsoluteDateTransition** element represents a time zone transition that occurs on a specific date and at a specific time. 
   
-```
+```xml
 <AbsoluteDateTransition>
    <To/>
    <DateTime/>
@@ -32,18 +32,18 @@ The **AbsoluteDateTransition** element represents a time zone transition that oc
 
 The following sections describe attributes, child elements, and parent elements.
   
-#### Attributes
+### Attributes
 
 None.
   
-#### Child elements
+### Child elements
 
 |**Element**|**Description**|
 |:-----|:-----|
 |[To](to.md) <br/> |Specifies the [Period](period.md) or [TransitionsGroup](transitionsgroup.md) that is the target of the time zone transition.  <br/> |
 |[DateTime](datetime.md) <br/> |Represents the date and time at which the time zone transition occurs.  <br/> |
    
-#### Parent elements
+### Parent elements
 
 |**Element**|**Description**|
 |:-----|:-----|
@@ -65,7 +65,7 @@ The schema that describes this element is located in the IIS virtual directory t
    
 ## See also
 
-#### Concepts
+
 
 [EWS XML elements in Exchange](ews-xml-elements-in-exchange.md)
 

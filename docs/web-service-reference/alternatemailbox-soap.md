@@ -32,11 +32,11 @@ The **AlternateMailbox** element represents an alternate mailbox.
 
 The following sections describe attributes, child elements, and parent elements.
   
-#### Attributes
+### Attributes
 
 None.
   
-#### Child elements
+### Child elements
 
 |**Element**|**Description**|
 |:-----|:-----|
@@ -46,7 +46,7 @@ None.
 |[Server (SOAP)](server-soap.md) <br/> |Represents the alternate mailbox server.  <br/> |
 |[SmtpAddress (SOAP)](smtpaddress-soap.md) <br/> |Represents the alternate mailbox SMTP address.  <br/> |
    
-#### Parent elements
+### Parent elements
 
 |**Element**|**Description**|
 |:-----|:-----|
@@ -67,7 +67,7 @@ None.
    
 ## See also
 
-#### Reference
+
 
 [AlternateMailboxCollectionSetting (SOAP)](alternatemailboxcollectionsetting-soap.md)
 

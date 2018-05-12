@@ -29,15 +29,15 @@ The **ExternalAudience** element sets or contains a value that determines to who
 
 The following sections describe attributes, child elements, and parent elements.
   
-#### Attributes
+### Attributes
 
 None.
   
-#### Child elements
+### Child elements
 
 None.
   
-#### Parent elements
+### Parent elements
 
 |**Element**|**Description**|
 |:-----|:-----|
@@ -104,7 +104,7 @@ The following example of a SetUserOofSettings request sets the OoFState to **Ena
    
 ## See also
 
-#### Reference
+
 
 [GetUserOofSettings operation](getuseroofsettings-operation.md)
   

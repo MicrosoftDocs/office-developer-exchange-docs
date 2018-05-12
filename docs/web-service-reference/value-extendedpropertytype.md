@@ -29,15 +29,15 @@ The **Value** element specifies an array of extended properties for a persona.
 
 The following sections describe attributes, child elements, and parent elements.
   
-#### Attributes
+### Attributes
 
 None.
   
-#### Child elements
+### Child elements
 
 [ExtendedFieldURI](extendedfielduri.md) | [Value](value.md) | [Values](values.md)
   
-#### Parent elements
+### Parent elements
 
 [ExtendedPropertyAttributedValue](extendedpropertyattributedvalue.md)
   

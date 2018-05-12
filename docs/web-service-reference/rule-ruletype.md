@@ -39,11 +39,11 @@ The **Rule** element contains a single rule and represents a rule in a user's ma
 
 The following sections describe attributes, child elements, and parent elements.
   
-#### Attributes
+### Attributes
 
 None.
   
-#### Child elements
+### Child elements
 
 |**Element**|**Description**|
 |:-----|:-----|
@@ -57,7 +57,7 @@ None.
 |[Exceptions](exceptions.md) <br/> |Identifies the exceptions that represent all the available rule exception conditions for the inbox rule.  <br/> |
 |[Actions](actions.md) <br/> |Represents the actions to be taken on a message when the conditions are fulfilled.  <br/> |
    
-#### Parent elements
+### Parent elements
 
 |**Element**|**Description**|
 |:-----|:-----|
@@ -84,14 +84,14 @@ The schema that describes this element is located in the IIS virtual directory t
    
 ## See also
 
-#### Reference
+
 
 [UpdateInboxRules](updateinboxrules.md)
   
 [SetRuleOperation](setruleoperation.md)
   
 [CreateRuleOperation](createruleoperation.md)
-#### Concepts
+
 
 [EWS XML elements in Exchange](ews-xml-elements-in-exchange.md)
 

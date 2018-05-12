@@ -33,7 +33,7 @@ The **FractionalPageItemView** element describes where the paged view starts and
 
 The following sections describe attributes, child elements, and parent elements.
   
-#### Attributes
+### Attributes
 
 |**Attribute**|**Description**|
 |:-----|:-----|
@@ -41,11 +41,11 @@ The following sections describe attributes, child elements, and parent elements.
 |**Numerator** <br/> |Represents the numerator of the fractional offset from the start of the result set. This attribute is required. The numerator must be equal to or less than the denominator. This attribute must represent an integral value that is equal to or greater than zero.  <br/> For more information, see Remarks later in this topic.  <br/> |
 |**Denominator** <br/> |Represents the denominator of the fractional offset from the start of the total number of items in the result set. This attribute is required. This attribute must represent an integral value that is greater than one.  <br/> For more information, see Remarks later in this topic.  <br/> |
    
-#### Child elements
+### Child elements
 
 None.
   
-#### Parent elements
+### Parent elements
 
 |**Element**|**Description**|
 |:-----|:-----|
@@ -108,10 +108,10 @@ For example, if the result set contains nine items, the paged view will return u
    
 ## See also
 
-#### Reference
+
 
 [FindItem operation](finditem-operation.md)
-#### Other resources
+
 
 [Finding Items](http://msdn.microsoft.com/library/63af1f9c-464b-4fca-9ae3-3d60f24ca93c%28Office.15%29.aspx)
 

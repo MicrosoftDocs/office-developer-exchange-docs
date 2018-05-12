@@ -36,11 +36,11 @@ The **MailTipsConfiguration** element contains service configuration information
 
 The following sections describe attributes, child elements, and parent elements.
   
-#### Attributes
+### Attributes
 
 None.
   
-#### Child elements
+### Child elements
 
 |**Element**|**Description**|
 |:-----|:-----|
@@ -51,7 +51,7 @@ None.
 |[ShowExternalRecipientCount](showexternalrecipientcount.md) <br/> |Indicates whether consumers of the [GetMailTips operation](getmailtips-operation.md) have to show mail tips that indicate the number of external recipients to which a message is addressed. This element is required.  <br/> |
 |[InternalDomains (SmtpDomainList)](internaldomains-smtpdomainlist.md) <br/> |Identifies the list of internal SMTP domains of the organization. This element is required.  <br/> |
    
-#### Parent elements
+### Parent elements
 
 |**Element**|**Description**|
 |:-----|:-----|
@@ -76,7 +76,7 @@ The schema that describes this element is located in the IIS virtual directory t
    
 ## See also
 
-#### Concepts
+
 
 [EWS XML elements in Exchange](ews-xml-elements-in-exchange.md)
 

@@ -1,7 +1,5 @@
 ---
 title: "agentExecution"
- 
- 
 manager: sethgros
 ms.date: 9/17/2015
 ms.audience: Developer
@@ -17,39 +15,36 @@ description: "Last modified: September 17, 2015"
 ---
 
 # agentExecution
-
- **Last modified:** September 17, 2015 
   
- * **Applies to:** Exchange Server 2013 * 
+**Applies to:** Exchange Server 2013 
   
 The **agentExecution** element defines the time, in milliseconds, for the Client Access or Mailbox server to wait for an agent to return from an event before it writes to the event log. 
   
-[configuration](configuration.md)
-  
-[monitoring](monitoring.md)
-  
-[agentExecution](agentexecution.md)
+- [configuration](configuration.md)  
+- [monitoring](monitoring.md)
+- [agentExecution](agentexecution.md)
   
 ```XML
 <agentExecution timeLimitInMilliseconds="" />
 ```
 
- **agentExecutionType (complexType)**
+**agentExecutionType (complexType)**
+
 ## Attributes and elements
 
 The following sections describe attributes, child elements, and parent elements.
   
-#### Attributes
+### Attributes
 
 |**Attribute**|**Description**|
 |:-----|:-----|
 |**timeLimitInMilliseconds** <br/> |A positive integer value that specifies the time, in milliseconds, for the server to wait for an agent to return from an event before it writes a warning to the event log. Performance can decrease if this value is too small. The suggested value for this attribute is 300,000, which equates to 5 minutes.  <br/> |
    
-#### Child elements
+### Child elements
 
 None.
   
-#### Parent elements
+### Parent elements
 
 |**Element**|**Description**|
 |:-----|:-----|
@@ -66,7 +61,5 @@ None.
    
 ## See also
 
-#### Concepts
-
-[Agents configuration file elements for Exchange 2013](agents-configuration-file-elements-for-exchange-2013.md)
+- [Agents configuration file elements for Exchange 2013](agents-configuration-file-elements-for-exchange-2013.md)
 

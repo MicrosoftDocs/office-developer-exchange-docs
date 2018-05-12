@@ -25,15 +25,15 @@ The **IndexedOffset** element indicates the index offset for a paged **FindConve
 
 The following sections describe attributes, child elements, and parent elements.
   
-#### Attributes
+### Attributes
 
 None.
   
-#### Child elements
+### Child elements
 
 None.
   
-#### Parent elements
+### Parent elements
 
 [FindConversationResponse](findconversationresponse.md)
   

@@ -27,15 +27,15 @@ The **SetClientExtension** element contains a request to set a client extension.
 
 The following sections describe attributes, child elements, and parent elements.
   
-#### Attributes
+### Attributes
 
 None.
   
-#### Child elements
+### Child elements
 
 [Actions (ArrayOfSetClientExtensionActionsType)](actions-arrayofsetclientextensionactionstype.md)
   
-#### Parent elements
+### Parent elements
 
 None.
   

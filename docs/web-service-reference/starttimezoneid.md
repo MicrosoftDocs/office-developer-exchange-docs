@@ -25,15 +25,15 @@ The **StartTimeZoneId** element specifies the time zone in which a meeting takes
 
 The following sections describe attributes, child elements, and parent elements.
   
-#### Attributes
+### Attributes
 
 None.
   
-#### Child elements
+### Child elements
 
 None.
   
-#### Parent elements
+### Parent elements
 
 [CalendarItem](calendaritem.md) | [MeetingRequest](meetingrequest.md)
   

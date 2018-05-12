@@ -27,15 +27,15 @@ The **MeetingSuggestions** element specifies an array of **MeetingSuggestion** e
 
 The following sections describe attributes, child elements, and parent elements.
   
-#### Attributes
+### Attributes
 
 None.
   
-#### Child elements
+### Child elements
 
 [MeetingSuggestion](meetingsuggestion.md)
   
-#### Parent elements
+### Parent elements
 
 [EntityExtractionResult](entityextractionresult.md)
   

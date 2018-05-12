@@ -41,7 +41,7 @@ The **ResolveNamesResponseMessage** element contains the status and result of a 
 
 The following sections describe attributes, child elements, and parent elements.
   
-#### Attributes
+### Attributes
 
 |**Attribute**|**Description**|
 |:-----|:-----|
@@ -55,7 +55,7 @@ The following sections describe attributes, child elements, and parent elements.
 |**Warning** <br/> | Describes a request that was not processed. A warning may be returned if an error occurred while an item in the request was processing and subsequent items could not be processed. The following are example of sources of warnings:  <br/>  The Exchange store goes offline during the batch.  <br/>  Active Directory Domain Services (AD DS) goes offline.  <br/>  Mailboxes are moved.  <br/>  The mailbox database (MDB) goes offline.  <br/>  A password is expired.  <br/>  A quota is exceeded.  <br/>  The requested name is ambiguous and the response contains multiple recipients.  <br/> |
 |**Error** <br/> | Describes a request that cannot be fulfilled. The following are examples of sources of errors:  <br/>  The requested name could not be resolved.  <br/>  Attributes or elements are invalid.  <br/>  Attributes or elements are out of range.  <br/>  A tag is unknown.  <br/>  An attribute or element is not valid in the context.  <br/>  An unauthorized access attempt by any client occurred.  <br/>  A server-side failure occurred in response to a valid client-side call.  <br/>  Information about the error can be found in the [ResponseCode](responsecode.md) and [MessageText](messagetext.md) elements.  <br/> |
    
-#### Child elements
+### Child elements
 
 |**Element**|**Description**|
 |:-----|:-----|
@@ -65,7 +65,7 @@ The following sections describe attributes, child elements, and parent elements.
 |[MessageXml](messagexml.md) <br/> |Provides additional error response information.  <br/> |
 |[ResolutionSet](resolutionset.md) <br/> |Contains an array of resolutions for an ambiguous name.  <br/> |
    
-#### Parent elements
+### Parent elements
 
 |**Element**|**Description**|
 |:-----|:-----|
@@ -86,7 +86,7 @@ The schema that describes this element is located in the EWS virtual directory o
    
 ## See also
 
-#### Reference
+
 
 [ResolveNames](resolvenames.md)
   

@@ -41,17 +41,17 @@ The **Delete** element identifies a single folder to delete in the local client 
 
 The following sections describe attributes, child elements, and parent elements.
   
-#### Attributes
+### Attributes
 
 None.
   
-#### Child elements
+### Child elements
 
 |**Element**|**Description**|
 |:-----|:-----|
 |[FolderId](folderid.md) <br/> |Contains the identifier and change key of a folder.  <br/> |
    
-#### Parent elements
+### Parent elements
 
 |**Element**|**Description**|
 |:-----|:-----|
@@ -72,10 +72,10 @@ The schema that describes this element is located in the EWS virtual directory o
    
 ## See also
 
-#### Reference
+
 
 [SyncFolderHierarchy operation](syncfolderhierarchy-operation.md)
-#### Concepts
+
 
 [EWS reference for Exchange](ews-reference-for-exchange.md)
   

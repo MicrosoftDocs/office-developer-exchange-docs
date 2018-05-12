@@ -33,13 +33,13 @@ The **Standard** element represents the date and time when the time changes from
 
 The following sections describe attributes, child elements, and parent elements.
   
-#### Attributes
+### Attributes
 
 |**Attribute**|**Description**|
 |:-----|:-----|
 |**TimeZoneName** <br/> |Describes the name of the time zone.  <br/> |
    
-#### Child elements
+### Child elements
 
 |**Element**|**Description**|
 |:-----|:-----|
@@ -48,7 +48,7 @@ The following sections describe attributes, child elements, and parent elements.
 |[AbsoluteDate](absolutedate.md) <br/> |Represents the date when the time changes from standard time or daylight saving time.  <br/> |
 |[Time (TimeChangeType)](time-timechangetype.md) <br/> |Describes the time when the time changes between standard time and daylight saving time.  <br/> |
    
-#### Parent elements
+### Parent elements
 
 |**Element**|**Description**|
 |:-----|:-----|
@@ -69,7 +69,7 @@ The schema that describes this element is located in the EWS virtual directory o
    
 ## See also
 
-#### Concepts
+
 
 [EWS XML elements in Exchange](ews-xml-elements-in-exchange.md)
 

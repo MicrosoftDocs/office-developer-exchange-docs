@@ -24,7 +24,7 @@ The **AttachmentShape** element identifies additional properties to return in a 
   
 [AttachmentShape](attachmentshape.md)
   
-```
+```xml
 <AttachmentShape>
    <IncludeMimeContent/>
    <BodyType/>
@@ -38,11 +38,11 @@ The **AttachmentShape** element identifies additional properties to return in a 
 
 The following sections describe attributes, child elements, and parent elements.
   
-#### Attributes
+### Attributes
 
 None.
   
-#### Child elements
+### Child elements
 
 |**Element**|**Description**|
 |:-----|:-----|
@@ -51,7 +51,7 @@ None.
 |[FilterHtmlContent](filterhtmlcontent.md) <br/> |Specifies whether potentially unsafe HTML content is filtered from an attachment. This element is optional.  <br/> |
 |[AdditionalProperties](additionalproperties.md) <br/> |Identifies additional properties to return in a response. This element is optional.  <br/> |
    
-#### Parent elements
+### Parent elements
 
 |**Element**|**Description**|
 |:-----|:-----|
@@ -76,10 +76,10 @@ The schema that describes this element is located in the IIS virtual directory t
    
 ## See also
 
-#### Reference
+
 
 [GetAttachment operation](getattachment-operation.md)
-#### Concepts
+
 
 [EWS XML elements in Exchange](ews-xml-elements-in-exchange.md)
 

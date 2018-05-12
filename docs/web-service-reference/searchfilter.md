@@ -25,15 +25,15 @@ The **SearchFilter** element contains the query string to filter the mailboxes t
 
 The following sections describe attributes, child elements, and parent elements.
   
-#### Attributes
+### Attributes
 
 None.
   
-#### Child elements
+### Child elements
 
 None.
   
-#### Parent elements
+### Parent elements
 
 [GetSearchableMailboxes](getsearchablemailboxes.md)
   

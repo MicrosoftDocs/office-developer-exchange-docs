@@ -29,7 +29,7 @@ The **IndexedPageItemView** element describes how paged conversation or item inf
 
 The following sections describe attributes, child elements, and parent elements.
   
-#### Attributes
+### Attributes
 
 |**Attribute**|**Description**|
 |:-----|:-----|
@@ -44,11 +44,11 @@ The following sections describe attributes, child elements, and parent elements.
 |Beginning  <br/> |The paged view starts at the beginning of the found conversation or item set.  <br/> |
 |End  <br/> |The paged view starts at the end of the found conversation or item set.  <br/> |
    
-#### Child elements
+### Child elements
 
 None.
   
-#### Parent elements
+### Parent elements
 
 |**Element**|**Description**|
 |:-----|:-----|
@@ -104,12 +104,12 @@ The following example shows a [FindItem operation](finditem-operation.md) reques
    
 ## See also
 
-#### Reference
+
 
 [FindItem operation](finditem-operation.md)
   
 [FindConversation operation](findconversation-operation.md)
-#### Other resources
+
 
 [Finding Items](http://msdn.microsoft.com/library/63af1f9c-464b-4fca-9ae3-3d60f24ca93c%28Office.15%29.aspx)
 

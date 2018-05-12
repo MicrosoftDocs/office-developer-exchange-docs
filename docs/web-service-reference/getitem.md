@@ -32,18 +32,18 @@ The **GetItem** element defines a request to get an item from a mailbox in the E
 
 The following sections describe attributes, child elements, and parent elements.
   
-#### Attributes
+### Attributes
 
 None.
   
-#### Child elements
+### Child elements
 
 |**Element**|**Description**|
 |:-----|:-----|
 |[ItemShape](itemshape.md) <br/> |Identifies the item properties and content to include in a **GetItem** response.  <br/> |
 |[ItemIds](itemids.md) <br/> |Contains the unique identities of items, occurrence items, and recurring master items that are used to get items from the Exchange store. These items represent contacts, tasks, messages, calendar items, meeting requests, and other valid items in a mailbox.  <br/> |
    
-#### Parent elements
+### Parent elements
 
 None.
   
@@ -62,7 +62,7 @@ The schema that describes this element is located in the EWS virtual directory o
    
 ## See also
 
-#### Reference
+
 
 [GetItem operation](getitem-operation.md)
 

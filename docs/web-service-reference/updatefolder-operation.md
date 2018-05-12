@@ -226,7 +226,7 @@ The following elements are used in the error response:
     
 ## See also
 
-#### Concepts
+
 
 [EWS XML elements in Exchange](ews-xml-elements-in-exchange.md)
 

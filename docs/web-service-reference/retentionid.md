@@ -25,15 +25,15 @@ The **RetentionId** element specifies the retention tag identifier.
 
 The following sections describe attributes, child elements, and parent elements.
   
-#### Attributes
+### Attributes
 
 None.
   
-#### Child elements
+### Child elements
 
 None.
   
-#### Parent elements
+### Parent elements
 
 [RetentionPolicyTag](retentionpolicytag.md)
   

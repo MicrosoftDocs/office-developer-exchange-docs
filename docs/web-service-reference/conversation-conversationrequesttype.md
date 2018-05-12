@@ -28,15 +28,15 @@ The **Conversation** element represents a single conversation returned in a **Ge
 
 The following sections describe attributes, child elements, and parent elements.
   
-#### Attributes
+### Attributes
 
 None.
   
-#### Child elements
+### Child elements
 
 [ConversationId](conversationid.md) | [SyncState (base64Binary)](syncstate-base64binary.md)
   
-#### Parent elements
+### Parent elements
 
 [Conversations](conversations-ex15websvcsotherref.md)
   

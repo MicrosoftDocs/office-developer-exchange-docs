@@ -1,5 +1,5 @@
 ---
-title: "How to Access a recurring series by using EWS in Exchange"
+title: "Access a recurring series by using EWS in Exchange"
  
  
 manager: sethgros
@@ -12,7 +12,7 @@ ms.assetid: 196a5671-2836-4696-b734-d5ecfdbf8962
 description: "Learn how to access calendar items in a recurring series by using the EWS Managed API or EWS in Exchange."
 ---
 
-# How to: Access a recurring series by using EWS in Exchange
+# Access a recurring series by using EWS in Exchange
 
 Learn how to access calendar items in a recurring series by using the EWS Managed API or EWS in Exchange.
   
@@ -209,11 +209,11 @@ The following XML shows the [GetItem](http://msdn.microsoft.com/library/769df8eb
 
 The server responds to the **GetItem** request with a [GetItemResponse](http://msdn.microsoft.com/library/8b66de1b-26a6-476c-9585-a96059125716%28Office.15%29.aspx) message that includes a [ResponseCode](http://msdn.microsoft.com/en-us/library/aa580757%28v=exchg.150%29.aspx) value of **NoError**, which indicates that the email was created successfully, and the [ItemId](http://msdn.microsoft.com/library/3350b597-57a0-4961-8f44-8624946719b4%28Office.15%29.aspx) of the newly created message. 
   
-## Additional resources
-<a name="bk_addresources"> </a>
+## See also
+
 
 - [Calendars and EWS in Exchange](calendars-and-ews-in-exchange.md)
     
-- [How to: Get appointments and meetings by using EWS in Exchange](how-to-get-appointments-and-meetings-by-using-ews-in-exchange.md)
+- [Get appointments and meetings by using EWS in Exchange](how-to-get-appointments-and-meetings-by-using-ews-in-exchange.md)
     
 

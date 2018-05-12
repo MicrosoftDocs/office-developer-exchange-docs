@@ -29,15 +29,15 @@ The **OnlineMeetingSettings** element specifies the settings for online meetings
 
 The following sections describe attributes, child elements, and parent elements.
   
-#### Attributes
+### Attributes
 
 None.
   
-#### Child elements
+### Child elements
 
 [LobbyBypass](lobbybypass.md) | [AccessLevel](accesslevel.md) | [Presenters](presenters.md)
   
-#### Parent elements
+### Parent elements
 
 [CalendarItem](calendaritem.md)
   

@@ -25,15 +25,15 @@ The **Size** element specifies the total size of one or more mailbox items.
 
 The following sections describe attributes, child elements, and parent elements.
   
-#### Attributes
+### Attributes
 
 None.
   
-#### Child elements
+### Child elements
 
 None.
   
-#### Parent elements
+### Parent elements
 
 [KeywordStat](keywordstat.md) | [MailboxStat](mailboxstat.md) | [SearchMailboxesResult](searchmailboxesresult.md) | [SearchPreviewItem](searchpreviewitem.md)
   

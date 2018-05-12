@@ -26,17 +26,17 @@ The **TokenIssuers** elements represents the [TokenIssuer (SOAP)](tokenissuer-so
 
 The following sections describe attributes, child elements, and parent elements.
   
-#### Attributes
+### Attributes
 
 None
   
-#### Child elements
+### Child elements
 
 |**Element**|**Description**|
 |:-----|:-----|
 |[TokenIssuer (SOAP)](tokenissuer-soap.md) <br/> |Specifies the [Uri (SOAP)](uri-soap.md) and [Endpoint (SOAP)](endpoint-soap.md) for the security token service.  <br/> |
    
-#### Parent elements
+### Parent elements
 
 |**Element**|**Description**|
 |:-----|:-----|
@@ -57,7 +57,7 @@ The **TokenIssuers** represents a collection of [TokenIssuer (SOAP)](tokenissuer
    
 ## See also
 
-#### Concepts
+
 
 [Autodiscover web service reference for Exchange](autodiscover-web-service-reference-for-exchange.md)
   

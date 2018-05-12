@@ -141,7 +141,7 @@ The error response SOAP body contains the following elements:
     
 - [DescriptiveLinkKey](descriptivelinkkey.md)
     
-## Additional resources
+## See also
 
 - [AddImGroup operation](addimgroup-operation.md)
     

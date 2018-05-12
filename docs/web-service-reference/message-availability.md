@@ -29,15 +29,15 @@ The **Message** element contains the out of Office (OOF) response.
 
 The following sections describe attributes, child elements, and parent elements.
   
-#### Attributes
+### Attributes
 
 None.
   
-#### Child elements
+### Child elements
 
 None.
   
-#### Parent elements
+### Parent elements
 
 |**Element**|**Description**|
 |:-----|:-----|
@@ -97,10 +97,10 @@ The following example of a [SetUserOofSettings operation](setuseroofsettings-ope
    
 ## See also
 
-#### Reference
+
 
 [SetUserOofSettings operation](setuseroofsettings-operation.md)
-#### Concepts
+
 
 [EWS XML elements in Exchange](ews-xml-elements-in-exchange.md)
 

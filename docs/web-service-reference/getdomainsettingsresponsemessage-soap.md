@@ -27,17 +27,17 @@ The **GetDomainSettingsResponseMessage** element contains a response to a [GetDo
 
 The following sections describe attributes, child elements, and parent elements.
   
-#### Attributes
+### Attributes
 
 None.
   
-#### Child elements
+### Child elements
 
 |**Element**|**Description**|
 |:-----|:-----|
 |[Response (SOAP)](response-soap.md) <br/> |Contains the response to a [GetDomainSettings operation (SOAP)](getdomainsettings-operation-soap.md) request.  <br/> |
    
-#### Parent elements
+### Parent elements
 
 None. The **GetDomainSettingsResponseMessage** element is the top element within the SOAP body. 
   
@@ -56,7 +56,7 @@ None.
    
 ## See also
 
-#### Reference
+
 
 [GetDomainSettings operation (SOAP)](getdomainsettings-operation-soap.md)
 

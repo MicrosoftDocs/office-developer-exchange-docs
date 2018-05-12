@@ -35,11 +35,11 @@ The **SyncFolderItems** element defines a request to synchronize items in an Exc
 
 The following sections describe attributes, child elements, and parent elements.
   
-#### Attributes
+### Attributes
 
 None.
   
-#### Child elements
+### Child elements
 
 |**Element**|**Description**|
 |:-----|:-----|
@@ -50,7 +50,7 @@ None.
 |[MaxChangesReturned](maxchangesreturned.md) <br/> |Describes the maximum number of changes that can be returned in a synchronization response. This element is required.  <br/> |
 |[SyncScope](syncscope.md) <br/> |Specifies whether just items or items and folder associated information are returned in a synchronization response. This element is optional.  <br/> |
    
-#### Parent elements
+### Parent elements
 
 None.
   
@@ -69,10 +69,10 @@ The schema that describes this element is located in the EWS virtual directory o
    
 ## See also
 
-#### Reference
+
 
 [SyncFolderItems operation](syncfolderitems-operation.md)
-#### Concepts
+
 
 [EWS XML elements in Exchange](ews-xml-elements-in-exchange.md)
 

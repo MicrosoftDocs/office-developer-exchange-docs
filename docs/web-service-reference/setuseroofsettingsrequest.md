@@ -32,18 +32,18 @@ The **SetUserOofSettingsRequest** element contains the arguments used to set a m
 
 The following sections describe attributes, child elements, and parent elements.
   
-#### Attributes
+### Attributes
 
 None.
   
-#### Child elements
+### Child elements
 
 |**Element**|**Description**|
 |:-----|:-----|
 |[Mailbox (Availability)](mailbox-availability.md) <br/> |Identifies the mailbox user for a SetUserOofSettings or GetUserOofSettings request.  <br/> |
 |[UserOofSettings](useroofsettings.md) <br/> |Specifies the OOF settings.  <br/> |
    
-#### Parent elements
+### Parent elements
 
 None.
   
@@ -95,7 +95,7 @@ The following example of a SetUserOofSettings request sets an OOF setting for te
    
 ## See also
 
-#### Reference
+
 
 [SetUserOofSettings operation](setuseroofsettings-operation.md)
 

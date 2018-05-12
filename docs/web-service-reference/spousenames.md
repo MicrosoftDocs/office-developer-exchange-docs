@@ -27,15 +27,15 @@ The **SpouseNames** element specifies an array of spouse or partner names and th
 
 The following sections describe attributes, child elements, and parent elements.
   
-#### Attributes
+### Attributes
 
 None.
   
-#### Child elements
+### Child elements
 
 [StringAttributedValue](stringattributedvalue.md)
   
-#### Parent elements
+### Parent elements
 
 [Persona](persona.md)
   

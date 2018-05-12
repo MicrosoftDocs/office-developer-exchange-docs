@@ -40,11 +40,11 @@ The **DaylightTime** element represents an offset from the time relative to Coor
 
 The following sections describe attributes, child elements, and parent elements.
   
-#### Attributes
+### Attributes
 
 None.
   
-#### Child elements
+### Child elements
 
 |**Element**|**Description**|
 |:-----|:-----|
@@ -55,7 +55,7 @@ None.
 |[DayOfWeek (TimeZone)](dayofweek-timezone.md) <br/> |Represents the day of the week when the transition to and from standard time and daylight saving time occurs.  <br/> |
 |[Year](year.md) <br/> |Used to define a time zone that changes depending on the year. This element is optional. This element was introduced in Microsoft Exchange Server 2007 Service Pack 1 (SP1).  <br/> |
    
-#### Parent elements
+### Parent elements
 
 |**Element**|**Description**|
 |:-----|:-----|
@@ -96,10 +96,10 @@ The following partial GetUserAvailability request represents a client applicatio
    
 ## See also
 
-#### Reference
+
 
 [GetUserAvailability operation](getuseravailability-operation.md)
-#### Other resources
+
 
 [Getting User Availability](http://msdn.microsoft.com/library/d4133fcb-9b0f-4e6b-aadf-a389da83516a%28Office.15%29.aspx)
 

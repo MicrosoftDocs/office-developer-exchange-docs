@@ -27,15 +27,15 @@ The **FolderIds** element contains a list of folder identifiers.
 
 The following sections describe attributes, child elements, and parent elements.
   
-#### Attributes
+### Attributes
 
 None.
   
-#### Child elements
+### Child elements
 
 [FolderId](folderid.md)
   
-#### Parent elements
+### Parent elements
 
 [Persona](persona.md)
   

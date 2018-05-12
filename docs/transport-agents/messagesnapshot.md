@@ -1,7 +1,5 @@
 ---
 title: "messageSnapshot"
- 
- 
 manager: sethgros
 ms.date: 9/17/2015
 ms.audience: Developer
@@ -18,40 +16,36 @@ description: "Last modified: September 17, 2015"
 
 # messageSnapshot
 
- **Last modified:** September 17, 2015 
-  
- * **Applies to:** Exchange Server 2013 * 
+**Applies to:** Exchange Server 2013
   
 The **messageSnapshot** element contains an attribute that specifies whether the pipeline tracing feature is enabled for the Exchange server that has the Client Access or the Mailbox server role installed. 
   
-[configuration](configuration.md)
-  
-[mexRuntime](mexruntime.md)
-  
-[monitoring](monitoring.md)
-  
-[messageSnapshot](messagesnapshot.md)
+- [configuration](configuration.md)  
+- [mexRuntime](mexruntime.md) 
+- [monitoring](monitoring.md) 
+- [messageSnapshot](messagesnapshot.md)
   
 ```XML
 <messageSnapshot enabled="" />
 ```
 
- **messageSnapshotType (Boolean)**
+**messageSnapshotType (Boolean)**
+
 ## Attributes and elements
 
 The following sections describe attributes, child elements, and parent elements.
   
-#### Attributes
+### Attributes
 
 |**Attribute**|**Description**|
 |:-----|:-----|
 |**enabled** <br/> |A Boolean value that indicates whether the pipeline tracing feature is enabled for the Client Access or the Mailbox server. The value is **true** if pipeline tracing is enabled; otherwise, the value is **false** or the element is not present.  <br/> |
    
-#### Child elements
+### Child elements
 
 None.
   
-#### Parent elements
+### Parent elements
 
 |**Element**|**Description**|
 |:-----|:-----|
@@ -68,7 +62,5 @@ None.
    
 ## See also
 
-#### Concepts
-
-[Agents configuration file elements for Exchange 2013](agents-configuration-file-elements-for-exchange-2013.md)
+- [Agents configuration file elements for Exchange 2013](agents-configuration-file-elements-for-exchange-2013.md)
 

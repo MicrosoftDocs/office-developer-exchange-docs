@@ -33,11 +33,11 @@ The **AutodiscoverResponse (SOAP)** element represents the base element for all 
 
 The following sections describe attributes, child elements, and parent elements.
   
-#### Attributes
+### Attributes
 
 None.
   
-#### Child elements
+### Child elements
 
 |**Element**|**Description**|
 |:-----|:-----|
@@ -45,7 +45,7 @@ None.
 |[UserSettingErrors (SOAP)](usersettingerrors-soap.md) <br/> |Represents a collection of [UserSettingError (SOAP)](usersettingerror-soap.md) elements.  <br/> |
 |[UserSettings (SOAP)](usersettings-soap.md) <br/> |Represents a collection of [UserSetting (SOAP)](usersetting-soap.md) elements.  <br/> |
    
-#### Parent elements
+### Parent elements
 
 None.
   
@@ -64,7 +64,7 @@ None.
    
 ## See also
 
-#### Reference
+
 
 [GetUserSettings operation (SOAP)](getusersettings-operation-soap.md)
   

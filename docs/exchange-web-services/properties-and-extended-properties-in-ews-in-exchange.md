@@ -188,12 +188,12 @@ If you want to learn more about how you can use extended properties in your appl
 ## In this section
 <a name="bk_inthissection"> </a>
 
-- [How to: Provision x-headers by using EWS in Exchange](how-to-provision-x-headers-by-using-ews-in-exchange.md)
+- [Provision x-headers by using EWS in Exchange](how-to-provision-x-headers-by-using-ews-in-exchange.md)
     
 - [EWS property-related errors](ews-property-related-errors.md)
     
-## Additional resources
-<a name="bk_addresources"> </a>
+## See also
+
 
 - [Start using web services in Exchange](start-using-web-services-in-exchange.md)
     

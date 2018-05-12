@@ -28,15 +28,15 @@ The **Metadata** element contains metadata about the mail app.
 
 The following sections describe attributes, child elements, and parent elements.
   
-#### Attributes
+### Attributes
 
 None.
   
-#### Child elements
+### Child elements
 
 [EndNodeUrl](endnodeurl.md) | [AppStatus](appstatus-ex15websvcsotherref.md) | [ActionUrl](actionurl.md)
   
-#### Parent elements
+### Parent elements
 
 [App](app.md)
   
@@ -57,10 +57,10 @@ The schema that describes this element is located in the IIS virtual directory t
    
 ## See also
 
-#### Reference
+
 
 [App](app.md)
-#### Concepts
+
 
 [EWS XML elements in Exchange](ews-xml-elements-in-exchange.md)
 

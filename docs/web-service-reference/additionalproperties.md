@@ -20,7 +20,7 @@ description: "The AdditionalProperties element identifies additional properties 
 
 The **AdditionalProperties** element identifies additional properties for use in [GetItem](getitem.md), [UpdateItem](updateitem.md), [CreateItem](createitem.md), [FindItem](finditem.md), or [FindFolder](findfolder.md) requests. 
   
-```
+```xml
 <AdditionalProperties>
    <ExtendedFieldURI/>
    <FieldURI/>
@@ -33,11 +33,11 @@ The **AdditionalProperties** element identifies additional properties for use in
 
 The following sections describe attributes, child elements, and parent elements.
   
-#### Attributes
+### Attributes
 
 None.
   
-#### Child elements
+### Child elements
 
 |**Element**|**Description**|
 |:-----|:-----|
@@ -45,7 +45,7 @@ None.
 |[FieldURI](fielduri.md) <br/> |Identifies frequently referenced properties by URI.  <br/> |
 |[IndexedFieldURI](indexedfielduri.md) <br/> |Identifies frequently referenced dictionary properties by URI.  <br/> |
    
-#### Parent elements
+### Parent elements
 
 |**Element**|**Description**|
 |:-----|:-----|

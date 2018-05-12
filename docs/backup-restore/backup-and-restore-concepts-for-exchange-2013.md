@@ -16,9 +16,7 @@ description: "Find information about Exchange databases that will help you creat
 
 Find information about Exchange databases that will help you create your backup and restore applications for Exchange 2013.
   
- **Last modified:** September 17, 2015 
-  
- * **Applies to:** Exchange Server 2013 * 
+**Applies to:** Exchange Server 2013 
   
 Before you create backup and restore applications for Exchange Server 2013, you should be familiar with the Exchange database file structure. By using the Exchange store database files, you can back up the data in your store and restore it at a later time as needed. If you are limited on disk space, your administrator might implement circular logging, and this will affect your ability to back up the database. You can also take advantage of the database mobility feature in Exchange 2013 to back up and restore Exchange data. Database mobility, in combination with your backup and restore application, is a good measure of redundancy for disaster recovery.
   
@@ -68,8 +66,8 @@ The only supported method of restoring DAG databases from backup data is to rest
     
 - [Exchange writer in Exchange 2013](exchange-writer-in-exchange-2013.md)
     
-## Additional resources
-<a name="bk_addresources"> </a>
+## See also
+
 
 - [Exchange Online and Exchange 2013 development](http://msdn.microsoft.com/library/f33d1093-75ba-4ff2-8d15-b0bf73a401bf%28Office.15%29.aspx)
     

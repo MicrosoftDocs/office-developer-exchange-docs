@@ -38,7 +38,7 @@ The **FindMessageTrackingReportResponse** element contains the status and result
 
 The following sections describe attributes, child elements, and parent elements.
   
-#### Attributes
+### Attributes
 
 |**Attribute**|**Description**|
 |:-----|:-----|
@@ -52,7 +52,7 @@ The following sections describe attributes, child elements, and parent elements.
 |**Warning** <br/> | Describes a request that was not processed. A warning may be returned if an error occurred while an item in the request was processing and subsequent items could not be processed. The following are examples of sources of warnings:  <br/>  The Exchange store is offline during the batch.  <br/>  Active Directory Domain Services (AD DS) is offline.  <br/>  Mailboxes were moved.  <br/>  The message database (MDB) is offline.  <br/>  A password is expired.  <br/>  A quota has been exceeded.  <br/> |
 |**Error** <br/> | Describes a request that cannot be fulfilled. The following are examples of sources of errors:  <br/>  Invalid attributes or elements  <br/>  Attributes or elements that are out of range  <br/>  An unknown tag  <br/>  An attribute or element that is not valid in the context  <br/>  An unauthorized access attempt by any client  <br/>  A server-side failure in response to a valid client-side call  <br/>  Information about the error can be found in the [ResponseCode](responsecode.md) and [MessageText](messagetext.md) elements.  <br/> |
    
-#### Child elements
+### Child elements
 
 |**Element**|**Description**|
 |:-----|:-----|
@@ -66,7 +66,7 @@ The following sections describe attributes, child elements, and parent elements.
 |[Errors](errors-ex15websvcsotherref.md) <br/> |Contains a property bag to store errors that are returned through the Web service.  <br/> |
 |[Properties (ArrayOfTrackingPropertiesType)](properties-arrayoftrackingpropertiestype.md) <br/> |Contains a list of one or more tracking properties.  <br/> |
    
-#### Parent elements
+### Parent elements
 
 None.
   
@@ -89,10 +89,10 @@ The schema that describes this element is located in the IIS virtual directory t
    
 ## See also
 
-#### Reference
+
 
 [FindMessageTrackingReport operation](findmessagetrackingreport-operation.md)
-#### Concepts
+
 
 [EWS XML elements in Exchange](ews-xml-elements-in-exchange.md)
 

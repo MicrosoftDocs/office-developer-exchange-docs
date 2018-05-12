@@ -46,11 +46,11 @@ The **DeclineItem** element represents a Decline reply to a meeting request.
 
 The following sections describe attributes, child elements, and parent elements.
   
-#### Attributes
+### Attributes
 
 None.
   
-#### Child elements
+### Child elements
 
 |**Element**|**Description**|
 |:-----|:-----|
@@ -71,7 +71,7 @@ None.
 |[ProposedStart](proposedstart.md) <br/> |Specifies the proposed start time of the meeting.  <br/> |
 |[ProposedEnd](proposedend.md) <br/> |Specifies the proposed end time of the meeting.  <br/> |
    
-#### Parent elements
+### Parent elements
 
 |**Element**|**Description**|
 |:-----|:-----|
@@ -95,7 +95,7 @@ The schema that describes this element is located in the EWS virtual directory o
    
 ## See also
 
-#### Concepts
+
 
 [EWS XML elements in Exchange](ews-xml-elements-in-exchange.md)
 

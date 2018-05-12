@@ -29,7 +29,7 @@ The **GetServerTimeZones** element is the root element in a request to retrieve 
 
 The following sections describe attributes, child elements, and parent elements.
   
-#### Attributes
+### Attributes
 
 |**Attribute**|**Description**|
 |:-----|:-----|
@@ -42,13 +42,13 @@ The following sections describe attributes, child elements, and parent elements.
 |**true** <br/> |Return the complete definitions for each time zone.  <br/> |
 |**false** <br/> |Return only the name and identifier for each time zone.  <br/> |
    
-#### Child elements
+### Child elements
 
 |**Element**|**Description**|
 |:-----|:-----|
 |[Ids](ids.md) <br/> |Contains an array of time zone definition identifiers that specifies the requested time zone definitions. This element is optional. If this element is not included in the [GetServerTimeZones operation](getservertimezones-operation.md) request, all time zone definitions that are available on the server are returned in the response.  <br/> |
    
-#### Parent elements
+### Parent elements
 
 None.
   
@@ -67,12 +67,12 @@ The schema that describes this element is located in the EWS virtual directory o
    
 ## See also
 
-#### Reference
+
 
 [GetServerTimeZones operation](getservertimezones-operation.md)
   
 [GetServerTimeZonesResponse](getservertimezonesresponse.md)
-#### Concepts
+
 
 [EWS XML elements in Exchange](ews-xml-elements-in-exchange.md)
 

@@ -28,15 +28,15 @@ The **UpdatedItemIds** element specifies the identifiers of updated reminder ite
 
 The following sections describe attributes, child elements, and parent elements.
   
-#### Attributes
+### Attributes
 
 None.
   
-#### Child elements
+### Child elements
 
 [ItemId](itemid.md)
   
-#### Parent elements
+### Parent elements
 
 [PerformReminderActionResponse](performreminderactionresponse.md)
   
@@ -59,10 +59,10 @@ If the [PerformReminderAction](performreminderaction-operation.md) operation did
    
 ## See also
 
-#### Reference
+
 
 [PerformReminderActionResponse](performreminderactionresponse.md)
-#### Concepts
+
 
 [EWS XML elements in Exchange](ews-xml-elements-in-exchange.md)
 

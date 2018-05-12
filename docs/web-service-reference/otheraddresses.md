@@ -27,15 +27,15 @@ The **OtherAddresses** element specifies an array of address values and the iden
 
 The following sections describe attributes, child elements, and parent elements.
   
-#### Attributes
+### Attributes
 
 None.
   
-#### Child elements
+### Child elements
 
 [PostalAddressAttributedValue](postaladdressattributedvalue.md)
   
-#### Parent elements
+### Parent elements
 
 [Persona](persona.md)
   

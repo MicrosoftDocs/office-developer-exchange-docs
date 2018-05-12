@@ -31,17 +31,17 @@ The **Groups** element contains a collection of groups that are found with the s
 
 The following sections describe attributes, child elements, and parent elements.
   
-#### Attributes
+### Attributes
 
 None.
   
-#### Child elements
+### Child elements
 
 |**Element**|**Description**|
 |:-----|:-----|
 |[GroupedItems](groupeditems.md) <br/> |Represents a collection of items that are the result of a grouped [FindItem operation](finditem-operation.md) call.  <br/> |
    
-#### Parent elements
+### Parent elements
 
 |**Element**|**Description**|
 |:-----|:-----|
@@ -64,10 +64,10 @@ The schema that describes this element is located in the EWS virtual directory o
    
 ## See also
 
-#### Reference
+
 
 [FindItem operation](finditem-operation.md)
-#### Other resources
+
 
 [Finding Items](http://msdn.microsoft.com/library/63af1f9c-464b-4fca-9ae3-3d60f24ca93c%28Office.15%29.aspx)
 

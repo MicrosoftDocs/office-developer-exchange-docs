@@ -20,7 +20,7 @@ description: "The And element specifies that all child elements must match to ev
 
 The **And** element specifies that all child elements must match to evaluate to **true**.
   
-```
+```xml
 <And>
    <AllInternal/>
    <And/>
@@ -35,11 +35,11 @@ The **And** element specifies that all child elements must match to evaluate to 
 
 The following sections describe attributes, child elements, and parent elements.
   
-#### Attributes
+### Attributes
 
 None.
   
-#### Child elements
+### Child elements
 
 |**Element**|**Description**|
 |:-----|:-----|
@@ -49,7 +49,7 @@ None.
 |[SenderDepartments](senderdepartments.md) <br/> |Specifies that the department of the sender matches any of the specified departments in the child [Value (ProtectionRuleValueType)](value-protectionrulevaluetype.md) elements.  <br/> |
 |[True](true.md) <br/> |Specifies a condition that always matches.  <br/> |
    
-#### Parent elements
+### Parent elements
 
 |**Element**|**Description**|
 |:-----|:-----|
@@ -75,7 +75,7 @@ The schema that describes this element is located in the IIS virtual directory t
    
 ## See also
 
-#### Concepts
+
 
 [EWS XML elements in Exchange](ews-xml-elements-in-exchange.md)
 

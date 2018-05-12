@@ -36,20 +36,20 @@ The **StreamingSubscriptionRequest** element represents a subscription to a stre
 
 The following sections describe attributes, child elements, and parent elements.
   
-#### Attributes
+### Attributes
 
 |**Attribute**|**Description**|
 |:-----|:-----|
 |**SubscribeToAllFolders** <br/> |Indicates whether the server will subscribe to all folders in the user's mailbox. A value of **true** indicates that the server will subscribe.  <br/> |
    
-#### Child elements
+### Child elements
 
 |**Element**|**Description**|
 |:-----|:-----|
 |[FolderIds](folderids.md) <br/> |Contains an array of folder identifiers that are used to identify folders to monitor for event notifications.  <br/> |
 |[EventTypes](eventtypes.md) <br/> |Contains a collection of event notifications that are used to create a subscription.  <br/> |
    
-#### Parent elements
+### Parent elements
 
 |**Element**|**Description**|
 |:-----|:-----|
@@ -74,7 +74,7 @@ The schema that describes this element is located in the IIS virtual directory t
    
 ## See also
 
-#### Reference
+
 
 [Subscribe operation](subscribe-operation.md)
   

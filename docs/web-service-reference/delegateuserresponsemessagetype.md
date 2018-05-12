@@ -35,11 +35,11 @@ The **DelegateUserResponseMessageType** element contains the response message fo
 
 The following sections describe attributes, child elements, and parent elements.
   
-#### Attributes
+### Attributes
 
 None.
   
-#### Child elements
+### Child elements
 
 |**Element**|**Description**|
 |:-----|:-----|
@@ -49,7 +49,7 @@ None.
 |[MessageXml](messagexml.md) <br/> |Provides additional error response information.  <br/> |
 |[DelegateUser](delegateuser.md) <br/> |Identifies a single delegate that is returned in a delegate management response.  <br/> |
    
-#### Parent elements
+### Parent elements
 
 |**Element**|**Description**|
 |:-----|:-----|
@@ -70,7 +70,7 @@ The schema that describes this element is located in the EWS virtual directory o
    
 ## See also
 
-#### Reference
+
 
 [AddDelegate operation](adddelegate-operation.md)
   
@@ -79,7 +79,7 @@ The schema that describes this element is located in the EWS virtual directory o
 [UpdateDelegate operation](updatedelegate-operation.md)
   
 [RemoveDelegate operation](removedelegate-operation.md)
-#### Concepts
+
 
 [EWS XML elements in Exchange](ews-xml-elements-in-exchange.md)
 

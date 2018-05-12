@@ -28,17 +28,17 @@ The **AlternateMailboxCollectionSetting** element contains a collection of alter
 
 The following sections describe attributes, child elements, and parent elements.
   
-#### Attributes
+### Attributes
 
 None.
   
-#### Child elements
+### Child elements
 
 |**Element**|**Description**|
 |:-----|:-----|
 |[AlternateMailboxes (SOAP)](alternatemailboxes-soap.md) <br/> |Represents a collection of alternate mailboxes.  <br/> |
    
-#### Parent elements
+### Parent elements
 
 None.
   
@@ -57,7 +57,7 @@ None.
    
 ## See also
 
-#### Concepts
+
 
 [SOAP Autodiscover web service reference for Exchange](soap-autodiscover-web-service-reference-for-exchange.md)
 

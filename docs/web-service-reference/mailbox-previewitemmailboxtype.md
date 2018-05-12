@@ -28,15 +28,15 @@ The **Mailbox** element contains the mailbox identifier and the user's primary S
 
 The following sections describe attributes, child elements, and parent elements.
   
-#### Attributes
+### Attributes
 
 None.
   
-#### Child elements
+### Child elements
 
 [MailboxId](mailboxid.md) | [PrimarySmtpAddress (string)](primarysmtpaddress-string.md)
   
-#### Parent elements
+### Parent elements
 
 [SearchPreviewItem](searchpreviewitem.md)
   

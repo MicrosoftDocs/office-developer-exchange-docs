@@ -25,15 +25,15 @@ The **RetentionPolicyType** element specifies the retention policy type applied 
 
 The following sections describe attributes, child elements, and parent elements.
   
-#### Attributes
+### Attributes
 
 None.
   
-#### Child elements
+### Child elements
 
 None.
   
-#### Parent elements
+### Parent elements
 
 [ConversationAction](conversationaction.md)
   

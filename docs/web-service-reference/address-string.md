@@ -20,7 +20,7 @@ description: "The Address element represents the e-mail address of the mailbox u
 
 The **Address** element represents the e-mail address of the mailbox user. 
   
-```
+```xml
 <Address>...</Address>
 ```
 
@@ -29,15 +29,15 @@ The **Address** element represents the e-mail address of the mailbox user.
 
 The following sections describe attributes, child elements, and parent elements.
   
-#### Attributes
+### Attributes
 
 None.
   
-#### Child elements
+### Child elements
 
 None.
   
-#### Parent elements
+### Parent elements
 
 |**Element**|**Description**|
 |:-----|:-----|
@@ -66,7 +66,7 @@ This element can occur at most one time in the [Email (EmailAddressType)](email-
    
 ## See also
 
-#### Reference
+
 
 [GetUserAvailability operation](getuseravailability-operation.md)
   
@@ -79,7 +79,7 @@ This element can occur at most one time in the [Email (EmailAddressType)](email-
 [GetUserOofSettingsRequest](getuseroofsettingsrequest.md)
   
 [SetUserOofSettingsRequest](setuseroofsettingsrequest.md)
-#### Other resources
+
 
 [Getting User Availability](http://msdn.microsoft.com/library/d4133fcb-9b0f-4e6b-aadf-a389da83516a%28Office.15%29.aspx)
 

@@ -28,15 +28,15 @@ The **PreviewItemResponseShape** element contains the requested property set to 
 
 The following sections describe attributes, child elements, and parent elements.
   
-#### Attributes
+### Attributes
 
 None.
   
-#### Child elements
+### Child elements
 
 [BaseShape (PreviewItemBaseShapeType)](baseshape-previewitembaseshapetype.md) | [AdditionalProperties](additionalproperties.md)
   
-#### Parent elements
+### Parent elements
 
 [SearchMailboxes](searchmailboxes.md)
   

@@ -29,15 +29,15 @@ The **WebClientReadFormQueryString** element represents a URL to concatenate to 
 
 The following sections describe attributes, child elements, and parent elements.
   
-#### Attributes
+### Attributes
 
 None.
   
-#### Child elements
+### Child elements
 
 None.
   
-#### Parent elements
+### Parent elements
 
 |**Element**|**Description**|
 |:-----|:-----|
@@ -81,7 +81,7 @@ In versions of Exchange earlier than major version 15, the item identifier for t
    
 ## See also
 
-#### Concepts
+
 
 [EWS XML elements in Exchange](ews-xml-elements-in-exchange.md)
 

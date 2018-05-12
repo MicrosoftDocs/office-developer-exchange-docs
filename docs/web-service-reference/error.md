@@ -34,11 +34,11 @@ The **Error** element represents a single validation error on a particular rule 
 
 The following sections describe attributes, child elements, and parent elements.
   
-#### Attributes
+### Attributes
 
 None.
   
-#### Child elements
+### Child elements
 
 |**Element**|**Description**|
 |:-----|:-----|
@@ -47,7 +47,7 @@ None.
 |[ErrorMessage](errormessage.md) <br/> |Represents the reason for the validation error.  <br/> |
 |[FieldValue](fieldvalue.md) <br/> |Represents the value of the field that caused the validation error.  <br/> |
    
-#### Parent elements
+### Parent elements
 
 |**Element**|**Description**|
 |:-----|:-----|
@@ -72,7 +72,7 @@ The schema that describes this element is located in the IIS virtual directory t
    
 ## See also
 
-#### Concepts
+
 
 [EWS XML elements in Exchange](ews-xml-elements-in-exchange.md)
 

@@ -37,11 +37,11 @@ The **SourceIds** element contains the source identifiers to convert.
 
 The following sections describe attributes, child elements, and parent elements.
   
-#### Attributes
+### Attributes
 
 None.
   
-#### Child elements
+### Child elements
 
 |**Element**|**Description**|
 |:-----|:-----|
@@ -49,7 +49,7 @@ None.
 |[AlternatePublicFolderId](alternatepublicfolderid.md) <br/> |Describes a public folder identifier to convert.  <br/> |
 |[AlternatePublicFolderItemId](alternatepublicfolderitemid.md) <br/> |Describes a public folder item identifier to convert.  <br/> |
    
-#### Parent elements
+### Parent elements
 
 |**Element**|**Description**|
 |:-----|:-----|
@@ -70,13 +70,13 @@ The schema that describes this element is located in the EWS virtual directory o
    
 ## See also
 
-#### Reference
+
 
 [ConvertId operation](convertid-operation.md)
-#### Concepts
+
 
 [EWS XML elements in Exchange](ews-xml-elements-in-exchange.md)
-#### Other resources
+
 
 [Converting Identifiers](http://msdn.microsoft.com/library/a5391746-b6ef-4f48-8fc8-8255258651aa%28Office.15%29.aspx)
 

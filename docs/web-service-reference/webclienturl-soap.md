@@ -35,18 +35,18 @@ The **WebClientUrl** element represents the URL of an Exchange web client.
 
 The following sections describe attributes, child elements, and parent elements.
   
-#### Attributes
+### Attributes
 
 None.
   
-#### Child elements
+### Child elements
 
 |**Element**|**Description**|
 |:-----|:-----|
 |[AuthenticationMethods (SOAP)](authenticationmethods-soap.md) <br/> |Represents the authentication method to use when accessing the specified URL.  <br/> |
 |[Url (SOAP)](url-soap.md) <br/> |Represents the web address for the URL.  <br/> |
    
-#### Parent elements
+### Parent elements
 
 |**Element**|**Description**|
 |:-----|:-----|
@@ -63,7 +63,7 @@ None.
    
 ## See also
 
-#### Reference
+
 
 [Url (SOAP)](url-soap.md)
   

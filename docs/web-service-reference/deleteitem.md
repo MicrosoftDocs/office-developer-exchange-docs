@@ -31,7 +31,7 @@ The **DeleteItem** element defines a request to delete an item from a mailbox in
 
 The following sections describe attributes, child elements, and parent elements.
   
-#### Attributes
+### Attributes
 
 |**Attribute**|**Description**|
 |:-----|:-----|
@@ -63,13 +63,13 @@ The following sections describe attributes, child elements, and parent elements.
 |AllOccurrences  <br/> |A delete item request deletes the master task, and therefore all recurring tasks that are associated with the master task.  <br/> |
 |SpecifiedOccurrenceOnly  <br/> |A delete item request deletes only specific occurrences of a task.  <br/> |
    
-#### Child elements
+### Child elements
 
 |**Element**|**Description**|
 |:-----|:-----|
 |[ItemIds](itemids.md) <br/> |Contains an array of items, occurrence items, and recurring master items to delete from a mailbox in the Exchange store. The [DeleteItem operation](deleteitem-operation.md) can be performed on any item type.  <br/> |
    
-#### Parent elements
+### Parent elements
 
 None.
   
@@ -92,7 +92,7 @@ The schema that describes this element is located in the IIS virtual directory t
    
 ## See also
 
-#### Reference
+
 
 [DeleteItemResponse](deleteitemresponse.md)
   

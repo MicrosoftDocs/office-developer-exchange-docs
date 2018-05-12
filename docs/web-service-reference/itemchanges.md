@@ -35,17 +35,17 @@ The **ItemChanges** element contains an array of [ItemChange](itemchange.md) ele
 
 The following sections describe attributes, child elements, and parent elements.
   
-#### Attributes
+### Attributes
 
 None.
   
-#### Child elements
+### Child elements
 
 |**Element**|**Description**|
 |:-----|:-----|
 |[ItemChange](itemchange.md) <br/> |Contains an item identifier and the updates to apply to the item.  <br/> |
    
-#### Parent elements
+### Parent elements
 
 |**Element**|**Description**|
 |:-----|:-----|
@@ -66,7 +66,7 @@ The schema that describes this element is located in the EWS virtual directory o
    
 ## See also
 
-#### Reference
+
 
 [UpdateItem operation](updateitem-operation.md)
 

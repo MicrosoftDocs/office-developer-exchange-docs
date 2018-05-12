@@ -27,7 +27,7 @@ The **AuthPackage** element specifies the authentication scheme that is used whe
   
 [AuthPackage (POX)](authpackage-pox.md)
   
-```
+```xml
 <AuthPackage>basic or kerb or kerbntlm or ntlm or certificate or negotiate or nego2</AuthPackage>
 ```
 
@@ -35,15 +35,15 @@ The **AuthPackage** element specifies the authentication scheme that is used whe
 
 The following sections describe attributes, child elements, and parent elements.
   
-#### Attributes
+### Attributes
 
 None.
   
-#### Child elements
+### Child elements
 
 None.
   
-#### Parent elements
+### Parent elements
 
 |**Element**|**Description**|
 |:-----|:-----|
@@ -77,7 +77,7 @@ Office 365, Exchange Online, and on-premises versions of Exchange starting with 
   
 ## See also
 
-#### Concepts
+
 
 [POX Autodiscover XML elements for Exchange](pox-autodiscover-xml-elements-for-exchange.md)
 

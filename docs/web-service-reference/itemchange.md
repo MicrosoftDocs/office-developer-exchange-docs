@@ -38,11 +38,11 @@ The **ItemChange** element contains an item identifier and the updates to apply 
 
 The following sections describe attributes, child elements, and parent elements.
   
-#### Attributes
+### Attributes
 
 None.
   
-#### Child elements
+### Child elements
 
 |**Element**|**Description**|
 |:-----|:-----|
@@ -51,7 +51,7 @@ None.
 |[RecurringMasterItemId](recurringmasteritemid.md) <br/> |Identifies a recurrence master item by identifying one of its related occurrence items' identifiers. This element is required if used. This element is required if the [OccurrenceItemId](occurrenceitemid.md) or [ItemId](itemid.md) element is not used.  <br/> |
 |[Updates (Item)](updates-item.md) <br/> |Contains an array that defines append, set, and delete changes to item properties. This element is required.  <br/> |
    
-#### Parent elements
+### Parent elements
 
 |**Element**|**Description**|
 |:-----|:-----|
@@ -74,7 +74,7 @@ The schema that describes this element is located in the EWS virtual directory o
    
 ## See also
 
-#### Reference
+
 
 [UpdateItem operation](updateitem-operation.md)
 

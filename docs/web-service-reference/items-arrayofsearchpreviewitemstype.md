@@ -27,15 +27,15 @@ The **Items** element specifies a list of items available for preview as the res
 
 The following sections describe attributes, child elements, and parent elements.
   
-#### Attributes
+### Attributes
 
 None.
   
-#### Child elements
+### Child elements
 
 [SearchPreviewItem](searchpreviewitem.md)
   
-#### Parent elements
+### Parent elements
 
 [SearchMailboxesResult](searchmailboxesresult.md)
   

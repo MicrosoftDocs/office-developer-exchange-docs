@@ -30,11 +30,11 @@ The **UserSettingError** element represents an error that is returned as a resul
 
 The following sections describe attributes, child elements, and parent elements.
   
-#### Attributes
+### Attributes
 
 None.
   
-#### Child elements
+### Child elements
 
 |**Element**|**Description**|
 |:-----|:-----|
@@ -42,7 +42,7 @@ None.
 |[ErrorMessage (SOAP)](errormessage-soap.md) <br/> |Respresents a message associated with an error code that is returned by the Autodiscover service.  <br/> |
 |[SettingName (SOAP)](settingname-soap.md) <br/> |Represents the name of a user setting.  <br/> |
    
-#### Parent elements
+### Parent elements
 
 |**Element**|**Description**|
 |:-----|:-----|
@@ -63,7 +63,7 @@ None.
    
 ## See also
 
-#### Concepts
+
 
 [SOAP Autodiscover XML elements for Exchange 2013](soap-autodiscover-xml-elements-for-exchange-2013.md)
 

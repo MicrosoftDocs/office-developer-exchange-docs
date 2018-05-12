@@ -32,20 +32,20 @@ The **Member** element represents a member of a distribution list.
 
 The following sections describe attributes, child elements, and parent elements.
   
-#### Attributes
+### Attributes
 
 |**Attribute**|**Description**|
 |:-----|:-----|
 |Key  <br/> |Provides a unique identifier for the distribution list member. This attribute is optional.  <br/> |
    
-#### Child elements
+### Child elements
 
 |**Element**|**Description**|
 |:-----|:-----|
 |[Mailbox](mailbox.md) <br/> |Represents the e-mail address of the distribution list member. This element is optional.  <br/> |
 |[Status (MemberStatusType)](status-memberstatustype.md) <br/> |Provides information about the status of a distribution list member. This element is optional.  <br/> |
    
-#### Parent elements
+### Parent elements
 
 |**Element**|**Description**|
 |:-----|:-----|
@@ -66,7 +66,7 @@ The schema that describes this element is located in the IIS virtual directory t
    
 ## See also
 
-#### Concepts
+
 
 [EWS XML elements in Exchange](ews-xml-elements-in-exchange.md)
 

@@ -20,7 +20,7 @@ description: "The Attendee element represents attendees and resources for a meet
 
 The **Attendee** element represents attendees and resources for a meeting. 
   
-```
+```xml
 <Attendee>
    <Mailbox/>
    <ResponseType/>
@@ -33,11 +33,11 @@ The **Attendee** element represents attendees and resources for a meeting.
 
 The following sections describe attributes, child elements, and parent elements.
   
-#### Attributes
+### Attributes
 
 None.
   
-#### Child elements
+### Child elements
 
 |**Element**|**Description**|
 |:-----|:-----|
@@ -45,7 +45,7 @@ None.
 |[ResponseType](responsetype.md) <br/> |Represents the type of recipient response that is received for a meeting. This property is only relevant to a meeting organizer's calendar item.  <br/> |
 |[LastResponseTime](lastresponsetime.md) <br/> |Represents the date and time of the latest response that is received.  <br/> |
    
-#### Parent elements
+### Parent elements
 
 |**Element**|**Description**|
 |:-----|:-----|
@@ -68,7 +68,7 @@ The schema that describes this element is located in the EWS virtual directory o
    
 ## See also
 
-#### Concepts
+
 
 [EWS XML elements in Exchange](ews-xml-elements-in-exchange.md)
 

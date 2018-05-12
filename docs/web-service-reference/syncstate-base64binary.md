@@ -25,15 +25,15 @@ The **SyncState** element specifies the synchronization state of a conversation.
 
 The following sections describe attributes, child elements, and parent elements.
   
-#### Attributes
+### Attributes
 
 None.
   
-#### Child elements
+### Child elements
 
 None.
   
-#### Parent elements
+### Parent elements
 
 [Conversation (ConversationRequestType)](conversation-conversationrequesttype.md) | [Conversation (ConversationResponseType)](conversation-conversationresponsetype.md)
   

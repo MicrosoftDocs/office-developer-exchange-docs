@@ -27,18 +27,18 @@ The **TokenIssuer** element specifies the [Uri (SOAP)](uri-soap.md) and [Endpoin
 
 The following sections describe attributes, child elements, and parent elements.
   
-#### Attributes
+### Attributes
 
 None
   
-#### Child elements
+### Child elements
 
 |**Element**|**Description**|
 |:-----|:-----|
 |[Uri (SOAP)](uri-soap.md) <br/> |The URI of the security token service that issued the security token.  <br/> |
 |[Endpoint (SOAP)](endpoint-soap.md) <br/> |The web service Endpoint URI.  <br/> |
    
-#### Parent elements
+### Parent elements
 
 |**Element**|**Description**|
 |:-----|:-----|
@@ -59,7 +59,7 @@ Use the **TokenIssuer** element to specify the security token service when using
    
 ## See also
 
-#### Concepts
+
 
 [Autodiscover web service reference for Exchange](autodiscover-web-service-reference-for-exchange.md)
   

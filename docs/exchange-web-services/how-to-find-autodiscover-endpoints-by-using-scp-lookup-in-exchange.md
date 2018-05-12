@@ -1,18 +1,14 @@
 ---
-title: "How to Find Autodiscover endpoints by using SCP lookup in Exchange"
- 
- 
+title: "Find Autodiscover endpoints by using SCP lookup in Exchange"
 manager: kelbow
 ms.date: 9/17/2015
 ms.audience: Developer
- 
- 
 localization_priority: Normal
 ms.assetid: b24228a8-5127-4bac-aef0-9c9e8843c9ff
 description: "Find out how to locate Autodiscover SCP objects in Active Directory Domain Services (AD DS) and use them to find Autodiscover endpoint URLs to use with the Exchange Autodiscover service."
 ---
 
-# How to: Find Autodiscover endpoints by using SCP lookup in Exchange
+# Find Autodiscover endpoints by using SCP lookup in Exchange
 
 Find out how to locate Autodiscover SCP objects in Active Directory Domain Services (AD DS) and use them to find Autodiscover endpoint URLs to use with the Exchange Autodiscover service.
   
@@ -53,7 +49,7 @@ The first step toward finding Autodiscover endpoints published in AD DS is to lo
     
 2. Search for SCP objects in the configuration naming context that have either the SCP pointer GUID or the SCP URL GUID in the **keywords** property. 
     
-3. Check the SCP objects you found for an SCP pointer that is scoped to the user's domain by checking the **keywords** property for an entry equal to "Domain=<domain>". For example, if the user's email address is elvin@contoso.com, you would look for an SCP pointer with an entry in the **keywords** property that is equal to "Domain=contoso.com". If a matching SCP pointer is found, discard the set of SCP objects and start over at step 1 using the value of the **serviceBindingInformation** property as the server to connect to for the Root DSE entry. 
+3. Check the SCP objects you found for an SCP pointer that is scoped to the user's domain by checking the **keywords** property for an entry equal to `"Domain=<domain>"`. For example, if the user's email address is elvin@contoso.com, you would look for an SCP pointer with an entry in the **keywords** property that is equal to `"Domain=contoso.com"`. If a matching SCP pointer is found, discard the set of SCP objects and start over at step 1 using the value of the **serviceBindingInformation** property as the server to connect to for the Root DSE entry. 
     
 4. If you don't find any SCP pointers scoped to the user's domain, check for any SCP pointers that aren't scoped to any domain, and save the value of the **serviceBindingInformation** property as a "fallback" server, in case the current server doesn't give you any results. 
     
@@ -68,11 +64,11 @@ You can generate a prioritized list of Autodiscover endpoint URLs, using the set
     
 2. Check the **keywords** property on each SCP URL in the set of SCP objects you found, and assign a priority to the URL based on the following rules: 
     
-  - If the **keywords** property contains a value of "Site=<site name>", where <site name> equals the name of the Active Directory site you retrieved in the previous step, assign the URL a priority of 1. 
+  - If the **keywords** property contains a value of `"Site=<site name>"`, where `<site name>` equals the name of the Active Directory site you retrieved in the previous step, assign the URL a priority of 1. 
     
-  - If the **keywords** property does not contain an entry with a value that starts with "Site=", assign the URL a priority of 2. 
+  - If the **keywords** property does not contain an entry with a value that starts with `"Site="`, assign the URL a priority of 2. 
     
-  - If the **keywords** property contains a value of "Site=<site name>, where <site name> does not equal the name of the Active Directory site you retrieved in the previous step, assign the URL a priority of 3. 
+  - If the **keywords** property contains a value of `"Site=<site name>`, where `<site name>` does not equal the name of the Active Directory site you retrieved in the previous step, assign the URL a priority of 3. 
     
 ## Code example: Performing an SCP lookup
 <a name="bk_CodeExample"> </a>
@@ -324,15 +320,13 @@ namespace ScpLookup
 
 The next step in the Autodiscover process is to send Autodiscover requests to the URLs that you found, starting with priority 1 URLs, then priority 2 URLs, and finally priority 3 URLs. To learn more about how to send Autodiscover requests and handle responses, read the following articles:
   
-- [How to: Get user settings from Exchange by using Autodiscover](how-to-get-user-settings-from-exchange-by-using-autodiscover.md)
+- [Get user settings from Exchange by using Autodiscover](how-to-get-user-settings-from-exchange-by-using-autodiscover.md)
     
 - [Handling Autodiscover error messages](handling-autodiscover-error-messages.md)
     
-## Additional resources
-<a name="bk_addresources"> </a>
+## See also
 
-- [Autodiscover for Exchange](autodiscover-for-exchange.md)
-    
+- [Autodiscover for Exchange](autodiscover-for-exchange.md)   
 - [Setting up your EWS application](setting-up-your-ews-application.md)
     
 

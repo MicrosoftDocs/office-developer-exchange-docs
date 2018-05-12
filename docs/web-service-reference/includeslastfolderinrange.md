@@ -37,15 +37,15 @@ The **IncludesLastFolderInRange** element indicates whether the last item to syn
 
 The following sections describe attributes, child elements, and parent elements.
   
-#### Attributes
+### Attributes
 
 None.
   
-#### Child elements
+### Child elements
 
 None.
   
-#### Parent elements
+### Parent elements
 
 |**Element**|**Description**|
 |:-----|:-----|
@@ -70,10 +70,10 @@ The schema that describes this element is located in the EWS virtual directory o
    
 ## See also
 
-#### Reference
+
 
 [SyncFolderHierarchy operation](syncfolderhierarchy-operation.md)
-#### Concepts
+
 
 [EWS reference for Exchange](ews-reference-for-exchange.md)
   

@@ -36,8 +36,8 @@ The messages.xsd schema file describes the XML elements that can be sent in an A
     
 - [Unified Messaging web service reference for Exchange](unified-messaging-web-service-reference-for-exchange.md)
     
-## Additional resources
-<a name="bk_addresources"> </a>
+## See also
+
 
 - [Autodiscover web service reference for Exchange](autodiscover-web-service-reference-for-exchange.md)
     

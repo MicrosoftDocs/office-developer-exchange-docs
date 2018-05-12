@@ -25,15 +25,15 @@ The **SortValue** element specifies a value used for sorting.
 
 The following sections describe attributes, child elements, and parent elements.
   
-#### Attributes
+### Attributes
 
 None.
   
-#### Child elements
+### Child elements
 
 None.
   
-#### Parent elements
+### Parent elements
 
 [SearchPreviewItem](searchpreviewitem.md) | [NonIndexableItemDetail](nonindexableitemdetail.md)
   

@@ -80,14 +80,14 @@ The **Protocol** element contains the specifications for connecting a client to 
 
 The following sections describe attributes, child elements, and parent elements.
   
-#### Attributes
+### Attributes
 
 |**Attribute**|**Description**|
 |:-----|:-----|
 |Type  <br/> |Indicates the type of protocol described by this **Protocol** element. The only valid value for this attribute is "mapiHttp". This attribute is only present if the Autodiscover request that corresponds to this response [included an X-MapiHttpCapability header](pox-autodiscover-request-for-exchange.md). This attribute is applicable to clients that implement the MAPI/HTTP protocol and target Exchange Online, Exchange Online as part of Office 365, or on-premises versions of Exchange starting with build 15.00.0847.032 (Exchange Server 2013 SP1).  <br/> |
 |Version  <br/> |Indicates the version of the protocol described by this **Protocol** element. The only valid value for this attribute is "1". This attribute is only present if the Autodiscover request that corresponds to this response included an **X-MapiHttpCapability** header. This attribute is applicable to clients that implement the MAPI/HTTP protocol and target Exchange Online, Exchange Online as part of Office 365, or on-premises versions of Exchange starting with build 15.00.0847.032 (Exchange Server 2013 SP1).  <br/> |
    
-#### Child elements
+### Child elements
 
 |**Element**|**Description**|
 |:-----|:-----|
@@ -138,7 +138,7 @@ The following sections describe attributes, child elements, and parent elements.
 |[AddressBook (POX)](addressbook-pox.md) <br/> |Contains the specifications for connecting a client to the address book server by using the MAPI/HTTP protocol. This element is only present if the **Type** attribute on the **Protocol** element is present and set to "mapiHttp". The **AddressBook** element is applicable to clients that implement the MAPI/HTTP protocol and target Exchange Online and versions of Exchange starting with 15.00.0847.032.  <br/> |
 |[MailStore (POX)](mailstore-pox.md) <br/> |Contains the specifications for connecting a client to the user's mailbox by using the MAPI/HTTP protocol. This element is only present if the **Type** attribute on the **Protocol** element is present and set to "mapiHttp". The **MailStore** element is applicable to clients that implement the MAPI/HTTP protocol and target Exchange Online and versions of Exchange starting with 15.00.0847.032.  <br/> |
    
-#### Parent elements
+### Parent elements
 
 |**Element**|**Description**|
 |:-----|:-----|
@@ -150,7 +150,7 @@ The **Protocol** element is present in a response that has an [Action (POX)](act
   
 ## See also
 
-#### Concepts
+
 
 [POX Autodiscover XML elements for Exchange](pox-autodiscover-xml-elements-for-exchange.md)
 

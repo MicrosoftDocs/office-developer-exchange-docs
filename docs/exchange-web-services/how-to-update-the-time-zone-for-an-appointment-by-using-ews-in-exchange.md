@@ -1,5 +1,5 @@
 ---
-title: "How to Update the time zone for an appointment by using EWS in Exchange"
+title: "Update the time zone for an appointment by using EWS in Exchange"
  
  
 manager: sethgros
@@ -12,7 +12,7 @@ ms.assetid: dc2240c1-5500-4d5c-97d5-09d63ffd30d5
 description: "Learn how to update the time zone for an existing appointment or meeting by using the EWS Managed API or EWS in Exchange."
 ---
 
-# How to: Update the time zone for an appointment by using EWS in Exchange
+# Update the time zone for an appointment by using EWS in Exchange
 
 Learn how to update the time zone for an existing appointment or meeting by using the EWS Managed API or EWS in Exchange.
   
@@ -233,13 +233,13 @@ The following example request updates the time zone of the appointment, and also
 </soap:Envelope>
 ```
 
-## Additional resources
-<a name="bk_addresources"> </a>
+## See also
+
 
 - [Time zones and EWS in Exchange](time-zones-and-ews-in-exchange.md)
     
-- [How to: Create appointments in a specific time zone by using EWS in Exchange](how-to-create-appointments-in-a-specific-time-zone-by-using-ews-in-exchange.md)
+- [Create appointments in a specific time zone by using EWS in Exchange](how-to-create-appointments-in-a-specific-time-zone-by-using-ews-in-exchange.md)
     
-- [How to: Update appointments and meetings by using EWS in Exchange](how-to-update-appointments-and-meetings-by-using-ews-in-exchange.md)
+- [Update appointments and meetings by using EWS in Exchange](how-to-update-appointments-and-meetings-by-using-ews-in-exchange.md)
     
 

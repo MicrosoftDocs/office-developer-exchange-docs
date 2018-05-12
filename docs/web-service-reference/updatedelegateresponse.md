@@ -35,11 +35,11 @@ The **UpdateDelegateResponse** element contains the status and result of an [Upd
 
 The following sections describe attributes, child elements, and parent elements.
   
-#### Attributes
+### Attributes
 
 None.
   
-#### Child elements
+### Child elements
 
 |**Element**|**Description**|
 |:-----|:-----|
@@ -49,7 +49,7 @@ None.
 |[DescriptiveLinkKey](descriptivelinkkey.md) <br/> |Currently unused and is reserved for future use. It contains a value of 0.  <br/> |
 |[MessageXml](messagexml.md) <br/> |Provides additional error response information.  <br/> |
    
-#### Parent elements
+### Parent elements
 
 None.
   
@@ -68,10 +68,10 @@ The schema that describes this element is located in the EWS virtual directory o
    
 ## See also
 
-#### Reference
+
 
 [UpdateDelegate operation](updatedelegate-operation.md)
-#### Concepts
+
 
 [EWS XML elements in Exchange](ews-xml-elements-in-exchange.md)
 

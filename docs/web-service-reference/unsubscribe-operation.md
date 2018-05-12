@@ -146,12 +146,12 @@ The following elements are used in the error response:
     
 ## See also
 
-#### Reference
+
 
 [Subscribe operation](subscribe-operation.md)
   
 [GetEvents operation](getevents-operation.md)
-#### Other resources
+
 
 [Using Pull Subscriptions](http://msdn.microsoft.com/library/f956bc0e-2b25-4613-966b-54c65456897c%28Office.15%29.aspx)
 

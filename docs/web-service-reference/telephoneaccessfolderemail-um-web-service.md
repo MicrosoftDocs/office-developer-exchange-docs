@@ -32,15 +32,15 @@ The **TelephoneAccessFolderEmail** element contains a value that species the ide
 
 The following sections describe attributes, child elements, and parent elements.
   
-#### Attributes
+### Attributes
 
 None.
   
-#### Child elements
+### Child elements
 
 None.
   
-#### Parent elements
+### Parent elements
 
 |**Element**|**Description**|
 |:-----|:-----|
@@ -61,7 +61,7 @@ A text value is required.
    
 ## See also
 
-#### Reference
+
 
 [GetUMProperties operation (UM web service)](getumproperties-operation-um-web-service.md)
   

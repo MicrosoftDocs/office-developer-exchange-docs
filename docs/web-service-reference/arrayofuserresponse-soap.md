@@ -28,17 +28,17 @@ The **ArrayOfUserResponse** element contains an array of [UserResponse (SOAP)](u
 
 The following sections describe attributes, child elements, and parent elements.
   
-#### Attributes
+### Attributes
 
 None.
   
-#### Child elements
+### Child elements
 
 |**Element**|**Description**|
 |:-----|:-----|
 |[UserResponse (SOAP)](userresponse-soap.md) <br/> |Contains the requested settings for the specified user.  <br/> |
    
-#### Parent elements
+### Parent elements
 
 None.
   
@@ -57,7 +57,7 @@ None.
    
 ## See also
 
-#### Reference
+
 
 [GetUserSettings operation (SOAP)](getusersettings-operation-soap.md)
 

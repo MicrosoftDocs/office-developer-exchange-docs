@@ -27,15 +27,15 @@ The **Personas** element specifies an array of personas returned from the **GetI
 
 The following sections describe attributes, child elements, and parent elements.
   
-#### Attributes
+### Attributes
 
 None.
   
-#### Child elements
+### Child elements
 
 [Persona](persona.md)
   
-#### Parent elements
+### Parent elements
 
 [ImItemList](imitemlist.md)
   

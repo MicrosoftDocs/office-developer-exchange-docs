@@ -28,15 +28,15 @@ The **MailboxSearchScope** element specifies a mailbox and a search scope for a 
 
 The following sections describe attributes, child elements, and parent elements.
   
-#### Attributes
+### Attributes
 
 None.
   
-#### Child elements
+### Child elements
 
 [Mailbox (string)](mailbox-string.md) | [SearchScope](searchscope.md)
   
-#### Parent elements
+### Parent elements
 
 [MailboxSearchScopes](mailboxsearchscopes.md)
   

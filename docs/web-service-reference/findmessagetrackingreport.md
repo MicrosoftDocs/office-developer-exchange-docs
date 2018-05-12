@@ -43,11 +43,11 @@ The **FindMessageTrackingReport** element specifies criteria for the types of me
 
 The following sections describe attributes, child elements, and parent elements.
   
-#### Attributes
+### Attributes
 
 None.
   
-#### Child elements
+### Child elements
 
 |**Element**|**Description**|
 |:-----|:-----|
@@ -65,7 +65,7 @@ None.
 |[ServerHint](serverhint.md) <br/> |Represents the starting point for tracking a message in a remote site or forest.  <br/> |
 |[Properties (ArrayOfTrackingPropertiesType)](properties-arrayoftrackingpropertiestype.md) <br/> |Contains a list of one or more tracking properties. This element is optional.  <br/> |
    
-#### Parent elements
+### Parent elements
 
 None.
   
@@ -88,10 +88,10 @@ The schema that describes this element is located in the IIS virtual directory t
    
 ## See also
 
-#### Reference
+
 
 [FindMessageTrackingReport operation](findmessagetrackingreport-operation.md)
-#### Concepts
+
 
 [EWS XML elements in Exchange](ews-xml-elements-in-exchange.md)
 

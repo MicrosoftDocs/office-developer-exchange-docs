@@ -28,15 +28,15 @@ The **VotingInformation** element specifies voting information on a voting messa
 
 The following sections describe attributes, child elements, and parent elements.
   
-#### Attributes
+### Attributes
 
 None.
   
-#### Child elements
+### Child elements
 
 [UserOptions](useroptions.md) | [VotingResponse](votingresponse.md)
   
-#### Parent elements
+### Parent elements
 
 [Message](message-ex15websvcsotherref.md)
   
@@ -57,10 +57,10 @@ The schema that describes this element is located in the IIS virtual directory t
    
 ## See also
 
-#### Reference
+
 
 [Message](message-ex15websvcsotherref.md)
-#### Concepts
+
 
 [EWS XML elements in Exchange](ews-xml-elements-in-exchange.md)
 

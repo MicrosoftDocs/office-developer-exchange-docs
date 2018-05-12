@@ -22,7 +22,7 @@ The **GetMessageTrackingReport** operation gets tracking information about the s
   
 ## See also
 
-#### Concepts
+
 
 [EWS operations in Exchange](ews-operations-in-exchange.md)
   

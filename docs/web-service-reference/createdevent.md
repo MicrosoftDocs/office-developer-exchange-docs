@@ -34,11 +34,11 @@ The **CreatedEvent** element represents an event in which an item or folder is c
 
 The following sections describe attributes, child elements, and parent elements.
   
-#### Attributes
+### Attributes
 
 None.
   
-#### Child elements
+### Child elements
 
 |**Element**|**Description**|
 |:-----|:-----|
@@ -48,7 +48,7 @@ None.
 |[ItemId](itemid.md) <br/> |Represents the identifier of the created item.  <br/> |
 |[ParentFolderId](parentfolderid.md) <br/> |Represents the identifier of the parent folder of the created item or folder.  <br/> |
    
-#### Parent elements
+### Parent elements
 
 |**Element**|**Description**|
 |:-----|:-----|
@@ -69,14 +69,14 @@ The schema that describes this element is located in the EWS virtual directory o
    
 ## See also
 
-#### Reference
+
 
 [Subscribe operation](subscribe-operation.md)
   
 [GetEvents operation](getevents-operation.md)
   
 [Unsubscribe operation](unsubscribe-operation.md)
-#### Other resources
+
 
 [Using Pull Subscriptions](http://msdn.microsoft.com/library/f956bc0e-2b25-4613-966b-54c65456897c%28Office.15%29.aspx)
   

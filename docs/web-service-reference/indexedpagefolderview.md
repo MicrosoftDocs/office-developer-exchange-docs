@@ -33,7 +33,7 @@ The **IndexedPageFolderView** element describes how paged item information is re
 
 The following sections describe attributes, child elements, and parent elements.
   
-#### Attributes
+### Attributes
 
 |**Attribute**|**Description**|
 |:-----|:-----|
@@ -48,11 +48,11 @@ The following sections describe attributes, child elements, and parent elements.
 |Beginning  <br/> |The paged view starts at the beginning of the found folder set.  <br/> |
 |End  <br/> |The paged view starts at the end of the found folder set.  <br/> |
    
-#### Child elements
+### Child elements
 
 None.
   
-#### Parent elements
+### Parent elements
 
 |**Element**|**Description**|
 |:-----|:-----|

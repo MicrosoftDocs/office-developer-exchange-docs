@@ -32,15 +32,15 @@ The **MissedCallNotificationEnabled** element contains a value that indicates wh
 
 The following sections describe attributes, child elements, and parent elements.
   
-#### Attributes
+### Attributes
 
 None.
   
-#### Child elements
+### Child elements
 
 None.
   
-#### Parent elements
+### Parent elements
 
 |**Element**|**Description**|
 |:-----|:-----|
@@ -65,7 +65,7 @@ A Boolean text value is required. The following are the possible values:
    
 ## See also
 
-#### Reference
+
 
 [GetUMProperties operation (UM web service)](getumproperties-operation-um-web-service.md)
   

@@ -31,8 +31,8 @@ The following table lists the versions of Exchange that include EWS and the majo
 |Exchange 2007 SP1  <br/> | Includes all the features introduced in Exchange 2007. The following features were introduced in Exchange 2007 SP1:  <br/>  Delegate management  <br/>  Folder permissions  <br/>  Public folders  <br/>  Post items  <br/>  ID conversion  <br/> |
 |Exchange 2007  <br/> | The following features were introduced in the initial release version of Exchange 2007:  <br/>  Full access to items, folders, and attachments (Create, Get, Update, Delete)  <br/>  Availability  <br/>  Out of Office settings  <br/>  Notifications  <br/>  Synchronization  <br/>  Name resolution  <br/>  Distribution list (DL) expansion  <br/>  Search  <br/> |
    
-## Additional resources
-<a name="bk_addresources"> </a>
+## See also
+
 
 - [Start using web services in Exchange](start-using-web-services-in-exchange.md)
     

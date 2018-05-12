@@ -1,7 +1,5 @@
 ---
 title: "AudioData"
- 
- 
 manager: sethgros
 ms.date: 9/17/2015
 ms.audience: Developer
@@ -15,25 +13,20 @@ description: "The AudioData element is intended for internal use only."
 # AudioData
 
 The **AudioData** element is intended for internal use only. 
-  
-```
 
-```
-
- ****
 ## Attributes and elements
 
 The following sections describe attributes, child elements, and parent elements.
   
-#### Attributes
+### Attributes
 
 None.
   
-#### Child elements
+### Child elements
 
 None.
   
-#### Parent elements
+### Parent elements
 
 None.
   

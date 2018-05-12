@@ -33,18 +33,18 @@ The **PlayOnPhone** element defines a request to play an item on a telephone.
 
 The following sections describe attributes, child elements, and parent elements.
   
-#### Attributes
+### Attributes
 
 None.
   
-#### Child elements
+### Child elements
 
 |**Element**|**Description**|
 |:-----|:-----|
 |[entryId (UM web service)](entryid-um-web-service.md) <br/> |Contains the value that represents the identifier of the item to play on the telephone in a [PlayOnPhone operation (UM web service)](playonphone-operation-um-web-service.md) request.  <br/> |
 |[dialString (UM web service)](dialstring-um-web-service.md) <br/> |Contains the value for the telephone number to dial.  <br/> |
    
-#### Parent elements
+### Parent elements
 
 None.
   
@@ -63,7 +63,7 @@ None.
    
 ## See also
 
-#### Reference
+
 
 [PlayOnPhone operation (UM web service)](playonphone-operation-um-web-service.md)
 

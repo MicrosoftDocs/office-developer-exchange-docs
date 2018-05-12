@@ -57,7 +57,7 @@ The following example of a SetOofStatus response shows a response to the SetOofS
 
 ## See also
 
-#### Reference
+
 
 [SetOofStatus (UM web service)](setoofstatus-um-web-service.md)
   

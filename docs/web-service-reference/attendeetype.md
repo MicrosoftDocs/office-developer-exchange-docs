@@ -28,7 +28,7 @@ The **AttendeeType** element represents the type of attendee that is identified 
   
 [AttendeeType](attendeetype.md)
   
-```
+```xml
 <AttendeeType>Organizer or Required or Optional or Room or Resource</AttendeeType>
 ```
 
@@ -37,15 +37,15 @@ The **AttendeeType** element represents the type of attendee that is identified 
 
 The following sections describe attributes, child elements, and parent elements.
   
-#### Attributes
+### Attributes
 
 None.
   
-#### Child elements
+### Child elements
 
 None.
   
-#### Parent elements
+### Parent elements
 
 |**Element**|**Description**|
 |:-----|:-----|
@@ -81,12 +81,12 @@ This element is a required child element of the [MailboxData](mailboxdata.md) el
    
 ## See also
 
-#### Reference
+
 
 [GetUserAvailability operation](getuseravailability-operation.md)
   
 [GetUserAvailabilityRequest](getuseravailabilityrequest.md)
-#### Other resources
+
 
 [Getting User Availability](http://msdn.microsoft.com/library/d4133fcb-9b0f-4e6b-aadf-a389da83516a%28Office.15%29.aspx)
 

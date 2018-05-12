@@ -26,15 +26,15 @@ The **Domain** element identifies the domain that has a federation trust.
 
 The following sections describe attributes, child elements, and parent elements.
   
-#### Attributes
+### Attributes
 
 None.
   
-#### Child elements
+### Child elements
 
 None.
   
-#### Parent elements
+### Parent elements
 
 |**Element**|**Description**|
 |:-----|:-----|
@@ -55,7 +55,7 @@ The text value represents the domain name of the domain that contains the federa
    
 ## See also
 
-#### Reference
+
 
 [GetFederationInformation operation (SOAP)](getfederationinformation-operation-soap.md)
 

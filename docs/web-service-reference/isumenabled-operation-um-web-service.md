@@ -57,12 +57,12 @@ The following example shows a successful response to an IsUMEnabled request.
 
 ## See also
 
-#### Reference
+
 
 [IsUMEnabled (UM web service)](isumenabled-um-web-service.md)
   
 [IsUMEnabledResponse (UM web service)](isumenabledresponse-um-web-service.md)
-#### Concepts
+
 
 [Unified Messaging web service XML elements for Exchange](unified-messaging-web-service-xml-elements-for-exchange.md)
 

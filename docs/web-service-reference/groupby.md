@@ -36,7 +36,7 @@ The **GroupBy** element specifies an arbitrary grouping for FindItem queries.
 
 The following sections describe attributes, child elements, and parent elements.
   
-#### Attributes
+### Attributes
 
 |**Attribute**|**Description**|
 |:-----|:-----|
@@ -49,7 +49,7 @@ The following sections describe attributes, child elements, and parent elements.
 |Ascending  <br/> |The groups are ordered in ascending order.  <br/> |
 |Descending  <br/> |The groups are ordered in descending order.  <br/> |
    
-#### Child elements
+### Child elements
 
 |**Element**|**Description**|
 |:-----|:-----|
@@ -58,7 +58,7 @@ The following sections describe attributes, child elements, and parent elements.
 |[ExtendedFieldURI](extendedfielduri.md) <br/> |Identifies extended MAPI properties to get, set, or create.  <br/> |
 |[AggregateOn](aggregateon.md) <br/> |Represents the field that is used to determine the order of groups in a response.  <br/> |
    
-#### Parent elements
+### Parent elements
 
 |**Element**|**Description**|
 |:-----|:-----|
@@ -81,13 +81,13 @@ The schema that describes this element is located in the EWS virtual directory o
    
 ## See also
 
-#### Reference
+
 
 [FindItem operation](finditem-operation.md)
-#### Concepts
+
 
 [EWS XML elements in Exchange](ews-xml-elements-in-exchange.md)
-#### Other resources
+
 
 [Finding Items](http://msdn.microsoft.com/library/63af1f9c-464b-4fca-9ae3-3d60f24ca93c%28Office.15%29.aspx)
 

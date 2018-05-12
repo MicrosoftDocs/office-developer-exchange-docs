@@ -27,15 +27,15 @@ The **UnpinTeamMailbox** element contains the request to unpin a site mailbox fr
 
 The following sections describe attributes, child elements, and parent elements.
   
-#### Attributes
+### Attributes
 
 None.
   
-#### Child elements
+### Child elements
 
 [EmailAddress (EmailAddressType)](emailaddress-emailaddresstype.md)
   
-#### Parent elements
+### Parent elements
 
 None.
   

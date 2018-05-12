@@ -32,7 +32,7 @@ The **Contains** element represents a search expression that determines whether 
 
 The following sections describe attributes, child elements, and parent elements.
   
-#### Attributes
+### Attributes
 
 |**Attribute**|**Description**|
 |:-----|:-----|
@@ -62,7 +62,7 @@ The following sections describe attributes, child elements, and parent elements.
 |LooseAndIgnoreNonSpace  <br/> |To be removed.  <br/> |
 |LooseAndIgnoreCaseAndIgnoreNonSpace  <br/> |To be removed.  <br/> |
    
-#### Child elements
+### Child elements
 
 |**Element**|**Description**|
 |:-----|:-----|
@@ -71,7 +71,7 @@ The following sections describe attributes, child elements, and parent elements.
 |[ExtendedFieldURI](extendedfielduri.md) <br/> |Identifies MAPI properties.  <br/> |
 |[Constant](constant.md) <br/> |Identifies a constant value in a restriction.  <br/> |
    
-#### Parent elements
+### Parent elements
 
 |**Element**|**Description**|
 |:-----|:-----|
@@ -97,7 +97,7 @@ The schema that describes this element is located in the EWS virtual directory o
    
 ## See also
 
-#### Concepts
+
 
 [EWS XML elements in Exchange](ews-xml-elements-in-exchange.md)
 

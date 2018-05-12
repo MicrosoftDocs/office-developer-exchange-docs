@@ -41,11 +41,11 @@ The **MailTips** element represents values for various types of mail tips.
 
 The following sections describe attributes, child elements, and parent elements.
   
-#### Attributes
+### Attributes
 
 None.
   
-#### Child elements
+### Child elements
 
 |**Element**|**Description**|
 |:-----|:-----|
@@ -61,7 +61,7 @@ None.
 |[IsModerated](ismoderated.md) <br/> |Indicates whether the recipient's mailbox is being moderated.  <br/> |
 |[InvalidRecipient (MailTips)](invalidrecipient-mailtips.md) <br/> |Indicates whether the recipient is invalid.  <br/> |
    
-#### Parent elements
+### Parent elements
 
 |**Element**|**Description**|
 |:-----|:-----|
@@ -86,7 +86,7 @@ The schema that describes this element is located in the IIS virtual directory t
    
 ## See also
 
-#### Concepts
+
 
 [EWS XML elements in Exchange](ews-xml-elements-in-exchange.md)
 

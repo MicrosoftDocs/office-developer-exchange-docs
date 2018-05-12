@@ -1,7 +1,5 @@
 ---
-title: "How to Create a RoutingAgent transport agent for Exchange 2013"
- 
- 
+title: "Create a RoutingAgent transport agent for Exchange 2013"
 manager: sethgros
 ms.date: 9/17/2015
 ms.audience: Developer
@@ -12,15 +10,15 @@ ms.assetid: 3f0e745f-9289-4f31-8877-926692a8c133
 description: "Find out how to create a custom RoutingAgent transport agent to use with Exchange 2013."
 ---
 
-# How to: Create a RoutingAgent transport agent for Exchange 2013
+# Create a RoutingAgent transport agent for Exchange 2013
 
 Find out how to create a custom RoutingAgent transport agent to use with Exchange 2013.
   
- **Last modified:** September 17, 2015 
+**Applies to:** Exchange Server 2013
   
- * **Applies to:** Exchange Server 2013 * 
-  
-![Related code snippets and sample apps](media/mod_icon_links_samples.png)[Exchange 2013: Build a bandwidth logging transport agent](http://code.msdn.microsoft.com/Exchange/Exchange-2013-Build-a-d61a4aaa)
+Related code snippets and sample apps:
+
+- [Exchange 2013: Build a bandwidth logging transport agent](http://code.msdn.microsoft.com/Exchange/Exchange-2013-Build-a-d61a4aaa)
   
 The [RoutingAgentFactory](https://msdn.microsoft.com/library/Microsoft.Exchange.Data.Transport.Routing.RoutingAgentFactory.aspx) and [RoutingAgent](https://msdn.microsoft.com/library/Microsoft.Exchange.Data.Transport.Routing.RoutingAgent.aspx) classes are the base classes for transport agents that are designed to run on the transport service on an Exchange Server 2013 Mailbox server. The [RoutingAgent](https://msdn.microsoft.com/library/Microsoft.Exchange.Data.Transport.Routing.RoutingAgent.aspx) class provides the events listed in the following table for which you might implement handlers in your RoutingAgent transport agent. 
   
@@ -41,18 +39,18 @@ The following procedure describes how to create a custom RoutingAgent transport 
 
 1. Add references to the namespaces.
     
-  ```cs
+   ```cs
       using Microsoft.Exchange.Data.Mime;
       using Microsoft.Exchange.Data.Transport;
       using Microsoft.Exchange.Data.Transport.Routing;
   
-  ```
+   ```
 
-    You can find these namespaces on your Exchange server. By adding a reference to these namespaces, you will have access to the [RoutingAgent](https://msdn.microsoft.com/library/Microsoft.Exchange.Data.Transport.Routing.RoutingAgent.aspx) members as well as other classes used in the [Exchange 2013: Build a bandwidth logging transport agent](http://code.msdn.microsoft.com/Exchange/Exchange-2013-Build-a-d61a4aaa) sample. 
+   You can find these namespaces on your Exchange server. By adding a reference to these namespaces, you will have access to the [RoutingAgent](https://msdn.microsoft.com/library/Microsoft.Exchange.Data.Transport.Routing.RoutingAgent.aspx) members as well as other classes used in the [Exchange 2013: Build a bandwidth logging transport agent](http://code.msdn.microsoft.com/Exchange/Exchange-2013-Build-a-d61a4aaa) sample. 
     
 2. Implement the derived class for the [RoutingAgentFactory](https://msdn.microsoft.com/library/Microsoft.Exchange.Data.Transport.Routing.RoutingAgentFactory.aspx) class. 
     
-  ```cs
+   ```cs
       public class BandwidthLoggerFactory : RoutingAgentFactory
       {
           public override RoutingAgent CreateAgent(SmtpServer server)
@@ -61,13 +59,13 @@ The following procedure describes how to create a custom RoutingAgent transport 
           }
       }
   
-  ```
+   ```
 
-    This code will instantiate the derived class and override the **CreateAgent** method to create an instance of your new custom agent. Additional methods, such as **Close**, can also be overridden in this class to execute custom code. 
+   This code will instantiate the derived class and override the **CreateAgent** method to create an instance of your new custom agent. Additional methods, such as **Close**, can also be overridden in this class to execute custom code. 
     
 3. Define your agent.
     
-  ```cs
+   ```cs
       public class BandwidthLogger : RoutingAgent
       {
           // Your custom code goes here
@@ -80,18 +78,15 @@ The following procedure describes how to create a custom RoutingAgent transport 
           }
       }
   
-  ```
+   ```
 
-    After you define your agent class, you can add you custom functionality. In this example, the two events, [OnSubmittedMessage](https://msdn.microsoft.com/library/Microsoft.Exchange.Data.Transport.Routing.RoutingAgent.OnSubmittedMessage.aspx) and [OnRoutedMessage](https://msdn.microsoft.com/library/Microsoft.Exchange.Data.Transport.Routing.RoutingAgent.OnRoutedMessage.aspx) , are redirected to your custom event handlers. 
+   After you define your agent class, you can add you custom functionality. In this example, the two events [OnSubmittedMessage](https://msdn.microsoft.com/library/Microsoft.Exchange.Data.Transport.Routing.RoutingAgent.OnSubmittedMessage.aspx) and [OnRoutedMessage](https://msdn.microsoft.com/library/Microsoft.Exchange.Data.Transport.Routing.RoutingAgent.OnRoutedMessage.aspx)are redirected to your custom event handlers. 
     
-## Additional resources
+## See also
 
-- [Transport agent concepts in Exchange 2013](transport-agent-concepts-in-exchange-2013.md)
-    
-- [Transport agent reference for Exchange 2013](transport-agent-reference-for-exchange-2013.md)
-    
-- [RoutingAgentFactory](https://msdn.microsoft.com/library/Microsoft.Exchange.Data.Transport.Routing.RoutingAgentFactory.aspx)
-    
+- [Transport agent concepts in Exchange 2013](transport-agent-concepts-in-exchange-2013.md)    
+- [Transport agent reference for Exchange 2013](transport-agent-reference-for-exchange-2013.md)    
+- [RoutingAgentFactory](https://msdn.microsoft.com/library/Microsoft.Exchange.Data.Transport.Routing.RoutingAgentFactory.aspx)    
 - [RoutingAgent](https://msdn.microsoft.com/library/Microsoft.Exchange.Data.Transport.Routing.RoutingAgent.aspx)
     
 

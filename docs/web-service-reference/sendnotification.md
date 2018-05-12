@@ -31,17 +31,17 @@ The **SendNotification** element contains the push notifications that are sent b
 
 The following sections describe attributes, child elements, and parent elements.
   
-#### Attributes
+### Attributes
 
 None.
   
-#### Child elements
+### Child elements
 
 |**Element**|**Description**|
 |:-----|:-----|
 |[ResponseMessages](responsemessages.md) <br/> |Contains the push notifications that are sent by the Client Access server.  <br/> |
    
-#### Parent elements
+### Parent elements
 
 None.
   
@@ -60,10 +60,10 @@ The schema that describes this element is located in the EWS virtual directory o
    
 ## See also
 
-#### Concepts
+
 
 [EWS XML elements in Exchange](ews-xml-elements-in-exchange.md)
-#### Other resources
+
 
 [Event notifications in EWS](http://msdn.microsoft.com/library/4fd4b351-d35c-4ccc-9ed9-878932ab9d50%28Office.15%29.aspx)
   

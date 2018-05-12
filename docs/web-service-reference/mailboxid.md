@@ -25,15 +25,15 @@ The **MailboxId** element specifies an identifier for the mailbox that is access
 
 The following sections describe attributes, child elements, and parent elements.
   
-#### Attributes
+### Attributes
 
 None.
   
-#### Child elements
+### Child elements
 
 None.
   
-#### Parent elements
+### Parent elements
 
 [MailboxStat](mailboxstat.md) | [Mailbox (PreviewItemMailboxType)](mailbox-previewitemmailboxtype.md)
   

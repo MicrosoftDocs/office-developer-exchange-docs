@@ -31,19 +31,19 @@ The **InternalReply** element contains the out of office (OOF) response sent to 
 
 The following sections describe attributes, child elements, and parent elements.
   
-#### Attributes
+### Attributes
 
 |**Attribute**|**Description**|
 |:-----|:-----|
 |xml:lang  <br/> |Specifies the language used in the **InternalReply** message. The possible values of this attribute are defined by IETF RFC 3066.  <br/> |
    
-#### Child elements
+### Child elements
 
 |**Element**|**Description**|
 |:-----|:-----|
 |[Message (Availability)](message-availability.md) <br/> |Contains the OOF response.  <br/> |
    
-#### Parent elements
+### Parent elements
 
 |**Element**|**Description**|
 |:-----|:-----|
@@ -98,7 +98,7 @@ The following example of a SetUserOofSettings request sets the [OofState](oofsta
    
 ## See also
 
-#### Reference
+
 
 [GetUserOofSettings operation](getuseroofsettings-operation.md)
   

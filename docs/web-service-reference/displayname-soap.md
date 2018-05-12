@@ -26,15 +26,15 @@ The **DisplayName** element represents a display name.
 
 The following sections describe attributes, child elements, and parent elements.
   
-#### Attributes
+### Attributes
 
 None.
   
-#### Child elements
+### Child elements
 
 None.
   
-#### Parent elements
+### Parent elements
 
 |**Element**|**Description**|
 |:-----|:-----|
@@ -56,7 +56,7 @@ The text value of the **DisplayName** element is the display name of a setting.
    
 ## See also
 
-#### Reference
+
 
 [AlternateMailbox (SOAP)](alternatemailbox-soap.md)
 

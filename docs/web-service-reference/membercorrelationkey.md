@@ -27,15 +27,15 @@ The **MemberCorrelationKey** element specifies the identifiers of the contacts t
 
 The following sections describe attributes, child elements, and parent elements.
   
-#### Attributes
+### Attributes
 
 None.
   
-#### Child elements
+### Child elements
 
 [ItemId](itemid.md)
   
-#### Parent elements
+### Parent elements
 
 [ImGroup](imgroup.md)
   

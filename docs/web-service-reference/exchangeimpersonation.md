@@ -33,17 +33,17 @@ The **ExchangeImpersonation** element is used in the SOAP header of a request. W
 
 The following sections describe attributes, child elements, and parent elements.
   
-#### Attributes
+### Attributes
 
 None.
   
-#### Child elements
+### Child elements
 
 |**Element**|**Description**|
 |:-----|:-----|
 |[ConnectingSID](connectingsid.md) <br/> |Represents an account to impersonate when you are using the ExchangeImpersonation SOAP header.  <br/> |
    
-#### Parent elements
+### Parent elements
 
 None.
   
@@ -64,7 +64,7 @@ The schema that describes this element is located in the EWS virtual directory o
    
 ## See also
 
-#### Other resources
+
 
 [Server-to-server authorization in EWS](http://msdn.microsoft.com/library/f1610a20-672d-448b-8c00-5b0fbcaf31cb%28Office.15%29.aspx)
 

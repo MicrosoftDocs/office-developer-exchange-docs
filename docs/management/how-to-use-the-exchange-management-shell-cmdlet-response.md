@@ -1,7 +1,5 @@
 ---
-title: "How to Use the Exchange Management Shell cmdlet response"
- 
- 
+title: "Use the Exchange Management Shell cmdlet response"
 manager: sethgros
 ms.date: 9/17/2015
 ms.audience: Developer
@@ -12,13 +10,11 @@ ms.assetid: dac8e526-11c6-4c2e-b9a2-f016b1fc738a
 description: "Learn how to use the response from an Exchange Management Shell cmdlet in your Exchange managed application."
 ---
 
-# How to: Use the Exchange Management Shell cmdlet response
+# Use the Exchange Management Shell cmdlet response
 
 Learn how to use the response from an Exchange Management Shell cmdlet in your Exchange managed application.
   
- **Last modified:** September 17, 2015 
-  
- * **Applies to:** Exchange Online | Exchange Server 2013 | Office 365 * 
+**Applies to:** Exchange Online | Exchange Server 2013 | Office 365
   
 Each Exchange Management Shell cmdlet returns one or more [PSObject](http://msdn.microsoft.com/en-us/library/system.management.automation.psobject%28VS.85%29.aspx) instances that provide a consistent view of any object in the Exchange Management Shell environment. This article provides information about how to use the properties of a **PSObject** instance to return the property values of the underlying Exchange Server 2013 API object. 
   
@@ -28,7 +24,9 @@ Each Exchange Management Shell cmdlet returns one or more [PSObject](http://msdn
 To use cmdlet responses, you need a reference to the **System.Automation.Management** namespace. 
   
 > [!NOTE]
->  When you are using Visual Studio to create an application, you must add a reference to the System.Mangagement.Automation.dll assembly to the project. You can find the assembly in one of the following locations: >  For Windows XP and Windows Vista operating systems, the Windows PowerShell installation directory ($PSHOME). >  For the Windows 7 and Windows 8 operating systems, the following folder: Windows\assembly\GAC_MSIL\System.Management.Automation. 
+>  When you are using Visual Studio to create an application, you must add a reference to the System.Mangagement.Automation.dll assembly to the project. You can find the assembly in one of the following locations: 
+> - For Windows XP and Windows Vista operating systems, the Windows PowerShell installation directory ($PSHOME). 
+> - For the Windows 7 and Windows 8 operating systems, the following folder: Windows\assembly\GAC_MSIL\System.Management.Automation. 
   
 ## Windows PowerShell remote runspace
 <a name="usingremoterunspace_bk"> </a>
@@ -54,18 +52,18 @@ foreach (PSPropertyInfo propertyInfo in psObject.Properties)
 }
 ```
 
-```VB.net
+<br/>
+
+```vb
 For Each PropertyInfo As PSProperty In ObjectInfo.Properties
     Console.WriteLine(String.Format("{0}: {1}", PropertyInfo.Name, PropertyInfo.Value))
 Next
 
 ```
 
-## Additional resources
-<a name="bk_addresources"> </a>
+## See also
 
-- [Create Exchange Management Shell tools](create-exchange-management-shell-tools.md)
-    
-- [How to: Get a list of mail users by using the Exchange Management Shell](how-to-get-a-list-of-mail-users-by-using-the-exchange-management-shell.md)
+- [Create Exchange Management Shell tools](create-exchange-management-shell-tools.md)   
+- [Get a list of mail users by using the Exchange Management Shell](how-to-get-a-list-of-mail-users-by-using-the-exchange-management-shell.md)
     
 

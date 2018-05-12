@@ -30,15 +30,15 @@ The **Refiner** element specifies a search refiner.
 
 The following sections describe attributes, child elements, and parent elements.
   
-#### Attributes
+### Attributes
 
 None.
   
-#### Child elements
+### Child elements
 
 [Name (string)](name-string.md) | [Value](value.md) | [Count](count.md) | [Token (String)](token-string.md)
   
-#### Parent elements
+### Parent elements
 
 [Refiners](refiners.md)
   

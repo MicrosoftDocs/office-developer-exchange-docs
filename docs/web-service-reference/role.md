@@ -25,15 +25,15 @@ The **Role** element specifies a string that represents a management role.
 
 The following sections describe attributes, child elements, and parent elements.
   
-#### Attributes
+### Attributes
 
 None.
   
-#### Child elements
+### Child elements
 
 None.
   
-#### Parent elements
+### Parent elements
 
 [UserRoles](userroles.md) | [ApplicationRoles](applicationroles.md)
   

@@ -28,11 +28,11 @@ The **Response** element contains the [GetOrganizationRelationshipSettings opera
 
 The following sections describe attributes, child elements, and parent elements.
   
-#### Attributes
+### Attributes
 
 None.
   
-#### Child elements
+### Child elements
 
 |**Element**|**Description**|
 |:-----|:-----|
@@ -40,7 +40,7 @@ None.
 |[ErrorMessage (SOAP)](errormessage-soap.md) <br/> |Represents a message that is associated with an error code that is returned by the Autodiscover service.  <br/> |
 |[OrganizationRelationshipSettingsCollection (SOAP)](organizationrelationshipsettingscollection-soap.md) <br/> |Represents a list of organization relationships that match the query.  <br/> |
    
-#### Parent elements
+### Parent elements
 
 None.
   
@@ -59,7 +59,7 @@ None.
    
 ## See also
 
-#### Reference
+
 
 [GetOrganizationRelationshipSettings operation (SOAP)](getorganizationrelationshipsettings-operation-soap.md)
 

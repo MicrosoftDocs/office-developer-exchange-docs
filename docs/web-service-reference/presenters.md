@@ -25,15 +25,15 @@ The **Presenters** element specifies the presenters for an online meeting.
 
 The following sections describe attributes, child elements, and parent elements.
   
-#### Attributes
+### Attributes
 
 None.
   
-#### Child elements
+### Child elements
 
 None.
   
-#### Parent elements
+### Parent elements
 
 [OnlineMeetingSettings](onlinemeetingsettings.md)
   

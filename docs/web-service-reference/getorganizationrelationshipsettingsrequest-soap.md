@@ -26,18 +26,18 @@ The **GetOrganizationRelationshipSettingsRequest** element represents the parame
 
 The following sections describe attributes, child elements, and parent elements.
   
-#### Attributes
+### Attributes
 
 None.
   
-#### Child elements
+### Child elements
 
 |**Element**|**Description**|
 |:-----|:-----|
 |[Domains (SOAP)](domains-soap.md) <br/> |Represents a collection of domain identifiers.  <br/> |
 |||
    
-#### Parent elements
+### Parent elements
 
 None.
   
@@ -52,7 +52,7 @@ None.
    
 ## See also
 
-#### Reference
+
 
 [GetOrganizationRelationshipSettings operation (SOAP)](getorganizationrelationshipsettings-operation-soap.md)
 

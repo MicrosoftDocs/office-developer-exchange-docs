@@ -1,5 +1,5 @@
 ---
-title: "How to Resolve ambiguous names by using EWS in Exchange 2013"
+title: "Resolve ambiguous names by using EWS in Exchange 2013"
  
  
 manager: sethgros
@@ -12,7 +12,7 @@ ms.assetid: 1ba21c54-ecd2-4a1e-80d4-0f4171dea84f
 description: "Learn how to use the EWS Managed API or EWS to resolve ambiguous names by getting possible matches from Active Directory Domain Services (AD DS) or a contacts folder in your user's mailbox."
 ---
 
-# How to: Resolve ambiguous names by using EWS in Exchange 2013
+# Resolve ambiguous names by using EWS in Exchange 2013
 
 Learn how to use the EWS Managed API or EWS to resolve ambiguous names by getting possible matches from Active Directory Domain Services (AD DS) or a contacts folder in your user's mailbox.
   
@@ -176,11 +176,11 @@ You're not always going to come up with candidates for your ambiguous name. The 
 
 ```
 
-## Additional resources
-<a name="bk_addresources"> </a>
+## See also
+
 
 - [People and contacts in EWS in Exchange](people-and-contacts-in-ews-in-exchange.md)
     
-- [How to: Expand distribution groups by using EWS in Exchange 2013](how-to-expand-distribution-groups-by-using-ews-in-exchange-2013.md)
+- [Expand distribution groups by using EWS in Exchange 2013](how-to-expand-distribution-groups-by-using-ews-in-exchange-2013.md)
     
 

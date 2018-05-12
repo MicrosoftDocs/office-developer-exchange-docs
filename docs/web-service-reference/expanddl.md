@@ -31,17 +31,17 @@ The **ExpandDL** element defines a request to expand a distribution list.
 
 The following sections describe attributes, child elements, and parent elements.
   
-#### Attributes
+### Attributes
 
 None
   
-#### Child elements
+### Child elements
 
 |**Element**|**Description**|
 |:-----|:-----|
 |[Mailbox](mailbox.md) <br/> |Identifies a fully resolved e-mail address or a distribution list. This mailbox represents the distribution list to expand.  <br/> |
    
-#### Parent elements
+### Parent elements
 
 None.
   
@@ -62,7 +62,7 @@ The schema that describes this element is located in the EWS virtual directory o
    
 ## See also
 
-#### Reference
+
 
 [ExpandDL operation](expanddl-operation.md)
 

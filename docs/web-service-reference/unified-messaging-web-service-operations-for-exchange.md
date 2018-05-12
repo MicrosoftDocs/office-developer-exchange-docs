@@ -49,8 +49,8 @@ The Unified Messaging web service provides many operations that enable client ap
     
 - [SetTelephoneAccessFolderEmail operation (UM web service)](settelephoneaccessfolderemail-operation-um-web-service.md)
     
-## Additional resources
-<a name="bk_addresources"> </a>
+## See also
+
 
 - [Unified Messaging web service reference for Exchange](unified-messaging-web-service-reference-for-exchange.md)
     

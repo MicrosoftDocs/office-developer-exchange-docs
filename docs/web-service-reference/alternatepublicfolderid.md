@@ -26,7 +26,7 @@ The **AlternatePublicFolderId** element describes a public folder identifier to 
   
 [AlternatePublicFolderId](alternatepublicfolderid.md)
   
-```
+```xml
 <AlternatePublicFolderId FolderId="" Format="" />
 ```
 
@@ -35,7 +35,7 @@ The **AlternatePublicFolderId** element describes a public folder identifier to 
 
 The following sections describe attributes, child elements, and parent elements.
   
-#### Attributes
+### Attributes
 
 |**Attribute**|**Description**|
 |:-----|:-----|
@@ -53,11 +53,11 @@ The following sections describe attributes, child elements, and parent elements.
 |StoreId  <br/> |Describes Exchange store identifiers.  <br/> |
 |OwaId  <br/> |Describes an Outlook Web Access identifier.  <br/> |
    
-#### Child elements
+### Child elements
 
 None.
   
-#### Parent elements
+### Parent elements
 
 |**Element**|**Description**|
 |:-----|:-----|
@@ -74,13 +74,13 @@ None.
    
 ## See also
 
-#### Reference
+
 
 [ConvertId operation](convertid-operation.md)
-#### Concepts
+
 
 [EWS XML elements in Exchange](ews-xml-elements-in-exchange.md)
-#### Other resources
+
 
 [Converting Identifiers](http://msdn.microsoft.com/library/a5391746-b6ef-4f48-8fc8-8255258651aa%28Office.15%29.aspx)
 

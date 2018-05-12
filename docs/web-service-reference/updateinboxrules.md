@@ -33,11 +33,11 @@ The **UpdateInboxRules** element defines a request to update the Inbox rules in 
 
 The following sections describe attributes, child elements, and parent elements.
   
-#### Attributes
+### Attributes
 
 None.
   
-#### Child elements
+### Child elements
 
 |**Element**|**Description**|
 |:-----|:-----|
@@ -45,7 +45,7 @@ None.
 |[RemoveOutlookRuleBlob](removeoutlookruleblob.md) <br/> |Indicates whether to remove the Microsoft Outlook rule blob.  <br/> |
 |[Operations](operations.md) <br/> |Contains an array of rule operations that can be performed on an Inbox.  <br/> |
    
-#### Parent elements
+### Parent elements
 
 None.
   
@@ -68,10 +68,10 @@ The schema that describes this element is located in the IIS virtual directory t
    
 ## See also
 
-#### Reference
+
 
 [UpdateInboxRules operation](updateinboxrules-operation.md)
-#### Concepts
+
 
 [EWS XML elements in Exchange](ews-xml-elements-in-exchange.md)
 

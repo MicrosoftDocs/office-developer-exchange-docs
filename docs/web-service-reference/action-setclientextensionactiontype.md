@@ -27,7 +27,7 @@ The **Action** element contains the action that the Exchange server should take 
 
 The following sections describe attributes, child elements, and parent elements.
   
-#### Attributes
+### Attributes
 
 |**Attribute**|**Description**|
 |:-----|:-----|
@@ -42,13 +42,13 @@ The following sections describe attributes, child elements, and parent elements.
 |Install  <br/> |Indicates an installation action.  <br/> |
 |Uninstall  <br/> |Indicates an uninstallation action.  <br/> |
    
-#### Child elements
+### Child elements
 
 |**Element**|**Description**|
 |:-----|:-----|
 |[ClientExtension](clientextension.md) <br/> |Contains user and configuration information about an app.  <br/> |
    
-#### Parent elements
+### Parent elements
 
 |**Element**|**Description**|
 |:-----|:-----|
@@ -71,7 +71,7 @@ The schema that describes this element is located in the IIS virtual directory t
    
 ## See also
 
-#### Concepts
+
 
 [EWS XML elements in Exchange](ews-xml-elements-in-exchange.md)
 

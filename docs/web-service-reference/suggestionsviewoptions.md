@@ -43,11 +43,11 @@ The **SuggestionsViewOptions** element contains the options for obtaining meetin
 
 The following sections describe attributes, child elements, and parent elements.
   
-#### Attributes
+### Attributes
 
 None.
   
-#### Child elements
+### Child elements
 
 |**Element**|**Description**|
 |:-----|:-----|
@@ -60,7 +60,7 @@ None.
 |[CurrentMeetingTime](currentmeetingtime.md) <br/> |Represents the start time of a meeting that you want to update with the suggested meeting time results.  <br/> |
 |[GlobalObjectId](globalobjectid.md) <br/> |This element is not used.  <br/> |
    
-#### Parent elements
+### Parent elements
 
 |**Element**|**Description**|
 |:-----|:-----|
@@ -84,10 +84,10 @@ This element is not required and can only occur once if used. This value can be 
    
 ## See also
 
-#### Reference
+
 
 [GetUserAvailability operation](getuseravailability-operation.md)
-#### Other resources
+
 
 [Getting User Availability](http://msdn.microsoft.com/library/d4133fcb-9b0f-4e6b-aadf-a389da83516a%28Office.15%29.aspx)
 

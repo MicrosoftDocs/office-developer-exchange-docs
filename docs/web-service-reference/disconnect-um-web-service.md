@@ -32,17 +32,17 @@ The **Disconnect** element defines a request to disconnect a call.
 
 The following sections describe attributes, child elements, and parent elements.
   
-#### Attributes
+### Attributes
 
 None.
   
-#### Child elements
+### Child elements
 
 |**Element**|**Description**|
 |:-----|:-----|
 |[CallId (UM web service)](callid-um-web-service.md) <br/> |The identifier of the call to disconnect.  <br/> |
    
-#### Parent elements
+### Parent elements
 
 None.
   
@@ -61,7 +61,7 @@ None.
    
 ## See also
 
-#### Reference
+
 
 [Disconnect operation (UM web service)](disconnect-operation-um-web-service.md)
   

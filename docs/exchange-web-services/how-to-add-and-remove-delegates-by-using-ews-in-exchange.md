@@ -1,5 +1,5 @@
 ---
-title: "How to Add and remove delegates by using EWS in Exchange"
+title: "Add and remove delegates by using EWS in Exchange"
  
  
 manager: sethgros
@@ -12,7 +12,7 @@ ms.assetid: cc7760bf-633b-483a-84ae-b52f437af2d3
 description: "Learn how to add delegates to or remove delegates from users' mailboxes by using the EWS Managed API or EWS in Exchange."
 ---
 
-# How to: Add and remove delegates by using EWS in Exchange
+# Add and remove delegates by using EWS in Exchange
 
 Learn how to add delegates to or remove delegates from users' mailboxes by using the EWS Managed API or EWS in Exchange.
   
@@ -25,7 +25,7 @@ You can use the EWS Managed API or EWS to enable delegates to act on behalf of a
 |Add delegates  <br/> |[ExchangeService.AddDelegates](http://msdn.microsoft.com/en-us/library/microsoft.exchange.webservices.data.exchangeservice.adddelegates%28v=exchg.80%29.aspx) <br/> |[AddDelegate](http://msdn.microsoft.com/library/646fb994-229e-4d90-8b95-6541191cb3ae%28Office.15%29.aspx) <br/> |
 |Remove delegates  <br/> |[ExchangeService.RemoveDelegates](http://msdn.microsoft.com/en-us/library/office/microsoft.exchange.webservices.data.exchangeservice.removedelegates%28v=exchg.80%29.aspx) <br/> |[RemoveDelegate](http://msdn.microsoft.com/library/f21c5171-62e7-47c8-99b1-22e1ff5883bb%28Office.15%29.aspx) <br/> |
    
-After a delegate is granted permissions to a folder, they can act on items in the folder and any subfolders, according to their [delegate permissions](delegate-access-and-ews-in-exchange.md#bk_delegateperms). Permissions for delegates only apply to subfolders that are created after the delegate access was granted. To update folder permissions for pre-existing folders, or other folders, see [How to: Set folder permissions for another user by using EWS in Exchange](how-to-set-folder-permissions-for-another-user-by-using-ews-in-exchange.md).
+After a delegate is granted permissions to a folder, they can act on items in the folder and any subfolders, according to their [delegate permissions](delegate-access-and-ews-in-exchange.md#bk_delegateperms). Permissions for delegates only apply to subfolders that are created after the delegate access was granted. To update folder permissions for pre-existing folders, or other folders, see [Set folder permissions for another user by using EWS in Exchange](how-to-set-folder-permissions-for-another-user-by-using-ews-in-exchange.md).
   
 Note that delegates can only be added to mailbox-enabled accounts, including mail-enabled security groups. By default, a single EWS delegate access call can access a maximum of 255 different mailboxes.
   
@@ -291,16 +291,16 @@ The server responds to the **RemoveDelegate** request with a [AddDelegateRespons
 
 After you add delegates to calendar, email, and task folders, the delegate can access the items in the folders. To learn more, see the following articles:
   
-- [How to: Access email as a delegate by using EWS in Exchange](how-to-access-email-as-a-delegate-by-using-ews-in-exchange.md)
+- [Access email as a delegate by using EWS in Exchange](how-to-access-email-as-a-delegate-by-using-ews-in-exchange.md)
     
-- [How to: Access a calendar as a delegate by using EWS in Exchange](how-to-access-a-calendar-as-a-delegate-by-using-ews-in-exchange.md)
+- [Access a calendar as a delegate by using EWS in Exchange](how-to-access-a-calendar-as-a-delegate-by-using-ews-in-exchange.md)
     
-- [How to: Access contacts as a delegate by using EWS in Exchange](how-to-access-contacts-as-a-delegate-by-using-ews-in-exchange.md)
+- [Access contacts as a delegate by using EWS in Exchange](how-to-access-contacts-as-a-delegate-by-using-ews-in-exchange.md)
     
-If the folders for which you added delegates include child folders that were created before you granted the delegate access, the delegate will not be able to access those folders without additional permissions. To add these permissions, or modify permissions for any other folders, see [How to: Set folder permissions for another user by using EWS in Exchange](how-to-set-folder-permissions-for-another-user-by-using-ews-in-exchange.md).
+If the folders for which you added delegates include child folders that were created before you granted the delegate access, the delegate will not be able to access those folders without additional permissions. To add these permissions, or modify permissions for any other folders, see [Set folder permissions for another user by using EWS in Exchange](how-to-set-folder-permissions-for-another-user-by-using-ews-in-exchange.md).
   
-## Additional resources
-<a name="bk_addresources"> </a>
+## See also
+
 
 - [Delegate access and EWS in Exchange](delegate-access-and-ews-in-exchange.md)
     

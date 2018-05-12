@@ -28,15 +28,15 @@ The **PersonaShape** element specifies the set of persona properties to be retur
 
 The following sections describe attributes, child elements, and parent elements.
   
-#### Attributes
+### Attributes
 
 None.
   
-#### Child elements
+### Child elements
 
 [BaseShape](baseshape.md) | [AdditionalProperties](additionalproperties.md)
   
-#### Parent elements
+### Parent elements
 
 [FindPeople](findpeople.md)
   

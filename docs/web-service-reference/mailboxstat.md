@@ -30,15 +30,15 @@ The **MailboxStat** element specifies statistics for a mailbox searched by disco
 
 The following sections describe attributes, child elements, and parent elements.
   
-#### Attributes
+### Attributes
 
 None.
   
-#### Child elements
+### Child elements
 
 [MailboxId](mailboxid.md) | [DisplayName (string)](displayname-string.md) | [ItemCount](itemcount.md) | [Size (long)](size-long.md)
   
-#### Parent elements
+### Parent elements
 
 [MailboxStats](mailboxstats.md)
   

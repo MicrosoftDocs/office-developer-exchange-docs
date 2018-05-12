@@ -378,7 +378,7 @@ The following elements are used in the response:
     
 ## See also
 
-#### Reference
+
 
 [GetItem operation](getitem-operation.md)
 

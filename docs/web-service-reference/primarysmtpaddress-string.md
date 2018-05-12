@@ -25,15 +25,15 @@ The **PrimarySmtpAddress** element specifies the primary Simple Mail Transfer Pr
 
 The following sections describe attributes, child elements, and parent elements.
   
-#### Attributes
+### Attributes
 
 None.
   
-#### Child elements
+### Child elements
 
 None.
   
-#### Parent elements
+### Parent elements
 
 [UserId (string)](userid-string.md) | [Mailbox (PreviewItemMailboxType)](mailbox-previewitemmailboxtype.md) | [SearchableMailbox](searchablemailbox.md)
   

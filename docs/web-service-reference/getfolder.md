@@ -32,18 +32,18 @@ The **GetFolder** element defines a request to get a folder from a mailbox in th
 
 The following sections describe attributes, child elements, and parent elements.
   
-#### Attributes
+### Attributes
 
 None.
   
-#### Child elements
+### Child elements
 
 |**Element**|**Description**|
 |:-----|:-----|
 |[FolderShape](foldershape.md) <br/> |Identifies the properties to get for each folder identified in the [FolderIds](folderids.md) element.  <br/> |
 |[FolderIds](folderids.md) <br/> |Contains an array of folder identifiers that are used to identify folders to get from a mailbox in the Exchange store.  <br/> |
    
-#### Parent elements
+### Parent elements
 
 None.
   
@@ -62,7 +62,7 @@ The schema that describes this element is located in the EWS virtual directory o
    
 ## See also
 
-#### Reference
+
 
 [GetFolder operation](getfolder-operation.md)
 

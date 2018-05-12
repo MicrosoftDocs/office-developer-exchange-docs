@@ -35,11 +35,11 @@ The **UserConfiguration** element defines a single user configuration object.
 
 The following sections describe attributes, child elements, and parent elements.
   
-#### Attributes
+### Attributes
 
 None.
   
-#### Child elements
+### Child elements
 
 |**Element**|**Description**|
 |:-----|:-----|
@@ -49,7 +49,7 @@ None.
 |[XmlData](xmldata.md) <br/> |Contains XML data property content for a user configuration object.  <br/> |
 |[BinaryData](binarydata.md) <br/> |Contains binary data property content for a user configuration object.  <br/> |
    
-#### Parent elements
+### Parent elements
 
 |**Element**|**Description**|
 |:-----|:-----|
@@ -72,7 +72,7 @@ The schema that describes this element is located in the IIS virtual directory t
    
 ## See also
 
-#### Concepts
+
 
 [EWS XML elements in Exchange](ews-xml-elements-in-exchange.md)
 

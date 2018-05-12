@@ -30,11 +30,11 @@ The **Response** element represents the response to a **GetDomainSettings** call
 
 The following sections describe attributes, child elements, and parent elements.
   
-#### Attributes
+### Attributes
 
 None.
   
-#### Child elements
+### Child elements
 
 |**Element**|**Description**|
 |:-----|:-----|
@@ -42,7 +42,7 @@ None.
 |[ErrorCode (SOAP)](errorcode-soap.md) <br/> |Contains the error code that is associated with the response, if applicable.  <br/> |
 |[ErrorMessage (SOAP)](errormessage-soap.md) <br/> |Contains the error message that is associated with the response, if applicable.  <br/> |
    
-#### Parent elements
+### Parent elements
 
 |**Element**|**Description**|
 |:-----|:-----|
@@ -63,7 +63,7 @@ None.
    
 ## See also
 
-#### Reference
+
 
 [GetDomainSettings operation (SOAP)](getdomainsettings-operation-soap.md)
 

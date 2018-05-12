@@ -30,17 +30,17 @@ The [WebClientUrlCollectionSetting (SOAP)](webclienturlcollectionsetting-soap.md
 
 The following sections describe attributes, child elements, and parent elements.
   
-#### Attributes
+### Attributes
 
 None.
   
-#### Child elements
+### Child elements
 
 |**Element**|**Description**|
 |:-----|:-----|
 |[WebClientUrl (SOAP)](webclienturl-soap.md) <br/> |Represents the URL of an Exchange Web client.  <br/> |
    
-#### Parent elements
+### Parent elements
 
 None.
   

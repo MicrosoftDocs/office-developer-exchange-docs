@@ -37,7 +37,7 @@ The **FindItem** element defines a request to find items in a mailbox.
 
 The following sections describe attributes, child elements, and parent elements.
   
-#### Attributes
+### Attributes
 
 |**Attribute**|**Description**|
 |:-----|:-----|
@@ -51,7 +51,7 @@ The following sections describe attributes, child elements, and parent elements.
 |SoftDeleted  <br/> |Returns only the identities of items that are in a folder's dumpster. Note that a soft-deleted traversal combined with a search restriction will result in zero items returned even if there are items that match the search criteria.  <br/> |
 |Associated  <br/> |Returns only the identities of associated items in the folder.  <br/> |
    
-#### Child elements
+### Child elements
 
 |**Element**|**Description**|
 |:-----|:-----|
@@ -67,7 +67,7 @@ The following sections describe attributes, child elements, and parent elements.
 |[ParentFolderIds](parentfolderids.md) <br/> |Identifies folders to search for the FindItem and FindFolder operations.  <br/> |
 |[QueryString (QueryStringType)](querystring-querystringtype.md) <br/> |Contains a mailbox query string based on Advanced Query Syntax (AQS).  <br/> |
    
-#### Parent elements
+### Parent elements
 
 None.
   
@@ -88,10 +88,10 @@ The schema that describes this element is located in the IIS virtual directory t
    
 ## See also
 
-#### Reference
+
 
 [FindItem operation](finditem-operation.md)
-#### Other resources
+
 
 [Finding Items](http://msdn.microsoft.com/library/63af1f9c-464b-4fca-9ae3-3d60f24ca93c%28Office.15%29.aspx)
 

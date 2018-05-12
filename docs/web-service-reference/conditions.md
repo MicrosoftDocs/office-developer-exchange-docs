@@ -64,11 +64,11 @@ The **Conditions** element identifies the conditions that, when fulfilled, will 
 
 The following sections describe attributes, child elements, and parent elements.
   
-#### Attributes
+### Attributes
 
 None.
   
-#### Child elements
+### Child elements
 
 |**Element**|**Description**|
 |:-----|:-----|
@@ -107,7 +107,7 @@ None.
 |[WithinDateRange](withindaterange.md) <br/> |Specifies the date range within which incoming messages have to have been received in order for the condition or exception to apply.  <br/> |
 |[WithinSizeRange](withinsizerange.md) <br/> |Specifies the minimum and maximum sizes that incoming messages must be in order for the condition or exception to apply.  <br/> |
    
-#### Parent elements
+### Parent elements
 
 |**Element**|**Description**|
 |:-----|:-----|
@@ -132,10 +132,10 @@ The schema that describes this element is located in the IIS virtual directory t
    
 ## See also
 
-#### Reference
+
 
 [Exceptions](exceptions.md)
-#### Concepts
+
 
 [EWS XML elements in Exchange](ews-xml-elements-in-exchange.md)
 

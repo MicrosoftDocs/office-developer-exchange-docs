@@ -28,17 +28,17 @@ The **Domains** element represents the domain collection that is returned in a [
 
 The following sections describe attributes, child elements, and parent elements.
   
-#### Attributes
+### Attributes
 
 None.
   
-#### Child elements
+### Child elements
 
 |**Element**|**Description**|
 |:-----|:-----|
 |[Domain (SOAP)](domain-soap.md) <br/> |Represents a single domain.  <br/> |
    
-#### Parent elements
+### Parent elements
 
 |**Element**|**Description**|
 |:-----|:-----|
@@ -61,7 +61,7 @@ None.
    
 ## See also
 
-#### Reference
+
 
 [GetDomainSettingsRequest (SOAP)](getdomainsettingsrequest-soap.md)
   

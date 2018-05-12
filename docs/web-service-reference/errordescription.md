@@ -25,15 +25,15 @@ The **ErrorDescription** element describes the error that is returned in informa
 
 The following sections describe attributes, child elements, and parent elements.
   
-#### Attributes
+### Attributes
 
 None.
   
-#### Child elements
+### Child elements
 
 None.
   
-#### Parent elements
+### Parent elements
 
 [NonIndexableItemDetail](nonindexableitemdetail.md)
   

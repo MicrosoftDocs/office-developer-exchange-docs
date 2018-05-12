@@ -33,18 +33,18 @@ The **PlayOnPhoneGreeting** element defines a request to play a Unified Messagin
 
 The following sections describe attributes, child elements, and parent elements.
   
-#### Attributes
+### Attributes
 
 None.
   
-#### Child elements
+### Child elements
 
 |**Element**|**Description**|
 |:-----|:-----|
 |[GreetingType (UM web service)](greetingtype-um-web-service.md) <br/> |Defines the type of greeting to use in a [PlayOnPhoneGreeting operation (UM web service)](playonphonegreeting-operation-um-web-service.md) request.  <br/> |
 |[dialString (UM web service)](dialstring-um-web-service.md) <br/> |Contains the value for the telephone number to dial.  <br/> |
    
-#### Parent elements
+### Parent elements
 
 None.
   
@@ -63,7 +63,7 @@ None.
    
 ## See also
 
-#### Reference
+
 
 [PlayOnPhoneGreeting operation (UM web service)](playonphonegreeting-operation-um-web-service.md)
 

@@ -14,11 +14,9 @@ description: "Find information about the Exchange writer in Exchange 2013 for ba
 
 # Exchange writer in Exchange 2013
 
-Find information about the Exchange writer in Exchange 2013 for backup and restore operations.
+Find information about the Exchange writer in Exchange 2013 for backup and restore operations. 
   
- **Last modified:** September 17, 2015 
-  
- * **Applies to:** Exchange Server 2013 * 
+**Applies to:** Exchange Server 2013 
   
 The Exchange writer is responsible for the backup and restore of active Exchange Server 2013 databases. The Exchange writer also supports backup functionality for a selected database where the shadow copy is taken against the replicated instance of the database and transaction log files. 
   
@@ -74,8 +72,7 @@ Exchange 2013 does not allow concurrent backups of the same database. Only one b
   
 Backup-initiated transaction log file truncation is triggered based on the type of backup to be performed. In non-DAG configurations, the Exchange writer will truncate the transaction log files at the completion of successful full or incremental backups. In DAG replicated configurations, log truncation will be delayed by the replication service until all necessary log files are replayed into all other copies. The replication service will delete the backed up log files both from the active and the copy log file paths after it verifies that the log files have successfully been applied to the copy database and both active database and the database copies checkpoint has passed the log files to be deleted.
   
-## Additional resources
-<a name="bk_AdditionalResources"> </a>
+## See also
 
 - [Transaction logs and checkpoint files for backup and restore in Exchange 2013](transaction-logs-and-checkpoint-files-for-backup-and-restore-in-exchange-2013.md)
     

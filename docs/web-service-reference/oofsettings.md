@@ -39,11 +39,11 @@ The **OofSettings** element contains the Out of Office (OOF) settings.
 
 The following sections describe attributes, child elements, and parent elements.
   
-#### Attributes
+### Attributes
 
 None.
   
-#### Child elements
+### Child elements
 
 |**Element**|**Description**|
 |:-----|:-----|
@@ -53,7 +53,7 @@ None.
 |[InternalReply](internalreply.md) <br/> |Contains the OOF response sent to other users in the user's domain or trusted domain.  <br/> |
 |[ExternalReply](externalreply.md) <br/> |Contains the OOF response sent to addresses outside the recipient's domain or trusted domains.  <br/> |
    
-#### Parent elements
+### Parent elements
 
 |**Element**|**Description**|
 |:-----|:-----|
@@ -74,7 +74,7 @@ The schema that describes this element is located in the EWS virtual directory o
    
 ## See also
 
-#### Reference
+
 
 [GetUserOofSettings operation](getuseroofsettings-operation.md)
   

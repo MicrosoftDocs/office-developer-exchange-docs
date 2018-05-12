@@ -27,7 +27,7 @@ The **ASUrl** element specifies the URL of the best endpoint instance of Exchang
   
 [ASUrl (POX)](asurl-pox.md)
   
-```
+```xml
 <ASUrl/>
 ```
 
@@ -35,15 +35,15 @@ The **ASUrl** element specifies the URL of the best endpoint instance of Exchang
 
 The following sections describe attributes, child elements, and parent elements.
   
-#### Attributes
+### Attributes
 
 None.
   
-#### Child elements
+### Child elements
 
 None.
   
-#### Parent elements
+### Parent elements
 
 |**Element**|**Description**|
 |:-----|:-----|
@@ -55,7 +55,7 @@ The text value contains the URL that is used to access the Availability service.
   
 ## See also
 
-#### Concepts
+
 
 [POX Autodiscover XML elements for Exchange](pox-autodiscover-xml-elements-for-exchange.md)
 

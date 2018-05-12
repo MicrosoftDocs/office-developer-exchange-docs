@@ -1,7 +1,5 @@
 ---
 title: "New and updated transport agent APIs in Exchange 2013"
- 
- 
 manager: sethgros
 ms.date: 9/17/2015
 ms.audience: Developer
@@ -15,10 +13,8 @@ description: "Find out which APIs are new or updated in Exchange 2013 for transp
 # New and updated transport agent APIs in Exchange 2013
 
 Find out which APIs are new or updated in Exchange 2013 for transport agents.
-  
- **Last modified:** September 17, 2015 
-  
- * **Applies to:** Exchange Server 2013 * 
+
+**Applies to:** Exchange Server 2013 
   
 This article lists types that are new or updated in Exchange Server 2013 that affect transport agents. To learn about architectural changes in Exchange 2013 that affect transport agents, see [Transport agent concepts in Exchange 2013](transport-agent-concepts-in-exchange-2013.md).
   
@@ -134,12 +130,10 @@ The following types have been updated in Exchange 2013:
     
 - [SmtpSession](https://msdn.microsoft.com/library/Microsoft.Exchange.Data.Transport.Smtp.SmtpSession.aspx)
     
-## Additional resources
+## See also
 
-- [Transport agent concepts in Exchange 2013](transport-agent-concepts-in-exchange-2013.md)
-    
-- [Creating transport agents for Exchange 2013](creating-transport-agents-for-exchange-2013.md)
-    
+- [Transport agent concepts in Exchange 2013](transport-agent-concepts-in-exchange-2013.md)  
+- [Creating transport agents for Exchange 2013](creating-transport-agents-for-exchange-2013.md)  
 - [Transport agent reference for Exchange 2013](transport-agent-reference-for-exchange-2013.md)
     
 

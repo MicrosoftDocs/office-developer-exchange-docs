@@ -31,17 +31,17 @@ The **SetUserOofSettingsResponse** element contains the result of a [SetUserOofS
 
 The following sections describe attributes, child elements, and parent elements.
   
-#### Attributes
+### Attributes
 
 None.
   
-#### Child elements
+### Child elements
 
 |**Element**|**Description**|
 |:-----|:-----|
 |[ResponseMessage](responsemessage.md) <br/> |Provides descriptive information about the response status.  <br/> |
    
-#### Parent elements
+### Parent elements
 
 None.
   
@@ -60,7 +60,7 @@ The schema that describes this element is located in the EWS virtual directory o
    
 ## See also
 
-#### Reference
+
 
 [SetUserOofSettings operation](setuseroofsettings-operation.md)
 

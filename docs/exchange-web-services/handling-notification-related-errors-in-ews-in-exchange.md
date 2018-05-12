@@ -39,15 +39,15 @@ If your application subscribes to and gets notifications, you might have to hand
 
 When a subscription is lost, or is no longer accessible, it is best to create a new subscription and not include the old watermark in the new subscription. Resubscribing with the old watermark causes a linear scan for events, which is costly. Instead, create a new subscription and compare folder properties to look for content changes that occurred between the lost subscription and the new subscription. The extended folder properties that we recommend that you check are **PR_LOCAL_COMMIT_TIME_MAX** (0x670a0040) and **PR_DELETED_COUNT_TOTAL** (0x670b0003). You can do this by [creating an extended property definition](properties-and-extended-properties-in-ews-in-exchange.md).
   
-## Additional resources
-<a name="bk_addresources"> </a>
+## See also
+
 
 - [Notification subscriptions, mailbox events, and EWS in Exchange](notification-subscriptions-mailbox-events-and-ews-in-exchange.md)
     
-- [How to: Stream notifications about mailbox events by using EWS in Exchange](how-to-stream-notifications-about-mailbox-events-by-using-ews-in-exchange.md)
+- [Stream notifications about mailbox events by using EWS in Exchange](how-to-stream-notifications-about-mailbox-events-by-using-ews-in-exchange.md)
     
-- [How to: Pull notifications about mailbox events by using EWS in Exchange](how-to-pull-notifications-about-mailbox-events-by-using-ews-in-exchange.md)
+- [Pull notifications about mailbox events by using EWS in Exchange](how-to-pull-notifications-about-mailbox-events-by-using-ews-in-exchange.md)
     
-- [How to: Maintain affinity between a group of subscriptions and the Mailbox server in Exchange](how-to-maintain-affinity-between-a-group-of-subscriptions-and-the-mailbox-server.md)
+- [Maintain affinity between a group of subscriptions and the Mailbox server in Exchange](how-to-maintain-affinity-between-a-group-of-subscriptions-and-the-mailbox-server.md)
     
 

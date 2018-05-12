@@ -28,15 +28,15 @@ The **StringArrayAttributedValue** element specifies an instance of an array of 
 
 The following sections describe attributes, child elements, and parent elements.
   
-#### Attributes
+### Attributes
 
 None.
   
-#### Child elements
+### Child elements
 
 [Value](value.md) | [Attributions (ArrayOfValueAttributionsType)](attributions-arrayofvalueattributionstype.md)
   
-#### Parent elements
+### Parent elements
 
 [Children (ArrayOfStringArrayAttributedValuesType)](children-arrayofstringarrayattributedvaluestype.md)
   

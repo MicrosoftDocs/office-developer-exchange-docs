@@ -29,11 +29,11 @@ The **GetSharingFolder** element defines a request to get the local folder ident
 
 The following sections describe attributes, child elements, and parent elements.
   
-#### Attributes
+### Attributes
 
 None.
   
-#### Child elements
+### Child elements
 
 |**Element**|**Description**|
 |:-----|:-----|
@@ -41,7 +41,7 @@ None.
 |[DataType](datatype.md) <br/> |Describes the type of data that is shared by a shared folder. This element is optional.  <br/> |
 |[SharedFolderId](sharedfolderid.md) <br/> |Represents the identifier of the shared folder whose local folder identifier should be returned. This element is optional.  <br/> |
    
-#### Parent elements
+### Parent elements
 
 None.
   
@@ -62,10 +62,10 @@ The schema that describes this element is located in the IIS Virtual directory t
    
 ## See also
 
-#### Reference
+
 
 [GetSharingFolder operation](getsharingfolder-operation.md)
-#### Concepts
+
 
 [EWS XML elements in Exchange](ews-xml-elements-in-exchange.md)
 

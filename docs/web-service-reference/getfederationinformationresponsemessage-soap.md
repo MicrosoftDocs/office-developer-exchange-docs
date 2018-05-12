@@ -28,17 +28,17 @@ The **GetFederationInformationResponseMessage** element defines a response to a 
 
 The following sections describe attributes, child elements, and parent elements.
   
-#### Attributes
+### Attributes
 
 None.
   
-#### Child elements
+### Child elements
 
 |**Element**|**Description**|
 |:-----|:-----|
 |[Response (GetFederationInformation) (SOAP)](response-getfederationinformationsoap.md) <br/> |Contains the [GetFederationInformation operation (SOAP)](getfederationinformation-operation-soap.md) response information.  <br/> |
    
-#### Parent elements
+### Parent elements
 
 None.
   
@@ -53,7 +53,7 @@ None.
    
 ## See also
 
-#### Reference
+
 
 [GetFederationInformation operation (SOAP)](getfederationinformation-operation-soap.md)
 

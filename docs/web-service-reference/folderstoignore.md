@@ -28,15 +28,15 @@ The **FoldersToIgnore** element identifies a list of folders that are ignored wh
 
 The following sections describe attributes, child elements, and parent elements.
   
-#### Attributes
+### Attributes
 
 None.
   
-#### Child elements
+### Child elements
 
 [FolderId](folderid.md) | [DistinguishedFolderId](distinguishedfolderid.md)
   
-#### Parent elements
+### Parent elements
 
 [GetConversationItems](getconversationitems.md)
   

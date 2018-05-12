@@ -32,18 +32,18 @@ The **ReadFlagChange** element is returned in [SyncFolderItems operation](syncfo
 
 The following sections describe attributes, child elements, and parent elements.
   
-#### Attributes
+### Attributes
 
 None.
   
-#### Child elements
+### Child elements
 
 |**Element**|**Description**|
 |:-----|:-----|
 |[ItemId](itemid.md) <br/> |Identifies the item for which the read-flag has been changed.  <br/> |
 |[IsRead](isread.md) <br/> |Indicates whether the read-flag has been set to **true**.  <br/> |
    
-#### Parent elements
+### Parent elements
 
 |**Element**|**Description**|
 |:-----|:-----|
@@ -64,7 +64,7 @@ The schema that describes this element is located in the EWS virtual directory o
    
 ## See also
 
-#### Concepts
+
 
 [EWS XML elements in Exchange](ews-xml-elements-in-exchange.md)
 

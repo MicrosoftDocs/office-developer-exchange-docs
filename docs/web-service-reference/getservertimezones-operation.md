@@ -216,14 +216,14 @@ The following example of a **GetServerTimeZones** response shows a successful re
 
 ## See also
 
-#### Reference
+
 
 [GetServerTimeZones](getservertimezones.md)
   
 [GetServerTimeZonesResponse](getservertimezonesresponse.md)
   
  **GetServerTimeZonesType**
-#### Concepts
+
 
 [EWS operations in Exchange](ews-operations-in-exchange.md)
   

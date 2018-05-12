@@ -25,15 +25,15 @@ The **ExternalEmailAddress** element contains the external email address of the 
 
 The following sections describe attributes, child elements, and parent elements.
   
-#### Attributes
+### Attributes
 
 None.
   
-#### Child elements
+### Child elements
 
 None.
   
-#### Parent elements
+### Parent elements
 
 [SearchableMailbox](searchablemailbox.md)
   

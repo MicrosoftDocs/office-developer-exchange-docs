@@ -129,7 +129,7 @@ The following elements are included in the response:
     
 ## See also
 
-#### Concepts
+
 
 [EWS operations in Exchange](ews-operations-in-exchange.md)
   

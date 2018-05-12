@@ -20,7 +20,7 @@ description: "The AddDelegate element defines a request to add delegates to a ma
 
 The **AddDelegate** element defines a request to add delegates to a mailbox. This element was introduced in Microsoft Exchange Server 2007 Service Pack 1 (SP1). 
   
-```
+```xml
 <AddDelegate>
    <DelegateUsers/>
    <DeliverMeetingRequests/>
@@ -33,11 +33,11 @@ The **AddDelegate** element defines a request to add delegates to a mailbox. Thi
 
 The following sections describe attributes, child elements, and parent elements.
   
-#### Attributes
+### Attributes
 
 None.
   
-#### Child elements
+### Child elements
 
 |**Element**|**Description**|
 |:-----|:-----|
@@ -45,7 +45,7 @@ None.
 |[DeliverMeetingRequests](delivermeetingrequests.md) <br/> |Defines how meeting requests are handled between the delegate and the principal. This element was introduced in Microsoft Exchange Server 2007 Service Pack 1 (SP1).  <br/> |
 |[Mailbox](mailbox.md) <br/> |Identifies a mail-enabled Active Directory directory service object.  <br/> |
    
-#### Parent elements
+### Parent elements
 
 None.
   
@@ -64,13 +64,13 @@ The schema that describes this element is located in the EWS virtual directory o
    
 ## See also
 
-#### Reference
+
 
 [AddDelegate operation](adddelegate-operation.md)
-#### Concepts
+
 
 [EWS XML elements in Exchange](ews-xml-elements-in-exchange.md)
-#### Other resources
+
 
 [Adding Delegates](http://msdn.microsoft.com/library/3a744150-66a3-4a13-9433-793603ba5038%28Office.15%29.aspx)
 

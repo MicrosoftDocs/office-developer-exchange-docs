@@ -41,11 +41,11 @@ The **CancelCalendarItem** element represents the response object that is used t
 
 The following sections describe attributes, child elements, and parent elements.
   
-#### Attributes
+### Attributes
 
 None.
   
-#### Child elements
+### Child elements
 
 |**Element**|**Description**|
 |:-----|:-----|
@@ -61,7 +61,7 @@ None.
 |[ReceivedBy](receivedby.md) <br/> |Identifies the delegate in a delegate access scenario. This element was introduced in Microsoft Exchange Server 2007 Service Pack 1 (SP1).  <br/> |
 |[ReceivedRepresenting](receivedrepresenting.md) <br/> |Identifies the principal in a delegate access scenario. This element was introduced in Microsoft Exchange Server 2007 Service Pack 1 (SP1).  <br/> |
    
-#### Parent elements
+### Parent elements
 
 |**Element**|**Description**|
 |:-----|:-----|
@@ -87,10 +87,10 @@ The schema that describes this element is located in the EWS virtual directory o
    
 ## See also
 
-#### Reference
+
 
  **CancelCalendarItemType**
-#### Concepts
+
 
 [EWS XML elements in Exchange](ews-xml-elements-in-exchange.md)
 

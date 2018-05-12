@@ -25,15 +25,15 @@ The **SearchItemKind** element indicates the type of items that are searched for
 
 The following sections describe attributes, child elements, and parent elements.
   
-#### Attributes
+### Attributes
 
 None.
   
-#### Child elements
+### Child elements
 
 None.
   
-#### Parent elements
+### Parent elements
 
 [MessageTypes](messagetypes.md)
   

@@ -29,15 +29,15 @@ The **TaskSuggestion** element contains a task suggestion that resulted from an 
 
 The following sections describe attributes, child elements, and parent elements.
   
-#### Attributes
+### Attributes
 
 None.
   
-#### Child elements
+### Child elements
 
 [Position](position.md) | [TaskString](taskstring.md) | [Assignees](assignees.md)
   
-#### Parent elements
+### Parent elements
 
 [TaskSuggestions](tasksuggestions.md)
   

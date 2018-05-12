@@ -1,5 +1,5 @@
 ---
-title: "How to Perform an AQS search by using EWS in Exchange"
+title: "Perform an AQS search by using EWS in Exchange"
  
  
 manager: sethgros
@@ -12,7 +12,7 @@ ms.assetid: c136901a-313e-4adf-a223-1d090d16917a
 description: "Find out how to search with query strings and AQS in your EWS Managed API or EWS application."
 ---
 
-# How to: Perform an AQS search by using EWS in Exchange
+# Perform an AQS search by using EWS in Exchange
 
 Find out how to search with query strings and AQS in your EWS Managed API or EWS application.
   
@@ -304,12 +304,12 @@ The following example shows the response from the server with the search results
 </s:Envelope>
 ```
 
-## Additional resources
-<a name="bk_addresources"> </a>
+## See also
+
 
 - [Search and EWS in Exchange](search-and-ews-in-exchange.md)
     
-- [How to: Use search filters with EWS in Exchange](how-to-use-search-filters-with-ews-in-exchange.md)
+- [Use search filters with EWS in Exchange](how-to-use-search-filters-with-ews-in-exchange.md)
     
 - [ExchangeService.FindItems](http://msdn.microsoft.com/en-us/library/microsoft.exchange.webservices.data.exchangeservice.finditems%28v=exchg.80%29.aspx)
     

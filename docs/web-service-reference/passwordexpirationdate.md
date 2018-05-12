@@ -25,15 +25,15 @@ The **PasswordExpirationDate** element provides the password expiration date for
 
 The following sections describe attributes, child elements, and parent elements.
   
-#### Attributes
+### Attributes
 
 None.
   
-#### Child elements
+### Child elements
 
 None.
   
-#### Parent elements
+### Parent elements
 
 |**Element name**|**Description**|
 |:-----|:-----|
@@ -60,10 +60,10 @@ This element was introduced in Exchange Server 2010 Service Pack 2 (SP2).
    
 ## See also
 
-#### Reference
+
 
 [GetPasswordExpirationDate operation](getpasswordexpirationdate-operation.md)
-#### Concepts
+
 
 [EWS XML elements in Exchange](ews-xml-elements-in-exchange.md)
 

@@ -33,11 +33,11 @@ The **GetMailTips** element represents the recipients and types of mail tips to 
 
 The following sections describe attributes, child elements, and parent elements.
   
-#### Attributes
+### Attributes
 
 None.
   
-#### Child elements
+### Child elements
 
 |**Element**|**Description**|
 |:-----|:-----|
@@ -45,7 +45,7 @@ None.
 |[Recipients (ArrayOfRecipientsType)](recipients-arrayofrecipientstype.md) <br/> |Contains a list of recipients to check for mail tips.  <br/> |
 |[MailTipsRequested](mailtipsrequested.md) <br/> |Contains the types of mail tips requested from the service.  <br/> |
    
-#### Parent elements
+### Parent elements
 
 None.
   
@@ -68,7 +68,7 @@ The schema that describes this element is located in the IIS virtual directory t
    
 ## See also
 
-#### Concepts
+
 
 [EWS XML elements in Exchange](ews-xml-elements-in-exchange.md)
 

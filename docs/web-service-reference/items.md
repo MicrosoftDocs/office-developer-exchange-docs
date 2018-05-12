@@ -41,11 +41,11 @@ The **Items** element contains an array of items.
 
 The following sections describe attributes, child elements, and parent elements.
   
-#### Attributes
+### Attributes
 
 None.
   
-#### Child elements
+### Child elements
 
 |**Element**|**Description**|
 |:-----|:-----|
@@ -61,7 +61,7 @@ None.
 |[Task](task.md) <br/> |Represents a task in the Exchange store.  <br/> |
 |[PostItem](postitem.md) <br/> |Represents a post item in the Exchange store.  <br/> |
    
-#### Parent elements
+### Parent elements
 
 |**Element**|**Description**|
 |:-----|:-----|
@@ -92,7 +92,7 @@ The schema that describes this element is located in the EWS virtual directory o
    
 ## See also
 
-#### Concepts
+
 
 [EWS reference for Exchange](ews-reference-for-exchange.md)
   

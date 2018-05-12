@@ -25,15 +25,15 @@ The **PolicyNudgeRulesConfiguration** element contains the data loss prevention 
 
 The following sections describe attributes, child elements, and parent elements.
   
-#### Attributes
+### Attributes
 
 None.
   
-#### Child elements
+### Child elements
 
 None.
   
-#### Parent elements
+### Parent elements
 
 [ServiceConfigurationResponseMessageType](serviceconfigurationresponsemessagetype.md)
   

@@ -27,15 +27,15 @@ The **RetentionPolicyTags** element contains a list of retention tags returned i
 
 The following sections describe attributes, child elements, and parent elements.
   
-#### Attributes
+### Attributes
 
 None.
   
-#### Child elements
+### Child elements
 
 [RetentionPolicyTag](retentionpolicytag.md)
   
-#### Parent elements
+### Parent elements
 
 [GetUserRetentionPolicyTagsResponse](getuserretentionpolicytagsresponse.md)
   

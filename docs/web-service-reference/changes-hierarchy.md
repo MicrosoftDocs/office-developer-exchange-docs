@@ -41,11 +41,11 @@ The **Changes** element contains a sequenced array of change types that represen
 
 The following sections describe attributes, child elements, and parent elements.
   
-#### Attributes
+### Attributes
 
 None.
   
-#### Child elements
+### Child elements
 
 |**Element**|**Description**|
 |:-----|:-----|
@@ -53,7 +53,7 @@ None.
 |[Update (FolderSync)](update-foldersync.md) <br/> |Identifies a single folder to update in the local client store.  <br/> |
 |[Delete (FolderSync)](delete-foldersync.md) <br/> |Identifies a single folder to delete in the local client store.  <br/> |
    
-#### Parent elements
+### Parent elements
 
 |**Element**|**Description**|
 |:-----|:-----|
@@ -78,10 +78,10 @@ The schema that describes this element is located in the EWS virtual directory o
    
 ## See also
 
-#### Reference
+
 
 [SyncFolderHierarchy operation](syncfolderhierarchy-operation.md)
-#### Concepts
+
 
 [EWS reference for Exchange](ews-reference-for-exchange.md)
   

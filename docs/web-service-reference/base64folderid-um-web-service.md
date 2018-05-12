@@ -32,15 +32,15 @@ The **base64FolderId** element contains the identifier of the folder to specify 
 
 The following sections describe attributes, child elements, and parent elements.
   
-#### Attributes
+### Attributes
 
 None
   
-#### Child elements
+### Child elements
 
 None.
   
-#### Parent elements
+### Parent elements
 
 |**Element**|**Description**|
 |:-----|:-----|
@@ -65,7 +65,7 @@ To set the telephone access e-mail folder, use the [SetTelephoneAccessFolderEmai
    
 ## See also
 
-#### Reference
+
 
 [SetTelephoneAccessFolderEmail (UM web service)](settelephoneaccessfolderemail-um-web-service.md)
   

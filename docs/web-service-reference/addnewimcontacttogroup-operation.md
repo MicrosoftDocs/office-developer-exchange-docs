@@ -298,7 +298,7 @@ For additional error codes that are generic to EWS and specific to this operatio
   
 ## See also
 
-#### Reference
+
 
 [AddImGroup operation](addimgroup-operation.md)
   
@@ -309,7 +309,7 @@ For additional error codes that are generic to EWS and specific to this operatio
 [RemoveImGroup operation](removeimgroup-operation.md)
   
 [SetImGroup operation](setimgroup-operation.md)
-#### Other resources
+
 
 [People and contacts in EWS in Exchange](http://msdn.microsoft.com/library/043c33be-a0d1-4bad-a840-85715eda4813%28Office.15%29.aspx)
 

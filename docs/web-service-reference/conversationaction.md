@@ -46,11 +46,11 @@ The **ConversationAction** element contains a single action to be applied to a s
 
 The following sections describe attributes, child elements, and parent elements.
   
-#### Attributes
+### Attributes
 
 None.
   
-#### Child elements
+### Child elements
 
 |**Element**|**Description**|
 |:-----|:-----|
@@ -65,7 +65,7 @@ None.
 |[IsRead](isread.md) <br/> |Indicates whether a message has been read.  <br/> |
 |[DeleteType](deletetype.md) <br/> |Indicates how items in a conversation are deleted.  <br/> |
    
-#### Parent elements
+### Parent elements
 
 |**Element**|**Description**|
 |:-----|:-----|
@@ -101,10 +101,10 @@ The schema that describes this element is located in the IIS virtual directory t
    
 ## See also
 
-#### Reference
+
 
 [ApplyConversationAction operation](applyconversationaction-operation.md)
-#### Concepts
+
 
 [EWS XML elements in Exchange](ews-xml-elements-in-exchange.md)
 

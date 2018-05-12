@@ -24,13 +24,13 @@
                 - name: Get started with EWS Managed API client applications
                   href: exchange-web-services/get-started-with-ews-managed-api-client-applications.md
                   items:
-                  - name: 'How to: Reference the assembly'
+                  - name: Reference the assembly
                     href: exchange-web-services/how-to-reference-the-ews-managed-api-assembly.md
-                  - name: 'How to: Set the EWS service URL'
+                  - name: Set the EWS service URL
                     href: exchange-web-services/how-to-set-the-ews-service-url-by-using-the-ews-managed-api.md
-                  - name: 'How to: Communicate with EWS'
+                  - name: Communicate with EWS
                     href: exchange-web-services/how-to-communicate-with-ews-by-using-the-ews-managed-api.md
-                  - name: 'How to: Trace requests and responses'
+                  - name: Trace requests and responses
                     href: exchange-web-services/how-to-trace-requests-and-responses-to-troubleshoot-ews-managed-api-applications.md
                 - name: Get started with EWS client applications
                   href: exchange-web-services/get-started-with-ews-client-applications.md
@@ -44,35 +44,35 @@
                   - name: Controlling client application access
                     href: exchange-web-services/controlling-client-application-access-to-ews-in-exchange.md
                     items:
-                    - name: 'How to: Control access to EWS'
+                    - name: Control access to EWS
                       href: exchange-web-services/how-to-control-access-to-ews-in-exchange.md
                   - name: Managing user access
                     href: exchange-web-services/managing-user-access-by-using-ews-in-exchange.md
-                  - name: 'How to: Validate a server certificate'
+                  - name: Validate a server certificate
                     href: exchange-web-services/how-to-validate-a-server-certificate-for-the-ews-managed-api.md
                 - name: Authentication
                   href: exchange-web-services/authentication-and-ews-in-exchange.md
                   items:
-                  - name: 'How to: Authenticate an EWS application by using OAuth'
+                  - name: Authenticate an EWS application by using OAuth
                     href: exchange-web-services/how-to-authenticate-an-ews-application-by-using-oauth.md
                 - name: Autodiscover
                   href: exchange-web-services/autodiscover-for-exchange.md
                   items:
-                  - name: 'How to: Find Autodiscover endpoints by using SCP lookup'
+                  - name: Find Autodiscover endpoints by using SCP lookup
                     href: exchange-web-services/how-to-find-autodiscover-endpoints-by-using-scp-lookup-in-exchange.md
-                  - name: 'How to: Generate a list of Autodiscover endpoints'
+                  - name: Generate a list of Autodiscover endpoints
                     href: exchange-web-services/how-to-generate-a-list-of-autodiscover-endpoints.md
-                  - name: 'How to: Use Autodiscover to find connection points'
+                  - name: Use Autodiscover to find connection points
                     href: exchange-web-services/how-to-use-autodiscover-to-find-connection-points.md
-                  - name: 'How to: Get user settings'
+                  - name: Get user settings
                     href: exchange-web-services/how-to-get-user-settings-from-exchange-by-using-autodiscover.md
-                  - name: 'How to: Get domain settings'
+                  - name: Get domain settings
                     href: exchange-web-services/how-to-get-domain-settings-from-an-exchange-server.md
-                  - name: 'How to: Refresh configuration information by using Autodiscover'
+                  - name: Refresh configuration information by using Autodiscover
                     href: exchange-web-services/how-to-refresh-configuration-information-by-using-autodiscover.md
-                  - name: Handling Autodiscover error messages
+                  - name: Handle Autodiscover error messages
                     href: exchange-web-services/handling-autodiscover-error-messages.md
-                  - name: Improving Autodiscover performance
+                  - name: Improve Autodiscover performance
                     href: exchange-web-services/improving-performance-when-using-autodiscover-for-exchange.md
                 - name: Mail apps for Outlook and EWS
                   href: exchange-web-services/mail-apps-for-outlook-and-ews-in-exchange.md
@@ -90,7 +90,7 @@
                 - name: Configuration options
                   href: exchange-web-services/configuration-options-for-ews-in-exchange.md
                   items:
-                  - name: 'How to: Get service configuration information'
+                  - name: Get service configuration information
                     href: exchange-web-services/how-to-get-service-configuration-information-by-using-ews-in-exchange.md
                 - name: Comparing Exchange Online and Exchange on-premises client programming
                   href: exchange-web-services/comparing-exchange-online-and-exchange-on-premises-client-programming.md
@@ -108,67 +108,67 @@
                 - name: Attachments
                   href: exchange-web-services/attachments-and-ews-in-exchange.md
                   items:
-                  - name: 'How to: Add attachments'
+                  - name: Add attachments
                     href: exchange-web-services/how-to-add-attachments-by-using-ews-in-exchange.md
-                  - name: 'How to: Get attachments'
+                  - name: Get attachments
                     href: exchange-web-services/how-to-get-attachments-by-using-ews-in-exchange.md
-                  - name: 'How to: Delete attachments'
+                  - name: Delete attachments
                     href: exchange-web-services/how-to-delete-attachments-by-using-ews-in-exchange.md
                 - name: Calendars
                   href: exchange-web-services/calendars-and-ews-in-exchange.md
                   items:
-                  - name: 'How to: Create appointments and meetings'
+                  - name: Create appointments and meetings
                     href: exchange-web-services/how-to-create-appointments-and-meetings-by-using-ews-in-exchange-2013.md
-                  - name: 'How to: Create all-day events'
+                  - name: Create all-day events
                     href: exchange-web-services/how-to-create-all-day-events-by-using-ews-in-exchange.md
-                  - name: 'How to: Get appointments and meetings'
+                  - name: Get appointments and meetings
                     href: exchange-web-services/how-to-get-appointments-and-meetings-by-using-ews-in-exchange.md
-                  - name: 'How to: Update appointments and meetings'
+                  - name: Update appointments and meetings
                     href: exchange-web-services/how-to-update-appointments-and-meetings-by-using-ews-in-exchange.md
-                  - name: 'How to: Delete appointments and cancel meetings'
+                  - name: Delete appointments and cancel meetings
                     href: exchange-web-services/how-to-delete-appointments-and-cancel-meetings-by-using-ews-in-exchange.md
-                  - name: 'How to: Get room lists'
+                  - name: Get room lists
                     href: exchange-web-services/how-to-get-room-lists-by-using-ews-in-exchange.md
-                  - name: 'How to: Get free/busy information'
+                  - name: Get free/busy information
                     href: exchange-web-services/how-to-get-free-busy-information-by-using-ews-in-exchange.md
-                  - name: 'How to: Propose a new meeting time'
+                  - name: Propose a new meeting time
                     href: exchange-web-services/how-to-propose-a-new-meeting-time-by-using-ews-in-exchange.md
-                  - name: 'How to: Process calendar items in batches'
+                  - name: Process calendar items in batches
                     href: exchange-web-services/how-to-process-calendar-items-in-batches-in-exchange.md
                   - name: Recurring calendar items and EWS
                     href: exchange-web-services/recurrence-patterns-and-ews.md
                     items:
-                    - name: 'How to: Access a recurring series'
+                    - name: Access a recurring series
                       href: exchange-web-services/how-to-access-a-recurring-series-by-using-ews-in-exchange.md
-                    - name: 'How to: Create a recurring series'
+                    - name: Create a recurring series
                       href: exchange-web-services/how-to-create-a-recurring-series-by-using-ews-in-exchange.md
-                    - name: 'How to: Delete appointments in a recurring series'
+                    - name: Delete appointments in a recurring series
                       href: exchange-web-services/how-to-delete-appointments-in-a-recurring-series-by-using-ews-in-exchange.md
-                    - name: 'How to: Modify appointments in a recurring series'
+                    - name: Modify appointments in a recurring series
                       href: exchange-web-services/how-to-update-a-recurring-series-by-using-ews.md
-                    - name: 'How to: Update a recurring series'
+                    - name: Update a recurring series
                       href: exchange-web-services/how-to-update-a-recurring-series-by-using-ews-in-exchange.md
                 - name: Delegate access
                   href: exchange-web-services/delegate-access-and-ews-in-exchange.md
                   items:
-                  - name: 'How to: Add and remove delegates'
+                  - name: Add and remove delegates
                     href: exchange-web-services/how-to-add-and-remove-delegates-by-using-ews-in-exchange.md
-                  - name: 'How to: Access a calendar as a delegate'
+                  - name: Access a calendar as a delegate
                     href: exchange-web-services/how-to-access-a-calendar-as-a-delegate-by-using-ews-in-exchange.md
-                  - name: 'How to: Access contacts as a delegate'
+                  - name: Access contacts as a delegate
                     href: exchange-web-services/how-to-access-contacts-as-a-delegate-by-using-ews-in-exchange.md
-                  - name: 'How to: Access email as a delegate'
+                  - name: Access email as a delegate
                     href: exchange-web-services/how-to-access-email-as-a-delegate-by-using-ews-in-exchange.md
-                  - name: 'How to: Set folder permissions'
+                  - name: Set folder permissions
                     href: exchange-web-services/how-to-set-folder-permissions-for-another-user-by-using-ews-in-exchange.md
-                  - name: Handling delegation-related errors
+                  - name: Handle delegation-related errors
                     href: exchange-web-services/handling-delegation-related-errors-in-ews-in-exchange.md
                 - name: Distribution groups
                   href: exchange-web-services/distribution-groups-and-ews-in-exchange.md
                   items:
-                  - name: 'How to: Create contact groups'
+                  - name: Create contact groups
                     href: exchange-web-services/how-to-create-contact-groups-by-using-ews-in-exchange.md
-                  - name: 'How to: Expand distribution groups'
+                  - name: Expand distribution groups
                     href: exchange-web-services/how-to-expand-distribution-groups-by-using-ews-in-exchange-2013.md
                 - name: eDiscovery
                   href: exchange-web-services/ediscovery-in-ews-in-exchange.md
@@ -177,28 +177,28 @@
                   items:
                   - name: Email properties and elements
                     href: exchange-web-services/email-properties-and-elements-in-ews-in-exchange.md
-                  - name: 'How to: Send email messages'
+                  - name: Send email messages
                     href: exchange-web-services/how-to-send-email-messages-by-using-ews-in-exchange.md
-                  - name: 'How to: Respond to email messages'
+                  - name: Respond to email messages
                     href: exchange-web-services/how-to-respond-to-email-messages-by-using-ews-in-exchange.md
-                  - name: 'How to: Move and copy email messages'
+                  - name: Move and copy email messages
                     href: exchange-web-services/how-to-move-and-copy-email-messages-by-using-ews-in-exchange.md
-                  - name: 'How to: Work with conversations'
+                  - name: Work with conversations
                     href: exchange-web-services/how-to-work-with-conversations-by-using-ews-in-exchange.md
-                  - name: 'How to: Extract an entity from an email message'
+                  - name: Extract an entity from an email message
                     href: exchange-web-services/how-to-extract-an-entity-from-an-email-message-by-using-ews-in-exchange.md
-                  - name: 'How to: Process email messages in batches'
+                  - name: Process email messages in batches
                     href: exchange-web-services/how-to-process-email-messages-in-batches-by-using-ews-in-exchange.md
                 - name: Folders and items
                   href: exchange-web-services/folders-and-items-in-ews-in-exchange.md
                   items:
-                  - name: 'How to: Work with folders'
+                  - name: Work with folders
                     href: exchange-web-services/how-to-work-with-folders-by-using-ews-in-exchange.md
-                  - name: 'How to: Work with hidden folders'
+                  - name: Work with hidden folders
                     href: exchange-web-services/how-to-work-with-hidden-folders-by-using-ews-in-exchange.md
-                  - name: 'How to: Work with items'
+                  - name: Work with items
                     href: exchange-web-services/how-to-work-with-exchange-mailbox-items-by-using-ews-in-exchange.md
-                  - name: Deleting items
+                  - name: Delete items
                     href: exchange-web-services/deleting-items-by-using-ews-in-exchange.md
                     items:
                     - name: Pull notifications for deletion-related mailbox events
@@ -208,66 +208,66 @@
                   - name: Exporting and importing items
                     href: exchange-web-services/exporting-and-importing-items-by-using-ews-in-exchange.md
                     items:
-                    - name: 'How to: Export items'
+                    - name: Export items
                       href: exchange-web-services/how-to-export-items-by-using-ews-in-exchange.md
-                    - name: 'How to: Import items'
+                    - name: Import items
                       href: exchange-web-services/how-to-import-items-by-using-ews-in-exchange.md
                 - name: Identifiers
                   href: exchange-web-services/ews-identifiers-in-exchange.md
                 - name: Impersonation
                   href: exchange-web-services/impersonation-and-ews-in-exchange.md
                   items:
-                  - name: 'How to: Configure impersonation'
+                  - name: Configure impersonation
                     href: exchange-web-services/how-to-configure-impersonation.md
-                  - name: 'How to: Identify the account to impersonate'
+                  - name: Identify the account to impersonate
                     href: exchange-web-services/how-to-identify-the-account-to-impersonate.md
-                  - name: 'How to: Add appointments by using Exchange impersonation'
+                  - name: Add appointments by using Exchange impersonation
                     href: exchange-web-services/how-to-add-appointments-by-using-exchange-impersonation.md
                 - name: Inbox management
                   href: exchange-web-services/inbox-management-and-ews-in-exchange.md
                   items:
-                  - name: 'How to: Manage Inbox rules'
+                  - name: Manage Inbox rules
                     href: exchange-web-services/how-to-manage-inbox-rules-by-using-ews-in-exchange.md
-                  - name: 'How to: Add and remove email addresses from the Blocked Senders List'
+                  - name: Add and remove email addresses from the Blocked Senders List
                     href: exchange-web-services/how-to-add-and-remove-email-addresses-from-the-blocked-senders-list-by-using-ews.md
                 - name: Notifications and events
                   href: exchange-web-services/notification-subscriptions-mailbox-events-and-ews-in-exchange.md
                   items:
-                  - name: 'How to: Stream notifications'
+                  - name: Stream notifications
                     href: exchange-web-services/how-to-stream-notifications-about-mailbox-events-by-using-ews-in-exchange.md
-                  - name: 'How to: Pull notifications'
+                  - name: Pull notifications
                     href: exchange-web-services/how-to-pull-notifications-about-mailbox-events-by-using-ews-in-exchange.md
-                  - name: 'How to: Maintain affinity'
+                  - name: Maintain affinity
                     href: exchange-web-services/how-to-maintain-affinity-between-a-group-of-subscriptions-and-the-mailbox-server.md
-                  - name: Handling notification-related errors
+                  - name: Handle notification-related errors
                     href: exchange-web-services/handling-notification-related-errors-in-ews-in-exchange.md
                 - name: Mailbox synchronization
                   href: exchange-web-services/mailbox-synchronization-and-ews-in-exchange.md
                   items:
-                  - name: 'How to: Synchronize folders'
+                  - name: Synchronize folders
                     href: exchange-web-services/how-to-synchronize-folders-by-using-ews-in-exchange.md
-                  - name: 'How to: Synchronize items'
+                  - name: Synchronize items
                     href: exchange-web-services/how-to-synchronize-items-by-using-ews-in-exchange.md
-                  - name: Handling synchronization-related errors
+                  - name: Handle synchronization-related errors
                     href: exchange-web-services/handling-synchronization-related-errors-in-ews-in-exchange.md
                 - name: Persistent application settings
                   href: exchange-web-services/persistent-application-settings-in-ews-in-exchange.md
                   items:
-                  - name: 'How to: Manage persistent application settings'
+                  - name: Manage persistent application settings
                     href: exchange-web-services/how-to-manage-persistent-application-settings-by-using-ews-in-exchange.md
                 - name: People and contacts
                   href: exchange-web-services/people-and-contacts-in-ews-in-exchange.md
                   items:
-                  - name: 'How to: Process contacts in batches'
+                  - name: Process contacts in batches
                     href: exchange-web-services/how-to-process-contacts-in-batches-by-using-ews-in-exchange.md
-                  - name: 'How to: Resolve ambiguous names'
+                  - name: Resolve ambiguous names
                     href: exchange-web-services/how-to-resolve-ambiguous-names-by-using-ews-in-exchange-2013.md
-                  - name: 'How to: Get user photos'
+                  - name: Get user photos
                     href: exchange-web-services/how-to-get-user-photos-by-using-ews-in-exchange.md
                 - name: Properties and extended properties
                   href: exchange-web-services/properties-and-extended-properties-in-ews-in-exchange.md
                   items:
-                  - name: 'How to: Provision x-headers'
+                  - name: Provision x-headers
                     href: exchange-web-services/how-to-provision-x-headers-by-using-ews-in-exchange.md
                   - name: EWS property-related errors
                     href: exchange-web-services/ews-property-related-errors.md
@@ -276,29 +276,29 @@
                 - name: Public folders
                   href: exchange-web-services/public-folder-access-with-ews-in-exchange.md
                   items:
-                  - name: 'How to: Route public folder hierarchy requests'
+                  - name: Route public folder hierarchy requests
                     href: exchange-web-services/how-to-route-public-folder-hierarchy-requests.md
-                  - name: 'How to: Route public folder content requests'
+                  - name: Route public folder content requests
                     href: exchange-web-services/how-to-route-public-folder-content-requests.md
                 - name: Search
                   href: exchange-web-services/search-and-ews-in-exchange.md
                   items:
-                  - name: 'How to: Use search filters'
+                  - name: Use search filters
                     href: exchange-web-services/how-to-use-search-filters-with-ews-in-exchange.md
-                  - name: 'How to: Perform an AQS search'
+                  - name: Perform an AQS search
                     href: exchange-web-services/how-to-perform-an-aqs-search-by-using-ews-in-exchange.md
-                  - name: 'How to: Perform paged searches'
+                  - name: Perform paged searches
                     href: exchange-web-services/how-to-perform-paged-searches-by-using-ews-in-exchange.md
-                  - name: 'How to: Perform grouped searches'
+                  - name: Perform grouped searches
                     href: exchange-web-services/how-to-perform-grouped-searches-by-using-ews-in-exchange.md
-                  - name: 'How to: Work with search folders'
+                  - name: Work with search folders
                     href: exchange-web-services/how-to-work-with-search-folders-by-using-ews-in-exchange.md
                 - name: Time zones and EWS in Exchange
                   href: exchange-web-services/time-zones-and-ews-in-exchange.md
                   items:
-                  - name: 'How to: Create appointments in a specific time zone'
+                  - name: Create appointments in a specific time zone
                     href: exchange-web-services/how-to-create-appointments-in-a-specific-time-zone-by-using-ews-in-exchange.md
-                  - name: 'How to: Update the time zone for an appointment'
+                  - name: Update the time zone for an appointment
                     href: exchange-web-services/how-to-update-the-time-zone-for-an-appointment-by-using-ews-in-exchange.md
                 - name: Troubleshooting EWS applications
                   href: exchange-web-services/tools-and-resources-for-troubleshooting-ews-applications-for-exchange.md
@@ -4441,9 +4441,9 @@
               href: management/new-and-updated-exchange-management-shell-cmdlets.md
             - name: Cmdlet input and output types
               href: management/exchange-management-shell-cmdlet-input-and-output-types.md
-            - name: 'How to: Get a list of mail users'
+            - name: Get a list of mail users
               href: management/how-to-get-a-list-of-mail-users-by-using-the-exchange-management-shell.md
-            - name: 'How to: Use the cmdlet response'
+            - name: Use the cmdlet response
               href: management/how-to-use-the-exchange-management-shell-cmdlet-response.md
           - name: Exchange Management Shell namespaces
             href: management/exchange-management-shell-namespaces.md
@@ -4461,11 +4461,11 @@
           - name: Creating transport agents
             href: transport-agents/creating-transport-agents-for-exchange-2013.md
             items:
-            - name: 'How to: Create a RoutingAgent transport agent'
+            - name: Create a RoutingAgent transport agent
               href: transport-agents/how-to-create-a-routingagent-transport-agent-for-exchange-2013.md
-            - name: 'How to: Create an SmtpReceiveAgent transport agent'
+            - name: Create an SmtpReceiveAgent transport agent
               href: transport-agents/how-to-create-an-smtpreceiveagent-transport-agent-for-exchange-2013.md
-            - name: 'How to: Create a DeliveryAgent transport agent'
+            - name: Create a DeliveryAgent transport agent
               href: transport-agents/how-to-create-a-deliveryagent-transport-agent-for-exchange-2013.md
           - name: Transport agent reference
             href: transport-agents/transport-agent-reference-for-exchange-2013.md
@@ -4504,11 +4504,11 @@
             items:
             - name: Types of backup operations
               href: backup-restore/types-of-backup-operations-for-exchange-2013.md
-            - name: Restoring Exchange 2013 databases
+            - name: Restore Exchange 2013 databases
               href: backup-restore/restoring-exchange-2013-databases.md
-            - name: 'How to: Validate backup integrity by using the CHKSGFILES API'
+            - name: Validate backup integrity by using the CHKSGFILES API
               href: backup-restore/how-to-validate-backup-integrity-by-using-the-chksgfiles-api-in-exchange-2013.md
-            - name: 'How to: Validate backup integrity by using the Eseutil tool'
+            - name: Validate backup integrity by using the Eseutil tool
               href: backup-restore/how-to-validate-backup-integrity-by-using-the-eseutil-tool-in-exchange-2013.md
           - name: CChkSGFiles class reference
             href: backup-restore/cchksgfiles-class-reference.md

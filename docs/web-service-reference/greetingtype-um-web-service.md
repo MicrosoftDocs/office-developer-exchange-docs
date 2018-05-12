@@ -32,15 +32,15 @@ The **GreetingType** element defines the type of greeting to use in a [PlayOnPho
 
 The following sections describe attributes, child elements, and parent elements.
   
-#### Attributes
+### Attributes
 
 None.
   
-#### Child elements
+### Child elements
 
 None.
   
-#### Parent elements
+### Parent elements
 
 |**Element**|**Description**|
 |:-----|:-----|
@@ -65,7 +65,7 @@ A text value is required. The following are the possible values:
    
 ## See also
 
-#### Reference
+
 
 [PlayOnPhoneGreeting operation (UM web service)](playonphonegreeting-operation-um-web-service.md)
 

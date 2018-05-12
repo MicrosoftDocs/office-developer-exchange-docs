@@ -35,17 +35,17 @@ The **WebClientUrls** element represents a user setting that contains a collecti
 
 The following sections describe attributes, child elements, and parent elements.
   
-#### Attributes
+### Attributes
 
 None.
   
-#### Child elements
+### Child elements
 
 |**Element**|**Description**|
 |:-----|:-----|
 |[WebClientUrl (SOAP)](webclienturl-soap.md) <br/> |Represents an Exchange client URL.  <br/> |
    
-#### Parent elements
+### Parent elements
 
 |**Element**|**Description**|
 |:-----|:-----|
@@ -62,7 +62,7 @@ None.
    
 ## See also
 
-#### Reference
+
 
 [WebClientUrl (SOAP)](webclienturl-soap.md)
 

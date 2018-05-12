@@ -29,17 +29,17 @@ The **Entry** element represents a telephone number for a contact.
 
 The following sections describe attributes, child elements, and parent elements.
   
-#### Attributes
+### Attributes
 
 |**Attribute**|**Description**|
 |:-----|:-----|
 |**Key** <br/> | Identifies the telephone number. The Key attribute is of type **PhoneNumberKeyType**. The following are the possible values for this attribute:  <br/>  AssistantPhone  <br/>  BusinessFax  <br/>  BusinessPhone  <br/>  BusinessPhone2  <br/>  Callback  <br/>  CarPhone  <br/>  CompanyMainPhone  <br/>  HomeFax  <br/>  HomePhone  <br/>  HomePhone2  <br/>  Isdn  <br/>  MobilePhone  <br/>  OtherFax  <br/>  OtherTelephone  <br/>  Pager  <br/>  PrimaryPhone  <br/>  RadioPhone  <br/>  Telex  <br/>  TtyTddPhone  <br/> |
    
-#### Child elements
+### Child elements
 
 None.
   
-#### Parent elements
+### Parent elements
 
 |**Element**|**Description**|
 |:-----|:-----|
@@ -64,10 +64,10 @@ The schema that describes this element is located in the EWS virtual directory o
    
 ## See also
 
-#### Concepts
+
 
 [EWS XML elements in Exchange](ews-xml-elements-in-exchange.md)
-#### Other resources
+
 
 [Creating Contacts (Exchange Web Services)](http://msdn.microsoft.com/library/4845917e-70d1-481c-bbd7-011ec6571789%28Office.15%29.aspx)
   

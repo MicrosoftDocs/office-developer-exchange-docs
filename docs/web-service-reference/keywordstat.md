@@ -29,15 +29,15 @@ The **KeywordStat** element specifies keyword statistic information.
 
 The following sections describe attributes, child elements, and parent elements.
   
-#### Attributes
+### Attributes
 
 None.
   
-#### Child elements
+### Child elements
 
 [Keyword](keyword.md) | [ItemHits](itemhits.md) | [Size (long)](size-long.md)
   
-#### Parent elements
+### Parent elements
 
 [KeywordStats](keywordstats.md)
   

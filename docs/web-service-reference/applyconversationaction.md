@@ -33,17 +33,17 @@ The **ApplyConversationAction** element defines a request to apply actions to it
 
 The following sections describe attributes, child elements, and parent elements.
   
-#### Attributes
+### Attributes
 
 None.
   
-#### Child elements
+### Child elements
 
 |**Element**|**Description**|
 |:-----|:-----|
 |[ConversationActions](conversationactions.md) <br/> |Contains a collection of conversations and the actions to apply to them.  <br/> |
    
-#### Parent elements
+### Parent elements
 
 None.
   
@@ -66,10 +66,10 @@ The schema that describes this element is located in the IIS virtual directory t
    
 ## See also
 
-#### Reference
+
 
 [ApplyConversationAction operation](applyconversationaction-operation.md)
-#### Concepts
+
 
 [EWS XML elements in Exchange](ews-xml-elements-in-exchange.md)
 

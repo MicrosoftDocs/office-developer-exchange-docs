@@ -33,11 +33,11 @@ The **CopyItem** element defines a request to copy an item in a mailbox in the E
 
 The following sections describe attributes, child elements, and parent elements.
   
-#### Attributes
+### Attributes
 
 None.
   
-#### Child elements
+### Child elements
 
 |**Element**|**Description**|
 |:-----|:-----|
@@ -45,7 +45,7 @@ None.
 |[ItemIds](itemids.md) <br/> |Contains an array of identified items to copy to the folder represented by the [ToFolderId](tofolderid.md) element.  <br/> |
 |[ReturnNewItemIds](returnnewitemids.md) <br/> |Indicates whether the item identifiers of new items are returned in the response.  <br/> |
    
-#### Parent elements
+### Parent elements
 
 None.
   
@@ -64,10 +64,10 @@ The schema that describes this element is located in the IIS virtual directory t
    
 ## See also
 
-#### Reference
+
 
 [CopyItem operation](copyitem-operation.md)
-#### Concepts
+
 
 [EWS XML elements in Exchange](ews-xml-elements-in-exchange.md)
 

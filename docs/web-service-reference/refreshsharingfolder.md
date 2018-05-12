@@ -29,17 +29,17 @@ The **RefreshSharingFolder** element defines a request to refresh the specified 
 
 The following sections describe attributes, child elements, and parent elements.
   
-#### Attributes
+### Attributes
 
 None.
   
-#### Child elements
+### Child elements
 
 |**Element**|**Description**|
 |:-----|:-----|
 |[SharingFolderId](sharingfolderid.md) <br/> |Represents the identifier of the local folder in a sharing relationship.  <br/> |
    
-#### Parent elements
+### Parent elements
 
 None.
   
@@ -58,7 +58,7 @@ The schema that describes this element is located in the IIS Virtual directory t
    
 ## See also
 
-#### Concepts
+
 
 [EWS XML elements in Exchange](ews-xml-elements-in-exchange.md)
 

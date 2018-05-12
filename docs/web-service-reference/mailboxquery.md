@@ -28,15 +28,15 @@ The **MailboxQuery** element specifies a query and the scope of a discovery sear
 
 The following sections describe attributes, child elements, and parent elements.
   
-#### Attributes
+### Attributes
 
 None.
   
-#### Child elements
+### Child elements
 
 [Query](query.md) | [MailboxSearchScopes](mailboxsearchscopes.md)
   
-#### Parent elements
+### Parent elements
 
 [SearchQueries](searchqueries.md)
   

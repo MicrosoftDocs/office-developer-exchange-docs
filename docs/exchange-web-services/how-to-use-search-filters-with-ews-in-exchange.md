@@ -1,41 +1,30 @@
 ---
-title: "How to Use search filters with EWS in Exchange"
- 
- 
+title: "Use search filters with EWS in Exchange"
 manager: sethgros
 ms.date: 9/17/2015
 ms.audience: Developer
- 
- 
 localization_priority: Normal
 ms.assetid: 20fc6d2d-41c2-4490-98b8-c52513977fef
 description: "Find out how to use search filters with the EWS Managed API or EWS in Exchange."
 ---
 
-# How to: Use search filters with EWS in Exchange
+# Use search filters with EWS in Exchange
 
 Find out how to use search filters with the EWS Managed API or EWS in Exchange.
   
 Search filters are the primary tool for expressing search criteria in your EWS Managed API or EWS application. We recommend that you use search filters, as opposed to [query strings](how-to-perform-an-aqs-search-by-using-ews-in-exchange.md), to do the following:
   
-- Search on a specific property or set of properties.
-    
+- Search on a specific property or set of properties.  
 - Search using multiple search criteria.
     
 Search filters are your only option if you are doing any of the following:
   
-- Searching custom properties.
-    
-- Performing case-sensitive string searches.
-    
-- Performing prefix or exact match string searches.
-    
+- Searching custom properties.  
+- Performing case-sensitive string searches.  
+- Performing prefix or exact match string searches. 
 - Performing bitmask searches.
-    
 - Searching for items that have a specific property set, regardless of value.
-    
 - Searching for folders.
-    
 - Creating search folders.
     
 ## Determine what type of search filter you need
@@ -329,11 +318,8 @@ The following example shows you how to use EWS to create a search filter that re
 The following EWS Managed API methods use search filters:
   
 - [ExchangeService.FindItems](http://msdn.microsoft.com/en-us/library/microsoft.exchange.webservices.data.exchangeservice.finditems%28v=exchg.80%29.aspx)
-    
 - [ExchangeService.FindFolders](http://msdn.microsoft.com/en-us/library/microsoft.exchange.webservices.data.exchangeservice.findfolders%28v=exchg.80%29.aspx)
-    
 - [Folder.FindFolders](http://msdn.microsoft.com/en-us/library/microsoft.exchange.webservices.data.folder.findfolders%28v=exchg.80%29.aspx)
-    
 - [Folder.FindItems](http://msdn.microsoft.com/en-us/library/microsoft.exchange.webservices.data.folder.finditems%28v=exchg.80%29.aspx)
     
 The following example uses the **ExchangeService.FindItems** method; however, the same rules and concepts apply to all the methods. In this example, a method called **SearchWithFilter** is defined. It takes an [ExchangeService](http://msdn.microsoft.com/en-us/library/microsoft.exchange.webservices.data.exchangeservice%28v=exchg.80%29.aspx) object, a [WellKnownFolderName](http://msdn.microsoft.com/en-us/library/microsoft.exchange.webservices.data.wellknownfoldername%28v=exchg.80%29.aspx) object, and a [SearchFilter](http://msdn.microsoft.com/en-us/library/microsoft.exchange.webservices.data.searchfilter%28v=exchg.80%29.aspx) object as parameters. This example assumes that the **ExchangeService** object has been initialized with valid values in the [Credentials](http://msdn.microsoft.com/en-us/library/microsoft.exchange.webservices.data.exchangeservicebase.credentials%28v=exchg.80%29.aspx) and [Url](http://msdn.microsoft.com/en-us/library/microsoft.exchange.webservices.data.exchangeservice.url%28v=exchg.80%29.aspx) properties. The **SearchFilter** class is the base class for all the different search filters. 
@@ -362,7 +348,7 @@ static void SearchWithFilter(ExchangeService service, WellKnownFolderName folder
         {
             Console.WriteLine("Subject: {0}", item.Subject);
             Console.WriteLine("Id: {0}", item.Id.ToString());
-            if (item.ExtendedProperties.Count > 0 &amp;&amp;
+            if (item.ExtendedProperties.Count > 0 &&
                  item.ExtendedProperties[0].PropertyDefinition == customPropDefinition)
             {
                 Console.WriteLine("Search Index: {0}", item.ExtendedProperties[0].Value);
@@ -400,7 +386,6 @@ SearchWithFilter(service, WellKnownFolderName.Inbox, compoundFilter);
 The following EWS operations use search filters:
   
 - [FindFolder](http://msdn.microsoft.com/library/7a9855aa-06cc-45ba-ad2a-645c15b7d031%28Office.15%29.aspx)
-    
 - [FindItem](http://msdn.microsoft.com/library/ebad6aae-16e7-44de-ae63-a95b24539729%28Office.15%29.aspx)
     
 The following example uses the **FindItem** operation; however, the same rules and concepts apply to both operations. Search filters are contained in the [Restriction](http://msdn.microsoft.com/library/77f19014-d112-4999-8e83-ecc32a117a73%28Office.15%29.aspx) element in SOAP requests. This example sends a SOAP request that is equivalent to the search that is shown in the preceding EWS Managed API example. 
@@ -516,27 +501,19 @@ The following example shows the response from the server, including the search r
 
 Now that you're familiar with using search filters in basic searches, you can move on to more advanced search techniques.
   
-- [How to: Perform grouped searches by using EWS in Exchange](how-to-perform-grouped-searches-by-using-ews-in-exchange.md)
+- [Perform grouped searches by using EWS in Exchange](how-to-perform-grouped-searches-by-using-ews-in-exchange.md)
     
-- [How to: Perform paged searches by using EWS in Exchange](how-to-perform-paged-searches-by-using-ews-in-exchange.md)
+- [Perform paged searches by using EWS in Exchange](how-to-perform-paged-searches-by-using-ews-in-exchange.md)
     
-## Additional resources
-<a name="bk_addresources"> </a>
+## See also
 
-- [Search and EWS in Exchange](search-and-ews-in-exchange.md)
-    
-- [How to: Perform an AQS search by using EWS in Exchange](how-to-perform-an-aqs-search-by-using-ews-in-exchange.md)
-    
-- [ExchangeService.FindItems](http://msdn.microsoft.com/en-us/library/microsoft.exchange.webservices.data.exchangeservice.finditems%28v=exchg.80%29.aspx)
-    
-- [ExchangeService.FindFolders](http://msdn.microsoft.com/en-us/library/microsoft.exchange.webservices.data.exchangeservice.findfolders%28v=exchg.80%29.aspx)
-    
-- [Folder.FindFolders](http://msdn.microsoft.com/en-us/library/microsoft.exchange.webservices.data.folder.findfolders%28v=exchg.80%29.aspx)
-    
-- [Folder.FindItems](http://msdn.microsoft.com/en-us/library/microsoft.exchange.webservices.data.folder.finditems%28v=exchg.80%29.aspx)
-    
-- [FindFolder operation](http://msdn.microsoft.com/library/7a9855aa-06cc-45ba-ad2a-645c15b7d031%28Office.15%29.aspx)
-    
+- [Search and EWS in Exchange](search-and-ews-in-exchange.md)    
+- [Perform an AQS search by using EWS in Exchange](how-to-perform-an-aqs-search-by-using-ews-in-exchange.md)   
+- [ExchangeService.FindItems](http://msdn.microsoft.com/en-us/library/microsoft.exchange.webservices.data.exchangeservice.finditems%28v=exchg.80%29.aspx)    
+- [ExchangeService.FindFolders](http://msdn.microsoft.com/en-us/library/microsoft.exchange.webservices.data.exchangeservice.findfolders%28v=exchg.80%29.aspx)    
+- [Folder.FindFolders](http://msdn.microsoft.com/en-us/library/microsoft.exchange.webservices.data.folder.findfolders%28v=exchg.80%29.aspx)    
+- [Folder.FindItems](http://msdn.microsoft.com/en-us/library/microsoft.exchange.webservices.data.folder.finditems%28v=exchg.80%29.aspx)    
+- [FindFolder operation](http://msdn.microsoft.com/library/7a9855aa-06cc-45ba-ad2a-645c15b7d031%28Office.15%29.aspx)   
 - [FindItem operation](http://msdn.microsoft.com/library/ebad6aae-16e7-44de-ae63-a95b24539729%28Office.15%29.aspx)
     
 

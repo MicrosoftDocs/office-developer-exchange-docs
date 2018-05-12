@@ -29,7 +29,7 @@ The **To** element specifies the target of the time zone transition. The target 
 
 The following sections describe attributes, child elements, and parent elements.
   
-#### Attributes
+### Attributes
 
 |**Attribute**|**Description**|
 |:-----|:-----|
@@ -42,11 +42,11 @@ The following sections describe attributes, child elements, and parent elements.
 |Period  <br/> |Specifies that the time zone transition target is a time zone period.  <br/> |
 |Group  <br/> |Specifies that the time zone transition target is a group of time zone transitions.  <br/> |
    
-#### Child elements
+### Child elements
 
 None.
   
-#### Parent elements
+### Parent elements
 
 |**Element**|**Description**|
 |:-----|:-----|
@@ -74,7 +74,7 @@ The schema that describes this element is located in the EWS virtual directory o
    
 ## See also
 
-#### Concepts
+
 
 [EWS XML elements in Exchange](ews-xml-elements-in-exchange.md)
 

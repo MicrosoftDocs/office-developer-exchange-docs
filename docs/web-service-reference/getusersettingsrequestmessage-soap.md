@@ -27,17 +27,17 @@ The **GetUserSettingsRequestMessage** element represents a [GetUserSettings oper
 
 The following sections describe attributes, child elements, and parent elements.
   
-#### Attributes
+### Attributes
 
 None.
   
-#### Child elements
+### Child elements
 
 |**Element**|**Description**|
 |:-----|:-----|
 |[Request (SOAP)](request-soap.md) <br/> |Contains the requested configuration settings.  <br/> |
    
-#### Parent elements
+### Parent elements
 
 None.
   
@@ -56,7 +56,7 @@ None.
    
 ## See also
 
-#### Reference
+
 
 [GetUserSettings operation (SOAP)](getusersettings-operation-soap.md)
 

@@ -34,11 +34,11 @@ The **SerializedSecurityContext** element is used in the Simple Object Access Pr
 
 The following sections describe attributes, child elements, and parent elements.
   
-#### Attributes
+### Attributes
 
 None.
   
-#### Child elements
+### Child elements
 
 |**Element**|**Description**|
 |:-----|:-----|
@@ -47,7 +47,7 @@ None.
 |[RestrictedGroupSids](restrictedgroupsids.md) <br/> |Represents the group security identifier and attributes for a restricted group.  <br/> |
 |[PrimarySmtpAddress](primarysmtpaddress.md) <br/> |Represents the primary Simple Mail Transfer Protocol (SMTP) address of an account to be used for server-to-server authorization.  <br/> |
    
-#### Parent elements
+### Parent elements
 
 None.
   
@@ -66,10 +66,10 @@ The schema that describes this element is located in the EWS virtual directory o
    
 ## See also
 
-#### Concepts
+
 
 [EWS XML elements in Exchange](ews-xml-elements-in-exchange.md)
-#### Other resources
+
 
 [Server-to-server authorization in EWS](http://msdn.microsoft.com/library/f1610a20-672d-448b-8c00-5b0fbcaf31cb%28Office.15%29.aspx)
 

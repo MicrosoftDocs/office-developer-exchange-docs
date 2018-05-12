@@ -89,17 +89,17 @@ Most users are not aware of and typically don't access the root mailbox folder. 
 
 User configuration objects are available on Exchange Online, Exchange Online as part of Office 365, and versions of Exchange starting with Exchange 2010.
   
-## Additional resources
-<a name="bk_addresources"> </a>
+## See also
 
-- [How to: Manage persistent application settings by using EWS in Exchange](how-to-manage-persistent-application-settings-by-using-ews-in-exchange.md)
+
+- [Manage persistent application settings by using EWS in Exchange](how-to-manage-persistent-application-settings-by-using-ews-in-exchange.md)
     
 - [EWS client design overview for Exchange](ews-client-design-overview-for-exchange.md)
     
 - [Properties and extended properties in EWS in Exchange](properties-and-extended-properties-in-ews-in-exchange.md)
     
-- [How to: Work with folders by using EWS in Exchange](how-to-work-with-folders-by-using-ews-in-exchange.md)
+- [Work with folders by using EWS in Exchange](how-to-work-with-folders-by-using-ews-in-exchange.md)
     
-- [How to: Work with Exchange mailbox items by using EWS in Exchange](how-to-work-with-exchange-mailbox-items-by-using-ews-in-exchange.md)
+- [Work with Exchange mailbox items by using EWS in Exchange](how-to-work-with-exchange-mailbox-items-by-using-ews-in-exchange.md)
     
 

@@ -34,15 +34,15 @@ The **entryId** element contains the value that represents the identifier of the
 
 The following sections describe attributes, child elements, and parent elements.
   
-#### Attributes
+### Attributes
 
 None.
   
-#### Child elements
+### Child elements
 
 None.
   
-#### Parent elements
+### Parent elements
 
 |**Element**|**Description**|
 |:-----|:-----|
@@ -63,7 +63,7 @@ A text value is required.
    
 ## See also
 
-#### Reference
+
 
 [PlayOnPhone operation (UM web service)](playonphone-operation-um-web-service.md)
   

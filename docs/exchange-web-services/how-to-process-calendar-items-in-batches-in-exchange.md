@@ -1,5 +1,5 @@
 ---
-title: "How to Process calendar items in batches in Exchange"
+title: "Process calendar items in batches in Exchange"
  
  
 manager: sethgros
@@ -12,7 +12,7 @@ ms.assetid: fb2952e2-cbfe-43ac-b746-f071faa7665c
 description: "Learn how to create, get, update, or delete batches of calendar items in a single call by using the EWS Managed API or EWS in Exchange."
 ---
 
-# How to: Process calendar items in batches in Exchange
+# Process calendar items in batches in Exchange
 
 Learn how to create, get, update, or delete batches of calendar items in a single call by using the EWS Managed API or EWS in Exchange.
   
@@ -830,18 +830,18 @@ For EWS, to verify the success of a batched process, check the [ResponseClass](h
 
 The **ResponseClass** attribute is set to **Success** if the calendar item was processed successfully, or **Error** if it was not processed successfully. For calendar items, you will not encounter a **Warning** during batch processing. If the **ResponseClass** is **Success**, the [ResponseCode](http://msdn.microsoft.com/library/4b84d670-74c9-4d6d-84e7-f0a9f76f0d93%28Office.15%29.aspx) element that follows is also always set to **NoError**. If the **ResponseClass** is **Error**, you need to check the values of the [MessageText](http://msdn.microsoft.com/library/59a23bdc-0d9a-4942-8b3c-9cdb11db1ab1%28Office.15%29.aspx), **ResponseCode**, and [MessageXml](http://msdn.microsoft.com/library/bcaf9e35-d351-48f3-baad-f90c633cba8a%28Office.15%29.aspx) elements to determine what caused the problem. [DescriptiveLinkKey](http://msdn.microsoft.com/library/f7f36749-00f3-4915-b17c-e3caa0af6e67%28Office.15%29.aspx) is currently unused. 
   
-## Additional resources
-<a name="bk_addresources"> </a>
+## See also
+
 
 - [Calendars and EWS in Exchange](calendars-and-ews-in-exchange.md)
     
-- [How to: Get appointments and meetings by using EWS in Exchange](how-to-get-appointments-and-meetings-by-using-ews-in-exchange.md)
+- [Get appointments and meetings by using EWS in Exchange](how-to-get-appointments-and-meetings-by-using-ews-in-exchange.md)
     
-- [How to: Update appointments and meetings by using EWS in Exchange](how-to-update-appointments-and-meetings-by-using-ews-in-exchange.md)
+- [Update appointments and meetings by using EWS in Exchange](how-to-update-appointments-and-meetings-by-using-ews-in-exchange.md)
     
-- [How to: Delete appointments and cancel meetings by using EWS in Exchange](how-to-delete-appointments-and-cancel-meetings-by-using-ews-in-exchange.md)
+- [Delete appointments and cancel meetings by using EWS in Exchange](how-to-delete-appointments-and-cancel-meetings-by-using-ews-in-exchange.md)
     
-- [How to: Process calendar items in batches in Exchange](how-to-process-calendar-items-in-batches-in-exchange.md)
+- [Process calendar items in batches in Exchange](how-to-process-calendar-items-in-batches-in-exchange.md)
     
 - [Throttling implications for EWS batch requests](ews-throttling-in-exchange.md#bk_ThrottlingBatch)
     

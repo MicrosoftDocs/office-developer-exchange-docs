@@ -41,11 +41,11 @@ The **Account** element specifies account settings for the user or contains erro
 
 The following sections describe attributes, child elements, and parent elements.
   
-#### Attributes
+### Attributes
 
 None.
   
-#### Child elements
+### Child elements
 
 |**Element**|**Description**|
 |:-----|:-----|
@@ -60,7 +60,7 @@ None.
 |[PublicFolderInformation (POX)](publicfolderinformation-pox.md) <br/> |Contains information that clients can use to send an Autodiscover request to discover public folder information for the user.  <br/> |
 |[Error (POX)](error-pox.md) <br/> |Contains an Autodiscover error response.  <br/> |
    
-#### Parent elements
+### Parent elements
 
 |**Element**|**Description**|
 |:-----|:-----|
@@ -68,7 +68,7 @@ None.
    
 ## See also
 
-#### Concepts
+
 
 [POX Autodiscover XML elements for Exchange](pox-autodiscover-xml-elements-for-exchange.md)
 

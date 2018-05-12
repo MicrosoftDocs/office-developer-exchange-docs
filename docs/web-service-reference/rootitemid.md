@@ -37,18 +37,18 @@ The **RootItemId** element identifies the root item of a deleted attachment.
 
 The following sections describe attributes, child elements, and parent elements.
   
-#### Attributes
+### Attributes
 
 |**Attribute**|**Description**|
 |:-----|:-----|
 |**RootItemId** <br/> |Identifies the root item of a deleted attachment.  <br/> |
 |**RootItemChangeKey** <br/> |Identifies the new change key of the root item of a deleted attachment.  <br/> |
    
-#### Child elements
+### Child elements
 
 None.
   
-#### Parent elements
+### Parent elements
 
 |**Element**|**Description**|
 |:-----|:-----|
@@ -71,12 +71,12 @@ The schema that describes this element is located in the EWS virtual directory o
    
 ## See also
 
-#### Reference
+
 
 [DeleteAttachment](deleteattachment.md)
   
 [DeleteAttachment operation](deleteattachment-operation.md)
-#### Concepts
+
 
 [EWS XML elements in Exchange](ews-xml-elements-in-exchange.md)
 

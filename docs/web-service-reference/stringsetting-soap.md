@@ -29,18 +29,18 @@ The **StringSetting** element represents a user setting the value of which is of
 
 The following sections describe attributes, child elements, and parent elements.
   
-#### Attributes
+### Attributes
 
 None.
   
-#### Child elements
+### Child elements
 
 |**Element**|**Description**|
 |:-----|:-----|
 |[Name (SOAP)](name-soap.md) <br/> |Represents a user setting name.  <br/> |
 |[Value (SOAP)](value-soap.md) <br/> |Represents a user setting value.  <br/> |
    
-#### Parent elements
+### Parent elements
 
 None.
   
@@ -63,7 +63,7 @@ The **StringSetting** type extends the **UserSetting** type.
    
 ## See also
 
-#### Reference
+
 
 [GetUserSettings operation (SOAP)](getusersettings-operation-soap.md)
   

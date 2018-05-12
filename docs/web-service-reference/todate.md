@@ -25,15 +25,15 @@ The **ToDate** element specifies the date that the message was received.
 
 The following sections describe attributes, child elements, and parent elements.
   
-#### Attributes
+### Attributes
 
 None.
   
-#### Child elements
+### Child elements
 
 None.
   
-#### Parent elements
+### Parent elements
 
 [FindMailboxStatisticsByKeywords](findmailboxstatisticsbykeywords.md)
   

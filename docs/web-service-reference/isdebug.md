@@ -25,15 +25,15 @@ The **IsDebug** element is not used.
 
 The following sections describe attributes, child elements, and parent elements.
   
-#### Attributes
+### Attributes
 
 None.
   
-#### Child elements
+### Child elements
 
 None.
   
-#### Parent elements
+### Parent elements
 
 [GetClientExtensionResponse](getclientextensionresponse.md)
   

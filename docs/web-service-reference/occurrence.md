@@ -34,11 +34,11 @@ The **Occurrence** element represents a single modified occurrence of a recurrin
 
 The following sections describe attributes, child elements, and parent elements.
   
-#### Attributes
+### Attributes
 
 None.
   
-#### Child elements
+### Child elements
 
 |**Element**|**Description**|
 |:-----|:-----|
@@ -47,7 +47,7 @@ None.
 |[End ](end-ex15websvcsotherref.md) <br/> |Represents the end time of a modified occurrence of a recurring calendar item.  <br/> |
 |[OriginalStart](originalstart.md) <br/> |Represents the original start time of a modified occurrence of a recurring calendar item.  <br/> |
    
-#### Parent elements
+### Parent elements
 
 |**Element**|**Description**|
 |:-----|:-----|
@@ -68,7 +68,7 @@ The schema that describes this element is located in the EWS virtual directory o
    
 ## See also
 
-#### Concepts
+
 
 [EWS XML elements in Exchange](ews-xml-elements-in-exchange.md)
 

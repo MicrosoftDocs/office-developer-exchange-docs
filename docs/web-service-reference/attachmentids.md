@@ -20,7 +20,7 @@ description: "The AttachmentIds element contains an array of attachment identifi
 
 The **AttachmentIds** element contains an array of attachment identifiers. 
   
-```
+```xml
 <AttachmentIds>
    <AttachmentId Id=""/>
 </AttachmentIds>
@@ -31,17 +31,17 @@ The **AttachmentIds** element contains an array of attachment identifiers.
 
 The following sections describe attributes, child elements, and parent elements.
   
-#### Attributes
+### Attributes
 
 None.
   
-#### Child elements
+### Child elements
 
 |**Element**|**Description**|
 |:-----|:-----|
 |[AttachmentId (GetAttachment and DeleteAttachment)](attachmentid-getattachment-and-deleteattachment.md) <br/> |The element that identifies a single attachment.  <br/> |
    
-#### Parent elements
+### Parent elements
 
 |**Element**|**Description**|
 |:-----|:-----|
@@ -63,7 +63,7 @@ The schema that describes this element is located in the EWS virtual directory o
    
 ## See also
 
-#### Reference
+
 
 [DeleteAttachment operation](deleteattachment-operation.md)
   

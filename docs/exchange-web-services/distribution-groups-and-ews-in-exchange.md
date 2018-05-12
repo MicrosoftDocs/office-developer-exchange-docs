@@ -104,12 +104,12 @@ You can [use Exchange Management Shell cmdlets](http://msdn.microsoft.com/en-us/
 ## In this section
 <a name="bk_UsingEMS"> </a>
 
-- [How to: Create contact groups by using EWS in Exchange](how-to-create-contact-groups-by-using-ews-in-exchange.md)
+- [Create contact groups by using EWS in Exchange](how-to-create-contact-groups-by-using-ews-in-exchange.md)
     
-- [How to: Expand distribution groups by using EWS in Exchange 2013](how-to-expand-distribution-groups-by-using-ews-in-exchange-2013.md)
+- [Expand distribution groups by using EWS in Exchange 2013](how-to-expand-distribution-groups-by-using-ews-in-exchange-2013.md)
     
-## Additional resources
-<a name="bk_addresources"> </a>
+## See also
+
 
 - [Develop web service clients for Exchange](develop-web-service-clients-for-exchange.md)
     

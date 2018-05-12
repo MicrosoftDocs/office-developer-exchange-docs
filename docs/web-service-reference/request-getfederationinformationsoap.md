@@ -28,17 +28,17 @@ The **Request** element represents a [GetFederationInformationRequest (SOAP)](ge
 
 The following sections describe attributes, child elements, and parent elements.
   
-#### Attributes
+### Attributes
 
 None.
   
-#### Child elements
+### Child elements
 
 |**Element**|**Description**|
 |:-----|:-----|
 |[Domain (GetFederationInformation) (SOAP)](domain-getfederationinformationsoap.md) <br/> |Identifies the domain that has a federation trust.  <br/> |
    
-#### Parent elements
+### Parent elements
 
 |**Element**|**Description**|
 |:-----|:-----|
@@ -55,7 +55,7 @@ None.
    
 ## See also
 
-#### Other resources
+
 
 [Working with Autodiscover](http://msdn.microsoft.com/library/39726b67-2eb2-451b-9307-cfd0b518b55c%28Office.15%29.aspx)
 

@@ -24,15 +24,15 @@ The **DisplayName (FederatedDirectoryGroupType)** element is intended for intern
 
 The following sections describe attributes, child elements, and parent elements.
   
-#### Attributes
+### Attributes
 
 None.
   
-#### Child elements
+### Child elements
 
 None.
   
-#### Parent elements
+### Parent elements
 
 None.
   

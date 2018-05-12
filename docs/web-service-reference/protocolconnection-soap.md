@@ -30,11 +30,11 @@ The **ProtocolConnection** element represents the protocol connection of the ser
 
 The following sections describe attributes, child elements, and parent elements.
   
-#### Attributes
+### Attributes
 
 None.
   
-#### Child elements
+### Child elements
 
 |**Element**|**Description**|
 |:-----|:-----|
@@ -42,7 +42,7 @@ None.
 |[Port (SOAP)](port-soap.md) <br/> |Represents the port number to use for the protocol.  <br/> |
 |[EncryptionMethod (SOAP)](encryptionmethod-soap.md) <br/> |Represents the cryptographic method that is used for the POP, IMAP, and SMTP protocols.  <br/> |
    
-#### Parent elements
+### Parent elements
 
 |**Element**|**Description**|
 |:-----|:-----|
@@ -63,7 +63,7 @@ None.
    
 ## See also
 
-#### Reference
+
 
 [ProtocolConnectionCollectionSetting (SOAP)](protocolconnectioncollectionsetting-soap.md)
 

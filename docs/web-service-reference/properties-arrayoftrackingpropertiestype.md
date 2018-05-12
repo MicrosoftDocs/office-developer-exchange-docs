@@ -35,17 +35,17 @@ The **Properties** element contains a list of one or more tracking properties.
 
 The following sections describe attributes, child elements, and parent elements.
   
-#### Attributes
+### Attributes
 
 None.
   
-#### Child elements
+### Child elements
 
 |**Element**|**Description**|
 |:-----|:-----|
 |[TrackingPropertyType](trackingpropertytype.md) <br/> |Represents a name and value pair of strings that is used to create properties for message tracking reports.  <br/> |
    
-#### Parent elements
+### Parent elements
 
 |**Element**|**Description**|
 |:-----|:-----|
@@ -76,12 +76,12 @@ The schema that describes this element is located in the IIS virtual directory t
    
 ## See also
 
-#### Reference
+
 
 [FindMessageTrackingReport operation](findmessagetrackingreport-operation.md)
   
 [GetMessageTrackingReport operation](getmessagetrackingreport-operation.md)
-#### Concepts
+
 
 [EWS XML elements in Exchange](ews-xml-elements-in-exchange.md)
 

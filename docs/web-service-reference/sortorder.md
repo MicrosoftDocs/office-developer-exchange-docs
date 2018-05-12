@@ -31,17 +31,17 @@ The **SortOrder** element defines how items are sorted in a **FindItem** or **Fi
 
 The following sections describe attributes, child elements, and parent elements.
   
-#### Attributes
+### Attributes
 
 None.
   
-#### Child elements
+### Child elements
 
 |**Element**|**Description**|
 |:-----|:-----|
 |[FieldOrder](fieldorder.md) <br/> |Represents a single field by which to sort results and indicates the direction for the sort. One or more of these elements may be included. [FieldOrder](fieldorder.md) elements are applied in the order specified for sorting.  <br/> |
    
-#### Parent elements
+### Parent elements
 
 |**Element**|**Description**|
 |:-----|:-----|
@@ -67,12 +67,12 @@ The schema that describes this element is located in the IIS virtual directory t
    
 ## See also
 
-#### Reference
+
 
 [FindItem operation](finditem-operation.md)
   
 [FindConversation operation](findconversation-operation.md)
-#### Concepts
+
 
 [EWS XML elements in Exchange](ews-xml-elements-in-exchange.md)
 

@@ -26,18 +26,18 @@ The **ReferenceAttachment** element specifies XXX.
 
 The following sections describe attributes, child elements, and parent elements.
   
-#### Attributes
+### Attributes
 
 |**Attribute**|**Description**|
 |:-----|:-----|
 |**Id** <br/> |The text value of the **Id** attribute is a recurring master item's unique identifier. This is a **string** value.  <br/> |
 |**ChangeKey** <br/> |The text value of the **ChangeKey** attribute is the recurring master item's change key. This is a **string** value.  <br/> |
    
-#### Child elements
+### Child elements
 
 Ranges
   
-#### Parent elements
+### Parent elements
 
 ItemIds | GlobalItemIds | DraftItemIds| ContactIds | GroupIds
   

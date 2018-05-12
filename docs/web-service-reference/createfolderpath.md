@@ -28,15 +28,15 @@ The **CreateFolderPath** element is used to create a folder path and includes a 
 
 The following sections describe attributes, child elements, and parent elements.
   
-#### Attributes
+### Attributes
 
 None.
   
-#### Child elements
+### Child elements
 
 [ParentFolderId (TargetFolderIdType)](parentfolderid-targetfolderidtype.md) | [RelativeFolderPath](relativefolderpath.md)
   
-#### Parent elements
+### Parent elements
 
 None.
   

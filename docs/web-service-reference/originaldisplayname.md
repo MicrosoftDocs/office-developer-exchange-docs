@@ -25,15 +25,15 @@ The **OriginalDisplayName** element contains the original display name associate
 
 The following sections describe attributes, child elements, and parent elements.
   
-#### Attributes
+### Attributes
 
 None.
   
-#### Child elements
+### Child elements
 
 None.
   
-#### Parent elements
+### Parent elements
 
 [SendingAs](sendingas.md) | [Mailbox](mailbox.md) | [EmailAddress (EmailAddressType)](emailaddress-emailaddresstype.md) | [RoomList](roomlist.md) | [ActingAs](actingas.md) | [Sender (EmailAddressType)](sender-emailaddresstype.md) | [PurportedSender](purportedsender.md) | [Recipient](recipient.md) | [FederatedDeliveryMailbox](federateddeliverymailbox.md) | [RecipientFilter](recipientfilter.md) | [Address (EmailAddressType)](address-emailaddresstype.md) | [Id (EmailAddressType)](id-emailaddresstype.md) | [Value (EmailAddressType)](value-emailaddresstype.md)
   
