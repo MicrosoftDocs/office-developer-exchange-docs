@@ -81,7 +81,7 @@ In versions of Exchange earlier than major version 15, the item identifier for t
    
 ## See also
 
-#### Concepts
+
 
 [EWS XML elements in Exchange](ews-xml-elements-in-exchange.md)
 

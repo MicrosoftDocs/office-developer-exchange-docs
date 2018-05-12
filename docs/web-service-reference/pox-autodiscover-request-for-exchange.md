@@ -75,10 +75,10 @@ The X-ClientCanHandle header is available in Office 365, Exchange Online, and on
   
 ## See also
 
-#### Reference
+
 
 [POX Autodiscover response for Exchange](pox-autodiscover-response-for-exchange.md)
-#### Concepts
+
 
 [POX Autodiscover web service reference for Exchange](pox-autodiscover-web-service-reference-for-exchange.md)
   

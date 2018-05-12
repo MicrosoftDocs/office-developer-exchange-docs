@@ -1,5 +1,5 @@
 ---
-title: "How to Maintain affinity between a group of subscriptions and the Mailbox server in Exchange"
+title: "Maintain affinity between a group of subscriptions and the Mailbox server in Exchange"
  
  
 manager: sethgros
@@ -12,7 +12,7 @@ ms.assetid: 1bda4094-88c3-4f61-9219-6ee70f6e81cf
 description: "Find out about maintaining the affinity between a group of subscriptions and the Mailbox server."
 ---
 
-# How to: Maintain affinity between a group of subscriptions and the Mailbox server in Exchange
+# Maintain affinity between a group of subscriptions and the Mailbox server in Exchange
 
 Find out about maintaining the affinity between a group of subscriptions and the Mailbox server.
   
@@ -114,7 +114,7 @@ The following example shows how budgets are handled between any target mailbox a
 ## Example: Maintaining affinity between a group of subscriptions and the Mailbox server
 <a name="bk_ce"> </a>
 
-Okay, let's see it in action. The following code example shows you how to group users and use the X-AnchorMailbox and X-PreferServerAffinity headers and the X-BackendOverrideCookie cookie to maintain affinity with the Mailbox server. Because the headers and the cookie are of primary importance in the affinity story, this example focuses on the EWS XML requests and responses. To use the EWS Managed API to create the body of the subscription requests and responses, see [How to: Stream notifications about mailbox events by using EWS in Exchange](how-to-stream-notifications-about-mailbox-events-by-using-ews-in-exchange.md) and [How to: Pull notifications about mailbox events by using EWS in Exchange](how-to-pull-notifications-about-mailbox-events-by-using-ews-in-exchange.md). This section includes additional steps particular to maintaining affinity and adding the headers to your requests.
+Okay, let's see it in action. The following code example shows you how to group users and use the X-AnchorMailbox and X-PreferServerAffinity headers and the X-BackendOverrideCookie cookie to maintain affinity with the Mailbox server. Because the headers and the cookie are of primary importance in the affinity story, this example focuses on the EWS XML requests and responses. To use the EWS Managed API to create the body of the subscription requests and responses, see [Stream notifications about mailbox events by using EWS in Exchange](how-to-stream-notifications-about-mailbox-events-by-using-ews-in-exchange.md) and [Pull notifications about mailbox events by using EWS in Exchange](how-to-pull-notifications-about-mailbox-events-by-using-ews-in-exchange.md). This section includes additional steps particular to maintaining affinity and adding the headers to your requests.
   
 This example has four users: alfred@contoso.com, alisa@contoso.com, ronnie@contoso.com, and sadie@contoso.com. The following figure shows the GroupingInformation and ExternalEwsUrl [Autodiscover settings](how-to-get-user-settings-from-exchange-by-using-autodiscover.md) for the users. 
   
@@ -338,13 +338,13 @@ In Exchange 2010, the client only knows the address of the load balancer, and th
 You might notice that the exchangecookie that Exchange 2010 uses is still returned by later versions. There's no harm in including this cookie in requests, but later versions of Exchange ignore it.
   
 ## See also
-<a name="bk_addresources"> </a>
+
 
 - [Notification subscriptions, mailbox events, and EWS in Exchange](notification-subscriptions-mailbox-events-and-ews-in-exchange.md)
     
-- [How to: Stream notifications about mailbox events by using EWS in Exchange](how-to-stream-notifications-about-mailbox-events-by-using-ews-in-exchange.md)
+- [Stream notifications about mailbox events by using EWS in Exchange](how-to-stream-notifications-about-mailbox-events-by-using-ews-in-exchange.md)
     
-- [How to: Pull notifications about mailbox events by using EWS in Exchange](how-to-pull-notifications-about-mailbox-events-by-using-ews-in-exchange.md)
+- [Pull notifications about mailbox events by using EWS in Exchange](how-to-pull-notifications-about-mailbox-events-by-using-ews-in-exchange.md)
     
 - [Handling notification-related errors in EWS in Exchange](handling-notification-related-errors-in-ews-in-exchange.md)
     

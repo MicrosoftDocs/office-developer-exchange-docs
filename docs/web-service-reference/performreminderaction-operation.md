@@ -164,7 +164,7 @@ The error response SOAP body contains the following elements:
 For additional error codes that are generic to EWS, see [ResponseCode](responsecode.md).
   
 ## See also
-<a name="bk_addresources"> </a>
+
 
 - [GetReminders operation](getreminders-operation.md)
     

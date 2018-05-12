@@ -63,7 +63,7 @@ The **StringSetting** type extends the **UserSetting** type.
    
 ## See also
 
-#### Reference
+
 
 [GetUserSettings operation (SOAP)](getusersettings-operation-soap.md)
   

@@ -125,7 +125,7 @@ You can use the **ConvertId** operation or method to convert several different i
 |HexEntryId  <br/> |A hexadecimal-encoded representation of the **PR_ENTRYID** property that is used for the availability calendar event identifier. This is also the identifier format that Outlook uses.  <br/> |
    
 ## See also
-<a name="bk_addresources"> </a>
+
 
 - [Develop web service clients for Exchange](develop-web-service-clients-for-exchange.md)
     

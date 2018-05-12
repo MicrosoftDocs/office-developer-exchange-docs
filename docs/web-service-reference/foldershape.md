@@ -89,7 +89,7 @@ The following example of a request demonstrates how to find all folders located 
    
 ## See also
 
-#### Reference
+
 
 [FindFolder](findfolder.md)
 

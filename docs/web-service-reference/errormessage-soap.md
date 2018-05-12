@@ -61,7 +61,7 @@ The text value represents the error message.
    
 ## See also
 
-#### Reference
+
 
 [GetUserSettings operation (SOAP)](getusersettings-operation-soap.md)
   

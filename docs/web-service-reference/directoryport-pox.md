@@ -59,7 +59,7 @@ The **DirectoryPort** element is only used when the [Type (POX)](type-pox.md) el
   
 ## See also
 
-#### Concepts
+
 
 [POX Autodiscover XML elements for Exchange](pox-autodiscover-xml-elements-for-exchange.md)
 

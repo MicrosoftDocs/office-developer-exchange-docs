@@ -61,7 +61,7 @@ If **none** is specified, Windows will validate the certificate principal name a
   
 ## See also
 
-#### Concepts
+
 
 [POX Autodiscover XML elements for Exchange](pox-autodiscover-xml-elements-for-exchange.md)
 

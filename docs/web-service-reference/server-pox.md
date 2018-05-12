@@ -55,7 +55,7 @@ The text value identifies the server. For protocols such as POP3, SMTP, IMAP, or
   
 ## See also
 
-#### Concepts
+
 
 [POX Autodiscover XML elements for Exchange](pox-autodiscover-xml-elements-for-exchange.md)
 

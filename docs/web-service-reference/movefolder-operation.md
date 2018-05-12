@@ -188,7 +188,7 @@ The MoveFolder error response includes the following elements:
     
 ## See also
 
-#### Reference
+
 
 [CopyFolder operation](copyfolder-operation.md)
 

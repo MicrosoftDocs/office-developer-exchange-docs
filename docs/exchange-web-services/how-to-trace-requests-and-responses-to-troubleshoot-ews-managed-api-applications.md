@@ -72,7 +72,7 @@ class TraceListener : ITraceListener
 
 - [Start using web services in Exchange](start-using-web-services-in-exchange.md)
 - [Handling Autodiscover error messages](handling-autodiscover-error-messages.md)    
-- [How to: Reference the EWS Managed API assembly](how-to-reference-the-ews-managed-api-assembly.md)    
-- [How to: Communicate with EWS by using the EWS Managed API](how-to-communicate-with-ews-by-using-the-ews-managed-api.md)
+- [Reference the EWS Managed API assembly](how-to-reference-the-ews-managed-api-assembly.md)    
+- [Communicate with EWS by using the EWS Managed API](how-to-communicate-with-ews-by-using-the-ews-managed-api.md)
     
 

@@ -32,7 +32,7 @@ The following table lists the versions of Exchange that include EWS and the majo
 |Exchange 2007  <br/> | The following features were introduced in the initial release version of Exchange 2007:  <br/>  Full access to items, folders, and attachments (Create, Get, Update, Delete)  <br/>  Availability  <br/>  Out of Office settings  <br/>  Notifications  <br/>  Synchronization  <br/>  Name resolution  <br/>  Distribution list (DL) expansion  <br/>  Search  <br/> |
    
 ## See also
-<a name="bk_addresources"> </a>
+
 
 - [Start using web services in Exchange](start-using-web-services-in-exchange.md)
     

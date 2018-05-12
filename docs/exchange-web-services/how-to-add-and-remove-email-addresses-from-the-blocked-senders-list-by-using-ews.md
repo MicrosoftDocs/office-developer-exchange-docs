@@ -1,5 +1,5 @@
 ---
-title: "How to Add and remove email addresses from the Blocked Senders List by using EWS in Exchange"
+title: "Add and remove email addresses from the Blocked Senders List by using EWS in Exchange"
  
  
 manager: sethgros
@@ -12,7 +12,7 @@ ms.assetid: b88288ee-6af7-45b5-a55c-5929cd0c16f1
 description: "Find out how to use the EWS Managed API or EWS to add email addresses to and remove them from the Blocked Senders List."
 ---
 
-# How to: Add and remove email addresses from the Blocked Senders List by using EWS in Exchange
+# Add and remove email addresses from the Blocked Senders List by using EWS in Exchange
 
 Find out how to use the EWS Managed API or EWS to add email addresses to and remove them from the Blocked Senders List.
   
@@ -119,7 +119,7 @@ The following EWS SOAP response shows the successful response. The [MovedItemId]
 ```
 
 ## See also
-<a name="bk_addresources"> </a>
+
 
 - [Inbox management and EWS in Exchange](inbox-management-and-ews-in-exchange.md)
     

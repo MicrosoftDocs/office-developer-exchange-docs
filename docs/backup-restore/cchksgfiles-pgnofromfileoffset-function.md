@@ -18,9 +18,9 @@ description: "Last modified: February 22, 2013"
 
 # CChkSGFiles.PgnoFromFileOffset function
 
- **Last modified:** February 22, 2013 
+ 
   
- * **Applies to:** Exchange Server 2003 | Exchange Server 2007 | Exchange Server 2010 | Exchange Server 2013 * 
+**Applies to:** Exchange Server 2003 | Exchange Server 2007 | Exchange Server 2010 | Exchange Server 2013
   
 Returns the logical database page number that corresponds to the specified byte index in the physical database file. If the file offset is invalid, or if the **ErrCheckDbHeaders** function has not been called for the databases, this function returns 0 (zero). 
   

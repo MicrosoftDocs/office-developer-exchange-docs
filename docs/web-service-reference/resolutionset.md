@@ -78,14 +78,14 @@ The schema that describes this element is located in the EWS virtual directory o
    
 ## See also
 
-#### Reference
+
 
 [ResolveNames](resolvenames.md)
   
 [ResolveNamesResponse](resolvenamesresponse.md)
   
 [ResolveNames operation](resolvenames-operation.md)
-#### Concepts
+
 
 [EWS XML elements in Exchange](ews-xml-elements-in-exchange.md)
 

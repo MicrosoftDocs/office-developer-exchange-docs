@@ -55,7 +55,7 @@ The [LegacyDN (POX)](legacydn-pox.md) element provides an alternative element fo
   
 ## See also
 
-#### Concepts
+
 
 [POX Autodiscover XML elements for Exchange](pox-autodiscover-xml-elements-for-exchange.md)
 

@@ -1,5 +1,5 @@
 ---
-title: "How to Refresh configuration information by using Autodiscover"
+title: "Refresh configuration information by using Autodiscover"
  
  
 manager: sethgros
@@ -12,7 +12,7 @@ ms.assetid: c2f3c6a5-e8ea-4375-b41a-686a6f238d33
 description: "Learn how and when to refresh configuration information for your Exchange connection by using Autodiscover."
 ---
 
-# How to: Refresh configuration information by using Autodiscover
+# Refresh configuration information by using Autodiscover
 
 Learn how and when to refresh configuration information for your Exchange connection by using Autodiscover.
   
@@ -69,12 +69,12 @@ Refreshing your cached configuration information can help with some errors, but 
 |EWS error codes          Example: **ErrorConnectionFailed** <br/> |[ResponseCodeType](https://msdn.microsoft.com/library/Microsoft.Exchange.WebServices.Data.ResponseCodeType.aspx) <br/> | Most EWS error codes don't warrant refreshing your configuration information. However, the following specifically indicate that the configuration information needs to be updated:  <br/> **ErrorConnectionFailed** <br/> **ErrorMailboxMoveInProgress** <br/> |
    
 ## See also
-<a name="bk_addresources"> </a>
+
 
 - [Autodiscover for Exchange](autodiscover-for-exchange.md)
     
-- [How to: Generate a list of Autodiscover endpoints](how-to-generate-a-list-of-autodiscover-endpoints.md)
+- [Generate a list of Autodiscover endpoints](how-to-generate-a-list-of-autodiscover-endpoints.md)
     
-- [How to: Get user settings from Exchange by using Autodiscover](how-to-get-user-settings-from-exchange-by-using-autodiscover.md)
+- [Get user settings from Exchange by using Autodiscover](how-to-get-user-settings-from-exchange-by-using-autodiscover.md)
     
 

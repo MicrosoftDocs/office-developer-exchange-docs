@@ -118,7 +118,7 @@ The following elements are included in the response:
     
 ## See also
 
-#### Reference
+
 
 [UpdateInboxRules operation](updateinboxrules-operation.md)
 

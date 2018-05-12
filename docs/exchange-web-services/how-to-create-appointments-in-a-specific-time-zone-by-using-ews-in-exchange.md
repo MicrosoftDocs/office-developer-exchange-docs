@@ -1,5 +1,5 @@
 ---
-title: "How to Create appointments in a specific time zone by using EWS in Exchange"
+title: "Create appointments in a specific time zone by using EWS in Exchange"
  
  
 manager: sethgros
@@ -12,7 +12,7 @@ ms.assetid: e68aaa27-250e-4170-b099-077a979c127c
 description: "Learn how to create appointments in specific time zones by using the EWS Managed API or EWS in Exchange."
 ---
 
-# How to: Create appointments in a specific time zone by using EWS in Exchange
+# Create appointments in a specific time zone by using EWS in Exchange
 
 Learn how to create appointments in specific time zones by using the EWS Managed API or EWS in Exchange.
   
@@ -225,12 +225,12 @@ When the three appointments created by the previous EWS example requests are vie
 Now that you know how to create appointments in specific time zones, you might want to [update the time zones on existing appointments](how-to-update-the-time-zone-for-an-appointment-by-using-ews-in-exchange.md) to a different one. 
   
 ## See also
-<a name="bk_addresources"> </a>
+
 
 - [Time zones and EWS in Exchange](time-zones-and-ews-in-exchange.md)
     
-- [How to: Update the time zone for an appointment by using EWS in Exchange](how-to-update-the-time-zone-for-an-appointment-by-using-ews-in-exchange.md)
+- [Update the time zone for an appointment by using EWS in Exchange](how-to-update-the-time-zone-for-an-appointment-by-using-ews-in-exchange.md)
     
-- [How to: Create appointments and meetings by using EWS in Exchange 2013](how-to-create-appointments-and-meetings-by-using-ews-in-exchange-2013.md)
+- [Create appointments and meetings by using EWS in Exchange 2013](how-to-create-appointments-and-meetings-by-using-ews-in-exchange-2013.md)
     
 

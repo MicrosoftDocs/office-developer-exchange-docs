@@ -72,7 +72,7 @@ Service callback tokens enable mail apps to pass an access token to a third-part
 The service callback token is an opaque token that the third-party service attaches to the EWS request in a bearer authentication header. The token identifies the mail app and the mailbox to help secure the EWS request. To learn how to use service callback tokens, see the [Mail apps for Outlook: Get attachments from an Exchange server](http://code.msdn.microsoft.com/exchange/Mail-apps-for-Office-Get-38babdc9) sample. 
   
 ## See also
-<a name="bk_addresources"> </a>
+
 
 - [Controlling client application access to EWS in Exchange](controlling-client-application-access-to-ews-in-exchange.md)
     

@@ -195,7 +195,7 @@ The following example shows an error response to a **GetSharingMetadata** reques
 
 ## See also
 
-#### Reference
+
 
 [GetSharingMetadata](getsharingmetadata.md)
   
@@ -204,7 +204,7 @@ The following example shows an error response to a **GetSharingMetadata** reques
 [GetSharingMetadataResponseMessage](getsharingmetadataresponsemessage.md)
   
 [GetSharingMetadataResponseMessageType](https://msdn.microsoft.com/library/ExchangeWebServices.GetSharingMetadataResponseMessageType.aspx)
-#### Concepts
+
 
 [EWS operations in Exchange](ews-operations-in-exchange.md)
   

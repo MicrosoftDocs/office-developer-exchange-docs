@@ -55,7 +55,7 @@ The text value specifies whether the SMTP server requires that e-mail be downloa
   
 ## See also
 
-#### Concepts
+
 
 [POX Autodiscover XML elements for Exchange](pox-autodiscover-xml-elements-for-exchange.md)
 

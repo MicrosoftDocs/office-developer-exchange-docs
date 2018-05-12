@@ -65,11 +65,11 @@ Note that the EWS Managed API [HasAttachments](http://msdn.microsoft.com/en-us/l
 ## In this section
 <a name="bk_inthissection"> </a>
 
-- [How to: Add attachments by using EWS in Exchange](how-to-add-attachments-by-using-ews-in-exchange.md)
+- [Add attachments by using EWS in Exchange](how-to-add-attachments-by-using-ews-in-exchange.md)
     
-- [How to: Get attachments by using EWS in Exchange](how-to-get-attachments-by-using-ews-in-exchange.md)
+- [Get attachments by using EWS in Exchange](how-to-get-attachments-by-using-ews-in-exchange.md)
     
-- [How to: Delete attachments by using EWS in Exchange](how-to-delete-attachments-by-using-ews-in-exchange.md)
+- [Delete attachments by using EWS in Exchange](how-to-delete-attachments-by-using-ews-in-exchange.md)
     
 ## See also
 <a name="bk_additionalresources"> </a>

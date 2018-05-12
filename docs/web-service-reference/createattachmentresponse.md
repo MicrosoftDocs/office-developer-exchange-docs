@@ -60,12 +60,12 @@ The schema that describes this element is located in the EWS virtual directory o
    
 ## See also
 
-#### Reference
+
 
 [CreateAttachment operation](createattachment-operation.md)
   
 [CreateAttachment](createattachment.md)
-#### Concepts
+
 
 [EWS XML elements in Exchange](ews-xml-elements-in-exchange.md)
 

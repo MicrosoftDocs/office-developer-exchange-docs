@@ -466,11 +466,11 @@ If you're using EWS, use the [DeleteFolder operation](http://msdn.microsoft.com/
 The server responds with a [DeleteFolderResponse](http://msdn.microsoft.com/library/27578bda-ef0a-4a33-bccc-2c1bc1735424%28Office.15%29.aspx) message that includes a [ResponseCode](http://msdn.microsoft.com/library/4b84d670-74c9-4d6d-84e7-f0a9f76f0d93%28Office.15%29.aspx) value of **NoError**, which indicates success.
   
 ## See also
-<a name="bk_addresources"> </a>
+
 
 - [Search and EWS in Exchange](search-and-ews-in-exchange.md)
     
-- [How to: Use search filters with EWS in Exchange](how-to-use-search-filters-with-ews-in-exchange.md)
+- [Use search filters with EWS in Exchange](how-to-use-search-filters-with-ews-in-exchange.md)
     
 - [SearchFolder class](http://msdn.microsoft.com/en-us/library/microsoft.exchange.webservices.data.searchfolder%28v=exchg.80%29.aspx)
     

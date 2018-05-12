@@ -154,7 +154,7 @@ The following example shows an error response to a **GetSharingFolder** request.
 
 ## See also
 
-#### Reference
+
 
 [GetSharingFolder](getsharingfolder.md)
   
@@ -163,7 +163,7 @@ The following example shows an error response to a **GetSharingFolder** request.
 [GetSharingFolderResponseMessage](getsharingfolderresponsemessage.md)
   
 [GetSharingFolderResponseMessageType](https://msdn.microsoft.com/library/ExchangeWebServices.GetSharingFolderResponseMessageType.aspx)
-#### Concepts
+
 
 [EWS operations in Exchange](ews-operations-in-exchange.md)
   

@@ -80,10 +80,10 @@ The schema that describes this element is located in the IIS Virtual directory t
    
 ## See also
 
-#### Reference
+
 
 [GetSharingMetadata operation](getsharingmetadata-operation.md)
-#### Concepts
+
 
 [EWS XML elements in Exchange](ews-xml-elements-in-exchange.md)
 

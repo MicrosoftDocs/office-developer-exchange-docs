@@ -1,5 +1,5 @@
 ---
-title: "How to Manage Inbox rules by using EWS in Exchange"
+title: "Manage Inbox rules by using EWS in Exchange"
  
  
 manager: sethgros
@@ -12,7 +12,7 @@ ms.assetid: 982ddb78-5606-44b0-8aba-dbffc60d6085
 description: "Find out how to get, create, update, and delete Inbox rules by using the EWS Managed API or EWS in Exchange."
 ---
 
-# How to: Manage Inbox rules by using EWS in Exchange
+# Manage Inbox rules by using EWS in Exchange
 
 Find out how to get, create, update, and delete Inbox rules by using the EWS Managed API or EWS in Exchange.
   
@@ -905,7 +905,7 @@ private static FolderId GetFolderIdByName(ExchangeService service, WellKnownFold
 ```
 
 ## See also
-<a name="bk_addresources"> </a>
+
 
 - [Inbox management and EWS in Exchange](inbox-management-and-ews-in-exchange.md)
     

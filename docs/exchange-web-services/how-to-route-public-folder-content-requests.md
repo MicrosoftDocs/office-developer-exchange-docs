@@ -1,5 +1,5 @@
 ---
-title: "How to Route public folder content requests"
+title: "Route public folder content requests"
  
  
 manager: sethgros
@@ -12,7 +12,7 @@ ms.assetid: 59d2f05e-90fb-471e-ac06-70becc15b295
 description: "All requests for public folder information that involve the content of the public folder need to be routed to the public folder mailbox that holds the content for the target folder. To route the requests to that mailbox, you need to set the X-AnchorMailbox and X-PublicFolderMailbox headers to specific values."
 ---
 
-# How to: Route public folder content requests
+# Route public folder content requests
 
 All requests for public folder information that involve the content of the public folder need to be routed to the public folder mailbox that holds the content for the target folder. To route the requests to that mailbox, you need to set the **X-AnchorMailbox** and **X-PublicFolderMailbox** headers to specific values. 
   
@@ -219,7 +219,7 @@ Alternatively, if you do not want to use **Exchange 2013: Get user settings with
 </Autodiscover>
 ```
 
-For more information about the Autodiscover process, see [Autodiscover for Exchange](autodiscover-for-exchange.md), [How to: Generate a list of Autodiscover endpoints](how-to-generate-a-list-of-autodiscover-endpoints.md), and [How to: Get user settings from Exchange by using Autodiscover](how-to-get-user-settings-from-exchange-by-using-autodiscover.md).
+For more information about the Autodiscover process, see [Autodiscover for Exchange](autodiscover-for-exchange.md), [Generate a list of Autodiscover endpoints](how-to-generate-a-list-of-autodiscover-endpoints.md), and [Get user settings from Exchange by using Autodiscover](how-to-get-user-settings-from-exchange-by-using-autodiscover.md).
   
 ## Set the values of the X-AnchorMailbox and X-PublicFolderMailbox headers
 <a name="bk_setheadervalues"> </a>
@@ -277,14 +277,14 @@ Expect: 100-continue
 ```
 
 ## See also
-<a name="bk_addresources"> </a>
+
 
 - [Public folder access with EWS in Exchange](public-folder-access-with-ews-in-exchange.md)
     
 - [Autodiscover for Exchange](autodiscover-for-exchange.md)
     
-- [How to: Generate a list of Autodiscover endpoints](how-to-generate-a-list-of-autodiscover-endpoints.md)
+- [Generate a list of Autodiscover endpoints](how-to-generate-a-list-of-autodiscover-endpoints.md)
     
-- [How to: Get user settings from Exchange by using Autodiscover](how-to-get-user-settings-from-exchange-by-using-autodiscover.md)
+- [Get user settings from Exchange by using Autodiscover](how-to-get-user-settings-from-exchange-by-using-autodiscover.md)
     
 

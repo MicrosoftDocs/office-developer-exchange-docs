@@ -63,7 +63,7 @@ The following example of a GetUMProperties response shows a response to the GetU
 
 ## See also
 
-#### Reference
+
 
 [GetUMProperties (UM web service)](getumproperties-um-web-service.md)
   

@@ -92,10 +92,10 @@ In versions of Exchange starting with build 15.00.0986.00, the **ApplyConversati
    
 ## See also
 
-#### Reference
+
 
 [ApplyConversationAction operation](applyconversationaction-operation.md)
-#### Concepts
+
 
 [EWS XML elements in Exchange](ews-xml-elements-in-exchange.md)
 

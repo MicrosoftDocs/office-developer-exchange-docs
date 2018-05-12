@@ -57,7 +57,7 @@ Use this element to allow or suppress free/busy information from the server.
    
 ## See also
 
-#### Reference
+
 
 [GetOrganizationRelationshipSettings operation (SOAP)](getorganizationrelationshipsettings-operation-soap.md)
 

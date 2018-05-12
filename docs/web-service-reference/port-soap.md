@@ -55,7 +55,7 @@ The value is the port number to use for the protocol.
    
 ## See also
 
-#### Reference
+
 
 [GetUserSettings operation (SOAP)](getusersettings-operation-soap.md)
 

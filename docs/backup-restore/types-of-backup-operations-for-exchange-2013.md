@@ -16,9 +16,7 @@ description: "Find information about the different types of backups you can perf
 
 Find information about the different types of backups you can perform on your Exchange 2013 store databases, including full, copy, incremental, and differential backups.
   
- **Last modified:** September 17, 2015 
-  
- * **Applies to:** Exchange Server 2013 * 
+**Applies to:** Exchange Server 2013 
   
 This article provides information about the different types of backups you can perform on Exchange Server 2013 databases, and how those backups affect the database files. 
   
@@ -134,8 +132,8 @@ When the [VSS_BACKUP_TYPE](http://msdn.microsoft.com/en-us/library/windows/deskt
     
 - [Restoring Exchange 2013 databases](restoring-exchange-2013-databases.md)
     
-- [How to: Validate backup integrity by using the CHKSGFILES API in Exchange 2013](how-to-validate-backup-integrity-by-using-the-chksgfiles-api-in-exchange-2013.md)
+- [Validate backup integrity by using the CHKSGFILES API in Exchange 2013](how-to-validate-backup-integrity-by-using-the-chksgfiles-api-in-exchange-2013.md)
     
-- [How to: Validate backup integrity by using the Eseutil tool in Exchange 2013](how-to-validate-backup-integrity-by-using-the-eseutil-tool-in-exchange-2013.md)
+- [Validate backup integrity by using the Eseutil tool in Exchange 2013](how-to-validate-backup-integrity-by-using-the-eseutil-tool-in-exchange-2013.md)
     
 

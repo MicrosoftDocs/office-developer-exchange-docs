@@ -1,5 +1,5 @@
 ---
-title: "How to Update a recurring series by using EWS in Exchange"
+title: "Update a recurring series by using EWS in Exchange"
  
  
 manager: sethgros
@@ -12,7 +12,7 @@ ms.assetid: c922072f-ce33-4bff-97b0-1c1d0f9b880d
 description: "Learn how to update an entire recurring series at once by using the EWS Managed API or EWS in Exchange."
 ---
 
-# How to: Update a recurring series by using EWS in Exchange
+# Update a recurring series by using EWS in Exchange
 
 Learn how to update an entire recurring series at once by using the EWS Managed API or EWS in Exchange.
   
@@ -221,16 +221,16 @@ The following example updates the recurring series in the following ways:
 The server responds with an [UpdateItemResponse](http://msdn.microsoft.com/library/023b79b4-c675-4669-9112-d85499ec4fc4%28Office.15%29.aspx) element that includes a [ResponseCode](http://msdn.microsoft.com/library/4b84d670-74c9-4d6d-84e7-f0a9f76f0d93%28Office.15%29.aspx) element with a value of **NoError**, which indicates that the update was successful.
   
 ## See also
-<a name="bk_addresources"> </a>
+
 
 - [Calendars and EWS in Exchange](calendars-and-ews-in-exchange.md)
     
 - [Recurrence patterns and EWS](recurrence-patterns-and-ews.md)
     
-- [How to: Update appointments and meetings by using EWS in Exchange](how-to-update-appointments-and-meetings-by-using-ews-in-exchange.md)
+- [Update appointments and meetings by using EWS in Exchange](how-to-update-appointments-and-meetings-by-using-ews-in-exchange.md)
     
-- [How to: Update a recurring series by using EWS](how-to-update-a-recurring-series-by-using-ews.md)
+- [Update a recurring series by using EWS](how-to-update-a-recurring-series-by-using-ews.md)
     
-- [How to: Access a recurring series by using EWS in Exchange](how-to-access-a-recurring-series-by-using-ews-in-exchange.md)
+- [Access a recurring series by using EWS in Exchange](how-to-access-a-recurring-series-by-using-ews-in-exchange.md)
     
 

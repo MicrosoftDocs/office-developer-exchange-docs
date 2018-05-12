@@ -69,7 +69,7 @@ If the technology your application uses is not supported or deemphasized in Exch
 |WMI providers  <br/> |No  <br/> |[Exchange Management Shell](http://msdn.microsoft.com/library/8cc0c4fa-9e13-45cb-88da-0486f2ac1bd0%28Office.15%29.aspx) <br/> |None.  <br/> |
    
 ## See also
-<a name="bk_addresources"> </a>
+
 
 - [Office 365 APIs platform overview](http://msdn.microsoft.com/library/16fbf0c0-5470-466b-aab8-a0c9074c94e2%28Office.15%29.aspx)
     

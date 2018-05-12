@@ -60,7 +60,7 @@ If this element is not present, the latest service version is used.
    
 ## See also
 
-#### Reference
+
 
 [GetUserSettings operation (SOAP)](getusersettings-operation-soap.md)
   

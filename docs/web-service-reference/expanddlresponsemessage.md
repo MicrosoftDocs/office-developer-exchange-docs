@@ -91,10 +91,10 @@ The schema that describes this element is located in the EWS virtual directory o
    
 ## See also
 
-#### Reference
+
 
 [ExpandDL operation](expanddl-operation.md)
-#### Concepts
+
 
 [EWS reference for Exchange](ews-reference-for-exchange.md)
   

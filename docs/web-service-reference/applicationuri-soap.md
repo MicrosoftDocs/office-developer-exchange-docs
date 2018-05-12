@@ -55,7 +55,7 @@ The text value represents the URI of the application.
    
 ## See also
 
-#### Reference
+
 
 [GetFederationInformation operation (SOAP)](getfederationinformation-operation-soap.md)
 

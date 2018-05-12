@@ -116,7 +116,7 @@ Some points to note about deleting items:
 - [Handling deletion-related errors in EWS in Exchange](handling-deletion-related-errors-in-ews-in-exchange.md)
     
 ## See also
-<a name="bk_addresources"> </a>
+
 
 - [Folders and items in EWS in Exchange](folders-and-items-in-ews-in-exchange.md)
     
@@ -138,8 +138,8 @@ Some points to note about deleting items:
     
 - [Exchange 2013: Delete contacts programmatically from Exchange servers](http://code.msdn.microsoft.com/exchange/Exchange-2013-Delete-3b8b0640)
     
-- [How to: Delete appointments and cancel meetings by using EWS in Exchange](how-to-delete-appointments-and-cancel-meetings-by-using-ews-in-exchange.md)
+- [Delete appointments and cancel meetings by using EWS in Exchange](how-to-delete-appointments-and-cancel-meetings-by-using-ews-in-exchange.md)
     
-- [How to: Manage persistent application settings by using EWS in Exchange](how-to-manage-persistent-application-settings-by-using-ews-in-exchange.md)
+- [Manage persistent application settings by using EWS in Exchange](how-to-manage-persistent-application-settings-by-using-ews-in-exchange.md)
     
 

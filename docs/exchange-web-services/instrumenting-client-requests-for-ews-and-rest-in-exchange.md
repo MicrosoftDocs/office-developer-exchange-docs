@@ -64,11 +64,11 @@ We maintain reports for these latencies and use them to continuously improve EWS
 After you've added client instrumentation to your application, you're better prepared if something goes wrong. If that happens, you can use your instrumentation data to [troubleshoot your application](tools-and-resources-for-troubleshooting-ews-applications-for-exchange.md).
   
 ## See also
-<a name="bk_addresources"> </a>
+
 
 - [EWS client design overview for Exchange](ews-client-design-overview-for-exchange.md)
     
-- [How to: Trace requests and responses to troubleshoot EWS Managed API applications](how-to-trace-requests-and-responses-to-troubleshoot-ews-managed-api-applications.md)
+- [Trace requests and responses to troubleshoot EWS Managed API applications](how-to-trace-requests-and-responses-to-troubleshoot-ews-managed-api-applications.md)
     
 - [Tools and resources for troubleshooting EWS applications for Exchange](tools-and-resources-for-troubleshooting-ews-applications-for-exchange.md)
     

@@ -52,7 +52,7 @@ Fortunately, EWS and the EWS Managed API provide a rich set of operations and me
 
 Calendar folders contain calendar items. Calendar folders have a [folder class](http://msdn.microsoft.com/library/0041d135-2869-4612-89a5-d1aa86aa1093%28Office.15%29.aspx) of **IPF.Appointment**, and can include only the items defined by the [ItemClass](http://msdn.microsoft.com/en-us/library/microsoft.exchange.webservices.data.item.itemclass%28v=exchg.80%29.aspx) EWS Managed API property, which is associated with an [Appointment Class](http://msdn.microsoft.com/en-us/library/microsoft.exchange.webservices.data.appointment%28v=exchg.80%29.aspx) object, or the EWS [CalendarItemType](http://msdn.microsoft.com/library/1feb0788-adf7-4a7c-830c-005214ad930f%28Office.15%29.aspx) element. 
   
-Items in a Calendar folder are a little different from items in other folders in a mailbox because occurrences in a recurring series and exceptions to a recurring series are not actual items in the mailbox, but rather are stored internally as attachments to a recurring master. Therefore, in order to retrieve all appointments in a given date range, you need to use a calendar view. To learn more about retrieving appointments and calendar views, see [How to: Get appointments and meetings by using EWS in Exchange](how-to-get-appointments-and-meetings-by-using-ews-in-exchange.md).
+Items in a Calendar folder are a little different from items in other folders in a mailbox because occurrences in a recurring series and exceptions to a recurring series are not actual items in the mailbox, but rather are stored internally as attachments to a recurring master. Therefore, in order to retrieve all appointments in a given date range, you need to use a calendar view. To learn more about retrieving appointments and calendar views, see [Get appointments and meetings by using EWS in Exchange](how-to-get-appointments-and-meetings-by-using-ews-in-exchange.md).
   
 ## Meetings and appointments
 <a name="bk_meetings"> </a>
@@ -94,28 +94,28 @@ Note that recurrence properties exist on all calendar items, but they are popula
 ## In this section
 <a name="bk_inthissection"> </a>
 
-- [How to: Create appointments and meetings by using EWS in Exchange 2013](how-to-create-appointments-and-meetings-by-using-ews-in-exchange-2013.md)
+- [Create appointments and meetings by using EWS in Exchange 2013](how-to-create-appointments-and-meetings-by-using-ews-in-exchange-2013.md)
     
-- [How to: Create all-day events by using EWS in Exchange](how-to-create-all-day-events-by-using-ews-in-exchange.md)
+- [Create all-day events by using EWS in Exchange](how-to-create-all-day-events-by-using-ews-in-exchange.md)
     
-- [How to: Get appointments and meetings by using EWS in Exchange](how-to-get-appointments-and-meetings-by-using-ews-in-exchange.md)
+- [Get appointments and meetings by using EWS in Exchange](how-to-get-appointments-and-meetings-by-using-ews-in-exchange.md)
     
-- [How to: Update appointments and meetings by using EWS in Exchange](how-to-update-appointments-and-meetings-by-using-ews-in-exchange.md)
+- [Update appointments and meetings by using EWS in Exchange](how-to-update-appointments-and-meetings-by-using-ews-in-exchange.md)
     
-- [How to: Delete appointments and cancel meetings by using EWS in Exchange](how-to-delete-appointments-and-cancel-meetings-by-using-ews-in-exchange.md)
+- [Delete appointments and cancel meetings by using EWS in Exchange](how-to-delete-appointments-and-cancel-meetings-by-using-ews-in-exchange.md)
     
-- [How to: Get room lists by using EWS in Exchange](how-to-get-room-lists-by-using-ews-in-exchange.md)
+- [Get room lists by using EWS in Exchange](how-to-get-room-lists-by-using-ews-in-exchange.md)
     
-- [How to: Get free/busy information by using EWS in Exchange](how-to-get-free-busy-information-by-using-ews-in-exchange.md)
+- [Get free/busy information by using EWS in Exchange](how-to-get-free-busy-information-by-using-ews-in-exchange.md)
     
-- [How to: Propose a new meeting time by using EWS in Exchange](how-to-propose-a-new-meeting-time-by-using-ews-in-exchange.md)
+- [Propose a new meeting time by using EWS in Exchange](how-to-propose-a-new-meeting-time-by-using-ews-in-exchange.md)
     
-- [How to: Process calendar items in batches in Exchange](how-to-process-calendar-items-in-batches-in-exchange.md)
+- [Process calendar items in batches in Exchange](how-to-process-calendar-items-in-batches-in-exchange.md)
     
 - [Recurrence patterns and EWS](recurrence-patterns-and-ews.md)
     
 ## See also
-<a name="bk_addresources"> </a>
+
 
 - [Develop web service clients for Exchange](develop-web-service-clients-for-exchange.md)
     

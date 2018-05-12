@@ -62,7 +62,7 @@ The following example of a GetCallInfo response shows a response to a GetCallInf
 
 ## See also
 
-#### Reference
+
 
 [GetCallInfo (UM web service)](getcallinfo-um-web-service.md)
   

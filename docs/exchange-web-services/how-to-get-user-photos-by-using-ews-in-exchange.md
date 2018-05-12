@@ -1,5 +1,5 @@
 ---
-title: "How to Get user photos by using EWS in Exchange"
+title: "Get user photos by using EWS in Exchange"
  
  
 manager: sethgros
@@ -12,7 +12,7 @@ ms.assetid: f86d1099-1f57-47dc-abf2-4d5ae4e900a9
 description: "Learn how to get user photos that are associated with a mailbox or contact by using the EWS Managed API or EWS in Exchange."
 ---
 
-# How to: Get user photos by using EWS in Exchange
+# Get user photos by using EWS in Exchange
 
 Learn how to get user photos that are associated with a mailbox or contact by using the EWS Managed API or EWS in Exchange.
   
@@ -356,8 +356,8 @@ using (FileStream file = new FileStream(ContactName + ".jpg", FileMode.Create, S
 
 - [People and contacts in EWS in Exchange](people-and-contacts-in-ews-in-exchange.md)
     
-- [How to: Resolve ambiguous names by using EWS in Exchange 2013](how-to-resolve-ambiguous-names-by-using-ews-in-exchange-2013.md)
+- [Resolve ambiguous names by using EWS in Exchange 2013](how-to-resolve-ambiguous-names-by-using-ews-in-exchange-2013.md)
     
-- [How to: Process contacts in batches by using EWS in Exchange](how-to-process-contacts-in-batches-by-using-ews-in-exchange.md)
+- [Process contacts in batches by using EWS in Exchange](how-to-process-contacts-in-batches-by-using-ews-in-exchange.md)
     
 

@@ -61,7 +61,7 @@ The **MailStore** element is available to clients that implement the MAPI/HTTP p
   
 ## See also
 
-#### Concepts
+
 
 [POX Autodiscover XML elements for Exchange](pox-autodiscover-xml-elements-for-exchange.md)
 

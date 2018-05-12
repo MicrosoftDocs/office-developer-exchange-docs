@@ -67,12 +67,12 @@ The schema that describes this element is located in the EWS virtual directory o
    
 ## See also
 
-#### Reference
+
 
 [GetServerTimeZones operation](getservertimezones-operation.md)
   
 [GetServerTimeZonesResponse](getservertimezonesresponse.md)
-#### Concepts
+
 
 [EWS XML elements in Exchange](ews-xml-elements-in-exchange.md)
 

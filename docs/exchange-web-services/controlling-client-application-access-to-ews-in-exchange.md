@@ -78,11 +78,11 @@ Administrators use the following Exchange Management Shell cmdlets to configure 
 - [Set-OrganizationConfig](http://technet.microsoft.com/en-us/library/aa997443.aspx)
     
 ## See also
-<a name="bk_addresources"> </a>
+
 
 - [Start using web services in Exchange](start-using-web-services-in-exchange.md)
     
-- [How to: Control access to EWS in Exchange](how-to-control-access-to-ews-in-exchange.md)
+- [Control access to EWS in Exchange](how-to-control-access-to-ews-in-exchange.md)
     
 - [Exchange Management Shell](http://technet.microsoft.com/en-us/library/aa998267.aspx)
     

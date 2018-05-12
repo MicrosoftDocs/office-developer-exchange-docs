@@ -57,7 +57,7 @@ A text value is required. The text value contains the value to use for the value
    
 ## See also
 
-#### Reference
+
 
 [PlayOnPhoneGreeting operation (UM web service)](playonphonegreeting-operation-um-web-service.md)
   

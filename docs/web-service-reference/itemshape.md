@@ -78,14 +78,14 @@ The schema that describes this element is located in the IIS virtual directory t
    
 ## See also
 
-#### Reference
+
 
 [GetItem operation](getitem-operation.md)
   
 [FindItem operation](finditem-operation.md)
   
 [SyncFolderItems operation](syncfolderitems-operation.md)
-#### Concepts
+
 
 [EWS XML elements in Exchange](ews-xml-elements-in-exchange.md)
 

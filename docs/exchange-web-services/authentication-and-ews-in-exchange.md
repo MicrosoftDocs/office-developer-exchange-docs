@@ -50,7 +50,7 @@ To learn more about using OAuth authentication in your EWS application, see the 
     
 - [Configure Azure Active Directory](http://msdn.microsoft.com/library/055e1155-2d4d-4c85-b44e-d406872ba595%28Office.15%29.aspx), to enable your application to use OAuth tokens for authentication.
     
-- Review the sample code in [How to: Authenticate an EWS application by using OAuth](how-to-authenticate-an-ews-application-by-using-oauth.md) for example code that you can study. 
+- Review the sample code in [Authenticate an EWS application by using OAuth](how-to-authenticate-an-ews-application-by-using-oauth.md) for example code that you can study. 
     
 ## NTLM authentication
 
@@ -75,13 +75,13 @@ Basic authentication provides a, well, basic level of security for your client a
 You need to decide if basic authentication meets the security requirements of your organization and customers. Basic authentication can be the right choice if you want to avoid extensive setup tasks, for example for simple test or demonstration applications.
   
 ## See also
-<a name="bk_addresources"> </a>
+
 
 - [Start using web services in Exchange](start-using-web-services-in-exchange.md)
     
 - [Adding Sign-On to Your Web Application Using Microsoft Azure AD](http://msdn.microsoft.com/library/055e1155-2d4d-4c85-b44e-d406872ba595%28Office.15%29.aspx)
     
-- [How to: Control access to EWS in Exchange](how-to-control-access-to-ews-in-exchange.md)
+- [Control access to EWS in Exchange](how-to-control-access-to-ews-in-exchange.md)
     
 - [Controlling client application access to EWS in Exchange](controlling-client-application-access-to-ews-in-exchange.md)
     

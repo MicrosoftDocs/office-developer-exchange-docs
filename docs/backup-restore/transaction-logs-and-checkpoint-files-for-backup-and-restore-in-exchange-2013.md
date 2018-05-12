@@ -16,9 +16,7 @@ description: "Find information about transaction logs and checkpoint files and h
 
 Find information about transaction logs and checkpoint files and how they are used to back up and restore Exchange 2013 data.
   
- **Last modified:** September 17, 2015 
-  
- * **Applies to:** Exchange Server 2013 * 
+**Applies to:** Exchange Server 2013 
   
 This article describes how Exchange Server 2013 uses transaction logs and checkpoint files to help prevent data loss. It is important to be aware of this information when you develop backup and restore applications that use the Volume Shadow Copy Service (VSS) in versions of Windows Server starting with Windows Server 2008.
   

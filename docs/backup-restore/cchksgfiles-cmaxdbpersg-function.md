@@ -18,9 +18,9 @@ description: "Last modified: February 22, 2013"
 
 # CChkSGFiles.CMaxDbPerSG function
 
- **Last modified:** February 22, 2013 
+ 
   
- * **Applies to:** Exchange Server 2003 | Exchange Server 2007 | Exchange Server 2010 | Exchange Server 2013 * 
+**Applies to:** Exchange Server 2003 | Exchange Server 2007 | Exchange Server 2010 | Exchange Server 2013
   
 Returns the maximum number of databases allowed in a single Exchange server storage group.
   

@@ -1,5 +1,5 @@
 ---
-title: "How to Access a calendar as a delegate by using EWS in Exchange"
+title: "Access a calendar as a delegate by using EWS in Exchange"
 manager: sethgros
 ms.date: 3/9/2015
 ms.audience: Developer
@@ -8,7 +8,7 @@ ms.assetid: d7db4a1e-9ed6-41da-8529-a73ca285cdf2
 description: "Learn how to access a calendar as a delegate by using the EWS Managed API or EWS in Exchange."
 ---
 
-# How to: Access a calendar as a delegate by using EWS in Exchange
+#  Access a calendar as a delegate by using EWS in Exchange
 
 Learn how to access a calendar as a delegate by using the EWS Managed API or EWS in Exchange.
   
@@ -314,8 +314,8 @@ You can use EWS to get, update, or delete a meeting or appointment in the same w
 ## See also
 
 - [Delegate access and EWS in Exchange](delegate-access-and-ews-in-exchange.md)   
-- [How to: Add and remove delegates by using EWS in Exchange](how-to-add-and-remove-delegates-by-using-ews-in-exchange.md)  
-- [How to: Set folder permissions for another user by using EWS in Exchange](how-to-set-folder-permissions-for-another-user-by-using-ews-in-exchange.md) 
+- [Add and remove delegates by using EWS in Exchange](how-to-add-and-remove-delegates-by-using-ews-in-exchange.md)
+- [Set folder permissions for another user by using EWS in Exchange](how-to-set-folder-permissions-for-another-user-by-using-ews-in-exchange.md) 
 - [Calendars and EWS in Exchange](calendars-and-ews-in-exchange.md)
     
 

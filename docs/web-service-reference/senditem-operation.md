@@ -186,12 +186,12 @@ The following elements are used in the error response:
     
 ## See also
 
-#### Reference
+
 
 [SendItem operation](senditem-operation.md)
   
  **SendItemType**
-#### Concepts
+
 
 [EWS XML elements in Exchange](ews-xml-elements-in-exchange.md)
 

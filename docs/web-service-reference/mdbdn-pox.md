@@ -55,7 +55,7 @@ The text value represents the distinguished name of the mailbox database.
   
 ## See also
 
-#### Concepts
+
 
 [POX Autodiscover XML elements for Exchange](pox-autodiscover-xml-elements-for-exchange.md)
 

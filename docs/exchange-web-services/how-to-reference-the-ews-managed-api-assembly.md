@@ -55,6 +55,6 @@ The most common way to add a reference is to use Visual Studio. We know that som
 
 - [Get started with EWS Managed API client applications](get-started-with-ews-managed-api-client-applications.md)    
 - [Setting up your Exchange application development environment](setting-up-your-exchange-application-development-environment.md)   
-- [How to: Communicate with EWS by using the EWS Managed API](how-to-communicate-with-ews-by-using-the-ews-managed-api.md)
+- [Communicate with EWS by using the EWS Managed API](how-to-communicate-with-ews-by-using-the-ews-managed-api.md)
     
 

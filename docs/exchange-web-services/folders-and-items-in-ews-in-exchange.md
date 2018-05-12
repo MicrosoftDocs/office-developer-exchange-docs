@@ -86,7 +86,7 @@ Public folders are designed for shared access and provide an easy and effective 
 
 ### Hidden folders
 
-All the folders that Exchange creates at the root of the mailbox are hidden, and you can use the EWS Managed API or EWS to hide additional folders under the Top of Information Store. For more information about hidden folders, see [How to: Work with hidden folders by using EWS in Exchange](how-to-work-with-hidden-folders-by-using-ews-in-exchange.md). 
+All the folders that Exchange creates at the root of the mailbox are hidden, and you can use the EWS Managed API or EWS to hide additional folders under the Top of Information Store. For more information about hidden folders, see [Work with hidden folders by using EWS in Exchange](how-to-work-with-hidden-folders-by-using-ews-in-exchange.md). 
 
 <a name="bk_hiddenfolders"> </a>
 
@@ -139,15 +139,15 @@ Items have not changed in earlier and current product versions.
 
 ## In this section
 
-- [How to: Work with folders by using EWS in Exchange](how-to-work-with-folders-by-using-ews-in-exchange.md)
+- [Work with folders by using EWS in Exchange](how-to-work-with-folders-by-using-ews-in-exchange.md)
     
-- [How to: Work with hidden folders by using EWS in Exchange](how-to-work-with-hidden-folders-by-using-ews-in-exchange.md)
+- [Work with hidden folders by using EWS in Exchange](how-to-work-with-hidden-folders-by-using-ews-in-exchange.md)
     
-- [How to: Work with Exchange mailbox items by using EWS in Exchange](how-to-work-with-exchange-mailbox-items-by-using-ews-in-exchange.md)
+- [Work with Exchange mailbox items by using EWS in Exchange](how-to-work-with-exchange-mailbox-items-by-using-ews-in-exchange.md)
     
-- [Deleting items by using EWS in Exchange](deleting-items-by-using-ews-in-exchange.md)
+- [Delete items by using EWS in Exchange](deleting-items-by-using-ews-in-exchange.md)
     
-- [Exporting and importing items by using EWS in Exchange](exporting-and-importing-items-by-using-ews-in-exchange.md)
+- [Export and import items by using EWS in Exchange](exporting-and-importing-items-by-using-ews-in-exchange.md)
     
 ## See also
 

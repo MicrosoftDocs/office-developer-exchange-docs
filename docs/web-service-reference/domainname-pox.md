@@ -59,7 +59,7 @@ If no value is specified, the default authentication is to use the e-mail addres
   
 ## See also
 
-#### Concepts
+
 
 [POX Autodiscover XML elements for Exchange](pox-autodiscover-xml-elements-for-exchange.md)
 

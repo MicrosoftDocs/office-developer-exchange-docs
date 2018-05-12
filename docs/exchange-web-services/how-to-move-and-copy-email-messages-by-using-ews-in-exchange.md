@@ -1,5 +1,5 @@
 ---
-title: "How to Move and copy email messages by using EWS in Exchange"
+title: "Move and copy email messages by using EWS in Exchange"
  
  
 manager: sethgros
@@ -12,7 +12,7 @@ ms.assetid: 4771668f-5623-4397-a5c0-b75a7ba01698
 description: "Learn how to move and copy email messages by using the EWS Managed API or EWS in Exchange."
 ---
 
-# How to: Move and copy email messages by using EWS in Exchange
+# Move and copy email messages by using EWS in Exchange
 
 Learn how to move and copy email messages by using the EWS Managed API or EWS in Exchange.
   
@@ -138,10 +138,10 @@ This is also the XML request that is sent by the EWS Managed API when calling th
 The server responds to the **CopyItem** request with a [CopyItemResponse](http://msdn.microsoft.com/library/ae402bc1-4589-45e0-a929-f368c916a7e4%28Office.15%29.aspx) message that includes a [ResponseCode](http://msdn.microsoft.com/library/4b84d670-74c9-4d6d-84e7-f0a9f76f0d93%28Office.15%29.aspx) value of **NoError**, which indicates that the email message was copied successfully. The response also includes the **ItemId** for the email message in the new folder, which is important to store because the **ItemId** is different in the new folder. 
   
 ## See also
-<a name="bk_addresources"> </a>
+
 
 - [Email and EWS in Exchange](email-and-ews-in-exchange.md)
     
-- [How to: Send email messages by using EWS in Exchange](how-to-send-email-messages-by-using-ews-in-exchange.md)
+- [Send email messages by using EWS in Exchange](how-to-send-email-messages-by-using-ews-in-exchange.md)
     
 

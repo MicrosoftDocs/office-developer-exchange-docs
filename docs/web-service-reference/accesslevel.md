@@ -69,7 +69,7 @@ This element was introduced in Exchange Server 2013.
    
 ## See also
 
-#### Concepts
+
 
 [EWS XML elements in Exchange](ews-xml-elements-in-exchange.md)
 

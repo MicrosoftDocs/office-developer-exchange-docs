@@ -98,7 +98,7 @@ The following example of a SetUserOofSettings request sets the [OofState](oofsta
    
 ## See also
 
-#### Reference
+
 
 [SetUserOofSettings operation](setuseroofsettings-operation.md)
 

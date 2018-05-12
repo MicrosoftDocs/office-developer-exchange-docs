@@ -49,13 +49,13 @@ If you're using the **ExchangeService.AutodiscoverUrl** method in the EWS Manage
 If you're using the POX Autodiscover service, [you cannot request specific properties](autodiscover-for-exchange.md#bk_Options).
   
 ## See also
-<a name="bk_addresources"> </a>
+
 
 - [Autodiscover for Exchange](autodiscover-for-exchange.md)
     
-- [How to: Find Autodiscover endpoints by using SCP lookup in Exchange](how-to-find-autodiscover-endpoints-by-using-scp-lookup-in-exchange.md)
+- [Find Autodiscover endpoints by using SCP lookup in Exchange](how-to-find-autodiscover-endpoints-by-using-scp-lookup-in-exchange.md)
     
-- [How to: Refresh configuration information by using Autodiscover](how-to-refresh-configuration-information-by-using-autodiscover.md)
+- [Refresh configuration information by using Autodiscover](how-to-refresh-configuration-information-by-using-autodiscover.md)
     
 - [ExchangeService class](http://msdn.microsoft.com/en-us/library/microsoft.exchange.webservices.data.exchangeservice%28v=exchg.80%29.aspx)
     

@@ -108,24 +108,24 @@ You can access Autodiscover either by using the SOAP or the POX web service. The
 ## In this section
 <a name="inthissection"> </a>
 
-- [How to: Find Autodiscover endpoints by using SCP lookup in Exchange](how-to-find-autodiscover-endpoints-by-using-scp-lookup-in-exchange.md)
+- [Find Autodiscover endpoints by using SCP lookup in Exchange](how-to-find-autodiscover-endpoints-by-using-scp-lookup-in-exchange.md)
     
-- [How to: Generate a list of Autodiscover endpoints](how-to-generate-a-list-of-autodiscover-endpoints.md)
+- [Generate a list of Autodiscover endpoints](how-to-generate-a-list-of-autodiscover-endpoints.md)
     
-- [How to: Use Autodiscover to find connection points](how-to-use-autodiscover-to-find-connection-points.md)
+- [Use Autodiscover to find connection points](how-to-use-autodiscover-to-find-connection-points.md)
     
-- [How to: Get user settings from Exchange by using Autodiscover](how-to-get-user-settings-from-exchange-by-using-autodiscover.md)
+- [Get user settings from Exchange by using Autodiscover](how-to-get-user-settings-from-exchange-by-using-autodiscover.md)
     
-- [How to: Get domain settings from an Exchange server](how-to-get-domain-settings-from-an-exchange-server.md)
+- [Get domain settings from an Exchange server](how-to-get-domain-settings-from-an-exchange-server.md)
     
-- [How to: Refresh configuration information by using Autodiscover](how-to-refresh-configuration-information-by-using-autodiscover.md)
+- [Refresh configuration information by using Autodiscover](how-to-refresh-configuration-information-by-using-autodiscover.md)
     
 - [Handling Autodiscover error messages](handling-autodiscover-error-messages.md)
     
 - [Improving performance when using Autodiscover for Exchange](improving-performance-when-using-autodiscover-for-exchange.md)
     
 ## See also
-<a name="bk_addresources"> </a>
+
 
 - [Start using web services in Exchange](start-using-web-services-in-exchange.md)
     

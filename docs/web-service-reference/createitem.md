@@ -81,14 +81,14 @@ The schema that describes this element is located in the EWS virtual directory o
    
 ## See also
 
-#### Reference
+
 
 [CreateItemResponse](createitemresponse.md)
   
 [CreateItem operation](createitem-operation.md)
   
  **CreateItemType**
-#### Other resources
+
 
 [Creating E-mail Messages](http://msdn.microsoft.com/library/05bfb83c-2866-427d-a9fe-14ba3cb02793%28Office.15%29.aspx)
   

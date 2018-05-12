@@ -31,7 +31,7 @@ Unless your application is located on the Exchange server, you will need to redi
 The license terms are included in the EWS Managed API download. Review the terms for the authoritative information about what you can do with the EWS Managed API.
   
 ## See also
-<a name="bk_addresources"> </a>
+
 
 - [EWS client design overview for Exchange](ews-client-design-overview-for-exchange.md)
     

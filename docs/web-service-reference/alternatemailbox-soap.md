@@ -67,7 +67,7 @@ None.
    
 ## See also
 
-#### Reference
+
 
 [AlternateMailboxCollectionSetting (SOAP)](alternatemailboxcollectionsetting-soap.md)
 

@@ -102,7 +102,7 @@ The following example of a [SetUserOofSettings operation](setuseroofsettings-ope
    
 ## See also
 
-#### Reference
+
 
 [GetUserOofSettings operation](getuseroofsettings-operation.md)
   

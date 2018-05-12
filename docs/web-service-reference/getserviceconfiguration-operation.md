@@ -128,7 +128,7 @@ The following example shows an error response to the **GetServiceConfiguration**
 
 ## See also
 
-#### Concepts
+
 
 [EWS operations in Exchange](ews-operations-in-exchange.md)
   

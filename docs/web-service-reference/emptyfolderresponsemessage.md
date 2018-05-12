@@ -78,10 +78,10 @@ The schema that describes this element is located in the IIS virtual directory t
    
 ## See also
 
-#### Reference
+
 
 [EmptyFolder operation](emptyfolder-operation.md)
-#### Concepts
+
 
 [EWS reference for Exchange](ews-reference-for-exchange.md)
   

@@ -1,5 +1,5 @@
 ---
-title: "How to Add attachments by using EWS in Exchange"
+title: "Add attachments by using EWS in Exchange"
  
  
 manager: sethgros
@@ -12,7 +12,7 @@ ms.assetid: 0cbce436-2ae6-4fcc-bd8b-f517a0724e55
 description: "Learn how to create new items with attachments, or add attachments to existing items by using the EWS Managed API or EWS in Exchange."
 ---
 
-# How to: Add attachments by using EWS in Exchange
+# Add attachments by using EWS in Exchange
 
 Learn how to create new items with attachments, or add attachments to existing items by using the EWS Managed API or EWS in Exchange.
   
@@ -638,16 +638,16 @@ The server responds to the **CreateAttachment** request with a [CreateAttachment
 ```
 
 ## See also
-<a name="bk_addresources"> </a>
+
 
 - [Attachments and EWS in Exchange](attachments-and-ews-in-exchange.md)
     
-- [How to: Add attachments by using EWS in Exchange](how-to-add-attachments-by-using-ews-in-exchange.md)
+- [Add attachments by using EWS in Exchange](how-to-add-attachments-by-using-ews-in-exchange.md)
     
-- [How to: Delete attachments by using EWS in Exchange](how-to-delete-attachments-by-using-ews-in-exchange.md)
+- [Delete attachments by using EWS in Exchange](how-to-delete-attachments-by-using-ews-in-exchange.md)
     
-- [How to: Get attachments by using EWS in Exchange](how-to-get-attachments-by-using-ews-in-exchange.md)
+- [Get attachments by using EWS in Exchange](how-to-get-attachments-by-using-ews-in-exchange.md)
     
-- [How to: Send email messages by using EWS in Exchange](how-to-send-email-messages-by-using-ews-in-exchange.md)
+- [Send email messages by using EWS in Exchange](how-to-send-email-messages-by-using-ews-in-exchange.md)
     
 

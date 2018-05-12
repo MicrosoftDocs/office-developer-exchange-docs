@@ -61,7 +61,7 @@ Autodiscover requests and responses must be UTF-8 encoded.
   
 ## See also
 
-#### Concepts
+
 
 [POX Autodiscover XML elements for Exchange](pox-autodiscover-xml-elements-for-exchange.md)
 

@@ -63,10 +63,10 @@ Versions of Exchange starting with build number 15.00.0913.09 can include the **
    
 ## See also
 
-#### Reference
+
 
 [Message](message-ex15websvcsotherref.md)
-#### Concepts
+
 
 [EWS XML elements in Exchange](ews-xml-elements-in-exchange.md)
 

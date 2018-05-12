@@ -1,5 +1,5 @@
 ---
-title: "How to Route public folder hierarchy requests"
+title: "Route public folder hierarchy requests"
  
  
 manager: sethgros
@@ -12,7 +12,7 @@ ms.assetid: ec35df8e-4d75-4aa1-8b9c-ae1db7e05772
 description: "All requests for public folder information that require knowledge of the public folder hierarchy, such as moving, updating, deleting, or finding public folders, need to be routed to the default public folder hierarchy mailbox for the given user. To route the requests to that mailbox, you need to set the X-AnchorMailbox and X-PublicFolderMailbox headers to specific values returned by the Autodiscover service."
 ---
 
-# How to: Route public folder hierarchy requests
+# Route public folder hierarchy requests
 
 All requests for public folder information that require knowledge of the public folder hierarchy, such as moving, updating, deleting, or finding public folders, need to be routed to the default public folder hierarchy mailbox for the given user. To route the requests to that mailbox, you need to set the **X-AnchorMailbox** and **X-PublicFolderMailbox** headers to specific values returned by the Autodiscover service. 
   
@@ -143,7 +143,7 @@ Alternatively, if you do not want to use the **Exchange 2013: Get user settings 
 </Autodiscover>
 ```
 
-For more information about the Autodiscover process, see [Autodiscover for Exchange](autodiscover-for-exchange.md), [How to: Generate a list of Autodiscover endpoints](how-to-generate-a-list-of-autodiscover-endpoints.md), and [How to: Get user settings from Exchange by using Autodiscover](how-to-get-user-settings-from-exchange-by-using-autodiscover.md).
+For more information about the Autodiscover process, see [Autodiscover for Exchange](autodiscover-for-exchange.md), [Generate a list of Autodiscover endpoints](how-to-generate-a-list-of-autodiscover-endpoints.md), and [Get user settings from Exchange by using Autodiscover](how-to-get-user-settings-from-exchange-by-using-autodiscover.md).
   
 ## Set the values of the X-AnchorMailbox and X-PublicFolderMailbox headers
 <a name="bk_setheadervalues"> </a>
@@ -209,11 +209,11 @@ Connection: Keep-Alive
 ```
 
 ## See also
-<a name="bk_addresources"> </a>
+
 
 - [Public folder access with EWS in Exchange](public-folder-access-with-ews-in-exchange.md)
     
-- [How to: Route public folder content requests](how-to-route-public-folder-content-requests.md)
+- [Route public folder content requests](how-to-route-public-folder-content-requests.md)
     
 - [Get user settings by using the EWS Managed API](how-to-get-user-settings-from-exchange-by-using-autodiscover.md#bk_Managed)
     

@@ -30,7 +30,7 @@ When you [delete items and folders from a mailbox](deleting-items-by-using-ews-i
 |Move to the Deleted Items folder via the [DeleteFolder operation](http://msdn.microsoft.com/library/b0f92682-4895-4bcf-a4a1-e4c2e8403979%28Office.15%29.aspx) <br/> |MovedEvent for the folder. This specifies both old and new parent folder identifiers.  <br/> ModifiedEvent for the folder's old parent folder.  <br/> ModifiedEvent for the folder's new parent folder, which is the Deleted Items folder.  <br/> |MovedEvent for the folder. This specifies both old and new parent folder identifiers.  <br/> ModifiedEvent for the folder's old parent folder.  <br/> ModifiedEvent for the folder's new parent folder, which is the Deleted Items folder.  <br/> |MovedEvent for the folder. This specifies both old and new parent folder identifiers.  <br/> ModifiedEvent for the folder's old parent folder.  <br/> ModifiedEvent for the folder's new parent folder, which is the Deleted Items folder.  <br/> |ModifiedEvent for the folder's old parent folder.  <br/> ModifiedEvent for the folder's new parent folder which is the Deleted Items folder.  <br/> |
    
 ## See also
-<a name="bk_addresources"> </a>
+
 
 - [Notification subscriptions, mailbox events, and EWS in Exchange](notification-subscriptions-mailbox-events-and-ews-in-exchange.md)
     

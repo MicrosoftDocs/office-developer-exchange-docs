@@ -61,7 +61,7 @@ This element represents the SMTP domains of the external organizations.
    
 ## See also
 
-#### Reference
+
 
 [GetOrganizationRelationshipSettings operation (SOAP)](getorganizationrelationshipsettings-operation-soap.md)
 

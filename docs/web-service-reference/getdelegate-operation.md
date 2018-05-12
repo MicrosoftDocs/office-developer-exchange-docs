@@ -117,7 +117,7 @@ The following example of a **GetDelegate** response shows a successful response 
 
 ## See also
 
-#### Concepts
+
 
 [EWS XML elements in Exchange](ews-xml-elements-in-exchange.md)
 

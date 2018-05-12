@@ -55,7 +55,7 @@ The text value for this element is the cryptographic method that is used for the
    
 ## See also
 
-#### Reference
+
 
 [GetUserSettings operation (SOAP)](getusersettings-operation-soap.md)
 

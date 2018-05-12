@@ -78,7 +78,7 @@ The **GetAppManifestsResponseMessage** element is applicable for clients that ta
    
 ## See also
 
-#### Concepts
+
 
 [EWS XML elements in Exchange](ews-xml-elements-in-exchange.md)
 

@@ -79,7 +79,7 @@ The following is an example of a GetUserOofSettings request that gets a single u
    
 ## See also
 
-#### Reference
+
 
 [GetUserOofSettings operation](getuseroofsettings-operation.md)
 

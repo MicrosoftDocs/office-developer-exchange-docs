@@ -18,9 +18,9 @@ description: "Last modified: February 22, 2013"
 
 # CChkSGFiles.ErrCheckDbPages function
 
- **Last modified:** February 22, 2013 
+ 
   
- * **Applies to:** Exchange Server 2003 | Exchange Server 2007 | Exchange Server 2010 | Exchange Server 2013 * 
+**Applies to:** Exchange Server 2003 | Exchange Server 2007 | Exchange Server 2010 | Exchange Server 2013
   
 Validates a range of pages in a specified database. 
   

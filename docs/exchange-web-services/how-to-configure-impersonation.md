@@ -1,5 +1,5 @@
 ---
-title: "How to Configure impersonation"
+title: "Configure impersonation"
  
  
 manager: sethgros
@@ -12,7 +12,7 @@ ms.assetid: efcef39f-e26d-4eed-95ac-36a5bf8c089f
 description: "Learn how to grant the impersonation role to a service account by using the Exchange Management Shell."
 ---
 
-# How to: Configure impersonation
+# Configure impersonation
 
 Learn how to grant the impersonation role to a service account by using the Exchange Management Shell. 
   
@@ -78,7 +78,7 @@ Before you can configure impersonation, you need:
 After your administrator grants impersonation permissions, you can use the service account to make calls against other users' accounts. You can verify role assignments by using the [Get-ManagementRoleAssignment](http://msdn.microsoft.com/library/a3a6ee46-061b-444a-8639-43a416309445.aspx) cmdlet. 
   
 ## See also
-<a name="bk_addresources"> </a>
+
 
 - [Impersonation and EWS in Exchange](impersonation-and-ews-in-exchange.md)
     

@@ -150,7 +150,7 @@ The **Protocol** element is present in a response that has an [Action (POX)](act
   
 ## See also
 
-#### Concepts
+
 
 [POX Autodiscover XML elements for Exchange](pox-autodiscover-xml-elements-for-exchange.md)
 

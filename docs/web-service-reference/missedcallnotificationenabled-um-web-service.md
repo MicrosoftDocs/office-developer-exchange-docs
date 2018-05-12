@@ -65,7 +65,7 @@ A Boolean text value is required. The following are the possible values:
    
 ## See also
 
-#### Reference
+
 
 [GetUMProperties operation (UM web service)](getumproperties-operation-um-web-service.md)
   

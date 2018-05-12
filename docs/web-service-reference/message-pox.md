@@ -49,7 +49,7 @@ The text value represents the error message for the error Autodiscover response.
   
 ## See also
 
-#### Concepts
+
 
 [POX Autodiscover XML elements for Exchange](pox-autodiscover-xml-elements-for-exchange.md)
 

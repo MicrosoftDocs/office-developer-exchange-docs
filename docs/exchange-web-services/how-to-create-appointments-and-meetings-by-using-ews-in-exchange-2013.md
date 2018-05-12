@@ -1,5 +1,5 @@
 ---
-title: "How to Create appointments and meetings by using EWS in Exchange 2013"
+title: "Create appointments and meetings by using EWS in Exchange 2013"
  
  
 manager: sethgros
@@ -12,7 +12,7 @@ ms.assetid: fdea70a4-9267-4e5d-9152-b749e2acc3b0
 description: "Learn how to create appointments and meetings by using the EWS Managed API or EWS in Exchange."
 ---
 
-# How to: Create appointments and meetings by using EWS in Exchange 2013
+# Create appointments and meetings by using EWS in Exchange 2013
 
 Learn how to create appointments and meetings by using the EWS Managed API or EWS in Exchange.
   
@@ -371,16 +371,16 @@ The following example shows the response XML that is returned by the **GetItem**
 ```
 
 ## See also
-<a name="bk_addresources"> </a>
+
 
 - [Calendars and EWS in Exchange](calendars-and-ews-in-exchange.md)
     
-- [How to: Get appointments and meetings by using EWS in Exchange](how-to-get-appointments-and-meetings-by-using-ews-in-exchange.md)
+- [Get appointments and meetings by using EWS in Exchange](how-to-get-appointments-and-meetings-by-using-ews-in-exchange.md)
     
-- [How to: Update appointments and meetings by using EWS in Exchange](how-to-update-appointments-and-meetings-by-using-ews-in-exchange.md)
+- [Update appointments and meetings by using EWS in Exchange](how-to-update-appointments-and-meetings-by-using-ews-in-exchange.md)
     
-- [How to: Delete appointments and cancel meetings by using EWS in Exchange](how-to-delete-appointments-and-cancel-meetings-by-using-ews-in-exchange.md)
+- [Delete appointments and cancel meetings by using EWS in Exchange](how-to-delete-appointments-and-cancel-meetings-by-using-ews-in-exchange.md)
     
-- [How to: Propose a new meeting time by using EWS in Exchange](how-to-propose-a-new-meeting-time-by-using-ews-in-exchange.md)
+- [Propose a new meeting time by using EWS in Exchange](how-to-propose-a-new-meeting-time-by-using-ews-in-exchange.md)
     
 

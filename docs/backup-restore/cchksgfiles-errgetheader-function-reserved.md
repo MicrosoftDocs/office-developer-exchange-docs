@@ -18,9 +18,9 @@ description: "Last modified: February 22, 2013"
 
 # CChkSGFiles.ErrGetHeader function (reserved)
 
- **Last modified:** February 22, 2013 
+ 
   
- * **Applies to:** Exchange Server 2003 | Exchange Server 2007 | Exchange Server 2010 | Exchange Server 2013 * 
+**Applies to:** Exchange Server 2003 | Exchange Server 2007 | Exchange Server 2010 | Exchange Server 2013
   
 Reserved for future use, and not implemented. Do not call this function. 
   

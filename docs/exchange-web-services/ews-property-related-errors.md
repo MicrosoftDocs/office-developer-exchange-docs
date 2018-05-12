@@ -50,7 +50,7 @@ Most EWS client applications will use properties, which means that you will have
 |ErrorUpdatePropertyMismatch  <br/> |Update an item or folder the change description for which doesn't match the property that is specified to be updated.  <br/> |Changing your code so that the change description matches the item or folder type that is being updated.  <br/> |
    
 ## See also
-<a name="bk_addresources"> </a>
+
 
 - [Properties and extended properties in EWS in Exchange](properties-and-extended-properties-in-ews-in-exchange.md)
     

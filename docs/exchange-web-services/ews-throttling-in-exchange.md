@@ -152,7 +152,7 @@ When impersonation is used, the budgets for all the throttling thresholds apply 
 |Exchange 2010 SP1  <br/> |Charged against the calling account.  <br/> |
 |Exchange 2010  <br/> |Charged against the calling account.  <br/> |
    
-- Because the **EWSMaxSubscriptions** throttling budget is charged against the account being impersonated, there is no limit on the number of mailboxes a service account can subscribe to and receive streaming notifications for, as long as impersonation is being used. For the account being impersonated, you can't have more than  _n_ concurrent requests per target mailbox, where  _n_ is the **EWSMaxSubscriptions** value. If you were not using impersonation, the same service account could not have more than  _n_ concurrent requests total. So, the takeaway is that by using impersonation on a service account, you exponentially increase the number of mailboxes you can service. For more information, see [How to: Maintain affinity between a group of subscriptions and the Mailbox server in Exchange](how-to-maintain-affinity-between-a-group-of-subscriptions-and-the-mailbox-server.md).
+- Because the **EWSMaxSubscriptions** throttling budget is charged against the account being impersonated, there is no limit on the number of mailboxes a service account can subscribe to and receive streaming notifications for, as long as impersonation is being used. For the account being impersonated, you can't have more than  _n_ concurrent requests per target mailbox, where  _n_ is the **EWSMaxSubscriptions** value. If you were not using impersonation, the same service account could not have more than  _n_ concurrent requests total. So, the takeaway is that by using impersonation on a service account, you exponentially increase the number of mailboxes you can service. For more information, see [Maintain affinity between a group of subscriptions and the Mailbox server in Exchange](how-to-maintain-affinity-between-a-group-of-subscriptions-and-the-mailbox-server.md).
     
 - The **EWSPercentTimeInMailboxRPC**, **EWSPercentTimeInCAS**, and **EWSPercentTimeInAD** policy parameters refer to actions performed by a single thread. When an application performs multiple concurrent operations, you should account for the cumulative effect of these operations on the user resource budget. 
     
@@ -303,7 +303,7 @@ The following table lists the HTTP status codes that are returned by throttling 
 |HTTP 200  <br/> |Contains an EWS schema-based error response with an ErrorInternalServerError error code. An inner ErrorServerBusy error code may be present. This indicates that the client should delay sending additional requests until a later time.  <br/> |
    
 ## See also
-<a name="bk_addresources"> </a>
+
 
 - [Exchange Workload Management](http://technet.microsoft.com/en-us/library/jj150503.aspx)
     

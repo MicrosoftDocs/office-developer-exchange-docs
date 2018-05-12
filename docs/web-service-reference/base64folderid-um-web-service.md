@@ -65,7 +65,7 @@ To set the telephone access e-mail folder, use the [SetTelephoneAccessFolderEmai
    
 ## See also
 
-#### Reference
+
 
 [SetTelephoneAccessFolderEmail (UM web service)](settelephoneaccessfolderemail-um-web-service.md)
   

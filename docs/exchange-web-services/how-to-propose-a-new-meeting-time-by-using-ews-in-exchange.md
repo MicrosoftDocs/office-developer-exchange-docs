@@ -1,5 +1,5 @@
 ---
-title: "How to Propose a new meeting time by using EWS in Exchange"
+title: "Propose a new meeting time by using EWS in Exchange"
  
  
 manager: sethgros
@@ -12,7 +12,7 @@ ms.assetid: d5ac8e5b-3876-4f20-b4d3-44505e066042
 description: "Find out how to propose new meeting times from your Exchange client application by using EWS in Exchange."
 ---
 
-# How to: Propose a new meeting time by using EWS in Exchange
+# Propose a new meeting time by using EWS in Exchange
 
 Find out how to propose new meeting times from your Exchange client application by using EWS in Exchange.
   
@@ -205,16 +205,16 @@ The following figure shows the process that occurs between the meeting organizer
 The propose new time feature was introduced in Exchange build version 15.00.0800.007. In earlier versions of Exchange, EWS application users have to send a separate email to the meeting organizer to request a different meeting time. 
   
 ## See also
-<a name="bk_addresources"> </a>
+
 
 - [Calendars and EWS in Exchange](calendars-and-ews-in-exchange.md)
     
-- [How to: Create appointments and meetings by using EWS in Exchange 2013](how-to-create-appointments-and-meetings-by-using-ews-in-exchange-2013.md)
+- [Create appointments and meetings by using EWS in Exchange 2013](how-to-create-appointments-and-meetings-by-using-ews-in-exchange-2013.md)
     
-- [How to: Get appointments and meetings by using EWS in Exchange](how-to-get-appointments-and-meetings-by-using-ews-in-exchange.md)
+- [Get appointments and meetings by using EWS in Exchange](how-to-get-appointments-and-meetings-by-using-ews-in-exchange.md)
     
-- [How to: Update appointments and meetings by using EWS in Exchange](how-to-update-appointments-and-meetings-by-using-ews-in-exchange.md)
+- [Update appointments and meetings by using EWS in Exchange](how-to-update-appointments-and-meetings-by-using-ews-in-exchange.md)
     
-- [How to: Delete appointments and cancel meetings by using EWS in Exchange](how-to-delete-appointments-and-cancel-meetings-by-using-ews-in-exchange.md)
+- [Delete appointments and cancel meetings by using EWS in Exchange](how-to-delete-appointments-and-cancel-meetings-by-using-ews-in-exchange.md)
     
 

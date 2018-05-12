@@ -98,7 +98,7 @@ The following example of a FindFolder request shows how to form a request to fin
    
 ## See also
 
-#### Reference
+
 
 [FindFolder operation](findfolder-operation.md)
 

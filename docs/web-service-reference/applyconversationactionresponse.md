@@ -66,10 +66,10 @@ This element was introduced in Exchange Server 2010 Service Pack 1 (SP1).
    
 ## See also
 
-#### Reference
+
 
 [ApplyConversationAction operation](applyconversationaction-operation.md)
-#### Concepts
+
 
 [EWS XML elements in Exchange](ews-xml-elements-in-exchange.md)
 

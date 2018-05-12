@@ -122,7 +122,7 @@ The following elements are used in the response:
     
 ## See also
 
-#### Reference
+
 
 [GetUserSettings operation (SOAP)](getusersettings-operation-soap.md)
   

@@ -69,7 +69,7 @@ The text value represents the URL for the Outlook Web Access service on a Client
   
 ## See also
 
-#### Concepts
+
 
 [POX Autodiscover XML elements for Exchange](pox-autodiscover-xml-elements-for-exchange.md)
 

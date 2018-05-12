@@ -28,13 +28,13 @@ If your application synchronizes items and folders, you might have to handle syn
 |[ServiceResponseException](http://msdn.microsoft.com/en-us/library/microsoft.exchange.webservices.data.serviceresponseexception%28v=exchg.80%29.aspx) <br/> |Connect to EWS when the server is offline or there is a problem with connectivity.  <br/> |Checking connectivity with the server and retrying your request later. This is likely a transient service error or network error.  <br/> |
    
 ## See also
-<a name="bk_addresources"> </a>
+
 
 - [Mailbox synchronization and EWS in Exchange](mailbox-synchronization-and-ews-in-exchange.md)
     
-- [How to: Synchronize folders by using EWS in Exchange](how-to-synchronize-folders-by-using-ews-in-exchange.md)
+- [Synchronize folders by using EWS in Exchange](how-to-synchronize-folders-by-using-ews-in-exchange.md)
     
-- [How to: Synchronize items by using EWS in Exchange](how-to-synchronize-items-by-using-ews-in-exchange.md)
+- [Synchronize items by using EWS in Exchange](how-to-synchronize-items-by-using-ews-in-exchange.md)
     
 - [ServiceResponseException](http://msdn.microsoft.com/en-us/library/microsoft.exchange.webservices.data.serviceresponseexception%28v=exchg.80%29.aspx)
     

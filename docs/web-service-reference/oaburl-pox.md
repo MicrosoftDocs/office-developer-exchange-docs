@@ -55,7 +55,7 @@ The text value specifies the Offline Address Book configuration server URL for a
   
 ## See also
 
-#### Concepts
+
 
 [POX Autodiscover XML elements for Exchange](pox-autodiscover-xml-elements-for-exchange.md)
 

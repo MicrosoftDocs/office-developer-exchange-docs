@@ -154,11 +154,11 @@ When you get a new URL in an Autodiscover redirect response, you should first va
 If the URL passes validation, resend the request to this new URL.
   
 ## See also
-<a name="bk_addresources"> </a>
+
 
 - [Autodiscover for Exchange](autodiscover-for-exchange.md)
     
-- [How to: Find Autodiscover endpoints by using SCP lookup in Exchange](how-to-find-autodiscover-endpoints-by-using-scp-lookup-in-exchange.md)
+- [Find Autodiscover endpoints by using SCP lookup in Exchange](how-to-find-autodiscover-endpoints-by-using-scp-lookup-in-exchange.md)
     
 - [ErrorCode (SOAP)](http://msdn.microsoft.com/library/5e5ec861-0191-4ecb-a906-47ce8ed96381%28Office.15%29.aspx)
     

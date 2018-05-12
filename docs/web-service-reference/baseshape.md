@@ -106,7 +106,7 @@ To return properties in addition to those identified by the [BaseShape](baseshap
    
 ## See also
 
-#### Reference
+
 
 [FolderShape](foldershape.md)
   

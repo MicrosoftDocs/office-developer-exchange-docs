@@ -100,11 +100,11 @@ ServicePointManager.ServerCertificateValidationCallback = CertificateValidationC
 
 After you have created the validation callback method for the EWS Managed API, you can use the Autodiscover service to get connection points and user and domain settings from an Exchange server. For more information, see the following articles:
   
-- [How to: Use Autodiscover to find connection points](how-to-use-autodiscover-to-find-connection-points.md)
+- [Use Autodiscover to find connection points](how-to-use-autodiscover-to-find-connection-points.md)
     
-- [How to: Get user settings from Exchange by using Autodiscover](how-to-get-user-settings-from-exchange-by-using-autodiscover.md)
+- [Get user settings from Exchange by using Autodiscover](how-to-get-user-settings-from-exchange-by-using-autodiscover.md)
     
-- [How to: Get domain settings from an Exchange server](how-to-get-domain-settings-from-an-exchange-server.md)
+- [Get domain settings from an Exchange server](how-to-get-domain-settings-from-an-exchange-server.md)
     
 ## See also
 

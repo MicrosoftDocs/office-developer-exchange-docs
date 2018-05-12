@@ -203,10 +203,10 @@ The following elements are used in the response:
     
 ## See also
 
-#### Reference
+
 
 [GetItem operation](getitem-operation.md)
-#### Other resources
+
 
 [Creating Tasks](http://msdn.microsoft.com/library/0ef97334-e8a0-4f67-a23a-dd9e2bbad49f%28Office.15%29.aspx)
   

@@ -57,7 +57,7 @@ The **TokenIssuers** represents a collection of [TokenIssuer (SOAP)](tokenissuer
    
 ## See also
 
-#### Concepts
+
 
 [Autodiscover web service reference for Exchange](autodiscover-web-service-reference-for-exchange.md)
   

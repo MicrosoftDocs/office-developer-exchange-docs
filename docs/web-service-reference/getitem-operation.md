@@ -55,7 +55,7 @@ The **GetItem** operation can use the SOAP headers that are listed in the follow
   
 ## See also
 
-#### Concepts
+
 
 [EWS reference for Exchange](ews-reference-for-exchange.md)
 

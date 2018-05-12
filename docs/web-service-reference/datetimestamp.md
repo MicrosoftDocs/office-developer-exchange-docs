@@ -62,7 +62,7 @@ The text value represents a date/time value that identifies a calendar occurrenc
    
 ## See also
 
-#### Concepts
+
 
 [EWS XML elements in Exchange](ews-xml-elements-in-exchange.md)
 

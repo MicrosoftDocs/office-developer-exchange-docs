@@ -57,7 +57,7 @@ Use this element to allow or suppress delivery reports from the server.
    
 ## See also
 
-#### Reference
+
 
 [GetOrganizationRelationshipSettings operation (SOAP)](getorganizationrelationshipsettings-operation-soap.md)
 

@@ -71,7 +71,7 @@ A text value is required. The following are the possible values:
    
 ## See also
 
-#### Reference
+
 
 [GetCallInfo operation (UM web service)](getcallinfo-operation-um-web-service.md)
   

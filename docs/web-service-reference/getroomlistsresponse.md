@@ -80,10 +80,10 @@ The following sections describe attributes, child elements, and parent elements.
    
 ## See also
 
-#### Reference
+
 
 [GetRoomLists operation](getroomlists-operation.md)
-#### Concepts
+
 
 [EWS XML elements in Exchange](ews-xml-elements-in-exchange.md)
 

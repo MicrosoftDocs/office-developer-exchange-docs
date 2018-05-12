@@ -70,7 +70,7 @@ To initial a call, use the [PlayOnPhone operation (UM web service)](playonphone-
    
 ## See also
 
-#### Reference
+
 
 [GetCallInfo operation (UM web service)](getcallinfo-operation-um-web-service.md)
   

@@ -120,7 +120,7 @@ The text value for this element is the configuration setting. The following tabl
    
 ## See also
 
-#### Reference
+
 
 [GetUserSettings operation (SOAP)](getusersettings-operation-soap.md)
   

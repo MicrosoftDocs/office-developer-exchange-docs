@@ -217,12 +217,12 @@ The following example shows a successful response to the request.
    
 ## See also
 
-#### Reference
+
 
 [FindItem operation](finditem-operation.md)
   
 [FindConversation operation](findconversation-operation.md)
-#### Concepts
+
 
 [EWS XML elements in Exchange](ews-xml-elements-in-exchange.md)
 

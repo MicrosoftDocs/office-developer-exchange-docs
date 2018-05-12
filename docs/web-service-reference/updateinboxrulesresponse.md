@@ -82,12 +82,12 @@ The schema that describes this element is located in the IIS virtual directory t
    
 ## See also
 
-#### Reference
+
 
 [UpdateInboxRules](updateinboxrules.md)
   
 [UpdateInboxRules operation](updateinboxrules-operation.md)
-#### Concepts
+
 
 [EWS XML elements in Exchange](ews-xml-elements-in-exchange.md)
 

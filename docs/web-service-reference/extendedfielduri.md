@@ -177,12 +177,12 @@ The following example of a request creates an item that has two custom propertie
    
 ## See also
 
-#### Reference
+
 
 [FieldURI](fielduri.md)
   
 [IndexedFieldURI](indexedfielduri.md)
-#### Concepts
+
 
 [EWS XML elements in Exchange](ews-xml-elements-in-exchange.md)
 

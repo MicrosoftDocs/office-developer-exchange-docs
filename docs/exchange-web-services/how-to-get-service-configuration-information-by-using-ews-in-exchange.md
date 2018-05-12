@@ -1,5 +1,5 @@
 ---
-title: "How to Get service configuration information by using EWS in Exchange"
+title: "Get service configuration information by using EWS in Exchange"
  
  
 manager: sethgros
@@ -12,7 +12,7 @@ ms.assetid: 9379740a-96e1-490d-a229-0f9937c548d2
 description: "Find out how to get service configuration information for UM, policy nudges, mail tips, and protection rules from EWS in Exchange."
 ---
 
-# How to: Get service configuration information by using EWS in Exchange
+# Get service configuration information by using EWS in Exchange
 
 Find out how to get service configuration information for UM, policy nudges, mail tips, and protection rules from EWS in Exchange.
   
@@ -103,7 +103,7 @@ After you request service configuration information, use the [XmlDocument class]
 - If UM is enabled, [learn about how to play mailbox items](http://blogs.msdn.com/b/exchangedev/archive/2009/11/05/play-exchange-2010-mailbox-items-on-your-phone-by-using-the-ews-managed-api.aspx) over your phone. 
     
 ## See also
-<a name="bk_addresources"> </a>
+
 
 - [Configuration options for EWS in Exchange](configuration-options-for-ews-in-exchange.md)
     

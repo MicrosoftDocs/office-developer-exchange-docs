@@ -81,7 +81,7 @@ In addition, EWS applications must support the following authentication standard
 - OAuth 2.0 token authentication, for trusted partner applications and interoperability with Lync Server 2013 and SharePoint Server 2013.
     
 ## See also
-<a name="bk_addresources"> </a>
+
 
 - [Start using web services in Exchange](start-using-web-services-in-exchange.md)
     

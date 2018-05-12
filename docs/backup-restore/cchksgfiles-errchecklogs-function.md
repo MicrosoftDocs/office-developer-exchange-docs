@@ -18,9 +18,9 @@ description: "Last modified: February 22, 2013"
 
 # CChkSGFiles.ErrCheckLogs function
 
- **Last modified:** February 22, 2013 
+ 
   
- * **Applies to:** Exchange Server 2003 | Exchange Server 2007 | Exchange Server 2010 | Exchange Server 2013 * 
+**Applies to:** Exchange Server 2003 | Exchange Server 2007 | Exchange Server 2010 | Exchange Server 2013
   
 Validates the log files of all the database files that were specified in the **ErrInit** function. The validated logs are those that exist in the path, and that have the three-letter base log file name passed to **ErrInit**.
   

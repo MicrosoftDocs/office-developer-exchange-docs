@@ -59,7 +59,7 @@ After the time that is represented by the **TTL** element has elapsed, the setti
   
 ## See also
 
-#### Concepts
+
 
 [POX Autodiscover XML elements for Exchange](pox-autodiscover-xml-elements-for-exchange.md)
 

@@ -86,7 +86,7 @@ The schema that describes this element is located in the EWS virtual directory o
    
 ## See also
 
-#### Reference
+
 
 [GetFolder](getfolder.md)
   

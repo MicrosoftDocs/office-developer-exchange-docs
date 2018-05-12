@@ -67,7 +67,7 @@ A Boolean value is required. The following are the possible values:
    
 ## See also
 
-#### Reference
+
 
 [SetOofStatus operation (UM web service)](setoofstatus-operation-um-web-service.md)
 

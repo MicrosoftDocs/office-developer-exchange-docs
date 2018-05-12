@@ -59,7 +59,7 @@ The **Port** value is not used if the [Server (POX)](server-pox.md) element cont
   
 ## See also
 
-#### Concepts
+
 
 [POX Autodiscover XML elements for Exchange](pox-autodiscover-xml-elements-for-exchange.md)
 

@@ -55,7 +55,7 @@ The text value specifies whether secure logon is required. If unspecified, the d
   
 ## See also
 
-#### Concepts
+
 
 [POX Autodiscover XML elements for Exchange](pox-autodiscover-xml-elements-for-exchange.md)
 

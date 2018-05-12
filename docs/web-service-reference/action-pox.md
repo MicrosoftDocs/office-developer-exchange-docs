@@ -59,7 +59,7 @@ The text value represents whether another Autodiscover request is necessary to r
    
 ## See also
 
-#### Concepts
+
 
 [POX Autodiscover XML elements for Exchange](pox-autodiscover-xml-elements-for-exchange.md)
 

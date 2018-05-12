@@ -178,7 +178,7 @@ The following example shows an error response to an **UpdateDelegate** request. 
 
 ## See also
 
-#### Concepts
+
 
 [EWS XML elements in Exchange](ews-xml-elements-in-exchange.md)
 

@@ -59,7 +59,7 @@ The **ReferralPort** element is only used when the [Type (POX)](type-pox.md) ele
   
 ## See also
 
-#### Concepts
+
 
 [POX Autodiscover XML elements for Exchange](pox-autodiscover-xml-elements-for-exchange.md)
 

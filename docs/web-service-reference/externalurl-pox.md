@@ -50,7 +50,7 @@ The **ExternalUrl** element is available to clients that implement the MAPI/HTTP
   
 ## See also
 
-#### Concepts
+
 
 [POX Autodiscover XML elements for Exchange](pox-autodiscover-xml-elements-for-exchange.md)
 

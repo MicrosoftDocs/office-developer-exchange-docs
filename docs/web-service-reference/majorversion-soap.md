@@ -55,7 +55,7 @@ The text value for the **MajorVersion** element is an integer that represents th
    
 ## See also
 
-#### Reference
+
 
 [GetUserSettings operation (SOAP)](getusersettings-operation-soap.md)
   

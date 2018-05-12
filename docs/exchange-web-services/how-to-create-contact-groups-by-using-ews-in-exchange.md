@@ -1,5 +1,5 @@
 ---
-title: "How to Create contact groups by using EWS in Exchange"
+title: "Create contact groups by using EWS in Exchange"
  
  
 manager: sethgros
@@ -12,7 +12,7 @@ ms.assetid: acec6e73-c016-419d-be1a-8ec5d993addb
 description: "Learn how to create a contact group by using the EWS Managed API or EWS in Exchange."
 ---
 
-# How to: Create contact groups by using EWS in Exchange
+# Create contact groups by using EWS in Exchange
 
 Learn how to create a contact group by using the EWS Managed API or EWS in Exchange.
   
@@ -97,10 +97,10 @@ The following is an example of a successful XML response to the request. Notice 
 ```
 
 ## See also
-<a name="bk_addresources"> </a>
+
 
 - [Distribution groups and EWS in Exchange](distribution-groups-and-ews-in-exchange.md)
     
-- [How to: Expand distribution groups by using EWS in Exchange 2013](how-to-expand-distribution-groups-by-using-ews-in-exchange-2013.md)
+- [Expand distribution groups by using EWS in Exchange 2013](how-to-expand-distribution-groups-by-using-ews-in-exchange-2013.md)
     
 

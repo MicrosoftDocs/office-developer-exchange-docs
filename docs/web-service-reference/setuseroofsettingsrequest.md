@@ -95,7 +95,7 @@ The following example of a SetUserOofSettings request sets an OOF setting for te
    
 ## See also
 
-#### Reference
+
 
 [SetUserOofSettings operation](setuseroofsettings-operation.md)
 

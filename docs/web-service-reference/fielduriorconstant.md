@@ -94,7 +94,7 @@ The following XML example shows the FieldURIOrConstant element used with both a 
    
 ## See also
 
-#### Concepts
+
 
 [EWS XML elements in Exchange](ews-xml-elements-in-exchange.md)
 

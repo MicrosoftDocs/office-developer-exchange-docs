@@ -97,10 +97,10 @@ The following example of a [SetUserOofSettings operation](setuseroofsettings-ope
    
 ## See also
 
-#### Reference
+
 
 [SetUserOofSettings operation](setuseroofsettings-operation.md)
-#### Concepts
+
 
 [EWS XML elements in Exchange](ews-xml-elements-in-exchange.md)
 

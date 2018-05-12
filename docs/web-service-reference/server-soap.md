@@ -55,7 +55,7 @@ The text value of the **Server** element is the name of the alternate mailbox se
    
 ## See also
 
-#### Concepts
+
 
 [Autodiscover web service reference for Exchange](autodiscover-web-service-reference-for-exchange.md)
   

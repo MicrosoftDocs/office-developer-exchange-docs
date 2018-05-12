@@ -1,5 +1,5 @@
 ---
-title: "How to Use Autodiscover to find connection points"
+title: "Use Autodiscover to find connection points"
  
  
 manager: sethgros
@@ -12,13 +12,13 @@ ms.assetid: 03896542-549b-4c45-973c-98f9025ea26c
 description: "Find out how to use the Autodiscover service to direct your client application to the correct Exchange server."
 ---
 
-# How to: Use Autodiscover to find connection points
+# Use Autodiscover to find connection points
 
 Find out how to use the Autodiscover service to direct your client application to the correct Exchange server.
   
 The Exchange Autodiscover service provides your client application with configuration settings for email accounts that are hosted on Exchange Online, Exchange Online as part of Office 365, or an Exchange server running a version of Exchange starting with Exchange 2013. The Autodiscover service is a web service that provides configuration settings. The Autodiscover service is a web service that provides Exchange server configuration information to your client application. Client applications use Autodiscover to determine the endpoint of the Autodiscover service for a specific mailbox. This article explains how to follow the responses from an Exchange server to find the correct endpoint. 
   
-For information about how to get email address configuration settings, see [How to: Get user settings from Exchange by using Autodiscover](how-to-get-user-settings-from-exchange-by-using-autodiscover.md) and [How to: Get domain settings from an Exchange server](how-to-get-domain-settings-from-an-exchange-server.md).
+For information about how to get email address configuration settings, see [Get user settings from Exchange by using Autodiscover](how-to-get-user-settings-from-exchange-by-using-autodiscover.md) and [Get domain settings from an Exchange server](how-to-get-domain-settings-from-an-exchange-server.md).
   
 > [!NOTE]
 > The process for finding the correct endpoint is part of the request for user or domain settings. The Autodiscover service uses a series of redirect responses to send the client application to the correct endpoint for an email address. 
@@ -58,7 +58,7 @@ Before you can create a client application that uses the Autodiscover service, y
 - An account that is authorized to use EWS. For information about how to configure an account, see [Controlling client application access to EWS in Exchange](controlling-client-application-access-to-ews-in-exchange.md).
     
 > [!NOTE]
-> If you are using the EWS Managed API, you must provide a certificate validation callback in some circumstances. You may also need a certificate validation callback with some generated proxy libraries, such as those created by Visual Studio. For more information, see [How to: Validate a server certificate for the EWS Managed API](how-to-validate-a-server-certificate-for-the-ews-managed-api.md). 
+> If you are using the EWS Managed API, you must provide a certificate validation callback in some circumstances. You may also need a certificate validation callback with some generated proxy libraries, such as those created by Visual Studio. For more information, see [Validate a server certificate for the EWS Managed API](how-to-validate-a-server-certificate-for-the-ews-managed-api.md). 
   
 ### Core concepts for finding an endpoint
 <a name="bk_Core"> </a>
@@ -254,12 +254,12 @@ When the client application has been directed to the correct endpoint for the Au
 
 Finding the endpoint by following the Autodiscover process returns the requested domain or user settings. For information about making a request for specific settings, see the following articles:
   
-- [How to: Get domain settings from an Exchange server](how-to-get-domain-settings-from-an-exchange-server.md)
+- [Get domain settings from an Exchange server](how-to-get-domain-settings-from-an-exchange-server.md)
     
-- [How to: Get user settings from Exchange by using Autodiscover](how-to-get-user-settings-from-exchange-by-using-autodiscover.md)
+- [Get user settings from Exchange by using Autodiscover](how-to-get-user-settings-from-exchange-by-using-autodiscover.md)
     
 ## See also
-<a name="bk_addresources"> </a>
+
 
 - [Setting up your EWS application](setting-up-your-ews-application.md)
     

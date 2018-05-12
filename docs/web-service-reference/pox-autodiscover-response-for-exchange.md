@@ -158,10 +158,10 @@ The following elements are used in the response body:
     
 ## See also
 
-#### Reference
+
 
 [POX Autodiscover request for Exchange](pox-autodiscover-request-for-exchange.md)
-#### Concepts
+
 
 [POX Autodiscover web service reference for Exchange](pox-autodiscover-web-service-reference-for-exchange.md)
   

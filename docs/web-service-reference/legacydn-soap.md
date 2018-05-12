@@ -55,7 +55,7 @@ The value of the **LegacyDN** element is the alternate mailbox legacy distinguis
    
 ## See also
 
-#### Reference
+
 
 [AlternateMailboxCollectionSetting (SOAP)](alternatemailboxcollectionsetting-soap.md)
 

@@ -1,5 +1,5 @@
 ---
-title: "How to Create all-day events by using EWS in Exchange"
+title: "Create all-day events by using EWS in Exchange"
  
  
 manager: sethgros
@@ -12,7 +12,7 @@ ms.assetid: 0fcb484b-4ffc-41a5-aeed-8c797766b70c
 description: "Learn how to create all-day events by using the EWS Managed API or EWS in Exchange."
 ---
 
-# How to: Create all-day events by using EWS in Exchange
+# Create all-day events by using EWS in Exchange
 
 Learn how to create all-day events by using the EWS Managed API or EWS in Exchange.
   
@@ -102,11 +102,11 @@ The following example shows an EWS [CreateItem operation](http://msdn.microsoft.
 ```
 
 ## See also
-<a name="bk_addresources"> </a>
+
 
 - [Calendars and EWS in Exchange](calendars-and-ews-in-exchange.md)
     
-- [How to: Create appointments and meetings by using EWS in Exchange 2013](how-to-create-appointments-and-meetings-by-using-ews-in-exchange-2013.md)
+- [Create appointments and meetings by using EWS in Exchange 2013](how-to-create-appointments-and-meetings-by-using-ews-in-exchange-2013.md)
     
 - [Time zones and EWS in Exchange](time-zones-and-ews-in-exchange.md)
     

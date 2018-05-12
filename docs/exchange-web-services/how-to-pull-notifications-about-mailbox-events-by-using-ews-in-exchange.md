@@ -1,5 +1,5 @@
 ---
-title: "How to Pull notifications about mailbox events by using EWS in Exchange"
+title: "Pull notifications about mailbox events by using EWS in Exchange"
  
  
 manager: sethgros
@@ -12,7 +12,7 @@ ms.assetid: eb25cbd1-2244-4c3f-a71a-5ee20f81c41f
 description: "Find out how to use the EWS Managed API or EWS to subscribe to pull notifications and get events."
 ---
 
-# How to: Pull notifications about mailbox events by using EWS in Exchange
+# Pull notifications about mailbox events by using EWS in Exchange
 
 Find out how to use the EWS Managed API or EWS to subscribe to pull notifications and get events.
   
@@ -134,13 +134,13 @@ After you receive an event from the server, [synchronize the changes to the clie
 After you're received notifications, you can [sync the folder hierarchy](how-to-synchronize-folders-by-using-ews-in-exchange.md) or [sync the contents of the folder that changed](how-to-synchronize-items-by-using-ews-in-exchange.md).
   
 ## See also
-<a name="bk_addresources"> </a>
+
 
 - [Notification subscriptions, mailbox events, and EWS in Exchange](notification-subscriptions-mailbox-events-and-ews-in-exchange.md)
     
-- [How to: Stream notifications about mailbox events by using EWS in Exchange](how-to-stream-notifications-about-mailbox-events-by-using-ews-in-exchange.md)
+- [Stream notifications about mailbox events by using EWS in Exchange](how-to-stream-notifications-about-mailbox-events-by-using-ews-in-exchange.md)
     
-- [How to: Maintain affinity between a group of subscriptions and the Mailbox server in Exchange](how-to-maintain-affinity-between-a-group-of-subscriptions-and-the-mailbox-server.md)
+- [Maintain affinity between a group of subscriptions and the Mailbox server in Exchange](how-to-maintain-affinity-between-a-group-of-subscriptions-and-the-mailbox-server.md)
     
 - [Handling notification-related errors in EWS in Exchange](handling-notification-related-errors-in-ews-in-exchange.md)
     

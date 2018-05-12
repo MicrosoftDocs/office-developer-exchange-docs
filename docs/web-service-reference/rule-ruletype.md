@@ -84,14 +84,14 @@ The schema that describes this element is located in the IIS virtual directory t
    
 ## See also
 
-#### Reference
+
 
 [UpdateInboxRules](updateinboxrules.md)
   
 [SetRuleOperation](setruleoperation.md)
   
 [CreateRuleOperation](createruleoperation.md)
-#### Concepts
+
 
 [EWS XML elements in Exchange](ews-xml-elements-in-exchange.md)
 

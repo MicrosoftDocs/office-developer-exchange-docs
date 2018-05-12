@@ -17,10 +17,8 @@ description: "Last modified: February 25, 2013"
 ---
 
 # CChkSGFiles.ErrTerm function
-
- **Last modified:** February 25, 2013 
   
- * **Applies to:** Exchange Server 2003 | Exchange Server 2007 | Exchange Server 2010 | Exchange Server 2013 * 
+**Applies to:** Exchange Server 2003 | Exchange Server 2007 | Exchange Server 2010 | Exchange Server 2013
   
 Provides an overall status of the database and log verification, which indicates whether all the database pages and logs were successfully verified.
   

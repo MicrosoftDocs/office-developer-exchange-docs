@@ -127,12 +127,12 @@ Although you can create a rule that will move all mail from a specific sender to
 ## In this section
 <a name="bk_InThisSection"> </a>
 
-- [How to: Manage Inbox rules by using EWS in Exchange](how-to-manage-inbox-rules-by-using-ews-in-exchange.md)
+- [Manage Inbox rules by using EWS in Exchange](how-to-manage-inbox-rules-by-using-ews-in-exchange.md)
     
-- [How to: Add and remove email addresses from the Blocked Senders List by using EWS in Exchange](how-to-add-and-remove-email-addresses-from-the-blocked-senders-list-by-using-ews.md)
+- [Add and remove email addresses from the Blocked Senders List by using EWS in Exchange](how-to-add-and-remove-email-addresses-from-the-blocked-senders-list-by-using-ews.md)
     
 ## See also
-<a name="bk_addresources"> </a>
+
 
 - [Develop web service clients for Exchange](develop-web-service-clients-for-exchange.md)
     

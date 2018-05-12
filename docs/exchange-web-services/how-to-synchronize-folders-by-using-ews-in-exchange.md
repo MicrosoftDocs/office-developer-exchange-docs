@@ -1,5 +1,5 @@
 ---
-title: "How to Synchronize folders by using EWS in Exchange"
+title: "Synchronize folders by using EWS in Exchange"
  
  
 manager: sethgros
@@ -12,7 +12,7 @@ ms.assetid: d3bbacd1-8e4b-4fd0-8d27-4cbbc045ec3f
 description: "Find out how to use the EWS Managed API or EWS to get a list of folders, or a list of folders that have changed, in order to synchronize your client."
 ---
 
-# How to: Synchronize folders by using EWS in Exchange
+# Synchronize folders by using EWS in Exchange
 
 Find out how to use the EWS Managed API or EWS to get a list of folders, or a list of folders that have changed, in order to synchronize your client.
   
@@ -262,11 +262,11 @@ If you're using the EWS Managed API, after you get the list of new or changed fo
 If you're using EWS, use the [GetFolder operation](http://msdn.microsoft.com/library/355bcf93-dc71-4493-b177-622afac5fdb9%28Office.15%29.aspx) to get properties on the new or changed folders and update or create the folders on the client. 
   
 ## See also
-<a name="bk_addresources"> </a>
+
 
 - [Mailbox synchronization and EWS in Exchange](mailbox-synchronization-and-ews-in-exchange.md)
     
-- [How to: Synchronize items by using EWS in Exchange](how-to-synchronize-items-by-using-ews-in-exchange.md)
+- [Synchronize items by using EWS in Exchange](how-to-synchronize-items-by-using-ews-in-exchange.md)
     
 - [Handling synchronization-related errors in EWS in Exchange](handling-synchronization-related-errors-in-ews-in-exchange.md)
     

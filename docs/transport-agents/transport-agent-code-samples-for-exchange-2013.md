@@ -36,8 +36,8 @@ The following table lists the sample agents for Exchange 2013.
 
 - [Transport agent concepts in Exchange 2013](transport-agent-concepts-in-exchange-2013.md)    
 - [Transport agent reference for Exchange 2013](transport-agent-reference-for-exchange-2013.md)    
-- [How to: Create a RoutingAgent transport agent for Exchange 2013](how-to-create-a-routingagent-transport-agent-for-exchange-2013.md)   
-- [How to: Create an SmtpReceiveAgent transport agent for Exchange 2013](how-to-create-an-smtpreceiveagent-transport-agent-for-exchange-2013.md)    
-- [How to: Create a DeliveryAgent transport agent for Exchange 2013](how-to-create-a-deliveryagent-transport-agent-for-exchange-2013.md)
+- [Create a RoutingAgent transport agent for Exchange 2013](how-to-create-a-routingagent-transport-agent-for-exchange-2013.md)   
+- [Create an SmtpReceiveAgent transport agent for Exchange 2013](how-to-create-an-smtpreceiveagent-transport-agent-for-exchange-2013.md)    
+- [Create a DeliveryAgent transport agent for Exchange 2013](how-to-create-a-deliveryagent-transport-agent-for-exchange-2013.md)
     
 

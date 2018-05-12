@@ -75,7 +75,7 @@ The following example identifies the recurring master item by identifying one of
    
 ## See also
 
-#### Reference
+
 
 [OccurrenceItemId](occurrenceitemid.md)
   

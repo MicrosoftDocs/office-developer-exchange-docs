@@ -54,7 +54,7 @@ This element was introduced in Exchange Server 2010 Service Pack 2 (SP2).
    
 ## See also
 
-#### Concepts
+
 
 [EWS XML elements in Exchange](ews-xml-elements-in-exchange.md)
 

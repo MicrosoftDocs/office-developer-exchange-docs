@@ -56,7 +56,7 @@ The text value of the **DisplayName** element is the display name of a setting.
    
 ## See also
 
-#### Reference
+
 
 [AlternateMailbox (SOAP)](alternatemailbox-soap.md)
 

@@ -90,12 +90,12 @@ The schema that describes this element is located in the IIS virtual directory t
    
 ## See also
 
-#### Reference
+
 
 [ExportItems operation](exportitems-operation.md)
   
 [UploadItems operation](uploaditems-operation.md)
-#### Concepts
+
 
 [EWS XML elements in Exchange](ews-xml-elements-in-exchange.md)
 

@@ -71,7 +71,7 @@ Need help getting things done and you're not finding your answer on [MSDN](http:
 Contact [Microsoft support](https://support.microsoft.com/) if you need additional assistance. The Exchange Developer support team is staffed with seasoned professionals who can help answer your questions about Exchange development. 
   
 ## See also
-<a name="bk_addresources"> </a>
+
 
 - [Explore the EWS Managed API, EWS, and web services in Exchange](explore-the-ews-managed-api-ews-and-web-services-in-exchange.md)
     

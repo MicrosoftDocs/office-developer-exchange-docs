@@ -14,11 +14,9 @@ description: "Find information about the different ways that you can restore you
 
 # Restoring Exchange 2013 databases
 
-Find information about the different ways that you can restore your Exchange 2013 databases.
+Find information about the different ways that you can restore your Exchange 2013 databases. 
   
- **Last modified:** September 17, 2015 
-  
- * **Applies to:** Exchange Server 2013 * 
+**Applies to:** Exchange Server 2013 
   
 The Exchange writer that is included in Exchange Server 2013 allows for some flexibility in how you restore your Exchange databases. By using the Exchange writer in Exchange 2013, you can restore your shadow copy backups to the following locations:
   

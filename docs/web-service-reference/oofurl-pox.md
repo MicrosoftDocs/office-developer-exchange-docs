@@ -55,7 +55,7 @@ The text value specifies the out-of-office configuration server URL for an Excha
   
 ## See also
 
-#### Concepts
+
 
 [POX Autodiscover XML elements for Exchange](pox-autodiscover-xml-elements-for-exchange.md)
 

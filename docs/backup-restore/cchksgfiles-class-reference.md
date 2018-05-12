@@ -16,9 +16,7 @@ description: "Find reference information for the CHKSGFILES API in Exchange 2013
 
 Find reference information for the CHKSGFILES API in Exchange 2013.
   
- **Last modified:** September 17, 2015 
-  
- * **Applies to:** Exchange Server 2013 * 
+**Applies to:** Exchange Server 2013 
   
 The CHKSGFILES API enables backup and restore applications to verify the integrity of Exchange Server 2013 transaction log files and databases programmatically. You can use this API in backup and restore applications that use the Volume Shadow Copy Service (VSS).
   
@@ -73,7 +71,7 @@ The CHKSGFILES API is intended for use with versions of Visual Studio starting w
 - [CChkSGFiles.PgnoFromFileOffset function](cchksgfiles-pgnofromfileoffset-function.md)
     
 ## See also
-<a name="bk_addresources"> </a>
+
 
 - [Exchange Online and Exchange 2013 development](http://msdn.microsoft.com/library/f33d1093-75ba-4ff2-8d15-b0bf73a401bf%28Office.15%29.aspx)
     

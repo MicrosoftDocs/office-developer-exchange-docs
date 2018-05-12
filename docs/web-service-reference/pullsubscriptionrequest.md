@@ -78,7 +78,7 @@ The schema that describes this element is located in the IIS virtual directory t
    
 ## See also
 
-#### Reference
+
 
 [PushSubscriptionRequest](pushsubscriptionrequest.md)
   
@@ -87,7 +87,7 @@ The schema that describes this element is located in the IIS virtual directory t
 [GetEvents operation](getevents-operation.md)
   
 [Unsubscribe operation](unsubscribe-operation.md)
-#### Concepts
+
 
 [EWS XML elements in Exchange](ews-xml-elements-in-exchange.md)
 

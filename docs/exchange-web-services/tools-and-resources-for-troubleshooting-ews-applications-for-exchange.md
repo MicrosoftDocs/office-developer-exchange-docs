@@ -87,19 +87,19 @@ Now that you've learned about the tools and resources that you can use to troubl
 - [Microsoft Support](http://support.microsoft.com/ph/730/en-us) — Contact a Microsoft support professional for assistance. 
     
 ## See also
-<a name="bk_addresources"> </a>
+
 
 See the following articles:
   
 - [Develop web service clients for Exchange](develop-web-service-clients-for-exchange.md)
     
-- [How to: Trace requests and responses to troubleshoot EWS Managed API applications](how-to-trace-requests-and-responses-to-troubleshoot-ews-managed-api-applications.md)
+- [Trace requests and responses to troubleshoot EWS Managed API applications](how-to-trace-requests-and-responses-to-troubleshoot-ews-managed-api-applications.md)
     
 - [Instrumenting client requests for EWS and REST in Exchange](instrumenting-client-requests-for-ews-and-rest-in-exchange.md)
     
 - [EWS throttling in Exchange](ews-throttling-in-exchange.md)
     
-- [How to: Refresh configuration information by using Autodiscover](how-to-refresh-configuration-information-by-using-autodiscover.md)
+- [Refresh configuration information by using Autodiscover](how-to-refresh-configuration-information-by-using-autodiscover.md)
     
 - [Handling Autodiscover error messages](handling-autodiscover-error-messages.md)
     

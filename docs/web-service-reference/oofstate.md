@@ -106,7 +106,7 @@ The following example of a SetUserOofSettings request enables the **OofState**.
    
 ## See also
 
-#### Reference
+
 
 [GetUserOofSettings operation](getuseroofsettings-operation.md)
   

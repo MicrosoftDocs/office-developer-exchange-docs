@@ -64,7 +64,7 @@ Visual Studio creates the project and opens the Program.cs code document window.
     
 5. Confirm that you are using the correct target version of the .NET Framework. Open the shortcut menu (right-click) for your **HelloWorld** project in the **Solution Explorer**, and choose **Properties**. Verify that the **.NET Framework 4** is selected in the **Target framework** drop-down box. 
     
-Now that you have your project set up and you created a reference to the EWS Managed API, you are ready to create your first application. To keep things simple, add your code to the Program.cs file. Read [How to: Reference the EWS Managed API assembly](how-to-reference-the-ews-managed-api-assembly.md) for more information about referencing the EWS Managed API. In the next step, you will develop the basic code to write most EWS Managed API client applications. 
+Now that you have your project set up and you created a reference to the EWS Managed API, you are ready to create your first application. To keep things simple, add your code to the Program.cs file. Read [Reference the EWS Managed API assembly](how-to-reference-the-ews-managed-api-assembly.md) for more information about referencing the EWS Managed API. In the next step, you will develop the basic code to write most EWS Managed API client applications. 
 ### Step 3: Set up URL redirection validation for Autodiscover
 
 - Add the following redirection validation callback method after the **Main(string[] args)** method. This validates whether redirected URLs returned by [Autodiscover](autodiscover-for-exchange.md) represent an HTTPS endpoint. 
@@ -122,7 +122,7 @@ This validation callback will be passed to the **ExchangeService** object in ste
     service.AutodiscoverUrl("user1@contoso.com", RedirectionUrlValidationCallback);
    ```
 
-At this point, your client is set up to make calls to EWS to access mailbox data. If you run your code now, you can verify that the **AutodiscoverUrl** method call worked by examining the contents of the [ExchangeService.Url](http://msdn.microsoft.com/en-us/library/microsoft.exchange.webservices.data.exchangeservice.url%28v=exchg.80%29.aspx) property. If this property contains a URL, your call was a success! This means that your application successfully authenticated with the service and discovered the EWS endpoint for your mailbox. Now you are ready to make your first calls to EWS. Read [How to: Set the EWS service URL by using the EWS Managed API](how-to-set-the-ews-service-url-by-using-the-ews-managed-api.md) for more information about setting the EWS URL. 
+At this point, your client is set up to make calls to EWS to access mailbox data. If you run your code now, you can verify that the **AutodiscoverUrl** method call worked by examining the contents of the [ExchangeService.Url](http://msdn.microsoft.com/en-us/library/microsoft.exchange.webservices.data.exchangeservice.url%28v=exchg.80%29.aspx) property. If this property contains a URL, your call was a success! This means that your application successfully authenticated with the service and discovered the EWS endpoint for your mailbox. Now you are ready to make your first calls to EWS. Read [Set the EWS service URL by using the EWS Managed API](how-to-set-the-ews-service-url-by-using-the-ews-managed-api.md) for more information about setting the EWS URL. 
 
 ### Step 6: Create your first Hello World email message
 
@@ -147,7 +147,7 @@ At this point, your client is set up to make calls to EWS to access mailbox data
     email.Body = new MessageBody("This is the first email I've sent by using the EWS Managed API.");
    ```
 
-4. You are now ready to send your first email message by using the EWS Managed API. The **Send** method will call the service and submit the email message for delivery. Read [How to: Communicate with EWS by using the EWS Managed API](how-to-communicate-with-ews-by-using-the-ews-managed-api.md) to learn about other methods you can use to communicate with Exchange. 
+4. You are now ready to send your first email message by using the EWS Managed API. The **Send** method will call the service and submit the email message for delivery. Read [Communicate with EWS by using the EWS Managed API](how-to-communicate-with-ews-by-using-the-ews-managed-api.md) to learn about other methods you can use to communicate with Exchange. 
     
    ```cs
     email.Send();
@@ -216,17 +216,17 @@ If you run into any issues with your application, [try posting a question or com
 ## In this section
 <a name="Next"> </a>
 
-- [How to: Reference the EWS Managed API assembly](how-to-reference-the-ews-managed-api-assembly.md)
+- [Reference the EWS Managed API assembly](how-to-reference-the-ews-managed-api-assembly.md)
     
-- [How to: Set the EWS service URL by using the EWS Managed API](how-to-set-the-ews-service-url-by-using-the-ews-managed-api.md)
+- [Set the EWS service URL by using the EWS Managed API](how-to-set-the-ews-service-url-by-using-the-ews-managed-api.md)
     
-- [How to: Communicate with EWS by using the EWS Managed API](how-to-communicate-with-ews-by-using-the-ews-managed-api.md)
+- [Communicate with EWS by using the EWS Managed API](how-to-communicate-with-ews-by-using-the-ews-managed-api.md)
     
 ## See also
 
 - [Start using web services in Exchange](start-using-web-services-in-exchange.md)    
 - [EWS client design overview for Exchange](ews-client-design-overview-for-exchange.md)    
 - [Develop web service clients for Exchange](develop-web-service-clients-for-exchange.md)   
-- [How to: Trace requests and responses to troubleshoot EWS Managed API applications](how-to-trace-requests-and-responses-to-troubleshoot-ews-managed-api-applications.md)
+- [Trace requests and responses to troubleshoot EWS Managed API applications](how-to-trace-requests-and-responses-to-troubleshoot-ews-managed-api-applications.md)
     
 

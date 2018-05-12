@@ -57,9 +57,9 @@ Most client application scenarios don't require changes to server configuration 
 |User agent filtering  <br/> |Yes  <br/> |[User agent filtering](how-to-control-access-to-ews-in-exchange.md) <br/> |
    
 ## See also
-<a name="bk_addresources"> </a>
 
-- [How to: Get service configuration information by using EWS in Exchange](how-to-get-service-configuration-information-by-using-ews-in-exchange.md)
+
+- [Get service configuration information by using EWS in Exchange](how-to-get-service-configuration-information-by-using-ews-in-exchange.md)
     
 - [EWS client design overview for Exchange](ews-client-design-overview-for-exchange.md)
     

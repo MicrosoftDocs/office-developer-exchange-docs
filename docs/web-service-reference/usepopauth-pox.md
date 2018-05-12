@@ -59,7 +59,7 @@ The **UsePOPAuth** element is only used when [Type (POX)](type-pox.md) is SMTP.
   
 ## See also
 
-#### Concepts
+
 
 [POX Autodiscover XML elements for Exchange](pox-autodiscover-xml-elements-for-exchange.md)
 

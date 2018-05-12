@@ -17,10 +17,8 @@ description: "Last modified: March 03, 2013"
 ---
 
 # CChkSGFiles.ErrInit function
-
- **Last modified:** March 03, 2013 
   
- * **Applies to:** Exchange Server 2003 | Exchange Server 2007 | Exchange Server 2010 | Exchange Server 2013 * 
+**Applies to:** Exchange Server 2003 | Exchange Server 2007 | Exchange Server 2010 | Exchange Server 2013
   
 Initializes the **CChkSGFiles** object by specifying the databases to be checked and the path and base name of the transaction log files to be checked. Applications should call this function immediately after successfully calling the **New** function. 
   

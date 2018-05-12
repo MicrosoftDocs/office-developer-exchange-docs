@@ -1,5 +1,5 @@
 ---
-title: "How to Get room lists by using EWS in Exchange"
+title: "Get room lists by using EWS in Exchange"
  
  
 manager: sethgros
@@ -12,7 +12,7 @@ ms.assetid: 15980e4a-e41c-4194-829a-cadbdf365bf1
 description: "Learn how to get a list of all the room lists in your organization or a single room list from an Exchange server by using the EWS Managed API or EWS."
 ---
 
-# How to: Get room lists by using EWS in Exchange
+# Get room lists by using EWS in Exchange
 
 Learn how to get a list of all the room lists in your organization or a single room list from an Exchange server by using the EWS Managed API or EWS.
   
@@ -210,11 +210,11 @@ The server responds to the [GetRooms](http://msdn.microsoft.com/library/5501ddc0
 ```
 
 ## See also
-<a name="bk_addresources"> </a>
+
 
 - [Calendars and EWS in Exchange](calendars-and-ews-in-exchange.md)
     
-- [How to: Get free/busy information by using EWS in Exchange](how-to-get-free-busy-information-by-using-ews-in-exchange.md)
+- [Get free/busy information by using EWS in Exchange](how-to-get-free-busy-information-by-using-ews-in-exchange.md)
     
 - [Create and Manage Room Mailboxes](http://technet.microsoft.com/en-us/library/jj215781%28v=exchg.150%29.aspx)
     

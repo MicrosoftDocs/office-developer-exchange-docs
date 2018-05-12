@@ -53,7 +53,7 @@ This element specifies the maximum amount of free/busy detail that will be retur
    
 ## See also
 
-#### Reference
+
 
 [GetOrganizationRelationshipSettings operation (SOAP)](getorganizationrelationshipsettings-operation-soap.md)
 

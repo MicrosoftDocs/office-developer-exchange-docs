@@ -55,7 +55,7 @@ The text value specifies the URL of the Exchange server that has the Unified Mes
   
 ## See also
 
-#### Concepts
+
 
 [POX Autodiscover XML elements for Exchange](pox-autodiscover-xml-elements-for-exchange.md)
 

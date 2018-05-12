@@ -57,7 +57,7 @@ If this element is present in the Autodiscover response, make another request by
   
 ## See also
 
-#### Concepts
+
 
 [POX Autodiscover XML elements for Exchange](pox-autodiscover-xml-elements-for-exchange.md)
 

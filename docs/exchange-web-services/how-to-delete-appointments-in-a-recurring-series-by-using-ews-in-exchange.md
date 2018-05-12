@@ -1,5 +1,5 @@
 ---
-title: "How to Delete appointments in a recurring series by using EWS in Exchange"
+title: "Delete appointments in a recurring series by using EWS in Exchange"
  
  
 manager: sethgros
@@ -12,7 +12,7 @@ ms.assetid: a9d5244a-bc4a-4e9c-9c6c-ff361e04cbf8
 description: "Learn how to delete appointments in a recurring series by using the EWS Managed API or EWS in Exchange."
 ---
 
-# How to: Delete appointments in a recurring series by using EWS in Exchange
+# Delete appointments in a recurring series by using EWS in Exchange
 
 Learn how to delete appointments in a recurring series by using the EWS Managed API or EWS in Exchange.
   
@@ -209,22 +209,22 @@ Note that you can get the same result by replacing the **OccurrenceItemId** elem
 ```
 
 ## See also
-<a name="bk_addresources"> </a>
+
 
 - [Recurrence patterns and EWS](recurrence-patterns-and-ews.md)
     
-- [How to: Access a recurring series by using EWS in Exchange](how-to-access-a-recurring-series-by-using-ews-in-exchange.md)
+- [Access a recurring series by using EWS in Exchange](how-to-access-a-recurring-series-by-using-ews-in-exchange.md)
     
-- [How to: Create a recurring series by using EWS in Exchange](how-to-create-a-recurring-series-by-using-ews-in-exchange.md)
+- [Create a recurring series by using EWS in Exchange](how-to-create-a-recurring-series-by-using-ews-in-exchange.md)
     
-- [How to: Update a recurring series by using EWS](how-to-update-a-recurring-series-by-using-ews.md)
+- [Update a recurring series by using EWS](how-to-update-a-recurring-series-by-using-ews.md)
     
-- [How to: Update a recurring series by using EWS in Exchange](how-to-update-a-recurring-series-by-using-ews-in-exchange.md)
+- [Update a recurring series by using EWS in Exchange](how-to-update-a-recurring-series-by-using-ews-in-exchange.md)
     
 - [Calendars and EWS in Exchange](calendars-and-ews-in-exchange.md)
     
-- [How to: Create appointments and meetings by using EWS in Exchange 2013](how-to-create-appointments-and-meetings-by-using-ews-in-exchange-2013.md)
+- [Create appointments and meetings by using EWS in Exchange 2013](how-to-create-appointments-and-meetings-by-using-ews-in-exchange-2013.md)
     
-- [How to: Delete appointments and cancel meetings by using EWS in Exchange](how-to-delete-appointments-and-cancel-meetings-by-using-ews-in-exchange.md)
+- [Delete appointments and cancel meetings by using EWS in Exchange](how-to-delete-appointments-and-cancel-meetings-by-using-ews-in-exchange.md)
     
 

@@ -59,7 +59,7 @@ Use the **TokenIssuer** element to specify the security token service when using
    
 ## See also
 
-#### Concepts
+
 
 [Autodiscover web service reference for Exchange](autodiscover-web-service-reference-for-exchange.md)
   

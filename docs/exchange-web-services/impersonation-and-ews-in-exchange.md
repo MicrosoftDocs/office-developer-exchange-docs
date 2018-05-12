@@ -54,14 +54,14 @@ You can read more about [configuring impersonation](how-to-configure-impersonati
   
 ## In this section
 
-- [How to: Configure impersonation](how-to-configure-impersonation.md)
+- [Configure impersonation](how-to-configure-impersonation.md)
     
-- [How to: Identify the account to impersonate](how-to-identify-the-account-to-impersonate.md)
+- [Identify the account to impersonate](how-to-identify-the-account-to-impersonate.md)
     
-- [How to: Add appointments by using Exchange impersonation](how-to-add-appointments-by-using-exchange-impersonation.md)
+- [Add appointments by using Exchange impersonation](how-to-add-appointments-by-using-exchange-impersonation.md)
     
 ## See also
-<a name="bk_addresources"> </a>
+
 
 - [Develop web service clients for Exchange](develop-web-service-clients-for-exchange.md)
     

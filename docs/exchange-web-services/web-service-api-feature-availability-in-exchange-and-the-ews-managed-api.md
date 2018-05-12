@@ -52,7 +52,7 @@ The following table indicates which API features are available in each version o
 |[Mailbox events (streaming)](notification-subscriptions-mailbox-events-and-ews-in-exchange.md) <br/> |X  <br/> |X  <br/> |X  <br/> |X  <br/> |X  <br/> ||||
 |Mailtips  <br/> |X  <br/> |X  <br/> |X  <br/> |X  <br/> |X  <br/> ||||
 |Password expiration  <br/> |X  <br/> |X  <br/> |X  <br/> |X  <br/> |||||
-|[Personas](http://msdn.microsoft.com/library/people-and-contacts-in-ews-in-exchange%28Office.15%29.aspx) <br/> |X  <br/> ||X  <br/> ||||||
+|[Personas](people-and-contacts-in-ews-in-exchange.md) <br/> |X  <br/> ||X  <br/> ||||||
 |Post items  <br/> |X  <br/> |X  <br/> |X  <br/> |X  <br/> |X  <br/> |X  <br/> |X  <br/> ||
 |[Public folder access](public-folder-access-with-ews-in-exchange.md) <br/> |X  <br/> |X  <br/> |X  <br/> |X  <br/> |X  <br/> |X  <br/> |X  <br/> ||
 |Retention policies  <br/> |X  <br/> |X  <br/> |X  <br/> ||||||

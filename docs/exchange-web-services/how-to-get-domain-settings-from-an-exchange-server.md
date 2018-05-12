@@ -1,5 +1,5 @@
 ---
-title: "How to Get domain settings from an Exchange server"
+title: "Get domain settings from an Exchange server"
  
  
 manager: sethgros
@@ -12,7 +12,7 @@ ms.assetid: 2f9acb81-5135-4f72-94e8-65c235d725e6
 description: "Learn how to get domain settings from an Exchange server by using the Autodiscover service."
 ---
 
-# How to: Get domain settings from an Exchange server
+# Get domain settings from an Exchange server
 
 Learn how to get domain settings from an Exchange server by using the Autodiscover service.
   
@@ -59,7 +59,7 @@ Before you create an application that connects to the Autodiscover service to ge
 - An account that is authorized to use EWS. For information about how to configure an account, see [Controlling client application access to EWS in Exchange](controlling-client-application-access-to-ews-in-exchange.md).
     
 > [!NOTE]
-> If you are using the EWS Managed API, you must provide a certificate validation callback in some circumstances. You may also need a certificate validation callback with some generated proxy libraries, such as those created by Visual Studio. For more information, see [How to: Validate a server certificate for the EWS Managed API](how-to-validate-a-server-certificate-for-the-ews-managed-api.md). 
+> If you are using the EWS Managed API, you must provide a certificate validation callback in some circumstances. You may also need a certificate validation callback with some generated proxy libraries, such as those created by Visual Studio. For more information, see [Validate a server certificate for the EWS Managed API](how-to-validate-a-server-certificate-for-the-ews-managed-api.md). 
   
 ### Core concepts for getting domain settings
 <a name="bk_Core"> </a>
@@ -69,7 +69,7 @@ Before you use Autodiscover to get domain settings, you should be familiar with 
 |**Concept**|**Description**|
 |:-----|:-----|
 |[Autodiscover for Exchange](autodiscover-for-exchange.md) <br/> |Provides an overview of how the Autodiscover service works.  <br/> |
-|[How to: Use Autodiscover to find connection points](how-to-use-autodiscover-to-find-connection-points.md) <br/> |Describes the process used by the Autodiscover service to redirect your client application to the correct service endpoint.  <br/> |
+|[Use Autodiscover to find connection points](how-to-use-autodiscover-to-find-connection-points.md) <br/> |Describes the process used by the Autodiscover service to redirect your client application to the correct service endpoint.  <br/> |
    
 If you are using the EWS Managed API, you use the [Microsoft.Exchange.WebServices.Data.ExchangeService](http://msdn.microsoft.com/en-us/library/exchange/dd635811%28v=exchg.80%29.aspx) class in the [Microsoft.Exchange.WebServices.Data](http://msdn.microsoft.com/en-us/library/exchange/dd633907%28v=exchg.80%29.aspx) namespace to manage your connection to EWS. The code examples in this section assume that you reference the following namespaces in your code: 
   
@@ -195,10 +195,10 @@ The following example shows the XML response that is returned by the server afte
 
 Domain settings provide the basic information that your client needs to connect to EWS. You can use this information to connect to EWS, or you can retrieve additional configuration settings for an email account from the server. For more information, see the following article:
   
-- [How to: Get user settings from Exchange by using Autodiscover](how-to-get-user-settings-from-exchange-by-using-autodiscover.md)
+- [Get user settings from Exchange by using Autodiscover](how-to-get-user-settings-from-exchange-by-using-autodiscover.md)
     
 ## See also
-<a name="bk_addresources"> </a>
+
 
 - [Setting up your EWS application](setting-up-your-ews-application.md)
     

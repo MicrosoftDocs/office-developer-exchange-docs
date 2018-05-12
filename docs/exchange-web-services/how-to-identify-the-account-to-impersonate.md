@@ -1,5 +1,5 @@
 ---
-title: "How to Identify the account to impersonate"
+title: "Identify the account to impersonate"
  
  
 manager: sethgros
@@ -12,7 +12,7 @@ ms.assetid: c7749f12-b97f-48d9-88e5-a545e108efb0
 description: "Learn how your service application uses EWS to identify the user to impersonate."
 ---
 
-# How to: Identify the account to impersonate
+# Identify the account to impersonate
 
 Learn how your service application uses EWS to identify the user to impersonate.
   
@@ -40,7 +40,7 @@ Your application can use either the EWS Managed API or EWS SOAP requests to iden
 </soap:Header>
 ```
 
-Each of the following sections shows how to use one of the identifiers. For an example that shows the impersonation identifier in action, see [How to: Add appointments by using Exchange impersonation](how-to-add-appointments-by-using-exchange-impersonation.md).
+Each of the following sections shows how to use one of the identifiers. For an example that shows the impersonation identifier in action, see [Add appointments by using Exchange impersonation](how-to-add-appointments-by-using-exchange-impersonation.md).
   
 ### Use the SMTP email address to identify the user account
 
@@ -109,11 +109,11 @@ In an EWS SOAP request, the [SID](http://msdn.microsoft.com/library/2f33b29b-163
 ```
 
 ## See also
-<a name="bk_addresources"> </a>
+
 
 - [Impersonation and EWS in Exchange](impersonation-and-ews-in-exchange.md)
     
-- [How to: Add appointments by using Exchange impersonation](how-to-add-appointments-by-using-exchange-impersonation.md)
+- [Add appointments by using Exchange impersonation](how-to-add-appointments-by-using-exchange-impersonation.md)
     
 - [ExchangeService class](http://msdn.microsoft.com/en-us/library/microsoft.exchange.webservices.data.exchangeservice.aspx)
     

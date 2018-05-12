@@ -60,7 +60,7 @@ The following example of a PlayOnPhoneGreeting response shows a response to the 
 
 ## See also
 
-#### Reference
+
 
 [PlayOnPhoneGreeting (UM web service)](playonphonegreeting-um-web-service.md)
   

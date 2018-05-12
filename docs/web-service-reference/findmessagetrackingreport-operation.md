@@ -22,7 +22,7 @@ The **FindMessageTrackingReport** operation finds messages that meet the specifi
   
 ## See also
 
-#### Concepts
+
 
 [EWS operations in Exchange](ews-operations-in-exchange.md)
   

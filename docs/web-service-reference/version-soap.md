@@ -59,7 +59,7 @@ The **Version** element is contained in the SOAP header of a response.
    
 ## See also
 
-#### Reference
+
 
 [GetUserSettings operation (SOAP)](getusersettings-operation-soap.md)
   

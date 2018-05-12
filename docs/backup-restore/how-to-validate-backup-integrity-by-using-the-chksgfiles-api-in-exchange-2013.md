@@ -1,5 +1,5 @@
 ---
-title: "How to Validate backup integrity by using the CHKSGFILES API in Exchange 2013"
+title: "Validate backup integrity by using the CHKSGFILES API in Exchange 2013"
  
  
 manager: sethgros
@@ -12,13 +12,11 @@ ms.assetid: 607cbeb9-0a02-4079-8a4d-34bdeb560224
 description: "Find out how to use the CHKSGFILES API to validate a backup of the Exchange store in Exchange 2013."
 ---
 
-# How to: Validate backup integrity by using the CHKSGFILES API in Exchange 2013
+# Validate backup integrity by using the CHKSGFILES API in Exchange 2013
 
 Find out how to use the CHKSGFILES API to validate a backup of the Exchange store in Exchange 2013.
   
- **Last modified:** September 17, 2015 
-  
- * **Applies to:** Exchange Server 2013 * 
+**Applies to:** Exchange Server 2013 
   
 During backup operations managed by the Volume Shadow Copy Service (VSS), Exchange Server 2013 cannot read each database file in its entirety and verify its checksum integrity. Therefore, you might want your backup application to verify database and transaction log file integrity. We recommend that your backup application verify the physical consistency of the shadow copy set prior to informing the Exchange writer that the backup is complete. After a successful backup, the Exchange store updates the headers of the backed-up databases to reflect the last successful backup times and removes transaction logs from the server that are no longer required to roll forward from the last successful backup.
   

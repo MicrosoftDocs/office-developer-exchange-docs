@@ -62,7 +62,7 @@ The text value of the **Name** element is the name of a setting.
    
 ## See also
 
-#### Reference
+
 
 [GetDomainSettings operation (SOAP)](getdomainsettings-operation-soap.md)
   

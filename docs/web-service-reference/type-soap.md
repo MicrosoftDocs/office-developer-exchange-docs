@@ -55,7 +55,7 @@ The text value of the **Type** element is the alternate mailbox type.
    
 ## See also
 
-#### Concepts
+
 
 [Autodiscover web service reference for Exchange](autodiscover-web-service-reference-for-exchange.md)
   

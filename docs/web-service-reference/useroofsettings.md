@@ -107,7 +107,7 @@ The following example of a SetUserOofSettings request sets the OoFState to **Ena
    
 ## See also
 
-#### Reference
+
 
 [SetUserOofSettings operation](setuseroofsettings-operation.md)
 

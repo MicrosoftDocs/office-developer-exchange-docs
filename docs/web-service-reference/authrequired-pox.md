@@ -55,7 +55,7 @@ The text value specifies whether authentication is required. The possible values
   
 ## See also
 
-#### Concepts
+
 
 [POX Autodiscover XML elements for Exchange](pox-autodiscover-xml-elements-for-exchange.md)
 

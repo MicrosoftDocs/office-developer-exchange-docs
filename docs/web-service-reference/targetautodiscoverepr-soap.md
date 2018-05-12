@@ -57,7 +57,7 @@ This element specifies the Autodiscover URL of the server for the external organ
    
 ## See also
 
-#### Reference
+
 
 [GetOrganizationRelationshipSettings operation (SOAP)](getorganizationrelationshipsettings-operation-soap.md)
 

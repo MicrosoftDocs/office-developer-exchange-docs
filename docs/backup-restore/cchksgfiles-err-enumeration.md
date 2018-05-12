@@ -16,11 +16,9 @@ ms.assetid: f0efe195-91c3-4f3a-8c7d-e5dba336465a
 description: "Last modified: March 09, 2015"
 ---
 
-# CChkSGFiles.ERR enumeration
-
- **Last modified:** March 09, 2015 
+# CChkSGFiles.ERR enumeration 
   
- * **Applies to:** Exchange Server 2003 | Exchange Server 2007 | Exchange Server 2010 | Exchange Server 2013 * 
+**Applies to:** Exchange Server 2003 | Exchange Server 2007 | Exchange Server 2010 | Exchange Server 2013
   
 Indicates the results of the called function. This enumeration is returned by many functions of the **CCheckSGFiles** class. 
   

@@ -103,12 +103,12 @@ The schema that describes this element is located in the IIS virtual directory t
    
 ## See also
 
-#### Reference
+
 
 [CreateFolder operation](createfolder-operation.md)
   
 [CreateItem operation](createitem-operation.md)
-#### Other resources
+
 
 [Creating Folders (Exchange Web Services)](http://msdn.microsoft.com/library/3b15b0ec-8691-45ed-9a24-a91ff732d6cf%28Office.15%29.aspx)
 

@@ -59,7 +59,7 @@ If the domain is not specified in the [LoginName (POX)](loginname-pox.md) elemen
   
 ## See also
 
-#### Concepts
+
 
 [POX Autodiscover XML elements for Exchange](pox-autodiscover-xml-elements-for-exchange.md)
 

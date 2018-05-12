@@ -55,7 +55,7 @@ The text value represents the domain name of the domain that contains the federa
    
 ## See also
 
-#### Reference
+
 
 [GetFederationInformation operation (SOAP)](getfederationinformation-operation-soap.md)
 

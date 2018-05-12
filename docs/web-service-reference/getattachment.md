@@ -64,7 +64,7 @@ The schema that describes this element is located in the EWS virtual directory o
    
 ## See also
 
-#### Reference
+
 
 [GetAttachment operation](getattachment-operation.md)
   

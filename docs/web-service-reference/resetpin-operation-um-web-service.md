@@ -59,7 +59,7 @@ The following example of a ResetPIN response shows a response to the ResetPIN re
 
 ## See also
 
-#### Reference
+
 
 [ResetPIN (UM web service)](resetpin-um-web-service.md)
   

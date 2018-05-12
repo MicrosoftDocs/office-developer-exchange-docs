@@ -57,7 +57,7 @@ The **PublicFolderServer** element is an optional child element of the **Protoco
   
 ## See also
 
-#### Concepts
+
 
 [POX Autodiscover XML elements for Exchange](pox-autodiscover-xml-elements-for-exchange.md)
 

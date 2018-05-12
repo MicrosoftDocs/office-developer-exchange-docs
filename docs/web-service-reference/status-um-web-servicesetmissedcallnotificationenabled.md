@@ -67,7 +67,7 @@ A Boolean text value is required. The following are the possible values:
    
 ## See also
 
-#### Reference
+
 
 [SetMissedCallNotificationEnabled operation (UM web service)](setmissedcallnotificationenabled-operation-um-web-service.md)
 

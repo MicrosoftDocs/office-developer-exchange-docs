@@ -75,7 +75,7 @@ The text value represents the error code for an Autodiscover error response. The
    
 ## See also
 
-#### Reference
+
 
 [GetUserSettings operation (SOAP)](getusersettings-operation-soap.md)
   

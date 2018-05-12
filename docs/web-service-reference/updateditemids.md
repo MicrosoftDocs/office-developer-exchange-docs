@@ -59,10 +59,10 @@ If the [PerformReminderAction](performreminderaction-operation.md) operation did
    
 ## See also
 
-#### Reference
+
 
 [PerformReminderActionResponse](performreminderactionresponse.md)
-#### Concepts
+
 
 [EWS XML elements in Exchange](ews-xml-elements-in-exchange.md)
 

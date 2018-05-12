@@ -18,7 +18,7 @@ Find information about how to create custom transport agents for Exchange 2013, 
   
 Exchange Server 2013 includes several transport agents that you can use to process messages. By using the assemblies that come with Exchange, you can create your own custom agents to perform specific tasks according to the needs of your organization. For example, you can use an SmtpReceiveAgent transport agent to intercept messages that are received via the SMTP protocol and process the message to convert the format of the body to contain preformatted text. You can use a RoutingAgent transport agent to log the messages that pass through the server on route to another server. You can also create more complex features that make use of more than one type of agent. For example, to create an antivirus agent, you can implement an SmtpReceiveAgent and a RoutingAgent agent. If you have a component on your network that does not support the SMTP protocol, you can use a DeliveryAgent transport agent to handle the communication between your Exchange server and your external component. 
   
-This article provides information about the prerequisites for and tasks involved in creating your own transport agent. For information about creating specific transport agents, see [How to: Create a RoutingAgent transport agent for Exchange 2013](how-to-create-a-routingagent-transport-agent-for-exchange-2013.md), [How to: Create an SmtpReceiveAgent transport agent for Exchange 2013](how-to-create-an-smtpreceiveagent-transport-agent-for-exchange-2013.md), and [How to: Create a DeliveryAgent transport agent for Exchange 2013](how-to-create-a-deliveryagent-transport-agent-for-exchange-2013.md).
+This article provides information about the prerequisites for and tasks involved in creating your own transport agent. For information about creating specific transport agents, see [Create a RoutingAgent transport agent for Exchange 2013](how-to-create-a-routingagent-transport-agent-for-exchange-2013.md), [Create an SmtpReceiveAgent transport agent for Exchange 2013](how-to-create-an-smtpreceiveagent-transport-agent-for-exchange-2013.md), and [Create a DeliveryAgent transport agent for Exchange 2013](how-to-create-a-deliveryagent-transport-agent-for-exchange-2013.md).
   
 ## Prerequisites for creating a transport agent
 <a name="bk_prerequisites"> </a>
@@ -134,11 +134,11 @@ For more information about installing, enabling, and managing your agent, see [M
 ## In this section
 <a name="bk_inthissection"> </a>
 
-- [How to: Create a RoutingAgent transport agent for Exchange 2013](how-to-create-a-routingagent-transport-agent-for-exchange-2013.md)
+- [Create a RoutingAgent transport agent for Exchange 2013](how-to-create-a-routingagent-transport-agent-for-exchange-2013.md)
     
-- [How to: Create an SmtpReceiveAgent transport agent for Exchange 2013](how-to-create-an-smtpreceiveagent-transport-agent-for-exchange-2013.md)
+- [Create an SmtpReceiveAgent transport agent for Exchange 2013](how-to-create-an-smtpreceiveagent-transport-agent-for-exchange-2013.md)
     
-- [How to: Create a DeliveryAgent transport agent for Exchange 2013](how-to-create-a-deliveryagent-transport-agent-for-exchange-2013.md)
+- [Create a DeliveryAgent transport agent for Exchange 2013](how-to-create-a-deliveryagent-transport-agent-for-exchange-2013.md)
     
 ## See also
 

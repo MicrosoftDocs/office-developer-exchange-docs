@@ -45,7 +45,7 @@ If you can't use the EWS Managed API to develop your application, you can:
 If you plan to use an object model generator, you can use the [XML reference](http://msdn.microsoft.com/library/2a873474-1bb2-4cb1-a556-40e8c4159f4a%28Office.15%29.aspx) to help you understand the generated object model. The object model is generated from the XML structures that are described in the schema. Typically, the classes created by object model generators map to the complex types in the schema. Properties typically map to the XML elements. 
   
 ## See also
-<a name="bk_addresources"> </a>
+
 
 - [Web services reference for Exchange](http://msdn.microsoft.com/library/6c969133-6036-448b-af39-a3caf9917e98%28Office.15%29.aspx)
     
@@ -53,6 +53,6 @@ If you plan to use an object model generator, you can use the [XML reference](ht
     
 - [What's new in EWS and other web services in Exchange](what’s-new-in-ews-and-other-web-services-in-exchange.md)
     
-- [How to: Add a Reference to a Web Service](http://msdn.microsoft.com/en-us/library/bb628649.aspx)
+- [Add a Reference to a Web Service](http://msdn.microsoft.com/en-us/library/bb628649.aspx)
     
 

@@ -1,5 +1,5 @@
 ---
-title: "How to Export items by using EWS in Exchange"
+title: "Export items by using EWS in Exchange"
  
  
 manager: sethgros
@@ -12,7 +12,7 @@ ms.assetid: e93ee68c-e134-4469-9070-fba404d46cb4
 description: "Learn how to export appointments, emails, contacts, tasks, and other items by using the EWS Managed API or EWS in Exchange."
 ---
 
-# How to: Export items by using EWS in Exchange
+# Export items by using EWS in Exchange
 
 Learn how to export appointments, emails, contacts, tasks, and other items by using the EWS Managed API or EWS in Exchange.
   
@@ -259,11 +259,11 @@ The following example shows the response to a request to get the MIME stream. Th
 After exporting items, you might want to [import items into Exchange](how-to-import-items-by-using-ews-in-exchange.md).
   
 ## See also
-<a name="bk_addresources"> </a>
+
 
 - [Exporting and importing items by using EWS in Exchange](exporting-and-importing-items-by-using-ews-in-exchange.md)
     
-- [How to: Import items by using EWS in Exchange](how-to-import-items-by-using-ews-in-exchange.md)
+- [Import items by using EWS in Exchange](how-to-import-items-by-using-ews-in-exchange.md)
     
 - [Folders and items in EWS in Exchange](folders-and-items-in-ews-in-exchange.md)
     

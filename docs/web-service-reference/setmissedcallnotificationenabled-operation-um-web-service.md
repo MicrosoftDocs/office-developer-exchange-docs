@@ -57,7 +57,7 @@ The following example of a PlayOnPhoneGreeting response shows a response to the 
 
 ## See also
 
-#### Reference
+
 
 [SetMissedCallNotificationEnabled (UM web service)](setmissedcallnotificationenabled-um-web-service.md)
   

@@ -59,7 +59,7 @@ The **ServerDN** value is only used when [Type (POX)](type-pox.md) is equal to E
   
 ## See also
 
-#### Concepts
+
 
 [POX Autodiscover XML elements for Exchange](pox-autodiscover-xml-elements-for-exchange.md)
 

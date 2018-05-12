@@ -78,7 +78,7 @@ Streaming notifications rely on a hanging get request on the server to keep a st
 
 ![An illustration that shows how streaming notifications work. To set up streaming notifications: 1. Subscribe, 2. Open connection, 3. Wait for events, 4. Receive events, repeat 3 and 4, 5. Close or keep connection, 6. Unsubscribe or timeout.](media/Exchange2013_Notifications_StreamSub.png)
   
-For information about creating streaming notifications, see [How to: Stream notifications about mailbox events by using EWS in Exchange](how-to-stream-notifications-about-mailbox-events-by-using-ews-in-exchange.md).
+For information about creating streaming notifications, see [Stream notifications about mailbox events by using EWS in Exchange](how-to-stream-notifications-about-mailbox-events-by-using-ews-in-exchange.md).
   
 ### EWS pull notifications
 <a name="bk_pullnotif"> </a>
@@ -89,7 +89,7 @@ Pull notifications rely on the client asking for the notifications on an interva
 
 ![An illustration that shows how pull notifications work. To set up pull notifications: 1. Subscribe, 2. Send GetEvents, 3. Receive response, repeat 2 and 3, 4. Close or keep connection, 5. Unsubscribe or timeout.](media/Exchange2013_Notifications_PullSub.png)
   
-For information about creating pull notifications, see [How to: Pull notifications about mailbox events by using EWS in Exchange](how-to-pull-notifications-about-mailbox-events-by-using-ews-in-exchange.md).
+For information about creating pull notifications, see [Pull notifications about mailbox events by using EWS in Exchange](how-to-pull-notifications-about-mailbox-events-by-using-ews-in-exchange.md).
   
 ### EWS push notifications
 <a name="bk_pushnotif"> </a>
@@ -120,9 +120,9 @@ Depending on the type of subscription you'd like to create, you have a number of
 
 After the subscription is created, the way in which the actual events are sent to the client depends on the subscription type. 
   
-For streaming notifications, a streaming subscription connection must be created, and then the subscription is added to the connection. You can read more about this process in [How to: Stream notifications about mailbox events by using EWS in Exchange](how-to-stream-notifications-about-mailbox-events-by-using-ews-in-exchange.md). 
+For streaming notifications, a streaming subscription connection must be created, and then the subscription is added to the connection. You can read more about this process in [Stream notifications about mailbox events by using EWS in Exchange](how-to-stream-notifications-about-mailbox-events-by-using-ews-in-exchange.md). 
   
-For pull notifications, the subscription object was initialized when the subscription was created, so you just have to call the **GetEvent** method or operation to retrieve the events from the server. You can read more about this in [How to: Pull notifications about mailbox events by using EWS in Exchange](how-to-pull-notifications-about-mailbox-events-by-using-ews-in-exchange.md). 
+For pull notifications, the subscription object was initialized when the subscription was created, so you just have to call the **GetEvent** method or operation to retrieve the events from the server. You can read more about this in [Pull notifications about mailbox events by using EWS in Exchange](how-to-pull-notifications-about-mailbox-events-by-using-ews-in-exchange.md). 
   
 The following table lists the operations and classes required to retrieve events. 
   
@@ -165,16 +165,16 @@ In an on-premises deployment, you can limit the number of subscriptions per user
 ## In this section
 <a name="bk_limitsubs"> </a>
 
-- [How to: Stream notifications about mailbox events by using EWS in Exchange](how-to-stream-notifications-about-mailbox-events-by-using-ews-in-exchange.md)
+- [Stream notifications about mailbox events by using EWS in Exchange](how-to-stream-notifications-about-mailbox-events-by-using-ews-in-exchange.md)
     
-- [How to: Pull notifications about mailbox events by using EWS in Exchange](how-to-pull-notifications-about-mailbox-events-by-using-ews-in-exchange.md)
+- [Pull notifications about mailbox events by using EWS in Exchange](how-to-pull-notifications-about-mailbox-events-by-using-ews-in-exchange.md)
     
-- [How to: Maintain affinity between a group of subscriptions and the Mailbox server in Exchange](how-to-maintain-affinity-between-a-group-of-subscriptions-and-the-mailbox-server.md)
+- [Maintain affinity between a group of subscriptions and the Mailbox server in Exchange](how-to-maintain-affinity-between-a-group-of-subscriptions-and-the-mailbox-server.md)
     
 - [Handling notification-related errors in EWS in Exchange](handling-notification-related-errors-in-ews-in-exchange.md)
     
 ## See also
-<a name="bk_addresources"> </a>
+
 
 - [Develop web service clients for Exchange](develop-web-service-clients-for-exchange.md)
     

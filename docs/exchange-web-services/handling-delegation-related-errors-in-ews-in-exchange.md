@@ -33,7 +33,7 @@ If your application uses delegation or adds or removes delegates, you might have
 |ErrorMissingEmailAddress  <br/> |Make a request using a delegate account that does not have a mailbox.  <br/> |Adding a mailbox to the delegate's account.  <br/> |
    
 ## See also
-<a name="bk_addresources"> </a>
+
 
 - [Delegate access and EWS in Exchange](delegate-access-and-ews-in-exchange.md)
     

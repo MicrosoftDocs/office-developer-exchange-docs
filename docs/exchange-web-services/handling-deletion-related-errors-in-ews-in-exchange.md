@@ -32,12 +32,12 @@ If your application [deletes items and folders](deleting-items-by-using-ews-in-e
 |ErrorSendMeetingCancellationsRequired  <br/> |Delete a calendar item without specifying whether meeting cancellations should be sent.  <br/> |Specifying that meeting cancellations should or should not be sent.  <br/> |
    
 ## See also
-<a name="bk_addresources"> </a>
+
 
 - [Deleting items by using EWS in Exchange](deleting-items-by-using-ews-in-exchange.md)
     
 - [Pull notifications for EWS deletion-related mailbox events in Exchange](pull-notifications-for-ews-deletion-related-mailbox-events-in-exchange.md)
     
-- [How to: Delete appointments and cancel meetings by using EWS in Exchange](how-to-delete-appointments-and-cancel-meetings-by-using-ews-in-exchange.md)
+- [Delete appointments and cancel meetings by using EWS in Exchange](how-to-delete-appointments-and-cancel-meetings-by-using-ews-in-exchange.md)
     
 

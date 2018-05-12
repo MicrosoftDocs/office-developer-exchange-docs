@@ -324,7 +324,7 @@ Versions of Exchange starting with major version 15 and ending with build 15.0.7
 Versions of Exchange starting with major version 15 return extra **Group** or **GroupedItems** elements with the **xsi:nil** attribute set to **true** in the SOAP response. If you are using the EWS Managed API, these extra elements will cause a [ServiceXmlDeserializationException](http://msdn.microsoft.com/en-us/library/microsoft.exchange.webservices.data.servicexmldeserializationexception%28v=exchg.80%29.aspx) to be thrown. If you are using EWS, these extra elements should be ignored. 
   
 ## See also
-<a name="bk_addresources"> </a>
+
 
 - [Search and EWS in Exchange](search-and-ews-in-exchange.md)
     

@@ -305,11 +305,11 @@ The following example shows the response from the server with the search results
 ```
 
 ## See also
-<a name="bk_addresources"> </a>
+
 
 - [Search and EWS in Exchange](search-and-ews-in-exchange.md)
     
-- [How to: Use search filters with EWS in Exchange](how-to-use-search-filters-with-ews-in-exchange.md)
+- [Use search filters with EWS in Exchange](how-to-use-search-filters-with-ews-in-exchange.md)
     
 - [ExchangeService.FindItems](http://msdn.microsoft.com/en-us/library/microsoft.exchange.webservices.data.exchangeservice.finditems%28v=exchg.80%29.aspx)
     

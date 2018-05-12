@@ -53,7 +53,7 @@ The text value represents the path of an image that is used to brand the configu
   
 ## See also
 
-#### Concepts
+
 
 [POX Autodiscover XML elements for Exchange](pox-autodiscover-xml-elements-for-exchange.md)
 

@@ -1,5 +1,5 @@
 ---
-title: "How to Get free/busy information by using EWS in Exchange"
+title: "Get free/busy information by using EWS in Exchange"
  
  
 manager: sethgros
@@ -12,7 +12,7 @@ ms.assetid: 0e6709c0-dc3d-4280-8c53-cbec9bbdcc9e
 description: "Learn how to get free/busy information and suggested meeting times by using the EWS Managed API or EWS in Exchange."
 ---
 
-# How to: Get free/busy information by using EWS in Exchange
+# Get free/busy information by using EWS in Exchange
 
 Learn how to get free/busy information and suggested meeting times by using the EWS Managed API or EWS in Exchange.
   
@@ -370,12 +370,12 @@ The server responds to the [GetUserAvailability request](http://msdn.microsoft.c
 ```
 
 ## See also
-<a name="bk_addresources"> </a>
+
 
 - [Calendars and EWS in Exchange](calendars-and-ews-in-exchange.md)
     
-- [How to: Create appointments and meetings by using EWS in Exchange 2013](how-to-create-appointments-and-meetings-by-using-ews-in-exchange-2013.md)
+- [Create appointments and meetings by using EWS in Exchange 2013](how-to-create-appointments-and-meetings-by-using-ews-in-exchange-2013.md)
     
-- [How to: Update appointments and meetings by using EWS in Exchange](how-to-update-appointments-and-meetings-by-using-ews-in-exchange.md)
+- [Update appointments and meetings by using EWS in Exchange](how-to-update-appointments-and-meetings-by-using-ews-in-exchange.md)
     
 

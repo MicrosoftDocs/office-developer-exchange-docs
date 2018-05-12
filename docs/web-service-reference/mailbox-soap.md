@@ -55,7 +55,7 @@ The text value of the **Mailbox** element is the e-mail address of the user to b
    
 ## See also
 
-#### Reference
+
 
 [GetUserSettings operation (SOAP)](getusersettings-operation-soap.md)
 

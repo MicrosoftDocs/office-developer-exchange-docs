@@ -36,7 +36,7 @@ The UM web service does not have an explicit schema.
 - [Unified Messaging web service XML elements for Exchange](unified-messaging-web-service-xml-elements-for-exchange.md)
     
 ## See also
-<a name="bk_addresources"> </a>
+
 
 - [Autodiscover web service reference for Exchange](autodiscover-web-service-reference-for-exchange.md)
     

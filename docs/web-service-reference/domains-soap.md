@@ -61,7 +61,7 @@ None.
    
 ## See also
 
-#### Reference
+
 
 [GetDomainSettingsRequest (SOAP)](getdomainsettingsrequest-soap.md)
   

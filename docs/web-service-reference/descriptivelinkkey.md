@@ -107,7 +107,7 @@ The schema that describes this element is located in the IIS virtual directory t
    
 ## See also
 
-#### Concepts
+
 
 [EWS reference for Exchange](ews-reference-for-exchange.md)
   

@@ -177,12 +177,12 @@ The following elements are used in the response body:
     
 ## See also
 
-#### Reference
+
 
 [GetDomainSettings operation (SOAP)](getdomainsettings-operation-soap.md)
   
 [GetFederationInformation operation (SOAP)](getfederationinformation-operation-soap.md)
-#### Concepts
+
 
 [SOAP Autodiscover XML elements for Exchange 2013](soap-autodiscover-xml-elements-for-exchange-2013.md)
 

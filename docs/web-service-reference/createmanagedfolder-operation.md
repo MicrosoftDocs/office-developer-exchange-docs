@@ -187,12 +187,12 @@ The following elements are used in the error response:
     
 ## See also
 
-#### Reference
+
 
 [GetFolder operation](getfolder-operation.md)
   
 [FindFolder operation](findfolder-operation.md)
-#### Other resources
+
 
 [Finding Folders](http://msdn.microsoft.com/library/9124d868-017a-43f0-b915-5c0082cacec9%28Office.15%29.aspx)
   

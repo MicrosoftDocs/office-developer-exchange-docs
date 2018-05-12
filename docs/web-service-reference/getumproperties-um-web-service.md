@@ -57,7 +57,7 @@ None.
    
 ## See also
 
-#### Reference
+
 
 [GetUMProperties operation (UM web service)](getumproperties-operation-um-web-service.md)
 

@@ -51,7 +51,7 @@ The text value indicates whether the user's mailbox is hosted in Exchange Online
   
 ## See also
 
-#### Concepts
+
 
 [POX Autodiscover XML elements for Exchange](pox-autodiscover-xml-elements-for-exchange.md)
 

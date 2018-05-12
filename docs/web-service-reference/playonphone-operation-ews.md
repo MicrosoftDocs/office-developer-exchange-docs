@@ -82,7 +82,7 @@ The following example shows a successful response to the **PlayOnPhone** request
 
 ## See also
 
-#### Concepts
+
 
 [EWS operations in Exchange](ews-operations-in-exchange.md)
   

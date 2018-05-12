@@ -54,12 +54,12 @@ Other options are available for exporing and importing items to and from an Exch
 ## In this section
 <a name="alternatives"> </a>
 
-- [How to: Export items by using EWS in Exchange](how-to-export-items-by-using-ews-in-exchange.md)
+- [Export items by using EWS in Exchange](how-to-export-items-by-using-ews-in-exchange.md)
     
-- [How to: Import items by using EWS in Exchange](how-to-import-items-by-using-ews-in-exchange.md)
+- [Import items by using EWS in Exchange](how-to-import-items-by-using-ews-in-exchange.md)
     
 ## See also
-<a name="bk_addresources"> </a>
+
 
 - [Backup, Restore, and Disaster Recovery](http://technet.microsoft.com/en-us/library/dd876874%28v=exchg.150%29.aspx)
     

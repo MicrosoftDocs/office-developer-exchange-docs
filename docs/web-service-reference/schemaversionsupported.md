@@ -56,10 +56,10 @@ This element was introduced in Exchange Server 2013 Service Pack 1 (SP1).
    
 ## See also
 
-#### Reference
+
 
 [GetAppManifests](getappmanifests.md)
-#### Concepts
+
 
 [EWS XML elements in Exchange](ews-xml-elements-in-exchange.md)
 

@@ -57,7 +57,7 @@ The **SmtpAddress** element is a required child element of the **PublicFolderInf
   
 ## See also
 
-#### Concepts
+
 
 [POX Autodiscover XML elements for Exchange](pox-autodiscover-xml-elements-for-exchange.md)
 

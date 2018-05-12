@@ -59,7 +59,7 @@ If this element is not present, the default value is set to **on**.
   
 ## See also
 
-#### Concepts
+
 
 [POX Autodiscover XML elements for Exchange](pox-autodiscover-xml-elements-for-exchange.md)
 

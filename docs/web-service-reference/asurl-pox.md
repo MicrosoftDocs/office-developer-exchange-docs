@@ -55,7 +55,7 @@ The text value contains the URL that is used to access the Availability service.
   
 ## See also
 
-#### Concepts
+
 
 [POX Autodiscover XML elements for Exchange](pox-autodiscover-xml-elements-for-exchange.md)
 

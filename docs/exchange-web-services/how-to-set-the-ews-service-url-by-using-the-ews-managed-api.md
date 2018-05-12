@@ -54,8 +54,8 @@ service.Url = new Uri("https://computername.domain.contoso.com/EWS/Exchange.asmx
 
 - [Get started with EWS Managed API client applications](get-started-with-ews-managed-api-client-applications.md)   
 - [Setting up your Exchange application development environment](setting-up-your-exchange-application-development-environment.md)   
-- [How to: Control access to EWS in Exchange](how-to-control-access-to-ews-in-exchange.md) 
-- [How to: Communicate with EWS by using the EWS Managed API](how-to-communicate-with-ews-by-using-the-ews-managed-api.md)  
-- [How to: Use Autodiscover to find connection points](how-to-use-autodiscover-to-find-connection-points.md)
+- [Control access to EWS in Exchange](how-to-control-access-to-ews-in-exchange.md) 
+- [Communicate with EWS by using the EWS Managed API](how-to-communicate-with-ews-by-using-the-ews-managed-api.md)  
+- [Use Autodiscover to find connection points](how-to-use-autodiscover-to-find-connection-points.md)
     
 

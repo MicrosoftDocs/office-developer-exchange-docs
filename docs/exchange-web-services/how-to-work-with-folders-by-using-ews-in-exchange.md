@@ -1,5 +1,5 @@
 ---
-title: "How to Work with folders by using EWS in Exchange"
+title: "Work with folders by using EWS in Exchange"
 manager: sethgros
 ms.date: 9/17/2015
 ms.audience: Developer
@@ -8,7 +8,7 @@ ms.assetid: 4b3eb746-74c4-42a0-aa2c-742c147f1871
 description: "Learn how to create, get, update, and delete folders by using the EWS Managed API or EWS in Exchange."
 ---
 
-# How to: Work with folders by using EWS in Exchange
+# Work with folders by using EWS in Exchange
 
 Learn how to create, get, update, and delete folders by using the EWS Managed API or EWS in Exchange.
   
@@ -449,7 +449,7 @@ After you have retrieved the folders on the server, or made changes to folders, 
 ## See also
 
 - [Folders and items in EWS in Exchange](folders-and-items-in-ews-in-exchange.md)   
-- [How to: Work with Exchange mailbox items by using EWS in Exchange](how-to-work-with-exchange-mailbox-items-by-using-ews-in-exchange.md)    
+- [Work with Exchange mailbox items by using EWS in Exchange](how-to-work-with-exchange-mailbox-items-by-using-ews-in-exchange.md)    
 - [Deleting items by using EWS in Exchange](deleting-items-by-using-ews-in-exchange.md)   
 - [Develop web service clients for Exchange](develop-web-service-clients-for-exchange.md)
     

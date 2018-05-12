@@ -1,5 +1,5 @@
 ---
-title: "How to Delete appointments and cancel meetings by using EWS in Exchange"
+title: "Delete appointments and cancel meetings by using EWS in Exchange"
 manager: sethgros
 ms.date: 9/17/2015
 ms.audience: Developer
@@ -8,7 +8,7 @@ ms.assetid: 42412265-3968-468a-a8c2-7e8af3c6deb9
 description: "Learn how to delete appointments and meetings by using the EWS Managed API or EWS in Exchange."
 ---
 
-# How to: Delete appointments and cancel meetings by using EWS in Exchange
+# Delete appointments and cancel meetings by using EWS in Exchange
 
 Learn how to delete appointments and meetings by using the EWS Managed API or EWS in Exchange.
   
@@ -373,10 +373,10 @@ xmlns:t="http://schemas.microsoft.com/exchange/services/2006/types">
 ## See also
 
 - [Calendars and EWS in Exchange](calendars-and-ews-in-exchange.md)    
-- [How to: Create appointments and meetings by using EWS in Exchange 2013](how-to-create-appointments-and-meetings-by-using-ews-in-exchange-2013.md)  
-- [How to: Get appointments and meetings by using EWS in Exchange](how-to-get-appointments-and-meetings-by-using-ews-in-exchange.md) 
-- [How to: Update appointments and meetings by using EWS in Exchange](how-to-update-appointments-and-meetings-by-using-ews-in-exchange.md)  
-- [How to: Propose a new meeting time by using EWS in Exchange](how-to-propose-a-new-meeting-time-by-using-ews-in-exchange.md) 
-- [How to: Propose a new meeting time by using EWS in Exchange](how-to-propose-a-new-meeting-time-by-using-ews-in-exchange.md)
+- [Create appointments and meetings by using EWS in Exchange 2013](how-to-create-appointments-and-meetings-by-using-ews-in-exchange-2013.md)  
+- [Get appointments and meetings by using EWS in Exchange](how-to-get-appointments-and-meetings-by-using-ews-in-exchange.md) 
+- [Update appointments and meetings by using EWS in Exchange](how-to-update-appointments-and-meetings-by-using-ews-in-exchange.md)  
+- [Propose a new meeting time by using EWS in Exchange](how-to-propose-a-new-meeting-time-by-using-ews-in-exchange.md) 
+- [Propose a new meeting time by using EWS in Exchange](how-to-propose-a-new-meeting-time-by-using-ews-in-exchange.md)
     
 

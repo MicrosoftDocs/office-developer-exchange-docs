@@ -70,7 +70,7 @@ The schema that describes this element is located in the EWS virtual directory o
    
 ## See also
 
-#### Reference
+
 
 [AddDelegate operation](adddelegate-operation.md)
   
@@ -79,7 +79,7 @@ The schema that describes this element is located in the EWS virtual directory o
 [UpdateDelegate operation](updatedelegate-operation.md)
   
 [RemoveDelegate operation](removedelegate-operation.md)
-#### Concepts
+
 
 [EWS XML elements in Exchange](ews-xml-elements-in-exchange.md)
 

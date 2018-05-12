@@ -50,7 +50,7 @@ The [EmailAddress (NonEmptyStringType)](emailaddress-nonemptystringtype.md) elem
   
 ## See also
 
-#### Concepts
+
 
 [POX Autodiscover XML elements for Exchange](pox-autodiscover-xml-elements-for-exchange.md)
 

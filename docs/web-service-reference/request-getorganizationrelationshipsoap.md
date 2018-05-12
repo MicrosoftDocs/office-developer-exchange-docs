@@ -57,10 +57,10 @@ None.
    
 ## See also
 
-#### Reference
+
 
 [GetOrganizationRelationshipSettingsRequest (SOAP)](getorganizationrelationshipsettingsrequest-soap.md)
-#### Other resources
+
 
 [Working with Autodiscover](http://msdn.microsoft.com/library/39726b67-2eb2-451b-9307-cfd0b518b55c%28Office.15%29.aspx)
 

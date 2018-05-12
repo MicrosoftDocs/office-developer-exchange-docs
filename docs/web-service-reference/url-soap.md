@@ -55,7 +55,7 @@ The text value is the URL of a Web client.
    
 ## See also
 
-#### Reference
+
 
 [GetUserSettings operation (SOAP)](getusersettings-operation-soap.md)
   

@@ -128,7 +128,7 @@ Or if you're using EWS, add the elements to the [AdditionalProperties](http://ms
 |[UniqueBody](http://msdn.microsoft.com/en-us/library/microsoft.exchange.webservices.data.item.uniquebody%28v=exchg.80%29.aspx) <br/> |[UniqueBody](http://msdn.microsoft.com/library/06bc95d7-121c-433b-bd27-c2b0eb8c011f%28Office.15%29.aspx) <br/> |Read-only  <br/> |
    
 ## See also
-<a name="bk_addresources"> </a>
+
 
 - [Email and EWS in Exchange](email-and-ews-in-exchange.md)
     
@@ -136,6 +136,6 @@ Or if you're using EWS, add the elements to the [AdditionalProperties](http://ms
     
 - [Property sets and response shapes in EWS in Exchange](property-sets-and-response-shapes-in-ews-in-exchange.md)
     
-- [How to: Work with Exchange mailbox items by using EWS in Exchange](how-to-work-with-exchange-mailbox-items-by-using-ews-in-exchange.md)
+- [Work with Exchange mailbox items by using EWS in Exchange](how-to-work-with-exchange-mailbox-items-by-using-ews-in-exchange.md)
     
 

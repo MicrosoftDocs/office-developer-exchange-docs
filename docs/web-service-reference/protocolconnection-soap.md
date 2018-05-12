@@ -63,7 +63,7 @@ None.
    
 ## See also
 
-#### Reference
+
 
 [ProtocolConnectionCollectionSetting (SOAP)](protocolconnectioncollectionsetting-soap.md)
 

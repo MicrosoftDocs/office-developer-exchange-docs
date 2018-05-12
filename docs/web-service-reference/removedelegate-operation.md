@@ -148,7 +148,7 @@ The following example of a **RemoveDelegate** error response shows the results o
 
 ## See also
 
-#### Concepts
+
 
 [EWS XML elements in Exchange](ews-xml-elements-in-exchange.md)
 

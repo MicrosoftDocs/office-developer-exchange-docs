@@ -57,7 +57,7 @@ The client application should stop redirecting after 10 redirects.
   
 ## See also
 
-#### Concepts
+
 
 [POX Autodiscover XML elements for Exchange](pox-autodiscover-xml-elements-for-exchange.md)
 

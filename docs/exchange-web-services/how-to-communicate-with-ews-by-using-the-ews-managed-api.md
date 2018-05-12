@@ -79,8 +79,8 @@ After you set up an [ExchangeService](https://msdn.microsoft.com/library/Microso
   
 ## See also
 
-- [Get started with EWS Managed API client applications](get-started-with-ews-managed-api-client-applications.md)   
-- [How to: Use Autodiscover to find connection points](how-to-use-autodiscover-to-find-connection-points.md)   
+- [Get started with EWS Managed API client applications](get-started-with-ews-managed-api-client-applications.md) 
+- [Use Autodiscover to find connection points](how-to-use-autodiscover-to-find-connection-points.md)   
 - [Develop web service clients for Exchange](develop-web-service-clients-for-exchange.md)
     
 

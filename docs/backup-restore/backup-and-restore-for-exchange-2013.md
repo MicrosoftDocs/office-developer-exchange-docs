@@ -16,16 +16,14 @@ description: "Find information about creating backup and restore applications fo
 
 Find information about creating backup and restore applications for Exchange 2013.
   
- **Last modified:** September 17, 2015 
-  
- * **Applies to:** Exchange Server 2013 * 
+**Applies to:** Exchange Server 2013 
   
 Exchange Server 2013 provides Database Availability Groups (DAGs), which help to keep stored data secure and available, and reduce the need for custom backup and restore applications. DAGs enable off-site data redundancy to help ensure that you won't lose data. However, many disaster recovery plans continue to include more traditional backup and restore methods and systems, including custom applications, for redundancy with the DAG. To help ensure data availability and redundancy in your organization, you can create custom applications that use Exchange Server and Windows Server operating system technologies to back up and restore your Exchange data.
   
 ## Backup technologies in Exchange 2013
 <a name="bk_plugin"> </a>
 
-Exchange 2013 includes a plug-in for Windows Server Backup that administrators can use to make VSS-based backups of Exchange data. Administrators can also use Windows Server Backup to back up and restore Exchange databases. If you are creating a backup and restore application for Exchange 2013, you need to create an Exchange-aware application that supports the VSS writer for Exchange 2013, and use the CHKSGFILES API to validate the consistency of that backup. For more information, see [How to: Validate backup integrity by using the CHKSGFILES API in Exchange 2013](how-to-validate-backup-integrity-by-using-the-chksgfiles-api-in-exchange-2013.md).
+Exchange 2013 includes a plug-in for Windows Server Backup that administrators can use to make VSS-based backups of Exchange data. Administrators can also use Windows Server Backup to back up and restore Exchange databases. If you are creating a backup and restore application for Exchange 2013, you need to create an Exchange-aware application that supports the VSS writer for Exchange 2013, and use the CHKSGFILES API to validate the consistency of that backup. For more information, see [Validate backup integrity by using the CHKSGFILES API in Exchange 2013](how-to-validate-backup-integrity-by-using-the-chksgfiles-api-in-exchange-2013.md).
   
 ## VSS writer in Exchange 2013
 <a name="bk_vsswriter"> </a>
@@ -56,7 +54,7 @@ Although the VSS writer architecture was updated in Exchange 2013, the underlyin
 - [CChkSGFiles class reference](cchksgfiles-class-reference.md)
     
 ## See also
-<a name="bk_addresources"> </a>
+
 
 - [Volume Shadow Copy Service (Windows)](http://msdn.microsoft.com/en-us/library/windows/desktop/bb968832%28v=vs.85%29.aspx)
     

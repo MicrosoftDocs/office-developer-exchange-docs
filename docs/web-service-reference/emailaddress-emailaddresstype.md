@@ -72,7 +72,7 @@ The **EmailAddress** element is applicable for clients that target Exchange Onli
    
 ## See also
 
-#### Concepts
+
 
 [EWS XML elements in Exchange](ews-xml-elements-in-exchange.md)
 
