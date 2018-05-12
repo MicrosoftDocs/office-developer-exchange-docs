@@ -1,18 +1,14 @@
 ---
-title: "How to Update appointments and meetings by using EWS in Exchange"
- 
- 
+title: "Update appointments and meetings by using EWS in Exchange"
 manager: sethgros
 ms.date: 12/9/2015
 ms.audience: Developer
- 
- 
 localization_priority: Normal
 ms.assetid: 13256625-083e-4a17-8fd1-2bed1f7cc14e
 description: "Learn how to update appointments and meetings by using the EWS Managed API or EWS in Exchange."
 ---
 
-# How to: Update appointments and meetings by using EWS in Exchange
+# Update appointments and meetings by using EWS in Exchange
 
 Learn how to update appointments and meetings by using the EWS Managed API or EWS in Exchange.
   
@@ -22,7 +18,7 @@ The essential difference between meetings and appointments is that meetings have
 
 |**EWS Managed API method**|**Corresponding EWS operations**|
 |:-----|:-----|
-|[Appointment.Update](http://msdn.microsoft.com/en-us/library/microsoft.exchange.webservices.data.appointment.update%28v=exchg.80%29.aspx) <br/> |[UpdateItem](http://msdn.microsoft.com/library/5d027523-e0bc-4da2-b60b-0cb9fc1fdfe4%28Office.15%29.aspx)          [UpdateItemResponse](http://msdn.microsoft.com/library/023b79b4-c675-4669-9112-d85499ec4fc4%28Office.15%29.aspx) <br/> |
+|[Appointment.Update](http://msdn.microsoft.com/en-us/library/microsoft.exchange.webservices.data.appointment.update%28v=exchg.80%29.aspx) <br/> |[UpdateItem](http://msdn.microsoft.com/library/5d027523-e0bc-4da2-b60b-0cb9fc1fdfe4%28Office.15%29.aspx)<br/><br/>          [UpdateItemResponse](http://msdn.microsoft.com/library/023b79b4-c675-4669-9112-d85499ec4fc4%28Office.15%29.aspx) <br/> |
    
 ## Update an appointment by using the EWS Managed API
 <a name="bk_UpdateApptEWSMA"> </a>
@@ -272,16 +268,11 @@ The following example shows the request XML when you use the [UpdateItem](http:/
 ```
 
 ## See also
-<a name="bk_addresources"> </a>
 
-- [Calendars and EWS in Exchange](calendars-and-ews-in-exchange.md)
-    
-- [How to: Create appointments and meetings by using EWS in Exchange 2013](how-to-create-appointments-and-meetings-by-using-ews-in-exchange-2013.md)
-    
-- [How to: Get appointments and meetings by using EWS in Exchange](how-to-get-appointments-and-meetings-by-using-ews-in-exchange.md)
-    
-- [How to: Delete appointments and cancel meetings by using EWS in Exchange](how-to-delete-appointments-and-cancel-meetings-by-using-ews-in-exchange.md)
-    
-- [How to: Propose a new meeting time by using EWS in Exchange](how-to-propose-a-new-meeting-time-by-using-ews-in-exchange.md)
+- [Calendars and EWS in Exchange](calendars-and-ews-in-exchange.md)   
+- [Create appointments and meetings by using EWS in Exchange 2013](how-to-create-appointments-and-meetings-by-using-ews-in-exchange-2013.md)   
+- [Get appointments and meetings by using EWS in Exchange](how-to-get-appointments-and-meetings-by-using-ews-in-exchange.md)  
+- [Delete appointments and cancel meetings by using EWS in Exchange](how-to-delete-appointments-and-cancel-meetings-by-using-ews-in-exchange.md)  
+- [Propose a new meeting time by using EWS in Exchange](how-to-propose-a-new-meeting-time-by-using-ews-in-exchange.md)
     
 

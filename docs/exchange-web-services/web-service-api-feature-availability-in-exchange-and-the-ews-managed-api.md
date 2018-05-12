@@ -1,12 +1,8 @@
 ---
 title: "Web service API feature availability in Exchange and the EWS Managed API"
- 
- 
 manager: sethgros
 ms.date: 9/17/2015
 ms.audience: Developer
- 
- 
 localization_priority: Normal
 ms.assetid: 07d3e6e8-d549-4ad7-baa4-bc531dfb7dd2
 description: "Learn about which EWS and web service API features are available in each version of Exchange and the EWS Managed API."
@@ -29,7 +25,7 @@ The following table indicates which API features are available in each version o
   
 **Table 1. Web service feature availability in versions of Exchange and the EWS Managed API**
 
-|**API feature**|**Exchange Online (Office 365)**|**EWS Managed API**|**Exchange 2013**|**Exchange 2010 SP2**|**Exchange 2010 SP1**|**Exchange 2010**|**Exchange 2007 SP1**|**Exchange 2007**|
+|API feature|Exchange Online (Office 365)|EWS Managed API|Exchange 2013|Exchange 2010 SP2|Exchange 2010 SP1|Exchange 2010|Exchange 2007 SP1|Exchange 2007|
 |:-----|:-----|:-----|:-----|:-----|:-----|:-----|:-----|:-----|
 |Ambiguous name resolution  <br/> |X  <br/> |X  <br/> |X  <br/> |X  <br/> |X  <br/> |X  <br/> |X  <br/> |X  <br/> |
 |Apps for Outlook management  <br/> |X  <br/> |X  <br/> |X  <br/> ||||||
@@ -56,7 +52,7 @@ The following table indicates which API features are available in each version o
 |[Mailbox events (streaming)](notification-subscriptions-mailbox-events-and-ews-in-exchange.md) <br/> |X  <br/> |X  <br/> |X  <br/> |X  <br/> |X  <br/> ||||
 |Mailtips  <br/> |X  <br/> |X  <br/> |X  <br/> |X  <br/> |X  <br/> ||||
 |Password expiration  <br/> |X  <br/> |X  <br/> |X  <br/> |X  <br/> |||||
-|[Personas](http://msdn.microsoft.com/library/ people-and-contacts-in-ews-in-exchange%28Office.15%29.aspx) <br/> |X  <br/> ||X  <br/> ||||||
+|[Personas](http://msdn.microsoft.com/library/people-and-contacts-in-ews-in-exchange%28Office.15%29.aspx) <br/> |X  <br/> ||X  <br/> ||||||
 |Post items  <br/> |X  <br/> |X  <br/> |X  <br/> |X  <br/> |X  <br/> |X  <br/> |X  <br/> ||
 |[Public folder access](public-folder-access-with-ews-in-exchange.md) <br/> |X  <br/> |X  <br/> |X  <br/> |X  <br/> |X  <br/> |X  <br/> |X  <br/> ||
 |Retention policies  <br/> |X  <br/> |X  <br/> |X  <br/> ||||||
@@ -81,12 +77,9 @@ If you want to go deeper to understand the specific differences between Exchange
 - Download [EWSEditor](http://ewseditor.codeplex.com/). You can use EWSEditor to specify different target schema versions and submit queries based on the target schema version.
     
 ## See also
-<a name="bk_addresources"> </a>
 
-- [EWS client design overview for Exchange](ews-client-design-overview-for-exchange.md)
-    
-- [Get started with EWS Managed API client applications](get-started-with-ews-managed-api-client-applications.md)
-    
+- [EWS client design overview for Exchange](ews-client-design-overview-for-exchange.md)   
+- [Get started with EWS Managed API client applications](get-started-with-ews-managed-api-client-applications.md) 
 - [What's new in EWS and other web services in Exchange](what’s-new-in-ews-and-other-web-services-in-exchange.md)
     
 

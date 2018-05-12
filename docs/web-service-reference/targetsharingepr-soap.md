@@ -6,22 +6,19 @@ ms.audience: Developer
 ms.topic: reference
 localization_priority: Normal
 ms.assetid: 0115a740-9264-4e57-a410-197bb39e6c81
-description: "Applies to:"
- 
- 
+description: The TargetSharingEpr element represents the TargetSharingEpr property. The TargetSharingEpr element is for internal use only.
 ---
 
 # TargetSharingEpr (SOAP)
-
- * **Applies to: *** 
-  
+ 
 The **TargetSharingEpr** element represents the **TargetSharingEpr** property. The **TargetSharingEpr** element is for internal use only. This element is not used by clients. 
   
 ```XML
 <TargetSharingEpr/>
 ```
 
- **anyURI**
+**anyURI**
+
 ## Attributes and elements
 
 The following sections describe attributes, child elements, and parent elements.
@@ -55,7 +52,5 @@ This element specifies the URL of the target server for the external organizatio
    
 ## See also
 
-#### Reference
-
-[GetOrganizationRelationshipSettings operation (SOAP)](getorganizationrelationshipsettings-operation-soap.md)
+- [GetOrganizationRelationshipSettings operation (SOAP)](getorganizationrelationshipsettings-operation-soap.md)
 

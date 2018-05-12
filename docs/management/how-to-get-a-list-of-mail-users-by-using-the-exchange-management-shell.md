@@ -57,13 +57,13 @@ The following code example defines the **GetUsersUsingBasicAuth** method, which 
   
 This method requires the following parameters:
   
--  **liveIDConnectionUri**&ndash;A string that contains the URI of the Exchange Online server that will authenticate the application. If Exchange Online is running in Office 365, the URI is https://outlook.office365.com/PowerShell-LiveID; otherwise, the URI is https://\<servername\>/PowerShell-LiveID. 
+-  **liveIDConnectionUri** &ndash; A string that contains the URI of the Exchange Online server that will authenticate the application. If Exchange Online is running in Office 365, the URI is https://outlook.office365.com/PowerShell-LiveID; otherwise, the URI is https://\<servername\>/PowerShell-LiveID. 
     
--  **schemaUri**&ndash;A string that contains the URI of the schema document that defines the Exchange Management Shell schema. The schema URI is http://schemas.microsoft.com/powershell/Microsoft.Exchange. 
+-  **schemaUri** &ndash; A string that contains the URI of the schema document that defines the Exchange Management Shell schema. The schema URI is http://schemas.microsoft.com/powershell/Microsoft.Exchange. 
     
--  **credentials**&ndash;A [PSCredential](http://msdn.microsoft.com/en-us/library/system.management.automation.pscredential%28VS.85%29.aspx) object that contains the credentials of the user who is running the application. 
+-  **credentials** &ndash; A [PSCredential](http://msdn.microsoft.com/en-us/library/system.management.automation.pscredential%28VS.85%29.aspx) object that contains the credentials of the user who is running the application. 
     
--  **count**&ndash;The number of Exchange mailbox users to return. 
+-  **count** &ndash; The number of Exchange mailbox users to return. 
     
 ```cs
 public Collection<PSObject> GetUsersUsingBasicAuth(
@@ -103,9 +103,9 @@ The following code example defines the **GetUsersUsingCertificate** method, whic
   
 This method requires the following parameters:
   
--  **thumbprint**&ndash;A string that contains the thumbprint of the certificate that is used to authenticate the application. 
+-  **thumbprint** &ndash; A string that contains the thumbprint of the certificate that is used to authenticate the application. 
     
--  **certConnectionUri**&ndash;A string that contains the URI of the server that will authenticate the certificate. The URI will be one of those listed in the following table. 
+-  **certConnectionUri** &ndash; A string that contains the URI of the server that will authenticate the certificate. The URI will be one of those listed in the following table. 
     
     **Table 1. certConnectionUri URIs**
 
@@ -115,9 +115,9 @@ This method requires the following parameters:
     |Exchange server using SSL  <br/> |`https://<servername>/PowerShell`  <br/> |
     |Exchange Online as part of Office 365  <br/> |`https://outlook.office365.com/PowerShell`  <br/> |
    
-- **schemaUri**&ndash;A string that contains the URI of the schema document that defines the Exchange Management Shell schema. The schema URI is http://schemas.microsoft.com/powershell/Microsoft.Exchange. 
+- **schemaUri** &ndash; A string that contains the URI of the schema document that defines the Exchange Management Shell schema. The schema URI is http://schemas.microsoft.com/powershell/Microsoft.Exchange. 
     
-- **count**&ndash;The number of Exchange mailbox users to return. 
+- **count** &ndash; The number of Exchange mailbox users to return. 
     
 ```cs
 public Collection<PSObject> GetUsersUsingCertificate(
@@ -156,7 +156,7 @@ The following code example defines the **GetUsersUsingKerberos** method, which c
   
 This method requires the following parameters:
   
-- **kerberosUri**&ndash;A string that contains the URI of the Kerberos server that will authenticate the application. The URI will be one of those listed in the following table. 
+- **kerberosUri** &ndash; A string that contains the URI of the Kerberos server that will authenticate the application. The URI will be one of those listed in the following table. 
     
     **Table 2. kerberosUri URIs**
 
@@ -165,11 +165,11 @@ This method requires the following parameters:
     |Exchange server without using SSL  <br/> |`http://<servername>/PowerShell`  <br/> |
     |Exchange server using SSL  <br/> |`https://<servername>/PowerShell`  <br/> |
    
-- **schemaUri**&ndash;A string that contains the URI of the schema document that defines the Exchange Management Shell schema. The schema URI is http://schemas.microsoft.com/powershell/Microsoft.Exchange. 
+- **schemaUri** &ndash; A string that contains the URI of the schema document that defines the Exchange Management Shell schema. The schema URI is http://schemas.microsoft.com/powershell/Microsoft.Exchange. 
     
-- **credentials**&ndash;A [PSCredential](http://msdn.microsoft.com/en-us/library/system.management.automation.pscredential%28VS.85%29.aspx) object that contains the credentials of the user who is running the application. 
+- **credentials** &ndash; A [PSCredential](http://msdn.microsoft.com/en-us/library/system.management.automation.pscredential%28VS.85%29.aspx) object that contains the credentials of the user who is running the application. 
     
-- **count**&ndash;The number of Exchange mailbox users to return. 
+- **count** &ndash; The number of Exchange mailbox users to return. 
     
 ```cs
 public Collection<PSObject> GetUsersUsingKerberos(
@@ -209,9 +209,9 @@ The following code example defines the **GetUserInformation** method, which retu
   
 This method requires the following parameters:
   
-- **count**&ndash;The number of Exchange mailbox users to return. 
+- **count** &ndash; The number of Exchange mailbox users to return. 
     
-- **runspace**&ndash;The remote runspace that is established for the remote Exchange server. 
+- **runspace** &ndash; The remote runspace that is established for the remote Exchange server. 
     
 ```cs
 public Collection<PSObject> GetUserInformation(int count, Runspace runspace)
