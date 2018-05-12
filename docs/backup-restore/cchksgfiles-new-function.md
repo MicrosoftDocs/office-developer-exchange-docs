@@ -1,7 +1,5 @@
 ---
 title: "CChkSGFiles.New function"
- 
- 
 manager: sethgros
 ms.date: 11/16/2014
 ms.audience: Developer
@@ -18,8 +16,6 @@ description: "Last modified: February 22, 2013"
 
 # CChkSGFiles.New function
 
- 
-  
 **Applies to:** Exchange Server 2003 | Exchange Server 2007 | Exchange Server 2010 | Exchange Server 2013
   
 Creates a new instance of the **CChkSGFiles** class. You must call this function before you can specify the storage group and databases to be checked. 

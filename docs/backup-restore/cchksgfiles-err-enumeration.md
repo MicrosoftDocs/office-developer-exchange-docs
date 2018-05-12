@@ -1,7 +1,5 @@
 ---
 title: "CChkSGFiles.ERR enumeration"
- 
- 
 manager: sethgros
 ms.date: 3/9/2015
 ms.audience: Developer
@@ -38,8 +36,6 @@ Enum ERR
 ```
 
 ## Values
-
-****
 
 |**Member name**|**Value**|**Description**|
 |:-----|:-----|:-----|

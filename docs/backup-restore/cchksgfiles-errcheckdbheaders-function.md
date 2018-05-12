@@ -43,7 +43,7 @@ Output parameter. The number of pages at the beginning of each specified databas
     
 ### piDbErrorEncountered
   
-Output parameter. If the return value of the function indicates an error, this parameter will be an index into the *rgwszDb[]* array passed to the **ErrInit** function. The indexed array element represents the database in which the error was encountered. If the function does not return an error value, this parameter value is invalid. 
+Output parameter. If the return value of the function indicates an error, this parameter will be an index into the **rgwszDb[]** array passed to the **ErrInit** function. The indexed array element represents the database in which the error was encountered. If the function does not return an error value, this parameter value is invalid. 
     
 ### ulFlags 
   
@@ -55,15 +55,15 @@ This function returns an error code from the [CChkSGFiles.ERR enumeration](cchks
   
 ## Remarks
 
-**ErrCheckDbHeaders** verifies that all databases registered with **ErrInit** have the same log signature and database page size. You can also use the lowest  *genMin*  parameter value and the highest  *genMax*  parameter value to determine the set of log files that are necessary to bring all of the registered databases to a clean-shutdown state. 
+**ErrCheckDbHeaders** verifies that all databases registered with **ErrInit** have the same log signature and database page size. You can also use the lowest **genMin** parameter value and the highest **genMax** parameter value to determine the set of log files that are necessary to bring all of the registered databases to a clean-shutdown state. 
   
-The *piDbErrorEncountered*  parameter is set only when an error is detected, as indicated by a non-zero **ErrCheckDbHeaders** return value. 
+The **piDbErrorEncountered** parameter is set only when an error is detected, as indicated by a non-zero **ErrCheckDbHeaders** return value. 
   
 When an error occurs in this function, an error event will be added to the Windows Error event log.
   
 You can call **ErrCheckDbHeaders** only after calling **ErrInit**, and you must call it before calling **ErrCheckDbPages** and **ErrCheckLogs**.
   
-If you're using CHKSGFILES in a multithreaded application, you must call the **ErrCheckDbHeaders** function in the single-threaded portion, and you can call it only once for each **CCheckSGFiles** object 
+If you're using CHKSGFILES in a multithreaded application, you must call the **ErrCheckDbHeaders** function in the single-threaded portion, and you can call it only once for each **CCheckSGFiles** object. 
   
 ## Requirements
 

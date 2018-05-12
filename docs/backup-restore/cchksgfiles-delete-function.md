@@ -1,7 +1,5 @@
 ---
 title: "CChkSGFiles.Delete function"
- 
- 
 manager: sethgros
 ms.date: 11/16/2014
 ms.audience: Developer
@@ -18,8 +16,6 @@ description: "Last modified: February 22, 2013"
 
 # CChkSGFiles.Delete function
 
- 
-  
 **Applies to:** Exchange Server 2003 | Exchange Server 2007 | Exchange Server 2010 | Exchange Server 2013
   
 Destroys an existing instance of the **CChkSGFiles** class. You must call this function after the application has finished working with the specified object. 
@@ -34,9 +30,9 @@ Static VOID __stdcall Delete
 
 ## Parameters
 
- *pcchecksgfiles* 
+### pcchecksgfiles 
   
-> Input parameter. A pointer to an existing **CCheckSGFiles** object. The memory associated with the object will then be freed. 
+Input parameter. A pointer to an existing **CCheckSGFiles** object. The memory associated with the object will then be freed. 
     
 ## Return value
 

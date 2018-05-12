@@ -1,7 +1,5 @@
 ---
 title: "CChkSGFiles.ErrTerm function"
- 
- 
 manager: sethgros
 ms.date: 11/16/2014
 ms.audience: Developer
@@ -35,9 +33,9 @@ Vitual ERRErrTerm
 
 ## Parameters
 
- *ulFlags* 
+### ulFlags
   
-> Optional input parameter. This value is reserved for future use. The value passed by this parameter should be 0 (zero).
+Optional input parameter. This value is reserved for future use. The value passed by this parameter should be 0 (zero).
     
 ## Return value
 

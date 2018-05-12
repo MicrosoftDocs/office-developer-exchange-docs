@@ -1,7 +1,5 @@
 ---
 title: "CChkSGFiles.NO_FLAGS enumeration"
- 
- 
 manager: sethgros
 ms.date: 11/16/2014
 ms.audience: Developer
@@ -18,11 +16,9 @@ description: "Last modified: February 22, 2013"
 
 # CChkSGFiles.NO_FLAGS enumeration
 
- 
-  
 **Applies to:** Exchange Server 2003 | Exchange Server 2007 | Exchange Server 2010 | Exchange Server 2013
   
-Serves as a placeholder value for the  *ulFlags*  parameters that are accepted by most **CCheckSGFiles** class functions. 
+Serves as a placeholder value for the **ulFlags** parameters that are accepted by most **CCheckSGFiles** class functions. 
   
 ```cs
 Enum { NO_FLAGS = 0 }
