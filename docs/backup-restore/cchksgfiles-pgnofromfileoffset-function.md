@@ -40,7 +40,7 @@ The database file's logical page number that includes the specified offset.
   
 ## Remarks
 
-If the  _ibFileOffset_ parameter is invalid, the **PgnoFromFileOffset** function returns 0 (zero). 
+If the **ibFileOffset** parameter is invalid, the **PgnoFromFileOffset** function returns 0 (zero). 
   
 **PgnoFromFileOffset** also returns 0 (zero) if you haven't called the **ErrCheckDbHeaders** function on the **CCheckSGFiles** instance. You must call **ErrCheckDbHeaders** to initialize the database page size and number of pages allocated to database headers. 
   
