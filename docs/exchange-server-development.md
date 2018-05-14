@@ -29,7 +29,7 @@ Use the following table to identify the technology and related API content that 
 |A mailbox client that uses the .NET Framework to access EWS |[Get started with EWS Managed API client applications](exchange-web-services/get-started-with-ews-managed-api-client-applications.md) |
 |A mailbox client that uses Java to access EWS |[EWS Java API on GitHub](https://github.com/OfficeDev/ews-java-api) |
 |An application that customizes the Outlook user interface or relies on Outlook business logic  |[Outlook VBA reference](https://msdn.microsoft.com/en-us/VBA/VBA-Outlook) |
-|An application that targets Exchange Online or Exchange 2013 and you need to migrate from a previous version of Exchange  |[Migrating to Exchange technologies](migrating-to-exchange-online-and-exchange-2013-technologies.md) |
+|An application that targets Exchange Online or Exchange 2013 that you need to migrate from a previous version of Exchange  |[Migrating to Exchange technologies](migrating-to-exchange-online-and-exchange-2013-technologies.md) |
 |A custom management tool that uses Windows PowerShell from managed code   |[Exchange Management Shell](management/exchange-management-shell.md) |
 |A solution to back up or restore Exchange data  |[Backup and restore for Exchange](backup-restore/backup-and-restore-for-exchange-2013.md) |
 |An extension to support accessing messages in the transport pipeline   |[Transport agents in Exchange](transport-agents/transport-agents-in-exchange-2013.md)  |

@@ -1,5 +1,5 @@
 ---
-title: "Transport agents in Exchange 2013"
+title: "Transport agents in Exchange"
 manager: sethgros
 ms.date: 9/17/2015
 ms.audience: Developer
@@ -10,17 +10,13 @@ ms.assetid: 36d63aa6-1b72-4670-b5c3-da685f3017cb
 description: "Find information about transport agents in Exchange 2013."
 ---
 
-# Transport agents in Exchange 2013
-
-Find information about transport agents in Exchange 2013. 
-
-**Applies to:** Exchange Server 2013
+# Transport agents in Exchange
   
 Exchange 2013 provides a library of classes that support the extension of the Exchange transport behavior and enable the reading, writing, and converting of content types. You can use these classes to create Exchange transport applications that read, write, and process messages in the transport pipeline.
   
 ## What you need to know about transport agents
 
-|**If you're wondering about…**|**Read this**|
+|If you're wondering about…|Read this|
 |:-----|:-----|
 |Availability  <br/> |Transport agents are available in versions of Exchange starting with Exchange 2007. Transport agents are not supported in Office 365 or Exchange Online.  <br/> |
 |Remote usage  <br/> |Transport agents run on the Exchange server and do not support remote usage.  <br/> |
@@ -44,8 +40,8 @@ Exchange 2013 provides a library of classes that support the extension of the Ex
     
 ## See also
 
-- [Exchange Online and Exchange development](exchange-server-development.md)    
-- [Explore the EWS Managed API, EWS, and web services in Exchange](exchange-web-services/explore-the-ews-managed-api-ews-and-web-services-in-exchange.md)   
-- [Backup and restore for Exchange](backup-restore/backup-and-restore-for-exchange-2013.md) 
+- [Exchange Online and Exchange development](../exchange-server-development.md)    
+- [Explore the EWS Managed API, EWS, and web services in Exchange](../exchange-web-services/explore-the-ews-managed-api-ews-and-web-services-in-exchange.md)   
+- [Backup and restore for Exchange](../backup-restore/backup-and-restore-for-exchange-2013.md) 
     
 
