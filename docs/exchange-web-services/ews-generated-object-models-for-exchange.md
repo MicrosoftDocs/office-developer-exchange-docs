@@ -48,7 +48,7 @@ If you plan to use an object model generator, you can use the [XML reference](ht
 
 - [Web services reference for Exchange](../web-service-reference/web-services-reference-for-exchange.md)
 - [Explore the EWS Managed API, EWS, and web services in Exchange](explore-the-ews-managed-api-ews-and-web-services-in-exchange.md)     
-- [What's new in EWS and other web services in Exchange](what's-new-in-ews-and-other-web-services-in-exchange.md)  
+- [What's new in EWS and other web services in Exchange](whats-new-in-ews-and-other-web-services-in-exchange.md)  
 - [Add a Reference to a Web Service](http://msdn.microsoft.com/en-us/library/bb628649.aspx)
     
 

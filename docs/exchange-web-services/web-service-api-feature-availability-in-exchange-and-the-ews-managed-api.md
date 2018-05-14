@@ -80,6 +80,6 @@ If you want to go deeper to understand the specific differences between Exchange
 
 - [EWS client design overview for Exchange](ews-client-design-overview-for-exchange.md)   
 - [Get started with EWS Managed API client applications](get-started-with-ews-managed-api-client-applications.md) 
-- [What's new in EWS and other web services in Exchange](what’s-new-in-ews-and-other-web-services-in-exchange.md)
+- [What's new in EWS and other web services in Exchange](whats-new-in-ews-and-other-web-services-in-exchange.md)
     
 
