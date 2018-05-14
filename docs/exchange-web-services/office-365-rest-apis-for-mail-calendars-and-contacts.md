@@ -1,12 +1,8 @@
 ---
 title: "Office 365 REST APIs for mail, calendars, and contacts"
- 
- 
 manager: sethgros
 ms.date: 4/29/2016
 ms.audience: Developer
- 
- 
 localization_priority: Normal
 ms.assetid: 3b2e71a6-5fa5-4008-b243-d3a6e9173b3d
 description: "Find information about the Office 365 APIs that you can use to access mail, calendars, and contacts in Office 365 or Exchange Online."

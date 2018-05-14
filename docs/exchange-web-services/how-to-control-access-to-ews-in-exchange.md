@@ -47,7 +47,7 @@ Let's take a look at a few scenarios that show you how you can control access to
 
 - [Setting up your EWS application](setting-up-your-ews-application.md)    
 - [Controlling client application access to EWS in Exchange](controlling-client-application-access-to-ews-in-exchange.md)   
-- [Exchange Management Shell](http://technet.microsoft.com/en-us/library/aa998267.aspx)   
+- [Exchange Server PowerShell (Exchange Management Shell)](https://docs.microsoft.com/en-us/powershell/exchange/exchange-server/exchange-management-shell?view=exchange-ps) 
 - [Windows PowerShell](http://msdn.microsoft.com/en-us/library/dd835506%28v=vs.85%29.aspx)
     
 

@@ -29,11 +29,8 @@ The WSDL operation content in this section provides overview information and req
     
 ## See also
 
-
 - [Web services reference for Exchange](web-services-reference-for-exchange.md)
-    
-- [Explore the EWS Managed API, EWS, and web services in Exchange](http://msdn.microsoft.com/library/53553207-ff98-4fdb-8716-4ae02fee83bf%28Office.15%29.aspx)
-    
-- [Start using web services in Exchange](http://msdn.microsoft.com/library/e1b07a92-0595-4bf1-bd6b-c07e66a8c923%28Office.15%29.aspx)
+- [Explore the EWS Managed API, EWS, and web services in Exchange](../exchange-web-services/explore-the-ews-managed-api-ews-and-web-services-in-exchange.md)
+- [Start using web services in Exchange](../exchange-web-services/start-using-web-services-in-exchange.md)
     
 

@@ -33,11 +33,8 @@ The following table lists the versions of Exchange that include EWS and the majo
    
 ## See also
 
-
 - [Start using web services in Exchange](start-using-web-services-in-exchange.md)
-    
-- [Migrating to Exchange Online and Exchange 2013 technologies](http://msdn.microsoft.com/library/946a722f-0892-4a59-9e58-a291bfb6834a%28Office.15%29.aspx)
-    
-- [Explore the EWS Managed API, EWS, and web services in Exchange](http://msdn.microsoft.com/library/53553207-ff98-4fdb-8716-4ae02fee83bf%28Office.15%29.aspx)
+- [Migrating to Exchange technologies](../migrating-to-exchange-online-and-exchange-2013-technologies.md)
+- [Explore the EWS Managed API, EWS, and web services in Exchange](explore-the-ews-managed-api-ews-and-web-services-in-exchange.md)  
     
 

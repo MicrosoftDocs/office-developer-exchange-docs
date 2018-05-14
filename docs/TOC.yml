@@ -1,22 +1,17 @@
-- name: Exchange Server
-  href: exchange-server-development.md
-  items:
-    - name: Exchange Online and Exchange 2013 development
-      href: exchange-online-and-exchange-2013-development.md
+
+    - name: Exchange Server
+      href: exchange-server-development.md
       items:      
         - name: Migration
           href: migrating-to-exchange-online-and-exchange-2013-technologies.md
-        - name: Web Services
-          href:
+        - name: Web services
+          href: exchange-web-services/explore-the-ews-managed-api-ews-and-web-services-in-exchange.md
           items:
-            - name: Explore the EWS Managed API, EWS, and web services
-              href: exchange-web-services/explore-the-ews-managed-api-ews-and-web-services-in-exchange.md
+            - name: What's new
+              href: exchange-web-services/whats-new-in-ews-and-other-web-services-in-exchange.md
+            - name: Start
+              href: exchange-web-services/start-using-web-services-in-exchange.md
               items:
-              - name: What's new
-                href: exchange-web-services/what’s-new-in-ews-and-other-web-services-in-exchange.md
-              - name: Start
-                href: exchange-web-services/start-using-web-services-in-exchange.md
-                items:
                 - name: Architecture
                   href: exchange-web-services/ews-applications-and-the-exchange-architecture.md
                 - name: Application types
@@ -80,9 +75,9 @@
                   href: exchange-web-services/office-365-rest-apis-for-mail-calendars-and-contacts.md
                 - name: License information
                   href: exchange-web-services/license-information.md
-              - name: Design
-                href: exchange-web-services/ews-client-design-overview-for-exchange.md
-                items:
+            - name: Design
+              href: exchange-web-services/ews-client-design-overview-for-exchange.md
+              items:
                 - name: Web service API feature availability
                   href: exchange-web-services/web-service-api-feature-availability-in-exchange-and-the-ews-managed-api.md
                 - name: EWS schema versions
@@ -100,9 +95,9 @@
                   href: exchange-web-services/redistribution-requirements-for-the-ews-managed-api.md
                 - name: Instrumenting client requests
                   href: exchange-web-services/instrumenting-client-requests-for-ews-and-rest-in-exchange.md
-              - name: Develop
-                href: exchange-web-services/develop-web-service-clients-for-exchange.md
-                items:
+            - name: Develop
+              href: exchange-web-services/develop-web-service-clients-for-exchange.md
+              items:
                 - name: Archiving
                   href: exchange-web-services/archiving-in-ews-in-exchange.md
                 - name: Attachments
@@ -1237,7 +1232,7 @@
                     href: web-service-reference/diagnostics.md
                   - name: DiagnosticsLevel
                     href: web-service-reference/diagnosticslevel.md
-                  - name: DialString (Exchange Web Services)
+                  - name: DialString (Exchange web services)
                     href: web-service-reference/dialstring-exchange-web-services.md
                   - name: Dictionary
                     href: web-service-reference/dictionary.md
@@ -2869,13 +2864,13 @@
                     href: web-service-reference/physicaladdresses.md
                   - name: PictureData
                     href: web-service-reference/picturedata.md
-                  - name: PlayOnPhone (Exchange Web Services)
+                  - name: PlayOnPhone (Exchange web services)
                     href: web-service-reference/playonphone-exchange-web-services.md
                   - name: PlayOnPhoneDialString
                     href: web-service-reference/playonphonedialstring-exchange-web-services.md
                   - name: PlayOnPhoneEnabled
                     href: web-service-reference/playonphoneenabled.md
-                  - name: PlayOnPhoneResponse (Exchange Web Services)
+                  - name: PlayOnPhoneResponse (Exchange web services)
                     href: web-service-reference/playonphoneresponse-exchange-web-services.md
                   - name: PolicyNudgeRulesConfiguration
                     href: web-service-reference/policynudgerulesconfiguration.md

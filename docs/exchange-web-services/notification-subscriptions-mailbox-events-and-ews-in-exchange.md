@@ -175,15 +175,10 @@ In an on-premises deployment, you can limit the number of subscriptions per user
     
 ## See also
 
-
 - [Develop web service clients for Exchange](develop-web-service-clients-for-exchange.md)
-    
-- [Web services reference for Exchange](http://msdn.microsoft.com/library/6c969133-6036-448b-af39-a3caf9917e98%28Office.15%29.aspx)
-    
+- [Web services reference for Exchange](../web-service-reference/web-services-reference-for-exchange.md)
 - [Start using web services in Exchange](start-using-web-services-in-exchange.md)
-    
 - [Mailbox synchronization and EWS in Exchange](mailbox-synchronization-and-ews-in-exchange.md)
-    
 - [Push Notification Sample Application](http://msdn.microsoft.com/library/db1f8523-fa44-483f-bdb6-ab5939b52eee%28Office.15%29.aspx)
     
 

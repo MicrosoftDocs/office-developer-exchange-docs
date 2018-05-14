@@ -43,9 +43,9 @@ The following namespaces contain types that you can use to create and extend tra
    
 ## See also
 
-- [Transport agents in Exchange 2013](transport-agents-in-exchange-2013.md)   
-- [Transport agent concepts in Exchange 2013](transport-agent-concepts-in-exchange-2013.md)  
-- [Server API reference for Exchange](http://msdn.microsoft.com/library/6eddd052-f59f-45b4-b846-7e53d4d7eb16%28Office.15%29.aspx)  
+- [Transport agents in Exchange](transport-agents-in-exchange-2013.md)   
+- [Transport agent concepts in Exchange 2013](transport-agent-concepts-in-exchange-2013.md) 
+- [Server API reference for Exchange](http://msdn.microsoft.com/library/6eddd052-f59f-45b4-b846-7e53d4d7eb16%28Office.15%29.aspx)
 - [Agents configuration file elements for Exchange 2013](agents-configuration-file-elements-for-exchange-2013.md)
     
 

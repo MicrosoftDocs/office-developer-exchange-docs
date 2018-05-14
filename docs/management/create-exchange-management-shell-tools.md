@@ -31,19 +31,16 @@ The Exchange Management Shell cmdlets accept and return objects. For a list of E
   
 ## In this section
 
-- [New and updated Exchange Management Shell cmdlets](new-and-updated-exchange-management-shell-cmdlets.md)
-    
+- [New and updated Exchange Management Shell cmdlets](new-and-updated-exchange-management-shell-cmdlets.md)  
 - [Exchange Management Shell cmdlet input and output types](exchange-management-shell-cmdlet-input-and-output-types.md)
-    
 - [Get a list of mail users by using the Exchange Management Shell](how-to-get-a-list-of-mail-users-by-using-the-exchange-management-shell.md)
-    
 - [Use the Exchange Management Shell cmdlet response](how-to-use-the-exchange-management-shell-cmdlet-response.md)
 
 
 ## See also
 
 - [Exchange Management Shell namespaces](exchange-management-shell-namespaces.md)  
-- [Exchange Management Shell](http://technet.microsoft.com/en-us/library/bb123778.aspx)  
+- [Exchange Server PowerShell (Exchange Management Shell)](https://docs.microsoft.com/en-us/powershell/exchange/exchange-server/exchange-management-shell?view=exchange-ps)  
 - [Windows PowerShell](http://msdn.microsoft.com/en-us/library/dd835506%28v=vs.85%29.aspx)
     
 

@@ -433,15 +433,10 @@ If you run into any issues with your application, [try posting a question or com
   
 ## See also
 
-
-- [Start using web services in Exchange](start-using-web-services-in-exchange.md)
-    
-- [Explore the EWS Managed API, EWS, and web services in Exchange](explore-the-ews-managed-api-ews-and-web-services-in-exchange.md)
-    
-- [EWS client design overview for Exchange](ews-client-design-overview-for-exchange.md)
-    
-- [Develop web service clients for Exchange](develop-web-service-clients-for-exchange.md)
-    
+- [Start using web services in Exchange](start-using-web-services-in-exchange.md)   
+- [Explore the EWS Managed API, EWS, and web services in Exchange](explore-the-ews-managed-api-ews-and-web-services-in-exchange.md) 
+- [EWS client design overview for Exchange](ews-client-design-overview-for-exchange.md)   
+- [Develop web service clients for Exchange](develop-web-service-clients-for-exchange.md)  
 - [Get started with EWS Managed API client applications](get-started-with-ews-managed-api-client-applications.md)
     
 
