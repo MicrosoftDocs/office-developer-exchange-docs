@@ -24,7 +24,7 @@ Exchange Web Services (EWS) provides many operations that enable you to access i
   
 All EWS functionality is associated with a version of the schema. New EWS schema versions are introduced in new releases of Exchange Server or Exchange Online. The [RequestServerVersion](requestserverversion.md) element contains a **Version** attribute that maps the server version to the schema version. This article provides information about when each operation was introduced. Specific functionality within an operation might require a later version of the service. The versioned schemas are implemented so that clients that are designed against an older version of EWS will work with a newer version of EWS. 
   
-These operations can target the EWS endpoint that services your mailbox. You can browse to the EWS endpoint by using a URL that is similar in structure to http://<clientaccessserver>.com/ews/exchange.asmx, where <clientaccessserver> is the Exchange Client Access server that services your mailbox. You can use Autodiscover to get the URL to the Client Access server that services your mailbox. For more information about Autodiscover, see [Autodiscover for Exchange](http://msdn.microsoft.com/library/da0f9402-4e35-42c7-a15e-1e9e4e966e8b%28Office.15%29.aspx).
+These operations can target the EWS endpoint that services your mailbox. You can browse to the EWS endpoint by using a URL that is similar in structure to http://<clientaccessserver>.com/ews/exchange.asmx, where <clientaccessserver> is the Exchange Client Access server that services your mailbox. You can use Autodiscover to get the URL to the Client Access server that services your mailbox. For more information about Autodiscover, see [Autodiscover for Exchange](../exchange-web-services/autodiscover-for-exchange.md).
   
 ## eDiscovery operations
 <a name="bk_eDiscovery"> </a>
@@ -338,8 +338,8 @@ The following table lists the user configuration operations.
    
 ## See also
 
-- [Explore the EWS Managed API, EWS, and web services in Exchange](exchange-web-services/explore-the-ews-managed-api-ews-and-web-services-in-exchange.md)
-- [Start using web services in Exchange](http://msdn.microsoft.com/library/e1b07a92-0595-4bf1-bd6b-c07e66a8c923%28Office.15%29.aspx)
-- [Autodiscover for Exchange](http://msdn.microsoft.com/library/da0f9402-4e35-42c7-a15e-1e9e4e966e8b%28Office.15%29.aspx)
+- [Explore the EWS Managed API, EWS, and web services in Exchange](../exchange-web-services/explore-the-ews-managed-api-ews-and-web-services-in-exchange.md)
+- [Start using web services in Exchange](../exchange-web-services/start-using-web-services-in-exchange.md)
+- [Autodiscover for Exchange](../exchange-web-services/autodiscover-for-exchange.md)
     
 

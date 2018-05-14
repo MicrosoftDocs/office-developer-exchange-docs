@@ -125,6 +125,6 @@ The following EWS SOAP response shows the successful response. The [MovedItemId]
 - [MarkAsJunk operation](http://msdn.microsoft.com/library/1f71f04d-56a9-4fee-a4e7-d1034438329e%28Office.15%29.aspx)   
 - [Get-MailboxJunkEmailConfiguration](http://technet.microsoft.com/en-us/library/dd979784%28v=exchg.150%29.aspx)   
 - [Set-MailboxJunkEmailConfiguration](http://technet.microsoft.com/en-us/library/dd979780%28v=exchg.150%29.aspx) 
-- [Exchange Management Shell](management/exchange-management-shell.md)
+- [Exchange Management Shell](../management/exchange-management-shell.md)
     
 

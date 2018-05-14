@@ -30,11 +30,8 @@ The documentation in this section is based on the POX Autodiscover XML element i
   
 ## See also
 
-
 - [Autodiscover web service reference for Exchange](autodiscover-web-service-reference-for-exchange.md)
-    
-- [Autodiscover for Exchange](http://msdn.microsoft.com/library/da0f9402-4e35-42c7-a15e-1e9e4e966e8b%28Office.15%29.aspx)
-    
-- [Start using web services in Exchange](http://msdn.microsoft.com/library/e1b07a92-0595-4bf1-bd6b-c07e66a8c923%28Office.15%29.aspx)
+- [Autodiscover for Exchange](../exchange-web-services/autodiscover-for-exchange.md)
+- [Start using web services in Exchange](../exchange-web-services/start-using-web-services-in-exchange.md)
     
 

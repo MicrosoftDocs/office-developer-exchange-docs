@@ -51,11 +51,8 @@ The Unified Messaging web service provides many operations that enable client ap
     
 ## See also
 
-
 - [Unified Messaging web service reference for Exchange](unified-messaging-web-service-reference-for-exchange.md)
-    
-- [Autodiscover for Exchange](http://msdn.microsoft.com/library/da0f9402-4e35-42c7-a15e-1e9e4e966e8b%28Office.15%29.aspx)
-    
-- [Start using web services in Exchange](http://msdn.microsoft.com/library/e1b07a92-0595-4bf1-bd6b-c07e66a8c923%28Office.15%29.aspx)
+- [Autodiscover for Exchange](../exchange-web-services/autodiscover-for-exchange.md)
+- [Start using web services in Exchange](../exchange-web-services/start-using-web-services-in-exchange.md)
     
 

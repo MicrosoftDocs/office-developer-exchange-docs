@@ -30,7 +30,7 @@ Use the following table to find to the content that will help you learn about an
 |Check out some EWS Managed API code samples.  <br/> |[Exchange 2013: 101 Code Samples](http://code.msdn.microsoft.com/exchange/Exchange-2013-101-Code-3c38582c) <br/> |
 |Find design guidance for EWS Managed API and EWS applications.  <br/> |[EWS client design overview for Exchange](ews-client-design-overview-for-exchange.md) <br/> |
 |Find how-to information and code examples for the EWS Managed API and EWS.  <br/> |[Develop web service clients for Exchange](develop-web-service-clients-for-exchange.md) <br/> |
-|Find reference material.  <br/> |[Web services reference for Exchange](web-service-reference/web-services-reference-for-exchange.md) <br/> |
+|Find reference material.  <br/> |[Web services reference for Exchange](../web-service-reference/web-services-reference-for-exchange.md) <br/> |
    
 ## See also
     

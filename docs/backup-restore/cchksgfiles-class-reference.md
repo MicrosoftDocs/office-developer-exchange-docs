@@ -70,7 +70,7 @@ The CHKSGFILES API is intended for use with versions of Visual Studio starting w
     
 ## See also
 
-- [Exchange Online and Exchange development](exchange-server-development.md)
+- [Exchange Online and Exchange development](../exchange-server-development.md)
 - [Backup, Restore, and Disaster Recovery](http://technet.microsoft.com/en-us/library/dd876874)
     
 

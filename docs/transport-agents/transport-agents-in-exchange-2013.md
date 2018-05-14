@@ -22,7 +22,7 @@ Exchange 2013 provides a library of classes that support the extension of the Ex
 |Remote usage  <br/> |Transport agents run on the Exchange server and do not support remote usage.  <br/> |
 |Languages supported  <br/> |You can use any .NET Framework language to work with transport agents.  <br/> |
 |Available test and debug tools  <br/> |Use versions of Visual Studio starting with Visual Studio 2012 to debug transport agents.  <br/> |
-|Deployment methods  <br/> |You can install transport agent applications by using an [Exchange Management Shell](management/exchange-management-shell.md) script.  <br/> |
+|Deployment methods  <br/> |You can install transport agent applications by using an [Exchange Management Shell](../management/exchange-management-shell.md) script.  <br/> |
    
 ## In this section
 

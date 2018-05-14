@@ -69,6 +69,6 @@ The articles in this section explain how to use EWS and web services in your Exc
 - [Explore the EWS Managed API, EWS, and web services in Exchange](explore-the-ews-managed-api-ews-and-web-services-in-exchange.md)     
 - [Start using web services in Exchange](start-using-web-services-in-exchange.md)  
 - [EWS client design overview for Exchange](ews-client-design-overview-for-exchange.md)  
-- [Web services reference for Exchange](http://msdn.microsoft.com/library/6c969133-6036-448b-af39-a3caf9917e98%28Office.15%29.aspx)
+- [Web services reference for Exchange](../web-service-reference/web-services-reference-for-exchange.md)
     
 

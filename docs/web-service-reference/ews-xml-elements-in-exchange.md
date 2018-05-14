@@ -41,8 +41,8 @@ The messages.xsd schema file contains the element definitions for the top-level 
 
 - [EWS reference for Exchange](ews-reference-for-exchange.md)
 - [EWS operations in Exchange](ews-operations-in-exchange.md)
-- [Explore the EWS Managed API, EWS, and web services in Exchange](exchange-web-services/explore-the-ews-managed-api-ews-and-web-services-in-exchange.md)
-- [Start using web services in Exchange](http://msdn.microsoft.com/library/e1b07a92-0595-4bf1-bd6b-c07e66a8c923%28Office.15%29.aspx)
-- [Autodiscover for Exchange](http://msdn.microsoft.com/library/da0f9402-4e35-42c7-a15e-1e9e4e966e8b%28Office.15%29.aspx)
+- [Explore the EWS Managed API, EWS, and web services in Exchange](../exchange-web-services/explore-the-ews-managed-api-ews-and-web-services-in-exchange.md)
+- [Start using web services in Exchange](../exchange-web-services/start-using-web-services-in-exchange.md)
+- [Autodiscover for Exchange](../exchange-web-services/autodiscover-for-exchange.md)
     
 
