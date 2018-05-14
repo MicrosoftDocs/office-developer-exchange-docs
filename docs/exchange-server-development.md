@@ -1,43 +1,73 @@
 ---
-title: "Exchange Server development"
-
-ms.date: 1/22/2016
+title: "Exchange Online and Exchange 2013 development"
+manager: sethgros
+ms.date: 3/9/2015
 ms.audience: Developer
-
-
 localization_priority: Normal
-ms.assetid: 458a803b-1d4c-4922-8747-b7b3ee1bffba
-description: "Find in-depth developer documentation for Exchange Server, including Exchange Online as part of Office 365, Exchange Online, Exchange 2013, the EWS Managed API, Exchange 2010, and Exchange 2007. You can use the how to, get started, new feature, and API reference documentation to develop tools to access and manage mailbox data from services, websites, desktop computers, and mobile devices."
+ms.assetid: f33d1093-75ba-4ff2-8d15-b0bf73a401bf
+description: "Find in-depth developer documentation for Exchange Server, including Exchange Online as part of Office 365, Exchange Online, Exchange 2013, the EWS Managed API, Exchange 2010, and Exchange 2007."
 ---
 
-# Exchange Server development
+
+# Exchange Online and Exchange 2013 development
 
 Find in-depth developer documentation for Exchange Server, including Exchange Online as part of Office 365, Exchange Online, Exchange 2013, the EWS Managed API, Exchange 2010, and Exchange 2007. You can use the how to, get started, new feature, and API reference documentation to develop tools to access and manage mailbox data from services, websites, desktop computers, and mobile devices.
+
+(new page description)
+Create custom solutions for email, calendar, contacts, and other items that are stored in Exchange Online or on an Exchange 2013 server. You can use Exchange Web Services (EWS), Autodiscover, mail apps for Office, or other APIs to develop your applications. This page helps you choose the right Exchange technology.
   
- **Explore**
+**Explore**
   
-[Migrating to Exchange technologies](http://msdn.microsoft.com/library/946a722f-0892-4a59-9e58-a291bfb6834a%28Office.15%29.aspx)
+[Migrating to Exchange technologies](migrating-to-exchange-online-and-exchange-2013-technologies.md)
   
-[Choosing the right Exchange technology](exchange-online-and-exchange-2013-development.md)
+[Read about Exchange on Office Blogs](https://www.microsoft.com/en-us/microsoft-365/blog/)
   
-[Read about Exchange on Office Blogs](https://blogs.office.com/?filter=true&amp;filter-product=exchange)
-  
- **Download**
+**Download**
   
 [Get 101 code samples for Exchange 2013](https://code.msdn.microsoft.com/office/Exchange-2013-101-Code-3c38582c)
   
 [Get the EWS Managed API](https://github.com/OfficeDev/ews-managed-api/blob/master/README.md)
   
- **Develop**
+**Develop**
   
-[Develop your first .NET client](http://msdn.microsoft.com/library/c2267733-6f4f-49e5-9614-1e4a24c3af1a%28Office.15%29.aspx)
+[Get started with EWS Managed API client applications](exchange-web-services/get-started-with-ews-managed-api-client-applications.md)
   
-[Develop your first EWS client](http://msdn.microsoft.com/library/e6fd5c23-0ba5-4a7b-bdde-4a553447069f%28Office.15%29.aspx)
+[Get started with EWS client applications](exchange-web-services/get-started-with-ews-client-applications.md)
   
- **Troubleshoot**
+**Troubleshoot**
   
-[Get support for Exchange Server](https://support.microsoft.com/en-us/getsupport?oaspworkflow=start_1.0.0.0&amp;wf=0&amp;wfName=productselection&amp;gprid=730&amp;x=13&amp;y=7&amp;st=1&amp;wfxredirect=1&amp;sd=gn&amp;ccsid=635890984021344661)
+[Get support for Exchange Server](https://support.microsoft.com/en-us/getsupport?oaspworkflow=start_1.0.0.0&wf=0&wfname=productselection&gprid=730&x=13&y=7&st=1&wfxredirect=1&sd=gn&ccsid=635890984021344661&forceorigin=esmc)
+
+## Exchange developer content  
+
+Use the following table to identify the technology and related API content that will help you meet your development goals.  
   
-[Participate in the forum](https://social.msdn.microsoft.com/Forums/exchange/en-US/home?forum=exchangesvrdevelopment)
+|If you are building…|Start here|
+|:-----|:-----|
+|A REST-based app to access Exchange Online as part of Office 365|[Office 365 REST APIs for mail, calendars, and contacts](exchange-web-services/office-365-rest-apis-for-mail-calendars-and-contacts.md) <br/> |
+|A context-sensitive app to display information in Outlook, Outlook Web App, or OWA for Devices |[Mail apps for Outlook and EWS in Exchange](http://msdn.microsoft.com/library/821c8eb9-bb58-42e8-9a3a-61ca635cba59%28Office.15%29.aspx) <br/> |
+|A mailbox client that is not based on the .NET Framework or Java |[Explore the EWS Managed API, EWS, and web services in Exchange](http://msdn.microsoft.com/library/53553207-ff98-4fdb-8716-4ae02fee83bf%28Office.15%29.aspx) <br/> |
+|A mailbox client that uses the .NET Framework to access EWS |[Get started with EWS Managed API client applications](http://msdn.microsoft.com/library/c2267733-6f4f-49e5-9614-1e4a24c3af1a%28Office.15%29.aspx) <br/> |
+|A mailbox client that uses Java to access EWS |[EWS Java API on GitHub](https://github.com/OfficeDev/ews-java-api) <br/> |
+|An application that customizes the Outlook user interface or relies on Outlook business logic  |[Outlook 2013 developer reference](http://msdn.microsoft.com/library/75e4ad96-62a2-49d2-bc51-48ceab50634c%28Office.15%29.aspx) <br/> |
+|An application that targets Exchange Online or Exchange 2013 and you need to migrate from a previous version of Exchange  |[Migrating to Exchange Online and Exchange 2013 technologies](http://msdn.microsoft.com/library/946a722f-0892-4a59-9e58-a291bfb6834a%28Office.15%29.aspx) <br/> |
+|A custom management tool that uses Windows PowerShell from managed code   |[Exchange Management Shell](http://msdn.microsoft.com/library/8cc0c4fa-9e13-45cb-88da-0486f2ac1bd0%28Office.15%29.aspx) <br/> |
+|A solution to back up or restore Exchange data   |[Backup and restore for Exchange 2013](http://msdn.microsoft.com/library/329902d9-0ecb-4cfb-86dd-5ce863deff3f%28Office.15%29.aspx) <br/> |
+|An extension to support accessing messages in the transport pipeline   |[Transport agents in Exchange 2013](http://msdn.microsoft.com/library/36d63aa6-1b72-4670-b5c3-da685f3017cb%28Office.15%29.aspx) <br/> |
+|A mailbox client for a mobile device   |[Exchange ActiveSync](http://technet.microsoft.com/en-us/library/aa998357.aspx) <br/> |
+   
+## Exchange interactions with custom applications
+
+Some of these technologies enable your applications to work with data that is stored in Exchange, and others are used to manage and control the Exchange server. In many cases, you can use more than one programming technology or language to accomplish a task, which makes it possible for you to use the technologies and languages that you are familiar with. For example, you can set properties on items in the Exchange store by using the Mail REST API, EWS, or the EWS Managed API.
   
+Exchange interacts with custom applications in a variety of ways, depending on the application architecture and functionality. At its core, Exchange not only transports messages, but also maintains mailboxes, executes form-based applications, and more.
+
+|Exchange interaction|Description|
+|:-----|:-----|
+|**Message transport**|Exchange serves as a standard mail server for applications that send messages.<br/>Exchange includes several APIs that transfer messages, including REST, EWS, and the EWS Managed API.<br/>In addition, applications can use transport agents to respond as messages are processed and delivered by Exchange. |
+|**Mailbox storage** |Exchange provides a hierarchical structure of folders, items, and properties for applications that access data stored in mailboxes.<br/>You can access that stored information by using a combination of database and component object styles.<br/>You can perform queries on the data, and Exchange manages access to the stored data based on user and store permissions.<br/>Applications that handle mailbox data typically use REST, EWS, or the EWS Managed API.|
+|**Managed enterprise server** |Exchange functions as a managed server for applications that manage Exchange servers and stores.<br/>Applications can configure, control, and monitor current activity and the health of Exchange servers across the organization.<br/>Exchange management applications use the Exchange Management Shell to manage Exchange servers. |
+   
+
+
 
