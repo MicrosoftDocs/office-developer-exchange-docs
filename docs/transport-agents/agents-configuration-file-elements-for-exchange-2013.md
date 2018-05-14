@@ -84,7 +84,7 @@ The following code shows the element hierarchy in the configuration XML file.
     
 ## See also
 
-- [Transport agents in Exchange 2013](transport-agents-in-exchange-2013.md)
+- [Transport agents in Exchange](transport-agents-in-exchange-2013.md)
 - [Transport agent concepts in Exchange 2013](transport-agent-concepts-in-exchange-2013.md)
 - [Transport agent reference for Exchange 2013](transport-agent-reference-for-exchange-2013.md)
 - [Transport agent namespaces in Exchange 2013](transport-agent-namespaces-in-exchange-2013.md)

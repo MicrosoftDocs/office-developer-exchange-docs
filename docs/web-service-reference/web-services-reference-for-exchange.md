@@ -35,11 +35,8 @@ The Exchange XML reference is based on the XML instances that are sent between t
   
 ## See also
 
-
-- [Explore the EWS Managed API, EWS, and web services in Exchange](http://msdn.microsoft.com/library/53553207-ff98-4fdb-8716-4ae02fee83bf%28Office.15%29.aspx)
-    
+- [Explore the EWS Managed API, EWS, and web services in Exchange](exchange-web-services/explore-the-ews-managed-api-ews-and-web-services-in-exchange.md)
 - [Start using web services in Exchange](http://msdn.microsoft.com/library/e1b07a92-0595-4bf1-bd6b-c07e66a8c923%28Office.15%29.aspx)
-    
 - [Autodiscover for Exchange](http://msdn.microsoft.com/library/da0f9402-4e35-42c7-a15e-1e9e4e966e8b%28Office.15%29.aspx)
     
 

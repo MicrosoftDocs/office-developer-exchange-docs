@@ -155,17 +155,11 @@ The EWS Managed API does not implement this functionality.
   
 ## See also
 
-
-- [Explore the EWS Managed API, EWS, and web services in Exchange](http://msdn.microsoft.com/library/53553207-ff98-4fdb-8716-4ae02fee83bf%28Office.15%29.aspx)
-    
+- [Explore the EWS Managed API, EWS, and web services in Exchange](explore-the-ews-managed-api-ews-and-web-services-in-exchange.md)  
 - [EWS client design overview for Exchange](ews-client-design-overview-for-exchange.md)
-    
 - [Mail apps for Outlook and EWS in Exchange](mail-apps-for-outlook-and-ews-in-exchange.md)
-    
 - [Archiving in EWS in Exchange](archiving-in-ews-in-exchange.md)
-    
 - [eDiscovery in EWS in Exchange](ediscovery-in-ews-in-exchange.md)
-    
 - [People and contacts in EWS in Exchange](people-and-contacts-in-ews-in-exchange.md)
     
 

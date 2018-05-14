@@ -16,7 +16,7 @@ description: "Find information to help you get started with EWS and other web se
 
 Find information to help you get started with EWS and other web services in Exchange.
   
-The [web services in Exchange](http://msdn.microsoft.com/library/53553207-ff98-4fdb-8716-4ae02fee83bf%28Office.15%29.aspx) provide access to mailbox data stored in Exchange Online, Exchange Online as part of Office 365, and on-premises versions of Exchange starting with Exchange Server 2007, and enable you to create custom applications that you can use to manage that information according to the requirements of your organization. While the range of EWS and web service applications that you can create is practically infinite, certain fundamental concepts apply for any type of application. This section provides information about the fundamental concepts you need to be familiar with in order to start using EWS and other web services in Exchange. 
+The [web services in Exchange](explore-the-ews-managed-api-ews-and-web-services-in-exchange.md)provide access to mailbox data stored in Exchange Online, Exchange Online as part of Office 365, and on-premises versions of Exchange starting with Exchange Server 2007, and enable you to create custom applications that you can use to manage that information according to the requirements of your organization. While the range of EWS and web service applications that you can create is practically infinite, certain fundamental concepts apply for any type of application. This section provides information about the fundamental concepts you need to be familiar with in order to start using EWS and other web services in Exchange. 
   
 ## Build your knowledge
 <a name="bk_Knowledge"> </a>
@@ -66,19 +66,15 @@ If you're not a .NET Framework developer, you can find many client libraries out
 ## Ask questions and solve problems
 <a name="questions"> </a>
 
-Need help getting things done and you're not finding your answer on [MSDN](http://msdn.microsoft.com/library/53553207-ff98-4fdb-8716-4ae02fee83bf%28Office.15%29.aspx)? You can search the [Exchange Development forum](http://social.technet.microsoft.com/Forums/exchange/en-US/home?forum=exchangesvrdevelopment) to find out whether someone else has encountered and resolved the same issue. A community of contributors have answered hundreds of questions about Exchange development. You can also find third-party sites, forums, and blogs that cover Exchange development and might have the solution you're looking for. 
+Need help getting things done and you're not finding answers? You can search the [Exchange Development forum](http://social.technet.microsoft.com/Forums/exchange/en-US/home?forum=exchangesvrdevelopment) to find out whether someone else has encountered and resolved the same issue. A community of contributors have answered hundreds of questions about Exchange development. You can also find third-party sites, forums, and blogs that cover Exchange development and might have the solution you're looking for. 
   
 Contact [Microsoft support](https://support.microsoft.com/) if you need additional assistance. The Exchange Developer support team is staffed with seasoned professionals who can help answer your questions about Exchange development. 
   
 ## See also
 
-
-- [Explore the EWS Managed API, EWS, and web services in Exchange](explore-the-ews-managed-api-ews-and-web-services-in-exchange.md)
-    
-- [EWS client design overview for Exchange](ews-client-design-overview-for-exchange.md)
-    
-- [Develop web service clients for Exchange](develop-web-service-clients-for-exchange.md)
-    
+- [Explore the EWS Managed API, EWS, and web services in Exchange](explore-the-ews-managed-api-ews-and-web-services-in-exchange.md) 
+- [EWS client design overview for Exchange](ews-client-design-overview-for-exchange.md) 
+- [Develop web service clients for Exchange](develop-web-service-clients-for-exchange.md) 
 - [Web services reference for Exchange](http://msdn.microsoft.com/library/6c969133-6036-448b-af39-a3caf9917e98%28Office.15%29.aspx)
     
 

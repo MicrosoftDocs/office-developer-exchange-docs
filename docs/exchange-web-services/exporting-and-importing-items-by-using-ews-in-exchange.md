@@ -25,7 +25,7 @@ Exchange is a gold mine of important information: email, contacts, tasks, and ca
 - MIME streams in the form of common standard file formats such as iCalendar and vCard. Because the property set is limited and MIME conversion is costly, we recommend the approach only for importing or exporting a small amount of data.
     
 > [!IMPORTANT]
-> EWS is not designed for mailbox backup and restore. To back up and restore databases, use the [backup and restore API](http://msdn.microsoft.com/library/329902d9-0ecb-4cfb-86dd-5ce863deff3f%28Office.15%29.aspx). See also [Backup, restore, and disaster recovery](http://technet.microsoft.com/en-us/library/dd876874%28v=exchg.150%29.aspx) on TechNet. 
+> EWS is not designed for mailbox backup and restore. To back up and restore databases, use the [backup and restore API](backup-restore/backup-and-restore-for-exchange-2013.md). See also [Backup, restore, and disaster recovery](http://technet.microsoft.com/en-us/library/dd876874%28v=exchg.150%29.aspx) on TechNet. 
   
 **Table 1. Exporting and importing contact, email, and calendar items**
 

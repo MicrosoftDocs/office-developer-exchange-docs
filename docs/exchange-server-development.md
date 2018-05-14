@@ -1,5 +1,5 @@
 ---
-title: "Exchange Online and Exchange 2013 development"
+title: "Exchange Online and Exchange development"
 manager: sethgros
 ms.date: 3/9/2015
 ms.audience: Developer
@@ -9,7 +9,7 @@ description: "Find in-depth developer documentation for Exchange Server, includi
 ---
 
 
-# Exchange Online and Exchange 2013 development
+# Exchange Online and Exchange development
 
 Find in-depth developer documentation for Exchange Server, including Exchange Online as part of Office 365, Exchange Online, Exchange 2013, the EWS Managed API, Exchange 2010, and Exchange 2007. 
 
@@ -31,8 +31,8 @@ Use the following table to identify the technology and related API content that 
 |An application that customizes the Outlook user interface or relies on Outlook business logic  |[Outlook VBA reference](https://msdn.microsoft.com/en-us/VBA/VBA-Outlook) |
 |An application that targets Exchange Online or Exchange 2013 and you need to migrate from a previous version of Exchange  |[Migrating to Exchange technologies](migrating-to-exchange-online-and-exchange-2013-technologies.md) |
 |A custom management tool that uses Windows PowerShell from managed code   |[Exchange Management Shell](management/exchange-management-shell.md) |
-|A solution to back up or restore Exchange data  |[Backup and restore for Exchange 2013](backup-restore/backup-and-restore-for-exchange-2013.md) |
-|An extension to support accessing messages in the transport pipeline   |[Transport agents in Exchange 2013](transport-agents/transport-agents-in-exchange-2013.md)  |
+|A solution to back up or restore Exchange data  |[Backup and restore for Exchange](backup-restore/backup-and-restore-for-exchange-2013.md) |
+|An extension to support accessing messages in the transport pipeline   |[Transport agents in Exchange](transport-agents/transport-agents-in-exchange-2013.md)  |
 |A mailbox client for a mobile device   |[Exchange ActiveSync](https://technet.microsoft.com/en-us/library/aa998357.aspx) |
    
 ## Exchange interactions with custom applications

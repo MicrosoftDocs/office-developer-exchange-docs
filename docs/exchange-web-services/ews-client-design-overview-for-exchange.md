@@ -29,7 +29,7 @@ EWS is the primary client access API for your Exchange client applications. Howe
   
 MAPI RPC over HTTP is another programmability option for Exchange client applications. However, MAPI RPC over HTTP does not provide an intuitive interface for communicating between clients and the server.
   
-For more information about Exchange development technologies, [Explore the EWS Managed API, EWS, and web services in Exchange](explore-the-ews-managed-api-ews-and-web-services-in-exchange.md).
+For more information about Exchange development technologies, see [Explore the EWS Managed API, EWS, and web services in Exchange](explore-the-ews-managed-api-ews-and-web-services-in-exchange.md).
   
 ## Options for EWS client development
 <a name="EWSClientOptions"> </a>
@@ -130,8 +130,7 @@ For information about the features that are available in each EWS schema version
 - [Instrumenting client requests for EWS and REST in Exchange](instrumenting-client-requests-for-ews-and-rest-in-exchange.md)
     
 ## See also
-
-- [Explore the EWS Managed API, EWS, and web services in Exchange](explore-the-ews-managed-api-ews-and-web-services-in-exchange.md)   
+ 
 - [Start using web services in Exchange](start-using-web-services-in-exchange.md)
 - [Develop web service clients for Exchange](develop-web-service-clients-for-exchange.md) 
 - [EWS application types](ews-application-types.md)

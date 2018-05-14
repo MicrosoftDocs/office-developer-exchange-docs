@@ -26,6 +26,6 @@ This section provides reference information for transport agents and content con
     
 ## See also
 
-- [Transport agents in Exchange 2013](transport-agents-in-exchange-2013.md)
+- [Transport agents in Exchange](transport-agents-in-exchange-2013.md)
 - [Transport agent concepts in Exchange 2013](transport-agent-concepts-in-exchange-2013.md)
 

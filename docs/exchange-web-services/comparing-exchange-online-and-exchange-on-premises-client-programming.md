@@ -120,7 +120,7 @@ You can do the following when targeting Exchange on-premises but not Exchange On
   
 - Create a client that is installed on the Exchange server. 
     
-- Install [custom transport agents](http://msdn.microsoft.com/library/36d63aa6-1b72-4670-b5c3-da685f3017cb%28Office.15%29.aspx) that can affect the delivery and content of messages you create and send with EWS and other clients. 
+- Install [custom transport agents](transport-agents/transport-agents-in-exchange-2013.md) that can affect the delivery and content of messages you create and send with EWS and other clients. 
     
 ## See also
 

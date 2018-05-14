@@ -26,7 +26,7 @@ Exchange 2013 provides a library of classes that support the extension of the Ex
 |Remote usage  <br/> |Transport agents run on the Exchange server and do not support remote usage.  <br/> |
 |Languages supported  <br/> |You can use any .NET Framework language to work with transport agents.  <br/> |
 |Available test and debug tools  <br/> |Use versions of Visual Studio starting with Visual Studio 2012 to debug transport agents.  <br/> |
-|Deployment methods  <br/> |You can install transport agent applications by using an [Exchange Management Shell](http://msdn.microsoft.com/library/8cc0c4fa-9e13-45cb-88da-0486f2ac1bd0%28Office.15%29.aspx) script.  <br/> |
+|Deployment methods  <br/> |You can install transport agent applications by using an [Exchange Management Shell](management/exchange-management-shell.md) script.  <br/> |
    
 ## In this section
 
@@ -44,9 +44,8 @@ Exchange 2013 provides a library of classes that support the extension of the Ex
     
 ## See also
 
-- [Exchange Online and Exchange 2013 development](exchange-server-development.md)   
-- [Exchange Management Shell](management/exchange-management-shell.md)   
-- [Explore the EWS Managed API, EWS, and web services in Exchange](http://msdn.microsoft.com/library/53553207-ff98-4fdb-8716-4ae02fee83bf%28Office.15%29.aspx)    
-- [Backup and restore for Exchange 2013](backup-restore/backup-and-restore-for-exchange-2013.md) 
+- [Exchange Online and Exchange development](exchange-server-development.md)    
+- [Explore the EWS Managed API, EWS, and web services in Exchange](exchange-web-services/explore-the-ews-managed-api-ews-and-web-services-in-exchange.md)   
+- [Backup and restore for Exchange](backup-restore/backup-and-restore-for-exchange-2013.md) 
     
 

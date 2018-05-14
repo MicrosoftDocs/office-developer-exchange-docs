@@ -22,7 +22,7 @@ The Exchange Management Shell provides a rich set of commands, based on the Wind
 
 |If you're wondering about|Read this|
 |:-----|:-----|
-|Availability  <br/> |Exchange Management Shell commands are installed on all servers running versions of Exchange starting with Exchange 2007. Client applications can be deployed on any computer running Windows PowerShell 2.0.  <br/> See [Exchange Management Shell on TechNet](http://technet.microsoft.com/en-us/library/bb123778%28v=exchg.150%29.aspx) for information about accessing the shell.  <br/> |
+|Availability  <br/> |Exchange Management Shell commands are installed on all servers running versions of Exchange starting with Exchange 2007. Client applications can be deployed on any computer running Windows PowerShell 2.0.  <br/> See [Exchange Server PowerShell (Exchange Management Shell)](https://docs.microsoft.com/en-us/powershell/exchange/exchange-server/exchange-management-shell?view=exchange-ps) for information about accessing the shell.  <br/> |
 |Languages and tools  <br/> |You can create Exchange Management Shell scripts in any text editor. You can use one of many third-party tools for creating Windows PowerShell scripts that can be used with the Exchange Management Shell.  <br/> The [Exchange Management Shell object model](exchange-management-shell-namespaces.md) is based on the .NET Framework. You can use any .NET language to develop Exchange Management Shell applications.  <br/> |
 |Available test and debug tools  <br/> |You can use one of many third-party applications to test and debug Exchange Management Shell scripts.  <br/> You can use Visual Studio and third-party tools to test and debug managed Exchange Management Shell applications.  <br/> |
 |Server platform requirements  <br/> |You can use the Exchange Management Shell on any Exchange server that has Windows PowerShell 2.0 installed.  <br/> |
@@ -38,8 +38,7 @@ The articles in this section describe Exchange Management Shell features that ar
 - [Exchange Management Shell namespaces](exchange-management-shell-namespaces.md)
     
 ## See also
-
-- [Exchange Management Shell on TechNet](http://technet.microsoft.com/en-us/library/bb123778%28v=exchg.150%29.aspx)  
+  
 - [Windows PowerShell](http://msdn.microsoft.com/en-us/library/dd835506%28VS.85%29.aspx)
     
 

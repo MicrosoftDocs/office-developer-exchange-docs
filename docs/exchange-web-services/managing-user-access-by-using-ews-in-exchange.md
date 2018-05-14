@@ -20,14 +20,13 @@ Exchange Web Services (EWS) and the EWS managed API provide a limited number of 
   
 If your application needs additional control over the accounts on an Exchange server, you can use Exchange Management Shell cmdlets to manage the accounts. You can call the Exchange Management Shell cmdlets by doing one of the following:
   
-- Writing an application using C# or Visual Basic that calls the Exchange Management Shell cmdlets. You can look at the sample code in the [Exchange Management Shell API documentation](http://msdn.microsoft.com/library/8cc0c4fa-9e13-45cb-88da-0486f2ac1bd0%28Office.15%29.aspx) to learn how to call a cmdlet. 
+- Writing an application using C# or Visual Basic that calls the Exchange Management Shell cmdlets. You can look at the sample code in the [Exchange Management Shell API documentation](management/exchange-management-shell.md) to learn how to call a cmdlet. 
     
-- Using Windows PowerShell and Windows PowerShell scripts to call Exchange Management Shell cmdlets. You can find a complete list of the [Exchange Management Shell cmdlets](http://technet.microsoft.com/en-us/library/bb124413%28v=exchg.150%29.aspx) on TechNet, along with examples that show how to use them. 
+- Using Windows PowerShell and Windows PowerShell scripts to call Exchange Management Shell cmdlets. You can find a complete list of the [Exchange Server PowerShell (Exchange Management Shell)](https://docs.microsoft.com/en-us/powershell/exchange/exchange-server/exchange-management-shell?view=exchange-ps), along with examples that show how to use them. 
     
 ## See also
 
 - [Setting up your EWS application](setting-up-your-ews-application.md)   
-- [Exchange 2013 Cmdlets](http://technet.microsoft.com/en-us/library/bb124413%28v=exchg.150%29.aspx)   
-- [Exchange Management Shell](http://msdn.microsoft.com/library/8cc0c4fa-9e13-45cb-88da-0486f2ac1bd0%28Office.15%29.aspx)
+- [Exchange 2013 Cmdlets](https://docs.microsoft.com/en-us/powershell/exchange/?view=exchange-ps)  
     
 
