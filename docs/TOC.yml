@@ -5,16 +5,13 @@
         - name: Migration
           href: migrating-to-exchange-online-and-exchange-2013-technologies.md
         - name: Web Services
-          href:
+          href: exchange-web-services/explore-the-ews-managed-api-ews-and-web-services-in-exchange.md
           items:
-            - name: Explore the EWS Managed API, EWS, and web services
-              href: exchange-web-services/explore-the-ews-managed-api-ews-and-web-services-in-exchange.md
+            - name: What's new
+              href: exchange-web-services/what’s-new-in-ews-and-other-web-services-in-exchange.md
+            - name: Start
+              href: exchange-web-services/start-using-web-services-in-exchange.md
               items:
-              - name: What's new
-                href: exchange-web-services/what’s-new-in-ews-and-other-web-services-in-exchange.md
-              - name: Start
-                href: exchange-web-services/start-using-web-services-in-exchange.md
-                items:
                 - name: Architecture
                   href: exchange-web-services/ews-applications-and-the-exchange-architecture.md
                 - name: Application types
@@ -78,9 +75,9 @@
                   href: exchange-web-services/office-365-rest-apis-for-mail-calendars-and-contacts.md
                 - name: License information
                   href: exchange-web-services/license-information.md
-              - name: Design
-                href: exchange-web-services/ews-client-design-overview-for-exchange.md
-                items:
+            - name: Design
+              href: exchange-web-services/ews-client-design-overview-for-exchange.md
+              items:
                 - name: Web service API feature availability
                   href: exchange-web-services/web-service-api-feature-availability-in-exchange-and-the-ews-managed-api.md
                 - name: EWS schema versions
@@ -98,9 +95,9 @@
                   href: exchange-web-services/redistribution-requirements-for-the-ews-managed-api.md
                 - name: Instrumenting client requests
                   href: exchange-web-services/instrumenting-client-requests-for-ews-and-rest-in-exchange.md
-              - name: Develop
-                href: exchange-web-services/develop-web-service-clients-for-exchange.md
-                items:
+            - name: Develop
+              href: exchange-web-services/develop-web-service-clients-for-exchange.md
+              items:
                 - name: Archiving
                   href: exchange-web-services/archiving-in-ews-in-exchange.md
                 - name: Attachments
