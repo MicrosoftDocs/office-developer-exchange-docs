@@ -1,13 +1,10 @@
 ---
 title: "Migrating to Exchange Online and Exchange 2013 technologies"
-
 manager: sethgros
 ms.date: 3/9/2015
 ms.audience: Developer
-
 localization_priority: Normal
 ms.assetid: 946a722f-0892-4a59-9e58-a291bfb6834a
-
 description: "If you're migrating from an earlier version of Exchange, use the information in this article to find out which development technologies are supported in current product versions, and which technology to migrate to."
 ---
 

@@ -68,11 +68,8 @@ The only supported method of restoring DAG databases from backup data is to rest
     
 ## See also
 
-
-- [Exchange Online and Exchange 2013 development](http://msdn.microsoft.com/library/f33d1093-75ba-4ff2-8d15-b0bf73a401bf%28Office.15%29.aspx)
-    
+- [Exchange Online and Exchange 2013 development](exchange-server-development.md) 
 - [Types of backup operations for Exchange 2013](types-of-backup-operations-for-exchange-2013.md)
-    
 - [Restoring Exchange 2013 databases](restoring-exchange-2013-databases.md)
     
 

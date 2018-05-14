@@ -44,9 +44,9 @@ Exchange 2013 provides a library of classes that support the extension of the Ex
     
 ## See also
 
-- [Exchange Online and Exchange 2013 development](http://msdn.microsoft.com/library/f33d1093-75ba-4ff2-8d15-b0bf73a401bf%28Office.15%29.aspx)    
-- [Exchange Management Shell](http://msdn.microsoft.com/library/8cc0c4fa-9e13-45cb-88da-0486f2ac1bd0%28Office.15%29.aspx)    
+- [Exchange Online and Exchange 2013 development](exchange-server-development.md)   
+- [Exchange Management Shell](management/exchange-management-shell.md)   
 - [Explore the EWS Managed API, EWS, and web services in Exchange](http://msdn.microsoft.com/library/53553207-ff98-4fdb-8716-4ae02fee83bf%28Office.15%29.aspx)    
-- [Backup and restore for Exchange 2013](http://msdn.microsoft.com/library/329902d9-0ecb-4cfb-86dd-5ce863deff3f%28Office.15%29.aspx)
+- [Backup and restore for Exchange 2013](backup-restore/backup-and-restore-for-exchange-2013.md) 
     
 
