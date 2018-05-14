@@ -5,7 +5,7 @@ ms.date: 3/9/2015
 ms.audience: Developer
 localization_priority: Normal
 ms.assetid: f33d1093-75ba-4ff2-8d15-b0bf73a401bf
-description: "This page has been retired. For the latest updates, go to Exchange Online and Exchange development."
+description: "This page has been retired. For the latest updates, go to the topic Exchange Online and Exchange development."
 ---
 
 # Exchange Online and Exchange 2013 development
