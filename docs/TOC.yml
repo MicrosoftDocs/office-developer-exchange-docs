@@ -1,8 +1,6 @@
-- name: Exchange Server
-  href: exchange-server-development.md
-  items:
-    - name: Exchange Online and Exchange 2013 development
-      href: exchange-online-and-exchange-2013-development.md
+
+    - name: Exchange Server
+      href: exchange-server-development.md
       items:      
         - name: Migration
           href: migrating-to-exchange-online-and-exchange-2013-technologies.md
