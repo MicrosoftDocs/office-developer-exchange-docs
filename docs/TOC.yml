@@ -4,7 +4,7 @@
       items:      
         - name: Migration
           href: migrating-to-exchange-online-and-exchange-2013-technologies.md
-        - name: Web Services
+        - name: Web services
           href: exchange-web-services/explore-the-ews-managed-api-ews-and-web-services-in-exchange.md
           items:
             - name: What's new
@@ -1232,7 +1232,7 @@
                     href: web-service-reference/diagnostics.md
                   - name: DiagnosticsLevel
                     href: web-service-reference/diagnosticslevel.md
-                  - name: DialString (Exchange Web Services)
+                  - name: DialString (Exchange web services)
                     href: web-service-reference/dialstring-exchange-web-services.md
                   - name: Dictionary
                     href: web-service-reference/dictionary.md
@@ -2864,13 +2864,13 @@
                     href: web-service-reference/physicaladdresses.md
                   - name: PictureData
                     href: web-service-reference/picturedata.md
-                  - name: PlayOnPhone (Exchange Web Services)
+                  - name: PlayOnPhone (Exchange web services)
                     href: web-service-reference/playonphone-exchange-web-services.md
                   - name: PlayOnPhoneDialString
                     href: web-service-reference/playonphonedialstring-exchange-web-services.md
                   - name: PlayOnPhoneEnabled
                     href: web-service-reference/playonphoneenabled.md
-                  - name: PlayOnPhoneResponse (Exchange Web Services)
+                  - name: PlayOnPhoneResponse (Exchange web services)
                     href: web-service-reference/playonphoneresponse-exchange-web-services.md
                   - name: PolicyNudgeRulesConfiguration
                     href: web-service-reference/policynudgerulesconfiguration.md
