@@ -1,7 +1,5 @@
 ---
 title: "MailboxType (MasterMailboxType)"
- 
- 
 manager: sethgros
 ms.date: 11/16/2014
 ms.audience: Developer
@@ -15,10 +13,6 @@ description: "The MailboxType (MasterMailboxType) element is intended for intern
 # MailboxType (MasterMailboxType)
 
 The **MailboxType (MasterMailboxType)** element is intended for internal use only. 
-  
-```
-
-```
 
 ## Attributes and elements
 

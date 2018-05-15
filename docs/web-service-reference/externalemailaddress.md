@@ -1,7 +1,5 @@
 ---
 title: "ExternalEmailAddress"
- 
- 
 manager: sethgros
 ms.date: 9/17/2015
 ms.audience: Developer
@@ -20,7 +18,8 @@ The **ExternalEmailAddress** element contains the external email address of the 
 <ExternalEmailAddress></ExternalEmailAddress>
 ```
 
- **string**
+**string**
+
 ## Attributes and elements
 
 The following sections describe attributes, child elements, and parent elements.

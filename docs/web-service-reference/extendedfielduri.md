@@ -184,5 +184,5 @@ The following example of a request creates an item that has two custom propertie
 [IndexedFieldURI](indexedfielduri.md)
 
 
-[EWS XML elements in Exchange](ews-xml-elements-in-exchange.md)
+- [EWS XML elements in Exchange](ews-xml-elements-in-exchange.md)
 

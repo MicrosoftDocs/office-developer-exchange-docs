@@ -65,5 +65,5 @@ None.
 [GetSharingMetadata operation](getsharingmetadata-operation.md)
 
 
-[EWS XML elements in Exchange](ews-xml-elements-in-exchange.md)
+- [EWS XML elements in Exchange](ews-xml-elements-in-exchange.md)
 

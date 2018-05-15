@@ -1,7 +1,5 @@
 ---
 title: "GetEncryptionConfigurationResponse"
- 
- 
 manager: sethgros
 ms.date: 11/16/2014
 ms.audience: Developer
@@ -15,10 +13,6 @@ description: "The GetEncryptionConfigurationResponse element is intended for int
 # GetEncryptionConfigurationResponse
 
 The **GetEncryptionConfigurationResponse** element is intended for internal use only. 
-  
-```
-
-```
 
 ## Attributes and elements
 

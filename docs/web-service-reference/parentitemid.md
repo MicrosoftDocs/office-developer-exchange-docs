@@ -1,7 +1,5 @@
 ---
 title: "ParentItemId"
- 
- 
 manager: sethgros
 ms.date: 9/17/2015
 ms.audience: Developer
@@ -20,15 +18,16 @@ description: "The ParentItemId element identifies the parent item that links to 
 
 The **ParentItemId** element identifies the parent item that links to an associated attachment. 
   
-[CreateAttachment](createattachment.md)
+- [CreateAttachment](createattachment.md)
   
-[ParentItemId](parentitemid.md)
+- [ParentItemId](parentitemid.md)
   
-```
+```xml
 <ParentItemId Id="" ChangeKey="" />
 ```
 
- **ItemIdType**
+**ItemIdType**
+
 ## Attributes and elements
 
 The following sections describe attributes, child elements, and parent elements.
@@ -67,7 +66,5 @@ The schema that describes this element is located in the EWS virtual directory o
    
 ## See also
 
-
-
-[CreateAttachment operation](createattachment-operation.md)
+- [CreateAttachment operation](createattachment-operation.md)
 

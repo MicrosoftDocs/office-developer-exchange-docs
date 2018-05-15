@@ -1,7 +1,5 @@
 ---
 title: "MailboxStatisticsSearchResult"
- 
- 
 manager: sethgros
 ms.date: 3/9/2015
 ms.audience: Developer
@@ -16,8 +14,6 @@ description: "The MailboxStatisticsSearchResult element contains the results of 
 
 The **MailboxStatisticsSearchResult** element contains the results of a keyword search. 
   
- * **Applies to: *** 
-  
 ```XML
 <MailboxStatisticsSearchResult>
    <UserMailbox/>
@@ -25,7 +21,8 @@ The **MailboxStatisticsSearchResult** element contains the results of a keyword 
 </MailboxStatisticsSearchResult>
 ```
 
- **MailboxStatisticsSearchResultType**
+**MailboxStatisticsSearchResultType**
+
 ## Attributes and elements
 
 The following sections describe attributes, child elements, and parent elements.

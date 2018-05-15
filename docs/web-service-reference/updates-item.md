@@ -1,7 +1,5 @@
 ---
 title: "Updates (Item)"
- 
- 
 manager: sethgros
 ms.date: 9/17/2015
 ms.audience: Developer
@@ -20,15 +18,15 @@ description: "The Updates element contains a set of elements that define append,
 
 The **Updates** element contains a set of elements that define append, set, and delete changes to item properties. 
   
-[UpdateItem](updateitem.md)
+- [UpdateItem](updateitem.md)
   
-[ItemChanges](itemchanges.md)
+- [ItemChanges](itemchanges.md)
   
-[ItemChange](itemchange.md)
+- [ItemChange](itemchange.md)
   
-[Updates (Item)](updates-item.md)
+- [Updates (Item)](updates-item.md)
   
-```
+```xml
 <Updates>
    <AppendToItemField/>
    <SetItemField/>
@@ -36,7 +34,8 @@ The **Updates** element contains a set of elements that define append, set, and 
 </Updates>
 ```
 
- **NonEmptyArrayOfItemChangeDescriptionsType**
+**NonEmptyArrayOfItemChangeDescriptionsType**
+
 ## Attributes and elements
 
 The following sections describe attributes, child elements, and parent elements.
@@ -76,10 +75,6 @@ The schema that describes this element is located in the EWS virtual directory o
    
 ## See also
 
-
-
-[UpdateItem operation](updateitem-operation.md)
-
-
-[EWS XML elements in Exchange](ews-xml-elements-in-exchange.md)
+- [UpdateItem operation](updateitem-operation.md)
+- [EWS XML elements in Exchange](ews-xml-elements-in-exchange.md)
 

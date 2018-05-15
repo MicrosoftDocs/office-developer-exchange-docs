@@ -87,5 +87,5 @@ The schema that describes this element is located in the EWS virtual directory o
 [ResolveNames operation](resolvenames-operation.md)
 
 
-[EWS XML elements in Exchange](ews-xml-elements-in-exchange.md)
+- [EWS XML elements in Exchange](ews-xml-elements-in-exchange.md)
 

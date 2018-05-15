@@ -1,7 +1,5 @@
 ---
 title: "MailboxData"
- 
- 
 manager: sethgros
 ms.date: 9/17/2015
 ms.audience: Developer
@@ -20,13 +18,13 @@ description: "The MailboxData element represents an individual mailbox user and 
 
 The **MailboxData** element represents an individual mailbox user and options for the type of data to be returned about the mailbox user. 
   
-[GetUserAvailabilityRequest](getuseravailabilityrequest.md)
+- [GetUserAvailabilityRequest](getuseravailabilityrequest.md)
   
-[MailboxDataArray](mailboxdataarray.md)
+- [MailboxDataArray](mailboxdataarray.md)
   
-[MailboxData](mailboxdata.md)
+- [MailboxData](mailboxdata.md)
   
-```
+```xml
 <MailboxData>
    <Email>...</Email>
    <AttendeeType>...</AttendeeType>
@@ -34,7 +32,8 @@ The **MailboxData** element represents an individual mailbox user and options fo
 <MailboxData>
 ```
 
- **MailboxData**
+**MailboxData**
+
 ## Attributes and elements
 
 The following sections describe attributes, child elements, and parent elements.
@@ -66,7 +65,7 @@ A client application can define one to many **MailboxData** elements.
   
 ## Example
 
-```
+```xml
 <MailboxDataArray>
   <MailboxData xmlns="http://schemas.microsoft.com/exchange/services/2006/types">
     <Email>
@@ -91,12 +90,7 @@ A client application can define one to many **MailboxData** elements.
    
 ## See also
 
-
-
-[GetUserAvailability operation](getuseravailability-operation.md)
-  
-[GetUserAvailabilityRequest](getuseravailabilityrequest.md)
-
-
-[Getting User Availability](http://msdn.microsoft.com/library/d4133fcb-9b0f-4e6b-aadf-a389da83516a%28Office.15%29.aspx)
+- [GetUserAvailability operation](getuseravailability-operation.md)
+- [GetUserAvailabilityRequest](getuseravailabilityrequest.md)
+- [Getting User Availability](http://msdn.microsoft.com/library/d4133fcb-9b0f-4e6b-aadf-a389da83516a%28Office.15%29.aspx)
 

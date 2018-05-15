@@ -1,7 +1,5 @@
 ---
 title: "MemberCorrelationKey"
- 
- 
 manager: sethgros
 ms.date: 9/17/2015
 ms.audience: Developer
@@ -22,7 +20,8 @@ The **MemberCorrelationKey** element specifies the identifiers of the contacts t
 </MemberCorrelationKey>
 ```
 
- **NonEmptyArrayOfItemIdsType**
+**NonEmptyArrayOfItemIdsType**
+
 ## Attributes and elements
 
 The following sections describe attributes, child elements, and parent elements.

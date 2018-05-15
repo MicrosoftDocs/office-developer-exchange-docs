@@ -457,5 +457,5 @@ The following example shows how to use the FieldURI element.
 
 
 
-[EWS XML elements in Exchange](ews-xml-elements-in-exchange.md)
+- [EWS XML elements in Exchange](ews-xml-elements-in-exchange.md)
 

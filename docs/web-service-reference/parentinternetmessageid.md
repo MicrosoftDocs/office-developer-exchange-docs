@@ -1,7 +1,5 @@
 ---
 title: "ParentInternetMessageId"
- 
- 
 manager: sethgros
 ms.date: 9/17/2015
 ms.audience: Developer
@@ -20,7 +18,8 @@ The **ParentInternetMessageId** element specifies the Internet message identifie
 <ParentInternetMessageId></ParentInternetMessageId>
 ```
 
- **string**
+**string**
+
 ## Attributes and elements
 
 The following sections describe attributes, child elements, and parent elements.

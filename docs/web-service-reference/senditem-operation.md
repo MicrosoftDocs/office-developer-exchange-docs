@@ -193,5 +193,5 @@ The following elements are used in the error response:
  **SendItemType**
 
 
-[EWS XML elements in Exchange](ews-xml-elements-in-exchange.md)
+- [EWS XML elements in Exchange](ews-xml-elements-in-exchange.md)
 

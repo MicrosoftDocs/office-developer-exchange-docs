@@ -1,7 +1,5 @@
 ---
 title: "SetEncryptionConfigurationResponseMessage"
- 
- 
 manager: sethgros
 ms.date: 11/16/2014
 ms.audience: Developer
@@ -15,12 +13,7 @@ description: "The SetEncryptionConfigurationResponseMessage element is intended 
 # SetEncryptionConfigurationResponseMessage
 
 The **SetEncryptionConfigurationResponseMessage** element is intended for internal use only. 
-  
-```
 
-```
-
- ****
 ## Attributes and elements
 
 The following sections describe attributes, child elements, and parent elements.

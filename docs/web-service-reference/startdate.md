@@ -1,7 +1,5 @@
 ---
 title: "StartDate"
- 
- 
 manager: sethgros
 ms.date: 9/17/2015
 ms.audience: Developer
@@ -20,11 +18,12 @@ description: "The StartDate element represents the start date of an item."
 
 The **StartDate** element represents the start date of an item. 
   
-```
+```xml
 <StartDate/>
 ```
 
- **dateTime**
+**dateTime**
+
 ## Attributes and elements
 
 The following sections describe attributes, child elements, and parent elements.
@@ -63,12 +62,7 @@ The schema that describes this element is located in the EWS virtual directory o
    
 ## See also
 
-
-
-[EWS XML elements in Exchange](ews-xml-elements-in-exchange.md)
-
-
-[Creating Tasks](http://msdn.microsoft.com/library/0ef97334-e8a0-4f67-a23a-dd9e2bbad49f%28Office.15%29.aspx)
-  
-[Deleting Tasks](http://msdn.microsoft.com/library/a3d7e25f-8a35-4901-b1d9-d31f418ab340%28Office.15%29.aspx)
+- [EWS XML elements in Exchange](ews-xml-elements-in-exchange.md)
+- [Creating Tasks](http://msdn.microsoft.com/library/0ef97334-e8a0-4f67-a23a-dd9e2bbad49f%28Office.15%29.aspx)
+- [Deleting Tasks](http://msdn.microsoft.com/library/a3d7e25f-8a35-4901-b1d9-d31f418ab340%28Office.15%29.aspx)
 

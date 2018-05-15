@@ -73,5 +73,5 @@ The schema that describes this element is located in the EWS virtual directory o
 [RemoveDelegate operation](removedelegate-operation.md)
 
 
-[EWS XML elements in Exchange](ews-xml-elements-in-exchange.md)
+- [EWS XML elements in Exchange](ews-xml-elements-in-exchange.md)
 

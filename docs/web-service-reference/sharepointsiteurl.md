@@ -1,7 +1,5 @@
 ---
 title: "SharePointSiteUrl"
- 
- 
 manager: sethgros
 ms.date: 9/17/2015
 ms.audience: ITPro
@@ -20,7 +18,8 @@ The **SharePointSiteURL** element contains the Uniform Resource Locator (URL) of
 <SharePointSiteURL></SharePointSiteURL>
 ```
 
- **string**
+**string**
+
 ## Attributes and elements
 
 The following sections describe attributes, child elements, and parent elements.

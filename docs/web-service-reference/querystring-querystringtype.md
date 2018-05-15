@@ -224,5 +224,5 @@ The following example shows a successful response to the request.
 [FindConversation operation](findconversation-operation.md)
 
 
-[EWS XML elements in Exchange](ews-xml-elements-in-exchange.md)
+- [EWS XML elements in Exchange](ews-xml-elements-in-exchange.md)
 

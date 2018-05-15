@@ -1,7 +1,5 @@
 ---
 title: "LegacyDN"
- 
- 
 manager: sethgros
 ms.date: 9/17/2015
 ms.audience: Developer
@@ -20,7 +18,8 @@ The **LegacyDN** element identifies a mailbox by its legacy distinguished name.
 <LegacyDN></LegacyDN>
 ```
 
- **string**
+**string**
+
 ## Attributes and elements
 
 The following sections describe attributes, child elements, and parent elements.

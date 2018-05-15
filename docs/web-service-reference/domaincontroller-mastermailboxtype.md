@@ -1,7 +1,5 @@
 ---
 title: "DomainController (MasterMailboxType)"
- 
- 
 manager: sethgros
 ms.date: 11/16/2014
 ms.audience: Developer
@@ -15,10 +13,6 @@ description: "The DomainController (MasterMailboxType) element is intended for i
 # DomainController (MasterMailboxType)
 
 The **DomainController (MasterMailboxType)** element is intended for internal use only. 
-  
-```
-
-```
 
 ## Attributes and elements
 

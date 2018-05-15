@@ -1,7 +1,5 @@
 ---
 title: "MailboxHoldStatuses"
- 
- 
 manager: sethgros
 ms.date: 9/17/2015
 ms.audience: Developer
@@ -22,7 +20,8 @@ The **MailboxHoldStatuses** element specifies a list of one or more **MailboxHol
 </MailboxHoldStatuses>
 ```
 
- **ArrayOfMailboxHoldStatusType**
+**ArrayOfMailboxHoldStatusType**
+
 ## Attributes and elements
 
 The following sections describe attributes, child elements, and parent elements.

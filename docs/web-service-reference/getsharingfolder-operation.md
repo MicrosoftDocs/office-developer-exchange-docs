@@ -167,5 +167,5 @@ The following example shows an error response to a **GetSharingFolder** request.
 
 [EWS operations in Exchange](ews-operations-in-exchange.md)
   
-[EWS XML elements in Exchange](ews-xml-elements-in-exchange.md)
+- [EWS XML elements in Exchange](ews-xml-elements-in-exchange.md)
 

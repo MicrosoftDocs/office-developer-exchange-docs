@@ -1,7 +1,5 @@
 ---
 title: "WouldRepair"
- 
- 
 manager: sethgros
 ms.date: 9/17/2015
 ms.audience: Developer
@@ -15,12 +13,7 @@ description: "The WouldRepair element is intended for internal use only."
 # WouldRepair
 
 The **WouldRepair** element is intended for internal use only. 
-  
-```
 
-```
-
- ****
 ## Attributes and elements
 
 The following sections describe attributes, child elements, and parent elements.

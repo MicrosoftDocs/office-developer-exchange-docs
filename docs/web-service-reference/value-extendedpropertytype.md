@@ -1,7 +1,5 @@
 ---
 title: "Value (ExtendedPropertyType)"
- 
- 
 manager: sethgros
 ms.date: 9/17/2015
 ms.audience: Developer
@@ -24,7 +22,8 @@ The **Value** element specifies an array of extended properties for a persona.
 </Value>
 ```
 
- **ExtendedPropertyType**
+**ExtendedPropertyType**
+
 ## Attributes and elements
 
 The following sections describe attributes, child elements, and parent elements.

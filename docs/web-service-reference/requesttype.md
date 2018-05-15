@@ -62,5 +62,5 @@ A text value is required for this element. The following are the possible values
 
 
 
-[EWS XML elements in Exchange](ews-xml-elements-in-exchange.md)
+- [EWS XML elements in Exchange](ews-xml-elements-in-exchange.md)
 

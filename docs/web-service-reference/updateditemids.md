@@ -64,5 +64,5 @@ If the [PerformReminderAction](performreminderaction-operation.md) operation did
 [PerformReminderActionResponse](performreminderactionresponse.md)
 
 
-[EWS XML elements in Exchange](ews-xml-elements-in-exchange.md)
+- [EWS XML elements in Exchange](ews-xml-elements-in-exchange.md)
 

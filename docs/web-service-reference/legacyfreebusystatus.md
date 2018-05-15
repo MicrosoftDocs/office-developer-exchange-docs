@@ -1,7 +1,5 @@
 ---
 title: "LegacyFreeBusyStatus"
- 
- 
 manager: sethgros
 ms.date: 9/17/2015
 ms.audience: Developer
@@ -20,11 +18,12 @@ description: "The LegacyFreeBusyStatus element represents the free/busy status o
 
 The **LegacyFreeBusyStatus** element represents the free/busy status of the calendar item. 
   
-```
+```xml
 <LegacyFreeBusyStatus/>
 ```
 
- **LegacyFreeBusyType**
+**LegacyFreeBusyType**
+
 ## Attributes and elements
 
 The following sections describe attributes, child elements, and parent elements.
@@ -48,16 +47,11 @@ None.
 
 A text value is required for this element. The following are the possible text values for this element:
   
-- Free
-    
+- Free 
 - Tentative
-    
 - Busy
-    
 - OOF
-    
 - WorkingElsewhere
-    
 - NoData
     
 ## Remarks
@@ -75,7 +69,5 @@ The schema that describes this element is located in the EWS virtual directory o
    
 ## See also
 
-
-
-[EWS XML elements in Exchange](ews-xml-elements-in-exchange.md)
+- [EWS XML elements in Exchange](ews-xml-elements-in-exchange.md)
 

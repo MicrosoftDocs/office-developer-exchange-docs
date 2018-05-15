@@ -85,5 +85,5 @@ The following sections describe attributes, child elements, and parent elements.
 [GetRoomLists operation](getroomlists-operation.md)
 
 
-[EWS XML elements in Exchange](ews-xml-elements-in-exchange.md)
+- [EWS XML elements in Exchange](ews-xml-elements-in-exchange.md)
 

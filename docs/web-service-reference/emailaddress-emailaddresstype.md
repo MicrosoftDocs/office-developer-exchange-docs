@@ -74,5 +74,5 @@ The **EmailAddress** element is applicable for clients that target Exchange Onli
 
 
 
-[EWS XML elements in Exchange](ews-xml-elements-in-exchange.md)
+- [EWS XML elements in Exchange](ews-xml-elements-in-exchange.md)
 

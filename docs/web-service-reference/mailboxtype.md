@@ -1,7 +1,5 @@
 ---
 title: "MailboxType"
- 
- 
 manager: sethgros
 ms.date: 3/9/2015
 ms.audience: Developer
@@ -24,7 +22,8 @@ The **MailboxType** element represents the type of mailbox that is represented b
 <MailboxType>Mailbox | PublicDL | PrivateDL | Contact | PublicFolder | Unknown | OneOff | GroupMailbox</MailboxType>
 ```
 
- **MailboxTypeType**
+**MailboxTypeType**
+
 ## Attributes and elements
 
 The following sections describe attributes, child elements, and parent elements.
@@ -74,7 +73,5 @@ The schema that describes this element is located in the IIS virtual directory t
    
 ## See also
 
-
-
-[EWS XML elements in Exchange](ews-xml-elements-in-exchange.md)
+- [EWS XML elements in Exchange](ews-xml-elements-in-exchange.md)
 

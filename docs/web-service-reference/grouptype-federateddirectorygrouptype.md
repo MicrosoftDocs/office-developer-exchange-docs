@@ -1,7 +1,5 @@
 ---
 title: "GroupType (FederatedDirectoryGroupType)"
- 
- 
 manager: sethgros
 ms.date: 11/16/2014
 ms.audience: Developer
@@ -15,10 +13,6 @@ description: "The GroupType (FederatedDirectoryGroupType) element is intended fo
 # GroupType (FederatedDirectoryGroupType)
 
 The **GroupType (FederatedDirectoryGroupType)** element is intended for internal use only. 
-  
-```
-
-```
 
 ## Attributes and elements
 

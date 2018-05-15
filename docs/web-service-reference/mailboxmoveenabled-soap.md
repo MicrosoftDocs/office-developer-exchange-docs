@@ -7,8 +7,6 @@ ms.topic: reference
 localization_priority: Normal
 ms.assetid: 73d09137-d3bd-46b3-954a-a358ead07c91
 description: "The MailBoxMoveEnabled element represents the MailboxMoveEnabled() flag. The MailBoxMoveEnabled element is for internal use only. This element is not used by clients."
- 
- 
 ---
 
 # MailboxMoveEnabled (SOAP)
@@ -19,7 +17,8 @@ The **MailBoxMoveEnabled** element represents the **MailboxMoveEnabled()** flag.
 <MailBoxMoveEnabled>true | false</MailBoxMoveEnabled>
 ```
 
- **Boolean**
+**Boolean**
+
 ## Attributes and elements
 
 The following sections describe attributes, child elements, and parent elements.
@@ -49,7 +48,5 @@ None.
    
 ## See also
 
-
-
-[GetOrganizationRelationshipSettings operation (SOAP)](getorganizationrelationshipsettings-operation-soap.md)
+- [GetOrganizationRelationshipSettings operation (SOAP)](getorganizationrelationshipsettings-operation-soap.md)
 

@@ -26,5 +26,5 @@ The **GetMessageTrackingReport** operation gets tracking information about the s
 
 [EWS operations in Exchange](ews-operations-in-exchange.md)
   
-[EWS XML elements in Exchange](ews-xml-elements-in-exchange.md)
+- [EWS XML elements in Exchange](ews-xml-elements-in-exchange.md)
 

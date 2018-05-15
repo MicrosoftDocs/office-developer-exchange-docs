@@ -97,5 +97,5 @@ In versions of Exchange starting with build 15.00.0986.00, the **ApplyConversati
 [ApplyConversationAction operation](applyconversationaction-operation.md)
 
 
-[EWS XML elements in Exchange](ews-xml-elements-in-exchange.md)
+- [EWS XML elements in Exchange](ews-xml-elements-in-exchange.md)
 

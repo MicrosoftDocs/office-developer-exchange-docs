@@ -1,7 +1,5 @@
 ---
 title: "TaskString"
- 
- 
 manager: sethgros
 ms.date: 9/17/2015
 ms.audience: Developer
@@ -20,7 +18,8 @@ The **TaskString** element contains a suggested task.
 <TaskString></TaskString>
 ```
 
- **string**
+**string**
+
 ## Attributes and elements
 
 The following sections describe attributes, child elements, and parent elements.

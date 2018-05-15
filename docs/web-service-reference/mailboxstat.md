@@ -1,7 +1,5 @@
 ---
 title: "MailboxStat"
- 
- 
 manager: sethgros
 ms.date: 9/17/2015
 ms.audience: Developer
@@ -25,7 +23,8 @@ The **MailboxStat** element specifies statistics for a mailbox searched by disco
 </MailboxStat>
 ```
 
- **MailboxStatisticsItemType**
+**MailboxStatisticsItemType**
+
 ## Attributes and elements
 
 The following sections describe attributes, child elements, and parent elements.

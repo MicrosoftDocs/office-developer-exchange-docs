@@ -68,5 +68,5 @@ This property is used with the [UID](uid.md) property to identify a specific ins
 
 
 
-[EWS XML elements in Exchange](ews-xml-elements-in-exchange.md)
+- [EWS XML elements in Exchange](ews-xml-elements-in-exchange.md)
 

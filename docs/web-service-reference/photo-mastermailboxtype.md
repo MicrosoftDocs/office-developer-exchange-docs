@@ -1,7 +1,5 @@
 ---
 title: "Photo (MasterMailboxType)"
- 
- 
 manager: sethgros
 ms.date: 11/16/2014
 ms.audience: Developer
@@ -15,10 +13,6 @@ description: "The Photo (MasterMailboxType) element is intended for internal use
 # Photo (MasterMailboxType)
 
 The **Photo (MasterMailboxType)** element is intended for internal use only. 
-  
-```
-
-```
 
 ## Attributes and elements
 

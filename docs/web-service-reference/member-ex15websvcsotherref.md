@@ -1,7 +1,5 @@
 ---
 title: "Member"
- 
- 
 manager: sethgros
 ms.date: 9/17/2015
 ms.audience: Developer
@@ -20,14 +18,15 @@ description: "The Member element represents a member of a distribution list."
 
 The **Member** element represents a member of a distribution list. 
   
-```
+```xml
 <Member Key="">
    <Mailbox/>
    <Status/>
 </Member>
 ```
 
- **MemberType**
+**MemberType**
+
 ## Attributes and elements
 
 The following sections describe attributes, child elements, and parent elements.
@@ -66,7 +65,5 @@ The schema that describes this element is located in the IIS virtual directory t
    
 ## See also
 
-
-
-[EWS XML elements in Exchange](ews-xml-elements-in-exchange.md)
+- [EWS XML elements in Exchange](ews-xml-elements-in-exchange.md)
 

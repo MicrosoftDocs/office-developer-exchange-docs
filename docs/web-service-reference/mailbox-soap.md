@@ -9,8 +9,6 @@ api_type:
 - schema
 ms.assetid: 4ad59e5b-4047-4c34-a318-ca06c31d3de8
 description: "The Mailbox element contains the e-mail address of the user to be discovered."
- 
- 
 ---
 
 # Mailbox (SOAP)
@@ -21,7 +19,8 @@ The **Mailbox** element contains the e-mail address of the user to be discovered
 <Mailbox/>
 ```
 
- **string**
+**string**
+
 ## Attributes and elements
 
 The following sections describe attributes, child elements, and parent elements.
@@ -55,7 +54,5 @@ The text value of the **Mailbox** element is the e-mail address of the user to b
    
 ## See also
 
-
-
-[GetUserSettings operation (SOAP)](getusersettings-operation-soap.md)
+- [GetUserSettings operation (SOAP)](getusersettings-operation-soap.md)
 

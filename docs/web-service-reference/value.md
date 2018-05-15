@@ -1,7 +1,5 @@
 ---
 title: "Value"
- 
- 
 manager: sethgros
 ms.date: 9/17/2015
 ms.audience: Developer
@@ -20,11 +18,12 @@ description: "The Value element contains the value of an extended property."
 
 The **Value** element contains the value of an extended property. 
   
-```
+```xml
 <Value/>
 ```
 
- **String**
+**String**
+
 ## Attributes and elements
 
 The following sections describe attributes, child elements, and parent elements.
@@ -65,7 +64,5 @@ The schema that describes this element is located in the EWS virtual directory o
    
 ## See also
 
-
-
-[EWS XML elements in Exchange](ews-xml-elements-in-exchange.md)
+- [EWS XML elements in Exchange](ews-xml-elements-in-exchange.md)
 

@@ -1,7 +1,5 @@
 ---
 title: "MailboxId"
- 
- 
 manager: sethgros
 ms.date: 9/17/2015
 ms.audience: Developer
@@ -20,7 +18,8 @@ The **MailboxId** element specifies an identifier for the mailbox that is access
 <MailboxId></MailboxId>
 ```
 
- **string**
+**string**
+
 ## Attributes and elements
 
 The following sections describe attributes, child elements, and parent elements.

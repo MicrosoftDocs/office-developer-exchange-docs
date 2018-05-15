@@ -1,7 +1,5 @@
 ---
 title: "Name (EmailAddress)"
- 
- 
 manager: sethgros
 ms.date: 9/17/2015
 ms.audience: Developer
@@ -20,11 +18,12 @@ description: "The Name element represents the display name of the mailbox user."
 
 The **Name** element represents the display name of the mailbox user. 
   
-```
+```xml
 <Name/>
 ```
 
- **String**
+**String**
+
 ## Attributes and elements
 
 The following sections describe attributes, child elements, and parent elements.
@@ -66,12 +65,7 @@ This element can occur at most one time in the [Email (EmailAddressType)](email-
    
 ## See also
 
-
-
-[GetUserAvailability operation](getuseravailability-operation.md)
-  
-[GetUserAvailabilityRequest](getuseravailabilityrequest.md)
-
-
-[Getting User Availability](http://msdn.microsoft.com/library/d4133fcb-9b0f-4e6b-aadf-a389da83516a%28Office.15%29.aspx)
+- [GetUserAvailability operation](getuseravailability-operation.md)
+- [GetUserAvailabilityRequest](getuseravailabilityrequest.md)
+- [Getting User Availability](http://msdn.microsoft.com/library/d4133fcb-9b0f-4e6b-aadf-a389da83516a%28Office.15%29.aspx)
 

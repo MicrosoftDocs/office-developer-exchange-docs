@@ -53,7 +53,7 @@ The following sections describe attributes, child elements, and parent elements.
 
 |**Element**|**Description**|
 |:-----|:-----|
-|[EWS XML elements in Exchange](ews-xml-elements-in-exchange.md) <br/> [MessageText](messagetext.md) <br/> |Provides a text description of the status of the response.  <br/> |
+|- [EWS XML elements in Exchange](ews-xml-elements-in-exchange.md) <br/> [MessageText](messagetext.md) <br/> |Provides a text description of the status of the response.  <br/> |
 |[ResponseCode](responsecode.md) <br/> |Provides an error code that identifies the specific error that the request encountered.  <br/> |
 |[DescriptiveLinkKey](descriptivelinkkey.md) <br/> |Currently unused and is reserved for future use. It contains a value of 0.  <br/> |
 |[MessageXml](messagexml.md) <br/> |Provides additional error response information.  <br/> |

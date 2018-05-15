@@ -1,7 +1,5 @@
 ---
 title: "MailboxDataArray"
- 
- 
 manager: sethgros
 ms.date: 9/17/2015
 ms.audience: Developer
@@ -20,19 +18,20 @@ description: "The MailboxDataArray element contains a list of mailboxes to query
 
 The **MailboxDataArray** element contains a list of mailboxes to query for availability information. 
   
-[GetUserAvailabilityRequest](getuseravailabilityrequest.md)
+- [GetUserAvailabilityRequest](getuseravailabilityrequest.md)
   
-[MailboxDataArray](mailboxdataarray.md)
+- [MailboxDataArray](mailboxdataarray.md)
   
-[MailboxData](mailboxdata.md)
+- [MailboxData](mailboxdata.md)
   
-```
+```xml
 <MailboxDataArray>
    <MailboxData>...</MailboxData>
 </MailboxDataArray>
 ```
 
- **ArrayOfMailboxData**
+**ArrayOfMailboxData**
+
 ## Attributes and elements
 
 The following sections describe attributes, child elements, and parent elements.
@@ -68,12 +67,7 @@ The schema that describes this element is located in the EWS virtual directory o
    
 ## See also
 
-
-
-[GetUserAvailability operation](getuseravailability-operation.md)
-  
-[GetUserAvailabilityRequest](getuseravailabilityrequest.md)
-
-
-[Getting User Availability](http://msdn.microsoft.com/library/d4133fcb-9b0f-4e6b-aadf-a389da83516a%28Office.15%29.aspx)
+- [GetUserAvailability operation](getuseravailability-operation.md)
+- [GetUserAvailabilityRequest](getuseravailabilityrequest.md)
+- [Getting User Availability](http://msdn.microsoft.com/library/d4133fcb-9b0f-4e6b-aadf-a389da83516a%28Office.15%29.aspx)
 

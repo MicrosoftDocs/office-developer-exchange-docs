@@ -1,7 +1,5 @@
 ---
 title: "KeepProperties"
- 
- 
 manager: sethgros
 ms.date: 9/17/2015
 ms.audience: Developer
@@ -15,12 +13,7 @@ description: "The KeepProperties element is intended for internal use only."
 # KeepProperties
 
 The **KeepProperties** element is intended for internal use only. 
-  
-```
 
-```
-
- ****
 ## Attributes and elements
 
 The following sections describe attributes, child elements, and parent elements.
@@ -56,5 +49,5 @@ The schema that describes this element is located in the IIS virtual directory t
 
 
 
-[EWS XML elements in Exchange](ews-xml-elements-in-exchange.md)
+- [EWS XML elements in Exchange](ews-xml-elements-in-exchange.md)
 

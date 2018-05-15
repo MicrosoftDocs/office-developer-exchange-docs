@@ -9,25 +9,24 @@ api_type:
 - schema
 ms.assetid: a79a7e54-e7b1-4735-8eb4-03b1d0738e2c
 description: "The Value element represents a user setting value."
- 
- 
 ---
 
 # Value (SOAP)
 
 The **Value** element represents a user setting value. 
   
-[UserSettings (SOAP)](usersettings-soap.md)
+- [UserSettings (SOAP)](usersettings-soap.md)
   
-[UserSetting (SOAP)](usersetting-soap.md)
+- [UserSetting (SOAP)](usersetting-soap.md)
   
-[Value (SOAP)](value-soap.md)
+- [Value (SOAP)](value-soap.md)
   
 ```XML
 <Value/>
 ```
 
- **string**
+**string**
+
 ## Attributes and elements
 
 The following sections describe attributes, child elements, and parent elements.

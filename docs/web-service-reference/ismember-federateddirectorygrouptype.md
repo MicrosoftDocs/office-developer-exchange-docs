@@ -1,7 +1,5 @@
 ---
 title: "IsMember (FederatedDirectoryGroupType)"
- 
- 
 manager: sethgros
 ms.date: 11/16/2014
 ms.audience: Developer
@@ -15,10 +13,6 @@ description: "The IsMember (FederatedDirectoryGroupType) element is intended for
 # IsMember (FederatedDirectoryGroupType)
 
 The **IsMember (FederatedDirectoryGroupType)** element is intended for internal use only. 
-  
-```
-
-```
 
 ## Attributes and elements
 

@@ -1,7 +1,5 @@
 ---
 title: "MailboxQuery"
- 
- 
 manager: sethgros
 ms.date: 9/17/2015
 ms.audience: Developer
@@ -23,7 +21,8 @@ The **MailboxQuery** element specifies a query and the scope of a discovery sear
 </MailboxQuery>
 ```
 
- **MailboxQueryType**
+**MailboxQueryType**
+
 ## Attributes and elements
 
 The following sections describe attributes, child elements, and parent elements.

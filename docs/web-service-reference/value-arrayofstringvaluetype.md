@@ -1,7 +1,5 @@
 ---
 title: "Value (ArrayOfStringValueType)"
- 
- 
 manager: sethgros
 ms.date: 9/17/2015
 ms.audience: Developer
@@ -20,7 +18,8 @@ The **Value** element specifies a value in an array of persona properties associ
 <Value></Value>
 ```
 
- **string**
+**string**
+
 ## Attributes and elements
 
 The following sections describe attributes, child elements, and parent elements.

@@ -1,7 +1,5 @@
 ---
 title: "StartDate (Recurrence)"
- 
- 
 manager: sethgros
 ms.date: 9/17/2015
 ms.audience: Developer
@@ -20,11 +18,12 @@ description: "The StartDate element represents the start date of a recurring tas
 
 The **StartDate** element represents the start date of a recurring task or calendar item. 
   
-```
+```xml
 <StartDate/>
 ```
 
- **Date**
+**Date**
+
 ## Attributes and elements
 
 The following sections describe attributes, child elements, and parent elements.
@@ -64,7 +63,5 @@ The schema that describes this element is located in the EWS virtual directory o
    
 ## See also
 
-
-
-[EWS XML elements in Exchange](ews-xml-elements-in-exchange.md)
+- [EWS XML elements in Exchange](ews-xml-elements-in-exchange.md)
 

@@ -15,7 +15,7 @@ description: "Applies to:"
 
 # Response (POX)
 
- * **Applies to: *** 
+
   
 The **Response** element contains the response from the Autodiscover service. 
   

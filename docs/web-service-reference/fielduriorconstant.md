@@ -96,5 +96,5 @@ The following XML example shows the FieldURIOrConstant element used with both a 
 
 
 
-[EWS XML elements in Exchange](ews-xml-elements-in-exchange.md)
+- [EWS XML elements in Exchange](ews-xml-elements-in-exchange.md)
 

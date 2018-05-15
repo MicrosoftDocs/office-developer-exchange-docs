@@ -1,7 +1,5 @@
 ---
 title: "YearlyRegeneration"
- 
- 
 manager: sethgros
 ms.date: 9/17/2015
 ms.audience: Developer
@@ -20,13 +18,14 @@ description: "The YearlyRegeneration element describes the frequency, in years, 
 
 The **YearlyRegeneration** element describes the frequency, in years, in which a task is regenerated. 
   
-```
+```xml
 <YearlyRegeneratingPatternType>
    <Interval/>
 </YearlyRegeneratingPatternType>
 ```
 
- **YearlyRegeneratingPatternType**
+**YearlyRegeneratingPatternType**
+
 ## Attributes and elements
 
 The following sections describe attributes, child elements, and parent elements.
@@ -62,7 +61,5 @@ The schema that describes this element is located in the EWS virtual directory o
    
 ## See also
 
-
-
-[EWS XML elements in Exchange](ews-xml-elements-in-exchange.md)
+- [EWS XML elements in Exchange](ews-xml-elements-in-exchange.md)
 

@@ -1,7 +1,5 @@
 ---
 title: "ImageBase64 (SetEncryptionConfigurationType)"
- 
- 
 manager: sethgros
 ms.date: 11/16/2014
 ms.audience: Developer
@@ -15,10 +13,6 @@ description: "The ImageBase64 (SetEncryptionConfigurationType) element is intend
 # ImageBase64 (SetEncryptionConfigurationType)
 
 The **ImageBase64 (SetEncryptionConfigurationType)** element is intended for internal use only. 
-  
-```
-
-```
 
 ## Attributes and elements
 

@@ -64,5 +64,5 @@ The text value represents a date/time value that identifies a calendar occurrenc
 
 
 
-[EWS XML elements in Exchange](ews-xml-elements-in-exchange.md)
+- [EWS XML elements in Exchange](ews-xml-elements-in-exchange.md)
 

@@ -9,25 +9,23 @@ api_type:
 - schema
 ms.assetid: f1aa8bd9-c6ac-41ac-8d2d-56fb20006005
 description: "The SMTPLast element specifies whether the Simple Mail Transfer Protocol (SMTP) server requires that e-mail be downloaded before it sends e-mail by using the SMTP server."
- 
- 
 ---
 
 # SMTPLast (POX)
 
 The **SMTPLast** element specifies whether the Simple Mail Transfer Protocol (SMTP) server requires that e-mail be downloaded before it sends e-mail by using the SMTP server. 
   
-[AutoDiscover (POX)](autodiscover-pox.md)
+- [AutoDiscover (POX)](autodiscover-pox.md)
   
-[Response (POX)](response-pox.md)
+- [Response (POX)](response-pox.md)
   
-[Account (POX)](account-pox.md)
+- [Account (POX)](account-pox.md)
   
-[Protocol (POX)](protocol-pox.md)
+- [Protocol (POX)](protocol-pox.md)
   
-[SMTPLast (POX)](smtplast-pox.md)
+- [SMTPLast (POX)](smtplast-pox.md)
   
-```
+```xml
 <SMTPLast>on or off</SMTPLast>
 ```
 
@@ -55,7 +53,5 @@ The text value specifies whether the SMTP server requires that e-mail be downloa
   
 ## See also
 
-
-
-[POX Autodiscover XML elements for Exchange](pox-autodiscover-xml-elements-for-exchange.md)
+- [POX Autodiscover XML elements for Exchange](pox-autodiscover-xml-elements-for-exchange.md)
 

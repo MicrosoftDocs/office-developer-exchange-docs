@@ -1,7 +1,5 @@
 ---
 title: "Updates (Folder)"
- 
- 
 manager: sethgros
 ms.date: 9/17/2015
 ms.audience: Developer
@@ -20,15 +18,15 @@ description: "The Updates element contains a set of elements that define append,
 
 The **Updates** element contains a set of elements that define append, set, and delete changes to folder properties. 
   
-[UpdateFolder](updatefolder.md)
+- [UpdateFolder](updatefolder.md)
   
-[FolderChanges](folderchanges.md)
+- [FolderChanges](folderchanges.md)
   
-[FolderChange](folderchange.md)
+- [FolderChange](folderchange.md)
   
-[Updates (Folder)](updates-folder.md)
+- [Updates (Folder)](updates-folder.md)
   
-```
+```xml
 <Updates>
    <AppendToFolderField/>
    <SetFolderField/>
@@ -36,7 +34,8 @@ The **Updates** element contains a set of elements that define append, set, and 
 </Updates>
 ```
 
- **NonEmptyArrayOfFolderChangeDescriptionsType**
+**NonEmptyArrayOfFolderChangeDescriptionsType**
+
 ## Attributes and elements
 
 The following sections describe attributes, child elements, and parent elements.
@@ -74,10 +73,6 @@ The schema that describes this element is located in the EWS virtual directory o
    
 ## See also
 
-
-
-[UpdateFolder operation](updatefolder-operation.md)
-
-
-[EWS XML elements in Exchange](ews-xml-elements-in-exchange.md)
+- [UpdateFolder operation](updatefolder-operation.md)
+- [EWS XML elements in Exchange](ews-xml-elements-in-exchange.md)
 

@@ -1,7 +1,5 @@
 ---
 title: "GroupingAction (ItemType)"
- 
- 
 manager: sethgros
 ms.date: 11/16/2014
 ms.audience: Developer
@@ -15,10 +13,6 @@ description: "The GroupingAction (ItemType) element is intended for internal use
 # GroupingAction (ItemType)
 
 The **GroupingAction (ItemType)** element is intended for internal use only. 
-  
-```
-
-```
 
 ## Attributes and elements
 

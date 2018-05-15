@@ -7,23 +7,21 @@ ms.topic: reference
 localization_priority: Normal
 ms.assetid: 984ccd97-c337-47b6-ba42-3405a8b55a71
 description: "The SmtpAddress element contains the SMTP address assigned to the public folder message store configured for the user."
- 
- 
 ---
 
 # SmtpAddress (POX)
 
 The **SmtpAddress** element contains the SMTP address assigned to the public folder message store configured for the user. 
   
-[AutoDiscover (POX)](autodiscover-pox.md)
+- [AutoDiscover (POX)](autodiscover-pox.md)
   
-[Response (POX)](response-pox.md)
+- [Response (POX)](response-pox.md)
   
-[Account (POX)](account-pox.md)
+- [Account (POX)](account-pox.md)
   
-[PublicFolderInformation (POX)](publicfolderinformation-pox.md)
+- [PublicFolderInformation (POX)](publicfolderinformation-pox.md)
   
-[SmtpAddress (POX)](smtpaddress-pox.md)
+- [SmtpAddress (POX)](smtpaddress-pox.md)
   
 ```XML
 <SmtpAddress/>
@@ -57,7 +55,5 @@ The **SmtpAddress** element is a required child element of the **PublicFolderInf
   
 ## See also
 
-
-
-[POX Autodiscover XML elements for Exchange](pox-autodiscover-xml-elements-for-exchange.md)
+- [POX Autodiscover XML elements for Exchange](pox-autodiscover-xml-elements-for-exchange.md)
 

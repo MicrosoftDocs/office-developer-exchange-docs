@@ -276,5 +276,5 @@ To find other options for the response message of the ExpandDL operation, explor
 [ResolveNames operation](resolvenames-operation.md)
 
 
-[EWS XML elements in Exchange](ews-xml-elements-in-exchange.md)
+- [EWS XML elements in Exchange](ews-xml-elements-in-exchange.md)
 

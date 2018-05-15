@@ -1,7 +1,5 @@
 ---
 title: "RecognitionResult"
- 
- 
 manager: sethgros
 ms.date: 9/17/2015
 ms.audience: Developer
@@ -15,12 +13,7 @@ description: "The RecognitionResult element is intended for internal use only."
 # RecognitionResult
 
 The **RecognitionResult** element is intended for internal use only. 
-  
-```
 
-```
-
- ****
 ## Attributes and elements
 
 The following sections describe attributes, child elements, and parent elements.

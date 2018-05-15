@@ -1,7 +1,5 @@
 ---
 title: "MailboxSearchScopes"
- 
- 
 manager: sethgros
 ms.date: 9/17/2015
 ms.audience: Developer
@@ -22,7 +20,8 @@ The **MailboxSearchScopes** element specifies a list of one or more mailboxes an
 <MailboxSearchScope>
 ```
 
- **MailboxSearchScopeType**
+**MailboxSearchScopeType**
+
 ## Attributes and elements
 
 The following sections describe attributes, child elements, and parent elements.

@@ -1,7 +1,5 @@
 ---
 title: "Properties (ArrayOfTrackingPropertiesType)"
- 
- 
 manager: sethgros
 ms.date: 9/17/2015
 ms.audience: Developer
@@ -20,17 +18,18 @@ description: "The Properties element contains a list of one or more tracking pro
 
 The **Properties** element contains a list of one or more tracking properties. 
   
-[FindMessageTrackingReport](findmessagetrackingreport.md)
+- [FindMessageTrackingReport](findmessagetrackingreport.md)
   
-[Properties (ArrayOfTrackingPropertiesType)](properties-arrayoftrackingpropertiestype.md)
+- [Properties (ArrayOfTrackingPropertiesType)](properties-arrayoftrackingpropertiestype.md)
   
-```
+```xml
 <Properties>
    <TrackingPropertyType/>
 </Properties>
 ```
 
- **ArrayOfTrackingPropertiesType**
+**ArrayOfTrackingPropertiesType**
+
 ## Attributes and elements
 
 The following sections describe attributes, child elements, and parent elements.
@@ -76,12 +75,7 @@ The schema that describes this element is located in the IIS virtual directory t
    
 ## See also
 
-
-
-[FindMessageTrackingReport operation](findmessagetrackingreport-operation.md)
-  
-[GetMessageTrackingReport operation](getmessagetrackingreport-operation.md)
-
-
-[EWS XML elements in Exchange](ews-xml-elements-in-exchange.md)
+- [FindMessageTrackingReport operation](findmessagetrackingreport-operation.md)
+- [GetMessageTrackingReport operation](getmessagetrackingreport-operation.md)
+- [EWS XML elements in Exchange](ews-xml-elements-in-exchange.md)
 

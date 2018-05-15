@@ -9,8 +9,6 @@ api_type:
 - schema
 ms.assetid: df5bface-f070-49e0-8527-6129ed8e8095
 description: "The GetFederationInformationRequest element represents the parameters of a call to the GetFederationInformation operation (SOAP)operation."
- 
- 
 ---
 
 # GetFederationInformationRequest (SOAP)
@@ -23,7 +21,8 @@ The **GetFederationInformationRequest** element represents the parameters of a c
 </GetFederationInformationRequest>
 ```
 
- **GetFederationInformationRequest**
+**GetFederationInformationRequest**
+
 ## Attributes and elements
 
 The following sections describe attributes, child elements, and parent elements.
@@ -57,7 +56,5 @@ None.
    
 ## See also
 
-
-
-[GetFederationInformation operation (SOAP)](getfederationinformation-operation-soap.md)
+- [GetFederationInformation operation (SOAP)](getfederationinformation-operation-soap.md)
 

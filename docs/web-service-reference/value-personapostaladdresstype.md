@@ -1,7 +1,5 @@
 ---
 title: "Value (PersonaPostalAddressType)"
- 
- 
 manager: sethgros
 ms.date: 9/17/2015
 ms.audience: Developer
@@ -36,7 +34,8 @@ The **Value** element specifies information associated with a postal address.
 </Value>
 ```
 
- **PersonaPostalAddressType**
+**PersonaPostalAddressType**
+
 ## Attributes and elements
 
 The following sections describe attributes, child elements, and parent elements.

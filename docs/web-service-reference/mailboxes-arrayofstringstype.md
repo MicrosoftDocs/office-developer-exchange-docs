@@ -1,7 +1,5 @@
 ---
 title: "Mailboxes (ArrayOfStringsType)"
- 
- 
 manager: sethgros
 ms.date: 9/17/2015
 ms.audience: Developer
@@ -22,7 +20,8 @@ The **Mailboxes** element contains a list of mailboxes affected by the hold.
 </Mailboxes>
 ```
 
- **ArrayOfStringsType**
+**ArrayOfStringsType**
+
 ## Attributes and elements
 
 The following sections describe attributes, child elements, and parent elements.

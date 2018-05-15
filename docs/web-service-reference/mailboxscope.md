@@ -1,7 +1,5 @@
 ---
 title: "MailboxScope"
- 
- 
 manager: sethgros
 ms.date: 9/17/2015
 ms.audience: Developer
@@ -20,7 +18,8 @@ The **MailboxScope** element identifies whether a search or fetch for a conversa
 <MailboxScope> PrimaryOnly | ArchiveOnly | All </MailboxScope>
 ```
 
- **MailboxSearchLocationType**
+**MailboxSearchLocationType**
+
 ## Attributes and elements
 
 The following sections describe attributes, child elements, and parent elements.

@@ -1,7 +1,5 @@
 ---
 title: "MailboxHoldStatus"
- 
- 
 manager: sethgros
 ms.date: 9/17/2015
 ms.audience: Developer
@@ -24,7 +22,8 @@ The **MailboxHoldStatus** element specifies the hold status of the mailbox.
 </MailboxHoldStatus>
 ```
 
- **MailboxHoldStatusType**
+**MailboxHoldStatusType**
+
 ## Attributes and elements
 
 The following sections describe attributes, child elements, and parent elements.

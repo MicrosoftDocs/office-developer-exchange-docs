@@ -1,7 +1,5 @@
 ---
 title: "TasksFolder"
- 
- 
 manager: sethgros
 ms.date: 9/17/2015
 ms.audience: Developer
@@ -20,7 +18,7 @@ description: "The TasksFolder element represents a Tasks folder that is containe
 
 The **TasksFolder** element represents a Tasks folder that is contained in a mailbox. 
   
-```
+```xml
 <TasksFolder>
    <FolderId/>
    <ParentFolderId/>
@@ -36,7 +34,8 @@ The **TasksFolder** element represents a Tasks folder that is contained in a mai
 </TasksFolder>
 ```
 
- **TasksFolderType**
+**TasksFolderType**
+
 ## Attributes and elements
 
 The following sections describe attributes, child elements, and parent elements.
@@ -86,7 +85,5 @@ The schema that describes this element is located in the EWS virtual directory o
    
 ## See also
 
-
-
-[EWS XML elements in Exchange](ews-xml-elements-in-exchange.md)
+- [EWS XML elements in Exchange](ews-xml-elements-in-exchange.md)
 

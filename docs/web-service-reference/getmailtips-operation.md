@@ -133,5 +133,5 @@ The following elements are included in the response:
 
 [EWS operations in Exchange](ews-operations-in-exchange.md)
   
-[EWS XML elements in Exchange](ews-xml-elements-in-exchange.md)
+- [EWS XML elements in Exchange](ews-xml-elements-in-exchange.md)
 

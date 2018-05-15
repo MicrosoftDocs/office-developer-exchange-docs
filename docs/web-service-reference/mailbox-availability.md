@@ -1,7 +1,5 @@
 ---
 title: "Mailbox (Availability)"
- 
- 
 manager: sethgros
 ms.date: 9/17/2015
 ms.audience: Developer
@@ -20,7 +18,7 @@ description: "The Mailbox element represents the mailbox user for a SetUserOofSe
 
 The **Mailbox** element represents the mailbox user for a SetUserOofSettings or GetUserOofSettings request. 
   
-```
+```xml
 <Mailbox>
    <Name>...</Name>
    <Address>...</Address>
@@ -28,7 +26,8 @@ The **Mailbox** element represents the mailbox user for a SetUserOofSettings or 
 </Mailbox>
 ```
 
- **EmailAddressType**
+**EmailAddressType**
+
 ## Attributes and elements
 
 The following sections describe attributes, child elements, and parent elements.
@@ -69,9 +68,6 @@ The schema that describes this element is located in the EWS virtual directory o
    
 ## See also
 
-
-
-[GetUserOofSettings operation](getuseroofsettings-operation.md)
-  
-[SetUserOofSettings operation](setuseroofsettings-operation.md)
+- [GetUserOofSettings operation](getuseroofsettings-operation.md)
+- [SetUserOofSettings operation](setuseroofsettings-operation.md)
 

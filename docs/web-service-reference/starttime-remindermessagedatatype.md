@@ -1,7 +1,5 @@
 ---
 title: "StartTime (ReminderMessageDataType)"
- 
- 
 manager: sethgros
 ms.date: 3/9/2015
 ms.audience: Developer
@@ -20,7 +18,8 @@ The **StartTime (ReminderMessageDataType)** element specifies the starting time 
 <StartTime/>
 ```
 
- **dateTime**
+**dateTime**
+
 ## Attributes and elements
 
 The following sections describe attributes, child elements, and parent elements.
@@ -58,10 +57,6 @@ The schema that describes this element is located in the IIS virtual directory t
    
 ## See also
 
-
-
-[ReminderMessageData](remindermessagedata.md)
-
-
-[EWS XML elements in Exchange](ews-xml-elements-in-exchange.md)
+- [ReminderMessageData](remindermessagedata.md)
+- [EWS XML elements in Exchange](ews-xml-elements-in-exchange.md)
 

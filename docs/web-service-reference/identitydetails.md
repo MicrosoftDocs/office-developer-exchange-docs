@@ -1,7 +1,5 @@
 ---
 title: "IdentityDetails"
- 
- 
 manager: sethgros
 ms.date: 11/16/2014
 ms.audience: Developer
@@ -15,10 +13,6 @@ description: "The IdentityDetails element is intended for internal use only."
 # IdentityDetails
 
 The **IdentityDetails** element is intended for internal use only. 
-  
-```
-
-```
 
 ## Attributes and elements
 

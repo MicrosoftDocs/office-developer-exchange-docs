@@ -1,7 +1,5 @@
 ---
 title: "Mailbox (PreviewItemMailboxType)"
- 
- 
 manager: sethgros
 ms.date: 9/17/2015
 ms.audience: Developer
@@ -23,7 +21,8 @@ The **Mailbox** element contains the mailbox identifier and the user's primary S
 </Mailbox>
 ```
 
- **PreviewItemMailboxType**
+**PreviewItemMailboxType**
+
 ## Attributes and elements
 
 The following sections describe attributes, child elements, and parent elements.

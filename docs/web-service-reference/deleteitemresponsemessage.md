@@ -95,7 +95,7 @@ In versions of Exchange starting with build 15.00.0986.00, the **DeleteItemRespo
 
 [EWS reference for Exchange](ews-reference-for-exchange.md)
   
-[EWS XML elements in Exchange](ews-xml-elements-in-exchange.md)
+- [EWS XML elements in Exchange](ews-xml-elements-in-exchange.md)
 
 
 [Deleting Items (Exchange Web Services)](http://msdn.microsoft.com/library/9bfc39e6-d944-4eb6-8aee-cbaf1e37c67d%28Office.15%29.aspx)

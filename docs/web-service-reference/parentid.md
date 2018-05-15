@@ -1,7 +1,5 @@
 ---
 title: "ParentId"
- 
- 
 manager: sethgros
 ms.date: 9/17/2015
 ms.audience: Developer
@@ -20,7 +18,8 @@ The **ParentId** element specifies the identifier of the parent item in a search
 <ParentId Id="" ChangeKey=""/>
 ```
 
- **ItemIdType**
+**ItemIdType**
+
 ## Attributes and elements
 
 The following sections describe attributes, child elements, and parent elements.

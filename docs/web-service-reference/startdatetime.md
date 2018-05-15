@@ -1,7 +1,5 @@
 ---
 title: "StartDateTime"
- 
- 
 manager: sethgros
 ms.date: 9/17/2015
 ms.audience: Developer
@@ -24,7 +22,8 @@ The **StartDateTime** element specifies the start date and time for a rule or a 
 <StartDate/>
 ```
 
- **dateTime**
+**dateTime**
+
 ## Attributes and elements
 
 The following sections describe attributes, child elements, and parent elements.
@@ -63,7 +62,5 @@ The schema that describes this element is located in the IIS virtual directory t
    
 ## See also
 
-
-
-[EWS XML elements in Exchange](ews-xml-elements-in-exchange.md)
+- [EWS XML elements in Exchange](ews-xml-elements-in-exchange.md)
 

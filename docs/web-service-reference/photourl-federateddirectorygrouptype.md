@@ -1,7 +1,5 @@
 ---
 title: "PhotoUrl (FederatedDirectoryGroupType)"
- 
- 
 manager: sethgros
 ms.date: 11/16/2014
 ms.audience: Developer
@@ -15,10 +13,6 @@ description: "The PhotoUrl (FederatedDirectoryGroupType) element is intended for
 # PhotoUrl (FederatedDirectoryGroupType)
 
 The **PhotoUrl (FederatedDirectoryGroupType)** element is intended for internal use only. 
-  
-```
-
-```
 
 ## Attributes and elements
 

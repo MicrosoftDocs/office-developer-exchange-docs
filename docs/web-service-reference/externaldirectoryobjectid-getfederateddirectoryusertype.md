@@ -1,7 +1,5 @@
 ---
 title: "ExternalDirectoryObjectId (GetFederatedDirectoryUserType)"
- 
- 
 manager: sethgros
 ms.date: 11/16/2014
 ms.audience: Developer
@@ -15,10 +13,6 @@ description: "The ExternalDirectoryObjectId (GetFederatedDirectoryUserType) elem
 # ExternalDirectoryObjectId (GetFederatedDirectoryUserType)
 
 The **ExternalDirectoryObjectId (GetFederatedDirectoryUserType)** element is intended for internal use only. 
-  
-```
-
-```
 
 ## Attributes and elements
 

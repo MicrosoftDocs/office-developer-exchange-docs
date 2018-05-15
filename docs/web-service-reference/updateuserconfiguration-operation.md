@@ -104,5 +104,5 @@ The following example shows a successful response to the **UpdateUserConfigurati
 
 [EWS operations in Exchange](ews-operations-in-exchange.md)
   
-[EWS XML elements in Exchange](ews-xml-elements-in-exchange.md)
+- [EWS XML elements in Exchange](ews-xml-elements-in-exchange.md)
 

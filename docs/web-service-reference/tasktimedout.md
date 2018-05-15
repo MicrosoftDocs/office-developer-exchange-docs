@@ -1,7 +1,5 @@
 ---
 title: "TaskTimedOut"
- 
- 
 manager: sethgros
 ms.date: 9/17/2015
 ms.audience: Developer
@@ -15,12 +13,7 @@ description: "The TaskTimedOut element is intended for internal use only."
 # TaskTimedOut
 
 The **TaskTimedOut** element is intended for internal use only. 
-  
-```
 
-```
-
- ****
 ## Attributes and elements
 
 The following sections describe attributes, child elements, and parent elements.

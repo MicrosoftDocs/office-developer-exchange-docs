@@ -180,5 +180,5 @@ The following example shows an error response to an **UpdateDelegate** request. 
 
 
 
-[EWS XML elements in Exchange](ews-xml-elements-in-exchange.md)
+- [EWS XML elements in Exchange](ews-xml-elements-in-exchange.md)
 

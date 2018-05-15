@@ -1,7 +1,5 @@
 ---
 title: "Name (ExtendedAttributeType)"
- 
- 
 manager: sethgros
 ms.date: 11/16/2014
 ms.audience: Developer
@@ -15,10 +13,6 @@ description: "The Name (ExtendedAttributeType) element is intended for internal 
 # Name (ExtendedAttributeType)
 
 The **Name (ExtendedAttributeType)** element is intended for internal use only. 
-  
-```
-
-```
 
 ## Attributes and elements
 

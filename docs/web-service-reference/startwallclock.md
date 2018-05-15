@@ -1,7 +1,5 @@
 ---
 title: "StartWallClock"
- 
- 
 manager: sethgros
 ms.date: 9/17/2015
 ms.audience: Developer
@@ -20,7 +18,8 @@ The **StartWallClock** element specifies the start time of a meeting in the time
 <StartWallClock></StartWallClock>
 ```
 
- **dateTime**
+**dateTime**
+
 ## Attributes and elements
 
 The following sections describe attributes, child elements, and parent elements.

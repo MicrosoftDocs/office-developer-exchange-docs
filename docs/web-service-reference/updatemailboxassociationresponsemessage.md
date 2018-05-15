@@ -1,7 +1,5 @@
 ---
 title: "UpdateMailboxAssociationResponseMessage"
- 
- 
 manager: sethgros
 ms.date: 11/16/2014
 ms.audience: Developer
@@ -15,10 +13,6 @@ description: "The UpdateMailboxAssociationResponseMessage element is intended fo
 # UpdateMailboxAssociationResponseMessage
 
 The **UpdateMailboxAssociationResponseMessage** element is intended for internal use only. 
-  
-```
-
-```
 
 ## Attributes and elements
 

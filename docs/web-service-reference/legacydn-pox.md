@@ -9,15 +9,13 @@ api_type:
 - schema
 ms.assetid: 9fb9529f-52c5-4907-a84b-935b78de16c3
 description: "The LegacyDN element identifies a user's mailbox by legacy distinguished name."
- 
- 
 ---
 
 # LegacyDN (POX)
 
 The **LegacyDN** element identifies a user's mailbox by legacy distinguished name. 
   
-```
+```xml
 <LegacyDN/>
 ```
 
@@ -50,7 +48,5 @@ The [EmailAddress (NonEmptyStringType)](emailaddress-nonemptystringtype.md) elem
   
 ## See also
 
-
-
-[POX Autodiscover XML elements for Exchange](pox-autodiscover-xml-elements-for-exchange.md)
+- [POX Autodiscover XML elements for Exchange](pox-autodiscover-xml-elements-for-exchange.md)
 

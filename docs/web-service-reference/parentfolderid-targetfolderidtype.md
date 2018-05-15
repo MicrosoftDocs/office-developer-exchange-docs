@@ -1,7 +1,5 @@
 ---
 title: "ParentFolderId (TargetFolderIdType)"
- 
- 
 manager: sethgros
 ms.date: 9/17/2015
 ms.audience: Developer
@@ -20,13 +18,14 @@ description: "The ParentFolderId element identifies the folder in which a new fo
 
 The **ParentFolderId** element identifies the folder in which a new folder is created or the folder to search for the [FindConversation operation](findconversation-operation.md).
   
-```
+```xml
 <ParentFolderId>
    <DistinguishedFolderId/>
 </ParentFolderId>
 ```
 
- **TargetFolderIdType**
+**TargetFolderIdType**
+
 ## Attributes and elements
 
 The **ParentFolderId** element contains two child elements. The child elements are mutually exclusive in the schema. 
@@ -72,12 +71,7 @@ The schema that describes this element is located in the IIS virtual directory t
    
 ## See also
 
-
-
-[CreateFolder operation](createfolder-operation.md)
-  
-[FindConversation operation](findconversation-operation.md)
-
-
-[Creating Folders (Exchange Web Services)](http://msdn.microsoft.com/library/3b15b0ec-8691-45ed-9a24-a91ff732d6cf%28Office.15%29.aspx)
+- [CreateFolder operation](createfolder-operation.md)
+- [FindConversation operation](findconversation-operation.md)
+- [Creating Folders (Exchange Web Services)](http://msdn.microsoft.com/library/3b15b0ec-8691-45ed-9a24-a91ff732d6cf%28Office.15%29.aspx)
 

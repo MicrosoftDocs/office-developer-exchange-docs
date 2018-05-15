@@ -1,7 +1,5 @@
 ---
 title: "Name (string)"
- 
- 
 manager: sethgros
 ms.date: 9/17/2015
 ms.audience: Developer
@@ -20,7 +18,8 @@ The **Name** element specifies a search refiner name.
 <Name></Name>
 ```
 
- **string**
+**string**
+
 ## Attributes and elements
 
 The following sections describe attributes, child elements, and parent elements.

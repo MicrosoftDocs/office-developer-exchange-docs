@@ -9,8 +9,6 @@ api_type:
 - schema
 ms.assetid: dce6d823-dc33-4a47-babe-6370a15ac7b4
 description: "The Name element represents the name of a setting."
- 
- 
 ---
 
 # Name (SOAP)
@@ -21,7 +19,8 @@ The **Name** element represents the name of a setting.
 <Name/>
 ```
 
- **string**
+**string**
+
 ## Attributes and elements
 
 The following sections describe attributes, child elements, and parent elements.
@@ -62,13 +61,8 @@ The text value of the **Name** element is the name of a setting.
    
 ## See also
 
-
-
-[GetDomainSettings operation (SOAP)](getdomainsettings-operation-soap.md)
-  
-[GetUserSettings operation (SOAP)](getusersettings-operation-soap.md)
-  
-[GetFederationInformation operation (SOAP)](getfederationinformation-operation-soap.md)
-  
-[GetOrganizationRelationshipSettings operation (SOAP)](getorganizationrelationshipsettings-operation-soap.md)
+- [GetDomainSettings operation (SOAP)](getdomainsettings-operation-soap.md)
+- [GetUserSettings operation (SOAP)](getusersettings-operation-soap.md)
+- [GetFederationInformation operation (SOAP)](getfederationinformation-operation-soap.md)
+- [GetOrganizationRelationshipSettings operation (SOAP)](getorganizationrelationshipsettings-operation-soap.md)
 

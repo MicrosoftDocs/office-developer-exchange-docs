@@ -1,7 +1,5 @@
 ---
 title: "GetFederatedDirectoryUserResponse"
- 
- 
 manager: sethgros
 ms.date: 11/16/2014
 ms.audience: Developer
@@ -15,10 +13,6 @@ description: "The GetFederatedDirectoryUserResponse element is intended for inte
 # GetFederatedDirectoryUserResponse
 
 The **GetFederatedDirectoryUserResponse** element is intended for internal use only. 
-  
-```
-
-```
 
 ## Attributes and elements
 

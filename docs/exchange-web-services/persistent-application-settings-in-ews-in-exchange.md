@@ -16,7 +16,7 @@ description: "Learn about the different options that your EWS Managed API or EWS
 
 Learn about the different options that your EWS Managed API or EWS application can use to create persistent custom application settings in Exchange.
   
- * **Applies to: *** 
+
   
 The easiest way to keep custom client configurations in sync for a mailbox, or folders and items in a mailbox, is to store application settings on an Exchange server. You can ensure that those settings persist for a mailbox by using one of the following: 
   

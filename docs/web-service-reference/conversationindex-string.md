@@ -62,5 +62,5 @@ The **ConversationIndex** element is applicable for clients that target Exchange
 
 
 
-[EWS XML elements in Exchange](ews-xml-elements-in-exchange.md)
+- [EWS XML elements in Exchange](ews-xml-elements-in-exchange.md)
 

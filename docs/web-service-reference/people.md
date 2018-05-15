@@ -1,7 +1,5 @@
 ---
 title: "People"
- 
- 
 manager: sethgros
 ms.date: 9/17/2015
 ms.audience: Developer
@@ -22,7 +20,8 @@ The **People** element specifies an array of persona data returned as the result
 </People>
 ```
 
- **ArrayOfPeopleType**
+**ArrayOfPeopleType**
+
 ## Attributes and elements
 
 The following sections describe attributes, child elements, and parent elements.

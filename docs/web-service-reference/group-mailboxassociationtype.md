@@ -1,7 +1,5 @@
 ---
 title: "Group (MailboxAssociationType)"
- 
- 
 manager: sethgros
 ms.date: 11/16/2014
 ms.audience: Developer
@@ -15,10 +13,6 @@ description: "The Group (MailboxAssociationType) element is intended for interna
 # Group (MailboxAssociationType)
 
 The **Group (MailboxAssociationType)** element is intended for internal use only. 
-  
-```
-
-```
 
 ## Attributes and elements
 

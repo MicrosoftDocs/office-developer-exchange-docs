@@ -1,7 +1,5 @@
 ---
 title: "StartTimeZoneId"
- 
- 
 manager: sethgros
 ms.date: 9/17/2015
 ms.audience: Developer
@@ -20,7 +18,8 @@ The **StartTimeZoneId** element specifies the time zone in which a meeting takes
 <StartTimeZoneId></StartTimeZoneId>
 ```
 
- **string**
+**string**
+
 ## Attributes and elements
 
 The following sections describe attributes, child elements, and parent elements.

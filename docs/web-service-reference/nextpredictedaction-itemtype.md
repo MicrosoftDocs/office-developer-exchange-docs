@@ -1,7 +1,5 @@
 ---
 title: "NextPredictedAction (ItemType)"
- 
- 
 manager: sethgros
 ms.date: 11/16/2014
 ms.audience: Developer
@@ -15,10 +13,6 @@ description: "The NextPredictedAction (ItemType) element is intended for interna
 # NextPredictedAction (ItemType)
 
 The **NextPredictedAction (ItemType)** element is intended for internal use only. 
-  
-```
-
-```
 
 ## Attributes and elements
 

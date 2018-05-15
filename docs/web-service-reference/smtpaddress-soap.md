@@ -7,8 +7,6 @@ ms.topic: reference
 localization_priority: Normal
 ms.assetid: e833351c-4bd9-4937-8752-c743a7ce57ea
 description: "The SmtpAddress element represents the alternate mailbox SMTP address."
- 
- 
 ---
 
 # SmtpAddress (SOAP)
@@ -19,7 +17,8 @@ The **SmtpAddress** element represents the alternate mailbox SMTP address.
 <SmtpAddress/>
 ```
 
- **string**
+**string**
+
 ## Attributes and elements
 
 The following sections describe attributes, child elements, and parent elements.
@@ -53,9 +52,6 @@ The text value of the **SmtpAddress** element is the SMTP email address of the a
    
 ## See also
 
-
-
-[Autodiscover web service reference for Exchange](autodiscover-web-service-reference-for-exchange.md)
-  
-[SOAP Autodiscover XML elements for Exchange 2013](soap-autodiscover-xml-elements-for-exchange-2013.md)
+- [Autodiscover web service reference for Exchange](autodiscover-web-service-reference-for-exchange.md)
+- [SOAP Autodiscover XML elements for Exchange 2013](soap-autodiscover-xml-elements-for-exchange-2013.md)
 

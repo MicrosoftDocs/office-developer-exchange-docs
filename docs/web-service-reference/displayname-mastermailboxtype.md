@@ -1,7 +1,5 @@
 ---
 title: "DisplayName (MasterMailboxType)"
- 
- 
 manager: sethgros
 ms.date: 11/16/2014
 ms.audience: Developer
@@ -15,10 +13,6 @@ description: "The DisplayName (MasterMailboxType) element is intended for intern
 # DisplayName (MasterMailboxType)
 
 The **DisplayName (MasterMailboxType)** element is intended for internal use only. 
-  
-```
-
-```
 
 ## Attributes and elements
 

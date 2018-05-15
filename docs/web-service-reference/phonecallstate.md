@@ -77,5 +77,5 @@ The schema that describes this element is located in the /ews/ directory of the 
 
 
 
-[EWS XML elements in Exchange](ews-xml-elements-in-exchange.md)
+- [EWS XML elements in Exchange](ews-xml-elements-in-exchange.md)
 

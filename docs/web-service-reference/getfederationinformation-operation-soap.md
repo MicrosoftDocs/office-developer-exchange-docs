@@ -9,8 +9,6 @@ api_type:
 - schema
 ms.assetid: c6666a42-a18f-4e4b-beb6-b25ff62cfcc5
 description: "The GetFederationInformation operation provides information about the federation status of the organization, such as the target URI to be used when requesting tokens that are targeted at this organization, and the other domains that the organization has also federated."
- 
- 
 ---
 
 # GetFederationInformation operation (SOAP)
@@ -57,7 +55,7 @@ The following example of a **GetFederationInformation** request shows a request 
 </soap:Envelope>
 ```
 
-### Request Elements
+### Request elements
 
 The following elements are used in the request:
   
@@ -102,7 +100,7 @@ xmlns:a="http://www.w3.org/2005/08/addressing">
 </s:Envelope>
 ```
 
-### Response Elements
+### Response elements
 
 The following elements are used in the response:
   
@@ -122,9 +120,6 @@ The following elements are used in the response:
     
 ## See also
 
-
-
-[GetUserSettings operation (SOAP)](getusersettings-operation-soap.md)
-  
-[GetDomainSettings operation (SOAP)](getdomainsettings-operation-soap.md)
+- [GetUserSettings operation (SOAP)](getusersettings-operation-soap.md)
+- [GetDomainSettings operation (SOAP)](getdomainsettings-operation-soap.md)
 

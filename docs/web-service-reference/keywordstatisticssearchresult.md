@@ -16,7 +16,7 @@ description: "The KeywordStatisticsSearchResult element contains a single keywor
 
 The **KeywordStatisticsSearchResult** element contains a single keyword search result. 
   
- * **Applies to: *** 
+
   
 ```XML
 <KeywordStatisticsSearchResult>

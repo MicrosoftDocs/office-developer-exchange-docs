@@ -1,7 +1,5 @@
 ---
 title: "MailboxSearchScope"
- 
- 
 manager: sethgros
 ms.date: 9/17/2015
 ms.audience: Developer
@@ -23,7 +21,8 @@ The **MailboxSearchScope** element specifies a mailbox and a search scope for a 
 <MailboxSearchScope>
 ```
 
- **MailboxSearchScopeType**
+**MailboxSearchScopeType**
+
 ## Attributes and elements
 
 The following sections describe attributes, child elements, and parent elements.

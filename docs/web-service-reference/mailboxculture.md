@@ -1,7 +1,5 @@
 ---
 title: "MailboxCulture"
- 
- 
 manager: sethgros
 ms.date: 9/17/2015
 ms.audience: Developer
@@ -20,11 +18,12 @@ description: "The MailboxCulture element indicates the culture to use when openi
 
 The **MailboxCulture** element indicates the culture to use when opening a mailbox. This element occurs in the SOAP header. 
   
-```
+```xml
 <MailboxCulture/>
 ```
 
- **MailboxCultureType**
+**MailboxCultureType**
+
 ## Attributes and elements
 
 The following sections describe attributes, child elements, and parent elements.
@@ -60,7 +59,5 @@ The schema that describes this element is located in the EWS virtual directory o
    
 ## See also
 
-
-
-[EWS XML elements in Exchange](ews-xml-elements-in-exchange.md)
+- [EWS XML elements in Exchange](ews-xml-elements-in-exchange.md)
 

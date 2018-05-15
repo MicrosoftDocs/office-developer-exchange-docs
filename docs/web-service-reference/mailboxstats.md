@@ -1,7 +1,5 @@
 ---
 title: "MailboxStats"
- 
- 
 manager: sethgros
 ms.date: 9/17/2015
 ms.audience: Developer
@@ -22,7 +20,8 @@ The **MailboxStats** element specifies a list of one or more **MailboxStat** ele
 </MailboxStats>
 ```
 
- **ArrayOfMailboxStatisticsItemsType**
+**ArrayOfMailboxStatisticsItemsType**
+
 ## Attributes and elements
 
 The following sections describe attributes, child elements, and parent elements.

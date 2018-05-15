@@ -83,5 +83,5 @@ In versions of Exchange earlier than major version 15, the item identifier for t
 
 
 
-[EWS XML elements in Exchange](ews-xml-elements-in-exchange.md)
+- [EWS XML elements in Exchange](ews-xml-elements-in-exchange.md)
 

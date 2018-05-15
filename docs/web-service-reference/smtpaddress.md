@@ -1,7 +1,5 @@
 ---
 title: "SmtpAddress"
- 
- 
 manager: sethgros
 ms.date: 9/17/2015
 ms.audience: Developer
@@ -20,11 +18,12 @@ description: "The SmtpAddress element represents the Simple Mail Transfer Protoc
 
 The **SmtpAddress** element represents the Simple Mail Transfer Protocol (SMTP) address of an account to be used for impersonation or a Simple Mail Transfer Protocol (SMTP) recipient address of a calendar or contact sharing request. 
   
-```
+```xml
 <SmtpAddress/>
 ```
 
- **SmtpAddressType**
+**SmtpAddressType**
+
 ## Attributes and elements
 
 The following sections describe attributes, child elements, and parent elements.
@@ -65,7 +64,5 @@ The schema that describes this element is located in the IIS Virtual directory t
    
 ## See also
 
-
-
-[EWS XML elements in Exchange](ews-xml-elements-in-exchange.md)
+- [EWS XML elements in Exchange](ews-xml-elements-in-exchange.md)
 

@@ -1,7 +1,5 @@
 ---
 title: "StartTimeInMinutes"
- 
- 
 manager: sethgros
 ms.date: 9/17/2015
 ms.audience: Developer
@@ -20,27 +18,28 @@ description: "The StartTimeInMinutes element represents the start of the working
 
 The **StartTimeInMinutes** element represents the start of the working day for a mailbox user. 
   
-[GetUserAvailabilityResponse](getuseravailabilityresponse.md)
+- [GetUserAvailabilityResponse](getuseravailabilityresponse.md)
   
-[FreeBusyResponseArray](freebusyresponsearray.md)
+- [FreeBusyResponseArray](freebusyresponsearray.md)
   
-[FreeBusyResponse](freebusyresponse.md)
+- [FreeBusyResponse](freebusyresponse.md)
   
-[FreeBusyView](freebusyview.md)
+- [FreeBusyView](freebusyview.md)
   
-[WorkingHours](workinghours-ex15websvcsotherref.md)
+- [WorkingHours](workinghours-ex15websvcsotherref.md)
   
-[WorkingPeriodArray](workingperiodarray.md)
+- [WorkingPeriodArray](workingperiodarray.md)
   
-[WorkingPeriod](workingperiod.md)
+- [WorkingPeriod](workingperiod.md)
   
-[StartTimeInMinutes](starttimeinminutes.md)
+- [StartTimeInMinutes](starttimeinminutes.md)
   
-```
+```xml
 <StartTimeInMinutes>...</StartTimeInMinutes>
 ```
 
- **int**
+**int**
+
 ## Attributes and elements
 
 The following sections describe attributes, child elements, and parent elements.
@@ -80,12 +79,7 @@ The schema that describes this element is located in the EWS virtual directory o
    
 ## See also
 
-
-
-[GetUserAvailability operation](getuseravailability-operation.md)
-  
-[GetUserAvailabilityResponse](getuseravailabilityresponse.md)
-
-
-[Getting User Availability](http://msdn.microsoft.com/library/d4133fcb-9b0f-4e6b-aadf-a389da83516a%28Office.15%29.aspx)
+- [GetUserAvailability operation](getuseravailability-operation.md)
+- [GetUserAvailabilityResponse](getuseravailabilityresponse.md)
+- [Getting User Availability](http://msdn.microsoft.com/library/d4133fcb-9b0f-4e6b-aadf-a389da83516a%28Office.15%29.aspx)
 

@@ -1,7 +1,5 @@
 ---
 title: "Value (PersonaPhoneNumberType)"
- 
- 
 manager: sethgros
 ms.date: 9/17/2015
 ms.audience: Developer
@@ -23,7 +21,8 @@ The **Value** element specifies a phone number and type information and is assoc
 </Value>
 ```
 
- **PersonaPhoneNumberType**
+**PersonaPhoneNumberType**
+
 ## Attributes and elements
 
 The following sections describe attributes, child elements, and parent elements.

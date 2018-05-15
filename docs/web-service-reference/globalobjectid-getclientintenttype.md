@@ -1,7 +1,5 @@
 ---
 title: "GlobalObjectId (GetClientIntentType)"
- 
- 
 manager: sethgros
 ms.date: 9/17/2015
 ms.audience: Developer
@@ -15,12 +13,7 @@ description: "The GlobalObjectId element is intended for internal use only."
 # GlobalObjectId (GetClientIntentType)
 
 The **GlobalObjectId** element is intended for internal use only. 
-  
-```
 
-```
-
- ****
 ## Attributes and elements
 
 The following sections describe attributes, child elements, and parent elements.

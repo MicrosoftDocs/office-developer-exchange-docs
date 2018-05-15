@@ -102,5 +102,5 @@ The following example of a [SetUserOofSettings operation](setuseroofsettings-ope
 [SetUserOofSettings operation](setuseroofsettings-operation.md)
 
 
-[EWS XML elements in Exchange](ews-xml-elements-in-exchange.md)
+- [EWS XML elements in Exchange](ews-xml-elements-in-exchange.md)
 

@@ -9,8 +9,6 @@ api_type:
 - schema
 ms.assetid: 837072fa-1fd9-4288-b826-5e9fdb2ea35c
 description: "The LegacyDN element represents the alternate mailbox legacy distinguished name."
- 
- 
 ---
 
 # LegacyDN (SOAP)
@@ -21,7 +19,8 @@ The **LegacyDN** element represents the alternate mailbox legacy distinguished n
 <LegacyDN/>
 ```
 
- **string**
+**string**
+
 ## Attributes and elements
 
 The following sections describe attributes, child elements, and parent elements.
@@ -55,7 +54,5 @@ The value of the **LegacyDN** element is the alternate mailbox legacy distinguis
    
 ## See also
 
-
-
-[AlternateMailboxCollectionSetting (SOAP)](alternatemailboxcollectionsetting-soap.md)
+- [AlternateMailboxCollectionSetting (SOAP)](alternatemailboxcollectionsetting-soap.md)
 

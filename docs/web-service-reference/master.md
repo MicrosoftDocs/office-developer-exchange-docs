@@ -1,7 +1,5 @@
 ---
 title: "Master"
- 
- 
 manager: sethgros
 ms.date: 11/16/2014
 ms.audience: Developer
@@ -15,10 +13,6 @@ description: "The Master element is intended for internal use only."
 # Master
 
 The **Master** element is intended for internal use only. 
-  
-```
-
-```
 
 ## Attributes and elements
 

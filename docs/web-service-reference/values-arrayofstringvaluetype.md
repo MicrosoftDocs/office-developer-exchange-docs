@@ -1,7 +1,5 @@
 ---
 title: "Values (ArrayOfStringValueType)"
- 
- 
 manager: sethgros
 ms.date: 9/17/2015
 ms.audience: Developer
@@ -22,7 +20,8 @@ The **Values** element specifies the values in an array of persona properties as
 </Values>
 ```
 
- **ArrayOfStringValueType**
+**ArrayOfStringValueType**
+
 ## Attributes and elements
 
 The following sections describe attributes, child elements, and parent elements.

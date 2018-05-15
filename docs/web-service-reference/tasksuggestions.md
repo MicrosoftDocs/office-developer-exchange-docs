@@ -1,7 +1,5 @@
 ---
 title: "TaskSuggestions"
- 
- 
 manager: sethgros
 ms.date: 9/17/2015
 ms.audience: Developer
@@ -22,7 +20,8 @@ The **TaskSuggestions** element specifies an array of task suggestions extracted
 </TaskSuggestions>
 ```
 
- **ArrayOfTaskSuggestionsType**
+**ArrayOfTaskSuggestionsType**
+
 ## Attributes and elements
 
 The following sections describe attributes, child elements, and parent elements.

@@ -1,7 +1,5 @@
 ---
 title: "NextPredictedAction"
- 
- 
 manager: sethgros
 ms.date: 9/17/2015
 ms.audience: Developer
@@ -15,10 +13,6 @@ description: "The NextPredictedAction element is intended for internal use only.
 # NextPredictedAction
 
 The **NextPredictedAction** element is intended for internal use only. 
-  
-```
-
-```
 
 ## Attributes and elements
 

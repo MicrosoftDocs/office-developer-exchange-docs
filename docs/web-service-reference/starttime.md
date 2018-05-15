@@ -1,7 +1,5 @@
 ---
 title: "StartTime"
- 
- 
 manager: sethgros
 ms.date: 9/17/2015
 ms.audience: Developer
@@ -20,11 +18,12 @@ description: "The StartTime element represents the start of a time span."
 
 The **StartTime** element represents the start of a time span. 
   
-```
+```xml
 <StartTime/
 ```
 
- **dateTime**
+**dateTime**
+
 ## Attributes and elements
 
 The following sections describe attributes, child elements, and parent elements.
@@ -70,10 +69,6 @@ The schema includes many [StartTime](starttime.md) elements.
    
 ## See also
 
-
-
-[GetUserAvailability operation](getuseravailability-operation.md)
-
-
-[Getting User Availability](http://msdn.microsoft.com/library/d4133fcb-9b0f-4e6b-aadf-a389da83516a%28Office.15%29.aspx)
+- [GetUserAvailability operation](getuseravailability-operation.md)
+- [Getting User Availability](http://msdn.microsoft.com/library/d4133fcb-9b0f-4e6b-aadf-a389da83516a%28Office.15%29.aspx)
 

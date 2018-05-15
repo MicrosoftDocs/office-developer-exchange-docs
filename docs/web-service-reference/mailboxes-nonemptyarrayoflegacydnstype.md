@@ -1,7 +1,5 @@
 ---
 title: "Mailboxes (NonEmptyArrayOfLegacyDNsType)"
- 
- 
 manager: sethgros
 ms.date: 9/17/2015
 ms.audience: Developer
@@ -22,7 +20,8 @@ The **Mailboxes** element specifies an array of mailboxes identified by legacy d
 </Mailboxes>
 ```
 
- **NonEmptyArrayofLegacyDNsType**
+**NonEmptyArrayofLegacyDNsType**
+
 ## Attributes and elements
 
 The following sections describe attributes, child elements, and parent elements.

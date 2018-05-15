@@ -1,7 +1,5 @@
 ---
 title: "ParentFolderIds"
- 
- 
 manager: sethgros
 ms.date: 9/17/2015
 ms.audience: Developer
@@ -20,13 +18,14 @@ description: "The ParentFolderIds element identifies folders for the FindItem an
 
 The **ParentFolderIds** element identifies folders for the FindItem and FindFolder operations to search. 
   
-```
+```xml
 <ParentFolderIds>
    <DistinguishedFolderId/>
 <ParentFolderIds>
 ```
 
- **NonEmptyArrayOfBaseFolderIdsType**
+**NonEmptyArrayOfBaseFolderIdsType**
+
 ## Attributes and elements
 
 The following sections describe attributes, child elements, and parent elements.
@@ -84,11 +83,7 @@ The **ParentFolderIds** element must use either the [FolderId](folderid.md) or t
    
 ## See also
 
-
-
-[FindFolder operation](findfolder-operation.md)
-  
-[FindItem operation](finditem-operation.md)
-  
-[ResolveNames operation](resolvenames-operation.md)
+- [FindFolder operation](findfolder-operation.md)  
+- [FindItem operation](finditem-operation.md) 
+- [ResolveNames operation](resolvenames-operation.md)
 

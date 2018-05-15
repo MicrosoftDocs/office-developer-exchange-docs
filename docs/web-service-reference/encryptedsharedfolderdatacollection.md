@@ -66,5 +66,5 @@ The schema that describes this element is located in the IIS Virtual directory t
 [GetSharingMetadata operation](getsharingmetadata-operation.md)
 
 
-[EWS XML elements in Exchange](ews-xml-elements-in-exchange.md)
+- [EWS XML elements in Exchange](ews-xml-elements-in-exchange.md)
 

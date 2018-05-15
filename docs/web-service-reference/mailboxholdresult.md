@@ -1,7 +1,5 @@
 ---
 title: "MailboxHoldResult"
- 
- 
 manager: sethgros
 ms.date: 9/17/2015
 ms.audience: Developer
@@ -24,7 +22,8 @@ The **MailboxHoldResult** element contains the result of the **GetHoldOnMailboxe
 </MailboxHoldResult>
 ```
 
- **MailboxHoldResultType**
+**MailboxHoldResultType**
+
 ## Attributes and elements
 
 The following sections describe attributes, child elements, and parent elements.

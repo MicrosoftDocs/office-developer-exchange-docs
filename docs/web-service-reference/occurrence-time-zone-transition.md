@@ -1,7 +1,5 @@
 ---
 title: "Occurrence (Time Zone Transition)"
- 
- 
 manager: sethgros
 ms.date: 9/17/2015
 ms.audience: Developer
@@ -20,11 +18,12 @@ description: "The Occurrence element represents the occurrence of the day of the
 
 The **Occurrence** element represents the occurrence of the day of the week in the month that the time zone transition occurs. 
   
-```
+```xml
 <Occurrence/>
 ```
 
- **int**
+**int**
+
 ## Attributes and elements
 
 The following sections describe attributes, child elements, and parent elements.
@@ -73,7 +72,5 @@ The schema that describes this element is located in the EWS virtual directory o
    
 ## See also
 
-
-
-[EWS XML elements in Exchange](ews-xml-elements-in-exchange.md)
+- [EWS XML elements in Exchange](ews-xml-elements-in-exchange.md)
 

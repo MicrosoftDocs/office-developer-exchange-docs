@@ -150,5 +150,5 @@ The following example of a **RemoveDelegate** error response shows the results o
 
 
 
-[EWS XML elements in Exchange](ews-xml-elements-in-exchange.md)
+- [EWS XML elements in Exchange](ews-xml-elements-in-exchange.md)
 

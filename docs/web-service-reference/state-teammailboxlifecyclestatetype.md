@@ -1,7 +1,5 @@
 ---
 title: "State (TeamMailboxLifecycleStateType)"
- 
- 
 manager: sethgros
 ms.date: 9/17/2015
 ms.audience: Developer
@@ -20,7 +18,8 @@ The **State** element contains the lifecycle state that is set on a site mailbox
 <State> Active | Closed | Unlinked | PendingDelete </State>
 ```
 
- **TeamMailboxLifecycleStateType**
+**TeamMailboxLifecycleStateType**
+
 ## Attributes and elements
 
 The following sections describe attributes, child elements, and parent elements.

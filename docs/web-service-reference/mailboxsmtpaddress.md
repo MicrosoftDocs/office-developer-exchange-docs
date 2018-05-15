@@ -1,7 +1,5 @@
 ---
 title: "MailboxSmtpAddress"
- 
- 
 manager: sethgros
 ms.date: 9/17/2015
 ms.audience: Developer
@@ -24,7 +22,8 @@ The **MailboxSmtpAddress** element represents the SMTP address of the user whose
 <MailboxSmtpAddress/>
 ```
 
- **string**
+**string**
+
 ## Attributes and elements
 
 The following sections describe attributes, child elements, and parent elements.
@@ -66,14 +65,8 @@ The schema that describes this element is located in the IIS virtual directory t
    
 ## See also
 
-
-
-[GetInboxRules operation](getinboxrules-operation.md)
-  
-[GetPasswordExpirationDate operation](getpasswordexpirationdate-operation.md)
-  
-[UpdateInboxRules operation](updateinboxrules-operation.md)
-
-
-[EWS XML elements in Exchange](ews-xml-elements-in-exchange.md)
+- [GetInboxRules operation](getinboxrules-operation.md)
+- [GetPasswordExpirationDate operation](getpasswordexpirationdate-operation.md)
+- [UpdateInboxRules operation](updateinboxrules-operation.md)
+- [EWS XML elements in Exchange](ews-xml-elements-in-exchange.md)
 

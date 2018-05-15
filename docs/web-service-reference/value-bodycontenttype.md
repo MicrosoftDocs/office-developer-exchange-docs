@@ -1,7 +1,5 @@
 ---
 title: "Value (BodyContentType)"
- 
- 
 manager: sethgros
 ms.date: 9/17/2015
 ms.audience: Developer
@@ -23,7 +21,8 @@ The **Value** element specifies the value of a **BodyContentAttributedValue** el
 </Value>
 ```
 
- **BodyContentType**
+**BodyContentType**
+
 ## Attributes and elements
 
 The following sections describe attributes, child elements, and parent elements.

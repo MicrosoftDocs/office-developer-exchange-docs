@@ -202,5 +202,5 @@ To find other options for the error response message of the CopyFolder operation
 [MoveFolder operation](movefolder-operation.md)
 
 
-[EWS XML elements in Exchange](ews-xml-elements-in-exchange.md)
+- [EWS XML elements in Exchange](ews-xml-elements-in-exchange.md)
 

@@ -76,5 +76,5 @@ This element is available in versions of Exchange starting with build 15.00.0986
 
 
 
-[EWS XML elements in Exchange](ews-xml-elements-in-exchange.md)
+- [EWS XML elements in Exchange](ews-xml-elements-in-exchange.md)
 

@@ -1,7 +1,5 @@
 ---
 title: "Mailbox (string)"
- 
- 
 manager: sethgros
 ms.date: 9/17/2015
 ms.audience: Developer
@@ -20,7 +18,8 @@ The **Mailbox** element contains an identifier for a mailbox.
 <Mailbox></Mailbox>
 ```
 
- **string**
+**string**
+
 ## Attributes and elements
 
 The following sections describe attributes, child elements, and parent elements.

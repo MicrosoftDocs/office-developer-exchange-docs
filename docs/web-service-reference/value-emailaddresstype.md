@@ -1,7 +1,5 @@
 ---
 title: "Value (EmailAddressType)"
- 
- 
 manager: sethgros
 ms.date: 9/17/2015
 ms.audience: Developer
@@ -27,7 +25,8 @@ The **Value** element specifies the value of an **EmailAddress** associated with
 </Value>
 ```
 
- **EmailAddressType**
+**EmailAddressType**
+
 ## Attributes and elements
 
 The following sections describe attributes, child elements, and parent elements.

@@ -1,7 +1,5 @@
 ---
 title: "PortalText (EncryptionConfigurationResponseType)"
- 
- 
 manager: sethgros
 ms.date: 11/16/2014
 ms.audience: Developer
@@ -15,10 +13,6 @@ description: "The PortalText (EncryptionConfigurationResponseType) element is in
 # PortalText (EncryptionConfigurationResponseType)
 
 The **PortalText (EncryptionConfigurationResponseType)** element is intended for internal use only. 
-  
-```
-
-```
 
 ## Attributes and elements
 

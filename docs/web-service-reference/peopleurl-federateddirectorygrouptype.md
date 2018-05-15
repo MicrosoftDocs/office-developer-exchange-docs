@@ -1,7 +1,5 @@
 ---
 title: "PeopleUrl (FederatedDirectoryGroupType)"
- 
- 
 manager: sethgros
 ms.date: 11/16/2014
 ms.audience: Developer
@@ -15,10 +13,6 @@ description: "The PeopleUrl (FederatedDirectoryGroupType) element is intended fo
 # PeopleUrl (FederatedDirectoryGroupType)
 
 The **PeopleUrl (FederatedDirectoryGroupType)** element is intended for internal use only. 
-  
-```
-
-```
 
 ## Attributes and elements
 

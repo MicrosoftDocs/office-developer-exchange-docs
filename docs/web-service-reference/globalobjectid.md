@@ -1,7 +1,5 @@
 ---
 title: "GlobalObjectId"
- 
- 
 manager: sethgros
 ms.date: 9/17/2015
 ms.audience: Developer
@@ -26,11 +24,12 @@ The **GlobalObjectId** element is not used.
   
 [GlobalObjectId](globalobjectid.md)
   
-```
+```xml
 <GlobalObjectId>...</GlobalObjectId>
 ```
 
- **dateTime**
+**dateTime**
+
 ## Attributes and elements
 
 The following sections describe attributes, child elements, and parent elements.
@@ -60,10 +59,6 @@ None.
    
 ## See also
 
-
-
-[GetUserAvailability operation](getuseravailability-operation.md)
-
-
-[Getting User Availability](http://msdn.microsoft.com/library/d4133fcb-9b0f-4e6b-aadf-a389da83516a%28Office.15%29.aspx)
+- [GetUserAvailability operation](getuseravailability-operation.md)
+- [Getting User Availability](http://msdn.microsoft.com/library/d4133fcb-9b0f-4e6b-aadf-a389da83516a%28Office.15%29.aspx)
 

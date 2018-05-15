@@ -1,7 +1,5 @@
 ---
 title: "JoinDate (FederatedDirectoryGroupType)"
- 
- 
 manager: sethgros
 ms.date: 11/16/2014
 ms.audience: Developer
@@ -15,10 +13,6 @@ description: "The JoinDate (FederatedDirectoryGroupType) element is intended for
 # JoinDate (FederatedDirectoryGroupType)
 
 The **JoinDate (FederatedDirectoryGroupType)** element is intended for internal use only. 
-  
-```
-
-```
 
 ## Attributes and elements
 

@@ -1,7 +1,5 @@
 ---
 title: "Start"
- 
- 
 manager: sethgros
 ms.date: 9/17/2015
 ms.audience: Developer
@@ -20,11 +18,12 @@ description: "The Start element represents the start of a duration."
 
 The **Start** element represents the start of a duration. 
   
-```
+```xml
 <Start/>
 ```
 
- **DateTime**
+**DateTime**
+
 ## Attributes and elements
 
 The following sections describe attributes, child elements, and parent elements.
@@ -72,12 +71,6 @@ The schema that describes this element is located in the EWS virtual directory o
    
 ## See also
 
-
-
-[WeeklyRecurrence](weeklyrecurrence.md)
-  
- **Start**
-
-
-[EWS XML elements in Exchange](ews-xml-elements-in-exchange.md)
+- [WeeklyRecurrence](weeklyrecurrence.md)
+- [EWS XML elements in Exchange](ews-xml-elements-in-exchange.md)
 

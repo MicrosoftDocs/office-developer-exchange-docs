@@ -1,7 +1,5 @@
 ---
 title: "ParentFolderId"
- 
- 
 manager: sethgros
 ms.date: 9/17/2015
 ms.audience: Developer
@@ -24,7 +22,8 @@ The **ParentFolderId** element represents the identifier of the parent folder th
 <ParentFolderId Id="" ChangeKey=""/>
 ```
 
- **FolderIdType**
+**FolderIdType**
+
 ## Attributes and elements
 
 The following sections describe attributes, child elements, and parent elements.
@@ -90,7 +89,5 @@ The schema that describes this element is located in the EWS virtual directory o
    
 ## See also
 
-
-
-[EWS XML elements in Exchange](ews-xml-elements-in-exchange.md)
+- [EWS XML elements in Exchange](ews-xml-elements-in-exchange.md)
 

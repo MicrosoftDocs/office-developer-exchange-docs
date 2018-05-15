@@ -1,7 +1,5 @@
 ---
 title: "EmailText (EncryptionConfigurationResponseType)"
- 
- 
 manager: sethgros
 ms.date: 11/16/2014
 ms.audience: Developer
@@ -15,10 +13,6 @@ description: "The EmailText (EncryptionConfigurationResponseType) element is int
 # EmailText (EncryptionConfigurationResponseType)
 
 The **EmailText (EncryptionConfigurationResponseType)** element is intended for internal use only. 
-  
-```
-
-```
 
 ## Attributes and elements
 

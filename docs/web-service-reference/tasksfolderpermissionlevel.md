@@ -1,7 +1,5 @@
 ---
 title: "TasksFolderPermissionLevel"
- 
- 
 manager: sethgros
 ms.date: 9/17/2015
 ms.audience: Developer
@@ -20,13 +18,14 @@ description: "The TasksFolderPermissionLevel element contains the permissions fo
 
 The **TasksFolderPermissionLevel** element contains the permissions for the default Tasks folder. This element was introduced in Microsoft Exchange Server 2007 Service Pack 1 (SP1). 
   
-```
+```xml
 <TasksFolderPermissionLevel>
    None or Editor or Reviewer or Author or Custom
 </TasksFolderPermissionLevel>
 ```
 
- **DelegateFolderPermissionLevelType**
+**DelegateFolderPermissionLevelType**
+
 ## Attributes and elements
 
 The following sections describe attributes, child elements, and parent elements.
@@ -74,15 +73,8 @@ The schema that describes this element is located in the EWS virtual directory o
    
 ## See also
 
-
-
-[AddDelegate operation](adddelegate-operation.md)
-  
-[UpdateDelegate operation](updatedelegate-operation.md)
-
-
-[EWS XML elements in Exchange](ews-xml-elements-in-exchange.md)
-
-
-[Adding Delegates](http://msdn.microsoft.com/library/3a744150-66a3-4a13-9433-793603ba5038%28Office.15%29.aspx)
+- [AddDelegate operation](adddelegate-operation.md)
+- [UpdateDelegate operation](updatedelegate-operation.md)
+- [EWS XML elements in Exchange](ews-xml-elements-in-exchange.md)
+- [Adding Delegates](http://msdn.microsoft.com/library/3a744150-66a3-4a13-9433-793603ba5038%28Office.15%29.aspx)
 

@@ -1,7 +1,5 @@
 ---
 title: "Organizer"
- 
- 
 manager: sethgros
 ms.date: 9/17/2015
 ms.audience: Developer
@@ -20,13 +18,14 @@ description: "The Organizer element represents the organizer of a meeting."
 
 The **Organizer** element represents the organizer of a meeting. 
   
-```
+```xml
 <Organizer>
    <Mailbox/>
 </Organizer>
 ```
 
- **SingleRecipientType**
+**SingleRecipientType**
+
 ## Attributes and elements
 
 The following sections describe attributes, child elements, and parent elements.
@@ -63,7 +62,5 @@ The schema that describes this element is located in the EWS virtual directory o
    
 ## See also
 
-
-
-[EWS XML elements in Exchange](ews-xml-elements-in-exchange.md)
+- [EWS XML elements in Exchange](ews-xml-elements-in-exchange.md)
 

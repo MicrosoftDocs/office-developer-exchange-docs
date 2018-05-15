@@ -1,7 +1,5 @@
 ---
 title: "GroupingAction"
- 
- 
 manager: sethgros
 ms.date: 11/16/2014
 ms.audience: Developer
@@ -15,10 +13,6 @@ description: "The GroupingAction element is intended for internal use only."
 # GroupingAction
 
 The **GroupingAction** element is intended for internal use only. 
-  
-```
-
-```
 
 ## Attributes and elements
 
