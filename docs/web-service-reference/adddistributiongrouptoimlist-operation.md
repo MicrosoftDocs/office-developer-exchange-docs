@@ -1,7 +1,5 @@
 ---
 title: "AddDistributionGroupToImList operation"
- 
- 
 manager: sethgros
 ms.date: 9/17/2015
 ms.audience: Developer
@@ -58,8 +56,7 @@ The following example of an **AddDistributionGroupToImList** operation request s
 
 The request SOAP body contains the following elements:
   
-- [AddDistributionGroupToImList](adddistributiongrouptoimlist.md)
-    
+- [AddDistributionGroupToImList](adddistributiongrouptoimlist.md)   
 - [SmtpAddress](smtpaddress.md)
     
 ## Successful AddDistributionGroupToImList operation response
@@ -146,12 +143,10 @@ The error response SOAP body contains the following elements:
     
 - [DescriptiveLinkKey](descriptivelinkkey.md)
     
-## Additonal resources
+## See also
 
-- [People and contacts in EWS in Exchange](http://msdn.microsoft.com/library/043c33be-a0d1-4bad-a840-85715eda4813%28Office.15%29.aspx)
-    
-- [AddImGroup](addimgroup-operation.md)
-    
+- [People and contacts in EWS in Exchange](http://msdn.microsoft.com/library/043c33be-a0d1-4bad-a840-85715eda4813%28Office.15%29.aspx)   
+- [AddImGroup](addimgroup-operation.md)   
 - [RemoveImGroup](removeimgroup-operation.md)
     
 

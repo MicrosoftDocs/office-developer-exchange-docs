@@ -1,7 +1,5 @@
 ---
 title: "AttachmentId (GetAttachment and DeleteAttachment)"
- 
- 
 manager: sethgros
 ms.date: 9/17/2015
 ms.audience: Developer
@@ -60,9 +58,6 @@ The schema that describes this element is located in the EWS virtual directory o
    
 ## See also
 
-
-
-[DeleteAttachment operation](deleteattachment-operation.md)
-  
-[GetAttachment operation](getattachment-operation.md)
+- [DeleteAttachment operation](deleteattachment-operation.md)
+- [GetAttachment operation](getattachment-operation.md)
 

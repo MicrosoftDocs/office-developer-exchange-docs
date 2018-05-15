@@ -1,7 +1,5 @@
 ---
 title: "AssignCategories"
- 
- 
 manager: sethgros
 ms.date: 9/17/2015
 ms.audience: Developer
@@ -20,9 +18,9 @@ description: "The AssignCategories element represents the categories that are st
 
 The **AssignCategories** element represents the categories that are stamped on e-mail messages. 
   
-[Rule (RuleType)](rule-ruletype.md)
+- [Rule (RuleType)](rule-ruletype.md)
   
-[Actions](actions.md)
+- [Actions](actions.md)
   
 ```XML
 <AssignCategories>
@@ -69,8 +67,6 @@ The schema that describes this element is located in the IIS virtual directory t
 |Can be Empty  <br/> |True  <br/> |
    
 ## See also
-
-
 
 - [EWS XML elements in Exchange](ews-xml-elements-in-exchange.md)
 

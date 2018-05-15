@@ -1,7 +1,5 @@
 ---
 title: "AlternateId"
- 
- 
 manager: sethgros
 ms.date: 9/17/2015
 ms.audience: Developer
@@ -38,7 +36,7 @@ The following sections describe attributes, child elements, and parent elements.
 |Mailbox  <br/> |Describes the mailbox primary Simple Mail Transfer Protocol (SMTP) address that contains the identifiers to translate.  <br/> |
 |IsArchive  <br/> |Indicates whether the identifier represents an archived item or folder. A value of **true** indicates that the identifier represents an archived item or folder. This attribute is optional.  <br/> |
    
-#### Format Attribute Values
+#### Format attribute values
 
 |**Value**|**Description**|
 |:-----|:-----|
@@ -81,13 +79,7 @@ The schema that describes this element is located in the IIS virtual directory t
    
 ## See also
 
-
-
-[ConvertId operation](convertid-operation.md)
-
-
+- [ConvertId operation](convertid-operation.md)
 - [EWS XML elements in Exchange](ews-xml-elements-in-exchange.md)
-
-
-[Converting Identifiers](http://msdn.microsoft.com/library/a5391746-b6ef-4f48-8fc8-8255258651aa%28Office.15%29.aspx)
+- [Converting Identifiers](http://msdn.microsoft.com/library/a5391746-b6ef-4f48-8fc8-8255258651aa%28Office.15%29.aspx)
 

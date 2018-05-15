@@ -1,7 +1,5 @@
 ---
 title: "AttachmentShape"
- 
- 
 manager: sethgros
 ms.date: 9/17/2015
 ms.audience: Developer
@@ -20,9 +18,9 @@ description: "The AttachmentShape element identifies additional properties to re
 
 The **AttachmentShape** element identifies additional properties to return in a response to a [GetAttachment](getattachment.md) request. 
   
-[GetAttachment](getattachment.md)
+- [GetAttachment](getattachment.md)
   
-[AttachmentShape](attachmentshape.md)
+- [AttachmentShape](attachmentshape.md)
   
 ```xml
 <AttachmentShape>
@@ -76,10 +74,6 @@ The schema that describes this element is located in the IIS virtual directory t
    
 ## See also
 
-
-
-[GetAttachment operation](getattachment-operation.md)
-
-
+- [GetAttachment operation](getattachment-operation.md)
 - [EWS XML elements in Exchange](ews-xml-elements-in-exchange.md)
 

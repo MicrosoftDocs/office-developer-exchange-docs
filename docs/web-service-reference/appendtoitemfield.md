@@ -1,7 +1,5 @@
 ---
 title: "AppendToItemField"
- 
- 
 manager: sethgros
 ms.date: 9/17/2015
 ms.audience: Developer
@@ -20,15 +18,15 @@ description: "The AppendToItemField element identifies data to append to a singl
 
 The **AppendToItemField** element identifies data to append to a single property of an item during an [UpdateItem operation](updateitem-operation.md).
   
-[UpdateItem](updateitem.md)
+- [UpdateItem](updateitem.md)
   
-[ItemChanges](itemchanges.md)
+- [ItemChanges](itemchanges.md)
   
-[ItemChange](itemchange.md)
+- [ItemChange](itemchange.md)
   
-[Updates (Item)](updates-item.md)
+- [Updates (Item)](updates-item.md)
   
-[AppendToItemField](appendtoitemfield.md)
+- [AppendToItemField](appendtoitemfield.md)
   
 ```xml
 <AppendToItemField>
@@ -92,10 +90,6 @@ The schema that describes this element is located in the EWS virtual directory o
    
 ## See also
 
-
-
-[UpdateItem operation](updateitem-operation.md)
-
-
+- [UpdateItem operation](updateitem-operation.md)
 - [EWS XML elements in Exchange](ews-xml-elements-in-exchange.md)
 

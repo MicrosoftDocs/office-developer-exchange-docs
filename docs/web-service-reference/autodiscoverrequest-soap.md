@@ -9,8 +9,6 @@ api_type:
 - schema
 ms.assetid: 3e403e81-290b-42f6-9e79-15135fc58c4b
 description: "The AutodiscoverRequest element represents the base element for all Autodiscover requests."
- 
- 
 ---
 
 # AutodiscoverRequest (SOAP)

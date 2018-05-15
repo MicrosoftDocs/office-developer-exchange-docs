@@ -1,7 +1,5 @@
 ---
 title: "AddEntityFeedback operation"
- 
- 
 manager: luken
 ms.date: 4/18/2016
 ms.audience: ITPro
@@ -18,7 +16,7 @@ The **AddEntityFeedback** operation returns error information corresponding to s
   
 This operation relies on the type of event being logged. One of the most important events is **EntityAdded**, which corresponds to an entity being selected. This operation is batch, so it can be used to log batches of entries in a single request. 
   
-## FindPeople Request Examples
+## FindPeople request examples
 
 The **AddEntityFeedback** operation provides a way for clients to log details of interaction with entities returned by the service. This can be used as a signal to improve relevance behind the scenes for each client. E.g., Clients can use this operation to provide feedback on people entities returned from **FindPeople**.
   
@@ -73,7 +71,7 @@ The soap request contains a single element **EntityFeedbackEntries**. This in tu
 |**TargetEntityList** <br/> |No  <br/> |List of entities associated with the event.  <br/> |JSON String  <br/> |
 |**TransactionId** <br/> |No  <br/> |ID (GUID) correlating the ID in query logs.  <br/> |String  <br/> |
    
-### Successful AddEntityFeedback Operation Response
+### Successful AddEntityFeedback operation response
 
 ```XML
 <?xml version="1.0" encoding="utf-8"?>
@@ -104,15 +102,15 @@ The soap request contains a single element **EntityFeedbackEntries**. This in tu
 
 ### The response SOAP body contains the following elements
 
-Errors 
+#### Errors 
   
-> The API can log a batch of feedback entries, we log all that we can. This field represents the number of error entries that were not logged.
+The API can log a batch of feedback entries, we log all that we can. This field represents the number of error entries that were not logged.
     
-ErrorDetails
+#### ErrorDetails
   
-> Details pertaining to the errors above separates by ";"
+Details pertaining to the errors above separates by `;`.
     
-### Currently Supported Values
+### Currently supported values
 
 |**ClientIdType Enumeration**|
 |:-----|
@@ -148,7 +146,7 @@ For error codes that are generic to EWS, see [ResponseCode](responsecode.md).
   
 ### Example of AddEntityFeedback in conjunction with FindPeople
 
-FindPeople Request
+#### FindPeople request
   
 ```XML
 <?xml version="1.0" encoding="UTF-8"?>
@@ -169,7 +167,7 @@ FindPeople Request
 	
 ```
 
-### FindPeople Response
+#### FindPeople response
 
 ```XML
 <?xml version="1.0" encoding="utf-8"?>
@@ -199,7 +197,7 @@ FindPeople Request
 
 ```
 
-### AddEntityFeedback Request
+#### AddEntityFeedback request
 
 ```XML
 <?xml version="1.0" encoding="UTF-8"?>
@@ -234,7 +232,7 @@ FindPeople Request
 > [!NOTE]
 > Using FindPeople response transaction ID as the AddEntityFeedback request transaction ID. 
   
-### AddEntityFeedback Response
+#### AddEntityFeedback response
 
 ```XML
 <?xml version="1.0" encoding="utf-8"?>

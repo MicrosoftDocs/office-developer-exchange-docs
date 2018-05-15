@@ -9,15 +9,13 @@ api_type:
 - schema
 ms.assetid: 203a5ac3-ebd0-4514-acbe-bc1c74638127
 description: "The AutodiscoverResponse (SOAP) element represents the base element for all responses that are returned by the Autodiscover service."
- 
- 
 ---
 
 # AutodiscoverResponse (SOAP)
 
 The **AutodiscoverResponse (SOAP)** element represents the base element for all responses that are returned by the Autodiscover service. 
   
-[AutodiscoverResponse (SOAP)](autodiscoverresponse-soap.md)
+- [AutodiscoverResponse (SOAP)](autodiscoverresponse-soap.md)
   
 ```XML
 <AutodiscoverResponse>
@@ -64,11 +62,7 @@ None.
    
 ## See also
 
-
-
-[GetUserSettings operation (SOAP)](getusersettings-operation-soap.md)
-  
-[GetFederationInformation operation (SOAP)](getfederationinformation-operation-soap.md)
-  
-[GetDomainSettings operation (SOAP)](getdomainsettings-operation-soap.md)
+- [GetUserSettings operation (SOAP)](getusersettings-operation-soap.md)
+- [GetFederationInformation operation (SOAP)](getfederationinformation-operation-soap.md)
+- [GetDomainSettings operation (SOAP)](getdomainsettings-operation-soap.md)
 

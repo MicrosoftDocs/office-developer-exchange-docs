@@ -1,7 +1,5 @@
 ---
 title: "AggregateOn"
- 
- 
 manager: sethgros
 ms.date: 9/17/2015
 ms.audience: Developer
@@ -20,11 +18,11 @@ description: "The AggregateOn element represents the property that is used to de
 
 The **AggregateOn** element represents the property that is used to determine the order of grouped items for a grouped FindItem result set. 
   
-[FindItem](finditem.md)
+- [FindItem](finditem.md)
   
-[GroupBy](groupby.md)
+- [GroupBy](groupby.md)
   
-[AggregateOn](aggregateon.md)
+- [AggregateOn](aggregateon.md)
   
 ```xml
 <AggregateOn>
@@ -189,13 +187,7 @@ To sort the items in a group, use the [SortOrder](sortorder.md) element.
    
 ## See also
 
-
-
-[FindItem operation](finditem-operation.md)
-
-
+- [FindItem operation](finditem-operation.md)
 - [EWS XML elements in Exchange](ews-xml-elements-in-exchange.md)
-
-
-[Finding Items](http://msdn.microsoft.com/library/63af1f9c-464b-4fca-9ae3-3d60f24ca93c%28Office.15%29.aspx)
+- [Finding Items](http://msdn.microsoft.com/library/63af1f9c-464b-4fca-9ae3-3d60f24ca93c%28Office.15%29.aspx)
 

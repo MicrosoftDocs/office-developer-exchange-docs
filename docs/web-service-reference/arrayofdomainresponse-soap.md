@@ -9,8 +9,6 @@ api_type:
 - schema
 ms.assetid: 6dbd9221-e019-4981-bcdb-ea370331f407
 description: "The ArrayOfDomainResponse element contains an array of responses for each requested domain's settings."
- 
- 
 ---
 
 # ArrayOfDomainResponse (SOAP)
@@ -57,7 +55,5 @@ None.
    
 ## See also
 
-
-
-[GetDomainSettings operation (SOAP)](getdomainsettings-operation-soap.md)
+- [GetDomainSettings operation (SOAP)](getdomainsettings-operation-soap.md)
 

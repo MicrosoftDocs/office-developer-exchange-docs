@@ -9,15 +9,13 @@ api_type:
 - schema
 ms.assetid: 611fcf5f-780a-42ea-bccb-9462a2f0c095
 description: "The AutoDiscover element is the root element in an Autodiscover request or response."
- 
- 
 ---
 
 # AutoDiscover (POX)
 
 The **AutoDiscover** element is the root element in an Autodiscover request or response. 
   
-[AutoDiscover (POX)](autodiscover-pox.md)
+- [AutoDiscover (POX)](autodiscover-pox.md)
   
 ```xml
 <Autodiscover>
@@ -46,7 +44,5 @@ None.
   
 ## See also
 
-
-
-[POX Autodiscover XML elements for Exchange](pox-autodiscover-xml-elements-for-exchange.md)
+- [POX Autodiscover XML elements for Exchange](pox-autodiscover-xml-elements-for-exchange.md)
 

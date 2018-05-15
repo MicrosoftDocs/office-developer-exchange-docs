@@ -7,21 +7,19 @@ ms.topic: reference
 localization_priority: Normal
 ms.assetid: 7763d11a-b338-4a02-8a01-938859c05dfb
 description: "The AutoDiscoverSMTPAddress element contains the user's SMTP address that is used for the Autodiscover process."
- 
- 
 ---
 
 # AutoDiscoverSMTPAddress (POX)
 
 The **AutoDiscoverSMTPAddress** element contains the user's SMTP address that is used for the Autodiscover process. 
   
-[AutoDiscover (POX)](autodiscover-pox.md)
+- [AutoDiscover (POX)](autodiscover-pox.md)
   
-[Response (POX)](response-pox.md)
+- [Response (POX)](response-pox.md)
   
-[User (POX)](user-pox.md)
+- [User (POX)](user-pox.md)
   
-[AutoDiscoverSMTPAddress (POX)](autodiscoversmtpaddress-pox.md)
+- [AutoDiscoverSMTPAddress (POX)](autodiscoversmtpaddress-pox.md)
   
 ```XML
 <AutoDiscoverSMTPAddress/>
@@ -55,7 +53,5 @@ The **AutoDiscoverSMTPAddress** element is an optional child element of the **Us
   
 ## See also
 
-
-
-[POX Autodiscover XML elements for Exchange](pox-autodiscover-xml-elements-for-exchange.md)
+- [POX Autodiscover XML elements for Exchange](pox-autodiscover-xml-elements-for-exchange.md)
 

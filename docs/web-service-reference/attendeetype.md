@@ -1,7 +1,5 @@
 ---
 title: "AttendeeType"
- 
- 
 manager: sethgros
 ms.date: 9/17/2015
 ms.audience: Developer
@@ -20,13 +18,13 @@ description: "The AttendeeType element represents the type of attendee that is i
 
 The **AttendeeType** element represents the type of attendee that is identified in the [Email (EmailAddressType)](email-emailaddresstype.md) element. This element is used in requests for meeting suggestions. 
   
-[GetUserAvailabilityRequest](getuseravailabilityrequest.md)
+- [GetUserAvailabilityRequest](getuseravailabilityrequest.md)
   
-[MailboxDataArray](mailboxdataarray.md)
+- [MailboxDataArray](mailboxdataarray.md)
   
-[MailboxData](mailboxdata.md)
+- [MailboxData](mailboxdata.md)
   
-[AttendeeType](attendeetype.md)
+- [AttendeeType](attendeetype.md)
   
 ```xml
 <AttendeeType>Organizer or Required or Optional or Room or Resource</AttendeeType>
@@ -81,12 +79,7 @@ This element is a required child element of the [MailboxData](mailboxdata.md) el
    
 ## See also
 
-
-
-[GetUserAvailability operation](getuseravailability-operation.md)
-  
-[GetUserAvailabilityRequest](getuseravailabilityrequest.md)
-
-
-[Getting User Availability](http://msdn.microsoft.com/library/d4133fcb-9b0f-4e6b-aadf-a389da83516a%28Office.15%29.aspx)
+- [GetUserAvailability operation](getuseravailability-operation.md)
+- [GetUserAvailabilityRequest](getuseravailabilityrequest.md)
+- [Getting User Availability](http://msdn.microsoft.com/library/d4133fcb-9b0f-4e6b-aadf-a389da83516a%28Office.15%29.aspx)
 

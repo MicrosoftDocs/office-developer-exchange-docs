@@ -1,7 +1,5 @@
 ---
 title: "ApplyConversationActionResponseMessage"
- 
- 
 manager: sethgros
 ms.date: 9/17/2015
 ms.audience: Developer
@@ -20,11 +18,11 @@ description: "The ApplyConversationActionResponseMessage element contains the st
 
 The **ApplyConversationActionResponseMessage** element contains the status and results of an [ApplyConversationAction operation](applyconversationaction-operation.md) request. 
   
-[ApplyConversationActionResponse](applyconversationactionresponse.md)
+- [ApplyConversationActionResponse](applyconversationactionresponse.md)
   
-[ResponseMessages](responsemessages.md)
+- [ResponseMessages](responsemessages.md)
   
-[ApplyConversationActionResponseMessage](applyconversationactionresponsemessage.md)
+- [ApplyConversationActionResponseMessage](applyconversationactionresponsemessage.md)
   
 ```XML
 <ApplyConversationActionResponseMessage ResponseClass="">
@@ -46,7 +44,7 @@ The following sections describe attributes, child elements, and parent elements.
 |:-----|:-----|
 |**ResponseClass** <br/> | Describes the status of the response. The following values are valid for this attribute:  <br/>  Success  <br/>  Warning  <br/>  Error  <br/> |
    
-#### ResponseClass Attribute Values
+#### ResponseClass attribute values
 
 |**Value**|**Description**|
 |:-----|:-----|
@@ -92,10 +90,6 @@ In versions of Exchange starting with build 15.00.0986.00, the **ApplyConversati
    
 ## See also
 
-
-
-[ApplyConversationAction operation](applyconversationaction-operation.md)
-
-
+- [ApplyConversationAction operation](applyconversationaction-operation.md)
 - [EWS XML elements in Exchange](ews-xml-elements-in-exchange.md)
 

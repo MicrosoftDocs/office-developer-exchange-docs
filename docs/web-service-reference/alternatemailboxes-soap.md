@@ -9,8 +9,6 @@ api_type:
 - schema
 ms.assetid: 9a0859c5-fa23-4496-9b63-15c97818f857
 description: "The AlternateMailboxes element represents a collection of alternate mailboxes."
- 
- 
 ---
 
 # AlternateMailboxes (SOAP)

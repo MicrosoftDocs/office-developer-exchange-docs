@@ -1,7 +1,5 @@
 ---
 title: "Address (string)"
- 
- 
 manager: sethgros
 ms.date: 9/17/2015
 ms.audience: Developer
@@ -66,20 +64,11 @@ This element can occur at most one time in the [Email (EmailAddressType)](email-
    
 ## See also
 
-
-
-[GetUserAvailability operation](getuseravailability-operation.md)
-  
-[GetUserOofSettings operation](getuseroofsettings-operation.md)
-  
-[SetUserOofSettings operation](setuseroofsettings-operation.md)
-  
-[GetUserAvailabilityRequest](getuseravailabilityrequest.md)
-  
-[GetUserOofSettingsRequest](getuseroofsettingsrequest.md)
-  
-[SetUserOofSettingsRequest](setuseroofsettingsrequest.md)
-
-
-[Getting User Availability](http://msdn.microsoft.com/library/d4133fcb-9b0f-4e6b-aadf-a389da83516a%28Office.15%29.aspx)
+- [GetUserAvailability operation](getuseravailability-operation.md)
+- [GetUserOofSettings operation](getuseroofsettings-operation.md)
+- [SetUserOofSettings operation](setuseroofsettings-operation.md)
+- [GetUserAvailabilityRequest](getuseravailabilityrequest.md)
+- [GetUserOofSettingsRequest](getuseroofsettingsrequest.md)
+- [SetUserOofSettingsRequest](setuseroofsettingsrequest.md)
+- [Getting User Availability](http://msdn.microsoft.com/library/d4133fcb-9b0f-4e6b-aadf-a389da83516a%28Office.15%29.aspx)
 

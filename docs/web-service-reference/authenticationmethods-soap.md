@@ -53,7 +53,5 @@ The text value of the **AuthenticationMethods** element is the URL of the Outloo
    
 ## See also
 
-
-
-[GetUserSettings operation (SOAP)](getusersettings-operation-soap.md)
+- [GetUserSettings operation (SOAP)](getusersettings-operation-soap.md)
 

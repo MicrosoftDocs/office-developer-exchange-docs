@@ -1,7 +1,5 @@
 ---
 title: "ApplyConversationActionResponse"
- 
- 
 manager: sethgros
 ms.date: 9/17/2015
 ms.audience: Developer
@@ -66,10 +64,6 @@ This element was introduced in Exchange Server 2010 Service Pack 1 (SP1).
    
 ## See also
 
-
-
-[ApplyConversationAction operation](applyconversationaction-operation.md)
-
-
+- [ApplyConversationAction operation](applyconversationaction-operation.md)
 - [EWS XML elements in Exchange](ews-xml-elements-in-exchange.md)
 

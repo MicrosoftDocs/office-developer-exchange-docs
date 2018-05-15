@@ -1,7 +1,5 @@
 ---
 title: "ApiVersionSupported"
- 
- 
 manager: sethgros
 ms.date: 3/9/2015
 ms.audience: Developer
@@ -56,10 +54,6 @@ This element was introduced in Exchange Server 2013 Service Pack 1 (SP1).
    
 ## See also
 
-
-
-[GetAppManifests](getappmanifests.md)
-
-
+- [GetAppManifests](getappmanifests.md)
 - [EWS XML elements in Exchange](ews-xml-elements-in-exchange.md)
 

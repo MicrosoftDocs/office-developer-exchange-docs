@@ -9,8 +9,6 @@ api_type:
 - schema
 ms.assetid: 02a213ac-ceb3-456c-8347-f1dbddf64d4f
 description: "The ApplicationUri element defines the location of an application."
- 
- 
 ---
 
 # ApplicationUri (SOAP)
@@ -55,7 +53,5 @@ The text value represents the URI of the application.
    
 ## See also
 
-
-
-[GetFederationInformation operation (SOAP)](getfederationinformation-operation-soap.md)
+- [GetFederationInformation operation (SOAP)](getfederationinformation-operation-soap.md)
 

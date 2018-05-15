@@ -1,7 +1,5 @@
 ---
 title: "ApplyConversationAction"
- 
- 
 manager: sethgros
 ms.date: 9/17/2015
 ms.audience: Developer
@@ -66,10 +64,6 @@ The schema that describes this element is located in the IIS virtual directory t
    
 ## See also
 
-
-
-[ApplyConversationAction operation](applyconversationaction-operation.md)
-
-
+- [ApplyConversationAction operation](applyconversationaction-operation.md)
 - [EWS XML elements in Exchange](ews-xml-elements-in-exchange.md)
 

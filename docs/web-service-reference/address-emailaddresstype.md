@@ -1,7 +1,5 @@
 ---
 title: "Address (EmailAddressType)"
- 
- 
 manager: sethgros
 ms.date: 9/17/2015
 ms.audience: Developer
@@ -76,12 +74,7 @@ The schema that describes this element is located in the IIS virtual directory t
    
 ## See also
 
-
-
-[GetMessageTrackingReport operation](getmessagetrackingreport-operation.md)
-  
-[GetRoomLists operation](getroomlists-operation.md)
-
-
+- [GetMessageTrackingReport operation](getmessagetrackingreport-operation.md) 
+- [GetRoomLists operation](getroomlists-operation.md)
 - [EWS XML elements in Exchange](ews-xml-elements-in-exchange.md)
 

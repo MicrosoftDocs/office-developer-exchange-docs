@@ -1,7 +1,5 @@
 ---
 title: "AlternatePublicFolderItemId"
- 
- 
 manager: sethgros
 ms.date: 9/17/2015
 ms.audience: Developer
@@ -20,11 +18,11 @@ description: "The AlternatePublicFolderItemId element describes a public folder 
 
 The **AlternatePublicFolderItemId** element describes a public folder item identifier to convert to another identifier format. This element was introduced in Microsoft Exchange Server 2007 Service Pack 1 (SP1). 
   
-[ConvertId](convertid.md)
+- [ConvertId](convertid.md)
   
-[SourceIds](sourceids.md)
+- [SourceIds](sourceids.md)
   
-[AlternatePublicFolderItemId](alternatepublicfolderitemid.md)
+- [AlternatePublicFolderItemId](alternatepublicfolderitemid.md)
   
 ```xml
 <AlternatePublicFolderItemId FolderId="" Format="" ItemId=""/>
@@ -43,7 +41,7 @@ The following sections describe attributes, child elements, and parent elements.
 |Format  <br/> |Identifies the format that describes the public folder item identifier to convert. This attribute is required.  <br/> |
 |ItemId  <br/> |Identifier the public folder item to convert. This attribute is required.  <br/> |
    
-#### Format Attribute Values
+#### Format attribute values
 
 |**Value**|**Description**|
 |:-----|:-----|
@@ -79,13 +77,7 @@ The schema that describes this element is located in the EWS virtual directory o
    
 ## See also
 
-
-
-[ConvertId operation](convertid-operation.md)
-
-
+- [ConvertId operation](convertid-operation.md)
 - [EWS XML elements in Exchange](ews-xml-elements-in-exchange.md)
-
-
-[Converting Identifiers](http://msdn.microsoft.com/library/a5391746-b6ef-4f48-8fc8-8255258651aa%28Office.15%29.aspx)
+- [Converting Identifiers](http://msdn.microsoft.com/library/a5391746-b6ef-4f48-8fc8-8255258651aa%28Office.15%29.aspx)
 

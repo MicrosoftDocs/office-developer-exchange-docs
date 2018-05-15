@@ -1,7 +1,5 @@
 ---
 title: "AddNewTelUriContactToGroupResponse"
- 
- 
 manager: sethgros
 ms.date: 9/17/2015
 ms.audience: Developer
@@ -59,10 +57,6 @@ The schema that describes this element is located in the IIS virtual directory t
    
 ## See also
 
-
-
-[AddNewTelUriContactToGroup operation](addnewteluricontacttogroup-operation.md)
-
-
+- [AddNewTelUriContactToGroup operation](addnewteluricontacttogroup-operation.md)
 - [EWS XML elements in Exchange](ews-xml-elements-in-exchange.md)
 

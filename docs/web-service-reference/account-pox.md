@@ -9,19 +9,17 @@ api_type:
 - schema
 ms.assetid: 488fdbdc-e9d9-4301-91ab-e22eb42e549e
 description: "The Account element specifies account settings for the user or contains error responses."
- 
- 
 ---
 
 # Account (POX)
 
 The **Account** element specifies account settings for the user or contains error responses. 
   
-[AutoDiscover (POX)](autodiscover-pox.md)
+- [AutoDiscover (POX)](autodiscover-pox.md)
   
-[Response (POX)](response-pox.md)
+- [Response (POX)](response-pox.md)
   
-[Account (POX)](account-pox.md)
+- [Account (POX)](account-pox.md)
   
 ```XML
 <Account>
@@ -68,7 +66,5 @@ None.
    
 ## See also
 
-
-
-[POX Autodiscover XML elements for Exchange](pox-autodiscover-xml-elements-for-exchange.md)
+- [POX Autodiscover XML elements for Exchange](pox-autodiscover-xml-elements-for-exchange.md)
 

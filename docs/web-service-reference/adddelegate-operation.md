@@ -1,7 +1,5 @@
 ---
 title: "AddDelegate operation"
- 
- 
 manager: sethgros
 ms.date: 9/17/2015
 ms.audience: Developer
@@ -20,7 +18,7 @@ description: "The AddDelegate operation adds one or more delegates to a principa
 
 The **AddDelegate** operation adds one or more delegates to a principal's mailbox and sets specific access permissions. 
   
-## SOAP Headers
+## SOAP headers
 
 The **AddDelegate** operation can use the SOAP headers that are listed and described in the following table. 
   
@@ -31,7 +29,7 @@ The **AddDelegate** operation can use the SOAP headers that are listed and descr
 |RequestVersion  <br/> |[RequestServerVersion](requestserverversion.md) <br/> |Identifies the schema version for the operation request.  <br/> |
 |ServerVersion  <br/> |[ServerVersionInfo](serverversioninfo.md) <br/> |Identifies the version of the server that responded to the request.  <br/> |
    
-## AddDelegate Request Example
+## AddDelegate request example
 
 ### Description
 
@@ -70,7 +68,7 @@ The following example of an **AddDelegate** request shows an attempt to give use
 </soap:Envelope>
 ```
 
-## AddDelegate Response Example
+## AddDelegate response example
 
 ### Description
 
@@ -115,7 +113,7 @@ The following example of an **AddDelegate** response shows a successful response
 </soap:Envelope>
 ```
 
-## AddDelegate Error Response Example
+## AddDelegate error response example
 
 ### Description
 
@@ -159,7 +157,5 @@ If the ErrorDelegateAlreadyExists response code is returned when you try to add 
   
 ## See also
 
-
-
-[Adding Delegates](http://msdn.microsoft.com/library/3a744150-66a3-4a13-9433-793603ba5038%28Office.15%29.aspx)
+- [Adding Delegates](http://msdn.microsoft.com/library/3a744150-66a3-4a13-9433-793603ba5038%28Office.15%29.aspx)
 

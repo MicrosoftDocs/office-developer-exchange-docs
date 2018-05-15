@@ -9,8 +9,6 @@ api_type:
 - schema
 ms.assetid: d913a70d-5a85-4b6e-becc-2fb9334b6088
 description: "The AlternateMailbox element represents an alternate mailbox."
- 
- 
 ---
 
 # AlternateMailbox (SOAP)
@@ -67,7 +65,5 @@ None.
    
 ## See also
 
-
-
-[AlternateMailboxCollectionSetting (SOAP)](alternatemailboxcollectionsetting-soap.md)
+- [AlternateMailboxCollectionSetting (SOAP)](alternatemailboxcollectionsetting-soap.md)
 

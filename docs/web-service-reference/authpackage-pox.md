@@ -9,23 +9,21 @@ api_type:
 - schema
 ms.assetid: 709dbe53-6141-41f8-a2b9-a399bae47991
 description: "The AuthPackage element specifies the authentication scheme that is used when authenticating against the Exchange server that has the Mailbox server role installed."
- 
- 
 ---
 
 # AuthPackage (POX)
 
 The **AuthPackage** element specifies the authentication scheme that is used when authenticating against the Exchange server that has the Mailbox server role installed. 
   
-[AutoDiscover (POX)](autodiscover-pox.md)
+- [AutoDiscover (POX)](autodiscover-pox.md)
   
-[Response (POX)](response-pox.md)
+- [Response (POX)](response-pox.md)
   
-[Account (POX)](account-pox.md)
+- [Account (POX)](account-pox.md)
   
-[Protocol (POX)](protocol-pox.md)
+- [Protocol (POX)](protocol-pox.md)
   
-[AuthPackage (POX)](authpackage-pox.md)
+- [AuthPackage (POX)](authpackage-pox.md)
   
 ```xml
 <AuthPackage>basic or kerb or kerbntlm or ntlm or certificate or negotiate or nego2</AuthPackage>
@@ -54,17 +52,11 @@ None.
 The text value specifies the authentication scheme that is used when authenticating against the Mailbox server. The following are the possible values:
   
 - basic
-    
 - kerb
-    
 - kerbntlm
-    
 - ntlm
-    
 - certificate
-    
 - negotiate
-    
 - nego2
     
 ## Remarks
@@ -77,7 +69,5 @@ Office 365, Exchange Online, and on-premises versions of Exchange starting with 
   
 ## See also
 
-
-
-[POX Autodiscover XML elements for Exchange](pox-autodiscover-xml-elements-for-exchange.md)
+- [POX Autodiscover XML elements for Exchange](pox-autodiscover-xml-elements-for-exchange.md)
 

@@ -9,8 +9,6 @@ api_type:
 - schema
 ms.assetid: 3e5cf65c-8d0b-4fd9-8207-56c07f914acd
 description: "The ArrayOfUserResponse element contains an array of UserResponse (SOAP) elements."
- 
- 
 ---
 
 # ArrayOfUserResponse (SOAP)
@@ -57,7 +55,5 @@ None.
    
 ## See also
 
-
-
-[GetUserSettings operation (SOAP)](getusersettings-operation-soap.md)
+- [GetUserSettings operation (SOAP)](getusersettings-operation-soap.md)
 

@@ -9,21 +9,19 @@ api_type:
 - schema
 ms.assetid: 1e87e78e-d143-4abc-b753-386500d227a5
 description: "The AccountType element represents the account type."
- 
- 
 ---
 
 # AccountType (POX)
 
 The **AccountType** element represents the account type. 
   
-[AutoDiscover (POX)](autodiscover-pox.md)
+- [AutoDiscover (POX)](autodiscover-pox.md)
   
-[Response (POX)](response-pox.md)
+- [Response (POX)](response-pox.md)
   
-[Account (POX)](account-pox.md)
+- [Account (POX)](account-pox.md)
   
-[AccountType (POX)](accounttype-pox.md)
+- [AccountType (POX)](accounttype-pox.md)
   
 ```xml
 <AccountType>email</AccountType>
@@ -53,7 +51,5 @@ The text value represents the account type. The possible value is **email**, whi
   
 ## See also
 
-
-
-[POX Autodiscover XML elements for Exchange](pox-autodiscover-xml-elements-for-exchange.md)
+- [POX Autodiscover XML elements for Exchange](pox-autodiscover-xml-elements-for-exchange.md)
 

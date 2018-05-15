@@ -1,7 +1,5 @@
 ---
 title: "AllowExternalOof"
- 
- 
 manager: sethgros
 ms.date: 9/17/2015
 ms.audience: Developer
@@ -20,9 +18,9 @@ description: "The AllowExternalOof element contains a value that identifies to w
 
 The **AllowExternalOof** element contains a value that identifies to whom external Out of Office (OOF) messages are sent. 
   
-[GetUserOofSettingsResponse](getuseroofsettingsresponse.md)
+- [GetUserOofSettingsResponse](getuseroofsettingsresponse.md)
   
-[AllowExternalOof](allowexternaloof.md)
+- [AllowExternalOof](allowexternaloof.md)
   
 ```xml
 <AllowExternalOof>None or Known or All</AllowExternalOof>
@@ -74,9 +72,6 @@ The schema that describes this element is located in the EWS virtual directory o
    
 ## See also
 
-
-
-[GetUserOofSettings operation](getuseroofsettings-operation.md)
-  
-[SetUserOofSettings operation](setuseroofsettings-operation.md)
+- [GetUserOofSettings operation](getuseroofsettings-operation.md) 
+- [SetUserOofSettings operation](setuseroofsettings-operation.md)
 

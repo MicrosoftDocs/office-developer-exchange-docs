@@ -9,21 +9,19 @@ api_type:
 - schema
 ms.assetid: a3462c6b-453c-462a-830d-f29ee4a2babb
 description: "The Action element provides information that is used to determine whether another Autodiscover request is required to return the user configuration information."
- 
- 
 ---
 
 # Action (POX)
 
 The **Action** element provides information that is used to determine whether another Autodiscover request is required to return the user configuration information. 
   
-[AutoDiscover (POX)](autodiscover-pox.md)
+- [AutoDiscover (POX)](autodiscover-pox.md)
   
-[Response (POX)](response-pox.md)
+- [Response (POX)](response-pox.md)
   
-[Account (POX)](account-pox.md)
+- [Account (POX)](account-pox.md)
   
-[Action (POX)](action-pox.md)
+- [Action (POX)](action-pox.md)
   
 ```xml
 <Action>redirectUrl or redirectAddr or settings</Action>
@@ -59,7 +57,5 @@ The text value represents whether another Autodiscover request is necessary to r
    
 ## See also
 
-
-
-[POX Autodiscover XML elements for Exchange](pox-autodiscover-xml-elements-for-exchange.md)
+- [POX Autodiscover XML elements for Exchange](pox-autodiscover-xml-elements-for-exchange.md)
 

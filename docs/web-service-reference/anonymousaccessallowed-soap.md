@@ -7,8 +7,6 @@ ms.topic: reference
 localization_priority: Normal
 ms.assetid: bf819a65-30f2-4881-a34f-cb30a9c2b6a7
 description: "The AnonymousAccessAllowed element indicates whether a document sharing location requires an authenticated user."
- 
- 
 ---
 
 # AnonymousAccessAllowed (SOAP)
@@ -53,12 +51,7 @@ The Boolean value of the **AnonymousAccessAllowed** element indicates whether th
    
 ## See also
 
-
-
-[GetUserSettings operation (SOAP)](getusersettings-operation-soap.md)
-
-
-[Autodiscover web service reference for Exchange](autodiscover-web-service-reference-for-exchange.md)
-  
-[SOAP Autodiscover XML elements for Exchange 2013](soap-autodiscover-xml-elements-for-exchange-2013.md)
+- [GetUserSettings operation (SOAP)](getusersettings-operation-soap.md)
+- [Autodiscover web service reference for Exchange](autodiscover-web-service-reference-for-exchange.md)
+- [SOAP Autodiscover XML elements for Exchange 2013](soap-autodiscover-xml-elements-for-exchange-2013.md)
 

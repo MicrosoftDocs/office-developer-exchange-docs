@@ -1,7 +1,5 @@
 ---
 title: "Action (ConversationActionTypeType)"
- 
- 
 manager: sethgros
 ms.date: 9/17/2015
 ms.audience: Developer
@@ -20,13 +18,13 @@ description: "The Action element contains the action to perform on the conversat
 
 The **Action** element contains the action to perform on the conversation specified by the [ConversationId](conversationid.md) element. 
   
-[ApplyConversationAction](applyconversationaction.md)
+- [ApplyConversationAction](applyconversationaction.md)
   
-[ConversationActions](conversationactions.md)
+- [ConversationActions](conversationactions.md)
   
-[ConversationAction](conversationaction.md)
+- [ConversationAction](conversationaction.md)
   
-[Action (ConversationActionTypeType)](action-conversationactiontypetype.md)
+- [Action (ConversationActionTypeType)](action-conversationactiontypetype.md)
   
 ```XML
 <Action> AlwaysCategorize | AlwaysDelete | AlwaysMove | Delete | Move | Copy | SetReadState </Action>
@@ -86,10 +84,6 @@ The schema that describes this element is located in the IIS virtual directory t
    
 ## See also
 
-
-
-[ApplyConversationAction operation](applyconversationaction-operation.md)
-
-
+- [ApplyConversationAction operation](applyconversationaction-operation.md)
 - [EWS XML elements in Exchange](ews-xml-elements-in-exchange.md)
 

@@ -1,7 +1,5 @@
 ---
 title: "AbsoluteDate"
- 
- 
 manager: sethgros
 ms.date: 9/17/2015
 ms.audience: Developer
@@ -24,7 +22,8 @@ The **AbsoluteDate** element represents the date when the time changes from stan
 <AbsoluteDate/>
 ```
 
- **date**
+**date**
+
 ## Attributes and elements
 
 The following sections describe attributes, child elements, and parent elements.

@@ -9,8 +9,6 @@ api_type:
 - schema
 ms.assetid: 0ba37d5b-3c19-4fdd-a196-b4723e6ba1b0
 description: "The AlternateMailboxCollectionSetting element contains a collection of alternate mailbox settings."
- 
- 
 ---
 
 # AlternateMailboxCollectionSetting (SOAP)
@@ -57,7 +55,5 @@ None.
    
 ## See also
 
-
-
-[SOAP Autodiscover web service reference for Exchange](soap-autodiscover-web-service-reference-for-exchange.md)
+- [SOAP Autodiscover web service reference for Exchange](soap-autodiscover-web-service-reference-for-exchange.md)
 

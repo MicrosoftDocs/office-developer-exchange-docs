@@ -177,8 +177,7 @@ For additional error codes that are generic to EWS and specific to this operatio
   
 ## See also
 
-- [EWS operations in Exchange](ews-operations-in-exchange.md)
-    
+- [EWS operations in Exchange](ews-operations-in-exchange.md) 
 - [Archiving in EWS in Exchange](http://msdn.microsoft.com/library/78ae179b-ae4f-4f64-911a-e0c70e0fa314%28Office.15%29.aspx)
     
 
