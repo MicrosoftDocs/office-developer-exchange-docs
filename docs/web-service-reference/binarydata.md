@@ -20,7 +20,7 @@ description: "The BinaryData element contains binary data property content."
 
 The **BinaryData** element contains binary data property content. 
   
-```
+```xml
 <BinaryData/>
 ```
 

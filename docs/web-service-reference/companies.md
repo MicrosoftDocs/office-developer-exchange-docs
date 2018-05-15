@@ -20,7 +20,7 @@ description: "The Companies element represents the collection of companies that 
 
 The **Companies** element represents the collection of companies that are associated with a contact or task. 
   
-```
+```xml
 <Companies>
    <String/>
 </Companies>

@@ -20,7 +20,7 @@ description: "The BaseItemId element represents the base class for IDs that repr
 
 The **BaseItemId** element represents the base class for IDs that represent items in a mailbox. This is an abstract class and therefore will not occur in an instance document. 
   
-```
+```xml
 <BaseItemId/>
 ```
 

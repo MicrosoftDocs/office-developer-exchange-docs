@@ -20,7 +20,7 @@ description: "The CalendarFolderPermissionLevel element contains the permissions
 
 The **CalendarFolderPermissionLevel** element contains the permissions for the default Calendar folder. This element was introduced in Microsoft Exchange Server 2007 Service Pack 1 (SP1). 
   
-```
+```xml
 <CalendarFolderPermissionLevel>
    None or Editor or Reviewer or Author or Custom
 </CalendarFolderPermissionLevel>

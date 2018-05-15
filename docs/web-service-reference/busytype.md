@@ -20,7 +20,7 @@ description: "The BusyType element represents the free/busy status set for a cal
 
 The **BusyType** element represents the free/busy status set for a calendar event. 
   
-```
+```xml
 <BusyType>Free or Tentative or Busy or OOF or NoData</BusyType>
 ```
 

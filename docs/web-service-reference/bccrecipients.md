@@ -20,7 +20,7 @@ description: "The BccRecipients element represents a collection of recipients to
 
 The **BccRecipients** element represents a collection of recipients to receive a blind carbon copy (Bcc) of an e-mail message. 
   
-```
+```xml
 <BccRecipients>
    <Mailbox/>
 </BccRecipients>

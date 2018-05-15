@@ -26,7 +26,7 @@ The **CreateAttachmentResponseMessage** element contains the status and result o
   
 [CreateAttachmentResponseMessage](createattachmentresponsemessage.md)
   
-```
+```xml
 <CreateAttachmentResponseMessage ResponseClass="">
    <MessageText/>
    <ResponseCode/>

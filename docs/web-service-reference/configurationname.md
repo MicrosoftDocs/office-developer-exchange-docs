@@ -20,7 +20,7 @@ description: "The ConfigurationName element specifies the requested service conf
 
 The **ConfigurationName** element specifies the requested service configurations by name. 
   
-```
+```xml
 <ConfigurationName>MailTips or UnifiedMessagingConfiguration or ProtectionRules</ConfigurationName>
 ```
 

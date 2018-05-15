@@ -26,7 +26,7 @@ The **ConvertIdResponseMessage** element contains the status and result of a [Co
   
 [ConvertIdResponseMessage](convertidresponsemessage.md)
   
-```
+```xml
 <ConvertIdResponseMessage ResponseClass="">
    <MessageText/>
    <ResponseCode/>

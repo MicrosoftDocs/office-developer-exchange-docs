@@ -20,7 +20,7 @@ description: "The CcRecipients element represents a collection of recipients tha
 
 The **CcRecipients** element represents a collection of recipients that will receive a copy of the message. 
   
-```
+```xml
 <CcRecipients>
    <Mailbox/>
 </CcRecipients>

@@ -20,7 +20,7 @@ description: "The CalendarFolder element represents a folder that primarily cont
 
 The **CalendarFolder** element represents a folder that primarily contains calendar items. 
   
-```
+```xml
 <CalendarFolder>
    <FolderId/>
    <ParentFolderId/>

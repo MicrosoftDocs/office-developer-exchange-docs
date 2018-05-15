@@ -20,7 +20,7 @@ description: "The CopyFolderResponse element defines a response to a CopyFolder 
 
 The **CopyFolderResponse** element defines a response to a CopyFolder request. 
   
-```
+```xml
 <CopyFolderResponse>
    <ResponseMessages/>
 </CopyFolderResponse>

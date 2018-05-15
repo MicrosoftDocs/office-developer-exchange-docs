@@ -20,7 +20,7 @@ description: "The Condition element identifies the condition that must be satisf
 
 The **Condition** element identifies the condition that must be satisfied for the action part of the rule to be executed. 
   
-```
+```xml
 <Condition>
    <AllInternal/>
 </Condition>

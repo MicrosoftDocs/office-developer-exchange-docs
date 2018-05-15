@@ -20,7 +20,7 @@ description: "The BaseShape element identifies the set of properties to return i
 
 The **BaseShape** element identifies the set of properties to return in an item or folder response. 
   
-```
+```xml
 <BaseShape>IdOnly or Default or AllProperties</BaseShape>
 ```
 

@@ -20,7 +20,7 @@ description: "The CalendarItemType element represents the type of a calendar ite
 
 The **CalendarItemType** element represents the type of a calendar item. 
   
-```
+```xml
 <CalendarItemType/>
 ```
 

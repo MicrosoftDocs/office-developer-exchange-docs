@@ -16,7 +16,7 @@ description: "The CreatedTime element specifies the time at which the item was c
 
 The **CreatedTime** element specifies the time at which the item was created. 
   
-```
+```xml
 <CreatedTime></CreatedTime>
 ```
 

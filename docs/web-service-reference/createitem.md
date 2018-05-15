@@ -20,7 +20,7 @@ description: "The CreateItem element defines a request to create an item in the 
 
 The **CreateItem** element defines a request to create an item in the Exchange store. 
   
-```
+```xml
 <CreateItem MessageDisposition="" SendMeetingInvitations="">
    <SavedItemFolderId/>
    <Items/>

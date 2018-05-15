@@ -20,7 +20,7 @@ description: "The CreateHierarchy element indicates whether a client can create 
 
 The **CreateHierarchy** element indicates whether a client can create a hierarchy table. This element was introduced in Microsoft Exchange Server 2007 Service Pack 1 (SP1). 
   
-```
+```xml
 <CreateHierarchy>true or false</CreateHierarchy>
 ```
 

@@ -20,7 +20,7 @@ description: "The ConflictingMeetingCount element represents the number of meeti
 
 The **ConflictingMeetingCount** element represents the number of meetings that conflict with the calendar item. 
   
-```
+```xml
 <ConflictingMeetingCount/>
 ```
 

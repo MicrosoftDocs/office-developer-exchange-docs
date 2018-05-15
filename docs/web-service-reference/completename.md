@@ -20,7 +20,7 @@ description: "The CompleteName element represents the complete name of a contact
 
 The **CompleteName** element represents the complete name of a contact. 
   
-```
+```xml
 <CompleteName>
    <Title/>
    <FirstName/>

@@ -30,7 +30,7 @@ The [Count](count.md) element contains the number of conflicts in an [UpdateItem
   
 [Count](count.md)
   
-```
+```xml
 <Count/>
 ```
 

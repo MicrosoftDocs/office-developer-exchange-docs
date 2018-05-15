@@ -20,7 +20,7 @@ description: "The CreateManagedFolderResponse element defines a response to a Cr
 
 The **CreateManagedFolderResponse** element defines a response to a CreateManagedFolder request. 
   
-```
+```xml
 <CreateManagedFolderResponse>
    <ResponseMessages/>
 </CreateManagedFolderResponse>

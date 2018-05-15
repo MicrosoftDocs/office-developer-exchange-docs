@@ -24,7 +24,7 @@ The **CreateRuleOperation** element represents an operation to create a new Inbo
   
 [Operations](operations.md)
   
-```
+```xml
 <CreateRuleOperation>
     <Rule/>
 </CreateRuleOperation>

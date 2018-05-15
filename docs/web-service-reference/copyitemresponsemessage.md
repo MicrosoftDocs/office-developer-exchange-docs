@@ -20,7 +20,7 @@ description: "The CopyItemResponseMessage element contains the status and result
 
 The **CopyItemResponseMessage** element contains the status and result of a single [CopyItem operation](copyitem-operation.md) request. 
   
-```
+```xml
 <CopyItemResponseMessage ResponseClass="">
    <MessageText/>
    <ResponseCode/>

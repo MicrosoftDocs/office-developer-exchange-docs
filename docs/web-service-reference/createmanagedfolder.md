@@ -20,7 +20,7 @@ description: "The CreateManagedFolder element defines a request to add managed c
 
 The **CreateManagedFolder** element defines a request to add managed custom folders to a mailbox. 
   
-```
+```xml
 <CreateManagedFolder>
    <FolderNames/>
    <Mailbox/>

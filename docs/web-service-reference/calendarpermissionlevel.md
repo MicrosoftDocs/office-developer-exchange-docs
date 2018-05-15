@@ -20,7 +20,7 @@ description: "The CalendarPermissionLevel element represents the permission leve
 
 The **CalendarPermissionLevel** element represents the permission level that a user has on a Calendar folder. This element was introduced in Microsoft Exchange Server 2007 Service Pack 1 (SP1). 
   
-```
+```xml
 <CalendarPermissionLevel>None or Owner or PublishingEditor or Editor or PublishingAuthor or Author or NoneditingAuthor or Reviewer or Contributor or FreeBusyTimeOnly or FreeBusyTimeAndSubjectAndLocation or Custom</CalendarPermissionLevel>
 ```
 

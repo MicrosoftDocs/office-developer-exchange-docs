@@ -24,7 +24,7 @@ The **ContactsView** element defines a search for contact items based on alphabe
   
 [ContactsView](contactsview.md)
   
-```
+```xml
 <ContactsView MaxEntriesReturned="" InitialName="" FinalName="" />
 ```
 

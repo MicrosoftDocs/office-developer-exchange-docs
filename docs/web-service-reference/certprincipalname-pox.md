@@ -27,7 +27,7 @@ The **CertPrincipalName** element specifies the Secure Sockets Layer (SSL) certi
   
 [CertPrincipalName (POX)](certprincipalname-pox.md)
   
-```
+```xml
 <CertPrincipalName>none or servername</CertPrinicpalName>
 ```
 

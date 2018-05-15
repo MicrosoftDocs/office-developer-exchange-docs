@@ -20,7 +20,7 @@ description: "The ContactsFolder element represents a contacts folder that is co
 
 The **ContactsFolder** element represents a contacts folder that is contained in a mailbox. 
   
-```
+```xml
 <ContactsFolder>
    <FolderId/>
    <ParentFolderId/>

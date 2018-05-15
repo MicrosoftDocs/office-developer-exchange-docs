@@ -20,7 +20,7 @@ description: "The ContentType element describes the Multipurpose Internet Mail E
 
 The **ContentType** element describes the Multipurpose Internet Mail Extensions (MIME) type of the attachment content. 
   
-```
+```xml
 <ContentType/>
 ```
 

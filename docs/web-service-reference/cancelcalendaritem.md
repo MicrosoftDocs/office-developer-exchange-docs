@@ -20,7 +20,7 @@ description: "The CancelCalendarItem element represents the response object that
 
 The **CancelCalendarItem** element represents the response object that is used to cancel a meeting. 
   
-```
+```xml
 <CancelCalendarItem>
    <Subject/>
    <Body/>

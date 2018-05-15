@@ -30,7 +30,7 @@ The **CalendarEventArray** element contains a set of unique calendar item occurr
   
 [CalendarEventArray](calendareventarray.md)
   
-```
+```xml
 <CalendarEventArray>
    <CalendarEvent>...</CalendarEvent>
 </CalendarEventArray>

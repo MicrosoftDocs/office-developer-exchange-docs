@@ -20,7 +20,7 @@ description: "The CreateItemResponse element defines a response to a CreateItem 
 
 The **CreateItemResponse** element defines a response to a CreateItem request. 
   
-```
+```xml
 <CreateItemResponse>
    <ResponseMessages/>
 </CreateItemResponse>

@@ -20,7 +20,7 @@ description: "The BaseFolderIds element represents the collection of folders tha
 
 The **BaseFolderIds** element represents the collection of folders that will be mined to determine the contents of a search folder. 
   
-```
+```xml
 <BaseFolderIds>
    <FolderId/>
    <DistinguishedFolderId/>

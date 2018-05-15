@@ -20,7 +20,7 @@ description: "The ConferenceType element describes the type of conferencing that
 
 The **ConferenceType** element describes the type of conferencing that is performed with a calendar item. 
   
-```
+```xml
 <ConferenceType/>
 ```
 

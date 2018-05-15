@@ -24,7 +24,7 @@ The **ConnectionTimeout** element specifies the number of minutes to keep a conn
   
 [ConnectionTimeout](connectiontimeout.md)
   
-```
+```xml
 <ConnectionTimeout/>
 ```
 

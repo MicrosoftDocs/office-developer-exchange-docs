@@ -20,7 +20,7 @@ description: "The CalendarPermissions element contains an array of calendar perm
 
 The **CalendarPermissions** element contains an array of calendar permissions for a folder. This element was introduced in Microsoft Exchange Server 2007 Service Pack 1 (SP1). 
   
-```
+```xml
 <CalendarPermissions>
    <PermissionSet/>
 </CalendarPermissions>

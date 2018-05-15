@@ -11,8 +11,6 @@ api_type:
 - schema
 ms.assetid: 662f8f2f-49a7-4c7a-9065-98a02a49cfcd
 description: "The base64FolderId element contains the identifier of the folder to specify as the default e-mail folder from which Unified Messaging reads messages over the telephone in a SetTelephoneAccessFolderEmail operation (UM web service) request."
- 
- 
 ---
 
 # base64FolderId (UM web service)
@@ -23,7 +21,7 @@ The **base64FolderId** element contains the identifier of the folder to specify 
   
 [base64FolderId (UM web service)](base64folderid-um-web-service.md)
   
-```
+```xml
 <base64FolderId/>
 ```
 

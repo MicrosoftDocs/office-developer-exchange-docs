@@ -20,7 +20,7 @@ description: "The CreateUserConfigurationResponseMessage element contains the st
 
 The **CreateUserConfigurationResponseMessage** element contains the status and result of a single **CreateUserConfiguration** request. 
   
-```
+```xml
 <CreateUserConfigurationResponseMessage ResponseClass="">
    <MessageText/>
    <ResponseCode/>

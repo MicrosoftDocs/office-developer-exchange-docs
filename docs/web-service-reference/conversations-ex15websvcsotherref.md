@@ -24,7 +24,7 @@ The **Conversations** element contains an array of conversations that are return
   
 [Conversations](conversations-ex15websvcsotherref.md)
   
-```cs
+```xml
 <Conversations>
    <Conversation/>
 </Conversations>

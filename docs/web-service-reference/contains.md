@@ -20,7 +20,7 @@ description: "The Contains element represents a search expression that determine
 
 The **Contains** element represents a search expression that determines whether a given property contains the supplied constant string value. 
   
-```
+```xml
 <Contains ContainmentMode="" ContainmentComparison="">
    <FieldURI/>
    <Constant/>

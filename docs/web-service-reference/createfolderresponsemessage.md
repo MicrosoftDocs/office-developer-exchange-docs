@@ -20,7 +20,7 @@ description: "The CreateFolderResponseMessage element contains the status and re
 
 The **CreateFolderResponseMessage** element contains the status and result of a single [CreateFolder operation](createfolder-operation.md) request. 
   
-```
+```xml
 <CreateFolderResponseMessage ResponseClass="">
    <MessageText/>
    <ResponseCode/>

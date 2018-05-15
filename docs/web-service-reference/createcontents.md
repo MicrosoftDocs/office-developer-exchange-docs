@@ -20,7 +20,7 @@ description: "The CreateContents element indicates whether a client can create a
 
 The **CreateContents** element indicates whether a client can create a contents table. This element was introduced in Microsoft Exchange Server 2007 Service Pack 1 (SP1). 
   
-```
+```xml
 <CreateContents>true or false</CreateContents>
 ```
 

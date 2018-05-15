@@ -20,7 +20,7 @@ description: "The CopyFolder element defines a request to copy folders in a mail
 
 The **CopyFolder** element defines a request to copy folders in a mailbox in the Exchange store. 
   
-```
+```xml
 <CopyFolder>
    <ToFolderId/>
    <FolderIds/>

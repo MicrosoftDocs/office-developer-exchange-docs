@@ -20,7 +20,7 @@ description: "The BodyType element identifies how the body text is formatted in 
 
 The **BodyType** element identifies how the body text is formatted in the response. 
   
-```
+```xml
 <BodyType>Best or HTML or Text</BodyType>
 ```
 

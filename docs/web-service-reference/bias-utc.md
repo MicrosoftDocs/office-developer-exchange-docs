@@ -20,7 +20,7 @@ description: "The Bias element represents the general offset from Coordinated Un
 
 The **Bias** element represents the general offset from Coordinated Universal Time (UTC). This value is in minutes. 
   
-```
+```xml
 <TimeZone>
    <Bias>int</Bias>
 </TimeZone>

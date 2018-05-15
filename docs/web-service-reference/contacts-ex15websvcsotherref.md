@@ -20,7 +20,7 @@ description: "The Contacts element contains a list of contacts that are associat
 
 The **Contacts** element contains a list of contacts that are associated with a task. 
   
-```
+```xml
 <Contacts>
    <String/>
 </Contacts>

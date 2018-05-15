@@ -26,7 +26,7 @@ The **CreateItemResponseMessage** element contains the status and result of a si
   
 [CreateItemResponseMessage](createitemresponsemessage.md)
   
-```
+```xml
 <CreateItemResponseMessage ResponseClass="">
    <MessageText/>
    <ResponseCode/>

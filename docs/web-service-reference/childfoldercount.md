@@ -20,7 +20,7 @@ description: "The ChildFolderCount element represents the number of immediate ch
 
 The **ChildFolderCount** element represents the number of immediate child folders that are contained within a folder. This property is read-only. 
   
-```
+```xml
 <ChildFolderCount/>
 ```
 

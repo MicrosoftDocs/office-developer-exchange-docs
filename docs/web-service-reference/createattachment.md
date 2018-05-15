@@ -20,7 +20,7 @@ description: "The CreateAttachment element defines a request to create an attach
 
 The **CreateAttachment** element defines a request to create an attachment to an item in the Exchange store. 
   
-```
+```xml
 <CreateAttachment>
    <ParentItemId/>
    <Attachments/>

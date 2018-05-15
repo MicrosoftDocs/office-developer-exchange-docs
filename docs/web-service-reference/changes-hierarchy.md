@@ -28,7 +28,7 @@ The **Changes** element contains a sequenced array of change types that represen
   
 [Changes (Hierarchy)](changes-hierarchy.md)
   
-```
+```xml
 <Changes>
    <Create/>
    <Update/>

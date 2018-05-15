@@ -20,7 +20,7 @@ description: "The ContactSource element describes whether the contact is located
 
 The **ContactSource** element describes whether the contact is located in the Exchange store or Active Directory Domain Services (AD DS). 
   
-```
+```xml
 <ContactSource/>
 ```
 

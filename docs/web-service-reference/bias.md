@@ -20,7 +20,7 @@ description: "The Bias element represents the offset from the Coordinated Univer
 
 The **Bias** element represents the offset from the Coordinated Universal Time (UTC) offset identified by the [Bias (UTC)](bias-utc.md) element for standard time and daylight saving time. This value is in minutes. 
   
-```
+```xml
 <Bias>...</Bias>
 ```
 

@@ -26,7 +26,7 @@ The **CurrentMeetingTime** element represents the start time of a meeting that y
   
 [CurrentMeetingTime](currentmeetingtime.md)
   
-```
+```xml
 <CurrentMeetingTime>...</CurrentMeetingTime>
 ```
 

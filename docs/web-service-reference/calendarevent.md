@@ -32,7 +32,7 @@ The **CalendarEvent** element represents a unique calendar item occurrence.
   
 [CalendarEvent](calendarevent.md)
   
-```
+```xml
 <CalendarEvent>
    <StartTime>...</StartTime>
    <EndTime>...</EndTime>

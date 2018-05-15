@@ -20,7 +20,7 @@ description: "The CreateFolderResponse element defines a response to a CreateFol
 
 The **CreateFolderResponse** element defines a response to a CreateFolder request. 
   
-```
+```xml
 <CreateFolderResponse>
    <ResponseMessages/>
 </CreateFolderResponse>

@@ -24,7 +24,7 @@ The **ConnectingSID** element represents an account to impersonate when you are 
   
 [ConnectingSID](connectingsid.md)
   
-```
+```xml
 <ConnectingSID>
    <PrincipalName/>
 </ConnectingSID>

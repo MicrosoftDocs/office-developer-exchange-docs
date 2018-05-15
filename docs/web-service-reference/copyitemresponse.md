@@ -20,7 +20,7 @@ description: "The CopyItemResponse element defines a response to a CopyItem requ
 
 The **CopyItemResponse** element defines a response to a CopyItem request. 
   
-```
+```xml
 <CopyItemResponse>
    <ResponseMessages/>
 </CopyItemResponse>

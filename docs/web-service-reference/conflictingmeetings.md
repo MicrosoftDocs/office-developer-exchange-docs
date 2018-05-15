@@ -20,7 +20,7 @@ description: "The ConflictingMeetings element identifies all calendar items that
 
 The **ConflictingMeetings** element identifies all calendar items that conflict with a meeting time. 
   
-```
+```xml
 <ConflictingMeetings>
    <CalendarItem/>
 </ConflictingMeetings>

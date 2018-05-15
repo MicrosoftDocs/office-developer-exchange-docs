@@ -30,7 +30,7 @@ The **Create** element identifies a single folder to create in the local client 
   
 [Create (FolderSync)](create-foldersync.md)
   
-```
+```xml
 <Create>
    <Folder/>
    <CalendarFolder/>

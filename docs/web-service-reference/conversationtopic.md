@@ -20,7 +20,7 @@ description: "The ConversationTopic element represents the conversation topic."
 
 The **ConversationTopic** element represents the conversation topic. 
   
-```
+```xml
 <ConversationTopic/>
 ```
 

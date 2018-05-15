@@ -20,7 +20,7 @@ description: "The Birthday element represents the birth date of a contact."
 
 The **Birthday** element represents the birth date of a contact. 
   
-```
+```xml
 <Birthday/>
 ```
 

@@ -20,7 +20,7 @@ description: "The CompanyName element represents the company name that is associ
 
 The **CompanyName** element represents the company name that is associated with a contact. 
   
-```
+```xml
 <CompanyName/>
 ```
 

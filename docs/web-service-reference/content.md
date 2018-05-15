@@ -20,7 +20,7 @@ description: "The Content element contains the Base64-encoded contents of a file
 
 The **Content** element contains the Base64-encoded contents of a file attachment. 
   
-```
+```xml
 <Content/>
 ```
 

@@ -20,7 +20,7 @@ description: "The CreateFolder element defines a request to create a folder in t
 
 The **CreateFolder** element defines a request to create a folder in the Exchange store. 
   
-```
+```xml
 <CreateFolder>
    <ParentFolderId/>
    <Folders/>

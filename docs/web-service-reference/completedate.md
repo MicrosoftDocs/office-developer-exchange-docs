@@ -20,7 +20,7 @@ description: "The CompleteDate element represents the date on which an item was 
 
 The **CompleteDate** element represents the date on which an item was completed. 
   
-```
+```xml
 <CompleteDate/>
 ```
 

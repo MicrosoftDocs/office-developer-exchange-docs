@@ -26,7 +26,7 @@ The **CopyFolderResponseMessage** element contains the status and result of a si
   
 [CopyFolderResponseMessage](copyfolderresponsemessage.md)
   
-```
+```xml
 <CopyFolderResponseMessage ResponseClass="">
    <MessageText/>
    <ResponseCode/>

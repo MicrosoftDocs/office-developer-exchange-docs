@@ -20,7 +20,7 @@ description: "The Culture element represents the culture for a given item in a m
 
 The **Culture** element represents the culture for a given item in a mailbox. 
   
-```
+```xml
 <Culture/>
 ```
 

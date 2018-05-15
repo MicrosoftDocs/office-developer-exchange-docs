@@ -20,7 +20,7 @@ description: "The ConnectionFailureCause element specifies the reason for a disc
 
 The **ConnectionFailureCause** element specifies the reason for a disconnection from a telephone call. 
   
-```
+```xml
 <ConnectionFailureCause>None or UserBusy or NoAnswer or Unavailable or Other</ConnectionFailureCause>
 ```
 

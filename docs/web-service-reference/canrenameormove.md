@@ -20,7 +20,7 @@ description: "The CanRenameOrMove element indicates whether a managed folder can
 
 The **CanRenameOrMove** element indicates whether a managed folder can be renamed or moved by the customer. 
   
-```
+```xml
 <CanRenameOrMove/>
 ```
 

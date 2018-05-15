@@ -20,7 +20,7 @@ description: "The Children element contains the names of a contact's children."
 
 The **Children** element contains the names of a contact's children. 
   
-```
+```xml
 <Children>
    <String/>
 </Children>

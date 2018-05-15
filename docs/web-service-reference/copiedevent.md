@@ -20,7 +20,7 @@ description: "The CopiedEvent element represents an event in which an item or fo
 
 The **CopiedEvent** element represents an event in which an item or folder is copied. 
   
-```
+```xml
 <CopiedEvent>
    <Watermark/>
    <TimeStamp/>

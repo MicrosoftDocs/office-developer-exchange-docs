@@ -20,7 +20,7 @@ description: "The Constant element identifies a constant value in a restriction.
 
 The **Constant** element identifies a constant value in a restriction. 
   
-```
+```xml
 <Constant Value="" />
 ```
 

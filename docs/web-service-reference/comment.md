@@ -20,7 +20,7 @@ description: "The Comment element contains the comment that is associated with a
 
 The **Comment** element contains the comment that is associated with a managed folder. 
   
-```
+```xml
 <Comment/>
 ```
 

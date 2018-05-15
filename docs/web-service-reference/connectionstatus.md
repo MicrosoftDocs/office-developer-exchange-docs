@@ -20,7 +20,7 @@ description: "The ConnectionStatus element provides a text description of the st
 
 The **ConnectionStatus** element provides a text description of the status of a streaming subscription. 
   
-```
+```xml
 <ConnectionStatus>OK or Closed</ConnectionStatus>
 ```
 

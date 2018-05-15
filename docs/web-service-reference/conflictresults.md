@@ -28,7 +28,7 @@ The [ConflictResults](conflictresults.md) element contains the number of conflic
   
 [ConflictResults](conflictresults.md)
   
-```
+```xml
 <ConflictResults>
    <Count/>
 </ConflictResults>

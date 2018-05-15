@@ -20,7 +20,6 @@ The **CompleteFindInGALSpeechRecognition** element is intended for internal use 
 <CompleteFindInGALSpeechRecognition />
 ```
 
- ****
 ## Attributes and elements
 
 The following sections describe attributes, child elements, and parent elements.

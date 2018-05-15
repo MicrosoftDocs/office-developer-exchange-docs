@@ -20,7 +20,7 @@ description: "The ContentLocation element contains the Uniform Resource Identifi
 
 The **ContentLocation** element contains the Uniform Resource Identifier (URI) that corresponds to the location of the content of an attachment. 
   
-```
+```xml
 <ContentLocation/>
 ```
 

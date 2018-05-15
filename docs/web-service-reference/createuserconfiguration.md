@@ -20,7 +20,7 @@ description: "The CreateUserConfiguration element represents a request to create
 
 The **CreateUserConfiguration** element represents a request to create a user configuration object. 
   
-```
+```xml
 <CreateUserConfiguration>
    <UserConfiguration/>
 </CreateUserConfiguration>

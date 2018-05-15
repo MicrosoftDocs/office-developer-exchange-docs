@@ -20,7 +20,7 @@ description: "The CreateAttachmentResponse element defines a response to a Creat
 
 The **CreateAttachmentResponse** element defines a response to a CreateAttachment request. 
   
-```
+```xml
 <CreateAttachmentResponse>
    <ResponseMessages/>
 </CreateAttachmentResponse>

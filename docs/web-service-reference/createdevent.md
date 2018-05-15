@@ -20,7 +20,7 @@ description: "The CreatedEvent element represents an event in which an item or f
 
 The **CreatedEvent** element represents an event in which an item or folder is created. 
   
-```
+```xml
 <CreatedEvent>
    <Watermark/>
    <TimeStamp/>

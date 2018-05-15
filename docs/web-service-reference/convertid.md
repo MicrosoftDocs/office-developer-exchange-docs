@@ -20,7 +20,7 @@ description: "The ConvertId element defines a request to convert item and folder
 
 The **ConvertId** element defines a request to convert item and folder identifiers between supported Exchange formats. This element was introduced in Microsoft Exchange Server 2007 Service Pack 1 (SP1). 
   
-```
+```xml
 <ConvertId DestinationFormat="">
    <SourceIds/>
 </ConvertId>

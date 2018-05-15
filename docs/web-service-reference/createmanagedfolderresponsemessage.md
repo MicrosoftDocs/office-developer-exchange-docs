@@ -26,7 +26,7 @@ The **CreateManagedFolderResponseMessage** element contains the status and resul
   
 [CreateManagedFolderResponseMessage](createmanagedfolderresponsemessage.md)
   
-```
+```xml
 <CreateManagedFolderResponseMessage>
    <MessageText/>
    <ResponseCode/>

@@ -34,7 +34,7 @@ The **CalendarEventDetails** element provides additional information about a cal
   
 [CalendarEventDetails](calendareventdetails.md)
   
-```
+```xml
 <CalendarEventDetails>
    <ID/>
    <Subject/>

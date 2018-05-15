@@ -20,7 +20,7 @@ description: "The ContactsFolderPermissionLevel element contains the permissions
 
 The **ContactsFolderPermissionLevel** element contains the permissions for the default Contacts folder. This element was introduced in Microsoft Exchange Server 2007 Service Pack 1 (SP1). 
   
-```
+```xml
 <ContactsFolderPermissionLevel>
    None or Editor or Reviewer or Author or Custom
 </ContactsFolderPermissionLevel>

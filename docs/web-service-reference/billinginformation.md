@@ -20,7 +20,7 @@ description: "The BillingInformation element holds billing information for a tas
 
 The **BillingInformation** element holds billing information for a task. 
   
-```
+```xml
 <BillingInformation/>
 ```
 

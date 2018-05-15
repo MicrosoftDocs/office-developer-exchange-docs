@@ -20,7 +20,7 @@ description: "The CanDelete element indicates whether a managed folder can be de
 
 The **CanDelete** element indicates whether a managed folder can be deleted by a customer. 
   
-```
+```xml
 <CanDelete/>
 ```
 

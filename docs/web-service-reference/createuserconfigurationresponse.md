@@ -20,7 +20,7 @@ description: "The CreateUserConfigurationResponse element defines a response to 
 
 The **CreateUserConfigurationResponse** element defines a response to a single **CreateUserConfiguration** request. 
   
-```
+```xml
 <CreateUserConfigurationResponse>
    <ResponseMessages/>
 </CreateUserConfigurationResponse>

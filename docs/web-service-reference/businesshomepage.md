@@ -20,7 +20,7 @@ description: "The BusinessHomePage element represents the Home page (Web address
 
 The **BusinessHomePage** element represents the Home page (Web address) for the contact. 
   
-```
+```xml
 <BusinessHomePage/>
 ```
 

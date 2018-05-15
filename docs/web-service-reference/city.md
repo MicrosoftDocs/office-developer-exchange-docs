@@ -20,7 +20,7 @@ description: "The City element represents the city name that is associated with 
 
 The **City** element represents the city name that is associated with a contact. 
   
-```
+```xml
 <City/>
 ```
 
