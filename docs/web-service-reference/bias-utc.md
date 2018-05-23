@@ -42,7 +42,7 @@ None.
 
 |**Element**|**Description**|
 |:-----|:-----|
-|[TimeZone (Availability)](timezone-availability.md) <br/> | The container that identifies the date-time information of the request. This element contains information about the transition between standard time and daylight saving time.  <br/><br/>The following are the XPath expressions to this element:<br/><br/>-   `/GetUserAvailabilityResponse/FreeBusyResponseArray/FreeBusyResponse/FreeBusyView/WorkingHours/TimeZone` <br/>-   `/GetUserAvailabilityRequest/TimeZone` <br/> |
+|[TimeZone (Availability)](timezone-availability.md) <br/> | The container that identifies the date-time information of the request. This element contains information about the transition between standard time and daylight saving time.  <br/><br/>The following are the XPath expressions to this element:<br/><br/>   `/GetUserAvailabilityResponse/FreeBusyResponseArray/FreeBusyResponse/FreeBusyView/WorkingHours/TimeZone` <br/><br/>`/GetUserAvailabilityRequest/TimeZone` <br/> |
    
 ## Text value
 

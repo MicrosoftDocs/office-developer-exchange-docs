@@ -58,7 +58,7 @@ If the **CalendarView** element is not specified in a FindItem request, the Web 
   
 CalendarView queries should only make use of the following properties since they support faster calendar queries.
   
-Recurrence blob properties:
+### Recurrence blob properties
   
 - MapiStartTime
     
@@ -90,7 +90,7 @@ Recurrence blob properties:
     
 - ChangeHighlight
     
-Calculated from the primary recurrence blob or master:
+### Calculated from the primary recurrence blob or master
   
 - ItemId
     
@@ -116,7 +116,7 @@ Calculated from the primary recurrence blob or master:
     
 - TimeZoneDefinitionEnd
     
-Master calendar item properties:
+### Master calendar item properties
   
 - EntryId
     
@@ -198,10 +198,6 @@ The following example shows a FindItem request. A successful request returns a r
    
 ## See also
 
-
-
-[FindItem operation](finditem-operation.md)
-
-
-[Finding Items](http://msdn.microsoft.com/library/63af1f9c-464b-4fca-9ae3-3d60f24ca93c%28Office.15%29.aspx)
+- [FindItem operation](finditem-operation.md)
+- [Finding Items](http://msdn.microsoft.com/library/63af1f9c-464b-4fca-9ae3-3d60f24ca93c%28Office.15%29.aspx)
 
