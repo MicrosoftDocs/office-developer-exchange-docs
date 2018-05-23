@@ -1,12 +1,8 @@
 ---
 title: "Authentication and EWS in Exchange"
- 
- 
 manager: sethgros
 ms.date: 3/9/2015
 ms.audience: Developer
- 
- 
 localization_priority: Normal
 ms.assetid: 9a83df96-aca0-42b3-b8f5-2b414f0363f1
 description: "Find information to help you choose the right authentication standard for your EWS application that targets Exchange."
@@ -38,7 +34,7 @@ We recommend that all new applications use the OAuth standard to connect to Exch
 
 |**Advantages**|**Disadvantages**|
 |:-----|:-----|
-| OAuth is an industry-standard authentication protocol.  <br/>  Authentication is managed by a third-party provider. Your application does not have to collect and store the Exchange credentials.  <br/>  Fewer worries for you, because your application only receives an opaque token from the authentication provider; therefore, a security breach in your application can only expose the token, not the user's Exchange credentials.  <br/> | OAuth relies on a third-party authentication provider. This can impose additional costs on your organization or your customers.  <br/>  The OAuth standard is more difficult to implement than basic authentication.  <br/>  To implement OAuth, you need to integrate your application with both the authentication provider and the Exchange server.  <br/> |
+| OAuth is an industry-standard authentication protocol.<br/><br/>Authentication is managed by a third-party provider. Your application does not have to collect and store the Exchange credentials.<br/><br/>Fewer worries for you, because your application only receives an opaque token from the authentication provider; therefore, a security breach in your application can only expose the token, not the user's Exchange credentials.  <br/> | OAuth relies on a third-party authentication provider. This can impose additional costs on your organization or your customers.<br/><br/>The OAuth standard is more difficult to implement than basic authentication.<br/><br/>To implement OAuth, you need to integrate your application with both the authentication provider and the Exchange server.  <br/> |
    
 To help minimize the disadvantages, you can use the [Microsoft Azure AD Authentication Library](http://msdn.microsoft.com/library/a03f39fa-7ba4-4182-a98e-55562a64b8f3%28Office.15%29.aspx) (ADAL) to authenticate users to Active Directory Domain Services (AD DS) in the cloud or on-premises and then obtain access tokens for securing calls to an Exchange server. Exchange Online requires tokens issued by the Azure Active Directory service, which is supported by the ADAL; however, you can use any third-party library. 
   
@@ -60,7 +56,7 @@ NTLM authentication is only available for Exchange on-premises servers. For appl
 
 |**Advantages**|**Disadvantages**|
 |:-----|:-----|
-| Works "out of the box" with your Exchange server. You can configure access to Exchange services by using an [Exchange Management Shell cmdlet](how-to-control-access-to-ews-in-exchange.md).  <br/>  Uses the .NET Framework [CredentialCache](http://msdn2.microsoft.com/EN-US/library/615e0wsd) object to automatically get the user's credentials.  <br/> [Code samples are available](http://code.msdn.microsoft.com/office/Exchange-2013-101-Code-3c38582c) that use the logged on user's credentials for authentication to an on-premises Exchange server.  <br/> | Users must be logged on to a domain to use NTLM authentication.  <br/>  It can be difficult to access email accounts that are not associated with the user's domain account.  <br/>  Service applications must have a domain account to take advantage of NTLM authentication.  <br/> |
+| Works "out of the box" with your Exchange server. You can configure access to Exchange services by using an [Exchange Management Shell cmdlet](how-to-control-access-to-ews-in-exchange.md).<br/><br/>Uses the .NET Framework [CredentialCache](http://msdn2.microsoft.com/EN-US/library/615e0wsd) object to automatically get the user's credentials.<br/><br/>[Code samples are available](http://code.msdn.microsoft.com/office/Exchange-2013-101-Code-3c38582c) that use the logged on user's credentials for authentication to an on-premises Exchange server.  <br/> | Users must be logged on to a domain to use NTLM authentication.<br/><br/>It can be difficult to access email accounts that are not associated with the user's domain account.<br/><br/>Service applications must have a domain account to take advantage of NTLM authentication.  <br/> |
    
 ## Basic authentication
 
@@ -70,21 +66,16 @@ Basic authentication provides a, well, basic level of security for your client a
 
 |**Advantages**|**Disadvantages**|
 |:-----|:-----|
-| Works "out of the box" with your Exchange server. You can configure access to Exchange services by using an [Exchange Management Shell cmdlet](how-to-control-access-to-ews-in-exchange.md).  <br/>  Windows applications can use the logged on user's default credentials.  <br/>  Many [code samples are available](http://code.msdn.microsoft.com/office/Exchange-2013-101-Code-3c38582c) that show you how to call EWS using basic authentication.  <br/> | Requires your application to collect and store the user's credentials.  <br/>  You have to turn off NTLM authentication for all users to use basic authentication.  <br/>  If a security breach occurs in your application, it can expose the user's email address and password to the attacker.  <br/> |
+| Works "out of the box" with your Exchange server. You can configure access to Exchange services by using an [Exchange Management Shell cmdlet](how-to-control-access-to-ews-in-exchange.md).<br/><br/>Windows applications can use the logged on user's default credentials.<br/><br/>Many [code samples are available](http://code.msdn.microsoft.com/office/Exchange-2013-101-Code-3c38582c) that show you how to call EWS using basic authentication.  <br/> | Requires your application to collect and store the user's credentials.<br/><br/>You have to turn off NTLM authentication for all users to use basic authentication.<br/><br/>If a security breach occurs in your application, it can expose the user's email address and password to the attacker.  <br/> |
    
 You need to decide if basic authentication meets the security requirements of your organization and customers. Basic authentication can be the right choice if you want to avoid extensive setup tasks, for example for simple test or demonstration applications.
   
 ## See also
 
-
-- [Start using web services in Exchange](start-using-web-services-in-exchange.md)
-    
-- [Adding Sign-On to Your Web Application Using Microsoft Azure AD](http://msdn.microsoft.com/library/055e1155-2d4d-4c85-b44e-d406872ba595%28Office.15%29.aspx)
-    
-- [Control access to EWS in Exchange](how-to-control-access-to-ews-in-exchange.md)
-    
-- [Controlling client application access to EWS in Exchange](controlling-client-application-access-to-ews-in-exchange.md)
-    
+- [Start using web services in Exchange](start-using-web-services-in-exchange.md)   
+- [Adding Sign-On to Your Web Application Using Microsoft Azure AD](http://msdn.microsoft.com/library/055e1155-2d4d-4c85-b44e-d406872ba595%28Office.15%29.aspx)    
+- [Control access to EWS in Exchange](how-to-control-access-to-ews-in-exchange.md)    
+- [Controlling client application access to EWS in Exchange](controlling-client-application-access-to-ews-in-exchange.md)    
 - [Supported Token and Claim Types](http://msdn.microsoft.com/library/9d35e4bc-7b72-49d1-b723-5464eee6be2c%28Office.15%29.aspx)
     
 
