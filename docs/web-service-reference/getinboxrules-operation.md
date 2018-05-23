@@ -104,7 +104,7 @@ The following Simple Object Access Protocol (SOAP) body example shows a successf
 </s:Envelope>
 ```
 
-### Response Elements
+### Response elements
 
 The following elements are included in the response:
   

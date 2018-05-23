@@ -140,7 +140,7 @@ The following example shows an Autodiscover error response.
 </Autodiscover>
 ```
 
-### Error Response Element
+### Error response element
 
 The following elements are used in the response body:
   
@@ -158,12 +158,7 @@ The following elements are used in the response body:
     
 ## See also
 
-
-
-[POX Autodiscover request for Exchange](pox-autodiscover-request-for-exchange.md)
-
-
-[POX Autodiscover web service reference for Exchange](pox-autodiscover-web-service-reference-for-exchange.md)
-  
-[POX Autodiscover XML elements for Exchange](pox-autodiscover-xml-elements-for-exchange.md)
+- [POX Autodiscover request for Exchange](pox-autodiscover-request-for-exchange.md)
+- [POX Autodiscover web service reference for Exchange](pox-autodiscover-web-service-reference-for-exchange.md) 
+- [POX Autodiscover XML elements for Exchange](pox-autodiscover-xml-elements-for-exchange.md)
 

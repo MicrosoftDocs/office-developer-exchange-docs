@@ -142,7 +142,7 @@ The following example shows a successful response to the **UploadItems** request
 
 Item identifiers have been shortened to preserve readability.
   
-### Response Elements
+### Response elements
 
 The following elements are used in the response:
   
@@ -196,7 +196,7 @@ The following example shows a response to the **UploadItems** request that conta
 </s:Envelope>
 ```
 
-### Error Response Elements
+### Error response elements
 
 The following elements are used in the error response:
   

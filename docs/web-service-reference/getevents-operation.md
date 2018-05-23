@@ -111,7 +111,7 @@ The following example of a response shows a notification of the existence of two
 > [!NOTE]
 > The item and folder identifiers have been shortened to preserve readability. 
   
-### GetEvents Response Elements
+### GetEvents response elements
 
 The following elements are used in the response:
   

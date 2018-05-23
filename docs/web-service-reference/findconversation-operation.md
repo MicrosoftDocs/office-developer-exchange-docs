@@ -147,7 +147,7 @@ The following example shows a successful response to a **FindConversation** requ
 
 The item and conversation identifiers in the example have been shortened to preserve readability.
   
-### Successful Response Elements
+### Successful response elements
 
 The following elements are used in the response:
   
@@ -236,7 +236,7 @@ The following example shows an error response to the **FindConversation** reques
 </s:Envelope>
 ```
 
-### Error Response Elements
+### Error response elements
 
 The following elements are used in the error response:
   

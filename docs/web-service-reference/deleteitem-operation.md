@@ -91,7 +91,7 @@ The following example shows a successful response to the **DeleteItem** request.
 </soap:Envelope>
 ```
 
-### Successful Response Elements
+### Successful response elements
 
 The following elements are used in the response:
   
@@ -107,7 +107,7 @@ The following elements are used in the response:
     
 To find other options for the response message of the **DeleteItem** operation, explore the schema hierarchy. Start at the [DeleteItemResponse](deleteitemresponse.md) element. 
   
-## DeleteItem Error Response
+## DeleteItem error response
 
 ### Description
 
@@ -140,7 +140,7 @@ The following example shows an error response to a **DeleteItem** request. The e
 </soap:Envelope>
 ```
 
-### Error Response Elements
+### Error response elements
 
 The following elements are used in the error response:
   

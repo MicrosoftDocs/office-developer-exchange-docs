@@ -264,7 +264,7 @@ The following example shows a successful response to the GetItem request. The re
 
 To find other options for the response message of the GetItem operation, explore the schema hierarchy. Start at the [GetItemResponse](getitemresponse.md) element. 
   
-### Successful Response Elements
+### Successful response elements
 
 The following elements are used in the response:
   

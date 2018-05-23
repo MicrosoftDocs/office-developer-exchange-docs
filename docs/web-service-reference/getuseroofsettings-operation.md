@@ -111,7 +111,7 @@ The following example shows a disabled OOF state with the OOF messages.
 </soap:Envelope>
 ```
 
-### Successful GetUserOofSettings Response Elements
+### Successful GetUserOofSettings response elements
 
 The following elements are used in the response:
   

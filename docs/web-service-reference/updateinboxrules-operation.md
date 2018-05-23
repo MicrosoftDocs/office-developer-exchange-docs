@@ -118,7 +118,7 @@ The following Simple Object Access Protocol (SOAP) body example shows a successf
 
 ```
 
-### Successful Response Elements
+### Successful response elements
 
 The following elements are used in the response:
   
@@ -230,7 +230,7 @@ The following Simple Object Access Protocol (SOAP) body example shows a successf
 
 ```
 
-### Successful Response Elements
+### Successful response elements
 
 The following elements are used in the response:
   
@@ -322,7 +322,7 @@ The following Simple Object Access Protocol (SOAP) body example shows a successf
 
 ```
 
-### Successful Response Elements
+### Successful response elements
 
 The following elements are used in the response:
   

@@ -158,7 +158,7 @@ The following example shows a successful response to the CreateItem request.
 
 The [ItemId](itemid.md) element **Id** and **ChangeKey** attributes have been shortened to preserve readability. 
   
-### Successful Response Elements
+### Successful response elements
 
 The following elements are used in the response:
   

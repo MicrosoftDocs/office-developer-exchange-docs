@@ -102,7 +102,7 @@ The DeleteAttachment response includes the ID of the parent item. When attachmen
 > [!NOTE]
 > The [RootItemId](rootitemid.md) identifier and ChangeKey have been shortened to preserve readability. 
   
-### Successful Response Elements
+### Successful response elements
 
 The following elements are used in the response:
   
@@ -120,9 +120,6 @@ The following elements are used in the response:
     
 ## See also
 
-
-
-[CreateAttachment operation](createattachment-operation.md)
-  
-[GetAttachment operation](getattachment-operation.md)
+- [CreateAttachment operation](createattachment-operation.md) 
+- [GetAttachment operation](getattachment-operation.md)
 

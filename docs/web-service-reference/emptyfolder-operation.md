@@ -99,7 +99,7 @@ The following example shows a successful response to the **EmptyFolder** request
 
 ```
 
-### Successful Response Elements
+### Successful response elements
 
 The following elements are used in the response:
   
@@ -113,7 +113,7 @@ The following elements are used in the response:
     
 - [ResponseCode](responsecode.md)
     
-## EmptyFolder Error Response
+## EmptyFolder error response
 
 ### Description
 
@@ -153,7 +153,7 @@ The following example shows an error response to an **Emptyfolder** request. The
 </s:Envelope>
 ```
 
-### Error Response Elements
+### Error response elements
 
 The following elements are used in the response:
   

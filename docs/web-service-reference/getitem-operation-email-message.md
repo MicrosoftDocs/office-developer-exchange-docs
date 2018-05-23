@@ -158,7 +158,7 @@ The following example shows a successful response to the GetItem request.
 
 The MIME content, folder, and item identifiers have been shortened to preserve readability.
   
-### Successful Response Elements
+### Successful response elements
 
 The following elements are used in the response:
   
@@ -257,7 +257,7 @@ The following example shows an error response to a GetItem request. The error wa
 </soap:Envelope>
 ```
 
-### Error Response Elements
+### Error response elements
 
 The following elements are used in the error response:
   

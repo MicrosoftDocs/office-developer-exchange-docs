@@ -97,7 +97,7 @@ The following example shows a successful response to the **DeleteFolder** reques
 </soap:Envelope>
 ```
 
-### Response Elements
+### Response elements
 
 The following elements are used in the response:
   
@@ -113,7 +113,7 @@ The following elements are used in the response:
     
 To find other options for the response message of the **DeleteFolder** operation, explore the schema hierarchy. Start at the [DeleteFolderResponse](deletefolderresponse.md) element. 
   
-## DeleteFolder Error Response
+## DeleteFolder error response
 
 ### Description
 
@@ -150,7 +150,7 @@ The following example shows an error response to a **DeleteFolder** request. The
 
 The **DeleteFolder** operation cannot be used on distinguished folders. 
   
-### Error Response Elements
+### Error response elements
 
 The following elements are used in the error response:
   

@@ -119,7 +119,7 @@ The following example shows a successful response to the **GetDomainSettings** r
 </s:Envelope>
 ```
 
-### Response Elements
+### Response elements
 
 The following elements are used in the response:
   

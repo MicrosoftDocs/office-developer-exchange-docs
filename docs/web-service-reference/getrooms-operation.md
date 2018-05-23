@@ -110,7 +110,7 @@ The following response shows the email address information for the rooms that ar
 </s:Envelope>
 ```
 
-### Successful GetRooms Response Elements
+### Successful GetRooms response elements
 
 The following elements are used in the response:
   
@@ -156,7 +156,7 @@ The following example shows an error response caused by an attempt to get room i
 </s:Envelope>
 ```
 
-### GetRooms Error Response Elements
+### GetRooms Error response elements
 
 The following elements are used in the response:
   

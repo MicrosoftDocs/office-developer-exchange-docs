@@ -119,7 +119,7 @@ xmlns:xsd="http://www.w3.org/2001/XMLSchema"/>
 </s:Envelope>
 ```
 
-### Response Elements
+### Response elements
 
 The following elements are included in the response:
   

@@ -92,7 +92,7 @@ The following is an example of a response to a **GetRoomLists** request. This re
 
 ```
 
-### Successful GetRoomLists Response Elements
+### Successful GetRoomLists response elements
 
 The following elements are used in the response:
   
@@ -134,7 +134,7 @@ The following example shows the response to an attempt to get room lists from a 
 
 ```
 
-#### GetRoomLists Error Response Elements
+#### GetRoomLists Error response elements
 
 The following elements are used in the error response:
   

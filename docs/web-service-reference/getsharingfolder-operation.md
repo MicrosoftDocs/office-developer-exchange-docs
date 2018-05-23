@@ -118,7 +118,7 @@ The following example shows a successful response to a **GetSharingFolder** requ
 </soap:Envelope>
 ```
 
-## GetSharingFolder Error Response
+## GetSharingFolder error response
 
 ### Description
 

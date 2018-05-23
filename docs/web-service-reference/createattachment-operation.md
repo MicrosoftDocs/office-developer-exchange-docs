@@ -112,7 +112,7 @@ The following example shows a successful response to the CreateAttachment reques
 
 The response contains the identifier of the attached file. It also contains the identifier and change key of the root item. The item identifiers and change key have been shortened to preserve readability.
   
-### Successful Response Elements
+### Successful response elements
 
 The following elements are used in the response:
   
@@ -227,7 +227,7 @@ The following example shows a successful response to the CreateAttachment reques
 
 The response contains the identifier of the new attachment. It also contains the identifier and change key of the root item. The root item is the item that contains the attachment. The item identifiers and change key have been shortened to preserve readability.
   
-### Successful Response Elements
+### Successful response elements
 
 The following elements are used in the response:
   
@@ -284,7 +284,7 @@ The following example shows an error response to the CreateAttachment request. T
 </soap:Envelope>
 ```
 
-### Error Response Elements
+### Error response elements
 
 The following elements are used in the error response:
   

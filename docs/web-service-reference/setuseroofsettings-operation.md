@@ -124,7 +124,7 @@ The following example shows a successful response to the **SetUserOofSettings** 
 </soap:Envelope>
 ```
 
-### Successful Response Elements
+### Successful response elements
 
 The following elements are used in the response:
   

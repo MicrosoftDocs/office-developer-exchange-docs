@@ -146,7 +146,7 @@ The following example shows a successful response to the UpdateFolder request. I
   
 The folder ID that is returned in the response represents the updated folder.
   
-### Successful Response Elements
+### Successful response elements
 
 The following elements are used in the response:
   
@@ -204,7 +204,7 @@ The following example shows an error response to an UpdateFolder request.
 
 This example shows an error response that is caused by an invalid **ChangeKey** attribute in the request. 
   
-### Error Response Elements
+### Error response elements
 
 The following elements are used in the error response:
   

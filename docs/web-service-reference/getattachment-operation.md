@@ -109,7 +109,7 @@ The following example shows a successful response to a GetAttachment request. Th
 
 The response messages for GetAttachment will always contain the full attachment; that is, all properties will always be included. For file attachments, those properties are [Name (AttachmentType)](name-attachmenttype.md), [ContentType](contenttype.md), [ContentId](contentid.md), [ContentLocation](contentlocation.md), and [Content](content.md). For item attachments, those properties are [Name (AttachmentType)](name-attachmenttype.md), [ContentType](contenttype.md), [ContentId](contentid.md), [ContentLocation](contentlocation.md) and all of the item's properties, as if the **AllProperties** shape had been used in a GetItem call. The [AttachmentShape](attachmentshape.md) element, if present, will allow a consumer application to request additional extended properties for item attachments. 
   
-### Successful Response Elements
+### Successful response elements
 
 The following elements are used in the response:
   

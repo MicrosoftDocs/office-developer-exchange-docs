@@ -132,7 +132,7 @@ The following Simple Object Access Protocol (SOAP) body example shows a successf
 </soap:Envelope>
 ```
 
-### Response Elements
+### Response elements
 
 The properties that are returned in the response are determined by the [BaseShape](baseshape.md) and the [AdditionalProperties](additionalproperties.md) if they are used. A successful **FindFolder** response includes the following elements: 
   
@@ -199,7 +199,7 @@ The following SOAP body example shows an error response that occurs when you sea
 </soap:Envelope>
 ```
 
-### Error Response Elements
+### Error response elements
 
 The **FindFolder** error response includes the following elements: 
   

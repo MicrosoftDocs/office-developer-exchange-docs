@@ -107,7 +107,7 @@ The following Simple Object Access Protocol (SOAP) body example shows a successf
 </soap:Envelope>
 ```
 
-### Response Elements
+### Response elements
 
 This **GetFolder** response includes the following elements: 
   
@@ -165,7 +165,7 @@ The following SOAP body example shows an error response that is caused by an inc
 </soap:Envelope>
 ```
 
-### Response Elements
+### Response elements
 
 This **GetFolder** error response includes the following elements: 
   

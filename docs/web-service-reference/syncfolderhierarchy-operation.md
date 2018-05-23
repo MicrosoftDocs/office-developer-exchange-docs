@@ -116,7 +116,7 @@ The following example shows a successful response to the SyncFolderHierarchy req
 
 The [SyncState](syncstate-ex15websvcsotherref.md) element base64-encoded data and the folder identifier data have been shortened to preserve readability. 
   
-### Successful Response Elements
+### Successful response elements
 
 The following elements are used in the response:
   
@@ -154,7 +154,7 @@ The following elements are used in the response:
     
 - [UnreadCount](unreadcount.md)
     
-## SyncFolderHierarchy Error Response
+## SyncFolderHierarchy error response
 
 ### Description
 
@@ -190,7 +190,7 @@ The following example shows an error response to a SyncFolderHierarchy request. 
 </soap:Envelope>
 ```
 
-### Error Response Elements
+### Error response elements
 
 The following elements are used in the error response:
   

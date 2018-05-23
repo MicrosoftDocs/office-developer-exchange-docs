@@ -125,7 +125,7 @@ The following code example shows a successful UpdateItem response.
 
 The item identifier has been shortened to preserve readability.
   
-### Successful Response Elements
+### Successful response elements
 
 The following elements are used in the response:
   
@@ -186,7 +186,7 @@ The following code example shows an invalid request.
 
 The item identifier has been shortened to preserve readability.
   
-## UpdateItem (Contact) Error Response
+## UpdateItem (Contact) error response
 
 ### Description
 

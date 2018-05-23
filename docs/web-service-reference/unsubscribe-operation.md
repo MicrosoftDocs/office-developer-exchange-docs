@@ -79,7 +79,7 @@ The following example shows a successful response to an Unsubscribe request.
 </soap:Envelope>
 ```
 
-### Unsubscribe Response Elements
+### Unsubscribe response elements
 
 The following elements are used in the response:
   
@@ -126,7 +126,7 @@ The following example of an Unsubscribe error response occurs in response to an 
 </soap:Envelope>
 ```
 
-### Unsubscribe Error Response Elements
+### Unsubscribe Error response elements
 
 The following elements are used in the error response:
   

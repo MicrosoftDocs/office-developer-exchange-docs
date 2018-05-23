@@ -107,7 +107,7 @@ The item identifier of the new item is returned in the response message. Item id
 </soap:Envelope>
 ```
 
-### Successful Response Elements
+### Successful response elements
 
 The following elements are used in the response:
   
@@ -125,7 +125,7 @@ The following elements are used in the response:
     
 To find other options for the response message of the **CopyItem** operation, explore the schema hierarchy. Start at the [CopyItemResponse](copyitemresponse.md) element. 
   
-## CopyItem Error Response
+## CopyItem error response
 
 ### Description
 
@@ -159,7 +159,7 @@ The following example shows an error response to a **CopyItem** request.
 </soap:Envelope>
 ```
 
-### Error Response Elements
+### Error response elements
 
 The following elements are used in the error response:
   

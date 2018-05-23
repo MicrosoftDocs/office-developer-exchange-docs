@@ -152,7 +152,7 @@ The following code example shows a successful GetItem response for the **AllProp
 
 The item identifier has been shortened to preserve readability.
   
-### Successful Response Elements
+### Successful response elements
 
 The following elements are used in the response for a GetItem request with a response shape of **AllProperties** for a contact item. 
   
@@ -279,7 +279,7 @@ The following code example shows an invalid request.
 
 Item identifiers have been shortened to preserve readability.
   
-## GetItem (Contact) Error Response
+## GetItem (Contact) error response
 
 ### Description
 
@@ -313,7 +313,7 @@ The following code example shows an error response to a GetItem (Contact) reques
 </soap:Envelope>
 ```
 
-### Error Response Elements
+### Error response elements
 
 The following elements are used in the error response:
   

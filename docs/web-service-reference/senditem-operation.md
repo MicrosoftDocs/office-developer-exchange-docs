@@ -89,7 +89,7 @@ The following example shows a successful SendItem response.
 </soap:Envelope>
 ```
 
-### Successful Response Elements
+### Successful response elements
 
 The following elements are used in the response:
   
@@ -133,7 +133,7 @@ The following code sample shows an example of a request with an invalid identifi
 </soap:Envelope>
 ```
 
-## SendItem (E-mail Message) Error Response
+## SendItem (E-mail Message) error response
 
 ### Description
 
@@ -166,7 +166,7 @@ The following example shows an error response to a SendItem request that contain
 </soap:Envelope>
 ```
 
-### Error Response Elements
+### Error response elements
 
 The following elements are used in the error response:
   

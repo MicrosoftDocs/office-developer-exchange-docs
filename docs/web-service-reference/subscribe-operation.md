@@ -102,7 +102,7 @@ The following example shows a successful pull subscription response. The respons
 </soap:Envelope>
 ```
 
-### Pull Subscription Subscribe Response Elements
+### Pull Subscription Subscribe response elements
 
 The following elements are used in the response:
   
@@ -153,7 +153,7 @@ The following example shows an error response to a Subscribe request. The error 
 </soap:Envelope>
 ```
 
-### Pull Subscription Error Response Elements
+### Pull Subscription Error response elements
 
 The following elements are used in the error response:
   
@@ -265,7 +265,7 @@ The following example shows a successful push subscription response.
 </soap:Envelope>
 ```
 
-### Push Subscription Response Elements
+### Push Subscription response elements
 
 The following elements are used in the response:
   

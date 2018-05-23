@@ -111,7 +111,7 @@ The item identifier of the new item is returned in the response message. Item id
 
 The **MoveItem** operation will indicate success if the move was successful. 
   
-### Successful Response Elements
+### Successful response elements
 
 The following elements are used in the response:
   

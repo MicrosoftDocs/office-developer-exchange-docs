@@ -135,7 +135,7 @@ The following example shows a successful response to a GetItem request.
 > [!NOTE]
 > The item and folder identifiers and change keys have been shortened to preserve readability. 
   
-### Successful Response Elements
+### Successful response elements
 
 The following elements are used in the response:
   

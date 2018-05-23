@@ -159,7 +159,7 @@ The **GetSharingMetadata** request will succeed even if invalid recipients are s
   
 If all intended recipients are invalid, the [EncryptedSharedFolderDataCollection](encryptedsharedfolderdatacollection.md) element will be empty. 
   
-## GetSharingMetadata Error Response
+## GetSharingMetadata error response
 
 ### Description
 

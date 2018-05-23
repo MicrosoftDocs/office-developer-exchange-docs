@@ -147,7 +147,7 @@ The following example shows a successful **GetUserSettings** response.
 </s:Envelope>
 ```
 
-### Response Elements
+### Response elements
 
 The following elements are used in the response body:
   

@@ -148,7 +148,7 @@ The following example shows a successful response to an **ExportItems** request.
 
 The item identifiers and change keys in the example have been shortened to preserve readability.
   
-### Response Elements
+### Response elements
 
 The following elements are used in the response:
   
@@ -228,7 +228,7 @@ The following example shows a response to the **ExportItems** request that conta
 
 The item identifiers, change keys, and data in the example have been shortened to preserve readability.
   
-### Error Response Elements
+### Error response elements
 
 The following elements are used in the error response:
   

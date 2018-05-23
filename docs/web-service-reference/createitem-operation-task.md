@@ -126,7 +126,7 @@ The following example shows a successful response to the CreateItem request.
 </soap:Envelope>
 ```
 
-### Successful Response Elements
+### Successful response elements
 
 The following elements are included in the response:
   

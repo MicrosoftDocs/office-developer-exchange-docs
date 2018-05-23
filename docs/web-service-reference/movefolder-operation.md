@@ -116,7 +116,7 @@ The following example shows a successful response to the MoveFolder request.
   
 The FolderId that is returned in the response represents the folder that was moved to the new the folder location.
   
-### Response Elements
+### Response elements
 
 The MoveFolder response includes the following elements:
   
@@ -168,7 +168,7 @@ The following example shows an error response that occurs when you try to move a
 </soap:Envelope>
 ```
 
-### Error Response Elements
+### Error response elements
 
 The MoveFolder error response includes the following elements:
   
