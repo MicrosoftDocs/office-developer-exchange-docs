@@ -25,7 +25,7 @@ The **Error** element contains an Autodiscover error response.
   
 [Error (POX)](error-pox.md)
   
-```
+```xml
 <Error Time="" Id="">
    <ErrorCode/>
    <Message/>

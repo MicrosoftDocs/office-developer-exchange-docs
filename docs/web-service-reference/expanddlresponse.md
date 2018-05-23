@@ -22,7 +22,7 @@ The **ExpandDLResponse** element defines a response to a request to expand a dis
   
 [ExpandDLResponse](expanddlresponse.md)
   
-```
+```xml
 <ExpandDLResponse>
    <ResponseMessages/>
 </ExpandDLResponse>

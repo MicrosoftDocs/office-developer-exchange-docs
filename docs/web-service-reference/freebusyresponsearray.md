@@ -24,7 +24,7 @@ The **FreeBusyResponseArray** element contains the requested users' availability
   
 [FreeBusyResponseArray](freebusyresponsearray.md)
   
-```
+```xml
 <FreeBusyResponseArray>
    <FreeBusyResponse>...</FreeBusyResponse>
 </FreeBusyResponseArray>

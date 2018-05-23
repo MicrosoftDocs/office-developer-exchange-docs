@@ -21,7 +21,7 @@ The **GetCallInfo** element defines a request to get information about a call.
   
 [GetCallInfo (UM web service)](getcallinfo-um-web-service.md)
   
-```
+```xml
 <GetCallInfo>
   <CallId/>
 </GetCallInfo>

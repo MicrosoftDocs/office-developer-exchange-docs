@@ -20,7 +20,7 @@ description: "The Exists element represents a search expression that returns tru
 
 The **Exists** element represents a search expression that returns **true** if the supplied property exists on an item. 
   
-```
+```xml
 <Exists>
    <Path/>
 </Exists>

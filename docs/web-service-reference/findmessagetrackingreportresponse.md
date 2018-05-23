@@ -20,7 +20,7 @@ description: "The FindMessageTrackingReportResponse element contains the status 
 
 The **FindMessageTrackingReportResponse** element contains the status and result of a single [FindMessageTrackingReport operation](findmessagetrackingreport-operation.md) request. 
   
-```
+```xml
 <FindMessageTrackingReportResponse ResponseClass="">
    <MessageText/>
    <ResponseCode/>

@@ -20,7 +20,7 @@ description: "The GetUserOofSettingsRequest element is the root element that con
 
 The **GetUserOofSettingsRequest** element is the root element that contains the arguments used to get a mailbox user's Out of Office (OOF) settings. 
   
-```
+```xml
 <GetUserOofSettingsRequest>
    <Mailbox>...</Mailbox>
 </GetUserOofSettingsRequest>

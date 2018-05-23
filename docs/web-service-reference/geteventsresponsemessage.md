@@ -20,7 +20,7 @@ description: "The GetEventsResponseMessage element contains the status and resul
 
 The **GetEventsResponseMessage** element contains the status and result of a single [GetEvents operation](getevents-operation.md) request. 
   
-```
+```xml
 <GetEventsResponseMessage ResponseClass="">
    <MessageText/>
    <ResponseCode/>

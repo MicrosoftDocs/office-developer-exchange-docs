@@ -22,7 +22,7 @@ The **FindFolderResponse** element defines a response to a FindFolder request.
   
 [FindFolderResponse](findfolderresponse.md)
   
-```
+```xml
 <FindFolderResponse>
    <ResponseMessages/>
 </FindFolderResponse>

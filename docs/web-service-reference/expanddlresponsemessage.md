@@ -26,7 +26,7 @@ The **ExpandDLResponseMessage** element contains the status and result of a sing
   
 [ExpandDLResponseMessage](expanddlresponsemessage.md)
   
-```
+```xml
 <ExpandDLResponseMessage ResponseClass="" IndexedPagingOffset="" NumeratorOffset="" AbsoluteDenominator="" IncludesLastItemInRange="" TotalItemsInView="">
    <MessageText/>
    <ResponseCode/>

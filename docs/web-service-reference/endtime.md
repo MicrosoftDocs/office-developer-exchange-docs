@@ -20,7 +20,7 @@ description: "The EndTime element represents the end of a time span."
 
 The **EndTime** element represents the end of a time span. 
   
-```
+```xml
 <EndTime>dateTime</EndTime>
 ```
 

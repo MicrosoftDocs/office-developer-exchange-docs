@@ -20,7 +20,7 @@ description: "The ExternalUserIdentity element identifies an external delegate u
 
 The **ExternalUserIdentity** element identifies an external delegate user or an external user who has folder access permissions. 
   
-```
+```xml
 <ExternalUserIdentity/>
 ```
 

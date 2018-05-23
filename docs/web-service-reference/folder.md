@@ -20,7 +20,7 @@ description: "The Folder element defines a folder to create, get, find, synchron
 
 The **Folder** element defines a folder to create, get, find, synchronize, or update. 
   
-```
+```xml
 <Folder>
    <FolderId/>
    <ParentFolderId/>

@@ -20,7 +20,7 @@ description: "The ExpandDL element defines a request to expand a distribution li
 
 The **ExpandDL** element defines a request to expand a distribution list. 
   
-```
+```xml
 <ExpandDL>
    <Mailbox/>
 </ExpandDL>

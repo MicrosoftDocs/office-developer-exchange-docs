@@ -20,7 +20,7 @@ description: "The GetFolderResponse element defines a response to a GetFolder re
 
 The **GetFolderResponse** element defines a response to a GetFolder request. 
   
-```
+```xml
 <GetFolderResponse>
    <ResponseMessages/>
 </GetFolderResponse>

@@ -20,7 +20,7 @@ description: "The EndTimeZone element defines the time zone for the end time of 
 
 The **EndTimeZone** element defines the time zone for the end time of a [CalendarItem](calendaritem.md) or [MeetingRequest](meetingrequest.md).
   
-```
+```xml
 <EndTimeZone Id="" Name="">
    <Periods/>
    <TransitionsGroups/>

@@ -20,7 +20,7 @@ description: "The FolderShape element identifies the folder properties to includ
 
 The **FolderShape** element identifies the folder properties to include in a [GetFolder](getfolder.md), [FindFolder](findfolder.md), or [SyncFolderHierarchy](syncfolderhierarchy.md) response. 
   
-```
+```xml
 <FolderShape>
    <BaseShape/>
    <AdditionalProperties/>

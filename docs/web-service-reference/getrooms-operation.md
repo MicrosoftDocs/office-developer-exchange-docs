@@ -1,7 +1,5 @@
 ---
 title: "GetRooms operation"
- 
- 
 manager: sethgros
 ms.date: 9/17/2015
 ms.audience: Developer
@@ -78,7 +76,7 @@ The following response shows the email address information for the rooms that ar
   
 ### Code
 
-```
+```xml
 <?xml version="1.0" encoding="utf-8"?>
 <s:Envelope xmlns:s="http://schemas.xmlsoap.org/soap/envelope/">
   <s:Header>
@@ -172,9 +170,6 @@ The following elements are used in the response:
     
 ## See also
 
-
-
-[EWS operations in Exchange](ews-operations-in-exchange.md)
-  
+- [EWS operations in Exchange](ews-operations-in-exchange.md)
 - [EWS XML elements in Exchange](ews-xml-elements-in-exchange.md)
 

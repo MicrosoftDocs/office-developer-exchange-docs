@@ -20,7 +20,7 @@ description: "The GetDelegateResponse element contains the status and result of 
 
 The **GetDelegateResponse** element contains the status and result of a [GetDelegate operation](getdelegate-operation.md) request. 
   
-```
+```xml
 <GetDelegateResponse>
    <DeliverMeetingRequests/>
    <ResponseMessages/>

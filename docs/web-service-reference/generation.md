@@ -20,7 +20,7 @@ description: "The Generation element represents a generational abbreviation that
 
 The **Generation** element represents a generational abbreviation that follows the full name of a contact. 
   
-```
+```xml
 <Generation/>
 ```
 

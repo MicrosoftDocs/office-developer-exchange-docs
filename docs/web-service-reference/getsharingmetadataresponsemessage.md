@@ -20,7 +20,7 @@ description: "The GetSharingMetadataResponseMessage element contains the status 
 
 The **GetSharingMetadataResponseMessage** element contains the status and result of a single [GetSharingMetadata operation](getsharingmetadata-operation.md) request. 
   
-```
+```xml
 <GetSharingMetadataResponseMessage ResponseClass="">
    <MessageText/>
    <ResponseCode/>

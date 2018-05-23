@@ -26,7 +26,7 @@ The **FolderChange** element represents a collection of changes to be performed 
   
 [FolderChange](folderchange.md)
   
-```
+```xml
 <FolderChange>
    <FolderId/>
    <Updates/>

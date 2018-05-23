@@ -21,7 +21,7 @@ The **ErrorCode** element contains the error code for an error Autodiscover resp
   
 [ErrorCode (POX)](errorcode-pox.md)
   
-```
+```xml
 <ErrorCode/>
 ```
 

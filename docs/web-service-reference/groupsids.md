@@ -20,7 +20,7 @@ description: "The GroupSids element represents a collection of Active Directory 
 
 The **GroupSids** element represents a collection of Active Directory directory service group object security identifiers. 
   
-```
+```xml
 <GroupSids>
    <GroupIdentifier/>
 </GroupSids>

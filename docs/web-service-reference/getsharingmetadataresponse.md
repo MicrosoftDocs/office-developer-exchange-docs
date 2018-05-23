@@ -20,7 +20,7 @@ description: "The GetSharingMetadataResponse element defines a response to a Get
 
 The **GetSharingMetadataResponse** element defines a response to a [GetSharingMetadata operation](getsharingmetadata-operation.md) request. 
   
-```
+```xml
 <GetSharingMetadataResponse ResponseClass="">
    <MessageText/>
    <ResponseCode/>

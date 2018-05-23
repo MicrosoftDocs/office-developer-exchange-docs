@@ -20,7 +20,7 @@ description: "The GetMessageTrackingReportResponse element contains the response
 
 The **GetMessageTrackingReportResponse** element contains the response for the [GetMessageTrackingReport operation](getmessagetrackingreport-operation.md).
   
-```
+```xml
 <GetMessageTrackingReportResponse ResponseClass="">
    <MessageText/>
    <ResponseCode/>

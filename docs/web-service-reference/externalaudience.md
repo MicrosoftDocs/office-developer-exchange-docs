@@ -20,7 +20,7 @@ description: "The ExternalAudience element sets or contains a value that determi
 
 The **ExternalAudience** element sets or contains a value that determines to whom external Out of Office (OOF) messages are sent. 
   
-```
+```xml
 <ExternalAudience>None or Known or All</ExternalAudience>
 ```
 

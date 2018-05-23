@@ -20,7 +20,7 @@ description: "The EventDescription element"
 
 The **EventDescription** element 
   
-```
+```xml
 <EventDescription/>
 ```
 

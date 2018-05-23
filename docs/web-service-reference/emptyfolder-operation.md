@@ -1,7 +1,5 @@
 ---
 title: "EmptyFolder operation"
- 
- 
 manager: sethgros
 ms.date: 9/17/2015
 ms.audience: Developer
@@ -62,7 +60,7 @@ The following elements are used in the request:
     
 - [FolderId](folderid.md)
     
-## Successful EmptyFolder Response
+## Successful EmptyFolder response
 
 ### Description
 
@@ -174,8 +172,6 @@ The following elements are used in the response:
 - [Folders](folders-ex15websvcsotherref.md)
     
 ## See also
-
-
 
 - [EWS XML elements in Exchange](ews-xml-elements-in-exchange.md)
 

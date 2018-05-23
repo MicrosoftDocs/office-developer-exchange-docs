@@ -20,7 +20,7 @@ description: "The GetSharingFolderResponseMessage element contains the status an
 
 The **GetSharingFolderResponseMessage** element contains the status and result of a single [GetSharingFolder operation](getsharingfolder-operation.md) request. 
   
-```
+```xml
 <GetSharingFolderResponseMessage ResponseClass="">
    <MessageText/>
    <ResponseCode/>

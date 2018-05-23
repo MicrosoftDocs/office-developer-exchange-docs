@@ -1,7 +1,5 @@
 ---
 title: "GetMessageTrackingReport operation"
- 
- 
 manager: sethgros
 ms.date: 9/17/2015
 ms.audience: Developer
@@ -22,9 +20,6 @@ The **GetMessageTrackingReport** operation gets tracking information about the s
   
 ## See also
 
-
-
-[EWS operations in Exchange](ews-operations-in-exchange.md)
-  
+- [EWS operations in Exchange](ews-operations-in-exchange.md)
 - [EWS XML elements in Exchange](ews-xml-elements-in-exchange.md)
 

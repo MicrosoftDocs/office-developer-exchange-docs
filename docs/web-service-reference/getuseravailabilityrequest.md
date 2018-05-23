@@ -20,7 +20,7 @@ description: "The GetUserAvailabilityRequest element contains the arguments used
 
 The **GetUserAvailabilityRequest** element contains the arguments used to obtain user availability information. This is a root element. 
   
-```
+```xml
 <GetUserAvailabilityRequest>
    <TimeZone>...</TimeZone>
    <MailboxDataArray>...</MailboxDataArray>

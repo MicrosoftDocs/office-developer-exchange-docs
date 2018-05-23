@@ -20,7 +20,7 @@ description: "The End element represents the end of a duration."
 
 The **End** element represents the end of a duration. 
   
-```
+```xml
 <End/>
 ```
 

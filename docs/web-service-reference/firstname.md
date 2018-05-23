@@ -20,7 +20,7 @@ description: "The FirstName element represents the first name of a contact."
 
 The **FirstName** element represents the first name of a contact. 
   
-```
+```xml
 <FirstName/>
 ```
 

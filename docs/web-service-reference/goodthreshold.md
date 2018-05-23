@@ -26,7 +26,7 @@ The **GoodThreshold** element specifies the percentage of attendees that must ha
   
 [GoodThreshold](goodthreshold.md)
   
-```
+```xml
 <GoodThreshold>...</GoodThreshold>
 ```
 

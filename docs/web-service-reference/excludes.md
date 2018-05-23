@@ -20,7 +20,7 @@ description: "The Excludes element performs a bitwise mask of the specified prop
 
 The **Excludes** element performs a bitwise mask of the specified property and a supplied value. 
   
-```
+```xml
 <Excludes>
    <FieldURI/>
    <Bitmask/>

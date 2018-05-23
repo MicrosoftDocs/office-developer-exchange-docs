@@ -20,7 +20,7 @@ description: "The FieldURIOrConstant element represents either a property or a c
 
 The **FieldURIOrConstant** element represents either a property or a constant value to be used when comparing with another property. 
   
-```
+```xml
 <FieldURIOrConstant>
    <Constant/>
 </FieldURIOrConstant>

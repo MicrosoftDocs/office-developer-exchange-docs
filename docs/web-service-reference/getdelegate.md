@@ -20,7 +20,7 @@ description: "The GetDelegate element defines a request to get information about
 
 The **GetDelegate** element defines a request to get information about delegates to a mailbox. This element was introduced in Microsoft Exchange Server 2007 Service Pack 1 (SP1). 
   
-```
+```xml
 <GetDelegate IncludePermissions="">
       <Mailbox/>
    <UserIds/>

@@ -20,7 +20,7 @@ description: "The FolderSize element describes the total size of all the content
 
 The **FolderSize** element describes the total size of all the contents of a managed folder. 
   
-```
+```xml
 <FolderSize/>
 ```
 

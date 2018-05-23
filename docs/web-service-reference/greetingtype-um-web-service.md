@@ -23,7 +23,7 @@ The **GreetingType** element defines the type of greeting to use in a [PlayOnPho
   
 [GreetingType (UM web service)](greetingtype-um-web-service.md)
   
-```
+```xml
 <GreetingType/>
 ```
 

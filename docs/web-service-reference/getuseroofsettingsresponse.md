@@ -20,7 +20,7 @@ description: "The GetUserOofSettingsResponse element contains the response messa
 
 The **GetUserOofSettingsResponse** element contains the response message and the Out of Office (OOF) settings for a user. 
   
-```
+```xml
 <GetUserOofSettingsResponse>
    <ResponseMessage>...</ResponseMessage>
    <OofSettings>...</OofSettings>

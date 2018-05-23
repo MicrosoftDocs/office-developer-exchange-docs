@@ -20,7 +20,7 @@ description: "The FileAsMapping element defines how to construct what is display
 
 The **FileAsMapping** element defines how to construct what is displayed for a contact. 
   
-```
+```xml
 <FileAsMapping/>
 ```
 

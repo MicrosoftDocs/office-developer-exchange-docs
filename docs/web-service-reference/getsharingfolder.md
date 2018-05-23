@@ -20,7 +20,7 @@ description: "The GetSharingFolder element defines a request to get the local fo
 
 The **GetSharingFolder** element defines a request to get the local folder identifier of a specified shared folder. It is the base element for the [GetSharingFolder operation](getsharingfolder-operation.md).
   
-```
+```xml
 <GetSharingFolder>   <SmtpAddress/>   <DataType/>   <SharedFolderId/></GetSharingFolder>
 ```
 

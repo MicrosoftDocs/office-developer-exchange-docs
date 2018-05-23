@@ -28,7 +28,7 @@ The **ExcludeConflicts** element specifies whether to return suggested times for
   
 [ExcludeConflicts](excludeconflicts.md)
   
-```
+```xml
 <ExcludeConflicts>true or false</ExcludeConflicts>
 ```
 

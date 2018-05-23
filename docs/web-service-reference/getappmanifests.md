@@ -16,7 +16,7 @@ description: "The GetAppManifests element is the base element for a request to r
 
 The **GetAppManifests** element is the base element for a request to return the manifest for apps. 
   
-```
+```xml
 <GetAppManifests />
 ```
 

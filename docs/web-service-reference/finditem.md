@@ -20,7 +20,7 @@ description: "The FindItem element defines a request to find items in a mailbox.
 
 The **FindItem** element defines a request to find items in a mailbox. 
   
-```
+```xml
 <FindItem Traversal="">
    <ItemShape/>
    <IndexedPageItemView/>

@@ -9,8 +9,6 @@ api_type:
 - schema
 ms.assetid: bc632c85-ec74-4a00-baec-df5973e032fa
 description: "The EncryptionMethod element represents the cryptographic method that is used for the POP, IMAP, and SMTP protocols."
- 
- 
 ---
 
 # EncryptionMethod (SOAP)
@@ -55,7 +53,5 @@ The text value for this element is the cryptographic method that is used for the
    
 ## See also
 
-
-
-[GetUserSettings operation (SOAP)](getusersettings-operation-soap.md)
+- [GetUserSettings operation (SOAP)](getusersettings-operation-soap.md)
 

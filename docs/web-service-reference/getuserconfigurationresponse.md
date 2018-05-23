@@ -20,7 +20,7 @@ description: "The GetUserConfigurationResponse element defines a response to a s
 
 The **GetUserConfigurationResponse** element defines a response to a single GetUserConfiguration request. 
   
-```
+```xml
 <GetUserConfigurationResponse>   <ResponseMessages/></GetUserConfigurationResponse>
 ```
 

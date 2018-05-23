@@ -20,7 +20,7 @@ description: "The GroupIdentifier element represents a single security identifie
 
 The **GroupIdentifier** element represents a single security identifier and attribute for an Active Directory directory service object group of which the account is a member. 
   
-```
+```xml
 <GroupIdentifier>
    <SecurityIdentifier/>
 </GroupIdentifier>

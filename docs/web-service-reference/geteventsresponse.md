@@ -20,7 +20,7 @@ description: "The GetEventsResponse element represents a response to a GetEvents
 
 The **GetEventsResponse** element represents a response to a GetEvents request. 
   
-```
+```xml
 <GetEventsResponse>
    <ResponseMessages/>
 </GetEventsResponse>

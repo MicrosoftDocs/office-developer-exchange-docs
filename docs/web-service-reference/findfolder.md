@@ -20,7 +20,7 @@ description: "The FindFolder element defines a request to find folders in a mail
 
 The **FindFolder** element defines a request to find folders in a mailbox. 
   
-```
+```xml
 <FindFolder Traversal="Shallow/Deep/SoftDeleted">
    <FolderShape/>
    <IndexedPageFolderView/>

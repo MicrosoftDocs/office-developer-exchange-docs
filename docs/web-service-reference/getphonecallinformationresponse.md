@@ -20,7 +20,7 @@ description: "The GetPhoneCallInformationResponse element defines a response to 
 
 The **GetPhoneCallInformationResponse** element defines a response to a single GetPhoneCallInformation request. 
   
-```
+```xml
 <GetPhoneCallInformationResponse ResponseClass="">
    <MessageText/>
    <ResponseCode/>

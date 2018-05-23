@@ -20,7 +20,7 @@ description: "The EndDate element represents the end date of a recurring task or
 
 The **EndDate** element represents the end date of a recurring task or a calendar item that has the EndDateRecurrence pattern type. 
   
-```
+```xml
 <EndDate/>
 ```
 

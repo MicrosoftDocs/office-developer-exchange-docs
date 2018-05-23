@@ -20,7 +20,7 @@ description: "The GetFolder element defines a request to get a folder from a mai
 
 The **GetFolder** element defines a request to get a folder from a mailbox in the Exchange store. 
   
-```
+```xml
 <GetFolder>
    <FolderShape/>
    <FolderIds/>

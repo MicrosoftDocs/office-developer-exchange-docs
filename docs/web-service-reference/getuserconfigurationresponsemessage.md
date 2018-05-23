@@ -20,7 +20,7 @@ description: "The GetUserConfigurationResponseMessage element represents a respo
 
 The **GetUserConfigurationResponseMessage** element represents a response that returns a user configuration object. 
   
-```
+```xml
 <GetUserConfigurationResponseMessage ResponseClass="">
    <MessageText/>
    <ResponseCode/>

@@ -20,7 +20,7 @@ description: "The ExceptionFieldURI element identifies particular errors in a re
 
 The **ExceptionFieldURI** element identifies particular errors in a request. This element is only used as part of an error response in the [MessageXml](messagexml.md) node. 
   
-```
+```xml
 <ExceptionFieldURI FieldURI="" />
 ```
 

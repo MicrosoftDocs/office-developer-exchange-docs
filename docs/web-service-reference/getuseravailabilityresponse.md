@@ -20,7 +20,7 @@ description: "The GetUserAvailabilityResponse element is the root element that c
 
 The **GetUserAvailabilityResponse** element is the root element that contains the properties that define user availability information or suggested meeting time information. 
   
-```
+```xml
 <GetUserAvailabilityResponse>
    <FreeBusyResponseArray>...</FreeBusyResponseArray>
    <SuggestionsResponse>...</SuggestionsResponse>

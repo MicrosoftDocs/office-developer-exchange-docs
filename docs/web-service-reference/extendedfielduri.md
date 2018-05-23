@@ -20,7 +20,7 @@ description: "The ExtendedFieldURI element identifies an extended MAPI property.
 
 The **ExtendedFieldURI** element identifies an extended MAPI property. 
   
-```
+```xml
 <ExtendedFieldURI DistinguishedPropertySetId="" PropertySetId="" PropertyTag="" PropertyName="" PropertyId="" PropertyType="" />
 ```
 

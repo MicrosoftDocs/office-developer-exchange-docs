@@ -16,7 +16,7 @@ description: "The GivenNames element specifies an array of given name values and
 
 The **GivenNames** element specifies an array of given name values and the identifiers of their source attributions for the associated persona. 
   
-```
+```xml
 <GivenNames>
     <StringAttributedValue/>
 </GivenNames>

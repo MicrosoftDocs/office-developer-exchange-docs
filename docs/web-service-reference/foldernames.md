@@ -24,7 +24,7 @@ The **FolderNames** element contains an array of named managed folders to add to
   
 [FolderNames](foldernames.md)
   
-```
+```xml
 <FolderNames>
    <FolderName/>
 </FolderNames>

@@ -26,7 +26,7 @@ The **FindItemResponseMessage** element contains the status and result of a sing
   
 [FindItemResponseMessage](finditemresponsemessage.md)
   
-```
+```xml
 <FindItemResponseMessage ResponseClass="">
    <MessageText/>
    <ResponseCode/>

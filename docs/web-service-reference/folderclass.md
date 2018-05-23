@@ -20,7 +20,7 @@ description: "The FolderClass element represents the folder class for a folder."
 
 The **FolderClass** element represents the folder class for a folder. 
   
-```
+```xml
 <FolderClass/>
 ```
 

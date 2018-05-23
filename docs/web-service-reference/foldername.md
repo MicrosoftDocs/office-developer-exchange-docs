@@ -26,7 +26,7 @@ The **FolderName** element identifies a single managed custom folder to add to a
   
 [FolderName](foldername.md)
   
-```
+```xml
 <FolderName>...</FolderName>
 ```
 

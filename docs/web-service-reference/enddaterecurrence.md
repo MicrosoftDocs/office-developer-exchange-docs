@@ -20,7 +20,7 @@ description: "The EndDateRecurrence element describes the start date and the end
 
 The **EndDateRecurrence** element describes the start date and the end date of an item recurrence pattern. 
   
-```
+```xml
 <EndDateRecurrence>
    <StartDate/>
    <EndDate/>

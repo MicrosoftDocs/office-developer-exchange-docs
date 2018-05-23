@@ -22,7 +22,7 @@ The **ExchangeImpersonation** element is used in the SOAP header of a request. W
   
 [ExchangeImpersonation](exchangeimpersonation.md)
   
-```
+```xml
 <ExchangeImpersonation>
    <ConnectingSID/>
 </ExchangeImpersonation>

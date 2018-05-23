@@ -20,7 +20,7 @@ description: "The ExtendedProperty element identifies extended MAPI properties o
 
 The **ExtendedProperty** element identifies extended MAPI properties on folders and items. 
   
-```
+```xml
 <ExtendedProperty>
    <ExtendedFieldURI/>
    <Values/>

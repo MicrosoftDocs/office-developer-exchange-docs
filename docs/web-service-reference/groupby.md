@@ -24,7 +24,7 @@ The **GroupBy** element specifies an arbitrary grouping for FindItem queries.
   
 [GroupBy](groupby.md)
   
-```
+```xml
 <GroupBy Order="">
    <FieldURI/>
    <AggregateOn/>

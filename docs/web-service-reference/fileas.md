@@ -20,7 +20,7 @@ description: "The FileAs element represents how a contact or distribution list i
 
 The **FileAs** element represents how a contact or distribution list is filed in the Contacts folder. 
   
-```
+```xml
 <FileAs/>
 ```
 

@@ -20,7 +20,7 @@ description: "The FolderIds element contains an array of folder identifiers that
 
 The **FolderIds** element contains an array of folder identifiers that are used to identify folders to copy, move, get, delete, or monitor for event notifications. 
   
-```
+```xml
 <FolderIds>
    <FolderId/>
    <DistinguishedFolderId/>
