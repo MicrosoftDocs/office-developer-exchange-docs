@@ -1,12 +1,8 @@
 ---
 title: "EWS schema versions in Exchange"
- 
- 
 manager: sethgros
 ms.date: 3/9/2015
 ms.audience: Developer
- 
- 
 localization_priority: Normal
 ms.assetid: d1ab6f9c-ea91-4022-830d-7f7b759e3935
 description: "Learn about the EWS schema and how to design your application to work with it, as well as the features that are available with each schema version, and how the schema relates to the Exchange service version."
@@ -66,14 +62,14 @@ The schema versions that are available to a client are identified in the **Excha
 
 |**Product version**|**Associated schema version**|**Features**|
 |:-----|:-----|:-----|
-|Exchange Online  <br/> |The latest schema version.  <br/> |Includes all the features in the current version of Exchange in addition to any new features that are added for online clients.  <br/> |
-|Exchange 2013 SP1  <br/> |Exchange2013_SP1  <br/> | Includes all the features in Exchange 2013. The following features were introduced in Exchange 2013 SP1:  <br/> [Mailbox hold policy](http://msdn.microsoft.com/en-us/library/office/microsoft.exchange.webservices.data.exchangeservice.setholdonmailboxes%28v=exchg.80%29.aspx) <br/> [Propose new time](how-to-propose-a-new-meeting-time-by-using-ews-in-exchange.md) <br/>  Read receipt updates for [updating](http://msdn.microsoft.com/EN-US/library/office/dn600559%28v=exchg.80%29.aspx) and [deleting](http://msdn.microsoft.com/EN-US/library/office/dn600557%28v=exchg.80%29.aspx) items  <br/> [IRM information](http://msdn.microsoft.com/EN-US/library/office/microsoft.exchange.webservices.data.conversation.hasirm%28v=exchg.80%29.aspx) update for conversations  <br/> |
-|Exchange 2013  <br/> |Exchange2013  <br/> | Includes all features introduced in Exchange 2007 and Exchange 2010. The following features were introduced in Exchange 2013:  <br/>  Archiving  <br/>  eDiscovery  <br/>  Personas  <br/>  Retention policies  <br/>  Unified Contact Store  <br/>  User photos  <br/> |
-|Exchange 2010 SP2  <br/> |Exchange2010_SP2  <br/> | Includes all the features introduced in Exchange 2010 SP1. The following features were introduced in Exchange 2010 SP2:  <br/>  Get Password Expiration  <br/>  DateTime precision  <br/>  Updated property identifiers for contacts  <br/>  New impersonation scenarios  <br/> |
-|Exchange 2010 SP1  <br/> |Exchange2010_SP1  <br/> | Includes all the features introduced in Exchange 2010. The following features were introduced in Exchange 2010 SP1:  <br/>  Create, retrieve and modify Inbox rules  <br/>  Programmatic access to Archive Mailbox  <br/>  Conversations actions  <br/>  Firewall traversing notifications  <br/>  Improved administration features  <br/>  Improved mixed version support  <br/>  Throttling protection support  <br/>  Control of application access to EWS  <br/>  Client certificate authentication support  <br/> |
-|Exchange 2010  <br/> |Exchange2010  <br/> | Includes all features introduced in Exchange 2007 SP1. The following features were introduced in the initial release version of Exchange 2010:  <br/>  Full Private Distribution List  <br/>  User Configuration Objects  <br/>  Folder Associated Items  <br/>  Message tracking  <br/>  Unified Messaging  <br/>  SOAP Autodiscover  <br/>  Enhanced Time Zone support  <br/>  Room resource availability information  <br/>  Indexed search  <br/>  Dumpster access  <br/>  MailTips information  <br/> |
-|Exchange 2007 SP1  <br/> |Exchange2007_SP1  <br/> | Includes all the features introduced in Exchange 2007. The following features were introduced in Exchange 2007 SP1:  <br/>  Delegate management  <br/>  Folder permissions  <br/>  Public folders  <br/>  Post items  <br/>  ID conversion  <br/> |
-|Exchange 2007  <br/> |Exchange2007  <br/> | The following features were introduced in the initial release version of Exchange 2007:  <br/>  Full access to items, folders, and attachments (Create, Get, Update, Delete)  <br/>  Availability  <br/>  Out of Office settings  <br/>  Notifications  <br/>  Synchronization  <br/>  Name resolution  <br/>  Distribution list (DL) expansion  <br/>  Search  <br/> |
+|Exchange Online  |The latest schema version.  |Includes all the features in the current version of Exchange in addition to any new features that are added for online clients. |
+|Exchange 2013 SP1 |Exchange2013_SP1 | Includes all the features in Exchange 2013. The following features were introduced in Exchange 2013 SP1: <ul><li>[Mailbox hold policy](http://msdn.microsoft.com/en-us/library/office/microsoft.exchange.webservices.data.exchangeservice.setholdonmailboxes%28v=exchg.80%29.aspx) </li><li> [Propose new time](how-to-propose-a-new-meeting-time-by-using-ews-in-exchange.md) </li><li>  Read receipt updates for [updating](http://msdn.microsoft.com/EN-US/library/office/dn600559%28v=exchg.80%29.aspx) and [deleting](http://msdn.microsoft.com/EN-US/library/office/dn600557%28v=exchg.80%29.aspx) items  </li><li> [IRM information](http://msdn.microsoft.com/EN-US/library/office/microsoft.exchange.webservices.data.conversation.hasirm%28v=exchg.80%29.aspx) update for conversations  </li></ul> |
+|Exchange 2013   |Exchange2013   | Includes all features introduced in Exchange 2007 and Exchange 2010. The following features were introduced in Exchange 2013:<ul><li>Archiving  </li><li>  eDiscovery  </li><li>  Personas  </li><li>  Retention policies  </li><li>  Unified Contact Store  </li><li>  User photos  </li></ul> |
+|Exchange 2010 SP2   |Exchange2010_SP2 | Includes all the features introduced in Exchange 2010 SP1. The following features were introduced in Exchange 2010 SP2:<ul><li>Get Password Expiration  </li><li>  DateTime precision  </li><li>  Updated property identifiers for contacts  </li><li>  New impersonation scenarios  </li></ul> |
+|Exchange 2010 SP1  |Exchange2010_SP1   | Includes all the features introduced in Exchange 2010. The following features were introduced in Exchange 2010 SP1:<ul><li>Create, retrieve and modify Inbox rules  </li><li>  Programmatic access to Archive Mailbox  </li><li>  Conversations actions  </li><li>  Firewall traversing notifications  </li><li>  Improved administration features  </li><li>  Improved mixed version support  </li><li>  Throttling protection support  </li><li>  Control of application access to EWS  </li><li>  Client certificate authentication support  </li></ul> |
+|Exchange 2010  |Exchange2010   | Includes all features introduced in Exchange 2007 SP1. The following features were introduced in the initial release version of Exchange 2010:<ul><li>Full Private Distribution List  </li><li>  User Configuration Objects  </li><li>  Folder Associated Items  </li><li>  Message tracking  </li><li>  Unified Messaging  </li><li>  SOAP Autodiscover  </li><li>  Enhanced Time Zone support  </li><li>  Room resource availability information  </li><li>  Indexed search  </li><li>  Dumpster access  </li><li>  MailTips information  </li></ul> |
+|Exchange 2007 SP1   |Exchange2007_SP1  | Includes all the features introduced in Exchange 2007. The following features were introduced in Exchange 2007 SP1:<ul><li>Delegate management  </li><li>  Folder permissions  </li><li>  Public folders  </li><li>  Post items  </li><li>  ID conversion  </li></ul>|
+|Exchange 2007  |Exchange2007 | The following features were introduced in the initial release version of Exchange 2007:<ul><li>Full access to items, folders, and attachments (Create, Get, Update, Delete)  </li><li>  Availability  </li><li>  Out of Office settings  </li><li>  Notifications  </li><li>  Synchronization  </li><li>  Name resolution  </li><li>  Distribution list (DL) expansion  </li><li>  Search  </li></ul> |
    
 ## Relationship between the EWS schema and the service version
 <a name="bk_features"> </a>
@@ -93,17 +89,14 @@ Exchange servers running versions of Exchange starting with Exchange 2007 includ
   
 Before the EWS schema is updated for a new version, the current version of the schema is forked and renamed using the following convention:
   
-\<schemaname\>-\<majorserverversion\>\<servicepack\>.xsd
+`<schemaname>-<majorserverversion><servicepack>.xsd`
   
 The original file name then represents the latest schema. All new features are added to the latest schema, with the exception of updates and fixes to the earlier versions of the schema. 
   
 ## See also
 
-
-- [EWS schema versions in Exchange](ews-schema-versions-in-exchange.md)
-    
-- [Autodiscover for Exchange](autodiscover-for-exchange.md)
-    
+- [EWS schema versions in Exchange](ews-schema-versions-in-exchange.md) 
+- [Autodiscover for Exchange](autodiscover-for-exchange.md) 
 - [Develop web service clients for Exchange](develop-web-service-clients-for-exchange.md)
     
 
