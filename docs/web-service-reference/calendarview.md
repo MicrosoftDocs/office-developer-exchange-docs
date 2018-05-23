@@ -1,7 +1,5 @@
 ---
 title: "CalendarView"
- 
- 
 manager: sethgros
 ms.date: 9/17/2015
 ms.audience: Developer
@@ -28,7 +26,8 @@ The **CalendarView** element defines a [FindItem operation](finditem-operation.m
 <CalendarView MaxEntriesReturned="" StartDate="" EndDate="" />
 ```
 
- **CalendarView**
+**CalendarView**
+
 ## Attributes and elements
 
 The following sections describe attributes, child elements, and parent elements.
@@ -38,8 +37,8 @@ The following sections describe attributes, child elements, and parent elements.
 |**Attribute**|**Description**|
 |:-----|:-----|
 |**MaxEntriesReturned** <br/> |Describes the maximum number of results to return in the FindItem response.  <br/> |
-|**StartDate** <br/> |Identifies the start of a time span queried for calendar items. All calendar items that have an end time that is before **StartDate** will not be returned. The value of **StartDate** can be specified in coordinated universal time (UTC) format, as in 2006-01-02T12:00:00Z, or in a format where local time and time zone offset is specified, as in 2006-01-02T04:00:00-08:00.  <br/> This attribute is required.  <br/> |
-|**EndDate** <br/> |Identifies the end of a time span queried for calendar items. All calendar items that have a start time that is on or after **EndDate** will not be returned. The value of **EndDate** can be specified in UTC format, as in 2006-02-02T12:00:00Z, or in a format where local time and time zone offset is specified, as in 2006-02-02T04:00:00-08:00.  <br/> **EndDate** must be greater than or equal to **StartDate**; otherwise an error is returned. This attribute is required.  <br/> |
+|**StartDate** <br/> |Identifies the start of a time span queried for calendar items. All calendar items that have an end time that is before **StartDate** will not be returned. The value of **StartDate** can be specified in coordinated universal time (UTC) format, as in 2006-01-02T12:00:00Z, or in a format where local time and time zone offset is specified, as in 2006-01-02T04:00:00-08:00.  <br/><br/>This attribute is required.  <br/> |
+|**EndDate** <br/> |Identifies the end of a time span queried for calendar items. All calendar items that have a start time that is on or after **EndDate** will not be returned. The value of **EndDate** can be specified in UTC format, as in 2006-02-02T12:00:00Z, or in a format where local time and time zone offset is specified, as in 2006-02-02T04:00:00-08:00.  <br/><br/>**EndDate** must be greater than or equal to **StartDate**; otherwise an error is returned. This attribute is required.  <br/> |
    
 ### Child elements
 
@@ -49,7 +48,7 @@ None.
 
 |**Element**|**Description**|
 |:-----|:-----|
-|[FindItem](finditem.md) <br/> |Defines a request to find items in a mailbox.  <br/> The following is the XPath expression to this element:  <br/>  `/FindItem` <br/> |
+|[FindItem](finditem.md) <br/> |Defines a request to find items in a mailbox.<br/><br/> The following is the XPath expression to this element:  <br/>  `/FindItem` <br/> |
    
 ## Remarks
 
@@ -163,7 +162,7 @@ The schema that describes this element is located in the IIS virtual directory t
 
 The following example shows a FindItem request. A successful request returns a response that includes calendar items that started at 2006-05-18T00:00:00-08:00 or after and ended before 2006-05-19T00:00:00-08:00.
   
-```
+```xml
 <?xml version="1.0" encoding="utf-8"?>
 <soap:Envelope xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
                xmlns:xsd="http://www.w3.org/2001/XMLSchema"

@@ -1,7 +1,5 @@
 ---
 title: "Bias (UTC)"
- 
- 
 manager: sethgros
 ms.date: 9/17/2015
 ms.audience: Developer
@@ -26,7 +24,8 @@ The **Bias** element represents the general offset from Coordinated Universal Ti
 </TimeZone>
 ```
 
- **int**
+**int**
+
 ## Attributes and elements
 
 The following sections describe attributes, child elements, and parent elements.
@@ -43,7 +42,7 @@ None.
 
 |**Element**|**Description**|
 |:-----|:-----|
-|[TimeZone (Availability)](timezone-availability.md) <br/> | The container that identifies the date-time information of the request. This element contains information about the transition between standard time and daylight saving time.  <br/>  The following are the XPath expressions to this element:  <br/>  `/GetUserAvailabilityResponse/FreeBusyResponseArray/FreeBusyResponse/FreeBusyView/WorkingHours/TimeZone` <br/>  `/GetUserAvailabilityRequest/TimeZone` <br/> |
+|[TimeZone (Availability)](timezone-availability.md) <br/> | The container that identifies the date-time information of the request. This element contains information about the transition between standard time and daylight saving time.  <br/><br/>The following are the XPath expressions to this element:<br/><br/>-   `/GetUserAvailabilityResponse/FreeBusyResponseArray/FreeBusyResponse/FreeBusyView/WorkingHours/TimeZone` <br/>-   `/GetUserAvailabilityRequest/TimeZone` <br/> |
    
 ## Text value
 
@@ -57,7 +56,7 @@ A second [Bias](bias.md) element in the schema represents the offset from the Co
 
 The following example shows part of an XML request that identifies an offset of 8 hours from UTC on the client application.
   
-```
+```xml
 <TimeZone xmlns="http://schemas.microsoft.com/exchange/services/2006/types">
   <Bias>480</Bias>
   <StandardTime>
@@ -88,12 +87,7 @@ The following example shows part of an XML request that identifies an offset of 
    
 ## See also
 
-
-
-[GetUserAvailability operation](getuseravailability-operation.md)
-  
-[Bias](bias.md)
-
-
-[Getting User Availability](http://msdn.microsoft.com/library/d4133fcb-9b0f-4e6b-aadf-a389da83516a%28Office.15%29.aspx)
+- [GetUserAvailability operation](getuseravailability-operation.md)  
+- [Bias](bias.md)
+- [Getting User Availability](http://msdn.microsoft.com/library/d4133fcb-9b0f-4e6b-aadf-a389da83516a%28Office.15%29.aspx)
 
