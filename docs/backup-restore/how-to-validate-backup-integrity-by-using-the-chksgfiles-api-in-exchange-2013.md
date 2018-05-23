@@ -25,9 +25,7 @@ During backup operations managed by the Volume Shadow Copy Service (VSS), Exchan
 Before your application can validate the integrity of your backup, you must have access to the following:
   
 - Files from your Exchange store backup.
-    
 - A version of Visual Studio starting with Visual Studio 2010.
-    
 - The CHKSGFILES library and header files. You can download the library and header files from the [Microsoft Download Center](http://www.microsoft.com/en-us/download/details.aspx?id=36802).
     
 ## Validate backup integrity
@@ -37,66 +35,62 @@ The following procedure describes how to validate data integrity in your backup 
 ### To validate backup integrity
 
 1. Create a new instance of the **CChkSGFiles** class. 
-    
-  ```
-  CCheckSGFiles::ERRerr = CCheckSGFiles::errSuccess;
-  ULONGiDbError = (ULONG)CCheckSGFiles::iDbInvalid;
-  CCheckSGFiles * const pcchecksgfiles = CCheckSGFiles::New();
-  if ( NULL == pcchecksgfiles )
-  {
-  err = CCheckSGFiles::errOutOfMemory;
-  printf( "ERROR: Could not allocate CCheckSGFiles object.\n" );
-  goto HandleError;
-  }
-  
-  ```
+   
+   ```cpp
+   CCheckSGFiles::ERRerr = CCheckSGFiles::errSuccess;
+   ULONGiDbError = (ULONG)CCheckSGFiles::iDbInvalid;
+   CCheckSGFiles * const pcchecksgfiles = CCheckSGFiles::New();
+   if ( NULL == pcchecksgfiles )
+   {
+     err = CCheckSGFiles::errOutOfMemory;
+     printf( "ERROR: Could not allocate CCheckSGFiles object.\n" );
+     goto HandleError;
+   }
+   ```
 
-    The first lines of code create an error object and set its initial value to success, and create an object that checks the validity of the database. Then, the [CChkSGFiles.New function](cchksgfiles-new-function.md) creates a new instance of the **CChkSGFiles** class. A quick check of the new object indicates whether any issues occurred when the new instance was created. 
+   The first lines of code create an error object and set its initial value to success, and create an object that checks the validity of the database. Then, the [CChkSGFiles.New function](cchksgfiles-new-function.md) creates a new instance of the **CChkSGFiles** class. A quick check of the new object indicates whether any issues occurred when the new instance was created. 
     
 2. Initialize the **CChkSGFiles** object. 
-    
-  ```
-  Call( pcchecksgfiles->ErrInit(
-  rgwszDb,
-  cDb,
-  wszLogPath,
-  wszBaseName ) );
-  
-  ```
-
-    For more information about the parameters, see [CChkSGFiles.ErrInit function](cchksgfiles-errinit-function.md).
-    
-3. Use the [CChkSGFiles.ErrCheckDbHeaders function](cchksgfiles-errcheckdbheaders-function.md) to validate database integrity by checking the database headers. 
-    
-  ```
-  err = pcchecksgfiles->ErrCheckDbHeaders(
-  &amp;cbDbPageSize,
-  &amp;cDbHeaderPages,
-  &amp;iDbError );
-  if ( CCheckSGFiles::errSuccess != err )
-  {
-  if ( CCheckSGFiles::iDbInvalid != iDbError )
-  {
-  printf(
-  "ERROR: Database header validation for '%S' failed with error %d (0x%x)\n",
-  rgwszDb[ iDbError ],
-  err,
-  err );
-  }
-  goto HandleError;
-  }
-  
-  ```
-
-    For more information about the parameters, see [CChkSGFiles.ErrCheckDbHeaders function](cchksgfiles-errcheckdbheaders-function.md).
-    
+   
+   ```cpp
+   Call( pcchecksgfiles->ErrInit(
+   rgwszDb,
+   cDb,
+   wszLogPath,
+   wszBaseName ) );
+   ```
+   
+   For more information about the parameters, see [CChkSGFiles.ErrInit function](cchksgfiles-errinit-function.md).
+   
+3. Use the [CChkSGFiles.ErrCheckDbHeaders function](cchksgfiles-errcheckdbheaders-function.md) to validate database integrity by checking the database headers.
+   
+   ```cpp
+   err = pcchecksgfiles->ErrCheckDbHeaders(
+   &amp;cbDbPageSize,
+   &amp;cDbHeaderPages,
+   &amp;iDbError );
+   if ( CCheckSGFiles::errSuccess != err )
+   {
+   if ( CCheckSGFiles::iDbInvalid != iDbError )
+   {
+   printf(
+   "ERROR: Database header validation for '%S' failed with error %d (0x%x)\n",
+   rgwszDb[ iDbError ],
+   err,
+   err );
+   }
+   goto HandleError;
+   }
+   ```
+   
+   For more information about the parameters, see [CChkSGFiles.ErrCheckDbHeaders function](cchksgfiles-errcheckdbheaders-function.md).
+   
 4. Handle errors, and use the [CChkSGFiles.Delete function](cchksgfiles-delete-function.md) to remove the **CChkSGFiles** class from memory. 
-    
-  ```
-  HandleError:
-  CCheckSGFiles::Delete( pcchecksgfiles );
-  
-  ```
+   
+   ```cpp
+   HandleError:
+   CCheckSGFiles::Delete( pcchecksgfiles );  
+   ```
 
 ## See also
 
