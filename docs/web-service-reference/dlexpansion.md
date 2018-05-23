@@ -1,7 +1,5 @@
 ---
 title: "DLExpansion"
- 
- 
 manager: sethgros
 ms.date: 9/17/2015
 ms.audience: Developer
@@ -20,15 +18,12 @@ description: "The DLExpansion element contains an array of mailboxes that are co
 
 The **DLExpansion** element contains an array of mailboxes that are contained in a distribution list. 
   
-[ExpandDLResponse](expanddlresponse.md)
+- [ExpandDLResponse](expanddlresponse.md) 
+- [ResponseMessages](responsemessages.md) 
+- [ExpandDLResponseMessage](expanddlresponsemessage.md)
+- [DLExpansion](dlexpansion.md)
   
-[ResponseMessages](responsemessages.md)
-  
-[ExpandDLResponseMessage](expanddlresponsemessage.md)
-  
-[DLExpansion](dlexpansion.md)
-  
-```
+```xml
 <DLExpansion AbsoluteDenominator"" IncludesLastItemInRange="" IndexedPagingOffset="" NumeratorOffset="" TotalItemsInView="">
    <Mailbox/>
 </DLExpansion>
@@ -76,12 +71,7 @@ The schema that describes this element is located in the EWS virtual directory o
    
 ## See also
 
-
-
-[ExpandDL operation](expanddl-operation.md)
-
-
-- [EWS XML elements in Exchange](ews-xml-elements-in-exchange.md)
-  
-[EWS reference for Exchange](ews-reference-for-exchange.md)
+- [ExpandDL operation](expanddl-operation.md)
+- [EWS XML elements in Exchange](ews-xml-elements-in-exchange.md) 
+- [EWS reference for Exchange](ews-reference-for-exchange.md)
 

@@ -9,8 +9,6 @@ api_type:
 - schema
 ms.assetid: 37c31ecb-a21e-47c8-befe-1bf4415f244c
 description: "The DisplayName element represents a display name."
- 
- 
 ---
 
 # DisplayName (SOAP)
@@ -56,7 +54,5 @@ The text value of the **DisplayName** element is the display name of a setting.
    
 ## See also
 
-
-
-[AlternateMailbox (SOAP)](alternatemailbox-soap.md)
+- [AlternateMailbox (SOAP)](alternatemailbox-soap.md)
 

@@ -11,8 +11,6 @@ api_type:
 - schema
 ms.assetid: a987000b-d6e6-49d7-944c-e9c278d0236f
 description: "The Disconnect operation terminates the call that is identified by the specified CallId (UM web service)."
- 
- 
 ---
 
 # Disconnect operation (UM web service)
@@ -57,11 +55,7 @@ The following example of a Disconnect response shows a response to the Disconnec
 
 ## See also
 
-
-
-[Disconnect (UM web service)](disconnect-um-web-service.md)
-  
-[DisconnectResponse (UM web service)](disconnectresponse-um-web-service.md)
-  
-[CallId (UM web service)](callid-um-web-service.md)
+- [Disconnect (UM web service)](disconnect-um-web-service.md) 
+- [DisconnectResponse (UM web service)](disconnectresponse-um-web-service.md) 
+- [CallId (UM web service)](callid-um-web-service.md)
 

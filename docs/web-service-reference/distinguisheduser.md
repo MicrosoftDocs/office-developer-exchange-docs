@@ -1,7 +1,5 @@
 ---
 title: "DistinguishedUser"
- 
- 
 manager: sethgros
 ms.date: 9/17/2015
 ms.audience: Developer
@@ -20,7 +18,7 @@ description: "The DistinguishedUser element identifies Anonymous and Default use
 
 The **DistinguishedUser** element identifies Anonymous and Default user accounts for delegate access. This element was introduced in Microsoft Exchange Server 2007 Service Pack 1 (SP1). 
   
-```
+```xml
 <DistinguishedUser>Default or Anonymous</DistinguishedUser>
 ```
 
@@ -62,15 +60,8 @@ The schema that describes this element is located in the EWS virtual directory o
    
 ## See also
 
-
-
-[AddDelegate operation](adddelegate-operation.md)
-  
-[UpdateDelegate operation](updatedelegate-operation.md)
-
-
+- [AddDelegate operation](adddelegate-operation.md)  
+- [UpdateDelegate operation](updatedelegate-operation.md)
 - [EWS XML elements in Exchange](ews-xml-elements-in-exchange.md)
-
-
-[Adding Delegates](http://msdn.microsoft.com/library/3a744150-66a3-4a13-9433-793603ba5038%28Office.15%29.aspx)
+- [Adding Delegates](http://msdn.microsoft.com/library/3a744150-66a3-4a13-9433-793603ba5038%28Office.15%29.aspx)
 

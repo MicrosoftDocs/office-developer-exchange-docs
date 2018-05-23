@@ -1,7 +1,5 @@
 ---
 title: "DetailedSuggestionsWindow"
- 
- 
 manager: sethgros
 ms.date: 9/17/2015
 ms.audience: Developer
@@ -20,13 +18,11 @@ description: "The DetailedSuggestionsWindow element identifies the time span tha
 
 The **DetailedSuggestionsWindow** element identifies the time span that is queried for detailed information about suggested meeting times. 
   
-[GetUserAvailabilityRequest](getuseravailabilityrequest.md)
+- [GetUserAvailabilityRequest](getuseravailabilityrequest.md) 
+- [SuggestionsViewOptions](suggestionsviewoptions.md) 
+- [DetailedSuggestionsWindow](detailedsuggestionswindow.md)
   
-[SuggestionsViewOptions](suggestionsviewoptions.md)
-  
-[DetailedSuggestionsWindow](detailedsuggestionswindow.md)
-  
-```
+```xml
 <DetailedSuggestionsWindow>
    <StartTime>...</StartTime>
    <EndTime>...</EndTime>
@@ -73,10 +69,6 @@ This element is not required.
    
 ## See also
 
-
-
-[GetUserAvailability operation](getuseravailability-operation.md)
-
-
-[Getting User Availability](http://msdn.microsoft.com/library/d4133fcb-9b0f-4e6b-aadf-a389da83516a%28Office.15%29.aspx)
+- [GetUserAvailability operation](getuseravailability-operation.md)
+- [Getting User Availability](http://msdn.microsoft.com/library/d4133fcb-9b0f-4e6b-aadf-a389da83516a%28Office.15%29.aspx)
 

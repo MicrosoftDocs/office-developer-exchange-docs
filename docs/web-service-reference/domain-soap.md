@@ -9,8 +9,6 @@ api_type:
 - schema
 ms.assetid: 849629a0-0467-422f-88f6-3b8a95c17bba
 description: "The Domain element contains a federated domain in a GetFederationInformation response or contains a domain the configuration settings for which are requested in a GetDomainSettings request."
- 
- 
 ---
 
 # Domain (SOAP)

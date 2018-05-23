@@ -11,23 +11,18 @@ api_type:
 - schema
 ms.assetid: d1e3cd23-48fe-4ebc-a5c5-2226d223f800
 description: "The dialString element contains the value for the telephone number to dial."
- 
- 
 ---
 
 # dialString (UM web service)
 
 The **dialString** element contains the value for the telephone number to dial. 
   
-[PlayOnPhone (UM web service)](playonphone-um-web-service.md)
+- [PlayOnPhone (UM web service)](playonphone-um-web-service.md) 
+- [dialString (UM web service)](dialstring-um-web-service.md) 
+- [PlayOnPhoneGreeting (UM web service)](playonphonegreeting-um-web-service.md) 
+- [dialString (UM web service)](dialstring-um-web-service.md)
   
-[dialString (UM web service)](dialstring-um-web-service.md)
-  
-[PlayOnPhoneGreeting (UM web service)](playonphonegreeting-um-web-service.md)
-  
-[dialString (UM web service)](dialstring-um-web-service.md)
-  
-```
+```xml
 <dialString/>
 ```
 
@@ -66,13 +61,8 @@ A text value is required. The text value must contain a valid dialing number.
    
 ## See also
 
-
-
-[PlayOnPhone (UM web service)](playonphone-um-web-service.md)
-  
-[PlayOnPhone operation (UM web service)](playonphone-operation-um-web-service.md)
-  
-[PlayOnPhoneGreeting (UM web service)](playonphonegreeting-um-web-service.md)
-  
-[PlayOnPhoneGreeting operation (UM web service)](playonphonegreeting-operation-um-web-service.md)
+- [PlayOnPhone (UM web service)](playonphone-um-web-service.md)  
+- [PlayOnPhone operation (UM web service)](playonphone-operation-um-web-service.md)  
+- [PlayOnPhoneGreeting (UM web service)](playonphonegreeting-um-web-service.md)  
+- [PlayOnPhoneGreeting operation (UM web service)](playonphonegreeting-operation-um-web-service.md)
 

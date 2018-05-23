@@ -7,8 +7,6 @@ ms.topic: reference
 localization_priority: Normal
 ms.assetid: 21bc388c-33be-422b-a89d-30ade0fae8f1
 description: "The DocumentSharingLocation element contains location and metadata information for a document sharing location."
- 
- 
 ---
 
 # DocumentSharingLocation (SOAP)
@@ -71,12 +69,7 @@ None.
    
 ## See also
 
-
-
-[GetUserSettings operation (SOAP)](getusersettings-operation-soap.md)
-
-
-[Autodiscover web service reference for Exchange](autodiscover-web-service-reference-for-exchange.md)
-  
-[SOAP Autodiscover XML elements for Exchange 2013](soap-autodiscover-xml-elements-for-exchange-2013.md)
+- [GetUserSettings operation (SOAP)](getusersettings-operation-soap.md)
+- [Autodiscover web service reference for Exchange](autodiscover-web-service-reference-for-exchange.md)
+- [SOAP Autodiscover XML elements for Exchange 2013](soap-autodiscover-xml-elements-for-exchange-2013.md)
 

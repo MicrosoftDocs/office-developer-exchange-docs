@@ -7,8 +7,6 @@ ms.topic: reference
 localization_priority: Normal
 ms.assetid: 79ffc3f9-25c4-40b5-84ce-09a3c5f892fa
 description: "The DomainNames element represents the domain names collection. The DomainNames element is for internal use only. This element is not used by clients."
- 
- 
 ---
 
 # DomainNames (SOAP)
@@ -61,7 +59,5 @@ This element represents the SMTP domains of the external organizations.
    
 ## See also
 
-
-
-[GetOrganizationRelationshipSettings operation (SOAP)](getorganizationrelationshipsettings-operation-soap.md)
+- [GetOrganizationRelationshipSettings operation (SOAP)](getorganizationrelationshipsettings-operation-soap.md)
 

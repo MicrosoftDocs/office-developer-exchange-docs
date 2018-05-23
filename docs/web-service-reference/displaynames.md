@@ -1,7 +1,5 @@
 ---
 title: "DisplayNames"
- 
- 
 manager: sethgros
 ms.date: 9/17/2015
 ms.audience: Developer
@@ -16,7 +14,7 @@ description: "The DisplayNames element specifies an array of display names and t
 
 The **DisplayNames** element specifies an array of display names and the identifiers of their source attributions for the associated persona. 
   
-```
+```xml
 <DisplayNames>
     <StringAttributedValue></StringAttributedValue>
 </DisplayNames>
@@ -59,8 +57,6 @@ The schema that describes this element is located in the IIS virtual directory t
 |Can Be Empty  <br/> ||
    
 ## See also
-
-
 
 - [EWS XML elements in Exchange](ews-xml-elements-in-exchange.md)
 

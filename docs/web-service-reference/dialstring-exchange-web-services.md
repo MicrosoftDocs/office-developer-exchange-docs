@@ -1,7 +1,5 @@
 ---
 title: "DialString (Exchange Web Services)"
- 
- 
 manager: sethgros
 ms.date: 9/17/2015
 ms.audience: Developer
@@ -20,7 +18,7 @@ description: "The DialString element represents the dial string of the telephone
 
 The **DialString** element represents the dial string of the telephone number that is called to play an item by telephone. This element is required. 
   
-```
+```xml
 <DialString/>
 ```
 
@@ -57,8 +55,6 @@ The schema that describes this element is located in the IIS virtual directory t
 |Can be Empty  <br/> |False  <br/> |
    
 ## See also
-
-
 
 - [EWS XML elements in Exchange](ews-xml-elements-in-exchange.md)
 

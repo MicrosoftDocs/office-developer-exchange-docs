@@ -9,8 +9,6 @@ api_type:
 - schema
 ms.assetid: 5f81d1b7-c6a4-456f-9935-13d04a3d92d7
 description: "The Domains element represents the domain collection that is returned in a GetDomainSettings operation (SOAP), the domains that the organization has federated in a GetFederationInformation operation (SOAP), or the domains with an organization relationship as returned by GetOrganizationRelationshipSettings operation (SOAP)."
- 
- 
 ---
 
 # Domains (SOAP)
@@ -61,9 +59,6 @@ None.
    
 ## See also
 
-
-
-[GetDomainSettingsRequest (SOAP)](getdomainsettingsrequest-soap.md)
-  
-[GetFederationInformationResponse (SOAP)](getfederationinformationresponse-soap.md)
+- [GetDomainSettingsRequest (SOAP)](getdomainsettingsrequest-soap.md)  
+- [GetFederationInformationResponse (SOAP)](getfederationinformationresponse-soap.md)
 

@@ -1,7 +1,5 @@
 ---
 title: "Duration (UserOofSettings)"
- 
- 
 manager: sethgros
 ms.date: 9/17/2015
 ms.audience: Developer
@@ -47,8 +45,8 @@ None.
 
 |**Element**|**Description**|
 |:-----|:-----|
-|[UserOofSettings](useroofsettings.md) <br/> |Specifies the OOF settings.  <br/> The following is the XPath expression to this element:  <br/>  `/SetUserOofSettingsRequest/UserOofSettings` <br/> |
-|[OofSettings](oofsettings.md) <br/> |Contains the OOF settings.  <br/> The following is the XPath expression to this element:  <br/>  `/GetUserOofSettingsResponse/OofSettings` <br/> |
+|[UserOofSettings](useroofsettings.md) <br/> |Specifies the OOF settings.  <br/><br/>The following is the XPath expression to this element:<br/><br/>`/SetUserOofSettingsRequest/UserOofSettings` <br/> |
+|[OofSettings](oofsettings.md) <br/> |Contains the OOF settings.<br/><br/>The following is the XPath expression to this element:<br/><br/>`/GetUserOofSettingsResponse/OofSettings` <br/> |
 |[OutOfOffice](outofoffice.md) <br/> |Defines the Out of Office (OOF) response message and a duration time for sending the response message for a mailbox.  <br/> |
    
 ## Remarks
@@ -102,9 +100,6 @@ The following example of a [SetUserOofSettings operation](setuseroofsettings-ope
    
 ## See also
 
-
-
-[GetUserOofSettings operation](getuseroofsettings-operation.md)
-  
-[SetUserOofSettings operation](setuseroofsettings-operation.md)
+- [GetUserOofSettings operation](getuseroofsettings-operation.md)  
+- [SetUserOofSettings operation](setuseroofsettings-operation.md)
 

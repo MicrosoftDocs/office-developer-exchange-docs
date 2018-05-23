@@ -1,7 +1,5 @@
 ---
 title: "Diagnostics"
- 
- 
 manager: sethgros
 ms.date: 9/17/2015
 ms.audience: Developer
@@ -68,12 +66,7 @@ The schema that describes this element is located in the IIS virtual directory t
    
 ## See also
 
-
-
-[FindMessageTrackingReport operation](findmessagetrackingreport-operation.md)
-  
-[GetMessageTrackingReport operation](getmessagetrackingreport-operation.md)
-
-
+- [FindMessageTrackingReport operation](findmessagetrackingreport-operation.md)
+- [GetMessageTrackingReport operation](getmessagetrackingreport-operation.md)
 - [EWS XML elements in Exchange](ews-xml-elements-in-exchange.md)
 

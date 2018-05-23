@@ -1,7 +1,5 @@
 ---
 title: "DistinguishedFolderId"
- 
- 
 manager: sethgros
 ms.date: 9/17/2015
 ms.audience: Developer
@@ -96,13 +94,13 @@ The following sections describe attributes, child elements, and parent elements.
 |:-----|:-----|
 |[ContextFolderId](contextfolderid.md) <br/> |Indicates the folder that is targeted for conversation actions that use folders.  <br/> |
 |[DestinationFolderId](destinationfolderid.md) <br/> |Indicates the destination folder for copy and move conversation actions.  <br/> |
-|[ParentFolderId (TargetFolderIdType)](parentfolderid-targetfolderidtype.md) <br/> | Identifies the folder in which a new folder or item is created.  <br/>  The following are the XPath expressions to this element:  <br/>  `/CreateItem/ParentFolderId` <br/>  `/CreateFolder/ParentFolderId` <br/> |
+|[ParentFolderId (TargetFolderIdType)](parentfolderid-targetfolderidtype.md) <br/> | Identifies the folder in which a new folder or item is created.  <br/><br/>The following are the XPath expressions to this element:<br/><br/>  `/CreateItem/ParentFolderId` <br/><br/>`/CreateFolder/ParentFolderId` <br/> |
 |[ParentFolderIds](parentfolderids.md) <br/> |Identifies folders to search for the [FindItem operation](finditem-operation.md) and the [FindFolder operation](findfolder-operation.md).  <br/> |
 |[BaseFolderIds](basefolderids.md) <br/> |Represents the collection of folders that will be searched to determine the contents of a search folder.  <br/> |
 |[FolderIds](folderids.md) <br/> |Contains an array of folder identifiers that are used to identify folders to copy, move, get, delete, or monitor for event notifications.  <br/> |
-|[FolderChange](folderchange.md) <br/> |Represents a collection of changes to be performed on a single folder.  <br/> The following is the XPath expression to this element:  `/UpdateFolder/FolderChanges/FolderChange` <br/> |
-|[ToFolderId](tofolderid.md) <br/> | Represents the destination folder for a copied or moved item or folder.  <br/>  The following are the XPath expressions to this element:  <br/>  `/MoveFolder/ToFolderId` <br/>  `/CopyFolder/ToFolderId` <br/>  `/MoveItem/ToFolderId` <br/>  `/CopyItem/ToFolderId` <br/> |
-|[SavedItemFolderId](saveditemfolderid.md) <br/> | Identifies the target folder for operations that update, send, and create items in the Exchange store.  <br/>  The following are the XPath expressions to this element:  <br/>  `/CreateItem/SavedItemFolderId` <br/>  `/UpdateItem/SavedItemFolderId` <br/>  `/SendItem/SavedItemFolderId` <br/> |
+|[FolderChange](folderchange.md) <br/> |Represents a collection of changes to be performed on a single folder.  <br/> <br/>The following is the XPath expression to this element:<br/><br/>`/UpdateFolder/FolderChanges/FolderChange`<br/> |
+|[ToFolderId](tofolderid.md) <br/> | Represents the destination folder for a copied or moved item or folder.<br/><br/>The following are the XPath expressions to this element:<br/><br/>`/MoveFolder/ToFolderId`<br/><br/>`/CopyFolder/ToFolderId`<br/><br/>`/MoveItem/ToFolderId`<br/><br/>`/CopyItem/ToFolderId` <br/> |
+|[SavedItemFolderId](saveditemfolderid.md) <br/> | Identifies the target folder for operations that update, send, and create items in the Exchange store.<br/><br/>The following are the XPath expressions to this element:<br/><br/>`/CreateItem/SavedItemFolderId`<br/><br/>`/UpdateItem/SavedItemFolderId`<br/><br/>`/SendItem/SavedItemFolderId` <br/> |
 |[SyncFolderId](syncfolderid.md) <br/> |Represents the folder that contains the items to synchronize.  <br/> |
 |[UserConfigurationName](userconfigurationname.md) <br/> |Represents the name of a user configuration object. The user configuration object name is the identifier for a user configuration object.  <br/> |
 |[CopyToFolder](copytofolder.md) <br/> |Represents the ID of the folder that email items will be copied to.  <br/> |
@@ -129,10 +127,6 @@ The schema that describes this element is located in the IIS virtual directory t
    
 ## See also
 
-
-
 - [EWS XML elements in Exchange](ews-xml-elements-in-exchange.md)
-
-
-[Creating Folders (Exchange Web Services)](http://msdn.microsoft.com/library/3b15b0ec-8691-45ed-9a24-a91ff732d6cf%28Office.15%29.aspx)
+- [Creating Folders (Exchange Web Services)](http://msdn.microsoft.com/library/3b15b0ec-8691-45ed-9a24-a91ff732d6cf%28Office.15%29.aspx)
 

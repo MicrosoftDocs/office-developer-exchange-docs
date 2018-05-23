@@ -9,8 +9,6 @@ api_type:
 - schema
 ms.assetid: 56aeb659-8309-47a6-8c41-9f8b0436438c
 description: "The Domain element identifies the domain that has a federation trust."
- 
- 
 ---
 
 # Domain (GetFederationInformation) (SOAP)
@@ -55,7 +53,5 @@ The text value represents the domain name of the domain that contains the federa
    
 ## See also
 
-
-
-[GetFederationInformation operation (SOAP)](getfederationinformation-operation-soap.md)
+- [GetFederationInformation operation (SOAP)](getfederationinformation-operation-soap.md)
 

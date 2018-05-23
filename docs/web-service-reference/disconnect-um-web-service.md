@@ -11,17 +11,15 @@ api_type:
 - schema
 ms.assetid: 2f8c1e8c-3bd4-4988-96b9-735c347b29f7
 description: "The Disconnect element defines a request to disconnect a call."
- 
- 
 ---
 
 # Disconnect (UM web service)
 
 The **Disconnect** element defines a request to disconnect a call. 
   
-[Disconnect (UM web service)](disconnect-um-web-service.md)
+- [Disconnect (UM web service)](disconnect-um-web-service.md)
   
-```
+```xml
 <Disconnect>
   <CallId>   </CallId>
 </Disconnect>
@@ -61,13 +59,8 @@ None.
    
 ## See also
 
-
-
-[Disconnect operation (UM web service)](disconnect-operation-um-web-service.md)
-  
-[PlayOnPhone operation (UM web service)](playonphone-operation-um-web-service.md)
-  
-[PlayOnPhoneGreeting operation (UM web service)](playonphonegreeting-operation-um-web-service.md)
-  
-[CallId (UM web service)](callid-um-web-service.md)
+- [Disconnect operation (UM web service)](disconnect-operation-um-web-service.md)  
+- [PlayOnPhone operation (UM web service)](playonphone-operation-um-web-service.md) 
+- [PlayOnPhoneGreeting operation (UM web service)](playonphonegreeting-operation-um-web-service.md)  
+- [CallId (UM web service)](callid-um-web-service.md)
 

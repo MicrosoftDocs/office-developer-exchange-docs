@@ -9,8 +9,6 @@ api_type:
 - schema
 ms.assetid: bad5399c-0762-4979-9c15-58cf4b7b6278
 description: "The DomainSetting element contains domain settings that are returned by the GetDomainSettings operation (SOAP) operation request."
- 
- 
 ---
 
 # DomainSetting (SOAP)
@@ -59,7 +57,5 @@ None.
    
 ## See also
 
-
-
-[GetDomainSettings operation (SOAP)](getdomainsettings-operation-soap.md)
+- [GetDomainSettings operation (SOAP)](getdomainsettings-operation-soap.md)
 

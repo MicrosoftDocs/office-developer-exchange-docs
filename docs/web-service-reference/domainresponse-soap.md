@@ -9,8 +9,6 @@ api_type:
 - schema
 ms.assetid: 6aa319be-3a01-4044-8dfc-8fa1318524c3
 description: "The DomainResponse element contains the requested settings for the specified domain."
- 
- 
 ---
 
 # DomainResponse (SOAP)
@@ -68,7 +66,5 @@ None.
    
 ## See also
 
-
-
-[GetDomainSettings operation (SOAP)](getdomainsettings-operation-soap.md)
+- [GetDomainSettings operation (SOAP)](getdomainsettings-operation-soap.md)
 

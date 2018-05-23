@@ -1,7 +1,5 @@
 ---
 title: "DisplayTo"
- 
- 
 manager: sethgros
 ms.date: 9/17/2015
 ms.audience: Developer
@@ -20,7 +18,7 @@ description: "The DisplayTo element represents the display string that is used f
 
 The **DisplayTo** element represents the display string that is used for the contents of the To box. This is the concatenated string of all To recipient display names. 
   
-```
+```xml
 <DisplayTo/>
 ```
 
@@ -70,8 +68,6 @@ The schema that describes this element is located in the EWS virtual directory o
 |Can be Empty  <br/> |False  <br/> |
    
 ## See also
-
-
 
 - [EWS XML elements in Exchange](ews-xml-elements-in-exchange.md)
 
