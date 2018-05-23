@@ -18,7 +18,8 @@ The **AddBlankTargetToLinks** element specifies that the target attribute in HTM
 <AddBlankTargetToLinks> true | false </AddBlankTargetToLinks>
 ```
 
- **xs:Boolean**
+**xs:Boolean**
+
 ## Attributes and elements
 
 The following sections describe attributes, child elements, and parent elements.
@@ -35,7 +36,7 @@ None.
 
 |**Element**|**Description**|
 |:-----|:-----|
-|[ItemShape](itemshape.md) <br/> | Identifies the item properties and content to include in a **GetItem**, **FindItem**, **GetConversationItems** or **SyncFolderItems** response.  <br/>  The following are the XPath expressions to this element:  <br/>  `/GetItem/ItemShape` <br/>  `/FindItem/ItemShape` <br/>  `/SyncFolderItems/ItemShape` <br/>  `/GetConversationItems/ItemShape` <br/> |
+|[ItemShape](itemshape.md) <br/> | Identifies the item properties and content to include in a **GetItem**, **FindItem**, **GetConversationItems** or **SyncFolderItems** response.<br/><br/>  The following are the XPath expressions to this element:<br/><br/>  `/GetItem/ItemShape` <br/>  `/FindItem/ItemShape` <br/>  `/SyncFolderItems/ItemShape` <br/>  `/GetConversationItems/ItemShape` <br/> |
    
 ## Text value
 
