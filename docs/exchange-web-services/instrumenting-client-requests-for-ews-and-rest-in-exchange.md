@@ -1,12 +1,8 @@
 ---
 title: "Instrumenting client requests for EWS and REST in Exchange"
- 
- 
 manager: sethgros
 ms.date: 4/13/2016
 ms.audience: Developer
- 
- 
 localization_priority: Normal
 ms.assetid: 330de503-498d-447e-b4a9-c20fc1699fd1
 description: "Learn about the HTTP headers in EWS and REST requests and responses that can help you monitor and troubleshoot your Exchange application."
@@ -26,9 +22,9 @@ We recommend that you add additional HTTP headers to your requests to facilitate
 
 |**HTTP header (EWS)**|**EWS Managed API equivalent**|**Notes**|
 |:-----|:-----|:-----|
-|User-Agent  <br/> |[ExchangeService.UserAgent](http://msdn.microsoft.com/en-us/library/microsoft.exchange.webservices.data.exchangeservicebase.useragent%28v=exchg.80%29.aspx) <br/> |Set this to a unique value that identifies your client application. Using the same value for all requests that your application sends allows Microsoft to help troubleshoot call failures, should they arise.  <br/> |
-|client-request-id  <br/> |[ExchangeService.ClientRequestId](http://msdn.microsoft.com/en-us/library/microsoft.exchange.webservices.data.exchangeservicebase.clientrequestid%28v=exchg.80%29.aspx) <br/> |Set this to a different unique value for every request your application sends. We recommend that you use a GUID. This unique identifier is intended to be used to correlate activities between two systems in the event that something goes wrong.  <br/> |
-|return-client-request-id  <br/> |[ExchangeService.ReturnClientRequestId](http://msdn.microsoft.com/en-us/library/microsoft.exchange.webservices.data.exchangeservicebase.returnclientrequestid%28v=exchg.80%29.aspx) <br/> |Set this to **true** to signal to the Exchange server that it should return the value of your client-request-id in the corresponding response. You can use this to correlate requests and responses in network traces or EWS Managed API traces.  <br/> |
+|User-Agent  <br/> |[ExchangeService.UserAgent](http://msdn.microsoft.com/en-us/library/microsoft.exchange.webservices.data.exchangeservicebase.useragent%28v=exchg.80%29.aspx) <br/> |Set this to a unique value that identifies your client application.<br/><br/> Using the same value for all requests that your application sends allows Microsoft to help troubleshoot call failures, should they arise.  <br/> |
+|client-request-id  <br/> |[ExchangeService.ClientRequestId](http://msdn.microsoft.com/en-us/library/microsoft.exchange.webservices.data.exchangeservicebase.clientrequestid%28v=exchg.80%29.aspx) <br/> |Set this to a different unique value for every request your application sends.<br/><br/> We recommend that you use a GUID. This unique identifier is intended to be used to correlate activities between two systems in the event that something goes wrong.  <br/> |
+|return-client-request-id  <br/> |[ExchangeService.ReturnClientRequestId](http://msdn.microsoft.com/en-us/library/microsoft.exchange.webservices.data.exchangeservicebase.returnclientrequestid%28v=exchg.80%29.aspx) <br/> |Set this to **true** to signal to the Exchange server that it should return the value of your client-request-id in the corresponding response.<br/><br/> You can use this to correlate requests and responses in network traces or EWS Managed API traces.  <br/> |
 |X-ClientStatistics  <br/> |[ExchangeService.SendClientLatencies](http://msdn.microsoft.com/en-us/library/microsoft.exchange.webservices.data.exchangeservicebase.sendclientlatencies%28v=exchg.80%29.aspx) <br/> |Used to [report EWS latencies](#bk_ReportLatency) to Microsoft if your application is accessing Exchange Online or Exchange Online as part of Office 365.  <br/> |
    
 ## Log information from responses
@@ -43,18 +39,18 @@ Just as your client can add additional instrumentation to the requests it sends,
 |**HTTP header**|**Description**|
 |:-----|:-----|
 |request-id  <br/> |A server-generated ID for the request that corresponds to this response.  <br/> |
-|client-request-id  <br/> |The value of the client-request-id header in the request. This header is only present if the request contains the return-client-request-id header with a value of **true**.  <br/> |
+|client-request-id  <br/> |The value of the client-request-id header in the request.<br/><br/> This header is only present if the request contains the return-client-request-id header with a value of **true**.  <br/> |
 |X-FEServer  <br/> |The FQDN of the Client Access server that processed the request.  <br/> |
 |X-TargetBEServer  <br/> |The FQDN of the mailbox server that processed the request.  <br/> |
 |X-DiagInfo  <br/> |Additional diagnostic information, depending on the request.  <br/> |
-|x-ms-diagnostics  <br/> | This header is only applicable if OAuth authentication is used in the request. It contains an explicit error code that specifies why an OAuth authentication failed. It takes the following format.  <br/>  `errorId;reason="reason"error_type="error type"` <br/>  The **reason** field is a human-readable description of the error. The **errorId** field is an integer, and the **error_type** field is the string representation of that integer, as follows:  <br/>  2000000: invalid_signature  <br/>  2000001: invalid_token  <br/>  2000002: token_expired  <br/>  2000003: invalid_resource  <br/>  2000004: invalid_tenant  <br/>  2000005: invalid_user  <br/>  2000006: invalid_client  <br/>  2000007: internal_error  <br/>  2000008: invalid_grant  <br/> |
+|x-ms-diagnostics  <br/> | This header is only applicable if OAuth authentication is used in the request.<br/><br/> It contains an explicit error code that specifies why an OAuth authentication failed.<br/><br/> It takes the following format: `errorId;reason="reason"error_type="error type"`<br/><br/> The **reason** field is a human-readable description of the error.<br/><br/> The **errorId** field is an integer, and the **error\_type** field is the string representation of that integer, as follows:<ul></li>2000000: invalid\_signature</li><li>2000001: invalid\_token</li><li>  2000002: token\_expired</li><li>2000003: invalid\_resource</li><li>2000004: invalid\_tenant  </li><li>2000005: invalid\_user</li><li>2000006: invalid\_client</li><li>2000007: internal\_error</li><li>2000008: invalid\_grant</li></ul> |
    
 ## Report EWS latency to Microsoft
 <a name="bk_ReportLatency"> </a>
 
 If your application uses the EWS Managed API or EWS to connect to Exchange Online, you can report latency in EWS requests directly to Microsoft. The information is passed via the X-ClientStatistics request header. If you are using the EWS Managed API, all you have to do is set the [ExchangeService.SendClientLatencies](http://msdn.microsoft.com/en-us/library/microsoft.exchange.webservices.data.exchangeservicebase.sendclientlatencies%28v=exchg.80%29.aspx) property to **true**. If you are using EWS, you'll need to measure the time between issuing a request and receiving a response, then add the X-ClientStatistics header to the next EWS request your application sends, using the following format.
   
- `X-ClientStatistics: MessageId=<value of request-id header>,ResponseTime=<time in milliseconds>,SoapAction=<EWS operation>`
+`X-ClientStatistics: MessageId=<value of request-id header>,ResponseTime=<time in milliseconds>,SoapAction=<EWS operation>`
   
 We maintain reports for these latencies and use them to continuously improve EWS services in Exchange Online.
   
@@ -65,11 +61,8 @@ After you've added client instrumentation to your application, you're better pre
   
 ## See also
 
-
 - [EWS client design overview for Exchange](ews-client-design-overview-for-exchange.md)
-    
 - [Trace requests and responses to troubleshoot EWS Managed API applications](how-to-trace-requests-and-responses-to-troubleshoot-ews-managed-api-applications.md)
-    
 - [Tools and resources for troubleshooting EWS applications for Exchange](tools-and-resources-for-troubleshooting-ews-applications-for-exchange.md)
     
 
