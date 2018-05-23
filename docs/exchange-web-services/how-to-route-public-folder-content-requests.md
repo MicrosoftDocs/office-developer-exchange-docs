@@ -1,12 +1,8 @@
 ---
 title: "Route public folder content requests"
- 
- 
 manager: sethgros
 ms.date: 3/9/2015
 ms.audience: Developer
- 
- 
 localization_priority: Normal
 ms.assetid: 59d2f05e-90fb-471e-ac06-70becc15b295
 description: "All requests for public folder information that involve the content of the public folder need to be routed to the public folder mailbox that holds the content for the target folder. To route the requests to that mailbox, you need to set the X-AnchorMailbox and X-PublicFolderMailbox headers to specific values."
@@ -20,9 +16,9 @@ The following table provides an overview of the process:
   
 **Public folder overview**
 
-|**Header**|**What do I need?**|**How do I get it?**|
+|Header|What do I need?|How do I get it?|
 |:-----|:-----|:-----|
-|**X-AnchorMailbox** <br/> |[The X-AnchorMailbox and X-PublicFolderInformation values ](how-to-route-public-folder-hierarchy-requests.md) for the public folder hierarchy mailbox.  <br/>  The GUID of the public folder mailbox that contains the mailbox content, which is sent to the Autodiscover service.  <br/>  The **AutoDiscoverSMTPAddress** in the Autodisover response becomes the value of the **X-AnchorMailbox** header.  <br/> ![TODO](media/Ex15_PF_PFContent.png)| Use the code example in this article, which [implements the EWS Managed API](#bk_determineguidewsma). Or [use EWS](#bk_determineguidews) and convert your results to obtain a GUID.  <br/> [Make an Autodiscover request](#bk_makeautodrequest) by using the GUID plus the domain name.  <br/>  Use the value of the **AutoDiscoverSMTPAddress** element returned in the Autodiscover response to [populate the value of the headers](#bk_setheadervalues).  <br/> |
+|**X-AnchorMailbox** <br/> |1. [The X-AnchorMailbox and X-PublicFolderInformation values ](how-to-route-public-folder-hierarchy-requests.md) for the public folder hierarchy mailbox.<br/><br/>2. The GUID of the public folder mailbox that contains the mailbox content, which is sent to the Autodiscover service.<br/><br/>  The **AutoDiscoverSMTPAddress** in the Autodisover response becomes the value of the **X-AnchorMailbox** header.  <br/> ![TODO](media/Ex15_PF_PFContent.png)| 1. Use the code example in this article, which [implements the EWS Managed API](#bk_determineguidewsma). Or [use EWS](#bk_determineguidews) and convert your results to obtain a GUID.<br/><br/>2. [Make an Autodiscover request](#bk_makeautodrequest) by using the GUID plus the domain name.<br/><br/>3. Use the value of the **AutoDiscoverSMTPAddress** element returned in the Autodiscover response to [populate the value of the headers](#bk_setheadervalues).  <br/> |
 |**X-PublicFolderMailbox** <br/> |Your work is done, the X-PublicFolderMailbox value is the same as the X-AnchorMailbox value!  <br/> |You already have it!  <br/> |
    
 After you have determined the header values, include them [when you make public folder content requests](#bk_setheadervalues).
@@ -197,13 +193,11 @@ Use the address returned by the  `GetMailboxGuidAddress` method to call Autodisc
 |-skipSOAP  <br/> |Indicates that POX Autodiscover requests are required.  <br/> |
 |-auth authEmailAddress  <br/> |The mailbox user's email address, which is used for authentication. You will be prompted to enter the mailbox user's password when you run the sample.  <br/> |
    
-For example, the command-line arguments should look like this.
+For example, the command-line arguments should look like this:
   
-```
-1ec2a236-ed93-4f88-b9c6-33e63fa4aa44@contoso.com -skipSOAP -auth sonyaf@contoso.com
-```
+`1ec2a236-ed93-4f88-b9c6-33e63fa4aa44@contoso.com -skipSOAP -auth sonyaf@contoso.com`
 
-Where 1ec2a236-ed93-4f88-b9c6-33e63fa4aa44@contoso.com is the address returned by the  `GetMailboxGuidAddress` method, and sonyaf@contoso.com is the mailbox user. 
+Where `1ec2a236-ed93-4f88-b9c6-33e63fa4aa44@contoso.com` is the address returned by the **GetMailboxGuidAddress** method, and `sonyaf@contoso.com` is the mailbox user. 
   
 When you run the **Exchange 2013: Get user settings with Autodiscover** sample, the last Autodiscover response should be successful and include all the user settings associated with the mailbox GUID. Save the **AutoDiscoverSMTPAddress** user setting locally, as you'll use that in the next step. 
   
@@ -228,10 +222,8 @@ Using the value for the **AutoDiscoverSMTPAddress** acquired in [Make an Autodis
   
 For example, given an AutoDiscoverSMTPAddress of NewPublicFolder@contoso.com, include the following headers when making calls to the following methods or operations.
   
-```
-X-AnchorMailbox: NewPublicFolder@contoso.com
-X-PublicFolderMailbox: NewPublicFolder@contoso.com
-```
+`X-AnchorMailbox: NewPublicFolder@contoso.com`<br/>
+`X-PublicFolderMailbox: NewPublicFolder@contoso.com`
 
 **Public folder calls that require the X-AncorMailbox and X-PublicFolder headers**
 
@@ -278,13 +270,9 @@ Expect: 100-continue
 
 ## See also
 
-
-- [Public folder access with EWS in Exchange](public-folder-access-with-ews-in-exchange.md)
-    
-- [Autodiscover for Exchange](autodiscover-for-exchange.md)
-    
-- [Generate a list of Autodiscover endpoints](how-to-generate-a-list-of-autodiscover-endpoints.md)
-    
+- [Public folder access with EWS in Exchange](public-folder-access-with-ews-in-exchange.md)    
+- [Autodiscover for Exchange](autodiscover-for-exchange.md)    
+- [Generate a list of Autodiscover endpoints](how-to-generate-a-list-of-autodiscover-endpoints.md)   
 - [Get user settings from Exchange by using Autodiscover](how-to-get-user-settings-from-exchange-by-using-autodiscover.md)
     
 

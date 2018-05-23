@@ -1,12 +1,8 @@
 ---
 title: "Extract an entity from an email message by using EWS in Exchange"
- 
- 
 manager: sethgros
 ms.date: 3/9/2015
 ms.audience: Developer
- 
- 
 localization_priority: Normal
 ms.assetid: 6396b009-5f6e-41eb-a75a-224d43e864ae
 description: "Learn how to extract information from the body of an email message by using the EWS Managed API or EWS in Exchange."
@@ -179,7 +175,7 @@ public static void ExtractEntities(ExchangeService service, ItemId ItemId)
 
 The following output is displayed on the console.
   
-```
+```text
 The following entities have been extracted from the message:
  
 --------------------Addresses---------------------------
@@ -369,11 +365,8 @@ Notice that all addresses, contacts, email addresses, phone numbers, tasks, and 
   
 ## See also
 
-
 - [Email and EWS in Exchange](email-and-ews-in-exchange.md)
-    
-- [Item.EntityExtractionResult](http://msdn.microsoft.com/en-us/library/microsoft.exchange.webservices.data.item.entityextractionresult%28v=exchg.80%29.aspx)
-    
+- [Item.EntityExtractionResult](http://msdn.microsoft.com/en-us/library/microsoft.exchange.webservices.data.item.entityextractionresult%28v=exchg.80%29.aspx)    
 - [EntityExtractionResult](http://msdn.microsoft.com/library/643b99ab-ff90-4411-864c-1077623028d6%28Office.15%29.aspx)
     
 
