@@ -24,7 +24,7 @@ The CreateItem operation is used to create contacts in the Exchange store.
 
 The creation of private distribution lists is not supported. All properties within the [CompleteName](completename.md) container are read-only and cannot be set on a contact item. 
   
-## CreateItem Request Example
+## CreateItem request example
 
 ### Description
 
@@ -175,7 +175,7 @@ The following elements are used in the response:
     
 - [ItemId](itemid.md)
     
-## Invalid CreateItem Request Example
+## Invalid CreateItem request example
 
 ### Description
 

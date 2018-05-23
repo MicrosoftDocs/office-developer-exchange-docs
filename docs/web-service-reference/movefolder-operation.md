@@ -24,7 +24,7 @@ The MoveFolder operation moves folders from a specified folder and puts them in 
 
 The MoveFolder operation is similar to the CopyFolder operation. You cannot move distinguished folders. You can move multiple folders at one time to the destination folder.
   
-## MoveFolder Request Example
+## MoveFolder request example
 
 ### Description
 
@@ -73,7 +73,7 @@ See the schema for additional elements that you can use to form a MoveFolder req
 > [!NOTE]
 > The default location of the schema is in the EWS virtual directory on the computer that has the Client Access server role installed. 
   
-## Successful MoveFolder Response example
+## Successful MoveFolder response example
 
 ### Description
 
@@ -134,7 +134,7 @@ The MoveFolder response includes the following elements:
     
 - [FolderId](folderid.md)
     
-## MoveFolder Error Response example
+## MoveFolder Error response example
 
 ### Description
 

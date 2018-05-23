@@ -20,7 +20,7 @@ description: "The GetPhoneCallInformation operation returns information about th
 
 The **GetPhoneCallInformation** operation returns information about the specified telephone call. 
   
-## GetPhoneCallInformation Request Example
+## GetPhoneCallInformation request example
 
 ### Description
 
@@ -46,7 +46,7 @@ The following example of a **GetPhoneCallInformation** request shows how to form
 </soap:Envelope>
 ```
 
-## GetPhoneCallInformation Response example
+## GetPhoneCallInformation response example
 
 ### Description
 

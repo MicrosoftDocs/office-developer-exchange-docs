@@ -20,7 +20,7 @@ description: "The SendItem operation is used to send e-mail messages that are lo
 
 The SendItem operation is used to send e-mail messages that are located in the Exchange store.
   
-## SendItem (E-mail Message) Request Example
+## SendItem (E-mail Message) request example
 
 ### Description
 
@@ -109,7 +109,7 @@ A delegate who tries to send an e-mail message that is located in the principal'
   
 An additional scenario to consider is when a delegate creates an e-mail message and saves it to the Drafts folder of the delegate's mailbox. If the delegate tries to send the item and save a copy to the principal's Sent Items distinguished folder, the message is sent correctly, the draft message remains in the delegate's Drafts folder, the sent message does not appear in either the delegate's or principal's Sent Items folder, and the response is a success.
   
-## Invalid SendItem (E-mail Message) Request Example
+## Invalid SendItem (E-mail Message) request example
 
 ### Description
 

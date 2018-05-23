@@ -19,7 +19,7 @@ description: "The SetMissedCallNotificationEnabled operation enables or disables
 
 The SetMissedCallNotificationEnabled operation enables or disables missed call notifications.
   
-## SetMissedCallNotificationEnabled Request Example
+## SetMissedCallNotificationEnabled request example
 
 ### Description
 
@@ -38,7 +38,7 @@ The following example of a SetMissedCallNotificationEnabled request shows how to
 </soap:Envelope>
 ```
 
-## Successful SetMissedCallNotificationEnabled Response example
+## Successful SetMissedCallNotificationEnabled response example
 
 ### Description
 

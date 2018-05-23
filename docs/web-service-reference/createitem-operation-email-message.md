@@ -20,7 +20,7 @@ description: "The CreateItem operation is used to create e-mail messages."
 
 The CreateItem operation is used to create e-mail messages.
   
-## CreateItem Request Example
+## CreateItem request example
 
 ### Description
 

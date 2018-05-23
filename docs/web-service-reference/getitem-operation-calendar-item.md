@@ -20,7 +20,7 @@ description: "The GetItem operation gets calendar items from the Exchange store.
 
 The GetItem operation gets calendar items from the Exchange store.
   
-## GetItem Request Example
+## GetItem request example
 
 ### Description
 

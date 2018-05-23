@@ -20,7 +20,7 @@ description: "The CreateItem operation is used to accept an invitation to share 
 
 The **CreateItem** operation is used to accept an invitation to share another user's calendar or contacts data. 
   
-## Accept Sharing Invitation Request Example
+## Accept Sharing Invitation request example
 
 ### Description
 
@@ -60,7 +60,7 @@ The following elements are used in the request:
 
 The item identifier and change key have been shortened to preserve readability.
   
-## Successful Accept Sharing Invitation Response example
+## Successful Accept Sharing Invitation response example
 
 ### Description
 
@@ -112,7 +112,7 @@ The following elements are used in the response:
     
 - [Items](items.md)
     
-## Accept Sharing Invitation Error Response example
+## Accept Sharing Invitation Error response example
 
 ### Description
 

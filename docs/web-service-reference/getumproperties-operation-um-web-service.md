@@ -19,7 +19,7 @@ description: "The GetUMProperties operation gets all the Unified Messaging prope
 
 The GetUMProperties operation gets all the Unified Messaging properties for the mailbox of the user who is making the request.
   
-## GetUMProperties Request Example
+## GetUMProperties request example
 
 ### Description
 
@@ -36,7 +36,7 @@ The following example of a GetUMProperties request shows how to form a request t
 </soap:Envelope>
 ```
 
-## Successful GetUMProperties Response example
+## Successful GetUMProperties response example
 
 ### Description
 

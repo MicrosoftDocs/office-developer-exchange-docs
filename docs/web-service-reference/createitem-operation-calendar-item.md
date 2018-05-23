@@ -24,7 +24,7 @@ The CreateItem operation creates calendar items in the Exchange store.
 
 The CreateItem operation creates appointments, meetings, and meeting requests. If a calendar item is created without attendees, it is considered an appointment. If attendees are specified, the calendar item is a meeting. When a meeting is created by using the CreateItem operation, meeting requests are automatically sent to the identified attendees if the SendMeetingInvitations attribute is set to send the meeting requests.
   
-## CreateItem (Calendar Item) Request Example
+## CreateItem (Calendar Item) request example
 
 ### Description
 

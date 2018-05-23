@@ -20,7 +20,7 @@ description: "The Unsubscribe operation is used to end a pull notification subsc
 
 The Unsubscribe operation is used to end a pull notification subscription. Use this operation rather than letting a subscription timeout. This operation is only valid for pull notifications.
   
-## Unsubscribe Request Example
+## Unsubscribe request example
 
 ### Description
 
@@ -48,7 +48,7 @@ The following elements are used in the request:
     
 - [SubscriptionId (GetEvents)](subscriptionid-getevents.md)
     
-## Successful Unsubscribe Response example
+## Successful Unsubscribe response example
 
 ### Description
 
@@ -93,7 +93,7 @@ The following elements are used in the response:
     
 - [ResponseCode](responsecode.md)
     
-## Unsubscribe Error Response example
+## Unsubscribe Error response example
 
 ### Description
 

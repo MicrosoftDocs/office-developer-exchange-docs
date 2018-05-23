@@ -20,7 +20,7 @@ description: "The GetFolder operation gets folders from the Exchange store."
 
 The **GetFolder** operation gets folders from the Exchange store. 
   
-## GetFolder Request Example
+## GetFolder request example
 
 ### Description
 
@@ -65,7 +65,7 @@ See the schema for additional elements that you can use to form a **GetFolder** 
 > [!NOTE]
 > The schema that describes this element is located in the IIS virtual directory that hosts Exchange Web Services. 
   
-## GetFolder Response example
+## GetFolder response example
 
 ### Description
 
@@ -131,7 +131,7 @@ This **GetFolder** response includes the following elements:
     
 - [UnreadCount](unreadcount.md)
     
-## GetFolder Error Response example
+## GetFolder Error response example
 
 ### Description
 

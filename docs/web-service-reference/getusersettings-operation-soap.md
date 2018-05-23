@@ -17,7 +17,7 @@ description: "The GetUserSettings operation contains a query for users' client a
 
 The **GetUserSettings** operation contains a query for users' client access configuration. 
   
-## GetUserSettings Request Example
+## GetUserSettings request example
 
 ### Description
 
@@ -81,7 +81,7 @@ The following elements are used in the request body:
     
 - [Users (SOAP)](users-soap.md)
     
-## GetUserSettings Response example
+## GetUserSettings response example
 
 ### Description
 

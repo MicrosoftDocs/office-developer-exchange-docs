@@ -20,7 +20,7 @@ description: "The FindConversation operation enumerates a list of conversations 
 
 The **FindConversation** operation enumerates a list of conversations in a folder. 
   
-## FindConversation Request Example
+## FindConversation request example
 
 ### Description
 
@@ -63,7 +63,7 @@ The following elements are used in the request:
     
 - [DistinguishedFolderId](distinguishedfolderid.md)
     
-## Successful FindConversation Response example
+## Successful FindConversation response example
 
 ### Description
 
@@ -207,7 +207,7 @@ The following elements are used in the response:
     
 - [GlobalItemIds](globalitemids.md)
     
-## FindConversation Error Response example
+## FindConversation Error response example
 
 ### Description
 

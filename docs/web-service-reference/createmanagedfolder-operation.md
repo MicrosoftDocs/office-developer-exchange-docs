@@ -35,7 +35,7 @@ For information about how to set up messaging records management (MRM) policy, s
   
 For information about how to remove managed custom folders from a mailbox, see [Remove-ManagedFolder](http://go.microsoft.com/fwlink/?LinkId=100976).
   
-## CreateManagedFolder Request Example
+## CreateManagedFolder request example
 
 ### Description
 

@@ -26,7 +26,7 @@ The SyncFolderItems operation will return a maximum of 512 changes. Subsequent S
   
 SyncFolderItems is similar to the FindItem operation in that it cannot return properties like Body or Attachments. If the SyncFolderItems operation does not return the properties that you need, you can use the [GetItem operation](getitem-operation.md) to get a specific set of properties for each item that it returned by SyncFolderItems. 
   
-## SyncFolderItems Request Example
+## SyncFolderItems request example
 
 ### Description
 

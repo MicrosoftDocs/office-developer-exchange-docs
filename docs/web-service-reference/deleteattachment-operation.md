@@ -22,7 +22,7 @@ The DeleteAttachment operation is used to delete file and item attachments from 
 
 This operation allows you to delete one or more attachments by ID.
   
-## DeleteAttachment Request Example
+## DeleteAttachment request example
 
 ### Description
 
@@ -61,7 +61,7 @@ The following elements are used in the request:
     
 - [AttachmentId](attachmentid.md)
     
-## DeleteAttachment Response example
+## DeleteAttachment response example
 
 ### Description
 

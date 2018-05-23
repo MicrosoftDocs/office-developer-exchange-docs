@@ -28,7 +28,7 @@ The GetItem request must have the following information:
     
 - The [ItemShape](itemshape.md) element to identify the item properties to return. 
     
-## GetItem Request Example
+## GetItem request example
 
 ### Description
 
@@ -75,7 +75,7 @@ The following elements are used in the request:
     
 - [ItemId](itemid.md)
     
-## Successful GetItem (E-mail Message) Response example
+## Successful GetItem (E-mail Message) response example
 
 ### Description
 
@@ -220,7 +220,7 @@ The following elements are used in the response:
     
 - [IsRead](isread.md)
     
-## GetItem (E-mail Message) Error Response example
+## GetItem (E-mail Message) Error response example
 
 ### Description
 

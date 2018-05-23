@@ -29,7 +29,7 @@ The **SetUserOofSettings** operation can use the SOAP headers that are listed an
 |Impersonation  <br/> |[ExchangeImpersonation](exchangeimpersonation.md) <br/> |Identifies the user whom the client application is impersonating.  <br/> |
 |ServerVersion  <br/> |[ServerVersionInfo](serverversioninfo.md) <br/> |Identifies the version of the server that responded to the request.  <br/> |
    
-## SetUserOofSettings Request Example
+## SetUserOofSettings request example
 
 ### Description
 
@@ -98,7 +98,7 @@ The following elements are used in the request:
     
 - [ExternalReply](externalreply.md)
     
-## Successful SetUserOofSettings Response example
+## Successful SetUserOofSettings response example
 
 ### Description
 

@@ -17,7 +17,7 @@ description: "The GetDomainSettings operation retrieves the specified settings o
 
 The **GetDomainSettings** operation retrieves the specified settings of the domain for the user. Autodiscover returns the domains that are to be discovered and the requested settings of those domains. 
   
-## GetDomainSettings Request Example
+## GetDomainSettings request example
 
 ### Description
 
@@ -71,7 +71,7 @@ The following elements are used in the request:
     
 - [Setting (SOAP)](setting-soap.md)
     
-## GetDomainSettings Response example
+## GetDomainSettings response example
 
 ### Description
 

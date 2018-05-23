@@ -20,7 +20,7 @@ description: "The DeleteFolder operation deletes folders from a mailbox."
 
 The **DeleteFolder** operation deletes folders from a mailbox. 
   
-## DeleteFolder Request Example
+## DeleteFolder request example
 
 ### Description
 

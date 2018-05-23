@@ -20,7 +20,7 @@ description: "The MoveItem operation is used to move one or more items to a sing
 
 The **MoveItem** operation is used to move one or more items to a single destination folder. 
   
-## MoveItem Request Example
+## MoveItem request example
 
 ### Description
 
@@ -69,7 +69,7 @@ The following elements are used in the request:
     
 - [ItemId](itemid.md)
     
-## MoveItem Response example
+## MoveItem response example
 
 ### Description
 

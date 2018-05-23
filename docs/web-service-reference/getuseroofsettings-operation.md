@@ -36,7 +36,7 @@ The **GetUserOofSettings** operation provides access to a user's OOF settings. A
 > [!IMPORTANT]
 > If the OOF messages are set by MicrosoftOfficeOutlook, this operation will return the OOF messages in HTML format. 
   
-## GetUserOofSettings Request Example
+## GetUserOofSettings request example
 
 ### Description
 
@@ -69,7 +69,7 @@ The following elements are used in the request:
     
 - [Address (string)](address-string.md)
     
-## Successful GetUserOofSettings Response example
+## Successful GetUserOofSettings response example
 
 ### Description
 
@@ -143,7 +143,7 @@ The following elements are used in the response:
     
 - [AllowExternalOof](allowexternaloof.md)
     
-## GetUserOofSettings Error Response example
+## GetUserOofSettings Error response example
 
 ### Description
 

@@ -20,7 +20,7 @@ description: "The CopyItem operation copies items and puts the items in a differ
 
 The **CopyItem** operation copies items and puts the items in a different folder. 
   
-## CopyItem Request Example
+## CopyItem request example
 
 ### Description
 

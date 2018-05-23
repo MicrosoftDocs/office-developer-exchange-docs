@@ -36,7 +36,7 @@ Three basic update actions can be performed on an item. These actions are listed
 |Set  <br/> |The set action replaces data for a property if it contains data, or creates the property and sets its value if it does not exist. The set action is only applicable to writable properties.  <br/> |
 |Delete  <br/> |The delete action removes a property from a folder. This is different than setting it to an empty value. When complete, the property does not exist for the folder. Delete is only applicable to writable properties.  <br/> |
    
-## UpdateFolder Request Example
+## UpdateFolder request example
 
 ### Description
 
@@ -103,7 +103,7 @@ See the schema for additional elements that you can use to form an UpdateFolder 
 > [!NOTE]
 > The default location of the schema is in the EWS virtual directory on the computer that has the Client Access server role installed. 
   
-## UpdateFolder Response example
+## UpdateFolder response example
 
 ### Description
 
@@ -166,7 +166,7 @@ The following elements are used in the response:
     
 - [FolderId](folderid.md)
     
-## UpdateFolder Error Response example
+## UpdateFolder Error response example
 
 ### Description
 

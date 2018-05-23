@@ -20,7 +20,7 @@ description: "The CreateAttachment operation creates either an item or file atta
 
 The CreateAttachment operation creates either an item or file attachment and attaches it to the specified item.
   
-## File CreateAttachment Request Example
+## File CreateAttachment request example
 
 ### Description
 
@@ -72,7 +72,7 @@ The following elements are used in the request:
     
 - [Content](content.md)
     
-## Successful File CreateAttachment Response example
+## Successful File CreateAttachment response example
 
 ### Description
 
@@ -132,7 +132,7 @@ The following elements are used in the response:
     
 - [AttachmentId](attachmentid.md)
     
-## Item CreateAttachment Request Example
+## Item CreateAttachment request example
 
 ### Description
 
@@ -187,7 +187,7 @@ The following elements are used in the request:
     
 - [Subject](subject.md)
     
-## Successful Item CreateAttachment Response example
+## Successful Item CreateAttachment response example
 
 ### Description
 
@@ -247,7 +247,7 @@ The following elements are used in the response:
     
 - [AttachmentId](attachmentid.md)
     
-## CreateAttachment Error Response example
+## CreateAttachment Error response example
 
 ### Description
 

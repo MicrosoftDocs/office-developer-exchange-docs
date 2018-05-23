@@ -18,7 +18,7 @@ description: "The ApplyConversationAction operation sets a one-time or follow up
 
 The **ApplyConversationAction** operation sets a one-time or follow up action on all the items in a conversation. The **ApplyConversationAction** operation allows you to categorize, move, copy, delete, and set the read state on all items in a conversation. Actions can also be set for new messages in a conversation. 
   
-## ApplyConversationAction Request Example
+## ApplyConversationAction request example
 
 ### Description
 
@@ -56,7 +56,7 @@ The following example of an **ApplyConversationAction** request shows how to mov
 
 The conversation and folder identifiers have been shortened to preserve readability.
   
-## ApplyConversationAction Response example
+## ApplyConversationAction response example
 
 ### Description
 

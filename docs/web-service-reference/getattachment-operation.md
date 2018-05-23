@@ -20,7 +20,7 @@ description: "The GetAttachment operation is used to retrieve existing attachmen
 
 The GetAttachment operation is used to retrieve existing attachments on items in the Exchange store.
   
-## GetAttachment Request Example
+## GetAttachment request example
 
 ### Description
 
@@ -67,7 +67,7 @@ The following elements are used in the request:
     
 - [AttachmentId (GetAttachment and DeleteAttachment)](attachmentid-getattachment-and-deleteattachment.md)
     
-## GetAttachment Response example
+## GetAttachment response example
 
 ### Description
 

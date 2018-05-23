@@ -20,7 +20,7 @@ description: "The CreateFolder operation creates folders, calendar folders, cont
 
 The CreateFolder operation creates folders, calendar folders, contacts folders, tasks folders, and search folders.
   
-## CreateFolder Request Example
+## CreateFolder request example
 
 ### Description
 
@@ -76,7 +76,7 @@ To find other options for the request message of the CreateFolder operation, exp
   
 The CreateFolder operation supports the creation of a custom folder class only when you create the folder by using a generic folder type element and set the **FolderClass** element. 
   
-## Successful CreateFolder Response example
+## Successful CreateFolder response example
 
 ### Description
 

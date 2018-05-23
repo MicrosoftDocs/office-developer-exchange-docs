@@ -20,7 +20,7 @@ description: "The GetInboxRules operation uses Exchange Web Services to retrieve
 
 The **GetInboxRules** operation uses Exchange Web Services to retrieve Inbox rules in the identified user's mailbox. 
   
-## GetInboxRules Request Example
+## GetInboxRules request example
 
 ### Description
 
@@ -51,7 +51,7 @@ The request includes the following optional element:
   
 - [MailboxSmtpAddress](mailboxsmtpaddress.md)
     
-## Successful GetInboxRules Response example
+## Successful GetInboxRules response example
 
 ### Description
 

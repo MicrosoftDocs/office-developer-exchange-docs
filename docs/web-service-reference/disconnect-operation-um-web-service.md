@@ -19,7 +19,7 @@ description: "The Disconnect operation terminates the call that is identified by
 
 The Disconnect operation terminates the call that is identified by the specified [CallId (UM web service)](callid-um-web-service.md).
   
-## Disconnect Request Example
+## Disconnect request example
 
 ### Description
 
@@ -38,7 +38,7 @@ The following example of a Disconnect request shows how to form a request to dis
 </soap:Envelope>
 ```
 
-## Successful Disconnect Response example
+## Successful Disconnect response example
 
 ### Description
 

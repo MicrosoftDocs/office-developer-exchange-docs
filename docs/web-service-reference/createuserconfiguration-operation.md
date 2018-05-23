@@ -20,7 +20,7 @@ description: "The CreateUserConfiguration operation creates a user configuration
 
 The **CreateUserConfiguration** operation creates a user configuration object on a folder. 
   
-## CreateUserConfiguration Request Example
+## CreateUserConfiguration request example
 
 ### Description
 
@@ -64,7 +64,7 @@ The following example of a **CreateUserConfiguration** request shows how to form
 </soap:Envelope>
 ```
 
-## CreateUserConfiguration Response example
+## CreateUserConfiguration response example
 
 ### Description
 

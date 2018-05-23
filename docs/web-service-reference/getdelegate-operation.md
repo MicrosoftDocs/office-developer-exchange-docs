@@ -31,7 +31,7 @@ The **GetDelegate** operation can use the SOAP headers that are listed and descr
 |RequestVersion  <br/> |[RequestServerVersion](requestserverversion.md) <br/> |Identifies the schema version for the operation request.  <br/> |
 |ServerVersion  <br/> |[ServerVersionInfo](serverversioninfo.md) <br/> |Identifies the version of the server that responded to the request.  <br/> |
    
-## GetDelegate Request Example
+## GetDelegate request example
 
 ### Description
 
@@ -65,7 +65,7 @@ You can use the [UserId](userid.md) element to specify individual users instead 
 > [!NOTE]
 > Exchange Web Services (EWS) does not support managing group delegates. EWS will return an error if the **GetDelegate** operation is called for a principal that has a security group delegate. 
   
-## GetDelegate Response example
+## GetDelegate response example
 
 ### Description
 

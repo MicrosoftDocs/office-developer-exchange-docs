@@ -22,7 +22,7 @@ The UpdateInboxRules operation updates the authenticated user's Inbox rules by a
   
 When you use the **UpdateInboxRules** operation, Exchange Web Services deletes client-side send rules. Client-side send rules are stored on the client in the rule Folder Associated Information (FAI) Message and nowhere else. EWS deletes this rule FAI message by default, based on the expectation that Outlook will recreate it. However, Outlook can't recreate rules that don't also exist as an extended rule, and client-side send rules don't exist as extended rules. As a result, these rules are lost. We suggest you consider this when designing your solution. 
   
-## UpdateInboxRules (Create Rule) Request Example
+## UpdateInboxRules (Create Rule) request example
 
 You can use Exchange Web Services to create an Inbox rule in a user's mailbox in the Exchange store. Use the [UpdateInboxRules](updateinboxrules.md) element in conjunction with the [CreateRuleOperation](createruleoperation.md) element to create a rule. 
   
@@ -86,7 +86,7 @@ The **UpdateInboxRules** request includes the following elements:
     
 The [Operations](operations.md) element contains the [CreateRuleOperation](createruleoperation.md) element to create a rule. 
   
-## UpdateInboxRules (Create Rule) Response example
+## UpdateInboxRules (Create Rule) response example
 
 ### Description
 
@@ -130,7 +130,7 @@ The following elements are used in the response:
     
 - [ResponseCode](responsecode.md)
     
-## UpdateInboxRules (Set Rule) Request Example
+## UpdateInboxRules (Set Rule) request example
 
 You can use Exchange Web Services to modify an Inbox rule in a user's mailbox in the Exchange store. Use the [UpdateInboxRules](updateinboxrules.md) element in conjunction with the [SetRuleOperation](setruleoperation.md) element to modify a rule. 
   
@@ -197,7 +197,7 @@ The **UpdateInboxRules** request includes the following elements:
     
 The [Operations](operations.md) element contains the [SetRuleOperation](setruleoperation.md) element to modify a rule. 
   
-## UpdateInboxRules (Set Rule) Response example
+## UpdateInboxRules (Set Rule) response example
 
 ### Description
 
@@ -242,7 +242,7 @@ The following elements are used in the response:
     
 - [ResponseCode](responsecode.md)
     
-## UpdateInboxRules (Delete Rule) Request Example
+## UpdateInboxRules (Delete Rule) request example
 
 You can use Exchange Web Services to delete an Inbox rule in a user's mailbox in the Exchange store. Use the [UpdateInboxRules](updateinboxrules.md) in conjunction with the [DeleteRuleOperation](deleteruleoperation.md) element to delete a rule. 
   
@@ -291,7 +291,7 @@ The **UpdateInboxRules** request includes the following elements:
     
 The [Operations](operations.md) element contains the [DeleteRuleOperation](deleteruleoperation.md) element to delete a rule. 
   
-## UpdateInboxRules (Delete Rule) Response example
+## UpdateInboxRules (Delete Rule) response example
 
 ### Description
 

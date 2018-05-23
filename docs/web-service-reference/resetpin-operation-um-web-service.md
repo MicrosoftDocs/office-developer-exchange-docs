@@ -23,7 +23,7 @@ The ResetPIN operation changes the PIN (TUI password) to a new random value.
 
 The ResetPIN operation creates a new PIN based on the PIN policies. If the operation is successful, an e-mail message that contains the new PIN is sent to the mailbox of the user. If the operation fails, it will throw an exception that contains information about the failure.
   
-## ResetPIN Request Example
+## ResetPIN request example
 
 ### Description
 
@@ -40,7 +40,7 @@ The following example of a ResetPIN request shows how to form a request to reset
 </soap:Envelope>
 ```
 
-## Successful ResetPIN Response example
+## Successful ResetPIN response example
 
 ### Description
 

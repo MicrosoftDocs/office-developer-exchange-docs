@@ -24,7 +24,7 @@ The CopyFolder operation copies folders in a mailbox.
 
 The CopyFolder operation is similar to the [MoveFolder operation](movefolder-operation.md). It copies identified folders and returns the **Id** and **ChangeKey** of the copied folders. 
   
-## CopyFolder Request Example
+## CopyFolder request example
 
 ### Description
 

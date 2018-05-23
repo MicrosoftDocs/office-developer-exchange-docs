@@ -42,7 +42,7 @@ The **FindFolder** operation can use the SOAP headers that are listed and descri
 |ServerVersion  <br/> |[ServerVersionInfo](serverversioninfo.md) <br/> |Identifies the version of the server that responded to the request.  <br/> |
 |TimeZoneContext  <br/> |[TimeZoneContext](timezonecontext.md) <br/> |Identifies the time zone to be used for all responses from the server.  <br/> |
    
-## FindFolder Request Example
+## FindFolder request example
 
 ### Description
 
@@ -87,7 +87,7 @@ This **FindFolder** request includes the following elements:
     
  For additional **FindFolder** request elements, see the schema. 
   
-## FindFolder Response example
+## FindFolder response example
 
 ### Description
 
@@ -166,7 +166,7 @@ The properties that are returned in the response are determined by the [BaseShap
 
  **FindFolder** responses to a request with the **AllProperties** response shape will not return the [TotalCount](totalcount.md) and [UnreadCount](unreadcount.md) elements for public folder searches. 
   
-## FindFolder Error Response example
+## FindFolder Error response example
 
 ### Description
 

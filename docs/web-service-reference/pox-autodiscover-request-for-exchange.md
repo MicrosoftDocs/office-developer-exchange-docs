@@ -17,7 +17,7 @@ description: "The Autodiscover request contains a query for a user's client acce
 
 The Autodiscover request contains a query for a user's client access configuration.
   
-## Autodiscover Request Example
+## Autodiscover request example
 
 ### Description
 

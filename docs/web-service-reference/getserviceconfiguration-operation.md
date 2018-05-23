@@ -20,7 +20,7 @@ description: "The GetServiceConfiguration operation gets configuration informati
 
 The **GetServiceConfiguration** operation gets configuration information for the specified type of service. This operation can return configuration settings for the Unified Messaging, Protection Rules, and Mail Tips services. 
   
-## GetServiceConfiguration Request Example
+## GetServiceConfiguration request example
 
 ### Description
 
@@ -48,7 +48,7 @@ The following example of a **GetServiceConfiguration** request shows how to form
 </soap:Envelope>
 ```
 
-## GetServiceConfiguration Response example
+## GetServiceConfiguration response example
 
 ### Description
 
@@ -90,7 +90,7 @@ The following example shows a successful response to the **GetServiceConfigurati
 </s:Envelope>
 ```
 
-## GetServiceConfiguration Error Response example
+## GetServiceConfiguration Error response example
 
 ### Description
 

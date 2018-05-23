@@ -20,7 +20,7 @@ description: "The PlayOnPhone operation initiates an outbound call and plays a m
 
 The **PlayOnPhone** operation initiates an outbound call and plays a message over the telephone. 
   
-## PlayOnPhone Request Example
+## PlayOnPhone request example
 
 ### Description
 
@@ -47,7 +47,7 @@ The following example of a **PlayOnPhone** request shows how to form a request t
 </soap:Envelope>
 ```
 
-## PlayOnPhone Response example
+## PlayOnPhone response example
 
 ### Description
 

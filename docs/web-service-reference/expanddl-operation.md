@@ -53,7 +53,7 @@ Private distribution lists are located in the Contacts folder of a user's mailbo
   
 For contacts or private distribution lists, the item identifiers are returned in the response. This can be used to get information about the object or to expand membership in a private distribution list.
   
-## ExpandDL Private Distribution List Request Example
+## ExpandDL Private Distribution List request example
 
 ### Description
 
@@ -80,7 +80,7 @@ The following example of an ExpandDL request shows how to form a request to expa
 
 To expand a private distribution list, the [Mailbox](mailbox.md) element will contain the [ItemId](itemid.md) element that identifies a private distribution list in the user's mailbox. 
   
-## ExpandDL Public Distribution List Request Example
+## ExpandDL Public Distribution List request example
 
 ### Description
 
@@ -120,7 +120,7 @@ The following elements are used in the request:
 > [!NOTE]
 > The schema that describes these elements is located in the EWS virtual directory of the computer that is running MicrosoftExchange Server 2007 that has the Client Access server role installed. 
   
-## Successful ExpandDL Response example
+## Successful ExpandDL response example
 
 ### Description
 

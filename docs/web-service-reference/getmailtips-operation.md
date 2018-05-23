@@ -20,7 +20,7 @@ description: "The GetMailTips operation gets the mail tips information for the s
 
 The **GetMailTips** operation gets the mail tips information for the specified mailbox. 
   
-## GetMailTips Request Example
+## GetMailTips request example
 
 ### Description
 
@@ -67,7 +67,7 @@ The following elements are included in the request:
     
 - [MailTipsRequested](mailtipsrequested.md)
     
-## Successful GetMailTips Response example
+## Successful GetMailTips response example
 
 ### Description
 

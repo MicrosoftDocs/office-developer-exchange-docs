@@ -29,7 +29,7 @@ The **GetSharingMetadata** operation can use the SOAP headers that are listed an
 |RequestVersion  <br/> |[RequestServerVersion](requestserverversion.md) <br/> |Identifies the schema version for the operation request.  <br/> |
 |ServerVersion  <br/> |[ServerVersionInfo](serverversioninfo.md) <br/> |Identifies the version of the server that responded to the request.  <br/> |
    
-## GetSharingMetadata Request Example
+## GetSharingMetadata request example
 
 ### Description
 

@@ -23,7 +23,7 @@ The SyncFolderHierarchy operation synchronizes folders between the computer that
 > [!NOTE]
 > The SyncFolderHierarchy operation does not return folders when the [UnreadCount](unreadcount.md) or [TotalCount](totalcount.md) properties have changed. 
   
-## SyncFolderHierarchy Request Example
+## SyncFolderHierarchy request example
 
 ### Description
 

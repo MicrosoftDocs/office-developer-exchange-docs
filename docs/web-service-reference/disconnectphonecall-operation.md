@@ -20,7 +20,7 @@ description: "The DisconnectPhoneCall operation terminates the telephone call."
 
 The **DisconnectPhoneCall** operation terminates the telephone call. 
   
-## DisconnectPhoneCall Request Example
+## DisconnectPhoneCall request example
 
 ### Description
 
@@ -46,7 +46,7 @@ The following example of a **DisconnectPhoneCall** request shows how to form a r
 </soap:Envelope>
 ```
 
-## DisconnectPhoneCall Response example
+## DisconnectPhoneCall response example
 
 ### Description
 

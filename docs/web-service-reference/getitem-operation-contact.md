@@ -20,7 +20,7 @@ description: "The GetItem operation is used to get contact items from the Exchan
 
 The GetItem operation is used to get contact items from the Exchange store.
   
-## GetItem (Contact) Request Example
+## GetItem (Contact) request example
 
 ### Description
 
@@ -248,7 +248,7 @@ The following elements are used in the response for a GetItem request with a res
     
 - [Surname](surname.md)
     
-## Invalid GetItem (Contact) Request Example
+## Invalid GetItem (Contact) request example
 
 ### Description
 

@@ -31,7 +31,7 @@ The **GetRooms** operation can use the SOAP headers that are listed and describe
 |RequestVersion  <br/> |[RequestServerVersion](requestserverversion.md) <br/> |Identifies the schema version for the operation request.  <br/> |
 |ServerVersion  <br/> |[ServerVersionInfo](serverversioninfo.md) <br/> |Identifies the version of the server that responded to the request.  <br/> |
    
-## GetRooms Request Example
+## GetRooms request example
 
 ### Description
 
@@ -70,7 +70,7 @@ The following elements are used in the request:
     
 - [EmailAddress (NonEmptyStringType)](emailaddress-nonemptystringtype.md)
     
-## Successful GetRooms Response example
+## Successful GetRooms response example
 
 ### Description
 
@@ -132,7 +132,7 @@ The following elements are used in the response:
     
 - [MailboxType](mailboxtype.md)
     
-## GetRooms Error Response example
+## GetRooms Error response example
 
 ### Description
 

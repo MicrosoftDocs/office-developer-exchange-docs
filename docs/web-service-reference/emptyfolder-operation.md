@@ -16,7 +16,7 @@ description: "The EmptyFolder operation empties folders in a mailbox. Optionally
 
 The **EmptyFolder** operation empties folders in a mailbox. Optionally, this operation enables you to delete the subfolders of the specified folder. When a subfolder is deleted, the subfolder and the messages within the subfolder are deleted. 
   
-## EmptyFolder Request Example
+## EmptyFolder request example
 
 ### Description
 

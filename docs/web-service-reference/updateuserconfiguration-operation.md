@@ -20,7 +20,7 @@ description: "The UpdateUserConfiguration operation updates a user configuration
 
 The **UpdateUserConfiguration** operation updates a user configuration object on a folder. 
   
-## UpdateUserConfiguration Request Example
+## UpdateUserConfiguration request example
 
 ### Description
 
@@ -62,7 +62,7 @@ The following example of an **UpdateUserConfiguration** request shows how to for
 </soap:Envelope>
 ```
 
-## UpdateUserConfiguration Response example
+## UpdateUserConfiguration response example
 
 ### Description
 

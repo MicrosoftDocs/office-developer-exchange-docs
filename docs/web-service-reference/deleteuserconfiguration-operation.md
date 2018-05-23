@@ -23,7 +23,7 @@ The **DeleteUserConfiguration** operation deletes a user configuration object on
 > [!IMPORTANT]
 > The **DeleteUserConfiguration** operation will trigger a move event for the event notification system. The user configuration object will be moved to the dumpster. 
   
-## DeleteUserConfiguration Request Example
+## DeleteUserConfiguration request example
 
 ### Description
 
@@ -51,7 +51,7 @@ The following example of a **DeleteUserConfiguration** request shows how to form
 </soap:Envelope>
 ```
 
-## DeleteUserConfiguration Response example
+## DeleteUserConfiguration response example
 
 ### Description
 

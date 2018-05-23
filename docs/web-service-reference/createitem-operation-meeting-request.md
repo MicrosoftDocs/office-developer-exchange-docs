@@ -24,7 +24,7 @@ The CreateItem operation is used to respond to meeting requests.
 
 The CreateItem operation provides three options for responding to a meeting request: accept, tentatively accept, or decline. 
   
-## Accept Meeting Request Example
+## Accept Meeting request example
 
 ### Description
 
@@ -68,7 +68,7 @@ The following elements are used in the request:
     
 - [ReferenceItemId](referenceitemid.md)
     
-## Successful Accept Meeting Response example
+## Successful Accept Meeting response example
 
 ### Description
 
@@ -116,7 +116,7 @@ The following elements are used in the response:
     
 - [Items](items.md)
     
-## Accept Meeting Error Response example
+## Accept Meeting Error response example
 
 ### Description
 
