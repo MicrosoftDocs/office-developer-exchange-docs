@@ -20,7 +20,7 @@ description: "The Sender element identifies the sender of an item."
 
 The **Sender** element identifies the sender of an item. 
   
-```
+```xml
 <Sender>
    <Mailbox/>
 </Sender>

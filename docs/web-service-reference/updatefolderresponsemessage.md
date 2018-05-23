@@ -26,7 +26,7 @@ The **UpdateFolderResponseMessage** element contains the status and result of up
   
 [UpdateFolderResponseMessage](updatefolderresponsemessage.md)
   
-```
+```xml
 <UpdateFolderResponseMessage ResponseClass="">
    <MessageText/>
    <ResponseCode/>

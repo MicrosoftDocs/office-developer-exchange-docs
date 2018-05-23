@@ -20,7 +20,7 @@ description: "The Path element is the base schema type for all property identifi
 
 The **Path** element is the base schema type for all property identifiers. This type is abstract and will never occur directly within instance documents. 
   
-```
+```xml
 <Path/>
 ```
 

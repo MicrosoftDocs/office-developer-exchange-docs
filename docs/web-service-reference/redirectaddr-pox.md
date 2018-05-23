@@ -25,7 +25,7 @@ The **RedirectAddr** element specifies the e-mail address that should be used fo
   
 [RedirectAddr (POX)](redirectaddr-pox.md)
   
-```
+```xml
 <RedirectAddr/>
 ```
 

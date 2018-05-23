@@ -1,7 +1,5 @@
 ---
 title: "Unsubscribe operation"
- 
- 
 manager: sethgros
 ms.date: 9/17/2015
 ms.audience: Developer
@@ -40,7 +38,7 @@ The following example shows the SOAP XML message that is sent to unsubscribe a c
 </soap:Envelope>
 ```
 
-### Unsubscribe Request Elements
+### Unsubscribe request elements
 
 The following elements are used in the request:
   
@@ -56,7 +54,7 @@ The following example shows a successful response to an Unsubscribe request.
   
 ### Code
 
-```
+```xml
 <?xml version="1.0" encoding="utf-8" ?>
 <soap:Envelope xmlns:soap="http://schemas.xmlsoap.org/soap/envelope/" 
                xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
@@ -146,12 +144,7 @@ The following elements are used in the error response:
     
 ## See also
 
-
-
-[Subscribe operation](subscribe-operation.md)
-  
-[GetEvents operation](getevents-operation.md)
-
-
-[Using Pull Subscriptions](http://msdn.microsoft.com/library/f956bc0e-2b25-4613-966b-54c65456897c%28Office.15%29.aspx)
+- [Subscribe operation](subscribe-operation.md)
+- [GetEvents operation](getevents-operation.md)
+- [Using Pull Subscriptions](http://msdn.microsoft.com/library/f956bc0e-2b25-4613-966b-54c65456897c%28Office.15%29.aspx)
 

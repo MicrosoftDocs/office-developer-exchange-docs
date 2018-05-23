@@ -20,7 +20,7 @@ description: "The MeetingRequest element represents a meeting request in the Exc
 
 The **MeetingRequest** element represents a meeting request in the Exchange store. 
   
-```
+```xml
 <MeetingRequest>
    <MimeContent/>
    <ItemId/>

@@ -20,7 +20,7 @@ description: "The Title element represents the title of a contact."
 
 The **Title** element represents the title of a contact. 
   
-```
+```xml
 <Title/>
 ```
 

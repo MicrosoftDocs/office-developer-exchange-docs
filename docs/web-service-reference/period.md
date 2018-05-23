@@ -20,7 +20,7 @@ description: "The Period element defines the name, time offset, and unique ident
 
 The **Period** element defines the name, time offset, and unique identifier for a specific stage of the time zone. 
   
-```
+```xml
 <Period Bias="" Name="" Id=""/>
 ```
 

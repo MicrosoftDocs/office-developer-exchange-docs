@@ -20,7 +20,7 @@ description: "The NotesFolderPermissionLevel element contains the permissions fo
 
 The **NotesFolderPermissionLevel** element contains the permissions for the default Notes folder. This element was introduced in Microsoft Exchange Server 2007 Service Pack 1 (SP1). 
   
-```
+```xml
 <NotesFolderPermissionLevel>
    None or Editor or Reviewer or Author or Custom
 </NotesFolderPermissionLevel>

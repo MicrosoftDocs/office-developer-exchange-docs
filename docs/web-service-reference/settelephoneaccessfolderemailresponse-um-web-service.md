@@ -21,7 +21,7 @@ The **SetTelephoneAccessFolderEmailResponse** element defines a response to a [S
   
 [SetTelephoneAccessFolderEmailResponse (UM web service)](settelephoneaccessfolderemailresponse-um-web-service.md)
   
-```
+```xml
 <SetTelephoneAccessFolderEmailResponse />
 ```
 

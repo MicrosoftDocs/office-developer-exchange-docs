@@ -20,7 +20,7 @@ description: "The IsAssignmentEditable element represents the task type."
 
 The **IsAssignmentEditable** element represents the task type. 
   
-```
+```xml
 <IsAssignmentEditable/>
 ```
 

@@ -25,7 +25,7 @@ The **ServiceHome** element contains the URL of the home page of the Internet se
   
 [Image (POX)](image-pox.md)
   
-```
+```xml
 <ServiceHome/>
 ```
 

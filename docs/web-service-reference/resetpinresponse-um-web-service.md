@@ -21,7 +21,7 @@ The ResetPINResponse element defines a response to a [ResetPIN operation (UM web
   
 [ResetPINResponse (UM web service)](resetpinresponse-um-web-service.md)
   
-```
+```xml
 <ResetPINResponse />
 ```
 

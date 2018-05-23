@@ -20,7 +20,7 @@ description: "The SyncState element contains a base64-encoded form of the synchr
 
 The **SyncState** element contains a base64-encoded form of the synchronization data that is updated after each successful request. This is used to identify the synchronization state. 
   
-```
+```xml
 <SyncState/>
 ```
 

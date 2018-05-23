@@ -20,7 +20,7 @@ description: "The IsResponseRequested element indicates whether a response to an
 
 The **IsResponseRequested** element indicates whether a response to an item is requested. 
   
-```
+```xml
 <IsResponseRequested/>
 ```
 

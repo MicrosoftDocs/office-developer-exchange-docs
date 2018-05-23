@@ -20,7 +20,7 @@ description: "The RecurringDateTransition element represents a time zone transit
 
 The **RecurringDateTransition** element represents a time zone transition that occurs on a specific date each year. 
   
-```
+```xml
 <RecurringDateTransition>
    <To/>
    <TimeOffset/>

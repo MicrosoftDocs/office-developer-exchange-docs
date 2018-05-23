@@ -20,7 +20,7 @@ description: "The Suffix element represents a suffix to a contact's name."
 
 The **Suffix** element represents a suffix to a contact's name. 
   
-```
+```xml
 <Suffix/>
 ```
 

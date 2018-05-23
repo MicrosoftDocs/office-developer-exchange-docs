@@ -26,7 +26,7 @@ The **UnsubscribeResponseMessage** element contains the status and result of a s
   
 [UnsubscribeResponseMessage](unsubscriberesponsemessage.md)
   
-```
+```xml
 <UnsubscribeResponseMessage>
    <MessageText/>
    <ResponseCode/>

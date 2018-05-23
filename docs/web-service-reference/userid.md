@@ -20,7 +20,7 @@ description: "The UserId element identifies a delegate user or a user who has fo
 
 The **UserId** element identifies a delegate user or a user who has folder access permissions. 
   
-```
+```xml
 <UserId>
    <SID/>
    <PrimarySmtpAddress/>

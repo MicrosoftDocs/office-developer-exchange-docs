@@ -26,7 +26,7 @@ The **MeetingDurationInMinutes** element specifies the duration of the meeting t
   
 [MeetingDurationInMinutes](meetingdurationinminutes.md)
   
-```
+```xml
 <MeetingDurationInMinutes>...</MeetingDurationInMinutes>
 ```
 

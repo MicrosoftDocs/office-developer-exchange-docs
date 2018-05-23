@@ -38,7 +38,7 @@ The **NumberOfMembers** element represents the number of users, resources, and r
   
 [NumberOfMembers](numberofmembers.md)
   
-```
+```xml
 <NumberOfMembers>...</NumberOfMembers>
 ```
 

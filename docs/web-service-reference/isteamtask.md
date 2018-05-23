@@ -20,7 +20,7 @@ description: "The IsTeamTask element indicates whether the task is owned by a te
 
 The **IsTeamTask** element indicates whether the task is owned by a team. 
   
-```
+```xml
 <IsTeamTask/>
 ```
 

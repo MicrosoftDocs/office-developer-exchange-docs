@@ -20,7 +20,7 @@ description: "The SubscriptionStatus element describes the status of a push subs
 
 The **SubscriptionStatus** element describes the status of a push subscription. 
   
-```
+```xml
 <SubscriptionStatus>OK or Unsubscribe</SubscriptionStatus>
 ```
 

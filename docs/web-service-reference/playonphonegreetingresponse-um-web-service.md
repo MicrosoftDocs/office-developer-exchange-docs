@@ -21,7 +21,7 @@ The **PlayOnPhoneGreetingResponse** element defines a response to a [PlayOnPhone
   
 [PlayOnPhoneGreetingResponse (UM web service)](playonphonegreetingresponse-um-web-service.md)
   
-```
+```xml
 <PlayOnPhoneGreetingResponse />
 ```
 

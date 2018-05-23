@@ -20,7 +20,7 @@ description: "The IsLessThanOrEqualTo element represents a search expression tha
 
 The **IsLessThanOrEqualTo** element represents a search expression that compares a property with either a constant value or another property and returns **true** if the first property is less than or equal to the second. 
   
-```
+```xml
 <IsLessThanOrEqualTo>
    <FieldURI/>
    <FieldURIOrConstant/>

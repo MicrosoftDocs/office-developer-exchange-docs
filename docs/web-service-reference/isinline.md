@@ -20,7 +20,7 @@ description: "The IsInline element represents whether the attachment appears inl
 
 The **IsInline** element represents whether the attachment appears inline within an item. 
   
-```
+```xml
 <IsInline>true or false</IsInline>
 ```
 

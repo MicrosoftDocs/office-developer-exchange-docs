@@ -20,7 +20,7 @@ description: "The MoveFolderResponse element defines a response to a MoveFolder 
 
 The **MoveFolderResponse** element defines a response to a MoveFolder request. 
   
-```
+```xml
 <MoveFolderResponse>
    <ResponseMessages/>
 </MoveFolderResponse>

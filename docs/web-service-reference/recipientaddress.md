@@ -20,7 +20,7 @@ description: "The RecipientAddress element represents the mailbox of the recipie
 
 The **RecipientAddress** element represents the mailbox of the recipient. 
   
-```
+```xml
 <RecipientAddress>
    <Name/>
    <EmailAddress/>

@@ -27,7 +27,7 @@ The **SSL** element specifies whether secure logon is required.
   
 [SSL (POX)](ssl-pox.md)
   
-```
+```xml
 <SSL>on or off</SSL>
 ```
 

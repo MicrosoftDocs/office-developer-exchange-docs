@@ -20,7 +20,7 @@ description: "The SavedItemFolderId element identifies the target folder for ope
 
 The **SavedItemFolderId** element identifies the target folder for operations that update, send, and create items in a mailbox. 
   
-```
+```xml
 <SavedItemFolderId>
    <FolderId/>
 </SavedItemFolderId>

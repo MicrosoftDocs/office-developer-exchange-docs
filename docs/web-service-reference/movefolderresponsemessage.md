@@ -26,7 +26,7 @@ The **MoveFolderResponseMessage** element contains the status and result of a si
   
 [MoveFolderResponseMessage](movefolderresponsemessage.md)
   
-```
+```xml
 <MoveFolderResponseMessage ResponseClass="">
    <MessageText/>
    <ResponseCode/>

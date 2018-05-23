@@ -21,7 +21,7 @@ The **PlayOnPhone** element defines a request to play an item on a telephone.
   
 [PlayOnPhone (UM web service)](playonphone-um-web-service.md)
   
-```
+```xml
 <PlayOnPhone>
   <entryId>   </entryId>
   <DialString>   </DialString>

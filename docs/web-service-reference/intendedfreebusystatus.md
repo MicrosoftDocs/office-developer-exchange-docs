@@ -20,7 +20,7 @@ description: "The IntendedFreeBusyStatus element represents the intended status 
 
 The **IntendedFreeBusyStatus** element represents the intended status for the calendar item that is associated with the meeting request. 
   
-```
+```xml
 <IntendedFreeBusyStatus/>
 ```
 

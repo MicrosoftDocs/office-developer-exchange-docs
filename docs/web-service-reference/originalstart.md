@@ -20,7 +20,7 @@ description: "The OriginalStart element represents the original start time of a 
 
 The **OriginalStart** element represents the original start time of a calendar item. 
   
-```
+```xml
 <OriginalStart/>
 ```
 

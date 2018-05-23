@@ -20,7 +20,7 @@ description: "The StatusDescription element contains an explanation of the task 
 
 The **StatusDescription** element contains an explanation of the task status. 
   
-```
+```xml
 <StatusDescription/>
 ```
 

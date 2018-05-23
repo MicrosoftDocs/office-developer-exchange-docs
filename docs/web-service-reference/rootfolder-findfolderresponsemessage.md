@@ -20,7 +20,7 @@ description: "The RootFolder element contains the results of a search of a singl
 
 The **RootFolder** element contains the results of a search of a single root folder during a [FindFolder operation](findfolder-operation.md).
   
-```
+```xml
 <RootFolder IndexedPagingOffset="" NumeratorOffset="" AbsoluteDenominator="" IncludesLastItemInRange="" TotalItemsInView="">
    <Folders/>
 </RootFolder>

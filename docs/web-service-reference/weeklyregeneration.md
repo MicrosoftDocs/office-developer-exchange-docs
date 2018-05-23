@@ -20,7 +20,7 @@ description: "The WeeklyRegeneration element describes the frequency, in weeks, 
 
 The **WeeklyRegeneration** element describes the frequency, in weeks, in which a task is regenerated. 
   
-```
+```xml
 <WeeklyRegeneration>
    <Interval/>
 </WeeklyRegeneration>

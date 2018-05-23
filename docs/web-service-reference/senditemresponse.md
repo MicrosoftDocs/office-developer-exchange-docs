@@ -20,7 +20,7 @@ description: "The SendItemResponse element defines a response to a SendItem requ
 
 The **SendItemResponse** element defines a response to a SendItem request. 
   
-```
+```xml
 <SendItemResponse>
    <ResponseMessages/>
 </SendItemResponse>

@@ -20,7 +20,7 @@ description: "The Standard element represents the date and time when the time ch
 
 The **Standard** element represents the date and time when the time changes from daylight saving time to standard time. 
   
-```
+```xml
 <Standard TimeZoneName="">
    <Offset/>
    <RelativeYearlyRecurrence/>

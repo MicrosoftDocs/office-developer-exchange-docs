@@ -20,7 +20,7 @@ description: "The Timeout element represents the duration, in minutes, that the 
 
 The **Timeout** element represents the duration, in minutes, that the subscription can remain idle without a GetEvents request from the client. 
   
-```
+```xml
 <Timeout/>
 ```
 

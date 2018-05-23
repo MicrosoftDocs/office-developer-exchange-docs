@@ -26,7 +26,7 @@ The **SyncFolderHierarchyResponseMessage** element contains the status and resul
   
 [SyncFolderHierarchyResponseMessage](syncfolderhierarchyresponsemessage.md)
   
-```
+```xml
 <SyncFolderHierarchyResponseMessage ResponseClass="">
    <MessageText/>
    <ResponseCode/>

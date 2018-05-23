@@ -21,7 +21,7 @@ The **SetTelephoneAccessFolderEmail** element defines a request to set the defau
   
 [SetTelephoneAccessFolderEmail (UM web service)](settelephoneaccessfolderemail-um-web-service.md)
   
-```
+```xml
 <SetTelephoneAccessFolderEmail>
   <base64FolderId>   </base64FolderId>
 </SetTelephoneAccessFolderEmail>

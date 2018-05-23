@@ -34,7 +34,7 @@ The **WorkingPeriod** element contains the work week days and hours of the mailb
   
 [WorkingPeriod](workingperiod.md)
   
-```
+```xml
 <WorkingPeriod>
    <DayOfWeek>...</DayOfWeek>
    <StartTimeInMinutes>...</StartTimeInMinutes>

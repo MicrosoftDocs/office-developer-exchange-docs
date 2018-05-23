@@ -20,7 +20,7 @@ description: "The Street element represents a street address for a contact item.
 
 The **Street** element represents a street address for a contact item. 
   
-```
+```xml
 <Street/>
 ```
 

@@ -36,7 +36,7 @@ The **Location** element represents the location field of the calendar item.
   
 [Location (CalendarEventDetails)](location-calendareventdetails.md)
   
-```
+```xml
 <Location/>
 ```
 

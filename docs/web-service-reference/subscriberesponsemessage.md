@@ -26,7 +26,7 @@ The **SubscribeResponseMessage** element contains the status and result of a sin
   
 [SubscribeResponseMessage](subscriberesponsemessage.md)
   
-```
+```xml
 <SubscribeResponseMessage ResponseClass="">
    <MessageText/>
    <ResponseCode/>

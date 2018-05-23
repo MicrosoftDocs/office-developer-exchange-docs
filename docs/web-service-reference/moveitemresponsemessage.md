@@ -20,7 +20,7 @@ description: "The MoveItemResponseMessage element contains the status and result
 
 The **MoveItemResponseMessage** element contains the status and result of a single [MoveItem operation](moveitem-operation.md) request. 
   
-```
+```xml
 <MoveItemResponseMessage ResponseClass="">
    <MessageText/>
    <ResponseCode/>

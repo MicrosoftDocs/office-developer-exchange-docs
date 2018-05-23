@@ -20,7 +20,7 @@ description: "The MyResponseType element contains the status of or response to a
 
 The **MyResponseType** element contains the status of or response to a calendar item. 
   
-```
+```xml
 <MyResponseType/>
 ```
 

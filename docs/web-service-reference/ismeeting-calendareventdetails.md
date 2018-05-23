@@ -36,7 +36,7 @@ The **IsMeeting** element indicates whether the calendar event is a meeting or a
   
 [IsMeeting (CalendarEventDetails)](ismeeting-calendareventdetails.md)
   
-```
+```xml
 <IsMeeting>true or false</IsMeeting>
 ```
 

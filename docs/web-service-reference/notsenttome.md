@@ -20,7 +20,7 @@ description: "The NotSentToMe element indicates whether the owner of the mailbox
 
 The **NotSentToMe** element indicates whether the owner of the mailbox must not be in the **ToRecipients** property of the incoming messages in order for the condition or exception to apply. 
   
-```
+```xml
 <NotSentToMe>true | false</NotSentToMe>
 ```
 

@@ -20,7 +20,7 @@ description: "The IsLessThan element represents a search expression that compare
 
 The **IsLessThan** element represents a search expression that compares a property with either a constant value or another property and returns **true** if the first property is less than the second. 
   
-```
+```xml
 <IsLessThan>
    <FieldURI/>
    <FieldURIOrConstant/>

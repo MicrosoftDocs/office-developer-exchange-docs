@@ -20,7 +20,7 @@ description: "The IsResend element indicates whether the item had previously bee
 
 The **IsResend** element indicates whether the item had previously been sent. 
   
-```
+```xml
 <IsResend/>
 ```
 

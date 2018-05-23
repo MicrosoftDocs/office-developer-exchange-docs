@@ -20,7 +20,7 @@ description: "The OldItemId element contains the unique identifier of the item t
 
 The **OldItemId** element contains the unique identifier of the item that was copied or moved. 
   
-```
+```xml
 <OldItemId Id="" ChangeKey=""/>
 ```
 

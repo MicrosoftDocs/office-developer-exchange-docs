@@ -20,7 +20,6 @@ The **LocationBasedStateDefinition** element is intended for internal use only.
 <LocationBasedStateDefinition />
 ```
 
- ****
 ## Attributes and elements
 
 The following sections describe attributes, child elements, and parent elements.

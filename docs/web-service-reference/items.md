@@ -20,7 +20,7 @@ description: "The Items element contains an array of items."
 
 The **Items** element contains an array of items. 
   
-```
+```xml
 <Items>
    <Item/>
    <Message/>

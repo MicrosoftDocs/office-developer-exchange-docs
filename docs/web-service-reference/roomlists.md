@@ -24,7 +24,7 @@ The **RoomLists** element is a list of one or more addresses that represent a li
   
 [RoomLists](roomlists.md)
   
-```
+```xml
 <RoomLists>   <Address/></RoomLists>
 ```
 

@@ -20,7 +20,7 @@ description: "The SyncScope element specifies whether just items or items and fo
 
 The **SyncScope** element specifies whether just items or items and folder associated information are returned in a synchronization response. 
   
-```
+```xml
 <SyncScope>NormalItems or NormalAndAssociatedItems</SyncScope>
 ```
 

@@ -36,7 +36,7 @@ The **IndividualAttendeeConflictData** element contains a user's or contact's fr
   
 [IndividualAttendeeConflictData](individualattendeeconflictdata.md)
   
-```
+```xml
 <IndividualAttendeeConflictData>
    <BusyType>...</BusyType>
 </IndividualAttendeeConflictData>

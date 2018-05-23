@@ -24,7 +24,7 @@ The **Ignore** element identifies items to skip during synchronization.
   
 [Ignore](ignore.md)
   
-```
+```xml
 <Ignore>
    <ItemId/>
 </Ignore>

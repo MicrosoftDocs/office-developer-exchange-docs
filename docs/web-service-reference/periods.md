@@ -20,7 +20,7 @@ description: "The Periods element represents an array of periods that define the
 
 The **Periods** element represents an array of periods that define the time offset at different stages of the time zone. 
   
-```
+```xml
 <Periods>
    <Period/>
 </Periods>

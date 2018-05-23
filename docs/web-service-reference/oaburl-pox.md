@@ -27,7 +27,7 @@ The **OABUrl** element specifies the Offline Address Book configuration server U
   
 [OABUrl (POX)](oaburl-pox.md)
   
-```
+```xml
 <OABUrl/>
 ```
 

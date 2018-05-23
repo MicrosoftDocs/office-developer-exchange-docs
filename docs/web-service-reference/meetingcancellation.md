@@ -20,7 +20,7 @@ description: "The MeetingCancellation element represents a meeting cancellation 
 
 The **MeetingCancellation** element represents a meeting cancellation in the Exchange store. 
   
-```
+```xml
 <MeetingCancellation>
    <MimeContent/>
    <ItemId/>

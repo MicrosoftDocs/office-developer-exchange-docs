@@ -20,7 +20,7 @@ description: "The PhoneNumbers element represents a collection of telephone numb
 
 The **PhoneNumbers** element represents a collection of telephone numbers for a contact. 
   
-```
+```xml
 <PhoneNumbers>
    <Entry/>
 </PhoneNumbers>

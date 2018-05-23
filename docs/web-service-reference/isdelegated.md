@@ -20,7 +20,7 @@ description: "The IsDelegated element indicates whether a meeting was handled by
 
 The **IsDelegated** element indicates whether a meeting was handled by an account that has delegate access. 
   
-```
+```xml
 <IsDelegated/>
 ```
 

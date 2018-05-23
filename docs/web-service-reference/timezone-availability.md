@@ -20,7 +20,7 @@ description: "The TimeZone element contains elements that identify time zone inf
 
 The **TimeZone** element contains elements that identify time zone information. This element also contains information about the transition between standard time and daylight saving time. 
   
-```
+```xml
 <TimeZone>
    <Bias/>
    <StandardTime/>

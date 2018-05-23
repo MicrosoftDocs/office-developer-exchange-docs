@@ -20,7 +20,7 @@ description: "The RestrictedGroupSids element represents a collection of restric
 
 The **RestrictedGroupSids** element represents a collection of restricted groups from a user's token. 
   
-```
+```xml
 <RestrictedGroupSids>
    <RestrictedGroupIdentifier/>
 </RestrictedGroupSids>

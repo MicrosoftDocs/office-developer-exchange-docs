@@ -30,7 +30,7 @@ The **Update** element identifies a single folder to update in the local client 
   
 [Update (FolderSync)](update-foldersync.md)
   
-```
+```xml
 <Update>
    <Folder/>
 </Update>

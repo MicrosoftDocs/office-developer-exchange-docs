@@ -24,7 +24,7 @@ The **StandardTime** element represents an offset from the time relative to Coor
   
 [StandardTime](standardtime.md)
   
-```
+```xml
 <StandardTime>
    <Bias>int</Bias>
    <Time>string</Time>
@@ -69,7 +69,7 @@ The **StandardTime** element represents an offset time that is represented by th
 
 The following example shows a region where daylight saving time is observed. The transition from daylight saving time to standard time is observed at 2 A.M. on the fifth Sunday of the tenth month.
   
-```
+```xml
 <TimeZone xmlns="http://schemas.microsoft.com/exchange/services/2006/types">
   <Bias>480</Bias>
   <StandardTime>

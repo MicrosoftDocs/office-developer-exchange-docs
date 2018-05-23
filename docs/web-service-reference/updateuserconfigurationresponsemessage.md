@@ -20,7 +20,7 @@ description: "The UpdateUserConfigurationResponseMessage element contains the st
 
 The **UpdateUserConfigurationResponseMessage** element contains the status and result of a single UpdateUserConfiguration operation request. 
   
-```
+```xml
 <UpdateUserConfigurationResponseMessage ResponseClass="">
    <MessageText/>
    <ResponseCode/>

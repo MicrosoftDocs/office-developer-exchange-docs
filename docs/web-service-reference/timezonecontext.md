@@ -20,7 +20,7 @@ description: "The TimeZoneContext element is used in the Simple Object Access Pr
 
 The **TimeZoneContext** element is used in the Simple Object Access Protocol (SOAP) header to specify the time zone definition that is to be used as the default when assigning the time zone for the DateTime properties of objects that are created, updated, and retrieved by using Exchange Web Services (EWS). 
   
-```
+```xml
 <TimeZoneContext>
    <TimeZoneDefinition/>
 </TimeZoneContext>

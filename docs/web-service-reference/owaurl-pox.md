@@ -29,7 +29,7 @@ The **OWAUrl** element describes the URL and authentication schema that is used 
   
 [OWAUrl (POX)](owaurl-pox.md)
   
-```
+```xml
 <OWAUrl AuthenticationMethod=""/>
 ```
 

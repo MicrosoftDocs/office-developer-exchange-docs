@@ -20,7 +20,7 @@ description: "The RelativeMonthlyRecurrence element describes a relative monthly
 
 The **RelativeMonthlyRecurrence** element describes a relative monthly recurrence pattern. 
   
-```
+```xml
 <RelativeMonthlyRecurrence>
    <Interval/>
    <DaysOfWeek/>

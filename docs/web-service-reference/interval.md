@@ -20,7 +20,7 @@ description: "The Interval element defines the interval between two consecutive 
 
 The **Interval** element defines the interval between two consecutive recurring items. 
   
-```
+```xml
 <Interval/>
 ```
 

@@ -20,7 +20,7 @@ description: "The TentativelyAcceptItem element represents a Tentative reply to 
 
 The **TentativelyAcceptItem** element represents a Tentative reply to a meeting request. 
   
-```
+```xml
 <TentativelyAcceptItem>
    <ItemClass/>
    <Sensitivity/>

@@ -21,7 +21,7 @@ The **PlayOnPhoneGreeting** element defines a request to play a Unified Messagin
   
 [PlayOnPhoneGreeting (UM web service)](playonphonegreeting-um-web-service.md)
   
-```
+```xml
 <PlayOnPhoneGreeting>
   <GreetingType/>
   <DialString/>

@@ -20,7 +20,7 @@ description: "The SetUserOofSettingsRequest element contains the arguments used 
 
 The **SetUserOofSettingsRequest** element contains the arguments used to set a mailbox user's Out of Office (OOF) settings. 
   
-```
+```xml
 <SetUserOofSettingsRequest>
    <Mailbox>...</Mailbox>
    <UserOofSettings>...</UserOofSettings>
@@ -55,7 +55,7 @@ The schema that describes this element is located in the EWS virtual directory o
 
 The following example of a SetUserOofSettings request sets an OOF setting for ten days.
   
-```
+```xml
 <?xml version="1.0" encoding="utf-8"?>
 <soap:Envelope xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:soap="http://schemas.xmlsoap.org/soap/envelope/">
   <soap:Body>

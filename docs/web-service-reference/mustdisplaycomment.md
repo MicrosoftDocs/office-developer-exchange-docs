@@ -20,7 +20,7 @@ description: "The MustDisplayComment element indicates whether the managed folde
 
 The **MustDisplayComment** element indicates whether the managed folder comment must be displayed. 
   
-```
+```xml
 <MustDisplayComment/>
 ```
 

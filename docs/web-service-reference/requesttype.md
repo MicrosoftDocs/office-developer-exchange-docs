@@ -20,7 +20,7 @@ description: "The RequestType element identifies whether a proxy request is a cr
 
 The **RequestType** element identifies whether a proxy request is a cross-site or a cross-forest request. 
   
-```
+```xml
 <RequestType>CrossSite or CrossForest</RequestType>
 ```
 

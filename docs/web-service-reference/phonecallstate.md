@@ -20,7 +20,7 @@ description: "The PhoneCallState element specifies the current state for a phone
 
 The **PhoneCallState** element specifies the current state for a phone call. 
   
-```
+```xml
 <PhoneCallState>Idle or Connecting or Alerted or Connected or Disconnected or Incoming or Transferring or Forwarding</PhoneCallState>
 ```
 

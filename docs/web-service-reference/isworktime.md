@@ -34,7 +34,7 @@ The **IsWorkTime** element represents whether the suggested meeting time occurs 
   
 [IsWorkTime](isworktime.md)
   
-```
+```xml
 <IsWorkTime>true or false</IsWorkTime>
 ```
 

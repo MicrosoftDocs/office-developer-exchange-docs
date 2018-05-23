@@ -20,7 +20,7 @@ description: "The Type element specifies a dictionary object type."
 
 The **Type** element specifies a dictionary object type. 
   
-```
+```xml
 <Type>DateTime or Boolean or Byte or String or Integer32 or UnsignedInteger32 or Integer64 or UnsignedInteger64 or StringArray or ByteArray</Type> 
 ```
 

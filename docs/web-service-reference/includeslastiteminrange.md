@@ -28,7 +28,7 @@ The **IncludesLastItemInRange** element indicates whether the last item to synch
   
 [IncludesLastItemInRange](includeslastiteminrange.md)
   
-```
+```xml
 <IncludesLastItemInRange/>
 ```
 

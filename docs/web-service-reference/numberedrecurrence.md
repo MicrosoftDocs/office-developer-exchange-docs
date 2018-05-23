@@ -20,7 +20,7 @@ description: "The NumberedRecurrence element describes the start date and the nu
 
 The **NumberedRecurrence** element describes the start date and the number of occurrences of a recurring item. 
   
-```
+```xml
 <NumberedRecurrence>
    <StartDate/>
    <NumberOfOccurrences/>

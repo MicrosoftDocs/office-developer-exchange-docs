@@ -20,7 +20,7 @@ description: "The IsContactPhoto element indicates whether the file attachment i
 
 The **IsContactPhoto** element indicates whether the file attachment is a contact picture. 
   
-```
+```xml
 <IsContactPhoto>true or false</IsContactPhoto>
 ```
 

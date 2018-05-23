@@ -20,7 +20,7 @@ description: "The ServerHint element represents the starting point for tracking 
 
 The **ServerHint** element represents the starting point for tracking a message in a remote site or forest. 
   
-```
+```xml
 <ServerHint/>
 ```
 

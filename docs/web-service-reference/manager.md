@@ -20,7 +20,7 @@ description: "The Manager element represents a contact's manager."
 
 The **Manager** element represents a contact's manager. 
   
-```
+```xml
 <Manager/>
 ```
 

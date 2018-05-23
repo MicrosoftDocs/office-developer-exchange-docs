@@ -20,7 +20,7 @@ description: "The MimeContent element contains the ASCII MIME stream of an objec
 
 The **MimeContent** element contains the ASCII MIME stream of an object that is represented in base64Binary format and supports [[RFC2045]](http://www.rfc-editor.org/rfc/rfc2045.txt).
   
-```
+```xml
 <MimeContent CharacterSet="" />
 ```
 

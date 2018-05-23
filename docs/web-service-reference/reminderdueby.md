@@ -20,7 +20,7 @@ description: "The ReminderDueBy element represents the date and time when the ev
 
 The **ReminderDueBy** element represents the date and time when the event occurs. This is used by the [ReminderMinutesBeforeStart](reminderminutesbeforestart.md) element to determine when the reminder is displayed. 
   
-```
+```xml
 <ReminderDueBy/>
 ```
 

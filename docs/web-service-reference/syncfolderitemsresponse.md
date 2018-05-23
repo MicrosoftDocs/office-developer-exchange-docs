@@ -20,7 +20,7 @@ description: "The SyncFolderItemsResponse element defines a response to a SyncFo
 
 The **SyncFolderItemsResponse** element defines a response to a SyncFolderItems request. 
   
-```
+```xml
 <SyncFolderItemsResponse>
    <ResponseMessages/>
 </SyncFolderItemsResponse>

@@ -26,7 +26,7 @@ The **MergedFreeBusyIntervalInMinutes** element represents the time difference b
   
 [MergedFreeBusyIntervalInMinutes](mergedfreebusyintervalinminutes.md)
   
-```
+```xml
 <MergedFreeBusyIntervalInMinutes>...</MergedFreeBusyIntervalInMinutes>
 ```
 

@@ -27,7 +27,7 @@ The **Internal** element contains the collection of URLs that a client can use t
   
 [Internal (POX)](internal-pox.md)
   
-```
+```xml
 <Internal>
    <OWAUrl/>
    <Protocol>

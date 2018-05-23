@@ -20,7 +20,7 @@ description: "The IsOnlineMeeting element indicates whether the meeting is onlin
 
 The **IsOnlineMeeting** element indicates whether the meeting is online. 
   
-```
+```xml
 <IsOnlineMeeting/>
 ```
 

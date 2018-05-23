@@ -21,7 +21,7 @@ The **SetPlayOnPhoneDialString** element defines a request to set the default di
   
 [SetPlayOnPhoneDialString (UM web service)](setplayonphonedialstring-um-web-service.md)
   
-```
+```xml
 <SetPlayOnPhoneDialString>
   <dialString>   </dialString>
 </SetPlayOnPhoneDialString>

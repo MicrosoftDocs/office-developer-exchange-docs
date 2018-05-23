@@ -36,7 +36,7 @@ The **Subject** element represents the subject of a calendar item.
   
 [Subject (CalendarEventDetails)](subject-calendareventdetails.md)
   
-```
+```xml
 <Subject/>
 ```
 

@@ -20,7 +20,7 @@ description: "The RemoveItem element represents a response object that is used t
 
 The **RemoveItem** element represents a response object that is used to remove a meeting item when a MeetingCancellation message is received. 
   
-```
+```xml
 <RemoveItem ObjectName="">
    <ReferenceItemId/>
 </RemoveItem>

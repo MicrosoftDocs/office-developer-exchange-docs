@@ -20,7 +20,7 @@ description: "The WeddingAnniversary element contains the wedding anniversary of
 
 The **WeddingAnniversary** element contains the wedding anniversary of a contact. 
   
-```
+```xml
 <WeddingAnniversary/>
 ```
 

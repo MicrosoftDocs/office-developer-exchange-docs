@@ -20,7 +20,7 @@ description: "The MeetingRequestWasSent element indicates whether a meeting requ
 
 The **MeetingRequestWasSent** element indicates whether a meeting request has been sent to requested attendees. 
   
-```
+```xml
 <MeetingRequestWasSent/>
 ```
 

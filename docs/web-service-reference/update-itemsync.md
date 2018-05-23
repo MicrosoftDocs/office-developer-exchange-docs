@@ -30,7 +30,7 @@ The **Update** element identifies a single item to update in the local client st
   
 [Update (ItemSync)](update-itemsync.md)
   
-```
+```xml
 <Update>
    <Item/>
 </Update>

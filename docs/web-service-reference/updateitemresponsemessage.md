@@ -26,7 +26,7 @@ The **UpdateItemResponseMessage** element contains the status and result of a si
   
 [UpdateItemResponseMessage](updateitemresponsemessage.md)
   
-```
+```xml
 <UpdateItemResponseMessage ResponseClass="">
    <MessageText/>
    <ResponseCode/>

@@ -20,7 +20,7 @@ description: "The Recurrence element contains the recurrence pattern for calenda
 
 The **Recurrence** element contains the recurrence pattern for calendar items and meeting requests. 
   
-```
+```xml
 <Recurrence>
       <RelativeYearlyRecurrence/>
       <NoEndRecurrence/>

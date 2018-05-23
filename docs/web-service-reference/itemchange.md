@@ -26,7 +26,7 @@ The **ItemChange** element contains an item identifier and the updates to apply 
   
 [ItemChange](itemchange.md)
   
-```
+```xml
 <ItemChange>
    <ItemId/>
    <Updates>...</Updates>

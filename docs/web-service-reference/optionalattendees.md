@@ -20,7 +20,7 @@ description: "The OptionalAttendees element represents attendees who are not req
 
 The **OptionalAttendees** element represents attendees who are not required to attend a meeting. 
   
-```
+```xml
 <OptionalAttendees>
    <Attendee/>
 </OptionalAttendees>

@@ -27,7 +27,7 @@ The **TTL** element specifies the Time to Live, in hours, during which the setti
   
 [TTL (POX)](ttl-pox.md)
   
-```
+```xml
 <TTL/>
 ```
 

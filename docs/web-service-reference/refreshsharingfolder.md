@@ -20,7 +20,7 @@ description: "The RefreshSharingFolder element defines a request to refresh the 
 
 The **RefreshSharingFolder** element defines a request to refresh the specified local folder. It is the base element for the [RefreshSharingFolder operation](refreshsharingfolder-operation.md).
   
-```
+```xml
 <RefreshSharingFolder>   <SharingFolderId/></RefreshSharingFolder>
 ```
 

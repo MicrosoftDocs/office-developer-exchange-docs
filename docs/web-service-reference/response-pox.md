@@ -23,7 +23,7 @@ The **Response** element contains the response from the Autodiscover service.
   
 [Response (POX)](response-pox.md)
   
-```
+```xml
 <Response>
    <User/>
    <Account/>

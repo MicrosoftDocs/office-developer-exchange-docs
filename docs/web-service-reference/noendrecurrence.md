@@ -20,7 +20,7 @@ description: "The NoEndRecurrence element describes the start date of an item re
 
 The **NoEndRecurrence** element describes the start date of an item recurrence pattern that does not have a defined end date. 
   
-```
+```xml
 <NoEndRecurrence>
    <StartDate/>
 </NoEndRecurrence>

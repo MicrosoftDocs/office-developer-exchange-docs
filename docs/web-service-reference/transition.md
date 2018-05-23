@@ -20,7 +20,7 @@ description: "The Transition element represents a time zone transition."
 
 The **Transition** element represents a time zone transition. 
   
-```
+```xml
 <Transition>
    <To/>
 </Transition>

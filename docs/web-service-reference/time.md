@@ -20,7 +20,7 @@ description: "The Time element represents the transition time of day to and from
 
 The **Time** element represents the transition time of day to and from standard time and daylight saving time. 
   
-```
+```xml
 <Time>...</Time>
 ```
 

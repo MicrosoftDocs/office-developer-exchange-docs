@@ -20,7 +20,7 @@ description: "The MoreEvents element indicates whether there are more events in 
 
 The **MoreEvents** element indicates whether there are more events in the queue to be delivered to the client. 
   
-```
+```xml
 <MoreEvents/>
 ```
 

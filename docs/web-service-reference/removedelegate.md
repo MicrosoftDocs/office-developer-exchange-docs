@@ -20,7 +20,7 @@ description: "The RemoveDelegate element defines a request to remove delegates f
 
 The **RemoveDelegate** element defines a request to remove delegates from a mailbox. This element was introduced in Microsoft Exchange Server 2007 Service Pack 1 (SP1). 
   
-```
+```xml
 <RemoveDelegate>
       <Mailbox/>
    <UserIds/>

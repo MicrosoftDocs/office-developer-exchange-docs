@@ -20,7 +20,7 @@ description: "The Timestamp element represents the timestamp of a mailbox event.
 
 The **Timestamp** element represents the timestamp of a mailbox event. 
   
-```
+```xml
 <TimeStamp/>
 ```
 

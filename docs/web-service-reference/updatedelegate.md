@@ -20,7 +20,7 @@ description: "The UpdateDelegate element defines a request to update delegates i
 
 The **UpdateDelegate** element defines a request to update delegates in a mailbox. This element was introduced in Microsoft Exchange Server 2007 Service Pack 1 (SP1). 
   
-```
+```xml
 <UpdateDelegate>
       <DelegateUsers/>
    <DeliverMeetingRequests/>

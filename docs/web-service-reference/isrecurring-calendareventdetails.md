@@ -36,7 +36,7 @@ The **IsRecurring** element indicates whether the calendar event is an instance 
   
 [IsRecurring (CalendarEventDetails)](isrecurring-calendareventdetails.md)
   
-```
+```xml
 <IsRecurring>true or false</IsRecurring>
 ```
 

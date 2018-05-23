@@ -20,7 +20,7 @@ description: "The SendItem element is the root element in a request to send an i
 
 The **SendItem** element is the root element in a request to send an item in the Exchange store. 
   
-```
+```xml
 <SendItem SaveItemToFolder="">
    <ItemIds/>
    <SavedItemFolderId/>

@@ -20,7 +20,7 @@ description: "The RootAddress element represents the first address that starts t
 
 The **RootAddress** element represents the first address that starts the event for a [RecipientTrackingEvent](recipienttrackingevent.md) event. 
   
-```
+```xml
 <RootAddress/>
 ```
 

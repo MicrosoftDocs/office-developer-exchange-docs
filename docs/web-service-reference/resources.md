@@ -20,7 +20,7 @@ description: "The Resources element represents a scheduled resource for a meetin
 
 The **Resources** element represents a scheduled resource for a meeting. 
   
-```
+```xml
 <Resources>
    <Attendee/>
 </Resources>

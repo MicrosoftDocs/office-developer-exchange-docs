@@ -20,7 +20,7 @@ description: "The SetItemField element represents an update to a single property
 
 The **SetItemField** element represents an update to a single property of an item in an [UpdateItem operation](updateitem-operation.md).
   
-```
+```xml
 <SetItemField>
    <FieldURI/>
    <Item/>

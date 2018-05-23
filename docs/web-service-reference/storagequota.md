@@ -20,7 +20,7 @@ description: "The StorageQuota element describes the storage quota for the manag
 
 The **StorageQuota** element describes the storage quota for the managed folder. 
   
-```
+```xml
 <StorageQuota/>
 ```
 

@@ -20,7 +20,7 @@ description: "The SuppressReadReceipt element is used to suppress read receipts.
 
 The **SuppressReadReceipt** element is used to suppress read receipts. 
   
-```
+```xml
 <SuppressReadReceipt>
    <ReferenceItemId/>
 </SuppressReadReceipt>

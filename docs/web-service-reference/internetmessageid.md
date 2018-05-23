@@ -20,7 +20,7 @@ description: "The InternetMessageId element represents the Internet message iden
 
 The **InternetMessageId** element represents the Internet message identifier of an item. 
   
-```
+```xml
 <InternetMessageId/>
 ```
 

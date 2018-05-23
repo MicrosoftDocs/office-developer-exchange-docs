@@ -20,7 +20,7 @@ description: "The NewMailEvent element represents an event that is triggered by 
 
 The **NewMailEvent** element represents an event that is triggered by a new mail item in a mailbox. 
   
-```
+```xml
 <NewMailEvent>
    <Watermark/>
    <TimeStamp/>

@@ -20,7 +20,7 @@ description: "The MeetingWorkspaceUrl element contains the URL for the meeting w
 
 The **MeetingWorkspaceUrl** element contains the URL for the meeting workspace that is included in the calendar item. A meeting workspace is a shared Web site for planning the meeting and tracking the results. 
   
-```
+```xml
 <MeetingWorkspaceUrl/>
 ```
 

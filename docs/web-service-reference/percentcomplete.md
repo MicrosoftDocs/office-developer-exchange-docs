@@ -20,7 +20,7 @@ description: "The PercentComplete element describes the completion status of a t
 
 The **PercentComplete** element describes the completion status of a task. 
   
-```
+```xml
 <PercentComplete/>
 ```
 

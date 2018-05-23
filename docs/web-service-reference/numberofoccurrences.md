@@ -20,7 +20,7 @@ description: "The NumberOfOccurrences element contains the number of occurrences
 
 The **NumberOfOccurrences** element contains the number of occurrences of a recurring item. 
   
-```
+```xml
 <NumberOfOccurrences/>
 ```
 

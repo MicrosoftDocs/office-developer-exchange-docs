@@ -29,7 +29,7 @@ The **IPv6Start** element identifies the end of a range of IP version 6 (IPv6) a
   
 [IPv6End (POX)](ipv6end-pox.md)
   
-```
+```xml
 <IPv6End/>
 ```
 

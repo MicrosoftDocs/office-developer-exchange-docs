@@ -20,7 +20,7 @@ description: "The Month element represents the month in which the time zone tran
 
 The **Month** element represents the month in which the time zone transition occurs. 
   
-```
+```xml
 <Month/>
 ```
 

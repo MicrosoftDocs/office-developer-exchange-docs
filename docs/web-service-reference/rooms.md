@@ -24,7 +24,7 @@ The **Rooms** element is a list of one or more elements that represent meeting r
   
 [Rooms](rooms.md)
   
-```
+```xml
 <Rooms>   <Room/></Rooms>
 ```
 

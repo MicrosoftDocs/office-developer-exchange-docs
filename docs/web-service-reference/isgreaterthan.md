@@ -20,7 +20,7 @@ description: "The IsGreaterThan element represents a search expression that comp
 
 The **IsGreaterThan** element represents a search expression that compares a property with either a constant value or another property and returns **true** if the first property is greater. 
   
-```
+```xml
 <IsGreaterThan>
    <FieldURI/>
    <FieldURIOrConstant/>

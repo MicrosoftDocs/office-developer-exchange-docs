@@ -20,7 +20,7 @@ description: "The UpdateUserConfigurationResponse element defines a response to 
 
 The **UpdateUserConfigurationResponse** element defines a response to a single UpdateUserConfiguration request. 
   
-```
+```xml
 <UpdateUserConfigurationResponse>   <ResponseMessages/></UpdateUserConfigurationResponse>
 ```
 

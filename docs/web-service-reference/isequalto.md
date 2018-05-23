@@ -20,7 +20,7 @@ description: "The IsEqualTo element represents a search expression that compares
 
 The **IsEqualTo** element represents a search expression that compares a property with either a constant value or another property and evaluates to true if they are equal. 
   
-```
+```xml
 <IsEqualTo>
    <FieldURI/>
    <FieldURIOrConstant/>

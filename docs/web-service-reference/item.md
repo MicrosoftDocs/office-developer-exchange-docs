@@ -20,7 +20,7 @@ description: "The Item element represents a generic item in the Exchange store."
 
 The **Item** element represents a generic item in the Exchange store. 
   
-```
+```xml
 <Item>
    <MimeContent/>
    <ItemId/>

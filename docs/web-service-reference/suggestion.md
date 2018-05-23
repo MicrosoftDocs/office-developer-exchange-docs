@@ -32,7 +32,7 @@ The **Suggestion** element represents a single meeting suggestion.
   
 [Suggestion](suggestion.md)
   
-```
+```xml
 <Suggestion>
    <MeetingTime>...</MeetingTime>
    <IsWorkTime>...</IsWorkTime>

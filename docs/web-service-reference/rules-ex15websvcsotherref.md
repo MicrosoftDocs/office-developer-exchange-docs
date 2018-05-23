@@ -20,7 +20,7 @@ description: "The Rules element contains an array of protection rules."
 
 The **Rules** element contains an array of protection rules. 
   
-```
+```xml
 <Rules>   <Rule/></Rules>
 ```
 

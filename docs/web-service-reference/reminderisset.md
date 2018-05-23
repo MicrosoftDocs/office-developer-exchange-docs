@@ -20,7 +20,7 @@ description: "The ReminderIsSet element indicates whether a reminder has been se
 
 The **ReminderIsSet** element indicates whether a reminder has been set for an item in the Exchange store. 
   
-```
+```xml
 <ReminderIsSet/>
 ```
 

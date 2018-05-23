@@ -20,7 +20,7 @@ description: "The SharedFolderId element represents the identifier of the shared
 
 The **SharedFolderId** element represents the identifier of the shared folder the local folder identifier for which should be returned by a [GetSharingFolder operation](getsharingfolder-operation.md) request. 
   
-```
+```xml
 <SharedFolderId/>
 ```
 

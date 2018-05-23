@@ -20,7 +20,7 @@ description: "The Transitions element represents an array of time zone transitio
 
 The **Transitions** element represents an array of time zone transitions. 
   
-```
+```xml
 <Transitions Id="">
    <Transition/>
    <AbsoluteDateTransition/>

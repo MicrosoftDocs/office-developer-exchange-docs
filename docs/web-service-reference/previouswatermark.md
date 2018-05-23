@@ -20,7 +20,7 @@ description: "The PreviousWatermark element represents the watermark of the late
 
 The **PreviousWatermark** element represents the watermark of the latest event that was successfully communicated to the client for the subscription. 
   
-```
+```xml
 <PreviousWatermark/>
 ```
 

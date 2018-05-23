@@ -20,7 +20,7 @@ description: "The Mileage element represents mileage for a task or contact item.
 
 The **Mileage** element represents mileage for a task or contact item. 
   
-```
+```xml
 <Mileage/>
 ```
 

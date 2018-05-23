@@ -30,7 +30,7 @@ The **MergedFreeBusy** element contains the merged free/busy stream of data.
   
 [MergedFreeBusy](mergedfreebusy.md)
   
-```
+```xml
 <MergedFreeBusy>...</MergedFreeBusy>
 ```
 

@@ -20,7 +20,7 @@ description: "The RequiredAttendees element represents attendees that are requir
 
 The **RequiredAttendees** element represents attendees that are required to attend a meeting. 
   
-```
+```xml
 <RequiredAttendees>
    <Attendee/>
 </RequiredAttendees>

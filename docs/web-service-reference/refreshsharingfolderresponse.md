@@ -20,7 +20,7 @@ description: "The RefreshSharingFolderResponse element defines a response to a R
 
 The **RefreshSharingFolderResponse** element defines a response to a [RefreshSharingFolder operation](refreshsharingfolder-operation.md) request. 
   
-```
+```xml
 <RefreshSharingFolderResponse ResponseClass="">
    <MessageText/>
    <ResponseCode/>

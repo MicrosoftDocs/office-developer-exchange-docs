@@ -24,7 +24,7 @@ The **SuggestionsResponse** element contains response status information and sug
   
 [SuggestionsResponse](suggestionsresponse.md)
   
-```
+```xml
 <SuggestionsResponse>
    <ResponseMessage>...</ResponseMessage>
    <SuggestionDayResultArray>...</SuggestionDayResultArray>

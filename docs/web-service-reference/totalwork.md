@@ -20,7 +20,7 @@ description: "The TotalWork element contains a description of how much work is a
 
 The **TotalWork** element contains a description of how much work is associated with a task. 
   
-```
+```xml
 <TotalWork/>
 ```
 

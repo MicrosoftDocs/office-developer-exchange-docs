@@ -25,7 +25,7 @@ The **Protocol** element contains the specifications for connecting a client to 
   
 [Protocol (POX)](protocol-pox.md)
   
-```
+```xml
 <Protocol>
    <Type/>
    <Internal/>

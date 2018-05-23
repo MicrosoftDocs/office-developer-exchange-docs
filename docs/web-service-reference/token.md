@@ -20,7 +20,7 @@ description: "The Token element contains encrypted data that represents the iden
 
 The **Token** element contains encrypted data that represents the identification token for the shared data. 
   
-```
+```xml
 <Token/>
 ```
 

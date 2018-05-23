@@ -36,7 +36,7 @@ The **IsPrivate** element indicates whether the calendar item is private.
   
 [IsPrivate](isprivate.md)
   
-```
+```xml
 <IsPrivate>true or false</IsPrivate>
 ```
 

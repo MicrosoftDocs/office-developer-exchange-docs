@@ -25,7 +25,7 @@ The **Image** element contains the path of an image that is used to brand the co
   
 [Image (POX)](image-pox.md)
   
-```
+```xml
 <Image/>
 ```
 

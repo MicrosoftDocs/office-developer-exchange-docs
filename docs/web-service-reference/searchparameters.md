@@ -20,7 +20,7 @@ description: "The SearchParameters element represents the parameters that define
 
 The **SearchParameters** element represents the parameters that define a search folder. 
   
-```
+```xml
 <SearchParameters Traversal="">
    <Restriction/>
    <BaseFolderIds/>

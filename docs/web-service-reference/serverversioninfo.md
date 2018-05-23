@@ -20,7 +20,7 @@ description: "The ServerVersionInfo element represents the Microsoft Exchange Se
 
 The **ServerVersionInfo** element represents the Microsoft Exchange Server version number. 
   
-```
+```xml
 <ServerVersionInfo MajorVersion="" MinorVersion="" MajorBuildNumber="" MinorBuildNumber="" Version="" />
 ```
 

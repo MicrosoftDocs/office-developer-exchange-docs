@@ -20,7 +20,7 @@ description: "The ReplyTo element identifies an array of addresses to which repl
 
 The **ReplyTo** element identifies an array of addresses to which replies should be sent. 
   
-```
+```xml
 <ReplyTo>
    <Mailbox/>
 </ReplyTo>

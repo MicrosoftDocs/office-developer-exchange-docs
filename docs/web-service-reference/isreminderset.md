@@ -36,7 +36,7 @@ The **IsReminderSet** element indicates whether a reminder has been set for the 
   
 [IsReminderSet](isreminderset.md)
   
-```
+```xml
 <IsReminderSet>true or false</IsReminderSet>
 ```
 

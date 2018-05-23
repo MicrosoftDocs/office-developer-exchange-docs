@@ -36,7 +36,7 @@ The **TooBigGroupAttendeeConflictData** element represents an attendee that was 
   
 [TooBigGroupAttendeeConflictData](toobiggroupattendeeconflictdata.md)
   
-```
+```xml
 <TooBigGroupAttendeeConflictData/>
 ```
 

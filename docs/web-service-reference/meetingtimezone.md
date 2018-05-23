@@ -20,7 +20,7 @@ description: "The MeetingTimeZone element represents the time zone of the locati
 
 The **MeetingTimeZone** element represents the time zone of the location where the meeting is hosted. 
   
-```
+```xml
 <MeetingTimeZone>
    <BaseOffset/>
    <Standard/>

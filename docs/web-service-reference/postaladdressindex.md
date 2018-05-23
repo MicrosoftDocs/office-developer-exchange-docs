@@ -20,7 +20,7 @@ description: "The PostalAddressIndex element represents the display types for ph
 
 The **PostalAddressIndex** element represents the display types for physical addresses. 
   
-```
+```xml
 <PostalAddressIndex/>
 ```
 

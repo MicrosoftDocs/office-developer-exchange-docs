@@ -20,7 +20,7 @@ description: "The IsComplete element indicates whether the task has been complet
 
 The **IsComplete** element indicates whether the task has been completed. 
   
-```
+```xml
 <IsComplete/>
 ```
 

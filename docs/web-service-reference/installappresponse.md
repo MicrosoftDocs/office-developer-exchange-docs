@@ -16,7 +16,7 @@ description: "The InstallAppResponse element specifies the response to an Instal
 
 The **InstallAppResponse** element specifies the response to an **InstallApp** request. 
   
-```
+```xml
 <InstallAppResponse ResponseClass="">
     <MessageText></MessageText>
     <ResponseCode></ResponseCode>

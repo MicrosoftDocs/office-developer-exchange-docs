@@ -20,7 +20,7 @@ description: "The Profession element represents the profession of a contact."
 
 The **Profession** element represents the profession of a contact. 
   
-```
+```xml
 <Profession/>
 ```
 

@@ -27,7 +27,7 @@ The **Port** element specifies the port that is used to connect to the store.
   
 [Port (POX)](port-pox.md)
   
-```
+```xml
 <Port/>
 ```
 

@@ -24,7 +24,7 @@ The **SuggestionsViewOptions** element contains the options for obtaining meetin
   
 [SuggestionsViewOptions](suggestionsviewoptions.md)
   
-```
+```xml
 <SuggestionsViewOptions>
    <GoodThreshold>...</GoodThreshold>
    <MaximumResultsByDay>...</MaximumResultsByDay>

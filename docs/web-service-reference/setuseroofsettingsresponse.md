@@ -20,7 +20,7 @@ description: "The SetUserOofSettingsResponse element contains the result of a Se
 
 The **SetUserOofSettingsResponse** element contains the result of a [SetUserOofSettingsRequest](setuseroofsettingsrequest.md) message attempt. 
   
-```
+```xml
 <SetUserOofSettingsResponse>
    <ResponseMessage>...</ResponseMessage>
 <SetUserOofSettingsResponse>

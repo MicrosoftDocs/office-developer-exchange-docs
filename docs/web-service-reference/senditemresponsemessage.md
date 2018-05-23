@@ -20,7 +20,7 @@ description: "The SendItemResponseMessage element contains the status and result
 
 The **SendItemResponseMessage** element contains the status and result of a single [SendItem operation](senditem-operation.md) request. 
   
-```
+```xml
 <SendItemResponseMessage ResponseClass="">
    <MessageText/>
    <ResponseCode/>

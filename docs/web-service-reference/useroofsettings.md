@@ -24,7 +24,7 @@ The **UserOofSettings** element specifies the Out of Office (OOF) settings.
   
 [UserOofSettings](useroofsettings.md)
   
-```
+```xml
 <UserOofSettings>
    <OofState>...</OofState>
    <ExternalAudience>...</ExternalAudience>
@@ -67,7 +67,7 @@ The schema that describes this element is located in the EWS virtual directory o
 
 The following example of a SetUserOofSettings request sets the OoFState to **Enabled**, sets the duration of OOF for 10 days, and sets the internal and external OOF messages.
   
-```
+```xml
 <?xml version="1.0" encoding="utf-8"?>
 <soap:Envelope xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:soap="http://schemas.xmlsoap.org/soap/envelope/">
   <soap:Body>
@@ -107,7 +107,5 @@ The following example of a SetUserOofSettings request sets the OoFState to **Ena
    
 ## See also
 
-
-
-[SetUserOofSettings operation](setuseroofsettings-operation.md)
+- [SetUserOofSettings operation](setuseroofsettings-operation.md)
 

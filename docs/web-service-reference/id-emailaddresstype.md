@@ -24,7 +24,7 @@ The **Id** element identifies a meeting room within the Exchange server organiza
   
 [Id (EmailAddressType)](id-emailaddresstype.md)
   
-```
+```xml
 <Id>
    <Name/>
    <EmailAddress/>

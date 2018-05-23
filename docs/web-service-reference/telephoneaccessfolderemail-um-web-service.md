@@ -23,7 +23,7 @@ The **TelephoneAccessFolderEmail** element contains a value that species the ide
   
 [TelephoneAccessFolderEmail (UM web service)](telephoneaccessfolderemail-um-web-service.md)
   
-```
+```xml
 <TelephoneAccessFolderEmail/>
 ```
 

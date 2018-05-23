@@ -20,7 +20,7 @@ description: "The SendNotificationResponseMessage element contains the status an
 
 The **SendNotificationResponseMessage** element contains the status and result of a single **SendNotification** operation request. 
   
-```
+```xml
 <SendNotificationResponseMessage ResponseClass="">
    <MessageText/>
    <ResponseCode/>

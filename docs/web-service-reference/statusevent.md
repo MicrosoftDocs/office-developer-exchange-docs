@@ -20,7 +20,7 @@ description: "The StatusEvent element represents a notification that no new acti
 
 The **StatusEvent** element represents a notification that no new activity has occurred in the mailbox. 
   
-```
+```xml
 <StatusEvent>
    <Watermark/>
 </StatusEvent>

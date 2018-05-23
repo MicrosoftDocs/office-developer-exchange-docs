@@ -27,7 +27,7 @@ The **SPA** element indicates whether Secure Password Authentication (SPA) is re
   
 [SPA (POX)](spa-pox.md)
   
-```
+```xml
 <SPA/>
 ```
 

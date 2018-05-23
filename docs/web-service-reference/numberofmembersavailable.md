@@ -38,7 +38,7 @@ The **NumberOfMembersAvailable** element represents the number of distribution l
   
 [NumberOfMembersAvailable](numberofmembersavailable.md)
   
-```
+```xml
 <NumberOfMembersAvailable>...</NumberOfMembersAvailable>
 ```
 

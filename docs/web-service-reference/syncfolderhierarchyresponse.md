@@ -20,7 +20,7 @@ description: "The SyncFolderHierarchyResponse element defines a response to a Sy
 
 The **SyncFolderHierarchyResponse** element defines a response to a SyncFolderHierarchy request. 
   
-```
+```xml
 <SyncFolderHierarchyResponse>
    <ResponseMessages/>
 </SyncFolderHierarchyResponse>

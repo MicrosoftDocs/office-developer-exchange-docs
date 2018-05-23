@@ -36,7 +36,7 @@ The **ID** element represents the entry ID of the calendar item.
   
 [ID](id.md)
   
-```
+```xml
 <ID>...</ID>
 ```
 

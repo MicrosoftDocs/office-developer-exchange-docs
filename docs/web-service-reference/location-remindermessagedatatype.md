@@ -16,7 +16,7 @@ description: "The Location (ReminderMessageDataType) element specifies the locat
 
 The **Location (ReminderMessageDataType)** element specifies the location of the calendar item that the reminder is for. 
   
-```
+```xml
 <Location/>
 ```
 

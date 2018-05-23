@@ -20,7 +20,7 @@ description: "The IsManagedFoldersRoot element indicates whether the managed fol
 
 The **IsManagedFoldersRoot** element indicates whether the managed folder is the root for all managed folders. 
   
-```
+```xml
 <IsManagedFoldersRoot/>
 ```
 

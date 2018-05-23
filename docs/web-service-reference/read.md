@@ -20,7 +20,7 @@ description: "The Read element indicates whether a client can read a folder or i
 
 The **Read** element indicates whether a client can read a folder or item. This element was introduced in Microsoft Exchange Server 2007 Service Pack 1 (SP1). 
   
-```
+```xml
 <Read>true or false</Read>
 ```
 

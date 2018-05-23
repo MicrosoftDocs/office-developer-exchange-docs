@@ -20,7 +20,7 @@ description: "The Modify element indicates whether a client can modify a folder 
 
 The **Modify** element indicates whether a client can modify a folder or item. This element was introduced in Microsoft Exchange Server 2007 Service Pack 1 (SP1). 
   
-```
+```xml
 <Modify>true or false</Modify>
 ```
 

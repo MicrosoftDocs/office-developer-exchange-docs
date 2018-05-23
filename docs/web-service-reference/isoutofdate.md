@@ -20,7 +20,7 @@ description: "The IsOutOfDate element indicates whether a meeting message, reque
 
 The **IsOutOfDate** element indicates whether a meeting message, request, response, or cancellation is out-of-date. 
   
-```
+```xml
 <IsOutOfDate/>
 ```
 

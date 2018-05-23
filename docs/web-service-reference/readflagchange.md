@@ -20,7 +20,7 @@ description: "The ReadFlagChange element is returned in SyncFolderItems operatio
 
 The **ReadFlagChange** element is returned in [SyncFolderItems operation](syncfolderitems-operation.md) responses when an item has been read. This property is read-only. 
   
-```
+```xml
 <ReadFlagChange>
    <ItemId/>
    <IsRead/>

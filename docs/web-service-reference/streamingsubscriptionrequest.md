@@ -24,7 +24,7 @@ The **StreamingSubscriptionRequest** element represents a subscription to a stre
   
 [StreamingSubscriptionRequest](streamingsubscriptionrequest.md)
   
-```
+```xml
 <StreamingSubscriptionRequest SubscribeToAllFolders="">
    <FolderIds/>
    <EventTypes/>

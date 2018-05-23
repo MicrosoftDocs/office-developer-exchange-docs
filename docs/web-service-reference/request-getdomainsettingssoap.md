@@ -17,7 +17,7 @@ description: "The Request element contains a request to return domain settings."
 
 The **Request** element contains a request to return domain settings. 
   
-```cs
+```xml
 <Request>
    <Domains/>
    <RequestedSettings/>

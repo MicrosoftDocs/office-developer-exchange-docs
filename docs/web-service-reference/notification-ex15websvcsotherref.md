@@ -20,7 +20,7 @@ description: "The Notification element contains information about the subscripti
 
 The **Notification** element contains information about the subscription and the events that have occurred since the last notification. 
   
-```
+```xml
 <Notification>
    <SubscriptionId/>
    <PreviousWatermark/>

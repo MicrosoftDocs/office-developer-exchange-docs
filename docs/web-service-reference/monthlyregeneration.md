@@ -20,7 +20,7 @@ description: "The MonthlyRegeneration element describes the frequency, in months
 
 The **MonthlyRegeneration** element describes the frequency, in months, of which task is regenerated. 
   
-```
+```xml
 <MonthlyRegeneration>
    <Interval/>
 </MonthlyRegeneration>

@@ -20,7 +20,7 @@ description: "The SortOrder element defines how items are sorted in a FindItem o
 
 The **SortOrder** element defines how items are sorted in a **FindItem** or **FindConversation** request. 
   
-```
+```xml
 <SortOrder>
    <FieldOrder/>
 </SortOrder>

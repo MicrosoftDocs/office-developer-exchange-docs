@@ -20,7 +20,7 @@ description: "The SpouseName element represents the name of a contact's spouse o
 
 The **SpouseName** element represents the name of a contact's spouse or partner. 
   
-```
+```xml
 <SpouseName/>
 ```
 

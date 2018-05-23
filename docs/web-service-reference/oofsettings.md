@@ -24,7 +24,7 @@ The **OofSettings** element contains the Out of Office (OOF) settings.
   
 [OofSettings](oofsettings.md)
   
-```
+```xml
 <OofSettings>
    <OofState>...</OofState>
    <ExternalAudience>...</ExternalAudience>

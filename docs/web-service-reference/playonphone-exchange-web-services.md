@@ -20,7 +20,7 @@ description: "The PlayOnPhone element represents a request to read an item on a 
 
 The **PlayOnPhone** element represents a request to read an item on a phone. 
   
-```
+```xml
 <PlayOnPhone>   <ItemId/>   <DialString/></PlayOnPhone>
 ```
 
