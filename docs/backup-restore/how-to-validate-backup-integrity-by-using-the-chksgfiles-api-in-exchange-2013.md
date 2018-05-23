@@ -1,7 +1,5 @@
 ---
 title: "Validate backup integrity by using the CHKSGFILES API in Exchange 2013"
- 
- 
 manager: sethgros
 ms.date: 9/17/2015
 ms.audience: Developer
@@ -95,9 +93,7 @@ The following procedure describes how to validate data integrity in your backup 
 ## See also
 
 - [CChkSGFiles class reference](cchksgfiles-class-reference.md)
-    
 - [Build backup and restore applications for Exchange 2013](build-backup-and-restore-applications-for-exchange-2013.md)
-    
 - [Backup and restore concepts for Exchange 2013](backup-and-restore-concepts-for-exchange-2013.md)
     
 

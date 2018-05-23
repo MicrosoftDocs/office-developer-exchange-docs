@@ -1,12 +1,8 @@
 ---
 title: "EWS throttling in Exchange"
- 
- 
 manager: sethgros
 ms.date: 9/17/2015
 ms.audience: Developer
- 
- 
 localization_priority: Normal
 ms.assetid: b4fff4c9-c625-4d2a-9d14-bb28a5da5baf
 description: "Learn about the throttling policies that affect EWS when you are using Exchange."
@@ -16,7 +12,7 @@ description: "Learn about the throttling policies that affect EWS when you are u
 
 Learn about the throttling policies that affect EWS when you are using Exchange.
   
- **Provided by:** Glen Scales; Michael Mainer, Microsoft Corporation 
+**Provided by:** Glen Scales; Michael Mainer, Microsoft Corporation 
   
 The article provides information about EWS throttling in Exchange Online, Exchange Online as part of Office 365, and on-premises versions of Exchange starting with Exchange 2010. Throttling in Exchange helps to ensure server reliability and uptime by limiting the amount of server resources that a single user or application can consume. Throttling is a reactive response to overuse of system resources that may affect service reliability and functionality. Exchange constantly monitors the health of critical infrastructure resources, such as mailbox databases. When high load factors are detected that degrade the performance of these resources, EWS connections are throttled proportionally based on the amount that each caller has contributed to this high load condition. The result is that a user may be within their throttling limit and still experience slowdowns until the health of the resource is back to operational levels.
   
@@ -76,19 +72,19 @@ You can use the following cmdlets to display throttling polices for an on-premis
     
 Use the following command to show the default throttling policy for Exchange 2010.
   
- **Get-ThrottlingPolicy | Where-Object {$_.IsDefault -eq "True"} | format-list**
+**Get-ThrottlingPolicy | Where-Object {$_.IsDefault -eq "True"} | format-list**
   
 Use the following command to show the global throttling policy (which equates to the default throttling policy in Exchange 2010) in Exchange 2013.
   
- **Get-ThrottlingPolicy | Where-Object {$_.ThrottlingPolicyScope -eq "Global"} | format-list**
+**Get-ThrottlingPolicy | Where-Object {$_.ThrottlingPolicyScope -eq "Global"} | format-list**
   
 Use the following command to show the throttling policy associated with a user in Exchange 2010 or Exchange 2013. Replace the user name john@contoso.com with the user name of the target user for whom you want to get throttling policy information.
   
- **Get-ThrottlingPolicyAssociation john@contoso.com | format-list**
+**Get-ThrottlingPolicyAssociation john@contoso.com | format-list**
   
 Running this command in Exchange Management Shell results in an output similar to the following.
   
-```
+```powershell
 PS C:\>Get-ThrottlingPolicyAssociation john@contoso.com
 RunspaceId               : 72153d6-9dce-2fae-8dbd-5ca5f760g2df
 ObjectId                 : john
@@ -143,14 +139,14 @@ When impersonation is used, the budgets for all the throttling thresholds apply 
     
    **Table 2: EWSMaxSubscriptions budget accounting**
 
-|**Exchange version**|**EWSMaxSubscriptions throttling budget accounting**|
-|:-----|:-----|
-|Exchange Online  <br/> |Charged against the target mailbox.  <br/> |
-|Exchange 2013  <br/> |Charged against the target mailbox.  <br/> |
-|Exchange 2010 SP3  <br/> |Charged against the target mailbox.  <br/> |
-|Exchange 2010 SP2  <br/> |Charged against the calling account. Starting with Exchange 2010 SP2 RU4, the budget is charged against the target mailbox.  <br/> |
-|Exchange 2010 SP1  <br/> |Charged against the calling account.  <br/> |
-|Exchange 2010  <br/> |Charged against the calling account.  <br/> |
+   |**Exchange version**|**EWSMaxSubscriptions throttling budget accounting**|
+   |:-----|:-----|
+   |Exchange Online  <br/> |Charged against the target mailbox.  <br/> |
+   |Exchange 2013  <br/> |Charged against the target mailbox.  <br/> |
+   |Exchange 2010 SP3  <br/> |Charged against the target mailbox.  <br/> |
+   |Exchange 2010 SP2  <br/> |Charged against the calling account. Starting with Exchange 2010 SP2 RU4, the budget is charged against the target mailbox.  <br/> |
+   |Exchange 2010 SP1  <br/> |Charged against the calling account.  <br/> |
+   |Exchange 2010  <br/> |Charged against the calling account.  <br/> |
    
 - Because the **EWSMaxSubscriptions** throttling budget is charged against the account being impersonated, there is no limit on the number of mailboxes a service account can subscribe to and receive streaming notifications for, as long as impersonation is being used. For the account being impersonated, you can't have more than  _n_ concurrent requests per target mailbox, where  _n_ is the **EWSMaxSubscriptions** value. If you were not using impersonation, the same service account could not have more than  _n_ concurrent requests total. So, the takeaway is that by using impersonation on a service account, you exponentially increase the number of mailboxes you can service. For more information, see [Maintain affinity between a group of subscriptions and the Mailbox server in Exchange](how-to-maintain-affinity-between-a-group-of-subscriptions-and-the-mailbox-server.md).
     
@@ -304,25 +300,15 @@ The following table lists the HTTP status codes that are returned by throttling 
    
 ## See also
 
-
 - [Exchange Workload Management](http://technet.microsoft.com/en-us/library/jj150503.aspx)
-    
 - [New-ThrottlingPolicy cmdlet](http://technet.microsoft.com/en-us/library/dd351045.aspx)
-    
 - [Understanding Client Throttling Policies](http://technet.microsoft.com/en-us/library/dd297964.aspx)
-    
 - [ThrottlingPolicy Class](http://msdn.microsoft.com/en-us/library/ff342496%28v=EXCHG.140%29.aspx)
-    
 - [Throttling Policies and the EWSFindCountLimit](http://blogs.msdn.com/b/exchangedev/archive/2010/03/12/throttling-policies-and-the-ewsfindcountlimit.aspx)
-    
 - [Budget Snapshots in the IIS Logs](http://blogs.msdn.com/b/exchangedev/archive/2010/03/10/budget-snapshots-in-the-iis-logs.aspx)
-    
 - [Effects of Throttling on Your Deployment in Exchange 2010 SP1](http://msexchangeteam.com/archive/2010/08/27/456040.aspx)
-    
 - [Throttling Policy Associations in Exchange 2010 SP1](http://msexchangeteam.com/archive/2010/08/02/455707.aspx)
-    
 - [Throttling Policies and CPUStartPercent](http://blogs.msdn.com/b/exchangedev/archive/2010/03/11/throttling-policies-and-cpustartpercent.aspx)
-    
 - [Impersonation and EWS in Exchange](impersonation-and-ews-in-exchange.md)
     
 

@@ -1,12 +1,8 @@
 ---
 title: "Access email as a delegate by using EWS in Exchange"
- 
- 
 manager: sethgros
 ms.date: 3/9/2015
 ms.audience: Developer
- 
- 
 localization_priority: Normal
 ms.assetid: a8123604-c7c0-405d-a0ed-7a9b4a431bfd
 description: "Learn how to access email as a delegate by using the EWS Managed API or EWS in Exchange."
@@ -222,7 +218,7 @@ The server responds to the **SendItem** request with a [SendItemResponse](http:/
 
 To search for an email, you must use one of the [ExchangeService.FindItems](http://msdn.microsoft.com/en-us/library/microsoft.exchange.webservices.data.exchangeservice.finditems%28v=exchg.80%29.aspx) methods that includes a [FolderId](http://msdn.microsoft.com/en-us/library/microsoft.exchange.webservices.data.folderid%28v=exchg.80%29.aspx) parameter, so that you can specify the mailbox owner's Inbox folder. 
   
-```
+```cs
 static void DelegateAccessSearchEmailWithFilter(ExchangeService service)
 {
     // Limit the result set to 10 items.
@@ -393,13 +389,9 @@ You can use the EWS Managed API to get, update, or delete an email in the same w
    
 ## See also
 
-
-- [Delegate access and EWS in Exchange](delegate-access-and-ews-in-exchange.md)
-    
-- [Add and remove delegates by using EWS in Exchange](how-to-add-and-remove-delegates-by-using-ews-in-exchange.md)
-    
-- [Set folder permissions for another user by using EWS in Exchange](how-to-set-folder-permissions-for-another-user-by-using-ews-in-exchange.md)
-    
+- [Delegate access and EWS in Exchange](delegate-access-and-ews-in-exchange.md)    
+- [Add and remove delegates by using EWS in Exchange](how-to-add-and-remove-delegates-by-using-ews-in-exchange.md)    
+- [Set folder permissions for another user by using EWS in Exchange](how-to-set-folder-permissions-for-another-user-by-using-ews-in-exchange.md)    
 - [Calendars and EWS in Exchange](calendars-and-ews-in-exchange.md)
     
 

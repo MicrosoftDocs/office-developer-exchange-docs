@@ -79,7 +79,7 @@ meeting.Save(new FolderId(WellKnownFolderName.Calendar,
 
 However, you can also [Bind](http://msdn.microsoft.com/en-us/library/microsoft.exchange.webservices.data.folder.bind%28v=exchg.80%29.aspx) to the Calendar folder first, and then use the ID of the folder in the **Save** method call. Be aware, however, that this creates an extra EWS call. 
   
-```
+```cs
     // Identify the mailbox owner's SMTP address
     // and bind to their Calendar folder.
     Mailbox primary = new Mailbox("primary@contoso.com"); 
