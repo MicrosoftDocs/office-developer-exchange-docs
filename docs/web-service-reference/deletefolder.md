@@ -1,7 +1,5 @@
 ---
 title: "DeleteFolder"
- 
- 
 manager: sethgros
 ms.date: 9/17/2015
 ms.audience: Developer
@@ -37,7 +35,7 @@ The following sections describe attributes, child elements, and parent elements.
 |:-----|:-----|
 |**DeleteType** <br/> |Describes how a folder is deleted. This attribute is required.  <br/> |
    
-#### DeleteType Attribute
+#### DeleteType attribute
 
 |**Value**|**Description**|
 |:-----|:-----|
@@ -76,7 +74,5 @@ The schema that describes this element is located in the IIS virtual directory t
    
 ## See also
 
-
-
-[DeleteFolder operation](deletefolder-operation.md)
+- [DeleteFolder operation](deletefolder-operation.md)
 

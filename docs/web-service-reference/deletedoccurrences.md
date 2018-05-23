@@ -1,7 +1,5 @@
 ---
 title: "DeletedOccurrences"
- 
- 
 manager: sethgros
 ms.date: 9/17/2015
 ms.audience: Developer
@@ -20,7 +18,7 @@ description: "The DeletedOccurrences element contains an array of deleted occurr
 
 The **DeletedOccurrences** element contains an array of deleted occurrences of a recurring calendar item. 
   
-```
+```xml
 <DeletedOccurrences>
    <DeletedOccurrence/>
 </DeletedOccurrences>
@@ -65,9 +63,6 @@ The schema that describes this element is located in the EWS virtual directory o
    
 ## See also
 
-
-
-- [EWS XML elements in Exchange](ews-xml-elements-in-exchange.md)
-  
-[EWS reference for Exchange](ews-reference-for-exchange.md)
+- [EWS XML elements in Exchange](ews-xml-elements-in-exchange.md)  
+- [EWS reference for Exchange](ews-reference-for-exchange.md)
 

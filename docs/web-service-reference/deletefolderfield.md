@@ -1,7 +1,5 @@
 ---
 title: "DeleteFolderField"
- 
- 
 manager: sethgros
 ms.date: 9/17/2015
 ms.audience: Developer
@@ -20,17 +18,13 @@ description: "The DeleteFolderField element represents an operation to delete a 
 
 The **DeleteFolderField** element represents an operation to delete a given property from a folder during an UpdateFolder call. 
   
-[UpdateFolder](updatefolder.md)
+- [UpdateFolder](updatefolder.md) 
+- [FolderChanges](folderchanges.md)  
+- [FolderChange](folderchange.md)  
+- [Updates (Folder)](updates-folder.md) 
+- [DeleteFolderField](deletefolderfield.md)
   
-[FolderChanges](folderchanges.md)
-  
-[FolderChange](folderchange.md)
-  
-[Updates (Folder)](updates-folder.md)
-  
-[DeleteFolderField](deletefolderfield.md)
-  
-```
+```xml
 <DeleteFolderField>
    <FieldURI/>
 </DeleteFolderField>
@@ -74,7 +68,5 @@ The schema that describes this element is located in the EWS virtual directory o
    
 ## See also
 
-
-
-[UpdateFolder operation](updatefolder-operation.md)
+- [UpdateFolder operation](updatefolder-operation.md)
 

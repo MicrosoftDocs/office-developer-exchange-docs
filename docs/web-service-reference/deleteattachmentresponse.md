@@ -1,7 +1,5 @@
 ---
 title: "DeleteAttachmentResponse"
- 
- 
 manager: sethgros
 ms.date: 9/17/2015
 ms.audience: Developer
@@ -20,13 +18,14 @@ description: "The DeleteAttachmentResponse defines a response to a DeleteAttachm
 
 The **DeleteAttachmentResponse** defines a response to a DeleteAttachment request. 
   
-```
+```xml
 <DeleteAttachmentResponse>
    <ResponseMessages/>
 </DeleteAttachmentResponse>
 ```
 
- **DeleteAttachmentResponseType**
+**DeleteAttachmentResponseType**
+
 ## Attributes and elements
 
 The following sections describe attributes, child elements, and parent elements.
@@ -60,12 +59,7 @@ The schema that describes this element is located in the EWS virtual directory o
    
 ## See also
 
-
-
-[DeleteAttachment operation](deleteattachment-operation.md)
-  
-[DeleteAttachment](deleteattachment.md)
-
-
+- [DeleteAttachment operation](deleteattachment-operation.md)  
+- [DeleteAttachment](deleteattachment.md)
 - [EWS XML elements in Exchange](ews-xml-elements-in-exchange.md)
 

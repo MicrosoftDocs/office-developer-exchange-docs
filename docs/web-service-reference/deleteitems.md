@@ -1,7 +1,5 @@
 ---
 title: "DeleteItems"
- 
- 
 manager: sethgros
 ms.date: 9/17/2015
 ms.audience: Developer
@@ -20,7 +18,7 @@ description: "The DeleteItems element indicates which items in a folder a user h
 
 The **DeleteItems** element indicates which items in a folder a user has permission to delete. This element was introduced in Microsoft Exchange Server 2007 Service Pack 1 (SP1). 
   
-```
+```xml
 <DeleteItems>None or Owned or All</DeleteItems>
 ```
 
@@ -71,10 +69,6 @@ The schema that describes this element is located in the EWS virtual directory o
    
 ## See also
 
-
-
 - [EWS XML elements in Exchange](ews-xml-elements-in-exchange.md)
-
-
-[Setting Folder-Level Permissions](http://msdn.microsoft.com/library/c7530e86-5112-401c-b10a-9c054ae59f07%28Office.15%29.aspx)
+- [Setting Folder-Level Permissions](http://msdn.microsoft.com/library/c7530e86-5112-401c-b10a-9c054ae59f07%28Office.15%29.aspx)
 

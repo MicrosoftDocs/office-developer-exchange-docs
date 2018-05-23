@@ -1,7 +1,5 @@
 ---
 title: "DeleteType"
- 
- 
 manager: sethgros
 ms.date: 9/17/2015
 ms.audience: Developer
@@ -20,13 +18,10 @@ description: "The DeleteType element indicates how items in a conversation are d
 
 The **DeleteType** element indicates how items in a conversation are deleted. 
   
-[ApplyConversationAction](applyconversationaction.md)
-  
-[ConversationActions](conversationactions.md)
-  
-[ConversationAction](conversationaction.md)
-  
-[DeleteType](deletetype.md)
+- [ApplyConversationAction](applyconversationaction.md)  
+- [ConversationActions](conversationactions.md)  
+- [ConversationAction](conversationaction.md)  
+- [DeleteType](deletetype.md)
   
 ```XML
 <DeleteType> HardDelete | MoveToDeletedItems | SoftDelete </DeleteType>
@@ -76,10 +71,6 @@ The schema that describes this element is located in the IIS virtual directory t
    
 ## See also
 
-
-
-[ApplyConversationAction operation](applyconversationaction-operation.md)
-
-
+- [ApplyConversationAction operation](applyconversationaction-operation.md)
 - [EWS XML elements in Exchange](ews-xml-elements-in-exchange.md)
 

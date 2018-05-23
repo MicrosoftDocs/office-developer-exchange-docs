@@ -1,7 +1,5 @@
 ---
 title: "DeleteItem"
- 
- 
 manager: sethgros
 ms.date: 9/17/2015
 ms.audience: Developer
@@ -40,7 +38,7 @@ The following sections describe attributes, child elements, and parent elements.
 |**AffectedTaskOccurrences** <br/> |Describes whether a task instance or a task master is deleted by a [DeleteItem operation](deleteitem-operation.md). This attribute is required when tasks are deleted. This attribute is optional when non-task items are deleted.  <br/> |
 |**SuppressReadReceipts** <br/> |Indicates whether read receipts for the deleted item are suppressed. A text value of **true**, indicates that the read receipts are suppressed. A value of **false** indicates that the read receipts are sent to the sender. This attribute is optional.  <br/> |
    
-#### DeleteType Attribute
+#### DeleteType attribute
 
 |**Value**|**Description**|
 |:-----|:-----|
@@ -48,7 +46,7 @@ The following sections describe attributes, child elements, and parent elements.
 |SoftDelete  <br/> |An item is moved to the dumpster if the dumpster is enabled.  <br/> |
 |MoveToDeletedItems  <br/> |An item is moved to the Deleted Items folder.  <br/> |
    
-#### SendMeetingCancellations Attribute
+#### SendMeetingCancellations attribute
 
 |**Value**|**Description**|
 |:-----|:-----|
@@ -56,7 +54,7 @@ The following sections describe attributes, child elements, and parent elements.
 |SendOnlyToAll  <br/> |A calendar item is deleted and a cancellation message is sent to all attendees.  <br/> |
 |SendToAllAndSaveCopy  <br/> |A calendar item is deleted and a cancellation message is sent to all attendees. A copy of the cancellation message is saved in the Sent Items folder.  <br/> |
    
-#### AffectedTaskOccurrences Attribute
+#### AffectedTaskOccurrences attribute
 
 |**Value**|**Description**|
 |:-----|:-----|
@@ -92,9 +90,6 @@ The schema that describes this element is located in the IIS virtual directory t
    
 ## See also
 
-
-
-[DeleteItemResponse](deleteitemresponse.md)
-  
-[DeleteItem operation](deleteitem-operation.md)
+- [DeleteItemResponse](deleteitemresponse.md)  
+- [DeleteItem operation](deleteitem-operation.md)
 

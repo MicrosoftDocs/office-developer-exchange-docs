@@ -1,7 +1,5 @@
 ---
 title: "DeleteAttachment"
- 
- 
 manager: sethgros
 ms.date: 9/17/2015
 ms.audience: Developer
@@ -20,13 +18,14 @@ description: "The DeleteAttachment element is the root element in a request to d
 
 The **DeleteAttachment** element is the root element in a request to delete an attachment from the Exchange store. 
   
-```
+```xml
 <DeleteAttachment>
    <AttachmentIds/>
 </DeleteAttachment>
 ```
 
- **DeleteAttachmentType**
+**DeleteAttachmentType**
+
 ## Attributes and elements
 
 The following sections describe attributes, child elements, and parent elements.
@@ -60,7 +59,5 @@ The schema that describes this element is located in the EWS virtual directory o
    
 ## See also
 
-
-
-[DeleteAttachment operation](deleteattachment-operation.md)
+- [DeleteAttachment operation](deleteattachment-operation.md)
 

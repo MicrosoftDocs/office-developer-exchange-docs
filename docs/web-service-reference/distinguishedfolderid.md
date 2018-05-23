@@ -38,7 +38,7 @@ The following sections describe attributes, child elements, and parent elements.
 |**Id** <br/> |Contains a string that identifies a default folder. This attribute is required.  <br/> |
 |**ChangeKey** <br/> |Contains a string that identifies a version of a folder that is identified by the **Id** attribute. This attribute is optional. Use this attribute to make sure that the correct version of a folder is used.  <br/> |
    
-#### Id Attribute Values
+#### Id attribute values
 
 |**Value**|**Description**|
 |:-----|:-----|

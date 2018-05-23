@@ -35,7 +35,7 @@ The following sections describe attributes, child elements, and parent elements.
 |:-----|:-----|
 |Version  <br/> |Describes the version to target for the request. This attribute is required when the target server version is a version of Exchange starting with Exchange Server 2010.  <br/> |
    
-#### Version Attribute Values
+#### Version attribute values
 
 |**Value**|**Description**|
 |:-----|:-----|

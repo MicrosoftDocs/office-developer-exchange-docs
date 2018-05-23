@@ -47,7 +47,7 @@ The following sections describe attributes, child elements, and parent elements.
 |:-----|:-----|
 |**ResponseClass** <br/> | Describes the status of a [CopyFolder operation](copyfolder-operation.md) response. The following values are valid for this attribute:  <br/>  Success  <br/>  Warning  <br/>  Error  <br/> |
    
-#### ResponseClass Attribute Values
+#### ResponseClass attribute values
 
 |**Value**|**Description**|
 |:-----|:-----|

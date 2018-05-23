@@ -1,7 +1,5 @@
 ---
 title: "DeleteRuleOperation"
- 
- 
 manager: sethgros
 ms.date: 9/17/2015
 ms.audience: Developer
@@ -20,9 +18,8 @@ description: "The DeleteRuleOperation element contains an operation to delete an
 
 The **DeleteRuleOperation** element contains an operation to delete an existing Inbox rule. 
   
-[UpdateInboxRules](updateinboxrules.md)
-  
-[Operations](operations.md)
+- [UpdateInboxRules](updateinboxrules.md)
+- [Operations](operations.md)
   
 ```XML
 <DeleteRuleOperation>
@@ -70,14 +67,8 @@ The schema that describes this element is located in the IIS virtual directory t
    
 ## See also
 
-
-
-[UpdateInboxRules](updateinboxrules.md)
-  
-[SetRuleOperation](setruleoperation.md)
-  
-[CreateRuleOperation](createruleoperation.md)
-
-
+- [UpdateInboxRules](updateinboxrules.md) 
+- [SetRuleOperation](setruleoperation.md) 
+- [CreateRuleOperation](createruleoperation.md)
 - [EWS XML elements in Exchange](ews-xml-elements-in-exchange.md)
 

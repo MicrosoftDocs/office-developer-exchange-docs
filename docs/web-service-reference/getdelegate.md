@@ -38,7 +38,7 @@ The following sections describe attributes, child elements, and parent elements.
 |:-----|:-----|
 |**IncludePermissions** <br/> |Indicates whether the response contains permission settings for each delegate user.  <br/> |
    
-#### IncludePermissions Attribute Values
+#### IncludePermissions attribute values
 
 |**Value**|**Description**|
 |:-----|:-----|

@@ -39,7 +39,7 @@ The following sections describe attributes, child elements, and parent elements.
 |**ContainmentMode** <br/> |Identifies the boundaries of a search.  <br/> |
 |**ContainmentComparison** <br/> |Determines whether the search ignores cases and spaces.  <br/> |
    
-#### ContainmentMode Attribute Values
+#### ContainmentMode attribute values
 
 |**Value**|**Description**|
 |:-----|:-----|
@@ -49,7 +49,7 @@ The following sections describe attributes, child elements, and parent elements.
 |PrefixOnWords  <br/> |The comparison is between a prefix on individual words in the string and the constant.  <br/> |
 |ExactPhrase  <br/> |The comparison is between an exact phrase in the string and the constant.  <br/> |
    
-#### ContainmentComparison Attribute Values
+#### ContainmentComparison attribute values
 
 |**Value**|**Description**|
 |:-----|:-----|
