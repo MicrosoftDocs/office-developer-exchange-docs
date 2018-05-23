@@ -1,12 +1,8 @@
 ---
 title: "Set folder permissions for another user by using EWS in Exchange"
- 
- 
 manager: sethgros
 ms.date: 3/9/2015
 ms.audience: Developer
- 
- 
 localization_priority: Normal
 ms.assetid: 7eb81676-a780-4c56-b4f2-c4ed2697107d
 description: "Learn how to set permission levels on a folder by using the EWS Managed API or EWS in Exchange."
@@ -32,7 +28,7 @@ If you're making multiple permission changes to a single folder, you can batch a
   
 **Table 1. EWS Managed API methods and EWS operations for setting folder permissions**
 
-|**If you want to…**|**Use this EWS Managed API method…**|**Use this EWS operation…**|
+|If you want to…|Use this EWS Managed API method…|Use this EWS operation…|
 |:-----|:-----|:-----|
 |Enable, remove, or update folder permissions  <br/> |[Folder.Bind](http://msdn.microsoft.com/en-us/library/microsoft.exchange.webservices.data.folder.bind%28v=exchg.80%29.aspx) followed by [Folder.Update](http://msdn.microsoft.com/en-us/library/microsoft.exchange.webservices.data.emailmessage.reply%28v=exchg.80%29.aspx) <br/> |[GetFolder](http://msdn.microsoft.com/library/355bcf93-dc71-4493-b177-622afac5fdb9%28Office.15%29.aspx) followed by [UpdateFolder](http://msdn.microsoft.com/library/3494c996-b834-4813-b1ca-d99642d8b4e7%28Office.15%29.aspx) <br/> |
 |Create a folder and define folder permissions  <br/> |[Folder.Save](http://msdn.microsoft.com/en-us/library/microsoft.exchange.webservices.data.folder.save%28v=exchg.80%29.aspx) <br/> |[CreateFolder](http://msdn.microsoft.com/library/6f6c334c-b190-4e55-8f0a-38f2a018d1b3%28Office.15%29.aspx) <br/> |
@@ -45,52 +41,34 @@ You have quite a few options when it comes to setting folder permissions on a sp
 The following individual permissions are available:
   
 - Can create
-    
-- Can create subfolders
-    
-- Is folder owner
-    
-- Is folder visible
-    
-- Is folder contact
-    
-- Edit items
-    
-- Delete items
-    
+- Can create subfolders    
+- Is folder owner    
+- Is folder visible    
+- Is folder contact    
+- Edit items    
+- Delete items    
 - Read items
     
-In addition, the following permission levels are available, which define a subset of individual permissions and values, as shown in Table 3:
+In addition, the following permission levels are available, which define a subset of individual permissions and values, as shown in Table 2:
   
-- None
-    
-- Owner
-    
-- PublishingEditor
-    
-- Editor
-    
-- PublishingAuthor
-    
-- Author
-    
-- NoneditingAuthor
-    
-- Reviewer
-    
-- Contributor
-    
-- Custom - This value cannot be set by the application. The server sets this value if the application includes a custom collection of individual permissions.
-    
-- FreeBusyTimeOnly - This can only be set on Calendar folders.
-    
+- None    
+- Owner    
+- PublishingEditor    
+- Editor    
+- PublishingAuthor    
+- Author    
+- NoneditingAuthor    
+- Reviewer    
+- Contributor   
+- Custom - This value cannot be set by the application. The server sets this value if the application includes a custom collection of individual permissions.    
+- FreeBusyTimeOnly - This can only be set on Calendar folders.   
 - FreeBusyTimeAndSubjectAndLocation - This can only be set on Calendar folders.
     
 The following table shows which individual permissions are applied by default based on permission level.
   
-**Table 3. Individual permissions by permission level**
+**Table 2. Individual permissions by permission level**
 
-|**Permission level**|**Can create items**|**Can create sub folders**|**Is folder owner**|**Is folder visible**|**Is folder contact**|**Edit items**|**Delete items**|**Can read items**|
+|Permission level|Can create items|Can create sub folders|Is folder owner|Is folder visible|Is folder contact|Edit items|Delete items|Can read items|
 |:-----|:-----|:-----|:-----|:-----|:-----|:-----|:-----|:-----|
 |None  <br/> |False  <br/> |False  <br/> |False  <br/> |False  <br/> |False  <br/> |None  <br/> |None  <br/> |None  <br/> |
 |Owner  <br/> |True  <br/> |True  <br/> |True  <br/> |True  <br/> |True  <br/> |All  <br/> |All  <br/> |FullDetails  <br/> |
@@ -315,7 +293,7 @@ This is also the XML request that the EWS Managed API sends when you call the **
 
 The following line of code specifies the permission level.
   
-```
+```xml
 <t:Permission>
     <t:UserId>
         <t:PrimarySmtpAddress>sadie@contoso.com</t:PrimarySmtpAddress>
@@ -326,7 +304,7 @@ The following line of code specifies the permission level.
 
 If you want to use the custom permission level, use this code instead.
   
-```
+```xml
 <t:Permission>
     <t:UserId>
         <t:PrimarySmtpAddress> sadie@contoso.com </t:PrimarySmtpAddress>
@@ -605,9 +583,8 @@ You can also update folder permissions for specific folders by using EWS by comb
 These are the same two operations you use to [enable](#bk_enableews) or [remove access](#bk_removeews) by using EWS. The only difference is that when you receive the **GetFolder** response, it will contain a **Permission** set for user. Simply replace that existing **Permission** element with the new **Permission** element, and then send the **UpdateFolder** operation with the new **Permission** value or values. 
   
 If you try to add two sets of permissions for the same user, you will receive a **ResponseCode** value of **ErrorDuplicateUserIdsSpecified**. In that case, remove the outdated Permission value for the user from the request and then retry the request.
-  
-## 
-<a name="bk_updateews"> </a>
+
+## Next steps
 
 After you give a user permission to a specific folder, the user can access the folder as a delegate. For more information, see:
   
@@ -619,11 +596,8 @@ After you give a user permission to a specific folder, the user can access the f
     
 ## See also
 
-
-- [Delegate access and EWS in Exchange](delegate-access-and-ews-in-exchange.md)
-    
-- [Add and remove delegates by using EWS in Exchange](how-to-add-and-remove-delegates-by-using-ews-in-exchange.md)
-    
+- [Delegate access and EWS in Exchange](delegate-access-and-ews-in-exchange.md)   
+- [Add and remove delegates by using EWS in Exchange](how-to-add-and-remove-delegates-by-using-ews-in-exchange.md)    
 - [Folders and items in EWS in Exchange](folders-and-items-in-ews-in-exchange.md)
     
 

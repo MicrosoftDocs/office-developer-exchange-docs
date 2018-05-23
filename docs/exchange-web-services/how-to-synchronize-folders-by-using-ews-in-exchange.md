@@ -1,12 +1,8 @@
 ---
 title: "Synchronize folders by using EWS in Exchange"
- 
- 
 manager: sethgros
 ms.date: 9/17/2015
 ms.audience: Developer
- 
- 
 localization_priority: Normal
 ms.assetid: d3bbacd1-8e4b-4fd0-8d27-4cbbc045ec3f
 description: "Find out how to use the EWS Managed API or EWS to get a list of folders, or a list of folders that have changed, in order to synchronize your client."
@@ -92,7 +88,7 @@ The following example shows an XML request to get the initial folder hierarchy b
 
 The following example shows the XML response that is returned by the server after it processes the [SyncFolderHierarchy](http://msdn.microsoft.com/library/b31916b1-bc6c-4451-a475-b7c5417f752d%28Office.15%29.aspx) operation request. The initial response includes [Create](http://msdn.microsoft.com/library/6b463d0a-70e9-40c5-ade4-c7d9a5f36bc1%28Office.15%29.aspx) elements for all folders because all folders are considered new during an initial synchronization. The values of some attributes and elements have been shortened for readability, and some **Create** element blocks were removed for brevity. 
   
-```
+```xml
 <?xml version="1.0" encoding="utf-8"?>
 <s:Envelope xmlns:s="http://schemas.xmlsoap.org/soap/envelope/">
   <s:Header>
@@ -263,11 +259,8 @@ If you're using EWS, use the [GetFolder operation](http://msdn.microsoft.com/lib
   
 ## See also
 
-
-- [Mailbox synchronization and EWS in Exchange](mailbox-synchronization-and-ews-in-exchange.md)
-    
-- [Synchronize items by using EWS in Exchange](how-to-synchronize-items-by-using-ews-in-exchange.md)
-    
+- [Mailbox synchronization and EWS in Exchange](mailbox-synchronization-and-ews-in-exchange.md)   
+- [Synchronize items by using EWS in Exchange](how-to-synchronize-items-by-using-ews-in-exchange.md)   
 - [Handling synchronization-related errors in EWS in Exchange](handling-synchronization-related-errors-in-ews-in-exchange.md)
     
 
