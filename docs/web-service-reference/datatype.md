@@ -1,7 +1,5 @@
 ---
 title: "DataType"
- 
- 
 manager: sethgros
 ms.date: 9/17/2015
 ms.audience: Developer
@@ -20,11 +18,12 @@ description: "The DataType element describes the type of data that is shared by 
 
 The **DataType** element describes the type of data that is shared by a shared folder. 
   
-```
+```xml
 <DataType>Calendar or Contacts</DataType>
 ```
 
- **SharingDataType**
+**SharingDataType**
+
 ## Attributes and elements
 
 The following sections describe attributes, child elements, and parent elements.
@@ -68,8 +67,6 @@ The schema that describes this element is located in the IIS virtual directory t
 |Can be Empty  <br/> |False  <br/> |
    
 ## See also
-
-
 
 - [EWS XML elements in Exchange](ews-xml-elements-in-exchange.md)
 

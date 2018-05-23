@@ -1,7 +1,5 @@
 ---
 title: "Data"
- 
- 
 manager: sethgros
 ms.date: 9/17/2015
 ms.audience: Developer
@@ -24,11 +22,12 @@ The **Data** element contains encrypted data that represents the shared data.
   
 [Data](data.md)
   
-```
+```xml
 <Data/>
 ```
 
- **EncryptedDataContainerType**
+**EncryptedDataContainerType**
+
 ## Attributes and elements
 
 The following sections describe attributes, child elements, and parent elements.
@@ -66,10 +65,6 @@ The schema that describes this element is located in the IIS virtual directory t
    
 ## See also
 
-
-
-[GetSharingMetadata operation](getsharingmetadata-operation.md)
-
-
+- [GetSharingMetadata operation](getsharingmetadata-operation.md)
 - [EWS XML elements in Exchange](ews-xml-elements-in-exchange.md)
 

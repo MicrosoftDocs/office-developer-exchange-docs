@@ -1,7 +1,5 @@
 ---
 title: "DateTime"
- 
- 
 manager: sethgros
 ms.date: 9/17/2015
 ms.audience: Developer
@@ -20,11 +18,12 @@ description: "The DateTime element represents the date and time at which the tim
 
 The **DateTime** element represents the date and time at which the time zone transition occurs. 
   
-```
+```xml
 <DateTime/>
 ```
 
- **DateTime**
+**DateTime**
+
 ## Attributes and elements
 
 The following sections describe attributes, child elements, and parent elements.
@@ -61,8 +60,6 @@ The schema that describes this element is located in the IIS virtual directory t
 |Can be Empty  <br/> |False  <br/> |
    
 ## See also
-
-
 
 - [EWS XML elements in Exchange](ews-xml-elements-in-exchange.md)
 

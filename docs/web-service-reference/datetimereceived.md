@@ -1,7 +1,5 @@
 ---
 title: "DateTimeReceived"
- 
- 
 manager: sethgros
 ms.date: 9/17/2015
 ms.audience: Developer
@@ -20,11 +18,12 @@ description: "The DateTimeReceived element represents the date and time that an 
 
 The **DateTimeReceived** element represents the date and time that an item in a mailbox was received. 
   
-```
+```xml
 <DateTimeReceived/>
 ```
 
- **DateTime**
+**DateTime**
+
 ## Attributes and elements
 
 The following sections describe attributes, child elements, and parent elements.
@@ -71,8 +70,6 @@ The schema that describes this element is located in the EWS virtual directory o
 |Can be Empty  <br/> |False  <br/> |
    
 ## See also
-
-
 
 - [EWS XML elements in Exchange](ews-xml-elements-in-exchange.md)
 

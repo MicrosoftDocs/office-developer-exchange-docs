@@ -1,7 +1,5 @@
 ---
 title: "Daylight"
- 
- 
 manager: sethgros
 ms.date: 9/17/2015
 ms.audience: Developer
@@ -20,7 +18,7 @@ description: "The Daylight element represents the date and time when the time ch
 
 The **Daylight** element represents the date and time when the time changes from standard time to daylight saving time. 
   
-```
+```xml
 <Daylight TimeZoneName="">
    <Offset/>
    <RelativeYearlyRecurrence/>
@@ -28,7 +26,16 @@ The **Daylight** element represents the date and time when the time changes from
 </Daylight>
 ```
 
- **TimeChangeType**
+```xml
+<Daylight TimeZoneName="">
+   <Offset/>
+   <AbsoluteDate/>
+   <Time/>
+</Daylight>
+```
+
+**TimeChangeType**
+
 ## Attributes and elements
 
 The following sections describe attributes, child elements, and parent elements.
@@ -68,8 +75,6 @@ The schema that describes this element is located in the EWS virtual directory o
 |Can be Empty  <br/> |False  <br/> |
    
 ## See also
-
-
 
 - [EWS XML elements in Exchange](ews-xml-elements-in-exchange.md)
 

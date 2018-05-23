@@ -1,7 +1,5 @@
 ---
 title: "DayOfMonth"
- 
- 
 manager: sethgros
 ms.date: 9/17/2015
 ms.audience: Developer
@@ -20,11 +18,12 @@ description: "The DayOfMonth element describes the day in a month that a recurri
 
 The **DayOfMonth** element describes the day in a month that a recurring item occurs. 
   
-```
+```xml
 <DayOfMonth/>
 ```
 
- **int**
+**int**
+
 ## Attributes and elements
 
 The following sections describe attributes, child elements, and parent elements.
@@ -62,8 +61,6 @@ The schema that describes this element is located in the EWS virtual directory o
 |Can be empty  <br/> |False  <br/> |
    
 ## See also
-
-
 
 - [EWS XML elements in Exchange](ews-xml-elements-in-exchange.md)
 

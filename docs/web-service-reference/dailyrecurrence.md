@@ -1,7 +1,5 @@
 ---
 title: "DailyRecurrence"
- 
- 
 manager: sethgros
 ms.date: 9/17/2015
 ms.audience: Developer
@@ -20,13 +18,14 @@ description: "The DailyRecurrence element describes the frequency, in days, in w
 
 The **DailyRecurrence** element describes the frequency, in days, in which a calendar item or a task recurs. 
   
-```
+```xml
 <DailyRecurrence>
    <Interval/>
 </DailyRecurrence>
 ```
 
- **DailyRecurrencePatternType**
+**DailyRecurrencePatternType**
+
 ## Attributes and elements
 
 The following sections describe attributes, child elements, and parent elements.
@@ -62,8 +61,6 @@ The schema that describes this element is located in the EWS virtual directory o
 |Can be empty  <br/> |False  <br/> |
    
 ## See also
-
-
 
 - [EWS XML elements in Exchange](ews-xml-elements-in-exchange.md)
 

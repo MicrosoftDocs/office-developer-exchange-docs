@@ -1,7 +1,5 @@
 ---
 title: "DailyRegeneration"
- 
- 
 manager: sethgros
 ms.date: 9/17/2015
 ms.audience: Developer
@@ -20,13 +18,14 @@ description: "The DailyRegeneration element describes the frequency, in days, in
 
 The **DailyRegeneration** element describes the frequency, in days, in which a task is regenerated. 
   
-```
+```xml
 <DailyRegeneration>
    <Interval/>
 </DailyRegeneration>
 ```
 
- **DailyRegeneratingPatternType**
+**DailyRegeneratingPatternType**
+
 ## Attributes and elements
 
 The following sections describe attributes, child elements, and parent elements.
@@ -61,8 +60,6 @@ The schema that describes this element is located in the EWS virtual directory o
 |Can be empty  <br/> |False  <br/> |
    
 ## See also
-
-
 
 - [EWS XML elements in Exchange](ews-xml-elements-in-exchange.md)
 

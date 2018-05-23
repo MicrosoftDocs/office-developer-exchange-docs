@@ -1,7 +1,5 @@
 ---
 title: "DaysOfWeek (DaysOfWeekType)"
- 
- 
 manager: sethgros
 ms.date: 9/17/2015
 ms.audience: Developer
@@ -24,7 +22,8 @@ The **DaysOfWeek** element describes days of the week that are used in item recu
 <DaysOfWeek/>
 ```
 
- **DaysOfWeekType**
+**DaysOfWeekType**
+
 ## Attributes and elements
 
 The following sections describe attributes, child elements, and parent elements.
@@ -47,24 +46,15 @@ None.
 
 A text value is required. The following are the possible values:
   
-- Sunday
-    
-- Monday
-    
-- Tuesday
-    
-- Wednesday
-    
-- Thursday
-    
-- Friday
-    
-- Saturday
-    
-- Day (this value is not valid for a weekly recurrence pattern)
-    
-- Weekday (this value is not valid for a weekly recurrence pattern)
-    
+- Sunday    
+- Monday    
+- Tuesday    
+- Wednesday    
+- Thursday    
+- Friday    
+- Saturday    
+- Day (this value is not valid for a weekly recurrence pattern)    
+- Weekday (this value is not valid for a weekly recurrence pattern)    
 - WeekendDay (this value is not valid for a weekly recurrence pattern)
     
 A weekly recurrence pattern can contain multiple values. Values are separated by a space character. For example, for a weekly recurrence on Tuesdays and Thursdays, the text value will be "Tuesday Thursday".
@@ -83,8 +73,6 @@ The schema that describes this element is located in the EWS virtual directory o
 |Can be Empty  <br/> |False  <br/> |
    
 ## See also
-
-
 
 - [EWS XML elements in Exchange](ews-xml-elements-in-exchange.md)
 

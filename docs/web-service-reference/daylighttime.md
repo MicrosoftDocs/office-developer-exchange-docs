@@ -1,7 +1,5 @@
 ---
 title: "DaylightTime"
- 
- 
 manager: sethgros
 ms.date: 9/17/2015
 ms.audience: Developer
@@ -20,11 +18,10 @@ description: "The DaylightTime element represents an offset from the time relati
 
 The **DaylightTime** element represents an offset from the time relative to Coordinated Universal Time (UTC) that is represented by the [Bias (UTC)](bias-utc.md) element in regions where daylight saving time is observed. This element also contains information about when the transition to daylight saving time from standard time occurs. 
   
-[TimeZone (Availability)](timezone-availability.md)
+- [TimeZone (Availability)](timezone-availability.md) 
+- [DaylightTime](daylighttime.md)
   
-[DaylightTime](daylighttime.md)
-  
-```
+```xml
 <DaylightTime>
    <Bias>int</Bias>
    <Time>string</Time>
@@ -35,7 +32,8 @@ The **DaylightTime** element represents an offset from the time relative to Coor
 </DaylightTime>
 ```
 
- **SerializableTimeZoneTime**
+**SerializableTimeZoneTime**
+
 ## Attributes and elements
 
 The following sections describe attributes, child elements, and parent elements.
@@ -59,13 +57,13 @@ None.
 
 |**Element**|**Description**|
 |:-----|:-----|
-|[TimeZone (Availability)](timezone-availability.md) <br/> | Contains elements that identify time zone information. This element also contains information about the transition between standard time and daylight saving time.  <br/>  `/GetUserAvailabilityResponse/FreeBusyResponseArray/FreeBusyResponse/FreeBusyView/WorkingHours/TimeZone` <br/>  `/GetUserAvailabilityRequest/TimeZone` <br/> |
+|[TimeZone (Availability)](timezone-availability.md) <br/> | Contains elements that identify time zone information.<br/><br/>This element also contains information about the transition between standard time and daylight saving time.<br/><br/>`/GetUserAvailabilityResponse/FreeBusyResponseArray/FreeBusyResponse/FreeBusyView/WorkingHours/TimeZone` <br/><br/>`/GetUserAvailabilityRequest/TimeZone` <br/> |
    
 ## Example
 
 The following partial GetUserAvailability request represents a client application in a location that recognizes daylight saving time.
   
-```
+```xml
 <TimeZone xmlns="http://schemas.microsoft.com/exchange/services/2006/types">
   <Bias>480</Bias>
   <StandardTime>
@@ -96,10 +94,6 @@ The following partial GetUserAvailability request represents a client applicatio
    
 ## See also
 
-
-
-[GetUserAvailability operation](getuseravailability-operation.md)
-
-
-[Getting User Availability](http://msdn.microsoft.com/library/d4133fcb-9b0f-4e6b-aadf-a389da83516a%28Office.15%29.aspx)
+- [GetUserAvailability operation](getuseravailability-operation.md)
+- [Getting User Availability](http://msdn.microsoft.com/library/d4133fcb-9b0f-4e6b-aadf-a389da83516a%28Office.15%29.aspx)
 
