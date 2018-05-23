@@ -36,7 +36,7 @@ The following example of an IsUMEnabled request shows how to form a request to d
 </soap:Envelope>
 ```
 
-## Successful IsUMEnabled Response Example
+## Successful IsUMEnabled Response example
 
 ### Description
 

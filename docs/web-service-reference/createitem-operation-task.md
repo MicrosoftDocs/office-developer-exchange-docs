@@ -74,7 +74,7 @@ The following table shows the changes that the Client Access server makes to a r
    
 By default, if a destination folder is not specified, task items are created in the Tasks folder.
   
-### Request Elements
+### Request elements
 
 The following elements are used in the request:
   

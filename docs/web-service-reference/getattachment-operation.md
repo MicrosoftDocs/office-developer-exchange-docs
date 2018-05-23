@@ -55,7 +55,7 @@ The [AttachmentIds](attachmentids.md) collection allows you to specify one or mo
 > [!NOTE]
 > The attachment identifier and change key have been shortened to preserve readability. 
   
-### Request Elements
+### Request elements
 
 The following elements are used in the request:
   
@@ -67,7 +67,7 @@ The following elements are used in the request:
     
 - [AttachmentId (GetAttachment and DeleteAttachment)](attachmentid-getattachment-and-deleteattachment.md)
     
-## GetAttachment Response Example
+## GetAttachment Response example
 
 ### Description
 

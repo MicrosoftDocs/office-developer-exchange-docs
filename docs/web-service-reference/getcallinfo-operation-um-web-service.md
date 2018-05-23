@@ -38,7 +38,7 @@ The following example of a GetCallInfo request shows how to form a request to ge
 </soap:Envelope>
 ```
 
-## Successful GetCallInfo Response Example
+## Successful GetCallInfo Response example
 
 ### Description
 

@@ -52,7 +52,7 @@ This example performs a hard delete on the folder.
   
 Folders can be identified by either the [DistinguishedFolderId](distinguishedfolderid.md) element or the [FolderId](folderid.md) element for use in the [FolderIds](folderids.md) element. 
   
-### Request Elements
+### Request elements
 
 The following elements are used in the request:
   

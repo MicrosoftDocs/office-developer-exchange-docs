@@ -71,7 +71,7 @@ The following example of a valid CreateItem SOAP request shows how to create a c
 </soap:Envelope>
 ```
 
-### Request Elements
+### Request elements
 
 The following elements are used in the response:
   

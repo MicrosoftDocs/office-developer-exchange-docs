@@ -44,7 +44,7 @@ The following example shows how to accept a sharing invitation.
 </soap:Envelope>
 ```
 
-### Request Elements
+### Request elements
 
 The following elements are used in the request:
   
@@ -60,7 +60,7 @@ The following elements are used in the request:
 
 The item identifier and change key have been shortened to preserve readability.
   
-## Successful Accept Sharing Invitation Response Example
+## Successful Accept Sharing Invitation Response example
 
 ### Description
 
@@ -112,7 +112,7 @@ The following elements are used in the response:
     
 - [Items](items.md)
     
-## Accept Sharing Invitation Error Response Example
+## Accept Sharing Invitation Error Response example
 
 ### Description
 

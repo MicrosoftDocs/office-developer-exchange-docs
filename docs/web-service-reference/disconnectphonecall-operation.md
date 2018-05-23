@@ -46,7 +46,7 @@ The following example of a **DisconnectPhoneCall** request shows how to form a r
 </soap:Envelope>
 ```
 
-## DisconnectPhoneCall Response Example
+## DisconnectPhoneCall Response example
 
 ### Description
 

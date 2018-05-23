@@ -81,7 +81,7 @@ The following example of an **UpdateDelegate** request shows you how to update d
 
 The [UpdateDelegate](updatedelegate.md) request does not require that updates be applied to delegates. Clients can change only the **DeliverMeetingMessage** setting. 
   
-## UpdateDelegate Response Example
+## UpdateDelegate Response example
 
 ### Description
 
@@ -138,7 +138,7 @@ The following example shows a successful response to an **UpdateDelegate** opera
 </soap:Envelope>
 ```
 
-## UpdateDelegate Error Response Example
+## UpdateDelegate Error Response example
 
 ### Description
 

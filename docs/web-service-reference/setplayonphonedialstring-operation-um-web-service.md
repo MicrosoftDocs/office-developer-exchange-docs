@@ -38,7 +38,7 @@ The following example of a SetPlayOnPhoneDialString request shows how to form a 
 </soap:Envelope>
 ```
 
-## Successful SetPlayOnPhoneDialString Response Example
+## Successful SetPlayOnPhoneDialString Response example
 
 ### Description
 

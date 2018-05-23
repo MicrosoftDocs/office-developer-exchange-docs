@@ -47,7 +47,7 @@ The following example of a **PlayOnPhone** request shows how to form a request t
 </soap:Envelope>
 ```
 
-## PlayOnPhone Response Example
+## PlayOnPhone Response example
 
 ### Description
 

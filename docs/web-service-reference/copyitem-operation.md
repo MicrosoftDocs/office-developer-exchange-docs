@@ -50,7 +50,7 @@ The following example of a **CopyItem** request shows how to form a request to c
 > [!NOTE]
 > The folder ID and the change key have been shortened to preserve readability. 
   
-### Request Elements
+### Request elements
 
 The following elements are used in the request:
   

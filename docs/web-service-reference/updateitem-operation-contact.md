@@ -61,7 +61,7 @@ The following code example shows how to update the e-mail address of a contact.
 
 The item identifier has been shortened to preserve readability.
   
-### Request Elements
+### Request elements
 
 The following elements are used in the request:
   

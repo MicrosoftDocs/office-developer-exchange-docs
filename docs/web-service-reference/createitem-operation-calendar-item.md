@@ -78,7 +78,7 @@ The following example of a CreateItem request shows how to create a meeting with
 
 For an example of how to respond to a meeting request, see the [CreateItem operation (meeting request)](createitem-operation-meeting-request.md) topic. 
   
-### Request Elements
+### Request elements
 
 The following elements are used in the request:
   

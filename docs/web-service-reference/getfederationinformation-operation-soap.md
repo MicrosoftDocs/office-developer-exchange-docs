@@ -65,7 +65,7 @@ The following elements are used in the request:
     
 - [Domain (SOAP)](domain-soap.md)
     
-## GetFederationInformation Response Example
+## GetFederationInformation Response example
 
 ### Description
 

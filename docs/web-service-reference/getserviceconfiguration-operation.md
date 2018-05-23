@@ -48,7 +48,7 @@ The following example of a **GetServiceConfiguration** request shows how to form
 </soap:Envelope>
 ```
 
-## GetServiceConfiguration Response Example
+## GetServiceConfiguration Response example
 
 ### Description
 
@@ -90,7 +90,7 @@ The following example shows a successful response to the **GetServiceConfigurati
 </s:Envelope>
 ```
 
-## GetServiceConfiguration Error Response Example
+## GetServiceConfiguration Error Response example
 
 ### Description
 

@@ -17,7 +17,7 @@ description: "The Autodiscover response contains a response to an Autodiscover r
 
 The Autodiscover response contains a response to an Autodiscover request that includes a list of URLs that are used to establish a binding with Exchange Web Services (EWS).
   
-## Autodiscover Response Example
+## Autodiscover Response example
 
 ### Description
 
@@ -119,7 +119,7 @@ The following elements are used in the response body:
     
 - [OWAUrl (POX)](owaurl-pox.md)
     
-## Autodiscover Error Response Example
+## Autodiscover Error Response example
 
 ### Description
 

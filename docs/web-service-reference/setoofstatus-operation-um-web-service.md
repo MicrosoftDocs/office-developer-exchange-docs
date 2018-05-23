@@ -38,7 +38,7 @@ The following example of a SetOofStatus request shows how to form a request to e
 </soap:Envelope>
 ```
 
-## Successful SetOofStatus Response Example
+## Successful SetOofStatus Response example
 
 ### Description
 

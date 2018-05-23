@@ -46,7 +46,7 @@ The following example of a **GetPhoneCallInformation** request shows how to form
 </soap:Envelope>
 ```
 
-## GetPhoneCallInformation Response Example
+## GetPhoneCallInformation Response example
 
 ### Description
 

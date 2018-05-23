@@ -56,7 +56,7 @@ The following example of an **ApplyConversationAction** request shows how to mov
 
 The conversation and folder identifiers have been shortened to preserve readability.
   
-## ApplyConversationAction Response Example
+## ApplyConversationAction Response example
 
 ### Description
 

@@ -68,7 +68,7 @@ The following elements are used in the request:
     
 - [ReferenceItemId](referenceitemid.md)
     
-## Successful Accept Meeting Response Example
+## Successful Accept Meeting Response example
 
 ### Description
 
@@ -116,7 +116,7 @@ The following elements are used in the response:
     
 - [Items](items.md)
     
-## Accept Meeting Error Response Example
+## Accept Meeting Error Response example
 
 ### Description
 

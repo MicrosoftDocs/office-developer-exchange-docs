@@ -60,7 +60,7 @@ The following example of a SyncFolderItems request shows how to synchronize item
 
 The [SyncState](syncstate-ex15websvcsotherref.md) element base64-encoded data and the [ItemId](itemid.md) element **Id** attribute have been shortened to preserve readability. 
   
-### Request Elements
+### Request elements
 
 The following elements are used in the request:
   

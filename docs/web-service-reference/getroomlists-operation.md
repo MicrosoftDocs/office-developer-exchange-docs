@@ -55,13 +55,13 @@ The following is an example of a **GetRoomLists** request that returns the room 
 
 ```
 
-### Request Elements
+### Request elements
 
 The following element is used in the request:
   
 - [GetRoomLists](getroomlists.md)
     
-## Successful GetRoomLists Response Example
+## Successful GetRoomLists Response example
 
 ### Description
 
@@ -110,7 +110,7 @@ The following elements are used in the response:
     
 - [MailboxType](mailboxtype.md)
     
-### GetRoomLists Error Response Example
+### GetRoomLists Error Response example
 
 #### Description
 

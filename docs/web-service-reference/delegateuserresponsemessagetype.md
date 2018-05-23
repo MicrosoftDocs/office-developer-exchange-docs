@@ -1,7 +1,5 @@
 ---
 title: "DelegateUserResponseMessageType"
- 
- 
 manager: sethgros
 ms.date: 9/17/2015
 ms.audience: Developer
@@ -20,7 +18,7 @@ description: "The DelegateUserResponseMessageType element contains the response 
 
 The **DelegateUserResponseMessageType** element contains the response message for a single delegate user. 
   
-```
+```xml
 <DelegateUserResponseMessageType>
    <MessageText/>
    <ResponseCode/>
@@ -30,7 +28,8 @@ The **DelegateUserResponseMessageType** element contains the response message fo
 </DelegateUserResponseMessageType>
 ```
 
- **DelegateUserResponseMessageType**
+**DelegateUserResponseMessageType**
+
 ## Attributes and elements
 
 The following sections describe attributes, child elements, and parent elements.
@@ -70,16 +69,9 @@ The schema that describes this element is located in the EWS virtual directory o
    
 ## See also
 
-
-
-[AddDelegate operation](adddelegate-operation.md)
-  
-[GetDelegate operation](getdelegate-operation.md)
-  
-[UpdateDelegate operation](updatedelegate-operation.md)
-  
-[RemoveDelegate operation](removedelegate-operation.md)
-
-
+- [AddDelegate operation](adddelegate-operation.md)  
+- [GetDelegate operation](getdelegate-operation.md) 
+- [UpdateDelegate operation](updatedelegate-operation.md)  
+- [RemoveDelegate operation](removedelegate-operation.md)
 - [EWS XML elements in Exchange](ews-xml-elements-in-exchange.md)
 

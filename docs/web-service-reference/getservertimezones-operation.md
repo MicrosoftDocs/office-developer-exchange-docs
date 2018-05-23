@@ -91,7 +91,7 @@ The following code example shows how to retrieve the full time zone definition f
 
 Each [Id (TimeZone)](id-timezone.md) element contains the identifier of a time zone definition that is being requested. To request information for all time zones, omit the [Ids](ids.md) element from the request. 
   
-## GetServerTimeZones Response Examples
+## GetServerTimeZones Response examples
 
 ### Receiving the Time Zone Name and Identifier Only
 

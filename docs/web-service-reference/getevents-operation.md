@@ -58,7 +58,7 @@ The following elements are used in the request:
     
 - [Watermark](watermark.md)
     
-## Successful GetEvents Response Example
+## Successful GetEvents Response example
 
 ### Description
 
@@ -145,7 +145,7 @@ The following elements are used in the response:
     
 To find other options for the response message of the **GetEvents** operation, explore the schema hierarchy. Start at the [Notification](notification-ex15websvcsotherref.md) element. 
   
-## GetEvents Error Response Example
+## GetEvents Error Response example
 
 ### Description
 

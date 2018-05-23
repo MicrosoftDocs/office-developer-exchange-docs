@@ -40,7 +40,7 @@ The following example of a ResetPIN request shows how to form a request to reset
 </soap:Envelope>
 ```
 
-## Successful ResetPIN Response Example
+## Successful ResetPIN Response example
 
 ### Description
 

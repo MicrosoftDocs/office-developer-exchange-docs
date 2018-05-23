@@ -1,7 +1,5 @@
 ---
 title: "DeleteAttachment operation"
- 
- 
 manager: sethgros
 ms.date: 9/17/2015
 ms.audience: Developer
@@ -53,7 +51,7 @@ The following example of a DeleteAttachment request shows how to delete an item 
 
 The attachment identifier has been shortened to preserve readability.
   
-### Request Elements
+### Request elements
 
 The following elements are used in the request:
   
@@ -63,7 +61,7 @@ The following elements are used in the request:
     
 - [AttachmentId](attachmentid.md)
     
-## DeleteAttachment Response Example
+## DeleteAttachment Response example
 
 ### Description
 

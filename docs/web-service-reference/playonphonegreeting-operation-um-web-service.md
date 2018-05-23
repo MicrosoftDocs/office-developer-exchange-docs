@@ -39,7 +39,7 @@ The following example of a PlayOnPhoneGreeting request shows how to form a reque
 </soap:Envelope>
 ```
 
-## Successful PlayOnPhoneGreeting Response Example
+## Successful PlayOnPhoneGreeting Response example
 
 ### Description
 

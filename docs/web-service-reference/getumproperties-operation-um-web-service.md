@@ -36,7 +36,7 @@ The following example of a GetUMProperties request shows how to form a request t
 </soap:Envelope>
 ```
 
-## Successful GetUMProperties Response Example
+## Successful GetUMProperties Response example
 
 ### Description
 

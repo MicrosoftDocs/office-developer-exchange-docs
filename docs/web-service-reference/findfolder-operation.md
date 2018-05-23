@@ -71,7 +71,7 @@ The following example of a **FindFolder** request shows how to form a request to
 
 Using the Default value for the [BaseShape](baseshape.md), the response returns the folder name, the folder ID, the number of subfolders, the number of child folders found in the folder, and the count of unread items.
   
-### Request Elements
+### Request elements
 
 This **FindFolder** request includes the following elements: 
   
@@ -87,7 +87,7 @@ This **FindFolder** request includes the following elements:
     
  For additional **FindFolder** request elements, see the schema. 
   
-## FindFolder Response Example
+## FindFolder Response example
 
 ### Description
 
@@ -166,7 +166,7 @@ The properties that are returned in the response are determined by the [BaseShap
 
  **FindFolder** responses to a request with the **AllProperties** response shape will not return the [TotalCount](totalcount.md) and [UnreadCount](unreadcount.md) elements for public folder searches. 
   
-## FindFolder Error Response Example
+## FindFolder Error Response example
 
 ### Description
 

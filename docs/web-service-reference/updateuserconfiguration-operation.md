@@ -62,7 +62,7 @@ The following example of an **UpdateUserConfiguration** request shows how to for
 </soap:Envelope>
 ```
 
-## UpdateUserConfiguration Response Example
+## UpdateUserConfiguration Response example
 
 ### Description
 

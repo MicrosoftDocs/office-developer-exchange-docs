@@ -54,7 +54,7 @@ The following example of an **ExportItems** request shows how to form a request 
 
 The item identifiers in the example have been shortened to preserve readability.
   
-### Request Elements
+### Request elements
 
 The following elements are used in the request:
   
@@ -66,7 +66,7 @@ The following elements are used in the request:
     
 - [ItemId](itemid.md)
     
-## Successful ExportItems Response Example
+## Successful ExportItems Response example
 
 ### Description
 
@@ -166,7 +166,7 @@ The following elements are used in the response:
     
 - [Data (base64Binary)](data-base64binary.md)
     
-## ExportItems Error Response Example
+## ExportItems Error Response example
 
 ### Description
 

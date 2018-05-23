@@ -57,7 +57,7 @@ The following example of a CopyFolder request shows how to copy folders into the
 
 Folders can be identified by either the [DistinguishedFolderId](distinguishedfolderid.md) element or the [FolderId](folderid.md) element for use in either the [ToFolderId](tofolderid.md) or the [FolderIds](folderids.md) elements. 
   
-### Request Elements
+### Request elements
 
 The following elements are used in the request:
   

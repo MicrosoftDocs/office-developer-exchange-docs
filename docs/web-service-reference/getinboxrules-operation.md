@@ -45,13 +45,13 @@ The following example shows the request XML that the client sends to the server.
 </soap:Envelope>
 ```
 
-### Request Elements
+### Request elements
 
 The request includes the following optional element:
   
 - [MailboxSmtpAddress](mailboxsmtpaddress.md)
     
-## Successful GetInboxRules Response Example
+## Successful GetInboxRules Response example
 
 ### Description
 

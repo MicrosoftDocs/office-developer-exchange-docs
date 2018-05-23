@@ -107,7 +107,7 @@ The following example of an ExpandDL request shows how to form a request to expa
 
 The response to this request will contain **Mailbox** elements that identify each mailbox in the distribution list. If a distribution list is contained within a distribution list, a separate distribution list expansion must be performed on the embedded distribution list. If the distribution list has no members or the requested distribution list does not exist, the **ResponseClass** attribute will contain a value equal to Success. 
   
-### Request Elements
+### Request elements
 
 The following elements are used in the request:
   
@@ -120,7 +120,7 @@ The following elements are used in the request:
 > [!NOTE]
 > The schema that describes these elements is located in the EWS virtual directory of the computer that is running MicrosoftExchange Server 2007 that has the Client Access server role installed. 
   
-## Successful ExpandDL Response Example
+## Successful ExpandDL Response example
 
 ### Description
 

@@ -39,7 +39,7 @@ The following example of a PlayOnPhone request shows how to form a request to ma
 </soap:Envelope>
 ```
 
-## Successful PlayOnPhone Response Example
+## Successful PlayOnPhone Response example
 
 ### Description
 

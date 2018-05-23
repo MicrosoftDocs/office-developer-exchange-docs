@@ -49,7 +49,7 @@ The following example of a **FindConversation** request shows how to form a requ
 </soap:Envelope>
 ```
 
-### Request Elements
+### Request elements
 
 The following elements are used in the request:
   
@@ -63,7 +63,7 @@ The following elements are used in the request:
     
 - [DistinguishedFolderId](distinguishedfolderid.md)
     
-## Successful FindConversation Response Example
+## Successful FindConversation Response example
 
 ### Description
 
@@ -207,7 +207,7 @@ The following elements are used in the response:
     
 - [GlobalItemIds](globalitemids.md)
     
-## FindConversation Error Response Example
+## FindConversation Error Response example
 
 ### Description
 

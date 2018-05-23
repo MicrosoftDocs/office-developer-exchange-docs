@@ -38,7 +38,7 @@ The following example of a Disconnect request shows how to form a request to dis
 </soap:Envelope>
 ```
 
-## Successful Disconnect Response Example
+## Successful Disconnect Response example
 
 ### Description
 

@@ -50,7 +50,7 @@ The following example of a SyncFolderHierarchy request shows how to synchronize 
 
 The [SyncState](syncstate-ex15websvcsotherref.md) element base64-encoded data has been shortened to preserve readability. 
   
-### Request Elements
+### Request elements
 
 The following elements are used in the request:
   

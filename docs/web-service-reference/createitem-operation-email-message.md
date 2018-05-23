@@ -55,7 +55,7 @@ The following example of a CreateItem request shows how to create a new e-mail m
 </soap:Envelope>
 ```
 
-### Request Elements
+### Request elements
 
 The following elements are used in the request: 
   

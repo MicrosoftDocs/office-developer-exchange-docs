@@ -55,7 +55,7 @@ The following example shows how to form a request to refresh the specified local
 </soap:Envelope>
 ```
 
-### Request Elements
+### Request elements
 
 The following elements are used in the request:
   

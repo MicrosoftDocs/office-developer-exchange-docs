@@ -1,7 +1,5 @@
 ---
 title: "Data (base64Binary)"
- 
- 
 manager: sethgros
 ms.date: 9/17/2015
 ms.audience: Developer
@@ -24,7 +22,8 @@ The **Data** element contains the data of a single exported item or an item to u
 <Data/>
 ```
 
- **xs:base64Binary**
+**xs:base64Binary**
+
 ## Attributes and elements
 
 The following sections describe attributes, child elements, and parent elements.
@@ -63,9 +62,6 @@ The schema that describes this element is located in the IIS virtual directory t
    
 ## See also
 
-
-
-[ExportItems operation](exportitems-operation.md)
-  
-[UploadItems operation](uploaditems-operation.md)
+- [ExportItems operation](exportitems-operation.md)
+- [UploadItems operation](uploaditems-operation.md)
 

@@ -48,7 +48,7 @@ The following elements are used in the request:
     
 - [SubscriptionId (GetEvents)](subscriptionid-getevents.md)
     
-## Successful Unsubscribe Response Example
+## Successful Unsubscribe Response example
 
 ### Description
 
@@ -93,7 +93,7 @@ The following elements are used in the response:
     
 - [ResponseCode](responsecode.md)
     
-## Unsubscribe Error Response Example
+## Unsubscribe Error Response example
 
 ### Description
 

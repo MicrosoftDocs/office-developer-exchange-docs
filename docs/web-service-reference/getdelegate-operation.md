@@ -65,7 +65,7 @@ You can use the [UserId](userid.md) element to specify individual users instead 
 > [!NOTE]
 > Exchange Web Services (EWS) does not support managing group delegates. EWS will return an error if the **GetDelegate** operation is called for a principal that has a security group delegate. 
   
-## GetDelegate Response Example
+## GetDelegate Response example
 
 ### Description
 

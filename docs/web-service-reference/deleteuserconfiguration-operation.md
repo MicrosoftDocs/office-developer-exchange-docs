@@ -51,7 +51,7 @@ The following example of a **DeleteUserConfiguration** request shows how to form
 </soap:Envelope>
 ```
 
-## DeleteUserConfiguration Response Example
+## DeleteUserConfiguration Response example
 
 ### Description
 

@@ -66,7 +66,7 @@ The following example of a **SetUserOofSettings** request sets an OOF setting fo
 </soap:Envelope>
 ```
 
-### Request Elements
+### Request elements
 
 The following elements are used in the request:
   
@@ -98,7 +98,7 @@ The following elements are used in the request:
     
 - [ExternalReply](externalreply.md)
     
-## Successful SetUserOofSettings Response Example
+## Successful SetUserOofSettings Response example
 
 ### Description
 

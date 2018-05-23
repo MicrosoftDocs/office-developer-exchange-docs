@@ -64,7 +64,7 @@ The following example of a **CreateUserConfiguration** request shows how to form
 </soap:Envelope>
 ```
 
-## CreateUserConfiguration Response Example
+## CreateUserConfiguration Response example
 
 ### Description
 

@@ -38,7 +38,7 @@ The following example of a SetTelephoneAccessFolderEmail request shows how to fo
 </soap:Envelope>
 ```
 
-## Successful SetTelephoneAccessFolderEmail Response Example
+## Successful SetTelephoneAccessFolderEmail Response example
 
 ### Description
 

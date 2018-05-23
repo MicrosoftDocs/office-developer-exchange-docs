@@ -48,7 +48,7 @@ The following example of a GetItem request shows how to form a request to get th
 </soap:Envelope>
 ```
 
-### Request Elements
+### Request elements
 
 The following elements are used in the request:
   

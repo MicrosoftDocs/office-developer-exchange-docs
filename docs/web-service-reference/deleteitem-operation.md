@@ -48,7 +48,7 @@ The following example of a **DeleteItem** request shows how to perform a hard de
 </soap:Envelope>
 ```
 
-### Request Elements
+### Request elements
 
 The following elements are used in the request:
   

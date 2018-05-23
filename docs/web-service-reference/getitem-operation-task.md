@@ -57,7 +57,7 @@ xmlns:t="http://schemas.microsoft.com/exchange/services/2006/types">
 > [!NOTE]
 > The item identifier and change key have been shortened to preserve readability. 
   
-### Request Elements
+### Request elements
 
 The following elements are used in the request:
   
@@ -71,7 +71,7 @@ The following elements are used in the request:
     
 - [ItemId](itemid.md)
     
-## Task GetItem Response Example
+## Task GetItem Response example
 
 ### Description
 

@@ -46,7 +46,7 @@ The following example of a **GetFolder** request shows how to obtain a folder id
 </soap:Envelope>
 ```
 
-### Request Elements
+### Request elements
 
 This **GetFolder** request includes the following elements: 
   
@@ -65,7 +65,7 @@ See the schema for additional elements that you can use to form a **GetFolder** 
 > [!NOTE]
 > The schema that describes this element is located in the IIS virtual directory that hosts Exchange Web Services. 
   
-## GetFolder Response Example
+## GetFolder Response example
 
 ### Description
 
@@ -131,7 +131,7 @@ This **GetFolder** response includes the following elements:
     
 - [UnreadCount](unreadcount.md)
     
-## GetFolder Error Response Example
+## GetFolder Error Response example
 
 ### Description
 

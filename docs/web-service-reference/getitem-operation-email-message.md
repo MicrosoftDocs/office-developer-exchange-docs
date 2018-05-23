@@ -59,7 +59,7 @@ The following example of a GetItem request shows how to access information about
 </soap:Envelope>
 ```
 
-### Request Elements
+### Request elements
 
 The following elements are used in the request:
   
@@ -75,7 +75,7 @@ The following elements are used in the request:
     
 - [ItemId](itemid.md)
     
-## Successful GetItem (E-mail Message) Response Example
+## Successful GetItem (E-mail Message) Response example
 
 ### Description
 
@@ -220,7 +220,7 @@ The following elements are used in the response:
     
 - [IsRead](isread.md)
     
-## GetItem (E-mail Message) Error Response Example
+## GetItem (E-mail Message) Error Response example
 
 ### Description
 

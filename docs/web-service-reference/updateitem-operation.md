@@ -224,7 +224,7 @@ The following elements are used in the request:
     
 - [FieldURI](fielduri.md)
     
-## Successful Response Example
+## Successful Response example
 
 ### Description
 

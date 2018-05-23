@@ -62,7 +62,7 @@ The following example of a CreateManagedFolder request shows how to add a manage
 </soap:Envelope>
 ```
 
-### Request Elements
+### Request elements
 
 The following elements are used in the request:
   

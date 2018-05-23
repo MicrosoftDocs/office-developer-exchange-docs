@@ -59,7 +59,7 @@ The following example shows a **GetUserOofSettings** request that gets a single 
 </soap:Envelope>
 ```
 
-### Request Elements
+### Request elements
 
 The following elements are used in the request:
   
@@ -69,7 +69,7 @@ The following elements are used in the request:
     
 - [Address (string)](address-string.md)
     
-## Successful GetUserOofSettings Response Example
+## Successful GetUserOofSettings Response example
 
 ### Description
 
@@ -143,7 +143,7 @@ The following elements are used in the response:
     
 - [AllowExternalOof](allowexternaloof.md)
     
-## GetUserOofSettings Error Response Example
+## GetUserOofSettings Error Response example
 
 ### Description
 

@@ -53,7 +53,7 @@ The request to get an item from the Exchange store takes the same form for all i
 > [!NOTE]
 > The item identifier has been shortened to preserve readability. 
   
-### Request Elements
+### Request elements
 
 The following elements are used in the request:
   

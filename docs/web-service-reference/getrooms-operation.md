@@ -58,7 +58,7 @@ The following is an example of a **GetRooms** request that gets the rooms that a
 
 ```
 
-### Request Elements
+### Request elements
 
 The following elements are used in the request:
   
@@ -70,7 +70,7 @@ The following elements are used in the request:
     
 - [EmailAddress (NonEmptyStringType)](emailaddress-nonemptystringtype.md)
     
-## Successful GetRooms Response Example
+## Successful GetRooms Response example
 
 ### Description
 
@@ -132,7 +132,7 @@ The following elements are used in the response:
     
 - [MailboxType](mailboxtype.md)
     
-## GetRooms Error Response Example
+## GetRooms Error Response example
 
 ### Description
 

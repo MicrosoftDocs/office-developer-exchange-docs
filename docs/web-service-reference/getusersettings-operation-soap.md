@@ -61,7 +61,7 @@ The following XML example shows an Autodiscover request body that requests a use
 
 ```
 
-### Request Elements
+### Request elements
 
 The following elements are used in the request body:
   
@@ -81,7 +81,7 @@ The following elements are used in the request body:
     
 - [Users (SOAP)](users-soap.md)
     
-## GetUserSettings Response Example
+## GetUserSettings Response example
 
 ### Description
 

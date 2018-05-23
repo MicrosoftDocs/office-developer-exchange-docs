@@ -55,7 +55,7 @@ The following example of a **GetDomainSettings** request shows a request for a u
 </soap:Envelope>
 ```
 
-### Request Elements
+### Request elements
 
 The following elements are used in the request:
   
@@ -71,7 +71,7 @@ The following elements are used in the request:
     
 - [Setting (SOAP)](setting-soap.md)
     
-## GetDomainSettings Response Example
+## GetDomainSettings Response example
 
 ### Description
 

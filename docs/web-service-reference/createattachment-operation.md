@@ -56,7 +56,7 @@ A name for the attachment must be provided.
 > [!NOTE]
 > The parent item identifier and change key have been shortened to preserve readability. 
   
-### Request Elements
+### Request elements
 
 The following elements are used in the request:
   
@@ -72,7 +72,7 @@ The following elements are used in the request:
     
 - [Content](content.md)
     
-## Successful File CreateAttachment Response Example
+## Successful File CreateAttachment Response example
 
 ### Description
 
@@ -169,7 +169,7 @@ A name for the attachment must be provided.
   
  **Note** The parent item identifier and change key have been shortened to preserve readability. 
   
-### Request Elements
+### Request elements
 
 The following elements are used in the request:
   
@@ -187,7 +187,7 @@ The following elements are used in the request:
     
 - [Subject](subject.md)
     
-## Successful Item CreateAttachment Response Example
+## Successful Item CreateAttachment Response example
 
 ### Description
 
@@ -247,7 +247,7 @@ The following elements are used in the response:
     
 - [AttachmentId](attachmentid.md)
     
-## CreateAttachment Error Response Example
+## CreateAttachment Error Response example
 
 ### Description
 

@@ -69,7 +69,7 @@ The following elements are used in the request:
     
 To find other options for the request message of the Subscribe operation, explore the schema hierarchy. Start at the [PullSubscriptionRequest](pullsubscriptionrequest.md) element. 
   
-## Successful Pull Subscription Subscribe Response Example
+## Successful Pull Subscription Subscribe Response example
 
 ### Description
 
@@ -120,7 +120,7 @@ The following elements are used in the response:
     
 - [Watermark](watermark.md)
     
-## Pull Subscription Subscribe Error Response Example
+## Pull Subscription Subscribe Error Response example
 
 ### Description
 
@@ -232,7 +232,7 @@ The following elements are used in the request:
     
 - [Url ](url-ex15websvcsotherref.md)
     
-## Successful Push Subscription Response Example
+## Successful Push Subscription Response example
 
 ### Description
 

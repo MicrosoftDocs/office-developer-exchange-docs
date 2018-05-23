@@ -79,7 +79,7 @@ The following example of an **UploadItems** request shows how to upload two item
 
 Identifiers and the item data have been shortened to preserve readability.
   
-### Request Elements
+### Request elements
 
 The following elements are used in the request:
   
@@ -97,7 +97,7 @@ The following elements are used in the request:
     
 - [ItemId](itemid.md)
     
-## Successful UploadItems Response Example
+## Successful UploadItems Response example
 
 ### Description
 
@@ -158,7 +158,7 @@ The following elements are used in the response:
     
 - [ItemId](itemid.md)
     
-## UploadItems Error Response Example
+## UploadItems Error Response example
 
 ### Description
 

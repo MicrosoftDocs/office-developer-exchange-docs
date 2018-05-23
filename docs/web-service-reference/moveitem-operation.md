@@ -55,7 +55,7 @@ The [ToFolderId](tofolderid.md) element specifies the folder to which the items 
 > [!NOTE]
 > The item identifier and change key have been shortened to preserve readability. 
   
-### Request Elements
+### Request elements
 
 The following elements are used in the request:
   
@@ -69,7 +69,7 @@ The following elements are used in the request:
     
 - [ItemId](itemid.md)
     
-## MoveItem Response Example
+## MoveItem Response example
 
 ### Description
 

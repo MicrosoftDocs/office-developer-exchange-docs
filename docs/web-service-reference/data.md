@@ -18,9 +18,8 @@ description: "The Data element contains encrypted data that represents the share
 
 The **Data** element contains encrypted data that represents the shared data. 
   
-[EncryptedSharedFolderData](encryptedsharedfolderdata.md)
-  
-[Data](data.md)
+- [EncryptedSharedFolderData](encryptedsharedfolderdata.md)  
+- [Data](data.md)
   
 ```xml
 <Data/>

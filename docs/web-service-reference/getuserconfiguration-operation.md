@@ -49,7 +49,7 @@ The following example of a **GetUserConfiguration** request shows how to form a 
 </soap:Envelope>
 ```
 
-## GetUserConfiguration Response Example
+## GetUserConfiguration Response example
 
 ### Description
 

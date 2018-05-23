@@ -1,7 +1,5 @@
 ---
 title: "Delete (FolderSync)"
- 
- 
 manager: sethgros
 ms.date: 9/17/2015
 ms.audience: Developer
@@ -20,23 +18,20 @@ description: "The Delete element identifies a single folder to delete in the loc
 
 The **Delete** element identifies a single folder to delete in the local client store. 
   
-[SyncFolderHierarchyResponse](syncfolderhierarchyresponse.md)
+- [SyncFolderHierarchyResponse](syncfolderhierarchyresponse.md)  
+- [ResponseMessages](responsemessages.md)  
+- [SyncFolderHierarchyResponseMessage](syncfolderhierarchyresponsemessage.md)  
+- [Changes (Hierarchy)](changes-hierarchy.md)  
+- [Delete (FolderSync)](delete-foldersync.md)
   
-[ResponseMessages](responsemessages.md)
-  
-[SyncFolderHierarchyResponseMessage](syncfolderhierarchyresponsemessage.md)
-  
-[Changes (Hierarchy)](changes-hierarchy.md)
-  
-[Delete (FolderSync)](delete-foldersync.md)
-  
-```
+```xml
 <Delete>
    <FolderId/>
 </Delete>
 ```
 
- **SyncFolderHierarchyDeleteType**
+**SyncFolderHierarchyDeleteType**
+
 ## Attributes and elements
 
 The following sections describe attributes, child elements, and parent elements.
@@ -72,12 +67,7 @@ The schema that describes this element is located in the EWS virtual directory o
    
 ## See also
 
-
-
-[SyncFolderHierarchy operation](syncfolderhierarchy-operation.md)
-
-
-[EWS reference for Exchange](ews-reference-for-exchange.md)
-  
+- [SyncFolderHierarchy operation](syncfolderhierarchy-operation.md)
+- [EWS reference for Exchange](ews-reference-for-exchange.md)
 - [EWS XML elements in Exchange](ews-xml-elements-in-exchange.md)
 

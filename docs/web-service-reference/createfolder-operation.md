@@ -50,7 +50,7 @@ The following example of a CreateFolder request shows how to form a request to c
 </soap:Envelope>
 ```
 
-### Request Elements
+### Request elements
 
 The following elements are used in the request:
   
@@ -76,7 +76,7 @@ To find other options for the request message of the CreateFolder operation, exp
   
 The CreateFolder operation supports the creation of a custom folder class only when you create the folder by using a generic folder type element and set the **FolderClass** element. 
   
-## Successful CreateFolder Response Example
+## Successful CreateFolder Response example
 
 ### Description
 

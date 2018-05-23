@@ -54,7 +54,7 @@ The following example of a MoveFolder request shows how to form a request to mov
 > [!NOTE]
 > The value of the ID attribute of the [FolderId](folderid.md) element has been shortened for readability. 
   
-### Request Elements
+### Request elements
 
 This MoveFolder request includes the following elements:
   
@@ -73,7 +73,7 @@ See the schema for additional elements that you can use to form a MoveFolder req
 > [!NOTE]
 > The default location of the schema is in the EWS virtual directory on the computer that has the Client Access server role installed. 
   
-## Successful MoveFolder Response Example
+## Successful MoveFolder Response example
 
 ### Description
 
@@ -134,7 +134,7 @@ The MoveFolder response includes the following elements:
     
 - [FolderId](folderid.md)
     
-## MoveFolder Error Response Example
+## MoveFolder Error Response example
 
 ### Description
 

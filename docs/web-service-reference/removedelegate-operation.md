@@ -69,7 +69,7 @@ The following code example shows how to remove two delegates from user1's mailbo
 
 The **RemoveDelegate** operation does not require the specified delegate user to have a mailbox or to exist in the Active Directory directory service. The **RemoveDelegate** operation will succeed if the delegate entry is orphaned. 
   
-## RemoveDelegate Response Example
+## RemoveDelegate Response example
 
 ### Description
 
@@ -108,7 +108,7 @@ The following example of a **RemoveDelegate** response shows a successful respon
 </soap:Envelope>
 ```
 
-## RemoveDelegate Error Response Example
+## RemoveDelegate Error Response example
 
 ### Description
 

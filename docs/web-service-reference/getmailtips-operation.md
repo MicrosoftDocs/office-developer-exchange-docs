@@ -55,7 +55,7 @@ The client constructs the request XML and sends it to the server. The request id
 </soap:Envelope>
 ```
 
-### Request Elements
+### Request elements
 
 The following elements are included in the request:
   
@@ -67,7 +67,7 @@ The following elements are included in the request:
     
 - [MailTipsRequested](mailtipsrequested.md)
     
-## Successful GetMailTips Response Example
+## Successful GetMailTips Response example
 
 ### Description
 

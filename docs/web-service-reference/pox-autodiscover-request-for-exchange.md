@@ -52,7 +52,7 @@ The following HTTP headers are optional when sending Autodiscover requests.
 |Negotiate  <br/> |15.00.0995.014  <br/> |If this value is present, the server will return a value of "Negotiate" in the [AuthPackage (POX)](authpackage-pox.md) element if the server is configured to accept Negotiate authentication. If this value is not present, the server will not return a value of "Negotiate" in the **AuthPackage** element.  <br/> |
 |ExHttpInfo  <br/> |15.00.0995.014  <br/> |If this value is present, the server will return a [Protocol (POX)](protocol-pox.md) element with a [Type (POX)](type-pox.md) element set to "EXHTTP" if the server is configured to accept RPC/HTTP connections. If this value is not present, the server will not return a **Protocol** element with a **Type** element set to "EXHTTP".  <br/> |
    
-### Request Elements
+### Request elements
 
 The following elements are used in the request body:
   

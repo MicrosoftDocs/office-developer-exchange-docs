@@ -38,7 +38,7 @@ The following example of a SetMissedCallNotificationEnabled request shows how to
 </soap:Envelope>
 ```
 
-## Successful SetMissedCallNotificationEnabled Response Example
+## Successful SetMissedCallNotificationEnabled Response example
 
 ### Description
 

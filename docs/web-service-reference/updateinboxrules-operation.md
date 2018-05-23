@@ -74,7 +74,7 @@ The client constructs the request XML and sends it to the server.
 
 This example builds a rule that will move an e-mail message to the Junk E-mail folder if the e-mail subject contains a string that equals "Interesting".
   
-### Request Elements
+### Request elements
 
 The **UpdateInboxRules** request includes the following elements: 
   
@@ -86,7 +86,7 @@ The **UpdateInboxRules** request includes the following elements:
     
 The [Operations](operations.md) element contains the [CreateRuleOperation](createruleoperation.md) element to create a rule. 
   
-## UpdateInboxRules (Create Rule) Response Example
+## UpdateInboxRules (Create Rule) Response example
 
 ### Description
 
@@ -185,7 +185,7 @@ This example changes the display name to "(Modified) This is Junk".
 > [!NOTE]
 > The values of the **Id** and **ChangeKey** attributes of the [FolderId](folderid.md) element have been shortened for readability. 
   
-### Request Elements
+### Request elements
 
 The **UpdateInboxRules** request includes the following elements: 
   
@@ -197,7 +197,7 @@ The **UpdateInboxRules** request includes the following elements:
     
 The [Operations](operations.md) element contains the [SetRuleOperation](setruleoperation.md) element to modify a rule. 
   
-## UpdateInboxRules (Set Rule) Response Example
+## UpdateInboxRules (Set Rule) Response example
 
 ### Description
 
@@ -279,7 +279,7 @@ The client constructs the request XML and sends it to the server.
 
 This example deletes the existing identified rule.
   
-### Request Elements
+### Request elements
 
 The **UpdateInboxRules** request includes the following elements: 
   
@@ -291,7 +291,7 @@ The **UpdateInboxRules** request includes the following elements:
     
 The [Operations](operations.md) element contains the [DeleteRuleOperation](deleteruleoperation.md) element to delete a rule. 
   
-## UpdateInboxRules (Delete Rule) Response Example
+## UpdateInboxRules (Delete Rule) Response example
 
 ### Description
 
