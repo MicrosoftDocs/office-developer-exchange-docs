@@ -1,7 +1,5 @@
 ---
 title: "BaseShape"
- 
- 
 manager: sethgros
 ms.date: 9/17/2015
 ms.audience: Developer
@@ -41,8 +39,8 @@ None
 
 |**Element**|**Description**|
 |:-----|:-----|
-|[FolderShape](foldershape.md) <br/> | Identifies the folder properties to include in the GetFolder, FindFolder, or SyncFolderHierarchy response.  <br/>  The following are the XPath expressions to this element:  <br/>  `/GetFolder/FolderShape` <br/>  `/FindFolder/FolderShape` <br/>  `/SyncFolderHierarchy/FolderShape` <br/> |
-|[ItemShape](itemshape.md) <br/> | Identifies the item properties and content to include in a GetItem, FindItem, or SyncFolderItems response.  <br/>  The following are the XPath expressions to this element:  <br/>  `/GetItem/ItemShape` <br/>  `/FindItem/ItemShape` <br/>  `/SyncFolderItems/ItemShape` <br/> |
+|[FolderShape](foldershape.md) <br/> | Identifies the folder properties to include in the GetFolder, FindFolder, or SyncFolderHierarchy response.<br/><br/>The following are the XPath expressions to this element:<br/><br/>`/GetFolder/FolderShape` <br/>  `/FindFolder/FolderShape` <br/>  `/SyncFolderHierarchy/FolderShape` <br/> |
+|[ItemShape](itemshape.md) <br/> | Identifies the item properties and content to include in a GetItem, FindItem, or SyncFolderItems response.<br/><br/>The following are the XPath expressions to this element:<br/><br/>`/GetItem/ItemShape` <br/>  `/FindItem/ItemShape` <br/>  `/SyncFolderItems/ItemShape` <br/> |
    
 ## Text value
 
@@ -106,9 +104,6 @@ To return properties in addition to those identified by the [BaseShape](baseshap
    
 ## See also
 
-
-
-[FolderShape](foldershape.md)
-  
-[ItemShape](itemshape.md)
+- [FolderShape](foldershape.md)
+- [ItemShape](itemshape.md)
 
