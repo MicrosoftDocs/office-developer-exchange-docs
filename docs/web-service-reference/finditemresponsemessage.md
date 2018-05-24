@@ -1,7 +1,5 @@
 ---
 title: "FindItemResponseMessage"
- 
- 
 manager: sethgros
 ms.date: 9/17/2015
 ms.audience: Developer
@@ -20,11 +18,9 @@ description: "The FindItemResponseMessage element contains the status and result
 
 The **FindItemResponseMessage** element contains the status and result of a single [FindItem operation](finditem-operation.md) request. 
   
-[FindItemResponse](finditemresponse.md)
-  
-[ResponseMessages](responsemessages.md)
-  
-[FindItemResponseMessage](finditemresponsemessage.md)
+- [FindItemResponse](finditemresponse.md) 
+- [ResponseMessages](responsemessages.md)
+- [FindItemResponseMessage](finditemresponsemessage.md)
   
 ```xml
 <FindItemResponseMessage ResponseClass="">
@@ -45,15 +41,15 @@ The following sections describe attributes, child elements, and parent elements.
 
 |**Attribute**|**Description**|
 |:-----|:-----|
-|**ResponseClass** <br/> | Describes the status of a [FindItem operation](finditem-operation.md) response. The following values are valid for this attribute:  <br/>  Success  <br/>  Warning  <br/>  Error  <br/> |
+|**ResponseClass** <br/> | Describes the status of a [FindItem operation](finditem-operation.md) response.<br/><br/> The following values are valid for this attribute: <br/> <br/>-  Success  <br/>-  Warning  <br/>-  Error  <br/> |
    
 #### ResponseClass attribute values
 
 |**Value**|**Description**|
 |:-----|:-----|
 |**Success** <br/> |Describes a request that is fulfilled.  <br/> |
-|**Warning** <br/> | Describes a request that was not processed. A warning may be returned if an error occurred while processing an item in the request was processing and subsequent items could not be processed. The following are examples of sources of warnings:  <br/>  The Exchange store goes offline during the batch.  <br/>  Active Directory Domain Services (AD DS) goes offline.  <br/>  Mailboxes are moved.  <br/>  The message database (MDB) goes offline.  <br/>  A password is expired.  <br/>  A quota was exceeded.  <br/> |
-|**Error** <br/> | Describes a request that cannot be fulfilled. The following are examples of sources of errors:  <br/>  Invalid attributes or elements  <br/>  Attributes or elements that are out of range  <br/>  An unknown tag  <br/>  An attribute or element that is not valid in the context  <br/>  An unauthorized access attempt by any client  <br/>  A server-side failure in response to a valid client-side call  <br/>  Information about the error can be found in the [ResponseCode](responsecode.md) and [MessageText](messagetext.md) elements.  <br/> |
+|**Warning** <br/> | Describes a request that was not processed. A warning may be returned if an error occurred while processing an item in the request was processing and subsequent items could not be processed. <br/><br/>The following are examples of sources of warnings: <br/> <br/>-  The Exchange store goes offline during the batch.  <br/>-  Active Directory Domain Services (AD DS) goes offline.  <br/>-  Mailboxes are moved.  <br/>-  The message database (MDB) goes offline.  <br/>-  A password is expired.  <br/>-  A quota was exceeded.  <br/> |
+|**Error** <br/> | Describes a request that cannot be fulfilled. <br/><br/>The following are examples of sources of errors:  <br/><br/>-  Invalid attributes or elements  <br/>-  Attributes or elements that are out of range  <br/>-  An unknown tag  <br/>-  An attribute or element that is not valid in the context  <br/>-  An unauthorized access attempt by any client  <br/>-  A server-side failure in response to a valid client-side call  <br/><br/>  Information about the error can be found in the [ResponseCode](responsecode.md) and [MessageText](messagetext.md) elements.  <br/> |
    
 ### Child elements
 
@@ -86,10 +82,6 @@ The schema that describes this element is located in the EWS virtual directory o
    
 ## See also
 
-
-
-[FindItem operation](finditem-operation.md)
-
-
-[Finding Items](http://msdn.microsoft.com/library/63af1f9c-464b-4fca-9ae3-3d60f24ca93c%28Office.15%29.aspx)
+- [FindItem operation](finditem-operation.md)
+- [Finding Items](http://msdn.microsoft.com/library/63af1f9c-464b-4fca-9ae3-3d60f24ca93c%28Office.15%29.aspx)
 

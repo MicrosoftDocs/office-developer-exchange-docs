@@ -52,7 +52,7 @@ None.
 
 |**Element**|**Description**|
 |:-----|:-----|
-|[ExpandDL](expanddl.md) <br/> |Defines a request to expand a distribution list.  <br/> The following is the XPath expression to this element: ` /ExpandDL ` <br/> |
+|[ExpandDL](expanddl.md) <br/> |Defines a request to expand a distribution list. <br/> <br/> The following is the XPath expression to this element: ` /ExpandDL ` <br/> |
 |[ToRecipients](torecipients.md) <br/> |Contains an array of recipients of an item.  <br/> |
 |[CcRecipients](ccrecipients.md) <br/> |Represents a collection of recipients that will receive a copy of the message.  <br/> |
 |[BccRecipients](bccrecipients.md) <br/> |Represents a collection of recipients to receive a blind carbon copy (Bcc) of an e-mail.  <br/> |
@@ -60,7 +60,7 @@ None.
 |[Sender](sender.md) <br/> |Identifies the sender of an item.  <br/> |
 |[From](from.md) <br/> |Represents the addressee from whom the message was sent.  <br/> |
 |[Organizer](organizer.md) <br/> |Represents the organizer of a meeting.  <br/> |
-|[DistinguishedFolderId](distinguishedfolderid.md) <br/> | Identifies default Microsoft Exchange Server 2007 folders.  <br/>  The following are the XPath expressions to this element:  <br/>  `/CreateItem/ParentFolderId/DistinguishedFolderId` <br/>  `/CreateFolder/ParentFolderId/DistinguishedFolderId` <br/> |
+|[DistinguishedFolderId](distinguishedfolderid.md) <br/> | Identifies default Microsoft Exchange Server 2007 folders.  <br/><br/>  The following are the XPath expressions to this element: <br/> <br/>  `/CreateItem/ParentFolderId/DistinguishedFolderId` <br/>  `/CreateFolder/ParentFolderId/DistinguishedFolderId` <br/> |
 |[Resolution](resolution.md) <br/> |Contains a single resolved entity.  <br/> |
 |[DLExpansion](dlexpansion.md) <br/> |Contains an array of mailboxes that are contained in a distribution list.  <br/> |
 |[Attendee](attendee.md) <br/> |Represents attendees and resources for a calendar item.  <br/> |
@@ -79,7 +79,13 @@ None.
   
 ## Remarks
 
-The [EmailAddress (NonEmptyStringType)](emailaddress-nonemptystringtype.md) and [ItemId](itemid.md) elements identify a mailbox or distribution list. The [EmailAddress (NonEmptyStringType)](emailaddress-nonemptystringtype.md) element identifies a mailbox or distribution list by SMTP address. The [ItemId](itemid.md) element identifies a mailbox by an item identifier, which is associated with a particular mailbox. The [ItemId](itemid.md) element cannot be used for sending a message to a distribution list or a contact in a public contacts folder. An error will be thrown if this is used in a CreateItem, UpdateItem, or SendItem operation when an attempt is made to send a message to a distribution list or contact in a contacts public folder. Use the ExpandDL operation to get the SMTP address and then send the message by using the [EmailAddress (NonEmptyStringType)](emailaddress-nonemptystringtype.md) element instead of the [ItemId](itemid.md) element. 
+The [EmailAddress (NonEmptyStringType)](emailaddress-nonemptystringtype.md) and [ItemId](itemid.md) elements identify a mailbox or distribution list. 
+
+The [EmailAddress (NonEmptyStringType)](emailaddress-nonemptystringtype.md) element identifies a mailbox or distribution list by SMTP address. 
+
+The [ItemId](itemid.md) element identifies a mailbox by an item identifier, which is associated with a particular mailbox. 
+
+The [ItemId](itemid.md) element cannot be used for sending a message to a distribution list or a contact in a public contacts folder. An error will be thrown if this is used in a CreateItem, UpdateItem, or SendItem operation when an attempt is made to send a message to a distribution list or contact in a contacts public folder. Use the ExpandDL operation to get the SMTP address and then send the message by using the [EmailAddress (NonEmptyStringType)](emailaddress-nonemptystringtype.md) element instead of the [ItemId](itemid.md) element. 
   
 Another element, [Mailbox (Availability)](mailbox-availability.md), provides information for availability operations. 
   

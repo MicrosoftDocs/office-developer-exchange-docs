@@ -1,12 +1,8 @@
 ---
 title: "Add and remove delegates by using EWS in Exchange"
- 
- 
 manager: sethgros
 ms.date: 3/9/2015
 ms.audience: Developer
- 
- 
 localization_priority: Normal
 ms.assetid: cc7760bf-633b-483a-84ae-b52f437af2d3
 description: "Learn how to add delegates to or remove delegates from users' mailboxes by using the EWS Managed API or EWS in Exchange."
@@ -28,9 +24,10 @@ You can use the EWS Managed API or EWS to enable delegates to act on behalf of a
 After a delegate is granted permissions to a folder, they can act on items in the folder and any subfolders, according to their [delegate permissions](delegate-access-and-ews-in-exchange.md#bk_delegateperms). Permissions for delegates only apply to subfolders that are created after the delegate access was granted. To update folder permissions for pre-existing folders, or other folders, see [Set folder permissions for another user by using EWS in Exchange](how-to-set-folder-permissions-for-another-user-by-using-ews-in-exchange.md).
   
 Note that delegates can only be added to mailbox-enabled accounts, including mail-enabled security groups. By default, a single EWS delegate access call can access a maximum of 255 different mailboxes.
-  
+
+<a name="bk_adddelegateewsma"> </a>
+
 ## Add delegates by using the EWS Managed API
-<a name="bk_adddelgateewsma"> </a>
 
 You can add delegates to a mailbox by using the [AddDelegates](http://msdn.microsoft.com/en-us/library/microsoft.exchange.webservices.data.exchangeservice.adddelegates%28v=exchg.80%29.aspx) EWS Managed API method. In this example, a new calendar, contact, and email [DelegateUser](http://msdn.microsoft.com/en-us/library/microsoft.exchange.webservices.data.delegateuser%28v=exchg.80%29.aspx) object is created, and each delegate is given [Editor permissions](delegate-access-and-ews-in-exchange.md#bk_delegateperms) for their respective folder. You can modify the example to add a delegate to any of the folders specified by the [DelegatePermissions properties](http://msdn.microsoft.com/en-us/library/microsoft.exchange.webservices.data.delegatepermissions_properties%28v=exchg.80%29.aspx), and you can set the permissions to any of the values specified by the [DelegateFolderPermissionLevel](http://msdn.microsoft.com/en-us/library/microsoft.exchange.webservices.data.delegatefolderpermissionlevel%28v=exchg.80%29.aspx) enumeration. 
   
@@ -75,8 +72,9 @@ public static Collection<DelegateUserResponse> AddDelegates(ExchangeService serv
 }
 ```
 
-## Add delegates by using EWS
 <a name="bk_adddelegateews"> </a>
+
+## Add delegates by using EWS
 
 The following code example shows how to add separate calendar, contact, and email delegates by using the [AddDelegate](http://msdn.microsoft.com/library/012d8cc5-648c-4ba0-a155-15c422b1e994%28Office.15%29.aspx) EWS operation. The mailbox to modify is specified by the [Mailbox](http://msdn.microsoft.com/library/befc70fd-51cb-4258-884c-80c9050f0e82%28Office.15%29.aspx) element, and the [permission](delegate-access-and-ews-in-exchange.md#bk_delegateperms) settings for each delegate are contained in the [DelegateUser](http://msdn.microsoft.com/library/aac4e74e-f69b-4c41-a0c9-489610330fbf%28Office.15%29.aspx) element. Each of the delegates has been granted Editor permissions to their target folder. 
   
@@ -214,8 +212,9 @@ The server responds to the **AddDelegate** request with an [AddDelegateResponse]
 </s:Envelope>
 ```
 
-## Remove delegates by using the EWS Managed API
 <a name="bk_removedelegateewsma"> </a>
+
+## Remove delegates by using the EWS Managed API
 
 You can remove delegates from a target mailbox by using the [ExchangeService.RemoveDelegates](http://msdn.microsoft.com/en-us/library/office/microsoft.exchange.webservices.data.exchangeservice.removedelegates%28v=exchg.80%29.aspx) EWS Managed API method. In this example, the delegate permissions set in the [add a delegate example](#bk_adddelegateewsma) are removed. 
   
@@ -247,8 +246,9 @@ public static Collection<DelegateUserResponse> RemoveDelegates(ExchangeService s
 }
 ```
 
-## Remove delegates by using EWS
 <a name="bk_removedelegateews"> </a>
+
+## Remove delegates by using EWS
 
 You can remove delegates from a mailbox by using the [RemoveDelegate](http://msdn.microsoft.com/library/1d42d5ff-8fde-4f8a-b18d-57b1ef7a946a%28Office.15%29.aspx) EWS operation. In this example, the delegate permissions set in the [add a delegate example](#bk_adddelegateews) are removed. 
   
@@ -285,9 +285,10 @@ This is also the XML request that the EWS Managed API sends when you use the **R
 ```
 
 The server responds to the **RemoveDelegate** request with a [AddDelegateResponse](http://msdn.microsoft.com/library/d7e6bebb-5dbf-43c1-aacf-4b3ca6a7c429%28Office.15%29.aspx) message that includes a [ResponseCode](http://msdn.microsoft.com/library/4b84d670-74c9-4d6d-84e7-f0a9f76f0d93%28Office.15%29.aspx) element value of **NoError**, which indicates that the delegates were successfully removed.
-  
-## 
-<a name="bk_removedelegateews"> </a>
+
+<a name="bk_nextsteps"> </a>
+
+## Next steps
 
 After you add delegates to calendar, email, and task folders, the delegate can access the items in the folders. To learn more, see the following articles:
   
@@ -301,13 +302,9 @@ If the folders for which you added delegates include child folders that were cre
   
 ## See also
 
-
 - [Delegate access and EWS in Exchange](delegate-access-and-ews-in-exchange.md)
-    
-- [Exchange 2013: Add delegate users to an email account programmatically](http://code.msdn.microsoft.com/exchange/Exchange-2013-Adding-1024511f)
-    
-- [Exchange 2013: Update delegates associated with email accounts programmatically](http://code.msdn.microsoft.com/exchange/Exchange-2013-Update-b40d3bac)
-    
+- [Exchange 2013: Add delegate users to an email account programmatically](http://code.msdn.microsoft.com/exchange/Exchange-2013-Adding-1024511f)   
+- [Exchange 2013: Update delegates associated with email accounts programmatically](http://code.msdn.microsoft.com/exchange/Exchange-2013-Update-b40d3bac)   
 - [Exchange 2013: Remove delegates associated with email accounts programmatically](http://code.msdn.microsoft.com/exchange/Exchange-2013-Remove-686f7714)
     
 

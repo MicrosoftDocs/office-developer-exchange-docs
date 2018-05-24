@@ -1,7 +1,5 @@
 ---
 title: "ConvertIdResponseMessage"
- 
- 
 manager: sethgros
 ms.date: 9/17/2015
 ms.audience: Developer
@@ -20,11 +18,9 @@ description: "The ConvertIdResponseMessage element contains the status and resul
 
 The **ConvertIdResponseMessage** element contains the status and result of a [ConvertId operation](convertid-operation.md) request. 
   
-[ConvertIdResponse](convertidresponse.md)
-  
-[ResponseMessages](responsemessages.md)
-  
-[ConvertIdResponseMessage](convertidresponsemessage.md)
+- [ConvertIdResponse](convertidresponse.md) 
+- [ResponseMessages](responsemessages.md)
+- [ConvertIdResponseMessage](convertidresponsemessage.md)
   
 ```xml
 <ConvertIdResponseMessage ResponseClass="">
@@ -45,7 +41,7 @@ The following sections describe attributes, child elements, and parent elements.
 
 |**Attribute**|**Description**|
 |:-----|:-----|
-|**ResponseClass** <br/> | Describes the status of a [ConvertId operation](convertid-operation.md) response. The following values are valid for this attribute:  <br/>  Success  <br/>  Warning  <br/>  Error  <br/> |
+|**ResponseClass** <br/> | Describes the status of a [ConvertId operation](convertid-operation.md) response.<br/><br/>The following values are valid for this attribute:<br/><br/>- Success  <br/>-  Warning  <br/>-  Error  <br/> |
    
 #### ResponseClass attribute values
 
@@ -53,7 +49,7 @@ The following sections describe attributes, child elements, and parent elements.
 |:-----|:-----|
 |**Success** <br/> |Describes a request that is fulfilled.  <br/> |
 |**Warning** <br/> | Describes a request that was not fully processed or for which an unintended result occurred.  <br/> |
-|**Error** <br/> | Describes a request that cannot be fulfilled. The following are examples of sources of errors:  <br/>  Invalid attributes or elements  <br/>  Attributes or elements that are out of range  <br/>  An unknown tag  <br/>  An attribute or element that is not valid in the context  <br/>  An unauthorized access attempt by any client  <br/>  A server-side failure in response to a valid client-side call  <br/>  Information about the error can be found in the [ResponseCode](responsecode.md) and [MessageText](messagetext.md) elements.  <br/> |
+|**Error** <br/> | Describes a request that cannot be fulfilled.<br/><br/>The following are examples of sources of errors:  <br/><br/>- Invalid attributes or elements  <br/>-  Attributes or elements that are out of range  <br/>-  An unknown tag  <br/>-  An attribute or element that is not valid in the context  <br/>- An unauthorized access attempt by any client  <br/>-  A server-side failure in response to a valid client-side call<br/><br/>Information about the error can be found in the [ResponseCode](responsecode.md) and [MessageText](messagetext.md) elements.  <br/> |
    
 ### Child elements
 
@@ -88,10 +84,6 @@ The schema that describes this element is located in the EWS virtual directory o
    
 ## See also
 
-
-
-[ConvertId operation](convertid-operation.md)
-
-
+- [ConvertId operation](convertid-operation.md)
 - [EWS XML elements in Exchange](ews-xml-elements-in-exchange.md)
 

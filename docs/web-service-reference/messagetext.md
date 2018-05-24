@@ -1,7 +1,5 @@
 ---
 title: "MessageText"
- 
- 
 manager: sethgros
 ms.date: 9/17/2015
 ms.audience: Developer
@@ -41,7 +39,7 @@ None.
 
 |**Element**|**Description**|
 |:-----|:-----|
-|[ResponseMessage](responsemessage.md) <br/> | Provides descriptive information about the response status.  <br/>  The following are some of the possible XPath expressions to this element:  <br/>  `/GetUserAvailabilityResponse/FreeBusyResponseArray/FreeBusyResponse/ResponseMessage` <br/>  `/GetUserAvailabilityResponse/SuggestionsResponse/ResponseMessage` <br/>  `/SetUserOofSettingsResponse/ResponseMessage` <br/>  `/GetUserOofSettingsResponse/ResponseMessage` <br/> |
+|[ResponseMessage](responsemessage.md) <br/> | Provides descriptive information about the response status.  <br/> <br/> The following are some of the possible XPath expressions to this element: <br/> <br/>  `/GetUserAvailabilityResponse/FreeBusyResponseArray/FreeBusyResponse/ResponseMessage` <br/> <br/> `/GetUserAvailabilityResponse/SuggestionsResponse/ResponseMessage` <br/><br/>  `/SetUserOofSettingsResponse/ResponseMessage` <br/><br/>  `/GetUserOofSettingsResponse/ResponseMessage` <br/> |
 |[DeleteItemResponseMessage](deleteitemresponsemessage.md) <br/> |Contains the status and result of a single DeleteItem request.  <br/> |
 |[SendItemResponseMessage](senditemresponsemessage.md) <br/> |Contains the status and result of a single SendItem request.  <br/> |
 |[DeleteFolderResponseMessage](deletefolderresponsemessage.md) <br/> |Contains the status and result of a single DeleteFolder request.  <br/> |
@@ -102,8 +100,6 @@ The schema that describes this element is located in the IIS virtual directory t
 |Can be Empty  <br/> |False  <br/> |
    
 ## See also
-
-
 
 - [EWS XML elements in Exchange](ews-xml-elements-in-exchange.md)
 

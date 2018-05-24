@@ -1,7 +1,5 @@
 ---
 title: "SyncFolderItemsResponseMessage"
- 
- 
 manager: sethgros
 ms.date: 9/17/2015
 ms.audience: Developer
@@ -20,11 +18,9 @@ description: "The SyncFolderItemsResponseMessage element contains the status and
 
 The **SyncFolderItemsResponseMessage** element contains the status and result of a single [SyncFolderItems operation](syncfolderitems-operation.md) request. 
   
-[SyncFolderItemsResponse](syncfolderitemsresponse.md)
-  
-[ResponseMessages](responsemessages.md)
-  
-[SyncFolderItemsResponseMessage](syncfolderitemsresponsemessage.md)
+- [SyncFolderItemsResponse](syncfolderitemsresponse.md) 
+- [ResponseMessages](responsemessages.md)
+- [SyncFolderItemsResponseMessage](syncfolderitemsresponsemessage.md)
   
 ```xml
 <SyncFolderItemsResponseMessage ResponseClass="">
@@ -47,15 +43,15 @@ The following sections describe attributes, child elements, and parent elements.
 
 |**Attribute**|**Description**|
 |:-----|:-----|
-|**ResponseClass** <br/> | Describes the status of a [SyncFolderItems operation](syncfolderitems-operation.md) response. The following values are valid for this attribute:  <br/>  Success  <br/>  Warning  <br/>  Error  <br/> |
+|**ResponseClass** <br/> | Describes the status of a [SyncFolderItems operation](syncfolderitems-operation.md) response. <br/><br/>The following values are valid for this attribute: <br/> <br/>-  Success  <br/>-  Warning  <br/>-  Error  <br/> |
    
 #### ResponseClass Attribute
 
 |**Value**|**Description**|
 |:-----|:-----|
 |**Success** <br/> |Describes a request that is fulfilled.  <br/> |
-|**Warning** <br/> | Describes a request that was not processed. A warning may be returned if an error occurred while processing an item in the request and subsequent items cannot be processed. The following are examples of sources of warnings:  <br/>  The Exchange store is offline during the batch.  <br/>  Active Directory Domain Services (AD DS) is offline.  <br/>  Mailboxes were moved.  <br/>  The message database (MDB) is offline.  <br/>  A password has expired.  <br/>  A quota was exceeded.  <br/> |
-|**Error** <br/> | Describes a request that cannot be fulfilled. The following are examples of sources of errors:  <br/>  Invalid attributes or elements  <br/>  Attributes or elements that are out of range  <br/>  An unknown tag  <br/>  An attribute or element that is not valid in the context  <br/>  Any unauthorized access attempt by any client  <br/>  Any server-side failure in response to a valid client-side call  <br/>  Information about the error can be found in the [ResponseCode](responsecode.md) and [MessageText](messagetext.md) elements.  <br/> |
+|**Warning** <br/> | Describes a request that was not processed. A warning may be returned if an error occurred while processing an item in the request and subsequent items cannot be processed. <br/><br/>The following are examples of sources of warnings:  <br/><br/>-  The Exchange store is offline during the batch.  <br/>-  Active Directory Domain Services (AD DS) is offline.  <br/>-  Mailboxes were moved.  <br/>-  The message database (MDB) is offline.  <br/>-  A password has expired.  <br/>-  A quota was exceeded.  <br/> |
+|**Error** <br/> | Describes a request that cannot be fulfilled. <br/><br/>The following are examples of sources of errors:  <br/><br/>-  Invalid attributes or elements  <br/>-  Attributes or elements that are out of range  <br/>-  An unknown tag  <br/>-  An attribute or element that is not valid in the context  <br/>-  Any unauthorized access attempt by any client  <br/>-  Any server-side failure in response to a valid client-side call  <br/>  <br/>Information about the error can be found in the [ResponseCode](responsecode.md) and [MessageText](messagetext.md) elements.  <br/> |
    
 ### Child elements
 
@@ -90,10 +86,6 @@ The schema that describes this element is located in the EWS virtual directory o
    
 ## See also
 
-
-
-[SyncFolderItems operation](syncfolderitems-operation.md)
-
-
+- [SyncFolderItems operation](syncfolderitems-operation.md)
 - [EWS XML elements in Exchange](ews-xml-elements-in-exchange.md)
 

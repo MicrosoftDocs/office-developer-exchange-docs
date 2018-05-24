@@ -1,7 +1,5 @@
 ---
 title: "ExpandDLResponseMessage"
- 
- 
 manager: sethgros
 ms.date: 9/17/2015
 ms.audience: Developer
@@ -20,11 +18,9 @@ description: "The ExpandDLResponseMessage element contains the status and result
 
 The **ExpandDLResponseMessage** element contains the status and result of a single [ExpandDL operation](expanddl-operation.md) request. 
   
-[ExpandDLResponse](expanddlresponse.md)
-  
-[ResponseMessages](responsemessages.md)
-  
-[ExpandDLResponseMessage](expanddlresponsemessage.md)
+- [ExpandDLResponse](expanddlresponse.md)  
+- [ResponseMessages](responsemessages.md) 
+- [ExpandDLResponseMessage](expanddlresponsemessage.md)
   
 ```xml
 <ExpandDLResponseMessage ResponseClass="" IndexedPagingOffset="" NumeratorOffset="" AbsoluteDenominator="" IncludesLastItemInRange="" TotalItemsInView="">
@@ -36,7 +32,8 @@ The **ExpandDLResponseMessage** element contains the status and result of a sing
 </ExpandDLResponseMessage>
 ```
 
- **ExpandDLResponseMessageType**
+**ExpandDLResponseMessageType**
+
 ## Attributes and elements
 
 The following sections describe attributes, child elements, and parent elements.
@@ -45,7 +42,7 @@ The following sections describe attributes, child elements, and parent elements.
 
 |**Attribute**|**Description**|
 |:-----|:-----|
-|**ResponseClass** <br/> | Describes the status of an [ExpandDL operation](expanddl-operation.md) response. The following values are valid for this attribute:  <br/>  Success  <br/>  Warning  <br/>  Error  <br/> |
+|**ResponseClass** <br/> | Describes the status of an [ExpandDL operation](expanddl-operation.md) response.<br/><br/>The following values are valid for this attribute: <br/> <br/>-  Success  <br/>-  Warning  <br/>-  Error  <br/> |
 |**IndexedPagingOffset** <br/> |Represents the next index that should be used for the next request when an indexed paging view is used.  <br/> |
 |**NumeratorOffset** <br/> |Represents the new numerator value to use for the next request when fraction page views are used.  <br/> |
 |**AbsoluteDenominator** <br/> |Represents the next denominator to use for the next request when doing fractional paging.  <br/> |
@@ -57,8 +54,8 @@ The following sections describe attributes, child elements, and parent elements.
 |**Value**|**Description**|
 |:-----|:-----|
 |**Success** <br/> |Describes a request that is fulfilled.  <br/> |
-|**Warning** <br/> | Describes a request that was not processed. A warning may be returned if an error occurred while an item in the request was processing and subsequent items could not be processed. The following are examples of sources of warnings:  <br/>  The Exchange store is offline during the batch.  <br/>  Active Directory Domain Services (AD DS) is offline.  <br/>  Mailboxes are moved.  <br/>  The mailbox database (MDB) is offline.  <br/>  A password is expired.  <br/>  A quota was exceeded.  <br/> |
-|**Error** <br/> | Describes a request that cannot be fulfilled. The following are examples of sources of errors:  <br/>  Invalid attributes or elements  <br/>  Attributes or elements that are out of range  <br/>  An unknown tag  <br/>  An attribute or element that is not valid in the context  <br/>  An unauthorized access attempt by any client  <br/>  A server-side failure in response to a valid client-side call  <br/>  Information about the error can be found in the [ResponseCode](responsecode.md) and [MessageText](messagetext.md) elements.  <br/> |
+|**Warning** <br/> | Describes a request that was not processed. A warning may be returned if an error occurred while an item in the request was processing and subsequent items could not be processed.<br/><br/> The following are examples of sources of warnings:<br/>  <br/>-  The Exchange store is offline during the batch.  <br/>-  Active Directory Domain Services (AD DS) is offline.  <br/>-  Mailboxes are moved.  <br/>-  The mailbox database (MDB) is offline.  <br/>-  A password is expired.  <br/>-  A quota was exceeded.  <br/> |
+|**Error** <br/> | Describes a request that cannot be fulfilled.<br/><br/> The following are examples of sources of errors:  <br/><br/>-  Invalid attributes or elements  <br/>-  Attributes or elements that are out of range  <br/>-  An unknown tag  <br/>-  An attribute or element that is not valid in the context  <br/>-  An unauthorized access attempt by any client  <br/>-  A server-side failure in response to a valid client-side call <br/> <br/>  Information about the error can be found in the [ResponseCode](responsecode.md) and [MessageText](messagetext.md) elements.  <br/> |
    
 ### Child elements
 
@@ -91,12 +88,7 @@ The schema that describes this element is located in the EWS virtual directory o
    
 ## See also
 
-
-
-[ExpandDL operation](expanddl-operation.md)
-
-
-[EWS reference for Exchange](ews-reference-for-exchange.md)
-  
+- [ExpandDL operation](expanddl-operation.md)
+- [EWS reference for Exchange](ews-reference-for-exchange.md)
 - [EWS XML elements in Exchange](ews-xml-elements-in-exchange.md)
 

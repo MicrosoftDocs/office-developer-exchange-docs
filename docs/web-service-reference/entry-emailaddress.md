@@ -1,7 +1,5 @@
 ---
 title: "Entry (EmailAddress)"
- 
- 
 manager: sethgros
 ms.date: 9/17/2015
 ms.audience: Developer
@@ -24,7 +22,8 @@ The **Entry** element represents a single e-mail address for a contact.
 <Entry Key="" Name="" RoutingType="" MailboxType="" />
 ```
 
- **EmailAddressDictionaryEntryType**
+**EmailAddressDictionaryEntryType**
+
 ## Attributes and elements
 
 The following sections describe attributes, child elements, and parent elements.
@@ -33,7 +32,7 @@ The following sections describe attributes, child elements, and parent elements.
 
 |**Attribute**|**Description**|
 |:-----|:-----|
-|**Key** <br/> | Identifies the e-mail address. The following are the possible values for this attribute:  <br/>  EmailAddress1  <br/>  EmailAddress2  <br/>  EmailAddress3  <br/>  This attribute is required.  <br/> |
+|**Key** <br/> | Identifies the e-mail address.<br/><br/>The following are the possible values for this attribute:<br/><br/>-  EmailAddress1  <br/>-  EmailAddress2  <br/>-  EmailAddress3 <br/><br/>  This attribute is required.  <br/> |
 |**Name** <br/> |Defines the name of the mailbox user. This attribute is optional.  <br/> |
 |**RoutingType** <br/> |Defines the routing that is used for the mailbox. The default is SMTP. This attribute is optional.  <br/> |
 |**MailboxType** <br/> |Defines the mailbox type of a mailbox user. This attribute is optional.  <br/> |
@@ -64,8 +63,6 @@ The schema that describes this element is located in the IIS virtual directory t
 |Can be empty  <br/> |False  <br/> |
    
 ## See also
-
-
 
 - [EWS XML elements in Exchange](ews-xml-elements-in-exchange.md)
 

@@ -1,12 +1,8 @@
 ---
 title: "Get started with EWS client applications"
- 
- 
 manager: sethgros
 ms.date: 11/16/2014
 ms.audience: Developer
- 
- 
 localization_priority: Normal
 ms.assetid: e6fd5c23-0ba5-4a7b-bdde-4a553447069f
 description: "Create your first application by using Exchange Web Services (EWS) in Exchange."
@@ -416,6 +412,8 @@ var createItemSOAPRequest =
         Tracing.WriteLine(ex.Message);
       }
 ```
+
+<a name="bk_next"></a>
 
 ## Next steps
 

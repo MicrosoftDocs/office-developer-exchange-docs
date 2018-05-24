@@ -30,14 +30,16 @@ As a delegate, you use the same methods and operations to access a mailbox owner
    
 > [!NOTE]
 > In the code examples in this article, primary@contoso.com is the mailbox owner. 
-  
-## Prerequisite tasks
+
 <a name="bk_prereq"> </a>
 
+## Prerequisite tasks
+
 Before a user can access the mailbox owner's Contacts folder as a delegate, the user must be [added as a delegate with permissions](how-to-add-and-remove-delegates-by-using-ews-in-exchange.md) to the mailbox owner's Contacts folder. 
-  
-## Create a contact as a delegate by using the EWS Managed API
+
 <a name="bk_createewsma"> </a>
+
+## Create a contact as a delegate by using the EWS Managed API
 
 The EWS Managed API enables you to use the service object for the delegate user to create contacts for the mailbox owner. This example shows how to use the [Save](http://msdn.microsoft.com/en-us/library/microsoft.exchange.webservices.data.appointment.save%28v=exchg.80%29.aspx) method to create a meeting and send meeting requests to the attendees. 
   
@@ -97,8 +99,9 @@ However, you can also [Bind](http://msdn.microsoft.com/en-us/library/microsoft.e
     meeting.Save(primaryContacts.Id);
 ```
 
-## Create a contact as a delegate by using EWS
 <a name="bk_createews"> </a>
+
+## Create a contact as a delegate by using EWS
 
 EWS enables you to use the service object for the delegate user to create contact items for the mailbox owner. This example shows how to use the [CreateItem](http://msdn.microsoft.com/library/aa4a7c94-f668-4bd2-8079-c855f6ab17e1%28Office.15%29.aspx) operation to create a contact. 
   
@@ -146,9 +149,10 @@ This is also the XML request that the EWS Managed API sends when you use the **S
 ```
 
 The server responds to the **CreateItem** request with a [CreateItemResponse](http://msdn.microsoft.com/library/742a46a0-2475-45a0-b44f-90639a3f5a43%28Office.15%29.aspx) message that includes a [ResponseCode](http://msdn.microsoft.com/library/4b84d670-74c9-4d6d-84e7-f0a9f76f0d93%28Office.15%29.aspx) element value of **NoError**, which indicates that the contact was created successfully. The response also contains the item ID of the newly created contact.
-  
-## Resolve a contact as a delegate by using the EWS Managed API
+
 <a name="bk_resolveewsma"> </a>
+
+## Resolve a contact as a delegate by using the EWS Managed API
 
 To find a contact based on a possibly ambiguous name or term, you must use one of the [ExchangeService.ResolveName](http://msdn.microsoft.com/en-us/library/microsoft.exchange.webservices.data.exchangeservice.resolvename%28v=exchg.80%29.aspx) methods that includes a [FolderId](http://msdn.microsoft.com/en-us/library/microsoft.exchange.webservices.data.folderid%28v=exchg.80%29.aspx) parameter, so that you can specify the mailbox owner's Contacts folder. 
   
@@ -175,10 +179,11 @@ private static void DelegateAccessResolveContacts(ExchangeService service)
 }
 ```
 
-After the **ResolveNames** method call returns a response with an ID, you can [get, update or delete the contact](#bk_getewsma) using the ID and [implicit access](delegate-access-and-ews-in-exchange.md#bk_implicit) - and you do not need to specify the mailbox owner's SMTP address. 
-  
-## Resolve a contact as a delegate by using EWS
+After the **ResolveNames** method call returns a response with an ID, you can [get, update or delete the contact](#bk_getewsma) using the ID and [implicit access](delegate-access-and-ews-in-exchange.md#bk_implicit)&mdash;and you do not need to specify the mailbox owner's SMTP address. 
+
 <a name="bk_resolveews"> </a>
+
+## Resolve a contact as a delegate by using EWS
 
 EWS enables you to use the service object for the delegate user to resolve partial names in the mailbox owner's Contacts folder. This example shows how to use the [ResolveNames](http://msdn.microsoft.com/library/6b4eb4b3-9ad6-4804-a09f-7e20cfea4dbb%28Office.15%29.aspx) operation to find meetings in the mailbox owner's Contacts folder that contain the word "johnson". 
   
@@ -265,10 +270,11 @@ The value of the **ItemId** element has been shortened for readability.
 </s:Envelope>
 ```
 
-Now that you have the **ItemId** for the contacts that match the ambiguous name, you can [Get, update, or delete contact items as a delegate by using EWS](#bk_getews) by using the **ItemId** and [implicit access](delegate-access-and-ews-in-exchange.md#bk_implicit) - and you do not need to specify the mailbox owner's SMTP address. 
-  
+Now that you have the **ItemId** for the contacts that match the ambiguous name, you can [Get, update, or delete contact items as a delegate by using EWS](#bk_getews) by using the **ItemId** and [implicit access](delegate-access-and-ews-in-exchange.md#bk_implicit)&mdash;and you do not need to specify the mailbox owner's SMTP address. 
+
+<a name="bk_getewsma"> </a>
+
 ## Get, update, or delete contact items as a delegate by using the EWS Managed API
-<a name="bk_geteswma"> </a>
 
 You can use the EWS Managed API to get, update, or delete a contact in the same way that you perform these actions when you're not using delegate access. The only difference is that the service object is for the delegate user. The item ID included in the **Bind** method call uniquely identifies the item in the mailbox store, in the mailbox owner's Contacts folder. 
   
@@ -279,9 +285,10 @@ You can use the EWS Managed API to get, update, or delete a contact in the same 
 |Get a contact  <br/> |[Bind](http://msdn.microsoft.com/en-us/library/microsoft.exchange.webservices.data.appointment.bind%28v=exchg.80%29.aspx) <br/> |[Get an item by using the EWS Managed API](how-to-work-with-exchange-mailbox-items-by-using-ews-in-exchange.md#bk_getewsma) <br/> |
 |Update a contact  <br/> |[Bind](http://msdn.microsoft.com/en-us/library/microsoft.exchange.webservices.data.appointment.bind%28v=exchg.80%29.aspx) followed by [Update](http://msdn.microsoft.com/en-us/library/microsoft.exchange.webservices.data.appointment.update%28v=exchg.80%29.aspx) <br/> |[Update an item by using the EWS Managed API](how-to-work-with-exchange-mailbox-items-by-using-ews-in-exchange.md#bk_updateewsma) <br/> |
 |Delete a contact  <br/> |[Bind](http://msdn.microsoft.com/en-us/library/microsoft.exchange.webservices.data.appointment.bind%28v=exchg.80%29.aspx) followed by [Delete](http://msdn.microsoft.com/en-us/library/microsoft.exchange.webservices.data.appointment.delete%28v=exchg.80%29.aspx) <br/> |[Delete an item by using the EWS Managed API](how-to-work-with-exchange-mailbox-items-by-using-ews-in-exchange.md#bk_deleteewsma) <br/> |
-   
-## Get, update, or delete contact items as a delegate by using EWS
+
 <a name="bk_getews"> </a>
+
+## Get, update, or delete contact items as a delegate by using EWS
 
 You can use EWS to get, update, or delete a meeting or appointment contact in the same way that you perform these actions when you're not using delegate access. The only difference is that the service object is for the delegate user. The item ID included in the [GetItem](http://msdn.microsoft.com/library/a41c29c9-c4e6-4aa4-8e28-ccb0b478fee8%28Office.15%29.aspx) request uniquely identifies the item in the mailbox store, in the mailbox owner's Contacts folder. 
   
