@@ -20,7 +20,7 @@ description: "The TotalCount element represents the total count of items within 
 
 The **TotalCount** element represents the total count of items within a given folder. 
   
-```
+```xml
 <TotalCount/>
 ```
 

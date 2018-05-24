@@ -9,8 +9,6 @@ api_type:
 - schema
 ms.assetid: a4ce19de-f560-4984-8047-ecbbc86c9b91
 description: "The DomainSettingsErrors element contains error information for settings that could not be returned."
- 
- 
 ---
 
 # DomainSettingErrors (SOAP)
@@ -59,7 +57,5 @@ None.
    
 ## See also
 
-
-
-[GetDomainSettings operation (SOAP)](getdomainsettings-operation-soap.md)
+- [GetDomainSettings operation (SOAP)](getdomainsettings-operation-soap.md)
 

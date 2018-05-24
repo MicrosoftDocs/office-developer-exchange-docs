@@ -20,7 +20,7 @@ description: "The Month element represents the transition month of the year to a
 
 The **Month** element represents the transition month of the year to and from standard time and daylight saving time. 
   
-```
+```xml
 <Month>...</Month>
 ```
 

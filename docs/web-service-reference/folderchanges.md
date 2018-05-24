@@ -24,7 +24,7 @@ The **FolderChanges** element represents a collection of changes for a folder.
   
 [FolderChanges](folderchanges.md)
   
-```
+```xml
 <FolderChanges>
    <FolderChange/>
 </FolderChanges>

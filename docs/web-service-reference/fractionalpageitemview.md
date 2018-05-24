@@ -24,7 +24,7 @@ The **FractionalPageItemView** element describes where the paged view starts and
   
 [FractionalPageItemView](fractionalpageitemview.md)
   
-```
+```xml
 <FractionalPageItemView MaxEntriesReturned="" Numerator="" Denominator=""/>
 ```
 

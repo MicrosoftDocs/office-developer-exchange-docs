@@ -20,7 +20,7 @@ description: "The GetServerTimeZones element is the root element in a request to
 
 The **GetServerTimeZones** element is the root element in a request to retrieve time zone definitions from the Exchange server. 
   
-```
+```xml
 <GetServerTimeZones ReturnFullTimeZoneData="">   <Ids/></GetServerTimeZones>
 ```
 

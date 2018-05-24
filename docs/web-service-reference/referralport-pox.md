@@ -27,7 +27,7 @@ The **ReferralPort** element specifies the port that is used to get a referral t
   
 [ReferralPort (POX)](referralport-pox.md)
   
-```
+```xml
 <ReferralPort/>
 ```
 

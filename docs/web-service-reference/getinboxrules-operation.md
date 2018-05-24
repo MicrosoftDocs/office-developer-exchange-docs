@@ -20,7 +20,7 @@ description: "The GetInboxRules operation uses Exchange Web Services to retrieve
 
 The **GetInboxRules** operation uses Exchange Web Services to retrieve Inbox rules in the identified user's mailbox. 
   
-## GetInboxRules Request Example
+## GetInboxRules request example
 
 ### Description
 
@@ -45,13 +45,13 @@ The following example shows the request XML that the client sends to the server.
 </soap:Envelope>
 ```
 
-### Request Elements
+### Request elements
 
 The request includes the following optional element:
   
 - [MailboxSmtpAddress](mailboxsmtpaddress.md)
     
-## Successful GetInboxRules Response Example
+## Successful GetInboxRules response example
 
 ### Description
 
@@ -104,7 +104,7 @@ The following Simple Object Access Protocol (SOAP) body example shows a successf
 </s:Envelope>
 ```
 
-### Response Elements
+### Response elements
 
 The following elements are included in the response:
   

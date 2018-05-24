@@ -20,7 +20,7 @@ description: "The FreeBusyChangedEvent element represents an event in which an i
 
 The **FreeBusyChangedEvent** element represents an event in which an item's free/busy time has changed. 
   
-```
+```xml
 <CreatedEvent>
    <Watermark/>
    <TimeStamp/>

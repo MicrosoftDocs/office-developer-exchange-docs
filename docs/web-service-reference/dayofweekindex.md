@@ -1,7 +1,5 @@
 ---
 title: "DayOfWeekIndex"
- 
- 
 manager: sethgros
 ms.date: 9/17/2015
 ms.audience: Developer
@@ -20,11 +18,12 @@ description: "The DayOfWeekIndex element describes which week in a month is used
 
 The **DayOfWeekIndex** element describes which week in a month is used in a relative recurrence pattern. 
   
-```
+```xml
 <DayOfWeekIndex/>
 ```
 
- **DayOfWeekIndexType**
+**DayOfWeekIndexType**
+
 ## Attributes and elements
 
 The following sections describe attributes, child elements, and parent elements.
@@ -48,14 +47,10 @@ None.
 
 A text value is required. The following are the possible values:
   
-- First
-    
-- Second
-    
-- Third
-    
-- Fourth
-    
+- First    
+- Second    
+- Third    
+- Fourth    
 - Last
     
 ## Remarks
@@ -74,8 +69,6 @@ The schema that describes this element is located in the EWS virtual directory o
 |Can be empty  <br/> |False  <br/> |
    
 ## See also
-
-
 
 - [EWS XML elements in Exchange](ews-xml-elements-in-exchange.md)
 

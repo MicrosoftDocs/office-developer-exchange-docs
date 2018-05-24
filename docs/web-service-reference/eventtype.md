@@ -20,7 +20,7 @@ description: "The EventType element is used to create a subscription and identif
 
 The **EventType** element is used to create a subscription and identifies an event type to be reported in a notification. 
   
-```
+```xml
 <EventType/>
 ```
 

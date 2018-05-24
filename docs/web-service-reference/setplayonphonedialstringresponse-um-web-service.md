@@ -21,7 +21,7 @@ The **SetPlayOnPhoneDialStringResponse** element defines a response to a [SetPla
   
 [SetPlayOnPhoneDialStringResponse (UM web service)](setplayonphonedialstringresponse-um-web-service.md)
   
-```
+```xml
 <SetPlayOnPhoneDialStringResponse />
 ```
 

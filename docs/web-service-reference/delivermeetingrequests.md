@@ -1,7 +1,5 @@
 ---
 title: "DeliverMeetingRequests"
- 
- 
 manager: sethgros
 ms.date: 9/17/2015
 ms.audience: Developer
@@ -75,17 +73,9 @@ The schema that describes this element is located in the IIS virtual directory t
    
 ## See also
 
-
-
-[AddDelegate operation](adddelegate-operation.md)
-  
-[UpdateDelegate operation](updatedelegate-operation.md)
-  
-[GetDelegate operation](getdelegate-operation.md)
-
-
+- [AddDelegate operation](adddelegate-operation.md)  
+- [UpdateDelegate operation](updatedelegate-operation.md)  
+- [GetDelegate operation](getdelegate-operation.md)
 - [EWS XML elements in Exchange](ews-xml-elements-in-exchange.md)
-
-
-[Adding Delegates](http://msdn.microsoft.com/library/3a744150-66a3-4a13-9433-793603ba5038%28Office.15%29.aspx)
+- [Adding Delegates](http://msdn.microsoft.com/library/3a744150-66a3-4a13-9433-793603ba5038%28Office.15%29.aspx)
 

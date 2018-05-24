@@ -20,7 +20,7 @@ description: "The MoveItem operation is used to move one or more items to a sing
 
 The **MoveItem** operation is used to move one or more items to a single destination folder. 
   
-## MoveItem Request Example
+## MoveItem request example
 
 ### Description
 
@@ -55,7 +55,7 @@ The [ToFolderId](tofolderid.md) element specifies the folder to which the items 
 > [!NOTE]
 > The item identifier and change key have been shortened to preserve readability. 
   
-### Request Elements
+### Request elements
 
 The following elements are used in the request:
   
@@ -69,7 +69,7 @@ The following elements are used in the request:
     
 - [ItemId](itemid.md)
     
-## MoveItem Response Example
+## MoveItem response example
 
 ### Description
 
@@ -111,7 +111,7 @@ The item identifier of the new item is returned in the response message. Item id
 
 The **MoveItem** operation will indicate success if the move was successful. 
   
-### Successful Response Elements
+### Successful response elements
 
 The following elements are used in the response:
   

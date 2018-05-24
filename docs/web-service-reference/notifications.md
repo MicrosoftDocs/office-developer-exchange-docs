@@ -20,7 +20,7 @@ description: "The Notifications element contains an array of information about t
 
 The **Notifications** element contains an array of information about the subscription and the events that have occurred since the last notification. 
   
-```
+```xml
 <Notifications>
    <Notification/>
 </Notifications>

@@ -20,7 +20,7 @@ description: "The PostalCode element represents the postal code for a contact it
 
 The **PostalCode** element represents the postal code for a contact item. 
   
-```
+```xml
 <PostalCode/>
 ```
 

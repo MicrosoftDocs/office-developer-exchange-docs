@@ -24,7 +24,7 @@ The **UnresolvedEntry** element contains the name of a contact or distribution l
   
 [UnresolvedEntry](unresolvedentry.md)
   
-```
+```xml
 <UnresolvedEntry/>
 ```
 

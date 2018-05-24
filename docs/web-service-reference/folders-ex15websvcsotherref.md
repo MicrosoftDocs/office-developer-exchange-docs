@@ -20,7 +20,7 @@ description: "The Folders element contains an array of folders that are used in 
 
 The **Folders** element contains an array of folders that are used in folder operations. 
   
-```
+```xml
 <Folders>
    <Folder/>
 </Folders>

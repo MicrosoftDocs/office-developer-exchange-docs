@@ -20,7 +20,7 @@ description: "The SyncFolderId element represents the folder that contains the i
 
 The **SyncFolderId** element represents the folder that contains the items to synchronize. 
   
-```
+```xml
 <SyncFolderId>
    <FolderId/>
 </SyncFolderId>

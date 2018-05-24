@@ -20,7 +20,7 @@ description: "The PrimarySmtpAddress element represents the primary Simple Mail 
 
 The **PrimarySmtpAddress** element represents the primary Simple Mail Transfer Protocol (SMTP) address of an account to be used for server-to-server authorization or delegate access. 
   
-```
+```xml
 <PrimarySmtpAddress/>
 ```
 

@@ -24,7 +24,7 @@ The **GroupBy** element specifies an arbitrary grouping for FindItem queries.
   
 [GroupBy](groupby.md)
   
-```
+```xml
 <GroupBy Order="">
    <FieldURI/>
    <AggregateOn/>
@@ -42,7 +42,7 @@ The following sections describe attributes, child elements, and parent elements.
 |:-----|:-----|
 |**Order** <br/> | Determines the order of the groups in the grouped item array that is returned in the response. This attribute is of type SortDirectionType.  <br/> |
    
-#### Order Attribute Values
+#### Order attribute values
 
 |**Value**|**Description**|
 |:-----|:-----|

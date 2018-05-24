@@ -1,7 +1,5 @@
 ---
 title: "DisplayCc"
- 
- 
 manager: sethgros
 ms.date: 9/17/2015
 ms.audience: Developer
@@ -20,7 +18,7 @@ description: "The DisplayCc element represents the display string that is used f
 
 The **DisplayCc** element represents the display string that is used for the contents of the Cc box. This is the concatenated string of all Cc recipient display names. 
   
-```
+```xml
 <DisplayCc/>
 ```
 
@@ -70,8 +68,6 @@ The schema that describes this element is located in the EWS virtual directory o
 |Can be Empty  <br/> |False  <br/> |
    
 ## See also
-
-
 
 - [EWS XML elements in Exchange](ews-xml-elements-in-exchange.md)
 

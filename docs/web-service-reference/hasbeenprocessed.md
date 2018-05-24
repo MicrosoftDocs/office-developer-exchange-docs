@@ -20,7 +20,7 @@ description: "The HasBeenProcessed element indicates whether a meeting message i
 
 The **HasBeenProcessed** element indicates whether a meeting message item has been processed. 
   
-```
+```xml
 <HasBeenProcessed/>
 ```
 

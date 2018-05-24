@@ -20,7 +20,7 @@ description: "The Recurrence element contains recurrence information for recurri
 
 The **Recurrence** element contains recurrence information for recurring tasks. 
   
-```
+```xml
 <Recurrence>
       <RelativeYearlyRecurrence/>
       <NoEndRecurrence/>

@@ -31,7 +31,7 @@ The **GetRoomLists** operation can use the SOAP headers that are listed and desc
 |RequestVersion  <br/> |[RequestServerVersion](requestserverversion.md) <br/> |Identifies the schema version for the operation request.  <br/> |
 |ServerVersion  <br/> |[ServerVersionInfo](serverversioninfo.md) <br/> |Identifies the version of the server that responded to the request.  <br/> |
    
-## GetRoomLists Request Example
+## GetRoomLists request example
 
 ### Description
 
@@ -55,13 +55,13 @@ The following is an example of a **GetRoomLists** request that returns the room 
 
 ```
 
-### Request Elements
+### Request elements
 
 The following element is used in the request:
   
 - [GetRoomLists](getroomlists.md)
     
-## Successful GetRoomLists Response Example
+## Successful GetRoomLists response example
 
 ### Description
 
@@ -92,7 +92,7 @@ The following is an example of a response to a **GetRoomLists** request. This re
 
 ```
 
-### Successful GetRoomLists Response Elements
+### Successful GetRoomLists response elements
 
 The following elements are used in the response:
   
@@ -110,7 +110,7 @@ The following elements are used in the response:
     
 - [MailboxType](mailboxtype.md)
     
-### GetRoomLists Error Response Example
+### GetRoomLists Error response example
 
 #### Description
 
@@ -134,7 +134,7 @@ The following example shows the response to an attempt to get room lists from a 
 
 ```
 
-#### GetRoomLists Error Response Elements
+#### GetRoomLists Error response elements
 
 The following elements are used in the error response:
   

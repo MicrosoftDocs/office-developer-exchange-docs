@@ -23,7 +23,7 @@ The **Status** element defines the value to use in a [SetOofStatus operation (UM
   
 [Status (UM web service - SetOofStatus)](status-um-web-servicesetoofstatus.md)
   
-```
+```xml
 <SetOofStatus>
   <status/>
 </SetOofStatus>

@@ -40,14 +40,14 @@ The following sections describe attributes, child elements, and parent elements.
 |**SearchScope** <br/> |Identifies the order and scope for a ResolveNames search.  <br/> |
 |ContactDataShape  <br/> |Identifies the property set returned for contacts. This attribute was introduced in Exchange Server 2010 Service Pack 2 (SP2).  <br/> |
    
-#### ReturnFullContactData Attribute Values
+#### ReturnFullContactData attribute values
 
 |**Value**|**Description**|
 |:-----|:-----|
 |True  <br/> |Full contact details for public contacts are returned.  <br/> |
 |False  <br/> |Full contact details for public contacts are not returned.  <br/> |
    
-#### SearchScope Attribute Values
+#### SearchScope attribute values
 
 |**Value**|**Description**|
 |:-----|:-----|
@@ -56,7 +56,7 @@ The following sections describe attributes, child elements, and parent elements.
 |Contacts  <br/> |Only the contact folders that are identified by the [ParentFolderIds](parentfolderids.md) property are searched.  <br/> |
 |ContactsActiveDirectory  <br/> |Contact folders that are identified by the [ParentFolderIds](parentfolderids.md) property are searched first and then Active Directory is searched.  <br/> |
    
-#### ContactDataShape Attribute Values
+#### ContactDataShape attribute values
 
 |**Value**|**Description**|
 |:-----|:-----|

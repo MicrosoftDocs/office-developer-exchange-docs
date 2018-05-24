@@ -27,7 +27,7 @@ The **UsePOPAuth** element indicates whether the authentication information that
   
 [UsePOPAuth (POX)](usepopauth-pox.md)
   
-```
+```xml
 <UsePOPAuth>on or off</UsePOPAuth>
 ```
 

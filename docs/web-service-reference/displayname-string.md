@@ -1,7 +1,5 @@
 ---
 title: "DisplayName (string)"
- 
- 
 manager: sethgros
 ms.date: 9/17/2015
 ms.audience: Developer
@@ -78,8 +76,6 @@ folder.DisplayName = "TestFolder";
 |Can be empty  <br/> |False  <br/> |
    
 ## See also
-
-
 
 - [EWS XML elements in Exchange](ews-xml-elements-in-exchange.md)
 

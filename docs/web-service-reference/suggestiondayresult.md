@@ -28,7 +28,7 @@ The **SuggestionDayResult** element represents a single day that contains sugges
   
 [SuggestionDayResult](suggestiondayresult.md)
   
-```
+```xml
 <SuggestionDayResult>
    <Date>...</Date>
    <DayQuality>...</DayQuality>

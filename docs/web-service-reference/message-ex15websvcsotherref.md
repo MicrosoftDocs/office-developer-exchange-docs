@@ -20,7 +20,7 @@ description: "The Message element represents a Microsoft Exchange e-mail message
 
 The **Message** element represents a Microsoft Exchange e-mail message. 
   
-```
+```xml
 <Message>
    <MimeContent/>
    <ItemId/>

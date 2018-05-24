@@ -20,7 +20,7 @@ description: "The SecurityIdentifier element represents the security descriptor 
 
 The **SecurityIdentifier** element represents the security descriptor definition language (SDDL) form of a security identifier ( [SID](sid.md)).
   
-```
+```xml
 <SecurityIdentifier/>
 ```
 

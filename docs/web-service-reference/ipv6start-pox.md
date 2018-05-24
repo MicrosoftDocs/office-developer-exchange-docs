@@ -29,7 +29,7 @@ The **IPv6Start** element identifies the start of a range of IP version 6 (IPv6)
   
 [IPv6Start (POX)](ipv6start-pox.md)
   
-```
+```xml
 <IPv6Start/>
 ```
 

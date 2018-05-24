@@ -26,7 +26,7 @@ The **UpdateFolderResponseMessage** element contains the status and result of up
   
 [UpdateFolderResponseMessage](updatefolderresponsemessage.md)
   
-```
+```xml
 <UpdateFolderResponseMessage ResponseClass="">
    <MessageText/>
    <ResponseCode/>
@@ -47,7 +47,7 @@ The following sections describe attributes, child elements, and parent elements.
 |:-----|:-----|
 |**ResponseClass** <br/> | Describes the status of an [UpdateFolder operation](updatefolder-operation.md) response. The following values are valid for this attribute:  <br/>  Success  <br/>  Warning  <br/>  Error  <br/> |
    
-#### ResponseClass Attribute Values
+#### ResponseClass attribute values
 
 |**Value**|**Description**|
 |:-----|:-----|

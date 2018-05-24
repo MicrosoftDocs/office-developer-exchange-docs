@@ -1,7 +1,5 @@
 ---
 title: "DeleteItem operation"
- 
- 
 manager: sethgros
 ms.date: 9/17/2015
 ms.audience: Developer
@@ -23,7 +21,7 @@ The **DeleteItem** operation deletes items in the Exchange store.
 > [!NOTE]
 > An error response that includes the ErrorCannotDeleteObject error code will be returned for a **DeleteItem** operation when a delegate tries to delete an item in the principal's mailbox by setting the DisposalType to MoveToDeletedItems. To delete an item by moving it to the Deleted Items folder, a delegate must use the [MoveItem operation](moveitem-operation.md). 
   
-## DeleteItem Request Example
+## DeleteItem request example
 
 ### Description
 
@@ -48,7 +46,7 @@ The following example of a **DeleteItem** request shows how to perform a hard de
 </soap:Envelope>
 ```
 
-### Request Elements
+### Request elements
 
 The following elements are used in the request:
   
@@ -60,7 +58,7 @@ The following elements are used in the request:
     
 To find other options for the request message of the **DeleteItem** operation, explore the schema hierarchy. Start at the [DeleteItem](deleteitem.md) element. 
   
-## Successful DeleteItem Response
+## Successful DeleteItem response
 
 ### Description
 
@@ -91,7 +89,7 @@ The following example shows a successful response to the **DeleteItem** request.
 </soap:Envelope>
 ```
 
-### Successful Response Elements
+### Successful response elements
 
 The following elements are used in the response:
   
@@ -107,7 +105,7 @@ The following elements are used in the response:
     
 To find other options for the response message of the **DeleteItem** operation, explore the schema hierarchy. Start at the [DeleteItemResponse](deleteitemresponse.md) element. 
   
-## DeleteItem Error Response
+## DeleteItem error response
 
 ### Description
 
@@ -140,7 +138,7 @@ The following example shows an error response to a **DeleteItem** request. The e
 </soap:Envelope>
 ```
 
-### Error Response Elements
+### Error response elements
 
 The following elements are used in the error response:
   
@@ -162,14 +160,8 @@ To find other options for the error response message of the **DeleteItem** opera
   
 ## See also
 
-
-
 - [EWS XML elements in Exchange](ews-xml-elements-in-exchange.md)
-
-
-[Deleting Contacts](http://msdn.microsoft.com/library/fcc3dc84-cd3e-455e-a1a7-ae6921c9b588%28Office.15%29.aspx)
-  
-[Deleting E-mail Messages](http://msdn.microsoft.com/library/c40f2f0b-dae0-412f-b716-727e8c0949b4%28Office.15%29.aspx)
-  
-[Deleting Tasks](http://msdn.microsoft.com/library/a3d7e25f-8a35-4901-b1d9-d31f418ab340%28Office.15%29.aspx)
+- [Deleting Contacts](http://msdn.microsoft.com/library/fcc3dc84-cd3e-455e-a1a7-ae6921c9b588%28Office.15%29.aspx)  
+- [Deleting E-mail Messages](http://msdn.microsoft.com/library/c40f2f0b-dae0-412f-b716-727e8c0949b4%28Office.15%29.aspx) 
+- [Deleting Tasks](http://msdn.microsoft.com/library/a3d7e25f-8a35-4901-b1d9-d31f418ab340%28Office.15%29.aspx)
 

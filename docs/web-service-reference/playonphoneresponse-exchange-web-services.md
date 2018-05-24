@@ -20,7 +20,7 @@ description: "The PlayOnPhoneResponse element specifies the response to a reques
 
 The **PlayOnPhoneResponse** element specifies the response to a request to play a voice mail over the telephone. 
   
-```
+```xml
 <PlayOnPhoneResponse ResponseClass="">
    <MessageText/>
    <ResponseCode/>
@@ -41,7 +41,7 @@ The following sections describe attributes, child elements, and parent elements.
 |:-----|:-----|
 |**ResponseClass** <br/> | Describes the status of the response. The following values are valid for this attribute:  <br/>  Success  <br/>  Warning  <br/>  Error  <br/> |
    
-#### ResponseClass Attribute Values
+#### ResponseClass attribute values
 
 |**Value**|**Description**|
 |:-----|:-----|

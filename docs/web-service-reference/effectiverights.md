@@ -1,7 +1,5 @@
 ---
 title: "EffectiveRights"
- 
- 
 manager: sethgros
 ms.date: 9/17/2015
 ms.audience: Developer
@@ -80,7 +78,7 @@ None.
   
 ## Remarks
 
- **EffectiveRights** is supported in the GetFolder, GetItem, FindFolder, FindItem, SyncFolderHierarchy, and SyncFolderItems responses. The **EffectiveRights** property is exposed in the **AllProperties** shape for folders and items. 
+**EffectiveRights** is supported in the GetFolder, GetItem, FindFolder, FindItem, SyncFolderHierarchy, and SyncFolderItems responses. The **EffectiveRights** property is exposed in the **AllProperties** shape for folders and items. 
   
 This **EffectiveRights** property provides access to the same information that is provided in the **PR_ACCESS MAPI** property. 
   
@@ -97,10 +95,6 @@ The schema that describes this element is located in the IIS virtual directory t
    
 ## See also
 
-
-
 - [EWS XML elements in Exchange](ews-xml-elements-in-exchange.md)
-
-
-[Setting Folder-Level Permissions](http://msdn.microsoft.com/library/c7530e86-5112-401c-b10a-9c054ae59f07%28Office.15%29.aspx)
+- [Setting Folder-Level Permissions](http://msdn.microsoft.com/library/c7530e86-5112-401c-b10a-9c054ae59f07%28Office.15%29.aspx)
 

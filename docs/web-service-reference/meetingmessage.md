@@ -20,7 +20,7 @@ description: "The MeetingMessage element represents a meeting in the Exchange st
 
 The **MeetingMessage** element represents a meeting in the Exchange store. 
   
-```
+```xml
 <MeetingMessage>
    <MimeContent/>
    <ItemId/>

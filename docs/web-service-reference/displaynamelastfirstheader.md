@@ -1,7 +1,5 @@
 ---
 title: "DisplayNameLastFirstHeader"
- 
- 
 manager: sethgros
 ms.date: 9/17/2015
 ms.audience: Developer
@@ -16,7 +14,7 @@ description: "The DisplayNameLastFirstHeader element specifies the header for th
 
 The **DisplayNameLastFirstHeader** element specifies the header for the display name, last name first. 
   
-```
+```xml
 <DisplayNameLastFirstHeader></DisplayNameLastFirstHeader>
 ```
 
@@ -59,8 +57,6 @@ The schema that describes this element is located in the IIS virtual directory t
 |Can Be Empty  <br/> ||
    
 ## See also
-
-
 
 - [EWS XML elements in Exchange](ews-xml-elements-in-exchange.md)
 

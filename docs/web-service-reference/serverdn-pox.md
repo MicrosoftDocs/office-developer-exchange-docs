@@ -27,7 +27,7 @@ The **ServerDN** element specifies the distinguished name of the computer that i
   
 [ServerDN (POX)](serverdn-pox.md)
   
-```
+```xml
 <ServerDN/>
 ```
 

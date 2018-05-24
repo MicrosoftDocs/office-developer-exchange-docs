@@ -19,7 +19,7 @@ description: "The IsUMEnabled operation determines whether a mailbox is enabled 
 
 The IsUMEnabled operation determines whether a mailbox is enabled for Unified Messaging.
   
-## IsUMEnabled Request Example
+## IsUMEnabled request example
 
 ### Description
 
@@ -36,7 +36,7 @@ The following example of an IsUMEnabled request shows how to form a request to d
 </soap:Envelope>
 ```
 
-## Successful IsUMEnabled Response Example
+## Successful IsUMEnabled response example
 
 ### Description
 

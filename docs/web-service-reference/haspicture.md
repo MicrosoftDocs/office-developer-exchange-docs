@@ -24,7 +24,7 @@ The **HasPicture** element indicates whether the contact item has a file attachm
   
 [HasPicture](haspicture.md)
   
-```
+```xml
 <HasPicture>true or false</HasPicture>
 ```
 

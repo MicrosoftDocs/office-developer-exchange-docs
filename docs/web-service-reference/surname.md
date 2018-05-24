@@ -20,7 +20,7 @@ description: "The Surname element represents the surname of a contact."
 
 The **Surname** element represents the surname of a contact. 
   
-```
+```xml
 <Surname/>
 ```
 

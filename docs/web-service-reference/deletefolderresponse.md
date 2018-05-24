@@ -1,7 +1,5 @@
 ---
 title: "DeleteFolderResponse"
- 
- 
 manager: sethgros
 ms.date: 9/17/2015
 ms.audience: Developer
@@ -20,7 +18,7 @@ description: "The DeleteFolderResponse element defines a response to a DeleteFol
 
 The **DeleteFolderResponse** element defines a response to a DeleteFolder request. 
   
-```
+```xml
 <DeleteFolderResponse>
    <ResponseMessages/>
 </DeleteFolderResponse>
@@ -60,12 +58,7 @@ The schema that describes this element is located in the EWS virtual directory o
    
 ## See also
 
-
-
-[DeleteFolder operation](deletefolder-operation.md)
-  
-[DeleteFolder](deletefolder.md)
-
-
+- [DeleteFolder operation](deletefolder-operation.md) 
+- [DeleteFolder](deletefolder.md)
 - [EWS XML elements in Exchange](ews-xml-elements-in-exchange.md)
 

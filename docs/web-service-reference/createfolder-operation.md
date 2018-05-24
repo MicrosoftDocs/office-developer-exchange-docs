@@ -20,7 +20,7 @@ description: "The CreateFolder operation creates folders, calendar folders, cont
 
 The CreateFolder operation creates folders, calendar folders, contacts folders, tasks folders, and search folders.
   
-## CreateFolder Request Example
+## CreateFolder request example
 
 ### Description
 
@@ -50,7 +50,7 @@ The following example of a CreateFolder request shows how to form a request to c
 </soap:Envelope>
 ```
 
-### Request Elements
+### Request elements
 
 The following elements are used in the request:
   
@@ -76,7 +76,7 @@ To find other options for the request message of the CreateFolder operation, exp
   
 The CreateFolder operation supports the creation of a custom folder class only when you create the folder by using a generic folder type element and set the **FolderClass** element. 
   
-## Successful CreateFolder Response Example
+## Successful CreateFolder response example
 
 ### Description
 
@@ -123,7 +123,7 @@ The following example shows a successful response to the CreateFolder request. I
 </soap:Envelope>
 ```
 
-### Successful Response Elements
+### Successful response elements
 
 The following elements are used in the response:
   
@@ -145,7 +145,7 @@ The following elements are used in the response:
     
 To find other options for the response message of the CreateFolder operation, explore the schema hierarchy. Start at the [CreateFolderResponse](createfolderresponse.md) element. 
   
-## CreateFolder Error Response
+## CreateFolder error response
 
 ### Description
 
@@ -179,7 +179,7 @@ The following example shows an error response to a CreateFolder request.
 </soap:Envelope>
 ```
 
-### Error Response Elements
+### Error response elements
 
 The following elements are used in the error response:
   

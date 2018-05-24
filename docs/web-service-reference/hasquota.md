@@ -20,7 +20,7 @@ description: "The HasQuota element indicates whether the managed folder has a qu
 
 The **HasQuota** element indicates whether the managed folder has a quota. 
   
-```
+```xml
 <HasQuota/>
 ```
 

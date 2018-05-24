@@ -20,7 +20,7 @@ description: "The Entry element represents a telephone number for a contact."
 
 The **Entry** element represents a telephone number for a contact. 
   
-```
+```xml
 <Entry Key=""/>
 ```
 

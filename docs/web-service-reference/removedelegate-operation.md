@@ -31,7 +31,7 @@ The **RemoveDelegate** operation can use the SOAP headers that are listed and de
 |RequestVersion  <br/> |[RequestServerVersion](requestserverversion.md) <br/> |Identifies the schema version for the operation request.  <br/> |
 |ServerVersion  <br/> |[ServerVersionInfo](serverversioninfo.md) <br/> |Identifies the version of the server that responded to the request.  <br/> |
    
-## RemoveDelegate Request Example
+## RemoveDelegate request example
 
 ### Description
 
@@ -69,7 +69,7 @@ The following code example shows how to remove two delegates from user1's mailbo
 
 The **RemoveDelegate** operation does not require the specified delegate user to have a mailbox or to exist in the Active Directory directory service. The **RemoveDelegate** operation will succeed if the delegate entry is orphaned. 
   
-## RemoveDelegate Response Example
+## RemoveDelegate response example
 
 ### Description
 
@@ -108,7 +108,7 @@ The following example of a **RemoveDelegate** response shows a successful respon
 </soap:Envelope>
 ```
 
-## RemoveDelegate Error Response Example
+## RemoveDelegate Error response example
 
 ### Description
 

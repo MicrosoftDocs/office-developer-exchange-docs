@@ -20,7 +20,7 @@ description: "The SearchFolder element represents a search folder that is contai
 
 The **SearchFolder** element represents a search folder that is contained in a mailbox. 
   
-```
+```xml
 <SearchFolder>
    <FolderId/>
    <ParentFolderId/>

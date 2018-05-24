@@ -20,7 +20,7 @@ description: "The FindMessageTrackingReport element specifies criteria for the t
 
 The **FindMessageTrackingReport** element specifies criteria for the types of messages to find. 
   
-```
+```xml
 <FindMessageTrackingReport>
    <Scope/>
    <Domain/>

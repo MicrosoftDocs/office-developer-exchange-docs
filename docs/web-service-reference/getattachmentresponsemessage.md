@@ -26,7 +26,7 @@ The **GetAttachmentResponseMessage** element contains the status and result of a
   
 [GetAttachmentResponseMessage](getattachmentresponsemessage.md)
   
-```
+```xml
 <GetAttachmentResponseMessage ResponseClass="">
    <MessageText/>
    <ResponseCode/>

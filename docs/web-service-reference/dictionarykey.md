@@ -1,7 +1,5 @@
 ---
 title: "DictionaryKey"
- 
- 
 manager: sethgros
 ms.date: 9/17/2015
 ms.audience: Developer
@@ -20,7 +18,7 @@ description: "The DictionaryKey element specifies the dictionary key for a dicti
 
 The **DictionaryKey** element specifies the dictionary key for a dictionary property. 
   
-```
+```xml
 <DictionaryKey>
    <Type/>
    <Value/>
@@ -67,8 +65,6 @@ The schema that describes this element is located in the IIS virtual directory t
 |Can be Empty  <br/> |False  <br/> |
    
 ## See also
-
-
 
 - [EWS XML elements in Exchange](ews-xml-elements-in-exchange.md)
 

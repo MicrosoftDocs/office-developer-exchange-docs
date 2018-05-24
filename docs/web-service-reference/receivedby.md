@@ -20,7 +20,7 @@ description: "The ReceivedBy element identifies the delegate in a delegate acces
 
 The **ReceivedBy** element identifies the delegate in a delegate access scenario. 
   
-```
+```xml
 <ReceivedBy>
    <Mailbox/>
 </ReceivedBy>

@@ -20,7 +20,7 @@ description: "The IsDraft element indicates whether an item has not yet been sen
 
 The **IsDraft** element indicates whether an item has not yet been sent. 
   
-```
+```xml
 <IsDraft/>
 ```
 

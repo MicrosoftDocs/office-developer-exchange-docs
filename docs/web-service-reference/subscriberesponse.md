@@ -22,7 +22,7 @@ The **SubscribeResponse** element defines a response to a Subscribe request.
   
 [SubscribeResponse](subscriberesponse.md)
   
-```
+```xml
 <SubscribeResponse>
    <ResponseMessages/>
 </SubscribeResponse>

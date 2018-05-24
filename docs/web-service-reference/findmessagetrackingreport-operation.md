@@ -1,7 +1,5 @@
 ---
 title: "FindMessageTrackingReport operation"
- 
- 
 manager: sethgros
 ms.date: 9/17/2015
 ms.audience: Developer
@@ -22,9 +20,7 @@ The **FindMessageTrackingReport** operation finds messages that meet the specifi
   
 ## See also
 
-
-
-[EWS operations in Exchange](ews-operations-in-exchange.md)
+- [EWS operations in Exchange](ews-operations-in-exchange.md)
   
 - [EWS XML elements in Exchange](ews-xml-elements-in-exchange.md)
 

@@ -36,7 +36,7 @@ The **IsException** element indicates whether an instance of a recurring calenda
   
 [IsException](isexception.md)
   
-```
+```xml
 <IsException/>
 ```
 

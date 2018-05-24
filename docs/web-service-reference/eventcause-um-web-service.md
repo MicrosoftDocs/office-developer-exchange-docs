@@ -23,7 +23,7 @@ The **EventCause** element contains a value that indicates the cause for a call 
   
 [EventCause (UM web service)](eventcause-um-web-service.md)
   
-```
+```xml
 <GetCallInfoResponse>
   <EventCause/>
 </GetCallInfoResponse>

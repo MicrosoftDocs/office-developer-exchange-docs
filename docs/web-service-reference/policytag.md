@@ -16,7 +16,7 @@ description: "The PolicyTag element specifies the retention identifier on an ite
 
 The **PolicyTag** element specifies the retention identifier on an item or folder. 
   
-```
+```xml
 <PolicyTag IsExplicit="true | false"></PolicyTag>
 ```
 

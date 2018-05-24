@@ -16,7 +16,7 @@ description: "The ExtendedProperty element specifies an extended property for th
 
 The **ExtendedProperty** element specifies an extended property for the Unified Contact Store. 
   
-```
+```xml
 <ExtendedProperty DistinguishedPropertySetId="" PropertySetId="" PropertyTag="" PropertyName="" PropertyId="" PropertyType="" FieldURI="">
 </ExtendedProperty>
 ```

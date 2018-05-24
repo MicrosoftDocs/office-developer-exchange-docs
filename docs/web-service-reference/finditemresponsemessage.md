@@ -26,7 +26,7 @@ The **FindItemResponseMessage** element contains the status and result of a sing
   
 [FindItemResponseMessage](finditemresponsemessage.md)
   
-```
+```xml
 <FindItemResponseMessage ResponseClass="">
    <MessageText/>
    <ResponseCode/>
@@ -47,7 +47,7 @@ The following sections describe attributes, child elements, and parent elements.
 |:-----|:-----|
 |**ResponseClass** <br/> | Describes the status of a [FindItem operation](finditem-operation.md) response. The following values are valid for this attribute:  <br/>  Success  <br/>  Warning  <br/>  Error  <br/> |
    
-#### ResponseClass Attribute Values
+#### ResponseClass attribute values
 
 |**Value**|**Description**|
 |:-----|:-----|

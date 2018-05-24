@@ -20,7 +20,7 @@ description: "The Month element describes the month when a yearly recurring item
 
 The **Month** element describes the month when a yearly recurring item occurs. 
   
-```
+```xml
 <Month/>
 ```
 

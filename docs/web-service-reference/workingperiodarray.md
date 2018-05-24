@@ -32,7 +32,7 @@ The **WorkingPeriodArray** element contains working period information for the m
   
 [WorkingPeriodArray](workingperiodarray.md)
   
-```
+```xml
 <WorkingPeriodArray>
    <WorkingPeriod>...</WorkingPeriod>
 </WorkingPeriodArray>

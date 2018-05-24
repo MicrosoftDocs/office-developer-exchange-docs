@@ -19,7 +19,7 @@ description: "The GetCallInfo operation returns the status of the outbound call 
 
 The GetCallInfo operation returns the status of the outbound call that is specified by [CallId (UM web service)](callid-um-web-service.md).
   
-## GetCallInfo Request Example
+## GetCallInfo request example
 
 ### Description
 
@@ -38,7 +38,7 @@ The following example of a GetCallInfo request shows how to form a request to ge
 </soap:Envelope>
 ```
 
-## Successful GetCallInfo Response Example
+## Successful GetCallInfo response example
 
 ### Description
 

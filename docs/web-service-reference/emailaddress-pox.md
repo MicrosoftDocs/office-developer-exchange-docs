@@ -9,21 +9,17 @@ api_type:
 - schema
 ms.assetid: 0e9836a8-ccc9-4cc0-aa6a-9b299c5841d0
 description: "The EMailAddress element identifies the user's e-mail address."
- 
- 
 ---
 
 # EMailAddress (POX)
 
 The **EMailAddress** element identifies the user's e-mail address. 
   
-[AutoDiscover (POX)](autodiscover-pox.md)
+- [AutoDiscover (POX)](autodiscover-pox.md) 
+- [Request (POX)](request-pox.md) 
+- [EMailAddress (POX)](emailaddress-pox.md)
   
-[Request (POX)](request-pox.md)
-  
-[EMailAddress (POX)](emailaddress-pox.md)
-  
-```
+```xml
 <EMailAddress/>
 ```
 
@@ -55,7 +51,5 @@ The [LegacyDN (POX)](legacydn-pox.md) element provides an alternative element fo
   
 ## See also
 
-
-
-[POX Autodiscover XML elements for Exchange](pox-autodiscover-xml-elements-for-exchange.md)
+- [POX Autodiscover XML elements for Exchange](pox-autodiscover-xml-elements-for-exchange.md)
 

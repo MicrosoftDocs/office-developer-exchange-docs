@@ -20,7 +20,7 @@ description: "The UnsubscribeResponse element defines a response to an Unsubscri
 
 The **UnsubscribeResponse** element defines a response to an Unsubscribe request. 
   
-```
+```xml
 <UnsubscribeResponse>
    <ResponseMessages/>
 </UnsubscribeResponse>

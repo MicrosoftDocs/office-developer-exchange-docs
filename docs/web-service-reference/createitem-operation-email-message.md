@@ -20,7 +20,7 @@ description: "The CreateItem operation is used to create e-mail messages."
 
 The CreateItem operation is used to create e-mail messages.
   
-## CreateItem Request Example
+## CreateItem request example
 
 ### Description
 
@@ -55,7 +55,7 @@ The following example of a CreateItem request shows how to create a new e-mail m
 </soap:Envelope>
 ```
 
-### Request Elements
+### Request elements
 
 The following elements are used in the request: 
   
@@ -114,7 +114,7 @@ The following example shows a successful response to the CreateItem request.
 </soap:Envelope>
 ```
 
-### Successful Response Elements
+### Successful response elements
 
 The following elements are included in the response: 
   
@@ -163,7 +163,7 @@ The following example shows an error response to a CreateItem request.
 </soap:Envelope>
 ```
 
-### Error Response Elements
+### Error response elements
 
 The following elements are used in the error response: 
   

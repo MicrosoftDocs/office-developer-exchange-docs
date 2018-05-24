@@ -26,7 +26,7 @@ The **FindFolderResponseMessage** element contains the status and result of a si
   
 [FindFolderResponseMessage](findfolderresponsemessage.md)
   
-```
+```xml
 <FindFolderResponseMessage ResponseClass="">
    <MessageText/>
    <ResponseCode/>

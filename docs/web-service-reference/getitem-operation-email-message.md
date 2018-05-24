@@ -28,7 +28,7 @@ The GetItem request must have the following information:
     
 - The [ItemShape](itemshape.md) element to identify the item properties to return. 
     
-## GetItem Request Example
+## GetItem request example
 
 ### Description
 
@@ -59,7 +59,7 @@ The following example of a GetItem request shows how to access information about
 </soap:Envelope>
 ```
 
-### Request Elements
+### Request elements
 
 The following elements are used in the request:
   
@@ -75,7 +75,7 @@ The following elements are used in the request:
     
 - [ItemId](itemid.md)
     
-## Successful GetItem (E-mail Message) Response Example
+## Successful GetItem (E-mail Message) response example
 
 ### Description
 
@@ -158,7 +158,7 @@ The following example shows a successful response to the GetItem request.
 
 The MIME content, folder, and item identifiers have been shortened to preserve readability.
   
-### Successful Response Elements
+### Successful response elements
 
 The following elements are used in the response:
   
@@ -220,7 +220,7 @@ The following elements are used in the response:
     
 - [IsRead](isread.md)
     
-## GetItem (E-mail Message) Error Response Example
+## GetItem (E-mail Message) Error response example
 
 ### Description
 
@@ -257,7 +257,7 @@ The following example shows an error response to a GetItem request. The error wa
 </soap:Envelope>
 ```
 
-### Error Response Elements
+### Error response elements
 
 The following elements are used in the error response:
   

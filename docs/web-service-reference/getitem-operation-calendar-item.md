@@ -20,7 +20,7 @@ description: "The GetItem operation gets calendar items from the Exchange store.
 
 The GetItem operation gets calendar items from the Exchange store.
   
-## GetItem Request Example
+## GetItem request example
 
 ### Description
 
@@ -48,7 +48,7 @@ The following example of a GetItem request shows how to form a request to get th
 </soap:Envelope>
 ```
 
-### Request Elements
+### Request elements
 
 The following elements are used in the request:
   
@@ -264,7 +264,7 @@ The following example shows a successful response to the GetItem request. The re
 
 To find other options for the response message of the GetItem operation, explore the schema hierarchy. Start at the [GetItemResponse](getitemresponse.md) element. 
   
-### Successful Response Elements
+### Successful response elements
 
 The following elements are used in the response:
   

@@ -1,7 +1,5 @@
 ---
 title: "DisconnectPhoneCall"
- 
- 
 manager: sethgros
 ms.date: 9/17/2015
 ms.audience: Developer
@@ -20,7 +18,7 @@ description: "The DisconnectPhoneCall element represents a request to disconnect
 
 The **DisconnectPhoneCall** element represents a request to disconnect a call. 
   
-```
+```xml
 <DisconnectPhoneCall>
    <PhoneCallId/>
 </DisconnectPhoneCall>
@@ -63,8 +61,6 @@ The schema that describes this element is located in the IIS virtual directory t
 |Can be Empty  <br/> |False  <br/> |
    
 ## See also
-
-
 
 - [EWS XML elements in Exchange](ews-xml-elements-in-exchange.md)
 

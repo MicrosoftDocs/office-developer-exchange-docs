@@ -26,7 +26,7 @@ The **MaximumNonWorkHourResultsByDay** element specifies the number of suggested
   
 [MaximumNonWorkHourResultsByDay](maximumnonworkhourresultsbyday.md)
   
-```
+```xml
 <MaximumNonWorkHourResultsByDay>...</MaximumNonWorkHourResultsByDay>
 ```
 

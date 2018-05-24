@@ -23,7 +23,7 @@ The **PlayOnPhoneDialString** element contains a value for the default dial stri
   
 [PlayOnPhoneDialString (UM web service)](playonphonedialstring-um-web-service.md)
   
-```
+```xml
 <PlayOnPhoneDialString/>
 ```
 

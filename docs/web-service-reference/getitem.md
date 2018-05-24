@@ -20,7 +20,7 @@ description: "The GetItem element defines a request to get an item from a mailbo
 
 The **GetItem** element defines a request to get an item from a mailbox in the Exchange store. 
   
-```
+```xml
 <GetItem>
    <ItemShape/>
    <ItemIds/>

@@ -20,7 +20,7 @@ description: "The GetFolder operation gets folders from the Exchange store."
 
 The **GetFolder** operation gets folders from the Exchange store. 
   
-## GetFolder Request Example
+## GetFolder request example
 
 ### Description
 
@@ -46,7 +46,7 @@ The following example of a **GetFolder** request shows how to obtain a folder id
 </soap:Envelope>
 ```
 
-### Request Elements
+### Request elements
 
 This **GetFolder** request includes the following elements: 
   
@@ -65,7 +65,7 @@ See the schema for additional elements that you can use to form a **GetFolder** 
 > [!NOTE]
 > The schema that describes this element is located in the IIS virtual directory that hosts Exchange Web Services. 
   
-## GetFolder Response Example
+## GetFolder response example
 
 ### Description
 
@@ -107,7 +107,7 @@ The following Simple Object Access Protocol (SOAP) body example shows a successf
 </soap:Envelope>
 ```
 
-### Response Elements
+### Response elements
 
 This **GetFolder** response includes the following elements: 
   
@@ -131,7 +131,7 @@ This **GetFolder** response includes the following elements:
     
 - [UnreadCount](unreadcount.md)
     
-## GetFolder Error Response Example
+## GetFolder Error response example
 
 ### Description
 
@@ -165,7 +165,7 @@ The following SOAP body example shows an error response that is caused by an inc
 </soap:Envelope>
 ```
 
-### Response Elements
+### Response elements
 
 This **GetFolder** error response includes the following elements: 
   

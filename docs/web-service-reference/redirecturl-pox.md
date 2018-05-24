@@ -25,7 +25,7 @@ The **RedirectUrl** element contains the URL of the computer that is running Mic
   
 [RedirectUrl (POX)](redirecturl-pox.md)
   
-```
+```xml
 <RedirectUrl/>
 ```
 

@@ -23,7 +23,7 @@ The **User** element provides user-specific information.
   
 [User (POX)](user-pox.md)
   
-```
+```xml
 <User>
    <DisplayName/>
    <LegacyDN/>

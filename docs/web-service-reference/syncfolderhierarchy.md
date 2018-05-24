@@ -20,7 +20,7 @@ description: "The SyncFolderHierarchy element defines a request to synchronize a
 
 The **SyncFolderHierarchy** element defines a request to synchronize a folder hierarchy on a client. 
   
-```
+```xml
 <SyncFolderHierarchy>
    <FolderShape/>   <SyncFolderId/>
    <SyncState/>

@@ -20,7 +20,7 @@ description: "The FilterHtmlContent element specifies whether potentially unsafe
 
 The **FilterHtmlContent** element specifies whether potentially unsafe HTML content is filtered from an item or attachment. 
   
-```
+```xml
 <FilterHtmlContent>true or false</FilterHtmlContent>
 ```
 

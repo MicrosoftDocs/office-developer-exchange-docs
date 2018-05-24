@@ -26,7 +26,7 @@ The **FreeBusyResponse** element contains the free/busy information for a single
   
 [FreeBusyResponse](freebusyresponse.md)
   
-```
+```xml
 <FreeBusyResponse>
    <ResponseMessage>...</ResponseMessage>
    <FreeBusyView>...</FreeBusyView>

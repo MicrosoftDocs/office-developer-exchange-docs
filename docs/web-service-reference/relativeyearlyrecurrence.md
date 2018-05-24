@@ -20,7 +20,7 @@ description: "The RelativeYearlyRecurrence element describes a relative yearly r
 
 The **RelativeYearlyRecurrence** element describes a relative yearly recurrence pattern. 
   
-```
+```xml
 <RelativeYearlyRecurrence>
    <DaysOfWeek/>
    <DayOfWeekIndex/>

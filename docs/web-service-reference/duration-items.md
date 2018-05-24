@@ -1,7 +1,5 @@
 ---
 title: "Duration (Items)"
- 
- 
 manager: sethgros
 ms.date: 9/17/2015
 ms.audience: Developer
@@ -20,7 +18,7 @@ description: "The Duration element represents the duration of a calendar item."
 
 The **Duration** element represents the duration of a calendar item. 
   
-```
+```xml
 <Duration/>
 ```
 
@@ -62,8 +60,6 @@ The schema that describes this element is located in the EWS virtual directory o
 |Can be empty  <br/> |False  <br/> |
    
 ## See also
-
-
 
 - [EWS XML elements in Exchange](ews-xml-elements-in-exchange.md)
 

@@ -20,7 +20,6 @@ The **IsTranscriptionEnabledInMailboxConfig** element is intended for internal u
 <IsTranscriptionEnabledInMailboxConfig />
 ```
 
- ****
 ## Attributes and elements
 
 The following sections describe attributes, child elements, and parent elements.

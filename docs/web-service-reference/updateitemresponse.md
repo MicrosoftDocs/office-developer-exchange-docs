@@ -20,7 +20,7 @@ description: "The UpdateItemResponse element defines a response to an UpdateItem
 
 The **UpdateItemResponse** element defines a response to an UpdateItem request. 
   
-```
+```xml
 <UpdateItemResponse>
    <ResponseMessages/>
 </UpdateItemResponse>

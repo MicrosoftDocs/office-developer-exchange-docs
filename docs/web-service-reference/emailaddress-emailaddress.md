@@ -1,7 +1,5 @@
 ---
 title: "EmailAddress (EmailAddress)"
- 
- 
 manager: sethgros
 ms.date: 9/17/2015
 ms.audience: Developer
@@ -20,7 +18,6 @@ The **EmailAddress** element is intended for internal use only.
 <EmailAddress />
 ```
 
- ****
 ## Attributes and elements
 
 The following sections describe attributes, child elements, and parent elements.

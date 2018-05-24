@@ -1,7 +1,5 @@
 ---
 title: "DictionaryEntry"
- 
- 
 manager: sethgros
 ms.date: 9/17/2015
 ms.audience: Developer
@@ -20,7 +18,7 @@ description: "The DictionaryEntry element specifies the contents of a single dic
 
 The **DictionaryEntry** element specifies the contents of a single dictionary entry property. 
   
-```
+```xml
 <DictionaryEntry>
    <DictionaryKey/>
    <DictionaryValue/>
@@ -67,8 +65,6 @@ The schema that describes this element is located in the IIS virtual directory t
 |Can be Empty  <br/> |False  <br/> |
    
 ## See also
-
-
 
 - [EWS XML elements in Exchange](ews-xml-elements-in-exchange.md)
 

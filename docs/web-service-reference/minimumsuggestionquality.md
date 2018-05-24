@@ -26,7 +26,7 @@ The **MinimumSuggestionQuality** element defines the quality of meeting suggesti
   
 [MinimumSuggestionQuality](minimumsuggestionquality.md)
   
-```
+```xml
 <MinimumSuggestionQuality>...</MinimumSuggestionQuality>
 ```
 

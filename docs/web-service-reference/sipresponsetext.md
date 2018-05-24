@@ -20,7 +20,7 @@ description: "The SIPResponseText element specifies the SIP response text."
 
 The **SIPResponseText** element specifies the SIP response text. 
   
-```
+```xml
 <SIPResponseText/>
 ```
 

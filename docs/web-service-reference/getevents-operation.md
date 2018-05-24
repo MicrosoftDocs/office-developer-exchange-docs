@@ -27,7 +27,7 @@ The **GetEvents** operation is used by pull subscription clients to request noti
 
 Changes to Calendar items may result in the generation of multiple events. These events are the result of temporary items being created in the mailbox, free/busy data storage items being changed as part of the normal Calendar operations, or both. Events for item class "IPM.SchedulePlus.FreeBusy.BinaryData" should be ignored by Web service clients. These temporary items are deleted after they are created; therefore, if an attempt is made to retrieve these items, an error will be returned that states that the item was not found.
   
-## GetEvents Request Example
+## GetEvents request example
 
 ### Description
 
@@ -58,7 +58,7 @@ The following elements are used in the request:
     
 - [Watermark](watermark.md)
     
-## Successful GetEvents Response Example
+## Successful GetEvents response example
 
 ### Description
 
@@ -111,7 +111,7 @@ The following example of a response shows a notification of the existence of two
 > [!NOTE]
 > The item and folder identifiers have been shortened to preserve readability. 
   
-### GetEvents Response Elements
+### GetEvents response elements
 
 The following elements are used in the response:
   
@@ -145,7 +145,7 @@ The following elements are used in the response:
     
 To find other options for the response message of the **GetEvents** operation, explore the schema hierarchy. Start at the [Notification](notification-ex15websvcsotherref.md) element. 
   
-## GetEvents Error Response Example
+## GetEvents Error response example
 
 ### Description
 

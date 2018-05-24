@@ -24,7 +24,7 @@ The GetItem operation is used to get tasks from the Exchange store.
 
 The format of the GetItem request for tasks is the same as GetItem for any other item type. The only difference is in which additional properties can be requested within the response shape. Such additional properties must either be task-related properties or extended properties.
   
-## Task GetItem Request Example
+## Task GetItem request example
 
 ### Description
 
@@ -57,7 +57,7 @@ xmlns:t="http://schemas.microsoft.com/exchange/services/2006/types">
 > [!NOTE]
 > The item identifier and change key have been shortened to preserve readability. 
   
-### Request Elements
+### Request elements
 
 The following elements are used in the request:
   
@@ -71,7 +71,7 @@ The following elements are used in the request:
     
 - [ItemId](itemid.md)
     
-## Task GetItem Response Example
+## Task GetItem response example
 
 ### Description
 
@@ -135,7 +135,7 @@ The following example shows a successful response to a GetItem request.
 > [!NOTE]
 > The item and folder identifiers and change keys have been shortened to preserve readability. 
   
-### Successful Response Elements
+### Successful response elements
 
 The following elements are used in the response:
   

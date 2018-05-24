@@ -27,7 +27,7 @@ The **OOFUrl** element specifies the URL of the best instance of the Availabilit
   
 [OOFUrl (POX)](oofurl-pox.md)
   
-```
+```xml
 <OOFUrl/>
 ```
 

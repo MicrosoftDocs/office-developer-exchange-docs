@@ -20,7 +20,7 @@ description: "The OofState element is used to get or set the user's Out of Offic
 
 The **OofState** element is used to get or set the user's Out of Office (OOF) state. 
   
-```
+```xml
 <OofState>Disabled or Enabled or Scheduled</OofState>
 ```
 

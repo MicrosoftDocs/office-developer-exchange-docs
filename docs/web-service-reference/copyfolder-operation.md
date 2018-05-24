@@ -1,7 +1,5 @@
 ---
 title: "CopyFolder operation"
- 
- 
 manager: sethgros
 ms.date: 9/17/2015
 ms.audience: Developer
@@ -20,11 +18,11 @@ description: "The CopyFolder operation copies folders in a mailbox."
 
 The CopyFolder operation copies folders in a mailbox.
   
-## Using the CopyFolder Operation
+## Using the CopyFolder operation
 
 The CopyFolder operation is similar to the [MoveFolder operation](movefolder-operation.md). It copies identified folders and returns the **Id** and **ChangeKey** of the copied folders. 
   
-## CopyFolder Request Example
+## CopyFolder request example
 
 ### Description
 
@@ -57,7 +55,7 @@ The following example of a CopyFolder request shows how to copy folders into the
 
 Folders can be identified by either the [DistinguishedFolderId](distinguishedfolderid.md) element or the [FolderId](folderid.md) element for use in either the [ToFolderId](tofolderid.md) or the [FolderIds](folderids.md) elements. 
   
-### Request Elements
+### Request elements
 
 The following elements are used in the request:
   
@@ -76,7 +74,7 @@ The following elements are used in the request:
   
 To find other options for the request message of the CopyFolder operation, explore the schema hierarchy. Start at the [CopyFolder](copyfolder.md) element. 
   
-## Successful CopyFolder Response
+## Successful CopyFolder response
 
 ### Description
 
@@ -119,7 +117,7 @@ The following example shows a successful response to the CopyFolder request.
 
 The [FolderId](folderid.md) element that is returned in the response represents the folder that was copied in the new folder location. 
   
-### Response Elements
+### Response elements
 
 The following elements are used in the response:
   
@@ -141,7 +139,7 @@ The following elements are used in the response:
     
 To find other options for the response message of the CopyFolder operation, explore the schema hierarchy. Start at the [CopyFolderResponse](copyfolderresponse.md) element. 
   
-## CopyFolder Error Response
+## CopyFolder error response
 
 ### Description
 
@@ -175,7 +173,7 @@ The following example shows an error response to a CopyFolder request. The error
 </soap:Envelope>
 ```
 
-### Error Response Elements
+### Error response elements
 
 The following elements are used in the error response:
   
@@ -197,10 +195,6 @@ To find other options for the error response message of the CopyFolder operation
   
 ## See also
 
-
-
-[MoveFolder operation](movefolder-operation.md)
-
-
+- [MoveFolder operation](movefolder-operation.md)
 - [EWS XML elements in Exchange](ews-xml-elements-in-exchange.md)
 

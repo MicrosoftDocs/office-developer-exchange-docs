@@ -20,7 +20,7 @@ description: "The IsAllDayEvent element indicates whether a calendar item or mee
 
 The **IsAllDayEvent** element indicates whether a calendar item or meeting request represents an all-day event. 
   
-```
+```xml
 <IsAllDayEvent/>
 ```
 

@@ -20,7 +20,7 @@ description: "The ReportTemplate element represents the type of report to get."
 
 The **ReportTemplate** element represents the type of report to get. 
   
-```
+```xml
 <ReportTemplate>Summary or RecipientPath</ReportTemplate>
 ```
 

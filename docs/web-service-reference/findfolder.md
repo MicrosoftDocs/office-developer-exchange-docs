@@ -20,7 +20,7 @@ description: "The FindFolder element defines a request to find folders in a mail
 
 The **FindFolder** element defines a request to find folders in a mailbox. 
   
-```
+```xml
 <FindFolder Traversal="Shallow/Deep/SoftDeleted">
    <FolderShape/>
    <IndexedPageFolderView/>
@@ -40,7 +40,7 @@ The following sections describe attributes, child elements, and parent elements.
 |:-----|:-----|
 |Traversal  <br/> |Defines how a search is performed. This attribute is required.  <br/> |
    
-#### Traversal Attribute Values
+#### Traversal attribute values
 
 |**Value**|**Description**|
 |:-----|:-----|

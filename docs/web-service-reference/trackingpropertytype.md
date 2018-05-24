@@ -24,7 +24,7 @@ The **TrackingPropertyType** element represents a name and value pair of strings
   
 [TrackingPropertyType](trackingpropertytype.md)
   
-```
+```xml
 <TrackingPropertyType>
    <Name/>
    <Value/>

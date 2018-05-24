@@ -41,7 +41,7 @@ The **UpdateItem** operation can set the [Start](start.md) and [End ](end-ex15we
   
 When a single calendar item is updated to become a recurring master calendar item, the [MeetingTimeZone](meetingtimezone.md) property must be set by the **UpdateItem** operation in order to preserve the calendar item's original time zone. 
   
-## SetItemField Request Example
+## SetItemField request example
 
 ### Description
 
@@ -102,7 +102,7 @@ The following elements are used in the request:
     
 - [Sensitivity](sensitivity.md)
     
-## AppendToItemField Request Example
+## AppendToItemField request example
 
 ### Description
 
@@ -171,7 +171,7 @@ The following elements are used in the request:
     
 - [Body](body.md)
     
-## DeleteItemField Request Example
+## DeleteItemField request example
 
 ### Description
 
@@ -224,7 +224,7 @@ The following elements are used in the request:
     
 - [FieldURI](fielduri.md)
     
-## Successful Response Example
+## Successful response example
 
 ### Description
 
@@ -264,7 +264,7 @@ The following example shows a successful response to an **UpdateItem** request.
 
 The item identifier and change key have been shortened to preserve readability.
   
-### Successful Response Elements
+### Successful response elements
 
 The following elements are used in the response:
   

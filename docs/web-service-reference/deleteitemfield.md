@@ -1,7 +1,5 @@
 ---
 title: "DeleteItemField"
- 
- 
 manager: sethgros
 ms.date: 9/17/2015
 ms.audience: Developer
@@ -19,18 +17,14 @@ description: "The DeleteItemField element represents an operation to delete a gi
 # DeleteItemField
 
 The **DeleteItemField** element represents an operation to delete a given property from an item during an UpdateItem call. 
+ 
+- [UpdateItem](updateitem.md)  
+- [ItemChanges](itemchanges.md) 
+- [ItemChange](itemchange.md) 
+- [Updates (Item)](updates-item.md) 
+- [DeleteItemField](deleteitemfield.md)
   
-[UpdateItem](updateitem.md)
-  
-[ItemChanges](itemchanges.md)
-  
-[ItemChange](itemchange.md)
-  
-[Updates (Item)](updates-item.md)
-  
-[DeleteItemField](deleteitemfield.md)
-  
-```
+```xml
 <DeleteItemField>
    <FieldURI/>
 </DeleteItemField>
@@ -57,7 +51,7 @@ None.
 
 |**Element**|**Description**|
 |:-----|:-----|
-|[Updates (Item)](updates-item.md) <br/> |Contains a set of elements that define append, set, and delete changes to item properties.  <br/> The following is the XPath expression to this element:  `/UpdateItem/ItemChanges/ItemChange[i]/Updates` <br/> |
+|[Updates (Item)](updates-item.md) <br/> |Contains a set of elements that define append, set, and delete changes to item properties.  <br/><br/>The following is the XPath expression to this element:<br/>`/UpdateItem/ItemChanges/ItemChange[i]/Updates` <br/> |
    
 ## Remarks
 
@@ -74,7 +68,5 @@ The schema that describes this element is located in the EWS virtual directory o
    
 ## See also
 
-
-
-[UpdateItem operation](updateitem-operation.md)
+- [UpdateItem operation](updateitem-operation.md)
 

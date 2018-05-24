@@ -20,7 +20,7 @@ description: "The GivenName element contains a contact's given name."
 
 The **GivenName** element contains a contact's given name. 
   
-```
+```xml
 <GivenName/>
 ```
 

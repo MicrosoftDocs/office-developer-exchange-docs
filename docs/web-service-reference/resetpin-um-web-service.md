@@ -21,7 +21,7 @@ The ResetPIN element defines a [ResetPIN operation (UM web service)](resetpin-op
   
 [ResetPIN (UM web service)](resetpin-um-web-service.md)
   
-```
+```xml
 <ResetPIN />
 ```
 

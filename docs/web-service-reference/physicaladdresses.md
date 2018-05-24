@@ -20,7 +20,7 @@ description: "The PhysicalAddresses element contains a collection of physical ad
 
 The **PhysicalAddresses** element contains a collection of physical addresses that are associated with a contact. 
   
-```
+```xml
 <PhysicalAddresses>
    <Entry/>
 </PhysicalAddresses>

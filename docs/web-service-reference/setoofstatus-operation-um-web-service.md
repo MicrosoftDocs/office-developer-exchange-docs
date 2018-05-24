@@ -19,7 +19,7 @@ description: "The SetOofStatus operation sets a value that indicates whether the
 
 The SetOofStatus operation sets a value that indicates whether the Out of Office (OOF) greeting should be played for the user who makes the request.
   
-## SetOofStatus Request Example
+## SetOofStatus request example
 
 ### Description
 
@@ -38,7 +38,7 @@ The following example of a SetOofStatus request shows how to form a request to e
 </soap:Envelope>
 ```
 
-## Successful SetOofStatus Response Example
+## Successful SetOofStatus response example
 
 ### Description
 

@@ -21,7 +21,7 @@ The **Message** element contains the error message for an error Autodiscover res
   
 [Message (POX)](message-pox.md)
   
-```
+```xml
 <Message/>
 ```
 

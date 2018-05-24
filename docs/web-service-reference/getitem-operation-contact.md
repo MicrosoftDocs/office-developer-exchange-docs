@@ -20,7 +20,7 @@ description: "The GetItem operation is used to get contact items from the Exchan
 
 The GetItem operation is used to get contact items from the Exchange store.
   
-## GetItem (Contact) Request Example
+## GetItem (Contact) request example
 
 ### Description
 
@@ -53,7 +53,7 @@ The request to get an item from the Exchange store takes the same form for all i
 > [!NOTE]
 > The item identifier has been shortened to preserve readability. 
   
-### Request Elements
+### Request elements
 
 The following elements are used in the request:
   
@@ -152,7 +152,7 @@ The following code example shows a successful GetItem response for the **AllProp
 
 The item identifier has been shortened to preserve readability.
   
-### Successful Response Elements
+### Successful response elements
 
 The following elements are used in the response for a GetItem request with a response shape of **AllProperties** for a contact item. 
   
@@ -248,7 +248,7 @@ The following elements are used in the response for a GetItem request with a res
     
 - [Surname](surname.md)
     
-## Invalid GetItem (Contact) Request Example
+## Invalid GetItem (Contact) request example
 
 ### Description
 
@@ -279,7 +279,7 @@ The following code example shows an invalid request.
 
 Item identifiers have been shortened to preserve readability.
   
-## GetItem (Contact) Error Response
+## GetItem (Contact) error response
 
 ### Description
 
@@ -313,7 +313,7 @@ The following code example shows an error response to a GetItem (Contact) reques
 </soap:Envelope>
 ```
 
-### Error Response Elements
+### Error response elements
 
 The following elements are used in the error response:
   

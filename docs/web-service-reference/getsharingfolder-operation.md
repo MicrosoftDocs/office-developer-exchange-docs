@@ -29,7 +29,7 @@ The **GetSharingFolder** operation can use the SOAP headers that are listed and 
 |RequestVersion  <br/> |[RequestServerVersion](requestserverversion.md) <br/> |Identifies the schema version for the operation request.  <br/> |
 |ServerVersion  <br/> |[ServerVersionInfo](serverversioninfo.md) <br/> |Identifies the version of the server that responded to the request.  <br/> |
    
-## GetSharingFolder Request Example
+## GetSharingFolder request example
 
 ### Getting the Local Folder Identifier by Specifying the SharedFolderId Element of the Folder Being Shared
 
@@ -118,7 +118,7 @@ The following example shows a successful response to a **GetSharingFolder** requ
 </soap:Envelope>
 ```
 
-## GetSharingFolder Error Response
+## GetSharingFolder error response
 
 ### Description
 

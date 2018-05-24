@@ -28,7 +28,7 @@ The **IncludesLastFolderInRange** element indicates whether the last item to syn
   
 [IncludesLastFolderInRange](includeslastfolderinrange.md)
   
-```
+```xml
 <IncludesLastFolderInRange/>
 ```
 

@@ -20,7 +20,7 @@ description: "The ToRecipients element contains an array of recipients of an ite
 
 The **ToRecipients** element contains an array of recipients of an item. These are the primary recipients of an item. 
   
-```
+```xml
 <ToRecipients>
    <Mailbox/>
 </ToRecipients>

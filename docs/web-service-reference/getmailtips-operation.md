@@ -20,7 +20,7 @@ description: "The GetMailTips operation gets the mail tips information for the s
 
 The **GetMailTips** operation gets the mail tips information for the specified mailbox. 
   
-## GetMailTips Request Example
+## GetMailTips request example
 
 ### Description
 
@@ -55,7 +55,7 @@ The client constructs the request XML and sends it to the server. The request id
 </soap:Envelope>
 ```
 
-### Request Elements
+### Request elements
 
 The following elements are included in the request:
   
@@ -67,7 +67,7 @@ The following elements are included in the request:
     
 - [MailTipsRequested](mailtipsrequested.md)
     
-## Successful GetMailTips Response Example
+## Successful GetMailTips response example
 
 ### Description
 
@@ -119,7 +119,7 @@ xmlns:xsd="http://www.w3.org/2001/XMLSchema"/>
 </s:Envelope>
 ```
 
-### Response Elements
+### Response elements
 
 The following elements are included in the response:
   

@@ -20,7 +20,7 @@ description: "The SerializedSecurityContext element is used in the Simple Object
 
 The **SerializedSecurityContext** element is used in the Simple Object Access Protocol (SOAP) header for token serialization in server-to-server authentication. Token serialization is not supported. 
   
-```
+```xml
 <SerializedSecurityContext>
    <UserSid/>
    <GroupSids/>

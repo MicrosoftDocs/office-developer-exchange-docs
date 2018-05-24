@@ -16,7 +16,7 @@ description: "The SearchArchiveOnly element indicates whether only the archive m
 
 The **SearchArchiveOnly** element indicates whether only the archive mailbox is searched for non-indexable items. 
   
-```
+```xml
 <SearchArchiveOnly>true | false</SearchArchiveOnly>
 ```
 

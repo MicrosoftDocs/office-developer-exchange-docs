@@ -36,7 +36,7 @@ The **EndTimeInMinutes** element represents the end of the working day for a mai
   
 [EndTimeInMinutes](endtimeinminutes.md)
   
-```
+```xml
 <StartTimeInMinutes>...</StartTimeInMinutes>
 ```
 

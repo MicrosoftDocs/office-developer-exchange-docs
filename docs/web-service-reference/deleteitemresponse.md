@@ -1,7 +1,5 @@
 ---
 title: "DeleteItemResponse"
- 
- 
 manager: sethgros
 ms.date: 9/17/2015
 ms.audience: Developer
@@ -20,7 +18,7 @@ description: "The DeleteItemResponse element defines a response to a single Dele
 
 The **DeleteItemResponse** element defines a response to a single DeleteItem request. 
   
-```
+```xml
 <DeleteItemResponse>
    <ResponseMessages/>
 </DeleteItemResponse>
@@ -60,12 +58,7 @@ The schema that describes this element is located in the EWS virtual directory o
    
 ## See also
 
-
-
-[DeleteItem operation](deleteitem-operation.md)
-  
-[DeleteItem](deleteitem.md)
-
-
+- [DeleteItem operation](deleteitem-operation.md)  
+- [DeleteItem](deleteitem.md)
 - [EWS XML elements in Exchange](ews-xml-elements-in-exchange.md)
 

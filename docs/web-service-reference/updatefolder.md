@@ -20,7 +20,7 @@ description: "The UpdateFolder element represents the operation that is used to 
 
 The **UpdateFolder** element represents the operation that is used to update properties for a specified folder. 
   
-```
+```xml
 <UpdateFolder>
    <FolderChanges/>
 </UpdateFolder>

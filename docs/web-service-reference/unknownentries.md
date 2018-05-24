@@ -20,7 +20,7 @@ description: "The UnknownEntries element contains an array of unknown permission
 
 The **UnknownEntries** element contains an array of unknown permission entries that cannot be resolved against the Active Directory directory service. This element was introduced in Microsoft Exchange Server 2007 Service Pack 1 (SP1). 
   
-```
+```xml
 <UnknownEntries>
    <UnknownEntry/>
 </UnknownEntries>

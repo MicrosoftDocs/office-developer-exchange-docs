@@ -20,7 +20,7 @@ description: "The MovedEvent element represents an event in which an item or fol
 
 The **MovedEvent** element represents an event in which an item or folder is moved from one parent folder to another parent folder. 
   
-```
+```xml
 <MovedEvent>
    <Watermark/>
    <TimeStamp/>

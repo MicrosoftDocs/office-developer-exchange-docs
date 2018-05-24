@@ -20,7 +20,7 @@ description: "The ModifiedOccurrences element contains an array of recurring cal
 
 The **ModifiedOccurrences** element contains an array of recurring calendar item occurrences that have been modified so that they are different than the recurrence master item. 
   
-```
+```xml
 <ModifiedOccurrences>
    <Occurrence/>
 </ModifiedOccurrences>

@@ -24,7 +24,7 @@ The CreateItem operation is used to respond to meeting requests.
 
 The CreateItem operation provides three options for responding to a meeting request: accept, tentatively accept, or decline. 
   
-## Accept Meeting Request Example
+## Accept Meeting request example
 
 ### Description
 
@@ -68,7 +68,7 @@ The following elements are used in the request:
     
 - [ReferenceItemId](referenceitemid.md)
     
-## Successful Accept Meeting Response Example
+## Successful Accept Meeting response example
 
 ### Description
 
@@ -100,7 +100,7 @@ The following example shows a successful response to the CreateItem request.
 </soap:Envelope>
 ```
 
-### Successful Response Elements
+### Successful response elements
 
 The following elements are used in the response:
   
@@ -116,7 +116,7 @@ The following elements are used in the response:
     
 - [Items](items.md)
     
-## Accept Meeting Error Response Example
+## Accept Meeting Error response example
 
 ### Description
 
@@ -150,7 +150,7 @@ The following example shows an error response to CreateItem request. The error i
 </soap:Envelope>
 ```
 
-### Error Response Elements
+### Error response elements
 
 The following elements are used in the error response:
   

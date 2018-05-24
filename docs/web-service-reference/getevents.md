@@ -22,7 +22,7 @@ The **GetEvents** element represents the operation used by pull clients to reque
   
 [GetEvents](getevents.md)
   
-```
+```xml
 <GetEvents>
    <SubscriptionId/>
    <Watermark/>

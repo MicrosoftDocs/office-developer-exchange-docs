@@ -19,7 +19,7 @@ description: "The PlayOnPhone operation makes an outbound call and plays a speci
 
 The PlayOnPhone operation makes an outbound call and plays a specified message over the telephone that is specified by the **DialString** element. 
   
-## PlayOnPhone Request Example
+## PlayOnPhone request example
 
 ### Description
 
@@ -39,7 +39,7 @@ The following example of a PlayOnPhone request shows how to form a request to ma
 </soap:Envelope>
 ```
 
-## Successful PlayOnPhone Response Example
+## Successful PlayOnPhone response example
 
 ### Description
 

@@ -24,7 +24,7 @@ The **Errors** element contains a property bag to store errors that are returned
   
 [Errors](errors-ex15websvcsotherref.md)
   
-```
+```xml
 <Errors>
    <Properties/>
 </Errors>

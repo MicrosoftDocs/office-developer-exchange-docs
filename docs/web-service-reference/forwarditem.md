@@ -20,7 +20,7 @@ description: "The ForwardItem element contains an Exchange store item to forward
 
 The **ForwardItem** element contains an Exchange store item to forward to recipients. 
   
-```
+```xml
 <ForwardItem>
    <Subject/>
    <Body/>

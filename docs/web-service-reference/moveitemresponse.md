@@ -20,7 +20,7 @@ description: "The MoveItemResponse element defines a response to a MoveItem requ
 
 The **MoveItemResponse** element defines a response to a MoveItem request. 
   
-```
+```xml
 <MoveItemResponse>
    <ResponseMessages/>
 </MoveItemResponse>

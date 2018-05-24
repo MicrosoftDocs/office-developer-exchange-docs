@@ -23,7 +23,7 @@ The **TelephoneAccessNumbers** element contains a value that is a list of teleph
   
 [TelephoneAccessNumbers (UM web service)](telephoneaccessnumbers-um-web-service.md)
   
-```
+```xml
 <TelephoneAccessNumbers/>
 ```
 

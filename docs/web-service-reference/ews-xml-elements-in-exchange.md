@@ -1,7 +1,5 @@
 ---
 title: "EWS XML elements in Exchange"
- 
- 
 manager: sethgros
 ms.date: 9/17/2015
 ms.audience: Developer

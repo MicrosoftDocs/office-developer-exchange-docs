@@ -28,7 +28,7 @@ The **ResolutionSet** element contains an array of resolutions for an ambiguous 
   
 [ResolutionSet](resolutionset.md)
   
-```
+```xml
 <ResolutionSet IndexedPagingOffset="" NumeratorOffset="" AbsoluteDenominator="" IncludesLastItemInRange="" TotalItemsInView="">
    <Resolution/>
 </ResolutionSet>

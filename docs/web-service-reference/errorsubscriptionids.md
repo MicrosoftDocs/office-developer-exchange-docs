@@ -20,7 +20,7 @@ description: "The ErrorSubscriptionIds element contains an array of invalid subs
 
 The **ErrorSubscriptionIds** element contains an array of invalid subscription IDs. 
   
-```
+```xml
 <ErrorSubscriptionIds>
    <SubscriptionId/>
 </ErrorSubscriptionIds>

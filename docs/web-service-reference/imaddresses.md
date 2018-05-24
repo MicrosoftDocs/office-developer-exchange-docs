@@ -20,7 +20,7 @@ description: "The ImAddresses element represents a collection of instant messagi
 
 The **ImAddresses** element represents a collection of instant messaging addresses for a contact. 
   
-```
+```xml
 <ImAddresses>
    <Entry/>
 </ImAddresses>

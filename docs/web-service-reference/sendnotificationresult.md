@@ -20,7 +20,7 @@ description: "The SendNotificationResult element contains the response of a clie
 
 The **SendNotificationResult** element contains the response of a client application to a push notification. 
   
-```
+```xml
 <SendNotificationResult>
    <SubscriptionStatus/>
 </SendNotificationResult>

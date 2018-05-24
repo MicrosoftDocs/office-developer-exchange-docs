@@ -36,7 +36,7 @@ The **GetUserOofSettings** operation provides access to a user's OOF settings. A
 > [!IMPORTANT]
 > If the OOF messages are set by MicrosoftOfficeOutlook, this operation will return the OOF messages in HTML format. 
   
-## GetUserOofSettings Request Example
+## GetUserOofSettings request example
 
 ### Description
 
@@ -59,7 +59,7 @@ The following example shows a **GetUserOofSettings** request that gets a single 
 </soap:Envelope>
 ```
 
-### Request Elements
+### Request elements
 
 The following elements are used in the request:
   
@@ -69,7 +69,7 @@ The following elements are used in the request:
     
 - [Address (string)](address-string.md)
     
-## Successful GetUserOofSettings Response Example
+## Successful GetUserOofSettings response example
 
 ### Description
 
@@ -111,7 +111,7 @@ The following example shows a disabled OOF state with the OOF messages.
 </soap:Envelope>
 ```
 
-### Successful GetUserOofSettings Response Elements
+### Successful GetUserOofSettings response elements
 
 The following elements are used in the response:
   
@@ -143,7 +143,7 @@ The following elements are used in the response:
     
 - [AllowExternalOof](allowexternaloof.md)
     
-## GetUserOofSettings Error Response Example
+## GetUserOofSettings Error response example
 
 ### Description
 

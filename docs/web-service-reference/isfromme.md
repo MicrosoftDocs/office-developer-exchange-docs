@@ -20,7 +20,7 @@ description: "The IsFromMe element indicates whether a user sent an item to him 
 
 The **IsFromMe** element indicates whether a user sent an item to him or herself. 
   
-```
+```xml
 <IsFromMe/>
 ```
 

@@ -20,7 +20,7 @@ description: "The SetFolderField element represents an update that sets the valu
 
 The **SetFolderField** element represents an update that sets the value for a single property on a folder in an UpdateFolder operation. 
   
-```
+```xml
 <SetFolderField>
    <FieldURI/>
    <Folder/>

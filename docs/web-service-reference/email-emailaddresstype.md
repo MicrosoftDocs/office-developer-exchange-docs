@@ -1,7 +1,5 @@
 ---
 title: "Email (EmailAddressType)"
- 
- 
 manager: sethgros
 ms.date: 9/17/2015
 ms.audience: Developer
@@ -20,15 +18,12 @@ description: "The Email element represents the mailbox user for a GetUserAvailab
 
 The **Email** element represents the mailbox user for a GetUserAvailability query. 
   
-[GetUserAvailabilityRequest](getuseravailabilityrequest.md)
+- [GetUserAvailabilityRequest](getuseravailabilityrequest.md)  
+- [MailboxDataArray](mailboxdataarray.md) 
+- [MailboxData](mailboxdata.md) 
+- [Email (EmailAddressType)](email-emailaddresstype.md)
   
-[MailboxDataArray](mailboxdataarray.md)
-  
-[MailboxData](mailboxdata.md)
-  
-[Email (EmailAddressType)](email-emailaddresstype.md)
-  
-```
+```xml
 <Email>
    <Name>...</Name>
    <Address>...</Address>
@@ -74,12 +69,7 @@ The schema that describes this element is located in the /EWS/ directory of the 
    
 ## See also
 
-
-
-[GetUserAvailability operation](getuseravailability-operation.md)
-  
-[GetUserAvailabilityRequest](getuseravailabilityrequest.md)
-
-
-[Getting User Availability](http://msdn.microsoft.com/library/d4133fcb-9b0f-4e6b-aadf-a389da83516a%28Office.15%29.aspx)
+- [GetUserAvailability operation](getuseravailability-operation.md)  
+- [GetUserAvailabilityRequest](getuseravailabilityrequest.md)
+- [Getting User Availability](http://msdn.microsoft.com/library/d4133fcb-9b0f-4e6b-aadf-a389da83516a%28Office.15%29.aspx)
 

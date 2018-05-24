@@ -30,7 +30,7 @@ The **GetServerTimeZones** operation can use the SOAP headers that are listed an
 |RequestVersion  <br/> |[RequestServerVersion](requestserverversion.md) <br/> |Identifies the schema version for the operation request.  <br/> |
 |ServerVersion  <br/> |[ServerVersionInfo](serverversioninfo.md) <br/> |Identifies the version of the server that responded to the request.  <br/> |
    
-## GetServerTimeZones Request Examples
+## GetServerTimeZones request examples
 
 ### Getting the Name and Identifier of Each Time Zone
 
@@ -91,7 +91,7 @@ The following code example shows how to retrieve the full time zone definition f
 
 Each [Id (TimeZone)](id-timezone.md) element contains the identifier of a time zone definition that is being requested. To request information for all time zones, omit the [Ids](ids.md) element from the request. 
   
-## GetServerTimeZones Response Examples
+## GetServerTimeZones response examples
 
 ### Receiving the Time Zone Name and Identifier Only
 

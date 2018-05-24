@@ -28,7 +28,7 @@ The **FreeBusyView** element contains availability information for a specific us
   
 [FreeBusyView](freebusyview.md)
   
-```
+```xml
 <FreeBusyView>
    <FreeBusyViewType>...</FreeBusyViewType>
    <MergedFreeBusy>...</MergedFreeBusy>

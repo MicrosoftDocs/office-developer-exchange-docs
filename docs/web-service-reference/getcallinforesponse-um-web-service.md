@@ -21,7 +21,7 @@ The **GetCallInfoResponse** element defines a response to a [GetCallInfo operati
   
 [GetCallInfoResponse (UM web service)](getcallinforesponse-um-web-service.md)
   
-```
+```xml
 <GetCallInfoResponse>
   <CallState/>
   <EventCause/>

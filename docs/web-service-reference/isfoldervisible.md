@@ -20,7 +20,7 @@ description: "The IsFolderVisible element indicates whether a user can view a fo
 
 The **IsFolderVisible** element indicates whether a user can view a folder. This element was introduced in Microsoft Exchange Server 2007 Service Pack 1 (SP1). 
   
-```
+```xml
 <IsFolderVisible/>
 ```
 

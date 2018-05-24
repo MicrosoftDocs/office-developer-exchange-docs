@@ -20,7 +20,7 @@ description: "The PlayOnPhone operation initiates an outbound call and plays a m
 
 The **PlayOnPhone** operation initiates an outbound call and plays a message over the telephone. 
   
-## PlayOnPhone Request Example
+## PlayOnPhone request example
 
 ### Description
 
@@ -47,7 +47,7 @@ The following example of a **PlayOnPhone** request shows how to form a request t
 </soap:Envelope>
 ```
 
-## PlayOnPhone Response Example
+## PlayOnPhone response example
 
 ### Description
 
@@ -82,9 +82,6 @@ The following example shows a successful response to the **PlayOnPhone** request
 
 ## See also
 
-
-
-[EWS operations in Exchange](ews-operations-in-exchange.md)
-  
+- [EWS operations in Exchange](ews-operations-in-exchange.md)
 - [EWS XML elements in Exchange](ews-xml-elements-in-exchange.md)
 

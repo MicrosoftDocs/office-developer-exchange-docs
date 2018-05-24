@@ -1,7 +1,5 @@
 ---
 title: "EmailAddress (EmailAddressType)"
- 
- 
 manager: sethgros
 ms.date: 9/17/2015
 ms.audience: Developer
@@ -16,7 +14,7 @@ description: "The EmailAddress element specifies the fully resolved SMTP address
 
 The **EmailAddress** element specifies the fully resolved SMTP address for the site mailbox or the associated persona. 
   
-```
+```xml
 <EmailAddress>
     <Name></Name>
     <EmailAddress></EmailAddress>
@@ -71,8 +69,6 @@ The **EmailAddress** element is applicable for clients that target Exchange Onli
 |Can Be Empty  <br/> ||
    
 ## See also
-
-
 
 - [EWS XML elements in Exchange](ews-xml-elements-in-exchange.md)
 

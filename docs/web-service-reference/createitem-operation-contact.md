@@ -24,7 +24,7 @@ The CreateItem operation is used to create contacts in the Exchange store.
 
 The creation of private distribution lists is not supported. All properties within the [CompleteName](completename.md) container are read-only and cannot be set on a contact item. 
   
-## CreateItem Request Example
+## CreateItem request example
 
 ### Description
 
@@ -71,7 +71,7 @@ The following example of a valid CreateItem SOAP request shows how to create a c
 </soap:Envelope>
 ```
 
-### Request Elements
+### Request elements
 
 The following elements are used in the response:
   
@@ -155,7 +155,7 @@ The following example shows a successful response to the CreateItem request that
 
 The item identifier has been shortened to preserve readability.
   
-### Successful Response Elements
+### Successful response elements
 
 The following elements are used in the response:
   
@@ -175,7 +175,7 @@ The following elements are used in the response:
     
 - [ItemId](itemid.md)
     
-## Invalid CreateItem Request Example
+## Invalid CreateItem request example
 
 ### Description
 
@@ -203,7 +203,7 @@ The following example shows a request that contains valid XML but incompatible i
 </soap:Envelope>
 ```
 
-## CreateItem (Contact) Error Response
+## CreateItem (Contact) error response
 
 ### Description
 
@@ -237,7 +237,7 @@ The following example shows an error response to a CreateItem (Contact) request.
 </soap:Envelope>
 ```
 
-### Error Response Elements
+### Error response elements
 
 The following elements are used in the error response:
   

@@ -23,7 +23,7 @@ The **entryId** element contains the value that represents the identifier of the
   
 [entryId (UM web service)](entryid-um-web-service.md)
   
-```
+```xml
 <PlayOnPhone>
   <entryId/>
 </PlayOnPhone>

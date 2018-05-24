@@ -26,7 +26,7 @@ The **StandardGroupBy** element represents the standard grouping and aggregating
   
 [StandardGroupBy](standardgroupby.md)
   
-```
+```xml
 <StandardGroupBy/>
 ```
 

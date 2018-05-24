@@ -20,7 +20,7 @@ description: "The GetPhoneCallInformation element specifies a request to get tel
 
 The **GetPhoneCallInformation** element specifies a request to get telephone call information. 
   
-```
+```xml
 <GetPhoneCallInformation>
    <PhoneCallId/>
 </GetPhoneCallInformation>

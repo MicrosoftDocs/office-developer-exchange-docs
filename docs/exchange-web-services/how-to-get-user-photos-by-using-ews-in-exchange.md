@@ -1,12 +1,8 @@
 ---
 title: "Get user photos by using EWS in Exchange"
- 
- 
 manager: sethgros
 ms.date: 3/9/2015
 ms.audience: Developer
- 
- 
 localization_priority: Normal
 ms.assetid: f86d1099-1f57-47dc-abf2-4d5ae4e900a9
 description: "Learn how to get user photos that are associated with a mailbox or contact by using the EWS Managed API or EWS in Exchange."
@@ -24,11 +20,12 @@ You can use several different technologies to get photos from mailboxes or Activ
 
 |**Contact type**|**Technologies to use**|
 |:-----|:-----|
-|Mailbox user photo  <br/> |[Get a mailbox user photo by using REST](#bk_REST) <br/> [Getting a user photo by using EWS](#bk_EWS) <br/> |
-|Contact user photo  <br/> |[Get a contact user photo by using EWS Managed API ](#bk_EWSMA) <br/> [Getting a user photo by using EWS](#bk_EWS) <br/> |
-   
-## Get a mailbox user photo by using REST
+|Mailbox user photo  <br/> |[Get a mailbox user photo by using REST](#bk_REST)<br/><br/> [Get a user photo by using EWS](#bk_EWS) <br/> |
+|Contact user photo  <br/> |[Get a contact user photo by using EWS Managed API](#bk_EWSMA)<br/><br/> [Get a user photo by using EWS](#bk_EWS) <br/> |
+
 <a name="bk_REST"> </a>
+
+## Get a mailbox user photo by using REST
 
 You can request user photos from an Exchange server by using a standard HTTPS **GET** request. In the request, specify the email account address and a size code for the image, as shown in the following example. 
   
@@ -69,14 +66,16 @@ The request will return an HTTP response.
 |200  <br/> |An image is available for the specified email account and the binary image is contained in the response.  <br/> |
 |304  <br/> |The image has not changed since the last time the **ETag** was returned to the application.  <br/> |
 |404  <br/> |No image is available for the specified email account.  <br/> |
-   
-## Caching user photos
+
 <a name="bk_REST"> </a>
 
+## Cache user photos
+
 Exchange returns the data with a content type of image/jpeg, along with a collection of header values. The **ETag** header is similar to a change key. The value is a string that represents the last time the photo was updated. The **ETag** remains the same for the user photo until the photo is changed. You can send this **ETag** value to the server in the HTTPS **GET** request in an **If-None-Match** header. If the photo hasn't changed since the last request, the server will respond with an HTTP 304 response that indicates as such. This means that you can use the user photo that you previously requested and saved rather than processing a new one. 
-  
-## Get a contact user photo by using EWS Managed API
+
 <a name="bk_EWSMA"> </a>
+
+## Get a contact user photo by using EWS Managed API
 
 Your application can use the EWS Managed API to retrieve photos for contacts, if the contact is stored in a contact folder in the user's mailbox. To do this, first, find the **ItemId** for the contact you want use. Then, after you bind to that contact, load it to the attachments collection. If the contact has a photo, the photo will be one of the attachments. Loop through the attachments collection, checking the value of the **IsContactPhoto** property. When you find the contact photo, you can save it to your local computer, and your application can access it. 
   
@@ -108,8 +107,9 @@ private static void GetContactPhoto(ExchangeService service, string ItemId)
 
 ```
 
-## Getting a user photo by using EWS
 <a name="bk_EWS"> </a>
+
+## Get a user photo by using EWS
 
 If you're getting a user photo from AD DS, you can use the [GetUserPhoto](http://msdn.microsoft.com/library/f6e8143d-4235-428e-8f9c-ab6e9b1cfa6e%28Office.15%29.aspx) operation (if you know the email address) or the [ResolveNames](http://msdn.microsoft.com/library/6b4eb4b3-9ad6-4804-a09f-7e20cfea4dbb%28Office.15%29.aspx) operation (if you don't know the email address). If you're getting a user photo from a contacts folder in the mailbox, use the [GetItem](http://msdn.microsoft.com/library/6b96dace-1260-4b83-869a-7c31c5583daa%28Office.15%29.aspx) operation followed by the [GetAttachment](http://msdn.microsoft.com/library/24d10a15-b942-415e-9024-a6375708f326%28Office.15%29.aspx) operation. In either case, the photo is returned as a Base64-encoded string in the XML response. 
   
@@ -330,8 +330,9 @@ The following example shows the XML response with the information about the atta
 
 ```
 
-## Decoding a Base64-encoded string
 <a name="bk_EWS"> </a>
+
+## Decode a Base64-encoded string
 
 Regardless of the operation you use to get a user photo, you'll need to decode that string so you can use it in your application. The following example shows how to decode the string, and then save it to your local computer so you application can access it later.
   
@@ -352,12 +353,9 @@ using (FileStream file = new FileStream(ContactName + ".jpg", FileMode.Create, S
 ```
 
 ## See also
-<a name="bk_EWS"> </a>
 
-- [People and contacts in EWS in Exchange](people-and-contacts-in-ews-in-exchange.md)
-    
-- [Resolve ambiguous names by using EWS in Exchange 2013](how-to-resolve-ambiguous-names-by-using-ews-in-exchange-2013.md)
-    
+- [People and contacts in EWS in Exchange](people-and-contacts-in-ews-in-exchange.md)    
+- [Resolve ambiguous names by using EWS in Exchange 2013](how-to-resolve-ambiguous-names-by-using-ews-in-exchange-2013.md)    
 - [Process contacts in batches by using EWS in Exchange](how-to-process-contacts-in-batches-by-using-ews-in-exchange.md)
     
 

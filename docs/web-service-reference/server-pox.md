@@ -27,7 +27,7 @@ The **Server** element specifies the name of the mail server.
   
 [Server (POX)](server-pox.md)
   
-```
+```xml
 <Server/>
 ```
 

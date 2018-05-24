@@ -1,7 +1,5 @@
 ---
 title: "ContactsView"
- 
- 
 manager: sethgros
 ms.date: 9/17/2015
 ms.audience: Developer
@@ -28,7 +26,8 @@ The **ContactsView** element defines a search for contact items based on alphabe
 <ContactsView MaxEntriesReturned="" InitialName="" FinalName="" />
 ```
 
- **ContactsViewType**
+**ContactsViewType**
+
 ## Attributes and elements
 
 The following sections describe attributes, child elements, and parent elements.
@@ -39,7 +38,7 @@ The following sections describe attributes, child elements, and parent elements.
 |:-----|:-----|
 |**MaxEntriesReturned** <br/> |Describes the maximum number of results to return in the [FindItem](finditem.md) response.  <br/> |
 |**InitialName** <br/> |Defines the first name in the contacts list to return in the response. If the specified initial name is not in the contacts list, the next alphabetical name as defined by the cultural context will be returned, except if the next name comes after **FinalName**. If the **InitialName** attribute is omitted, the response will contain a list of contacts that starts with the first name in the contact list. This attribute is optional.  <br/> |
-|**FinalName** <br/> |Defines the last name in the contacts list to return in the response. If the **FinalName** attribute is omitted, the response will contain all subsequent contacts in the specified sort order. If the specified final name is not in the contacts list, the next alphabetical name as defined by the cultural context will be excluded.  <br/> For example, if FinalName="Name", but Name is not in the contacts list, contacts that have display names of Name1 or NAME will not be included.  <br/> This attribute is optional.  <br/> |
+|**FinalName** <br/> |Defines the last name in the contacts list to return in the response. If the **FinalName** attribute is omitted, the response will contain all subsequent contacts in the specified sort order. If the specified final name is not in the contacts list, the next alphabetical name as defined by the cultural context will be excluded.  <br/><br/>For example, if FinalName="Name", but Name is not in the contacts list, contacts that have display names of Name1 or NAME will not be included.  <br/><br/>This attribute is optional.  <br/> |
    
 ### Child elements
 
@@ -49,7 +48,7 @@ None.
 
 |**Element**|**Description**|
 |:-----|:-----|
-|[FindItem](finditem.md) <br/> |Defines a request to find items in a mailbox.  <br/> The following is the XPath expression to this element:  <br/>  `/FindItem` <br/> |
+|[FindItem](finditem.md) <br/> |Defines a request to find items in a mailbox.<br/><br/> The following is the XPath expression to this element:  <br/>  `/FindItem` <br/> |
    
 ## Remarks
 
@@ -59,7 +58,7 @@ The schema that describes this element is located in the EWS virtual directory o
 
 The following example of a request demonstrates how to find the first three contacts starting with the contact that has the display name of Kelly Rollin.
   
-```
+```xml
 <?xml version="1.0" encoding="utf-8"?>
 <soap:Envelope xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
                xmlns:xsd="http://www.w3.org/2001/XMLSchema"
@@ -98,10 +97,6 @@ The following example of a request demonstrates how to find the first three cont
    
 ## See also
 
-
-
-[FindItem operation](finditem-operation.md)
-
-
-[Finding Items](http://msdn.microsoft.com/library/63af1f9c-464b-4fca-9ae3-3d60f24ca93c%28Office.15%29.aspx)
+- [FindItem operation](finditem-operation.md)
+- [Finding Items](http://msdn.microsoft.com/library/63af1f9c-464b-4fca-9ae3-3d60f24ca93c%28Office.15%29.aspx)
 

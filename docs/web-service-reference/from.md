@@ -20,7 +20,7 @@ description: "The From element represents the address from which the message was
 
 The **From** element represents the address from which the message was sent. 
   
-```
+```xml
 <From>
    <Mailbox/>
 </From>

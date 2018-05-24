@@ -20,7 +20,7 @@ description: "The ResolveNamesResponse element defines a response to a ResolveNa
 
 The **ResolveNamesResponse** element defines a response to a ResolveNames request. 
   
-```
+```xml
 <ResolveNamesResponse>
    <ResponseMessages/>
 </ResolveNamesResponse>

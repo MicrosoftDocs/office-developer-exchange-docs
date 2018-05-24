@@ -20,7 +20,7 @@ description: "The MessageTrackingSearchResult element contains a single message 
 
 The **MessageTrackingSearchResult** element contains a single message result for a [FindMessageTrackingReportResponse](findmessagetrackingreportresponse.md) element. 
   
-```
+```xml
 <MessageTrackingSearchResult>
    <Subject/>
    <Sender/>

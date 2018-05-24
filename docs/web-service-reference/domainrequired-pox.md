@@ -9,25 +9,19 @@ api_type:
 - schema
 ms.assetid: 1f26b691-7331-4c7f-a92b-dfcc66c26963
 description: "The DomainRequired element indicates whether the domain is required for authentication."
- 
- 
 ---
 
 # DomainRequired (POX)
 
 The **DomainRequired** element indicates whether the domain is required for authentication. 
   
-[AutoDiscover (POX)](autodiscover-pox.md)
+- [AutoDiscover (POX)](autodiscover-pox.md)  
+- [Response (POX)](response-pox.md) 
+- [Account (POX)](account-pox.md)  
+- [Protocol (POX)](protocol-pox.md)  
+- [DomainRequired (POX)](domainrequired-pox.md)
   
-[Response (POX)](response-pox.md)
-  
-[Account (POX)](account-pox.md)
-  
-[Protocol (POX)](protocol-pox.md)
-  
-[DomainRequired (POX)](domainrequired-pox.md)
-  
-```
+```xml
 <DomainRequired>on or off</DomainRequired>
 ```
 
@@ -59,7 +53,5 @@ If the domain is not specified in the [LoginName (POX)](loginname-pox.md) elemen
   
 ## See also
 
-
-
-[POX Autodiscover XML elements for Exchange](pox-autodiscover-xml-elements-for-exchange.md)
+- [POX Autodiscover XML elements for Exchange](pox-autodiscover-xml-elements-for-exchange.md)
 

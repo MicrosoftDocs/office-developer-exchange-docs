@@ -11,8 +11,6 @@ api_type:
 - schema
 ms.assetid: 23806773-32d5-4283-a4d7-230ef80523bd
 description: "The DisconnectResponse element defines a response to a Disconnect operation (UM web service) request."
- 
- 
 ---
 
 # DisconnectResponse (UM web service)
@@ -21,7 +19,7 @@ The **DisconnectResponse** element defines a response to a [Disconnect operation
   
 [DisconnectResponse (UM web service)](disconnectresponse-um-web-service.md)
   
-```
+```xml
 <DisconnectResponse />
 ```
 
@@ -57,7 +55,5 @@ None.
    
 ## See also
 
-
-
-[Disconnect operation (UM web service)](disconnect-operation-um-web-service.md)
+- [Disconnect operation (UM web service)](disconnect-operation-um-web-service.md)
 

@@ -9,8 +9,6 @@ api_type:
 - schema
 ms.assetid: 48c3f7b5-2ee0-42ce-97a1-a881e2f60327
 description: "The DomainSettingError element represents an error that occurred while retrieving a domain setting. This represents an error from a GetDomainSettings request."
- 
- 
 ---
 
 # DomainSettingError (SOAP)
@@ -63,7 +61,5 @@ None.
    
 ## See also
 
-
-
-[GetDomainSettings operation (SOAP)](getdomainsettings-operation-soap.md)
+- [GetDomainSettings operation (SOAP)](getdomainsettings-operation-soap.md)
 

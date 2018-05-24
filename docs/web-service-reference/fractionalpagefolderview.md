@@ -24,7 +24,7 @@ The **FractionalPageFolderView** element describes where the paged view starts a
   
 [FractionalPageFolderView](fractionalpagefolderview.md)
   
-```
+```xml
 <FractionalPageFolderView MaxEntriesReturned="" Numerator="" Denominator=""/>
 ```
 

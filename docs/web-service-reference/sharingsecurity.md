@@ -20,7 +20,7 @@ description: "The SharingSecurity element is used in the Simple Object Access Pr
 
 The **SharingSecurity** element is used in the Simple Object Access Protocol (SOAP) header for calendar or contact sharing. 
   
-```
+```xml
 <SharingSecurity/>
 ```
 

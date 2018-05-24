@@ -30,7 +30,7 @@ The **FreeBusyViewType** element represents the type of free/busy information re
   
 [FreeBusyViewType](freebusyviewtype.md)
   
-```
+```xml
 <FreeBusyViewType>None or MergedOnly or FreeBusy or FreeBusyMerged or Detailed or DetailedMerged</FreeBusyViewType>
 ```
 

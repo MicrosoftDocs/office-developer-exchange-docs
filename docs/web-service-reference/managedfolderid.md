@@ -20,7 +20,7 @@ description: "The ManagedFolderId element contains the folder ID of the managed 
 
 The **ManagedFolderId** element contains the folder ID of the managed folder. 
   
-```
+```xml
 <ManagedFolderId/>
 ```
 

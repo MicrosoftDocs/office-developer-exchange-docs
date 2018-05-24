@@ -27,7 +27,7 @@ The **MdbDN** element represents the distinguished name of the mailbox database.
   
 [MdbDN (POX)](mdbdn-pox.md)
   
-```
+```xml
 <MdbDN/>
 ```
 

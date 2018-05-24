@@ -20,7 +20,7 @@ description: "The InReplyTo element represents the identifier of the item to whi
 
 The **InReplyTo** element represents the identifier of the item to which this item is a reply. 
   
-```
+```xml
 <InReplyTo/>
 ```
 

@@ -1,7 +1,5 @@
 ---
 title: "DisplayName (VotingOptionDataType)"
- 
- 
 manager: sethgros
 ms.date: 3/9/2015
 ms.audience: Developer
@@ -58,10 +56,6 @@ The schema that describes this element is located in the IIS virtual directory t
    
 ## See also
 
-
-
-[VotingOptionData](votingoptiondata.md)
-
-
+- [VotingOptionData](votingoptiondata.md)
 - [EWS XML elements in Exchange](ews-xml-elements-in-exchange.md)
 

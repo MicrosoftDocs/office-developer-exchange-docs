@@ -26,7 +26,7 @@ The **ExpandDLResponseMessage** element contains the status and result of a sing
   
 [ExpandDLResponseMessage](expanddlresponsemessage.md)
   
-```
+```xml
 <ExpandDLResponseMessage ResponseClass="" IndexedPagingOffset="" NumeratorOffset="" AbsoluteDenominator="" IncludesLastItemInRange="" TotalItemsInView="">
    <MessageText/>
    <ResponseCode/>
@@ -52,7 +52,7 @@ The following sections describe attributes, child elements, and parent elements.
 |**IncludesLastItemInRange** <br/> |Indicates that additional paging is not needed. This attribute will be true if the current results contain the last item in the query.  <br/> |
 |**TotalItemsInView** <br/> |Represents the total number of items that pass the restriction.  <br/> |
    
-#### ResponseClass Attribute Values
+#### ResponseClass attribute values
 
 |**Value**|**Description**|
 |:-----|:-----|

@@ -1,7 +1,5 @@
 ---
 title: "EmptyFolder operation"
- 
- 
 manager: sethgros
 ms.date: 9/17/2015
 ms.audience: Developer
@@ -16,7 +14,7 @@ description: "The EmptyFolder operation empties folders in a mailbox. Optionally
 
 The **EmptyFolder** operation empties folders in a mailbox. Optionally, this operation enables you to delete the subfolders of the specified folder. When a subfolder is deleted, the subfolder and the messages within the subfolder are deleted. 
   
-## EmptyFolder Request Example
+## EmptyFolder request example
 
 ### Description
 
@@ -52,7 +50,7 @@ This example performs a hard delete on the folder.
   
 Folders can be identified by either the [DistinguishedFolderId](distinguishedfolderid.md) element or the [FolderId](folderid.md) element for use in the [FolderIds](folderids.md) element. 
   
-### Request Elements
+### Request elements
 
 The following elements are used in the request:
   
@@ -62,7 +60,7 @@ The following elements are used in the request:
     
 - [FolderId](folderid.md)
     
-## Successful EmptyFolder Response
+## Successful EmptyFolder response
 
 ### Description
 
@@ -99,7 +97,7 @@ The following example shows a successful response to the **EmptyFolder** request
 
 ```
 
-### Successful Response Elements
+### Successful response elements
 
 The following elements are used in the response:
   
@@ -113,7 +111,7 @@ The following elements are used in the response:
     
 - [ResponseCode](responsecode.md)
     
-## EmptyFolder Error Response
+## EmptyFolder error response
 
 ### Description
 
@@ -153,7 +151,7 @@ The following example shows an error response to an **Emptyfolder** request. The
 </s:Envelope>
 ```
 
-### Error Response Elements
+### Error response elements
 
 The following elements are used in the response:
   
@@ -174,8 +172,6 @@ The following elements are used in the response:
 - [Folders](folders-ex15websvcsotherref.md)
     
 ## See also
-
-
 
 - [EWS XML elements in Exchange](ews-xml-elements-in-exchange.md)
 

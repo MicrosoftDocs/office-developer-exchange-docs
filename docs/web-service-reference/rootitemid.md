@@ -28,7 +28,7 @@ The **RootItemId** element identifies the root item of a deleted attachment.
   
 [RootItemId](rootitemid.md)
   
-```
+```xml
 <RootItemId RootItemId="" RootItemChangeKey="" />
 ```
 

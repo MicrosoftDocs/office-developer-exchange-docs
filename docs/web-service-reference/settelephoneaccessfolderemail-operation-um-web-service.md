@@ -19,7 +19,7 @@ description: "The SetTelephoneAccessFolderEmail operation sets the folder from w
 
 The SetTelephoneAccessFolderEmail operation sets the folder from which Unified Messaging will read back messages to the user over the telephone.
   
-## SetTelephoneAccessFolderEmail Request Example
+## SetTelephoneAccessFolderEmail request example
 
 ### Description
 
@@ -38,7 +38,7 @@ The following example of a SetTelephoneAccessFolderEmail request shows how to fo
 </soap:Envelope>
 ```
 
-## Successful SetTelephoneAccessFolderEmail Response Example
+## Successful SetTelephoneAccessFolderEmail response example
 
 ### Description
 

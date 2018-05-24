@@ -20,7 +20,7 @@ description: "The Subscribe operation is used to subscribe client applications t
 
 The Subscribe operation is used to subscribe client applications to either push or pull notifications. It is important to be aware that the structure of the request messages and responses is different depending on the type of event notification. 
   
-## Pull Subscription Subscribe Request Example
+## Pull Subscription Subscribe request example
 
 ### Description
 
@@ -69,7 +69,7 @@ The following elements are used in the request:
     
 To find other options for the request message of the Subscribe operation, explore the schema hierarchy. Start at the [PullSubscriptionRequest](pullsubscriptionrequest.md) element. 
   
-## Successful Pull Subscription Subscribe Response Example
+## Successful Pull Subscription Subscribe response example
 
 ### Description
 
@@ -102,7 +102,7 @@ The following example shows a successful pull subscription response. The respons
 </soap:Envelope>
 ```
 
-### Pull Subscription Subscribe Response Elements
+### Pull Subscription Subscribe response elements
 
 The following elements are used in the response:
   
@@ -120,7 +120,7 @@ The following elements are used in the response:
     
 - [Watermark](watermark.md)
     
-## Pull Subscription Subscribe Error Response Example
+## Pull Subscription Subscribe Error response example
 
 ### Description
 
@@ -153,7 +153,7 @@ The following example shows an error response to a Subscribe request. The error 
 </soap:Envelope>
 ```
 
-### Pull Subscription Error Response Elements
+### Pull Subscription Error response elements
 
 The following elements are used in the error response:
   
@@ -171,7 +171,7 @@ The following elements are used in the error response:
     
 - [DescriptiveLinkKey](descriptivelinkkey.md)
     
-## Push Subscription Request Example
+## Push Subscription request example
 
 ### Description
 
@@ -232,7 +232,7 @@ The following elements are used in the request:
     
 - [Url ](url-ex15websvcsotherref.md)
     
-## Successful Push Subscription Response Example
+## Successful Push Subscription response example
 
 ### Description
 
@@ -265,7 +265,7 @@ The following example shows a successful push subscription response.
 </soap:Envelope>
 ```
 
-### Push Subscription Response Elements
+### Push Subscription response elements
 
 The following elements are used in the response:
   

@@ -20,7 +20,7 @@ description: "The MeetingResponse element represents a meeting response in the E
 
 The **MeetingResponse** element represents a meeting response in the Exchange store. 
   
-```
+```xml
 <MeetingResponse>
    <MimeContent/>
    <ItemId/>

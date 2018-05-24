@@ -27,7 +27,7 @@ The **LoginName** element specifies the user's logon name.
   
 [LoginName (POX)](loginname-pox.md)
   
-```
+```xml
 <LoginName/>
 ```
 

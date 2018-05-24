@@ -20,7 +20,7 @@ description: "The IsNotEqualTo element represents a search expression that compa
 
 The **IsNotEqualTo** element represents a search expression that compares a property with either a constant value or another property and returns **true** if the values are not the same. 
   
-```
+```xml
 <IsNotEqualTo>
    <FieldURI/>
    <FieldURIOrConstant/>

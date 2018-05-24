@@ -20,7 +20,7 @@ description: "The PrincipalName element represents the user principal name (UPN)
 
 The **PrincipalName** element represents the user principal name (UPN) of the account to be used for Exchange impersonation. 
   
-```
+```xml
 <PrincipalName/>
 ```
 

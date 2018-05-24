@@ -21,7 +21,7 @@ The **GetUMPropertiesResponse** element defines a response to a [GetUMProperties
   
 [GetUMPropertiesResponse (UM web service)](getumpropertiesresponse-um-web-service.md)
   
-```
+```xml
 <GetUMPropertiesResponse>
   <OofStatus/>
   <MissedCallNotificationEnabled/>

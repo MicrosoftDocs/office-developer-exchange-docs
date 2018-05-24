@@ -20,7 +20,7 @@ description: "The To element specifies the target of the time zone transition. T
 
 The **To** element specifies the target of the time zone transition. The target is either a time zone period or a group of time zone transitions. 
   
-```
+```xml
 <To Kind=""/>
 ```
 
@@ -35,7 +35,7 @@ The following sections describe attributes, child elements, and parent elements.
 |:-----|:-----|
 |Kind  <br/> |Indicates whether the time zone transition target is a time zone period or of a group of time zone transitions.  <br/> |
    
-#### Kind Attribute Values
+#### Kind attribute values
 
 |**Value**|**Description**|
 |:-----|:-----|

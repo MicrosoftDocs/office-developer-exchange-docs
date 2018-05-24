@@ -20,7 +20,7 @@ description: "The MailTipsEnabled element indicates whether the mail tips servic
 
 The **MailTipsEnabled** element indicates whether the mail tips service is available. 
   
-```
+```xml
 <MailTipsEnabled>true | false</MailTipsEnabled>
 ```
 

@@ -20,7 +20,7 @@ description: "The SyncFolderItems element defines a request to synchronize items
 
 The **SyncFolderItems** element defines a request to synchronize items in an Exchange store folder. 
   
-```
+```xml
 <SyncFolderItems>
    <ItemShape/>
    <SyncFolderId/>

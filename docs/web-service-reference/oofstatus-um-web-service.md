@@ -23,7 +23,7 @@ The **OofStatus** element contains a value that indicaties the Unified Messaging
   
 [OofStatus (UM web service)](oofstatus-um-web-service.md)
   
-```
+```xml
 <GetUMPropertiesResponse>
     <OofStatus/>
   <MissedCallNotificationEnabled/>

@@ -20,7 +20,7 @@ description: "The IsSubmitted element indicates whether an item has been submitt
 
 The **IsSubmitted** element indicates whether an item has been submitted to the Outbox default folder. 
   
-```
+```xml
 <IsSubmitted/>
 ```
 

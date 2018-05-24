@@ -20,7 +20,7 @@ description: "The EventTypes element contains a collection of event notification
 
 The **EventTypes** element contains a collection of event notification types that are used to create a subscription. 
   
-```
+```xml
 <EventTypes>
    <EventType/>
 </EventTypes>

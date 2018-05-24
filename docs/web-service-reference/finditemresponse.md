@@ -22,7 +22,7 @@ The **FindItemResponse** element defines a response to a FindItem request.
   
 [FindItemResponse](finditemresponse.md)
   
-```
+```xml
 <FindItemResponse>
    <ResponseMessages/>
 </FindItemResponse>

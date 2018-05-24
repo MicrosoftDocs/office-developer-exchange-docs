@@ -20,7 +20,7 @@ description: "The RestrictGroupIdentifier element represents the group security 
 
 The **RestrictGroupIdentifier** element represents the group security identifier (SID) and attributes for a restricted group within a user token. 
   
-```
+```xml
 <RestrictedGroupIdentifier Attributes="">
    <SecurityIdentifier/>
 </RestrictedGroupIdentifier>

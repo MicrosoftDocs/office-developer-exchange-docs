@@ -23,7 +23,7 @@ The **UploadItems** operation uploads a stream of items into an Exchange mailbox
 > [!IMPORTANT]
 > The **UploadItems** operation is restricted in MicrosoftExchange Server 2010 Service Pack 1 (SP1) to a maximum import payload of 25MB of base64 encoded data. The setting can be altered in the web.config file. 
   
-## UploadItems Request Example
+## UploadItems request example
 
 ### Description
 
@@ -79,7 +79,7 @@ The following example of an **UploadItems** request shows how to upload two item
 
 Identifiers and the item data have been shortened to preserve readability.
   
-### Request Elements
+### Request elements
 
 The following elements are used in the request:
   
@@ -97,7 +97,7 @@ The following elements are used in the request:
     
 - [ItemId](itemid.md)
     
-## Successful UploadItems Response Example
+## Successful UploadItems response example
 
 ### Description
 
@@ -142,7 +142,7 @@ The following example shows a successful response to the **UploadItems** request
 
 Item identifiers have been shortened to preserve readability.
   
-### Response Elements
+### Response elements
 
 The following elements are used in the response:
   
@@ -158,7 +158,7 @@ The following elements are used in the response:
     
 - [ItemId](itemid.md)
     
-## UploadItems Error Response Example
+## UploadItems Error response example
 
 ### Description
 
@@ -196,7 +196,7 @@ The following example shows a response to the **UploadItems** request that conta
 </s:Envelope>
 ```
 
-### Error Response Elements
+### Error response elements
 
 The following elements are used in the error response:
   

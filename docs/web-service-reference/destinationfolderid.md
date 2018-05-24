@@ -1,7 +1,5 @@
 ---
 title: "DestinationFolderId"
- 
- 
 manager: sethgros
 ms.date: 9/17/2015
 ms.audience: Developer
@@ -20,13 +18,10 @@ description: "The DestinationFolderId element indicates the destination folder f
 
 The **DestinationFolderId** element indicates the destination folder for copy and move actions. 
   
-[ApplyConversationAction](applyconversationaction.md)
-  
-[ConversationActions](conversationactions.md)
-  
-[ConversationAction](conversationaction.md)
-  
-[DestinationFolderId](destinationfolderid.md)
+- [ApplyConversationAction](applyconversationaction.md)  
+- [ConversationActions](conversationactions.md) 
+- [ConversationAction](conversationaction.md)  
+- [DestinationFolderId](destinationfolderid.md)
   
 ```XML
 <DestinationFolderId>
@@ -75,7 +70,5 @@ The schema that describes this element is located in the IIS virtual directory t
    
 ## See also
 
-
-
-[ApplyConversationAction operation](applyconversationaction-operation.md)
+- [ApplyConversationAction operation](applyconversationaction-operation.md)
 

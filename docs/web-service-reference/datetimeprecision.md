@@ -1,7 +1,5 @@
 ---
 title: "DateTimePrecision"
- 
- 
 manager: sethgros
 ms.date: 9/17/2015
 ms.audience: Developer
@@ -20,7 +18,8 @@ The **DateTimePrecision** element specifies the precision for returned date/time
 <DateTimePrecision />
 ```
 
- **DateTimePrecisionType**
+**DateTimePrecisionType**
+
 ## Attributes and elements
 
 The following sections describe attributes, child elements, and parent elements.

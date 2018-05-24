@@ -30,7 +30,7 @@ The **SuggestionArray** element contains an array of meeting suggestions.
   
 [SuggestionArray](suggestionarray.md)
   
-```
+```xml
 <SuggestionArray>
    <Suggestion>...</Suggestion>
 </SuggestionArray>

@@ -20,7 +20,7 @@ description: "The MeetingRequestType element describes the type of the meeting r
 
 The **MeetingRequestType** element describes the type of the meeting request. 
   
-```
+```xml
 <MeetingRequestType/>
 ```
 

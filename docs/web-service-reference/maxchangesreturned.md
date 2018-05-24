@@ -24,7 +24,7 @@ The **MaxChangesReturned** element describes the maximum number of changes that 
   
 [MaxChangesReturned](maxchangesreturned.md)
   
-```
+```xml
 <MaxChangesReturned/>
 ```
 

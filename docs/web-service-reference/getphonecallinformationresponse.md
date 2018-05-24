@@ -20,7 +20,7 @@ description: "The GetPhoneCallInformationResponse element defines a response to 
 
 The **GetPhoneCallInformationResponse** element defines a response to a single GetPhoneCallInformation request. 
   
-```
+```xml
 <GetPhoneCallInformationResponse ResponseClass="">
    <MessageText/>
    <ResponseCode/>
@@ -40,7 +40,7 @@ The following sections describe attributes, child elements, and parent elements.
 |:-----|:-----|
 |**ResponseClass** <br/> | Describes the status of the response. The following values are valid for this attribute:  <br/>  Success  <br/>  Warning  <br/>  Error  <br/> |
    
-#### ResponseClass Attribute Values
+#### ResponseClass attribute values
 
 |**Value**|**Description**|
 |:-----|:-----|

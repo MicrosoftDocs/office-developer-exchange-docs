@@ -20,7 +20,7 @@ description: "The FirstOccurrence element represents the first occurrence of a r
 
 The **FirstOccurrence** element represents the first occurrence of a recurring calendar item. 
   
-```
+```xml
 <FirstOccurrence>
    <ItemId/>
    <Start/>

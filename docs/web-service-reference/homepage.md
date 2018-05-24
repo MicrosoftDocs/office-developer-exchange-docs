@@ -20,7 +20,7 @@ description: "The HomePage element specifies the URL that will be the default ho
 
 The **HomePage** element specifies the URL that will be the default home page for the managed folder. 
   
-```
+```xml
 <HomePage/>
 ```
 

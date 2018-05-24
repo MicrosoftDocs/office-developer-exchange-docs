@@ -1,7 +1,5 @@
 ---
 title: "GetRooms operation"
- 
- 
 manager: sethgros
 ms.date: 9/17/2015
 ms.audience: Developer
@@ -31,7 +29,7 @@ The **GetRooms** operation can use the SOAP headers that are listed and describe
 |RequestVersion  <br/> |[RequestServerVersion](requestserverversion.md) <br/> |Identifies the schema version for the operation request.  <br/> |
 |ServerVersion  <br/> |[ServerVersionInfo](serverversioninfo.md) <br/> |Identifies the version of the server that responded to the request.  <br/> |
    
-## GetRooms Request Example
+## GetRooms request example
 
 ### Description
 
@@ -58,7 +56,7 @@ The following is an example of a **GetRooms** request that gets the rooms that a
 
 ```
 
-### Request Elements
+### Request elements
 
 The following elements are used in the request:
   
@@ -70,7 +68,7 @@ The following elements are used in the request:
     
 - [EmailAddress (NonEmptyStringType)](emailaddress-nonemptystringtype.md)
     
-## Successful GetRooms Response Example
+## Successful GetRooms response example
 
 ### Description
 
@@ -78,7 +76,7 @@ The following response shows the email address information for the rooms that ar
   
 ### Code
 
-```
+```xml
 <?xml version="1.0" encoding="utf-8"?>
 <s:Envelope xmlns:s="http://schemas.xmlsoap.org/soap/envelope/">
   <s:Header>
@@ -110,7 +108,7 @@ The following response shows the email address information for the rooms that ar
 </s:Envelope>
 ```
 
-### Successful GetRooms Response Elements
+### Successful GetRooms response elements
 
 The following elements are used in the response:
   
@@ -132,7 +130,7 @@ The following elements are used in the response:
     
 - [MailboxType](mailboxtype.md)
     
-## GetRooms Error Response Example
+## GetRooms Error response example
 
 ### Description
 
@@ -156,7 +154,7 @@ The following example shows an error response caused by an attempt to get room i
 </s:Envelope>
 ```
 
-### GetRooms Error Response Elements
+### GetRooms Error response elements
 
 The following elements are used in the response:
   
@@ -172,9 +170,6 @@ The following elements are used in the response:
     
 ## See also
 
-
-
-[EWS operations in Exchange](ews-operations-in-exchange.md)
-  
+- [EWS operations in Exchange](ews-operations-in-exchange.md)
 - [EWS XML elements in Exchange](ews-xml-elements-in-exchange.md)
 

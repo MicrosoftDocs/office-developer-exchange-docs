@@ -20,7 +20,7 @@ description: "The CreateAttachment operation creates either an item or file atta
 
 The CreateAttachment operation creates either an item or file attachment and attaches it to the specified item.
   
-## File CreateAttachment Request Example
+## File CreateAttachment request example
 
 ### Description
 
@@ -56,7 +56,7 @@ A name for the attachment must be provided.
 > [!NOTE]
 > The parent item identifier and change key have been shortened to preserve readability. 
   
-### Request Elements
+### Request elements
 
 The following elements are used in the request:
   
@@ -72,7 +72,7 @@ The following elements are used in the request:
     
 - [Content](content.md)
     
-## Successful File CreateAttachment Response Example
+## Successful File CreateAttachment response example
 
 ### Description
 
@@ -112,7 +112,7 @@ The following example shows a successful response to the CreateAttachment reques
 
 The response contains the identifier of the attached file. It also contains the identifier and change key of the root item. The item identifiers and change key have been shortened to preserve readability.
   
-### Successful Response Elements
+### Successful response elements
 
 The following elements are used in the response:
   
@@ -132,7 +132,7 @@ The following elements are used in the response:
     
 - [AttachmentId](attachmentid.md)
     
-## Item CreateAttachment Request Example
+## Item CreateAttachment request example
 
 ### Description
 
@@ -169,7 +169,7 @@ A name for the attachment must be provided.
   
  **Note** The parent item identifier and change key have been shortened to preserve readability. 
   
-### Request Elements
+### Request elements
 
 The following elements are used in the request:
   
@@ -187,7 +187,7 @@ The following elements are used in the request:
     
 - [Subject](subject.md)
     
-## Successful Item CreateAttachment Response Example
+## Successful Item CreateAttachment response example
 
 ### Description
 
@@ -227,7 +227,7 @@ The following example shows a successful response to the CreateAttachment reques
 
 The response contains the identifier of the new attachment. It also contains the identifier and change key of the root item. The root item is the item that contains the attachment. The item identifiers and change key have been shortened to preserve readability.
   
-### Successful Response Elements
+### Successful response elements
 
 The following elements are used in the response:
   
@@ -247,7 +247,7 @@ The following elements are used in the response:
     
 - [AttachmentId](attachmentid.md)
     
-## CreateAttachment Error Response Example
+## CreateAttachment Error response example
 
 ### Description
 
@@ -284,7 +284,7 @@ The following example shows an error response to the CreateAttachment request. T
 </soap:Envelope>
 ```
 
-### Error Response Elements
+### Error response elements
 
 The following elements are used in the error response:
   

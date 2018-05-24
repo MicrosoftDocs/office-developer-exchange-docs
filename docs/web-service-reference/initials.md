@@ -20,7 +20,7 @@ description: "The Initials element represents the initials of a contact."
 
 The **Initials** element represents the initials of a contact. 
   
-```
+```xml
 <Initials/>
 ```
 

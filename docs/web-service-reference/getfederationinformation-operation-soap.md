@@ -17,7 +17,7 @@ The **GetFederationInformation** operation provides information about the federa
   
 Only federated organizations can share calendar, contacts, and messages to external users.
   
-## GetFederationInformation Request Example
+## GetFederationInformation request example
 
 ### Description
 
@@ -65,7 +65,7 @@ The following elements are used in the request:
     
 - [Domain (SOAP)](domain-soap.md)
     
-## GetFederationInformation Response Example
+## GetFederationInformation response example
 
 ### Description
 

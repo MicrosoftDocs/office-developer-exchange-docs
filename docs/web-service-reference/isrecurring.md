@@ -20,7 +20,7 @@ description: "The IsRecurring element indicates whether a calendar item, meeting
 
 The **IsRecurring** element indicates whether a calendar item, meeting request, or task is part of a recurring item. This element is read-only. 
   
-```
+```xml
 <IsRecurring/>
 ```
 

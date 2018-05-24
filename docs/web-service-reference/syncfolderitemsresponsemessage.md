@@ -26,7 +26,7 @@ The **SyncFolderItemsResponseMessage** element contains the status and result of
   
 [SyncFolderItemsResponseMessage](syncfolderitemsresponsemessage.md)
   
-```
+```xml
 <SyncFolderItemsResponseMessage ResponseClass="">
    <MessageText/>
    <ResponseCode/>

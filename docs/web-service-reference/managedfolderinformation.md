@@ -20,7 +20,7 @@ description: "The ManagedFolderInformation element contains information about a 
 
 The **ManagedFolderInformation** element contains information about a managed custom folder. 
   
-```
+```xml
 <ManagedFolderInformation>
    <CanDelete/>
    <CanRenameOrMove/>

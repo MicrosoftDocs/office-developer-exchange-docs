@@ -20,7 +20,7 @@ description: "The Watermark element represents an event bookmark in the mailbox 
 
 The **Watermark** element represents an event bookmark in the mailbox event queue. 
   
-```
+```xml
 <Watermark/>
 ```
 

@@ -20,7 +20,7 @@ description: "The Recipients element specifies an array of recipients of a messa
 
 The **Recipients** element specifies an array of recipients of a message. 
   
-```
+```xml
 <Recipients>   <SmtpAddress/></Recipients>
 ```
 

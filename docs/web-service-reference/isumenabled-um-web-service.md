@@ -19,7 +19,7 @@ description: "The IsUMEnabled element indicates whether a mailbox is enabled for
 
 The **IsUMEnabled** element indicates whether a mailbox is enabled for Unified Messaging. 
   
-```
+```xml
 <IsUMEnabled/>
 ```
 

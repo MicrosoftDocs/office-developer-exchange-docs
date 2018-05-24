@@ -20,7 +20,7 @@ description: "The ReminderMinutesBeforeStart element represents the number of mi
 
 The **ReminderMinutesBeforeStart** element represents the number of minutes before an event occurs when a reminder is displayed. 
   
-```
+```xml
 <ReminderMinutesBeforeStart/>
 ```
 

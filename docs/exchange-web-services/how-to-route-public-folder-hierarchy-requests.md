@@ -1,12 +1,8 @@
 ---
 title: "Route public folder hierarchy requests"
- 
- 
 manager: sethgros
 ms.date: 3/9/2015
 ms.audience: Developer
- 
- 
 localization_priority: Normal
 ms.assetid: ec35df8e-4d75-4aa1-8b9c-ae1db7e05772
 description: "All requests for public folder information that require knowledge of the public folder hierarchy, such as moving, updating, deleting, or finding public folders, need to be routed to the default public folder hierarchy mailbox for the given user. To route the requests to that mailbox, you need to set the X-AnchorMailbox and X-PublicFolderMailbox headers to specific values returned by the Autodiscover service."
@@ -18,11 +14,13 @@ All requests for public folder information that require knowledge of the public 
   
 **Overview of public folders**
 
-|**Header**|**What do I need?**|**How do I get it?**|
+|Header|What do I need?|How do I get it?|
 |:-----|:-----|:-----|
-|**X-AnchorMailbox** <br/> |The [PublicFolderInformation](http://msdn.microsoft.com/en-us/library/dn751006%28v=exchg.150%29.aspx) value from a [GetUserSettings](http://msdn.microsoft.com/en-us/library/office/dd877096%28v=exchg.150%29.aspx) Autodiscover SOAP response, which becomes the value of the **X-AnchorMailbox** header.  <br/> ![TODO](media/Ex15_PF_PFH_Anchor.png)| Send a **GetUserSetting** request with the SMTP address for the user's mailbox.  <br/>  Cache the value of the **PublicFolderInformation** element that the Autodiscover service returns. This can be a cached from an existing Autodiscover call in your code, or a new [EWS Managed API GetUserSettings call](#bk_getpfinfoewsma) or a [GetUserSettings SOAP request](#bk_getpfinfoews).  <br/>  Use the **PublicFolderInformation** element to populate the value of the **X-AnchorMailbox** header. The value of the **PublicFolderInformation** element is an SMTP address.  <br/> |
-|**X-PublicFolderMailbox** <br/> |The [Server](http://msdn.microsoft.com/en-us/library/bb204084%28v=exchg.150%29.aspx) value from a [POX Autodiscover response](http://msdn.microsoft.com/en-us/library/bb204082%28v=exchg.150%29.aspx), which becomes the value of the **X-PublicFolderMailbox** header.  <br/> ![TODO](media/Ex15_PF_PFH_PFMailbox.png)|[Call the POX Autodiscover](#bk_makeautodrequest) service using the **X-AnchorMailbox** email address.  <br/>  Use the **Server** element returned by the Autodiscover service to populate the value of the **X-PublicFolderMailbox** header. The value of the **X-PublicFolderMailbox** is an SMTP address where the username is a GUID.  <br/> |
-   
+|**X-AnchorMailbox** <br/> |The [PublicFolderInformation](http://msdn.microsoft.com/en-us/library/dn751006%28v=exchg.150%29.aspx) value from a [GetUserSettings](http://msdn.microsoft.com/en-us/library/office/dd877096%28v=exchg.150%29.aspx) Autodiscover SOAP response, which becomes the value of the **X-AnchorMailbox** header.<br/><br/> ![TODO](media/Ex15_PF_PFH_Anchor.png)| 1. Send a **GetUserSetting** request with the SMTP address for the user's mailbox.<br/><br/>2. Cache the value of the **PublicFolderInformation** element that the Autodiscover service returns. This can be a cached from an existing Autodiscover call in your code, or a new [EWS Managed API GetUserSettings call](#bk_getpfinfoewsma) or a [GetUserSettings SOAP request](#bk_getpfinfoews).  <br/><br/>3. Use the **PublicFolderInformation** element to populate the value of the **X-AnchorMailbox** header. The value of the **PublicFolderInformation** element is an SMTP address.  <br/> |
+|**X-PublicFolderMailbox** <br/> |The [Server](http://msdn.microsoft.com/en-us/library/bb204084%28v=exchg.150%29.aspx) value from a [POX Autodiscover response](http://msdn.microsoft.com/en-us/library/bb204082%28v=exchg.150%29.aspx), which becomes the value of the **X-PublicFolderMailbox** header.<br/><br/> ![TODO](media/Ex15_PF_PFH_PFMailbox.png)|1. [Call the POX Autodiscover](#bk_makeautodrequest) service using the **X-AnchorMailbox** email address.  <br/><br/>2. Use the **Server** element returned by the Autodiscover service to populate the value of the **X-PublicFolderMailbox** header. The value of the **X-PublicFolderMailbox** is an SMTP address where the username is a GUID.  <br/> |
+
+<br/>
+
 After you have determined the header values, include them [when you make public folder hierarchy requests](#bk_setheadervalues).
   
 The steps in this article are specific to public folder hierarchy requests. To determine whether your request is a public folder hierarchy or content request, see [Routing public folder requests](public-folder-access-with-ews-in-exchange.md#bk_routing).
@@ -41,15 +39,11 @@ Console.WriteLine("X-AnchorMailbox value for public folder hierarchy requests: {
 
 After running the code, the following information is displayed on the console:
   
-```
-X-AnchorMailbox for public folder hierarchy requests: SharedPublicFolder@contoso.com
-```
+`X-AnchorMailbox for public folder hierarchy requests: SharedPublicFolder@contoso.com`
 
 Now that you have the **PublicFolderInformation** value, include it as the value for the X-AnchorMailbox header in all public folder hierarchy requests. 
   
-```
-X-AnchorMailbox: SharedPublicFolder@contoso.com
-```
+`X-AnchorMailbox: SharedPublicFolder@contoso.com`
 
 ## Determine the value of the X-AnchorMailbox header using SOAP
 <a name="bk_getpfinfoews"> </a>
@@ -95,9 +89,7 @@ The response includes the **PublicFolderInformation** value.
 
 Now that you have the **PublicFolderInformation** value, include it as the value for the X-AnchorMailbox header in all public folder hierarchy requests. 
   
-```
-X-AnchorMailbox: SharedPublicFolder@contoso.com
-```
+`X-AnchorMailbox: SharedPublicFolder@contoso.com`
 
 ## Make an Autodiscover request to determine the X-PublicFolderInformation value
 <a name="bk_makeautodrequest"> </a>
@@ -112,9 +104,7 @@ Make an Autodiscover request by using the **PublicFolderInformation** SMTP addre
    
 For example, when SharedPublicFolder@contoso.com is the SMTP address of the **PublicFolderInformation** element, and sonyaf@contoso.com is the mailbox user, the command-line arguments should look like this. 
   
-```
-SharedPublicFolder@contoso.com -skipSOAP -auth sonyaf@contoso.com
-```
+`SharedPublicFolder@contoso.com -skipSOAP -auth sonyaf@contoso.com`
 
 When you run the **Exchange 2013: Get user settings with Autodiscover** sample, the last Autodiscover response should be successful and include all the user settings associated with the mailbox GUID. The [Server](http://msdn.microsoft.com/en-us/library/bb204084%28v=exchg.150%29.aspx) value associated with the EXCH [Protocol](http://msdn.microsoft.com/en-us/library/bb204278%28v=exchg.150%29.aspx)[Type](http://msdn.microsoft.com/en-us/library/office/bb204223%28v=exchg.150%29.aspx) element is the **X-PublicFolderInformation** header value. 
   
@@ -152,10 +142,8 @@ Using the value of the **PublicFolderInformation** SMTP address acquired in [Det
   
 For example, given a **PublicFolderInformation** SMTP address of SharedPublicFolder@contoso.com and a **Server** value of 1ec2a236-ed93-4f88-b9c6-33e63fa4aa44@contoso.com, include the following headers when making calls to the following methods or operations. 
   
-```
-X-AnchorMailbox: SharedPublicFolder@contoso.com
-X-PublicFolderMailbox: 1ec2a236-ed93-4f88-b9c6-33e63fa4aa44@contoso.com
-```
+`X-AnchorMailbox: SharedPublicFolder@contoso.com` <br/>
+`X-PublicFolderMailbox: 1ec2a236-ed93-4f88-b9c6-33e63fa4aa44@contoso.com`
 
 **Public folder calls that require the X-AnchorMailbox and X-PublicFolder headers**
 
@@ -210,11 +198,8 @@ Connection: Keep-Alive
 
 ## See also
 
-
-- [Public folder access with EWS in Exchange](public-folder-access-with-ews-in-exchange.md)
-    
-- [Route public folder content requests](how-to-route-public-folder-content-requests.md)
-    
+- [Public folder access with EWS in Exchange](public-folder-access-with-ews-in-exchange.md)    
+- [Route public folder content requests](how-to-route-public-folder-content-requests.md)    
 - [Get user settings by using the EWS Managed API](how-to-get-user-settings-from-exchange-by-using-autodiscover.md#bk_Managed)
     
 

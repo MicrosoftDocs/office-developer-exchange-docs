@@ -20,7 +20,7 @@ description: "The LastOccurrence element represents the last occurrence of a rec
 
 The **LastOccurrence** element represents the last occurrence of a recurring calendar item. 
   
-```
+```xml
 <LastOccurrence>
    <ItemId/>
    <Start/>

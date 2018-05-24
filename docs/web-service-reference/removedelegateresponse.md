@@ -20,7 +20,7 @@ description: "The RemoveDelegateResponse element contains the status and result 
 
 The **RemoveDelegateResponse** element contains the status and result of a [RemoveDelegate operation](removedelegate-operation.md) request. 
   
-```
+```xml
 <RemoveDelegateResponse>
    <ResponseMessages/>
    <MessageText/>

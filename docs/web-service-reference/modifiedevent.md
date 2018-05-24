@@ -20,7 +20,7 @@ description: "The ModifiedEvent element represents an event in which an item or 
 
 The **ModifiedEvent** element represents an event in which an item or folder is modified. 
   
-```
+```xml
 <ModifiedEvent>
    <Watermark/>
    <TimeStamp/>

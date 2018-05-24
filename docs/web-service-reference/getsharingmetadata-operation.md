@@ -29,7 +29,7 @@ The **GetSharingMetadata** operation can use the SOAP headers that are listed an
 |RequestVersion  <br/> |[RequestServerVersion](requestserverversion.md) <br/> |Identifies the schema version for the operation request.  <br/> |
 |ServerVersion  <br/> |[ServerVersionInfo](serverversioninfo.md) <br/> |Identifies the version of the server that responded to the request.  <br/> |
    
-## GetSharingMetadata Request Example
+## GetSharingMetadata request example
 
 ### Description
 
@@ -159,7 +159,7 @@ The **GetSharingMetadata** request will succeed even if invalid recipients are s
   
 If all intended recipients are invalid, the [EncryptedSharedFolderDataCollection](encryptedsharedfolderdatacollection.md) element will be empty. 
   
-## GetSharingMetadata Error Response
+## GetSharingMetadata error response
 
 ### Description
 

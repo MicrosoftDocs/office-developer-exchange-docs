@@ -7,23 +7,17 @@ ms.topic: reference
 localization_priority: Normal
 ms.assetid: cad0fa91-8d75-4dde-a484-518c837ae063
 description: "The EmwsUrl element specifies the URL of the best endpoint instance for Exchange Web Services (EWS) for a mail-enabled user."
- 
- 
 ---
 
 # EmwsUrl (POX)
 
 The **EmwsUrl** element specifies the URL of the best endpoint instance for Exchange Web Services (EWS) for a mail-enabled user. 
   
-[AutoDiscover (POX)](autodiscover-pox.md)
-  
-[Response (POX)](response-pox.md)
-  
-[Account (POX)](account-pox.md)
-  
-[Protocol (POX)](protocol-pox.md)
-  
-[EmwsUrl (POX)](emwsurl-pox.md)
+- [AutoDiscover (POX)](autodiscover-pox.md) 
+- [Response (POX)](response-pox.md) 
+- [Account (POX)](account-pox.md) 
+- [Protocol (POX)](protocol-pox.md) 
+- [EmwsUrl (POX)](emwsurl-pox.md)
   
 ```XML
 <EmwsUrl/>
@@ -57,7 +51,5 @@ The **EmwsUrl** element is an optional child element of the **Protocol** element
   
 ## See also
 
-
-
-[POX Autodiscover XML elements for Exchange](pox-autodiscover-xml-elements-for-exchange.md)
+- [POX Autodiscover XML elements for Exchange](pox-autodiscover-xml-elements-for-exchange.md)
 

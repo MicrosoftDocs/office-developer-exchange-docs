@@ -27,7 +27,7 @@ The **NetworkRequirements** element contains the criteria that are used to deter
   
 [NetworkRequirements (POX)](networkrequirements-pox.md)
   
-```
+```xml
 <NetworkRequirements>
    <IPv4Start/>
    <IPv4End/>

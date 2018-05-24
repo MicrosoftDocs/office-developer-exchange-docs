@@ -17,7 +17,7 @@ description: "The GetUserSettings operation contains a query for users' client a
 
 The **GetUserSettings** operation contains a query for users' client access configuration. 
   
-## GetUserSettings Request Example
+## GetUserSettings request example
 
 ### Description
 
@@ -61,7 +61,7 @@ The following XML example shows an Autodiscover request body that requests a use
 
 ```
 
-### Request Elements
+### Request elements
 
 The following elements are used in the request body:
   
@@ -81,7 +81,7 @@ The following elements are used in the request body:
     
 - [Users (SOAP)](users-soap.md)
     
-## GetUserSettings Response Example
+## GetUserSettings response example
 
 ### Description
 
@@ -147,7 +147,7 @@ The following example shows a successful **GetUserSettings** response.
 </s:Envelope>
 ```
 
-### Response Elements
+### Response elements
 
 The following elements are used in the response body:
   

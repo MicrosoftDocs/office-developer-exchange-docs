@@ -20,7 +20,7 @@ description: "The PostItem element represents a post item in the Exchange store.
 
 The **PostItem** element represents a post item in the Exchange store. 
   
-```
+```xml
 <PostItem>
    <MimeContent/>
    <ItemId/>

@@ -20,7 +20,7 @@ description: "The LastModifiedTime element indicates when an item was last modif
 
 The **LastModifiedTime** element indicates when an item was last modified. This element is read-only. 
   
-```
+```xml
 <LastModifiedTime/>
 ```
 

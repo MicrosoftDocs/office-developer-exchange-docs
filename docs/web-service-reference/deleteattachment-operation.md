@@ -1,7 +1,5 @@
 ---
 title: "DeleteAttachment operation"
- 
- 
 manager: sethgros
 ms.date: 9/17/2015
 ms.audience: Developer
@@ -24,7 +22,7 @@ The DeleteAttachment operation is used to delete file and item attachments from 
 
 This operation allows you to delete one or more attachments by ID.
   
-## DeleteAttachment Request Example
+## DeleteAttachment request example
 
 ### Description
 
@@ -53,7 +51,7 @@ The following example of a DeleteAttachment request shows how to delete an item 
 
 The attachment identifier has been shortened to preserve readability.
   
-### Request Elements
+### Request elements
 
 The following elements are used in the request:
   
@@ -63,7 +61,7 @@ The following elements are used in the request:
     
 - [AttachmentId](attachmentid.md)
     
-## DeleteAttachment Response Example
+## DeleteAttachment response example
 
 ### Description
 
@@ -104,7 +102,7 @@ The DeleteAttachment response includes the ID of the parent item. When attachmen
 > [!NOTE]
 > The [RootItemId](rootitemid.md) identifier and ChangeKey have been shortened to preserve readability. 
   
-### Successful Response Elements
+### Successful response elements
 
 The following elements are used in the response:
   
@@ -122,9 +120,6 @@ The following elements are used in the response:
     
 ## See also
 
-
-
-[CreateAttachment operation](createattachment-operation.md)
-  
-[GetAttachment operation](getattachment-operation.md)
+- [CreateAttachment operation](createattachment-operation.md) 
+- [GetAttachment operation](getattachment-operation.md)
 

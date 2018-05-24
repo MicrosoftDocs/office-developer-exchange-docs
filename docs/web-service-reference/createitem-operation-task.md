@@ -74,7 +74,7 @@ The following table shows the changes that the Client Access server makes to a r
    
 By default, if a destination folder is not specified, task items are created in the Tasks folder.
   
-### Request Elements
+### Request elements
 
 The following elements are used in the request:
   
@@ -126,7 +126,7 @@ The following example shows a successful response to the CreateItem request.
 </soap:Envelope>
 ```
 
-### Successful Response Elements
+### Successful response elements
 
 The following elements are included in the response:
   

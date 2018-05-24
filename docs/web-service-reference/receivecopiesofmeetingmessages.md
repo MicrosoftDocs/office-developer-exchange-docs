@@ -20,7 +20,7 @@ description: "The ReceiveCopiesOfMeetingMessages element indicates whether a del
 
 The **ReceiveCopiesOfMeetingMessages** element indicates whether a delegate receives copies of meeting-related messages that are addressed to the principal. This element was introduced in Microsoft Exchange Server 2007 Service Pack 1 (SP1). 
   
-```
+```xml
 <ReceiveCopiesOfMeetingMessages>true or false</ReceiveCopiesOfMeetingMessages>
 ```
 

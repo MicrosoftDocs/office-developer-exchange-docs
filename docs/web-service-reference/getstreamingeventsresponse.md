@@ -20,7 +20,7 @@ description: "The GetStreamingEventsResponse element represents a response to a 
 
 The **GetStreamingEventsResponse** element represents a response to a [GetStreamingEvents](getstreamingevents.md) element request. 
   
-```
+```xml
 <GetStreamingEventsResponse>
    <ResponseMessages/>
 </GetStreamingEventsResponse>

@@ -20,7 +20,7 @@ description: "The IsReadReceiptRequested element indicates whether the sender of
 
 The **IsReadReceiptRequested** element indicates whether the sender of an item requests a read receipt. 
   
-```
+```xml
 <IsReadReceiptRequested/>
 ```
 

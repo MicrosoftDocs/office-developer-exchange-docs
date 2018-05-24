@@ -20,7 +20,7 @@ description: "The Location element represents the location of a meeting, appoint
 
 The **Location** element represents the location of a meeting, appointment, or persona. 
   
-```
+```xml
 <Location/>
 ```
 

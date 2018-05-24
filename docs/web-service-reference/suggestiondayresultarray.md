@@ -26,7 +26,7 @@ The **SuggestionDayResultArray** element contains an array of meeting suggestion
   
 [SuggestionDayResultArray](suggestiondayresultarray.md)
   
-```
+```xml
 <SuggestionDayResultArray>
    <SuggestionDayResult>...</SuggestionDayResult>
 </SuggestionDayResultArray>

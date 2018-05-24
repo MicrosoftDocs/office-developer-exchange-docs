@@ -1,7 +1,5 @@
 ---
 title: "Deduplication"
- 
- 
 manager: sethgros
 ms.date: 9/17/2015
 ms.audience: Developer
@@ -20,7 +18,8 @@ The **Deduplication** element indicates whether the search result should remove 
 <Deduplication> true | false </Deduplication>
 ```
 
- **Boolean**
+**Boolean**
+
 ## Attributes and elements
 
 The following sections describe attributes, child elements, and parent elements.

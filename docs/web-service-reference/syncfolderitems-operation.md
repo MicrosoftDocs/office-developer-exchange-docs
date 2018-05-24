@@ -26,7 +26,7 @@ The SyncFolderItems operation will return a maximum of 512 changes. Subsequent S
   
 SyncFolderItems is similar to the FindItem operation in that it cannot return properties like Body or Attachments. If the SyncFolderItems operation does not return the properties that you need, you can use the [GetItem operation](getitem-operation.md) to get a specific set of properties for each item that it returned by SyncFolderItems. 
   
-## SyncFolderItems Request Example
+## SyncFolderItems request example
 
 ### Description
 
@@ -60,7 +60,7 @@ The following example of a SyncFolderItems request shows how to synchronize item
 
 The [SyncState](syncstate-ex15websvcsotherref.md) element base64-encoded data and the [ItemId](itemid.md) element **Id** attribute have been shortened to preserve readability. 
   
-### Request Elements
+### Request elements
 
 The following elements are used in the request:
   
@@ -143,7 +143,7 @@ The following example shows a successful response to the SyncFolderItems request
 
 The [SyncState](syncstate-ex15websvcsotherref.md) element base64-encoded data and the [ItemId](itemid.md) element **Id** attribute have been shortened to preserve readability. 
   
-### Successful Response Elements
+### Successful response elements
 
 The following elements are used in the response:
   
@@ -197,7 +197,7 @@ The following elements are used in the response:
     
 - [RoutingType (EmailAddressType)](routingtype-emailaddresstype.md)
     
-## SyncFolderItems Error Response
+## SyncFolderItems error response
 
 ### Description
 
@@ -233,7 +233,7 @@ The following example shows an error response to a SyncFolderItems request. This
 </soap:Envelope>
 ```
 
-### Error Response Elements
+### Error response elements
 
 The following elements are used in the error response:
   

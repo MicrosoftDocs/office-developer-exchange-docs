@@ -9,8 +9,6 @@ api_type:
 - schema
 ms.assetid: 268805b5-baf7-4826-b92e-cb9f9f5792ea
 description: "The DomainStringSetting element represents a domain setting the value of which is of type string."
- 
- 
 ---
 
 # DomainStringSetting (SOAP)
@@ -59,7 +57,5 @@ None.
    
 ## See also
 
-
-
-[GetDomainSettings operation (SOAP)](getdomainsettings-operation-soap.md)
+- [GetDomainSettings operation (SOAP)](getdomainsettings-operation-soap.md)
 

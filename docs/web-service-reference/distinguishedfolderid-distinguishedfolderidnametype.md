@@ -1,7 +1,5 @@
 ---
 title: "DistinguishedFolderId (DistinguishedFolderIdNameType)"
- 
- 
 manager: sethgros
 ms.date: 9/17/2015
 ms.audience: Developer
@@ -102,8 +100,6 @@ The schema that describes this element is located in the IIS virtual directory t
 |Can Be Empty  <br/> ||
    
 ## See also
-
-
 
 - [EWS XML elements in Exchange](ews-xml-elements-in-exchange.md)
 

@@ -1,12 +1,8 @@
 ---
 title: "Get service configuration information by using EWS in Exchange"
- 
- 
 manager: sethgros
 ms.date: 9/17/2015
 ms.audience: Developer
- 
- 
 localization_priority: Normal
 ms.assetid: 9379740a-96e1-490d-a229-0f9937c548d2
 description: "Find out how to get service configuration information for UM, policy nudges, mail tips, and protection rules from EWS in Exchange."
@@ -23,12 +19,12 @@ Does your EWS application work with Unified Messaging (UM), policy nudges, mail 
   
 **Table 1. Configuration information that the GetServiceConfiguration operation returns**
 
-|**EWS feature**|**GetServiceConfiguration operation returns…**|
+|EWS feature|GetServiceConfiguration operation returns…|
 |:-----|:-----|
-|UM  <br/> | A value that indicates whether UM is enabled.  <br/>  A value that indicates whether play on phone is enabled.  <br/>  The play on phone dial string.  <br/> |
-|Policy nudges  <br/> | Policy nudges for display in your client.  <br/> |
-|Mail tips  <br/> | A value that indicates whether mail tips are enabled.  <br/>  The maximum number of recipients per request.  <br/>  The maximum message size.  <br/>  The large audience threshold.  <br/>  A value that indicates whether the number of external recipients is shown.  <br/>  A list of internal domains.  <br/>  A value that indicates whether policy tips are enabled.  <br/>  The large audience cap threshold for indicating whether your mail is considered to have a large number of recipients.  <br/> |
-|Protection rules  <br/> | Protection rules setup for your client.  <br/>  A list of domains that are internal to your organization.  <br/> |
+|UM  <br/> | <ul><li>A value that indicates whether UM is enabled.</li><li>A value that indicates whether play on phone is enabled.</li><li>The play on phone dial string.</li></ul> |
+|Policy nudges  <br/> | <ul><li>Policy nudges for display in your client.</li></ul> |
+|Mail tips  <br/> | <ul><li>A value that indicates whether mail tips are enabled.</li><li>The maximum number of recipients per request.</li><li>The maximum message size.</li><li>The large audience threshold.</li><li>A value that indicates whether the number of external recipients is shown.</li><li>A list of internal domains.</li><li>A value that indicates whether policy tips are enabled.</li><li>The large audience cap threshold for indicating whether your mail is considered to have a large number of recipients.  </li></ul>|
+|Protection rules  <br/> | <ul><li>Protection rules setup for your client.</li><li>A list of domains that are internal to your organization.  </li></ul> |
    
 ## Code example: Get service configuration information for mail tips by using EWS
 
@@ -104,11 +100,8 @@ After you request service configuration information, use the [XmlDocument class]
     
 ## See also
 
-
-- [Configuration options for EWS in Exchange](configuration-options-for-ews-in-exchange.md)
-    
-- [Setting up your EWS application](setting-up-your-ews-application.md)
-    
+- [Configuration options for EWS in Exchange](configuration-options-for-ews-in-exchange.md)    
+- [Setting up your EWS application](setting-up-your-ews-application.md)    
 - [Develop web service clients for Exchange](develop-web-service-clients-for-exchange.md)
     
 

@@ -20,7 +20,7 @@ description: "The SubscriptionId element represents the identifier for a subscri
 
 The **SubscriptionId** element represents the identifier for a subscription. 
   
-```
+```xml
 <SubscriptionId/>
 ```
 

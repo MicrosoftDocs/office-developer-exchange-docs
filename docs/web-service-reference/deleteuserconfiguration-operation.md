@@ -1,7 +1,5 @@
 ---
 title: "DeleteUserConfiguration operation"
- 
- 
 manager: sethgros
 ms.date: 9/17/2015
 ms.audience: Developer
@@ -23,7 +21,7 @@ The **DeleteUserConfiguration** operation deletes a user configuration object on
 > [!IMPORTANT]
 > The **DeleteUserConfiguration** operation will trigger a move event for the event notification system. The user configuration object will be moved to the dumpster. 
   
-## DeleteUserConfiguration Request Example
+## DeleteUserConfiguration request example
 
 ### Description
 
@@ -51,7 +49,7 @@ The following example of a **DeleteUserConfiguration** request shows how to form
 </soap:Envelope>
 ```
 
-## DeleteUserConfiguration Response Example
+## DeleteUserConfiguration response example
 
 ### Description
 
@@ -89,9 +87,6 @@ The following example shows a successful response to the **DeleteUserConfigurati
 
 ## See also
 
-
-
-[EWS operations in Exchange](ews-operations-in-exchange.md)
-  
+- [EWS operations in Exchange](ews-operations-in-exchange.md) 
 - [EWS XML elements in Exchange](ews-xml-elements-in-exchange.md)
 

@@ -35,7 +35,7 @@ For information about how to set up messaging records management (MRM) policy, s
   
 For information about how to remove managed custom folders from a mailbox, see [Remove-ManagedFolder](http://go.microsoft.com/fwlink/?LinkId=100976).
   
-## CreateManagedFolder Request Example
+## CreateManagedFolder request example
 
 ### Description
 
@@ -62,7 +62,7 @@ The following example of a CreateManagedFolder request shows how to add a manage
 </soap:Envelope>
 ```
 
-### Request Elements
+### Request elements
 
 The following elements are used in the request:
   
@@ -113,7 +113,7 @@ The following code example shows a successful response to a CreateManagedFolder 
 </soap:Envelope>
 ```
 
-### Successful Response Elements
+### Successful response elements
 
 The following elements are used in the response: 
   
@@ -133,7 +133,7 @@ The following elements are used in the response:
     
 To find other options for the response messages of the CreateManagedFolder operation, explore the schema hierarchy. Start at the [CreateManagedFolderResponse](createmanagedfolderresponse.md) element. 
   
-## CreateManagedFolder Error Response
+## CreateManagedFolder error response
 
 ### Description
 
@@ -167,7 +167,7 @@ The following code example shows an error response to a CreateManagedFolder requ
 </soap:Envelope>
 ```
 
-### Error Response Elements
+### Error response elements
 
 The following elements are used in the error response:
   

@@ -24,7 +24,7 @@ The **ItemChanges** element contains an array of [ItemChange](itemchange.md) ele
   
 [ItemChanges](itemchanges.md)
   
-```
+```xml
 <ItemChanges>
    <ItemChange/>
 </ItemChanges>

@@ -26,7 +26,7 @@ The **ResolveNamesResponseMessage** element contains the status and result of a 
   
 [ResolveNamesResponseMessage](resolvenamesresponsemessage.md)
   
-```
+```xml
 <ResolveNamesResponseMessage ResponseClass="">
    <MessageText/>
    <ResponseCode/>

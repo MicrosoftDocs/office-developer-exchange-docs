@@ -20,7 +20,7 @@ description: "The Groups element contains a collection of groups that are found 
 
 The **Groups** element contains a collection of groups that are found with the search and aggregation criteria that is identified in the [FindItem operation](finditem-operation.md) request. 
   
-```
+```xml
 <Groups>
    <GroupedItems/>
 </Groups>

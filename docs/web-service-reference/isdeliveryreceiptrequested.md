@@ -20,7 +20,7 @@ description: "The IsDeliveryReceiptRequested element indicates whether the sende
 
 The **IsDeliveryReceiptRequested** element indicates whether the sender of an item requests a delivery receipt. 
   
-```
+```xml
 <IsDeliveryReceiptRequested/>
 ```
 

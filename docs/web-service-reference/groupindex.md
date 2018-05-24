@@ -34,7 +34,7 @@ The **GroupIndex** element represents the property value that is used to group i
   
 [GroupIndex](groupindex.md)
   
-```
+```xml
 <GroupIndex/>
 ```
 

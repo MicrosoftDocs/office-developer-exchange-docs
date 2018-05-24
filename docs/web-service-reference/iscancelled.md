@@ -20,7 +20,7 @@ description: "The IsCancelled element indicates whether an appointment or meetin
 
 The **IsCancelled** element indicates whether an appointment or meeting has been canceled. 
   
-```
+```xml
 <IsCancelled/>
 ```
 

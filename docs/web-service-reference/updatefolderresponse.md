@@ -20,7 +20,7 @@ description: "The UpdateFolderResponse element defines the response to an Update
 
 The **UpdateFolderResponse** element defines the response to an UpdateFolder request. 
   
-```
+```xml
 <UpdateFolderResponse>
    <ResponseMessages/>
 </UpdateFolderResponse>

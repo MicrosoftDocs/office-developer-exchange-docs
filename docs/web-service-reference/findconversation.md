@@ -48,7 +48,7 @@ The following sections describe attributes, child elements, and parent elements.
 |Traversal  <br/> |Identifies the types of sub-tree traversal. This attribute is optional.  <br/> |
 |ViewFilter  <br/> |Identifies the types view filters. This attribute is optional.  <br/> |
    
-#### Traversal Attribute Values
+#### Traversal attribute values
 
 ****
 
@@ -57,7 +57,7 @@ The following sections describe attributes, child elements, and parent elements.
 |Shallow  <br/> |Indicates a shallow traversal.  <br/> |
 |Deep  <br/> |Indicates a deep traversal.  <br/> |
    
-#### ViewFilter Attribute Values
+#### ViewFilter attribute values
 
 ****
 

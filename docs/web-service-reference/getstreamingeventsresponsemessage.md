@@ -20,7 +20,7 @@ description: "The GetStreamingEventsResponseMessage element contains the status 
 
 The **GetStreamingEventsResponseMessage** element contains the status and result of a single [GetStreamingEvents operation](getstreamingevents-operation.md) request. 
   
-```
+```xml
 <GetStreamingEventsResponseMessage ResponseClass="">
    <MessageText/>
    <ResponseCode/>

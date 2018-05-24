@@ -21,7 +21,7 @@ The **SetOofStatusResponse** element defines a response to a [SetOofStatus opera
   
 [SetOofStatusResponse (UM web service)](setoofstatusresponse-um-web-service.md)
   
-```
+```xml
 <SetOofStatusResponse />
 ```
 

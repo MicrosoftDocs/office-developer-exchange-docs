@@ -38,7 +38,7 @@ The **NumberOfMembersWithConflict** element represents the number of distributio
   
 [NumberOfMembersWithConflict](numberofmemberswithconflict.md)
   
-```
+```xml
 <NumberOfMembersWithConflict>...</NumberOfMembersWithConflict>
 ```
 

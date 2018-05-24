@@ -20,7 +20,7 @@ description: "The FieldOrder element represents a single field by which to sort 
 
 The **FieldOrder** element represents a single field by which to sort results and indicates the direction for the sort. 
   
-```
+```xml
 <FieldOrder Order="">
    <FieldURI/>
 </FieldOrder>

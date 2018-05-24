@@ -9,25 +9,19 @@ api_type:
 - schema
 ms.assetid: ab436b54-ceba-4cd9-aeb4-134f9b93986d
 description: "The DirectoryPort element specifies the port that is used to connect to the directory when the Name Service Provider Interface (NSPI) protocol is used."
- 
- 
 ---
 
 # DirectoryPort (POX)
 
 The **DirectoryPort** element specifies the port that is used to connect to the directory when the Name Service Provider Interface (NSPI) protocol is used. 
   
-[AutoDiscover (POX)](autodiscover-pox.md)
+- [AutoDiscover (POX)](autodiscover-pox.md) 
+- [Response (POX)](response-pox.md)  
+- [Account (POX)](account-pox.md)  
+- [Protocol (POX)](protocol-pox.md)  
+- [DirectoryPort (POX)](directoryport-pox.md)
   
-[Response (POX)](response-pox.md)
-  
-[Account (POX)](account-pox.md)
-  
-[Protocol (POX)](protocol-pox.md)
-  
-[DirectoryPort (POX)](directoryport-pox.md)
-  
-```
+```xml
 <DirectoryPort/>
 ```
 
@@ -59,7 +53,5 @@ The **DirectoryPort** element is only used when the [Type (POX)](type-pox.md) el
   
 ## See also
 
-
-
-[POX Autodiscover XML elements for Exchange](pox-autodiscover-xml-elements-for-exchange.md)
+- [POX Autodiscover XML elements for Exchange](pox-autodiscover-xml-elements-for-exchange.md)
 

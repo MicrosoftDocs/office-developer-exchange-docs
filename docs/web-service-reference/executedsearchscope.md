@@ -20,7 +20,7 @@ description: "The ExecutedSearchScope element contains the scope of the search t
 
 The **ExecutedSearchScope** element contains the scope of the search that was performed to get the search results. 
   
-```
+```xml
 <ExecutedSearchScope/>
 ```
 

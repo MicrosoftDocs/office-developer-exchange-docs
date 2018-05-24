@@ -20,7 +20,7 @@ description: "The SenderSmtpAddress element represents the SMTP e-mail address c
 
 The **SenderSmtpAddress** element represents the SMTP e-mail address corresponding to the mailbox that contains the folder that will be shared. 
   
-```
+```xml
 <SenderSmtpAddress/>
 ```
 

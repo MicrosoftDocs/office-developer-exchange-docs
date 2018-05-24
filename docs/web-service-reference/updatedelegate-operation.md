@@ -31,7 +31,7 @@ The **UpdateDelegate** operation can use the SOAP headers that are listed and de
 |RequestVersion  <br/> |[RequestServerVersion](requestserverversion.md) <br/> |Identifies the schema version for the operation request.  <br/> |
 |ServerVersion  <br/> |[ServerVersionInfo](serverversioninfo.md) <br/> |Identifies the version of the server that responded to the request.  <br/> |
    
-## UpdateDelegate Request Example
+## UpdateDelegate request example
 
 ### Description
 
@@ -81,7 +81,7 @@ The following example of an **UpdateDelegate** request shows you how to update d
 
 The [UpdateDelegate](updatedelegate.md) request does not require that updates be applied to delegates. Clients can change only the **DeliverMeetingMessage** setting. 
   
-## UpdateDelegate Response Example
+## UpdateDelegate response example
 
 ### Description
 
@@ -138,7 +138,7 @@ The following example shows a successful response to an **UpdateDelegate** opera
 </soap:Envelope>
 ```
 
-## UpdateDelegate Error Response Example
+## UpdateDelegate Error response example
 
 ### Description
 

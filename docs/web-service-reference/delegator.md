@@ -1,7 +1,5 @@
 ---
 title: "Delegator"
- 
- 
 manager: sethgros
 ms.date: 9/17/2015
 ms.audience: Developer
@@ -20,11 +18,12 @@ description: "The Delegator element contains the name of the delegator who assig
 
 The **Delegator** element contains the name of the delegator who assigned the task. 
   
-```
+```xml
 <Delegator/>
 ```
 
- **String**
+**String**
+
 ## Attributes and elements
 
 The following sections describe attributes, child elements, and parent elements.
@@ -61,8 +60,6 @@ The schema that describes this element is located in the EWS virtual directory o
 |Can be empty  <br/> |False  <br/> |
    
 ## See also
-
-
 
 - [EWS XML elements in Exchange](ews-xml-elements-in-exchange.md)
 

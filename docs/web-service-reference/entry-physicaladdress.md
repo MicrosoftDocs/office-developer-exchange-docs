@@ -20,7 +20,7 @@ description: "The Entry element describes a single physical address for a contac
 
 The **Entry** element describes a single physical address for a contact item. 
   
-```
+```xml
 <Entry Key="">
    <Street/>
    <City/>

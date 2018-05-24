@@ -20,7 +20,7 @@ description: "The UpdateDelegateResponse element contains the status and result 
 
 The **UpdateDelegateResponse** element contains the status and result of an [UpdateDelegate operation](updatedelegate-operation.md) request. 
   
-```
+```xml
 <UpdateDelegateResponseMessage>
    <ResponseMessages/>
    <MessageText/>

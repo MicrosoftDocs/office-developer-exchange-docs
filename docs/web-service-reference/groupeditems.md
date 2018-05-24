@@ -32,7 +32,7 @@ The **GroupedItems** element represents a collection of items that are the resul
   
 [GroupedItems](groupeditems.md)
   
-```
+```xml
 <GroupedItems>
    <GroupIndex/>
    <Items/>

@@ -21,7 +21,7 @@ The **Request** element contains the request to the Autodiscover service.
   
 [Request (POX)](request-pox.md)
   
-```
+```xml
 <Request>
    <AcceptableResponseSchema/>
    <EMailAddress/>

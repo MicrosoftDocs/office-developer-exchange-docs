@@ -20,7 +20,7 @@ description: "The RecipientIs element specifies that any recipient of the e-mail
 
 The **RecipientIs** element specifies that any recipient of the e-mail message matches any of the specified recipients in the child [Value (ProtectionRuleValueType)](value-protectionrulevaluetype.md) elements. 
   
-```
+```xml
 <RecipientIs>   <Value/></RecipientIs>
 ```
 

@@ -39,8 +39,8 @@ None.
 
 |**Element**|**Description**|
 |:-----|:-----|
-|[Email (EmailAddressType)](email-emailaddresstype.md) <br/> |Specifies the e-mail address of the MailboxData object. This element is used in the [GetUserAvailability operation](getuseravailability-operation.md).  <br/> The following is the XPath to this element:  <br/>  `/GetUserAvailabilityRequest/MailboxDataArray/MailboxData[i]/Email` <br/> |
-|[Mailbox (Availability)](mailbox-availability.md) <br/> | Represents the mailbox user for a SetUserOofSettings or GetUserOofSettings request.  <br/>  The following are the XPath expressions to this element:  <br/>  `/GetUserOofSettingsRequest/Mailbox` <br/>  `/SetUserOofSettingsRequest/Mailbox` <br/> |
+|[Email (EmailAddressType)](email-emailaddresstype.md) <br/> |Specifies the e-mail address of the MailboxData object. This element is used in the [GetUserAvailability operation](getuseravailability-operation.md).<br/><br/> The following is the XPath to this element:<br/><br/>  `/GetUserAvailabilityRequest/MailboxDataArray/MailboxData[i]/Email` <br/> |
+|[Mailbox (Availability)](mailbox-availability.md) <br/> | Represents the mailbox user for a SetUserOofSettings or GetUserOofSettings request.<br/><br/>  The following are the XPath expressions to this element:<br/><br/>  `/GetUserOofSettingsRequest/Mailbox` <br/>  `/SetUserOofSettingsRequest/Mailbox` <br/> |
    
 ## Text value
 

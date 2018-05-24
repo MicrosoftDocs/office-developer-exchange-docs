@@ -1,7 +1,5 @@
 ---
 title: "DeleteItemResponseMessage"
- 
- 
 manager: sethgros
 ms.date: 9/17/2015
 ms.audience: Developer
@@ -20,13 +18,11 @@ description: "The DeleteItemResponseMessage element contains the status and resu
 
 The **DeleteItemResponseMessage** element contains the status and result of a single [DeleteItem operation](deleteitem-operation.md) request. 
   
-[DeleteItemResponse](deleteitemresponse.md)
+- [DeleteItemResponse](deleteitemresponse.md) 
+- [ResponseMessages](responsemessages.md)  
+- [DeleteItemResponseMessage](deleteitemresponsemessage.md)
   
-[ResponseMessages](responsemessages.md)
-  
-[DeleteItemResponseMessage](deleteitemresponsemessage.md)
-  
-```
+```xml
 <DeleteItemResponseMessage>
    <MessageText/>
    <ResponseCode/>
@@ -44,15 +40,15 @@ The following sections describe attributes, child elements, and parent elements.
 
 |**Attribute**|**Description**|
 |:-----|:-----|
-|**ResponseClass** <br/> | Describes the status of a [DeleteItem operation](deleteitem-operation.md) response. The following values are valid for this attribute:  <br/>  Success  <br/>  Warning  <br/>  Error  <br/> |
+|**ResponseClass** <br/> | Describes the status of a [DeleteItem operation](deleteitem-operation.md) response.<br/><br/>The following values are valid for this attribute:<br/><br/>- Success  <br/>-  Warning  <br/>-  Error  <br/> |
    
-#### ResponseClass Attribute
+#### ResponseClass attribute
 
 |**Value**|**Description**|
 |:-----|:-----|
 |**Success** <br/> |Describes a request that is fulfilled.  <br/> |
-|**Warning** <br/> | Describes a request that was not processed. A warning may be returned if an error occurred while an item in the request was processing and subsequent items could not be processed. The following are examples of sources of warnings:  <br/>  The Exchange store goes offline during the batch.  <br/>  Active Directory Domain Services (AD DS) goes offline.  <br/>  Mailboxes are moved.  <br/>  The message database (MDB) goes offline.  <br/>  A password is expired.  <br/>  A quota is exceeded.  <br/> |
-|**Error** <br/> | Describes a request that cannot be fulfilled. The following are examples of sources of errors:  <br/>  Invalid attributes or elements  <br/>  Attributes or elements out of range  <br/>  Unknown tag  <br/>  Attribute or element not valid in the context  <br/>  A client attempt to set the error logging level above the maximum level that is permitted by the administrator  <br/>  A client attempt to set the severity failure level below the default level that is specified by the administrator  <br/>  Unauthorized access attempt by any client  <br/>  Server-side failure in response to a valid client-side call  <br/>  Information about the error can be found in the [ResponseCode](responsecode.md) and [MessageText](messagetext.md) elements.  <br/> |
+|**Warning** <br/> | Describes a request that was not processed. A warning may be returned if an error occurred while an item in the request was processing and subsequent items could not be processed.<br/><br/>The following are examples of sources of warnings:<br/><br/>-  The Exchange store goes offline during the batch.  <br/>-  Active Directory Domain Services (AD DS) goes offline.  <br/>-  Mailboxes are moved.  <br/>-  The message database (MDB) goes offline.  <br/>-  A password is expired.  <br/>-  A quota is exceeded.  <br/> |
+|**Error** <br/> | Describes a request that cannot be fulfilled.<br/><br/>The following are examples of sources of errors:<br/><br/>-  Invalid attributes or elements  <br/>-  Attributes or elements out of range  <br/>-  Unknown tag  <br/>-  Attribute or element not valid in the context  <br/>-  A client attempt to set the error logging level above the maximum level that is permitted by the administrator  <br/>-  A client attempt to set the severity failure level below the default level that is specified by the administrator  <br/>-  Unauthorized access attempt by any client  <br/>-  Server-side failure in response to a valid client-side call<br/><br/>  Information about the error can be found in the [ResponseCode](responsecode.md) and [MessageText](messagetext.md) elements.  <br/> |
    
 ### Child elements
 
@@ -88,15 +84,8 @@ In versions of Exchange starting with build 15.00.0986.00, the **DeleteItemRespo
    
 ## See also
 
-
-
-[DeleteItem operation](deleteitem-operation.md)
-
-
-[EWS reference for Exchange](ews-reference-for-exchange.md)
-  
+- [DeleteItem operation](deleteitem-operation.md)
+- [EWS reference for Exchange](ews-reference-for-exchange.md)
 - [EWS XML elements in Exchange](ews-xml-elements-in-exchange.md)
-
-
-[Deleting Items (Exchange Web Services)](http://msdn.microsoft.com/library/9bfc39e6-d944-4eb6-8aee-cbaf1e37c67d%28Office.15%29.aspx)
+- [Deleting Items (Exchange Web Services)](http://msdn.microsoft.com/library/9bfc39e6-d944-4eb6-8aee-cbaf1e37c67d%28Office.15%29.aspx)
 

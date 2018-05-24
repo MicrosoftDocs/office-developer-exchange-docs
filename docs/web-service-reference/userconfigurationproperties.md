@@ -20,7 +20,7 @@ description: "The UserConfigurationProperties element specifies the property typ
 
 The **UserConfigurationProperties** element specifies the property types to get in a GetUserConfiguration operation. 
   
-```
+```xml
 <UserConfigurationProperties>Id | Dictionary | XmlData | BinaryData | All</UserConfigurationProperties>
 ```
 

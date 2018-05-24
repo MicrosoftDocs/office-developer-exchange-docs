@@ -20,7 +20,7 @@ description: "The ReplyToAllItem element contains a reply to the sender and all 
 
 The **ReplyToAllItem** element contains a reply to the sender and all identified recipients of an item in the Exchange store. 
   
-```
+```xml
 <ReplyAllToItem>
    <Subject/>
    <Body/>

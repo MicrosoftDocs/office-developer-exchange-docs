@@ -21,7 +21,7 @@ The **GetUMProperties** element defines a [GetUMProperties operation (UM web ser
   
 [GetUMProperties (UM web service)](getumproperties-um-web-service.md)
   
-```
+```xml
 <GetUMProperties />
 ```
 

@@ -20,7 +20,7 @@ description: "The FindConversation operation enumerates a list of conversations 
 
 The **FindConversation** operation enumerates a list of conversations in a folder. 
   
-## FindConversation Request Example
+## FindConversation request example
 
 ### Description
 
@@ -49,7 +49,7 @@ The following example of a **FindConversation** request shows how to form a requ
 </soap:Envelope>
 ```
 
-### Request Elements
+### Request elements
 
 The following elements are used in the request:
   
@@ -63,7 +63,7 @@ The following elements are used in the request:
     
 - [DistinguishedFolderId](distinguishedfolderid.md)
     
-## Successful FindConversation Response Example
+## Successful FindConversation response example
 
 ### Description
 
@@ -147,7 +147,7 @@ The following example shows a successful response to a **FindConversation** requ
 
 The item and conversation identifiers in the example have been shortened to preserve readability.
   
-### Successful Response Elements
+### Successful response elements
 
 The following elements are used in the response:
   
@@ -207,7 +207,7 @@ The following elements are used in the response:
     
 - [GlobalItemIds](globalitemids.md)
     
-## FindConversation Error Response Example
+## FindConversation Error response example
 
 ### Description
 
@@ -236,7 +236,7 @@ The following example shows an error response to the **FindConversation** reques
 </s:Envelope>
 ```
 
-### Error Response Elements
+### Error response elements
 
 The following elements are used in the error response:
   

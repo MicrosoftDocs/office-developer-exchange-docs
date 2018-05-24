@@ -1,7 +1,5 @@
 ---
 title: "DeletedEvent"
- 
- 
 manager: sethgros
 ms.date: 9/17/2015
 ms.audience: Developer
@@ -20,7 +18,7 @@ description: "The DeletedEvent element represents an event in which an item or f
 
 The **DeletedEvent** element represents an event in which an item or folder is deleted. 
   
-```
+```xml
 <DeletedEvent>
    <Watermark/>
    <TimeStamp/>
@@ -29,7 +27,8 @@ The **DeletedEvent** element represents an event in which an item or folder is d
 </DeletedEvent>
 ```
 
- **BaseObjectChangedEventType**
+**BaseObjectChangedEventType**
+
 ## Attributes and elements
 
 The following sections describe attributes, child elements, and parent elements.
@@ -69,11 +68,7 @@ The schema that describes this element is located in the EWS virtual directory o
    
 ## See also
 
-
-
-[Subscribe operation](subscribe-operation.md)
-  
-[GetEvents operation](getevents-operation.md)
-  
-[Unsubscribe operation](unsubscribe-operation.md)
+- [Subscribe operation](subscribe-operation.md)  
+- [GetEvents operation](getevents-operation.md)  
+- [Unsubscribe operation](unsubscribe-operation.md)
 

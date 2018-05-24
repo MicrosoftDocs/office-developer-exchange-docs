@@ -20,7 +20,7 @@ description: "The MiddleName element represents the middle name of a contact."
 
 The **MiddleName** element represents the middle name of a contact. 
   
-```
+```xml
 <MiddleName/>
 ```
 

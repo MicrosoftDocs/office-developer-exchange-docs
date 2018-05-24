@@ -1,12 +1,8 @@
 ---
 title: "Authenticate an EWS application by using OAuth"
- 
- 
 manager: sethgros
 ms.date: 1/15/2015
 ms.audience: Developer
- 
- 
 localization_priority: Normal
 ms.assetid: 1d8d57f9-4df5-4f21-9bbb-a89e0e259052
 description: "Learn how to use OAuth authentication with your EWS Managed API applications."
@@ -34,14 +30,16 @@ To use the code in this article, you will need to have access to the following:
 - The [Azure AD Authentication Library for .NET](http://msdn.microsoft.com/en-us/library/office/jj573266.aspx.aspx).
     
 - [The EWS Managed API](https://github.com/officedev/ews-managed-api.aspx).
-    
-## Register your application
+
 <a name="bk_register"> </a>
 
+## Register your application
+
 To use OAuth, an application must have a client identifier and an application URI that identifies the application. If you have not yet registered your application with Azure Active Directory Services, you'll need to manually add your application by following the steps under [Register you app](http://msdn.microsoft.com/en-us/office/office365/howto/test-and-deploy-apps.aspx).
-  
-## Add code to get an authentication token
+
 <a name="bk_getToken"> </a>
+
+## Add code to get an authentication token
 
 The Azure AD Authentication Library for .NET simplifies getting an authentication token from Azure Active Directory so that you can use the token in your application. You need to provide four pieces of information to get the token:
   
@@ -55,7 +53,7 @@ The Azure AD Authentication Library for .NET simplifies getting an authenticatio
     
 The following code shows how to use the Azure AD Authentication Library to get an authentication token. It assumes that the information required to make the authentication request is stored in the application's App.config file. This example does not include error checking, see the [Code sample](#bk_codeSample) for the complete code. 
   
-```
+```cs
 string authority = ConfigurationManager.AppSettings["authority"];
 string clientID = ConfigurationManager.AppSettings["clientID"];
 Uri clientAppUri = new Uri(ConfigurationManager.AppSettings["clientAppUri"];
@@ -65,12 +63,13 @@ AuthenticationResult authenticationResult = authenticationContext.AcquireToken(s
 
 ```
 
-## Add an authentication token to EWS requests
 <a name="bk_useToken"> </a>
 
-Once you've received the **AuthenticationResult** object you can use the **AccessToken** property to get the token issued by the token service. 
+## Add an authentication token to EWS requests
+
+After you've received the **AuthenticationResult** object you can use the **AccessToken** property to get the token issued by the token service. 
   
-```
+```cs
 ExchangeService exchangeService = new ExchangeService(ExchangeVersion.Exchange2013);
 exchangeService.Url = new Uri(ConfigurationManager.AppSettings["serverName"]+"ews/exchange.asmx");
 exchangeService.TraceEnabled = true;
@@ -79,12 +78,13 @@ exchangeService.Credentials = new OAuthCredentials(authenticationResult.AccessTo
 exchangeService.FindFolders(WellKnownFolderName.Root, new Folderview(10));
 ```
 
-## Code sample
 <a name="bk_codeSample"> </a>
+
+## Code sample
 
 The following is the complete code sample that demonstrates making an OAuth-authenticated EWS request.
   
-```
+```cs
 using System;
 using System.Collections.Generic;
 using System.Configuration;
@@ -155,7 +155,7 @@ namespace TestV1App
 
 The sample code requires an App.config file with the following entries:
   
-```
+```xml
 <?xml version="1.0" encoding="utf-8" ?>
 <configuration>
   <startup>
@@ -172,9 +172,7 @@ The sample code requires an App.config file with the following entries:
 
 ## See also
 
-
-- [Authentication and EWS in Exchange](authentication-and-ews-in-exchange.md)
-    
+- [Authentication and EWS in Exchange](authentication-and-ews-in-exchange.md)    
 - [Test and deploy Office 365 apps](http://msdn.microsoft.com/en-us/office/office365/howto/test-and-deploy-apps.aspx)
     
 

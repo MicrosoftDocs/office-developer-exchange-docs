@@ -20,7 +20,7 @@ description: "The ExportItems operation exports items out of a mailbox."
 
 The **ExportItems** operation exports items out of a mailbox. 
   
-## ExportItems Request Example
+## ExportItems request example
 
 ### Description
 
@@ -54,7 +54,7 @@ The following example of an **ExportItems** request shows how to form a request 
 
 The item identifiers in the example have been shortened to preserve readability.
   
-### Request Elements
+### Request elements
 
 The following elements are used in the request:
   
@@ -66,7 +66,7 @@ The following elements are used in the request:
     
 - [ItemId](itemid.md)
     
-## Successful ExportItems Response Example
+## Successful ExportItems response example
 
 ### Description
 
@@ -148,7 +148,7 @@ The following example shows a successful response to an **ExportItems** request.
 
 The item identifiers and change keys in the example have been shortened to preserve readability.
   
-### Response Elements
+### Response elements
 
 The following elements are used in the response:
   
@@ -166,7 +166,7 @@ The following elements are used in the response:
     
 - [Data (base64Binary)](data-base64binary.md)
     
-## ExportItems Error Response Example
+## ExportItems Error response example
 
 ### Description
 
@@ -228,7 +228,7 @@ The following example shows a response to the **ExportItems** request that conta
 
 The item identifiers, change keys, and data in the example have been shortened to preserve readability.
   
-### Error Response Elements
+### Error response elements
 
 The following elements are used in the error response:
   

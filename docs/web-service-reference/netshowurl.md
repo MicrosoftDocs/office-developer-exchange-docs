@@ -20,7 +20,7 @@ description: "The NetShowUrl element specifies the URL for a Microsoft NetShow o
 
 The **NetShowUrl** element specifies the URL for a Microsoft NetShow online meeting. 
   
-```
+```xml
 <NetShowUrl/>
 ```
 

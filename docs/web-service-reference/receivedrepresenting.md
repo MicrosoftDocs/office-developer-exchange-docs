@@ -20,7 +20,7 @@ description: "The ReceivedRepresenting element identifies the principal in a del
 
 The **ReceivedRepresenting** element identifies the principal in a delegate access scenario. 
   
-```
+```xml
 <ReceivedRepresenting>
    <Mailbox/>
 </ReceivedRepresenting>

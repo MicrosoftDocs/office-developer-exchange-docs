@@ -1,7 +1,5 @@
 ---
 title: "DisconnectPhoneCallResponse"
- 
- 
 manager: sethgros
 ms.date: 9/17/2015
 ms.audience: Developer
@@ -20,7 +18,7 @@ description: "The DisconnectPhoneCallResponse element contains the status and re
 
 The **DisconnectPhoneCallResponse** element contains the status and result of a single **DisconnectPhoneCall** request. 
   
-```
+```xml
 <DisconnectPhoneCallResponse ResponseClass="">
    <MessageText/>
    <ResponseCode/>
@@ -40,7 +38,7 @@ The following sections describe attributes, child elements, and parent elements.
 |:-----|:-----|
 |**ResponseClass** <br/> | Describes the status of the response. The following values are valid for this attribute:  <br/>  Success  <br/>  Warning  <br/>  Error  <br/> |
    
-#### ResponseClass Attribute Values
+#### ResponseClass attribute values
 
 |**Value**|**Description**|
 |:-----|:-----|
@@ -79,8 +77,6 @@ The schema that describes this element is located in the IIS virtual directory t
 |Can be Empty  <br/> |False  <br/> |
    
 ## See also
-
-
 
 - [EWS XML elements in Exchange](ews-xml-elements-in-exchange.md)
 

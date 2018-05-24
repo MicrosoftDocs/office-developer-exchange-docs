@@ -20,7 +20,7 @@ description: "The PostedTime element represents the time at which a PostItem was
 
 The **PostedTime** element represents the time at which a [PostItem](postitem.md) was posted. This element is read-only. This element was introduced in Microsoft Exchange Server 2007 Service Pack 1 (SP1). 
   
-```
+```xml
 <PostedTime/>
 ```
 

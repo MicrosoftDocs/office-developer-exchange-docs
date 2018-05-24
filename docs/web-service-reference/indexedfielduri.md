@@ -20,7 +20,7 @@ description: "The IndexedFieldURI element identifies individual members of a dic
 
 The **IndexedFieldURI** element identifies individual members of a dictionary. 
   
-```
+```xml
 <IndexedFieldURI FieldURI="" FieldIndex="" />
 ```
 

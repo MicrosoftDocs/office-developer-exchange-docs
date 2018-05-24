@@ -20,7 +20,7 @@ description: "The TransitionsGroup element represents an array of time zone tran
 
 The **TransitionsGroup** element represents an array of time zone transitions. 
   
-```
+```xml
 <TransitionsGroup Id="">
    <AbsoluteDateTransition/>
    <RecurringDayTransition/>

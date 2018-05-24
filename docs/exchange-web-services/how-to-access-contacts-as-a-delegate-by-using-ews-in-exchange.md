@@ -1,12 +1,8 @@
 ---
 title: "Access contacts as a delegate by using EWS in Exchange"
- 
- 
 manager: sethgros
 ms.date: 3/9/2015
 ms.audience: Developer
- 
- 
 localization_priority: Normal
 ms.assetid: 3cd34c14-18b0-4fe2-a4c2-d884318c88fc
 description: "Learn how to access contacts as a delegate by using the EWS Managed API or EWS in Exchange."
@@ -188,7 +184,7 @@ EWS enables you to use the service object for the delegate user to resolve parti
   
 This is also the XML request that the EWS Managed API sends when you use the **ResolveName** method to [resolve a contact](#bk_resolveewsma).
   
-```
+```xml
  <?xml version="1.0" encoding="utf-8"?>
 <soap:Envelope xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
                xmlns:m="http://schemas.microsoft.com/exchange/services/2006/messages"
@@ -299,15 +295,10 @@ You can use EWS to get, update, or delete a meeting or appointment contact in th
    
 ## See also
 
-
 - [Delegate access and EWS in Exchange](delegate-access-and-ews-in-exchange.md)
-    
 - [Add and remove delegates by using EWS in Exchange](how-to-add-and-remove-delegates-by-using-ews-in-exchange.md)
-    
 - [Set folder permissions for another user by using EWS in Exchange](how-to-set-folder-permissions-for-another-user-by-using-ews-in-exchange.md)
-    
 - [People and contacts in EWS in Exchange](people-and-contacts-in-ews-in-exchange.md)
-    
 - [Resolve ambiguous names by using EWS in Exchange 2013](how-to-resolve-ambiguous-names-by-using-ews-in-exchange-2013.md)
     
 

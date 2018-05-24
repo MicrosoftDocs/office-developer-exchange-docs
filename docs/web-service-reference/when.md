@@ -20,7 +20,7 @@ description: "The When element provides information about when a calendar or mee
 
 The **When** element provides information about when a calendar or meeting item occurs. 
   
-```
+```xml
 <When/>
 ```
 

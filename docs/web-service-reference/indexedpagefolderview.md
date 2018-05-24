@@ -24,7 +24,7 @@ The **IndexedPageFolderView** element describes how paged item information is re
   
 [IndexedPageFolderView](indexedpagefolderview.md)
   
-```
+```xml
 <IndexedPageFolderView MaxEntriesReturned="" Offset="" BasePoint="" />
 ```
 

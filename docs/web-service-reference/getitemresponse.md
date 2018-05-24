@@ -20,7 +20,7 @@ description: "The GetItemResponse element defines a response to a GetItem reques
 
 The **GetItemResponse** element defines a response to a GetItem request. 
   
-```
+```xml
 <GetItemResponse>
    <ResponseMessages/>
 </GetItemResponse>

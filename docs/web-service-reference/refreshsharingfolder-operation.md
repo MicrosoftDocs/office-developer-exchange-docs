@@ -29,7 +29,7 @@ The **RefreshSharingFolder** operation can use the SOAP headers that are listed 
 |RequestVersion  <br/> |[RequestServerVersion](requestserverversion.md) <br/> |Identifies the schema version for the operation request.  <br/> |
 |ServerVersion  <br/> |[ServerVersionInfo](serverversioninfo.md) <br/> |Identifies the version of the server that responded to the request.  <br/> |
    
-## RefreshSharingFolder Request Example
+## RefreshSharingFolder request example
 
 ### Description
 
@@ -55,7 +55,7 @@ The following example shows how to form a request to refresh the specified local
 </soap:Envelope>
 ```
 
-### Request Elements
+### Request elements
 
 The following elements are used in the request:
   
@@ -97,7 +97,7 @@ The following example shows a successful response to a **RefreshSharingFolder** 
 </soap:Envelope>
 ```
 
-### Successful Response Elements
+### Successful response elements
 
 The following elements are used in the response:
   
@@ -107,7 +107,7 @@ The following elements are used in the response:
     
 - [ResponseCode](responsecode.md)
     
-## RefreshSharingFolder Error Response
+## RefreshSharingFolder error response
 
 ### Description
 
@@ -144,7 +144,7 @@ The following example shows an error response to a **RefreshSharingFolder** requ
 </soap:Envelope>
 ```
 
-### Error Response Elements
+### Error response elements
 
 The following elements are used in the error response:
   

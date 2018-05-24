@@ -20,7 +20,7 @@ description: "The FindItem element defines a request to find items in a mailbox.
 
 The **FindItem** element defines a request to find items in a mailbox. 
   
-```
+```xml
 <FindItem Traversal="">
    <ItemShape/>
    <IndexedPageItemView/>
@@ -43,7 +43,7 @@ The following sections describe attributes, child elements, and parent elements.
 |:-----|:-----|
 |**Traversal** <br/> |Defines whether the search finds items in folders or the folders' dumpsters. This attribute is required.  <br/> |
    
-#### Traversal Attribute Values
+#### Traversal attribute values
 
 |**Value**|**Description**|
 |:-----|:-----|

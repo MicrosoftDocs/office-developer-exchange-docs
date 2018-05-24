@@ -20,7 +20,7 @@ description: "The SIPResponseCode element specifies the SIP response code."
 
 The **SIPResponseCode** element specifies the SIP response code. 
   
-```
+```xml
 <SIPResponseCode/>
 ```
 

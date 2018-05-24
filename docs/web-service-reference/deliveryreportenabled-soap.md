@@ -7,8 +7,6 @@ ms.topic: reference
 localization_priority: Normal
 ms.assetid: 2ab522bc-40ea-4e43-aa57-6d2562db35e9
 description: "The DeliveryReportEnabled element represents the DeliveryReportEnabled() flag. The DeliveryReportEnabled element is for internal use only. This element is not used by clients."
- 
- 
 ---
 
 # DeliveryReportEnabled (SOAP)
@@ -57,7 +55,5 @@ Use this element to allow or suppress delivery reports from the server.
    
 ## See also
 
-
-
-[GetOrganizationRelationshipSettings operation (SOAP)](getorganizationrelationshipsettings-operation-soap.md)
+- [GetOrganizationRelationshipSettings operation (SOAP)](getorganizationrelationshipsettings-operation-soap.md)
 

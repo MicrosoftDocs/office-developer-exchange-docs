@@ -20,7 +20,7 @@ description: "The GetUserConfiguration operation gets a user configuration objec
 
 The **GetUserConfiguration** operation gets a user configuration object from a folder. 
   
-## GetUserConfiguration Request Example
+## GetUserConfiguration request example
 
 ### Description
 
@@ -49,7 +49,7 @@ The following example of a **GetUserConfiguration** request shows how to form a 
 </soap:Envelope>
 ```
 
-## GetUserConfiguration Response Example
+## GetUserConfiguration response example
 
 ### Description
 

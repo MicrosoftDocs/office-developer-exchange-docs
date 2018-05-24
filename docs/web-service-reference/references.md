@@ -20,7 +20,7 @@ description: "The References element represents the Usenet header that is used t
 
 The **References** element represents the Usenet header that is used to associate replies with the original messages. 
   
-```
+```xml
 <References/>
 ```
 

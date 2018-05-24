@@ -30,7 +30,7 @@ The **Resolution** element contains a single resolved entity.
   
 [Resolution](resolution.md)
   
-```
+```xml
 <Resolution>
    <Mailbox/>
    <Contact/>

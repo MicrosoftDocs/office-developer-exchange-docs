@@ -26,7 +26,7 @@ The **UpdateItemResponseMessage** element contains the status and result of a si
   
 [UpdateItemResponseMessage](updateitemresponsemessage.md)
   
-```
+```xml
 <UpdateItemResponseMessage ResponseClass="">
    <MessageText/>
    <ResponseCode/>
@@ -48,7 +48,7 @@ The following sections describe attributes, child elements, and parent elements.
 |:-----|:-----|
 |**ResponseClass** <br/> | Describes the status of an [UpdateItem operation](updateitem-operation.md) response. The following values are valid for this attribute:  <br/>  Success  <br/>  Warning  <br/>  Error  <br/> |
    
-#### ResponseClass Attribute Values
+#### ResponseClass attribute values
 
 |**Value**|**Description**|
 |:-----|:-----|

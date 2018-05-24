@@ -20,7 +20,7 @@ description: "The UID element uniquely identifies a calendar item."
 
 The **UID** element uniquely identifies a calendar item. 
   
-```
+```xml
 <UID>   </UID>
 ```
 

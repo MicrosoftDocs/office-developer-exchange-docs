@@ -21,7 +21,7 @@ The **SetOofStatus** element defines a request to set the Unified Messaging Out 
   
 [SetOofStatus (UM web service)](setoofstatus-um-web-service.md)
   
-```
+```xml
 <SetOofStatus>
   <status/>
 </SetOofStatus>

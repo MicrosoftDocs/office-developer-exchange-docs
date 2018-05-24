@@ -1,7 +1,5 @@
 ---
 title: "GetPhoneCallInformation operation"
- 
- 
 manager: sethgros
 ms.date: 9/17/2015
 ms.audience: Developer
@@ -20,7 +18,7 @@ description: "The GetPhoneCallInformation operation returns information about th
 
 The **GetPhoneCallInformation** operation returns information about the specified telephone call. 
   
-## GetPhoneCallInformation Request Example
+## GetPhoneCallInformation request example
 
 ### Description
 
@@ -28,7 +26,7 @@ The following example of a **GetPhoneCallInformation** request shows how to form
   
 ### Code
 
-```
+```xml
 <?xml version="1.0" encoding="utf-8"?>
 <soap:Envelope xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
                xmlns:m="http://schemas.microsoft.com/exchange/services/2006/messages"
@@ -46,7 +44,7 @@ The following example of a **GetPhoneCallInformation** request shows how to form
 </soap:Envelope>
 ```
 
-## GetPhoneCallInformation Response Example
+## GetPhoneCallInformation response example
 
 ### Description
 
@@ -54,7 +52,7 @@ The following example shows a successful response to the **GetPhoneCallInformati
   
 ### Code
 
-```
+```xml
 <?xml version="1.0" encoding="utf-8"?>
 <s:Envelope xmlns:s="http://schemas.xmlsoap.org/soap/envelope/">
   <s:Header>
@@ -84,9 +82,6 @@ The following example shows a successful response to the **GetPhoneCallInformati
 
 ## See also
 
-
-
-[EWS operations in Exchange](ews-operations-in-exchange.md)
-  
+- [EWS operations in Exchange](ews-operations-in-exchange.md)
 - [EWS XML elements in Exchange](ews-xml-elements-in-exchange.md)
 

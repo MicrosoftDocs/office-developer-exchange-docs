@@ -20,7 +20,7 @@ description: "The GetAttachmentResponse element defines a response to a GetAttac
 
 The **GetAttachmentResponse** element defines a response to a GetAttachment request. 
   
-```
+```xml
 <GetAttachmentResponse>
    <ResponseMessages/>
 </GetAttachmentResponse>

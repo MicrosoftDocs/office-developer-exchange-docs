@@ -20,7 +20,7 @@ description: "The RecurrenceId element is used to identify a specific instance o
 
 The **RecurrenceId** element is used to identify a specific instance of a recurring calendar item. 
   
-```
+```xml
 <RecurrenceId/>
 ```
 

@@ -20,7 +20,7 @@ description: "The Message element contains the out of Office (OOF) response."
 
 The **Message** element contains the out of Office (OOF) response. 
   
-```
+```xml
 <Message/> 
 ```
 

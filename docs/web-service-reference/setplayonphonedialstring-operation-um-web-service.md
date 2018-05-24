@@ -19,7 +19,7 @@ description: "The SetPlayOnPhoneDialString operation sets the dial string to use
 
 The SetPlayOnPhoneDialString operation sets the dial string to use as the default for the [PlayOnPhone operation (UM web service)](playonphone-operation-um-web-service.md) and the [PlayOnPhoneGreeting operation (UM web service)](playonphonegreeting-operation-um-web-service.md).
   
-## SetPlayOnPhoneDialString Request Example
+## SetPlayOnPhoneDialString request example
 
 ### Description
 
@@ -38,7 +38,7 @@ The following example of a SetPlayOnPhoneDialString request shows how to form a 
 </soap:Envelope>
 ```
 
-## Successful SetPlayOnPhoneDialString Response Example
+## Successful SetPlayOnPhoneDialString response example
 
 ### Description
 

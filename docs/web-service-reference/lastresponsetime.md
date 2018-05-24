@@ -20,7 +20,7 @@ description: "The LastResponseTime element represents the date and time of the l
 
 The **LastResponseTime** element represents the date and time of the latest response received. 
   
-```
+```xml
 <LastResponseTime/>
 ```
 

@@ -20,7 +20,7 @@ description: "The NewBodyContent element represents the new body content of a me
 
 The **NewBodyContent** element represents the new body content of a message. 
   
-```
+```xml
 <NewBodyContent BodyType=""/>
 ```
 

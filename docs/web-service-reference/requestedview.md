@@ -26,7 +26,7 @@ The **RequestedView** element defines the type of calendar information that a cl
   
 [RequestedView](requestedview.md)
   
-```
+```xml
 <RequestedView>None or MergedOnly or FreeBusy or FreeBusyMerged or Detailed or DetailedMerged</RequestedView>
 ```
 

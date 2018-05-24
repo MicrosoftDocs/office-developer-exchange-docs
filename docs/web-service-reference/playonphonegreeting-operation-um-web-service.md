@@ -19,7 +19,7 @@ description: "The PlayOnPhoneGreeting operation makes an outbound call and plays
 
 The PlayOnPhoneGreeting operation makes an outbound call and plays one of the two greeting messages on the telephone.
   
-## PlayOnPhoneGreeting Request Example
+## PlayOnPhoneGreeting request example
 
 ### Description
 
@@ -39,7 +39,7 @@ The following example of a PlayOnPhoneGreeting request shows how to form a reque
 </soap:Envelope>
 ```
 
-## Successful PlayOnPhoneGreeting Response Example
+## Successful PlayOnPhoneGreeting response example
 
 ### Description
 

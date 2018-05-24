@@ -26,7 +26,7 @@ The **TimeWindow** element identifies the time span queried for the user availab
   
 [TimeWindow](timewindow.md)
   
-```
+```xml
 <TimeWindow>
    <StartTime>dateTime</StartTime>
    <EndTime>dateTime</EndTime>

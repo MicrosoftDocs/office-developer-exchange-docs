@@ -20,7 +20,7 @@ description: "The Offset element describes the offset from the BaseOffset. Toget
 
 The **Offset** element describes the offset from the [BaseOffset](baseoffset.md). Together with the **BaseOffset** element, the **Offset** element identifies whether the time is standard or daylight saving time. 
   
-```
+```xml
 <Offset/>
 ```
 

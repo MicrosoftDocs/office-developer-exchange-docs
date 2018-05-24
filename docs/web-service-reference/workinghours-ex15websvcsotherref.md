@@ -30,7 +30,7 @@ The **WorkingHours** element represents the time zone settings and working hours
   
 [WorkingHours](workinghours-ex15websvcsotherref.md)
   
-```
+```xml
 <WorkingHours>
    <TimeZone>...</TimeZone>
    <WorkingPeriodArray>...</WorkingPeriodArray>

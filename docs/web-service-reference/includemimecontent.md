@@ -20,7 +20,7 @@ description: "The IncludeMimeContent element specifies whether the Multipurpose 
 
 The **IncludeMimeContent** element specifies whether the Multipurpose Internet Mail Extensions (MIME) content of an item or attachment is returned in the response. 
   
-```
+```xml
 <IncludeMimeContent>true or false</IncludeMimeContent>
 ```
 

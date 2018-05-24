@@ -20,7 +20,7 @@ description: "The GetAttachment element is the root element in a request to get 
 
 The **GetAttachment** element is the root element in a request to get an attachment from the Exchange store. 
   
-```
+```xml
 <GetAttachment>
    <AttachmentShape/>
    <AttachmentIds/>

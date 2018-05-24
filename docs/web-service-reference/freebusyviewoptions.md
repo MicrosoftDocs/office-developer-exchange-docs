@@ -24,7 +24,7 @@ The **FreeBusyViewOptions** element specifies the type of free/busy information 
   
 [FreeBusyViewOptions](freebusyviewoptions.md)
   
-```
+```xml
 <FreeBusyViewOptions>
    <TimeWindow>...</TimeWindow>
    <MergedFreeBusyIntervalInMinutes>...</MergedFreeBusyIntervalInMinutes>

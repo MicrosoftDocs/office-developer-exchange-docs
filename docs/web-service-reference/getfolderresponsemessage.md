@@ -26,7 +26,7 @@ The **GetFolderResponseMessage** element contains the status and result of a sin
   
 [GetFolderResponseMessage](getfolderresponsemessage.md)
   
-```
+```xml
 <GetFolderResponseMessage ResponseClass="">
    <MessageText/>
    <ResponseCode/>

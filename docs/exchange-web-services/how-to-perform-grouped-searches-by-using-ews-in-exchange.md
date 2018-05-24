@@ -1,12 +1,8 @@
 ---
 title: "Perform grouped searches by using EWS in Exchange"
- 
- 
 manager: sethgros
 ms.date: 9/17/2015
 ms.audience: Developer
- 
- 
 localization_priority: Normal
 ms.assetid: 55de92eb-8e8b-4156-8ad9-dd3828024242
 description: "Find out how to perform grouped searches in your EWS Managed API or EWS application that targets Exchange."
@@ -26,14 +22,18 @@ Grouping works by putting all items within the result set that have the same val
 |:-----|:-----|:-----|
 |Organize items with the same value in a specific property in your results into groups  <br/> |[Grouping.GroupOn](http://msdn.microsoft.com/en-us/library/microsoft.exchange.webservices.data.grouping.groupon%28v=exchg.80%29.aspx) <br/> |[FieldURI](http://msdn.microsoft.com/library/24af8e3b-3074-4c8c-8d0a-52446508d044%28Office.15%29.aspx) element as a child of the [GroupBy](http://msdn.microsoft.com/library/9728619b-4674-4b9d-9f6c-e75c6165966c%28Office.15%29.aspx) element  <br/> |
 |Sort items within each group by the value in a specific property  <br/> |[ItemView.OrderBy](http://msdn.microsoft.com/en-us/library/microsoft.exchange.webservices.data.itemview.orderby%28v=exchg.80%29.aspx) <br/> |[SortOrder](http://msdn.microsoft.com/library/c2413f0b-8c03-46ae-9990-13338b3c53a6%28Office.15%29.aspx) element  <br/> |
-|Sort the groups  <br/> |[Grouping.AggregateOn](http://msdn.microsoft.com/en-us/library/microsoft.exchange.webservices.data.grouping.aggregateon%28v=exchg.80%29.aspx) <br/> [Grouping.AggregateType](http://msdn.microsoft.com/en-us/library/microsoft.exchange.webservices.data.grouping.aggregatetype%28v=exchg.80%29.aspx) <br/> [Grouping.SortDirection](http://msdn.microsoft.com/en-us/library/microsoft.exchange.webservices.data.grouping.sortdirection%28v=exchg.80%29.aspx) <br/> |**FieldURI** element as a child of the [AggregateOn](http://msdn.microsoft.com/library/9b0a03f2-3282-46e1-b1a0-cbb9a0fbe9bb%28Office.15%29.aspx) element  <br/> **Aggregate** attribute on the **AggregateOn** element  <br/> **Order** attribute on the **GroupBy** element  <br/> |
+|Sort the groups  <br/> |[Grouping.AggregateOn](http://msdn.microsoft.com/en-us/library/microsoft.exchange.webservices.data.grouping.aggregateon%28v=exchg.80%29.aspx) <br/><br/> [Grouping.AggregateType](http://msdn.microsoft.com/en-us/library/microsoft.exchange.webservices.data.grouping.aggregatetype%28v=exchg.80%29.aspx) <br/><br/> [Grouping.SortDirection](http://msdn.microsoft.com/en-us/library/microsoft.exchange.webservices.data.grouping.sortdirection%28v=exchg.80%29.aspx) <br/> |**FieldURI** element as a child of the [AggregateOn](http://msdn.microsoft.com/library/9b0a03f2-3282-46e1-b1a0-cbb9a0fbe9bb%28Office.15%29.aspx) element<br/><br/> **Aggregate** attribute on the **AggregateOn** element<br/><br/>**Order** attribute on the **GroupBy** element  <br/> |
    
 Let's take it step by step.
   
 ## Group results by a specific property
 <a name="bk_GroupResults"> </a>
 
-The first step to using grouping is to select a property, or attribute on the items in the Exchange store, to group by. The EWS Managed API exposes these as class properties on the corresponding classes, while EWS exposes them as XML elements. You can choose any property, including custom or extended properties, but it is helpful to understand how items are grouped based on the value of the property you choose. All items that have the same value in the property you choose to group by will be grouped together. This might seem obvious, but it is an important detail. Consider what happens if you group by a date/time property, such as [Item.DateTimeReceived](http://msdn.microsoft.com/en-us/library/microsoft.exchange.webservices.data.item.datetimereceived%28v=exchg.80%29.aspx) in the EWS Managed API, or the [DateTimeReceived](http://msdn.microsoft.com/library/8f489bd4-2434-4d0a-91fe-1b5ba7eb5765%28Office.15%29.aspx) element in EWS. The intent might be to organize the results into groups, with each group containing items from the same day. However, grouping looks at the entire value, which includes the time. The end result is that the items will be grouped so that items received at the same time, down to the second, are in their own groups. The results will most likely be sorted into a large number of groups with a small number of items in each group. 
+The first step to using grouping is to select a property, or attribute on the items in the Exchange store, to group by. The EWS Managed API exposes these as class properties on the corresponding classes, while EWS exposes them as XML elements. You can choose any property, including custom or extended properties, but it is helpful to understand how items are grouped based on the value of the property you choose. 
+
+All items that have the same value in the property you choose to group by will be grouped together. This might seem obvious, but it is an important detail. Consider what happens if you group by a date/time property, such as [Item.DateTimeReceived](http://msdn.microsoft.com/en-us/library/microsoft.exchange.webservices.data.item.datetimereceived%28v=exchg.80%29.aspx) in the EWS Managed API, or the [DateTimeReceived](http://msdn.microsoft.com/library/8f489bd4-2434-4d0a-91fe-1b5ba7eb5765%28Office.15%29.aspx) element in EWS. The intent might be to organize the results into groups, with each group containing items from the same day. However, grouping looks at the entire value, which includes the time. 
+
+The end result is that the items will be grouped so that items received at the same time, down to the second, are in their own groups. The results will most likely be sorted into a large number of groups with a small number of items in each group. 
   
 To get a results set with a smaller number of groups and a larger number of items in each group, choose a property that is likely to have a smaller number of values, such as [EmailMessage.From](http://msdn.microsoft.com/en-us/library/microsoft.exchange.webservices.data.emailmessage.from%28v=exchg.80%29.aspx) or [Item.Categories](http://msdn.microsoft.com/en-us/library/microsoft.exchange.webservices.data.item.categories%28v=exchg.80%29.aspx) in the EWS Managed API, or [From](http://msdn.microsoft.com/library/5a52d644-3677-4049-874c-12bd5c3080dc%28Office.15%29.aspx) or [Categories](http://msdn.microsoft.com/library/d84d4927-b524-4e62-bf3d-1f12fec8c21a%28Office.15%29.aspx) in EWS. The following figure shows a list of emails that appear in an Inbox. 
   
@@ -325,15 +325,10 @@ Versions of Exchange starting with major version 15 return extra **Group** or **
   
 ## See also
 
-
-- [Search and EWS in Exchange](search-and-ews-in-exchange.md)
-    
-- [ExchangeService.FindItems](http://msdn.microsoft.com/en-us/library/microsoft.exchange.webservices.data.exchangeservice.finditems%28v=exchg.80%29.aspx)
-    
-- [Folder.FindItems](http://msdn.microsoft.com/en-us/library/microsoft.exchange.webservices.data.folder.finditems%28v=exchg.80%29.aspx)
-    
-- [Grouping class](http://msdn.microsoft.com/en-us/library/microsoft.exchange.webservices.data.grouping%28v=exchg.80%29.aspx)
-    
+- [Search and EWS in Exchange](search-and-ews-in-exchange.md)    
+- [ExchangeService.FindItems](http://msdn.microsoft.com/en-us/library/microsoft.exchange.webservices.data.exchangeservice.finditems%28v=exchg.80%29.aspx)    
+- [Folder.FindItems](http://msdn.microsoft.com/en-us/library/microsoft.exchange.webservices.data.folder.finditems%28v=exchg.80%29.aspx)   
+- [Grouping class](http://msdn.microsoft.com/en-us/library/microsoft.exchange.webservices.data.grouping%28v=exchg.80%29.aspx)    
 - [FindItem operation](http://msdn.microsoft.com/library/ebad6aae-16e7-44de-ae63-a95b24539729%28Office.15%29.aspx)
     
 

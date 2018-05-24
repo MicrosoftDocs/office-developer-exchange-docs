@@ -20,7 +20,7 @@ description: "The ResponseType element represents the type of recipient response
 
 The **ResponseType** element represents the type of recipient response that is received for a meeting. 
   
-```
+```xml
 <ResponseType/>
 ```
 

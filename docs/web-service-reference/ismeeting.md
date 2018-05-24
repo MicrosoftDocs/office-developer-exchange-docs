@@ -20,7 +20,7 @@ description: "The IsMeeting element indicates whether the calendar item is a mee
 
 The **IsMeeting** element indicates whether the calendar item is a meeting or an appointment. 
   
-```
+```xml
 <IsMeeting/>
 ```
 

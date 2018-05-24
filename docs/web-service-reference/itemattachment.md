@@ -20,7 +20,7 @@ description: "The ItemAttachment element represents an Exchange item that is att
 
 The **ItemAttachment** element represents an Exchange item that is attached to another Exchange item. 
   
-```
+```xml
 <ItemAttachment>
    <AttachmentId/>
    <Name/>

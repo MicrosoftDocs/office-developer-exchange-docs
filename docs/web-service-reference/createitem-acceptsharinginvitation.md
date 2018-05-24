@@ -20,7 +20,7 @@ description: "The CreateItem operation is used to accept an invitation to share 
 
 The **CreateItem** operation is used to accept an invitation to share another user's calendar or contacts data. 
   
-## Accept Sharing Invitation Request Example
+## Accept Sharing Invitation request example
 
 ### Description
 
@@ -44,7 +44,7 @@ The following example shows how to accept a sharing invitation.
 </soap:Envelope>
 ```
 
-### Request Elements
+### Request elements
 
 The following elements are used in the request:
   
@@ -60,7 +60,7 @@ The following elements are used in the request:
 
 The item identifier and change key have been shortened to preserve readability.
   
-## Successful Accept Sharing Invitation Response Example
+## Successful Accept Sharing Invitation response example
 
 ### Description
 
@@ -96,7 +96,7 @@ The following example shows a successful response to a **CreateItem** request.
 </soap:Envelope>
 ```
 
-### Successful Response Elements
+### Successful response elements
 
 The following elements are used in the response:
   
@@ -112,7 +112,7 @@ The following elements are used in the response:
     
 - [Items](items.md)
     
-## Accept Sharing Invitation Error Response Example
+## Accept Sharing Invitation Error response example
 
 ### Description
 
@@ -150,7 +150,7 @@ The following example shows an error response to a **CreateItem** request. The e
 </soap:Envelope>
 ```
 
-### Error Response Elements
+### Error response elements
 
 The following elements are used in the error response:
   

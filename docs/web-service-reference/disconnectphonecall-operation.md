@@ -1,7 +1,5 @@
 ---
 title: "DisconnectPhoneCall operation"
- 
- 
 manager: sethgros
 ms.date: 9/17/2015
 ms.audience: Developer
@@ -20,7 +18,7 @@ description: "The DisconnectPhoneCall operation terminates the telephone call."
 
 The **DisconnectPhoneCall** operation terminates the telephone call. 
   
-## DisconnectPhoneCall Request Example
+## DisconnectPhoneCall request example
 
 ### Description
 
@@ -46,7 +44,7 @@ The following example of a **DisconnectPhoneCall** request shows how to form a r
 </soap:Envelope>
 ```
 
-## DisconnectPhoneCall Response Example
+## DisconnectPhoneCall response example
 
 ### Description
 
@@ -80,9 +78,6 @@ The following example shows a successful response to the **DisconnectPhoneCall**
 
 ## See also
 
-
-
-[EWS operations in Exchange](ews-operations-in-exchange.md)
-  
+- [EWS operations in Exchange](ews-operations-in-exchange.md) 
 - [EWS XML elements in Exchange](ews-xml-elements-in-exchange.md)
 

@@ -34,7 +34,7 @@ The **MeetingTime** element represents a suggested meeting time.
   
 [MeetingTime](meetingtime.md)
   
-```
+```xml
 <MeetingTime>...</MeetingTime
 ```
 

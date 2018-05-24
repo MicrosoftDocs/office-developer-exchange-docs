@@ -1,7 +1,5 @@
 ---
 title: "DeleteFolder operation"
- 
- 
 manager: sethgros
 ms.date: 9/17/2015
 ms.audience: Developer
@@ -20,7 +18,7 @@ description: "The DeleteFolder operation deletes folders from a mailbox."
 
 The **DeleteFolder** operation deletes folders from a mailbox. 
   
-## DeleteFolder Request Example
+## DeleteFolder request example
 
 ### Description
 
@@ -51,7 +49,7 @@ This example performs a hard delete on the folder.
 > [!NOTE]
 > The folder ID has been shortened to preserve readability. 
   
-### Request Elements
+### Request elements
 
 The following elements are used in the request:
   
@@ -66,7 +64,7 @@ The following elements are used in the request:
   
 To find other options for the request message of the **DeleteFolder** operation, explore the schema hierarchy. Start at the [DeleteFolder](deletefolder.md) element. 
   
-## Successful DeleteFolder Response
+## Successful DeleteFolder response
 
 ### Description
 
@@ -97,7 +95,7 @@ The following example shows a successful response to the **DeleteFolder** reques
 </soap:Envelope>
 ```
 
-### Response Elements
+### Response elements
 
 The following elements are used in the response:
   
@@ -113,7 +111,7 @@ The following elements are used in the response:
     
 To find other options for the response message of the **DeleteFolder** operation, explore the schema hierarchy. Start at the [DeleteFolderResponse](deletefolderresponse.md) element. 
   
-## DeleteFolder Error Response
+## DeleteFolder error response
 
 ### Description
 
@@ -150,7 +148,7 @@ The following example shows an error response to a **DeleteFolder** request. The
 
 The **DeleteFolder** operation cannot be used on distinguished folders. 
   
-### Error Response Elements
+### Error response elements
 
 The following elements are used in the error response:
   
@@ -172,10 +170,6 @@ To find other options for the error response message of the **DeleteFolder** ope
   
 ## See also
 
-
-
 - [EWS XML elements in Exchange](ews-xml-elements-in-exchange.md)
-
-
-[Deleting Folders](http://msdn.microsoft.com/library/1958add5-5071-4239-adb2-40f7a7d74aee%28Office.15%29.aspx)
+- [Deleting Folders](http://msdn.microsoft.com/library/1958add5-5071-4239-adb2-40f7a7d74aee%28Office.15%29.aspx)
 

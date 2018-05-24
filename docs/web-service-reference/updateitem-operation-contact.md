@@ -20,7 +20,7 @@ description: "The UpdateItem operation is used to update contact item properties
 
 The UpdateItem operation is used to update contact item properties in the Exchange store.
   
-## UpdateItem (Contact) Request Example
+## UpdateItem (Contact) request example
 
 ### Description
 
@@ -61,7 +61,7 @@ The following code example shows how to update the e-mail address of a contact.
 
 The item identifier has been shortened to preserve readability.
   
-### Request Elements
+### Request elements
 
 The following elements are used in the request:
   
@@ -125,7 +125,7 @@ The following code example shows a successful UpdateItem response.
 
 The item identifier has been shortened to preserve readability.
   
-### Successful Response Elements
+### Successful response elements
 
 The following elements are used in the response:
   
@@ -145,7 +145,7 @@ The following elements are used in the response:
     
 - [ItemId](itemid.md)
     
-## Invalid UpdateItem (Contact) Request Example
+## Invalid UpdateItem (Contact) request example
 
 ### Description
 
@@ -186,7 +186,7 @@ The following code example shows an invalid request.
 
 The item identifier has been shortened to preserve readability.
   
-## UpdateItem (Contact) Error Response
+## UpdateItem (Contact) error response
 
 ### Description
 

@@ -34,7 +34,7 @@ The **SuggestionQuality** element represents the quality of the suggested meetin
   
 [SuggestionQuality](suggestionquality.md)
   
-```
+```xml
 <SuggestionQuality>Excellent or Good or Fair or Poor</SuggestionQuality>
 ```
 

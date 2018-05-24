@@ -24,7 +24,7 @@ The **SourceIds** element contains the source identifiers to convert.
   
 [SourceIds](sourceids.md)
   
-```
+```xml
 <SourceIds>
    <AlternateId/>
    <AlternatePublicFolderId/>

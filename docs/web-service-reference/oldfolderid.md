@@ -20,7 +20,7 @@ description: "The OldFolderId element contains the original identifier of a fold
 
 The **OldFolderId** element contains the original identifier of a folder that was moved or copied. 
   
-```
+```xml
 <OldFolderId Id="" ChangeKey=""/>
 ```
 

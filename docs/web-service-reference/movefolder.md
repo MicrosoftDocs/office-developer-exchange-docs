@@ -20,7 +20,7 @@ description: "The MoveFolder element defines a request to move a folder in the E
 
 The **MoveFolder** element defines a request to move a folder in the Exchange store. 
   
-```
+```xml
 <MoveFolder>
    <ToFolderId/>
    <FolderIds/>

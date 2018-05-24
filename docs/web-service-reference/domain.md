@@ -1,7 +1,5 @@
 ---
 title: "Domain"
- 
- 
 manager: sethgros
 ms.date: 9/17/2015
 ms.audience: Developer
@@ -20,7 +18,7 @@ description: "The Domain element identifies a single SMTP domain."
 
 The **Domain** element identifies a single SMTP domain. 
   
-```
+```xml
 <Domain Name="" IncludeSubdomains="" />
 ```
 
@@ -64,8 +62,6 @@ The schema that describes this element is located in the IIS virtual directory t
 |Can be Empty  <br/> |False  <br/> |
    
 ## See also
-
-
 
 - [EWS XML elements in Exchange](ews-xml-elements-in-exchange.md)
 

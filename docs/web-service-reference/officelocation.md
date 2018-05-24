@@ -20,7 +20,7 @@ description: "The OfficeLocation element represents the office location of a con
 
 The **OfficeLocation** element represents the office location of a contact. 
   
-```
+```xml
 <OfficeLocation/>
 ```
 

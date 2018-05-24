@@ -1,7 +1,5 @@
 ---
 title: "Dictionary"
- 
- 
 manager: sethgros
 ms.date: 9/17/2015
 ms.audience: Developer
@@ -20,7 +18,7 @@ description: "The Dictionary element defines a set of dictionary property entrie
 
 The **Dictionary** element defines a set of dictionary property entries for a user configuration object. 
   
-```
+```xml
 <Dictionary>
    <DictionaryEntry/>
 </Dictionary>
@@ -65,8 +63,6 @@ The schema that describes this element is located in the IIS virtual directory t
 |Can be Empty  <br/> |False  <br/> |
    
 ## See also
-
-
 
 - [EWS XML elements in Exchange](ews-xml-elements-in-exchange.md)
 

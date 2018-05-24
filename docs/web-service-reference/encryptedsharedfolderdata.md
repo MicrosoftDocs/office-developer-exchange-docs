@@ -1,7 +1,5 @@
 ---
 title: "EncryptedSharedFolderData"
- 
- 
 manager: sethgros
 ms.date: 9/17/2015
 ms.audience: Developer
@@ -20,7 +18,7 @@ description: "The EncryptedSharedFolderData element contains the encrypted data 
 
 The **EncryptedSharedFolderData** element contains the encrypted data that a client can use to authorize the sharing of its calendar or contact data with other clients. 
   
-```
+```xml
 <EncryptedSharedFolderData>   <Token/>   <Data/></EncryptedSharedFolderData>
 ```
 
@@ -61,10 +59,6 @@ The schema that describes this element is located in the IIS Virtual directory t
    
 ## See also
 
-
-
-[GetSharingMetadata operation](getsharingmetadata-operation.md)
-
-
+- [GetSharingMetadata operation](getsharingmetadata-operation.md)
 - [EWS XML elements in Exchange](ews-xml-elements-in-exchange.md)
 

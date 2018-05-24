@@ -20,7 +20,7 @@ description: "The JobTitle element represents the job title of a contact."
 
 The **JobTitle** element represents the job title of a contact. 
   
-```
+```xml
 <JobTitle/>
 ```
 

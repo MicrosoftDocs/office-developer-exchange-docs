@@ -9,8 +9,6 @@ api_type:
 - schema
 ms.assetid: f3d37f5a-c9ea-4ed9-a011-94d33bda64d1
 description: "The DomainSettings element represents the domain settings that were submitted in an Autodiscover request or returned by an Autodiscover response."
- 
- 
 ---
 
 # DomainSettings (SOAP)
@@ -59,7 +57,5 @@ None.
    
 ## See also
 
-
-
-[GetDomainSettings operation (SOAP)](getdomainsettings-operation-soap.md)
+- [GetDomainSettings operation (SOAP)](getdomainsettings-operation-soap.md)
 

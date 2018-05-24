@@ -20,7 +20,7 @@ description: "The TimeZone element provides a text description of a time zone."
 
 The **TimeZone** element provides a text description of a time zone. 
   
-```
+```xml
 <TimeZone/>
 ```
 

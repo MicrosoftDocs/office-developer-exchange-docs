@@ -20,7 +20,7 @@ description: "The SharingFolderId element represents the identifier of the local
 
 The **SharingFolderId** element represents the identifier of the local folder in a sharing relationship. 
   
-```
+```xml
 <SharingFolderId Id="" ChangeKey="" />
 ```
 

@@ -20,7 +20,7 @@ description: "The ReplyToItem element contains a reply to the sender of an item 
 
 The **ReplyToItem** element contains a reply to the sender of an item in the Exchange store. 
   
-```
+```xml
 <ReplyToItem>
    <Subject/>
    <Body/>

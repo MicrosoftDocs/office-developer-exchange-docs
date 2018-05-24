@@ -21,7 +21,7 @@ The **IsUMEnabledResponse** element defines a response to an [IsUMEnabled operat
   
 [IsUMEnabledResponse (UM web service)](isumenabledresponse-um-web-service.md)
   
-```
+```xml
 <IsUMEnabledResponse/>
 ```
 
