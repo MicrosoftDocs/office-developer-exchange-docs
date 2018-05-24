@@ -1,7 +1,5 @@
 ---
 title: "UpdateFolderResponseMessage"
- 
- 
 manager: sethgros
 ms.date: 9/17/2015
 ms.audience: Developer
@@ -20,11 +18,9 @@ description: "The UpdateFolderResponseMessage element contains the status and re
 
 The **UpdateFolderResponseMessage** element contains the status and result of updates defined by the [FolderChange](folderchange.md) element of an [UpdateFolder operation](updatefolder-operation.md) request. 
   
-[UpdateFolderResponse](updatefolderresponse.md)
-  
-[ResponseMessages](responsemessages.md)
-  
-[UpdateFolderResponseMessage](updatefolderresponsemessage.md)
+- [UpdateFolderResponse](updatefolderresponse.md) 
+- [ResponseMessages](responsemessages.md)
+- [UpdateFolderResponseMessage](updatefolderresponsemessage.md)
   
 ```xml
 <UpdateFolderResponseMessage ResponseClass="">
@@ -45,15 +41,15 @@ The following sections describe attributes, child elements, and parent elements.
 
 |**Attribute**|**Description**|
 |:-----|:-----|
-|**ResponseClass** <br/> | Describes the status of an [UpdateFolder operation](updatefolder-operation.md) response. The following values are valid for this attribute:  <br/>  Success  <br/>  Warning  <br/>  Error  <br/> |
+|**ResponseClass** <br/> | Describes the status of an [UpdateFolder operation](updatefolder-operation.md) response. <br/><br/>The following values are valid for this attribute:  <br/><br/>-  Success  <br/>-  Warning  <br/>-  Error  <br/> |
    
 #### ResponseClass attribute values
 
 |**Value**|**Description**|
 |:-----|:-----|
 |**Success** <br/> |Describes a request that is fulfilled.  <br/> |
-|**Warning** <br/> | Describes a request that was not processed. A warning may be returned if an error occurred while an item in the request was processing and subsequent items could not be processed. The following are examples of sources of warnings:  <br/>  The Exchange store is offline.  <br/>  Active Directory Domain Services (AD DS) is offline.  <br/>  A mailbox is moved.  <br/>  A password is expired.  <br/>  A quota is exceeded.  <br/> |
-|**Error** <br/> | Describes a request that cannot be fulfilled. The following are examples of sources for errors:  <br/>  Invalid attributes or elements  <br/>  Attributes or elements out of range  <br/>  Unknown tag  <br/>  Attribute or element not valid in the context  <br/>  Unauthorized access attempt by any client  <br/>  Server-side failure in response to a valid client-side call  <br/>  Information about the error can be found in the [ResponseCode](responsecode.md) and [MessageText](messagetext.md) elements.  <br/> |
+|**Warning** <br/> | Describes a request that was not processed. A warning may be returned if an error occurred while an item in the request was processing and subsequent items could not be processed. <br/><br/>The following are examples of sources of warnings:  <br/><br/>-  The Exchange store is offline.  <br/>-  Active Directory Domain Services (AD DS) is offline.  <br/>-  A mailbox is moved.  <br/>-  A password is expired.  <br/>-  A quota is exceeded.  <br/> |
+|**Error** <br/> | Describes a request that cannot be fulfilled. <br/><br/>The following are examples of sources for errors:  <br/><br/>-  Invalid attributes or elements  <br/>-  Attributes or elements out of range  <br/>-  Unknown tag  <br/>-  Attribute or element not valid in the context  <br/>-  Unauthorized access attempt by any client  <br/>-  Server-side failure in response to a valid client-side call  <br/> <br/> Information about the error can be found in the [ResponseCode](responsecode.md) and [MessageText](messagetext.md) elements.  <br/> |
    
 ### Child elements
 
@@ -86,7 +82,5 @@ The schema that describes this element is located in the EWS virtual directory o
    
 ## See also
 
-
-
-[UpdateFolder operation](updatefolder-operation.md)
+- [UpdateFolder operation](updatefolder-operation.md)
 

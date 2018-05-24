@@ -1,7 +1,5 @@
 ---
 title: "FolderId"
- 
- 
 manager: sethgros
 ms.date: 9/17/2015
 ms.audience: Developer
@@ -47,7 +45,7 @@ None.
 |[ContextFolderId](contextfolderid.md) <br/> |Indicates the folder that is targeted for actions that use folders.  <br/> |
 |[CopiedEvent](copiedevent.md) <br/> |Represents an event in which an item or folder is copied.  <br/> |
 |[DestinationFolderId](destinationfolderid.md) <br/> |Indicates the destination folder for copy and move actions.  <br/> |
-|[ParentFolderId (TargetFolderIdType)](parentfolderid-targetfolderidtype.md) <br/> | Identifies the folder where a new folder or item is created.  <br/>  The following are the XPath expressions to this element:  <br/>  `/CreateItem/ParentFolderId` <br/>  `/CreateFolder/ParentFolderId` <br/> |
+|[ParentFolderId (TargetFolderIdType)](parentfolderid-targetfolderidtype.md) <br/> | Identifies the folder where a new folder or item is created.  <br/><br/>  The following are the XPath expressions to this element:<br/>  <br/> `/CreateItem/ParentFolderId` <br/><br/>  `/CreateFolder/ParentFolderId` <br/> |
 |[BaseFolderIds](basefolderids.md) <br/> |Represents the collection of folders that will be mined to determine the contents of a search folder.  <br/> |
 |[Delete (FolderSync)](delete-foldersync.md) <br/> |Identifies a single folder to delete in the local client store.  <br/> |
 |[Folder](folder.md) <br/> |Represents a folder in a mailbox.  <br/> |
@@ -56,8 +54,8 @@ None.
 |[ContactsFolder](contactsfolder.md) <br/> |Represents a contact folder in a mailbox.  <br/> |
 |[SearchFolder](searchfolder.md) <br/> |Represents a search folder in a mailbox.  <br/> |
 |[TasksFolder](tasksfolder.md) <br/> |Represents a task folder in a mailbox.  <br/> |
-|[ToFolderId](tofolderid.md) <br/> | Represents the destination folder for a copied or moved item or folder.  <br/>  The following are the XPath expressions to this element:  <br/>  `/MoveFolder/ToFolderId` <br/>  `/CopyFolder/ToFolderId` <br/>  `/MoveItem/ToFolderId` <br/>  `/CopyItem/ToFolderId` <br/> |
-|[SavedItemFolderId](saveditemfolderid.md) <br/> | Identifies the target folder for operations that update, send, and create items in the Exchange store.  <br/>  The following are the XPath expressions to this element:  <br/>  `/CreateItem/SavedItemFolderId` <br/>  `/UpdateItem/SavedItemFolderId` <br/>  `/SendItem/SavedItemFolderId` <br/> |
+|[ToFolderId](tofolderid.md) <br/> | Represents the destination folder for a copied or moved item or folder. <br/> <br/>  The following are the XPath expressions to this element: <br/> <br/>  `/MoveFolder/ToFolderId` <br/> <br/> `/CopyFolder/ToFolderId` <br/> <br/> `/MoveItem/ToFolderId`<br/> <br/>  `/CopyItem/ToFolderId` <br/> |
+|[SavedItemFolderId](saveditemfolderid.md) <br/> | Identifies the target folder for operations that update, send, and create items in the Exchange store.  <br/><br/>  The following are the XPath expressions to this element: <br/> <br/>  `/CreateItem/SavedItemFolderId` <br/><br/>  `/UpdateItem/SavedItemFolderId` <br/><br/>  `/SendItem/SavedItemFolderId` <br/> |
 |[SyncFolderId](syncfolderid.md) <br/> |Represents the folder that contains the items to synchronize.  <br/> |
 |[UserConfigurationName](userconfigurationname.md) <br/> |Represents the name of a user configuration object. The user configuration object name is the identifier for a user configuration object.  <br/> |
 |[CopyToFolder](copytofolder.md) <br/> |Identifies the ID of the folder that e-mail items will be copied to.  <br/> |
@@ -84,10 +82,6 @@ The schema that describes this element is located in the IIS virtual directory t
    
 ## See also
 
-
-
 - [EWS XML elements in Exchange](ews-xml-elements-in-exchange.md)
-
-
-[Creating Folders (Exchange Web Services)](http://msdn.microsoft.com/library/3b15b0ec-8691-45ed-9a24-a91ff732d6cf%28Office.15%29.aspx)
+- [Creating Folders (Exchange Web Services)](http://msdn.microsoft.com/library/3b15b0ec-8691-45ed-9a24-a91ff732d6cf%28Office.15%29.aspx)
 

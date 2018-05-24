@@ -1,7 +1,5 @@
 ---
 title: "FilterHtmlContent"
- 
- 
 manager: sethgros
 ms.date: 9/17/2015
 ms.audience: Developer
@@ -41,8 +39,8 @@ None.
 
 |**Element**|**Description**|
 |:-----|:-----|
-|[AttachmentShape](attachmentshape.md) <br/> | Identifies additional properties to return in a response to a [GetAttachment](getattachment.md) request.  <br/>  The following is the XPath expression to this element:  <br/>  `/GetAttachment/AttachmentShape` <br/> |
-|[ItemShape](itemshape.md) <br/> | Identifies the item properties and content to include in a GetItem, FindItem, or SyncFolderItems response.  <br/>  The following are the XPath expressions to this element:  <br/>  `/GetItem/ItemShape` <br/>  `/FindItem/ItemShape` <br/>  `/SyncFolderItems/ItemShape` <br/> |
+|[AttachmentShape](attachmentshape.md) <br/> | Identifies additional properties to return in a response to a [GetAttachment](getattachment.md) request.  <br/><br/>  The following is the XPath expression to this element: <br/> <br/>  `/GetAttachment/AttachmentShape` <br/> |
+|[ItemShape](itemshape.md) <br/> | Identifies the item properties and content to include in a GetItem, FindItem, or SyncFolderItems response.  <br/> <br/> The following are the XPath expressions to this element: <br/> <br/>  `/GetItem/ItemShape`<br/> <br/>  `/FindItem/ItemShape`<br/> <br/>  `/SyncFolderItems/ItemShape` <br/> |
    
 ## Text value
 
@@ -64,8 +62,6 @@ The schema that describes this element is located in the EWS virtual directory o
 |Can be Empty  <br/> |False  <br/> |
    
 ## See also
-
-
 
 - [EWS XML elements in Exchange](ews-xml-elements-in-exchange.md)
 

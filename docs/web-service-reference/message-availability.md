@@ -1,7 +1,5 @@
 ---
 title: "Message (Availability)"
- 
- 
 manager: sethgros
 ms.date: 9/17/2015
 ms.audience: Developer
@@ -41,8 +39,8 @@ None.
 
 |**Element**|**Description**|
 |:-----|:-----|
-|[InternalReply](internalreply.md) <br/> | Contains the OOF message sent to other users in the sender's domain.  <br/>  The following are the possible XPath expressions to this element:  <br/>  `/SetUserOofSettingsRequest/UserOofSettings/InternalReply` <br/>  `/GetUserOofSettingsResponse/OofSettings/InternalReply` <br/> |
-|[ExternalReply](externalreply.md) <br/> | Contains the OOF message that is sent to addresses outside the sender's domain.  <br/>  The following are the possible XPath expressions to this element:  <br/>  `/SetUserOofSettingsRequest/UserOofSettings/ExternalReply` <br/>  `/GetUserOofSettingsResponse/OofSettings/ExternalReply` <br/> |
+|[InternalReply](internalreply.md) <br/> | Contains the OOF message sent to other users in the sender's domain. <br/> <br/>  The following are the possible XPath expressions to this element: <br/> <br/>  `/SetUserOofSettingsRequest/UserOofSettings/InternalReply` <br/><br/>  `/GetUserOofSettingsResponse/OofSettings/InternalReply` <br/> |
+|[ExternalReply](externalreply.md) <br/> | Contains the OOF message that is sent to addresses outside the sender's domain.  <br/> <br/> The following are the possible XPath expressions to this element:  <br/><br/>  `/SetUserOofSettingsRequest/UserOofSettings/ExternalReply` <br/><br/>  `/GetUserOofSettingsResponse/OofSettings/ExternalReply` <br/> |
 |[ReplyBody](replybody.md) <br/> |Contains an OOF message and the language used for the message.  <br/> |
    
 ## Text value
@@ -97,10 +95,6 @@ The following example of a [SetUserOofSettings operation](setuseroofsettings-ope
    
 ## See also
 
-
-
-[SetUserOofSettings operation](setuseroofsettings-operation.md)
-
-
+- [SetUserOofSettings operation](setuseroofsettings-operation.md)
 - [EWS XML elements in Exchange](ews-xml-elements-in-exchange.md)
 

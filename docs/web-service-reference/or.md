@@ -1,7 +1,5 @@
 ---
-title: "Or"
- 
- 
+title: "Or" 
 manager: sethgros
 ms.date: 9/17/2015
 ms.audience: Developer
@@ -40,7 +38,7 @@ None.
 
 |**Element**|**Description**|
 |:-----|:-----|
-|[SearchExpression](searchexpression.md) <br/> | Represents the base class for expressions within a restriction. One of the following elements must be substituted for the **SearchExpression** element:  <br/> [Exists](exists.md) <br/> [Excludes](excludes.md) <br/> [IsEqualTo](isequalto.md) <br/> [IsNotEqualTo](isnotequalto.md) <br/> [IsGreaterThan](isgreaterthan.md) <br/> [IsGreaterThanOrEqualTo](isgreaterthanorequalto.md) <br/> [IsLessThan](islessthan.md) <br/> [IsLessThanOrEqualTo](islessthanorequalto.md) <br/> [Contains](contains.md) <br/> [Not](not.md) <br/> [And](and.md) <br/> **Or** <br/> |
+|[SearchExpression](searchexpression.md) <br/> | Represents the base class for expressions within a restriction. <br/><br/>One of the following elements must be substituted for the **SearchExpression** element: <br/> <br/>- [Exists](exists.md) <br/>- [Excludes](excludes.md) <br/>- [IsEqualTo](isequalto.md) <br/>- [IsNotEqualTo](isnotequalto.md) <br/>- [IsGreaterThan](isgreaterthan.md) <br/>- [IsGreaterThanOrEqualTo](isgreaterthanorequalto.md) <br/>- [IsLessThan](islessthan.md) <br/>- [IsLessThanOrEqualTo](islessthanorequalto.md) <br/>- [Contains](contains.md) <br/>- [Not](not.md) <br/>- [And](and.md) <br/>- **Or** <br/> |
    
 ### Parent elements
 
@@ -65,8 +63,6 @@ The schema that describes this element is located in the EWS virtual directory o
 |Can be Empty  <br/> |False  <br/> |
    
 ## See also
-
-
 
 - [EWS XML elements in Exchange](ews-xml-elements-in-exchange.md)
 

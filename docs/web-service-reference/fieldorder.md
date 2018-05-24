@@ -1,7 +1,5 @@
 ---
 title: "FieldOrder"
- 
- 
 manager: sethgros
 ms.date: 9/17/2015
 ms.audience: Developer
@@ -35,7 +33,7 @@ The following sections describe attributes, child elements, and parent elements.
 
 |**Attribute**|**Description**|
 |:-----|:-----|
-|**Order** <br/> | Describes the sort order direction. The following are the possible values:  <br/>  Ascending  <br/>  Descending  <br/> |
+|**Order** <br/> | Describes the sort order direction.<br/><br/> The following are the possible values: <br/> <br/>-  Ascending  <br/>-  Descending  <br/> |
    
 ### Child elements
 
@@ -65,8 +63,6 @@ The schema that describes this element is located in the EWS virtual directory o
 |Can be Empty  <br/> |False  <br/> |
    
 ## See also
-
-
 
 - [EWS XML elements in Exchange](ews-xml-elements-in-exchange.md)
 

@@ -1,7 +1,5 @@
 ---
 title: "StandardTime"
- 
- 
 manager: sethgros
 ms.date: 9/17/2015
 ms.audience: Developer
@@ -20,9 +18,8 @@ description: "The StandardTime element represents an offset from the time relati
 
 The **StandardTime** element represents an offset from the time relative to Coordinated Universal Time (UTC) that is represented by the [Bias (UTC)](bias-utc.md) element. This element also contains information about the transition to standard time from daylight saving time in regions where daylight saving time is observed. 
   
-[TimeZone (Availability)](timezone-availability.md)
-  
-[StandardTime](standardtime.md)
+- [TimeZone (Availability)](timezone-availability.md)
+- [StandardTime](standardtime.md)
   
 ```xml
 <StandardTime>
@@ -59,7 +56,7 @@ None.
 
 |**Element**|**Description**|
 |:-----|:-----|
-|[TimeZone (Availability)](timezone-availability.md) <br/> | Contains elements that identify time zone information. This element also contains information about the transition between standard time and daylight saving time. The following are the XPath expressions to this element:  <br/>  `/GetUserAvailabilityResponse/FreeBusyResponseArray/FreeBusyResponse/FreeBusyView/WorkingHours/TimeZone` <br/>  `/GetUserAvailabilityRequest/TimeZone` <br/> |
+|[TimeZone (Availability)](timezone-availability.md) <br/> | Contains elements that identify time zone information. This element also contains information about the transition between standard time and daylight saving time. <br/><br/>The following are the XPath expressions to this element: <br/> <br/>  `/GetUserAvailabilityResponse/FreeBusyResponseArray/FreeBusyResponse/FreeBusyView/WorkingHours/TimeZone` <br/> <br/> `/GetUserAvailabilityRequest/TimeZone` <br/> |
    
 ## Remarks
 
@@ -100,10 +97,6 @@ The following example shows a region where daylight saving time is observed. The
    
 ## See also
 
-
-
-[GetUserAvailability operation](getuseravailability-operation.md)
-
-
-[Getting User Availability](http://msdn.microsoft.com/library/d4133fcb-9b0f-4e6b-aadf-a389da83516a%28Office.15%29.aspx)
+- [GetUserAvailability operation](getuseravailability-operation.md)
+- [Getting User Availability](http://msdn.microsoft.com/library/d4133fcb-9b0f-4e6b-aadf-a389da83516a%28Office.15%29.aspx)
 
