@@ -41,7 +41,7 @@ None.
 
 |**Element**|**Description**|
 |:-----|:-----|
-|[AttachmentIds](attachmentids.md) <br/> | Contains an array of attachment identifiers.  <br/>  The following are the XPath expressions to this element:  <br/>  `/DeleteAttachment/AttachmentIds` <br/>  `/GetAttachment/AttachmentIds` <br/> |
+|[AttachmentIds](attachmentids.md) <br/> | Contains an array of attachment identifiers.<br/><br/>  The following are the XPath expressions to this element:<br/><br/>`/DeleteAttachment/AttachmentIds`<br/><br/>`/GetAttachment/AttachmentIds` <br/> |
    
 ## Remarks
 

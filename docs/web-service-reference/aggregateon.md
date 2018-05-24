@@ -18,10 +18,8 @@ description: "The AggregateOn element represents the property that is used to de
 
 The **AggregateOn** element represents the property that is used to determine the order of grouped items for a grouped FindItem result set. 
   
-- [FindItem](finditem.md)
-  
+- [FindItem](finditem.md)  
 - [GroupBy](groupby.md)
-  
 - [AggregateOn](aggregateon.md)
   
 ```xml
@@ -30,7 +28,20 @@ The **AggregateOn** element represents the property that is used to determine th
 </AggregateOn>
 ```
 
- **AggregateOnType**
+```xml
+<AggregateOn>
+   <IndexedFieldURI/>
+</AggregateOn>
+```
+
+```xml
+<AggregateOn>
+   <ExtendedFieldURI/>
+</AggregateOn>
+```
+ 
+**AggregateOnType**
+
 ## Attributes and elements
 
 The following sections describe attributes, child elements, and parent elements.
@@ -39,7 +50,7 @@ The following sections describe attributes, child elements, and parent elements.
 
 |**Attribute**|**Description**|
 |:-----|:-----|
-|**Aggregate** <br/> | Indicates the maximum or minimum value of the property identified by the [FieldURI](fielduri.md) element that is used for ordering the groups of items. The following are the possible values:  <br/>  Minimum  <br/>  Maximum  <br/> |
+|**Aggregate** <br/> | Indicates the maximum or minimum value of the property identified by the [FieldURI](fielduri.md) element that is used for ordering the groups of items.<br/><br/>The following are the possible values:  <br/><br/>- Minimum  <br/>- Maximum  <br/> |
    
 ### Child elements
 
