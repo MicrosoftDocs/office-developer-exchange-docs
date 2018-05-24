@@ -16,7 +16,7 @@ description: "The ApplyConversationActionResponseMessage element contains the st
 
 # ApplyConversationActionResponseMessage
 
-The **ApplyConversationActionResponseMessage** element contains the status and results of an [ApplyConversationAction operation](applyconversationaction-operation.md) request. 
+The **ApplyConversationActionResponseMessage** element contains the status and results of an [ApplyConversationAction operation](applyconversationaction-operation.md) request.  
   
 - [ApplyConversationActionResponse](applyconversationactionresponse.md)
 - [ResponseMessages](responsemessages.md)

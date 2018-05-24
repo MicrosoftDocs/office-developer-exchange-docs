@@ -21,9 +21,10 @@ Getting a list of users from Exchange Online, Exchange Online as part of Office 
 To connect to the remote runspace, you have to authenticate with the Exchange server by using the authentication scheme that meets the security requirements of your organization. 
 
 This article provides code examples that you can use to set up a remote runspace and run an Exchange Management Shell cmdlet to get a list of users from an Exchange server.
-  
-## Prerequisites for getting a list of mailbox users
+
 <a name="bk_prerequisites"> </a>
+
+## Prerequisites for getting a list of mailbox users
 
 To perform this task, you need a reference to the following namespaces:
   
@@ -38,22 +39,24 @@ To perform this task, you need a reference to the following namespaces:
 > - For the Windows 7 and Windows 8 operating systems, the following folder: Windows\assembly\GAC_MSIL\System.Management.Automation. 
   
 Do not load the Exchange 2013 Management snap-in into the runspace on computers that are running applications that automate Exchange Management Shell cmdlets. The application should instead create a remote runspace, as described later in this article.
-  
-## Connect to a remote runspace on an Exchange server
+
 <a name="bk_gettinglistmailbox"> </a>
+
+## Connect to a remote runspace on an Exchange server
 
 The method that you use to connect to a remote runspace to use an Exchange Management Shell cmdlet varies based on the authentication scheme that you are using. This section provides code examples that show how to connect to a remote runspace when you are using an authentication method listed in the following table.
   
 |**Authentication method**|**Applies to**|**URI**|
 |:-----|:-----|:-----|
-|[Connect to a remote runspace on Exchange Online by using basic authentication](#bk_basic.md) <br/> |Exchange Online servers  <br/> |`https://outlook.office365.com/PowerShell-LiveID`<br/> `https://<server>/PowerShell-LiveID`  <br/> |
-|[Connect to a remote runspace by using certificate authentication](#bk_cert.md) <br/> |Exchange Online and Exchange on-premises servers  <br/> |`https://outlook.office365.com/PowerShell`  <br/> `https://<server>/PowerShell`  <br/> `http://<server>/PowerShell`  <br/> |
-|[Connect to a remote runspace on an Exchange server by using Kerberos authentication](#bk_Kerberos.md) <br/> |Exchange Online and Exchange on-premises servers  <br/> |`https://<server>/PowerShell`  <br/> `http://<server>/PowerShell`  <br/> |
-   
-### Connect to a remote runspace on Exchange Online by using basic authentication
+|[Connect to a remote runspace on Exchange Online by using basic authentication](#bk_basic) <br/> |Exchange Online servers  <br/> |`https://outlook.office365.com/PowerShell-LiveID`<br/><br/>`https://<server>/PowerShell-LiveID`  <br/> |
+|[Connect to a remote runspace by using certificate authentication](#bk_cert) <br/> |Exchange Online and Exchange on-premises servers  <br/> |`https://outlook.office365.com/PowerShell`<br/><br/>`https://<server>/PowerShell`<br/><br/>`http://<server>/PowerShell`  <br/> |
+|[Connect to a remote runspace on an Exchange server by using Kerberos authentication](#bk_Kerberos) <br/> |Exchange Online and Exchange on-premises servers  <br/> |`https://<server>/PowerShell`<br/><br/>`http://<server>/PowerShell`  <br/> |
+
 <a name="bk_basic"> </a>
 
-The following code example defines the **GetUsersUsingBasicAuth** method, which creates an Exchange Management Shell runspace on a remote Exchange Online server by using basic authentication. The method then calls the **GetUserInformation** method, as defined in the section [Get a list of mailbox users from a remote runspace](#bk_remote.md), to return a list of users on the remote server.
+### Connect to a remote runspace on Exchange Online by using basic authentication
+
+The following code example defines the **GetUsersUsingBasicAuth** method, which creates an Exchange Management Shell runspace on a remote Exchange Online server by using basic authentication. The method then calls the **GetUserInformation** method, as defined in the section [Get a list of mailbox users from a remote runspace](#bk_remote), to return a list of users on the remote server.
   
 This method requires the following parameters:
   
@@ -80,7 +83,6 @@ public Collection<PSObject> GetUsersUsingBasicAuth(
 }
 ```
 
-<br/>
 
 ```vb
   Function GetUsersUsingBasicAuth( _
@@ -96,10 +98,11 @@ public Collection<PSObject> GetUsersUsingBasicAuth(
 
 ```
 
-### Connect to a remote runspace by using certificate authentication
 <a name="bk_cert"> </a>
 
-The following code example defines the **GetUsersUsingCertificate** method, which creates an Exchange Management Shell runspace on a remote server by using a certificate. The method then calls the **GetUserInformation** method, as defined in the section [Get a list of mailbox users from a remote runspace](#bk_remote.md), to return a list of users on the remote server.
+### Connect to a remote runspace by using certificate authentication
+
+The following code example defines the **GetUsersUsingCertificate** method, which creates an Exchange Management Shell runspace on a remote server by using a certificate. The method then calls the **GetUserInformation** method, as defined in the section [Get a list of mailbox users from a remote runspace](#bk_remote), to return a list of users on the remote server.
   
 This method requires the following parameters:
   
@@ -134,7 +137,6 @@ public Collection<PSObject> GetUsersUsingCertificate(
 }
 ```
 
-<br/>
 
 ```vb
   Function GetUsersUsingCertificate( _
@@ -149,10 +151,11 @@ public Collection<PSObject> GetUsersUsingCertificate(
 
 ```
 
-### Connect to a remote runspace on an Exchange server by using Kerberos authentication
 <a name="bk_Kerberos"> </a>
 
-The following code example defines the **GetUsersUsingKerberos** method, which creates an Exchange Management Shell runspace on a remote server by using Kerberos authentication. The method then calls the **GetUserInformation** method, as defined in the section [Get a list of mailbox users from a remote runspace](#bk_remote.md), to return a list of users on the remote server.
+### Connect to a remote runspace on an Exchange server by using Kerberos authentication
+
+The following code example defines the **GetUsersUsingKerberos** method, which creates an Exchange Management Shell runspace on a remote server by using Kerberos authentication. The method then calls the **GetUserInformation** method, as defined in the section [Get a list of mailbox users from a remote runspace](#bk_remote), to return a list of users on the remote server.
   
 This method requires the following parameters:
   
@@ -186,8 +189,6 @@ public Collection<PSObject> GetUsersUsingKerberos(
 }
 ```
 
-<br/>
-
 ```vb
   Function GetUsersUsingKerberos( _
     ByVal KerberosUri As String, ByVal ScehmaUri As String, _
@@ -202,8 +203,9 @@ public Collection<PSObject> GetUsersUsingKerberos(
 
 ```
 
-## Get a list of mailbox users from a remote runspace
 <a name="bk_remote"> </a>
+
+## Get a list of mailbox users from a remote runspace
 
 The following code example defines the **GetUserInformation** method, which returns a collection of [PSObject](http://msdn.microsoft.com/en-us/library/system.management.automation.pscredential%28VS.85%29.aspx) instances that represent Exchange mailbox users. This method is called by the **GetUsersUsingBasicAuth**, **GetUsersUsingCertificate**, and **GetUsersUsingKerberos** methods to return the list of users from the remote server. 
   
@@ -226,8 +228,6 @@ public Collection<PSObject> GetUserInformation(int count, Runspace runspace)
     }
 }
 ```
-
-<br/>
 
 ```vb
 Function GetUserInformation(ByVal Count As Integer, ByVal RemoteRunspace As Runspace) As Collection(Of PSObject)
