@@ -153,7 +153,7 @@ At this point, your client is set up to make calls to EWS to access mailbox data
     email.Send();
    ```
 
-5. You are ready to run your Hello World application. In Visual Studio, select **F5**. A blank console window will open. You will not see anything in the console window while your application authenticates, follows Autodiscover redirections, and then makes its first call to create an email message that you send to yourself. If you want to see the calls being made, add the following two lines of code before the **AutodiscoverUrl** method is called. Then press F5. This will [trace out the EWS requests and responses](how-to-trace-requests-and-responses-to-troubleshoot-ews-managed-api-applications.md) to the console window. 
+5. You are ready to run your Hello World application. In Visual Studio, select **F5**. A blank console window will open. You will not see anything in the console window while your application authenticates, follows Autodiscover redirections, and then makes its first call to create an email message that you send to yourself. If you want to see the calls being made, add the following two lines of code before the **AutodiscoverUrl** method is called. Then press F5. This will [trace out the EWS requests and responses](how-to-trace-requests-responses-to-troubleshoot-ews-managed-api-applications.md) to the console window. 
     
    ```cs
     service.TraceEnabled = true;
@@ -227,6 +227,6 @@ If you run into any issues with your application, [try posting a question or com
 - [Start using web services in Exchange](start-using-web-services-in-exchange.md)    
 - [EWS client design overview for Exchange](ews-client-design-overview-for-exchange.md)    
 - [Develop web service clients for Exchange](develop-web-service-clients-for-exchange.md)   
-- [Trace requests and responses to troubleshoot EWS Managed API applications](how-to-trace-requests-and-responses-to-troubleshoot-ews-managed-api-applications.md)
+- [Trace requests and responses to troubleshoot EWS Managed API applications](how-to-trace-requests-responses-to-troubleshoot-ews-managed-api-applications.md)
     
 

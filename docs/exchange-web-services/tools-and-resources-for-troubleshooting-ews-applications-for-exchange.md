@@ -25,7 +25,7 @@ Things don't always go as planned. Sometimes EWS requests fail, or provide unexp
 
 When things aren't working correctly, it really helps to be able to see what's going on. The first line of inquiry when investigating a problem with EWS or the EWS Managed API is to examine the requests that your application is sending over the network and the responses that the server is sending back.
   
-The EWS Managed API makes examining SOAP requests and responses easy with its [built in tracing functionality](how-to-trace-requests-and-responses-to-troubleshoot-ews-managed-api-applications.md). If you are using EWS, you might or might not have access to similar tracing functionality, depending on what platform or classes you use to send your requests. However, you can always use a network tracing tool like [Network Monitor](http://www.microsoft.com/en-us/download/details.aspx?id=4865) or [Fiddler](http://www.telerik.com/fiddler) to examine the network traffic and view the request and response payloads. 
+The EWS Managed API makes examining SOAP requests and responses easy with its [built in tracing functionality](how-to-trace-requests-responses-to-troubleshoot-ews-managed-api-applications.md). If you are using EWS, you might or might not have access to similar tracing functionality, depending on what platform or classes you use to send your requests. However, you can always use a network tracing tool like [Network Monitor](http://www.microsoft.com/en-us/download/details.aspx?id=4865) or [Fiddler](http://www.telerik.com/fiddler) to examine the network traffic and view the request and response payloads. 
   
 Additionally, you can [instrument your client requests](instrumenting-client-requests-for-ews-and-rest-in-exchange.md) to enhance the information available in requests and responses. 
   
@@ -93,7 +93,7 @@ See the following articles:
   
 - [Develop web service clients for Exchange](develop-web-service-clients-for-exchange.md)
     
-- [Trace requests and responses to troubleshoot EWS Managed API applications](how-to-trace-requests-and-responses-to-troubleshoot-ews-managed-api-applications.md)
+- [Trace requests and responses to troubleshoot EWS Managed API applications](how-to-trace-requests-responses-to-troubleshoot-ews-managed-api-applications.md)
     
 - [Instrumenting client requests for EWS and REST in Exchange](instrumenting-client-requests-for-ews-and-rest-in-exchange.md)
     

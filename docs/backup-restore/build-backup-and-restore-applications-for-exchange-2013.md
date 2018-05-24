@@ -88,7 +88,7 @@ Information required to successfully complete backup and restore operations amon
     
 - [Restoring Exchange 2013 databases](restoring-exchange-2013-databases.md)
     
-- [Validate backup integrity by using the CHKSGFILES API in Exchange 2013](how-to-validate-backup-integrity-by-using-the-chksgfiles-api-in-exchange-2013.md)
+- [Validate backup integrity by using the CHKSGFILES API in Exchange 2013](how-to-validate-backup-integrity-by-using-the-chksgfiles-api-in-exchange.md)
     
 - [Validate backup integrity by using the Eseutil tool in Exchange 2013](how-to-validate-backup-integrity-by-using-the-eseutil-tool-in-exchange-2013.md)
     

@@ -26,7 +26,7 @@
                   - name: Communicate with EWS
                     href: exchange-web-services/how-to-communicate-with-ews-by-using-the-ews-managed-api.md
                   - name: Trace requests and responses
-                    href: exchange-web-services/how-to-trace-requests-and-responses-to-troubleshoot-ews-managed-api-applications.md
+                    href: exchange-web-services/how-to-trace-requests-responses-to-troubleshoot-ews-managed-api-applications.md
                 - name: Get started with EWS client applications
                   href: exchange-web-services/get-started-with-ews-client-applications.md
                 - name: EWS functionality in Exchange product versions
@@ -224,7 +224,7 @@
                   - name: Manage Inbox rules
                     href: exchange-web-services/how-to-manage-inbox-rules-by-using-ews-in-exchange.md
                   - name: Add and remove email addresses from the Blocked Senders List
-                    href: exchange-web-services/how-to-add-and-remove-email-addresses-from-the-blocked-senders-list-by-using-ews.md
+                    href: exchange-web-services/how-to-add-and-remove-email-addresses-from-blocked-senders-list-by-using-ews.md
                 - name: Notifications and events
                   href: exchange-web-services/notification-subscriptions-mailbox-events-and-ews-in-exchange.md
                   items:
@@ -233,7 +233,7 @@
                   - name: Pull notifications
                     href: exchange-web-services/how-to-pull-notifications-about-mailbox-events-by-using-ews-in-exchange.md
                   - name: Maintain affinity
-                    href: exchange-web-services/how-to-maintain-affinity-between-a-group-of-subscriptions-and-the-mailbox-server.md
+                    href: exchange-web-services/how-to-maintain-affinity-between-group-of-subscriptions-and-mailbox-server.md
                   - name: Handle notification-related errors
                     href: exchange-web-services/handling-notification-related-errors-in-ews-in-exchange.md
                 - name: Mailbox synchronization
@@ -4491,7 +4491,7 @@
             href: backup-restore/backup-and-restore-concepts-for-exchange-2013.md
             items:
             - name: Transaction logs and checkpoint files
-              href: backup-restore/transaction-logs-and-checkpoint-files-for-backup-and-restore-in-exchange-2013.md
+              href: backup-restore/transaction-logs-and-checkpoint-files-for-backup-and-restore-in-exchange.md
             - name: Exchange writer
               href: backup-restore/exchange-writer-in-exchange-2013.md
           - name: Build backup and restore applications
@@ -4502,7 +4502,7 @@
             - name: Restore Exchange 2013 databases
               href: backup-restore/restoring-exchange-2013-databases.md
             - name: Validate backup integrity by using the CHKSGFILES API
-              href: backup-restore/how-to-validate-backup-integrity-by-using-the-chksgfiles-api-in-exchange-2013.md
+              href: backup-restore/how-to-validate-backup-integrity-by-using-the-chksgfiles-api-in-exchange.md
             - name: Validate backup integrity by using the Eseutil tool
               href: backup-restore/how-to-validate-backup-integrity-by-using-the-eseutil-tool-in-exchange-2013.md
           - name: CChkSGFiles class reference

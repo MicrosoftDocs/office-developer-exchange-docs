@@ -122,14 +122,14 @@ The following figure shows how the rule is applied to an incoming mail message.
 ## Blocking senders
 <a name="bk_Blocking"> </a>
 
-Although you can create a rule that will move all mail from a specific sender to the Junk Mail folder, you can also do this by using the Blocked Senders List in your Junk Email options. Because there is a limit to how many rules a user can have, it makes sense to use the Blocked Senders List. You can [add or remove specific email addresses from the Blocked Senders List](how-to-add-and-remove-email-addresses-from-the-blocked-senders-list-by-using-ews.md) by using the [ExchangeService.MarkAsJunk](http://msdn.microsoft.com/en-us/library/microsoft.exchange.webservices.data.exchangeservice.markasjunk%28v=exchg.80%29.aspx) EWS Managed API method or the [MarkAsJunk](http://msdn.microsoft.com/library/1f71f04d-56a9-4fee-a4e7-d1034438329e%28Office.15%29.aspx) EWS operation. Note that in order for EWS to access the Blocked Senders List, the user's mailbox must contain an email message from the email address that you want to add or remove. 
+Although you can create a rule that will move all mail from a specific sender to the Junk Mail folder, you can also do this by using the Blocked Senders List in your Junk Email options. Because there is a limit to how many rules a user can have, it makes sense to use the Blocked Senders List. You can [add or remove specific email addresses from the Blocked Senders List](how-to-add-and-remove-email-addresses-from-blocked-senders-list-by-using-ews.md) by using the [ExchangeService.MarkAsJunk](http://msdn.microsoft.com/en-us/library/microsoft.exchange.webservices.data.exchangeservice.markasjunk%28v=exchg.80%29.aspx) EWS Managed API method or the [MarkAsJunk](http://msdn.microsoft.com/library/1f71f04d-56a9-4fee-a4e7-d1034438329e%28Office.15%29.aspx) EWS operation. Note that in order for EWS to access the Blocked Senders List, the user's mailbox must contain an email message from the email address that you want to add or remove. 
   
 ## In this section
 <a name="bk_InThisSection"> </a>
 
 - [Manage Inbox rules by using EWS in Exchange](how-to-manage-inbox-rules-by-using-ews-in-exchange.md)
     
-- [Add and remove email addresses from the Blocked Senders List by using EWS in Exchange](how-to-add-and-remove-email-addresses-from-the-blocked-senders-list-by-using-ews.md)
+- [Add and remove email addresses from the Blocked Senders List by using EWS in Exchange](how-to-add-and-remove-email-addresses-from-blocked-senders-list-by-using-ews.md)
     
 ## See also
 

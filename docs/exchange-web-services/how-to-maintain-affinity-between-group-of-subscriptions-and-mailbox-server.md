@@ -1,12 +1,8 @@
 ---
 title: "Maintain affinity between a group of subscriptions and the Mailbox server in Exchange"
- 
- 
 manager: sethgros
 ms.date: 9/17/2015
 ms.audience: Developer
- 
- 
 localization_priority: Normal
 ms.assetid: 1bda4094-88c3-4f61-9219-6ee70f6e81cf
 description: "Find out about maintaining the affinity between a group of subscriptions and the Mailbox server."
@@ -74,7 +70,7 @@ You can use the same steps to maintain affinity for multiple mailbox subscriptio
     
   - If you need more connections than are available to the target mailbox, use the service account to impersonate the anchor mailbox for the group; otherwise, do not use impersonation. Ideally, you want to impersonate a unique mailbox per [GetStreamingEvents](http://msdn.microsoft.com/library/dbe83857-c4f8-4d98-813f-e03c289697a1%28Office.15%29.aspx) or [GetEvents](http://msdn.microsoft.com/library/22d4da6b-d8a8-484f-82c4-3e4b8f5431cd%28Office.15%29.aspx) request so that you never encounter throttling limits. 
     
-  - Use ApplicationImpersonation if you need [more connections than are available to the target mailbox](how-to-maintain-affinity-between-a-group-of-subscriptions-and-the-mailbox-server.md#bk_throttling); otherwise, do not use ApplicationImpersonation.
+  - Use ApplicationImpersonation if you need [more connections than are available to the target mailbox](how-to-maintain-affinity-between-group-of-subscriptions-and-mailbox-server.md#bk_throttling); otherwise, do not use ApplicationImpersonation.
     
   - Include the X-PreferServerAffinity header and set it to true. This value is automatically included if you are using the **ExchangeService** object that you created in step 2. 
     
@@ -339,17 +335,11 @@ You might notice that the exchangecookie that Exchange 2010 uses is still return
   
 ## See also
 
-
 - [Notification subscriptions, mailbox events, and EWS in Exchange](notification-subscriptions-mailbox-events-and-ews-in-exchange.md)
-    
 - [Stream notifications about mailbox events by using EWS in Exchange](how-to-stream-notifications-about-mailbox-events-by-using-ews-in-exchange.md)
-    
 - [Pull notifications about mailbox events by using EWS in Exchange](how-to-pull-notifications-about-mailbox-events-by-using-ews-in-exchange.md)
-    
 - [Handling notification-related errors in EWS in Exchange](handling-notification-related-errors-in-ews-in-exchange.md)
-    
 - [Changes in Managing Affinity for EWS Subscriptions…](http://blogs.msdn.com/b/mstehle/archive/2013/04/17/changes-in-managing-affinity-for-ews-subscriptions.aspx)
-    
 - [EWS throttling in Exchange](ews-throttling-in-exchange.md)
     
 

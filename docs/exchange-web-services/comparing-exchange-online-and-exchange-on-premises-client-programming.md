@@ -71,7 +71,7 @@ For details about the cmdlets that are available for Exchange Online, see [Power
 ## Client affinity and network load balancers
 <a name="affinity"> </a>
 
-Most EWS communication does not require that the client participate in maintaining affinity with Exchange. The subscriptions to mailbox events do require that the client provide cookies and other information to maintain affinity with the Exchange server that maintains the queue of mailbox events for a user. Exchange Server 2010 uses the exchangecookie to maintain client affinity across the network load balancers. Exchange Online and versions of Exchange on-premises starting with Exchange 2013 use the [X-AnchorMailbox header, X-PreferServerAffinity header, and X-BackEndOverrideCookie cookie](how-to-maintain-affinity-between-a-group-of-subscriptions-and-the-mailbox-server.md#bk_howmaintained) to maintain affinity for mailbox notifications. 
+Most EWS communication does not require that the client participate in maintaining affinity with Exchange. The subscriptions to mailbox events do require that the client provide cookies and other information to maintain affinity with the Exchange server that maintains the queue of mailbox events for a user. Exchange Server 2010 uses the exchangecookie to maintain client affinity across the network load balancers. Exchange Online and versions of Exchange on-premises starting with Exchange 2013 use the [X-AnchorMailbox header, X-PreferServerAffinity header, and X-BackEndOverrideCookie cookie](how-to-maintain-affinity-between-group-of-subscriptions-and-mailbox-server.md#bk_howmaintained) to maintain affinity for mailbox notifications. 
   
 ## Authentication
 <a name="auth"> </a>

@@ -30,7 +30,7 @@ Exchange 2013 includes support for up to 100 databases. Each Exchange 2013 datab
 |Transaction log stream  <br/> |\*.log  <br/> |Records operations, such as the creation or modification of a message, that will be committed to the database. Limited in size to 1 MB each.  <br/> |
 |Checkpoint file  <br/> |\*.chk  <br/> |Records which logged transactions have been written to the on-disk database files.  <br/> |
    
-Exchange 2013 maintains a single set of transaction log files for each database. The transaction logs are important for backup and recovery operations. When you create a backup and restore application that uses the Volume Shadow Copy Service (VSS), you must ensure that you handle these logs correctly. For more information, see [Transaction logs and checkpoint files for backup and restore in Exchange 2013](transaction-logs-and-checkpoint-files-for-backup-and-restore-in-exchange-2013.md). To back up a database and its log stream, you must back up the entire volume that contains the database and logs. Log truncation will occur only after a successful completion of a full backup of a volume or folders that contain an Exchange database.
+Exchange 2013 maintains a single set of transaction log files for each database. The transaction logs are important for backup and recovery operations. When you create a backup and restore application that uses the Volume Shadow Copy Service (VSS), you must ensure that you handle these logs correctly. For more information, see [Transaction logs and checkpoint files for backup and restore in Exchange 2013](transaction-logs-and-checkpoint-files-for-backup-and-restore-in-exchange.md). To back up a database and its log stream, you must back up the entire volume that contains the database and logs. Log truncation will occur only after a successful completion of a full backup of a volume or folders that contain an Exchange database.
   
 On each Exchange server, you can mount only one recovery database at a time. You can access the recovery database by using Exchange Management Shell cmdlets such as **New-MailboxRestoreRequest**. For more information about Exchange recovery databases, see [Recovery Databases](http://technet.microsoft.com/en-us/library/dd876954%28v=exchg.150%29.aspx) on TechNet. For more information about Exchange Management Shell cmdlets, see [Exchange 2013 Cmdlets](http://technet.microsoft.com/en-us/library/bb124413.aspx) on TechNet. 
   
@@ -59,7 +59,7 @@ The only supported method of restoring DAG databases from backup data is to rest
 ## In this section
 <a name="bk_inthissection"> </a>
 
-- [Transaction logs and checkpoint files for backup and restore in Exchange 2013](transaction-logs-and-checkpoint-files-for-backup-and-restore-in-exchange-2013.md)
+- [Transaction logs and checkpoint files for backup and restore in Exchange 2013](transaction-logs-and-checkpoint-files-for-backup-and-restore-in-exchange.md)
     
 - [Exchange writer in Exchange 2013](exchange-writer-in-exchange-2013.md)
     

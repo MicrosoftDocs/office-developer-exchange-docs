@@ -62,7 +62,7 @@ After you've added client instrumentation to your application, you're better pre
 ## See also
 
 - [EWS client design overview for Exchange](ews-client-design-overview-for-exchange.md)
-- [Trace requests and responses to troubleshoot EWS Managed API applications](how-to-trace-requests-and-responses-to-troubleshoot-ews-managed-api-applications.md)
+- [Trace requests and responses to troubleshoot EWS Managed API applications](how-to-trace-requests-responses-to-troubleshoot-ews-managed-api-applications.md)
 - [Tools and resources for troubleshooting EWS applications for Exchange](tools-and-resources-for-troubleshooting-ews-applications-for-exchange.md)
     
 

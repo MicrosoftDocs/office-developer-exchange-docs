@@ -18,7 +18,7 @@ Exchange Server 2013 provides Database Availability Groups (DAGs), which help to
 
 ## Backup technologies in Exchange 2013
 
-Exchange 2013 includes a plug-in for Windows Server Backup that administrators can use to make VSS-based backups of Exchange data. Administrators can also use Windows Server Backup to back up and restore Exchange databases. If you are creating a backup and restore application for Exchange 2013, you need to create an Exchange-aware application that supports the VSS writer for Exchange 2013, and use the CHKSGFILES API to validate the consistency of that backup. For more information, see [Validate backup integrity by using the CHKSGFILES API in Exchange 2013](how-to-validate-backup-integrity-by-using-the-chksgfiles-api-in-exchange-2013.md).
+Exchange 2013 includes a plug-in for Windows Server Backup that administrators can use to make VSS-based backups of Exchange data. Administrators can also use Windows Server Backup to back up and restore Exchange databases. If you are creating a backup and restore application for Exchange 2013, you need to create an Exchange-aware application that supports the VSS writer for Exchange 2013, and use the CHKSGFILES API to validate the consistency of that backup. For more information, see [Validate backup integrity by using the CHKSGFILES API in Exchange 2013](how-to-validate-backup-integrity-by-using-the-chksgfiles-api-in-exchange.md).
 
 <a name="bk_vsswriter"> </a>
 

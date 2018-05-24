@@ -39,7 +39,7 @@ Whether you use the .NET Framework or another platform to develop your web servi
 |[The EWS Managed API](get-started-with-ews-managed-api-client-applications.md) <br/> |Find information about the preferred client API for .NET Framework developers.  <br/> |
 |[EWS](get-started-with-ews-client-applications.md) <br/> |Find information about creating your first application by using EWS XML requests and responses.  <br/> |
 |[EWS functionality in Exchange product versions](ews-functionality-in-exchange-product-versions.md) <br/> |Find out what EWS functionality is available in version of Exchange.  <br/> |
-|[Trace and troubleshoot](how-to-trace-requests-and-responses-to-troubleshoot-ews-managed-api-applications.md) <br/> |Find out how to trace EWS requests and responses in order to troubleshoot errors in your EWS Managed API application.  <br/> |
+|[Trace and troubleshoot](how-to-trace-requests-responses-to-troubleshoot-ews-managed-api-applications.md) <br/> |Find out how to trace EWS requests and responses in order to troubleshoot errors in your EWS Managed API application.  <br/> |
    
 ## Create your first application
 <a name="create"> </a>

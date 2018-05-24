@@ -22,7 +22,7 @@ Because the Volume Shadow Copy Service (VSS) can create backups while Exchange c
     
 - The Eseutil command-line tool
     
-We recommend that you use the CHKSGFILES API because it is easier for the backup application to detect, diagnose, and report errors that are found during the CHKSGFILES consistency check. For information about how to use the CHKSGFILES API, see [Validate backup integrity by using the CHKSGFILES API in Exchange 2013](how-to-validate-backup-integrity-by-using-the-chksgfiles-api-in-exchange-2013.md).
+We recommend that you use the CHKSGFILES API because it is easier for the backup application to detect, diagnose, and report errors that are found during the CHKSGFILES consistency check. For information about how to use the CHKSGFILES API, see [Validate backup integrity by using the CHKSGFILES API in Exchange 2013](how-to-validate-backup-integrity-by-using-the-chksgfiles-api-in-exchange.md).
   
 ## Running the Eseutil tool
 
@@ -61,7 +61,7 @@ Before the requester calls the **BackupComplete** method, it must make sure that
   
 ## See also
 
-- [Validate backup integrity by using the CHKSGFILES API in Exchange 2013](how-to-validate-backup-integrity-by-using-the-chksgfiles-api-in-exchange-2013.md)
+- [Validate backup integrity by using the CHKSGFILES API in Exchange 2013](how-to-validate-backup-integrity-by-using-the-chksgfiles-api-in-exchange.md)
 - [Build backup and restore applications for Exchange 2013](build-backup-and-restore-applications-for-exchange-2013.md)
 - [CChkSGFiles class reference](cchksgfiles-class-reference.md)
 - [Backup and restore concepts for Exchange 2013](backup-and-restore-concepts-for-exchange-2013.md)

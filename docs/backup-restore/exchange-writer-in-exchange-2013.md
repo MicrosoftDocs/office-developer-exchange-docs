@@ -74,7 +74,7 @@ Backup-initiated transaction log file truncation is triggered based on the type 
   
 ## See also
 
-- [Transaction logs and checkpoint files for backup and restore in Exchange 2013](transaction-logs-and-checkpoint-files-for-backup-and-restore-in-exchange-2013.md)
+- [Transaction logs and checkpoint files for backup and restore in Exchange 2013](transaction-logs-and-checkpoint-files-for-backup-and-restore-in-exchange.md)
     
 - [Backup and restore concepts for Exchange 2013](backup-and-restore-concepts-for-exchange-2013.md)
     
