@@ -50,7 +50,7 @@
     "fileMetadata": {
  	"ms.technology": 
        { 
-         "transport-agents/**.md" : "dev-overview",
+         "transport-agents/**.md" : "transport-agents",
 		 "management/**.md" : "management",
 		 "backup-restore/**.md" : "backup-restore",
 		 "exchange-web-services/**.md" : "ews",
