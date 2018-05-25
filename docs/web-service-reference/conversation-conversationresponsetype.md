@@ -1,0 +1,69 @@
+---
+title: "Conversation (ConversationResponseType)"
+ 
+ 
+manager: sethgros
+ms.date: 9/17/2015
+ms.audience: Developer
+ms.topic: reference
+ms.prod: office-online-server
+localization_priority: Normal
+ms.assetid: 57310ba7-f411-43fa-a096-acef0481afec
+description: "The Conversation (GetConversationItemsResponseMessageType) element represents a single conversation returned in a GetConversationItems response."
+---
+
+# Conversation (ConversationResponseType)
+
+The **Conversation** (GetConversationItemsResponseMessageType) element represents a single conversation returned in a **GetConversationItems** response. 
+  
+```XML
+<Conversation />
+```
+
+ **ConversationResponseType**
+## Attributes and elements
+
+The following sections describe attributes, child elements, and parent elements.
+  
+### Attributes
+
+|**Attribute**|**Description**|
+|:-----|:-----|
+|||
+   
+#### 
+
+|**Value**|**Description**|
+|:-----|:-----|
+|||
+   
+### Child elements
+
+|**Element**|**Description**|
+|:-----|:-----|
+|||
+   
+### Parent elements
+
+|**Element**|**Description**|
+|:-----|:-----|
+|||
+   
+## Remarks
+
+This element was introduced in Exchange Server 2013.
+  
+## Example
+
+Microsoft.Win32.RegistryKey#4
+  
+## Element information
+
+||
+|:-----|
+|Namespace  <br/> |
+|Schema name  <br/> |
+|Validation file  <br/> |
+|Can be empty  <br/> |
+   
+

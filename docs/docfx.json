@@ -21,8 +21,11 @@
     "resource": [
       {
         "files": [
-          "**/*.png",
-          "**/*.jpg"
+              "**/*.png",
+              "**/*.jpg",
+              "**/*.gif",
+              "**/*.bmp",
+              "**/*.jpeg"
         ],
         "exclude": [
           "**/obj/**",
@@ -35,10 +38,27 @@
     "overwrite": [],
     "externalReference": [],
     "globalMetadata": {
-      "breadcrumb_path": "/exchange/dev/breadcrumb/toc.json",
-      "extendBreadcrumb": true
+
+      "breadcrumb_path": "/exchange/client-developer/breadcrumb/toc.json",
+      "extendBreadcrumb": true,
+      "ms.topic": "conceptual",
+	  "uhfHeaderId": "MSDocsHeader-Dev_Office",
+	   "ms.suite": "office",
+	   "ms.prod" : "exchange",
+	   "ms.author": "o365devx",
+	   "author": "o365devx"
     },
-    "fileMetadata": {},
+    "fileMetadata": {
+ 	"ms.technology": 
+       { 
+         "transport-agents/**.md" : "transport-agents",
+		 "management/**.md" : "management",
+		 "backup-restore/**.md" : "backup-restore",
+		 "exchange-web-services/**.md" : "ews",
+		 "web-service-reference/**.md" : "ews"		 
+       }
+	},
+
     "template": [],
     "dest": "officedocs-dev-exchange-docs",
     "markdownEngineName": "markdig"
