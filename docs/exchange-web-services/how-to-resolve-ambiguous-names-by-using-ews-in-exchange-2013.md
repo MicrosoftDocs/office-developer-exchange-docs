@@ -3,7 +3,7 @@ title: "Resolve ambiguous names by using EWS in Exchange 2013"
  
  
 manager: sethgros
-ms.date: 3/9/2015
+ms.date: 03/9/2015
 ms.audience: Developer
  
  

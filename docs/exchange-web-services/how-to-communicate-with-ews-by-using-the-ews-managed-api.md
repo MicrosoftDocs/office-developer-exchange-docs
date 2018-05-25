@@ -1,7 +1,7 @@
 ---
 title: "Communicate with EWS by using the EWS Managed API"
 manager: sethgros
-ms.date: 9/17/2015
+ms.date: 09/17/2015
 ms.audience: Developer
 localization_priority: Normal
 ms.assetid: d1b78293-da02-413a-875c-681e99146af3

@@ -1,7 +1,7 @@
 ---
 title: "Access a recurring series by using EWS in Exchange"
 manager: sethgros
-ms.date: 3/9/2015
+ms.date: 03/9/2015
 ms.audience: Developer
 localization_priority: Normal
 ms.assetid: 196a5671-2836-4696-b734-d5ecfdbf8962

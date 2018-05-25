@@ -1,7 +1,7 @@
 ---
 title: "Find Autodiscover endpoints by using SCP lookup in Exchange"
 manager: kelbow
-ms.date: 9/17/2015
+ms.date: 09/17/2015
 ms.audience: Developer
 localization_priority: Normal
 ms.assetid: b24228a8-5127-4bac-aef0-9c9e8843c9ff

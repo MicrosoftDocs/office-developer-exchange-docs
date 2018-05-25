@@ -1,7 +1,7 @@
 ---
 title: "Comparing Exchange Online and Exchange on-premises client programming"
 manager: sethgros
-ms.date: 9/17/2015
+ms.date: 09/17/2015
 ms.audience: Developer
 localization_priority: Normal
 ms.assetid: 3c2eabe4-52bc-461e-a6dd-f65f22f16e50

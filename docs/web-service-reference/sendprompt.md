@@ -3,7 +3,7 @@ title: "SendPrompt"
  
  
 manager: sethgros
-ms.date: 3/9/2015
+ms.date: 03/9/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server

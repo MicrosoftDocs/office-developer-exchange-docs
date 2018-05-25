@@ -1,7 +1,7 @@
 ---
 title: "Folders and items in EWS in Exchange"
 manager: sethgros
-ms.date: 9/17/2015
+ms.date: 09/17/2015
 ms.audience: Developer
 localization_priority: Normal
 ms.assetid: 9d8cf6fa-85a4-45ac-8165-e4d3ab92594e

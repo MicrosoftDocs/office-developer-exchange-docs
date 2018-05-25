@@ -3,7 +3,7 @@ title: "MailTipsConfiguration (MailTipsServiceConfiguration)"
  
  
 manager: sethgros
-ms.date: 9/17/2015
+ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server

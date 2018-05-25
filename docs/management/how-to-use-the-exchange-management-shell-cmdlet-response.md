@@ -1,7 +1,7 @@
 ---
 title: "Use the Exchange Management Shell cmdlet response"
 manager: sethgros
-ms.date: 9/17/2015
+ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: overview
 ms.prod: office-online-server

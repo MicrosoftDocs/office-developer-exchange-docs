@@ -1,7 +1,7 @@
 ---
 title: "EWS schema versions in Exchange"
 manager: sethgros
-ms.date: 3/9/2015
+ms.date: 03/9/2015
 ms.audience: Developer
 localization_priority: Normal
 ms.assetid: d1ab6f9c-ea91-4022-830d-7f7b759e3935

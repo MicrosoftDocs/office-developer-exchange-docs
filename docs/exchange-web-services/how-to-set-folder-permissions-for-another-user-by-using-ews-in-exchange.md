@@ -1,7 +1,7 @@
 ---
 title: "Set folder permissions for another user by using EWS in Exchange"
 manager: sethgros
-ms.date: 3/9/2015
+ms.date: 03/9/2015
 ms.audience: Developer
 localization_priority: Normal
 ms.assetid: 7eb81676-a780-4c56-b4f2-c4ed2697107d

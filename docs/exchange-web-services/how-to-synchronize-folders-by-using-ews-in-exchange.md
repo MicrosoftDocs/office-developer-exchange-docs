@@ -1,7 +1,7 @@
 ---
 title: "Synchronize folders by using EWS in Exchange"
 manager: sethgros
-ms.date: 9/17/2015
+ms.date: 09/17/2015
 ms.audience: Developer
 localization_priority: Normal
 ms.assetid: d3bbacd1-8e4b-4fd0-8d27-4cbbc045ec3f

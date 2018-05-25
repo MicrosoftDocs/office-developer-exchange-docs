@@ -1,7 +1,7 @@
 ---
 title: "Maintain affinity between a group of subscriptions and the Mailbox server in Exchange"
 manager: sethgros
-ms.date: 9/17/2015
+ms.date: 09/17/2015
 ms.audience: Developer
 localization_priority: Normal
 ms.assetid: 1bda4094-88c3-4f61-9219-6ee70f6e81cf

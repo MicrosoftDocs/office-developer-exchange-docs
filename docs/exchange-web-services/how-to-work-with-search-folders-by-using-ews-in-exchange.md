@@ -3,7 +3,7 @@ title: "Work with search folders by using EWS in Exchange"
  
  
 manager: sethgros
-ms.date: 9/17/2015
+ms.date: 09/17/2015
 ms.audience: Developer
  
  
