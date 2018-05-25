@@ -1,7 +1,7 @@
 ---
 title: "Validate a server certificate for the EWS Managed API"
 manager: sethgros
-ms.date: 9/17/2015
+ms.date: 09/17/2015
 ms.audience: Developer
 localization_priority: Normal
 ms.assetid: 1fe0b215-8340-4bc8-a6ce-4f591ca9e353

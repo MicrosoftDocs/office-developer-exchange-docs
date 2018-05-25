@@ -1,7 +1,7 @@
 ---
 title: "Handling notification-related errors in EWS in Exchange"
 manager: sethgros
-ms.date: 9/17/2015
+ms.date: 09/17/2015
 ms.audience: Developer
 localization_priority: Normal
 ms.assetid: 519e1e52-5f1f-4f06-931e-8c20a586a563

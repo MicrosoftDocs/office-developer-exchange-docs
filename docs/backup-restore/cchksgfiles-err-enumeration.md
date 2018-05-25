@@ -1,7 +1,7 @@
 ---
 title: "CChkSGFiles.ERR enumeration"
 manager: sethgros
-ms.date: 3/9/2015
+ms.date: 03/9/2015
 ms.audience: Developer
 ms.topic: overview
 ms.prod: office-online-server

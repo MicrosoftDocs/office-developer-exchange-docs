@@ -3,7 +3,7 @@ title: "Recurrence patterns and EWS"
  
  
 manager: luken
-ms.date: 3/9/2015
+ms.date: 03/9/2015
 ms.audience: Developer
  
  

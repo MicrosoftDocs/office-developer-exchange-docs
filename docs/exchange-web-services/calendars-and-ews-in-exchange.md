@@ -3,7 +3,7 @@ title: "Calendars and EWS in Exchange"
  
  
 manager: sethgros
-ms.date: 9/17/2015
+ms.date: 09/17/2015
 ms.audience: Developer
  
  

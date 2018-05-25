@@ -1,7 +1,7 @@
 ---
 title: "Work with Exchange mailbox items by using EWS in Exchange"
 manager: sethgros
-ms.date: 9/17/2015
+ms.date: 09/17/2015
 ms.audience: Developer
 localization_priority: Normal
 ms.assetid: 721deb84-f85d-45d0-84c1-0ed55f359969

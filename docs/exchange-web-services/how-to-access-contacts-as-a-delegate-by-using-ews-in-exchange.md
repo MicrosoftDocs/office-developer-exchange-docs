@@ -1,7 +1,7 @@
 ---
 title: "Access contacts as a delegate by using EWS in Exchange"
 manager: sethgros
-ms.date: 3/9/2015
+ms.date: 03/9/2015
 ms.audience: Developer
 localization_priority: Normal
 ms.assetid: 3cd34c14-18b0-4fe2-a4c2-d884318c88fc

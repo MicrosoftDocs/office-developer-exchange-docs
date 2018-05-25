@@ -1,7 +1,7 @@
 ---
 title: "What's new in EWS and other web services in Exchange"
 manager: sethgros
-ms.date: 9/17/2015
+ms.date: 09/17/2015
 ms.audience: Developer
 localization_priority: Normal
 ms.assetid: aff6328f-cff1-42a6-9a4d-ea4d2d0461cf

@@ -1,7 +1,7 @@
 ---
 title: "Access email as a delegate by using EWS in Exchange"
 manager: sethgros
-ms.date: 3/9/2015
+ms.date: 03/9/2015
 ms.audience: Developer
 localization_priority: Normal
 ms.assetid: a8123604-c7c0-405d-a0ed-7a9b4a431bfd

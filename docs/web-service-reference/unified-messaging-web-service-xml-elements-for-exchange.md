@@ -1,7 +1,7 @@
 ---
 title: "Unified Messaging web service XML elements for Exchange"
 manager: sethgros
-ms.date: 9/17/2015
+ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
 localization_priority: Normal

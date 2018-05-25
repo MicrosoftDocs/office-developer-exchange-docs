@@ -1,7 +1,7 @@
 ---
 title: "Create appointments and meetings by using EWS in Exchange 2013"
 manager: sethgros
-ms.date: 9/17/2015
+ms.date: 09/17/2015
 ms.audience: Developer
 localization_priority: Normal
 ms.assetid: fdea70a4-9267-4e5d-9152-b749e2acc3b0

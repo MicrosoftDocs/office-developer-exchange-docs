@@ -1,7 +1,7 @@
 ---
 title: "Configuration options for EWS in Exchange"
 manager: sethgros
-ms.date: 9/17/2015
+ms.date: 09/17/2015
 ms.audience: Developer
 localization_priority: Normal
 ms.assetid: f6562639-9366-4a13-9fdb-2fa737833329

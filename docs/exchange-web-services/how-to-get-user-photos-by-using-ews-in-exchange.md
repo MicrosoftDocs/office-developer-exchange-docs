@@ -1,7 +1,7 @@
 ---
 title: "Get user photos by using EWS in Exchange"
 manager: sethgros
-ms.date: 3/9/2015
+ms.date: 03/9/2015
 ms.audience: Developer
 localization_priority: Normal
 ms.assetid: f86d1099-1f57-47dc-abf2-4d5ae4e900a9

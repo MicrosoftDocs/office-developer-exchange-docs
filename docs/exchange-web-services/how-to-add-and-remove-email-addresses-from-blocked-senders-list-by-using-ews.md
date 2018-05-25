@@ -1,7 +1,7 @@
 ---
 title: "Add and remove email addresses from the Blocked Senders List by using EWS in Exchange"
 manager: sethgros
-ms.date: 9/17/2015
+ms.date: 09/17/2015
 ms.audience: Developer
 localization_priority: Normal
 ms.assetid: b88288ee-6af7-45b5-a55c-5929cd0c16f1

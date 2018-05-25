@@ -3,7 +3,7 @@ title: "Work with hidden folders by using EWS in Exchange"
  
  
 manager: sethgros
-ms.date: 3/9/2015
+ms.date: 03/9/2015
 ms.audience: Developer
  
  

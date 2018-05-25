@@ -1,7 +1,7 @@
 ---
 title: "Route public folder hierarchy requests"
 manager: sethgros
-ms.date: 3/9/2015
+ms.date: 03/9/2015
 ms.audience: Developer
 localization_priority: Normal
 ms.assetid: ec35df8e-4d75-4aa1-8b9c-ae1db7e05772

@@ -1,7 +1,7 @@
 ---
 title: "EWS functionality in Exchange product versions"
 manager: sethgros
-ms.date: 3/9/2015
+ms.date: 03/9/2015
 ms.audience: Developer
 localization_priority: Normal
 ms.assetid: 186c51dc-ec33-4a5d-b739-c9fcb1d4cdd3

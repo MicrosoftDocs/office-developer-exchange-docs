@@ -1,7 +1,7 @@
 ---
 title: "Get started with EWS Managed API client applications"
 manager: sethgros
-ms.date: 9/17/2015
+ms.date: 09/17/2015
 ms.audience: Developer
 localization_priority: Normal
 ms.assetid: c2267733-6f4f-49e5-9614-1e4a24c3af1a

@@ -1,7 +1,7 @@
 ---
 title: "Managing user access by using EWS in Exchange"
 manager: sethgros
-ms.date: 9/17/2015
+ms.date: 09/17/2015
 ms.audience: Developer
 localization_priority: Normal
 ms.assetid: 48f0170c-8786-405f-86cb-568b7314a425

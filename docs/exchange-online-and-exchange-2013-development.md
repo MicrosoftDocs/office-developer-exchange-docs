@@ -1,7 +1,7 @@
 ---
 title: "Exchange Online and Exchange 2013 development (retired)"
 manager: sethgros
-ms.date: 3/9/2015
+ms.date: 03/9/2015
 ms.audience: Developer
 localization_priority: Normal
 ms.assetid: f33d1093-75ba-4ff2-8d15-b0bf73a401bf

@@ -1,7 +1,7 @@
 ---
 title: "Perform grouped searches by using EWS in Exchange"
 manager: sethgros
-ms.date: 9/17/2015
+ms.date: 09/17/2015
 ms.audience: Developer
 localization_priority: Normal
 ms.assetid: 55de92eb-8e8b-4156-8ad9-dd3828024242

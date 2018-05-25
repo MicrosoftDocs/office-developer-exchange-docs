@@ -1,7 +1,7 @@
 ---
 title: "Explore the EWS Managed API, EWS, and web services in Exchange"
 manager: sethgros
-ms.date: 9/17/2015
+ms.date: 09/17/2015
 ms.audience: Developer
 localization_priority: Normal
 ms.assetid: 0bc6f81d-cc10-42b0-ba5d-6f22ff55d51c

@@ -1,7 +1,7 @@
 ---
 title: "POX Autodiscover request for Exchange"
 manager: sethgros
-ms.date: 3/9/2015
+ms.date: 03/9/2015
 ms.audience: Developer
 ms.topic: reference
 localization_priority: Normal
