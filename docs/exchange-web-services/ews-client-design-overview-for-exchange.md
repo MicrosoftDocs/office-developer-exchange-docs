@@ -115,18 +115,12 @@ For information about the features that are available in each EWS schema version
 ## In this section
 <a name="bk_inthissection"> </a>
 
-- [Web service API feature availability in Exchange and the EWS Managed API](web-service-api-feature-availability-in-exchange-and-the-ews-managed-api.md)
-    
-- [EWS schema versions in Exchange](ews-schema-versions-in-exchange.md)
-    
-- [Configuration options for EWS in Exchange](configuration-options-for-ews-in-exchange.md)
-    
-- [Comparing Exchange Online and Exchange on-premises client programming](comparing-exchange-online-and-exchange-on-premises-client-programming.md)
-    
-- [EWS throttling in Exchange](ews-throttling-in-exchange.md)
-    
-- [Redistribution requirements for the EWS Managed API](redistribution-requirements-for-the-ews-managed-api.md)
-    
+- [Web service API feature availability in Exchange and the EWS Managed API](web-service-api-feature-availability-in-exchange-and-the-ews-managed-api.md)   
+- [EWS schema versions in Exchange](ews-schema-versions-in-exchange.md)  
+- [Configuration options for EWS in Exchange](configuration-options-for-ews-in-exchange.md)  
+- [Comparing Exchange Online and Exchange on-premises client programming](comparing-exchange-online-and-exchange-on-premises-client-programming.md)   
+- [EWS throttling in Exchange](ews-throttling-in-exchange.md)  
+- [Redistribution requirements for the EWS Managed API](redistribution-requirements-for-the-ews-managed-api.md)  
 - [Instrumenting client requests for EWS and REST in Exchange](instrumenting-client-requests-for-ews-and-rest-in-exchange.md)
     
 ## See also
