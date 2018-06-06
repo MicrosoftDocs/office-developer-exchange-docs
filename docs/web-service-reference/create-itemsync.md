@@ -1,7 +1,5 @@
 ---
 title: "Create (ItemSync)"
- 
- 
 manager: sethgros
 ms.date: 09/17/2015
 ms.audience: Developer
@@ -20,15 +18,11 @@ description: "The Create element identifies a single item to create in the local
 
 The **Create** element identifies a single item to create in the local client store. 
   
-[SyncFolderItemsResponse](syncfolderitemsresponse.md)
-  
-[ResponseMessages](responsemessages.md)
-  
-[SyncFolderItemsResponseMessage](syncfolderitemsresponsemessage.md)
-  
-[Changes (Items)](changes-items.md)
-  
-[Create (ItemSync)](create-itemsync.md)
+- [SyncFolderItemsResponse](syncfolderitemsresponse.md) 
+- [ResponseMessages](responsemessages.md) 
+- [SyncFolderItemsResponseMessage](syncfolderitemsresponsemessage.md) 
+- [Changes (Items)](changes-items.md) 
+- [Create (ItemSync)](create-itemsync.md)
   
 ```xml
 <Create>
@@ -36,7 +30,62 @@ The **Create** element identifies a single item to create in the local client st
 </Create>
 ```
 
- **SyncFolderItemsCreateOrUpdateType**
+```xml
+<Create>
+   <Task/> 
+</Create>
+```
+
+```xml
+<Create>
+   <MeetingResponse/>
+</Create>
+```
+
+```xml
+<Create>
+   <CalendarItem/>
+</Create>
+```
+
+```xml
+<Create>
+   <MeetingMessage/>
+</Create>
+```
+
+```xml
+<Create>
+   <DistributionList/>
+</Create>
+```
+
+```xml
+<Create>
+   <MeetingCancellation/>
+</Create>
+```
+
+```xml
+<Create>
+   <MeetingRequest/> 
+</Create>
+```
+
+```xml
+<Create>
+   <Message/> 
+</Create>
+```
+
+```xml
+<Create>
+   <Contact/> 
+</Create>
+```
+
+**SyncFolderItemsCreateOrUpdateType**
+
 ## Attributes and elements
 
 The following sections describe attributes, child elements, and parent elements.
@@ -81,10 +130,6 @@ The schema that describes this element is located in the EWS virtual directory o
    
 ## See also
 
-
-
-[SyncFolderItems operation](syncfolderitems-operation.md)
-
-
+- [SyncFolderItems operation](syncfolderitems-operation.md)
 - [EWS XML elements in Exchange](ews-xml-elements-in-exchange.md)
 

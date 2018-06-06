@@ -1,7 +1,5 @@
 ---
 title: "ContextFolderId"
- 
- 
 manager: sethgros
 ms.date: 09/17/2015
 ms.audience: Developer
@@ -20,13 +18,10 @@ description: "The ContextFolderId element indicates the folder that is targeted 
 
 The **ContextFolderId** element indicates the folder that is targeted for actions that use folders. This element must be present when copying, deleting, moving, and setting read state on conversation items in a target folder. 
   
-[ApplyConversationAction](applyconversationaction.md)
-  
-[ConversationActions](conversationactions.md)
-  
-[ConversationAction](conversationaction.md)
-  
-[ContextFolderId](contextfolderid.md)
+- [ApplyConversationAction](applyconversationaction.md) 
+- [ConversationActions](conversationactions.md)
+- [ConversationAction](conversationaction.md)
+- [ContextFolderId](contextfolderid.md)
   
 ```XML
 <ContextFolderId>
@@ -34,7 +29,15 @@ The **ContextFolderId** element indicates the folder that is targeted for action
 </ContextFolderId>
 ```
 
- **TargetFolderIdType**
+```XML
+<ContextFolderId>
+   <DistinguishedFolderId/>
+</ContextFolderId>
+```
+
+
+**TargetFolderIdType**
+
 ## Attributes and elements
 
 The following sections describe attributes, child elements, and parent elements.
@@ -75,7 +78,5 @@ The schema that describes this element is located in the IIS virtual directory t
    
 ## See also
 
-
-
-[ApplyConversationAction operation](applyconversationaction-operation.md)
+- [ApplyConversationAction operation](applyconversationaction-operation.md)
 

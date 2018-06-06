@@ -1,7 +1,5 @@
 ---
 title: "ConnectingSID"
- 
- 
 manager: sethgros
 ms.date: 09/17/2015
 ms.audience: Developer
@@ -30,7 +28,26 @@ The **ConnectingSID** element represents an account to impersonate when you are 
 </ConnectingSID>
 ```
 
- **ConnectingSIDType**
+```xml
+<ConnectingSID>
+   <SmtpAddress/>
+</ConnectingSID>
+```
+
+```xml
+<ConnectingSID>
+    <SID/> 
+</ConnectingSID>
+```
+
+```xml
+<ConnectingSID>
+   <PrimarySmtpAddress/>
+</ConnectingSID>
+```
+
+**ConnectingSIDType**
+
 ## Attributes and elements
 
 The following sections describe attributes, child elements, and parent elements.
@@ -71,7 +88,5 @@ The schema that describes this element is located in the EWS virtual directory o
    
 ## See also
 
-
-
-[Server-to-server authorization in EWS](http://msdn.microsoft.com/library/f1610a20-672d-448b-8c00-5b0fbcaf31cb%28Office.15%29.aspx)
+- [Server-to-server authorization in EWS](http://msdn.microsoft.com/library/f1610a20-672d-448b-8c00-5b0fbcaf31cb%28Office.15%29.aspx)
 
