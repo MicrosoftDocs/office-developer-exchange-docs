@@ -1,12 +1,8 @@
 ---
 title: "EWS Identifiers in Exchange"
- 
- 
 manager: sethgros
 ms.date: 09/17/2015
 ms.audience: Developer
- 
- 
 localization_priority: Normal
 ms.assetid: 39b6b20b-e081-4347-9e15-9b8cf829fdf0
 description: "Find out about identifiers in Exchange and how you can use them in your EWS Managed API and EWS applications."
@@ -120,19 +116,15 @@ You can use the **ConvertId** operation or method to convert several different i
 |EwsLegacyId  <br/> |The EwsId that applies to Exchange 2007.  <br/> |
 |EwsId  <br/> |The EwsId that applies to Exchange Online and versions of Exchange starting with Exchange 2007 SP1.  <br/> |
 |StoreId  <br/> |The Exchange store identifier where the folders and items are stored.  <br/> |
-|OwaId  <br/> |The Outlook Web App identifier used with Outlook Web App in Exchange 2007 and Exchange 2010.  <br/> > [!NOTE]> Exchange Online and versions of Exchange starting with Exchange 2013 use the EwsId for Outlook Web App.           |
+|OwaId  <br/> |The Outlook Web App identifier used with Outlook Web App in Exchange 2007 and Exchange 2010.  <br/><br/>**NOTE**: Exchange Online and versions of Exchange starting with Exchange 2013 use the EwsId for Outlook Web App.           |
 |EntryId  <br/> |A MAPI identifier that is commonly known as the **PR_ENTRYID** property of a MAPI message.  <br/> |
 |HexEntryId  <br/> |A hexadecimal-encoded representation of the **PR_ENTRYID** property that is used for the availability calendar event identifier. This is also the identifier format that Outlook uses.  <br/> |
    
 ## See also
 
-
-- [Develop web service clients for Exchange](develop-web-service-clients-for-exchange.md)
-    
-- [ConvertId operation](http://msdn.microsoft.com/library/47d96cf6-9e2f-4fc0-9682-7258d3fbf918%28Office.15%29.aspx)
-    
-- [ServiceError enumeration](http://msdn.microsoft.com/en-us/library/office/microsoft.exchange.webservices.data.serviceerror%28v=exchg.80%29.aspx)
-    
+- [Develop web service clients for Exchange](develop-web-service-clients-for-exchange.md)  
+- [ConvertId operation](http://msdn.microsoft.com/library/47d96cf6-9e2f-4fc0-9682-7258d3fbf918%28Office.15%29.aspx)  
+- [ServiceError enumeration](http://msdn.microsoft.com/en-us/library/office/microsoft.exchange.webservices.data.serviceerror%28v=exchg.80%29.aspx) 
 - [Deleting items by using EWS in Exchange](deleting-items-by-using-ews-in-exchange.md)
     
 
