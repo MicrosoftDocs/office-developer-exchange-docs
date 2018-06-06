@@ -36,8 +36,7 @@ The Unified Messaging web service provides many operations that enable client ap
 - [PlayOnPhone operation (UM web service)](playonphone-operation-um-web-service.md)   
 - [PlayOnPhoneGreeting operation (UM web service)](playonphonegreeting-operation-um-web-service.md)   
 - [ResetPIN operation (UM web service)](resetpin-operation-um-web-service.md)   
-- [SetMissedCallNotificationEnabled operation (UM web service)](setmissedcallnotificationenabled-operation-um-web-service.md)
-    
+- [SetMissedCallNotificationEnabled operation (UM web service)](setmissedcallnotificationenabled-operation-um-web-service.md)  
 - [SetOofStatus operation (UM web service)](setoofstatus-operation-um-web-service.md)    
 - [SetPlayOnPhoneDialString operation (UM web service)](setplayonphonedialstring-operation-um-web-service.md)   
 - [SetTelephoneAccessFolderEmail operation (UM web service)](settelephoneaccessfolderemail-operation-um-web-service.md)
