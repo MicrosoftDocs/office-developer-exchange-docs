@@ -1,7 +1,5 @@
 ---
 title: "Notification"
- 
- 
 manager: sethgros
 ms.date: 09/17/2015
 ms.audience: Developer
@@ -29,7 +27,71 @@ The **Notification** element contains information about the subscription and the
 </Notification>
 ```
 
- **NotificationType**
+```xml
+<Notification>
+   <SubscriptionId/>
+   <PreviousWatermark/>
+   <MoreEvents/>
+   <CreatedEvent/>
+</Notification>
+```
+
+```xml
+<Notification>
+   <SubscriptionId/>
+   <PreviousWatermark/>
+   <MoreEvents/>
+   <DeletedEvent/>
+</Notification>
+```
+
+```xml
+<Notification>
+   <SubscriptionId/>
+   <PreviousWatermark/>
+   <MoreEvents/>
+   <ModifiedEvent/>
+</Notification>
+```
+
+```xml
+<Notification>
+   <SubscriptionId/>
+   <PreviousWatermark/>
+   <MoreEvents/>
+   <MovedEvent/>
+</Notification>
+```
+
+```xml
+<Notification>
+   <SubscriptionId/>
+   <PreviousWatermark/>
+   <MoreEvents/>
+   <NewMailEvent/>
+</Notification>
+```
+
+```xml
+<Notification>
+   <SubscriptionId/>
+   <PreviousWatermark/>
+   <MoreEvents/>
+   <StatusEvent/>
+</Notification>
+```
+
+```xml
+<Notification>
+   <SubscriptionId/>
+   <PreviousWatermark/>
+   <MoreEvents/>
+   <FreeBusyChangedEvent/>
+</Notification>
+```
+
+**NotificationType**
+
 ## Attributes and elements
 
 The following sections describe attributes, child elements, and parent elements.
@@ -80,13 +142,8 @@ The schema that describes this element is located in the IIS virtual directory t
    
 ## See also
 
-
-
-[Subscribe operation](subscribe-operation.md)
-  
-[GetEvents operation](getevents-operation.md)
-  
-[GetStreamingEvents operation](getstreamingevents-operation.md)
-  
-[Unsubscribe operation](unsubscribe-operation.md)
+- [Subscribe operation](subscribe-operation.md) 
+- [GetEvents operation](getevents-operation.md) 
+- [GetStreamingEvents operation](getstreamingevents-operation.md) 
+- [Unsubscribe operation](unsubscribe-operation.md)
 

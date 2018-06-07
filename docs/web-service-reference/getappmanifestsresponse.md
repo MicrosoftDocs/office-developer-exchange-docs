@@ -1,7 +1,5 @@
 ---
 title: "GetAppManifestsResponse"
- 
- 
 manager: sethgros
 ms.date: 09/17/2015
 ms.audience: Developer
@@ -16,14 +14,22 @@ description: "The GetAppManifestsResponse element defines the response for a Get
 
 The **GetAppManifestsResponse** element defines the response for a **GetAppManifests** operation request. 
   
-```XML
+```xml
 <GetAppManifestsResponse>
     <ResponseCode/>
     <Manifests/>
 </GetAppManifestsResponse>
 ```
 
- **GetAppManifestsResponseType**
+```xml
+<GetAppManifestsResponse>
+    <ResponseCode/>
+    <Apps/>
+</GetAppManifestsResponse>
+```
+
+**GetAppManifestsResponseType**
+
 ## Attributes and elements
 
 The following sections describe attributes, child elements, and parent elements.
@@ -56,8 +62,6 @@ The schema that describes this element is located in the IIS virtual directory t
 |Can Be Empty  <br/> |False  <br/> |
    
 ## See also
-
-
 
 - [EWS XML elements in Exchange](ews-xml-elements-in-exchange.md)
 

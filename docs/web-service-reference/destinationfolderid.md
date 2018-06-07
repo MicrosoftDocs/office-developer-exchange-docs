@@ -29,7 +29,14 @@ The **DestinationFolderId** element indicates the destination folder for copy an
 </DestinationFolderId>
 ```
 
- **TargetFolderIdType**
+```XML
+<DestinationFolderId>
+   <DistinguishedFolderId/>
+</DestinationFolderId>
+```
+
+**TargetFolderIdType**
+
 ## Attributes and elements
 
 The following sections describe attributes, child elements, and parent elements.

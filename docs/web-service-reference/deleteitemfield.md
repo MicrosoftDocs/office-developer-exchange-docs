@@ -30,7 +30,20 @@ The **DeleteItemField** element represents an operation to delete a given proper
 </DeleteItemField>
 ```
 
- **DeleteItemFieldType**
+```xml
+<DeleteItemField>
+   <IndexedFieldURI/> 
+</DeleteItemField>
+```
+
+```xml
+<DeleteItemField>
+   <ExtendedFieldURI/>
+</DeleteItemField>
+```
+
+**DeleteItemFieldType**
+
 ## Attributes and elements
 
 The following sections describe attributes, child elements, and parent elements.

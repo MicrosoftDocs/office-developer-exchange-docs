@@ -1,7 +1,5 @@
 ---
 title: "SyncFolderId"
- 
- 
 manager: sethgros
 ms.date: 09/17/2015
 ms.audience: Developer
@@ -26,7 +24,14 @@ The **SyncFolderId** element represents the folder that contains the items to sy
 </SyncFolderId>
 ```
 
- **TargetFolderIdType**
+```xml
+<SyncFolderId>
+   <DistinguishedFolderId/> 
+</SyncFolderId>
+```
+
+**TargetFolderIdType**
+
 ## Attributes and elements
 
 The following sections describe attributes, child elements, and parent elements.
@@ -64,10 +69,6 @@ The schema that describes this element is located in the EWS virtual directory o
    
 ## See also
 
-
-
-[SyncFolderItems operation](syncfolderitems-operation.md)
-
-
+- [SyncFolderItems operation](syncfolderitems-operation.md)
 - [EWS XML elements in Exchange](ews-xml-elements-in-exchange.md)
 

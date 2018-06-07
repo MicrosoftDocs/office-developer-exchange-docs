@@ -1,12 +1,8 @@
 ---
 title: "Get appointments and meetings by using EWS in Exchange"
- 
- 
-manager: sethgros
+manager: sethgros 
 ms.date: 09/17/2015
 ms.audience: Developer
- 
- 
 localization_priority: Normal
 ms.assetid: 1bae582a-8cb3-4e77-be2a-7e107fad26fe
 description: "Learn how to get appointments and meetings by using the EWS Managed API or EWS in Exchange."
@@ -49,8 +45,11 @@ The following code example shows how to use the EWS Managed API to retrieve a us
 
 ```
 
+<br/>
+
 The following is the output from the code example.
   
+```text
 The first five appointments on your calendar from 8/21/2013 to 9/20/2013 are: 
   
 Subject: Contoso devs team meeting Start: 8/21/2013 12:30:00 PM End: 8/21/2013 1:00:00 PM
@@ -62,6 +61,8 @@ Subject: Lunch with sales team Start: 8/21/2013 2:30:00 PM End: 8/21/2013 3:30:0
 Subject: Tennis at the club Start: 8/22/2013 11:00:00 AM End: 8/22/2013 12:00:00 PM
   
 Subject: Online training webcast: 8/22/2013 2:00:00 PM End: 8/22/2013 3:00:00 PM
+```
+
 ## Get appointments by using EWS
 <a name="bk_xml"> </a>
 
@@ -88,6 +89,8 @@ The following XML shows a [GetFolder](http://msdn.microsoft.com/library/355bcf93
   </soap:Body>
 </soap:Envelope>
 ```
+
+<br/>
 
 The following XML shows the **GetFolder** response. Note that the **FolderID** and **ChangeKey** attributes are shortened for readability. 
   
@@ -118,6 +121,8 @@ The following XML shows the **GetFolder** response. Note that the **FolderID** a
 </s:Envelope>
 ```
 
+<br/>
+
 The following XML shows the **FindItem** request used to return the requested appointments. Note that the **FolderID** and **ChangeKey** attributes are shortened for readability. 
   
 ```XML
@@ -147,6 +152,8 @@ The following XML shows the **FindItem** request used to return the requested ap
   </soap:Body>
 </soap:Envelope>
 ```
+
+<br/>
 
 The following XML shows the **FindItem** response. Note that the **ItemID** and **ChangeKey** attributes are shortened for readability. 
   
@@ -217,14 +224,10 @@ Instead, what you really want to do is something akin to applying a  *Dataview* 
 ## See also
 <a name="bk_additional"> </a>
 
-- [Calendars and EWS in Exchange](calendars-and-ews-in-exchange.md)
-    
-- [Create appointments and meetings by using EWS in Exchange 2013](how-to-create-appointments-and-meetings-by-using-ews-in-exchange-2013.md)
-    
-- [Update appointments and meetings by using EWS in Exchange](how-to-update-appointments-and-meetings-by-using-ews-in-exchange.md)
-    
-- [Delete appointments and cancel meetings by using EWS in Exchange](how-to-delete-appointments-and-cancel-meetings-by-using-ews-in-exchange.md)
-    
+- [Calendars and EWS in Exchange](calendars-and-ews-in-exchange.md)   
+- [Create appointments and meetings by using EWS in Exchange 2013](how-to-create-appointments-and-meetings-by-using-ews-in-exchange-2013.md)  
+- [Update appointments and meetings by using EWS in Exchange](how-to-update-appointments-and-meetings-by-using-ews-in-exchange.md)  
+- [Delete appointments and cancel meetings by using EWS in Exchange](how-to-delete-appointments-and-cancel-meetings-by-using-ews-in-exchange.md) 
 - [Develop web service clients for Exchange](develop-web-service-clients-for-exchange.md)
     
 

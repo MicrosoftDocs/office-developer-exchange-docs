@@ -1,12 +1,8 @@
 ---
 title: "Controlling client application access to EWS in Exchange"
- 
- 
 manager: sethgros
 ms.date: 09/17/2015
 ms.audience: Developer
- 
- 
 localization_priority: Normal
 ms.assetid: 60ac3f7b-ba8a-4c93-99f7-c27002caff93
 description: "Learn about the options for managing client application access to EWS."
@@ -33,7 +29,7 @@ Your test or production server administrator can configure access control for cl
     
 Applications are identified by the user agent string that they send in the HTTP web request.
   
-> [!SECURITY NOTE]
+> [!IMPORTANT]
 > Application-level blocking is not a security feature. The user agent string is easily spoofed. If an application is allowed access to EWS, the application must still present credentials that the server authenticates before the application can connect to EWS. 
   
 Administrators can also configure access control for mailbox owners that connect to EWS in the following ways: 
@@ -69,12 +65,9 @@ To enable impersonation accounts, your test or production server administrator s
 
 Administrators use the following Exchange Management Shell cmdlets to configure EWS access controls: 
   
-- [Get-CASMailbox](http://technet.microsoft.com/en-us/library/bb124754.aspx)
-    
-- [Set-CASMailbox](http://technet.microsoft.com/en-us/library/bb125264.aspx)
-    
-- [Get-OrganizationConfig](http://technet.microsoft.com/en-us/library/aa997571.aspx)
-    
+- [Get-CASMailbox](http://technet.microsoft.com/en-us/library/bb124754.aspx)   
+- [Set-CASMailbox](http://technet.microsoft.com/en-us/library/bb125264.aspx)   
+- [Get-OrganizationConfig](http://technet.microsoft.com/en-us/library/aa997571.aspx)   
 - [Set-OrganizationConfig](http://technet.microsoft.com/en-us/library/aa997443.aspx)
     
 ## See also
