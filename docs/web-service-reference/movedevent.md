@@ -1,7 +1,5 @@
 ---
 title: "MovedEvent"
- 
- 
 manager: sethgros
 ms.date: 09/17/2015
 ms.audience: Developer
@@ -31,7 +29,20 @@ The **MovedEvent** element represents an event in which an item or folder is mov
 </MovedEvent>
 ```
 
- **MovedCopiedEventType**
+```xml
+<MovedEvent>
+   <Watermark/>
+   <TimeStamp/>
+   <FolderId/>
+   <ParentFolderId/>
+   <OldFolderId/>
+   <OldParentFolderId/>
+</MovedEvent>
+```
+
+
+**MovedCopiedEventType**
+
 ## Attributes and elements
 
 The following sections describe attributes, child elements, and parent elements.
@@ -74,11 +85,7 @@ The schema that describes this element is located in the EWS virtual directory o
    
 ## See also
 
-
-
-[Subscribe operation](subscribe-operation.md)
-  
-[GetEvents operation](getevents-operation.md)
-  
-[Unsubscribe operation](unsubscribe-operation.md)
+- [Subscribe operation](subscribe-operation.md) 
+- [GetEvents operation](getevents-operation.md) 
+- [Unsubscribe operation](unsubscribe-operation.md)
 

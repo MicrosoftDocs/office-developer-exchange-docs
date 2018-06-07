@@ -1,7 +1,5 @@
 ---
 title: "ItemAttachment"
- 
- 
 manager: sethgros
 ms.date: 09/17/2015
 ms.audience: Developer
@@ -34,7 +32,120 @@ The **ItemAttachment** element represents an Exchange item that is attached to a
 </ItemAttachment>
 ```
 
- **ItemAttachmentType**
+```xml
+<ItemAttachment>
+   <AttachmentId/>
+   <Name/>
+   <ContentType/>
+   <ContentId/>
+   <ContentLocation/>
+   <Size/>
+   <LastModifiedTime/>
+   <IsInline/>
+   <Message/>
+</ItemAttachment>
+```
+
+```xml
+<ItemAttachment>
+   <AttachmentId/>
+   <Name/>
+   <ContentType/>
+   <ContentId/>
+   <ContentLocation/>
+   <Size/>
+   <LastModifiedTime/>
+   <IsInline/>
+   <CalendarItem/>
+</ItemAttachment>
+```
+
+```xml
+<ItemAttachment>
+   <AttachmentId/>
+   <Name/>
+   <ContentType/>
+   <ContentId/>
+   <ContentLocation/>
+   <Size/>
+   <LastModifiedTime/>
+   <IsInline/>
+   <Contact/>
+</ItemAttachment>
+```
+
+```xml
+<ItemAttachment>
+   <AttachmentId/>
+   <Name/>
+   <ContentType/>
+   <ContentId/>
+   <ContentLocation/>
+   <Size/>
+   <LastModifiedTime/>
+   <IsInline/>
+   <Task/>
+</ItemAttachment>
+```
+
+```xml
+<ItemAttachment>
+   <AttachmentId/>
+   <Name/>
+   <ContentType/>
+   <ContentId/>
+   <ContentLocation/>
+   <Size/>
+   <LastModifiedTime/>
+   <IsInline/>
+   <MeetingMessage/>
+</ItemAttachment>
+```
+
+```xml
+<ItemAttachment>
+   <AttachmentId/>
+   <Name/>
+   <ContentType/>
+   <ContentId/>
+   <ContentLocation/>
+   <Size/>
+   <LastModifiedTime/>
+   <IsInline/>
+   <MeetingRequest/>
+</ItemAttachment>
+```
+
+```xml
+<ItemAttachment>
+   <AttachmentId/>
+   <Name/>
+   <ContentType/>
+   <ContentId/>
+   <ContentLocation/>
+   <Size/>
+   <LastModifiedTime/>
+   <IsInline/>
+   <MeetingResponse/>
+</ItemAttachment>
+```
+
+```xml
+<ItemAttachment>
+   <AttachmentId/>
+   <Name/>
+   <ContentType/>
+   <ContentId/>
+   <ContentLocation/>
+   <Size/>
+   <LastModifiedTime/>
+   <IsInline/>
+   <MeetingCancellation/>
+</ItemAttachment>
+```
+
+**ItemAttachmentType**
+
 ## Attributes and elements
 
 The following sections describe attributes, child elements, and parent elements.
@@ -89,8 +200,6 @@ The schema that describes this element is located in the IIS virtual directory t
 |Can be Empty  <br/> |False  <br/> |
    
 ## See also
-
-
 
 - [EWS XML elements in Exchange](ews-xml-elements-in-exchange.md)
 

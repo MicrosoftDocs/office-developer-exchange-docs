@@ -1,7 +1,5 @@
 ---
 title: "ModifiedEvent"
- 
- 
 manager: sethgros
 ms.date: 09/17/2015
 ms.audience: Developer
@@ -30,7 +28,18 @@ The **ModifiedEvent** element represents an event in which an item or folder is 
 </ModifiedEvent>
 ```
 
- **ModifiedEventType**
+```xml
+<ModifiedEvent>
+   <Watermark/>
+   <TimeStamp/>
+   <ItemId/> 
+   <ParentFolderId/>
+   <UnreadCount/>
+</ModifiedEvent>
+```
+
+**ModifiedEventType**
+
 ## Attributes and elements
 
 The following sections describe attributes, child elements, and parent elements.
@@ -73,11 +82,7 @@ The schema that describes this element is located in the EWS virtual directory o
    
 ## See also
 
-
-
-[Subscribe operation](subscribe-operation.md)
-  
-[GetEvents operation](getevents-operation.md)
-  
-[Unsubscribe operation](unsubscribe-operation.md)
+- [Subscribe operation](subscribe-operation.md)  
+- [GetEvents operation](getevents-operation.md)  
+- [Unsubscribe operation](unsubscribe-operation.md)
 

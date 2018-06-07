@@ -18,9 +18,8 @@ description: "The ConnectingSID element represents an account to impersonate whe
 
 The **ConnectingSID** element represents an account to impersonate when you are using the ExchangeImpersonation SOAP header. 
   
-[ExchangeImpersonation](exchangeimpersonation.md)
-  
-[ConnectingSID](connectingsid.md)
+- [ExchangeImpersonation](exchangeimpersonation.md) 
+- [ConnectingSID](connectingsid.md)
   
 ```xml
 <ConnectingSID>

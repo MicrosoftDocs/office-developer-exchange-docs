@@ -1,7 +1,5 @@
 ---
 title: "SetFolderField"
- 
- 
 manager: sethgros
 ms.date: 09/17/2015
 ms.audience: Developer
@@ -19,15 +17,115 @@ description: "The SetFolderField element represents an update that sets the valu
 # SetFolderField
 
 The **SetFolderField** element represents an update that sets the value for a single property on a folder in an UpdateFolder operation. 
-  
+
 ```xml
 <SetFolderField>
    <FieldURI/>
    <Folder/>
 </SetFolderField>
 ```
+  
+```xml
+<SetFolderField>
+   <IndexedFieldURI/> 
+   <SearchFolder/> 
+</SetFolderField>
+```
 
- **SetFolderFieldType**
+```xml
+<SetFolderField>
+   <FieldURI/> 
+   <TasksFolder/>
+</SetFolderField>
+```
+
+```xml
+<SetFolderField>
+   <ExtendedFieldURI/> 
+   <CalendarFolder/> 
+</SetFolderField>
+```
+
+```xml
+<SetFolderField>
+   <ExtendedFieldURI/> 
+   <SearchFolder/>
+</SetFolderField>
+```
+
+```xml
+<SetFolderField>
+   <ExtendedFieldURI/> 
+   <Folder/> 
+</SetFolderField>
+```
+
+```xml
+<SetFolderField>
+    <IndexedFieldURI/> 
+    <TasksFolder/>
+</SetFolderField>
+```
+
+```xml
+<SetFolderField>
+   <FieldURI/> 
+   <SearchFolder/>
+</SetFolderField>
+```
+
+```xml
+<SetFolderField>
+   <FieldURI/> 
+   <CalendarFolder/> 
+</SetFolderField>
+```
+
+```xml
+<SetFolderField>
+   <ExtendedFieldURI/> 
+   <TasksFolder/> 
+</SetFolderField>
+```
+
+```xml
+<SetFolderField>
+   <IndexedFieldURI/> 
+   <CalendarFolder/> 
+</SetFolderField>
+```
+
+```xml
+<SetFolderField>
+   <IndexedFieldURI/> 
+   <Folder/>
+</SetFolderField>
+```
+
+```xml
+<SetFolderField>
+    <FieldURI/> 
+    <ContactsFolder/>
+</SetFolderField>
+```
+
+```xml
+<SetFolderField>
+   <ExtendedFieldURI/> 
+   <ContactsFolder/>
+</SetFolderField>
+```
+
+```xml
+<SetFolderField>
+   <IndexedFieldURI/> 
+   <ContactsFolder/> 
+</SetFolderField>
+```
+
+
+**SetFolderFieldType**
+
 ## Attributes and elements
 
 The following sections describe attributes, child elements, and parent elements.
@@ -72,10 +170,6 @@ The schema that describes this element is located in the EWS virtual directory o
    
 ## See also
 
-
-
-[UpdateFolder operation](updatefolder-operation.md)
-
-
+- [UpdateFolder operation](updatefolder-operation.md)
 - [EWS XML elements in Exchange](ews-xml-elements-in-exchange.md)
 

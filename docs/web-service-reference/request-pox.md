@@ -9,22 +9,26 @@ api_type:
 - schema
 ms.assetid: da54eb32-7ce5-4384-9893-255a2243a959
 description: "The Request element contains the request to the Autodiscover service."
- 
- 
 ---
 
 # Request (POX)
 
 The **Request** element contains the request to the Autodiscover service. 
   
-[AutoDiscover (POX)](autodiscover-pox.md)
-  
-[Request (POX)](request-pox.md)
+- [AutoDiscover (POX)](autodiscover-pox.md) 
+- [Request (POX)](request-pox.md)
   
 ```xml
 <Request>
    <AcceptableResponseSchema/>
    <EMailAddress/>
+</Request>
+```
+
+```xml
+<Request>
+   <AcceptableResponseSchema/> 
+   <LegacyDN/>
 </Request>
 ```
 
@@ -52,7 +56,5 @@ None.
    
 ## See also
 
-
-
-[POX Autodiscover XML elements for Exchange](pox-autodiscover-xml-elements-for-exchange.md)
+- [POX Autodiscover XML elements for Exchange](pox-autodiscover-xml-elements-for-exchange.md)
 

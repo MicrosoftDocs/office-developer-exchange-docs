@@ -1,7 +1,5 @@
 ---
 title: "IsGreaterThanOrEqualTo"
- 
- 
 manager: sethgros
 ms.date: 09/17/2015
 ms.audience: Developer
@@ -27,7 +25,22 @@ The **IsGreaterThanOrEqualTo** element represents a search expression that compa
 </IsGreaterThanOrEqualTo>
 ```
 
- **IsGreaterThanOrEqualToType**
+```xml
+<IsGreaterThanOrEqualTo>
+   <IndexedFieldURI/>
+   <FieldURIOrConstant/>
+</IsGreaterThanOrEqualTo>
+```
+
+```xml
+<IsGreaterThanOrEqualTo>
+   <ExtendedFieldURI/> 
+   <FieldURIOrConstant/>
+</IsGreaterThanOrEqualTo>
+```
+
+**IsGreaterThanOrEqualToType**
+
 ## Attributes and elements
 
 The following sections describe attributes, child elements, and parent elements.
@@ -68,8 +81,6 @@ The schema that describes this element is located in the EWS virtual directory o
 |Can be Empty  <br/> |False  <br/> |
    
 ## See also
-
-
 
 - [EWS XML elements in Exchange](ews-xml-elements-in-exchange.md)
 

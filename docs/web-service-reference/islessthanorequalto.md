@@ -1,7 +1,5 @@
 ---
 title: "IsLessThanOrEqualTo"
- 
- 
 manager: sethgros
 ms.date: 09/17/2015
 ms.audience: Developer
@@ -27,7 +25,22 @@ The **IsLessThanOrEqualTo** element represents a search expression that compares
 </IsLessThanOrEqualTo>
 ```
 
- **IsLessThanOrEqualToType**
+```xml
+<IsLessThanOrEqualTo>
+   <IndexedFieldURI/> 
+   <FieldURIOrConstant/>
+</IsLessThanOrEqualTo>
+```
+
+```xml
+<IsLessThanOrEqualTo>
+   <ExtendedFieldURI/> 
+   <FieldURIOrConstant/>
+</IsLessThanOrEqualTo>
+```
+
+**IsLessThanOrEqualToType**
+
 ## Attributes and elements
 
 The following sections describe attributes, child elements, and parent elements.
@@ -68,8 +81,6 @@ The schema that describes this element is located in the EWS virtual directory o
 |Can be Empty  <br/> |False  <br/> |
    
 ## See also
-
-
 
 - [EWS XML elements in Exchange](ews-xml-elements-in-exchange.md)
 

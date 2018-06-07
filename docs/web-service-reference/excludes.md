@@ -1,7 +1,5 @@
 ---
 title: "Excludes"
- 
- 
 manager: sethgros
 ms.date: 09/17/2015
 ms.audience: Developer
@@ -27,7 +25,22 @@ The **Excludes** element performs a bitwise mask of the specified property and a
 </Excludes>
 ```
 
- **ExcludesType**
+```xml
+<Excludes>
+   <ExtendedFieldURI/> 
+   <Bitmask/>
+</Excludes>
+```
+
+```xml
+<Excludes>
+   <IndexedFieldURI/> 
+   <Bitmask/>
+</Excludes>
+```
+
+**ExcludesType**
+
 ## Attributes and elements
 
 The following sections describe attributes, child elements, and parent elements.
@@ -56,13 +69,13 @@ None.
    
 ## Remarks
 
- **Excludes** will resolve to **true** if an AND operation performed on the following resolves to 0: 
+**Excludes** will resolve to **true** if an AND operation performed on the following resolves to 0: 
   
 1. The bitwise value for the property
     
 2. The bitmask value for the property
     
- **Excludes** can only be applied to a property that has an integer value. If the property type is anything other than an integer, an error code of **ErrorUnsupportedPathForQuery** is returned in the response. 
+**Excludes** can only be applied to a property that has an integer value. If the property type is anything other than an integer, an error code of **ErrorUnsupportedPathForQuery** is returned in the response. 
   
 You can perform the reverse operation by calling Not(Excludes).
   
@@ -78,8 +91,6 @@ The schema that describes this element is located in the EWS virtual directory o
 |Can be Empty  <br/> |False  <br/> |
    
 ## See also
-
-
 
 - [EWS XML elements in Exchange](ews-xml-elements-in-exchange.md)
 

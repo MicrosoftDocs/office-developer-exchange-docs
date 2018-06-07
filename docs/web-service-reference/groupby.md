@@ -28,7 +28,22 @@ The **GroupBy** element specifies an arbitrary grouping for FindItem queries.
 </GroupBy>
 ```
 
- **GroupByType**
+```xml
+<GroupBy Order="">
+   <ExtendededFieldURI/>
+   <AggregateOn/>
+</GroupBy>
+```
+
+```xml
+<GroupBy Order="">
+   <IndexedFieldURI/>
+   <AggregateOn/>
+</GroupBy>
+```
+
+**GroupByType**
+
 ## Attributes and elements
 
 The following sections describe attributes, child elements, and parent elements.

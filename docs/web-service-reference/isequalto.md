@@ -1,7 +1,5 @@
 ---
 title: "IsEqualTo"
- 
- 
 manager: sethgros
 ms.date: 09/17/2015
 ms.audience: Developer
@@ -27,7 +25,22 @@ The **IsEqualTo** element represents a search expression that compares a propert
 </IsEqualTo>
 ```
 
- **IsEqualToType**
+```xml
+<IsEqualTo>
+   <ExtendedFieldURI/>
+   <FieldURIOrConstant/>
+</IsEqualTo>
+```
+
+```xml
+<IsEqualTo>
+   <IndexedFieldURI/> 
+   <FieldURIOrConstant/>
+</IsEqualTo>
+```
+
+**IsEqualToType**
+
 ## Attributes and elements
 
 The following sections describe attributes, child elements, and parent elements.
@@ -70,8 +83,6 @@ The schema that describes this element is located in the EWS virtual directory o
 |Can be Empty  <br/> |False  <br/> |
    
 ## See also
-
-
 
 - [EWS XML elements in Exchange](ews-xml-elements-in-exchange.md)
 
