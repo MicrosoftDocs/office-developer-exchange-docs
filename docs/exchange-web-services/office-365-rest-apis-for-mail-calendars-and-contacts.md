@@ -20,37 +20,26 @@ Office 365 and Exchange Online provide a new way to work with email, calendars, 
     
 ## Work with email and mail folders
 
-You can use the [Mail API](http://msdn.microsoft.com/office/office365/api/mail-rest-operations%28Office.15%29.aspx) to get, create, update, delete, move, copy, and send email. You can also get, create, update, and delete mail folders. 
+You can use the [Mail API](https://msdn.microsoft.com/en-us/office/office365/api/mail-rest-operations) to get, create, update, delete, move, copy, and send email. You can also get, create, update, and delete mail folders. 
   
 ## Work with events, calendars, and calendar groups
 
-You can use the [Calendar API](http://msdn.microsoft.com/office/office365/api/calendar-rest-operations%28Office.15%29.aspx) to get, create, update, and delete events. You can also get, create, update, and delete calendar groups and calendars. 
+You can use the [Calendar API](https://msdn.microsoft.com/en-us/office/office365/api/calendar-rest-operations) to get, create, update, and delete events. You can also get, create, update, and delete calendar groups and calendars. 
   
 ## Work with contacts and contact folders
 
-You can use the [Contacts API](http://msdn.microsoft.com/office/office365/api/contacts-rest-operations%28Office.15%29.aspx) to get, create, update, and delete contacts in a user's mailbox. You can also get contact folders. 
-  
-## Work with file providers
-
-You can use the [File Providers REST API](http://msdn.microsoft.com/library/8bab5403-de68-4b49-ab19-9a6470f2a2ce%28Office.15%29.aspx) to get, create, update, and delete information about supported file providers, such as mailbox, Dropbox, and so on. 
+You can use the [Contacts API](https://msdn.microsoft.com/en-us/office/office365/api/contacts-rest-operations) to get, create, update, and delete contacts in a user's mailbox. You can also get contact folders. 
+ 
   
 ## Next steps
 
-Head over to the [Developing on the Office 365 platform](http://msdn.microsoft.com/office/office365/howto/platform-development-overview%28Office.15%29.aspx) page to get more information about the Mail, Calendar, and Contacts APIs, including guidance for setting up your environment and getting started with the APIs. Also be sure to check out the [starter projects and code samples](http://msdn.microsoft.com/office/office365/howto/Starter-projects-and-code-samples%28Office.15%29.aspx) to see these APIs in action. 
-  
+Head over to the [Developing on the Office 365 platform](https://msdn.microsoft.com/en-us/office/office365/howto/platform-development-overview) page to get more information about the Mail, Calendar, and Contacts APIs, including guidance for setting up your environment and getting started with the APIs. 
+
+Also be sure to check out the [code samples](https://developer.microsoft.com/en-us/office/gallery/?filterBy=Samples) to see these APIs in action. 
+
 ## See also
 
-
-- [Developing on the Office 365 platform](http://msdn.microsoft.com/office/office365/howto/platform-development-overview%28Office.15%29.aspx)
-    
-- [Building an Office 365 ASP.NET MVC app](http://msdn.microsoft.com/office/office365/howto/Build-your-first-ASPNET-MVC-app%28Office.15%29.aspx)
-    
-- [Mail REST operations](http://msdn.microsoft.com/office/office365/api/mail-rest-operations%28Office.15%29.aspx)
-    
-- [Calendar REST operations](http://msdn.microsoft.com/office/office365/api/calendar-rest-operations%28Office.15%29.aspx)
-    
-- [Contacts REST operations](http://msdn.microsoft.com/office/office365/api/contacts-rest-operations%28Office.15%29.aspx)
-    
-- [Office 365 APIs starter projects and code samples](http://msdn.microsoft.com/office/office365/howto/Starter-projects-and-code-samples%28Office.15%29.aspx)
+- [Office 365 API reference](https://msdn.microsoft.com/en-us/office/office365/api/api-catalog)
+  
     
 
