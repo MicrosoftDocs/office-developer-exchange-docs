@@ -116,7 +116,7 @@ You can use the **ConvertId** operation or method to convert several different i
 |EwsLegacyId  <br/> |The EwsId that applies to Exchange 2007.  <br/> |
 |EwsId  <br/> |The EwsId that applies to Exchange Online and versions of Exchange starting with Exchange 2007 SP1.  <br/> |
 |StoreId  <br/> |The Exchange store identifier where the folders and items are stored.  <br/> |
-|OwaId  <br/> |The Outlook Web App identifier used with Outlook Web App in Exchange 2007 and Exchange 2010.  <br/><br/>**NOTE**: Exchange Online and versions of Exchange starting with Exchange 2013 use the EwsId for Outlook Web App.           |
+|OwaId  <br/> |The Outlook Web App identifier used with Outlook Web App in Exchange 2007 and Exchange 2010. <br/><br/>**NOTE**: Exchange Online and versions of Exchange starting with Exchange 2013 use the EwsId for Outlook Web App.           |
 |EntryId  <br/> |A MAPI identifier that is commonly known as the **PR_ENTRYID** property of a MAPI message.  <br/> |
 |HexEntryId  <br/> |A hexadecimal-encoded representation of the **PR_ENTRYID** property that is used for the availability calendar event identifier. This is also the identifier format that Outlook uses.  <br/> |
    
