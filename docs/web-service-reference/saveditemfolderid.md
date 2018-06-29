@@ -1,7 +1,5 @@
 ---
 title: "SavedItemFolderId"
- 
- 
 manager: sethgros
 ms.date: 09/17/2015
 ms.audience: Developer
@@ -26,7 +24,14 @@ The **SavedItemFolderId** element identifies the target folder for operations th
 </SavedItemFolderId>
 ```
 
- **TargetFolderIdType**
+```xml
+<SavedItemFolderId>
+   <DistinguishedFolderId/>
+</SavedItemFolderId>
+```
+
+**TargetFolderIdType**
+
 ## Attributes and elements
 
 The following sections describe attributes, child elements, and parent elements.

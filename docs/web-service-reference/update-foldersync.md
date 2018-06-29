@@ -1,7 +1,5 @@
 ---
 title: "Update (FolderSync)"
- 
- 
 manager: sethgros
 ms.date: 09/17/2015
 ms.audience: Developer
@@ -20,15 +18,11 @@ description: "The Update element identifies a single folder to update in the loc
 
 The **Update** element identifies a single folder to update in the local client store. 
   
-[SyncFolderHierarchyResponse](syncfolderhierarchyresponse.md)
-  
-[ResponseMessages](responsemessages.md)
-  
-[SyncFolderHierarchyResponseMessage](syncfolderhierarchyresponsemessage.md)
-  
-[Changes (Hierarchy)](changes-hierarchy.md)
-  
-[Update (FolderSync)](update-foldersync.md)
+- [SyncFolderHierarchyResponse](syncfolderhierarchyresponse.md) 
+- [ResponseMessages](responsemessages.md) 
+- [SyncFolderHierarchyResponseMessage](syncfolderhierarchyresponsemessage.md)  
+- [Changes (Hierarchy)](changes-hierarchy.md) 
+- [Update (FolderSync)](update-foldersync.md)
   
 ```xml
 <Update>
@@ -36,7 +30,32 @@ The **Update** element identifies a single folder to update in the local client 
 </Update>
 ```
 
- **SyncFolderHierarchyCreateOrUpdateType**
+```xml
+<Update>
+   <CalendarFolder/>
+</Update>
+```
+
+```xml
+<Update>
+   <ContactsFolder/>
+</Update>
+```
+
+```xml
+<Update>
+   <TasksFolder/>
+</Update>
+```
+
+```xml
+<Update>
+   <SearchFolder/>
+</Update>
+```
+
+**SyncFolderHierarchyCreateOrUpdateType**
+
 ## Attributes and elements
 
 The following sections describe attributes, child elements, and parent elements.
@@ -76,10 +95,6 @@ The schema that describes this element is located in the EWS virtual directory o
    
 ## See also
 
-
-
-[SyncFolderItems operation](syncfolderitems-operation.md)
-
-
+- [SyncFolderItems operation](syncfolderitems-operation.md)
 - [EWS XML elements in Exchange](ews-xml-elements-in-exchange.md)
 

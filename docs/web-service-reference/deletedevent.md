@@ -27,6 +27,15 @@ The **DeletedEvent** element represents an event in which an item or folder is d
 </DeletedEvent>
 ```
 
+```xml
+<DeletedEvent>
+   <Watermark/>
+   <TimeStamp/>
+   <FolderId/>
+   <ParentFolderId/>
+</DeletedEvent>
+```
+
 **BaseObjectChangedEventType**
 
 ## Attributes and elements

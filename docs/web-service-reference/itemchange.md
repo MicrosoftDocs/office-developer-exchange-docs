@@ -1,7 +1,5 @@
 ---
 title: "ItemChange"
- 
- 
 manager: sethgros
 ms.date: 09/17/2015
 ms.audience: Developer
@@ -20,11 +18,9 @@ description: "The ItemChange element contains an item identifier and the updates
 
 The **ItemChange** element contains an item identifier and the updates to apply to the item. 
   
-[UpdateItem](updateitem.md)
-  
-[ItemChanges](itemchanges.md)
-  
-[ItemChange](itemchange.md)
+- [UpdateItem](updateitem.md) 
+- [ItemChanges](itemchanges.md)
+- [ItemChange](itemchange.md)
   
 ```xml
 <ItemChange>
@@ -33,7 +29,22 @@ The **ItemChange** element contains an item identifier and the updates to apply 
 </ItemChange>
 ```
 
- **ItemChangeType**
+```xml
+<ItemChange>
+   <OccurrenceItemId>...</OccurrenceItemId>
+   <Updates>...</Updates>
+</ItemChange>
+```
+
+```xml
+<ItemChange>
+   <RecurringMasterItemId>...</RecurringMasterItemId>
+   <Updates>...</Updates>
+</ItemChange>
+```
+
+**ItemChangeType**
+
 ## Attributes and elements
 
 The following sections describe attributes, child elements, and parent elements.
@@ -74,7 +85,5 @@ The schema that describes this element is located in the EWS virtual directory o
    
 ## See also
 
-
-
-[UpdateItem operation](updateitem-operation.md)
+- [UpdateItem operation](updateitem-operation.md)
 

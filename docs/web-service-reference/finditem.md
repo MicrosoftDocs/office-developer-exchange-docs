@@ -1,7 +1,5 @@
 ---
 title: "FindItem"
- 
- 
 manager: sethgros
 ms.date: 09/17/2015
 ms.audience: Developer
@@ -32,7 +30,81 @@ The **FindItem** element defines a request to find items in a mailbox.
 </FindItem>
 ```
 
- **FindItemType**
+```xml
+<FindItem Traversal="">
+   <ItemShape/>
+   <IndexedPageItemView/>
+   <DistinguishedGroupBy/>
+   <Restriction/>
+   <SortOrder/>
+   <ParentFolderIds/>
+   <QueryString/>
+</FindItem>
+```
+
+```xml
+<FindItem Traversal="">
+   <ItemShape/>
+   <ContactsView/>
+   <GroupBy/>
+   <Restriction/>
+   <SortOrder/>
+   <ParentFolderIds/>
+   <QueryString/>
+</FindItem>
+```
+
+```xml
+<FindItem Traversal="">
+   <ItemShape/>
+   <ContactsView/> 
+   <DistinguishedGroupBy/>
+   <Restriction/>
+   <SortOrder/>
+   <ParentFolderIds/>
+   <QueryString/>
+</FindItem>
+```
+
+```xml
+<FindItem Traversal="">
+   <ItemShape/>
+   <CalendarView/>
+   <GroupBy/>
+   <Restriction/>
+   <SortOrder/>
+   <ParentFolderIds/>
+   <QueryString/>
+</FindItem>
+```
+
+```xml
+<FindItem Traversal="">
+   <ItemShape/>
+   <FractionalPageItemView/>
+   <GroupBy/>
+   <Restriction/>
+   <SortOrder/>
+   <ParentFolderIds/>
+   <QueryString/>
+</FindItem>
+```
+
+```xml
+<FindItem Traversal="">
+   <ItemShape/>
+   <FractionalPageItemView/>
+   <DistinguishedGroupBy/>
+   <Restriction/>
+   <SortOrder/>
+   <ParentFolderIds/>
+   <QueryString/>
+</FindItem>
+```
+
+
+**FindItemType**
+
 ## Attributes and elements
 
 The following sections describe attributes, child elements, and parent elements.
@@ -88,10 +160,6 @@ The schema that describes this element is located in the IIS virtual directory t
    
 ## See also
 
-
-
-[FindItem operation](finditem-operation.md)
-
-
-[Finding Items](http://msdn.microsoft.com/library/63af1f9c-464b-4fca-9ae3-3d60f24ca93c%28Office.15%29.aspx)
+- [FindItem operation](finditem-operation.md)
+- [Finding Items](http://msdn.microsoft.com/library/63af1f9c-464b-4fca-9ae3-3d60f24ca93c%28Office.15%29.aspx)
 

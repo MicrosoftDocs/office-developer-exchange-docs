@@ -1,7 +1,5 @@
 ---
 title: "ExtendedFieldURI"
- 
- 
 manager: sethgros
 ms.date: 09/17/2015
 ms.audience: Developer
@@ -24,7 +22,8 @@ The **ExtendedFieldURI** element identifies an extended MAPI property.
 <ExtendedFieldURI DistinguishedPropertySetId="" PropertySetId="" PropertyTag="" PropertyName="" PropertyId="" PropertyType="" />
 ```
 
- **PathToExtendedFieldType**
+**PathToExtendedFieldType**
+
 ## Attributes and elements
 
 The following sections describe attributes, child elements, and parent elements.
@@ -33,12 +32,12 @@ The following sections describe attributes, child elements, and parent elements.
 
 |**Attribute**|**Description**|
 |:-----|:-----|
-|**DistinguishedPropertySetId** <br/> |Defines the well-known property set IDs for extended MAPI properties.  <br/> If this attribute is used, the **PropertySetId** and **PropertyTag** attributes cannot be used. This attribute must be used with either the **PropertyId** or **PropertyName** attribute, and the **PropertyType** attribute.  <br/> The **DistinguishedPropertySetId** Attribute table later in this topic lists the possible values for this attribute.  <br/> This attribute is optional.  <br/> |
-|**PropertySetId** <br/> |Identifies a MAPI extended property set or namespace by its identifying GUID.  <br/> If this attribute is used, the **DistinguishedPropertySetId** and **PropertyTag** attribute cannot be used. This attribute must be used with either the **PropertyId** or **PropertyName** attribute, and the **PropertyType** attribute.  <br/> This attribute is optional.  <br/> |
-|**PropertyTag** <br/> |Identifies the property tag without the type part of the tag. The **PropertyTag** can be represented as either a hexadecimal or a short integer.  <br/> The range between 0x8000 and 0xFFFE represents the custom range of properties. When a mailbox database encounters a custom property for the first time, it assigns that custom property a property tag within the custom property range of 0x8000-0xFFFE. A given custom property tag will most likely differ across databases. Therefore, a custom property request by property tag can return different properties on different databases. The use of the **PropertyTag** attribute is prohibited for custom properties. Instead, use the **PropertySetId** attribute and the **PropertyName** or **PropertyId** attribute.  <br/> > [!IMPORTANT]> Access any custom property between 0x8000 and 0xFFFE by using the GUID + name/ID.           If the **PropertyTag** attribute is used, the **DistinguishedPropertySetId**, **PropertySetId**, **PropertyName**, and **PropertyId** attributes cannot be used.  <br/> This attribute is optional.  <br/> > [!NOTE]> You cannot use a property tag attribute for properties within the custom range 0x8000-0xFFFE. You must use a named property in this case.           |
-|**PropertyName** <br/> |Identifies an extended property by its name. This property must be coupled with either **DistinguishedPropertySetId** or **PropertySetId**.  <br/> If this attribute is used, the **PropertyId** and **PropertyTag** attributes cannot be used.  <br/> This attribute is optional.  <br/> |
-|**PropertyId** <br/> |Identifies an extended property by its dispatch ID. The dispatch ID can be identified in either decimal or hexadecimal formats. This property must be coupled with either **DistinguishedPropertySetId** or **PropertySetId**.  <br/> If this attribute is used, the **PropertyName** and **PropertyTag** attributes cannot be used.  <br/> This attribute is optional.  <br/> |
-|**PropertyType** <br/> |Represents the property type of a property tag. This corresponds to the least significant word in a property tag.  <br/> The PropertyType Attribute table later in this topic contains the possible values for this attribute.  <br/> This attribute is required.  <br/> |
+|**DistinguishedPropertySetId** <br/> |Defines the well-known property set IDs for extended MAPI properties.<br/><br/>If this attribute is used, the **PropertySetId** and **PropertyTag** attributes cannot be used. This attribute must be used with either the **PropertyId** or **PropertyName** attribute, and the **PropertyType** attribute.<br/><br/>The **DistinguishedPropertySetId** Attribute table later in this topic lists the possible values for this attribute.<br/><br/>This attribute is optional.  <br/> |
+|**PropertySetId** <br/> |Identifies a MAPI extended property set or namespace by its identifying GUID.<br/><br/>If this attribute is used, the **DistinguishedPropertySetId** and **PropertyTag** attribute cannot be used. This attribute must be used with either the **PropertyId** or **PropertyName** attribute, and the **PropertyType** attribute.<br/><br/>This attribute is optional.  <br/> |
+|**PropertyTag** <br/> |Identifies the property tag without the type part of the tag. The **PropertyTag** can be represented as either a hexadecimal or a short integer.<br/><br/>The range between 0x8000 and 0xFFFE represents the custom range of properties. When a mailbox database encounters a custom property for the first time, it assigns that custom property a property tag within the custom property range of 0x8000-0xFFFE. A given custom property tag will most likely differ across databases. Therefore, a custom property request by property tag can return different properties on different databases. The use of the **PropertyTag** attribute is prohibited for custom properties. Instead, use the **PropertySetId** attribute and the **PropertyName** or **PropertyId** attribute.<br/><br/>**IMPORTANT**: Access any custom property between 0x8000 and 0xFFFE by using the GUID + name/ID. If the **PropertyTag** attribute is used, the **DistinguishedPropertySetId**, **PropertySetId**, **PropertyName**, and **PropertyId** attributes cannot be used.<br/><br/>This attribute is optional.<br/><br/>**NOTE**: You cannot use a property tag attribute for properties within the custom range 0x8000-0xFFFE. You must use a named property in this case.           |
+|**PropertyName** <br/> |Identifies an extended property by its name. This property must be coupled with either **DistinguishedPropertySetId** or **PropertySetId**.<br/><br/>If this attribute is used, the **PropertyId** and **PropertyTag** attributes cannot be used.<br/><br/>This attribute is optional.  <br/> |
+|**PropertyId** <br/> |Identifies an extended property by its dispatch ID. The dispatch ID can be identified in either decimal or hexadecimal formats. This property must be coupled with either **DistinguishedPropertySetId** or **PropertySetId**.<br/><br/>If this attribute is used, the **PropertyName** and **PropertyTag** attributes cannot be used.<br/><br/>This attribute is optional.  <br/> |
+|**PropertyType** <br/> |Represents the property type of a property tag. This corresponds to the least significant word in a property tag.<br/><br/>The PropertyType Attribute table later in this topic contains the possible values for this attribute.<br/><br/>This attribute is required.  <br/> |
    
 #### DistinguishedPropertySetId Attribute
 
@@ -94,7 +93,7 @@ None.
 |**Element**|**Description**|
 |:-----|:-----|
 |[ExtendedProperty](extendedproperty.md) <br/> |Identifies extended properties on folders and items.  <br/> |
-|[AdditionalProperties](additionalproperties.md) <br/> | Identifies additional properties.  <br/>  The following are the XPath expressions to this element:  <br/>  `/FindFolder/FolderShape/AdditionalProperties` <br/>  `/GetFolder/FolderShape/AdditionalProperties` <br/>  `/SyncFolderHierarchy/FolderShape/AdditionalProperties` <br/>  `/GetItem/ItemShape/AdditionalProperties` <br/>  `/FindItem/ItemShape/AdditionalProperties` <br/>  `/SyncFolderItems/ItemShape/AdditionalProperties` <br/>  `/GetAttachment/AttachmentShape/AdditionalProperties` <br/> |
+|[AdditionalProperties](additionalproperties.md) <br/> | Identifies additional properties.<br/><br/>The following are the XPath expressions to this element:<br/><br/>`/FindFolder/FolderShape/AdditionalProperties` <br/>  `/GetFolder/FolderShape/AdditionalProperties` <br/>  `/SyncFolderHierarchy/FolderShape/AdditionalProperties` <br/>  `/GetItem/ItemShape/AdditionalProperties` <br/>  `/FindItem/ItemShape/AdditionalProperties` <br/>  `/SyncFolderItems/ItemShape/AdditionalProperties` <br/>  `/GetAttachment/AttachmentShape/AdditionalProperties` <br/> |
 |[SetItemField](setitemfield.md) <br/> |Represents an update to a single property of an item in an [UpdateItem operation](updateitem-operation.md).  <br/> |
 |[SetFolderField](setfolderfield.md) <br/> |Represents an update to a single property on a folder in an [UpdateFolder operation](updatefolder-operation.md).  <br/> |
 |[DeleteItemField](deleteitemfield.md) <br/> |Represents a delete operation for deleting a given property from an item during an [UpdateItem operation](updateitem-operation.md).  <br/> |
@@ -120,7 +119,9 @@ Some attributes cannot be used in combination with other attributes. Any request
 The schema that describes this element is located in the EWS virtual directory of the computer that is running MicrosoftExchange Server 2007 that has the Client Access server role installed.
   
 > [!NOTE]
-> In Microsoft .NET, a Long is a 64-bit signed integer, while in MAPI and COM, a Long is a 32-bit integer. Most developers will use the Microsoft.NET Framework to develop Exchange Web Services client applications. Therefore, the .NET naming is used instead of the MAPI naming. For example, the PR_MESSAGE_FLAGS MAPI property, 0x0E07, is a PT_LONG type. In .NET, this is considered an integer. An extended property for PR_MESSAGE_FLAGS is defined as \<t:ExtendedFieldURI PropertyTag="0x0E07" PropertyType="Integer"/\>. 
+> In Microsoft .NET, a Long is a 64-bit signed integer, while in MAPI and COM, a Long is a 32-bit integer. Most developers will use the Microsoft.NET Framework to develop Exchange Web Services client applications. Therefore, the .NET naming is used instead of the MAPI naming.
+> 
+> For example, the PR_MESSAGE_FLAGS MAPI property, 0x0E07, is a PT\_LONG type. In .NET, this is considered an integer. An extended property for PR_MESSAGE_FLAGS is defined as `<t:ExtendedFieldURI PropertyTag="0x0E07" PropertyType="Integer"/>`. 
   
 ## Example
 
@@ -177,12 +178,7 @@ The following example of a request creates an item that has two custom propertie
    
 ## See also
 
-
-
-[FieldURI](fielduri.md)
-  
-[IndexedFieldURI](indexedfielduri.md)
-
-
+- [FieldURI](fielduri.md)
+- [IndexedFieldURI](indexedfielduri.md)
 - [EWS XML elements in Exchange](ews-xml-elements-in-exchange.md)
 

@@ -36,19 +36,10 @@ You can use the [File API](https://developer.microsoft.com/graph/docs/concepts/o
   
 ## Next steps
 
-Head over to the [Microsoft Graph documentation](https://developer.microsoft.com/graph/docs/concepts/overview) page to get more information about the Mail, Calendar, and Contacts APIs, including guidance for setting up your environment and getting started with the APIs. Also be sure to check out the [starter projects and code samples](https://developer.microsoft.com/graph/quick-start) to see these APIs in action. 
+Head over to the [Microsoft Graph documentation](https://developer.microsoft.com/graph/docs/concepts/overview) page to get more information about the Mail, Calendar, and Contacts APIs, including guidance for setting up your environment and getting started with the APIs. 
+
+Also be sure to check out the [quick starts](https://developer.microsoft.com/graph/quick-start) and [code samples](https://developer.microsoft.com/office/gallery/?filterBy=Samples,Microsoft%20Graph) to see these APIs in action. 
   
 ## See also
 
-
-- [Microsoft Graph documentation](https://developer.microsoft.com/graph/docs/concepts/overview)
-    
-- [Mail API](https://developer.microsoft.com/graph/docs/concepts/outlook-mail-concept-overview)
-    
-- [Calendar API](https://developer.microsoft.com/graph/docs/concepts/outlook-calendar-concept-overview)
-    
-- [Contacts API](https://developer.microsoft.com/graph/docs/concepts/outlook-contacts-concept-overview)
-    
-- [Microsoft Graph Quick Start](https://developer.microsoft.com/graph/quick-start)
-    
-
+- [Microsoft Graph documentation](https://developer.microsoft.com/graph/docs/concepts/overview)   

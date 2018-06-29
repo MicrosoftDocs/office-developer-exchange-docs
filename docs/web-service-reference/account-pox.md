@@ -16,9 +16,7 @@ description: "The Account element specifies account settings for the user or con
 The **Account** element specifies account settings for the user or contains error responses. 
   
 - [AutoDiscover (POX)](autodiscover-pox.md)
-  
 - [Response (POX)](response-pox.md)
-  
 - [Account (POX)](account-pox.md)
   
 ```XML
@@ -32,6 +30,14 @@ The **Account** element specifies account settings for the user or contains erro
    <ServiceHome/>
    <Protocol/>
    <PublicFolderInformation/>
+</Account>
+```
+
+<br/>
+
+```XML
+<Account> 
+    <Error/> 
 </Account>
 ```
 

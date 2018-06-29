@@ -24,6 +24,12 @@ The **ParentFolderId** element identifies the folder in which a new folder is cr
 </ParentFolderId>
 ```
 
+```xml
+<ParentFolderId>
+   <FolderId/> 
+</ParentFolderId>
+```
+
 **TargetFolderIdType**
 
 ## Attributes and elements

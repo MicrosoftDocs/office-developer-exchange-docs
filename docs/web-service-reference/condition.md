@@ -1,7 +1,5 @@
 ---
 title: "Condition"
- 
- 
 manager: sethgros
 ms.date: 09/17/2015
 ms.audience: Developer
@@ -26,7 +24,32 @@ The **Condition** element identifies the condition that must be satisfied for th
 </Condition>
 ```
 
- **ProtectionRuleConditionType**
+```xml
+<Condition> 
+    <SenderDepartments/> 
+</Condition>
+```
+
+```xml
+<Condition> 
+    <True/> 
+</Condition>
+```
+
+```xml
+<Condition> 
+    <Recipients/> 
+</Condition>
+```
+
+```xml
+<Condition> 
+    <And/> 
+</Condition>
+```
+
+**ProtectionRuleConditionType**
+
 ## Attributes and elements
 
 The following sections describe attributes, child elements, and parent elements.
@@ -69,8 +92,6 @@ The schema that describes this element is located in the IIS virtual directory t
 |Can be Empty  <br/> |False  <br/> |
    
 ## See also
-
-
 
 - [EWS XML elements in Exchange](ews-xml-elements-in-exchange.md)
 

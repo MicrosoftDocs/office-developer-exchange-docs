@@ -30,7 +30,20 @@ The **DeleteFolderField** element represents an operation to delete a given prop
 </DeleteFolderField>
 ```
 
- **DeleteFolderFieldType**
+```xml
+<DeleteFolderField>
+   <ExtendedFieldURI/>
+</DeleteFolderField>
+```
+
+```xml
+<DeleteFolderField>
+   <IndexedFieldURI/>
+</DeleteFolderField>
+```
+
+**DeleteFolderFieldType**
+
 ## Attributes and elements
 
 The following sections describe attributes, child elements, and parent elements.
