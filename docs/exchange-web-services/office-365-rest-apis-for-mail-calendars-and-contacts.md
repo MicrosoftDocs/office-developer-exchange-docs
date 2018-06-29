@@ -1,5 +1,5 @@
 ---
-title: "Microsoft Graph API for mail, calendars, and contacts"
+title: "Microsoft Graph Outlook API for mail, calendars, and contacts"
 manager: sethgros
 ms.date: 4/29/2016
 ms.audience: Developer
@@ -8,7 +8,7 @@ ms.assetid: 3b2e71a6-5fa5-4008-b243-d3a6e9173b3d
 description: "Find information about the Microsoft Graph API that you can use to access mail, calendars, and contacts in Office 365 or Exchange Online."
 ---
 
-# Microsoft Graph REST APIs for mail, calendars, and contacts
+# Microsoft Graph Outlook REST APIs for mail, calendars, and contacts
 
 Find information about the Microsoft Graph API that you can use to access mail, calendars, and contacts in Office 365 or Exchange Online.
   
@@ -29,10 +29,6 @@ You can use the [Calendar API](https://developer.microsoft.com/graph/docs/concep
 ## Work with contacts and contact folders
 
 You can use the [Contacts API](https://developer.microsoft.com/graph/docs/concepts/outlook-contacts-concept-overview) to get, create, update, and delete contacts in a user's mailbox. You can also get contact folders. 
-  
-## Work with file providers
-
-You can use the [File API](https://developer.microsoft.com/graph/docs/concepts/onedrive-concept-overview) to get, create, update, and delete information about supported file providers, such as mailbox, Dropbox, and so on. 
   
 ## Next steps
 
