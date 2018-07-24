@@ -35,7 +35,7 @@ To use the code in this article, you will need to have access to the following:
 
 ## Register your application
 
-To use OAuth, an application must have a client identifier and an application URI that identifies the application. If you have not yet registered your application with Azure Active Directory Services, you'll need to manually add your application by following the steps under [Register you app](http://msdn.microsoft.com/en-us/office/office365/howto/test-and-deploy-apps.aspx).
+To use OAuth, an application must have a client identifier and an application URI that identifies the application. If you have not yet registered your application with Azure Active Directory Services, you'll need to manually add your application by following the steps under [Register you app](https://apps.dev.microsoft.com).
 
 <a name="bk_getToken"> </a>
 
