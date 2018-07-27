@@ -5,17 +5,7 @@ ms.date: 4/29/2016
 ms.audience: Developer
 localization_priority: Normal
 ms.assetid: 3b2e71a6-5fa5-4008-b243-d3a6e9173b3d
-description: "Find information about the Microsoft Graph API that you can use to access mail, calendars, and contacts in Office 365 or Exchange Online."
----
-
-# Microsoft Graph Outlook REST APIs for mail, calendars, and contacts
-
-Find information about the Microsoft Graph API that you can use to access mail, calendars, and contacts in Office 365 or Exchange Online.
-  
-Office 365 and Exchange Online provide a new way to work with email, calendars, and contacts. The Mail, Calendar, and Contact REST APIs provide a powerful, easy-to-use way to access and manipulate Exchange data. These APIs are based on open standards: OAuth version 2.0 for authentication, and OData version 4.0 and JSON for data abstraction. This provides the following advantages:
-  
-=======
-description: "Find information about the Microsoft Graph APIs that you can use to access mail, calendars, and contacts in Office 365 or Exchange Online."
+description: Find information about the Microsoft Graph API that you can use to access mail, calendars, and contacts in Office 365 or Exchange Online.
 ---
 
 # Microsoft Graph REST APIs for mail, calendars, and contacts
