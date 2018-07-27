@@ -1,7 +1,7 @@
 ---
 title: "Microsoft Graph Outlook API for mail, calendars, and contacts"
 manager: sethgros
-ms.date: 4/29/2016
+ms.date: 07/27/2018
 ms.audience: Developer
 localization_priority: Normal
 ms.assetid: 3b2e71a6-5fa5-4008-b243-d3a6e9173b3d
