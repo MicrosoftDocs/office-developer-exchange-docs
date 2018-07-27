@@ -1,7 +1,7 @@
 ---
 title: "Authenticate an EWS application by using OAuth"
 manager: sethgros
-ms.date: 1/15/2015
+ms.date: 07/27/2018
 ms.audience: Developer
 localization_priority: Normal
 ms.assetid: 1d8d57f9-4df5-4f21-9bbb-a89e0e259052
