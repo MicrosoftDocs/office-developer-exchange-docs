@@ -1,7 +1,7 @@
 ---
 title: "Authenticate an EWS application by using OAuth"
 manager: sethgros
-ms.date: 1/15/2015
+ms.date: 07/27/2018
 ms.audience: Developer
 localization_priority: Normal
 ms.assetid: 1d8d57f9-4df5-4f21-9bbb-a89e0e259052
@@ -25,7 +25,7 @@ You can use the OAuth authentication service provided by Azure Active Directory 
   
 To use the code in this article, you will need to have access to the following:
   
-- An [Office 365 developer account](http://office.microsoft.com/compare-office-365-for-business-plans-FX102918419.aspx.aspx). You can use a trial account to test your application
+- An [Office 365 developer account](http://office.microsoft.com/compare-office-365-for-business-plans-FX102918419.aspx.aspx). You can use a trial account to test your application.
     
 - The [Azure AD Authentication Library for .NET](http://msdn.microsoft.com/en-us/library/office/jj573266.aspx.aspx).
     
@@ -35,7 +35,7 @@ To use the code in this article, you will need to have access to the following:
 
 ## Register your application
 
-To use OAuth, an application must have a client identifier and an application URI that identifies the application. If you have not yet registered your application with Azure Active Directory Services, you'll need to manually add your application by following the steps under [Register you app](http://msdn.microsoft.com/en-us/office/office365/howto/test-and-deploy-apps.aspx).
+To use OAuth, an application must have a client identifier and an application URI that identifies the application. If you have not yet registered your application with Azure Active Directory Services, you'll need to manually add your application by following the steps at [Register your app](https://apps.dev.microsoft.com/#/appList).
 
 <a name="bk_getToken"> </a>
 
