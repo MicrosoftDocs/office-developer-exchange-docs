@@ -1,12 +1,8 @@
 ---
 title: "Add appointments by using Exchange impersonation"
- 
- 
 manager: sethgros
 ms.date: 11/16/2014
 ms.audience: Developer
- 
- 
 localization_priority: Normal
 ms.assetid: 78d5e51b-900f-4302-b9a8-fdc9aa4b65a5
 description: "Learn how to use impersonation with the EWS Managed API or EWS in Exchange to add appointments to users' calendars."
@@ -198,8 +194,8 @@ Again, this is the same XML that is returned when you use the **CreateItem** ope
     
 - [Create appointments and meetings by using EWS in Exchange 2013](how-to-create-appointments-and-meetings-by-using-ews-in-exchange-2013.md)
     
-- [CreateItem operation (calendar item)](http://msdn.microsoft.com/library/aa4a7c94-f668-4bd2-8079-c855f6ab17e1%28Office.15%29.aspx)
+- [CreateItem operation (calendar item)](web-service-reference/createitem-operation-calendar-item.md)
     
-- [ExchangeService.ImpersonatedUserId property](http://msdn.microsoft.com/library/microsoft.exchange.webservices.data.exchangeservice.impersonateduserid.aspx.aspx)
+- [ExchangeService.ImpersonatedUserId property](https://docs.microsoft.com/en-us/dotnet/api/microsoft.exchange.webservices.data.exchangeservice.impersonateduserid?view=exchange-ews-api)
     
 

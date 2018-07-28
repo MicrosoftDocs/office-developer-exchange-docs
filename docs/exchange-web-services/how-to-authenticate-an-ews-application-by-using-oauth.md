@@ -25,9 +25,9 @@ You can use the OAuth authentication service provided by Azure Active Directory 
   
 To use the code in this article, you will need to have access to the following:
   
-- An [Office 365 developer account](http://office.microsoft.com/compare-office-365-for-business-plans-FX102918419.aspx.aspx). You can use a trial account to test your application.
+- An [Office 365 developer account](https://docs.microsoft.com/en-us/office/developer-program/office-365-developer-program). You can use a trial account to test your application.
     
-- The [Azure AD Authentication Library for .NET](http://msdn.microsoft.com/en-us/library/office/jj573266.aspx.aspx).
+- The [Azure AD Authentication Library for .NET](https://docs.microsoft.com/en-us/azure/active-directory/develop/active-directory-authentication-libraries).
     
 - [The EWS Managed API](https://github.com/officedev/ews-managed-api.aspx).
 
@@ -173,6 +173,6 @@ The sample code requires an App.config file with the following entries:
 ## See also
 
 - [Authentication and EWS in Exchange](authentication-and-ews-in-exchange.md)    
-- [Test and deploy Office 365 apps](http://msdn.microsoft.com/en-us/office/office365/howto/test-and-deploy-apps.aspx)
+
     
 

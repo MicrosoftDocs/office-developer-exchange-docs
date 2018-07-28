@@ -18,13 +18,14 @@ The essential difference between meetings and appointments is that meetings have
 
 |**EWS Managed API method**|**EWS Operation**|**What it does**|
 |:-----|:-----|:-----|
-|[Appointment.Delete](http://msdn.microsoft.com/en-us/library/microsoft.exchange.webservices.data.appointment.delete%28v=exchg.80%29.aspx) <br/> |[DeleteItem](http://msdn.microsoft.com/library/3e26c416-fa12-476e-bfd2-5c1f4bb7b348%28Office.15%29.aspx) <br/> |Deletes an appointment.  <br/> |
-|[Appointment.Delete](http://msdn.microsoft.com/en-us/library/microsoft.exchange.webservices.data.appointment.delete%28v=exchg.80%29.aspx) <br/> |[CreateItem (calendar item)](http://msdn.microsoft.com/library/aa4a7c94-f668-4bd2-8079-c855f6ab17e1%28Office.15%29.aspx) <br/> |Deletes a meeting.  <br/> |
+|[Appointment.Delete](http://msdn.microsoft.com/en-us/library/microsoft.exchange.webservices.data.appointment.delete%28v=exchg.80%29.aspx) <br/> |[DeleteItem](web-service-reference/deleteitem-operation.md) <br/> |Deletes an appointment.  <br/> |
+|[Appointment.Delete](http://msdn.microsoft.com/en-us/library/microsoft.exchange.webservices.data.appointment.delete%28v=exchg.80%29.aspx) <br/> |[CreateItem (calendar item)](web-service-reference/createitem-operation-calendar-item.md) <br/> |Deletes a meeting.  <br/> |
    
-Note that when you delete an appointment by using EWS, you use the [DeleteItem](http://msdn.microsoft.com/library/3e26c416-fa12-476e-bfd2-5c1f4bb7b348%28Office.15%29.aspx) operation, but when you delete a meeting, you use the [CreateItem ](http://msdn.microsoft.com/library/aa4a7c94-f668-4bd2-8079-c855f6ab17e1%28Office.15%29.aspx) operation. This might seem counterintuitive, but it is because you have to create a meeting response object to send meeting cancellation messages to attendees. 
-  
-## Delete an appointment by using the EWS Managed API
+Note that when you delete an appointment by using EWS, you use the [DeleteItem](web-service-reference/deleteitem-operation.md) operation, but when you delete a meeting, you use the [CreateItem](web-service-reference/createitem-operation-calendar-item.md) operation. This might seem counterintuitive, but it is because you have to create a meeting response object to send meeting cancellation messages to attendees. 
+
 <a name="bk_DeleteApptEWSMA"> </a>
+
+## Delete an appointment by using the EWS Managed API
 
 The following code example shows how to use the [Delete](http://msdn.microsoft.com/en-us/library/microsoft.exchange.webservices.data.appointment.delete%28v=exchg.80%29.aspx) method to delete an appointment from your calendar folder, and the [ExchangeService.FindItems](http://msdn.microsoft.com/en-us/library/microsoft.exchange.webservices.data.exchangeservice.finditems%28v=exchg.80%29.aspx) method to verify that the appointment was deleted by looking for it in the Deleted Items folder. 
   
@@ -58,7 +59,7 @@ As you can see, deleting an appointment is straightforward and pretty much what 
 
 The request and response XML in the following examples correspond to calls made by the EWS Managed API code in [Delete an appointment by using the EWS Managed API](#bk_DeleteApptEWSMA). The request and response XML that verifies that the appointment item is in the Deleted Items folder is shown as well.
   
-The following example shows the request XML for the [DeleteItem](http://msdn.microsoft.com/library/e2152410-41ce-1fe7-8169-f206d5081ebc%28Office.15%29.aspx) operation to delete an appointment. 
+The following example shows the request XML for the [DeleteItem](web-service-reference/deleteitem-operation.md) operation to delete an appointment. 
   
 ```XML
 <?xml version="1.0" encoding="utf-8"?>
@@ -81,7 +82,7 @@ The following example shows the request XML for the [DeleteItem](http://msdn.mic
 
 ```
 
-The following example shows the response XML that is returned by the [DeleteItem operation](http://msdn.microsoft.com/library/3e26c416-fa12-476e-bfd2-5c1f4bb7b348%28Office.15%29.aspx). The **ItemId** and **ChangeKey** attributes are shortened for readability. 
+The following example shows the response XML that is returned by the [DeleteItem](web-service-reference/deleteitem-operation.md) operation. The **ItemId** and **ChangeKey** attributes are shortened for readability. 
   
 ```XML
 <?xml version="1.0" encoding="utf-8"?>

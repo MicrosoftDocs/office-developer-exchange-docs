@@ -105,9 +105,11 @@ You can set throttling policy on an Exchange server by using the [Set-Throttling
   
 > [!TIP]
 > We recommend that you design your applications to adhere to the default throttling policy. Only make changes to default throttling policies if your client application design cannot accommodate the default policy. Be aware that less restrictive throttling policies can negatively affect service reliability. 
-  
-## Throttling considerations for applications that use EWS impersonation
+
 <a name="bk_ThrottlingConsiderations"> </a>
+
+## Throttling considerations for applications that use EWS impersonation
+
 
 [Impersonation](impersonation-and-ews-in-exchange.md) is an authorization method that enables a single account to access many accounts. When a service account impersonates users, it acts as the users and therefore assumes the rights that are assigned to those users. Log files record the access as the impersonated user. Administrators use role-based access control (RBAC) to configure impersonation via the Exchange Management Shell. 
   
@@ -217,20 +219,22 @@ while (fiResults.MoreAvailable == true);
 
 Concurrency refers to the number of connections from a specific user. A connection is held from the moment a request is received until a response is sent to the requester. If users try to make more concurrent requests than their policy allows, the new connection attempt fails. However, the existing connections remain valid. Throttling policies can affect concurrency in a number of different ways.
   
-The **EWSMaxConcurrency** throttling policy parameter sets the number of concurrent connections that a specific user can have against an Exchange server at one time. To determine the maximum number of concurrent connections to allow, consider the connections that Outlook clients will use. Outlook 2007 and Outlook 2010 use EWS to access availability and Out of Office (OOF) information. Mac Outlook 2011 uses EWS for all client access functionality. Depending on the number of Outlook clients that are actively connecting to a user's mailbox, the number of concurrent connections available for a user might be limited. Also, if your application has to connect to multiple mailboxes simultaneously while using a single security context, it is important to take the value of the **EWSMaxConcurrency** policy into account. For more information about using a single security context with concurrent connections, see [Throttling considerations for applications that use EWS impersonation](http://msdn.microsoft.com/library/961f773a-8b8e-4b4f-a4b9-64305e107ca4.aspx#bk_ThrottlingConsiderations) earlier in this article. 
+The **EWSMaxConcurrency** throttling policy parameter sets the number of concurrent connections that a specific user can have against an Exchange server at one time. To determine the maximum number of concurrent connections to allow, consider the connections that Outlook clients will use. Outlook 2007 and Outlook 2010 use EWS to access availability and Out of Office (OOF) information. Mac Outlook 2011 uses EWS for all client access functionality. Depending on the number of Outlook clients that are actively connecting to a user's mailbox, the number of concurrent connections available for a user might be limited. Also, if your application has to connect to multiple mailboxes simultaneously while using a single security context, it is important to take the value of the **EWSMaxConcurrency** policy into account. For more information about using a single security context with concurrent connections, see [Throttling considerations for applications that use EWS impersonation](#bk_ThrottlingConsiderations) earlier in this article. 
   
 Applications that concurrently connect to multiple mailboxes have to be able to track resource usage on the client side. Because EWS operations are request/response-based, you can ensure that your applications function well within the **EWSMaxConcurrency** threshold by tracking the number of connections that occur between the start of a request and when the response is received and ensuring that no more than ten open requests occur concurrently. 
   
 The **EWSFindCountLimit** policy parameter specifies the maximum result size a **FindItem** or **FindFolder** operation can use on a Client Access server at the same time for one user. If an application (or potentially multiple applications) makes two concurrent EWS **FindItem** requests that return 100 items each for a specific user, the **EWSFindCountLimit** charge against that specific user's budget will be 200. When the first request returns, the budget drops to 100, and when the second request returns, the budget drops to zero. If the same application were to make two simultaneous requests for 1000 items, the budget value would be 2000 items, which exceeds the **EWSFindCountLimit** value. If the user's budget for items drops below zero, the next request results in an error until the user's budget recharges to one or more. 
+
+<a name="bk_ThrottlingNotifications"> </a>
   
 ## Throttling considerations for EWS notification applications
-<a name="bk_ThrottlingNotifications"> </a>
+
 
 If you are building EWS notification applications that make use of either push, pull, or streaming notifications, you should consider the implications of the **EWSMaxSubscriptions** and the **EWSMaxConcurrency** throttling policies, and the **HangingConnectionLimit**. 
   
 The **EWSMaxSubscriptions** policy parameter specifies the maximum number of active push, pull, and streaming subscriptions that a user can have on a specific Client Access server at the same time. Different versions of Exchange have different default values for this parameter. A user can subscribe to all folders in a mailbox by using the **SubscribeToAllFolders** property - this uses a single subscription against the **EWSMaxSubscriptions** budget. Users can subscribe to individual folders, with each folder subscription counting towards the **EWSMaxSubscriptions** budget, up to the limit set by the value of the **EWSMaxSubscriptions** parameter (for example, users can subscribe to 20 calendar folders in different mailboxes if **EWSMaxSubscriptions** is set to 20). 
   
-For information about impersonation and the **EWSMaxSubscriptions** parameter, see [Throttling considerations for applications that use EWS impersonation](ews-throttling-in-exchange.md#bk_ThrottlingConsiderations) earlier in this article. 
+For information about impersonation and the **EWSMaxSubscriptions** parameter, see [Throttling considerations for applications that use EWS impersonation](#bk_ThrottlingConsiderations) earlier in this article. 
   
 The **EWSMaxConcurrency** policy parameter can also be an issue for EWS notifications; for example: 
   

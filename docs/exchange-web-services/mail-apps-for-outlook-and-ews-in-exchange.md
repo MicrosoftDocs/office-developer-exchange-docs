@@ -1,12 +1,8 @@
 ---
 title: "Outlook add-ins and EWS in Exchange"
-
-
 manager: sethgros
 ms.date: 03/9/2015
 ms.audience: Developer
-
-
 localization_priority: Normal
 ms.assetid: 821c8eb9-bb58-42e8-9a3a-61ca635cba59
 description: "Find information about Outlook add-ins and how they work with EWS in Exchange."
@@ -55,7 +51,7 @@ Like any other application, a mail app needs permissions to work. Your administr
 
 - [Set "OAuthAuthentication" to true](http://technet.microsoft.com/en-us/library/aa997233%28v=exchg.150%29.aspx) on the Client Access Server EWS directory.
 
-You also need to make sure that your app requests the read/write mailbox permission in the apps for Office [permission model](http://msdn.microsoft.com/library/5bca69f2-b287-4e19-8f0f-78d896b2a3d3%28Office.15%29.aspx).
+You also need to make sure that your app requests the read/write mailbox permission in the apps for Office [permission model](how-to-set-folder-permissions-for-another-user-by-using-ews-in-exchange.md).
 
 When these steps are complete, a subset of folder and item EWS operations are available for the mail app to use.
 
@@ -78,13 +74,13 @@ The service callback token is an opaque token that the third-party service attac
 
 - [Mailbox.makeEwsRequestAsync method (JavaScript API for Office)](http://msdn.microsoft.com/library/2ec380e0-4a67-4146-92a6-6a39f65dc6f2%28Office.15%29.aspx)
 
-- [Outlook add-ins](http://msdn.microsoft.com/library/71e64bc9-e347-4f5d-8948-0a47b5dd93e6%28Office.15%29.aspx)
+- [Outlook add-ins](https://docs.microsoft.com/en-us/outlook/add-ins/)
 
 - [Mailbox.getUserIdentityTokenAsync method (JavaScript API for Office)](http://msdn.microsoft.com/library/c658518b-6867-41a0-99cf-810303e4c539%28Office.15%29.aspx)
 
 - [Authenticate an Outlook add-in by using Exchange identity tokens](http://msdn.microsoft.com/library/c0520a1e-d9ba-495a-a99f-6816d7d2a23e%28Office.15%29.aspx)
 
-- [Understanding Outlook add-in permissions](http://msdn.microsoft.com/library/5bca69f2-b287-4e19-8f0f-78d896b2a3d3%28Office.15%29.aspx)
+- [Understanding Outlook add-in permissions](https://docs.microsoft.com/en-us/outlook/add-ins/understanding-outlook-add-in-permissions)
 
 - [Set-WebServicesVirtualDirectory](http://technet.microsoft.com/en-us/library/aa997233%28v=exchg.150%29.aspx)
 
