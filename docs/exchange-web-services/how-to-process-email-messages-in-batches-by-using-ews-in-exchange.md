@@ -1,12 +1,8 @@
 ---
 title: "Process email messages in batches by using EWS in Exchange"
- 
- 
 manager: sethgros
 ms.date: 03/9/2015
 ms.audience: Developer
- 
- 
 localization_priority: Normal
 ms.assetid: 96390f92-cab1-4de6-9ec2-a55678fc20af
 description: "Learn how to create, get, update, and delete batches of email messages in a single call by using the EWS Managed API or EWS in Exchange."
@@ -25,7 +21,7 @@ You can use the EWS Managed API or EWS to work with batches of email messages to
 |Create email messages in batches  <br/> |[ExchangeService.CreateItems](http://msdn.microsoft.com/en-us/library/microsoft.exchange.webservices.data.exchangeservice.createitems%28v=exchg.80%29.aspx) <br/> |[CreateItem](http://msdn.microsoft.com/library/fe6bb7fc-8918-4e6e-b0a1-b7e0ef44c3d1%28Office.15%29.aspx) <br/> |
 |Get email messages in batches  <br/> |[ExchangeService.BindToItems](http://msdn.microsoft.com/en-us/library/microsoft.exchange.webservices.data.exchangeservice.bindtoitems%28v=exchg.80%29.aspx) <br/> |[GetItem](http://msdn.microsoft.com/library/e8492e3b-1c8d-4b14-8070-9530f8306edd%28Office.15%29.aspx) <br/> |
 |Update email messages in batches  <br/> |[ExchangeService.UpdateItems](http://msdn.microsoft.com/en-us/library/dd634705%28v=exchg.80%29.aspx) <br/> |[UpdateItem](http://msdn.microsoft.com/library/5d027523-e0bc-4da2-b60b-0cb9fc1fdfe4%28Office.15%29.aspx) <br/> |
-|Delete email messages in batches  <br/> |[ExchangeService.DeleteItems](http://msdn.microsoft.com/en-us/library/dd635460%28v=exchg.80%29.aspx) <br/> |[DeleteItem](web-service-reference/deleteitem-operation.md) <br/> |
+|Delete email messages in batches  <br/> |[ExchangeService.DeleteItems](http://msdn.microsoft.com/en-us/library/dd635460%28v=exchg.80%29.aspx) <br/> |[DeleteItem](../web-service-reference/deleteitem-operation.md) <br/> |
    
 In this article, you'll learn how to complete basic tasks for batches of email messages by using the EWS Managed API or EWS.
   
@@ -418,7 +414,7 @@ public static void BatchDeleteEmailItems(ExchangeService service, Collection<Ite
 ## Delete email messages in batches by using EWS
 <a name="bk_deleteews"> </a>
 
-You can delete email messages in batches by using the [DeleteItem](web-service-reference/deleteitem-operation.md) EWS operation, as shown in the following code example. This is also the XML request that the EWS Managed API sends when you use the EWS Managed API to [delete email messages in batches](#bk_deleteewsma).
+You can delete email messages in batches by using the [DeleteItem](../web-service-reference/deleteitem-operation.md) EWS operation, as shown in the following code example. This is also the XML request that the EWS Managed API sends when you use the EWS Managed API to [delete email messages in batches](#bk_deleteewsma).
   
 ```XML
 <?xml version="1.0" encoding="utf-8"?>

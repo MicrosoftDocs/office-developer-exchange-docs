@@ -194,7 +194,7 @@ Again, this is the same XML that is returned when you use the **CreateItem** ope
     
 - [Create appointments and meetings by using EWS in Exchange 2013](how-to-create-appointments-and-meetings-by-using-ews-in-exchange-2013.md)
     
-- [CreateItem operation (calendar item)](web-service-reference/createitem-operation-calendar-item.md)
+- [CreateItem operation (calendar item)](../web-service-reference/createitem-operation-calendar-item.md)
     
 - [ExchangeService.ImpersonatedUserId property](https://docs.microsoft.com/en-us/dotnet/api/microsoft.exchange.webservices.data.exchangeservice.impersonateduserid?view=exchange-ews-api)
     

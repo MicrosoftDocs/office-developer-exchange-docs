@@ -74,7 +74,7 @@ In an EWS Managed API application, you specify the UPN along with the [Connectin
 exchangeServiceInstance.ImpersonatedUserId = new ImpersonatedUserId(ConnectingIdType.PrincipleName, "alias@billing.contoso.com");
 ```
 
-In an EWS SOAP request, the [PrincipalName element (ConnectingSIDType complexType) (EWS)](web-service-reference/principalname.md) element contains the UPN for the user account. 
+In an EWS SOAP request, the [PrincipalName element (ConnectingSIDType complexType) (EWS)](../web-service-reference/principalname.md) element contains the UPN for the user account. 
   
 ```XML
 <soap:Header>
