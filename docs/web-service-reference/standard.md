@@ -1,7 +1,5 @@
 ---
 title: "Standard"
- 
- 
 manager: sethgros
 ms.date: 09/17/2015
 ms.audience: Developer
@@ -28,7 +26,16 @@ The **Standard** element represents the date and time when the time changes from
 </Standard>
 ```
 
- **TimeChangeType**
+```xml
+<Standard TimeZoneName="">
+   <Offset/>
+   <AbsoluteDate/>
+   <Time/>
+</Standard>
+```
+
+**TimeChangeType**
+
 ## Attributes and elements
 
 The following sections describe attributes, child elements, and parent elements.
@@ -68,8 +75,6 @@ The schema that describes this element is located in the EWS virtual directory o
 |Can be Empty  <br/> |False  <br/> |
    
 ## See also
-
-
 
 - [EWS XML elements in Exchange](ews-xml-elements-in-exchange.md)
 

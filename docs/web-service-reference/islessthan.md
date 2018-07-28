@@ -1,7 +1,5 @@
 ---
 title: "IsLessThan"
- 
- 
 manager: sethgros
 ms.date: 09/17/2015
 ms.audience: Developer
@@ -27,7 +25,22 @@ The **IsLessThan** element represents a search expression that compares a proper
 </IsLessThan>
 ```
 
- **IsLessThanType**
+```xml
+<IsLessThan>
+   <IndexedFieldURI/> 
+   <FieldURIOrConstant/>
+</IsLessThan>
+```
+
+```xml
+<IsLessThan>
+   <ExtendedFieldURI/>
+   <FieldURIOrConstant/>
+</IsLessThan>
+```
+
+**IsLessThanType**
+
 ## Attributes and elements
 
 The following sections describe attributes, child elements, and parent elements.
@@ -68,8 +81,6 @@ The schema that describes this element is located in the EWS virtual directory o
 |Can be Empty  <br/> |False  <br/> |
    
 ## See also
-
-
 
 - [EWS XML elements in Exchange](ews-xml-elements-in-exchange.md)
 

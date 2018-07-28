@@ -1,12 +1,8 @@
 ---
 title: "Search and EWS in Exchange"
- 
- 
 manager: sethgros
 ms.date: 09/17/2015
 ms.audience: Developer
- 
- 
 localization_priority: Normal
 ms.assetid: 9fa5b836-857e-401d-9450-51e7dbc69104
 description: "Find out how to search for items in Exchange by using the EWS Managed API or EWS."
@@ -115,7 +111,7 @@ Setting the traversal on the view controls the depth and scope of the search.
 |Shallow  <br/> |Items and Folders  <br/> |Shallow searches are limited to direct children of the folder being searched.  <br/> |
 |Deep  <br/> |Items (only with search folders) and Folders  <br/> |Deep searches recursively search the folder being searched and subfolders.  <br/> |
 |Associated  <br/> |Items  <br/> |Associated searches only include associated items from the folder being searched. Associated items are hidden items within the folder.  <br/> |
-|SoftDeleted  <br/> |Items and Folders  <br/> |This traversal type is deprecated. SoftDeleted searches only include items that are in the dumpster. The dumpster has been replaced by the [Recoverable Items Folder](http://technet.microsoft.com/en-us/library/ee364755%28v=exchg.150%29.aspx(Office.15).aspx) in Exchange Online, Exchange Online as part of Office 365, and versions of Exchange starting with Exchange 2010.  <br/> |
+|SoftDeleted  <br/> |Items and Folders  <br/> |This traversal type is deprecated. SoftDeleted searches only include items that are in the dumpster. The dumpster has been replaced by the [Recoverable Items Folder](https://docs.microsoft.com/en-us/exchange/policy-and-compliance/recoverable-items-folder/recoverable-items-folder) in Exchange Online, Exchange Online as part of Office 365, and versions of Exchange starting with Exchange 2010.  <br/> |
    
 ## Managing search results
 <a name="bk_ManageSearchResults"> </a>
@@ -187,7 +183,7 @@ static void CreateSearchFolder(ExchangeService service)
 
 - [Develop web service clients for Exchange](develop-web-service-clients-for-exchange.md)
     
-- [Recoverable Items Folder](http://technet.microsoft.com/en-us/library/ee364755%28v=exchg.150%29.aspx(Office.15).aspx)
+- [Recoverable Items Folder](https://docs.microsoft.com/en-us/exchange/policy-and-compliance/recoverable-items-folder/recoverable-items-folder)
     
 - [ExchangeService.FindItems](http://msdn.microsoft.com/en-us/library/microsoft.exchange.webservices.data.exchangeservice.finditems%28v=exchg.80%29.aspx)
     

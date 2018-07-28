@@ -1,7 +1,5 @@
 ---
 title: "FolderChange"
- 
- 
 manager: sethgros
 ms.date: 09/17/2015
 ms.audience: Developer
@@ -20,11 +18,9 @@ description: "The FolderChange element represents a collection of changes to be 
 
 The **FolderChange** element represents a collection of changes to be performed on a single folder. 
   
-[UpdateFolder](updatefolder.md)
-  
-[FolderChanges](folderchanges.md)
-  
-[FolderChange](folderchange.md)
+- [UpdateFolder](updatefolder.md) 
+- [FolderChanges](folderchanges.md) 
+- [FolderChange](folderchange.md)
   
 ```xml
 <FolderChange>
@@ -33,7 +29,15 @@ The **FolderChange** element represents a collection of changes to be performed 
 </FolderChange>
 ```
 
- **FolderChangeType**
+```xml
+<FolderChange>
+   <DistinguishedFolderId/>
+   <Updates/>
+</FolderChange>
+```
+
+**FolderChangeType**
+
 ## Attributes and elements
 
 The following sections describe attributes, child elements, and parent elements.
@@ -71,7 +75,5 @@ The schema that describes this element is located in the EWS virtual directory o
    
 ## See also
 
-
-
-[UpdateFolder operation](updatefolder-operation.md)
+- [UpdateFolder operation](updatefolder-operation.md)
 

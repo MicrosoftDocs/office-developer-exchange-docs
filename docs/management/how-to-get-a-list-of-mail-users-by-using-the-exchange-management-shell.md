@@ -60,9 +60,9 @@ The following code example defines the **GetUsersUsingBasicAuth** method, which 
   
 This method requires the following parameters:
   
--  **liveIDConnectionUri** &ndash; A string that contains the URI of the Exchange Online server that will authenticate the application. If Exchange Online is running in Office 365, the URI is https://outlook.office365.com/PowerShell-LiveID; otherwise, the URI is https://\<servername\>/PowerShell-LiveID. 
+-  **liveIDConnectionUri** &ndash; A string that contains the URI of the Exchange Online server that will authenticate the application. If Exchange Online is running in Office 365, the URI is `https://outlook.office365.com/PowerShell-LiveID`; otherwise, the URI is `https://<servername>/PowerShell-LiveID`. 
     
--  **schemaUri** &ndash; A string that contains the URI of the schema document that defines the Exchange Management Shell schema. The schema URI is http://schemas.microsoft.com/powershell/Microsoft.Exchange. 
+-  **schemaUri** &ndash; A string that contains the URI of the schema document that defines the Exchange Management Shell schema. The schema URI is `http://schemas.microsoft.com/powershell/Microsoft.Exchange`. 
     
 -  **credentials** &ndash; A [PSCredential](http://msdn.microsoft.com/en-us/library/system.management.automation.pscredential%28VS.85%29.aspx) object that contains the credentials of the user who is running the application. 
     

@@ -1,7 +1,5 @@
 ---
 title: "Contains"
- 
- 
 manager: sethgros
 ms.date: 09/17/2015
 ms.audience: Developer
@@ -27,7 +25,23 @@ The **Contains** element represents a search expression that determines whether 
 </Contains>
 ```
 
- **ContainsExpressionType**
+```xml
+<Contains ContainmentMode="" ContainmentComparison="">
+   <ExtendedFieldURI/>
+   <Constant/>
+</Contains>
+```
+
+```xml
+<Contains ContainmentMode="" ContainmentComparison="">
+   <IndexedFieldURI/>
+   <Constant/>
+</Contains>
+```
+
+
+**ContainsExpressionType**
+
 ## Attributes and elements
 
 The following sections describe attributes, child elements, and parent elements.
@@ -96,8 +110,6 @@ The schema that describes this element is located in the EWS virtual directory o
 |Can be Empty  <br/> |False  <br/> |
    
 ## See also
-
-
 
 - [EWS XML elements in Exchange](ews-xml-elements-in-exchange.md)
 

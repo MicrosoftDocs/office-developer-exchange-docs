@@ -24,7 +24,20 @@ The **FieldOrder** element represents a single field by which to sort results an
 </FieldOrder>
 ```
 
- **FieldOrderType**
+```xml
+<FieldOrder Order="">
+   <ExtendedFieldURI/> 
+</FieldOrder>
+```
+
+```xml
+<FieldOrder Order="">
+   <IndexedFieldURI/>
+</FieldOrder>
+```
+
+**FieldOrderType**
+
 ## Attributes and elements
 
 The following sections describe attributes, child elements, and parent elements.

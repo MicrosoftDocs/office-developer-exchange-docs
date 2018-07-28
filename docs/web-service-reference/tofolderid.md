@@ -1,7 +1,5 @@
 ---
 title: "ToFolderId"
- 
- 
 manager: sethgros
 ms.date: 09/17/2015
 ms.audience: Developer
@@ -26,7 +24,14 @@ The **ToFolderId** element represents the destination folder for a copied or mov
 </ToFolderId>
 ```
 
- **TargetFolderIdType**
+```xml
+<ToFolderId>
+   <DistinguishedFolderId/>
+</ToFolderId>
+```
+
+**TargetFolderIdType**
+
 ## Attributes and elements
 
 The following sections describe attributes, child elements, and parent elements.
@@ -66,13 +71,8 @@ The schema that describes this element is located in the EWS virtual directory o
    
 ## See also
 
-
-
-[MoveFolder operation](movefolder-operation.md)
-  
-[CopyFolder operation](copyfolder-operation.md)
-  
-[MoveItem operation](moveitem-operation.md)
-  
-[CopyItem operation](copyitem-operation.md)
+- [MoveFolder operation](movefolder-operation.md)  
+- [CopyFolder operation](copyfolder-operation.md) 
+- [MoveItem operation](moveitem-operation.md) 
+- [CopyItem operation](copyitem-operation.md)
 

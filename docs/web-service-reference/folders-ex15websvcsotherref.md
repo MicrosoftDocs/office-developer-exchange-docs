@@ -1,7 +1,5 @@
 ---
 title: "Folders"
- 
- 
 manager: sethgros
 ms.date: 09/17/2015
 ms.audience: Developer
@@ -26,7 +24,32 @@ The **Folders** element contains an array of folders that are used in folder ope
 </Folders>
 ```
 
- **ArrayOfFoldersType** or **NonEmptyArrayOfFoldersType**
+```xml
+<Folders>
+   <ContactsFolder/> 
+</Folders>
+```
+
+```xml
+<Folders>
+   <TasksFolder/>
+</Folders>
+```
+
+```xml
+<Folders>
+   <CalendarFolder/>
+</Folders>
+```
+
+```xml
+<Folders>
+   <SearchFolder/> 
+</Folders>
+```
+
+**ArrayOfFoldersType** or **NonEmptyArrayOfFoldersType**
+
 ## Attributes and elements
 
 The following sections describe attributes, child elements, and parent elements.
@@ -76,7 +99,5 @@ The schema that describes this element is located in the EWS virtual directory o
    
 ## See also
 
-
-
-[ParentFolderId (TargetFolderIdType)](parentfolderid-targetfolderidtype.md)
+- [ParentFolderId (TargetFolderIdType)](parentfolderid-targetfolderidtype.md)
 

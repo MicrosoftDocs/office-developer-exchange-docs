@@ -1,9 +1,7 @@
 ---
-title: "ExpandDL operation"
- 
- 
+title: "ExpandDL operation" 
 manager: sethgros
-ms.date: 09/17/2015
+ms.date: 07/27/2018
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
@@ -61,17 +59,18 @@ The following example of an ExpandDL request shows how to form a request to expa
   
 ### Code
 
-```XML
+```xml
 <?xml version="1.0" encoding="utf-8"?>
-<soap:Envelope xmlns:soap="http://schemas.xmlsoap.org/soap/envelope/"
-               xmlns:t="http://schemas.microsoft.com/exchange/services/2006/types">
+<soap:Envelope xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:m="http://schemas.microsoft.com/exchange/services/2006/messages" xmlns:t="http://schemas.microsoft.com/exchange/services/2006/types" xmlns:soap="http://schemas.xmlsoap.org/soap/envelope/">
+  <soap:Header>
+    <t:RequestServerVersion Version="Exchange2013_SP1" />
+  </soap:Header>
   <soap:Body>
-    <ExpandDL xmlns="http://schemas.microsoft.com/exchange/services/2006/messages"
-              xmlns:t="http://schemas.microsoft.com/exchange/services/2006/types">
-        <t:Mailbox>
-          <t:ItemId Id="xASUAd==" ChangeKey="AAts0Q=="/>
-        </t:Mailbox>
-    </ExpandDL>
+    <m:ExpandDL>
+      <m:Mailbox>
+       <t:EmailAddress>test</t:EmailAddress>
+      </m:Mailbox>
+    </m:ExpandDL>
   </soap:Body>
 </soap:Envelope>
 ```
@@ -88,7 +87,7 @@ The following example of an ExpandDL request shows how to form a request to expa
   
 ### Code
 
-```XML
+```xml
 <?xml version="1.0" encoding="utf-8"?>
 <soap:Envelope xmlns:soap="http://schemas.xmlsoap.org/soap/envelope/"
                xmlns:t="http://schemas.microsoft.com/exchange/services/2006/types">
@@ -143,7 +142,7 @@ The following example of an ExpandDL response shows a response to the request de
   
 ### Code
 
-```XML
+```xml
 <?xml version="1.0" encoding="utf-8" ?>
 <soap:Envelope xmlns:soap="http://schemas.xmlsoap.org/soap/envelope/" 
                xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
@@ -223,7 +222,7 @@ The following example shows an error response to an ExpandDL request.
   
 ### Code
 
-```XML
+```xml
 <?xml version="1.0" encoding="utf-8" ?>
 <soap:Envelope xmlns:soap="http://schemas.xmlsoap.org/soap/envelope/" 
                xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 

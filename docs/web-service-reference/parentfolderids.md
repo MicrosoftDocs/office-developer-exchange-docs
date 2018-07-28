@@ -24,6 +24,12 @@ The **ParentFolderIds** element identifies folders for the FindItem and FindFold
 <ParentFolderIds>
 ```
 
+```xml
+<ParentFolderIds>
+   <FolderId/> 
+<ParentFolderIds>
+```
+
 **NonEmptyArrayOfBaseFolderIdsType**
 
 ## Attributes and elements

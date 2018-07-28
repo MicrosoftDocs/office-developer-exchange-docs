@@ -1,7 +1,5 @@
 ---
 title: "FindFolder"
- 
- 
 manager: sethgros
 ms.date: 09/17/2015
 ms.audience: Developer
@@ -29,7 +27,17 @@ The **FindFolder** element defines a request to find folders in a mailbox.
 </FindFolder>
 ```
 
- **FindFolderType**
+```xml
+<FindFolder Traversal="Shallow/Deep/SoftDeleted">
+   <FolderShape/>
+   <FractionalPageFolderView/>
+   <Restriction/>
+   <ParentFolderIds/>
+</FindFolder>
+```
+
+**FindFolderType**
+
 ## Attributes and elements
 
 The following sections describe attributes, child elements, and parent elements.
@@ -70,7 +78,7 @@ The schema that describes this element is located in the EWS virtual directory o
 
 The following example of a FindFolder request shows how to form a request to find all the folders located in an Inbox.
   
-```
+```xml
 <?xml version="1.0" encoding="utf-8"?>
 <soap:Envelope xmlns:soap="http://schemas.xmlsoap.org/soap/envelope/"
   xmlns:t="http://schemas.microsoft.com/exchange/services/2006/types">
@@ -98,7 +106,5 @@ The following example of a FindFolder request shows how to form a request to fin
    
 ## See also
 
-
-
-[FindFolder operation](findfolder-operation.md)
+- [FindFolder operation](findfolder-operation.md)
 

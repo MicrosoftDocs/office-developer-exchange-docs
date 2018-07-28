@@ -15,7 +15,12 @@ Develop a simple Hello World email client application for Exchange by using the 
 The [EWS Managed API](http://aka.ms/ews-managed-api-readme) provides an intuitive, easy-to-use object model for sending and receiving web service messages from client applications, portal applications, and service applications. You can access almost all the information stored in an Exchange Online, Exchange Online as part of Office 365, or an Exchange server mailbox by using the EWS Managed API. You can use the information in this article to help you develop your first EWS Managed API client application. 
   
 > [!NOTE]
-> The EWS Managed API is now available as an open source project on [GitHub](https://github.com/officedev/ews-managed-api). You can use the open source library to: >  Contribute bug fixes and enhancements to the API. >  Get fixes and enhancements before they are available in an official release. >  Access the most comprehensive and up-to-date implementation of the API, to use as a reference or to create new libraries on new platforms. >  We welcome your [contributions](https://github.com/OfficeDev/ews-managed-api/blob/master/CONTRIBUTING.md) via GitHub. 
+> The EWS Managed API is now available as an open source project on [GitHub](https://github.com/officedev/ews-managed-api). You can use the open source library to: 
+> - Contribute bug fixes and enhancements to the API. 
+> - Get fixes and enhancements before they are available in an official release. 
+> - Access the most comprehensive and up-to-date implementation of the API, to use as a reference or to create new libraries on new platforms. 
+>
+>  We welcome your [contributions](https://github.com/OfficeDev/ews-managed-api/blob/master/CONTRIBUTING.md) via GitHub. 
   
 ## You'll need an Exchange server
 <a name="NeedExchange"> </a>
@@ -205,10 +210,8 @@ namespace HelloWorld
 
 If you're ready to do more with your first EWS Managed API client application, explore the following resources:
   
-- [Exchange 2013: 101 code samples](http://code.msdn.microsoft.com/exchange/Exchange-2013-101-Code-3c38582c)
-    
-- [Folders and items](folders-and-items-in-ews-in-exchange.md)
-    
+- [Exchange 2013: 101 code samples](http://code.msdn.microsoft.com/exchange/Exchange-2013-101-Code-3c38582c)   
+- [Folders and items](folders-and-items-in-ews-in-exchange.md)    
 - [EWSEditor](http://ewseditor.codeplex.com/)
     
 If you run into any issues with your application, [try posting a question or comment in the forum](http://social.technet.microsoft.com/Forums/exchange/en-US/home?forum=exchangesvrdevelopment) (and don't forget to read the top post). 
@@ -216,10 +219,8 @@ If you run into any issues with your application, [try posting a question or com
 ## In this section
 <a name="Next"> </a>
 
-- [Reference the EWS Managed API assembly](how-to-reference-the-ews-managed-api-assembly.md)
-    
-- [Set the EWS service URL by using the EWS Managed API](how-to-set-the-ews-service-url-by-using-the-ews-managed-api.md)
-    
+- [Reference the EWS Managed API assembly](how-to-reference-the-ews-managed-api-assembly.md)   
+- [Set the EWS service URL by using the EWS Managed API](how-to-set-the-ews-service-url-by-using-the-ews-managed-api.md)   
 - [Communicate with EWS by using the EWS Managed API](how-to-communicate-with-ews-by-using-the-ews-managed-api.md)
     
 ## See also
