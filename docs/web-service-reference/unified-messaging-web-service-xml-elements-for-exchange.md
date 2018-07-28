@@ -11,8 +11,6 @@ api_type:
 - schema
 ms.assetid: 4f816453-383f-42b3-a48c-9a7c1d86a54d
 description: "Find reference information for the XML elements that are part of the Unified Messaging (UM) web service in Exchange."
- 
- 
 ---
 
 # Unified Messaging web service XML elements for Exchange
@@ -29,7 +27,6 @@ The Unified Messaging (UM) web service contains many XML elements that are used 
 ## See also
 
 - [Unified Messaging web service reference for Exchange](unified-messaging-web-service-reference-for-exchange.md)
-- [Unified Messaging Web Service Sample](http://www.microsoft.com/en-us/download/details.aspx?id=14832)
 - [Autodiscover for Exchange](../exchange-web-services/autodiscover-for-exchange.md)
 - [Start using web services in Exchange](../exchange-web-services/start-using-web-services-in-exchange.md)
     

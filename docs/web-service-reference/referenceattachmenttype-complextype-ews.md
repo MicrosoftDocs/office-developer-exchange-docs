@@ -44,7 +44,7 @@ If the schema defines specific requirements, such as **sequence**, **minOccurs**
 
 |**Element**|**Type**|**Description**|
 |:-----|:-----|:-----|
-|[AttachLongPathName](http://msdn.microsoft.com/library/98464422-2c13-8d33-0fe3-b1978f2d5b4a%28Office.15%29.aspx) <br/> |xs:string  <br/> ||
+|[AttachLongPathName](attachlongpathname.md) <br/> |xs:string  <br/> ||
    
 ### Attributes
 
