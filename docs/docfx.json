@@ -46,7 +46,8 @@
 	   "ms.suite": "office",
 	   "ms.prod" : "exchange",
 	   "ms.author": "o365devx",
-	   "author": "o365devx"
+	   "author": "o365devx",
+	   "contributors_to_exclude": ["nivnar"]
     },
     "fileMetadata": {
  	"ms.technology": 
