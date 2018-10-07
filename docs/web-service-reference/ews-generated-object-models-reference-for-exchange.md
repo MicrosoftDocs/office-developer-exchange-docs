@@ -11,7 +11,7 @@ ms.assetid: 67d7d831-9c53-46da-80e4-18f562e71284
 description: If you're using the EWS generated object model reference to develop applications for Exchange, find out about other options for EWS development.
 ---
 
-# Exchange Web Services (EWS) generated object models for Exchange
+# EWS generated object models for Exchange
 
 **Applies to**: Exchange Online | Exchange Server 2013 | Office 365
 

@@ -11,7 +11,7 @@ ms.assetid: c6ca36f4-a67c-4e3c-aae7-9ead7b704e15
 description: Learn about the namespaces that are included in the EWS Managed API.
 ---
 
-# Exchange Web Services (EWS) Managed API reference
+# EWS Managed API reference
 
 **Applies to**: EWS Managed API | Exchange Online | Exchange Server 2007 | Exchange Server 2010 | Exchange Server 2013 | Office 365
 
@@ -30,7 +30,6 @@ The Exchange Web Services (EWS) Managed API includes two APIs: Microsoft.Exchang
 - [Web services reference for Exchange](web-services-reference-for-exchange.md)
 - [Explore the EWS Managed API, EWS, and web services in Exchange](../exchange-web-services/explore-the-ews-managed-api-ews-and-web-services-in-exchange.md)
 - [What’s new in EWS and other web services in Exchange](../exchange-web-services/whats-new-in-ews-and-other-web-services-in-exchange.md)
-- [Create EWS and web service solutions for Exchange](../exchange-web-services/explore-the-ews-managed-api-ews-and-web-services-in-exchange.md)
 - [Start using web services in Exchange](../exchange-web-services/start-using-web-services-in-exchange.md)
 - [Develop web service clients for Exchange](../exchange-web-services/develop-web-service-clients-for-exchange.md)
 
