@@ -1,7 +1,5 @@
 ---
 title: "EventTypes"
- 
- 
 manager: sethgros
 ms.date: 09/17/2015
 ms.audience: Developer
