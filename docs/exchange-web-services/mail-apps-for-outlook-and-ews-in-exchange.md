@@ -37,7 +37,7 @@ You can use mail apps to customize the Outlook Web App experience for your users
 
 Your organization can install mail apps on an internal server to limit access to authorized users, or you and other mail app developers can put mail apps on the [Office Store](http://office.microsoft.com/store/) for sale to the general public. Anyone who is running Outlook can download, install, and use mail apps from the marketplace.
 
-If you want to learn more about creating mail apps, check out the [Outlook add-ins documentation](/outlook/add-ins/index.md) or the [Make an EWS request](http://code.msdn.microsoft.com/exchange/Mail-apps-for-Outlook-Make-770b2528) sample.
+If you want to learn more about creating mail apps, check out the [Outlook add-ins documentation](/outlook/add-ins) or the [Make an EWS request](http://code.msdn.microsoft.com/exchange/Mail-apps-for-Outlook-Make-770b2528) sample.
 
 ## EWS and Outlook add-ins
 
@@ -74,7 +74,7 @@ The service callback token is an opaque token that the third-party service attac
 
 - [Mailbox.makeEwsRequestAsync method (JavaScript API for Office)](http://msdn.microsoft.com/library/2ec380e0-4a67-4146-92a6-6a39f65dc6f2%28Office.15%29.aspx)
 
-- [Outlook add-ins](https://docs.microsoft.com/en-us/outlook/add-ins/)
+- [Outlook add-ins](https://docs.microsoft.com/outlook/add-ins)
 
 - [Mailbox.getUserIdentityTokenAsync method (JavaScript API for Office)](http://msdn.microsoft.com/library/c658518b-6867-41a0-99cf-810303e4c539%28Office.15%29.aspx)
 
