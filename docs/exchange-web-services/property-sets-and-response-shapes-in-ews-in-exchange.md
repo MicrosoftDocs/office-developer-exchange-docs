@@ -136,7 +136,7 @@ You can add additional properties to the property set or include extended proper
 |DateTimeStamp  <br/> |x  <br/> |||||
 |DelegationState  <br/> |||||x  <br/> |
 |Delegator  <br/> |||||x  <br/> |
-|DeletedOccurances  <br/> |x  <br/> |||||
+|DeletedOccurrences  <br/> |x  <br/> |||||
 |Department  <br/> ||x  <br/> ||||
 |DirectoryId  <br/> ||x  <br/> ||||
 |DirectReports  <br/> ||x  <br/> ||||
@@ -151,7 +151,7 @@ You can add additional properties to the property set or include extended proper
 |EndTimeZone  <br/> |x  <br/> |||||
 |FileAs  <br/> ||x  <br/> ||||
 |FileAsMapping  <br/> ||x  <br/> ||||
-|FirstOccurance  <br/> |x  <br/> |||||
+|FirstOccurrence  <br/> |x  <br/> |||||
 |From  <br/> |||x  <br/> |x  <br/> ||
 |Generation  <br/> ||x  <br/> ||||
 |GivenName  <br/> ||x  <br/> ||||
