@@ -5,16 +5,16 @@ ms.date: 03/9/2015
 ms.audience: Developer
 localization_priority: Normal
 ms.assetid: f33d1093-75ba-4ff2-8d15-b0bf73a401bf
-description: "Find in-depth developer documentation for Exchange Server, including Exchange Online as part of Office 365, Exchange Online, Exchange 2013, the EWS Managed API, Exchange 2010, and Exchange 2007."
+description: "Find in-depth developer documentation for Exchange Server, including Exchange Online as part of Office 365 and Exchange Server On-Premises versions."
 ---
 
 # Exchange Online and Exchange development
 
-Find in-depth developer documentation for Exchange Server, including Exchange Online as part of Office 365, Exchange Online, Exchange 2013, the EWS Managed API, Exchange 2010, and Exchange 2007.
+Find in-depth developer documentation for Exchange Server, including Exchange Online as part of Office 365 and Exchange Server On-Premises versions.
 
-You can use the how to, get started, new feature, and API reference documentation to develop tools to access and manage mailbox data from services, websites, desktop computers, and mobile devices, and to create custom solutions for email, calendar, contacts, and other items that are stored in Exchange Online or on an Exchange 2013 server.
+You can use the how to, get started, new feature, and API reference documentation to develop tools to access and manage mailbox data from services, websites, desktop computers, mobile devices, and to create custom solutions for email, calendar, contacts, and other items that are stored in Exchange Online or on an Exchange 2010, 2013, 2016 and 2019 server.
 
-You can use Exchange Web Services (EWS), Autodiscover, Outlook add-ins, or other APIs to develop your applications. This page helps you choose the right Exchange technology.
+You can use Graph API, REST API, Exchange Web Services (EWS), Autodiscover, Outlook add-ins, or other APIs to develop your applications. This page helps you choose the right Exchange technology.
 
 ## Exchange developer content
 
