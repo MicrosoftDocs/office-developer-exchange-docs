@@ -21,7 +21,7 @@ You can use the OAuth authentication service provided by Azure Active Directory 
 3. [Add an authentication token to EWS requests](#bk_useToken) that you send. 
     
 > [!NOTE]
-> OAuth authentication for EWS is only available in Exchange as part of Office 365. EWS applications require the "Full access to user's mailbox" permission. 
+> OAuth authentication for EWS is only available in Exchange as part of Office 365. EWS applications must be registered with Azure Active Directory, and require the "Access mailboxes as the signed-in user via Exchange Web Services" permission of "Office 365 Exchange Online (Microsoft.Exchange)". 
   
 To use the code in this article, you will need to have access to the following:
   
@@ -29,13 +29,15 @@ To use the code in this article, you will need to have access to the following:
     
 - The [Azure AD Authentication Library for .NET](https://docs.microsoft.com/en-us/azure/active-directory/develop/active-directory-authentication-libraries).
     
-- [The EWS Managed API](https://github.com/officedev/ews-managed-api.aspx).
+- [The EWS Managed API](https://github.com/officedev/ews-managed-api).
 
 <a name="bk_register"> </a>
 
 ## Register your application
 
-To use OAuth, an application must have a client identifier and an application URI that identifies the application. If you have not yet registered your application with Azure Active Directory Services, you'll need to manually add your application by following the steps at [Register your app](https://apps.dev.microsoft.com/#/appList).
+To use OAuth, an application must have a client identifier and an application URI that identifies the application. If you have not yet registered your application with Azure Active Directory Services, you'll need to manually add your application by following the steps at [Register an app](https://docs.microsoft.com/en-us/azure/active-directory/develop/quickstart-v1-add-azure-ad-app). 
+
+In this tutorial, it is assumed that the application is a console application, so you need to register your application as a native application with Azure Active Directory. And you need to grant the "Access mailboxes as the signed-in user via Exchange Web Services" permission of "Office 365 Exchange Online (Microsoft.Exchange)" to your application. 
 
 <a name="bk_getToken"> </a>
 
@@ -49,18 +51,17 @@ The Azure AD Authentication Library for .NET simplifies getting an authenticatio
     
 3. The application client URI created when you registered your application with Azure Active Directory.
     
-4. The URI of the EWS server and the URI of the EWS endpoint. For Exchange as part of Office 365, this will be  `https://<server name>/ews/exchange.asmx`.
+4. The URI of the EWS server and the URI of the EWS endpoint. For Exchange as part of Office 365, this will be `https://outlook.office365.com/EWS/Exchange.asmx`.
     
 The following code shows how to use the Azure AD Authentication Library to get an authentication token. It assumes that the information required to make the authentication request is stored in the application's App.config file. This example does not include error checking, see the [Code sample](#bk_codeSample) for the complete code. 
   
 ```cs
 string authority = ConfigurationManager.AppSettings["authority"];
 string clientID = ConfigurationManager.AppSettings["clientID"];
-Uri clientAppUri = new Uri(ConfigurationManager.AppSettings["clientAppUri"];
+Uri clientAppUri = new Uri(ConfigurationManager.AppSettings["clientAppUri"]);
 string serverName = ConfigurationManager.AppSettings["serverName"];
 AuthenticationContext authenticationContext = new AuthenticationContext(authority, false);
-AuthenticationResult authenticationResult = authenticationContext.AcquireToken(serverName, clientId, clientAppUri);
-
+AuthenticationResult authenticationResult = authenticationContext.AcquireTokenAsync(serverName, clientID, clientAppUri, new PlatformParameters(PromptBehavior.Always)).Result;
 ```
 
 <a name="bk_useToken"> </a>
@@ -70,12 +71,12 @@ AuthenticationResult authenticationResult = authenticationContext.AcquireToken(s
 After you've received the **AuthenticationResult** object you can use the **AccessToken** property to get the token issued by the token service. 
   
 ```cs
-ExchangeService exchangeService = new ExchangeService(ExchangeVersion.Exchange2013);
-exchangeService.Url = new Uri(ConfigurationManager.AppSettings["serverName"]+"ews/exchange.asmx");
+ExchangeService exchangeService = new ExchangeService(ExchangeVersion.Exchange2013_SP1);
+exchangeService.Url = new Uri(ConfigurationManager.AppSettings["serverName"] + "EWS/Exchange.asmx");
 exchangeService.TraceEnabled = true;
 exchangeService.TraceFlags = TraceFlags.All;
-exchangeService.Credentials = new OAuthCredentials(authenticationResult.AccessToken));
-exchangeService.FindFolders(WellKnownFolderName.Root, new Folderview(10));
+exchangeService.Credentials = new OAuthCredentials(authenticationResult.AccessToken);
+exchangeService.FindFolders(WellKnownFolderName.Root, new FolderView(10));
 ```
 
 <a name="bk_codeSample"> </a>
@@ -85,18 +86,12 @@ exchangeService.FindFolders(WellKnownFolderName.Root, new Folderview(10));
 The following is the complete code sample that demonstrates making an OAuth-authenticated EWS request.
   
 ```cs
-using System;
-using System.Collections.Generic;
-using System.Configuration;
-using System.Globalization;
-using System.Linq;
-using System.Text;
-using System.Threading;
-using System.Threading.Tasks;
-using System.Web.Script.Serialization;
-using Microsoft.Exchange.WebServices.Autodiscover;
 using Microsoft.Exchange.WebServices.Data;
 using Microsoft.IdentityModel.Clients.ActiveDirectory;
+using System;
+using System.Configuration;
+using System.Threading;
+
 namespace TestV1App
 {
     class Program
@@ -108,22 +103,24 @@ namespace TestV1App
             t.Start();
             t.Join();
         }
+
         static void Run()
         {
-           string authority = ConfigurationManager.AppSettings["authority"];
-           string clientID = ConfigurationManager.AppSettings["clientID"];
-           Uri clientAppUri = new Uri(ConfigurationManager.AppSettings["clientAppUri"];
-           string serverName = ConfigurationManager.AppSettings["serverName"];
+            string authority = ConfigurationManager.AppSettings["authority"];
+            string clientID = ConfigurationManager.AppSettings["clientID"];
+            Uri clientAppUri = new Uri(ConfigurationManager.AppSettings["clientAppUri"]);
+            string serverName = ConfigurationManager.AppSettings["serverName"];
             AuthenticationResult authenticationResult = null;
             AuthenticationContext authenticationContext = new AuthenticationContext(authority, false);
-            
+
             string errorMessage = null;
+
             try
             {
                 Console.WriteLine("Trying to acquire token");
-                authenticationResult = authenticationContext.AcquireToken(serverName, clientId, clientAppUri);
+                authenticationResult = authenticationContext.AcquireTokenAsync(serverName, clientID, clientAppUri, new PlatformParameters(PromptBehavior.Always)).Result;
             }
-                catch (AdalException ex)
+            catch (AdalException ex)
             {
                 errorMessage = ex.Message;
                 if (ex.InnerException != null)
@@ -135,14 +132,16 @@ namespace TestV1App
             {
                 errorMessage = ex.Message;
             }
+
             if (!string.IsNullOrEmpty(errorMessage))
             {
                 Console.WriteLine("Failed: {0}" + errorMessage);
                 return;
             }
+
             Console.WriteLine("\nMaking the protocol call\n");
-            ExchangeService exchangeService = new ExchangeService(ExchangeVersion.Exchange2013);
-            exchangeService.Url = new Uri(resource + "ews/exchange.asmx");
+            ExchangeService exchangeService = new ExchangeService(ExchangeVersion.Exchange2013_SP1);
+            exchangeService.Url = new Uri(serverName + "EWS/Exchange.asmx");
             exchangeService.TraceEnabled = true;
             exchangeService.TraceFlags = TraceFlags.All;
             exchangeService.Credentials = new OAuthCredentials(authenticationResult.AccessToken);
@@ -150,7 +149,6 @@ namespace TestV1App
         }
     }
 }
-
 ```
 
 The sample code requires an App.config file with the following entries:
@@ -158,14 +156,14 @@ The sample code requires an App.config file with the following entries:
 ```xml
 <?xml version="1.0" encoding="utf-8" ?>
 <configuration>
-  <startup>
+  <startup> 
     <supportedRuntime version="v4.0" sku=".NETFramework,Version=v4.5" />
   </startup>
   <appSettings>
-    <add key="authority" value="http://login.windows.net/<devAccountName>.onmicrosoft.com" />
-    <add key="clientId" value="<ID generated by Azure Active Directory"/>
-    <add key="clientAppUri" value="<URI registered with Azure Active Directory"/>
-    <add key="serverName" value="outlook.office365.com" />
+    <add key="authority" value="https://login.windows.net/common" />
+    <add key="clientID" value="Application ID generated by Azure Active Directory"/>
+    <add key="clientAppUri" value="Sign-on URL registered with Azure Active Directory"/>
+    <add key="serverName" value="https://outlook.office365.com/" />
   </appSettings>
 </configuration>
 ```
