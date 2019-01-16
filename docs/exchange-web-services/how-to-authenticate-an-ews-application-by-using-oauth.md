@@ -35,7 +35,7 @@ To use the code in this article, you will need to have access to the following:
 
 ## Register your application
 
-To use OAuth, an application must have a client identifier and an application URI that identifies the application. If you have not yet registered your application with Azure Active Directory Services, you'll need to manually add your application by following the steps at [Register an app](https://docs.microsoft.com/en-us/azure/active-directory/develop/quickstart-v1-add-azure-ad-app). 
+To use OAuth, an application must have a client identifier and an application URI that identifies the application. If you have not yet registered your application with Azure Active Directory Services, you'll need to manually add your application by following the steps at [Register an app](https://docs.microsoft.com/azure/active-directory/develop/quickstart-v1-add-azure-ad-app). 
 
 In this tutorial, it is assumed that the application is a console application, so you need to register your application as a native application with Azure Active Directory. And you need to grant the "Access mailboxes as the signed-in user via Exchange Web Services" permission of "Office 365 Exchange Online (Microsoft.Exchange)" to your application. 
 
