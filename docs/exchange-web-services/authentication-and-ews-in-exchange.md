@@ -66,7 +66,7 @@ Basic authentication provides a, well, basic level of security for your client a
 
 |**Advantages**|**Disadvantages**|
 |:-----|:-----|
-| Works "out of the box" with your Exchange server. You can configure access to Exchange services by using an [Exchange Management Shell cmdlet](how-to-control-access-to-ews-in-exchange.md).<br/><br/>Windows applications can use the logged on user's default credentials.<br/><br/>Many [code samples are available](http://code.msdn.microsoft.com/office/Exchange-2013-101-Code-3c38582c) that show you how to call EWS using basic authentication.  <br/> | Requires your application to collect and store the user's credentials.<br/><br/>You have to turn off NTLM authentication for all users to use basic authentication.<br/><br/>If a security breach occurs in your application, it can expose the user's email address and password to the attacker.  <br/> |
+| Works "out of the box" with your Exchange server. You can configure access to Exchange services by using an [Exchange Management Shell cmdlet](how-to-control-access-to-ews-in-exchange.md).<br/><br/>Windows applications can use the logged on user's default credentials.<br/><br/>Many [code samples are available](http://code.msdn.microsoft.com/office/Exchange-2013-101-Code-3c38582c) that show you how to call EWS using basic authentication.  <br/> | Requires your application to collect and store the user's credentials.<br/><br/>You have to turn off NTLM authentication if you want to force all users to use basic authentication.<br/><br/>If a security breach occurs in your application, it can expose the user's email address and password to the attacker.  <br/> |
    
 You need to decide if basic authentication meets the security requirements of your organization and customers. Basic authentication can be the right choice if you want to avoid extensive setup tasks, for example for simple test or demonstration applications.
   
@@ -75,7 +75,7 @@ You need to decide if basic authentication meets the security requirements of yo
 - [Start using web services in Exchange](start-using-web-services-in-exchange.md)   
 - [Adding Sign-On to Your Web Application Using Microsoft Azure AD](http://msdn.microsoft.com/library/055e1155-2d4d-4c85-b44e-d406872ba595%28Office.15%29.aspx)    
 - [Control access to EWS in Exchange](how-to-control-access-to-ews-in-exchange.md)    
-- [Controlling client application access to EWS in Exchange](controlling-client-application-access-to-ews-in-exchange.md)    
-- [Supported Token and Claim Types](http://msdn.microsoft.com/library/9d35e4bc-7b72-49d1-b723-5464eee6be2c%28Office.15%29.aspx)
+- [Controlling client application access to EWS in Exchange](controlling-client-application-access-to-ews-in-exchange.md)   
+- [Supported token and claim types](http://msdn.microsoft.com/library/9d35e4bc-7b72-49d1-b723-5464eee6be2c%28Office.15%29.aspx)
     
 
