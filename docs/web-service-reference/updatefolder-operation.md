@@ -88,7 +88,7 @@ The following elements are used in the request:
     
 - [FolderId](folderid.md)
     
-- [Updates (Item)](updates-item.md)
+- [Updates (Folder)](updates-folder.md)
     
 - [SetFolderField](setfolderfield.md)
     
