@@ -7,9 +7,9 @@ ms.date: 09/17/2015
 ms.audience: Developer
  
  
-localization_priority: Normal
 ms.assetid: 4d7bdb37-f7f1-409f-9749-f8bcde7dc52a
 description: "Find out how to work with email messages, including how to create an email and how to perform other email-related tasks by using the EWS Managed API or EWS in Exchange."
+localization_priority: Priority
 ---
 
 # Email and EWS in Exchange

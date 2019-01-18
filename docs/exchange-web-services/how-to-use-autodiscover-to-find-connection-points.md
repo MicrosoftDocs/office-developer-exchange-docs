@@ -3,9 +3,9 @@ title: "Use Autodiscover to find connection points"
 manager: sethgros
 ms.date: 09/17/2015
 ms.audience: Developer
-localization_priority: Normal
 ms.assetid: 03896542-549b-4c45-973c-98f9025ea26c
 description: "Find out how to use the Autodiscover service to direct your client application to the correct Exchange server."
+localization_priority: Priority
 ---
 
 # Use Autodiscover to find connection points

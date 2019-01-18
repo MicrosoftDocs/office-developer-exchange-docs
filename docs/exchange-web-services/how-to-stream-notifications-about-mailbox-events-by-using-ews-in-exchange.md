@@ -7,9 +7,9 @@ ms.date: 09/17/2015
 ms.audience: Developer
  
  
-localization_priority: Normal
 ms.assetid: fe9bde1e-da0e-413c-a109-077f399f67a3
 description: "Find out how to use the EWS Managed API or EWS to subscribe to streaming notifications and get events."
+localization_priority: Priority
 ---
 
 # Stream notifications about mailbox events by using EWS in Exchange

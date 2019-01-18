@@ -7,9 +7,9 @@ ms.date: 03/9/2015
 ms.audience: Developer
  
  
-localization_priority: Normal
 ms.assetid: 0e0a666c-0541-414b-a7fb-297d94f692e6
 description: "Find out how time zones work with the EWS Managed API and EWS in Exchange."
+localization_priority: Priority
 ---
 
 # Time zones and EWS in Exchange

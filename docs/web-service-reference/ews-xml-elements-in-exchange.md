@@ -5,13 +5,13 @@ ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
 api_name:
 - Exchange
 api_type:
 - schema
 ms.assetid: 4653466a-a596-456f-bbff-7da4ef1d18d3
 description: "Find reference information for the EWS XML elements in Exchange."
+localization_priority: Priority
 ---
 
 # EWS XML elements in Exchange

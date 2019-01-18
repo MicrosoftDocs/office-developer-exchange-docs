@@ -7,9 +7,9 @@ ms.date: 2/27/2017
 ms.audience: Developer
  
  
-localization_priority: Normal
 ms.assetid: e1b07a92-0595-4bf1-bd6b-c07e66a8c923
 description: "Find information to help you get started with EWS and other web services in Exchange."
+localization_priority: Priority
 ---
 
 # Start using web services in Exchange

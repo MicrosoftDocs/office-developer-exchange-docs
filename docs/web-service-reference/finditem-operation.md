@@ -7,13 +7,13 @@ ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
 api_name:
 - FindItem
 api_type:
 - schema
 ms.assetid: ebad6aae-16e7-44de-ae63-a95b24539729
 description: "Find information about the FindItem EWS operation."
+localization_priority: Priority
 ---
 
 # FindItem operation

@@ -7,9 +7,9 @@ ms.date: 7/11/2016
 ms.audience: Developer
  
  
-localization_priority: Normal
 ms.assetid: 8e4289a4-ec9d-4502-9854-c593c95d5f98
 description: "Learn about attachments and how your EWS Managed API or EWS in Exchange client represents them."
+localization_priority: Priority
 ---
 
 # Attachments and EWS in Exchange

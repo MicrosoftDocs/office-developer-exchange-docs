@@ -7,9 +7,9 @@ ms.date: 09/17/2015
 ms.audience: Developer
  
  
-localization_priority: Normal
 ms.assetid: 64ed70e4-32eb-4c25-bfc4-43d1477296e5
 description: "Find out how to perform paged searches in your EWS Managed API or EWS application that targets Exchange."
+localization_priority: Priority
 ---
 
 # Perform paged searches by using EWS in Exchange

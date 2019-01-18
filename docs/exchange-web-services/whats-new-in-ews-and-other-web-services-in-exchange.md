@@ -3,9 +3,9 @@ title: "What's new in EWS and other web services in Exchange"
 manager: sethgros
 ms.date: 09/17/2015
 ms.audience: Developer
-localization_priority: Normal
 ms.assetid: aff6328f-cff1-42a6-9a4d-ea4d2d0461cf
 description: "Find out what's new in EWS and web services in Exchange and the EWS Managed API."
+localization_priority: Priority
 ---
 
 # What's new in EWS and other web services in Exchange

@@ -5,13 +5,13 @@ ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
 api_name:
 - Exchange
 api_type:
 - schema
 ms.assetid: cf6fd871-9a65-4f34-8557-c8c71dd7ce09
 description: "Find information about the EWS operations that are available in Exchange."
+localization_priority: Priority
 ---
 
 # EWS operations in Exchange

@@ -7,13 +7,13 @@ ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
 api_name:
 - GetItem
 api_type:
 - schema
 ms.assetid: e8492e3b-1c8d-4b14-8070-9530f8306edd
 description: "The GetItem operation allows the user to access information about e-mail messages."
+localization_priority: Priority
 ---
 
 # GetItem operation (email message)

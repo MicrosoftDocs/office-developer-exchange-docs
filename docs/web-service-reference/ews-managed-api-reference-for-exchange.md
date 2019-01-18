@@ -4,11 +4,11 @@ manager: sethgros
 ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
-localization_priority: Normal
 api_type:
 - schema
 ms.assetid: c6ca36f4-a67c-4e3c-aae7-9ead7b704e15
 description: Learn about the namespaces that are included in the EWS Managed API.
+localization_priority: Priority
 ---
 
 # EWS Managed API reference

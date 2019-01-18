@@ -3,9 +3,9 @@ title: "EWS schema versions in Exchange"
 manager: sethgros
 ms.date: 03/9/2015
 ms.audience: Developer
-localization_priority: Normal
 ms.assetid: d1ab6f9c-ea91-4022-830d-7f7b759e3935
 description: "Learn about the EWS schema and how to design your application to work with it, as well as the features that are available with each schema version, and how the schema relates to the Exchange service version."
+localization_priority: Priority
 ---
 
 # EWS schema versions in Exchange

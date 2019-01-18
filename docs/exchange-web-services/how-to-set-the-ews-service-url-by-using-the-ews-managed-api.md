@@ -3,9 +3,9 @@ title: "Set the EWS service URL by using the EWS Managed API"
 manager: sethgros
 ms.date: 09/17/2015
 ms.audience: Developer
-localization_priority: Normal
 ms.assetid: cddf6525-1c04-484b-a911-56c2f0f1f7b6
 description: "Find information about how to set the EWS service URL in your EWS Managed API application."
+localization_priority: Priority
 ---
 
 # Set the EWS service URL by using the EWS Managed API

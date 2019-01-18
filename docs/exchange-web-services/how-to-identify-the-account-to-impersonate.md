@@ -7,9 +7,9 @@ ms.date: 11/16/2014
 ms.audience: Developer
  
  
-localization_priority: Normal
 ms.assetid: c7749f12-b97f-48d9-88e5-a545e108efb0
 description: "Learn how your service application uses EWS to identify the user to impersonate."
+localization_priority: Priority
 ---
 
 # Identify the account to impersonate

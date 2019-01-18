@@ -3,9 +3,9 @@ title: "EWS throttling in Exchange"
 manager: sethgros
 ms.date: 09/17/2015
 ms.audience: Developer
-localization_priority: Normal
 ms.assetid: b4fff4c9-c625-4d2a-9d14-bb28a5da5baf
 description: "Learn about the throttling policies that affect EWS when you are using Exchange."
+localization_priority: Priority
 ---
 
 # EWS throttling in Exchange

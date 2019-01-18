@@ -7,9 +7,9 @@ ms.date: 09/17/2015
 ms.audience: Developer
  
  
-localization_priority: Normal
 ms.assetid: 2f9acb81-5135-4f72-94e8-65c235d725e6
 description: "Learn how to get domain settings from an Exchange server by using the Autodiscover service."
+localization_priority: Priority
 ---
 
 # Get domain settings from an Exchange server

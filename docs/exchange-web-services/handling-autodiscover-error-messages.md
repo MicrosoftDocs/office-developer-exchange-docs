@@ -7,9 +7,9 @@ ms.date: 09/17/2015
 ms.audience: Developer
  
  
-localization_priority: Normal
 ms.assetid: e5939ec2-1100-4174-8a88-5a6e09b60b23
 description: "Learn about the different types of Autodiscover errors and what to do with them."
+localization_priority: Priority
 ---
 
 # Handling Autodiscover error messages

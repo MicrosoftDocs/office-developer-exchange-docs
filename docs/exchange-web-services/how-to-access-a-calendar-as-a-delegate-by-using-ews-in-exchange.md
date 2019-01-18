@@ -3,9 +3,9 @@ title: "Access a calendar as a delegate by using EWS in Exchange"
 manager: sethgros
 ms.date: 03/9/2015
 ms.audience: Developer
-localization_priority: Normal
 ms.assetid: d7db4a1e-9ed6-41da-8529-a73ca285cdf2
 description: "Learn how to access a calendar as a delegate by using the EWS Managed API or EWS in Exchange."
+localization_priority: Priority
 ---
 
 #  Access a calendar as a delegate by using EWS in Exchange

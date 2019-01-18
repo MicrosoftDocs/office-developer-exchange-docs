@@ -7,9 +7,9 @@ ms.date: 09/17/2015
 ms.audience: Developer
  
  
-localization_priority: Normal
 ms.assetid: b87b0180-f5b5-44e4-b6ac-4f23e476b03b
 description: "Learn about calendars, calendar folders and items, appointments, and meetings in Exchange."
+localization_priority: Priority
 ---
 
 # Calendars and EWS in Exchange

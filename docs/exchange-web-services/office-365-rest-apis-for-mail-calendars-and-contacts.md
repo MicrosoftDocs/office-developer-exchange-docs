@@ -3,9 +3,9 @@ title: "Microsoft Graph Outlook API for mail, calendars, and contacts"
 manager: sethgros
 ms.date: 07/27/2018
 ms.audience: Developer
-localization_priority: Normal
 ms.assetid: 3b2e71a6-5fa5-4008-b243-d3a6e9173b3d
 description: Find information about the Microsoft Graph API that you can use to access mail, calendars, and contacts in Office 365 or Exchange Online.
+localization_priority: Priority
 ---
 
 # Microsoft Graph REST APIs for mail, calendars, and contacts

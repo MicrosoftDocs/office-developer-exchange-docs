@@ -7,9 +7,9 @@ ms.date: 09/17/2015
 ms.audience: Developer
  
  
-localization_priority: Normal
 ms.assetid: 899ba15b-336d-4f9b-8563-318c61e43713
 description: "Find information to help you develop EWS and web service client applications for Exchange."
+localization_priority: Priority
 ---
 
 # Develop web service clients for Exchange

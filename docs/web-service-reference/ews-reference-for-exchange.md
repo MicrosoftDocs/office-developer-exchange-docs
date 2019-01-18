@@ -5,9 +5,9 @@ ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
 ms.assetid: 2a873474-1bb2-4cb1-a556-40e8c4159f4a
 description: "Find reference information for the EWS XML elements and WSDL operations in Exchange."
+localization_priority: Priority
 ---
 
 # EWS reference for Exchange

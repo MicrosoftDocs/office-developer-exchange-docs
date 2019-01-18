@@ -3,9 +3,9 @@ title: "Configure impersonation"
 manager: sethgros
 ms.date: 11/16/2014
 ms.audience: Developer
-localization_priority: Normal
 ms.assetid: efcef39f-e26d-4eed-95ac-36a5bf8c089f
 description: "Learn how to grant the impersonation role to a service account by using the Exchange Management Shell."
+localization_priority: Priority
 ---
 
 # Configure impersonation

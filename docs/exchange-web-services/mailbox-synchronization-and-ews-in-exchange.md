@@ -7,9 +7,9 @@ ms.date: 09/17/2015
 ms.audience: Developer
  
  
-localization_priority: Normal
 ms.assetid: decf1eee-9743-44f3-9333-b3a01af3683e
 description: "Find out how mailbox synchronization works when you use EWS to access Exchange."
+localization_priority: Priority
 ---
 
 # Mailbox synchronization and EWS in Exchange

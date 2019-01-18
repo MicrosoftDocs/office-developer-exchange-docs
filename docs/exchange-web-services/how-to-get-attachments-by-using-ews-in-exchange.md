@@ -7,9 +7,9 @@ ms.date: 03/9/2015
 ms.audience: Developer
  
  
-localization_priority: Normal
 ms.assetid: 12ce3cc0-a201-42e4-93e1-1f57961ff711
 description: "Learn how to get attachments from EWS items by using the EWS Managed API or EWS in Exchange."
+localization_priority: Priority
 ---
 
 # Get attachments by using EWS in Exchange

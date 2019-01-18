@@ -5,9 +5,9 @@ ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: overview
 ms.prod: office-online-server
-localization_priority: Normal
 ms.assetid: 8b790dc8-5c4f-4acf-bbe7-63523395fbe7
 description: "Learn how to use Exchange Management Shell cmdlets to create a tool that returns a list of Exchange mailbox users."
+localization_priority: Priority
 ---
 
 # Get a list of mail users by using the Exchange Management Shell

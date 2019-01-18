@@ -3,9 +3,9 @@ title: "EWS Identifiers in Exchange"
 manager: sethgros
 ms.date: 09/17/2015
 ms.audience: Developer
-localization_priority: Normal
 ms.assetid: 39b6b20b-e081-4347-9e15-9b8cf829fdf0
 description: "Find out about identifiers in Exchange and how you can use them in your EWS Managed API and EWS applications."
+localization_priority: Priority
 ---
 
 # EWS Identifiers in Exchange

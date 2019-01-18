@@ -3,9 +3,9 @@ title: "Outlook add-ins and EWS in Exchange"
 manager: sethgros
 ms.date: 03/9/2015
 ms.audience: Developer
-localization_priority: Normal
 ms.assetid: 821c8eb9-bb58-42e8-9a3a-61ca635cba59
 description: "Find information about Outlook add-ins and how they work with EWS in Exchange."
+localization_priority: Priority
 ---
 
 # Outlook add-ins and EWS in Exchange
