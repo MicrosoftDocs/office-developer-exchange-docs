@@ -7,9 +7,9 @@ ms.date: 09/17/2015
 ms.audience: Developer
  
  
-localization_priority: Normal
 ms.assetid: 76136f28-0dad-4ecc-9dd7-a45a1861e4b0
 description: "Find out about notification subscriptions and mailbox event in EWS in Exchange."
+localization_priority: Priority
 ---
 
 # Notification subscriptions, mailbox events, and EWS in Exchange

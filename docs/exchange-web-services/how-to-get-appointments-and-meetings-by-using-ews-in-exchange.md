@@ -3,9 +3,9 @@ title: "Get appointments and meetings by using EWS in Exchange"
 manager: sethgros 
 ms.date: 09/17/2015
 ms.audience: Developer
-localization_priority: Normal
 ms.assetid: 1bae582a-8cb3-4e77-be2a-7e107fad26fe
 description: "Learn how to get appointments and meetings by using the EWS Managed API or EWS in Exchange."
+localization_priority: Priority
 ---
 
 # Get appointments and meetings by using EWS in Exchange

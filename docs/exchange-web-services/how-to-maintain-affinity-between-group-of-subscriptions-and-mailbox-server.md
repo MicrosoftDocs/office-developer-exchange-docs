@@ -3,9 +3,9 @@ title: "Maintain affinity between a group of subscriptions and the Mailbox serve
 manager: sethgros
 ms.date: 09/17/2015
 ms.audience: Developer
-localization_priority: Normal
 ms.assetid: 1bda4094-88c3-4f61-9219-6ee70f6e81cf
 description: "Find out about maintaining the affinity between a group of subscriptions and the Mailbox server."
+localization_priority: Priority
 ---
 
 # Maintain affinity between a group of subscriptions and the Mailbox server in Exchange

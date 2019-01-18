@@ -3,9 +3,9 @@ title: "Process email messages in batches by using EWS in Exchange"
 manager: sethgros
 ms.date: 03/9/2015
 ms.audience: Developer
-localization_priority: Normal
 ms.assetid: 96390f92-cab1-4de6-9ec2-a55678fc20af
 description: "Learn how to create, get, update, and delete batches of email messages in a single call by using the EWS Managed API or EWS in Exchange."
+localization_priority: Priority
 ---
 
 # Process email messages in batches by using EWS in Exchange

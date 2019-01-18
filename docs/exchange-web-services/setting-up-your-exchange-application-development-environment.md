@@ -3,9 +3,9 @@ title: "Setting up your Exchange application development environment"
 manager: sethgros
 ms.date: 09/17/2015
 ms.audience: Developer
-localization_priority: Normal
 ms.assetid: 91b86e93-bdde-41c3-9680-45cf61420592
 description: "Learn about how to set up your development environment to create an EWS application that communicates with Exchange."
+localization_priority: Priority
 ---
 
 # Setting up your Exchange application development environment

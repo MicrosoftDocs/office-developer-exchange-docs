@@ -5,13 +5,13 @@ ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
 api_name:
 - ItemId
 api_type:
 - schema
 ms.assetid: 3350b597-57a0-4961-8f44-8624946719b4
 description: "The ItemId element contains the unique identifier and change key of an item in the Exchange store."
+localization_priority: Priority
 ---
 
 # ItemId

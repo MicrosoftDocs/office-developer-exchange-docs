@@ -3,9 +3,9 @@ title: "Autodiscover for Exchange"
 manager: sethgros
 ms.date: 09/17/2015
 ms.audience: Developer
-localization_priority: Normal
 ms.assetid: da0f9402-4e35-42c7-a15e-1e9e4e966e8b
 description: "Learn about the Autodiscover service in Exchange."
+localization_priority: Priority
 ---
 
 # Autodiscover for Exchange

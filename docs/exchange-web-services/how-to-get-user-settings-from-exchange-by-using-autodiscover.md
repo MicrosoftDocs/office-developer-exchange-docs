@@ -7,9 +7,9 @@ ms.date: 09/17/2015
 ms.audience: Developer
  
  
-localization_priority: Normal
 ms.assetid: 6d90c305-4802-4e18-8d52-f60349feaa8d
 description: "Learn how to get user configuration settings from an Exchange server by using Autodiscover."
+localization_priority: Priority
 ---
 
 # Get user settings from Exchange by using Autodiscover

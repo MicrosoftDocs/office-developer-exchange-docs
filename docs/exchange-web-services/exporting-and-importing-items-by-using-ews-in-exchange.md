@@ -3,9 +3,9 @@ title: "Exporting and importing items by using EWS in Exchange"
 manager: sethgros
 ms.date: 03/9/2015
 ms.audience: Developer
-localization_priority: Normal
 ms.assetid: ad5f75f9-47c3-4f51-a535-80cba4243683
 description: "Learn about exporting and importing appointments, emails, contacts, tasks, and other mailbox items by using the EWS Managed API or EWS in Exchange."
+localization_priority: Priority
 ---
 
 # Exporting and importing items by using EWS in Exchange

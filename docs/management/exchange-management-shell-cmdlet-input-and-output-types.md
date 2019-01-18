@@ -5,9 +5,9 @@ ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: overview
 ms.prod: office-online-server
-localization_priority: Normal
 ms.assetid: daca33d3-22f8-4bac-9cfd-6324e85a45c7
 description: "Find input and output types for Exchange Management Shell cmdlets."
+localization_priority: Priority
 ---
 
 # Exchange Management Shell cmdlet input and output types

@@ -3,9 +3,9 @@ title: "Authentication and EWS in Exchange"
 manager: sethgros
 ms.date: 03/9/2015
 ms.audience: Developer
-localization_priority: Normal
 ms.assetid: 9a83df96-aca0-42b3-b8f5-2b414f0363f1
 description: "Find information to help you choose the right authentication standard for your EWS application that targets Exchange."
+localization_priority: Priority
 ---
 
 # Authentication and EWS in Exchange

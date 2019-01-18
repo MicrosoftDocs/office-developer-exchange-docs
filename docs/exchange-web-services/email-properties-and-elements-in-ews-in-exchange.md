@@ -7,9 +7,9 @@ ms.date: 09/17/2015
 ms.audience: Developer
  
  
-localization_priority: Normal
 ms.assetid: 5266ff9f-d828-4ef4-b8ec-7b27d355c4c5
 description: "Learn about the first-class and other properties and elements that you can get on email messages by using the EWS Managed API or EWS in Exchange."
+localization_priority: Priority
 ---
 
 # Email properties and elements in EWS in Exchange

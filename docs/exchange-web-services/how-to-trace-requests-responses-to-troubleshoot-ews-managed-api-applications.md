@@ -3,9 +3,9 @@ title: "Trace requests and responses to troubleshoot EWS Managed API apps"
 manager: sethgros
 ms.date: 09/17/2015
 ms.audience: Developer
-localization_priority: Normal
 ms.assetid: 186c1d1d-b8dc-4914-b3cd-6fada7ecd877
 description: "Find out how to trace EWS requests and responses to troubleshoot errors in your EWS Managed API application."
+localization_priority: Priority
 ---
 
 # Trace requests and responses to troubleshoot EWS Managed API apps

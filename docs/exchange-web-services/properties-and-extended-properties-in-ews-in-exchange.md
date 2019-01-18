@@ -7,9 +7,9 @@ ms.date: 09/17/2015
 ms.audience: Developer
  
  
-localization_priority: Normal
 ms.assetid: 68623048-060e-4602-b3fa-62617a94cf72
 description: "Discover how you can define and access properties on items and folders by using EWS in Exchange."
+localization_priority: Priority
 ---
 
 # Properties and extended properties in EWS in Exchange

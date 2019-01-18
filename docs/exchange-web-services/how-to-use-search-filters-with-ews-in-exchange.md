@@ -3,9 +3,9 @@ title: "Use search filters with EWS in Exchange"
 manager: sethgros
 ms.date: 09/17/2015
 ms.audience: Developer
-localization_priority: Normal
 ms.assetid: 20fc6d2d-41c2-4490-98b8-c52513977fef
 description: "Find out how to use search filters with the EWS Managed API or EWS in Exchange."
+localization_priority: Priority
 ---
 
 # Use search filters with EWS in Exchange

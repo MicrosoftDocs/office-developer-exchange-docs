@@ -7,13 +7,13 @@ ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
 api_name:
 - GetFolder
 api_type:
 - schema
 ms.assetid: 355bcf93-dc71-4493-b177-622afac5fdb9
 description: "The GetFolder operation gets folders from the Exchange store."
+localization_priority: Priority
 ---
 
 # GetFolder operation

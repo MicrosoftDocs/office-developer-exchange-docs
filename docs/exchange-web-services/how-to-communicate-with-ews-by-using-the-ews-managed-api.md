@@ -3,9 +3,9 @@ title: "Communicate with EWS by using the EWS Managed API"
 manager: sethgros
 ms.date: 09/17/2015
 ms.audience: Developer
-localization_priority: Normal
 ms.assetid: d1b78293-da02-413a-875c-681e99146af3
 description: "Find information about how to use the EWS Managed API to communicate with EWS in Exchange."
+localization_priority: Priority
 ---
 
 # Communicate with EWS by using the EWS Managed API

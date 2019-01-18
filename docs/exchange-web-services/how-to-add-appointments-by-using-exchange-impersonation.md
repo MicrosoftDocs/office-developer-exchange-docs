@@ -3,9 +3,9 @@ title: "Add appointments by using Exchange impersonation"
 manager: sethgros
 ms.date: 11/16/2014
 ms.audience: Developer
-localization_priority: Normal
 ms.assetid: 78d5e51b-900f-4302-b9a8-fdc9aa4b65a5
 description: "Learn how to use impersonation with the EWS Managed API or EWS in Exchange to add appointments to users' calendars."
+localization_priority: Priority
 ---
 
 # Add appointments by using Exchange impersonation

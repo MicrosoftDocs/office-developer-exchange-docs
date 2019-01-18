@@ -3,9 +3,9 @@ title: "Perform an AQS search by using EWS in Exchange"
 manager: sethgros
 ms.date: 09/17/2015
 ms.audience: Developer
-localization_priority: Normal
 ms.assetid: c136901a-313e-4adf-a223-1d090d16917a
 description: "Find out how to search with query strings and AQS in your EWS Managed API or EWS application."
+localization_priority: Priority
 ---
 
 # Perform an AQS search by using EWS in Exchange

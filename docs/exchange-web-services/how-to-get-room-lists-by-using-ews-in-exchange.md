@@ -7,9 +7,9 @@ ms.date: 09/17/2015
 ms.audience: Developer
  
  
-localization_priority: Normal
 ms.assetid: 15980e4a-e41c-4194-829a-cadbdf365bf1
 description: "Learn how to get a list of all the room lists in your organization or a single room list from an Exchange server by using the EWS Managed API or EWS."
+localization_priority: Priority
 ---
 
 # Get room lists by using EWS in Exchange

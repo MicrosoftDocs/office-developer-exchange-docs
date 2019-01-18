@@ -3,9 +3,9 @@ title: "Update appointments and meetings by using EWS in Exchange"
 manager: sethgros
 ms.date: 12/9/2015
 ms.audience: Developer
-localization_priority: Normal
 ms.assetid: 13256625-083e-4a17-8fd1-2bed1f7cc14e
 description: "Learn how to update appointments and meetings by using the EWS Managed API or EWS in Exchange."
+localization_priority: Priority
 ---
 
 # Update appointments and meetings by using EWS in Exchange

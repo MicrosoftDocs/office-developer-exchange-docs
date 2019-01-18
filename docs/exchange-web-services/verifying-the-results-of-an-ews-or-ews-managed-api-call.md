@@ -7,9 +7,9 @@ ms.date: 11/16/2014
 ms.audience: Developer
  
  
-localization_priority: Normal
 ms.assetid: 78a1741c-1bbe-4cb4-9331-9d6d3171fc11
 description: "Learn how to verify the results of your EWS or EWS Managed API calls."
+localization_priority: Priority
 ---
 
 # Verifying the results of an EWS or EWS Managed API call

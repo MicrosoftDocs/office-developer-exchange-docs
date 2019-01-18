@@ -7,9 +7,9 @@ ms.date: 09/17/2015
 ms.audience: Developer
  
  
-localization_priority: Normal
 ms.assetid: 0e6709c0-dc3d-4280-8c53-cbec9bbdcc9e
 description: "Learn how to get free/busy information and suggested meeting times by using the EWS Managed API or EWS in Exchange."
+localization_priority: Priority
 ---
 
 # Get free/busy information by using EWS in Exchange

@@ -3,9 +3,9 @@ title: "Deleting items by using EWS in Exchange"
 manager: sethgros
 ms.date: 09/17/2015
 ms.audience: Developer
-localization_priority: Normal
 ms.assetid: c81e3160-e12b-47e0-b3d6-4be28537f301
 description: "Find out how you can use the EWS Managed API or EWS in Exchange to delete items either by moving them to the Deleted Items folder or to the dumpster."
+localization_priority: Priority
 ---
 
 # Deleting items by using EWS in Exchange
