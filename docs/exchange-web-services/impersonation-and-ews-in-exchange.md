@@ -7,9 +7,9 @@ ms.date: 11/16/2014
 ms.audience: Developer
  
  
-localization_priority: Normal
 ms.assetid: 7e1ea63c-eb29-43d2-827f-2f2b1846483b
 description: "Learn how and when to use impersonation in your Exchange service applications."
+localization_priority: Priority
 ---
 
 # Impersonation and EWS in Exchange

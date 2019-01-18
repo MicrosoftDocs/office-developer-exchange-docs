@@ -7,9 +7,9 @@ ms.date: 09/17/2015
 ms.audience: Developer
  
  
-localization_priority: Normal
 ms.assetid: ca4e8b90-d0d8-4d55-aa92-19e21659d4f5
 description: "Find out about the most common types of applications that you can create by using EWS in Exchange."
+localization_priority: Priority
 ---
 
 # EWS application types

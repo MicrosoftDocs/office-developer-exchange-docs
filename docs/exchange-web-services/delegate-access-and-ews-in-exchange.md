@@ -7,9 +7,9 @@ ms.date: 03/9/2015
 ms.audience: Developer
  
  
-localization_priority: Normal
 ms.assetid: 240d1776-7adc-46cd-9099-88ffeba0a8aa
 description: "Find out how to use the EWS Managed API and EWS in Exchange to provide delegate access to users' mailboxes."
+localization_priority: Priority
 ---
 
 # Delegate access and EWS in Exchange

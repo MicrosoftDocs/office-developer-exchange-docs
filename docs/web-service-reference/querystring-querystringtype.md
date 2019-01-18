@@ -7,13 +7,13 @@ ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
 api_name:
 - QueryString
 api_type:
 - schema
 ms.assetid: cadbf9a5-b87e-4d7f-b488-b76fb0ee7150
 description: "The QueryString element contains a mailbox query string based on Advanced Query Syntax (AQS)."
+localization_priority: Priority
 ---
 
 # QueryString (QueryStringType)

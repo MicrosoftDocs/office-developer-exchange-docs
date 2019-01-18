@@ -3,9 +3,9 @@ title: "Delete appointments and cancel meetings by using EWS in Exchange"
 manager: sethgros
 ms.date: 09/17/2015
 ms.audience: Developer
-localization_priority: Normal
 ms.assetid: 42412265-3968-468a-a8c2-7e8af3c6deb9
 description: "Learn how to delete appointments and meetings by using the EWS Managed API or EWS in Exchange."
+localization_priority: Priority
 ---
 
 # Delete appointments and cancel meetings by using EWS in Exchange

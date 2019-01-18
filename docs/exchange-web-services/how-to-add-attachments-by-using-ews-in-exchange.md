@@ -7,9 +7,9 @@ ms.date: 03/9/2015
 ms.audience: Developer
  
  
-localization_priority: Normal
 ms.assetid: 0cbce436-2ae6-4fcc-bd8b-f517a0724e55
 description: "Learn how to create new items with attachments, or add attachments to existing items by using the EWS Managed API or EWS in Exchange."
+localization_priority: Priority
 ---
 
 # Add attachments by using EWS in Exchange

@@ -3,9 +3,9 @@ title: "Explore the EWS Managed API, EWS, and web services in Exchange"
 manager: sethgros
 ms.date: 09/17/2015
 ms.audience: Developer
-localization_priority: Normal
 ms.assetid: 0bc6f81d-cc10-42b0-ba5d-6f22ff55d51c
 description: "Use the EWS Managed API, EWS, Autodiscover, and other web services in Exchange to create solutions for managing business email, calendar, and contacts on desktop and mobile devices and online."
+localization_priority: Priority
 ---
 
 # Explore the EWS Managed API, EWS, and web services in Exchange

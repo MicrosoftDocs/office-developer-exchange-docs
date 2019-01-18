@@ -7,9 +7,9 @@ ms.date: 03/9/2015
 ms.audience: Developer
  
  
-localization_priority: Normal
 ms.assetid: ee7fcd05-35d7-47bf-bac4-e719c49c11fe
 description: "Find resources to help you troubleshoot your EWS Managed API or EWS application."
+localization_priority: Priority
 ---
 
 # Tools and resources for troubleshooting EWS applications for Exchange

@@ -7,9 +7,9 @@ ms.date: 11/16/2014
 ms.audience: Developer
  
  
-localization_priority: Normal
 ms.assetid: e93ee68c-e134-4469-9070-fba404d46cb4
 description: "Learn how to export appointments, emails, contacts, tasks, and other items by using the EWS Managed API or EWS in Exchange."
+localization_priority: Priority
 ---
 
 # Export items by using EWS in Exchange

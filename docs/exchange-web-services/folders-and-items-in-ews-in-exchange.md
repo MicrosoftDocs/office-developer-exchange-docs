@@ -3,9 +3,9 @@ title: "Folders and items in EWS in Exchange"
 manager: sethgros
 ms.date: 09/17/2015
 ms.audience: Developer
-localization_priority: Normal
 ms.assetid: 9d8cf6fa-85a4-45ac-8165-e4d3ab92594e
 description: "Learn about folders and mailbox items and how your EWS Managed API or EWS client represents them."
+localization_priority: Priority
 ---
 
 # Folders and items in EWS in Exchange

@@ -3,9 +3,9 @@ title: "EWS client design overview for Exchange"
 manager: sethgros
 ms.date: 3/11/2016
 ms.audience: Developer
-localization_priority: Normal
 ms.assetid: b26f67aa-7c66-4d7d-98b3-746f26ab37f4
 description: "Learn about the design considerations for developing with EWS for Exchange."
+localization_priority: Priority
 ---
 
 # EWS client design overview for Exchange

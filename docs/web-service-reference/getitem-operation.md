@@ -7,13 +7,13 @@ ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
 api_name:
 - GetItem
 api_type:
 - schema
 ms.assetid: e3590b8b-c2a7-4dad-a014-6360197b68e4
 description: "Find information about the GetItem EWS operation."
+localization_priority: Priority
 ---
 
 # GetItem operation

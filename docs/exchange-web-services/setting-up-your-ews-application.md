@@ -7,9 +7,9 @@ ms.date: 09/17/2015
 ms.audience: Developer
  
  
-localization_priority: Normal
 ms.assetid: 0d45e347-f832-478d-b078-7c2852c0d204
 description: "Find information about the tasks you need to complete in order to create applications that use the EWS Managed API or EWS to communicate with Exchange."
+localization_priority: Priority
 ---
 
 # Setting up your EWS application

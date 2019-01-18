@@ -7,9 +7,9 @@ ms.date: 09/17/2015
 ms.audience: Developer
  
  
-localization_priority: Normal
 ms.assetid: 5290fafe-8b51-4275-a27e-baf497fc969c
 description: "Learn how to send new or draft email messages, or to send a delayed email message by using the EWS Managed API or EWS in Exchange."
+localization_priority: Priority
 ---
 
 # Send email messages by using EWS in Exchange

@@ -3,9 +3,9 @@ title: "Extract an entity from an email message by using EWS in Exchange"
 manager: sethgros
 ms.date: 03/9/2015
 ms.audience: Developer
-localization_priority: Normal
 ms.assetid: 6396b009-5f6e-41eb-a75a-224d43e864ae
 description: "Learn how to extract information from the body of an email message by using the EWS Managed API or EWS in Exchange."
+localization_priority: Priority
 ---
 
 # Extract an entity from an email message by using EWS in Exchange

@@ -7,9 +7,9 @@ ms.date: 09/17/2015
 ms.audience: Developer
  
  
-localization_priority: Normal
 ms.assetid: 4771668f-5623-4397-a5c0-b75a7ba01698
 description: "Learn how to move and copy email messages by using the EWS Managed API or EWS in Exchange."
+localization_priority: Priority
 ---
 
 # Move and copy email messages by using EWS in Exchange

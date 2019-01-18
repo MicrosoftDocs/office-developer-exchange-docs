@@ -3,9 +3,9 @@ title: "Control access to EWS in Exchange"
 manager: sethgros
 ms.date: 09/17/2015
 ms.audience: Developer
-localization_priority: Normal
 ms.assetid: 61e29e54-e3e5-404a-84c0-93b61a25ca58
 description: "Find out how to control access to EWS for users, applications, or the entire organization."
+localization_priority: Priority
 ---
 
 # Control access to EWS in Exchange

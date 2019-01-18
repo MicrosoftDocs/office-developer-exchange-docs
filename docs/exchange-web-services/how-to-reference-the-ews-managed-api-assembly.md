@@ -3,9 +3,9 @@ title: "Reference the EWS Managed API assembly"
 manager: sethgros
 ms.date: 09/17/2015
 ms.audience: Developer
-localization_priority: Normal
 ms.assetid: 130990db-6297-42dc-9f5d-f68a2400872a
 description: "Find information about how to reference the EWS Managed API assembly."
+localization_priority: Priority
 ---
 
 # Reference the EWS Managed API assembly

@@ -7,9 +7,9 @@ ms.date: 03/9/2015
 ms.audience: Developer
  
  
-localization_priority: Normal
 ms.assetid: 043c33be-a0d1-4bad-a840-85715eda4813
 description: "Learn about personas, the Unified Contact Store, and how to work with contacts by using the EWS Managed API or EWS in Exchange."
+localization_priority: Priority
 ---
 
 # People and contacts in EWS in Exchange

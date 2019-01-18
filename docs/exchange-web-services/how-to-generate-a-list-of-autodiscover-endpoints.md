@@ -7,9 +7,9 @@ ms.date: 09/17/2015
 ms.audience: Developer
  
  
-localization_priority: Normal
 ms.assetid: 82394d3c-9fc7-4b3c-b48d-1fe983c198f7
 description: "Find out how to generate a prioritized list of Autodiscover endpoints."
+localization_priority: Priority
 ---
 
 # Generate a list of Autodiscover endpoints

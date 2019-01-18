@@ -3,9 +3,9 @@ title: "Authenticate an EWS application by using OAuth"
 manager: sethgros
 ms.date: 01/15/2019
 ms.audience: Developer
-localization_priority: Normal
 ms.assetid: 1d8d57f9-4df5-4f21-9bbb-a89e0e259052
 description: "Learn how to use OAuth authentication with your EWS Managed API applications."
+localization_priority: Priority
 ---
 
 # Authenticate an EWS application by using OAuth

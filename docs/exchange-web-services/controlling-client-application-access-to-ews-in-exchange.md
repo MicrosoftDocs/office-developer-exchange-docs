@@ -3,9 +3,9 @@ title: "Controlling client application access to EWS in Exchange"
 manager: sethgros
 ms.date: 09/17/2015
 ms.audience: Developer
-localization_priority: Normal
 ms.assetid: 60ac3f7b-ba8a-4c93-99f7-c27002caff93
 description: "Learn about the options for managing client application access to EWS."
+localization_priority: Priority
 ---
 
 # Controlling client application access to EWS in Exchange
