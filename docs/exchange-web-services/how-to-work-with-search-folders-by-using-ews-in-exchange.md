@@ -17,6 +17,8 @@ description: "Find out how to create, get, update, and delete search folders by 
 Find out how to create, get, update, and delete search folders by using the EWS Managed API or EWS in Exchange.
   
 A search folder represents a persistent "always-on" search in a user's mailbox. A search folder looks and acts like a regular mailbox folder. However, instead of containing items, it contains a "virtual" copy of items from any folders in its search scope that match the search criteria set on the folder. Both applications and end-users can use search folders. Does your application need to perform the same search over and over? Search folders are a great tool for this task. Or maybe you just want to give your users the ability to access and manage search folders in your client. Whatever your scenario, the EWS Managed API and EWS enable your application to fully interact with search folders.
+
+**Note**: This article applies only when using Outlook in online mode. Search folders do not sync, therefore search folders created in online mode will not appear in cached mode.
   
 **Table 1. EWS Managed API methods and EWS operations for working with search folders**
 
