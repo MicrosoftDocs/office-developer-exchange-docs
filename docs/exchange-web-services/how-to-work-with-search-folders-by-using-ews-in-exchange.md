@@ -1,12 +1,8 @@
 ---
 title: "Work with search folders by using EWS in Exchange"
- 
- 
 manager: sethgros
 ms.date: 09/17/2015
 ms.audience: Developer
- 
- 
 localization_priority: Normal
 ms.assetid: abe703c5-6d85-46d9-bf20-230c34782a9f
 description: "Find out how to create, get, update, and delete search folders by using the EWS Managed API or EWS in Exchange."
@@ -17,10 +13,13 @@ description: "Find out how to create, get, update, and delete search folders by 
 Find out how to create, get, update, and delete search folders by using the EWS Managed API or EWS in Exchange.
   
 A search folder represents a persistent "always-on" search in a user's mailbox. A search folder looks and acts like a regular mailbox folder. However, instead of containing items, it contains a "virtual" copy of items from any folders in its search scope that match the search criteria set on the folder. Both applications and end-users can use search folders. Does your application need to perform the same search over and over? Search folders are a great tool for this task. Or maybe you just want to give your users the ability to access and manage search folders in your client. Whatever your scenario, the EWS Managed API and EWS enable your application to fully interact with search folders.
+
+> [!NOTE] 
+> This article applies only when using Outlook in online mode. Search folders do not sync; therefore, search folders created in online mode will not appear in cached mode.
   
 **Table 1. EWS Managed API methods and EWS operations for working with search folders**
 
-|**If you want to…**|**In the EWS Managed API, use…**|**In EWS, use…**|
+|If you want to…|In the EWS Managed API, use…|In EWS, use…|
 |:-----|:-----|:-----|
 |Create a search folder  <br/> |[SearchFolder.Save](http://msdn.microsoft.com/en-us/library/microsoft.exchange.webservices.data.searchfolder.save%28v=exchg.80%29.aspx) <br/> |[CreateFolder operation](http://msdn.microsoft.com/library/6f6c334c-b190-4e55-8f0a-38f2a018d1b3%28Office.15%29.aspx) <br/> |
 |Get a search folder  <br/> |[SearchFolder.Bind](http://msdn.microsoft.com/en-us/library/microsoft.exchange.webservices.data.searchfolder.bind%28v=exchg.80%29.aspx) <br/> |[GetFolder operation](http://msdn.microsoft.com/library/355bcf93-dc71-4493-b177-622afac5fdb9%28Office.15%29.aspx) <br/> |
@@ -467,21 +466,13 @@ The server responds with a [DeleteFolderResponse](http://msdn.microsoft.com/libr
   
 ## See also
 
-
-- [Search and EWS in Exchange](search-and-ews-in-exchange.md)
-    
-- [Use search filters with EWS in Exchange](how-to-use-search-filters-with-ews-in-exchange.md)
-    
-- [SearchFolder class](http://msdn.microsoft.com/en-us/library/microsoft.exchange.webservices.data.searchfolder%28v=exchg.80%29.aspx)
-    
-- [CreateFolder operation](http://msdn.microsoft.com/library/6f6c334c-b190-4e55-8f0a-38f2a018d1b3%28Office.15%29.aspx)
-    
-- [FindFolder operation](http://msdn.microsoft.com/library/7a9855aa-06cc-45ba-ad2a-645c15b7d031%28Office.15%29.aspx)
-    
-- [GetFolder operation](http://msdn.microsoft.com/library/355bcf93-dc71-4493-b177-622afac5fdb9%28Office.15%29.aspx)
-    
-- [UpdateFolder operation](http://msdn.microsoft.com/library/3494c996-b834-4813-b1ca-d99642d8b4e7%28Office.15%29.aspx)
-    
+- [Search and EWS in Exchange](search-and-ews-in-exchange.md)   
+- [Use search filters with EWS in Exchange](how-to-use-search-filters-with-ews-in-exchange.md)    
+- [SearchFolder class](http://msdn.microsoft.com/en-us/library/microsoft.exchange.webservices.data.searchfolder%28v=exchg.80%29.aspx)    
+- [CreateFolder operation](http://msdn.microsoft.com/library/6f6c334c-b190-4e55-8f0a-38f2a018d1b3%28Office.15%29.aspx)    
+- [FindFolder operation](http://msdn.microsoft.com/library/7a9855aa-06cc-45ba-ad2a-645c15b7d031%28Office.15%29.aspx)   
+- [GetFolder operation](http://msdn.microsoft.com/library/355bcf93-dc71-4493-b177-622afac5fdb9%28Office.15%29.aspx)    
+- [UpdateFolder operation](http://msdn.microsoft.com/library/3494c996-b834-4813-b1ca-d99642d8b4e7%28Office.15%29.aspx)    
 - [DeleteFolder operation](http://msdn.microsoft.com/library/b0f92682-4895-4bcf-a4a1-e4c2e8403979%28Office.15%29.aspx)
     
 

@@ -14,6 +14,9 @@ description: "Find information about the SearchMailboxes EWS operation."
 
 # SearchMailboxes operation
 
+> [!NOTE]
+> This operation is deprecated, and no longer supported by Microsoft.  As a replacement, please use the [FindItem](finditem-operation.md) operation.
+
 Find information about the **SearchMailboxes** EWS operation. 
   
 The **SearchMailboxes** operation searches mailboxes for occurrences of terms in mailbox items. 
