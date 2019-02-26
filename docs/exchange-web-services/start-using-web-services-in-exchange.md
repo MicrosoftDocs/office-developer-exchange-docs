@@ -3,7 +3,7 @@ title: "Start using web services in Exchange"
  
  
 manager: sethgros
-ms.date: 2/27/2017
+ms.date: 2/26/2019
 ms.audience: Developer
  
  
@@ -16,7 +16,7 @@ localization_priority: Priority
 
 Find information to help you get started with EWS and other web services in Exchange.
   
-The [web services in Exchange](explore-the-ews-managed-api-ews-and-web-services-in-exchange.md)provide access to mailbox data stored in Exchange Online, Exchange Online as part of Office 365, and on-premises versions of Exchange starting with Exchange Server 2007, and enable you to create custom applications that you can use to manage that information according to the requirements of your organization. While the range of EWS and web service applications that you can create is practically infinite, certain fundamental concepts apply for any type of application. This section provides information about the fundamental concepts you need to be familiar with in order to start using EWS and other web services in Exchange. 
+The [web services in Exchange](explore-the-ews-managed-api-ews-and-web-services-in-exchange.md) provide access to mailbox data stored in Exchange Online, Exchange Online as part of Office 365, and on-premises versions of Exchange starting with Exchange Server 2007, and enable you to create custom applications that you can use to manage that information according to the requirements of your organization. While the range of EWS and web service applications that you can create is practically infinite, certain fundamental concepts apply for any type of application. This section provides information about the fundamental concepts you need to be familiar with in order to start using EWS and other web services in Exchange. 
   
 ## Build your knowledge
 <a name="bk_Knowledge"> </a>
