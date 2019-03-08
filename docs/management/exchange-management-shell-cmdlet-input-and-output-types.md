@@ -6,17 +6,17 @@ ms.audience: Developer
 ms.topic: overview
 ms.prod: office-online-server
 ms.assetid: daca33d3-22f8-4bac-9cfd-6324e85a45c7
-description: "Find input and output types for Exchange Management Shell cmdlets."
+description: "Find input and output types for Exchange cmdlets."
 localization_priority: Priority
 ---
 
 # Exchange Management Shell cmdlet input and output types
 
-Find input and output types for Exchange Management Shell cmdlets.
+Find input and output types for Exchange cmdlets.
   
-**Applies to:** Exchange Online | Exchange Server 2013 | Office 365
+**Applies to:** Exchange Online | Exchange Server 2013 | Exchange Server 2016 | Exchange Server 2019 | Office 365
   
-The following table lists the Exchange Management Shell cmdlets and the input and output type for each cmdlet. For more information about the Exchange cmdlets, see [Exchange 2013 Cmdlets](http://technet.microsoft.com/en-us/library/bb124413%28v=exchg.150%29.aspx) on Technet. 
+The following table lists the Exchange cmdlets and the input and output type for each cmdlet. For more information about the Exchange cmdlets, see [Exchange PowerShell](https://docs.microsoft.com/powershell/exchange/). 
   
 ## Exchange Management Shell cmdlet input and output types
 
@@ -977,7 +977,6 @@ The following table lists the Exchange Management Shell cmdlets and the input an
    
 ## See also
 
-- [Get a list of mail users by using the Exchange Management Shell](how-to-get-a-list-of-mail-users-by-using-the-exchange-management-shell.md)  
-- [Use the Exchange Management Shell cmdlet response](how-to-use-the-exchange-management-shell-cmdlet-response.md)
-    
+- [Get a list of mail users by using the Exchange Management Shell](how-to-get-a-list-of-mail-users-by-using-the-exchange-management-shell.md)
 
+- [Use the Exchange Management Shell cmdlet response](how-to-use-the-exchange-management-shell-cmdlet-response.md)
