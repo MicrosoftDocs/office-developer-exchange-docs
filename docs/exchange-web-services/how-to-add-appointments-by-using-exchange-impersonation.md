@@ -12,7 +12,7 @@ localization_priority: Priority
 
 Learn how to use impersonation with the EWS Managed API or EWS in Exchange to add appointments to users' calendars.
   
-You can create a service application that inserts appointments directly into an Exchange calendar by using a service account that has the **AppplicationImpersonation**[role enabled](how-to-configure-impersonation.md). When you use impersonation, the application is acting as the user; it's as if the user added the appointment to the calendar by using a client such as Outlook. 
+You can create a service application that inserts appointments directly into an Exchange calendar by using a service account that has the **AppplicationImpersonation** [role enabled](how-to-configure-impersonation.md). When you use impersonation, the application is acting as the user; it's as if the user added the appointment to the calendar by using a client such as Outlook. 
   
 When you are using impersonation, keep in mind the following:
   
