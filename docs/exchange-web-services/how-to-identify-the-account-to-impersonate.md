@@ -20,7 +20,7 @@ Your service application identifies the user account to impersonate by using one
   
 - The primary SMTP address.
     
-- The user principle name (UPN).
+- The user principal name (UPN).
     
 - The security identifier (SID).
     
@@ -66,12 +66,12 @@ In an EWS SOAP request, the [PrimarySmtpAddress](http://msdn.microsoft.com/libra
 
 ### Use the UPN to identify the user account
 
-The UPN contains the fully qualified domain name (FQDN) for the location of the user account. This is not necessarily the user's mailbox domain. The **UserPrincipleName** attribute must be set correctly on the user account in Active Directory Domain Services (AD DS) for the user lookup to succeed. 
+The UPN contains the fully qualified domain name (FQDN) for the location of the user account. This is not necessarily the user's mailbox domain. The **UserPrincipalName** attribute must be set correctly on the user account in Active Directory Domain Services (AD DS) for the user lookup to succeed. 
   
-In an EWS Managed API application, you specify the UPN along with the [ConnectingIdType.PrincipleName](http://msdn.microsoft.com/en-us/library/microsoft.exchange.webservices.data.connectingidtype.aspx) enumeration value. 
+In an EWS Managed API application, you specify the UPN along with the [ConnectingIdType.PrincipalName](http://msdn.microsoft.com/en-us/library/microsoft.exchange.webservices.data.connectingidtype.aspx) enumeration value. 
   
 ```cs
-exchangeServiceInstance.ImpersonatedUserId = new ImpersonatedUserId(ConnectingIdType.PrincipleName, "alias@billing.contoso.com");
+exchangeServiceInstance.ImpersonatedUserId = new ImpersonatedUserId(ConnectingIdType.PrincipalName, "alias@billing.contoso.com");
 ```
 
 In an EWS SOAP request, the [PrincipalName element (ConnectingSIDType complexType) (EWS)](../web-service-reference/principalname.md) element contains the UPN for the user account. 
