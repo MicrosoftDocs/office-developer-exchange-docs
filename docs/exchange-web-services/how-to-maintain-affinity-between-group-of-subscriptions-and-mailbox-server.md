@@ -215,7 +215,7 @@ POST https://outlook.office365.com/EWS/Exchange.asmx HTTP/1.1
 Content-Type: text/xml; charset=utf-8
 Accept: text/xml
 User-Agent: ExchangeServicesClient/15.00.0516.014
-X-AnchorMailbox: alfred@consoso.com
+X-AnchorMailbox: alfred@contoso.com
 X-PreferServerAffinity: true
 Host: outlook.office365.com
 Cookie: X-BackEndOverrideCookie=CO1PR06MB222.namprd06.prod.outlook.com~1941996295
@@ -225,7 +225,7 @@ Cookie: X-BackEndOverrideCookie=CO1PR06MB222.namprd06.prod.outlook.com~194199629
     <t:RequestServerVersion Version="Exchange2013" />
     <t:ExchangeImpersonation>
       <t:ConnectingSID>
-        <t:SmtpAddress>sadie@consoso.com </t:SmtpAddress>
+        <t:SmtpAddress>sadie@contoso.com </t:SmtpAddress>
       </t:ConnectingSID>
     </t:ExchangeImpersonation>
   </soap:Header>
