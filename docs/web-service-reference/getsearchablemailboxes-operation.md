@@ -17,6 +17,8 @@ description: "Find information about the GetSearchableMailboxes EWS operation."
 Find information about the **GetSearchableMailboxes** EWS operation. 
   
 The **GetSearchableMailboxes** operation gets a scoped set of searchable mailboxes for discovery searches. The scope of searchable mailboxes returned in the response is determined by the search filter and whether distribution group membership is expanded. 
+
+This operation is intended to be used with the search filter and to retrieve only the first few thousands and it's not intended for exhaustive retrieval.
   
 This operation was introduced in Exchange Server 2013.
   
