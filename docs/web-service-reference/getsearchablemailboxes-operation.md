@@ -1,9 +1,7 @@
 ---
 title: "GetSearchableMailboxes operation"
- 
- 
 manager: sethgros
-ms.date: 09/17/2015
+ms.date: 05/14/2019
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
@@ -18,7 +16,8 @@ Find information about the **GetSearchableMailboxes** EWS operation.
   
 The **GetSearchableMailboxes** operation gets a scoped set of searchable mailboxes for discovery searches. The scope of searchable mailboxes returned in the response is determined by the search filter and whether distribution group membership is expanded. 
 
-This operation is intended to be used with the search filter and to retrieve only the first few thousands and it's not intended for exhaustive retrieval.
+> [!NOTE] 
+> This operation is intended to be used with the search filter and to retrieve only the first few thousands; it's not intended for exhaustive retrieval.
   
 This operation was introduced in Exchange Server 2013.
   
@@ -26,9 +25,9 @@ This operation was introduced in Exchange Server 2013.
 
 The **GetSearchableMailboxes** operation gets information about searchable mailboxes. The following arguments can be passed in the request: 
   
-- [SearchFilter](searchfilter.md) —Accepts a single email alias as an argument. 
+- [SearchFilter](searchfilter.md) - Accepts a single email alias as an argument. 
     
-- [ExpandGroupMembership](expandgroupmembership.md) — Indicates whether the distribution group membership is expanded in the results returned in the response. 
+- [ExpandGroupMembership](expandgroupmembership.md) - Indicates whether the distribution group membership is expanded in the results returned in the response. 
     
 If the email alias set in the search filter is a distribution group and the distribution group membership is not expanded, the response will contain the mailbox information for the distribution group. If the email alias set in the search filter is a distribution group and the distribution group membership is expanded, the response will contain the mailbox information for each mailbox that is a member of the distribution group. If the search filter contains a single user's alias, the response will contain the mailbox information for the single user. The response will contain all searchable mailboxes if the [GetSearchableMailboxes](getsearchablemailboxes.md) element is empty. This is the same as having an empty [SearchFilter](searchfilter.md) element and the [ExpandGroupMembership](expandgroupmembership.md) element set to **false**.
   
@@ -36,7 +35,7 @@ If the email alias set in the search filter is a distribution group and the dist
 
 The **GetSearchableMailboxes** operation can use the SOAP headers that are listed in the following table. 
   
-|**Header name**|**Element**|**Description**|
+|Header name|Element|Description|
 |:-----|:-----|:-----|
 |**ManagementRole** <br/> |[ManagementRole](managementrole.md) <br/> |Identifies the server roles that are necessary in order for the caller to make the request. This header is applicable to a request.  <br/> |
 |**RequestVersion** <br/> |[RequestServerVersion](requestserverversion.md) <br/> |Identifies the schema version for the operation request. This header is applicable to a request.  <br/> |
@@ -66,10 +65,8 @@ The following example of a **GetSearchableMailboxes** operation request shows ho
 
 The request SOAP body contains the following elements:
   
-- [GetSearchableMailboxes](getsearchablemailboxes.md)
-    
-- [SearchFilter](searchfilter.md)
-    
+- [GetSearchableMailboxes](getsearchablemailboxes.md)   
+- [SearchFilter](searchfilter.md)    
 - [ExpandGroupMembership](expandgroupmembership.md)
     
 ## Successful GetSearchableMailboxes operation response: Get information about a distribution group
@@ -114,26 +111,16 @@ The following example shows a successful response to a **GetSearchableMailboxes*
 
 The response SOAP body contains the following elements:
   
-- [GetSearchableMailboxesResponse](getsearchablemailboxesresponse.md)
-    
-- [ResponseCode](responsecode.md)
-    
-- [SearchableMailboxes](searchablemailboxes.md)
-    
-- [SearchableMailbox](searchablemailbox.md)
-    
-- [Guid](guid-ex15websvcsotherref.md)
-    
-- [PrimarySmtpAddress](primarysmtpaddress.md)
-    
-- [IsExternalMailbox](isexternalmailbox.md)
-    
-- [ExternalEmailAddress](externalemailaddress.md)
-    
-- [DisplayName (string)](displayname-string.md)
-    
-- [IsMembershipGroup](ismembershipgroup.md)
-    
+- [GetSearchableMailboxesResponse](getsearchablemailboxesresponse.md)   
+- [ResponseCode](responsecode.md)   
+- [SearchableMailboxes](searchablemailboxes.md)    
+- [SearchableMailbox](searchablemailbox.md)    
+- [Guid](guid-ex15websvcsotherref.md)    
+- [PrimarySmtpAddress](primarysmtpaddress.md)    
+- [IsExternalMailbox](isexternalmailbox.md)   
+- [ExternalEmailAddress](externalemailaddress.md)    
+- [DisplayName (string)](displayname-string.md)    
+- [IsMembershipGroup](ismembershipgroup.md)    
 - [ReferenceId](referenceid.md)
     
 ## Successful GetSearchableMailboxes operation response: Get information about an expanded distribution group
@@ -185,26 +172,16 @@ The following example shows a successful response to a **GetSearchableMailboxes*
 
 The response SOAP body contains the following elements:
   
-- [GetSearchableMailboxesResponse](getsearchablemailboxesresponse.md)
-    
-- [ResponseCode](responsecode.md)
-    
-- [SearchableMailboxes](searchablemailboxes.md)
-    
-- [SearchableMailbox](searchablemailbox.md)
-    
-- [Guid](guid-ex15websvcsotherref.md)
-    
-- [PrimarySmtpAddress](primarysmtpaddress.md)
-    
-- [IsExternalMailbox](isexternalmailbox.md)
-    
-- [ExternalEmailAddress](externalemailaddress.md)
-    
-- [DisplayName (string)](displayname-string.md)
-    
-- [IsMembershipGroup](ismembershipgroup.md)
-    
+- [GetSearchableMailboxesResponse](getsearchablemailboxesresponse.md)    
+- [ResponseCode](responsecode.md)   
+- [SearchableMailboxes](searchablemailboxes.md)    
+- [SearchableMailbox](searchablemailbox.md)    
+- [Guid](guid-ex15websvcsotherref.md)    
+- [PrimarySmtpAddress](primarysmtpaddress.md)    
+- [IsExternalMailbox](isexternalmailbox.md)    
+- [ExternalEmailAddress](externalemailaddress.md)    
+- [DisplayName (string)](displayname-string.md)    
+- [IsMembershipGroup](ismembershipgroup.md)    
 - [ReferenceId](referenceid.md)
     
 ## GetSearchableMailboxes operation error response
@@ -241,32 +218,22 @@ The following example shows an error response to a **GetSearchableMailboxes** op
 
 The error response SOAP body contains the following elements:
   
-- [GetSearchableMailboxesResponse](getsearchablemailboxesresponse.md)
-    
-- [MessageText](messagetext.md)
-    
-- [ResponseCode](responsecode.md)
-    
-- [DescriptiveLinkKey](descriptivelinkkey.md)
-    
+- [GetSearchableMailboxesResponse](getsearchablemailboxesresponse.md)  
+- [MessageText](messagetext.md)   
+- [ResponseCode](responsecode.md)   
+- [DescriptiveLinkKey](descriptivelinkkey.md) 
 - [SearchableMailboxes](searchablemailboxes.md)
     
 For additional error codes that are generic to EWS and specific to this operation, see [ResponseCode](responsecode.md).
   
 ## See also
 
-- [EWS operations in Exchange](ews-operations-in-exchange.md)
-    
-- [SetHoldOnMailboxes operation](setholdonmailboxes-operation.md)
-    
-- [SearchMailboxes operation](searchmailboxes-operation.md)
-    
-- [GetHoldOnMailboxes operation](getholdonmailboxes-operation.md)
-    
-- [GetDiscoverySearchConfiguration operation](getdiscoverysearchconfiguration-operation.md)
-    
-- [GetNonIndexableItemDetails operation](getnonindexableitemdetails-operation.md)
-    
+- [EWS operations in Exchange](ews-operations-in-exchange.md)   
+- [SetHoldOnMailboxes operation](setholdonmailboxes-operation.md)   
+- [SearchMailboxes operation](searchmailboxes-operation.md)   
+- [GetHoldOnMailboxes operation](getholdonmailboxes-operation.md)    
+- [GetDiscoverySearchConfiguration operation](getdiscoverysearchconfiguration-operation.md)   
+- [GetNonIndexableItemDetails operation](getnonindexableitemdetails-operation.md)   
 - [GetNonIndexableItemStatistics operation](getnonindexableitemstatistics-operation.md)
     
 
