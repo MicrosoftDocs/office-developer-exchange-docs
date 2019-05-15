@@ -54,6 +54,7 @@ The following table lists the throttling policy parameters that affect applicati
 |**MessageRateLimit** <br/> |Exchange 2010  <br/> Exchange 2013  <br/> Exchange Online  <br/> |Defines the number of messages per minute that can be submitted.  <br/> |
 |**RecipientRateLimit** <br/> |Exchange 2010  <br/> Exchange 2013  <br/> Exchange Online  <br/> |Defines the limit to the number of recipients that a user can address in a 24-hour period.  <br/> |
 |**ForwardeeLimit** <br/> |Exchange 2010  <br/> Exchange 2013  <br/> Exchange Online  <br/> |Defines the limit to the number of recipients for Inbox forward/redirect actions in a 24-hour period.  <br/> |
+|**ConcurrentSyncCalls** <br/> |Exchange 2019  <br/> Exchange 2016  <br/> Exchange Online  <br/> |Defines the limit to the number of concurrent sync calls (SyncFolderHierarchy, SyncFolderItems) for a user. <br/> |
 
 > [!CAUTION]
 > Do not set throttling polices to **null**. This will set the policy to equal unlimited, which indicates that a throttling policy isn't set.
