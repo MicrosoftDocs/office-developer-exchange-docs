@@ -29,7 +29,7 @@ To use the code in this article, you will need to have access to the following:
 
 - An Office 365 account with an Exchange Online mailbox. If you do not have an Office 365 account, you can [sign up for the Office 365 Developer Program](https://developer.microsoft.com/office/dev-program) to get a free Office 365 subscription.
 
-- The [Microsoft Authentication Library for .NET](dotnet/api/microsoft.identity.client?view=azure-dotnet).
+- The [Microsoft Authentication Library for .NET](/dotnet/api/microsoft.identity.client?view=azure-dotnet).
 
 - The [EWS Managed API](https://github.com/officedev/ews-managed-api).
 
