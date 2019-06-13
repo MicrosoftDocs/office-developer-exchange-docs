@@ -69,7 +69,7 @@ The **PostReplyItem** element contains a reply to a post item. This element was 
    <EffectiveRights/>
    <ReceivedBy/>
    <ReceivedRepresenting/>
-      <NewBodyContent/>
+   <NewBodyContent/>
 </PostReplyItem>
 ```
 
