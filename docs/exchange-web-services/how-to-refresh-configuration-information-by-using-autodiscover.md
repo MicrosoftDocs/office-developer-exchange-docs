@@ -33,7 +33,7 @@ Now that you have the information cached, let's examine how you can keep that ca
   
 - The information's validity period expires.
     
-- A [Connection-related errors](#bk_ConnectionErrors) occurs AND your cached information was last refreshed over an hour ago
+- A [Connection-related errors](#bk_ConnectionErrors) occurs AND your cached information was last refreshed over an hour ago.
     
 To refresh your cached information, send an Autodiscover request to a cached Autodiscover endpoint, and do the following:
   
