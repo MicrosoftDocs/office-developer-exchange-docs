@@ -55,7 +55,7 @@ There are a number of different components involved in EWS operations, and the v
 |:-----|:-----|:-----|:-----|
 |Requested server version  <br/> |[ExchangeServiceBase.RequestedServerVersion](https://msdn.microsoft.com/library/microsoft.exchange.webservices.data.exchangeservicebase.requestedserverversion%28v=exchg.80%29.aspx) property  <br/> |[RequestServerVersion](https://msdn.microsoft.com/library/af4032d5-42b3-463e-9d0a-8236d78e5b75%28Office.15%29.aspx) element  <br/> |This value controls which version of the EWS schema is used to process the EWS request. Make sure that the schema version specified here makes sense for the request you are sending. Some properties and operations are not available in earlier versions of the schema.  <br/> |
 |The server version  <br/> |[ExchangeServiceBase.ServerInfo](https://msdn.microsoft.com/library/microsoft.exchange.webservices.data.exchangeservicebase.serverinfo%28v=exchg.80%29.aspx) property  <br/> |[ServerVersionInfo](https://msdn.microsoft.com/library/c04a6872-ca27-432b-aac2-36b023d0afc6%28Office.15%29.aspx) element  <br/> |This value is returned by the server in EWS responses, and indicates the version of the server that processed the response. Make sure this value is what you expect. If possible, make sure that the Exchange server is running the most recent update for your major version of Exchange.  <br/> |
-|The EWS Managed API version  <br/> |The Product version property of the Microsoft.Exchange.WebServices.dll file.  <br/> |Not applicable  <br/> |If you're using the EWS Managed API, make sure that you are using [the most recent version](http://aka.ms/ews-managed-api-readme).  <br/> |
+|The EWS Managed API version  <br/> |The Product version property of the Microsoft.Exchange.WebServices.dll file.  <br/> |Not applicable  <br/> |If you're using the EWS Managed API, make sure that you are using [the most recent version](https://aka.ms/ews-managed-api-readme).  <br/> |
    
 ## Verify access
 
@@ -80,11 +80,11 @@ IIS provides two different logging methods: [IIS logging](http://www.iis.net/lea
 
 Now that you've learned about the tools and resources that you can use to troubleshoot, you might need help understanding the information provided by those tools. The following are some options for getting help:
   
-- [Exchange Server Development forum on MSDN](http://social.msdn.microsoft.com/Forums/home?category=exchangeserver) — Ask a question of the MSDN Exchange Server development community. 
+- [Exchange Server Development forum on MSDN](https://social.msdn.microsoft.com/Forums/home?category=exchangeserver) — Ask a question of the MSDN Exchange Server development community. 
     
 - [StackOverflow](http://stackoverflow.com/tags/ews) — Ask a question of the StackOverflow community. Be sure to tag your post with "ews". 
     
-- [Microsoft Support](http://support.microsoft.com/ph/730/en-us) — Contact a Microsoft support professional for assistance. 
+- [Microsoft Support](https://support.microsoft.com/ph/730/en-us) — Contact a Microsoft support professional for assistance. 
     
 ## See also
 
@@ -125,6 +125,6 @@ Download the following:
     
 - [EWSEditor](http://ewseditor.codeplex.com/)
     
-- [Exchange Web Services Managed API](http://go.microsoft.com/fwlink/?LinkID=255472)
+- [Exchange Web Services Managed API](https://go.microsoft.com/fwlink/?LinkID=255472)
     
 

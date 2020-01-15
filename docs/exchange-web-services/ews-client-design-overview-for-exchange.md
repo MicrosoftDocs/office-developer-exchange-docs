@@ -43,7 +43,7 @@ Several options are available for developing against Exchange by using EWS. The 
     
 ### EWS Managed API
 
-The [EWS Managed API](http://aka.ms/ews-managed-api-readme) is a custom web service client. It is the standard client access API for .NET Framework applications. 
+The [EWS Managed API](https://aka.ms/ews-managed-api-readme) is a custom web service client. It is the standard client access API for .NET Framework applications. 
   
 The following are some of the benefits of using the EWS Managed API:
   
@@ -68,7 +68,7 @@ You might choose to use the EWS web service API instead of the EWS Managed API f
 To learn more, see [Get started with EWS Managed API client applications](get-started-with-ews-managed-api-client-applications.md).
   
 > [!NOTE]
-> The EWS Managed API is now available as an open source project on [GitHub](http://aka.ms/ews-managed-api-github). You can use the open source library to: 
+> The EWS Managed API is now available as an open source project on [GitHub](https://aka.ms/ews-managed-api-github). You can use the open source library to: 
 > - Contribute bug fixes and enhancements to the API. 
 > - Get fixes and enhancements before they are available in an official release.
 > - Access the most comprehensive and up-to-date implementation of the API, to use as a reference or to create new libraries on new platforms.

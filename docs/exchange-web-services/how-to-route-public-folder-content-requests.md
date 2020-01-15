@@ -188,7 +188,7 @@ In order to use the value of the **PR_REPLICA_LIST** returned in the XML, MWVjMm
 ## Make an Autodiscover request
 <a name="bk_makeautodrequest"> </a>
 
-Use the address returned by the  `GetMailboxGuidAddress` method to call Autodiscover. We recommend that you use the [Exchange 2013: Get user settings with Autodiscover](https://code.msdn.microsoft.com/exchange/Exchange-2013-Get-user-7e22c86e) code sample to call the Autodiscover service because it streamlines the Autodiscover process for you. This code sample uses the command-line arguments listed in the following table to call the POX Autodiscover service to retrieve the [AutoDiscoverSMTPAddress](http://msdn.microsoft.com/en-us/library/office/dn750991%28v=exchg.150%29.aspx) value associated with the mailbox GUID. 
+Use the address returned by the  `GetMailboxGuidAddress` method to call Autodiscover. We recommend that you use the [Exchange 2013: Get user settings with Autodiscover](https://code.msdn.microsoft.com/exchange/Exchange-2013-Get-user-7e22c86e) code sample to call the Autodiscover service because it streamlines the Autodiscover process for you. This code sample uses the command-line arguments listed in the following table to call the POX Autodiscover service to retrieve the [AutoDiscoverSMTPAddress](https://msdn.microsoft.com/library/office/dn750991%28v=exchg.150%29.aspx) value associated with the mailbox GUID. 
 
   
 |**Argument**|**Description**|

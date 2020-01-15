@@ -12,7 +12,7 @@ localization_priority: Priority
 
 Develop a simple Hello World email client application for Exchange by using the EWS Managed API. 
   
-The [EWS Managed API](http://aka.ms/ews-managed-api-readme) provides an intuitive, easy-to-use object model for sending and receiving web service messages from client applications, portal applications, and service applications. You can access almost all the information stored in an Exchange Online, Exchange Online as part of Office 365, or an Exchange server mailbox by using the EWS Managed API. You can use the information in this article to help you develop your first EWS Managed API client application. 
+The [EWS Managed API](https://aka.ms/ews-managed-api-readme) provides an intuitive, easy-to-use object model for sending and receiving web service messages from client applications, portal applications, and service applications. You can access almost all the information stored in an Exchange Online, Exchange Online as part of Office 365, or an Exchange server mailbox by using the EWS Managed API. You can use the information in this article to help you develop your first EWS Managed API client application. 
   
 > [!NOTE]
 > The EWS Managed API is now available as an open source project on [GitHub](https://github.com/officedev/ews-managed-api). You can use the open source library to: 
@@ -29,7 +29,7 @@ If you already have an Exchange mailbox account, you can skip this section. Othe
   
 - Get an [Office 365 Developer Site](https://msdn.microsoft.com/library/office/fp179924.aspx) (recommended). This is the quickest way for you to set up an Exchange mailbox. 
 
-- Download [Exchange Server](https://office.microsoft.com/en-us/exchange/microsoft-exchange-try-or-buy-exchange-we-can-help-you-decide-FX103746846.aspx?WT%2Eintid1=ODC%5FENUS%5FFX103472230%5FXT103965589).
+- Download [Exchange Server](https://office.microsoft.com/exchange/microsoft-exchange-try-or-buy-exchange-we-can-help-you-decide-FX103746846.aspx?WT%2Eintid1=ODC%5FENUS%5FFX103472230%5FXT103965589).
 r
 
     
@@ -42,7 +42,7 @@ Make sure that you have access to the following:
   
 - Any version of [Visual Studio](http://www.visualstudio.com/downloads/download-visual-studio-vs.aspx) that supports the .NET Framework 4. Although technically, you don't need Visual Studio because you can use any C# compiler, we recommend that you use it. 
     
-- The [EWS Managed API](http://aka.ms/ews-managed-api-readme). You can use either the 64-bit or 32-bit version, depending on your system. Use the default installation location. 
+- The [EWS Managed API](https://aka.ms/ews-managed-api-readme). You can use either the 64-bit or 32-bit version, depending on your system. Use the default installation location. 
     
 ## Create your first EWS Managed API application
 <a name="Create"> </a>
@@ -216,7 +216,7 @@ If you're ready to do more with your first EWS Managed API client application, e
 - [Folders and items](folders-and-items-in-ews-in-exchange.md)    
 - [EWSEditor](http://ewseditor.codeplex.com/)
     
-If you run into any issues with your application, [try posting a question or comment in the forum](http://social.technet.microsoft.com/Forums/exchange/home?forum=exchangesvrdevelopment) (and don't forget to read the top post). 
+If you run into any issues with your application, [try posting a question or comment in the forum](https://social.technet.microsoft.com/Forums/exchange/home?forum=exchangesvrdevelopment) (and don't forget to read the top post). 
   
 ## In this section
 <a name="Next"> </a>
