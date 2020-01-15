@@ -35,7 +35,7 @@ The following example of a ResetPIN request shows how to form a request to reset
 <?xml version="1.0" encoding="utf-8"?>
 <soap:Envelope xmlns:soap="http://schemas.xmlsoap.org/soap/envelope/">
   <soap:Body>
-    <ResetPIN xmlns="http://schemas.microsoft.com/exchange/services/2006/messages" />
+    <ResetPIN xmlns="https://schemas.microsoft.com/exchange/services/2006/messages" />
   </soap:Body>
 </soap:Envelope>
 ```
@@ -52,7 +52,7 @@ The following example of a ResetPIN response shows a response to the ResetPIN re
 <?xml version="1.0" encoding="utf-8" ?> 
 <soap:Envelope xmlns:soap="http://schemas.xmlsoap.org/soap/envelope/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
   <soap:Body>
-    <ResetPINResponse xmlns="http://schemas.microsoft.com/exchange/services/2006/messages" /> 
+    <ResetPINResponse xmlns="https://schemas.microsoft.com/exchange/services/2006/messages" /> 
   </soap:Body>
 </soap:Envelope>
 ```

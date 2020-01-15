@@ -105,7 +105,7 @@ Different feature sets might be available in different Office 365 and Exchange O
 
 |**API feature**|**Plan or edition considerations**|
 |:-----|:-----|
-|EWS access to accounts, except via Exchange impersonation  <br/> |Not allowed in the [Office 365 for business—Kiosk plans](http://office.microsoft.com/en-us/business/compare-office-365-kiosk-plans-FX103178917.aspx).  <br/> |
+|EWS access to accounts, except via Exchange impersonation  <br/> |Not allowed in the [Office 365 for business—Kiosk plans](https://office.microsoft.com/en-us/business/compare-office-365-kiosk-plans-FX103178917.aspx).  <br/> |
 |Unified Messaging (UM)  <br/> |Only available with Office 365 Enterprise (E3) plan, Exchange Online Plan 2, and the Exchange Server 2013 Enterprise editions.  <br/> |
 |Active Directory Domain Services (AD DS) integration  <br/> |Not available with the Office 365 Small Business and Office 365 Small Business Premium plan.  <br/> |
 |Information Rights Management, archiving, and legal holds  <br/> |Only available with the Office 365 Enterprise (E3 and E4) plans.  <br/> |
@@ -125,8 +125,8 @@ You can do the following when targeting Exchange on-premises but not Exchange On
 ## See also
 
 - [EWS client design overview for Exchange](ews-client-design-overview-for-exchange.md)
-- [Comparing Exchange Online and Exchange Server 2013](http://blogs.technet.com/b/exchange/archive/2012/09/19/comparing-exchange-online-and-exchange-server-2013.aspx)  
-- [Compare all Office 365 for business plans](http://office.microsoft.com/en-us/business/compare-all-office-365-for-business-plans-FX104051403.aspx)
+- [Comparing Exchange Online and Exchange Server 2013](https://blogs.technet.com/b/exchange/archive/2012/09/19/comparing-exchange-online-and-exchange-server-2013.aspx)  
+- [Compare all Office 365 for business plans](https://office.microsoft.com/en-us/business/compare-all-office-365-for-business-plans-FX104051403.aspx)
 - [EwsRelentless - EWS load generation tool](https://ewsrelentless.codeplex.com/)
 - [Web service API feature availability in Exchange and the EWS Managed API](web-service-api-feature-availability-in-exchange-and-the-ews-managed-api.md)
 - [EWS throttling in Exchange](ews-throttling-in-exchange.md)

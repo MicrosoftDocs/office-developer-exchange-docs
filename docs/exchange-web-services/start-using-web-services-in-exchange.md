@@ -51,7 +51,7 @@ If you're ready to get to the business of writing your first .NET Framework or E
 
 To find code samples and examples that show you how to work with EWS and other web services in Exchange, see the following resources:
   
-- [Exchange code samples](http://code.msdn.microsoft.com/exchange)
+- [Exchange code samples](https://code.msdn.microsoft.com/exchange)
     
 - [CodePlex](http://www.codeplex.com/)
     

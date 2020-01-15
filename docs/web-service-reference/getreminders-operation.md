@@ -54,8 +54,8 @@ The following example of a **GetReminders** operation request shows how to retri
 ```XML
 <?xml version="1.0" encoding="utf-8"?>
 <soap:Envelope xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
-               xmlns:m="http://schemas.microsoft.com/exchange/services/2006/messages" 
-               xmlns:t="http://schemas.microsoft.com/exchange/services/2006/types" 
+               xmlns:m="https://schemas.microsoft.com/exchange/services/2006/messages" 
+               xmlns:t="https://schemas.microsoft.com/exchange/services/2006/types" 
                xmlns:soap="http://schemas.xmlsoap.org/soap/envelope/">
   <soap:Header>
     <t:RequestServerVersion Version="Exchange2013" />
@@ -99,18 +99,18 @@ The following example shows a successful response to a **GetReminders** operatio
                        MajorBuildNumber="918"
                        MinorBuildNumber="7"
                        Version="V2_10"
-                       xmlns:h="http://schemas.microsoft.com/exchange/services/2006/types"
-                       xmlns="http://schemas.microsoft.com/exchange/services/2006/types"
+                       xmlns:h="https://schemas.microsoft.com/exchange/services/2006/types"
+                       xmlns="https://schemas.microsoft.com/exchange/services/2006/types"
                        xmlns:xsd="http://www.w3.org/2001/XMLSchema"
                        xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" />
   </s:Header>
   <s:Body xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
           xmlns:xsd="http://www.w3.org/2001/XMLSchema">
     <GetRemindersResponse ResponseClass="Success"
-                          xmlns="http://schemas.microsoft.com/exchange/services/2006/messages">
+                          xmlns="https://schemas.microsoft.com/exchange/services/2006/messages">
       <ResponseCode>NoError</ResponseCode>
       <Reminders>
-        <Reminder xmlns="http://schemas.microsoft.com/exchange/services/2006/types">
+        <Reminder xmlns="https://schemas.microsoft.com/exchange/services/2006/types">
           <Subject>Team meeting</Subject>
           <Location />
           <ReminderTime>2014-04-15T21:00:00Z</ReminderTime>
@@ -122,7 +122,7 @@ The following example shows a successful response to a **GetReminders** operatio
           <ReminderGroup>Calendar</ReminderGroup>
           <UID>6CF2FA62</UID>
         </Reminder>
-        <Reminder xmlns="http://schemas.microsoft.com/exchange/services/2006/types">
+        <Reminder xmlns="https://schemas.microsoft.com/exchange/services/2006/types">
           <Subject>Task to send meeting notes</Subject>
           <Location />
           <ReminderTime>2014-04-16T14:00:00Z</ReminderTime>
@@ -178,15 +178,15 @@ The following example shows an error response to a **GetReminders** operation re
                        MajorBuildNumber="918"
                        MinorBuildNumber="7"
                        Version="V2_10"
-                       xmlns:h="http://schemas.microsoft.com/exchange/services/2006/types"
-                       xmlns="http://schemas.microsoft.com/exchange/services/2006/types"
+                       xmlns:h="https://schemas.microsoft.com/exchange/services/2006/types"
+                       xmlns="https://schemas.microsoft.com/exchange/services/2006/types"
                        xmlns:xsd="http://www.w3.org/2001/XMLSchema"
                        xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" />
   </s:Header>
   <s:Body xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
           xmlns:xsd="http://www.w3.org/2001/XMLSchema">
     <GetRemindersResponse ResponseClass="Error"
-                          xmlns="http://schemas.microsoft.com/exchange/services/2006/messages">
+                          xmlns="https://schemas.microsoft.com/exchange/services/2006/messages">
       <MessageText>EndDate is earlier than StartDate</MessageText>
       <ResponseCode>ErrorInvalidOperation</ResponseCode>
       <DescriptiveLinkKey>0</DescriptiveLinkKey>

@@ -51,11 +51,11 @@ The following example shows the XML request to send to the server to subscribe t
 <?xml version="1.0" encoding="utf-8"?>
 <Subscribe xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
            xmlns:xsd="http://www.w3.org/2001/XMLSchema">
-  <PullSubscriptionRequest xmlns="http://schemas.microsoft.com/exchange/services/2006/messages">
-    <FolderIds xmlns="http://schemas.microsoft.com/exchange/services/2006/types">
+  <PullSubscriptionRequest xmlns="https://schemas.microsoft.com/exchange/services/2006/messages">
+    <FolderIds xmlns="https://schemas.microsoft.com/exchange/services/2006/types">
       <DistinguishedFolderId Id="inbox" />
     </FolderIds>
-    <EventTypes xmlns="http://schemas.microsoft.com/exchange/services/2006/types">
+    <EventTypes xmlns="https://schemas.microsoft.com/exchange/services/2006/types">
             <EventType>NewMailEvent</EventType>
             <EventType>CreatedEvent</EventType>
             <EventType>DeletedEvent</EventType>
@@ -64,7 +64,7 @@ The following example shows the XML request to send to the server to subscribe t
             <EventType>CopiedEvent</EventType>
             <EventType>FreeBusyChangedEvent</EventType>
     </EventTypes>
-    <Timeout xmlns="http://schemas.microsoft.com/exchange/services/2006/types">30</Timeout>
+    <Timeout xmlns="https://schemas.microsoft.com/exchange/services/2006/types">30</Timeout>
   </PullSubscriptionRequest>
 </Subscribe>
 ```
@@ -75,7 +75,7 @@ The following XML example shows the [SubscribeResponse](http://msdn.microsoft.co
 <?xml version="1.0" encoding="utf-8"?>
 <SubscribeResponse xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
                    xmlns:xsd="http://www.w3.org/2001/XMLSchema">
-  <ResponseMessages xmlns="http://schemas.microsoft.com/exchange/services/2006/messages">
+  <ResponseMessages xmlns="https://schemas.microsoft.com/exchange/services/2006/messages">
     <SubscribeResponseMessage ResponseClass="Success">
       <ResponseCode>NoError</ResponseCode>
       <SubscriptionId>d581ab79-a2ec-4653-9c8e-564d7cfc1d8c</SubscriptionId>
@@ -96,8 +96,8 @@ The following XML example shows the [GetEvents operation](http://msdn.microsoft.
 <?xml version="1.0" encoding="utf-8"?>
 <GetEvents xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
                xmlns:xsd="http://www.w3.org/2001/XMLSchema">
-  <SubscriptionId xmlns="http://schemas.microsoft.com/exchange/services/2006/messages">d581ab79-a2ec-4653-9c8e-564d7cfc1d8c</SubscriptionId>
-  <Watermark xmlns="http://schemas.microsoft.com/exchange/services/2006/messages">AAAAAGUhAAAAAAAAAQ==</Watermark>
+  <SubscriptionId xmlns="https://schemas.microsoft.com/exchange/services/2006/messages">d581ab79-a2ec-4653-9c8e-564d7cfc1d8c</SubscriptionId>
+  <Watermark xmlns="https://schemas.microsoft.com/exchange/services/2006/messages">AAAAAGUhAAAAAAAAAQ==</Watermark>
 </GetEvents>
 ```
 
@@ -107,14 +107,14 @@ The following XML example shows the **GetEvents** response message that is sent 
 <?xml version="1.0" encoding="utf-8"?>
 <GetEventsResponseType xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
                        xmlns:xsd="http://www.w3.org/2001/XMLSchema">
-  <ResponseMessages xmlns="http://schemas.microsoft.com/exchange/services/2006/messages">
+  <ResponseMessages xmlns="https://schemas.microsoft.com/exchange/services/2006/messages">
     <GetEventsResponseMessage ResponseClass="Success">
       <ResponseCode>NoError</ResponseCode>
       <Notification>
-        <SubscriptionId xmlns="http://schemas.microsoft.com/exchange/services/2006/types">d581ab79-a2ec-4653-9c8e-564d7cfc1d8c</SubscriptionId>
-        <PreviousWatermark xmlns="http://schemas.microsoft.com/exchange/services/2006/types">AAAAAGUhAAAAAAAAAQ==</PreviousWatermark>
-        <MoreEvents xmlns="http://schemas.microsoft.com/exchange/services/2006/types">false</MoreEvents>
-        <NewMailEvent xmlns="http://schemas.microsoft.com/exchange/services/2006/types">
+        <SubscriptionId xmlns="https://schemas.microsoft.com/exchange/services/2006/types">d581ab79-a2ec-4653-9c8e-564d7cfc1d8c</SubscriptionId>
+        <PreviousWatermark xmlns="https://schemas.microsoft.com/exchange/services/2006/types">AAAAAGUhAAAAAAAAAQ==</PreviousWatermark>
+        <MoreEvents xmlns="https://schemas.microsoft.com/exchange/services/2006/types">false</MoreEvents>
+        <NewMailEvent xmlns="https://schemas.microsoft.com/exchange/services/2006/types">
           <Watermark>AAAAAHMhAAAAAAAAAQ==</Watermark>
           <TimeStamp>2013-09-15T21:37:01Z</TimeStamp>
           <ItemId Id="AAAtA=" ChangeKey="CQAAAA==" />

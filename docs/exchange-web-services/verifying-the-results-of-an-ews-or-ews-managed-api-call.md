@@ -29,8 +29,8 @@ When you receive a SOAP response, the first thing to look at is the **ResponseCl
   
 ```XML
 <s:Body>
-      <m:GetItemResponse xmlns:m="http://schemas.microsoft.com/exchange/services/2006/messages"
-                         xmlns:t="http://schemas.microsoft.com/exchange/services/2006/types">
+      <m:GetItemResponse xmlns:m="https://schemas.microsoft.com/exchange/services/2006/messages"
+                         xmlns:t="https://schemas.microsoft.com/exchange/services/2006/types">
         <m:ResponseMessages>
           <m:GetItemResponseMessage ResponseClass="Success">
           …
@@ -42,9 +42,9 @@ If you're working with an operation that includes a **ResponseClass** as part of
   
 ```XML
 <soap:Body>
-  <m:AddDelegateResponse xmlns:t="http://schemas.microsoft.com/exchange/services/2006/types"
+  <m:AddDelegateResponse xmlns:t="https://schemas.microsoft.com/exchange/services/2006/types"
                          ResponseClass="Success"
-                         xmlns:m="http://schemas.microsoft.com/exchange/services/2006/messages">
+                         xmlns:m="https://schemas.microsoft.com/exchange/services/2006/messages">
   …
 
 ```
@@ -53,9 +53,9 @@ However, the operation status only reflects the shape of the top-level response 
   
 ```XML
 <soap:Body>
-  <m:AddDelegateResponse xmlns:t="http://schemas.microsoft.com/exchange/services/2006/types"
+  <m:AddDelegateResponse xmlns:t="https://schemas.microsoft.com/exchange/services/2006/types"
                          ResponseClass="Success"
-                         xmlns:m="http://schemas.microsoft.com/exchange/services/2006/messages">
+                         xmlns:m="https://schemas.microsoft.com/exchange/services/2006/messages">
     <m:ResponseCode>NoError</m:ResponseCode>
     <m:ResponseMessages>
       <m:DelegateUserResponseMessageType ResponseClass="Error">
@@ -79,8 +79,8 @@ The following example shows a successful response to a [GetItem](http://msdn.mic
 ```XML
 <s:Body xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
              xmlns:xsd="http://www.w3.org/2001/XMLSchema">
-      <m:GetItemResponse xmlns:m="http://schemas.microsoft.com/exchange/services/2006/messages"
-                         xmlns:t="http://schemas.microsoft.com/exchange/services/2006/types">
+      <m:GetItemResponse xmlns:m="https://schemas.microsoft.com/exchange/services/2006/messages"
+                         xmlns:t="https://schemas.microsoft.com/exchange/services/2006/types">
         <m:ResponseMessages>
           <m:GetItemResponseMessage ResponseClass="Success">
             <m:ResponseCode>NoError</m:ResponseCode>
@@ -102,8 +102,8 @@ The following is a successful response to a **GetItem** operation request to ret
 ```XML
 <s:Body xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
              xmlns:xsd="http://www.w3.org/2001/XMLSchema">
-  <m:GetItemResponse xmlns:m="http://schemas.microsoft.com/exchange/services/2006/messages"
-                     xmlns:t="http://schemas.microsoft.com/exchange/services/2006/types">
+  <m:GetItemResponse xmlns:m="https://schemas.microsoft.com/exchange/services/2006/messages"
+                     xmlns:t="https://schemas.microsoft.com/exchange/services/2006/types">
     <m:ResponseMessages>
       <m:GetItemResponseMessage ResponseClass="Success">
         <m:ResponseCode>NoError</m:ResponseCode>
@@ -163,8 +163,8 @@ You can use the information provided in these elements to investigate your issue
 The following example shows an error that was received as part of a batched operation to get multiple email items. The first item was retrieved successfully and the **ResponseClass** is set to **Success**. The second item could not be found, and the **ResponseClass** is set to **Error**.
   
 ```XML
-<m:GetItemResponse xmlns:m="http://schemas.microsoft.com/exchange/services/2006/messages"
-                        xmlns:t="http://schemas.microsoft.com/exchange/services/2006/types">
+<m:GetItemResponse xmlns:m="https://schemas.microsoft.com/exchange/services/2006/messages"
+                        xmlns:t="https://schemas.microsoft.com/exchange/services/2006/types">
   <m:ResponseMessages>
     <m:GetItemResponseMessage ResponseClass="Success">
       <m:ResponseCode>NoError</m:ResponseCode>

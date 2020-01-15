@@ -33,7 +33,7 @@ To create an EWS Managed API application, you'll need access to the following:
     
 - A mailbox on an Exchange server that is running Exchange Online, Exchange Online as part of Office 365, or a version of Exchange starting with Exchange Server 2007. 
     
-    You can get an Exchange Online plan for business, including a free trial, from the [Office 365 site](http://office.microsoft.com/en-us/business/compare-office-365-for-business-plans-FX102918419.aspx#fbid=1tsGNIE7e3a). In order to connect to the mailbox you must have the user name and credentials of the account associated with the mailbox.
+    You can get an Exchange Online plan for business, including a free trial, from the [Office 365 site](https://office.microsoft.com/en-us/business/compare-office-365-for-business-plans-FX102918419.aspx#fbid=1tsGNIE7e3a). In order to connect to the mailbox you must have the user name and credentials of the account associated with the mailbox.
     
 - A version of Visual Studio starting with Visual Studio 2005. If you don't currently have Visual Studio, you can download a [free version](https://visualstudio.microsoft.com/).
     

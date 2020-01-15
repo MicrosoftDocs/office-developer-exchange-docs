@@ -49,7 +49,7 @@ The text value contains the target of the redirection URL or e-mail address that
 
 |||
 |:-----|:-----|
-|Namespace  <br/> |http://schemas.microsoft.com/exchange/2010/Autodiscover  <br/> |
+|Namespace  <br/> |https://schemas.microsoft.com/exchange/2010/Autodiscover  <br/> |
 |Schema Name  <br/> |Autodiscover schema  <br/> |
 |Validation File  <br/> |messages.xsd  <br/> |
 |Can be Empty  <br/> |True  <br/> |

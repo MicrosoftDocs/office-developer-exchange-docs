@@ -37,9 +37,9 @@ private static void GetServiceConfiguration(ExchangeService service, NetworkCred
   const string getServiceConfigurationRequest = 
     "<?xml version=\"1.0\" encoding=\"utf-8\"?>\n" +
     "<soap:Envelope xmlns:xsi=\"http://www.w3.org/2001/XMLSchema-instance\"\n" +
-    "               xmlns:m=\"http://schemas.microsoft.com/exchange/services/2006/messages\"\n" +
-    "               xmlns:t=\"http://schemas.microsoft.com/exchange/services/2006/types\" \n" +
-    "               xmlns:soap=\"http://schemas.xmlsoap.org/soap/envelope/\"\n" +
+    "               xmlns:m=\"https://schemas.microsoft.com/exchange/services/2006/messages\"\n" +
+    "               xmlns:t=\"https://schemas.microsoft.com/exchange/services/2006/types\" \n" +
+    "               xmlns:soap=\"https://schemas.xmlsoap.org/soap/envelope/\"\n" +
     "               xmlns:xs=\"http://www.w3.org/2001/XMLSchema\">\n" +
     "  <soap:Header>\n" +
     "    <t:RequestServerVersion Version=\"Exchange2013\" />\n" +
@@ -96,7 +96,7 @@ After you request service configuration information, use the [XmlDocument class]
   
 - Use the [GetMailTips operation](http://msdn.microsoft.com/library/025483ec-a9f3-4735-8a95-d26e30ea7974%28Office.15%29.aspx) to get mail tips for client applications to display to users. 
     
-- If UM is enabled, [learn about how to play mailbox items](http://blogs.msdn.com/b/exchangedev/archive/2009/11/05/play-exchange-2010-mailbox-items-on-your-phone-by-using-the-ews-managed-api.aspx) over your phone. 
+- If UM is enabled, [learn about how to play mailbox items](https://blogs.msdn.com/b/exchangedev/archive/2009/11/05/play-exchange-2010-mailbox-items-on-your-phone-by-using-the-ews-managed-api.aspx) over your phone. 
     
 ## See also
 
