@@ -205,5 +205,5 @@ When processing a **GetEvents** request, the Client Access server performs the f
 [Unsubscribe operation](unsubscribe-operation.md)
 
 
-[Using Pull Subscriptions](http://msdn.microsoft.com/library/f956bc0e-2b25-4613-966b-54c65456897c%28Office.15%29.aspx)
+[Using Pull Subscriptions](https://msdn.microsoft.com/library/f956bc0e-2b25-4613-966b-54c65456897c%28Office.15%29.aspx)
 

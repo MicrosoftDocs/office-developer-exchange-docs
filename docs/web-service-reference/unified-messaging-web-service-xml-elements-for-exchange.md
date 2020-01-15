@@ -20,7 +20,7 @@ Find reference information for the XML elements that are part of the Unified Mes
 The Unified Messaging (UM) web service contains many XML elements that are used to define the requests and responses that are sent between the client and the server. This section provides information about the individual XML elements.
   
 > [!NOTE]
-> For versions of Exchange starting with Exchange 2010, we recommend that you use the UM operations that are available in [Exchange Web Services (EWS)](http://msdn.microsoft.com/library/60285497-0c4e-4e51-84e1-34dd6d89a5d8%28Office.15%29.aspx) instead of the UM web service, for the following reasons: 
+> For versions of Exchange starting with Exchange 2010, we recommend that you use the UM operations that are available in [Exchange Web Services (EWS)](https://msdn.microsoft.com/library/60285497-0c4e-4e51-84e1-34dd6d89a5d8%28Office.15%29.aspx) instead of the UM web service, for the following reasons: 
 > - The EWS-based UM features have first-class support in the EWS Managed API. 
 > - In versions of Exchange starting with Exchange 2010, all new UM features are added to EWS but not to the UM web service. 
   
