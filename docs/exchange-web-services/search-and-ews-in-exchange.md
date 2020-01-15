@@ -39,7 +39,7 @@ The EWS Managed API and EWS offer two basic methods for specifying a search. You
 
 Search filters give you a wide range of search options and the greatest degree of control over how the search is performed. You can use search filters to perform basic equality and comparison searches, but you can also search within the contents of string properties or do bitmask comparisons.
 
-For example, you can search the contents of the subject of items by using the [SearchFilter.ContainsSubstring](http://msdn.microsoft.com/en-us/library/microsoft.exchange.webservices.data.searchfilter.containssubstring%28v=exchg.80%29.aspx) class in the EWS Managed API. In this example, a search filter is created to search the subject for the substring "meeting notes", ignoring case.
+For example, you can search the contents of the subject of items by using the [SearchFilter.ContainsSubstring](https://msdn.microsoft.com/library/microsoft.exchange.webservices.data.searchfilter.containssubstring%28v=exchg.80%29.aspx) class in the EWS Managed API. In this example, a search filter is created to search the subject for the substring "meeting notes", ignoring case.
 
 ```cs
 SearchFilter.ContainsSubstring subjectFilter = new SearchFilter.ContainsSubstring(ItemSchema.Subject,
@@ -56,7 +56,7 @@ SearchFilter.IsGreaterThan customPropFilter =
     new SearchFilter.IsGreaterThan(customPropDefinition, 3);
 ```
 
-You can also combine multiple search filters to create more complex searches. For example, you can combine the previous two filters with a logical AND by using the [SearchFilter.SearchFilterCollection](http://msdn.microsoft.com/en-us/library/microsoft.exchange.webservices.data.searchfilter.searchfiltercollection%28v=exchg.80%29.aspx) class.
+You can also combine multiple search filters to create more complex searches. For example, you can combine the previous two filters with a logical AND by using the [SearchFilter.SearchFilterCollection](https://msdn.microsoft.com/library/microsoft.exchange.webservices.data.searchfilter.searchfiltercollection%28v=exchg.80%29.aspx) class.
 
 ```cs
 SearchFilter.SearchFilterCollection compoundFilter =
@@ -67,7 +67,7 @@ SearchFilter.SearchFilterCollection compoundFilter =
 
 Query strings provide a different approach to search. You have less control over the fields that are searched and how the search is performed when you use a query string search. Not that that's a bad thing! In some cases, you might want to cast a wider net, so to speak.
 
-For example, you can search for "meeting notes" by using the [ExchangeService.FindItems](http://msdn.microsoft.com/en-us/library/jj223808%28v=exchg.80%29.aspx) EWS Managed API method.
+For example, you can search for "meeting notes" by using the [ExchangeService.FindItems](https://msdn.microsoft.com/library/jj223808%28v=exchg.80%29.aspx) EWS Managed API method.
 
 ```cs
 FindItemsResults<Item> results = service.FindItems(folder, "meeting notes", view);
@@ -90,7 +90,7 @@ FindItemsResults<Item> results = service.FindItems(folder, "subject:\"meeting no
 ## Requesting specific properties in search results
 <a name="bk_RequestSpecific"> </a>
 
-By default, search results will contain all properties on the items that match the search. In some cases this might be what you want, but in most cases your application only requires a discrete set of properties. In this case, you should limit the set of properties that are returned to only the properties your application needs. In the following example, the [ItemView](http://msdn.microsoft.com/en-us/library/microsoft.exchange.webservices.data.itemview%28v=exchg.80%29.aspx) class is used to limit the returned properties to the subject, date/time received, and ID of the items.
+By default, search results will contain all properties on the items that match the search. In some cases this might be what you want, but in most cases your application only requires a discrete set of properties. In this case, you should limit the set of properties that are returned to only the properties your application needs. In the following example, the [ItemView](https://msdn.microsoft.com/library/microsoft.exchange.webservices.data.itemview%28v=exchg.80%29.aspx) class is used to limit the returned properties to the subject, date/time received, and ID of the items.
 
 ```cs
 ItemView view = new ItemView(10);
@@ -111,7 +111,7 @@ Setting the traversal on the view controls the depth and scope of the search.
 |Shallow  <br/> |Items and Folders  <br/> |Shallow searches are limited to direct children of the folder being searched.  <br/> |
 |Deep  <br/> |Items (only with search folders) and Folders  <br/> |Deep searches recursively search the folder being searched and subfolders.  <br/> |
 |Associated  <br/> |Items  <br/> |Associated searches only include associated items from the folder being searched. Associated items are hidden items within the folder.  <br/> |
-|SoftDeleted  <br/> |Items and Folders  <br/> |This traversal type is deprecated. SoftDeleted searches only include items that are in the dumpster. The dumpster has been replaced by the [Recoverable Items Folder](https://docs.microsoft.com/en-us/exchange/policy-and-compliance/recoverable-items-folder/recoverable-items-folder) in Exchange Online, Exchange Online as part of Office 365, and versions of Exchange starting with Exchange 2010.  <br/> |
+|SoftDeleted  <br/> |Items and Folders  <br/> |This traversal type is deprecated. SoftDeleted searches only include items that are in the dumpster. The dumpster has been replaced by the [Recoverable Items Folder](https://docs.microsoft.com/exchange/policy-and-compliance/recoverable-items-folder/recoverable-items-folder) in Exchange Online, Exchange Online as part of Office 365, and versions of Exchange starting with Exchange 2010.  <br/> |
 
 ## Managing search results
 <a name="bk_ManageSearchResults"> </a>
@@ -130,7 +130,7 @@ view.OrderBy.Add(ItemSchema.DateTimeReceived, SortDirection.Descending);
 
 When you send a search request by using the EWS Managed API or EWS, you specify a view size, which controls the maximum number of items returned. However, the number of items on the server that match your search might be larger than the view size. In this case, the server indicates that more items are available. You can [use paging to repeat your search](how-to-perform-paged-searches-by-using-ews-in-exchange.md) and get the next set of results.
 
-For example, you can send a search request with a view size of 10. There might be 15 items on the server that match your search, but you will only get back the first 10, along with an indicator (the [FindItemsResults\<TItem\>.MoreAvailable](http://msdn.microsoft.com/en-us/library/dd635477%28v=exchg.80%29.aspx) property if you're using the EWS Managed API) that there are more results on the server. You can then send the same search with an offset of 10 to ask for the next 10 items that match your search. The server will return the remaining five items.
+For example, you can send a search request with a view size of 10. There might be 15 items on the server that match your search, but you will only get back the first 10, along with an indicator (the [FindItemsResults\<TItem\>.MoreAvailable](https://msdn.microsoft.com/library/dd635477%28v=exchg.80%29.aspx) property if you're using the EWS Managed API) that there are more results on the server. You can then send the same search with an offset of 10 to ask for the next 10 items that match your search. The server will return the remaining five items.
 
 **Figure 1. Paged search example**
 
@@ -183,8 +183,8 @@ static void CreateSearchFolder(ExchangeService service)
 
 - [Develop web service clients for Exchange](develop-web-service-clients-for-exchange.md)
 
-- [Recoverable Items Folder](https://docs.microsoft.com/en-us/exchange/policy-and-compliance/recoverable-items-folder/recoverable-items-folder)
+- [Recoverable Items Folder](https://docs.microsoft.com/exchange/policy-and-compliance/recoverable-items-folder/recoverable-items-folder)
 
-- [ExchangeService.FindItems](http://msdn.microsoft.com/en-us/library/microsoft.exchange.webservices.data.exchangeservice.finditems%28v=exchg.80%29.aspx)
+- [ExchangeService.FindItems](https://msdn.microsoft.com/library/microsoft.exchange.webservices.data.exchangeservice.finditems%28v=exchg.80%29.aspx)
 
 - [Throttling policy parameters that affect EWS search operations](ews-throttling-in-exchange.md#throttling-policy-parameters-that-affect-ews-search-operations)

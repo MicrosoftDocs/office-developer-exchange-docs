@@ -14,9 +14,9 @@ Find out how to use the EWS Managed API or EWS to add email addresses to and rem
   
 The Blocked Senders List in a user's Junk Email options provides a way to move all email messages from specified senders to the Junk Email folder. You can enable your EWS Managed API or EWS application to add email addresses to or remove them from the Blocked Senders List.
   
-Note that a message from the email address must exist in the user's mailbox before you can add the email address to or remove it from the Blocked Senders List. The [ExchangeService.MarkAsJunk](http://msdn.microsoft.com/en-us/library/microsoft.exchange.webservices.data.exchangeservice.markasjunk%28v=exchg.80%29.aspx) EWS Managed API method and the [MarkAsJunk](http://msdn.microsoft.com/library/1f71f04d-56a9-4fee-a4e7-d1034438329e%28Office.15%29.aspx) EWS operation use a collection of item IDs. The item IDs in the collection indicate messages in the mailbox for which the junk mail status should be changed. 
+Note that a message from the email address must exist in the user's mailbox before you can add the email address to or remove it from the Blocked Senders List. The [ExchangeService.MarkAsJunk](https://msdn.microsoft.com/library/microsoft.exchange.webservices.data.exchangeservice.markasjunk%28v=exchg.80%29.aspx) EWS Managed API method and the [MarkAsJunk](https://msdn.microsoft.com/library/1f71f04d-56a9-4fee-a4e7-d1034438329e%28Office.15%29.aspx) EWS operation use a collection of item IDs. The item IDs in the collection indicate messages in the mailbox for which the junk mail status should be changed. 
   
-You can use the [Get-MailboxJunkEmailConfiguration](http://technet.microsoft.com/en-us/library/dd979784%28v=exchg.150%29.aspx) and [Set-MailboxJunkEmailConfiguration](http://technet.microsoft.com/en-us/library/dd979780%28v=exchg.150%29.aspx) Exchange Management Shell cmdlets to access the Blocked Senders List directly. 
+You can use the [Get-MailboxJunkEmailConfiguration](https://technet.microsoft.com/library/dd979784%28v=exchg.150%29.aspx) and [Set-MailboxJunkEmailConfiguration](https://technet.microsoft.com/library/dd979780%28v=exchg.150%29.aspx) Exchange Management Shell cmdlets to access the Blocked Senders List directly. 
   
 ## Add an email address to or remove it from the Blocked Senders List by using the EWS Managed API
 <a name="bk_AddRemoveEWSMA"> </a>
@@ -65,7 +65,7 @@ private static void MarkMessageAsJunk(ExchangeService service, ItemId messageId,
 ## Add an email address to or remove it from the Blocked Senders List by using EWS
 <a name="bk_AddRemoveEWS"> </a>
 
-The following EWS SOAP request marks an item as junk by setting the **IsJunk** attribute on the [MarkAsJunk](http://msdn.microsoft.com/library/f06bafc6-7ee3-4b2b-9fd1-7c51328f4729%28Office.15%29.aspx) element to **true**. It also moves the message to the Junk Email folder by setting the **MoveItem** attribute on the **MarkAsJunk** element to **true**.
+The following EWS SOAP request marks an item as junk by setting the **IsJunk** attribute on the [MarkAsJunk](https://msdn.microsoft.com/library/f06bafc6-7ee3-4b2b-9fd1-7c51328f4729%28Office.15%29.aspx) element to **true**. It also moves the message to the Junk Email folder by setting the **MoveItem** attribute on the **MarkAsJunk** element to **true**.
   
 ```XML
 <?xml version="1.0" encoding="utf-8"?>
@@ -87,7 +87,7 @@ The following EWS SOAP request marks an item as junk by setting the **IsJunk** a
 </soap:Envelope>
 ```
 
-The following EWS SOAP response shows the successful response. The [MovedItemId](http://msdn.microsoft.com/library/7d5425ab-1e75-43d1-b801-802ff5139df6%28Office.15%29.aspx) element in the response contains the item ID for the item after it was moved. 
+The following EWS SOAP response shows the successful response. The [MovedItemId](https://msdn.microsoft.com/library/7d5425ab-1e75-43d1-b801-802ff5139df6%28Office.15%29.aspx) element in the response contains the item ID for the item after it was moved. 
   
 ```XML
 <?xml version="1.0" encoding="utf-8"?>
@@ -117,10 +117,10 @@ The following EWS SOAP response shows the successful response. The [MovedItemId]
 ## See also
 
 - [Inbox management and EWS in Exchange](inbox-management-and-ews-in-exchange.md)   
-- [ExchangeService.MarkAsJunk](http://msdn.microsoft.com/en-us/library/microsoft.exchange.webservices.data.exchangeservice.markasjunk%28v=exchg.80%29.aspx)   
-- [MarkAsJunk operation](http://msdn.microsoft.com/library/1f71f04d-56a9-4fee-a4e7-d1034438329e%28Office.15%29.aspx)   
-- [Get-MailboxJunkEmailConfiguration](http://technet.microsoft.com/en-us/library/dd979784%28v=exchg.150%29.aspx)   
-- [Set-MailboxJunkEmailConfiguration](http://technet.microsoft.com/en-us/library/dd979780%28v=exchg.150%29.aspx) 
+- [ExchangeService.MarkAsJunk](https://msdn.microsoft.com/library/microsoft.exchange.webservices.data.exchangeservice.markasjunk%28v=exchg.80%29.aspx)   
+- [MarkAsJunk operation](https://msdn.microsoft.com/library/1f71f04d-56a9-4fee-a4e7-d1034438329e%28Office.15%29.aspx)   
+- [Get-MailboxJunkEmailConfiguration](https://technet.microsoft.com/library/dd979784%28v=exchg.150%29.aspx)   
+- [Set-MailboxJunkEmailConfiguration](https://technet.microsoft.com/library/dd979780%28v=exchg.150%29.aspx) 
 - [Exchange Management Shell](../management/exchange-management-shell.md)
     
 

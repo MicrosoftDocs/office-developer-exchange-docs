@@ -97,5 +97,5 @@ The following example shows a successful response to an **ApplyConversationActio
 - [ApplyConversationAction operation](applyconversationaction-operation.md)
 - [EWS operations in Exchange](ews-operations-in-exchange.md)
 - [EWS XML elements in Exchange](ews-xml-elements-in-exchange.md)
-- [Conversations in EWS](http://msdn.microsoft.com/library/91e64629-db6c-4c94-9dcb-d386232e8467%28Office.15%29.aspx)
+- [Conversations in EWS](https://msdn.microsoft.com/library/91e64629-db6c-4c94-9dcb-d386232e8467%28Office.15%29.aspx)
 
