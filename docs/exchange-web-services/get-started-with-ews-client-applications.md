@@ -22,7 +22,7 @@ If you already have an Exchange mailbox account, you can skip this step. Otherwi
   
 - [Get an Office 365 Developer Site ](https://msdn.microsoft.com/library/office/fp179924.aspx)(recommended). This is the quickest way for you to get an Exchange mailbox.
     
-- Download [Exchange Server](https://office.microsoft.com/en-us/exchange/microsoft-exchange-try-or-buy-exchange-we-can-help-you-decide-FX103746846.aspx?WT%2Eintid1=ODC%5FENUS%5FFX103472230%5FXT103965589).
+- Download [Exchange Server](https://office.microsoft.com/exchange/microsoft-exchange-try-or-buy-exchange-we-can-help-you-decide-FX103746846.aspx?WT%2Eintid1=ODC%5FENUS%5FFX103472230%5FXT103965589).
 
     
 After you've verified that you can send and receive email from your Exchange server you are ready to set up your development environment. You can use Outlook Web App to verify that you can send email.
@@ -428,7 +428,7 @@ Now that you've written your first EWS application, you're ready to discover oth
     
 - Use [EWS Editor](http://ewseditor.codeplex.com/) to see the SOAP traffic sent to and from the server. 
     
-If you run into any issues with your application, [try posting a question or comment in the forum](http://social.technet.microsoft.com/Forums/exchange/home?forum=exchangesvrdevelopment) (and don't forget to read the first post). 
+If you run into any issues with your application, [try posting a question or comment in the forum](https://social.technet.microsoft.com/Forums/exchange/home?forum=exchangesvrdevelopment) (and don't forget to read the first post). 
   
 ## See also
 
