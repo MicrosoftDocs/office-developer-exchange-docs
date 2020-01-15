@@ -51,7 +51,7 @@ The Exchange server handles identifiers in a lot of different ways. Consider the
     
 - If you are going to store the item ID in a database to retrieve later, we recommend that the field size be 512 bytes, so that it's large enough to hold the GUID.
     
-- Don't assume that your ID will always be valid if you need to retrieve the item at a later time. If an item is moved in the store, the ID can change because of the way a move is handled. An item is actually copied, and a new ID is generated, and then [the original item is deleted](deleting-items-by-using-ews-in-exchange.md).
+- Don't assume that your item ID will always be valid if you need to retrieve the item at a later time. If an item is moved in the store, the ID can change because of the way a move is handled. An item is actually copied, and a new ID is generated, and then [the original item is deleted](deleting-items-by-using-ews-in-exchange.md). Note that folder IDs are immutable, and won't change when moved in the store.
     
 - Identifiers in Exchange are opaque. For example, the EwsId is created from several pieces of information that are not important to you as the developer, but are important to Exchange.
     
