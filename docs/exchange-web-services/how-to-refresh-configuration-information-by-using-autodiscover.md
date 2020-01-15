@@ -24,7 +24,7 @@ While we recommend that you use Autodiscover regularly, how regularly you use it
 |**Setting to cache**|**Valid for…**|**Details**|
 |:-----|:-----|:-----|
 |Autodiscover endpoint  <br/> |As long as it works  <br/> |When you save the Autodiscover endpoint that returned a successful response, you do not have to repeat the process of [generating a list of Autodiscover endpoints](how-to-generate-a-list-of-autodiscover-endpoints.md) and trying them until you get a successful response.<br/><br/> **NOTE**: The EWS Managed API does not support caching the Autodiscover endpoint.           |
-|EWS URL and any other settings retrieved from the Autodiscover response  <br/> |24 hours  <br/> |By saving the EWS URL and other related settings, you do not have to [send a new Autodiscover request](how-to-get-user-settings-from-exchange-by-using-autodiscover.md) for each EWS request or if your application restarts. However, even if an EWS URL works for your user, a server might be available that is more optimal.<br/><br/> For example, the user's mailbox might have moved to a new mailbox server, resulting in a new preferred EWS endpoint. We recommend that you refresh your user settings by sending a new Autodiscover request after 24 hours have passed since your last Autodiscover request. This time can be adjusted to meet the requirements of your application.  <br/> |
+|EWS URL and any other settings retrieved from the Autodiscover response  <br/> |One week  <br/> |By saving the EWS URL and other related settings, you do not have to [send a new Autodiscover request](how-to-get-user-settings-from-exchange-by-using-autodiscover.md) for each EWS request or if your application restarts. However, even if an EWS URL works for your user, a server might be available that is more optimal.<br/><br/> For example, the user's mailbox might have moved to a new mailbox server, resulting in a new preferred EWS endpoint. We recommend that you refresh your user settings by sending a new Autodiscover request after 24 hours have passed since your last Autodiscover request. This time can be adjusted to meet the requirements of your application.  <br/> |
    
 ## Refresh cached configuration information
 <a name="bk_RefreshConfig"> </a>
@@ -33,7 +33,7 @@ Now that you have the information cached, let's examine how you can keep that ca
   
 - The information's validity period expires.
     
-- A [Connection-related errors](#bk_ConnectionErrors) occurs. 
+- A [Connection-related errors](#bk_ConnectionErrors) occurs AND your cached information was last refreshed over an hour ago.
     
 To refresh your cached information, send an Autodiscover request to a cached Autodiscover endpoint, and do the following:
   
@@ -60,8 +60,8 @@ Refreshing your cached configuration information can help with some errors, but 
 
 |**Error**|**EWS Managed API implementation**|**Notes**|
 |:-----|:-----|:-----|
-|DNS or network failure errors<br/><br/> Example: Host name could not be found.  <br/> |[ServiceRemoteException](https://msdn.microsoft.com/library/Microsoft.Exchange.WebServices.Data.ServiceRemoteException.aspx) <br/> |Any error that indicates that the server could not be found or could not be reached might be resolved by trying Autodiscover. <br/><br/> Your cached EWS endpoint might no longer be valid, and Autodiscover might be able to point you to the new server.  <br/> |
-|HTTP status errors<br/><br/> Example: 503 Service Unavailable  <br/> |[ServiceRemoteException](https://msdn.microsoft.com/library/Microsoft.Exchange.WebServices.Data.ServiceRemoteException.aspx) <br/> |HTTP status errors can happen for many different reasons.<br/><br/> However, it's a good idea to try Autodiscover to see if a new EWS endpoint is available for the user.  <br/> |
+|DNS or network failure errors<br/><br/> Example: Host name could not be found.  <br/> |[ServiceRemoteException](https://docs.microsoft.com/dotnet/api/microsoft.exchange.webservices.data.serviceremoteexception?view=exchange-ews-api) <br/> |Any error that indicates that the server could not be found or could not be reached might be resolved by trying Autodiscover. <br/><br/> Your cached EWS endpoint might no longer be valid, and Autodiscover might be able to point you to the new server.  <br/> |
+|HTTP status errors<br/><br/> Example: 503 Service Unavailable  <br/> |[ServiceRemoteException](https://docs.microsoft.com/dotnet/api/microsoft.exchange.webservices.data.serviceremoteexception?view=exchange-ews-api) <br/> |HTTP status errors can happen for many different reasons.<br/><br/> However, it's a good idea to try Autodiscover to see if a new EWS endpoint is available for the user.  <br/> |
 |EWS error codes <br/><br/> Example: ErrorConnectionFailed <br/> |[ResponseCodeType](../web-service-reference/responsecode.md) <br/> | Most EWS error codes don't warrant refreshing your configuration information.<br/><br/> However, the following specifically indicate that the configuration information needs to be updated:<br/>- **ErrorConnectionFailed** <br/>- **ErrorMailboxMoveInProgress** <br/> |
    
 ## See also

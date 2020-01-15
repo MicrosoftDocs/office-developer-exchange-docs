@@ -32,7 +32,7 @@ The **Folder** element defines a folder to create, get, find, synchronize, or up
    <ManagedFolderInformation/>
    <UnreadCount/>
    <PermissionSet/>
-      <EffectiveRights/>
+   <EffectiveRights/>
 </Folder>
 ```
 
