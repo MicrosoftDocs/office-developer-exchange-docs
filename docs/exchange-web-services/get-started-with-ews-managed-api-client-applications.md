@@ -40,7 +40,7 @@ After you have verified that you can send and receive email from Exchange, you a
 
 Make sure that you have access to the following:
   
-- Any version of [Visual Studio](http://www.visualstudio.com/downloads/download-visual-studio-vs.aspx) that supports the .NET Framework 4. Although technically, you don't need Visual Studio because you can use any C# compiler, we recommend that you use it. 
+- Any version of [Visual Studio](https://www.visualstudio.com/downloads/download-visual-studio-vs.aspx) that supports the .NET Framework 4. Although technically, you don't need Visual Studio because you can use any C# compiler, we recommend that you use it. 
     
 - The [EWS Managed API](https://aka.ms/ews-managed-api-readme). You can use either the 64-bit or 32-bit version, depending on your system. Use the default installation location. 
     
