@@ -33,8 +33,8 @@ The following example of an **ExportItems** request shows how to form a request 
 <soap:Envelope xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
       xmlns:xsd="http://www.w3.org/2001/XMLSchema"
       xmlns:soap="http://schemas.xmlsoap.org/soap/envelope/"
-      xmlns:t="http://schemas.microsoft.com/exchange/services/2006/types"
-      xmlns:m="http://schemas.microsoft.com/exchange/services/2006/messages">
+      xmlns:t="https://schemas.microsoft.com/exchange/services/2006/types"
+      xmlns:m="https://schemas.microsoft.com/exchange/services/2006/messages">
   <soap:Header>
     <t:RequestServerVersion Version="Exchange2010_SP1" />
   </soap:Header>
@@ -83,15 +83,15 @@ The following example shows a successful response to an **ExportItems** request.
     MajorBuildNumber="139"
     MinorBuildNumber="0"
     Version="Exchange2010_SP1"
-    xmlns:t="http://schemas.microsoft.com/exchange/services/2006/types"
-    xmlns="http://schemas.microsoft.com/exchange/services/2006/types"
+    xmlns:t="https://schemas.microsoft.com/exchange/services/2006/types"
+    xmlns="https://schemas.microsoft.com/exchange/services/2006/types"
     xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
     xmlns:xsd="http://www.w3.org/2001/XMLSchema"/>
   </s:Header>
   <s:Body xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
   xmlns:xsd="http://www.w3.org/2001/XMLSchema">
-    <m:ExportItemsResponse xmlns:m="http://schemas.microsoft.com/exchange/services/2006/messages"
-    xmlns:t="http://schemas.microsoft.com/exchange/services/2006/types">
+    <m:ExportItemsResponse xmlns:m="https://schemas.microsoft.com/exchange/services/2006/messages"
+    xmlns:t="https://schemas.microsoft.com/exchange/services/2006/types">
       <m:ResponseMessages>
         <m:ExportItemsResponseMessage ResponseClass="Success">
           <m:ResponseCode>NoError</m:ResponseCode>
@@ -183,15 +183,15 @@ The following example shows a response to the **ExportItems** request that conta
                          MajorBuildNumber="164" 
                          MinorBuildNumber="0" 
                          Version="Exchange2010_SP1" 
-                         xmlns:h="http://schemas.microsoft.com/exchange/services/2006/types" 
-                         xmlns="http://schemas.microsoft.com/exchange/services/2006/types" 
+                         xmlns:h="https://schemas.microsoft.com/exchange/services/2006/types" 
+                         xmlns="https://schemas.microsoft.com/exchange/services/2006/types" 
                          xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
                          xmlns:xsd="http://www.w3.org/2001/XMLSchema"/>
   </s:Header>
   <s:Body xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
           xmlns:xsd="http://www.w3.org/2001/XMLSchema">
-    <m:ExportItemsResponse xmlns:m="http://schemas.microsoft.com/exchange/services/2006/messages" 
-                           xmlns:t="http://schemas.microsoft.com/exchange/services/2006/types">
+    <m:ExportItemsResponse xmlns:m="https://schemas.microsoft.com/exchange/services/2006/messages" 
+                           xmlns:t="https://schemas.microsoft.com/exchange/services/2006/types">
       <m:ResponseMessages>
         <m:ExportItemsResponseMessage ResponseClass="Success">
           <m:ResponseCode>NoError</m:ResponseCode>

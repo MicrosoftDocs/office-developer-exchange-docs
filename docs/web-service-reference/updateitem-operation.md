@@ -54,10 +54,10 @@ The following example of an **UpdateItem** request shows how to set the sensitiv
 <soap:Envelope xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
                xmlns:xsd="http://www.w3.org/2001/XMLSchema" 
                xmlns:soap="http://schemas.xmlsoap.org/soap/envelope/" 
-               xmlns:t="http://schemas.microsoft.com/exchange/services/2006/types">
+               xmlns:t="https://schemas.microsoft.com/exchange/services/2006/types">
   <soap:Body>
     <UpdateItem MessageDisposition="SaveOnly" ConflictResolution="AutoResolve" 
-                xmlns="http://schemas.microsoft.com/exchange/services/2006/messages">
+                xmlns="https://schemas.microsoft.com/exchange/services/2006/messages">
       <ItemChanges>
         <t:ItemChange>
           <t:ItemId Id="AAAtAEFkb..." ChangeKey="CQAAABYAAAB..."/>
@@ -115,10 +115,10 @@ The following example of an **UpdateItem** request shows how to append text to t
 <soap:Envelope xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
                xmlns:xsd="http://www.w3.org/2001/XMLSchema" 
   xmlns:soap="http://schemas.xmlsoap.org/soap/envelope/" 
-  xmlns:t="http://schemas.microsoft.com/exchange/services/2006/types">
+  xmlns:t="https://schemas.microsoft.com/exchange/services/2006/types">
   <soap:Body>
     <UpdateItem MessageDisposition="SaveOnly" ConflictResolution="AutoResolve" 
-                xmlns="http://schemas.microsoft.com/exchange/services/2006/messages">
+                xmlns="https://schemas.microsoft.com/exchange/services/2006/messages">
       <ItemChanges>
         <t:ItemChange>
           <t:ItemId Id="AAAtAEFkbW..." ChangeKey="CQAAABYA..."/>
@@ -183,10 +183,10 @@ The following example of an **UpdateItem** request shows how to delete a propert
 <?xml version="1.0" encoding="utf-8"?>
 <soap:Envelope xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
                xmlns:xsd="http://www.w3.org/2001/XMLSchema" 
-  xmlns:soap="http://schemas.xmlsoap.org/soap/envelope/" xmlns:t="http://schemas.microsoft.com/exchange/services/2006/types">
+  xmlns:soap="http://schemas.xmlsoap.org/soap/envelope/" xmlns:t="https://schemas.microsoft.com/exchange/services/2006/types">
   <soap:Body>
     <UpdateItem MessageDisposition="SaveOnly" ConflictResolution="AutoResolve" 
-                xmlns="http://schemas.microsoft.com/exchange/services/2006/messages">
+                xmlns="https://schemas.microsoft.com/exchange/services/2006/messages">
       <ItemChanges>
         <t:ItemChange>
           <t:ItemId Id="AAAtAEFkbWluaXN0cm..." ChangeKey="CQAAABYAA..."/>
@@ -239,12 +239,12 @@ The following example shows a successful response to an **UpdateItem** request.
   xmlns:xsd="http://www.w3.org/2001/XMLSchema">
   <soap:Header>
     <t:ServerVersionInfo MajorVersion="8" MinorVersion="0" MajorBuildNumber="664" MinorBuildNumber="0" 
-                         xmlns:t="http://schemas.microsoft.com/exchange/services/2006/types"/>
+                         xmlns:t="https://schemas.microsoft.com/exchange/services/2006/types"/>
   </soap:Header>
   <soap:Body>
-    <UpdateItemResponse xmlns:m="http://schemas.microsoft.com/exchange/services/2006/messages" 
-                        xmlns:t="http://schemas.microsoft.com/exchange/services/2006/types" 
-      xmlns="http://schemas.microsoft.com/exchange/services/2006/messages">
+    <UpdateItemResponse xmlns:m="https://schemas.microsoft.com/exchange/services/2006/messages" 
+                        xmlns:t="https://schemas.microsoft.com/exchange/services/2006/types" 
+      xmlns="https://schemas.microsoft.com/exchange/services/2006/messages">
       <m:ResponseMessages>
         <m:UpdateItemResponseMessage ResponseClass="Success">
           <m:ResponseCode>NoError</m:ResponseCode>

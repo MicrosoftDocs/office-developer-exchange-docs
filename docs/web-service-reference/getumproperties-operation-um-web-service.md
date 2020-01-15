@@ -31,7 +31,7 @@ The following example of a GetUMProperties request shows how to form a request t
 <?xml version="1.0" encoding="utf-8"?>
 <soap:Envelope xmlns:soap="http://schemas.xmlsoap.org/soap/envelope/">
   <soap:Body>
-    <GetUMProperties xmlns="http://schemas.microsoft.com/exchange/services/2006/messages" />
+    <GetUMProperties xmlns="https://schemas.microsoft.com/exchange/services/2006/messages" />
   </soap:Body>
 </soap:Envelope>
 ```
@@ -48,7 +48,7 @@ The following example of a GetUMProperties response shows a response to the GetU
 <?xml version="1.0" encoding="utf-8" ?>
 <soap:Envelope xmlns:soap="http://schemas.xmlsoap.org/soap/envelope/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
   <soap:Body>
-    <GetUMPropertiesResponse xmlns="http://schemas.microsoft.com/exchange/services/2006/messages">
+    <GetUMPropertiesResponse xmlns="https://schemas.microsoft.com/exchange/services/2006/messages">
       <GetUMPropertiesResponse>
         <OofStatus>false</OofStatus> 
         <MissedCallNotificationEnabled>true</MissedCallNotificationEnabled> 

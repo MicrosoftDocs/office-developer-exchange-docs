@@ -33,10 +33,10 @@ The following example of GetAttachment request shows how to get an attachment.
 <soap:Envelope xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
 xmlns:xsd="http://www.w3.org/2001/XMLSchema"
 xmlns:soap="http://schemas.xmlsoap.org/soap/envelope/"
-xmlns:t="http://schemas.microsoft.com/exchange/services/2006/types">
+xmlns:t="https://schemas.microsoft.com/exchange/services/2006/types">
   <soap:Body>
-    <GetAttachment xmlns="http://schemas.microsoft.com/exchange/services/2006/messages"
-    xmlns:t="http://schemas.microsoft.com/exchange/services/2006/types">
+    <GetAttachment xmlns="https://schemas.microsoft.com/exchange/services/2006/messages"
+    xmlns:t="https://schemas.microsoft.com/exchange/services/2006/types">
       <AttachmentShape/>
       <AttachmentIds>
         <t:AttachmentId Id="AAAtAEFkbWluaX..."/>
@@ -82,12 +82,12 @@ The following example shows a successful response to a GetAttachment request. Th
                xmlns:xsd="http://www.w3.org/2001/XMLSchema">
   <soap:Header>
     <t:ServerVersionInfo MajorVersion="8" MinorVersion="0" MajorBuildNumber="662" MinorBuildNumber="0" 
-                         xmlns:t="http://schemas.microsoft.com/exchange/services/2006/types"/>
+                         xmlns:t="https://schemas.microsoft.com/exchange/services/2006/types"/>
   </soap:Header>
   <soap:Body>
-    <GetAttachmentResponse xmlns:m="http://schemas.microsoft.com/exchange/services/2006/messages" 
-                           xmlns:t="http://schemas.microsoft.com/exchange/services/2006/types" 
-                           xmlns="http://schemas.microsoft.com/exchange/services/2006/messages">
+    <GetAttachmentResponse xmlns:m="https://schemas.microsoft.com/exchange/services/2006/messages" 
+                           xmlns:t="https://schemas.microsoft.com/exchange/services/2006/types" 
+                           xmlns="https://schemas.microsoft.com/exchange/services/2006/messages">
       <m:ResponseMessages>
         <m:GetAttachmentResponseMessage ResponseClass="Success">
           <m:ResponseCode>NoError</m:ResponseCode>

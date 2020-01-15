@@ -29,7 +29,8 @@ If you already have an Exchange mailbox account, you can skip this section. Othe
   
 - Get an [Office 365 Developer Site](https://msdn.microsoft.com/library/office/fp179924.aspx) (recommended). This is the quickest way for you to set up an Exchange mailbox. 
     
-- Download [Exchange Server](http://office.microsoft.com/exchange/microsoft-exchange-try-or-buy-exchange-we-can-help-you-decide-FX103746846.aspx?WT%2Eintid1=ODC%5FENUS%5FFX103472230%5FXT103965589).
+- Download [Exchange Server](https://office.microsoft.com/en-us/exchange/microsoft-exchange-try-or-buy-exchange-we-can-help-you-decide-FX103746846.aspx?WT%2Eintid1=ODC%5FENUS%5FFX103472230%5FXT103965589).
+r
     
 After you have verified that you can send and receive email from Exchange, you are ready to set up your development environment. You can use the Exchange web client [Outlook Web App](https://technet.microsoft.com/library/jj657718%28v=exchg.150%29.aspx) to verify that you can send email. 
   
@@ -210,7 +211,7 @@ namespace HelloWorld
 
 If you're ready to do more with your first EWS Managed API client application, explore the following resources:
   
-- [Exchange 2013: 101 code samples](http://code.msdn.microsoft.com/exchange/Exchange-2013-101-Code-3c38582c)   
+- [Exchange 2013: 101 code samples](https://code.msdn.microsoft.com/exchange/Exchange-2013-101-Code-3c38582c)   
 - [Folders and items](folders-and-items-in-ews-in-exchange.md)    
 - [EWSEditor](http://ewseditor.codeplex.com/)
     

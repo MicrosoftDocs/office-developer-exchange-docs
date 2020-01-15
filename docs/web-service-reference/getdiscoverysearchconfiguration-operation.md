@@ -47,8 +47,8 @@ The following example of a **GetDiscoverySearchConfiguration** operation request
 ```XML
 <?xml version="1.0" encoding="UTF-8"?>
 <soap:Envelope xmlns:soap="http://schemas.xmlsoap.org/soap/envelope/"
-               xmlns:t="http://schemas.microsoft.com/exchange/services/2006/types"
-               xmlns:m="http://schemas.microsoft.com/exchange/services/2006/messages">
+               xmlns:t="https://schemas.microsoft.com/exchange/services/2006/types"
+               xmlns:m="https://schemas.microsoft.com/exchange/services/2006/messages">
    <soap:Header>
       <t:RequestServerVersion Version="Exchange2013" />
    </soap:Header>
@@ -81,13 +81,13 @@ The following example shows a successful response to a **GetDiscoverySearchConfi
 <?xml version="1.0" encoding="utf-8"?>
 <s:Envelope xmlns:s="http://schemas.xmlsoap.org/soap/envelope/">
   <s:Header>
-    <h:ServerVersionInfo MajorVersion="15" MinorVersion="0" MajorBuildNumber="526" MinorBuildNumber="0" Version="Exchange2013" xmlns:h="http://schemas.microsoft.com/exchange/services/2006/types" xmlns="http://schemas.microsoft.com/exchange/services/2006/types" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"/>
+    <h:ServerVersionInfo MajorVersion="15" MinorVersion="0" MajorBuildNumber="526" MinorBuildNumber="0" Version="Exchange2013" xmlns:h="https://schemas.microsoft.com/exchange/services/2006/types" xmlns="https://schemas.microsoft.com/exchange/services/2006/types" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"/>
   </s:Header>
   <s:Body xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
-    <GetDiscoverySearchConfigurationResponse ResponseClass="Success" xmlns="http://schemas.microsoft.com/exchange/services/2006/messages">
+    <GetDiscoverySearchConfigurationResponse ResponseClass="Success" xmlns="https://schemas.microsoft.com/exchange/services/2006/messages">
       <ResponseCode>NoError</ResponseCode>
       <DiscoverySearchConfigurations>
-        <DiscoverySearchConfiguration xmlns="http://schemas.microsoft.com/exchange/services/2006/types">
+        <DiscoverySearchConfiguration xmlns="https://schemas.microsoft.com/exchange/services/2006/types">
           <SearchId>MyDiscSearchFor-sbrown</SearchId>
           <SearchQuery>test item</SearchQuery>
           <SearchableMailboxes>
@@ -153,24 +153,24 @@ The following example shows a successful response to a **GetDiscoverySearchConfi
                            MajorBuildNumber="526" 
                            MinorBuildNumber="0" 
                            Version="Exchange2013" 
-                           xmlns:h="http://schemas.microsoft.com/exchange/services/2006/types" 
-                           xmlns="http://schemas.microsoft.com/exchange/services/2006/types" 
+                           xmlns:h="https://schemas.microsoft.com/exchange/services/2006/types" 
+                           xmlns="https://schemas.microsoft.com/exchange/services/2006/types" 
                            xmlns:xsd="http://www.w3.org/2001/XMLSchema" 
                            xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"/>
    </s:Header>
    <s:Body xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
            xmlns:xsd="http://www.w3.org/2001/XMLSchema">
       <GetDiscoverySearchConfigurationResponse ResponseClass="Success" 
-                                               xmlns="http://schemas.microsoft.com/exchange/services/2006/messages">
+                                               xmlns="https://schemas.microsoft.com/exchange/services/2006/messages">
          <ResponseCode>NoError</ResponseCode>
          <DiscoverySearchConfigurations>
-            <DiscoverySearchConfiguration xmlns="http://schemas.microsoft.com/exchange/services/2006/types">
+            <DiscoverySearchConfiguration xmlns="https://schemas.microsoft.com/exchange/services/2006/types">
                <SearchId>MyDiscSearchFor-sbrown</SearchId>
                <SearchQuery>test item</SearchQuery>
                <InPlaceHoldIdentity>3f37d90f53144558a80814ef0272749a9</InPlaceHoldIdentity>
                <ManagedByOrganization/>
             </DiscoverySearchConfiguration>
-            <DiscoverySearchConfiguration xmlns="http://schemas.microsoft.com/exchange/services/2006/types">
+            <DiscoverySearchConfiguration xmlns="https://schemas.microsoft.com/exchange/services/2006/types">
                <SearchId>MyDiscSearch</SearchId>
                <SearchQuery>test</SearchQuery>
                <InPlaceHoldIdentity>6ea486f0f3f140efb044682a2e782abdf</InPlaceHoldIdentity>
@@ -214,18 +214,18 @@ The following example shows a successful response to a **GetDiscoverySearchConfi
                            MajorBuildNumber="526" 
                            MinorBuildNumber="0" 
                            Version="Exchange2013" 
-                           xmlns:h="http://schemas.microsoft.com/exchange/services/2006/types" 
-                           xmlns="http://schemas.microsoft.com/exchange/services/2006/types" 
+                           xmlns:h="https://schemas.microsoft.com/exchange/services/2006/types" 
+                           xmlns="https://schemas.microsoft.com/exchange/services/2006/types" 
                            xmlns:xsd="http://www.w3.org/2001/XMLSchema" 
                            xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"/>
    </s:Header>
    <s:Body xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
            xmlns:xsd="http://www.w3.org/2001/XMLSchema">
       <GetDiscoverySearchConfigurationResponse ResponseClass="Success" 
-                                               xmlns="http://schemas.microsoft.com/exchange/services/2006/messages">
+                                               xmlns="https://schemas.microsoft.com/exchange/services/2006/messages">
          <ResponseCode>NoError</ResponseCode>
          <DiscoverySearchConfigurations>
-            <DiscoverySearchConfiguration xmlns="http://schemas.microsoft.com/exchange/services/2006/types">
+            <DiscoverySearchConfiguration xmlns="https://schemas.microsoft.com/exchange/services/2006/types">
                <SearchId>MyDiscSearchFor-sbrown</SearchId>
                <SearchQuery>test item</SearchQuery>
                <SearchableMailboxes>
@@ -240,7 +240,7 @@ The following example shows a successful response to a **GetDiscoverySearchConfi
                   </SearchableMailbox>
                </SearchableMailboxes>
             </DiscoverySearchConfiguration>
-            <DiscoverySearchConfiguration xmlns="http://schemas.microsoft.com/exchange/services/2006/types">
+            <DiscoverySearchConfiguration xmlns="https://schemas.microsoft.com/exchange/services/2006/types">
                <SearchId>MyDiscSearch</SearchId>
                <SearchQuery>test</SearchQuery>
                <SearchableMailboxes>
@@ -314,15 +314,15 @@ The following example shows an error response to a **GetDiscoverySearchConfigura
                            MajorBuildNumber="526" 
                            MinorBuildNumber="0" 
                            Version="Exchange2013" 
-                           xmlns:h="http://schemas.microsoft.com/exchange/services/2006/types" 
-                           xmlns="http://schemas.microsoft.com/exchange/services/2006/types" 
+                           xmlns:h="https://schemas.microsoft.com/exchange/services/2006/types" 
+                           xmlns="https://schemas.microsoft.com/exchange/services/2006/types" 
                            xmlns:xsd="http://www.w3.org/2001/XMLSchema" 
                            xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"/>
    </s:Header>
    <s:Body xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
            xmlns:xsd="http://www.w3.org/2001/XMLSchema">
       <GetDiscoverySearchConfigurationResponse ResponseClass="Error" 
-                                               xmlns="http://schemas.microsoft.com/exchange/services/2006/messages">
+                                               xmlns="https://schemas.microsoft.com/exchange/services/2006/messages">
          <MessageText>Search configuration corresponding to the search id was not found.</MessageText>
          <ResponseCode>ErrorInvalidArgument</ResponseCode>
          <DescriptiveLinkKey>0</DescriptiveLinkKey>

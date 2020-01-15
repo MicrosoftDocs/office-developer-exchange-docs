@@ -33,9 +33,9 @@ The following code example shows how to update the e-mail address of a contact.
  xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
  xmlns:xsd="http://www.w3.org/2001/XMLSchema"
  xmlns:soap="http://schemas.xmlsoap.org/soap/envelope/"
- xmlns:t="http://schemas.microsoft.com/exchange/services/2006/types">
+ xmlns:t="https://schemas.microsoft.com/exchange/services/2006/types">
   <soap:Body>
-    <UpdateItem xmlns="http://schemas.microsoft.com/exchange/services/2006/messages"
+    <UpdateItem xmlns="https://schemas.microsoft.com/exchange/services/2006/messages"
                 ConflictResolution="AlwaysOverwrite">
       <ItemChanges>
         <t:ItemChange>
@@ -100,12 +100,12 @@ The following code example shows a successful UpdateItem response.
                xmlns:xsd="http://www.w3.org/2001/XMLSchema">
   <soap:Header>
     <t:ServerVersionInfo MajorVersion="8" MinorVersion="0" MajorBuildNumber="602" MinorBuildNumber="0" 
-                         xmlns:t="http://schemas.microsoft.com/exchange/services/2006/types" />
+                         xmlns:t="https://schemas.microsoft.com/exchange/services/2006/types" />
   </soap:Header>
   <soap:Body>
-    <UpdateItemResponse xmlns:m="http://schemas.microsoft.com/exchange/services/2006/messages" 
-                        xmlns:t="http://schemas.microsoft.com/exchange/services/2006/types" 
-                        xmlns="http://schemas.microsoft.com/exchange/services/2006/messages">
+    <UpdateItemResponse xmlns:m="https://schemas.microsoft.com/exchange/services/2006/messages" 
+                        xmlns:t="https://schemas.microsoft.com/exchange/services/2006/types" 
+                        xmlns="https://schemas.microsoft.com/exchange/services/2006/messages">
       <m:ResponseMessages>
         <m:UpdateItemResponseMessage ResponseClass="Success">
           <m:ResponseCode>NoError</m:ResponseCode>
@@ -158,9 +158,9 @@ The following code example shows an invalid request.
  xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
  xmlns:xsd="http://www.w3.org/2001/XMLSchema"
  xmlns:soap="http://schemas.xmlsoap.org/soap/envelope/"
- xmlns:t="http://schemas.microsoft.com/exchange/services/2006/types">
+ xmlns:t="https://schemas.microsoft.com/exchange/services/2006/types">
   <soap:Body>
-    <UpdateItem xmlns="http://schemas.microsoft.com/exchange/services/2006/messages"
+    <UpdateItem xmlns="https://schemas.microsoft.com/exchange/services/2006/messages"
                 ConflictResolution="AlwaysOverwrite">
       <ItemChanges>
         <t:ItemChange>
@@ -198,17 +198,17 @@ The following code example shows an error response to an UpdateItem (Contact) re
 <soap:Envelope xmlns:soap="http://schemas.xmlsoap.org/soap/envelope/">
   <soap:Header>
     <t:ServerVersionInfo MajorVersion="8" MinorVersion="0" MajorBuildNumber="602" MinorBuildNumber="0" 
-                         xmlns:t="http://schemas.microsoft.com/exchange/services/2006/types" />
+                         xmlns:t="https://schemas.microsoft.com/exchange/services/2006/types" />
   </soap:Header>
   <soap:Body>
     <soap:Fault>
       <soap:faultcode>Client</soap:faultcode>
       <soap:faultstring>The request failed schema validation.</soap:faultstring>
       <detail>
-        <e:ResponseCode xmlns:e="http://schemas.microsoft.com/exchange/services/2006/errors">ErrorSchemaValidation</e:ResponseCode>
-        <e:Message xmlns:e="http://schemas.microsoft.com/exchange/services/2006/errors">The 'Key' attribute is invalid - The value 'EmailAddress4' is invalid according to its data type 'http://schemas.microsoft.com/exchange/services/2006/types:EmailAddressKeyType' - The Enumeration constraint failed.</e:Message>
-        <e:Line xmlns:e="http://schemas.microsoft.com/exchange/services/2006/errors">17</e:Line>
-        <e:Position xmlns:e="http://schemas.microsoft.com/exchange/services/2006/errors">19</e:Position>
+        <e:ResponseCode xmlns:e="https://schemas.microsoft.com/exchange/services/2006/errors">ErrorSchemaValidation</e:ResponseCode>
+        <e:Message xmlns:e="https://schemas.microsoft.com/exchange/services/2006/errors">The 'Key' attribute is invalid - The value 'EmailAddress4' is invalid according to its data type 'https://schemas.microsoft.com/exchange/services/2006/types:EmailAddressKeyType' - The Enumeration constraint failed.</e:Message>
+        <e:Line xmlns:e="https://schemas.microsoft.com/exchange/services/2006/errors">17</e:Line>
+        <e:Position xmlns:e="https://schemas.microsoft.com/exchange/services/2006/errors">19</e:Position>
       </detail>
     </soap:Fault>
   </soap:Body>

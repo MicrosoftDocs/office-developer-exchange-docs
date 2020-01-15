@@ -16,7 +16,7 @@ localization_priority: Priority
 
 Discover how you can define and access properties on items and folders by using EWS in Exchange.
   
-An Exchange mailbox contains a large number of items, including email messages, appointments, meetings, and so on. Those items are made up of properties; the properties describe the items. You can use item properties to perform a [search](search-and-ews-in-exchange.md), [synchronize item changes](mailbox-synchronization-and-ews-in-exchange.md), and [create custom property types](http://code.msdn.microsoft.com/exchange/Exchange-2013-Create-314db25a). This article provides an overview of properties and how you can work with properties in your application.
+An Exchange mailbox contains a large number of items, including email messages, appointments, meetings, and so on. Those items are made up of properties; the properties describe the items. You can use item properties to perform a [search](search-and-ews-in-exchange.md), [synchronize item changes](mailbox-synchronization-and-ews-in-exchange.md), and [create custom property types](https://code.msdn.microsoft.com/exchange/Exchange-2013-Create-314db25a). This article provides an overview of properties and how you can work with properties in your application.
   
 ## Exchange item properties
 <a name="ItemsAreProperties"> </a>
@@ -173,17 +173,17 @@ If you want to learn more about how you can use extended properties in your appl
   
 - [MFCMapi](http://mfcmapi.codeplex.com/)
     
-- [Exchange 2013: Provision custom X-headers programmatically](http://code.msdn.microsoft.com/exchange/Exchange-2013-Provision-d4ef5719)
+- [Exchange 2013: Provision custom X-headers programmatically](https://code.msdn.microsoft.com/exchange/Exchange-2013-Provision-d4ef5719)
     
-- [Exchange 2013: Access a property by its property tag](http://code.msdn.microsoft.com/exchange/Exchange-2013-Access-a-719875ac)
+- [Exchange 2013: Access a property by its property tag](https://code.msdn.microsoft.com/exchange/Exchange-2013-Access-a-719875ac)
     
-- [Exchange 2013: Access a named property by its identifier](http://code.msdn.microsoft.com/exchange/Exchange-2013-Access-a-02dbe22f)
+- [Exchange 2013: Access a named property by its identifier](https://code.msdn.microsoft.com/exchange/Exchange-2013-Access-a-02dbe22f)
     
-- [Exchange 2013: Access a named property by its name](http://code.msdn.microsoft.com/exchange/Exchange-2013-Access-a-6556e183)
+- [Exchange 2013: Access a named property by its name](https://code.msdn.microsoft.com/exchange/Exchange-2013-Access-a-6556e183)
     
-- [Exchange 2013: Access a property by property set GUID and name](http://code.msdn.microsoft.com/exchange/Exchange-2013-Access-a-4021f971)
+- [Exchange 2013: Access a property by property set GUID and name](https://code.msdn.microsoft.com/exchange/Exchange-2013-Access-a-4021f971)
     
-- [Exchange 2013: Create custom extended properties programmatically](http://code.msdn.microsoft.com/exchange/Exchange-2013-Create-314db25a)
+- [Exchange 2013: Create custom extended properties programmatically](https://code.msdn.microsoft.com/exchange/Exchange-2013-Create-314db25a)
     
 ## In this section
 <a name="bk_inthissection"> </a>

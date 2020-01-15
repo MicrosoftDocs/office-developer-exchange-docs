@@ -53,9 +53,9 @@ In the following example, the identifiers and the **Data** element content are s
 <?xml version="1.0" encoding="utf-8" ?>
 <soap:Envelope xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
       xmlns:xsd="http://www.w3.org/2001/XMLSchema"
-      xmlns:soap="http://schemas.xmlsoap.org/soap/envelope/"
-      xmlns:t="http://schemas.microsoft.com/exchange/services/2006/types"
-      xmlns:m="http://schemas.microsoft.com/exchange/services/2006/messages">
+      xmlns:soap="https://schemas.xmlsoap.org/soap/envelope/"
+      xmlns:t="https://schemas.microsoft.com/exchange/services/2006/types"
+      xmlns:m="https://schemas.microsoft.com/exchange/services/2006/messages">
   <soap:Header>
     <t:RequestServerVersion Version="Exchange2013_SP1"/>
   </soap:Header>
@@ -77,7 +77,7 @@ The server responds to the **UploadItems** request with an [UploadItemsResponse]
 ## Use the MIME stream to import from common file formats
 <a name="bk_importproperties"> </a>
 
-EWS can import EML (.eml) and iCal (.ics) files. You'll want to test your MIME content to see how the Exchange MIME parser handles the content of your MIME stream. Although using the MIME stream is convenient, it is typically better to [Use EWS Managed API or EWS item types to import an item](#bk_importproperties). Here's an example of how to [import a vCard](http://code.msdn.microsoft.com/How-to-Import-vCard-Files-ffa0ff50).
+EWS can import EML (.eml) and iCal (.ics) files. You'll want to test your MIME content to see how the Exchange MIME parser handles the content of your MIME stream. Although using the MIME stream is convenient, it is typically better to [Use EWS Managed API or EWS item types to import an item](#bk_importproperties). Here's an example of how to [import a vCard](https://code.msdn.microsoft.com/How-to-Import-vCard-Files-ffa0ff50).
   
 ### Use the EWS Managed API to import an email from an EML file by using the MIME stream
 
@@ -153,9 +153,9 @@ You can use the [CreateItem](https://msdn.microsoft.com/library/78a52120-f1d0-4e
   
 ```XML
 <?xml version="1.0" encoding="UTF-8"?>
-<soap:Envelope xmlns:soap="http://schemas.xmlsoap.org/soap/envelope/"
-               xmlns:t="http://schemas.microsoft.com/exchange/services/2006/types"
-               xmlns:m="http://schemas.microsoft.com/exchange/services/2006/messages">
+<soap:Envelope xmlns:soap="https://schemas.xmlsoap.org/soap/envelope/"
+               xmlns:t="https://schemas.microsoft.com/exchange/services/2006/types"
+               xmlns:m="https://schemas.microsoft.com/exchange/services/2006/messages">
   <soap:Header>
     <t:RequestServerVersion Version="Exchange2013_SP1" />
     <t:MailboxCulture>en-US</t:MailboxCulture>

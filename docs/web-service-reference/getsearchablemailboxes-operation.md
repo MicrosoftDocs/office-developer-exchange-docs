@@ -48,8 +48,8 @@ The following example of a **GetSearchableMailboxes** operation request shows ho
 ```XML
 <?xml version="1.0" encoding="UTF-8"?>
 <soap:Envelope xmlns:soap="http://schemas.xmlsoap.org/soap/envelope/"
-               xmlns:t="http://schemas.microsoft.com/exchange/services/2006/types"
-               xmlns:m="http://schemas.microsoft.com/exchange/services/2006/messages">
+               xmlns:t="https://schemas.microsoft.com/exchange/services/2006/types"
+               xmlns:m="https://schemas.microsoft.com/exchange/services/2006/messages">
    <soap:Header>
       <t:RequestServerVersion Version="Exchange2013" />
    </soap:Header>
@@ -82,18 +82,18 @@ The following example shows a successful response to a **GetSearchableMailboxes*
                            MajorBuildNumber="526" 
                            MinorBuildNumber="0" 
                            Version="Exchange2013" 
-                           xmlns:h="http://schemas.microsoft.com/exchange/services/2006/types" 
-                           xmlns="http://schemas.microsoft.com/exchange/services/2006/types" 
+                           xmlns:h="https://schemas.microsoft.com/exchange/services/2006/types" 
+                           xmlns="https://schemas.microsoft.com/exchange/services/2006/types" 
                            xmlns:xsd="http://www.w3.org/2001/XMLSchema" 
                            xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"/>
    </s:Header>
    <s:Body xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
            xmlns:xsd="http://www.w3.org/2001/XMLSchema">
       <GetSearchableMailboxesResponse ResponseClass="Success" 
-                                      xmlns="http://schemas.microsoft.com/exchange/services/2006/messages">
+                                      xmlns="https://schemas.microsoft.com/exchange/services/2006/messages">
          <ResponseCode>NoError</ResponseCode>
          <SearchableMailboxes>
-            <SearchableMailbox xmlns="http://schemas.microsoft.com/exchange/services/2006/types">
+            <SearchableMailbox xmlns="https://schemas.microsoft.com/exchange/services/2006/types">
                <Guid>33a408fe-2574-4e3b-49f5-5e1e000a3035</Guid>
                <PrimarySmtpAddress>LOLgroup@contoso.com</PrimarySmtpAddress>
                <IsExternalMailbox>false</IsExternalMailbox>
@@ -131,13 +131,13 @@ The following example shows a successful response to a **GetSearchableMailboxes*
 <?xml version="1.0" encoding="utf-8"?>
 <s:Envelope xmlns:s="http://schemas.xmlsoap.org/soap/envelope/">
   <s:Header>
-    <h:ServerVersionInfo MajorVersion="15" MinorVersion="0" MajorBuildNumber="526" MinorBuildNumber="0" Version="Exchange2013" xmlns:h="http://schemas.microsoft.com/exchange/services/2006/types" xmlns="http://schemas.microsoft.com/exchange/services/2006/types" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"/>
+    <h:ServerVersionInfo MajorVersion="15" MinorVersion="0" MajorBuildNumber="526" MinorBuildNumber="0" Version="Exchange2013" xmlns:h="https://schemas.microsoft.com/exchange/services/2006/types" xmlns="https://schemas.microsoft.com/exchange/services/2006/types" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"/>
   </s:Header>
   <s:Body xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
-    <GetSearchableMailboxesResponse ResponseClass="Success" xmlns="http://schemas.microsoft.com/exchange/services/2006/messages">
+    <GetSearchableMailboxesResponse ResponseClass="Success" xmlns="https://schemas.microsoft.com/exchange/services/2006/messages">
       <ResponseCode>NoError</ResponseCode>
       <SearchableMailboxes>
-        <SearchableMailbox xmlns="http://schemas.microsoft.com/exchange/services/2006/types">
+        <SearchableMailbox xmlns="https://schemas.microsoft.com/exchange/services/2006/types">
           <Guid>e2d42cdf-a227-1ec3-486b-6fa0ebaadb9f5</Guid>
           <PrimarySmtpAddress>JSmith@contoso.com</PrimarySmtpAddress>
           <IsExternalMailbox>false</IsExternalMailbox>
@@ -146,7 +146,7 @@ The following example shows a successful response to a **GetSearchableMailboxes*
           <IsMembershipGroup>false</IsMembershipGroup>
           <ReferenceId>/o=First Organization/ou=Exchange Administrative Group (FYDLT)/cn=Recipients/cn=0a1fc86f883846152405d60956dd02e7-Julia</ReferenceId>
         </SearchableMailbox>
-        <SearchableMailbox xmlns="http://schemas.microsoft.com/exchange/services/2006/types">
+        <SearchableMailbox xmlns="https://schemas.microsoft.com/exchange/services/2006/types">
           <Guid>45d0fff1-6541-459a-a343-52453b30e12ca</Guid>
           <PrimarySmtpAddress>LMoore@contoso.com</PrimarySmtpAddress>
           <IsExternalMailbox>false</IsExternalMailbox>
@@ -155,7 +155,7 @@ The following example shows a successful response to a **GetSearchableMailboxes*
           <IsMembershipGroup>false</IsMembershipGroup>
           <ReferenceId>/o=First Organization/ou=Exchange Administrative Group (FYDLT)/cn=Recipients/cn=2910d8f8316f4378bbf9338d8f9d714b-Laura</ReferenceId>
         </SearchableMailbox>
-        <SearchableMailbox xmlns="http://schemas.microsoft.com/exchange/services/2006/types">
+        <SearchableMailbox xmlns="https://schemas.microsoft.com/exchange/services/2006/types">
           <Guid>3c620d04-8b33-435a-95be-5b939375576</Guid>
           <PrimarySmtpAddress>SBrown@contoso.com</PrimarySmtpAddress>
           <IsExternalMailbox>false</IsExternalMailbox>
@@ -197,15 +197,15 @@ The following example shows an error response to a **GetSearchableMailboxes** op
                            MajorBuildNumber="526"
                            MinorBuildNumber="0" 
                            Version="Exchange2013" 
-                           xmlns:h="http://schemas.microsoft.com/exchange/services/2006/types" 
-                           xmlns="http://schemas.microsoft.com/exchange/services/2006/types" 
+                           xmlns:h="https://schemas.microsoft.com/exchange/services/2006/types" 
+                           xmlns="https://schemas.microsoft.com/exchange/services/2006/types" 
                            xmlns:xsd="http://www.w3.org/2001/XMLSchema" 
                            xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"/>
    </s:Header>
    <s:Body xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
            xmlns:xsd="http://www.w3.org/2001/XMLSchema">
       <GetSearchableMailboxesResponse ResponseClass="Error" 
-                                      xmlns="http://schemas.microsoft.com/exchange/services/2006/messages">
+                                      xmlns="https://schemas.microsoft.com/exchange/services/2006/messages">
          <MessageText>Cannot use wildcard or empty query when auto group expansion is enabled.</MessageText>
          <ResponseCode>ErrorInvalidArgument</ResponseCode>
          <DescriptiveLinkKey>0</DescriptiveLinkKey>

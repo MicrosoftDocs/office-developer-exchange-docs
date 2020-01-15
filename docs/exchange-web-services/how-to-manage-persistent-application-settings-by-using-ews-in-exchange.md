@@ -41,9 +41,9 @@ You can use the [CreateUserConfiguration](https://msdn.microsoft.com/library/eb5
 ```XML
 <?xml version="1.0" encoding="utf-8"?>
 <soap:Envelope xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
-               xmlns:m="http://schemas.microsoft.com/exchange/services/2006/messages" 
-               xmlns:t="http://schemas.microsoft.com/exchange/services/2006/types" 
-               xmlns:soap="http://schemas.xmlsoap.org/soap/envelope/">
+               xmlns:m="https://schemas.microsoft.com/exchange/services/2006/messages" 
+               xmlns:t="https://schemas.microsoft.com/exchange/services/2006/types" 
+               xmlns:soap="https://schemas.xmlsoap.org/soap/envelope/">
   <soap:Header>
     <t:RequestServerVersion Version="Exchange2013" />
   </soap:Header>
@@ -112,9 +112,9 @@ The following example shows the request XML for finding user configuration objec
 ```XML
 <?xml version="1.0" encoding="utf-8"?>
 <soap:Envelope xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
-               xmlns:m="http://schemas.microsoft.com/exchange/services/2006/messages" 
-               xmlns:t="http://schemas.microsoft.com/exchange/services/2006/types" 
-               xmlns:soap="http://schemas.xmlsoap.org/soap/envelope/">
+               xmlns:m="https://schemas.microsoft.com/exchange/services/2006/messages" 
+               xmlns:t="https://schemas.microsoft.com/exchange/services/2006/types" 
+               xmlns:soap="https://schemas.xmlsoap.org/soap/envelope/">
   <soap:Header>
     <t:RequestServerVersion Version="Exchange2013" />
   </soap:Header>
@@ -145,22 +145,22 @@ The following example shows the successful response XML for finding user configu
     
 ```XML
 <?xml version="1.0" encoding="utf-8"?>
-<s:Envelope xmlns:s="http://schemas.xmlsoap.org/soap/envelope/">
+<s:Envelope xmlns:s="https://schemas.xmlsoap.org/soap/envelope/">
   <s:Header>
     <h:ServerVersionInfo MajorVersion="15" 
                          MinorVersion="0" 
                          MajorBuildNumber="800" 
                          MinorBuildNumber="5" 
                          Version="V2_6" 
-                         xmlns:h="http://schemas.microsoft.com/exchange/services/2006/types" 
-                         xmlns="http://schemas.microsoft.com/exchange/services/2006/types" 
+                         xmlns:h="https://schemas.microsoft.com/exchange/services/2006/types" 
+                         xmlns="https://schemas.microsoft.com/exchange/services/2006/types" 
                          xmlns:xsd="http://www.w3.org/2001/XMLSchema" 
                          xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" />
   </s:Header>
   <s:Body xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
           xmlns:xsd="http://www.w3.org/2001/XMLSchema">
-    <m:FindItemResponse xmlns:m="http://schemas.microsoft.com/exchange/services/2006/messages" 
-                        xmlns:t="http://schemas.microsoft.com/exchange/services/2006/types">
+    <m:FindItemResponse xmlns:m="https://schemas.microsoft.com/exchange/services/2006/messages" 
+                        xmlns:t="https://schemas.microsoft.com/exchange/services/2006/types">
       <m:ResponseMessages>
         <m:FindItemResponseMessage ResponseClass="Success">
           <m:ResponseCode>NoError</m:ResponseCode>
@@ -233,9 +233,9 @@ You can use the [GetUserConfiguration](https://msdn.microsoft.com/library/71d50e
 ```XML
 <?xml version="1.0" encoding="utf-8"?>
 <soap:Envelope xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
-               xmlns:m="http://schemas.microsoft.com/exchange/services/2006/messages" 
-               xmlns:t="http://schemas.microsoft.com/exchange/services/2006/types" 
-               xmlns:soap="http://schemas.xmlsoap.org/soap/envelope/">
+               xmlns:m="https://schemas.microsoft.com/exchange/services/2006/messages" 
+               xmlns:t="https://schemas.microsoft.com/exchange/services/2006/types" 
+               xmlns:soap="https://schemas.xmlsoap.org/soap/envelope/">
   <soap:Header>
     <t:RequestServerVersion Version="Exchange2013" />
   </soap:Header>
@@ -254,22 +254,22 @@ The following example shows the successful response XML for getting a user confi
   
 ```XML
 <?xml version="1.0" encoding="utf-8"?>
-<s:Envelope xmlns:s="http://schemas.xmlsoap.org/soap/envelope/">
+<s:Envelope xmlns:s="https://schemas.xmlsoap.org/soap/envelope/">
   <s:Header>
     <h:ServerVersionInfo MajorVersion="15" 
                          MinorVersion="0" 
                          MajorBuildNumber="800" 
                          MinorBuildNumber="5" 
                          Version="V2_6" 
-                         xmlns:h="http://schemas.microsoft.com/exchange/services/2006/types" 
-                         xmlns="http://schemas.microsoft.com/exchange/services/2006/types" 
+                         xmlns:h="https://schemas.microsoft.com/exchange/services/2006/types" 
+                         xmlns="https://schemas.microsoft.com/exchange/services/2006/types" 
                          xmlns:xsd="http://www.w3.org/2001/XMLSchema" 
                          xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" />
   </s:Header>
   <s:Body xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
           xmlns:xsd="http://www.w3.org/2001/XMLSchema">
-    <m:GetUserConfigurationResponse xmlns:m="http://schemas.microsoft.com/exchange/services/2006/messages" 
-                                    xmlns:t="http://schemas.microsoft.com/exchange/services/2006/types">
+    <m:GetUserConfigurationResponse xmlns:m="https://schemas.microsoft.com/exchange/services/2006/messages" 
+                                    xmlns:t="https://schemas.microsoft.com/exchange/services/2006/types">
       <m:ResponseMessages>
         <m:GetUserConfigurationResponseMessage ResponseClass="Success">
           <m:ResponseCode>NoError</m:ResponseCode>
@@ -313,9 +313,9 @@ The following example shows the request XML for updating a user configuration ob
 ```xml
 <?xml version="1.0" encoding="utf-8"?>
 <soap:Envelope xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
-               xmlns:m="http://schemas.microsoft.com/exchange/services/2006/messages" 
-               xmlns:t="http://schemas.microsoft.com/exchange/services/2006/types" 
-               xmlns:soap="http://schemas.xmlsoap.org/soap/envelope/">
+               xmlns:m="https://schemas.microsoft.com/exchange/services/2006/messages" 
+               xmlns:t="https://schemas.microsoft.com/exchange/services/2006/types" 
+               xmlns:soap="https://schemas.xmlsoap.org/soap/envelope/">
   <soap:Header>
     <t:RequestServerVersion Version="Exchange2013" />
   </soap:Header>
@@ -394,9 +394,9 @@ The following example shows the request XML for deleting a user configuration ob
 ```xml
 <?xml version="1.0" encoding="utf-8"?>
 <soap:Envelope xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
-               xmlns:m="http://schemas.microsoft.com/exchange/services/2006/messages" 
-               xmlns:t="http://schemas.microsoft.com/exchange/services/2006/types" 
-               xmlns:soap="http://schemas.xmlsoap.org/soap/envelope/">
+               xmlns:m="https://schemas.microsoft.com/exchange/services/2006/messages" 
+               xmlns:t="https://schemas.microsoft.com/exchange/services/2006/types" 
+               xmlns:soap="https://schemas.xmlsoap.org/soap/envelope/">
   <soap:Header>
     <t:RequestServerVersion Version="Exchange2013" />
   </soap:Header>

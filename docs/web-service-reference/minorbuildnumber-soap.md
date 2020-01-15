@@ -48,7 +48,7 @@ An integer value that represents the minor build number of the server that proce
 
 |||
 |:-----|:-----|
-|Namespace  <br/> |http://schemas.microsoft.com/exchange/2010/Autodiscover  <br/> |
+|Namespace  <br/> |https://schemas.microsoft.com/exchange/2010/Autodiscover  <br/> |
 |Schema Name  <br/> |Autodiscover schema  <br/> |
 |Validation File  <br/> |messages.xsd  <br/> |
 |Can be Empty  <br/> |True  <br/> |

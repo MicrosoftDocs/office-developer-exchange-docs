@@ -31,7 +31,7 @@ The following example of a GetCallInfo request shows how to form a request to ge
 <?xml version="1.0" encoding="utf-8"?>
 <soap:Envelope xmlns:soap="http://schemas.xmlsoap.org/soap/envelope/">
   <soap:Body>
-    <GetCallInfo xmlns="http://schemas.microsoft.com/exchange/services/2006/messages">
+    <GetCallInfo xmlns="https://schemas.microsoft.com/exchange/services/2006/messages">
       <CallId>MDlkZjllZGMtNGUyMy00NzA5LWJkYWYtN2JlMjBjYjBhZTU2QGRmLWV1bS0wMS5leGNoYW5nZS5jb3JwLm1pY3Jvc29mdC5jb20=</CallId>
     </GetCallInfo>
   </soap:Body>
@@ -50,7 +50,7 @@ The following example of a GetCallInfo response shows a response to a GetCallInf
 <?xml version="1.0" encoding="utf-8" ?> 
 <soap:Envelope xmlns:soap="http://schemas.xmlsoap.org/soap/envelope/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
   <soap:Body>
-    <GetCallInfoResponse xmlns="http://schemas.microsoft.com/exchange/services/2006/messages">
+    <GetCallInfoResponse xmlns="https://schemas.microsoft.com/exchange/services/2006/messages">
       <GetCallInfoResponse>
         <CallState>Connected</CallState> 
         <EventCause>None</EventCause> 

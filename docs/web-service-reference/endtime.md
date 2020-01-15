@@ -64,7 +64,7 @@ The schema includes many [EndTime](endtime.md) elements.
 
 |||
 |:-----|:-----|
-|Namespace  <br/> |http://schemas.microsoft.com/exchange/services/2006/types  <br/> |
+|Namespace  <br/> |https://schemas.microsoft.com/exchange/services/2006/types  <br/> |
 |Schema Name  <br/> |Types schema  <br/> |
 |Validation File  <br/> |Types.xsd  <br/> |
 |Can be Empty  <br/> |False  <br/> |

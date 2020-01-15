@@ -38,8 +38,8 @@ The following example of a **GetPasswordExpirationDate** operation request shows
 ```XML
 <soap:Envelope xmlns:soap="http://schemas.xmlsoap.org/soap/envelope/"
                xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
-               xmlns:m="http://schemas.microsoft.com/exchange/services/2006/messages"
-               xmlns:t="http://schemas.microsoft.com/exchange/services/2006/types">
+               xmlns:m="https://schemas.microsoft.com/exchange/services/2006/messages"
+               xmlns:t="https://schemas.microsoft.com/exchange/services/2006/types">
   <soap:Header>
   </soap:Header>
   <soap:Body>

@@ -61,7 +61,7 @@ The following example of an ExpandDL request shows how to form a request to expa
 
 ```xml
 <?xml version="1.0" encoding="utf-8"?>
-<soap:Envelope xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:m="http://schemas.microsoft.com/exchange/services/2006/messages" xmlns:t="http://schemas.microsoft.com/exchange/services/2006/types" xmlns:soap="http://schemas.xmlsoap.org/soap/envelope/">
+<soap:Envelope xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:m="https://schemas.microsoft.com/exchange/services/2006/messages" xmlns:t="https://schemas.microsoft.com/exchange/services/2006/types" xmlns:soap="http://schemas.xmlsoap.org/soap/envelope/">
   <soap:Header>
     <t:RequestServerVersion Version="Exchange2013_SP1" />
   </soap:Header>
@@ -90,10 +90,10 @@ The following example of an ExpandDL request shows how to form a request to expa
 ```xml
 <?xml version="1.0" encoding="utf-8"?>
 <soap:Envelope xmlns:soap="http://schemas.xmlsoap.org/soap/envelope/"
-               xmlns:t="http://schemas.microsoft.com/exchange/services/2006/types">
+               xmlns:t="https://schemas.microsoft.com/exchange/services/2006/types">
   <soap:Body>
-    <ExpandDL xmlns="http://schemas.microsoft.com/exchange/services/2006/messages"
-              xmlns:t="http://schemas.microsoft.com/exchange/services/2006/types">
+    <ExpandDL xmlns="https://schemas.microsoft.com/exchange/services/2006/messages"
+              xmlns:t="https://schemas.microsoft.com/exchange/services/2006/types">
         <t:Mailbox>
           <t:EmailAddress>TheDistributionList</t:EmailAddress>
         </t:Mailbox>
@@ -150,12 +150,12 @@ The following example of an ExpandDL response shows a response to the request de
   <soap:Header>
     <t:ServerVersionInfo MajorVersion="8" MinorVersion="0" 
                          MajorBuildNumber="628" MinorBuildNumber="0" 
-                         xmlns:t="http://schemas.microsoft.com/exchange/services/2006/types" />
+                         xmlns:t="https://schemas.microsoft.com/exchange/services/2006/types" />
   </soap:Header>
   <soap:Body>
-    <ExpandDLResponse xmlns:m="http://schemas.microsoft.com/exchange/services/2006/messages" 
-                      xmlns:t="http://schemas.microsoft.com/exchange/services/2006/types" 
-                      xmlns="http://schemas.microsoft.com/exchange/services/2006/messages">
+    <ExpandDLResponse xmlns:m="https://schemas.microsoft.com/exchange/services/2006/messages" 
+                      xmlns:t="https://schemas.microsoft.com/exchange/services/2006/types" 
+                      xmlns="https://schemas.microsoft.com/exchange/services/2006/messages">
       <m:ResponseMessages>
         <m:ExpandDLResponseMessage ResponseClass="Success">
           <m:ResponseCode>NoError</m:ResponseCode>
@@ -230,12 +230,12 @@ The following example shows an error response to an ExpandDL request.
   <soap:Header>
     <t:ServerVersionInfo MajorVersion="8" MinorVersion="0" 
                          MajorBuildNumber="628" MinorBuildNumber="0" 
-                         xmlns:t="http://schemas.microsoft.com/exchange/services/2006/types" />
+                         xmlns:t="https://schemas.microsoft.com/exchange/services/2006/types" />
   </soap:Header>
   <soap:Body>
-    <ExpandDLResponse xmlns:m="http://schemas.microsoft.com/exchange/services/2006/messages" 
-                      xmlns:t="http://schemas.microsoft.com/exchange/services/2006/types" 
-                      xmlns="http://schemas.microsoft.com/exchange/services/2006/messages">
+    <ExpandDLResponse xmlns:m="https://schemas.microsoft.com/exchange/services/2006/messages" 
+                      xmlns:t="https://schemas.microsoft.com/exchange/services/2006/types" 
+                      xmlns="https://schemas.microsoft.com/exchange/services/2006/messages">
       <m:ResponseMessages>
         <m:ExpandDLResponseMessage ResponseClass="Error">
           <m:MessageText>No results are found.</m:MessageText>

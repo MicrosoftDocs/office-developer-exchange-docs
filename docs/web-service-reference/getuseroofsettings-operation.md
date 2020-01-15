@@ -50,8 +50,8 @@ The following example shows a **GetUserOofSettings** request that gets a single 
                xmlns:xsd="http://www.w3.org/2001/XMLSchema" 
                xmlns:soap="http://schemas.xmlsoap.org/soap/envelope/">
   <soap:Body>
-    <GetUserOofSettingsRequest xmlns="http://schemas.microsoft.com/exchange/services/2006/messages">
-      <Mailbox xmlns ="http://schemas.microsoft.com/exchange/services/2006/types">
+    <GetUserOofSettingsRequest xmlns="https://schemas.microsoft.com/exchange/services/2006/messages">
+      <Mailbox xmlns ="https://schemas.microsoft.com/exchange/services/2006/types">
         <Address>User1@example.com</Address>
       </Mailbox>
     </GetUserOofSettingsRequest>
@@ -84,14 +84,14 @@ The following example shows a disabled OOF state with the OOF messages.
                xmlns:xsd="http://www.w3.org/2001/XMLSchema">
   <soap:Header>
     <t:ServerVersionInfo MajorVersion="8" MinorVersion="0" MajorBuildNumber="685" MinorBuildNumber="8" 
-                         xmlns:t="http://schemas.microsoft.com/exchange/services/2006/types" />
+                         xmlns:t="https://schemas.microsoft.com/exchange/services/2006/types" />
   </soap:Header>
   <soap:Body>
-    <GetUserOofSettingsResponse xmlns="http://schemas.microsoft.com/exchange/services/2006/messages">
+    <GetUserOofSettingsResponse xmlns="https://schemas.microsoft.com/exchange/services/2006/messages">
       <ResponseMessage ResponseClass="Success">
         <ResponseCode>NoError</ResponseCode>
       </ResponseMessage>
-      <OofSettings xmlns="http://schemas.microsoft.com/exchange/services/2006/types">
+      <OofSettings xmlns="https://schemas.microsoft.com/exchange/services/2006/types">
         <OofState>Disabled</OofState>
         <ExternalAudience>All</ExternalAudience>
         <Duration>
@@ -158,7 +158,7 @@ The following example shows an error response caused by an attempt to access ano
                xmlns:xsd="http://www.w3.org/2001/XMLSchema">
   <soap:Header>
     <t:ServerVersionInfo MajorVersion="8" MinorVersion="0" MajorBuildNumber="685" MinorBuildNumber="8" 
-                         xmlns:t="http://schemas.microsoft.com/exchange/services/2006/types" />
+                         xmlns:t="https://schemas.microsoft.com/exchange/services/2006/types" />
   </soap:Header>
   <soap:Body>
     <soap:Fault>
@@ -166,7 +166,7 @@ The following example shows an error response caused by an attempt to access ano
       <faultstring>Microsoft.Exchange.Data.Storage.AccessDeniedException: User is not mailbox owner. User = S-1-5-21-3642464542-282065186-3871681729-1155, MailboxGuid = S-1-5-21-3642464542-282065186-3871681729-1156 ---> User is not mailbox owner. </faultstring>
       <faultactor>https://CAS01.example.com/EWS/Exchange.asmx</faultactor>
       <detail>
-        <ErrorCode xmlns="http://schemas.microsoft.com/exchange/services/2006/messages">-2146233088</ErrorCode>
+        <ErrorCode xmlns="https://schemas.microsoft.com/exchange/services/2006/messages">-2146233088</ErrorCode>
       </detail>
     </soap:Fault>
   </soap:Body>

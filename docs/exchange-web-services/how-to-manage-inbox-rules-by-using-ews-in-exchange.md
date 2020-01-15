@@ -80,9 +80,9 @@ The following EWS SOAP request uses the [GetInboxRules operation](https://msdn.m
 ```XML
 <?xml version="1.0" encoding="utf-8"?>
 <soap:Envelope xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
-    xmlns:m="http://schemas.microsoft.com/exchange/services/2006/messages" 
-    xmlns:t="http://schemas.microsoft.com/exchange/services/2006/types" 
-    xmlns:soap="http://schemas.xmlsoap.org/soap/envelope/">
+    xmlns:m="https://schemas.microsoft.com/exchange/services/2006/messages" 
+    xmlns:t="https://schemas.microsoft.com/exchange/services/2006/types" 
+    xmlns:soap="https://schemas.xmlsoap.org/soap/envelope/">
 <soap:Header>
   <t:RequestServerVersion Version="Exchange2013" />
 </soap:Header>
@@ -98,20 +98,20 @@ The following EWS SOAP response contains the current Inbox rules for sadie@conto
   
 ```XML
 <?xml version="1.0" encoding="utf-8"?>
-<s:Envelope xmlns:s="http://schemas.xmlsoap.org/soap/envelope/">
+<s:Envelope xmlns:s="https://schemas.xmlsoap.org/soap/envelope/">
 <s:Header>
   <h:ServerVersionInfo MajorVersion="15" MinorVersion="0" MajorBuildNumber="712" MinorBuildNumber="22" Version="V2_3" 
-      xmlns:h="http://schemas.microsoft.com/exchange/services/2006/types" 
-      xmlns="http://schemas.microsoft.com/exchange/services/2006/types" 
+      xmlns:h="https://schemas.microsoft.com/exchange/services/2006/types" 
+      xmlns="https://schemas.microsoft.com/exchange/services/2006/types" 
       xmlns:xsd="http://www.w3.org/2001/XMLSchema" 
       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" />
 </s:Header>
 <s:Body xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
-  <GetInboxRulesResponse ResponseClass="Success" xmlns="http://schemas.microsoft.com/exchange/services/2006/messages">
+  <GetInboxRulesResponse ResponseClass="Success" xmlns="https://schemas.microsoft.com/exchange/services/2006/messages">
     <ResponseCode>NoError</ResponseCode>
     <OutlookRuleBlobExists>false</OutlookRuleBlobExists>
     <InboxRules>
-      <Rule xmlns="http://schemas.microsoft.com/exchange/services/2006/types">
+      <Rule xmlns="https://schemas.microsoft.com/exchange/services/2006/types">
         <RuleId>AQAAAAAAASY=</RuleId>
         <DisplayName>Alfred</DisplayName>
         <Priority>1</Priority>
@@ -132,7 +132,7 @@ The following EWS SOAP response contains the current Inbox rules for sadie@conto
           <StopProcessingRules>true</StopProcessingRules>
         </Actions>
       </Rule>
-      <Rule xmlns="http://schemas.microsoft.com/exchange/services/2006/types">
+      <Rule xmlns="https://schemas.microsoft.com/exchange/services/2006/types">
         <RuleId>AQAAAAAAASQ=</RuleId>
         <DisplayName>Important</DisplayName>
         <Priority>2</Priority>
@@ -248,9 +248,9 @@ The following EWS SOAP request creates the "Sales" rule in sadie@contoso.com's I
 ```XML
 <?xml version="1.0" encoding="utf-8"?>
 <soap:Envelope xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
-    xmlns:m="http://schemas.microsoft.com/exchange/services/2006/messages" 
-    xmlns:t="http://schemas.microsoft.com/exchange/services/2006/types" 
-    xmlns:soap="http://schemas.xmlsoap.org/soap/envelope/">
+    xmlns:m="https://schemas.microsoft.com/exchange/services/2006/messages" 
+    xmlns:t="https://schemas.microsoft.com/exchange/services/2006/types" 
+    xmlns:soap="https://schemas.xmlsoap.org/soap/envelope/">
   <soap:Header>
     <t:RequestServerVersion Version="Exchange2013" />
   </soap:Header>
@@ -379,9 +379,9 @@ The following EWS SOAP request updates the "Sales" rule in sadie@contoso.com's I
 ```XML
 <?xml version="1.0" encoding="utf-8"?>
 <soap:Envelope xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
-    xmlns:m="http://schemas.microsoft.com/exchange/services/2006/messages" 
-    xmlns:t="http://schemas.microsoft.com/exchange/services/2006/types" 
-    xmlns:soap="http://schemas.xmlsoap.org/soap/envelope/">
+    xmlns:m="https://schemas.microsoft.com/exchange/services/2006/messages" 
+    xmlns:t="https://schemas.microsoft.com/exchange/services/2006/types" 
+    xmlns:soap="https://schemas.xmlsoap.org/soap/envelope/">
   <soap:Header>
     <t:RequestServerVersion Version="Exchange2013" />
   </soap:Header>
@@ -513,9 +513,9 @@ The following EWS SOAP request deletes the "Sales" rules from sadie@contoso.com'
 ```XML
 <?xml version="1.0" encoding="utf-8"?>
 <soap:Envelope xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
-    xmlns:m="http://schemas.microsoft.com/exchange/services/2006/messages" 
-    xmlns:t="http://schemas.microsoft.com/exchange/services/2006/types" 
-    xmlns:soap="http://schemas.xmlsoap.org/soap/envelope/">
+    xmlns:m="https://schemas.microsoft.com/exchange/services/2006/messages" 
+    xmlns:t="https://schemas.microsoft.com/exchange/services/2006/types" 
+    xmlns:soap="https://schemas.xmlsoap.org/soap/envelope/">
   <soap:Header>
     <t:RequestServerVersion Version="Exchange2013" />
   </soap:Header>

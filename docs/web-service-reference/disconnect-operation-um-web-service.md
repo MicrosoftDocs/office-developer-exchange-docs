@@ -29,7 +29,7 @@ The following example of a Disconnect request shows how to form a request to dis
 <?xml version="1.0" encoding="utf-8"?>
 <soap:Envelope xmlns:soap="http://schemas.xmlsoap.org/soap/envelope/">
   <soap:Body>
-    <Disconnect xmlns="http://schemas.microsoft.com/exchange/services/2006/messages">
+    <Disconnect xmlns="https://schemas.microsoft.com/exchange/services/2006/messages">
       <CallId>MDlkZjllZGMtNGUyMy00NzA5LWJkYWYtN2JlMjBjYjBhZTU2QGRmLWV1bS0wMS5leGNoYW5nZS5jb3JwLm1pY3Jvc29mdC5jb20=</CallId>
     </Disconnect>
   </soap:Body>
@@ -48,7 +48,7 @@ The following example of a Disconnect response shows a response to the Disconnec
 <?xml version="1.0" encoding="utf-8" ?> 
 <soap:Envelope xmlns:soap="http://schemas.xmlsoap.org/soap/envelope/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
   <soap:Body>
-    <DisconnectResponse xmlns="http://schemas.microsoft.com/exchange/services/2006/messages" /> 
+    <DisconnectResponse xmlns="https://schemas.microsoft.com/exchange/services/2006/messages" /> 
   </soap:Body>
 </soap:Envelope>
 ```

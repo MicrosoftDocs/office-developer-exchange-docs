@@ -40,8 +40,8 @@ The following example of a **GetAppManifests** operation request shows how to ge
 ```XML
 <?xml version="1.0" encoding="UTF-8"?>
 <soap:Envelope xmlns:soap="http://schemas.xmlsoap.org/soap/envelope/"
-               xmlns:t="http://schemas.microsoft.com/exchange/services/2006/types"
-               xmlns:m="http://schemas.microsoft.com/exchange/services/2006/messages">
+               xmlns:t="https://schemas.microsoft.com/exchange/services/2006/types"
+               xmlns:m="https://schemas.microsoft.com/exchange/services/2006/messages">
    <soap:Header>
       <t:RequestServerVersion Version="Exchange2013_SP1" />
       <t:MailboxCulture>en-US</t:MailboxCulture>
@@ -83,18 +83,18 @@ The following example shows a successful response to a **GetAppManifests** opera
                            MajorBuildNumber="918" 
                            MinorBuildNumber="07" 
                            Version="V2_10" 
-                           xmlns:h="http://schemas.microsoft.com/exchange/services/2006/types" 
-                           xmlns="http://schemas.microsoft.com/exchange/services/2006/types" 
+                           xmlns:h="https://schemas.microsoft.com/exchange/services/2006/types" 
+                           xmlns="https://schemas.microsoft.com/exchange/services/2006/types" 
                            xmlns:xsd="http://www.w3.org/2001/XMLSchema" 
                            xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"/>
    </s:Header>
    <s:Body xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
            xmlns:xsd="http://www.w3.org/2001/XMLSchema">
       <GetAppManifestsResponse ResponseClass="Success" 
-                               xmlns="http://schemas.microsoft.com/exchange/services/2006/messages">
+                               xmlns="https://schemas.microsoft.com/exchange/services/2006/messages">
          <ResponseCode>NoError</ResponseCode>
-         <m:Apps xmlns:m="http://schemas.microsoft.com/exchange/services/2006/messages">
-          <t:App xmlns:t="http://schemas.microsoft.com/exchange/services/2006/types">
+         <m:Apps xmlns:m="https://schemas.microsoft.com/exchange/services/2006/messages">
+          <t:App xmlns:t="https://schemas.microsoft.com/exchange/services/2006/types">
             <t:Manifest>WNlQXBwPg==</t:Manifest>
           </t:App>
          </m:Apps>
@@ -132,15 +132,15 @@ Errors returned for this operation are related to an invalid format of the input
                        MajorBuildNumber="918"
                        MinorBuildNumber="07"
                        Version="V2_10"
-                       xmlns:h="http://schemas.microsoft.com/exchange/services/2006/types"
-                       xmlns="http://schemas.microsoft.com/exchange/services/2006/types"
+                       xmlns:h="https://schemas.microsoft.com/exchange/services/2006/types"
+                       xmlns="https://schemas.microsoft.com/exchange/services/2006/types"
                        xmlns:xsd="http://www.w3.org/2001/XMLSchema"
                        xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" />
   </s:Header>
   <s:Body xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
           xmlns:xsd="http://www.w3.org/2001/XMLSchema">
     <GetAppManifestsResponse ResponseClass="Error"
-                             xmlns="http://schemas.microsoft.com/exchange/services/2006/messages">
+                             xmlns="https://schemas.microsoft.com/exchange/services/2006/messages">
       <MessageText>The apiVersionSupported parameter is invalid. 
                    It should be in the form of major version, minor 
                    version, separated by '.', for example '2.34'.</MessageText>

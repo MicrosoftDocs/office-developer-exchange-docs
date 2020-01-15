@@ -35,9 +35,9 @@ You can use mail apps to customize the Outlook Web App experience for your users
 
 - [Customize the Outlook Web App sign-in, language selection, and error pages](https://technet.microsoft.com/library/ee633483%28v=exchg.150%29.aspx)
 
-Your organization can install mail apps on an internal server to limit access to authorized users, or you and other mail app developers can put mail apps on the [Office Store](http://office.microsoft.com/store/) for sale to the general public. Anyone who is running Outlook can download, install, and use mail apps from the marketplace.
+Your organization can install mail apps on an internal server to limit access to authorized users, or you and other mail app developers can put mail apps on the [Office Store](https://office.microsoft.com/store/) for sale to the general public. Anyone who is running Outlook can download, install, and use mail apps from the marketplace.
 
-If you want to learn more about creating mail apps, check out the [Outlook add-ins documentation](/outlook/add-ins) or the [Make an EWS request](http://code.msdn.microsoft.com/exchange/Mail-apps-for-Outlook-Make-770b2528) sample.
+If you want to learn more about creating mail apps, check out the [Outlook add-ins documentation](/outlook/add-ins) or the [Make an EWS request](https://code.msdn.microsoft.com/exchange/Mail-apps-for-Outlook-Make-770b2528) sample.
 
 ## EWS and Outlook add-ins
 
@@ -65,7 +65,7 @@ When these steps are complete, a subset of folder and item EWS operations are av
 
 Service callback tokens enable mail apps to pass an access token to a third-party service so that the service can make EWS requests to the Exchange server that hosts the mailbox. For example, a mail app can pass a service callback token to a third-party service along with a list of attachment IDs for pictures attached to an email. The service can then use the attachment IDs and the callback token to make an EWS request to the user's Exchange server to get the attached pictures. Mail apps can also use the service callback token with a list of item IDs to get email and appointment items from the Exchange server.
 
-The service callback token is an opaque token that the third-party service attaches to the EWS request in a bearer authentication header. The token identifies the mail app and the mailbox to help secure the EWS request. To learn how to use service callback tokens, see the [Outlook add-ins: Get attachments from an Exchange server](http://code.msdn.microsoft.com/exchange/Mail-apps-for-Office-Get-38babdc9) sample.
+The service callback token is an opaque token that the third-party service attaches to the EWS request in a bearer authentication header. The token identifies the mail app and the mailbox to help secure the EWS request. To learn how to use service callback tokens, see the [Outlook add-ins: Get attachments from an Exchange server](https://code.msdn.microsoft.com/exchange/Mail-apps-for-Office-Get-38babdc9) sample.
 
 ## See also
 
@@ -84,8 +84,8 @@ The service callback token is an opaque token that the third-party service attac
 
 - [Set-WebServicesVirtualDirectory](https://technet.microsoft.com/library/aa997233%28v=exchg.150%29.aspx)
 
-- [Outlook add-ins: Make an EWS request](http://code.msdn.microsoft.com/office/Mail-apps-for-Outlook-Make-770b2528)
+- [Outlook add-ins: Make an EWS request](https://code.msdn.microsoft.com/office/Mail-apps-for-Outlook-Make-770b2528)
 
-- [Outlook add-ins: Use a client identity token](http://code.msdn.microsoft.com/Mail-apps-for-Outlook-Use-b20a66b6)
+- [Outlook add-ins: Use a client identity token](https://code.msdn.microsoft.com/Mail-apps-for-Outlook-Use-b20a66b6)
 
-- [Outlook add-ins: Get attachments from an Exchange server](http://code.msdn.microsoft.com/office/Mail-apps-for-Office-Get-38babdc9)
+- [Outlook add-ins: Get attachments from an Exchange server](https://code.msdn.microsoft.com/office/Mail-apps-for-Office-Get-38babdc9)

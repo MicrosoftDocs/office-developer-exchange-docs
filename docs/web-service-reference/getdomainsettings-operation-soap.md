@@ -27,20 +27,20 @@ The following example of a **GetDomainSettings** request shows a request for a u
 
 ```XML
 <?xml version="1.0" encoding="utf-8"?> 
-<soap:Envelope xmlns:a="http://schemas.microsoft.com/exchange/2010/Autodiscover"
+<soap:Envelope xmlns:a="https://schemas.microsoft.com/exchange/2010/Autodiscover"
                xmlns:wsa="http://www.w3.org/2005/08/addressing"
                xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
                xmlns:soap="http://schemas.xmlsoap.org/soap/envelope/"> 
     <soap:Header> 
         <a:RequestedServerVersion>Exchange2010</a:RequestedServerVersion>
-        <wsa:Action>http://schemas.microsoft.com/exchange/2010/
+        <wsa:Action>https://schemas.microsoft.com/exchange/2010/
             Autodiscover/Autodiscover/GetDomainSettings</wsa:Action>
         <wsa:To>
             https://autodiscover.exchange.microsoft.com/autodiscover/autodiscover.svc
         </wsa:To>
     </soap:Header> 
     <soap:Body> 
-        <a:GetDomainSettingsRequestMessage xmlns:a="http://schemas.microsoft.com
+        <a:GetDomainSettingsRequestMessage xmlns:a="https://schemas.microsoft.com
             /exchange/2010/Autodiscover"> 
             <a:Request> 
                 <a:Domains> 
@@ -82,10 +82,10 @@ The following example shows a successful response to the **GetDomainSettings** r
 ```XML
 //www.w3.org/2005/08/addressing"> 
     <s:Header> 
-        <a:Action s:mustUnderstand="1">http://schemas.microsoft.com/exchange/2010/ 
+        <a:Action s:mustUnderstand="1">https://schemas.microsoft.com/exchange/2010/ 
             Autodiscover/Autodiscover/GetDomainSettingsResponse
         </a:Action> 
-        <h:ServerVersionInfo xmlns:h="http://schemas.microsoft.com/exchange/2010/Autodiscover" 
+        <h:ServerVersionInfo xmlns:h="https://schemas.microsoft.com/exchange/2010/Autodiscover" 
             xmlns:i="http://www.w3.org/2001/XMLSchema-instance"> 
         <h:MajorVersion>14</h:MajorVersion> 
         <h:MinorVersion>0</h:MinorVersion> 
@@ -95,7 +95,7 @@ The following example shows a successful response to the **GetDomainSettings** r
         </h:ServerVersionInfo>
     </s:Header> 
     <s:Body> 
-        <GetDomainSettingsResponseMessage xmlns="http://schemas.microsoft.com/exchange/2010/Autodiscover"> 
+        <GetDomainSettingsResponseMessage xmlns="https://schemas.microsoft.com/exchange/2010/Autodiscover"> 
             <Response xmlns:i="http://www.w3.org/2001/XMLSchema-instance"> 
                 <ErrorCode>NoError</ErrorCode> 
                 <ErrorMessage /> 

@@ -29,10 +29,10 @@ This following example of a **DeleteFolder** request shows how to form a request
 ```XML
 <?xml version="1.0" encoding="utf-8"?>
 <soap:Envelope xmlns:soap="http://schemas.xmlsoap.org/soap/envelope/"
-               xmlns:t="http://schemas.microsoft.com/exchange/services/2006/types">
+               xmlns:t="https://schemas.microsoft.com/exchange/services/2006/types">
   <soap:Body>
-    <DeleteFolder xmlns="http://schemas.microsoft.com/exchange/services/2006/messages"
-                  xmlns:t="http://schemas.microsoft.com/exchange/services/2006/types" 
+    <DeleteFolder xmlns="https://schemas.microsoft.com/exchange/services/2006/messages"
+                  xmlns:t="https://schemas.microsoft.com/exchange/services/2006/types" 
                   DeleteType="HardDelete" >
       <FolderIds>
         <t:FolderId Id="AS4AUnVz=" />
@@ -79,12 +79,12 @@ The following example shows a successful response to the **DeleteFolder** reques
                xmlns:xsd="http://www.w3.org/2001/XMLSchema">
   <soap:Header>
     <t:ServerVersionInfo MajorVersion="8" MinorVersion="0" MajorBuildNumber="595" MinorBuildNumber="0" 
-                         xmlns:t="http://schemas.microsoft.com/exchange/services/2006/types" />
+                         xmlns:t="https://schemas.microsoft.com/exchange/services/2006/types" />
   </soap:Header>
   <soap:Body>
-    <DeleteFolderResponse xmlns:m="http://schemas.microsoft.com/exchange/services/2006/messages" 
-                          xmlns:t="http://schemas.microsoft.com/exchange/services/2006/types" 
-                          xmlns="http://schemas.microsoft.com/exchange/services/2006/messages">
+    <DeleteFolderResponse xmlns:m="https://schemas.microsoft.com/exchange/services/2006/messages" 
+                          xmlns:t="https://schemas.microsoft.com/exchange/services/2006/types" 
+                          xmlns="https://schemas.microsoft.com/exchange/services/2006/messages">
       <m:ResponseMessages>
         <m:DeleteFolderResponseMessage ResponseClass="Success">
           <m:ResponseCode>NoError</m:ResponseCode>
@@ -126,12 +126,12 @@ The following example shows an error response to a **DeleteFolder** request. The
                xmlns:xsd="http://www.w3.org/2001/XMLSchema">
   <soap:Header>
     <t:ServerVersionInfo MajorVersion="8" MinorVersion="0" MajorBuildNumber="595" MinorBuildNumber="0" 
-                         xmlns:t="http://schemas.microsoft.com/exchange/services/2006/types" />
+                         xmlns:t="https://schemas.microsoft.com/exchange/services/2006/types" />
   </soap:Header>
   <soap:Body>
-    <DeleteFolderResponse xmlns:m="http://schemas.microsoft.com/exchange/services/2006/messages" 
-                          xmlns:t="http://schemas.microsoft.com/exchange/services/2006/types" 
-                          xmlns="http://schemas.microsoft.com/exchange/services/2006/messages">
+    <DeleteFolderResponse xmlns:m="https://schemas.microsoft.com/exchange/services/2006/messages" 
+                          xmlns:t="https://schemas.microsoft.com/exchange/services/2006/types" 
+                          xmlns="https://schemas.microsoft.com/exchange/services/2006/messages">
       <m:ResponseMessages>
         <m:DeleteFolderResponseMessage ResponseClass="Error">
           <m:MessageText>The specified object was not found in the store.</m:MessageText>
