@@ -27,15 +27,15 @@ The following example of a **GetFederationInformation** request shows a request 
 
 ```XML
 <?xml version="1.0" encoding="utf-8"?> 
-<soap:Envelope xmlns:exm="http://schemas.microsoft.com/exchange/services/2006/messages"
-           xmlns:ext="http://schemas.microsoft.com/exchange/services/2006/types"
+<soap:Envelope xmlns:exm="https://schemas.microsoft.com/exchange/services/2006/messages"
+           xmlns:ext="https://schemas.microsoft.com/exchange/services/2006/types"
            xmlns:a="http://www.w3.org/2005/08/addressing"
            xmlns:soap="http://schemas.xmlsoap.org/soap/envelope/"
            xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
            xmlns:xsd="http://www.w3.org/2001/XMLSchema"> 
     <soap:Header> 
         <a:MessageID>urn:uuid:6389558d-9e05-465e-ade9-aae14c4bcd10</a:MessageID> 
-        <a:Action soap:mustUnderstand="1">http://schemas.microsoft.com/
+        <a:Action soap:mustUnderstand="1">https://schemas.microsoft.com/
             exchange/2010/Autodiscover/Autodiscover/GetFederationInformation
         </a:Action> 
         <a:To soap:mustUnderstand="1">https://autodiscover.byfcxu-
@@ -46,7 +46,7 @@ The following example of a **GetFederationInformation** request shows a request 
     </soap:Header> 
     <soap:Body> 
         <GetFederationInformationRequestMessage 
-            xmlns="http://schemas.microsoft.com/exchange/2010/Autodiscover"> 
+            xmlns="https://schemas.microsoft.com/exchange/2010/Autodiscover"> 
             <Request> 
                 <Domain>contoso.com</Domain> 
             </Request> 
@@ -78,12 +78,12 @@ The following example shows a successful response to the **GetFederationInformat
 xmlns:a="http://www.w3.org/2005/08/addressing"> 
     <s:Header> 
         <a:Action s:mustUnderstand="1">
-            http://schemas.microsoft.com/exchange/2010/Autodiscover/Autodiscover/GetFederationInformationResponse
+            https://schemas.microsoft.com/exchange/2010/Autodiscover/Autodiscover/GetFederationInformationResponse
         </a:Action> 
         <a:RelatesTo>urn:uuid:6389558d-9e05-465e-ade9-aae14c4bcd10</a:RelatesTo> 
     </s:Header> 
     <s:Body> 
-        <GetFederationInformationResponseMessage xmlns="http://schemas.microsoft.com/exchange/2010/Autodiscover"> 
+        <GetFederationInformationResponseMessage xmlns="https://schemas.microsoft.com/exchange/2010/Autodiscover"> 
             <Response xmlns:i="http://www.w3.org/2001/XMLSchema-instance"> 
                 <ErrorCode>NoError</ErrorCode> 
                 <ErrorMessage/> 

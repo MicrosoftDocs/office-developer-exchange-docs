@@ -67,7 +67,7 @@ The **StandardTime** element represents an offset time that is represented by th
 The following example shows a region where daylight saving time is observed. The transition from daylight saving time to standard time is observed at 2 A.M. on the fifth Sunday of the tenth month.
   
 ```xml
-<TimeZone xmlns="http://schemas.microsoft.com/exchange/services/2006/types">
+<TimeZone xmlns="https://schemas.microsoft.com/exchange/services/2006/types">
   <Bias>480</Bias>
   <StandardTime>
     <Bias>0</Bias>
@@ -90,7 +90,7 @@ The following example shows a region where daylight saving time is observed. The
 
 |||
 |:-----|:-----|
-|Namespace  <br/> |http://schemas.microsoft.com/exchange/services/2006/types  <br/> |
+|Namespace  <br/> |https://schemas.microsoft.com/exchange/services/2006/types  <br/> |
 |Schema Name  <br/> |Types schema  <br/> |
 |Validation File  <br/> |Types.xsd  <br/> |
 |Can be Empty  <br/> |False  <br/> |

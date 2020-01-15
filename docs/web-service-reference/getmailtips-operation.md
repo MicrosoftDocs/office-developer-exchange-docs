@@ -33,12 +33,12 @@ The client constructs the request XML and sends it to the server. The request id
 <soap:Envelope xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
         xmlns:xsd="http://www.w3.org/2001/XMLSchema" 
         xmlns:soap="http://schemas.xmlsoap.org/soap/envelope/" 
-        xmlns:t="http://schemas.microsoft.com/exchange/services/2006/types"> 
+        xmlns:t="https://schemas.microsoft.com/exchange/services/2006/types"> 
   <soap:Header> 
     <t:RequestServerVersion Version="Exchange2010" /> 
   </soap:Header> 
   <soap:Body> 
-    <GetMailTips xmlns="http://schemas.microsoft.com/exchange/services/2006/messages"> 
+    <GetMailTips xmlns="https://schemas.microsoft.com/exchange/services/2006/messages"> 
       <SendingAs> 
         <t:EmailAddress> user1@contoso.com </t:EmailAddress> 
         <t:RoutingType>SMTP</t:RoutingType> 
@@ -80,37 +80,37 @@ The following Simple Object Access Protocol (SOAP) body example shows a successf
 <s:Envelope xmlns:s="http://schemas.xmlsoap.org/soap/envelope/"> 
   <s:Header> 
     <h:ServerVersionInfo MajorVersion="14" MinorVersion="0" MajorBuildNumber="536" MinorBuildNumber="0" Version="Exchange2010" 
-xmlns:h="http://schemas.microsoft.com/exchange/services/2006/types" 
-xmlns="http://schemas.microsoft.com/exchange/services/2006/types" 
+xmlns:h="https://schemas.microsoft.com/exchange/services/2006/types" 
+xmlns="https://schemas.microsoft.com/exchange/services/2006/types" 
 xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
 xmlns:xsd="http://www.w3.org/2001/XMLSchema"/> 
   </s:Header> 
   <s:Body xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema"> 
-    <GetMailTipsResponse ResponseClass="Success" xmlns="http://schemas.microsoft.com/exchange/services/2006/messages"> 
+    <GetMailTipsResponse ResponseClass="Success" xmlns="https://schemas.microsoft.com/exchange/services/2006/messages"> 
       <ResponseCode>NoError</ResponseCode> 
       <ResponseMessages> 
         <MailTipsResponseMessageType ResponseClass="Success"> 
         <ResponseCode>NoError</ResponseCode> 
-        <m:MailTips xmlns:m="http://schemas.microsoft.com/exchange/services/2006/messages"> 20 / 29 [MS-OXWMT] — v20100517 Mail Tips Web Service Extensions Copyright © 2010 Microsoft Corporation. Release: Monday, May 17, 2010 
-          <t:RecipientAddress xmlns:t="http://schemas.microsoft.com/exchange/services/2006/types"> 
+        <m:MailTips xmlns:m="https://schemas.microsoft.com/exchange/services/2006/messages"> 20 / 29 [MS-OXWMT] — v20100517 Mail Tips Web Service Extensions Copyright © 2010 Microsoft Corporation. Release: Monday, May 17, 2010 
+          <t:RecipientAddress xmlns:t="https://schemas.microsoft.com/exchange/services/2006/types"> 
           <t:Name/> 
           <t:EmailAddress>user2@contoso.com</t:EmailAddress> 
           <t:RoutingType>SMTP</t:RoutingType> 
           </t:RecipientAddress> 
-          <t:PendingMailTips xmlns:t="http://schemas.microsoft.com/exchange/services/2006/types"/> 
-          <t:OutOfOffice xmlns:t="http://schemas.microsoft.com/exchange/services/2006/types"> 
+          <t:PendingMailTips xmlns:t="https://schemas.microsoft.com/exchange/services/2006/types"/> 
+          <t:OutOfOffice xmlns:t="https://schemas.microsoft.com/exchange/services/2006/types"> 
             <t:ReplyBody> 
               <t:Message/> 
             </t:ReplyBody> 
           </t:OutOfOffice> 
-          <t:MailboxFull xmlns:t="http://schemas.microsoft.com/exchange/services/2006/types">false</t:MailboxFull> 
-          <t:CustomMailTip xmlns:t="http://schemas.microsoft.com/exchange/services/2006/types">Hello World Mailtips</t:CustomMailTip> 
-          <t:TotalMemberCount xmlns:t="http://schemas.microsoft.com/exchange/services/2006/types">1</t:TotalMemberCount> 
-          <t:ExternalMemberCount xmlns:t="http://schemas.microsoft.com/exchange/services/2006/types">0</t:ExternalMemberCount> 
-          <t:MaxMessageSize xmlns:t="http://schemas.microsoft.com/exchange/services/2006/types">10485760</t:MaxMessageSize> 
-          <t:DeliveryRestricted xmlns:t="http://schemas.microsoft.com/exchange/services/2006/types">false</t:DeliveryRestricted> 
-          <t:IsModerated xmlns:t="http://schemas.microsoft.com/exchange/services/2006/types">false</t:IsModerated> 
-          <t:InvalidRecipient xmlns:t="http://schemas.microsoft.com/exchange/services/2006/types">false</t:InvalidRecipient> 
+          <t:MailboxFull xmlns:t="https://schemas.microsoft.com/exchange/services/2006/types">false</t:MailboxFull> 
+          <t:CustomMailTip xmlns:t="https://schemas.microsoft.com/exchange/services/2006/types">Hello World Mailtips</t:CustomMailTip> 
+          <t:TotalMemberCount xmlns:t="https://schemas.microsoft.com/exchange/services/2006/types">1</t:TotalMemberCount> 
+          <t:ExternalMemberCount xmlns:t="https://schemas.microsoft.com/exchange/services/2006/types">0</t:ExternalMemberCount> 
+          <t:MaxMessageSize xmlns:t="https://schemas.microsoft.com/exchange/services/2006/types">10485760</t:MaxMessageSize> 
+          <t:DeliveryRestricted xmlns:t="https://schemas.microsoft.com/exchange/services/2006/types">false</t:DeliveryRestricted> 
+          <t:IsModerated xmlns:t="https://schemas.microsoft.com/exchange/services/2006/types">false</t:IsModerated> 
+          <t:InvalidRecipient xmlns:t="https://schemas.microsoft.com/exchange/services/2006/types">false</t:InvalidRecipient> 
         </m:MailTips> 
         </MailTipsResponseMessageType> 
       </ResponseMessages> 

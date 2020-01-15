@@ -83,13 +83,13 @@ The [RequestServerVersion](requestserverversion.md) element in the SOAP header m
 ```XML
 <?xml version="1.0" encoding="utf-8"?>
 <soap:Envelope xmlns:soap="http://schemas.xmlsoap.org/soap/envelope/"
-               xmlns:t="http://schemas.microsoft.com/exchange/services/2006/types">
+               xmlns:t="https://schemas.microsoft.com/exchange/services/2006/types">
   <soap:Header>
     <t:RequestServerVersion Version="Exchange2010"/>
   </soap:Header>
   <soap:Body>
-    <ConvertId xmlns="http://schemas.microsoft.com/exchange/services/2006/messages"
-               xmlns:t="http://schemas.microsoft.com/exchange/services/2006/types"
+    <ConvertId xmlns="https://schemas.microsoft.com/exchange/services/2006/messages"
+               xmlns:t="https://schemas.microsoft.com/exchange/services/2006/types"
                DestinationFormat="OwaId">
       <SourceIds>
         <t:AlternateId Format="EwsId" Id="AAMkAGZhN2IxYTA0LWNiNzItN="
@@ -117,10 +117,10 @@ The following example shows a successful response to a **ConvertId** request. Th
     <t:ServerVersionInfo MajorVersion="8" MinorVersion="1" 
                          MajorBuildNumber="191" MinorBuildNumber="0" 
                          Version="Exchange2010" 
-                         xmlns:t="http://schemas.microsoft.com/exchange/services/2006/types" />
+                         xmlns:t="https://schemas.microsoft.com/exchange/services/2006/types" />
   </soap:Header>
   <soap:Body>
-    <ConvertIdResponse xmlns="http://schemas.microsoft.com/exchange/services/2006/messages">
+    <ConvertIdResponse xmlns="https://schemas.microsoft.com/exchange/services/2006/messages">
       <ResponseMessages>
         <ConvertIdResponseMessage ResponseClass="Success">
           <ResponseCode>NoError</ResponseCode>
@@ -147,10 +147,10 @@ The following example shows the response to a request that contains the wrong ty
     <ServerVersionInfo MajorVersion="8" MinorVersion="1" 
                        MajorBuildNumber="206" MinorBuildNumber="0"
                        Version="Exchange2010" 
-                       xmlns="http://schemas.microsoft.com/exchange/services/2006/types" />
+                       xmlns="https://schemas.microsoft.com/exchange/services/2006/types" />
   </soap:Header>
   <soap:Body>
-    <ConvertIdResponse xmlns="http://schemas.microsoft.com/exchange/services/2006/messages">
+    <ConvertIdResponse xmlns="https://schemas.microsoft.com/exchange/services/2006/messages">
       <ResponseMessages>
         <ConvertIdResponseMessage ResponseClass="Error">
           <MessageText>Id is malformed.</MessageText>

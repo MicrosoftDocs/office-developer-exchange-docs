@@ -45,7 +45,8 @@ Other options are available for exporing and importing items to and from an Exch
     
 - Use the Exchange Management Shell and the [MailboxImportRequest](https://technet.microsoft.com/library/ff607310%28v=exchg.150%29.aspx) and [MailboxExportRequest](https://technet.microsoft.com/library/ff607299%28v=exchg.150%29.aspx) cmdlets to [fulfill mailbox import and export requests](https://technet.microsoft.com/library/ee633455%28v=exchg.150%29.aspx). 
     
-- Use [Outlook's import options](http://office.microsoft.com/outlook-help/import-outlook-items-from-an-outlook-data-file-pst-HA102505743.aspx) to import and export items. 
+- Use [Outlook's import options](https://office.microsoft.com/en-us/outlook-help/import-outlook-items-from-an-outlook-data-file-pst-HA102505743.aspx) to import and export items. 
+
     
 ## In this section
 <a name="alternatives"> </a>
@@ -60,4 +61,3 @@ Other options are available for exporing and importing items to and from an Exch
 - [Internet Calendaring and Scheduling Core Object Specification (RFC 5545)](http://tools.ietf.org/html/rfc5545)   
 - [Mailbox synchronization and EWS in Exchange](mailbox-synchronization-and-ews-in-exchange.md)
     
-

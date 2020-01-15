@@ -70,7 +70,7 @@ A text value is required. The following are the possible values:
 
 |||
 |:-----|:-----|
-|Namespace  <br/> |http://schemas.microsoft.com/exchange/services/2006/message  <br/> |
+|Namespace  <br/> |https://schemas.microsoft.com/exchange/services/2006/message  <br/> |
 |Schema Name  <br/> |Messages  <br/> |
 |Validation File  <br/> |Messages.xsd  <br/> |
 |Can be Empty  <br/> |False  <br/> |

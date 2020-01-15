@@ -109,9 +109,9 @@ You can create contacts in batches by using the [CreateItem](https://msdn.micros
 <?xml version="1.0" encoding="utf-8"?>
   <soap:Envelope 
 xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
-xmlns:m="http://schemas.microsoft.com/exchange/services/2006/messages" 
-xmlns:t="http://schemas.microsoft.com/exchange/services/2006/types" 
-xmlns:soap="http://schemas.xmlsoap.org/soap/envelope/">
+xmlns:m="https://schemas.microsoft.com/exchange/services/2006/messages" 
+xmlns:t="https://schemas.microsoft.com/exchange/services/2006/types" 
+xmlns:soap="https://schemas.xmlsoap.org/soap/envelope/">
     <soap:Header>
       <t:RequestServerVersion Version="Exchange2007_SP1" />
     </soap:Header>
@@ -197,9 +197,9 @@ You can get contacts in batches by using the [GetItem](https://msdn.microsoft.co
 <?xml version="1.0" encoding="utf-8"?>
   <soap:Envelope 
 xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
-xmlns:m="http://schemas.microsoft.com/exchange/services/2006/messages" 
-xmlns:t="http://schemas.microsoft.com/exchange/services/2006/types" 
-xmlns:soap="http://schemas.xmlsoap.org/soap/envelope/">
+xmlns:m="https://schemas.microsoft.com/exchange/services/2006/messages" 
+xmlns:t="https://schemas.microsoft.com/exchange/services/2006/types" 
+xmlns:soap="https://schemas.xmlsoap.org/soap/envelope/">
     <soap:Header>
       <t:RequestServerVersion Version="Exchange2007_SP1" />
     </soap:Header>
@@ -277,9 +277,9 @@ You can update contacts in batches by using the [GetItem](https://msdn.microsoft
 <?xml version="1.0" encoding="utf-8"?>
   <soap:Envelope 
 xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
-xmlns:m="http://schemas.microsoft.com/exchange/services/2006/messages" 
-xmlns:t="http://schemas.microsoft.com/exchange/services/2006/types" 
-xmlns:soap="http://schemas.xmlsoap.org/soap/envelope/">
+xmlns:m="https://schemas.microsoft.com/exchange/services/2006/messages" 
+xmlns:t="https://schemas.microsoft.com/exchange/services/2006/types" 
+xmlns:soap="https://schemas.xmlsoap.org/soap/envelope/">
     <soap:Header>
       <t:RequestServerVersion Version="Exchange2007_SP1" />
     </soap:Header>
@@ -365,9 +365,9 @@ You can delete contacts in batches by using the [DeleteItem](../web-service-refe
 <?xml version="1.0" encoding="utf-8"?>
   <soap:Envelope 
 xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
-xmlns:m="http://schemas.microsoft.com/exchange/services/2006/messages" 
-xmlns:t="http://schemas.microsoft.com/exchange/services/2006/types" 
-xmlns:soap="http://schemas.xmlsoap.org/soap/envelope/">
+xmlns:m="https://schemas.microsoft.com/exchange/services/2006/messages" 
+xmlns:t="https://schemas.microsoft.com/exchange/services/2006/types" 
+xmlns:soap="https://schemas.xmlsoap.org/soap/envelope/">
     <soap:Header>
       <t:RequestServerVersion Version="Exchange2007_SP1" />
     </soap:Header>

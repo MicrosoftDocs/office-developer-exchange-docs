@@ -73,7 +73,7 @@ While you can certainly write another client to test with, you don't have to! [E
 
 If you have access to the Exchange server, the logging functionality provided by Internet Information Services (IIS) on the Client Access servers can provide more information about failures. However, keep in mind that IIS logs will only be helpful if you are receiving an HTTP error.
   
-IIS provides two different logging methods: [IIS logging](http://www.iis.net/learn/manage/provisioning-and-managing-iis/configure-logging-in-iis) and [failed requests tracing](http://www.iis.net/learn/troubleshoot/using-failed-request-tracing/troubleshooting-failed-requests-using-tracing-in-iis). To work with IIS logs, you can use [Log Parser Studio](http://blogs.technet.com/b/exchange/archive/2012/03/07/introducing-log-parser-studio.aspx), which includes a number of built-in EWS queries.
+IIS provides two different logging methods: [IIS logging](http://www.iis.net/learn/manage/provisioning-and-managing-iis/configure-logging-in-iis) and [failed requests tracing](http://www.iis.net/learn/troubleshoot/using-failed-request-tracing/troubleshooting-failed-requests-using-tracing-in-iis). To work with IIS logs, you can use [Log Parser Studio](https://blogs.technet.com/b/exchange/archive/2012/03/07/introducing-log-parser-studio.aspx), which includes a number of built-in EWS queries.
   
 ## Next steps
 <a name="bk_NextSteps"> </a>
@@ -113,7 +113,7 @@ See the following articles:
     
 - [Troubleshooting Failed Requests Using Tracing in IIS 7](http://www.iis.net/learn/troubleshoot/using-failed-request-tracing/troubleshooting-failed-requests-using-tracing-in-iis)
     
-- [Introducing: Log Parser Studio](http://blogs.technet.com/b/exchange/archive/2012/03/07/introducing-log-parser-studio.aspx)
+- [Introducing: Log Parser Studio](https://blogs.technet.com/b/exchange/archive/2012/03/07/introducing-log-parser-studio.aspx)
     
 - [Default Settings for Exchange Virtual Directories](https://technet.microsoft.com/library/gg247612%28v=exchg.150%29.aspx)
     

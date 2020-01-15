@@ -117,11 +117,11 @@ The following example shows the XML request message that is sent from the client
   
 ```XML
 <?xml version="1.0" encoding="utf-8"?>
-<soap:Envelope xmlns:soap="http://schemas.xmlsoap.org/soap/envelope/"
-               xmlns:t="http://schemas.microsoft.com/exchange/services/2006/types">
+<soap:Envelope xmlns:soap="https://schemas.xmlsoap.org/soap/envelope/"
+               xmlns:t="https://schemas.microsoft.com/exchange/services/2006/types">
   <soap:Body>
-    <ExpandDL xmlns="http://schemas.microsoft.com/exchange/services/2006/messages"
-              xmlns:t="http://schemas.microsoft.com/exchange/services/2006/types">
+    <ExpandDL xmlns="https://schemas.microsoft.com/exchange/services/2006/messages"
+              xmlns:t="https://schemas.microsoft.com/exchange/services/2006/types">
       <Mailbox>
         <t:EmailAddress>employees@contoso.com</t:EmailAddress>
       </Mailbox>
@@ -134,34 +134,34 @@ The following example shows the XML response message that is sent from the serve
   
 ```XML
 <?xml version="1.0" encoding="utf-8"?>
-<s:Envelope xmlns:s="http://schemas.xmlsoap.org/soap/envelope/">
+<s:Envelope xmlns:s="https://schemas.xmlsoap.org/soap/envelope/">
 <s:Body xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
      xmlns:xsd="http://www.w3.org/2001/XMLSchema">
 <ExpandDLResponse xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
                       xmlns:xsd="http://www.w3.org/2001/XMLSchema">
-  <ResponseMessages xmlns="http://schemas.microsoft.com/exchange/services/2006/messages">
+  <ResponseMessages xmlns="https://schemas.microsoft.com/exchange/services/2006/messages">
     <ExpandDLResponseMessage ResponseClass="Success">
       <ResponseCode>NoError</ResponseCode>
       <DLExpansion IncludesLastItemInRange="true" TotalItemsInView="4">
-        <Mailbox xmlns="http://schemas.microsoft.com/exchange/services/2006/types">
+        <Mailbox xmlns="https://schemas.microsoft.com/exchange/services/2006/types">
           <Name>Sadie Daniels</Name>
           <EmailAddress>sadie@contoso.com</EmailAddress>
           <RoutingType>SMTP</RoutingType>
           <MailboxType>Mailbox</MailboxType>
         </Mailbox>
-        <Mailbox xmlns="http://schemas.microsoft.com/exchange/services/2006/types">
+        <Mailbox xmlns="https://schemas.microsoft.com/exchange/services/2006/types">
           <Name>Alfred Welker</Name>
           <EmailAddress>alfred@contoso.com</EmailAddress>
           <RoutingType>SMTP</RoutingType>
           <MailboxType>Mailbox</MailboxType>
         </Mailbox>
-        <Mailbox xmlns="http://schemas.microsoft.com/exchange/services/2006/types">
+        <Mailbox xmlns="https://schemas.microsoft.com/exchange/services/2006/types">
           <Name>Contoso Sales</Name>
           <EmailAddress>sales@contoso.com</EmailAddress>
           <RoutingType>SMTP</RoutingType>
           <MailboxType>PublicDL</MailboxType>
         </Mailbox>
-        <Mailbox xmlns="http://schemas.microsoft.com/exchange/services/2006/types">
+        <Mailbox xmlns="https://schemas.microsoft.com/exchange/services/2006/types">
           <Name>Contoso Support</Name>
           <EmailAddress>support@contoso.com</EmailAddress>
           <RoutingType>SMTP</RoutingType>
@@ -184,13 +184,13 @@ The XML request to expand a contact group is similar to a request to expand a di
   
 ```XML
 <?xml version="1.0" encoding="utf-8"?>
-<soap:Envelope xmlns:soap="http://schemas.xmlsoap.org/soap/envelope/"
-               xmlns:t="http://schemas.microsoft.com/exchange/services/2006/types">
+<soap:Envelope xmlns:soap="https://schemas.xmlsoap.org/soap/envelope/"
+               xmlns:t="https://schemas.microsoft.com/exchange/services/2006/types">
   <soap:Body>
-    <ExpandDL xmlns="http://schemas.microsoft.com/exchange/services/2006/messages"
-              xmlns:t="http://schemas.microsoft.com/exchange/services/2006/types">
+    <ExpandDL xmlns="https://schemas.microsoft.com/exchange/services/2006/messages"
+              xmlns:t="https://schemas.microsoft.com/exchange/services/2006/types">
       <Mailbox>
-         <ItemId xmlns="http://schemas.microsoft.com/exchange/services/2006/types" Id="AAMkADBlY…" />
+         <ItemId xmlns="https://schemas.microsoft.com/exchange/services/2006/types" Id="AAMkADBlY…" />
       </Mailbox>
     </ExpandDL>
   </soap:Body>

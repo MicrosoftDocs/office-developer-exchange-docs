@@ -99,8 +99,9 @@ Push notifications rely on the server pushing notifications back to the client. 
 **Figure 4. Push notification overview**
 
 ![An illustration that shows how push notifications work. To setup push notifications: 1. Create listener, 2. Subscribe, 3. Wait for events, 4. Receive events, 5. Send "OK" response, repeat 3, 4, and 5, 6. Unsubscribe or timeout.](media/Exchange2013_Notifications_PushSub.png)
-  
+
 If you are using [push notifications with Exchange 2010](https://msdn.microsoft.com/library/db1f8523-fa44-483f-bdb6-ab5939b52eee%28Office.15%29.aspx), consider upgrading your application to [use streaming notifications](http://code.msdn.microsoft.com/exchange/Exchange-2013-Set-push-82738cc5), so that you don't need a separate application to receive the events.
+
   
 ## How do I subscribe to notifications?
 <a name="bk_notifoperations"> </a>
