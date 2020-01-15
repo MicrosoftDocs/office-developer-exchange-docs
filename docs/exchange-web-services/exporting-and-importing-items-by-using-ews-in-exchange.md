@@ -61,4 +61,3 @@ Other options are available for exporing and importing items to and from an Exch
 - [Internet Calendaring and Scheduling Core Object Specification (RFC 5545)](http://tools.ietf.org/html/rfc5545)   
 - [Mailbox synchronization and EWS in Exchange](mailbox-synchronization-and-ews-in-exchange.md)
     
-

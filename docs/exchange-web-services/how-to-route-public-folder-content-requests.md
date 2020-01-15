@@ -278,5 +278,4 @@ Expect: 100-continue
 - [Autodiscover for Exchange](autodiscover-for-exchange.md)    
 - [Generate a list of Autodiscover endpoints](how-to-generate-a-list-of-autodiscover-endpoints.md)   
 - [Get user settings from Exchange by using Autodiscover](how-to-get-user-settings-from-exchange-by-using-autodiscover.md)
-    
-
+  

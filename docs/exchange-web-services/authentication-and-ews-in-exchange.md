@@ -78,5 +78,4 @@ You need to decide if basic authentication meets the security requirements of yo
 - [Control access to EWS in Exchange](how-to-control-access-to-ews-in-exchange.md)    
 - [Controlling client application access to EWS in Exchange](controlling-client-application-access-to-ews-in-exchange.md)   
 - [Supported token and claim types](https://msdn.microsoft.com/library/9d35e4bc-7b72-49d1-b723-5464eee6be2c%28Office.15%29.aspx)
-    
-
+ 

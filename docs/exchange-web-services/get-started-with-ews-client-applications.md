@@ -438,4 +438,3 @@ If you run into any issues with your application, [try posting a question or com
 - [Develop web service clients for Exchange](develop-web-service-clients-for-exchange.md)  
 - [Get started with EWS Managed API client applications](get-started-with-ews-managed-api-client-applications.md)
     
-
