@@ -67,7 +67,7 @@ The following table lists the Exchange mailbox data folder operations.
 |:-----|:-----|
 |[CreateFolder operation](createfolder-operation.md) <br/> |Exchange 2007  <br/> |
 |[CreateFolderPath operation](createfolderpath-operation.md) <br/> |Exchange 2013  <br/> |
-|[CreateManagedFolder operation](createmanagedfolder-operation.md) <br/> |Exchange 2007. This functionality has been deemphasized in versions of Exchange starting with Exchange 2010. For more information about how to migrate to using retention tags and policies for messaging records management, see [Migrate from Managed Folders](http://technet.microsoft.com/en-us/library/dd298032%28v=exchg.141%29.aspx).  <br/> |
+|[CreateManagedFolder operation](createmanagedfolder-operation.md) <br/> |Exchange 2007. This functionality has been deemphasized in versions of Exchange starting with Exchange 2010. For more information about how to migrate to using retention tags and policies for messaging records management, see [Migrate from Managed Folders](https://technet.microsoft.com/library/dd298032%28v=exchg.141%29.aspx).  <br/> |
 |[CopyFolder operation](copyfolder-operation.md) <br/> |Exchange 2007  <br/> |
 |[DeleteFolder operation](deletefolder-operation.md) <br/> |Exchange 2007  <br/> |
 |[EmptyFolder operation](emptyfolder-operation.md) <br/> |Exchange 2010  <br/> |

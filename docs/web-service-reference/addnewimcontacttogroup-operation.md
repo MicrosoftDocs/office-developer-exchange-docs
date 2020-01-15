@@ -311,5 +311,5 @@ For additional error codes that are generic to EWS and specific to this operatio
 [SetImGroup operation](setimgroup-operation.md)
 
 
-[People and contacts in EWS in Exchange](http://msdn.microsoft.com/library/043c33be-a0d1-4bad-a840-85715eda4813%28Office.15%29.aspx)
+[People and contacts in EWS in Exchange](https://msdn.microsoft.com/library/043c33be-a0d1-4bad-a840-85715eda4813%28Office.15%29.aspx)
 
