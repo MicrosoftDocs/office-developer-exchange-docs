@@ -57,7 +57,7 @@ To find code samples and examples that show you how to work with EWS and other w
     
 - [Exchange API documentation](develop-web-service-clients-for-exchange.md)
     
-- [Exchange Development forum](http://social.technet.microsoft.com/Forums/exchange/home?forum=exchangesvrdevelopment)
+- [Exchange Development forum](https://social.technet.microsoft.com/Forums/exchange/home?forum=exchangesvrdevelopment)
     
 Many other samples are available in blogs, code demonstration sites, and forums. We also recommend that you download the [EWSEditor](http://ewseditor.codeplex.com/). This project implements most of the EWS functionality; you can find examples of all the core EWS functionality here.
   
@@ -66,7 +66,7 @@ If you're not a .NET Framework developer, you can find many client libraries out
 ## Ask questions and solve problems
 <a name="questions"> </a>
 
-Need help getting things done and you're not finding answers? You can search the [Exchange Development forum](http://social.technet.microsoft.com/Forums/exchange/home?forum=exchangesvrdevelopment) to find out whether someone else has encountered and resolved the same issue. A community of contributors have answered hundreds of questions about Exchange development. You can also find third-party sites, forums, and blogs that cover Exchange development and might have the solution you're looking for. 
+Need help getting things done and you're not finding answers? You can search the [Exchange Development forum](https://social.technet.microsoft.com/Forums/exchange/home?forum=exchangesvrdevelopment) to find out whether someone else has encountered and resolved the same issue. A community of contributors have answered hundreds of questions about Exchange development. You can also find third-party sites, forums, and blogs that cover Exchange development and might have the solution you're looking for. 
   
 Contact [Microsoft support](https://support.microsoft.com/) if you need additional assistance. The Exchange Developer support team is staffed with seasoned professionals who can help answer your questions about Exchange development. 
   

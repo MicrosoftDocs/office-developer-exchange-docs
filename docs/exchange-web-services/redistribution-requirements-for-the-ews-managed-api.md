@@ -35,6 +35,6 @@ The license terms are included in the EWS Managed API download. Review the terms
 
 - [EWS client design overview for Exchange](ews-client-design-overview-for-exchange.md)
     
-- [EWS Managed API (download)](http://aka.ms/ews-managed-api-readme)
+- [EWS Managed API (download)](https://aka.ms/ews-managed-api-readme)
     
 

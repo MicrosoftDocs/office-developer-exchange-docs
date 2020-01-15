@@ -127,7 +127,7 @@ When impersonation is used, the budgets for all the throttling thresholds apply 
 
   - **EWSFindCountLimit**
 
-- The **EWSMaxConcurrency** budget is shared for the service account and the account being impersonated for all connections to versions of Exchange earlier than Exchange 2010 Service Pack 2 (SP2) Update Rollup 4 (RU4). Starting with Exchange 2010 SP2 RU4, and including Exchange Online, the service account access uses a separate budget from the user **EWSMaxConcurrency** budget. For more information about the update to the Exchange concurrent connection throttling policy for EWS, see [Description of Update Rollup 4 for Exchange Server 2010 Service Pack 2](http://support.microsoft.com/kb/2706690).
+- The **EWSMaxConcurrency** budget is shared for the service account and the account being impersonated for all connections to versions of Exchange earlier than Exchange 2010 Service Pack 2 (SP2) Update Rollup 4 (RU4). Starting with Exchange 2010 SP2 RU4, and including Exchange Online, the service account access uses a separate budget from the user **EWSMaxConcurrency** budget. For more information about the update to the Exchange concurrent connection throttling policy for EWS, see [Description of Update Rollup 4 for Exchange Server 2010 Service Pack 2](https://support.microsoft.com/kb/2706690).
 
     EWS streaming notifications in versions of Exchange starting with Exchange 2010, and including Exchange Online, have an additional cloned **EWSMaxConcurrency** budget from all other EWS client connections. Streaming notification connections are counted against a separate budget than all other EWS operations. The streaming notification maximum concurrency budget is actually two different budgets: one budget is for all service accounts, and one budget is for the account being impersonated. Streaming notifications in Exchange Online and versions of Exchange starting with Exchange 2013 use the [HangingConnectionLimit](#throttling-considerations-for-ews-notification-applications) to limit the number of connections.
 
@@ -291,10 +291,10 @@ The following table lists the HTTP status codes that are returned by throttling 
 
 ## See also
 
-- [Exchange Workload Management](http://technet.microsoft.com/en-us/library/jj150503.aspx)
-- [New-ThrottlingPolicy cmdlet](http://technet.microsoft.com/en-us/library/dd351045.aspx)
-- [Understanding Client Throttling Policies](http://technet.microsoft.com/en-us/library/dd297964.aspx)
-- [ThrottlingPolicy Class](http://msdn.microsoft.com/en-us/library/ff342496%28v=EXCHG.140%29.aspx)
+- [Exchange Workload Management](https://technet.microsoft.com/library/jj150503.aspx)
+- [New-ThrottlingPolicy cmdlet](https://technet.microsoft.com/library/dd351045.aspx)
+- [Understanding Client Throttling Policies](https://technet.microsoft.com/library/dd297964.aspx)
+- [ThrottlingPolicy Class](https://msdn.microsoft.com/library/ff342496%28v=EXCHG.140%29.aspx)
 - [Throttling Policies and the EWSFindCountLimit](https://blogs.msdn.com/b/exchangedev/archive/2010/03/12/throttling-policies-and-the-ewsfindcountlimit.aspx)
 - [Budget Snapshots in the IIS Logs](https://blogs.msdn.com/b/exchangedev/archive/2010/03/10/budget-snapshots-in-the-iis-logs.aspx)
 

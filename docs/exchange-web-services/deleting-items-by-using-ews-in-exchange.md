@@ -115,7 +115,7 @@ Some points to note about deleting items:
 
 - [Folders and items in EWS in Exchange](folders-and-items-in-ews-in-exchange.md)    
 - [Develop web service clients for Exchange](develop-web-service-clients-for-exchange.md)    
-- [Recoverable Items Folder](http://technet.microsoft.com/en-us/library/ee364755.aspx)    
+- [Recoverable Items Folder](https://technet.microsoft.com/library/ee364755.aspx)    
 - [Single Item Recovery in Exchange Server 2010](https://blogs.technet.com/b/exchange/archive/2009/09/25/3408389.aspx#_Single_Item_Recovery)    
 - [Exchange 2013: Delete a recurring series programmatically from Exchange servers](https://code.msdn.microsoft.com/exchange/Exchange-2013-Delete-a-e1c7b89d)    
 - [Exchange 2013: Delete tasks from an account on Exchange servers programmatically](https://code.msdn.microsoft.com/exchange/Exchange-2013-Delete-tasks-13824637)    
