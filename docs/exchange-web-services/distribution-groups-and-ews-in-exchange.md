@@ -56,13 +56,13 @@ You can use the EWS Managed API or EWS to expand a universal distribution group 
 
 |**EWS Managed API method**|**EWS operation**|**Use to…**|
 |:-----|:-----|:-----|
-|[ContactGroup class](http://msdn.microsoft.com/en-us/library/office/microsoft.exchange.webservices.data.contactgroup%28v=exchg.80%29.aspx) methods  <br/> |[CreateItem](http://msdn.microsoft.com/library/78a52120-f1d0-4ed7-8748-436e554f75b6%28Office.15%29.aspx) <br/> |Create a contact group in the Exchange store.<br/><br/>**NOTE**: You cannot create a universal distribution group or security group by using EWS Managed API or EWS.           |
-|[ExpandGroup](http://msdn.microsoft.com/en-us/library/office/microsoft.exchange.webservices.data.exchangeservice.expandgroup%28v=exchg.80%29.aspx) <br/> |[ExpandDL](http://msdn.microsoft.com/library/1f7837e7-9eff-4e10-9577-c40f7ed6af94%28Office.15%29.aspx) <br/> |Expand a universal distribution group, security group, or contact group by retrieving a list of its members.  <br/> |
-|[FindItems](http://msdn.microsoft.com/en-us/library/office/microsoft.exchange.webservices.data.exchangeservice.finditems%28v=exchg.80%29.aspx) <br/> |[FindItem](http://msdn.microsoft.com/library/ebad6aae-16e7-44de-ae63-a95b24539729%28Office.15%29.aspx) <br/> |Search for contact groups in the mailbox.  <br/> |
-|[GetRooms](http://msdn.microsoft.com/en-us/library/office/microsoft.exchange.webservices.data.exchangeservice.getrooms%28v=exchg.80%29.aspx) <br/> |[GetRooms](http://msdn.microsoft.com/library/5501ddc0-3bfa-4da6-8e15-4223ca5499a3%28Office.15%29.aspx) <br/> |Retrieve a collection of all rooms in a specified room list in an organization. A room list is a distribution group that only contains room resource mailboxes.  <br/> |
-|[ResolveName](http://msdn.microsoft.com/en-us/library/office/microsoft.exchange.webservices.data.exchangeservice.resolvename%28v=exchg.80%29.aspx) <br/> |[ResolveNames](http://msdn.microsoft.com/library/6b4eb4b3-9ad6-4804-a09f-7e20cfea4dbb%28Office.15%29.aspx) <br/> |Search for and return possible candidates to match an ambiguous name. The candidates can be distribution groups.  <br/> |
+|[ContactGroup class](https://msdn.microsoft.com/library/office/microsoft.exchange.webservices.data.contactgroup%28v=exchg.80%29.aspx) methods  <br/> |[CreateItem](https://msdn.microsoft.com/library/78a52120-f1d0-4ed7-8748-436e554f75b6%28Office.15%29.aspx) <br/> |Create a contact group in the Exchange store.<br/><br/>**NOTE**: You cannot create a universal distribution group or security group by using EWS Managed API or EWS.           |
+|[ExpandGroup](https://msdn.microsoft.com/library/office/microsoft.exchange.webservices.data.exchangeservice.expandgroup%28v=exchg.80%29.aspx) <br/> |[ExpandDL](https://msdn.microsoft.com/library/1f7837e7-9eff-4e10-9577-c40f7ed6af94%28Office.15%29.aspx) <br/> |Expand a universal distribution group, security group, or contact group by retrieving a list of its members.  <br/> |
+|[FindItems](https://msdn.microsoft.com/library/office/microsoft.exchange.webservices.data.exchangeservice.finditems%28v=exchg.80%29.aspx) <br/> |[FindItem](https://msdn.microsoft.com/library/ebad6aae-16e7-44de-ae63-a95b24539729%28Office.15%29.aspx) <br/> |Search for contact groups in the mailbox.  <br/> |
+|[GetRooms](https://msdn.microsoft.com/library/office/microsoft.exchange.webservices.data.exchangeservice.getrooms%28v=exchg.80%29.aspx) <br/> |[GetRooms](https://msdn.microsoft.com/library/5501ddc0-3bfa-4da6-8e15-4223ca5499a3%28Office.15%29.aspx) <br/> |Retrieve a collection of all rooms in a specified room list in an organization. A room list is a distribution group that only contains room resource mailboxes.  <br/> |
+|[ResolveName](https://msdn.microsoft.com/library/office/microsoft.exchange.webservices.data.exchangeservice.resolvename%28v=exchg.80%29.aspx) <br/> |[ResolveNames](https://msdn.microsoft.com/library/6b4eb4b3-9ad6-4804-a09f-7e20cfea4dbb%28Office.15%29.aspx) <br/> |Search for and return possible candidates to match an ambiguous name. The candidates can be distribution groups.  <br/> |
    
-You can use the information returned by the [ExpandGroup](http://msdn.microsoft.com/en-us/library/office/microsoft.exchange.webservices.data.exchangeservice.expandgroup%28v=exchg.80%29.aspx) method or the [ExpandDL](http://msdn.microsoft.com/library/1f7837e7-9eff-4e10-9577-c40f7ed6af94%28Office.15%29.aspx) operation to determine what types of members are in the group. The member types are defined by the [MailboxType](http://msdn.microsoft.com/en-us/library/office/microsoft.exchange.webservices.data.mailboxtype%28v=exchg.80%29.aspx) EWS Managed API enumeration and the [MailboxType](http://msdn.microsoft.com/library/696e5fdb-d8c5-40f0-9e79-885eae65dfa4%28Office.15%29.aspx) EWS element. 
+You can use the information returned by the [ExpandGroup](https://msdn.microsoft.com/library/office/microsoft.exchange.webservices.data.exchangeservice.expandgroup%28v=exchg.80%29.aspx) method or the [ExpandDL](https://msdn.microsoft.com/library/1f7837e7-9eff-4e10-9577-c40f7ed6af94%28Office.15%29.aspx) operation to determine what types of members are in the group. The member types are defined by the [MailboxType](https://msdn.microsoft.com/library/office/microsoft.exchange.webservices.data.mailboxtype%28v=exchg.80%29.aspx) EWS Managed API enumeration and the [MailboxType](https://msdn.microsoft.com/library/696e5fdb-d8c5-40f0-9e79-885eae65dfa4%28Office.15%29.aspx) EWS element. 
   
 **Table 2. Distribution group member types**
 
@@ -77,7 +77,7 @@ You can use the information returned by the [ExpandGroup](http://msdn.microsoft.
 
 ## Managing distribution groups by using the Exchange Management Shell
 
-You can [use Exchange Management Shell cmdlets](http://msdn.microsoft.com/en-us/library/ff326159%28v=exchg.140%29.aspx) to create and manage universal distribution groups and security groups in your code. 
+You can [use Exchange Management Shell cmdlets](https://msdn.microsoft.com/library/ff326159%28v=exchg.140%29.aspx) to create and manage universal distribution groups and security groups in your code. 
   
 > [!NOTE]
 > You cannot use Exchange Management Shell cmdlets to manage contact groups. 
@@ -86,20 +86,20 @@ You can [use Exchange Management Shell cmdlets](http://msdn.microsoft.com/en-us/
 
 |**Cmdlet**|**Use to…**|
 |:-----|:-----|
-|[Disable-DistributionGroup](http://technet.microsoft.com/en-us/library/aa997942%28v=exchg.150%29.aspx) <br/> |Remove mail capabilities from a mail-enabled distribution group.  <br/> |
-|[Enable-DistributionGroup](http://technet.microsoft.com/en-us/library/aa998916%28v=exchg.150%29.aspx) <br/> |Mail-enable an existing universal group.  <br/> |
-|[Get-DistributionGroup](http://technet.microsoft.com/en-us/library/bb124755%28v=exchg.150%29.aspx) <br/> |Query for existing distribution groups.  <br/> |
-|[New-DistributionGroup](http://technet.microsoft.com/en-us/library/aa998856%28v=exchg.150%29.aspx) <br/> |Create a distribution group.  <br/> |
-|[Remove-DistributionGroup](http://technet.microsoft.com/en-us/library/aa997627%28v=exchg.150%29.aspx) <br/> |Delete an existing distribution group from AD DS.  <br/> |
-|[Set-DistributionGroup](http://technet.microsoft.com/en-us/library/bb124955%28v=exchg.150%29.aspx) <br/> |Modify the settings of an existing distribution group.  <br/> |
-|[Add-DistributionGroupMember](http://technet.microsoft.com/en-us/library/bb124340%28v=exchg.150%29.aspx) <br/> |Add a recipient to a distribution group.  <br/> |
-|[Get-DistributionGroupMember](http://technet.microsoft.com/en-us/library/aa996367%28v=exchg.150%29.aspx) <br/> |Find existing distribution group members.  <br/> |
-|[Remove-DistributionGroupMember](http://technet.microsoft.com/en-us/library/aa998016%28v=exchg.150%29.aspx) <br/> |Remove an existing recipient from a distribution group.  <br/> |
-|[Update-DistributionGroupMember](http://technet.microsoft.com/en-us/library/dd335049%28v=exchg.150%29.aspx) <br/> |Update a member of a specified distribution group.  <br/> |
-|[Get-DynamicDistributionGroup](http://technet.microsoft.com/en-us/library/bb124762%28v=exchg.150%29.aspx) <br/> |Retrieve the settings on an existing dynamic distribution group.  <br/> |
-|[New-DynamicDistributionGroup](http://technet.microsoft.com/en-us/library/bb125127%28v=exchg.150%29.aspx) <br/> |Create a dynamic distribution group.  <br/> |
-|[Remove-DynamicDistributionGroup](http://technet.microsoft.com/en-us/library/bb125038%28v=exchg.150%29.aspx) <br/> |Delete an existing dynamic distribution group. This cmdlet removes the dynamic distribution group from AD DS.  <br/> |
-|[Set-DynamicDistributionGroup](http://technet.microsoft.com/en-us/library/bb123796%28v=exchg.150%29.aspx) <br/> |Modify the settings of an existing dynamic distribution group.  <br/> |
+|[Disable-DistributionGroup](https://technet.microsoft.com/library/aa997942%28v=exchg.150%29.aspx) <br/> |Remove mail capabilities from a mail-enabled distribution group.  <br/> |
+|[Enable-DistributionGroup](https://technet.microsoft.com/library/aa998916%28v=exchg.150%29.aspx) <br/> |Mail-enable an existing universal group.  <br/> |
+|[Get-DistributionGroup](https://technet.microsoft.com/library/bb124755%28v=exchg.150%29.aspx) <br/> |Query for existing distribution groups.  <br/> |
+|[New-DistributionGroup](https://technet.microsoft.com/library/aa998856%28v=exchg.150%29.aspx) <br/> |Create a distribution group.  <br/> |
+|[Remove-DistributionGroup](https://technet.microsoft.com/library/aa997627%28v=exchg.150%29.aspx) <br/> |Delete an existing distribution group from AD DS.  <br/> |
+|[Set-DistributionGroup](https://technet.microsoft.com/library/bb124955%28v=exchg.150%29.aspx) <br/> |Modify the settings of an existing distribution group.  <br/> |
+|[Add-DistributionGroupMember](https://technet.microsoft.com/library/bb124340%28v=exchg.150%29.aspx) <br/> |Add a recipient to a distribution group.  <br/> |
+|[Get-DistributionGroupMember](https://technet.microsoft.com/library/aa996367%28v=exchg.150%29.aspx) <br/> |Find existing distribution group members.  <br/> |
+|[Remove-DistributionGroupMember](https://technet.microsoft.com/library/aa998016%28v=exchg.150%29.aspx) <br/> |Remove an existing recipient from a distribution group.  <br/> |
+|[Update-DistributionGroupMember](https://technet.microsoft.com/library/dd335049%28v=exchg.150%29.aspx) <br/> |Update a member of a specified distribution group.  <br/> |
+|[Get-DynamicDistributionGroup](https://technet.microsoft.com/library/bb124762%28v=exchg.150%29.aspx) <br/> |Retrieve the settings on an existing dynamic distribution group.  <br/> |
+|[New-DynamicDistributionGroup](https://technet.microsoft.com/library/bb125127%28v=exchg.150%29.aspx) <br/> |Create a dynamic distribution group.  <br/> |
+|[Remove-DynamicDistributionGroup](https://technet.microsoft.com/library/bb125038%28v=exchg.150%29.aspx) <br/> |Delete an existing dynamic distribution group. This cmdlet removes the dynamic distribution group from AD DS.  <br/> |
+|[Set-DynamicDistributionGroup](https://technet.microsoft.com/library/bb123796%28v=exchg.150%29.aspx) <br/> |Modify the settings of an existing dynamic distribution group.  <br/> |
 
 <a name="bk_UsingEMS"> </a>
 
@@ -111,6 +111,6 @@ You can [use Exchange Management Shell cmdlets](http://msdn.microsoft.com/en-us/
 ## See also
 
 - [Develop web service clients for Exchange](develop-web-service-clients-for-exchange.md)   
-- [Calling Exchange Management Shell Cmdlets from Managed Code](http://msdn.microsoft.com/en-us/library/ff326159%28v=exchg.140%29.aspx)
+- [Calling Exchange Management Shell Cmdlets from Managed Code](https://msdn.microsoft.com/library/ff326159%28v=exchg.140%29.aspx)
     
 

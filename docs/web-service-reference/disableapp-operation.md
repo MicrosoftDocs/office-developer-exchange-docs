@@ -137,6 +137,6 @@ For additional error codes that are generic to EWS and specific to this operatio
 - [UninstallApp operation](uninstallapp-operation.md)   
 - [GetAppManifests](getappmanifests.md)   
 - [GetAppMarketplaceUrl operation](getappmarketplaceurl-operation.md)   
-- [Outlook add-ins](http://msdn.microsoft.com/library/71e64bc9-e347-4f5d-8948-0a47b5dd93e6%28Office.15%29.aspx)
+- [Outlook add-ins](https://msdn.microsoft.com/library/71e64bc9-e347-4f5d-8948-0a47b5dd93e6%28Office.15%29.aspx)
     
 

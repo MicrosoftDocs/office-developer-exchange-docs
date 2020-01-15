@@ -26,8 +26,8 @@ The following table lists the archiving operations that were introduced in Excha
   
 |**Operation name**|**Description**|
 |:-----|:-----|
-|[ArchiveItem](http://msdn.microsoft.com/library/1af216b3-13ea-498e-b4fc-23513755d731%28Office.15%29.aspx) <br/> |Moves an item from the primary mailbox to the archive mailbox.  <br/> |
-|[CreateFolderPath](http://msdn.microsoft.com/library/5a10aa5e-3f25-4ec3-a0b9-284c30918a1f%28Office.15%29.aspx) <br/> |Creates a URI that points to the storage location for the archive mailbox.  <br/> |
+|[ArchiveItem](https://msdn.microsoft.com/library/1af216b3-13ea-498e-b4fc-23513755d731%28Office.15%29.aspx) <br/> |Moves an item from the primary mailbox to the archive mailbox.  <br/> |
+|[CreateFolderPath](https://msdn.microsoft.com/library/5a10aa5e-3f25-4ec3-a0b9-284c30918a1f%28Office.15%29.aspx) <br/> |Creates a URI that points to the storage location for the archive mailbox.  <br/> |
    
 ## See also
 

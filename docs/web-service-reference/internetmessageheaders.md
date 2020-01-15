@@ -18,7 +18,7 @@ description: "The InternetMessageHeaders element contains a collection of some o
 
 # InternetMessageHeaders
 
-The **InternetMessageHeaders** element contains a collection of some of the Internet message headers that are contained in an item in a mailbox. To get the entire collection of Internet message headers, use the **PR_TRANSPORT_MESSAGE_HEADERS** property. For more information about EWS and Internet message headers, see "Getting Internet message headers" in [EWS, MIME, and the missing Internet message headers](http://msdn.microsoft.com/en-us/library/exchange/hh545614%28v=exchg.140%29.aspx).
+The **InternetMessageHeaders** element contains a collection of some of the Internet message headers that are contained in an item in a mailbox. To get the entire collection of Internet message headers, use the **PR_TRANSPORT_MESSAGE_HEADERS** property. For more information about EWS and Internet message headers, see "Getting Internet message headers" in [EWS, MIME, and the missing Internet message headers](https://msdn.microsoft.com/library/exchange/hh545614%28v=exchg.140%29.aspx).
   
 ```XML
 <InternetMessageHeaders>
@@ -86,5 +86,5 @@ The schema that describes this element is located in the IIS virtual directory t
 - [EWS XML elements in Exchange](ews-xml-elements-in-exchange.md)
 
 
-[EWS, MIME, and the missing Internet message headers](http://msdn.microsoft.com/en-us/library/exchange/hh545614%28v=exchg.140%29.aspx)
+[EWS, MIME, and the missing Internet message headers](https://msdn.microsoft.com/library/exchange/hh545614%28v=exchg.140%29.aspx)
 

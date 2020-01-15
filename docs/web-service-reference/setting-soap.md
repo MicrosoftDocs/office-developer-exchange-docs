@@ -105,7 +105,7 @@ The text value for this element is the configuration setting. The following tabl
 |ExternalEwsVersion  <br/> |The version of the Web services server that is delivering the specified request.  <br/> |
 |InteropExternalEwsVersion  <br/> |The version of the server InteropExternalEwsUrl is pointing to.  <br/> |
 |MobileMailboxPolicyInterop  <br/> |The mobile mailbox policy settings.  <br/> |
-|GroupingInformation  <br/> |A value used in conjunction with the ExternalEwsUrl setting to group multiple mailboxes together to [maintain affinity](http://msdn.microsoft.com/library/1bda4094-88c3-4f61-9219-6ee70f6e81cf%28Office.15%29.aspx) when subscribing to notifications.  <br/> |
+|GroupingInformation  <br/> |A value used in conjunction with the ExternalEwsUrl setting to group multiple mailboxes together to [maintain affinity](https://msdn.microsoft.com/library/1bda4094-88c3-4f61-9219-6ee70f6e81cf%28Office.15%29.aspx) when subscribing to notifications.  <br/> |
 |UserMSOnline  <br/> |A Boolean value that indicates whether the user's mailbox is hosted in Exchange Online or Exchange Online as part of Office 365.  <br/> |
 |MapiHttpEnabled  <br/> |A Boolean value that indicates whether the user's mailbox is accessible via the MAPI/HTTP protocol.  <br/> |
    

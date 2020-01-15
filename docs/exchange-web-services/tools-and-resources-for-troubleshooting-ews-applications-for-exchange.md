@@ -25,7 +25,7 @@ Things don't always go as planned. Sometimes EWS requests fail, or provide unexp
 
 When things aren't working correctly, it really helps to be able to see what's going on. The first line of inquiry when investigating a problem with EWS or the EWS Managed API is to examine the requests that your application is sending over the network and the responses that the server is sending back.
   
-The EWS Managed API makes examining SOAP requests and responses easy with its [built in tracing functionality](how-to-trace-requests-responses-to-troubleshoot-ews-managed-api-applications.md). If you are using EWS, you might or might not have access to similar tracing functionality, depending on what platform or classes you use to send your requests. However, you can always use a network tracing tool like [Network Monitor](http://www.microsoft.com/en-us/download/details.aspx?id=4865) or [Fiddler](http://www.telerik.com/fiddler) to examine the network traffic and view the request and response payloads. 
+The EWS Managed API makes examining SOAP requests and responses easy with its [built in tracing functionality](how-to-trace-requests-responses-to-troubleshoot-ews-managed-api-applications.md). If you are using EWS, you might or might not have access to similar tracing functionality, depending on what platform or classes you use to send your requests. However, you can always use a network tracing tool like [Network Monitor](http://www.microsoft.com/download/details.aspx?id=4865) or [Fiddler](http://www.telerik.com/fiddler) to examine the network traffic and view the request and response payloads. 
   
 Additionally, you can [instrument your client requests](instrumenting-client-requests-for-ews-and-rest-in-exchange.md) to enhance the information available in requests and responses. 
   
@@ -53,15 +53,15 @@ There are a number of different components involved in EWS operations, and the v
 
 |**Component**|**EWS Managed API**|**EWS**|**Notes**|
 |:-----|:-----|:-----|:-----|
-|Requested server version  <br/> |[ExchangeServiceBase.RequestedServerVersion](http://msdn.microsoft.com/EN-US/library/microsoft.exchange.webservices.data.exchangeservicebase.requestedserverversion%28v=exchg.80%29.aspx) property  <br/> |[RequestServerVersion](http://msdn.microsoft.com/library/af4032d5-42b3-463e-9d0a-8236d78e5b75%28Office.15%29.aspx) element  <br/> |This value controls which version of the EWS schema is used to process the EWS request. Make sure that the schema version specified here makes sense for the request you are sending. Some properties and operations are not available in earlier versions of the schema.  <br/> |
-|The server version  <br/> |[ExchangeServiceBase.ServerInfo](http://msdn.microsoft.com/EN-US/library/microsoft.exchange.webservices.data.exchangeservicebase.serverinfo%28v=exchg.80%29.aspx) property  <br/> |[ServerVersionInfo](http://msdn.microsoft.com/library/c04a6872-ca27-432b-aac2-36b023d0afc6%28Office.15%29.aspx) element  <br/> |This value is returned by the server in EWS responses, and indicates the version of the server that processed the response. Make sure this value is what you expect. If possible, make sure that the Exchange server is running the most recent update for your major version of Exchange.  <br/> |
+|Requested server version  <br/> |[ExchangeServiceBase.RequestedServerVersion](https://msdn.microsoft.com/library/microsoft.exchange.webservices.data.exchangeservicebase.requestedserverversion%28v=exchg.80%29.aspx) property  <br/> |[RequestServerVersion](https://msdn.microsoft.com/library/af4032d5-42b3-463e-9d0a-8236d78e5b75%28Office.15%29.aspx) element  <br/> |This value controls which version of the EWS schema is used to process the EWS request. Make sure that the schema version specified here makes sense for the request you are sending. Some properties and operations are not available in earlier versions of the schema.  <br/> |
+|The server version  <br/> |[ExchangeServiceBase.ServerInfo](https://msdn.microsoft.com/library/microsoft.exchange.webservices.data.exchangeservicebase.serverinfo%28v=exchg.80%29.aspx) property  <br/> |[ServerVersionInfo](https://msdn.microsoft.com/library/c04a6872-ca27-432b-aac2-36b023d0afc6%28Office.15%29.aspx) element  <br/> |This value is returned by the server in EWS responses, and indicates the version of the server that processed the response. Make sure this value is what you expect. If possible, make sure that the Exchange server is running the most recent update for your major version of Exchange.  <br/> |
 |The EWS Managed API version  <br/> |The Product version property of the Microsoft.Exchange.WebServices.dll file.  <br/> |Not applicable  <br/> |If you're using the EWS Managed API, make sure that you are using [the most recent version](http://aka.ms/ews-managed-api-readme).  <br/> |
    
 ## Verify access
 
-EWS is enabled by default, but [defaults can be changed](how-to-control-access-to-ews-in-exchange.md). Use the [Get-OrganizationConfig](http://technet.microsoft.com/en-us/library/bb124754.aspx) cmdlet to make sure that EWS is enabled on the server, and the [Get-CASMailbox](http://technet.microsoft.com/en-us/library/aa997571.aspx) cmdlet to make sure that EWS is enabled for the user's mailbox. Also check both cmdlet responses for an EWS allow or block list, and make sure that your application isn't blocked from using EWS. 
+EWS is enabled by default, but [defaults can be changed](how-to-control-access-to-ews-in-exchange.md). Use the [Get-OrganizationConfig](https://technet.microsoft.com/library/bb124754.aspx) cmdlet to make sure that EWS is enabled on the server, and the [Get-CASMailbox](https://technet.microsoft.com/library/aa997571.aspx) cmdlet to make sure that EWS is enabled for the user's mailbox. Also check both cmdlet responses for an EWS allow or block list, and make sure that your application isn't blocked from using EWS. 
   
-You should also verify that the [default authentication settings](http://technet.microsoft.com/en-us/library/gg247612%28v=exchg.150%29.aspx) on the EWS virtual directory have not been modified. 
+You should also verify that the [default authentication settings](https://technet.microsoft.com/library/gg247612%28v=exchg.150%29.aspx) on the EWS virtual directory have not been modified. 
   
 ## Try another EWS client
 
@@ -80,7 +80,7 @@ IIS provides two different logging methods: [IIS logging](http://www.iis.net/lea
 
 Now that you've learned about the tools and resources that you can use to troubleshoot, you might need help understanding the information provided by those tools. The following are some options for getting help:
   
-- [Exchange Server Development forum on MSDN](http://social.msdn.microsoft.com/Forums/en-US/home?category=exchangeserver) — Ask a question of the MSDN Exchange Server development community. 
+- [Exchange Server Development forum on MSDN](http://social.msdn.microsoft.com/Forums/home?category=exchangeserver) — Ask a question of the MSDN Exchange Server development community. 
     
 - [StackOverflow](http://stackoverflow.com/tags/ews) — Ask a question of the StackOverflow community. Be sure to tag your post with "ews". 
     
@@ -115,11 +115,11 @@ See the following articles:
     
 - [Introducing: Log Parser Studio](https://blogs.technet.com/b/exchange/archive/2012/03/07/introducing-log-parser-studio.aspx)
     
-- [Default Settings for Exchange Virtual Directories](http://technet.microsoft.com/en-us/library/gg247612%28v=exchg.150%29.aspx)
+- [Default Settings for Exchange Virtual Directories](https://technet.microsoft.com/library/gg247612%28v=exchg.150%29.aspx)
     
 Download the following:
   
-- [Microsoft Network Monitor 3.4](http://www.microsoft.com/en-us/download/details.aspx?id=4865)
+- [Microsoft Network Monitor 3.4](http://www.microsoft.com/download/details.aspx?id=4865)
     
 - [Fiddler](http://www.telerik.com/fiddler)
     

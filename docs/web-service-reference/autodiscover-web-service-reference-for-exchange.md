@@ -38,7 +38,7 @@ This section contains reference information for the SOAP Autodiscover service an
 ## See also
 
 - [Web services reference for Exchange](web-services-reference-for-exchange.md)
-- [Autodiscover Service (SOAP)](http://msdn.microsoft.com/library/e24d1a1f-0d20-4bd9-ae4c-9112ecacea78%28Office.15%29.aspx)
-- [Autodiscover Service (POX)](http://msdn.microsoft.com/library/13c54de3-a91c-4424-8732-99dd8f2162ec%28Office.15%29.aspx)
+- [Autodiscover Service (SOAP)](https://msdn.microsoft.com/library/e24d1a1f-0d20-4bd9-ae4c-9112ecacea78%28Office.15%29.aspx)
+- [Autodiscover Service (POX)](https://msdn.microsoft.com/library/13c54de3-a91c-4424-8732-99dd8f2162ec%28Office.15%29.aspx)
     
 

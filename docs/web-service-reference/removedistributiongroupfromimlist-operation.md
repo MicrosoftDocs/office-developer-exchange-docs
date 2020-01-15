@@ -146,6 +146,6 @@ The following elements are used in the error response SOAP body:
     
 - [AddDistributionGroupToImList operation](adddistributiongrouptoimlist-operation.md)
     
-- [People and contacts in EWS in Exchange](http://msdn.microsoft.com/library/043c33be-a0d1-4bad-a840-85715eda4813%28Office.15%29.aspx#What)
+- [People and contacts in EWS in Exchange](https://msdn.microsoft.com/library/043c33be-a0d1-4bad-a840-85715eda4813%28Office.15%29.aspx#What)
     
 

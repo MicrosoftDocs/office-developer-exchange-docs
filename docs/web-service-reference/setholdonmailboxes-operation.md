@@ -36,7 +36,7 @@ The **SetHoldOnMailboxes** operation can use the SOAP headers that are listed in
    
 ## SetHoldOnMailboxes operation request example: Apply a hold on a mailbox
 
-The following example of a **SetHoldOnMailboxes** operation request shows how to apply a hold on two mailboxes. The mailbox hold was created by using the [New-MailboxSearch](http://technet.microsoft.com/en-us/library/dd298064.aspx) command. 
+The following example of a **SetHoldOnMailboxes** operation request shows how to apply a hold on two mailboxes. The mailbox hold was created by using the [New-MailboxSearch](https://technet.microsoft.com/library/dd298064.aspx) command. 
   
 ```XML
 <?xml version="1.0" encoding="UTF-8"?>

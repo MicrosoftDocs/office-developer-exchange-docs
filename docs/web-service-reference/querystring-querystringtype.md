@@ -49,7 +49,7 @@ None.
    
 ## Text value
 
-The **QueryString** element text value represents a mailbox query that is made by using a subset of [Advanced Query Syntax (AQS)](http://msdn.microsoft.com/en-us/library/aa965711%28VS.85%29.aspx). See the remarks section for information about the supported syntax options for query strings.
+The **QueryString** element text value represents a mailbox query that is made by using a subset of [Advanced Query Syntax (AQS)](https://msdn.microsoft.com/library/aa965711%28VS.85%29.aspx). See the remarks section for information about the supported syntax options for query strings.
   
 ## Remarks
 

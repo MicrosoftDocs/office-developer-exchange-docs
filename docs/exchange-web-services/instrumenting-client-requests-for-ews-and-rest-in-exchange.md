@@ -22,17 +22,17 @@ We recommend that you add additional HTTP headers to your requests to facilitate
 
 |**HTTP header (EWS)**|**EWS Managed API equivalent**|**Notes**|
 |:-----|:-----|:-----|
-|User-Agent  <br/> |[ExchangeService.UserAgent](http://msdn.microsoft.com/en-us/library/microsoft.exchange.webservices.data.exchangeservicebase.useragent%28v=exchg.80%29.aspx) <br/> |Set this to a unique value that identifies your client application.<br/><br/> Using the same value for all requests that your application sends allows Microsoft to help troubleshoot call failures, should they arise.  <br/> |
-|client-request-id  <br/> |[ExchangeService.ClientRequestId](http://msdn.microsoft.com/en-us/library/microsoft.exchange.webservices.data.exchangeservicebase.clientrequestid%28v=exchg.80%29.aspx) <br/> |Set this to a different unique value for every request your application sends.<br/><br/> We recommend that you use a GUID. This unique identifier is intended to be used to correlate activities between two systems in the event that something goes wrong.  <br/> |
-|return-client-request-id  <br/> |[ExchangeService.ReturnClientRequestId](http://msdn.microsoft.com/en-us/library/microsoft.exchange.webservices.data.exchangeservicebase.returnclientrequestid%28v=exchg.80%29.aspx) <br/> |Set this to **true** to signal to the Exchange server that it should return the value of your client-request-id in the corresponding response.<br/><br/> You can use this to correlate requests and responses in network traces or EWS Managed API traces.  <br/> |
-|X-ClientStatistics  <br/> |[ExchangeService.SendClientLatencies](http://msdn.microsoft.com/en-us/library/microsoft.exchange.webservices.data.exchangeservicebase.sendclientlatencies%28v=exchg.80%29.aspx) <br/> |Used to [report EWS latencies](#bk_ReportLatency) to Microsoft if your application is accessing Exchange Online or Exchange Online as part of Office 365.  <br/> |
+|User-Agent  <br/> |[ExchangeService.UserAgent](https://msdn.microsoft.com/library/microsoft.exchange.webservices.data.exchangeservicebase.useragent%28v=exchg.80%29.aspx) <br/> |Set this to a unique value that identifies your client application.<br/><br/> Using the same value for all requests that your application sends allows Microsoft to help troubleshoot call failures, should they arise.  <br/> |
+|client-request-id  <br/> |[ExchangeService.ClientRequestId](https://msdn.microsoft.com/library/microsoft.exchange.webservices.data.exchangeservicebase.clientrequestid%28v=exchg.80%29.aspx) <br/> |Set this to a different unique value for every request your application sends.<br/><br/> We recommend that you use a GUID. This unique identifier is intended to be used to correlate activities between two systems in the event that something goes wrong.  <br/> |
+|return-client-request-id  <br/> |[ExchangeService.ReturnClientRequestId](https://msdn.microsoft.com/library/microsoft.exchange.webservices.data.exchangeservicebase.returnclientrequestid%28v=exchg.80%29.aspx) <br/> |Set this to **true** to signal to the Exchange server that it should return the value of your client-request-id in the corresponding response.<br/><br/> You can use this to correlate requests and responses in network traces or EWS Managed API traces.  <br/> |
+|X-ClientStatistics  <br/> |[ExchangeService.SendClientLatencies](https://msdn.microsoft.com/library/microsoft.exchange.webservices.data.exchangeservicebase.sendclientlatencies%28v=exchg.80%29.aspx) <br/> |Used to [report EWS latencies](#bk_ReportLatency) to Microsoft if your application is accessing Exchange Online or Exchange Online as part of Office 365.  <br/> |
    
 ## Log information from responses
 
 Just as your client can add additional instrumentation to the requests it sends, Exchange adds additional instrumentation to the responses in the form of HTTP headers. Your client should capture this information to go along with the request instrumentation information.
   
 > [!NOTE]
-> If you are using the EWS Managed API, there is no direct equivalent for the HTTP headers. However, all HTTP response headers can be accessed via the [ExchangeService.HttpResponseHeaders](http://msdn.microsoft.com/en-us/library/microsoft.exchange.webservices.data.exchangeservicebase.httpresponseheaders%28v=exchg.80%29.aspx) property. 
+> If you are using the EWS Managed API, there is no direct equivalent for the HTTP headers. However, all HTTP response headers can be accessed via the [ExchangeService.HttpResponseHeaders](https://msdn.microsoft.com/library/microsoft.exchange.webservices.data.exchangeservicebase.httpresponseheaders%28v=exchg.80%29.aspx) property. 
   
 **Table 2. HTTP response headers**
 
@@ -48,7 +48,7 @@ Just as your client can add additional instrumentation to the requests it sends,
 ## Report EWS latency to Microsoft
 <a name="bk_ReportLatency"> </a>
 
-If your application uses the EWS Managed API or EWS to connect to Exchange Online, you can report latency in EWS requests directly to Microsoft. The information is passed via the X-ClientStatistics request header. If you are using the EWS Managed API, all you have to do is set the [ExchangeService.SendClientLatencies](http://msdn.microsoft.com/en-us/library/microsoft.exchange.webservices.data.exchangeservicebase.sendclientlatencies%28v=exchg.80%29.aspx) property to **true**. If you are using EWS, you'll need to measure the time between issuing a request and receiving a response, then add the X-ClientStatistics header to the next EWS request your application sends, using the following format.
+If your application uses the EWS Managed API or EWS to connect to Exchange Online, you can report latency in EWS requests directly to Microsoft. The information is passed via the X-ClientStatistics request header. If you are using the EWS Managed API, all you have to do is set the [ExchangeService.SendClientLatencies](https://msdn.microsoft.com/library/microsoft.exchange.webservices.data.exchangeservicebase.sendclientlatencies%28v=exchg.80%29.aspx) property to **true**. If you are using EWS, you'll need to measure the time between issuing a request and receiving a response, then add the X-ClientStatistics header to the next EWS request your application sends, using the following format.
   
 `X-ClientStatistics: MessageId=<value of request-id header>,ResponseTime=<time in milliseconds>,SoapAction=<EWS operation>`
   

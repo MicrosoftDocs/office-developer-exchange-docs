@@ -64,7 +64,7 @@ Before you use Autodiscover to find an endpoint, you should be familiar with the
 |:-----|:-----|
 |[Autodiscover for Exchange](autodiscover-for-exchange.md) <br/> |Provides an overview of how the Autodiscover service works.  <br/> |
    
-If you are using the EWS Managed API, you use the [Microsoft.Exchange.WebServices.Data.ExchangeService](http://msdn.microsoft.com/en-us/library/microsoft.exchange.webservices.data.exchangeservice%28v=exchg.80%29.aspx) class in the [Microsoft.Exchange.WebServices.Data](http://msdn.microsoft.com/en-us/library/dd633907%28v=exchg.80%29.aspx) namespace to manage your connection to EWS. To use the EWS Managed API code samples in this article, you need to reference the following namespaces in your code: 
+If you are using the EWS Managed API, you use the [Microsoft.Exchange.WebServices.Data.ExchangeService](https://msdn.microsoft.com/library/microsoft.exchange.webservices.data.exchangeservice%28v=exchg.80%29.aspx) class in the [Microsoft.Exchange.WebServices.Data](https://msdn.microsoft.com/library/dd633907%28v=exchg.80%29.aspx) namespace to manage your connection to EWS. To use the EWS Managed API code samples in this article, you need to reference the following namespaces in your code: 
   
 - **System.Net**
     
@@ -128,7 +128,7 @@ The Autodiscover service may respond with one of two redirection responses: an H
 > [!IMPORTANT]
 > For criteria for validating a redirection response, see [Autodiscover for Exchange](autodiscover-for-exchange.md). 
   
-If the Autodiscover service returns a redirection response, indicated by the [ErrorCode](http://msdn.microsoft.com/library/0bb00cee-c66b-4f34-b99d-355458f5e83b%28Office.15%29.aspx) element of the **UserResponse** element, your client application should use the **RedirectTarget** element to construct a new settings request that is sent to the server specified in the redirection response. The following example shows a redirection response from the server. 
+If the Autodiscover service returns a redirection response, indicated by the [ErrorCode](https://msdn.microsoft.com/library/0bb00cee-c66b-4f34-b99d-355458f5e83b%28Office.15%29.aspx) element of the **UserResponse** element, your client application should use the **RedirectTarget** element to construct a new settings request that is sent to the server specified in the redirection response. The following example shows a redirection response from the server. 
   
 ```XML
 <s:Envelope xmlns:s="https://schemas.xmlsoap.org/soap/envelope/" xmlns:a="http://www.w3.org/2005/08/addressing">
@@ -198,7 +198,7 @@ After a redirection, the client uses the redirection URL to prepare another requ
 
 ```
 
-When the client application has been directed to the correct endpoint for the Autodiscover service, the server will send a response with the [ErrorCode](http://msdn.microsoft.com/library/0bb00cee-c66b-4f34-b99d-355458f5e83b%28Office.15%29.aspx) element of the **UserResponse** element set to **NoError** and containing the requested user settings. Only the requested user settings, **InternalEwsUrl** and **ExternalEwsUrl**, are returned. The following example shows the response from the server. 
+When the client application has been directed to the correct endpoint for the Autodiscover service, the server will send a response with the [ErrorCode](https://msdn.microsoft.com/library/0bb00cee-c66b-4f34-b99d-355458f5e83b%28Office.15%29.aspx) element of the **UserResponse** element set to **NoError** and containing the requested user settings. Only the requested user settings, **InternalEwsUrl** and **ExternalEwsUrl**, are returned. The following example shows the response from the server. 
   
 ```XML
 <s:Envelope xmlns:s="https://schemas.xmlsoap.org/soap/envelope/" 
@@ -256,7 +256,7 @@ Finding the endpoint by following the Autodiscover process returns the requested
 
 - [Setting up your EWS application](setting-up-your-ews-application.md)   
 - [Autodiscover for Exchange](autodiscover-for-exchange.md)    
-- [Autodiscover web service reference for Exchange](http://msdn.microsoft.com/library/a01124a8-a8cf-4b80-8625-d7ee05690bca%28Office.15%29.aspx)    
-- [EWS reference for Exchange](http://msdn.microsoft.com/library/2a873474-1bb2-4cb1-a556-40e8c4159f4a%28Office.15%29.aspx)
+- [Autodiscover web service reference for Exchange](https://msdn.microsoft.com/library/a01124a8-a8cf-4b80-8625-d7ee05690bca%28Office.15%29.aspx)    
+- [EWS reference for Exchange](https://msdn.microsoft.com/library/2a873474-1bb2-4cb1-a556-40e8c4159f4a%28Office.15%29.aspx)
     
 

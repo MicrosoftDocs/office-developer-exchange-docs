@@ -75,5 +75,5 @@ The schema that describes this element is located in the IIS virtual directory t
 - [EWS XML elements in Exchange](ews-xml-elements-in-exchange.md)
 
 
-[Versioning Requests](http://msdn.microsoft.com/library/76877b0a-d2e5-4c74-9295-7b445a41d46a%28Office.15%29.aspx)
+[Versioning Requests](https://msdn.microsoft.com/library/76877b0a-d2e5-4c74-9295-7b445a41d46a%28Office.15%29.aspx)
 

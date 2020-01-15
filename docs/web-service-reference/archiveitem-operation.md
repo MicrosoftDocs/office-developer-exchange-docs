@@ -20,7 +20,7 @@ This operation was introduced in Exchange Server 2013.
   
 ## Using the ArchiveItem operation
 
-The **ArchiveItem** operation takes two arguments in the request that identify the items to move to the archive mailbox and the destination folder for those items. An archive mailbox must be enabled in order for this operation to work. For information about how to enable an archive mailbox, see [Manage In-Place Archives](http://technet.microsoft.com/en-us/library/jj651146.aspx).
+The **ArchiveItem** operation takes two arguments in the request that identify the items to move to the archive mailbox and the destination folder for those items. An archive mailbox must be enabled in order for this operation to work. For information about how to enable an archive mailbox, see [Manage In-Place Archives](https://technet.microsoft.com/library/jj651146.aspx).
   
 ### ArchiveItem operation SOAP headers
 
@@ -162,6 +162,6 @@ For additional error codes that are generic to EWS and specific to this operatio
 ## See also
 
 - [EWS operations in Exchange](ews-operations-in-exchange.md) 
-- [Archiving in EWS in Exchange](http://msdn.microsoft.com/library/78ae179b-ae4f-4f64-911a-e0c70e0fa314%28Office.15%29.aspx)
+- [Archiving in EWS in Exchange](https://msdn.microsoft.com/library/78ae179b-ae4f-4f64-911a-e0c70e0fa314%28Office.15%29.aspx)
     
 

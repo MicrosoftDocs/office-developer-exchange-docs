@@ -217,7 +217,7 @@ Versions of Exchange starting with major version 15 and ending with build 15.0.8
   
 ## See also
 
-- [Finding Items](http://msdn.microsoft.com/library/63af1f9c-464b-4fca-9ae3-3d60f24ca93c%28Office.15%29.aspx)
+- [Finding Items](https://msdn.microsoft.com/library/63af1f9c-464b-4fca-9ae3-3d60f24ca93c%28Office.15%29.aspx)
     
 - [EWS XML elements in Exchange](ews-xml-elements-in-exchange.md)
     
