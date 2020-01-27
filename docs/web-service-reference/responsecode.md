@@ -404,7 +404,7 @@ A text value is required if this element is used. The following table describes 
 |ErrorNoFreeBusyAccess  <br/> |This error indicates that the caller does not have free/busy viewing rights on the Calendar folder in question.  <br/> |
 |ErrorNonExistentMailbox  <br/> | This error occurs in the following scenarios: <br/> <br/>-  The e-mail address is empty in [CreateManagedFolder](createmanagedfolder.md).  <br/>-  The e-mail address does not refer to a valid account in a request that takes an e-mail address in the body or in the SOAP header, such as in an Exchange Impersonation call.  <br/> |
 |ErrorNonPrimarySmtpAddress  <br/> |This error occurs when a caller passes in a non-primary SMTP address. The response includes the correct SMTP address to use.  <br/> |
-|ErrorNoPropertyTagForCustomProperties  <br/> |This error indicates that MAPI properties in the custom range, 0x8000 and greater, cannot be referenced by property tags. You must use the EWS Managed API [PropertySetId](http://msdn.microsoft.com/en-us/library/microsoft.exchange.webservices.data.extendedpropertydefinition.propertysetid%28v=exchg.80%29.aspx)property or the EWS [ExtendedFieldURI](extendedfielduri.md) element with the PropertySetId attribute.  <br/> |
+|ErrorNoPropertyTagForCustomProperties  <br/> |This error indicates that MAPI properties in the custom range, 0x8000 and greater, cannot be referenced by property tags. You must use the EWS Managed API [PropertySetId](https://msdn.microsoft.com/library/microsoft.exchange.webservices.data.extendedpropertydefinition.propertysetid%28v=exchg.80%29.aspx)property or the EWS [ExtendedFieldURI](extendedfielduri.md) element with the PropertySetId attribute.  <br/> |
 |ErrorNoPublicFolderReplicaAvailable  <br/> |This response code is not used.  <br/> |
 |ErrorNoPublicFolderServerAvailable  <br/> |This error code MUST be returned if no public folder server is available or if the caller does not have a home public server.  <br/> |
 |ErrorNoRespondingCASInDestinationSite  <br/> |This error indicates that the request referred to a mailbox in another Active Directory site, but none of the Client Access servers in that site responded, and therefore the request could not be proxied.  <br/> |
@@ -591,7 +591,7 @@ The schema that describes this element is located in the IIS virtual directory t
 
 |||
 |:-----|:-----|
-|Namespace  <br/> |http://schemas.microsoft.com/exchange/services/2006/messages  <br/> |
+|Namespace  <br/> |https://schemas.microsoft.com/exchange/services/2006/messages  <br/> |
 |Schema Name  <br/> |Messages schema  <br/> |
 |Validation File  <br/> |Messages.xsd  <br/> |
 |Can be Empty  <br/> |False  <br/> |

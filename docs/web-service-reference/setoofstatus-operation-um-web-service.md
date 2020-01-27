@@ -31,7 +31,7 @@ The following example of a SetOofStatus request shows how to form a request to e
 <?xml version="1.0" encoding="utf-8"?>
 <soap:Envelope xmlns:soap="http://schemas.xmlsoap.org/soap/envelope/">
   <soap:Body>
-    <SetOofStatus xmlns="http://schemas.microsoft.com/exchange/services/2006/messages">
+    <SetOofStatus xmlns="https://schemas.microsoft.com/exchange/services/2006/messages">
         <status>true</status>
     </SetOofStatus>
   </soap:Body>
@@ -50,7 +50,7 @@ The following example of a SetOofStatus response shows a response to the SetOofS
 <?xml version="1.0" encoding="utf-8" ?> 
 <soap:Envelope xmlns:soap="http://schemas.xmlsoap.org/soap/envelope/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
   <soap:Body>
-    <SetOofStatusResponse xmlns="http://schemas.microsoft.com/exchange/services/2006/messages" /> 
+    <SetOofStatusResponse xmlns="https://schemas.microsoft.com/exchange/services/2006/messages" /> 
   </soap:Body>
 </soap:Envelope>
 ```

@@ -55,7 +55,7 @@ The schema that describes this element is located in the IIS virtual directory t
 
 |||
 |:-----|:-----|
-|Namespace  <br/> |http://schemas.microsoft.com/exchange/services/2006/message  <br/> |
+|Namespace  <br/> |https://schemas.microsoft.com/exchange/services/2006/message  <br/> |
 |Schema name  <br/> |Message schema  <br/> |
 |Validation file  <br/> |Message.xsd  <br/> |
 |Can be empty  <br/> |false  <br/> |

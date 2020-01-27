@@ -72,7 +72,7 @@ The schema that describes this element is located in the IIS virtual directory t
 
 ||||
 |:-----|:-----|:-----|
-|Namespace  <br/> |http://schemas.microsoft.com/exchange/services/2006/messages  <br/> |http://schemas.microsoft.com/exchange/services/2006/types  <br/> |
+|Namespace  <br/> |https://schemas.microsoft.com/exchange/services/2006/messages  <br/> |https://schemas.microsoft.com/exchange/services/2006/types  <br/> |
 |Schema Name  <br/> |Messages schema  <br/> |Types schema  <br/> |
 |Validation File  <br/> |Messages.xsd  <br/> |Types.xsd  <br/> |
 |Can be Empty  <br/> |False  <br/> |False  <br/> |
@@ -81,5 +81,5 @@ The schema that describes this element is located in the IIS virtual directory t
 
 - [ConvertId operation](convertid-operation.md)
 - [EWS XML elements in Exchange](ews-xml-elements-in-exchange.md)
-- [Converting Identifiers](http://msdn.microsoft.com/library/a5391746-b6ef-4f48-8fc8-8255258651aa%28Office.15%29.aspx)
+- [Converting Identifiers](https://msdn.microsoft.com/library/a5391746-b6ef-4f48-8fc8-8255258651aa%28Office.15%29.aspx)
 

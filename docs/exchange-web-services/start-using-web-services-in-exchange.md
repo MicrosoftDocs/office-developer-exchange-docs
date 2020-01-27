@@ -3,7 +3,7 @@ title: "Start using web services in Exchange"
  
  
 manager: sethgros
-ms.date: 2/27/2017
+ms.date: 2/26/2019
 ms.audience: Developer
  
  
@@ -16,7 +16,7 @@ localization_priority: Priority
 
 Find information to help you get started with EWS and other web services in Exchange.
   
-The [web services in Exchange](explore-the-ews-managed-api-ews-and-web-services-in-exchange.md)provide access to mailbox data stored in Exchange Online, Exchange Online as part of Office 365, and on-premises versions of Exchange starting with Exchange Server 2007, and enable you to create custom applications that you can use to manage that information according to the requirements of your organization. While the range of EWS and web service applications that you can create is practically infinite, certain fundamental concepts apply for any type of application. This section provides information about the fundamental concepts you need to be familiar with in order to start using EWS and other web services in Exchange. 
+The [web services in Exchange](explore-the-ews-managed-api-ews-and-web-services-in-exchange.md) provide access to mailbox data stored in Exchange Online, Exchange Online as part of Office 365, and on-premises versions of Exchange starting with Exchange Server 2007, and enable you to create custom applications that you can use to manage that information according to the requirements of your organization. While the range of EWS and web service applications that you can create is practically infinite, certain fundamental concepts apply for any type of application. This section provides information about the fundamental concepts you need to be familiar with in order to start using EWS and other web services in Exchange. 
   
 ## Build your knowledge
 <a name="bk_Knowledge"> </a>
@@ -33,7 +33,7 @@ Whether you use the .NET Framework or another platform to develop your web servi
 |[Setup](setting-up-your-ews-application.md) <br/> |Find information about the tasks you need to complete in order to create applications that use the EWS Managed API or EWS to communicate with Exchange.  <br/> |
 |[Authentication](authentication-and-ews-in-exchange.md) <br/> |Learn about the authentication options for connecting to Exchange Online and Exchange on-premises.  <br/> |
 |[Autodiscover](autodiscover-for-exchange.md) <br/> |Learn about the set of services that you can use to discover the URL endpoint where a user's account can access information via EWS.  <br/> |
-|[Mailbox server](http://technet.microsoft.com/en-us/library/jj150491%28v=exchg.150%29.aspx) <br/> |Find out about the primary repository of information made available to an EWS client. EWS has access to a limited set of information stored in Active Directory Domain Services (AD DS).  <br/> |
+|[Mailbox server](https://technet.microsoft.com/library/jj150491%28v=exchg.150%29.aspx) <br/> |Find out about the primary repository of information made available to an EWS client. EWS has access to a limited set of information stored in Active Directory Domain Services (AD DS).  <br/> |
 |[Mail apps for Outlook and EWS](mail-apps-for-outlook-and-ews-in-exchange.md) <br/> |Find information about mail apps for Outlook and how they work with EWS in Exchange.  <br/> |
 |[Office 365 REST APIs for mail, calendars, and contacts](office-365-rest-apis-for-mail-calendars-and-contacts.md) <br/> |Learn about the Office 365 APIs that you can use to access mail, calendars, and contacts in Exchange Online as part of Office 365.  <br/> |
 |[The EWS Managed API](get-started-with-ews-managed-api-client-applications.md) <br/> |Find information about the preferred client API for .NET Framework developers.  <br/> |
@@ -51,13 +51,13 @@ If you're ready to get to the business of writing your first .NET Framework or E
 
 To find code samples and examples that show you how to work with EWS and other web services in Exchange, see the following resources:
   
-- [Exchange code samples](http://code.msdn.microsoft.com/exchange)
+- [Exchange code samples](https://code.msdn.microsoft.com/exchange)
     
 - [CodePlex](http://www.codeplex.com/)
     
 - [Exchange API documentation](develop-web-service-clients-for-exchange.md)
     
-- [Exchange Development forum](http://social.technet.microsoft.com/Forums/exchange/en-US/home?forum=exchangesvrdevelopment)
+- [Exchange Development forum](https://social.technet.microsoft.com/Forums/exchange/home?forum=exchangesvrdevelopment)
     
 Many other samples are available in blogs, code demonstration sites, and forums. We also recommend that you download the [EWSEditor](http://ewseditor.codeplex.com/). This project implements most of the EWS functionality; you can find examples of all the core EWS functionality here.
   
@@ -66,7 +66,7 @@ If you're not a .NET Framework developer, you can find many client libraries out
 ## Ask questions and solve problems
 <a name="questions"> </a>
 
-Need help getting things done and you're not finding answers? You can search the [Exchange Development forum](http://social.technet.microsoft.com/Forums/exchange/en-US/home?forum=exchangesvrdevelopment) to find out whether someone else has encountered and resolved the same issue. A community of contributors have answered hundreds of questions about Exchange development. You can also find third-party sites, forums, and blogs that cover Exchange development and might have the solution you're looking for. 
+Need help getting things done and you're not finding answers? You can search the [Exchange Development forum](https://social.technet.microsoft.com/Forums/exchange/home?forum=exchangesvrdevelopment) to find out whether someone else has encountered and resolved the same issue. A community of contributors have answered hundreds of questions about Exchange development. You can also find third-party sites, forums, and blogs that cover Exchange development and might have the solution you're looking for. 
   
 Contact [Microsoft support](https://support.microsoft.com/) if you need additional assistance. The Exchange Developer support team is staffed with seasoned professionals who can help answer your questions about Exchange development. 
   

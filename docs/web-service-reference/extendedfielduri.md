@@ -43,13 +43,15 @@ The following sections describe attributes, child elements, and parent elements.
 
 |**Value**|**Description**|
 |:-----|:-----|
-|Meeting  <br/> |Identifies the meeting property set ID by name.  <br/> |
-|Appointment  <br/> |Identifies the appointment property set ID by name.  <br/> |
-|Common  <br/> |Identifies the common property set ID by name.  <br/> |
-|PublicStrings  <br/> |Identifies the public strings property set ID by name.  <br/> |
 |Address  <br/> |Identifies the address property set ID by name.  <br/> |
-|InternetHeaders  <br/> |Identifies the Internet headers property set ID by name.  <br/> |
+|Appointment  <br/> |Identifies the appointment property set ID by name.  <br/> |
 |CalendarAssistant  <br/> |Identifies the calendar assistant property set ID by name.  <br/> |
+|Common  <br/> |Identifies the common property set ID by name.  <br/> |
+|InternetHeaders  <br/> |Identifies the Internet headers property set ID by name.  <br/> |
+|Meeting  <br/> |Identifies the meeting property set ID by name.  <br/> |
+|Sharing  <br/> | <br/> |
+|PublicStrings  <br/> |Identifies the public strings property set ID by name.  <br/> |
+|Task  <br/> |Identifies the task property set ID by name.  <br/> |
 |UnifiedMessaging  <br/> |Identifies the unified messaging property set ID by name.  <br/> |
    
 #### PropertyType Attribute
@@ -131,10 +133,10 @@ The following example of a request creates an item that has two custom propertie
 <soap:Envelope xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
                xmlns:xsd="http://www.w3.org/2001/XMLSchema"
                xmlns:soap="http://schemas.xmlsoap.org/soap/envelope/"
-               xmlns:t="http://schemas.microsoft.com/exchange/services/2006/types">
+               xmlns:t="https://schemas.microsoft.com/exchange/services/2006/types">
   <soap:Body>
-    <CreateItem xmlns="http://schemas.microsoft.com/exchange/services/2006/messages" 
-                  xmlns:t="http://schemas.microsoft.com/exchange/services/2006/types"
+    <CreateItem xmlns="https://schemas.microsoft.com/exchange/services/2006/messages" 
+                  xmlns:t="https://schemas.microsoft.com/exchange/services/2006/types"
     MessageDisposition="SaveOnly">
       <SavedItemFolderId>
         <t:DistinguishedFolderId Id="inbox"/>
@@ -171,7 +173,7 @@ The following example of a request creates an item that has two custom propertie
 
 |||
 |:-----|:-----|
-|Namespace  <br/> |http://schemas.microsoft.com/exchange/services/2006/types  <br/> |
+|Namespace  <br/> |https://schemas.microsoft.com/exchange/services/2006/types  <br/> |
 |Schema Name  <br/> |Types schema  <br/> |
 |Validation File  <br/> |Types.xsd  <br/> |
 |Can be Empty  <br/> |False  <br/> |

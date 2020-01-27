@@ -1,24 +1,28 @@
 
     - name: Exchange Server
-      href: exchange-server-development.md
-      items:      
+      items:   
+        - name: Overview
+          href: exchange-server-development.md       
         - name: Migration
           href: migrating-to-exchange-online-and-exchange-2013-technologies.md
         - name: Web services
-          href: exchange-web-services/explore-the-ews-managed-api-ews-and-web-services-in-exchange.md
           items:
+            - name: Overview
+              href: exchange-web-services/explore-the-ews-managed-api-ews-and-web-services-in-exchange.md        
             - name: What's new
               href: exchange-web-services/whats-new-in-ews-and-other-web-services-in-exchange.md
             - name: Start
-              href: exchange-web-services/start-using-web-services-in-exchange.md
               items:
+                - name: Overview
+                  href: exchange-web-services/start-using-web-services-in-exchange.md            
                 - name: Architecture
                   href: exchange-web-services/ews-applications-and-the-exchange-architecture.md
                 - name: Application types
                   href: exchange-web-services/ews-application-types.md
                 - name: Get started with EWS Managed API client applications
-                  href: exchange-web-services/get-started-with-ews-managed-api-client-applications.md
                   items:
+                  - name: Overview
+                    href: exchange-web-services/get-started-with-ews-managed-api-client-applications.md              
                   - name: Reference the assembly
                     href: exchange-web-services/how-to-reference-the-ews-managed-api-assembly.md
                   - name: Set the EWS service URL
@@ -32,13 +36,15 @@
                 - name: EWS functionality in Exchange product versions
                   href: exchange-web-services/ews-functionality-in-exchange-product-versions.md
                 - name: Setting up your EWS application
-                  href: exchange-web-services/setting-up-your-ews-application.md
                   items:
+                  - name: Overview
+                    href: exchange-web-services/setting-up-your-ews-application.md                
                   - name: Setting up your development environment
                     href: exchange-web-services/setting-up-your-exchange-application-development-environment.md
                   - name: Controlling client application access
-                    href: exchange-web-services/controlling-client-application-access-to-ews-in-exchange.md
                     items:
+                    - name: Overview
+                      href: exchange-web-services/controlling-client-application-access-to-ews-in-exchange.md                  
                     - name: Control access to EWS
                       href: exchange-web-services/how-to-control-access-to-ews-in-exchange.md
                   - name: Managing user access
@@ -46,13 +52,15 @@
                   - name: Validate a server certificate
                     href: exchange-web-services/how-to-validate-a-server-certificate-for-the-ews-managed-api.md
                 - name: Authentication
-                  href: exchange-web-services/authentication-and-ews-in-exchange.md
                   items:
+                  - name: Overview
+                    href: exchange-web-services/authentication-and-ews-in-exchange.md                
                   - name: Authenticate an EWS application by using OAuth
                     href: exchange-web-services/how-to-authenticate-an-ews-application-by-using-oauth.md
                 - name: Autodiscover
-                  href: exchange-web-services/autodiscover-for-exchange.md
                   items:
+                  - name: Overview
+                    href: exchange-web-services/autodiscover-for-exchange.md                
                   - name: Find Autodiscover endpoints by using SCP lookup
                     href: exchange-web-services/how-to-find-autodiscover-endpoints-by-using-scp-lookup-in-exchange.md
                   - name: Generate a list of Autodiscover endpoints
@@ -76,15 +84,17 @@
                 - name: License information
                   href: exchange-web-services/license-information.md
             - name: Design
-              href: exchange-web-services/ews-client-design-overview-for-exchange.md
               items:
+                - name: Overview
+                  href: exchange-web-services/ews-client-design-overview-for-exchange.md            
                 - name: Web service API feature availability
                   href: exchange-web-services/web-service-api-feature-availability-in-exchange-and-the-ews-managed-api.md
                 - name: EWS schema versions
                   href: exchange-web-services/ews-schema-versions-in-exchange.md
                 - name: Configuration options
-                  href: exchange-web-services/configuration-options-for-ews-in-exchange.md
                   items:
+                  - name: Overview
+                    href: exchange-web-services/configuration-options-for-ews-in-exchange.md                
                   - name: Get service configuration information
                     href: exchange-web-services/how-to-get-service-configuration-information-by-using-ews-in-exchange.md
                 - name: Comparing Exchange Online and Exchange on-premises client programming
@@ -96,13 +106,15 @@
                 - name: Instrumenting client requests
                   href: exchange-web-services/instrumenting-client-requests-for-ews-and-rest-in-exchange.md
             - name: Develop
-              href: exchange-web-services/develop-web-service-clients-for-exchange.md
               items:
+                - name: Overview
+                  href: exchange-web-services/develop-web-service-clients-for-exchange.md            
                 - name: Archiving
                   href: exchange-web-services/archiving-in-ews-in-exchange.md
                 - name: Attachments
-                  href: exchange-web-services/attachments-and-ews-in-exchange.md
                   items:
+                  - name: Overview
+                    href: exchange-web-services/attachments-and-ews-in-exchange.md                
                   - name: Add attachments
                     href: exchange-web-services/how-to-add-attachments-by-using-ews-in-exchange.md
                   - name: Get attachments
@@ -110,8 +122,9 @@
                   - name: Delete attachments
                     href: exchange-web-services/how-to-delete-attachments-by-using-ews-in-exchange.md
                 - name: Calendars
-                  href: exchange-web-services/calendars-and-ews-in-exchange.md
                   items:
+                  - name: Overview
+                    href: exchange-web-services/calendars-and-ews-in-exchange.md                
                   - name: Create appointments and meetings
                     href: exchange-web-services/how-to-create-appointments-and-meetings-by-using-ews-in-exchange-2013.md
                   - name: Create all-day events
@@ -131,8 +144,9 @@
                   - name: Process calendar items in batches
                     href: exchange-web-services/how-to-process-calendar-items-in-batches-in-exchange.md
                   - name: Recurring calendar items and EWS
-                    href: exchange-web-services/recurrence-patterns-and-ews.md
                     items:
+                    - name: Overview
+                      href: exchange-web-services/recurrence-patterns-and-ews.md
                     - name: Access a recurring series
                       href: exchange-web-services/how-to-access-a-recurring-series-by-using-ews-in-exchange.md
                     - name: Create a recurring series
@@ -144,8 +158,9 @@
                     - name: Update a recurring series
                       href: exchange-web-services/how-to-update-a-recurring-series-by-using-ews-in-exchange.md
                 - name: Delegate access
-                  href: exchange-web-services/delegate-access-and-ews-in-exchange.md
                   items:
+                  - name: Overview
+                    href: exchange-web-services/delegate-access-and-ews-in-exchange.md                
                   - name: Add and remove delegates
                     href: exchange-web-services/how-to-add-and-remove-delegates-by-using-ews-in-exchange.md
                   - name: Access a calendar as a delegate
@@ -159,8 +174,9 @@
                   - name: Handle delegation-related errors
                     href: exchange-web-services/handling-delegation-related-errors-in-ews-in-exchange.md
                 - name: Distribution groups
-                  href: exchange-web-services/distribution-groups-and-ews-in-exchange.md
                   items:
+                  - name: Overview
+                    href: exchange-web-services/distribution-groups-and-ews-in-exchange.md                
                   - name: Create contact groups
                     href: exchange-web-services/how-to-create-contact-groups-by-using-ews-in-exchange.md
                   - name: Expand distribution groups
@@ -168,8 +184,9 @@
                 - name: eDiscovery
                   href: exchange-web-services/ediscovery-in-ews-in-exchange.md
                 - name: Email
-                  href: exchange-web-services/email-and-ews-in-exchange.md
                   items:
+                  - name: Overview
+                    href: exchange-web-services/email-and-ews-in-exchange.md                
                   - name: Email properties and elements
                     href: exchange-web-services/email-properties-and-elements-in-ews-in-exchange.md
                   - name: Send email messages
@@ -185,8 +202,9 @@
                   - name: Process email messages in batches
                     href: exchange-web-services/how-to-process-email-messages-in-batches-by-using-ews-in-exchange.md
                 - name: Folders and items
-                  href: exchange-web-services/folders-and-items-in-ews-in-exchange.md
                   items:
+                  - name: Overview
+                    href: exchange-web-services/folders-and-items-in-ews-in-exchange.md                
                   - name: Work with folders
                     href: exchange-web-services/how-to-work-with-folders-by-using-ews-in-exchange.md
                   - name: Work with hidden folders
@@ -194,15 +212,17 @@
                   - name: Work with items
                     href: exchange-web-services/how-to-work-with-exchange-mailbox-items-by-using-ews-in-exchange.md
                   - name: Delete items
-                    href: exchange-web-services/deleting-items-by-using-ews-in-exchange.md
                     items:
+                    - name: Overview
+                      href: exchange-web-services/deleting-items-by-using-ews-in-exchange.md                  
                     - name: Pull notifications for deletion-related mailbox events
                       href: exchange-web-services/pull-notifications-for-ews-deletion-related-mailbox-events-in-exchange.md
                     - name: Handling deletion-related errors
                       href: exchange-web-services/handling-deletion-related-errors-in-ews-in-exchange.md
-                  - name: Exporting and importing items
-                    href: exchange-web-services/exporting-and-importing-items-by-using-ews-in-exchange.md
+                  - name: Export and import items
                     items:
+                    - name: Overview
+                      href: exchange-web-services/exporting-and-importing-items-by-using-ews-in-exchange.md                  
                     - name: Export items
                       href: exchange-web-services/how-to-export-items-by-using-ews-in-exchange.md
                     - name: Import items
@@ -210,8 +230,9 @@
                 - name: Identifiers
                   href: exchange-web-services/ews-identifiers-in-exchange.md
                 - name: Impersonation
-                  href: exchange-web-services/impersonation-and-ews-in-exchange.md
                   items:
+                  - name: Overview
+                    href: exchange-web-services/impersonation-and-ews-in-exchange.md                
                   - name: Configure impersonation
                     href: exchange-web-services/how-to-configure-impersonation.md
                   - name: Identify the account to impersonate
@@ -219,15 +240,17 @@
                   - name: Add appointments by using Exchange impersonation
                     href: exchange-web-services/how-to-add-appointments-by-using-exchange-impersonation.md
                 - name: Inbox management
-                  href: exchange-web-services/inbox-management-and-ews-in-exchange.md
                   items:
+                  - name: Overview
+                    href: exchange-web-services/inbox-management-and-ews-in-exchange.md                
                   - name: Manage Inbox rules
                     href: exchange-web-services/how-to-manage-inbox-rules-by-using-ews-in-exchange.md
                   - name: Add and remove email addresses from the Blocked Senders List
                     href: exchange-web-services/how-to-add-and-remove-email-addresses-from-blocked-senders-list-by-using-ews.md
                 - name: Notifications and events
-                  href: exchange-web-services/notification-subscriptions-mailbox-events-and-ews-in-exchange.md
                   items:
+                  - name: Overview
+                    href: exchange-web-services/notification-subscriptions-mailbox-events-and-ews-in-exchange.md                
                   - name: Stream notifications
                     href: exchange-web-services/how-to-stream-notifications-about-mailbox-events-by-using-ews-in-exchange.md
                   - name: Pull notifications
@@ -237,8 +260,9 @@
                   - name: Handle notification-related errors
                     href: exchange-web-services/handling-notification-related-errors-in-ews-in-exchange.md
                 - name: Mailbox synchronization
-                  href: exchange-web-services/mailbox-synchronization-and-ews-in-exchange.md
                   items:
+                  - name: Overview
+                    href: exchange-web-services/mailbox-synchronization-and-ews-in-exchange.md                
                   - name: Synchronize folders
                     href: exchange-web-services/how-to-synchronize-folders-by-using-ews-in-exchange.md
                   - name: Synchronize items
@@ -246,13 +270,15 @@
                   - name: Handle synchronization-related errors
                     href: exchange-web-services/handling-synchronization-related-errors-in-ews-in-exchange.md
                 - name: Persistent application settings
-                  href: exchange-web-services/persistent-application-settings-in-ews-in-exchange.md
                   items:
+                  - name: Overview
+                    href: exchange-web-services/persistent-application-settings-in-ews-in-exchange.md                
                   - name: Manage persistent application settings
                     href: exchange-web-services/how-to-manage-persistent-application-settings-by-using-ews-in-exchange.md
                 - name: People and contacts
-                  href: exchange-web-services/people-and-contacts-in-ews-in-exchange.md
                   items:
+                  - name: Overview
+                    href: exchange-web-services/people-and-contacts-in-ews-in-exchange.md                
                   - name: Process contacts in batches
                     href: exchange-web-services/how-to-process-contacts-in-batches-by-using-ews-in-exchange.md
                   - name: Resolve ambiguous names
@@ -260,8 +286,9 @@
                   - name: Get user photos
                     href: exchange-web-services/how-to-get-user-photos-by-using-ews-in-exchange.md
                 - name: Properties and extended properties
-                  href: exchange-web-services/properties-and-extended-properties-in-ews-in-exchange.md
                   items:
+                  - name: Overview
+                    href: exchange-web-services/properties-and-extended-properties-in-ews-in-exchange.md                
                   - name: Provision x-headers
                     href: exchange-web-services/how-to-provision-x-headers-by-using-ews-in-exchange.md
                   - name: EWS property-related errors
@@ -269,15 +296,17 @@
                 - name: Property sets and response shapes
                   href: exchange-web-services/property-sets-and-response-shapes-in-ews-in-exchange.md
                 - name: Public folders
-                  href: exchange-web-services/public-folder-access-with-ews-in-exchange.md
                   items:
+                  - name: Overview
+                    href: exchange-web-services/public-folder-access-with-ews-in-exchange.md                
                   - name: Route public folder hierarchy requests
                     href: exchange-web-services/how-to-route-public-folder-hierarchy-requests.md
                   - name: Route public folder content requests
                     href: exchange-web-services/how-to-route-public-folder-content-requests.md
                 - name: Search
-                  href: exchange-web-services/search-and-ews-in-exchange.md
                   items:
+                  - name: Overview
+                    href: exchange-web-services/search-and-ews-in-exchange.md                
                   - name: Use search filters
                     href: exchange-web-services/how-to-use-search-filters-with-ews-in-exchange.md
                   - name: Perform an AQS search
@@ -289,8 +318,9 @@
                   - name: Work with search folders
                     href: exchange-web-services/how-to-work-with-search-folders-by-using-ews-in-exchange.md
                 - name: Time zones and EWS in Exchange
-                  href: exchange-web-services/time-zones-and-ews-in-exchange.md
                   items:
+                  - name: Overview
+                    href: exchange-web-services/time-zones-and-ews-in-exchange.md                
                   - name: Create appointments in a specific time zone
                     href: exchange-web-services/how-to-create-appointments-in-a-specific-time-zone-by-using-ews-in-exchange.md
                   - name: Update the time zone for an appointment
@@ -300,14 +330,17 @@
                 - name: Verifying the results of an EWS or EWS Managed API call
                   href: exchange-web-services/verifying-the-results-of-an-ews-or-ews-managed-api-call.md
             - name: Web services reference
-              href: web-service-reference/web-services-reference-for-exchange.md
               items:
+              - name: Overview
+                href: web-service-reference/web-services-reference-for-exchange.md            
               - name: EWS reference
-                href: web-service-reference/ews-reference-for-exchange.md
                 items:
+                - name: Overview
+                  href: web-service-reference/ews-reference-for-exchange.md              
                 - name: EWS operations
-                  href: web-service-reference/ews-operations-in-exchange.md
                   items:
+                  - name: Overview
+                    href: web-service-reference/ews-operations-in-exchange.md                
                   - name: AddDelegate operation
                     href: web-service-reference/adddelegate-operation.md
                   - name: AddDistributionGroupToImList operation
@@ -339,8 +372,9 @@
                   - name: CreateFolderPath operation
                     href: web-service-reference/createfolderpath-operation.md
                   - name: CreateItem operation
-                    href: web-service-reference/createitem-operation.md
                     items:
+                    - name: Overview
+                      href: web-service-reference/createitem-operation.md                  
                     - name: CreateItem operation (email message)
                       href: web-service-reference/createitem-operation-email-message.md
                     - name: CreateItem operation (calendar item)
@@ -412,8 +446,9 @@
                   - name: GetInboxRules operation
                     href: web-service-reference/getinboxrules-operation.md
                   - name: GetItem operation
-                    href: web-service-reference/getitem-operation.md
                     items:
+                    - name: Overview
+                      href: web-service-reference/getitem-operation.md                  
                     - name: GetItem operation (email message)
                       href: web-service-reference/getitem-operation-email-message.md
                     - name: GetItem operation (calendar item)
@@ -521,8 +556,9 @@
                   - name: UpdateInboxRules operation
                     href: web-service-reference/updateinboxrules-operation.md
                   - name: UpdateItem operation
-                    href: web-service-reference/updateitem-operation.md
                     items:
+                    - name: Overview
+                      href: web-service-reference/updateitem-operation.md                  
                     - name: UpdateItem operation (task)
                       href: web-service-reference/updateitem-operation-task.md
                     - name: UpdateItem operation (contact)
@@ -532,8 +568,9 @@
                   - name: UploadItems operation
                     href: web-service-reference/uploaditems-operation.md
                 - name: EWS XML elements
-                  href: web-service-reference/ews-xml-elements-in-exchange.md
                   items:
+                  - name: Overview
+                    href: web-service-reference/ews-xml-elements-in-exchange.md                
                   - name: AbsoluteDate
                     href: web-service-reference/absolutedate.md
                   - name: AbsoluteDateTransition
@@ -3915,11 +3952,13 @@
               - name: EWS Managed API reference
                 href: web-service-reference/ews-managed-api-reference-for-exchange.md
               - name: Autodiscover web service reference
-                href: web-service-reference/autodiscover-web-service-reference-for-exchange.md
                 items:
+                - name: Overview
+                  href: web-service-reference/autodiscover-web-service-reference-for-exchange.md              
                 - name: SOAP Autodiscover web service reference
-                  href: web-service-reference/soap-autodiscover-web-service-reference-for-exchange.md
                   items:
+                  - name: Overview
+                    href: web-service-reference/soap-autodiscover-web-service-reference-for-exchange.md                
                   - name: GetDomainSettings operation (SOAP)
                     href: web-service-reference/getdomainsettings-operation-soap.md
                   - name: GetFederationInformation operation (SOAP)
@@ -3929,8 +3968,9 @@
                   - name: GetOrganizationRelationshipSettings operation (SOAP)
                     href: web-service-reference/getorganizationrelationshipsettings-operation-soap.md
                   - name: SOAP Autodiscover XML elements
-                    href: web-service-reference/soap-autodiscover-xml-elements-for-exchange-2013.md
                     items:
+                    - name: Overview
+                      href: web-service-reference/soap-autodiscover-xml-elements-for-exchange-2013.md                  
                     - name: AlternateMailbox (SOAP)
                       href: web-service-reference/alternatemailbox-soap.md
                     - name: AlternateMailboxCollectionSetting (SOAP)
@@ -4154,15 +4194,17 @@
                     - name: WebClientUrls (SOAP)
                       href: web-service-reference/webclienturls-soap.md
                 - name: POX Autodiscover web service reference
-                  href: web-service-reference/pox-autodiscover-web-service-reference-for-exchange.md
                   items:
+                  - name: Overview
+                    href: web-service-reference/pox-autodiscover-web-service-reference-for-exchange.md                
                   - name: POX Autodiscover request
                     href: web-service-reference/pox-autodiscover-request-for-exchange.md
                   - name: POX Autodiscover response
                     href: web-service-reference/pox-autodiscover-response-for-exchange.md
                   - name: POX Autodiscover XML elements
-                    href: web-service-reference/pox-autodiscover-xml-elements-for-exchange.md
                     items:
+                    - name: Overview
+                      href: web-service-reference/pox-autodiscover-xml-elements-for-exchange.md                  
                     - name: AcceptableResponseSchema (POX)
                       href: web-service-reference/acceptableresponseschema-pox.md
                     - name: Account (POX)
@@ -4322,11 +4364,13 @@
                     - name: User (POX)
                       href: web-service-reference/user-pox.md
               - name: Unified Messaging web service reference
-                href: web-service-reference/unified-messaging-web-service-reference-for-exchange.md
                 items:
+                - name: Overview
+                  href: web-service-reference/unified-messaging-web-service-reference-for-exchange.md              
                 - name: Unified Messaging web service operations
-                  href: web-service-reference/unified-messaging-web-service-operations-for-exchange.md
                   items:
+                  - name: Overview
+                    href: web-service-reference/unified-messaging-web-service-operations-for-exchange.md                
                   - name: Disconnect operation (UM web service)
                     href: web-service-reference/disconnect-operation-um-web-service.md
                   - name: GetCallInfo operation (UM web service)
@@ -4350,8 +4394,9 @@
                   - name: SetTelephoneAccessFolderEmail operation (UM web service)
                     href: web-service-reference/settelephoneaccessfolderemail-operation-um-web-service.md
                 - name: Unified Messaging web service XML elements
-                  href: web-service-reference/unified-messaging-web-service-xml-elements-for-exchange.md
                   items:
+                  - name: Overview
+                    href: web-service-reference/unified-messaging-web-service-xml-elements-for-exchange.md                
                   - name: base64FolderId (UM web service)
                     href: web-service-reference/base64folderid-um-web-service.md
                   - name: CallId (UM web service)
@@ -4427,11 +4472,13 @@
               - name: EWS autogenerated proxy reference
                 href: web-service-reference/ews-generated-object-models-reference-for-exchange.md
         - name: Exchange Management Shell
-          href: management/exchange-management-shell.md
           items:
+          - name: Overview
+            href: management/exchange-management-shell.md        
           - name: Create Exchange Management Shell tools
-            href: management/create-exchange-management-shell-tools.md
             items:
+            - name: Overview
+              href: management/create-exchange-management-shell-tools.md          
             - name: New and updated cmdlets
               href: management/new-and-updated-exchange-management-shell-cmdlets.md
             - name: Cmdlet input and output types
@@ -4443,8 +4490,9 @@
           - name: Exchange Management Shell namespaces
             href: management/exchange-management-shell-namespaces.md
         - name: Transport agents
-          href: transport-agents/transport-agents-in-exchange-2013.md
           items:
+          - name: Overview
+            href: transport-agents/transport-agents-in-exchange-2013.md        
           - name: New and updated transport agent APIs
             href: transport-agents/new-and-updated-transport-agent-apis-in-exchange-2013.md
           - name: Code samples
@@ -4454,8 +4502,9 @@
           - name: Reading and modifying messages in the transport pipeline
             href: transport-agents/reading-and-modifying-messages-in-the-exchange-2013-transport-pipeline.md
           - name: Creating transport agents
-            href: transport-agents/creating-transport-agents-for-exchange-2013.md
             items:
+            - name: Overview
+              href: transport-agents/creating-transport-agents-for-exchange-2013.md          
             - name: Create a RoutingAgent transport agent
               href: transport-agents/how-to-create-a-routingagent-transport-agent-for-exchange-2013.md
             - name: Create an SmtpReceiveAgent transport agent
@@ -4463,11 +4512,13 @@
             - name: Create a DeliveryAgent transport agent
               href: transport-agents/how-to-create-a-deliveryagent-transport-agent-for-exchange-2013.md
           - name: Transport agent reference
-            href: transport-agents/transport-agent-reference-for-exchange-2013.md
             items:
+            - name: Overview
+              href: transport-agents/transport-agent-reference-for-exchange-2013.md          
             - name: Agents configuration file elements
-              href: transport-agents/agents-configuration-file-elements-for-exchange-2013.md
               items:
+              - name: Overview
+                href: transport-agents/agents-configuration-file-elements-for-exchange-2013.md            
               - name: agent
                 href: transport-agents/agent.md
               - name: agentExecution
@@ -4485,18 +4536,21 @@
             - name: Transport agent namespaces
               href: transport-agents/transport-agent-namespaces-in-exchange-2013.md
         - name: Backup and restore
-          href: backup-restore/backup-and-restore-for-exchange-2013.md
           items:
+          - name: Overview
+            href: backup-restore/backup-and-restore-for-exchange-2013.md        
           - name: Backup and restore concepts
-            href: backup-restore/backup-and-restore-concepts-for-exchange-2013.md
             items:
+            - name: Overview
+              href: backup-restore/backup-and-restore-concepts-for-exchange-2013.md          
             - name: Transaction logs and checkpoint files
               href: backup-restore/transaction-logs-and-checkpoint-files-for-backup-and-restore-in-exchange.md
             - name: Exchange writer
               href: backup-restore/exchange-writer-in-exchange-2013.md
           - name: Build backup and restore applications
-            href: backup-restore/build-backup-and-restore-applications-for-exchange-2013.md
             items:
+            - name: Overview
+              href: backup-restore/build-backup-and-restore-applications-for-exchange-2013.md          
             - name: Types of backup operations
               href: backup-restore/types-of-backup-operations-for-exchange-2013.md
             - name: Restore Exchange 2013 databases
@@ -4506,8 +4560,9 @@
             - name: Validate backup integrity by using the Eseutil tool
               href: backup-restore/how-to-validate-backup-integrity-by-using-the-eseutil-tool-in-exchange-2013.md
           - name: CChkSGFiles class reference
-            href: backup-restore/cchksgfiles-class-reference.md
             items:
+            - name: Overview
+              href: backup-restore/cchksgfiles-class-reference.md          
             - name: CChkSGFiles.CMaxDbPerSG function
               href: backup-restore/cchksgfiles-cmaxdbpersg-function.md
             - name: CChkSGFiles.Delete function
@@ -4536,5 +4591,5 @@
               href: backup-restore/cchksgfiles-page_info-struct.md
             - name: CChkSGFiles.PgnoFromFileOffset function
               href: backup-restore/cchksgfiles-pgnofromfileoffset-function.md
-        - name: Server API reference
-          href: https://msdn.microsoft.com/en-us/library/dn186243(v=exchg.150).aspx
+        - name: Server API reference for Exchange
+          href: https://docs.microsoft.com/previous-versions/office/exchange-server-api/dn186243(v=exchg.150)

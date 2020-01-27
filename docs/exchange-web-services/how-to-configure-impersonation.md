@@ -14,19 +14,19 @@ Learn how to grant the impersonation role to a service account by using the Exch
   
 Impersonation enables a caller, such as a service application, to impersonate a user account. The caller can perform operations by using the permissions that are associated with the impersonated account instead of the permissions associated with the caller's account.
   
-Exchange Online, Exchange Online as part of Office 365, and versions of Exchange starting with Exchange 2013 use role-based access control (RBAC) to assign permissions to accounts. Your Exchange server administrator will need to grant any service account that will be impersonating other users the **ApplicationImpersonation** role by using the [New-ManagementRoleAssignment](http://msdn.microsoft.com/library/34d4f2e3-f2c5-49e1-a6a9-1366da65a78c.aspx) cmdlet. 
+Exchange Online, Exchange Online as part of Office 365, and versions of Exchange starting with Exchange 2013 use role-based access control (RBAC) to assign permissions to accounts. Your Exchange server administrator will need to grant any service account that will be impersonating other users the **ApplicationImpersonation** role by using the [New-ManagementRoleAssignment](https://msdn.microsoft.com/library/34d4f2e3-f2c5-49e1-a6a9-1366da65a78c.aspx) cmdlet. 
   
 ## Configuring the ApplicationImpersonation role
 
 When you or your Exchanger server administrator assigns the **ApplicationImpersonation** role, use the following parameters of the **New-ManagementRoleAssignment** cmdlet: 
   
--  _Name_ &ndash; The friendly name of the role assignment. Each time that you assign a role, an entry is made in the RBAC roles list. You can verify role assignments by using the [Get-ManagementRoleAssignment](http://msdn.microsoft.com/library/a3a6ee46-061b-444a-8639-43a416309445.aspx) cmdlet. 
+-  _Name_ &ndash; The friendly name of the role assignment. Each time that you assign a role, an entry is made in the RBAC roles list. You can verify role assignments by using the [Get-ManagementRoleAssignment](https://msdn.microsoft.com/library/a3a6ee46-061b-444a-8639-43a416309445.aspx) cmdlet. 
     
 -  _Role_ &ndash; The RBAC role to assign. When you set up impersonation, you assign the **ApplicationImpersonation** role. 
     
 -  _User_ &ndash; The service account. 
     
--  _CustomRecipientScope_ &ndash; The scope of users that the service account can impersonate. The service account will only be allowed to impersonate other users within the specified scope. If no scope is specified, the service account is granted the **ApplicationImpersonation** role over all users in an organization. You can create custom management scopes by using the [New-ManagementScope](http://msdn.microsoft.com/library/1ea1f474-69d6-48c0-9beb-bfa4442c5dab.aspx) cmdlet. 
+-  _CustomRecipientScope_ &ndash; The scope of users that the service account can impersonate. The service account will only be allowed to impersonate other users within the specified scope. If no scope is specified, the service account is granted the **ApplicationImpersonation** role over all users in an organization. You can create custom management scopes by using the [New-ManagementScope](https://msdn.microsoft.com/library/1ea1f474-69d6-48c0-9beb-bfa4442c5dab.aspx) cmdlet. 
     
 Before you can configure impersonation, you need:
   
@@ -70,13 +70,13 @@ Before you can configure impersonation, you need:
    ```
 
 
-After your administrator grants impersonation permissions, you can use the service account to make calls against other users' accounts. You can verify role assignments by using the [Get-ManagementRoleAssignment](http://msdn.microsoft.com/library/a3a6ee46-061b-444a-8639-43a416309445.aspx) cmdlet. 
+After your administrator grants impersonation permissions, you can use the service account to make calls against other users' accounts. You can verify role assignments by using the [Get-ManagementRoleAssignment](https://msdn.microsoft.com/library/a3a6ee46-061b-444a-8639-43a416309445.aspx) cmdlet. 
   
 ## See also
 
 - [Impersonation and EWS in Exchange](impersonation-and-ews-in-exchange.md)
-- [ApplicationImpersonation role](http://technet.microsoft.com/en-us/library/dd776119%28v=exchg.150%29.aspx)   
-- [New-ManagementRoleAssignment](http://msdn.microsoft.com/library/34d4f2e3-f2c5-49e1-a6a9-1366da65a78c.aspx)    
-- [Get-ManagementRoleAssignment](http://msdn.microsoft.com/library/a3a6ee46-061b-444a-8639-43a416309445.aspx)
+- [ApplicationImpersonation role](https://technet.microsoft.com/library/dd776119%28v=exchg.150%29.aspx)   
+- [New-ManagementRoleAssignment](https://msdn.microsoft.com/library/34d4f2e3-f2c5-49e1-a6a9-1366da65a78c.aspx)    
+- [Get-ManagementRoleAssignment](https://msdn.microsoft.com/library/a3a6ee46-061b-444a-8639-43a416309445.aspx)
     
 

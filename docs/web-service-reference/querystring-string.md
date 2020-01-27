@@ -41,7 +41,7 @@ None.
    
 ## Text value
 
-The **QueryString** text value represents a mailbox query made by using a subset of [Advanced Query Syntax (AQS)](http://msdn.microsoft.com/en-us/library/aa965711%28VS.85%29.aspx). For information about the syntax for this element, see [QueryString (QueryStringType)](querystring-querystringtype.md).
+The **QueryString** text value represents a mailbox query made by using a subset of [Advanced Query Syntax (AQS)](https://msdn.microsoft.com/library/aa965711%28VS.85%29.aspx). For information about the syntax for this element, see [QueryString (QueryStringType)](querystring-querystringtype.md).
   
 ## Remarks
 
@@ -51,7 +51,7 @@ This element was introduced in Exchange Server 2013.
 
 |||
 |:-----|:-----|
-|Namespace  <br/> |http://schemas.microsoft.com/exchange/services/2006/messages  <br/> |
+|Namespace  <br/> |https://schemas.microsoft.com/exchange/services/2006/messages  <br/> |
 |Schema name  <br/> |Messages schema  <br/> |
 |Validation file  <br/> |Messages.xsd  <br/> |
 |Can be empty  <br/> |False  <br/> |

@@ -34,8 +34,8 @@ In addition to the client configuration information, that SOAP and POX Autodisco
 
 |**Autodiscover service type**|**XML element that contains service version**|**XML element that indicates whether the user has an Exchange Online account**|
 |:-----|:-----|:-----|
-|SOAP Autodiscover  <br/> |[Setting (SOAP)](http://msdn.microsoft.com/library/43db26e1-f7be-49fd-b26b-fc1b10bd3458%28Office.15%29.aspx) element with the **CasVersion** text value.  <br/> |[Setting (SOAP)](http://msdn.microsoft.com/library/43db26e1-f7be-49fd-b26b-fc1b10bd3458%28Office.15%29.aspx) element with the **UserMSOnline** text value.  <br/> |
-|POX Autodiscover  <br/> |[ServerVersion (POX)](http://msdn.microsoft.com/library/2c0bc41c-2452-4fc8-a19c-0e85f9fdbc4a%28Office.15%29.aspx) <br/> |**MicrosoftOnline** <br/> |
+|SOAP Autodiscover  <br/> |[Setting (SOAP)](https://msdn.microsoft.com/library/43db26e1-f7be-49fd-b26b-fc1b10bd3458%28Office.15%29.aspx) element with the **CasVersion** text value.  <br/> |[Setting (SOAP)](https://msdn.microsoft.com/library/43db26e1-f7be-49fd-b26b-fc1b10bd3458%28Office.15%29.aspx) element with the **UserMSOnline** text value.  <br/> |
+|POX Autodiscover  <br/> |[ServerVersion (POX)](https://msdn.microsoft.com/library/2c0bc41c-2452-4fc8-a19c-0e85f9fdbc4a%28Office.15%29.aspx) <br/> |**MicrosoftOnline** <br/> |
    
 Ensure that your client captures this information so that it can target the [feature set](web-service-api-feature-availability-in-exchange-and-the-ews-managed-api.md) that is available on the Exchange server. This can be useful to determine whether your client can expect different behavior based on whether the user's mailbox is located in an Exchange Online or Exchange on-premises organization. 
 
@@ -43,7 +43,7 @@ Ensure that your client captures this information so that it can target the [fea
 
 ## Testing and log files in applications that target Exchange Online
 
-Exchange Online does not provide access to the EWS protocol log files, EWS performance counters, and EWS-related service events that are available on on-premises Exchange servers. Access to these is useful, however, in discovering how your application performs when it interacts with EWS. Make sure that you test your application against a test Exchange on-premise server so that you can optimize its performance. If possible, you can [change the throttling settings](http://technet.microsoft.com/en-us/library/bb232205%28v=exchg.150%29.aspx#Policies) on your test server to match the throttling settings for Exchange Online, so you can evaluate how your application will behave when it connects to Exchange Online. 
+Exchange Online does not provide access to the EWS protocol log files, EWS performance counters, and EWS-related service events that are available on on-premises Exchange servers. Access to these is useful, however, in discovering how your application performs when it interacts with EWS. Make sure that you test your application against a test Exchange on-premise server so that you can optimize its performance. If possible, you can [change the throttling settings](https://technet.microsoft.com/library/bb232205%28v=exchg.150%29.aspx#Policies) on your test server to match the throttling settings for Exchange Online, so you can evaluate how your application will behave when it connects to Exchange Online. 
   
 > [!TIP]
 > You can use the [EWSRelentless](https://ewsrelentless.codeplex.com/) tool to perform an EWS load test. You can use this tool with a test server, the EWS protocol logs, EWS performance counters, service events, and the EWS throttling settings to better understand how EWS performs under load. 
@@ -66,7 +66,7 @@ A number of cmdlets can directly or indirectly affect the web service APIs in Ex
     
 - Authentication settings
     
-For details about the cmdlets that are available for Exchange Online, see [PowerShell cmdlets in Exchange Online](http://help.outlook.com/en-us/140/dd575549.aspx). For more about cmdlets that are available for Exchange on-premises, see [Exchange 2013 cmdlets](http://technet.microsoft.com/en-us/library/bb124413%28v=exchg.150%29.aspx).
+For details about the cmdlets that are available for Exchange Online, see [PowerShell cmdlets in Exchange Online](http://help.outlook.com/140/dd575549.aspx). For more about cmdlets that are available for Exchange on-premises, see [Exchange 2013 cmdlets](https://technet.microsoft.com/library/bb124413%28v=exchg.150%29.aspx).
   
 ## Client affinity and network load balancers
 <a name="affinity"> </a>
@@ -105,7 +105,10 @@ Different feature sets might be available in different Office 365 and Exchange O
 
 |**API feature**|**Plan or edition considerations**|
 |:-----|:-----|
-|EWS access to accounts, except via Exchange impersonation  <br/> |Not allowed in the [Office 365 for business—Kiosk plans](http://office.microsoft.com/en-us/business/compare-office-365-kiosk-plans-FX103178917.aspx).  <br/> |
+
+|EWS access to accounts, except via Exchange impersonation  <br/> |Not allowed in the [Office 365 for business—Kiosk plans](https://office.microsoft.com/business/compare-office-365-kiosk-plans-FX103178917.aspx).  <br/> |
+
+
 |Unified Messaging (UM)  <br/> |Only available with Office 365 Enterprise (E3) plan, Exchange Online Plan 2, and the Exchange Server 2013 Enterprise editions.  <br/> |
 |Active Directory Domain Services (AD DS) integration  <br/> |Not available with the Office 365 Small Business and Office 365 Small Business Premium plan.  <br/> |
 |Information Rights Management, archiving, and legal holds  <br/> |Only available with the Office 365 Enterprise (E3 and E4) plans.  <br/> |
@@ -125,8 +128,8 @@ You can do the following when targeting Exchange on-premises but not Exchange On
 ## See also
 
 - [EWS client design overview for Exchange](ews-client-design-overview-for-exchange.md)
-- [Comparing Exchange Online and Exchange Server 2013](http://blogs.technet.com/b/exchange/archive/2012/09/19/comparing-exchange-online-and-exchange-server-2013.aspx)  
-- [Compare all Office 365 for business plans](http://office.microsoft.com/en-us/business/compare-all-office-365-for-business-plans-FX104051403.aspx)
+- [Comparing Exchange Online and Exchange Server 2013](https://blogs.technet.com/b/exchange/archive/2012/09/19/comparing-exchange-online-and-exchange-server-2013.aspx)  
+- [Compare all Office 365 for business plans](https://office.microsoft.com/business/compare-all-office-365-for-business-plans-FX104051403.aspx)
 - [EwsRelentless - EWS load generation tool](https://ewsrelentless.codeplex.com/)
 - [Web service API feature availability in Exchange and the EWS Managed API](web-service-api-feature-availability-in-exchange-and-the-ews-managed-api.md)
 - [EWS throttling in Exchange](ews-throttling-in-exchange.md)

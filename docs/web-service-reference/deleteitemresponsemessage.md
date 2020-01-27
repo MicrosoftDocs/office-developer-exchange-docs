@@ -77,7 +77,7 @@ In versions of Exchange starting with build 15.00.0986.00, the **DeleteItemRespo
 
 |||
 |:-----|:-----|
-|Namespace  <br/> |http://schemas.microsoft.com/exchange/services/2006/messages  <br/> |
+|Namespace  <br/> |https://schemas.microsoft.com/exchange/services/2006/messages  <br/> |
 |Schema Name  <br/> |Messages schema  <br/> |
 |Validation File  <br/> |Messages.xsd  <br/> |
 |Can be Empty  <br/> |False  <br/> |
@@ -87,5 +87,5 @@ In versions of Exchange starting with build 15.00.0986.00, the **DeleteItemRespo
 - [DeleteItem operation](deleteitem-operation.md)
 - [EWS reference for Exchange](ews-reference-for-exchange.md)
 - [EWS XML elements in Exchange](ews-xml-elements-in-exchange.md)
-- [Deleting Items (Exchange Web Services)](http://msdn.microsoft.com/library/9bfc39e6-d944-4eb6-8aee-cbaf1e37c67d%28Office.15%29.aspx)
+- [Deleting Items (Exchange Web Services)](https://msdn.microsoft.com/library/9bfc39e6-d944-4eb6-8aee-cbaf1e37c67d%28Office.15%29.aspx)
 

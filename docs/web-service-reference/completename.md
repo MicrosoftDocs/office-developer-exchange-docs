@@ -65,7 +65,7 @@ None.
    
 ## Remarks
 
-The CompleteName property is part of the [Default](https://docs.microsoft.com/en-us/dotnet/api/exchangewebservices.defaultshapenamestype?view=exchange-ews-proxy) shape. In the initial release version of Microsoft Exchange Server 2007, the CompleteName property is returned by the [GetItem operation](getitem-operation.md), but not the [FindItem operation](finditem-operation.md). Starting with Exchange Server 2007 Service Pack 1 (SP1), the [FindItem operation](finditem-operation.md) also returns the CompleteName property with the [Default](https://docs.microsoft.com/en-us/dotnet/api/exchangewebservices.defaultshapenamestype?view=exchange-ews-proxy) shape. This change does not affect the schema. 
+The CompleteName property is part of the [Default](https://docs.microsoft.com/dotnet/api/exchangewebservices.defaultshapenamestype?view=exchange-ews-proxy) shape. In the initial release version of Microsoft Exchange Server 2007, the CompleteName property is returned by the [GetItem operation](getitem-operation.md), but not the [FindItem operation](finditem-operation.md). Starting with Exchange Server 2007 Service Pack 1 (SP1), the [FindItem operation](finditem-operation.md) also returns the CompleteName property with the [Default](https://docs.microsoft.com/dotnet/api/exchangewebservices.defaultshapenamestype?view=exchange-ews-proxy) shape. This change does not affect the schema. 
   
 The schema that describes this element is located in the EWS virtual directory of the computer that is running MicrosoftExchange Server 2007 that has the Client Access server role installed.
   
@@ -73,7 +73,7 @@ The schema that describes this element is located in the EWS virtual directory o
 
 |||
 |:-----|:-----|
-|Namespace  <br/> |http://schemas.microsoft.com/exchange/services/2006/types  <br/> |
+|Namespace  <br/> |https://schemas.microsoft.com/exchange/services/2006/types  <br/> |
 |Schema name  <br/> |Types schema  <br/> |
 |Validation file  <br/> |Types.xsd  <br/> |
 |Can be empty  <br/> |False  <br/> |
@@ -82,5 +82,5 @@ The schema that describes this element is located in the EWS virtual directory o
 
 - [CompleteNameType](https://msdn.microsoft.com/library/ExchangeWebServices.CompleteNameType.aspx)
 - [EWS XML elements in Exchange](ews-xml-elements-in-exchange.md)
-- [Creating Contacts (Exchange Web Services)](http://msdn.microsoft.com/library/4845917e-70d1-481c-bbd7-011ec6571789%28Office.15%29.aspx)
+- [Creating Contacts (Exchange Web Services)](https://msdn.microsoft.com/library/4845917e-70d1-481c-bbd7-011ec6571789%28Office.15%29.aspx)
 

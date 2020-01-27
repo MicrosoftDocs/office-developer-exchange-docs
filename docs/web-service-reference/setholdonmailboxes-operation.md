@@ -39,13 +39,13 @@ The **SetHoldOnMailboxes** operation can use the SOAP headers that are listed in
    
 ## SetHoldOnMailboxes operation request example: Apply a hold on a mailbox
 
-The following example of a **SetHoldOnMailboxes** operation request shows how to apply a hold on two mailboxes. The mailbox hold was created by using the [New-MailboxSearch](http://technet.microsoft.com/en-us/library/dd298064.aspx) command. 
+The following example of a **SetHoldOnMailboxes** operation request shows how to apply a hold on two mailboxes. The mailbox hold was created by using the [New-MailboxSearch](https://technet.microsoft.com/library/dd298064.aspx) command. 
   
 ```XML
 <?xml version="1.0" encoding="UTF-8"?>
 <soap:Envelope xmlns:soap="http://schemas.xmlsoap.org/soap/envelope/"
-               xmlns:t="http://schemas.microsoft.com/exchange/services/2006/types"
-               xmlns:m="http://schemas.microsoft.com/exchange/services/2006/messages">
+               xmlns:t="https://schemas.microsoft.com/exchange/services/2006/types"
+               xmlns:m="https://schemas.microsoft.com/exchange/services/2006/messages">
    <soap:Header>
       <t:RequestServerVersion Version="Exchange2013" />
    </soap:Header>
@@ -100,20 +100,20 @@ The following example shows a successful response to a **SetHoldOnMailboxes** op
                            MajorBuildNumber="526" 
                            MinorBuildNumber="0" 
                            Version="Exchange2013" 
-                           xmlns:h="http://schemas.microsoft.com/exchange/services/2006/types" 
-                           xmlns="http://schemas.microsoft.com/exchange/services/2006/types" 
+                           xmlns:h="https://schemas.microsoft.com/exchange/services/2006/types" 
+                           xmlns="https://schemas.microsoft.com/exchange/services/2006/types" 
                            xmlns:xsd="http://www.w3.org/2001/XMLSchema" 
                            xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"/>
    </s:Header>
    <s:Body xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
            xmlns:xsd="http://www.w3.org/2001/XMLSchema">
       <SetHoldOnMailboxesResponse ResponseClass="Success" 
-                                  xmlns="http://schemas.microsoft.com/exchange/services/2006/messages">
+                                  xmlns="https://schemas.microsoft.com/exchange/services/2006/messages">
          <ResponseCode>NoError</ResponseCode>
          <MailboxHoldResult>
-            <HoldId xmlns="http://schemas.microsoft.com/exchange/services/2006/types">HoldId2</HoldId>
-            <Query xmlns="http://schemas.microsoft.com/exchange/services/2006/types">test</Query>
-            <MailboxHoldStatuses xmlns="http://schemas.microsoft.com/exchange/services/2006/types">
+            <HoldId xmlns="https://schemas.microsoft.com/exchange/services/2006/types">HoldId2</HoldId>
+            <Query xmlns="https://schemas.microsoft.com/exchange/services/2006/types">test</Query>
+            <MailboxHoldStatuses xmlns="https://schemas.microsoft.com/exchange/services/2006/types">
                <MailboxHoldStatus>
                   <Mailbox>o=First/ou=Exchange(DLT)/cn=Recipients/cn=1fa441ff5e4749ba43ecc0fd94c21adf-Willi</Mailbox>
                   <Status>Pending</Status>
@@ -167,15 +167,15 @@ The following example shows an error response to a **SetHoldOnMailboxes** operat
                            MajorBuildNumber="526" 
                            MinorBuildNumber="0" 
                            Version="Exchange2013"
-                           xmlns:h="http://schemas.microsoft.com/exchange/services/2006/types" 
-                           xmlns="http://schemas.microsoft.com/exchange/services/2006/types"
+                           xmlns:h="https://schemas.microsoft.com/exchange/services/2006/types" 
+                           xmlns="https://schemas.microsoft.com/exchange/services/2006/types"
                            xmlns:xsd="http://www.w3.org/2001/XMLSchema" 
                            xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"/>
    </s:Header>
    <s:Body xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
            xmlns:xsd="http://www.w3.org/2001/XMLSchema">
       <SetHoldOnMailboxesResponse ResponseClass="Error" 
-                                  xmlns="http://schemas.microsoft.com/exchange/services/2006/messages">
+                                  xmlns="https://schemas.microsoft.com/exchange/services/2006/messages">
          <MessageText>No mailbox is specified for hold operation. If specified in the request, then it could be the object does not exist in AD or is a Distribution Group.</MessageText>
          <ResponseCode>ErrorInvalidOperation</ResponseCode>
          <DescriptiveLinkKey>0</DescriptiveLinkKey>

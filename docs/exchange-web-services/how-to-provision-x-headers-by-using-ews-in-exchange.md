@@ -21,12 +21,13 @@ X-headers are non-standard headers that are added to the header collection of an
 Exchange adds incoming x-headers to the mailbox schema as a named property the first time it receives an email with that x-header. The x-header value is not saved on that first email; however, it is saved on all subsequent emails that include the x-header. For this reason, your application should provision x-headers before you expect to use them. The mapping between a named property and an x-header occurs in the transport delivery of the email to the mailbox. This means that you need to receive the email via transport delivery; you cannot just save an email that includes the x-header to a mailbox to create the mapping to a named property.
   
 > [!NOTE]
-> If you find that x-headers aren't being saved, determine whether a [transport agent](http://code.msdn.microsoft.com/Exchange-2013-Build-an-32f62f5a) or [header firewall](http://technet.microsoft.com/en-us/library/bb232136%28v=exchg.150%29.aspx) is filtering out your x-headers before they get to the mailbox. 
+> If you find that x-headers aren't being saved, determine whether a [transport agent](https://code.msdn.microsoft.com/Exchange-2013-Build-an-32f62f5a) or [header firewall](https://technet.microsoft.com/library/bb232136%28v=exchg.150%29.aspx) is filtering out your x-headers before they get to the mailbox. 
+r
   
 ## Provision an x-header by using the EWS Managed API
 <a name="bk_example1"> </a>
 
-The following code example shows how to use the EWS Managed API [EmailMessage.Send](http://msdn.microsoft.com/en-us/library/office/microsoft.exchange.webservices.data.emailmessage.send%28v=exchg.80%29.aspx) method to provision an x-header for a mailbox. This example assumes that **service** is a valid [ExchangeService](http://msdn.microsoft.com/en-us/library/microsoft.exchange.webservices.data.exchangeservice%28v=exchg.80%29.aspx) object and that the target mailbox hasn't exceeded the [quota for named properties](http://technet.microsoft.com/en-us/library/bb851492%28v=EXCHG.80%29.aspx).
+The following code example shows how to use the EWS Managed API [EmailMessage.Send](https://msdn.microsoft.com/library/office/microsoft.exchange.webservices.data.emailmessage.send%28v=exchg.80%29.aspx) method to provision an x-header for a mailbox. This example assumes that **service** is a valid [ExchangeService](https://msdn.microsoft.com/library/microsoft.exchange.webservices.data.exchangeservice%28v=exchg.80%29.aspx) object and that the target mailbox hasn't exceeded the [quota for named properties](https://technet.microsoft.com/library/bb851492%28v=EXCHG.80%29.aspx).
   
 ```cs
 private static void ProvisionCustomXHeaderByEmail(ExchangeService service)
@@ -65,14 +66,14 @@ private static void ProvisionCustomXHeaderByEmail(ExchangeService service)
 ## Provision an x-header by using EWS
 <a name="bk_example1"> </a>
 
-The following code example shows how to use the EWS [CreateItem](http://msdn.microsoft.com/library/78a52120-f1d0-4ed7-8748-436e554f75b6%28Office.15%29.aspx) operation to create and send an email to provision a mailbox with an x-header. This is the XML request that is sent by the EWS Managed API when you [Provision an x-header by using the EWS Managed API](#bk_example1).
+The following code example shows how to use the EWS [CreateItem](https://msdn.microsoft.com/library/78a52120-f1d0-4ed7-8748-436e554f75b6%28Office.15%29.aspx) operation to create and send an email to provision a mailbox with an x-header. This is the XML request that is sent by the EWS Managed API when you [Provision an x-header by using the EWS Managed API](#bk_example1).
   
 ```XML
 <?xml version="1.0" encoding="utf-8"?>
 <soap:Envelope xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
-               xmlns:m="http://schemas.microsoft.com/exchange/services/2006/messages"
-               xmlns:t="http://schemas.microsoft.com/exchange/services/2006/types"
-               xmlns:soap="http://schemas.xmlsoap.org/soap/envelope/">
+               xmlns:m="https://schemas.microsoft.com/exchange/services/2006/messages"
+               xmlns:t="https://schemas.microsoft.com/exchange/services/2006/types"
+               xmlns:soap="https://schemas.xmlsoap.org/soap/envelope/">
   <soap:Header>
     <t:RequestServerVersion Version="Exchange2013" />
   </soap:Header>
@@ -114,15 +115,15 @@ This article shows you how to provision an x-header for a single mailbox by send
 
 - [Properties and extended properties in EWS in Exchange](properties-and-extended-properties-in-ews-in-exchange.md)
     
-- [Exchange 2013: Provision custom X-headers programmatically](http://code.msdn.microsoft.com/exchange/Exchange-2013-Provision-d4ef5719)
+- [Exchange 2013: Provision custom X-headers programmatically](https://code.msdn.microsoft.com/exchange/Exchange-2013-Provision-d4ef5719)
     
-- [Named Properties, X-Headers, and You](http://blogs.technet.com/b/exchange/archive/2009/04/06/3407221.aspx)
+- [Named Properties, X-Headers, and You](https://blogs.technet.com/b/exchange/archive/2009/04/06/3407221.aspx)
     
-- [Named Properties, Round 2: What lies Ahead](http://blogs.technet.com/b/exchange/archive/2009/06/12/3407672.aspx)
+- [Named Properties, Round 2: What lies Ahead](https://blogs.technet.com/b/exchange/archive/2009/06/12/3407672.aspx)
     
-- [Header Firewall](http://technet.microsoft.com/en-us/library/bb232136%28v=exchg.150%29.aspx)
+- [Header Firewall](https://technet.microsoft.com/library/bb232136%28v=exchg.150%29.aspx)
     
-- [EWS, MIME, and the missing Internet message headers](http://msdn.microsoft.com/library/office/hh545614%28v=exchg.140%29.aspx)
+- [EWS, MIME, and the missing Internet message headers](https://msdn.microsoft.com/library/office/hh545614%28v=exchg.140%29.aspx)
     
 - [Process email messages in batches by using EWS in Exchange](how-to-process-email-messages-in-batches-by-using-ews-in-exchange.md)
     

@@ -67,7 +67,7 @@ A client application can define one to many **MailboxData** elements.
 
 ```xml
 <MailboxDataArray>
-  <MailboxData xmlns="http://schemas.microsoft.com/exchange/services/2006/types">
+  <MailboxData xmlns="https://schemas.microsoft.com/exchange/services/2006/types">
     <Email>
       <Name></Name>
       <Address>someone@ExServer.example.com</Address>
@@ -83,7 +83,7 @@ A client application can define one to many **MailboxData** elements.
 
 |||
 |:-----|:-----|
-|Namespace  <br/> |http://schemas.microsoft.com/exchange/services/2006/types  <br/> |
+|Namespace  <br/> |https://schemas.microsoft.com/exchange/services/2006/types  <br/> |
 |Schema Name  <br/> |Types schema  <br/> |
 |Validation File  <br/> |Types.xsd  <br/> |
 |Can be Empty  <br/> |False  <br/> |
@@ -92,5 +92,5 @@ A client application can define one to many **MailboxData** elements.
 
 - [GetUserAvailability operation](getuseravailability-operation.md)
 - [GetUserAvailabilityRequest](getuseravailabilityrequest.md)
-- [Getting User Availability](http://msdn.microsoft.com/library/d4133fcb-9b0f-4e6b-aadf-a389da83516a%28Office.15%29.aspx)
+- [Getting User Availability](https://msdn.microsoft.com/library/d4133fcb-9b0f-4e6b-aadf-a389da83516a%28Office.15%29.aspx)
 

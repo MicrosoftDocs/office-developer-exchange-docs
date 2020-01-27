@@ -18,7 +18,7 @@ description: "The InternetMessageHeader element represents the Internet message 
 
 # InternetMessageHeader
 
-The **InternetMessageHeader** element represents the Internet message header for a given header within the headers collection. To get the entire collection of Internet message headers, use the **PR_TRANSPORT_MESSAGE_HEADERS** property. For more information about EWS and Internet message headers, see "Getting Internet message headers in [EWS, MIME, and the missing Internet message headers](http://msdn.microsoft.com/en-us/library/exchange/hh545614%28v=exchg.140%29.aspx).
+The **InternetMessageHeader** element represents the Internet message header for a given header within the headers collection. To get the entire collection of Internet message headers, use the **PR_TRANSPORT_MESSAGE_HEADERS** property. For more information about EWS and Internet message headers, see "Getting Internet message headers in [EWS, MIME, and the missing Internet message headers](https://msdn.microsoft.com/library/exchange/hh545614%28v=exchg.140%29.aspx).
   
 ```XML
 <InternetMessageHeader HeaderName=""/>
@@ -63,7 +63,7 @@ The schema that describes this element is located in the IIS virtual directory t
 
 |||
 |:-----|:-----|
-|Namespace  <br/> |http://schemas.microsoft.com/exchange/services/2006/types  <br/> |
+|Namespace  <br/> |https://schemas.microsoft.com/exchange/services/2006/types  <br/> |
 |Schema Name  <br/> |Types schema  <br/> |
 |Validation File  <br/> |Types.xsd  <br/> |
 |Can be Empty  <br/> |False  <br/> |
@@ -75,5 +75,5 @@ The schema that describes this element is located in the IIS virtual directory t
 - [EWS XML elements in Exchange](ews-xml-elements-in-exchange.md)
 
 
-[EWS, MIME, and the missing Internet message headers](http://msdn.microsoft.com/en-us/library/exchange/hh545614%28v=exchg.140%29.aspx)
+[EWS, MIME, and the missing Internet message headers](https://msdn.microsoft.com/library/exchange/hh545614%28v=exchg.140%29.aspx)
 

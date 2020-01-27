@@ -32,7 +32,7 @@ On the surface this might not seem like much. However, imagine a scenario where 
 
 When SCP objects are present and configured well, they can speed up the Autodiscover process. In other situations, however, they can slow it down. If SCP isn't used in your environment, skip the entire SCP lookup portion of the Autodiscover process to save time.
   
-The EWS Managed API makes this easy: just set the [ExchangeService.EnableScpLookup](http://msdn.microsoft.com/en-us/library/microsoft.exchange.webservices.data.exchangeservice.enablescplookup%28v=exchg.80%29.aspx) property to **false** before calling the [ExchangeService.AutodiscoverUrl](http://msdn.microsoft.com/en-us/library/microsoft.exchange.webservices.data.exchangeservice.autodiscoverurl%28v=exchg.80%29.aspx) method. If you're using the [AutodiscoverService](http://msdn.microsoft.com/en-us/library/microsoft.exchange.webservices.autodiscover.autodiscoverservice%28v=exchg.80%29.aspx) class, set the [AutodiscoverService.EnableScpLookup](http://msdn.microsoft.com/en-us/library/microsoft.exchange.webservices.autodiscover.autodiscoverservice.enablescplookup%28v=exchg.80%29.aspx) property to **false** before calling any of its methods. 
+The EWS Managed API makes this easy: just set the [ExchangeService.EnableScpLookup](https://msdn.microsoft.com/library/microsoft.exchange.webservices.data.exchangeservice.enablescplookup%28v=exchg.80%29.aspx) property to **false** before calling the [ExchangeService.AutodiscoverUrl](https://msdn.microsoft.com/library/microsoft.exchange.webservices.data.exchangeservice.autodiscoverurl%28v=exchg.80%29.aspx) method. If you're using the [AutodiscoverService](https://msdn.microsoft.com/library/microsoft.exchange.webservices.autodiscover.autodiscoverservice%28v=exchg.80%29.aspx) class, set the [AutodiscoverService.EnableScpLookup](https://msdn.microsoft.com/library/microsoft.exchange.webservices.autodiscover.autodiscoverservice.enablescplookup%28v=exchg.80%29.aspx) property to **false** before calling any of its methods. 
   
 ## Use Autodiscover less often
 
@@ -42,9 +42,9 @@ Even if you are already caching, evaluate how long you cache configuration infor
   
 ## Minimize requested data
 
-If you're using the **AutodiscoverService** class in the EWS Managed API, or the [GetUserSettings operation (SOAP)](http://msdn.microsoft.com/library/758d965c-ef63-4de4-9120-e293abf14ff8%28Office.15%29.aspx) operation via SOAP, you have direct control over what settings are returned in the response. Although you can request quite a few settings, chances are that your application only needs a handful of them. Every setting that you request requires more processing on the server, which means more time waiting for a response. Evaluate the settings you are requesting, and eliminate any that you don't need. 
+If you're using the **AutodiscoverService** class in the EWS Managed API, or the [GetUserSettings operation (SOAP)](https://msdn.microsoft.com/library/758d965c-ef63-4de4-9120-e293abf14ff8%28Office.15%29.aspx) operation via SOAP, you have direct control over what settings are returned in the response. Although you can request quite a few settings, chances are that your application only needs a handful of them. Every setting that you request requires more processing on the server, which means more time waiting for a response. Evaluate the settings you are requesting, and eliminate any that you don't need. 
   
-If you're using the **ExchangeService.AutodiscoverUrl** method in the EWS Managed API, you cannot change the settings you request. However, this method is already fairly efficient; it only requests the **ExternalEwsUrl** and **InternalEwsUrl** settings from the [UserSettingName enumeration](http://msdn.microsoft.com/en-us/library/microsoft.exchange.webservices.autodiscover.usersettingname%28v=exchg.80%29.aspx).
+If you're using the **ExchangeService.AutodiscoverUrl** method in the EWS Managed API, you cannot change the settings you request. However, this method is already fairly efficient; it only requests the **ExternalEwsUrl** and **InternalEwsUrl** settings from the [UserSettingName enumeration](https://msdn.microsoft.com/library/microsoft.exchange.webservices.autodiscover.usersettingname%28v=exchg.80%29.aspx).
   
 If you're using the POX Autodiscover service, [you cannot request specific properties](autodiscover-for-exchange.md#bk_Options).
   
@@ -57,8 +57,8 @@ If you're using the POX Autodiscover service, [you cannot request specific prope
     
 - [Refresh configuration information by using Autodiscover](how-to-refresh-configuration-information-by-using-autodiscover.md)
     
-- [ExchangeService class](http://msdn.microsoft.com/en-us/library/microsoft.exchange.webservices.data.exchangeservice%28v=exchg.80%29.aspx)
+- [ExchangeService class](https://msdn.microsoft.com/library/microsoft.exchange.webservices.data.exchangeservice%28v=exchg.80%29.aspx)
     
-- [AutodiscoverService class](http://msdn.microsoft.com/en-us/library/microsoft.exchange.webservices.autodiscover.autodiscoverservice%28v=exchg.80%29.aspx)
+- [AutodiscoverService class](https://msdn.microsoft.com/library/microsoft.exchange.webservices.autodiscover.autodiscoverservice%28v=exchg.80%29.aspx)
     
 

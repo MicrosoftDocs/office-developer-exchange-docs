@@ -61,8 +61,8 @@ The following sections describe attributes, child elements, and parent elements.
 |**Value**|**Description**|
 |:-----|:-----|
 |IdOnly  <br/> |The contact item identifier property is returned.  <br/> |
-|Default  <br/> |The Default set of contact item properties is returned. For more information, see [Response shapes in EWS](http://msdn.microsoft.com/library/1c5ddc0a-c4e0-4488-8972-7543b5b464df%28Office.15%29.aspx).  <br/> |
-|AllProperties  <br/> |The AllProperties set of contact item properties are returned. For more information, see [Response shapes in EWS](http://msdn.microsoft.com/library/1c5ddc0a-c4e0-4488-8972-7543b5b464df%28Office.15%29.aspx).  <br/> |
+|Default  <br/> |The Default set of contact item properties is returned. For more information, see [Response shapes in EWS](https://msdn.microsoft.com/library/1c5ddc0a-c4e0-4488-8972-7543b5b464df%28Office.15%29.aspx).  <br/> |
+|AllProperties  <br/> |The AllProperties set of contact item properties are returned. For more information, see [Response shapes in EWS](https://msdn.microsoft.com/library/1c5ddc0a-c4e0-4488-8972-7543b5b464df%28Office.15%29.aspx).  <br/> |
    
 ### Child elements
 
@@ -83,7 +83,7 @@ The schema that describes this element is located in the IIS virtual directory t
 
 |||
 |:-----|:-----|
-|Namespace  <br/> |http://schemas.microsoft.com/exchange/services/2006/messages  <br/> |
+|Namespace  <br/> |https://schemas.microsoft.com/exchange/services/2006/messages  <br/> |
 |Schema name  <br/> |Messages schema  <br/> |
 |Validation file  <br/> |Messages.xsd  <br/> |
 |Can be empty  <br/> |False  <br/> |
@@ -102,5 +102,5 @@ The schema that describes this element is located in the IIS virtual directory t
 - [EWS XML elements in Exchange](ews-xml-elements-in-exchange.md)
 
 
-[Using Name Resolution](http://msdn.microsoft.com/library/9257fb07-89d2-46eb-b885-e2173fe6fbc1%28Office.15%29.aspx)
+[Using Name Resolution](https://msdn.microsoft.com/library/9257fb07-89d2-46eb-b885-e2173fe6fbc1%28Office.15%29.aspx)
 

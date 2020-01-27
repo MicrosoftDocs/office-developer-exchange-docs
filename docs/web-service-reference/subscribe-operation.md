@@ -31,9 +31,9 @@ The following code example shows how to subscribe to a pull event notification s
 ```XML
 <?xml version="1.0" encoding="utf-8"?>
 <soap:Envelope xmlns:soap="http://schemas.xmlsoap.org/soap/envelope/"
-  xmlns:t="http://schemas.microsoft.com/exchange/services/2006/types">
+  xmlns:t="https://schemas.microsoft.com/exchange/services/2006/types">
   <soap:Body>
-    <Subscribe xmlns="http://schemas.microsoft.com/exchange/services/2006/messages">
+    <Subscribe xmlns="https://schemas.microsoft.com/exchange/services/2006/messages">
       <PullSubscriptionRequest>
         <t:FolderIds>
           <t:DistinguishedFolderId Id="inbox"/>
@@ -84,12 +84,12 @@ The following example shows a successful pull subscription response. The respons
                xmlns:xsd="http://www.w3.org/2001/XMLSchema">
   <soap:Header>
     <t:ServerVersionInfo MajorVersion="8" MinorVersion="0" MajorBuildNumber="628" MinorBuildNumber="0" 
-                         xmlns:t="http://schemas.microsoft.com/exchange/services/2006/types" />
+                         xmlns:t="https://schemas.microsoft.com/exchange/services/2006/types" />
   </soap:Header>
   <soap:Body>
-    <SubscribeResponse xmlns:m="http://schemas.microsoft.com/exchange/services/2006/messages" 
-                       xmlns:t="http://schemas.microsoft.com/exchange/services/2006/types" 
-                       xmlns="http://schemas.microsoft.com/exchange/services/2006/messages">
+    <SubscribeResponse xmlns:m="https://schemas.microsoft.com/exchange/services/2006/messages" 
+                       xmlns:t="https://schemas.microsoft.com/exchange/services/2006/types" 
+                       xmlns="https://schemas.microsoft.com/exchange/services/2006/messages">
       <m:ResponseMessages>
         <m:SubscribeResponseMessage ResponseClass="Success">
           <m:ResponseCode>NoError</m:ResponseCode>
@@ -135,12 +135,12 @@ The following example shows an error response to a Subscribe request. The error 
                xmlns:xsd="http://www.w3.org/2001/XMLSchema">
   <soap:Header>
     <t:ServerVersionInfo MajorVersion="8" MinorVersion="0" MajorBuildNumber="685" MinorBuildNumber="8" 
-                         xmlns:t="http://schemas.microsoft.com/exchange/services/2006/types" />
+                         xmlns:t="https://schemas.microsoft.com/exchange/services/2006/types" />
   </soap:Header>
   <soap:Body>
-    <SubscribeResponse xmlns:m="http://schemas.microsoft.com/exchange/services/2006/messages" 
-                       xmlns:t="http://schemas.microsoft.com/exchange/services/2006/types" 
-                       xmlns="http://schemas.microsoft.com/exchange/services/2006/messages">
+    <SubscribeResponse xmlns:m="https://schemas.microsoft.com/exchange/services/2006/messages" 
+                       xmlns:t="https://schemas.microsoft.com/exchange/services/2006/types" 
+                       xmlns="https://schemas.microsoft.com/exchange/services/2006/messages">
       <m:ResponseMessages>
         <m:SubscribeResponseMessage ResponseClass="Error">
           <m:MessageText>Subscriptions are not supported for delegate user access.</m:MessageText>
@@ -182,15 +182,15 @@ The following code example shows how to subscribe to a push event notification s
 ```XML
 <?xml version="1.0" encoding="utf-8"?>
 <soap:Envelope xmlns:soap="http://schemas.xmlsoap.org/soap/envelope/"
-               xmlns:t="http://schemas.microsoft.com/exchange/services/2006/types">
+               xmlns:t="https://schemas.microsoft.com/exchange/services/2006/types">
   <soap:Body>
     <Subscribe xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
                xmlns:xsd="http://www.w3.org/2001/XMLSchema">
-      <PushSubscriptionRequest xmlns="http://schemas.microsoft.com/exchange/services/2006/messages">
-        <FolderIds xmlns="http://schemas.microsoft.com/exchange/services/2006/types">
+      <PushSubscriptionRequest xmlns="https://schemas.microsoft.com/exchange/services/2006/messages">
+        <FolderIds xmlns="https://schemas.microsoft.com/exchange/services/2006/types">
           <DistinguishedFolderId Id="inbox" />
         </FolderIds>
-        <EventTypes xmlns="http://schemas.microsoft.com/exchange/services/2006/types">
+        <EventTypes xmlns="https://schemas.microsoft.com/exchange/services/2006/types">
           <EventType>NewMailEvent</EventType>
           <EventType>CopiedEvent</EventType>
           <EventType>CreatedEvent</EventType>
@@ -198,8 +198,8 @@ The following code example shows how to subscribe to a push event notification s
           <EventType>ModifiedEvent</EventType>
           <EventType>MovedEvent</EventType>
         </EventTypes>
-        <StatusFrequency xmlns="http://schemas.microsoft.com/exchange/services/2006/types">1</StatusFrequency>
-        <URL xmlns="http://schemas.microsoft.com/exchange/services/2006/types">http://clientWebService/Service.asmx</URL>
+        <StatusFrequency xmlns="https://schemas.microsoft.com/exchange/services/2006/types">1</StatusFrequency>
+        <URL xmlns="https://schemas.microsoft.com/exchange/services/2006/types">http://clientWebService/Service.asmx</URL>
       </PushSubscriptionRequest>
     </Subscribe>
   </soap:Body>
@@ -208,7 +208,7 @@ The following code example shows how to subscribe to a push event notification s
 
 ### Comments
 
-The client Web service must be set up before the push notification subscribe request is sent; otherwise, the first notification will not be sent to a valid endpoint and the push notification will fail. For more information, see [Push Notification Sample Application](http://msdn.microsoft.com/library/db1f8523-fa44-483f-bdb6-ab5939b52eee%28Office.15%29.aspx).
+The client Web service must be set up before the push notification subscribe request is sent; otherwise, the first notification will not be sent to a valid endpoint and the push notification will fail. For more information, see [Push Notification Sample Application](https://msdn.microsoft.com/library/db1f8523-fa44-483f-bdb6-ab5939b52eee%28Office.15%29.aspx).
   
 A new [SubscriptionId (GetEvents)](subscriptionid-getevents.md) is created when you resubscribe. Use the watermark of a previous subscription to resubscribe at the point where the previous subscription ended. 
   
@@ -247,12 +247,12 @@ The following example shows a successful push subscription response.
                xmlns:xsd="http://www.w3.org/2001/XMLSchema">
   <soap:Header>
     <t:ServerVersionInfo MajorVersion="8" MinorVersion="0" MajorBuildNumber="628" MinorBuildNumber="0" 
-                         xmlns:t="http://schemas.microsoft.com/exchange/services/2006/types" />
+                         xmlns:t="https://schemas.microsoft.com/exchange/services/2006/types" />
   </soap:Header>
   <soap:Body>
-    <SubscribeResponse xmlns:m="http://schemas.microsoft.com/exchange/services/2006/messages" 
-                       xmlns:t="http://schemas.microsoft.com/exchange/services/2006/types" 
-                       xmlns="http://schemas.microsoft.com/exchange/services/2006/messages">
+    <SubscribeResponse xmlns:m="https://schemas.microsoft.com/exchange/services/2006/messages" 
+                       xmlns:t="https://schemas.microsoft.com/exchange/services/2006/types" 
+                       xmlns="https://schemas.microsoft.com/exchange/services/2006/messages">
       <ResponseMessages>
         <SubscribeResponseMessage ResponseClass="Success">
           <ResponseCode>NoError</ResponseCode>
@@ -292,7 +292,7 @@ The following elements are used in the response:
 [GetEvents operation](getevents-operation.md)
 
 
-[Using Pull Subscriptions](http://msdn.microsoft.com/library/f956bc0e-2b25-4613-966b-54c65456897c%28Office.15%29.aspx)
+[Using Pull Subscriptions](https://msdn.microsoft.com/library/f956bc0e-2b25-4613-966b-54c65456897c%28Office.15%29.aspx)
   
-[Push Notification Sample Application](http://msdn.microsoft.com/library/db1f8523-fa44-483f-bdb6-ab5939b52eee%28Office.15%29.aspx)
+[Push Notification Sample Application](https://msdn.microsoft.com/library/db1f8523-fa44-483f-bdb6-ab5939b52eee%28Office.15%29.aspx)
 

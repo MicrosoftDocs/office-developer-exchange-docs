@@ -50,7 +50,7 @@ Impersonation enables a caller to impersonate a given user account. This enables
     
 - Typically, the **ApplicationImpersonation** role is granted to a service account dedicated to a particular application or group of applications, rather than a user account. You can create as many or as few service accounts as you need. 
     
-You can read more about [configuring impersonation](how-to-configure-impersonation.md), but you should work with your Exchange administrator to ensure that the service accounts that you need are created with the [permissions and access](http://technet.microsoft.com/en-us/library/dd351175%28v=exchg.150%29.aspx) that meet the security requirements of your organization. 
+You can read more about [configuring impersonation](how-to-configure-impersonation.md), but you should work with your Exchange administrator to ensure that the service accounts that you need are created with the [permissions and access](https://technet.microsoft.com/library/dd351175%28v=exchg.150%29.aspx) that meet the security requirements of your organization. 
   
 ## In this section
 
@@ -67,6 +67,6 @@ You can read more about [configuring impersonation](how-to-configure-impersonati
     
 - [Delegate access and EWS in Exchange](delegate-access-and-ews-in-exchange.md)
     
-- [Exchange 2013 Permissions](http://technet.microsoft.com/en-us/library/dd351175%28v=exchg.150%29.aspx)
+- [Exchange 2013 Permissions](https://technet.microsoft.com/library/dd351175%28v=exchg.150%29.aspx)
     
 

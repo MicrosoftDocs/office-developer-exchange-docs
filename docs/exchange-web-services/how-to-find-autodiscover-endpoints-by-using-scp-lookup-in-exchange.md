@@ -32,7 +32,7 @@ Also, before you begin, you'll want to be familiar some basic concepts. The foll
 |**Read this article**|**To learn about…**|
 |:-----|:-----|
 |[Autodiscover for Exchange](autodiscover-for-exchange.md) <br/> |How the Autodiscover service works.  <br/> |
-|[Publishing with Service Connection Points](http://msdn.microsoft.com/library/3544aa64-ecb0-48a1-ae49-05247a983842%28Office.15%29.aspx) <br/> |How SCP objects are used to publish service-specific data.  <br/> |
+|[Publishing with Service Connection Points](https://msdn.microsoft.com/library/3544aa64-ecb0-48a1-ae49-05247a983842%28Office.15%29.aspx) <br/> |How SCP objects are used to publish service-specific data.  <br/> |
    
 ## Locate Autodiscover SCP objects in AD DS
 <a name="bk_LocateScpObjects"> </a>
@@ -45,7 +45,7 @@ The first step toward finding Autodiscover endpoints published in AD DS is to lo
     
 ### To locate Autodiscover SCP objects
 
-1. Read the **configurationNamingContext** property of the root DSE entry in AD DS to get the path to the configuration naming context for the domain. You can do this by using the [DirectoryEntry](http://msdn2.microsoft.com/EN-US/library/z9cddzaa) class, or any other API that can acces AD DS. 
+1. Read the **configurationNamingContext** property of the root DSE entry in AD DS to get the path to the configuration naming context for the domain. You can do this by using the [DirectoryEntry](https://msdn2.microsoft.com/library/z9cddzaa) class, or any other API that can acces AD DS. 
     
 2. Search for SCP objects in the configuration naming context that have either the SCP pointer GUID or the SCP URL GUID in the **keywords** property. 
     
