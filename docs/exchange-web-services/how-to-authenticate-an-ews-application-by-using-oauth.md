@@ -14,9 +14,7 @@ localization_priority: Priority
 
 Learn how to use OAuth authentication with your EWS Managed API applications.
 
-You can use the OAuth authentication service provided by Azure Active Directory to enable your EWS Managed API applications to access Exchange Online in Office 365. 
-
-To use OAuth with your application you will need to:
+You can use the OAuth authentication service provided by Azure Active Directory to enable your EWS Managed API applications to access Exchange Online in Office 365. To use OAuth with your application you will need to:
 
 1. [Register your application](#register-your-application) with Azure Active Directory.
 
