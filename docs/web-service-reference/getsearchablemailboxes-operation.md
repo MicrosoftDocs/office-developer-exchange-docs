@@ -1,7 +1,7 @@
 ---
 title: "GetSearchableMailboxes operation"
 manager: sethgros
-ms.date: 05/14/2019
+ms.date: 01/24/2020
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
@@ -11,6 +11,9 @@ description: "Find information about the GetSearchableMailboxes EWS operation."
 ---
 
 # GetSearchableMailboxes operation
+
+> [!IMPORTANT]
+> Starting on April 1, 2020, the GetSearchableMailboxes operation will no longer be available in Exchange Online. This operation won't be affected in on-premises versions of Exchange Server. For more information, see [Retirement of legacy eDiscovery tools in Exchange Online](https://docs.microsoft.com/microsoft-365/compliance/legacy-ediscovery-retirement#getsearchablemailboxes-setholdonmailboxes-and-getholdonmailboxes-operations-in-the-ews-api).
 
 Find information about the **GetSearchableMailboxes** EWS operation. 
   
