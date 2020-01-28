@@ -4,7 +4,7 @@ manager: sethgros
 ms.date: 05/17/2019
 ms.audience: Developer
 ms.assetid: 1d8d57f9-4df5-4f21-9bbb-a89e0e259052
-description: "Learn how to use OAuth authentication with your EWS Managed API applications on behalf of a user."
+description: "Learn how to use OAuth authentication with your EWS Managed API applications."
 localization_priority: Priority
 ---
 
