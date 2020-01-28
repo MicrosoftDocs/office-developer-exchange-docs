@@ -75,7 +75,7 @@ To use Application permissions, follow these additional steps.
 
 ## Add code to get an authentication token
 
-The following code snippets show how to use the Microsoft Authentication Library to get authentication tokens for delegated permissions and application permissions. These snippets assume that the information required to make the authentication request is stored in the application's **App.config** file. These examples do not include error checking, see the [Code sample](#code-sample) for the complete code.
+The following code snippets show how to use the Microsoft Authentication Library to get authentication tokens for delegated permissions and application permissions. These snippets assume that the information required to make the authentication request is stored in the application's **App.config** file. These examples do not include error checking, see the [Code samples](#code-samples) for the complete code.
 
 ### Delegated permissions
 
@@ -289,7 +289,7 @@ The sample code in both cases requires an **App.config** file with the following
            of this key to your tenant ID -->
     <add key="tenantId" value="common"/>
     <!-- The application's client secret from your app registration. Needed for application permission access -->
-    <add key="clientSecret" value="YOU_CLIENT_SECRET_HERE"/>
+    <add key="clientSecret" value="YOUR_CLIENT_SECRET_HERE"/>
   </appSettings>
 </configuration>
 ```
