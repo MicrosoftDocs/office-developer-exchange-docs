@@ -128,6 +128,6 @@ S: + eyJzdGF0dXMiOiI0MDAiLCJzY2hlbWVzIjoiQmVhcmVyIiwic2NvcGUiOiJodHRwczovL21haWw
 
 ## See also
 
-- [Authentication and EWS in Exchange](authentication-and-ews-in-exchange.md)
+- [Authentication and EWS in Exchange](../exchange-web-services/authentication-and-ews-in-exchange.md)
 - [Internet Message Access Protocol](https://tools.ietf.org/html/rfc3501)
 - [Post Office Protocol](https://tools.ietf.org/html/rfc1081)
