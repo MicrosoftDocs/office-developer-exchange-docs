@@ -24,7 +24,7 @@ When you install the Client Access or the Mailbox server role on an Exchange ser
   
 The Front End Transport service runs on Client Access servers and writes to a file named fetagents.config. The Transport service and the Mailbox Transport service run on Mailbox servers, and write to a file named agents.config. A computer that has both the Client Access server role and the Mailbox server role will have both a fetagents.config and an agents.config file. 
   
-The only supported way to write to these files is by using the transport agent cmdlets in the Exchange Management Shell. For information about the transport agent cmdlets, see [Mail Flow Cmdlets](http://technet.microsoft.com/en-us/library/aa998553%28v=exchg.150%29.aspx) on TechNet. 
+The only supported way to write to these files is by using the transport agent cmdlets in the Exchange Management Shell. For information about the transport agent cmdlets, see [Mail Flow Cmdlets](http://technet.microsoft.com/library/aa998553%28v=exchg.150%29.aspx) on TechNet. 
   
 > [!NOTE]
 > To distinguish between agents that extend the Front End Transport service on the Client Access server and the Transport service on the Mailbox server, transport agent cmdlets have a  _TransportService_ parameter with a value of "Hub" for the Transport service and "FrontEnd" for the Front End Transport service. 
@@ -88,6 +88,6 @@ The following code shows the element hierarchy in the configuration XML file.
 - [Transport agent concepts in Exchange 2013](transport-agent-concepts-in-exchange-2013.md)
 - [Transport agent reference for Exchange 2013](transport-agent-reference-for-exchange-2013.md)
 - [Transport agent namespaces in Exchange 2013](transport-agent-namespaces-in-exchange-2013.md)
-- [Mail Flow Cmdlets](https://docs.microsoft.com/en-us/powershell/exchange/?view=exchange-ps)
+- [Mail Flow Cmdlets](https://docs.microsoft.com/powershell/exchange/?view=exchange-ps)
     
 

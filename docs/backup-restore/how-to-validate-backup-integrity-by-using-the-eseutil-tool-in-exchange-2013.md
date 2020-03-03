@@ -38,7 +38,7 @@ To check the snapshot consistency, run the eseutil command against the database 
 > [!NOTE]
 > You do not need to run the eseutil command against .stm and .chk files. 
   
-All the log files that have a log file generation number that is equal to or greater than the generation number of the checkpoint log file are required in order to recover a snapshot database. If it exists, the current log file (Enn.log) is also required for database recovery. If any of the required log files fail the consistency check, the requester must make sure that the status of the backup component is set to FALSE before it calls the [BackupComplete](http://msdn.microsoft.com/en-us/library/windows/desktop/aa382651%28v=vs.85%29.aspx) method. To identify the checkpoint log file, run Eseutil.exe against the snapshot checkpoint file and parse the output for "Checkpoint:." The following example shows how to run Eseutil.exe against a checkpoint file. 
+All the log files that have a log file generation number that is equal to or greater than the generation number of the checkpoint log file are required in order to recover a snapshot database. If it exists, the current log file (Enn.log) is also required for database recovery. If any of the required log files fail the consistency check, the requester must make sure that the status of the backup component is set to FALSE before it calls the [BackupComplete](http://msdn.microsoft.com/library/windows/desktop/aa382651%28v=vs.85%29.aspx) method. To identify the checkpoint log file, run Eseutil.exe against the snapshot checkpoint file and parse the output for "Checkpoint:." The following example shows how to run Eseutil.exe against a checkpoint file. 
   
 ```cpp
 c:\eseutil.exe /mk E01.chk
@@ -55,7 +55,7 @@ c:\eseutil /k E01
 
 ## Checking the Eseutil.exe output
 
-The requester must verify that all the exit ERRORLEVEL error values that are returned are nonnegative. For information about ERRORLEVEL values, see [Reference for Common Eseutil Errors](http://technet.microsoft.com/en-us/library/aa996759%28v=exchg.80%29.aspx). To see the ERRORLEVEL at the command line, type "echo %errorlevel%" after Eseutil.exe finishes running. A negative ERRORLEVEL indicates that one or more files is corrupted.
+The requester must verify that all the exit ERRORLEVEL error values that are returned are nonnegative. For information about ERRORLEVEL values, see [Reference for Common Eseutil Errors](http://technet.microsoft.com/library/aa996759%28v=exchg.80%29.aspx). To see the ERRORLEVEL at the command line, type "echo %errorlevel%" after Eseutil.exe finishes running. A negative ERRORLEVEL indicates that one or more files is corrupted.
   
 Before the requester calls the **BackupComplete** method, it must make sure that the status of the backup component reflects the result of the consistency check. If any corruption was found, the status will be FALSE; if no corruption was found, the status will be TRUE. 
   
