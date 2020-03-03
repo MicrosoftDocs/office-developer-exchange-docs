@@ -49,7 +49,7 @@ Although the VSS writer architecture was updated in Exchange 2013, the underlyin
     
 ## See also
 
-- [Volume Shadow Copy Service (Windows)](http://msdn.microsoft.com/en-us/library/windows/desktop/bb968832%28v=vs.85%29.aspx)   
+- [Volume Shadow Copy Service (Windows)](http://msdn.microsoft.com/library/windows/desktop/bb968832%28v=vs.85%29.aspx)   
 - [Explore the EWS Managed API, EWS, and web services in Exchange](../exchange-web-services/explore-the-ews-managed-api-ews-and-web-services-in-exchange.md)  
 - [Exchange Management Shell](../management/exchange-management-shell.md)   
 - [Transport agents in Exchange](../transport-agents/transport-agents-in-exchange-2013.md) 

@@ -70,7 +70,7 @@ Full backups are used in the following scenarios:
     
 In Exchange 2013, logs can be restored without having to restore the applicable database from a full backup set. This option makes it possible for a previous full backup to be restored and combined with the transaction log files from the most recent full backup to roll forward.
   
-When the [VSS_BACKUP_TYPE](http://msdn.microsoft.com/en-us/library/windows/desktop/aa384679%28v=vs.85%29.aspx) enumeration in VSS is set to **VSS_BT_FULL** when the Exchange writer performs a backup, the following components are included in the backup: 
+When the [VSS_BACKUP_TYPE](http://msdn.microsoft.com/library/windows/desktop/aa384679%28v=vs.85%29.aspx) enumeration in VSS is set to **VSS_BT_FULL** when the Exchange writer performs a backup, the following components are included in the backup: 
   
 - A database with the logical path Exchange Server\Microsoft Information Store\\<Server Name\>\\<Database GUID\> 
     
@@ -83,7 +83,7 @@ A copy backup of an Exchange database involves creating and storing the same ele
   
 For example, an Exchange 2013 administrator who is experiencing problems with the Exchange store can make a copy backup for use in a test environment without affecting the production system. Copy backups do not affect regular backup schedules; however, because a copy backup also puts the Exchange store in a backup-in-progress state, it blocks other scheduled backups from proceeding until the copy backup is completed or aborted. 
   
-When the [VSS_BACKUP_TYPE](http://msdn.microsoft.com/en-us/library/windows/desktop/aa384679%28v=vs.85%29.aspx) enumeration in VSS is set to **VSS_BT_COPY**, the following components are included in a copy backup: 
+When the [VSS_BACKUP_TYPE](http://msdn.microsoft.com/library/windows/desktop/aa384679%28v=vs.85%29.aspx) enumeration in VSS is set to **VSS_BT_COPY**, the following components are included in a copy backup: 
   
 - A database with the logical path Exchange Server\Microsoft Information Store\\<Server Name\>\\<Database GUID\> 
     
@@ -100,7 +100,7 @@ The disadvantage to using incremental backups is that if many incremental backup
   
 A full backup taken from a DAG copy location can be followed by an incremental backup from the active location and vice versa. One restriction to keep in mind is that the last backup state is maintained in the active database's header, and the changes to the database header are written to transaction logs, replicated, and replayed at the copy database location just like all other transaction logs in DAG deployments. Because backups and restores interoperate, backup applications can provide the functionality to run backups exclusively on a specific DAG node, regardless of whether the node is active or passive, as well as to run backups exclusively from the passive node or exclusively from the active node.
   
-When the [VSS_BACKUP_TYPE](http://msdn.microsoft.com/en-us/library/windows/desktop/aa384679%28v=vs.85%29.aspx) enumeration in VSS is set to **VSS_BT_INCREMENTAL**, the following components are included in an incremental backup: 
+When the [VSS_BACKUP_TYPE](http://msdn.microsoft.com/library/windows/desktop/aa384679%28v=vs.85%29.aspx) enumeration in VSS is set to **VSS_BT_INCREMENTAL**, the following components are included in an incremental backup: 
   
 - A database with the logical path Exchange Server\Microsoft Information Store\\<Server Name\>\\<Database GUID\> 
     
@@ -117,7 +117,7 @@ The disadvantage to using differential backups is that the differential backups 
   
 A full backup taken from the copy location can be followed by a differential backup from the active location and vice versa. One restriction to keep in mind is that the last backup state is maintained in the active database's header, and the changes to the database header are written to transaction logs, replicated, and replayed at the copy database location just like all other transaction logs in DAG deployments. Because backups and restores interoperate, backup applications provide the functionality to run all backups exclusively on a specific DAG node, regardless of whether the node is active or passive, as well as to run backups exclusively from the passive node or exclusively from the active node.
   
-When the [VSS_BACKUP_TYPE](http://msdn.microsoft.com/en-us/library/windows/desktop/aa384679%28v=vs.85%29.aspx) enumeration in VSS is set to **VSS_BT_DIFFERENTIAL**, the following components are included in a differential backup: 
+When the [VSS_BACKUP_TYPE](http://msdn.microsoft.com/library/windows/desktop/aa384679%28v=vs.85%29.aspx) enumeration in VSS is set to **VSS_BT_DIFFERENTIAL**, the following components are included in a differential backup: 
   
 - A database with the logical path Exchange Server\Microsoft Information Store\\<Server Name\>\\<Database GUID\> 
     

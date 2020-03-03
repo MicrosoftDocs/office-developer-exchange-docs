@@ -30,12 +30,12 @@ Use the following table to identify the technology and related API content that 
 |A mailbox client that is not based on the .NET Framework or Java |[Explore the EWS Managed API, EWS, and web services in Exchange](exchange-web-services/explore-the-ews-managed-api-ews-and-web-services-in-exchange.md) |
 |A mailbox client that uses the .NET Framework to access EWS |[Get started with EWS Managed API client applications](exchange-web-services/get-started-with-ews-managed-api-client-applications.md) |
 |A mailbox client that uses Java to access EWS |[EWS Java API on GitHub](https://github.com/OfficeDev/ews-java-api) |
-|An application that customizes the Outlook user interface or relies on Outlook business logic  |[Outlook VBA reference](https://msdn.microsoft.com/en-us/VBA/VBA-Outlook) |
+|An application that customizes the Outlook user interface or relies on Outlook business logic  |[Outlook VBA reference](https://msdn.microsoft.com/VBA/VBA-Outlook) |
 |An application that targets Exchange Online or Exchange 2013 that you need to migrate from a previous version of Exchange  |[Migrating to Exchange technologies](migrating-to-exchange-online-and-exchange-2013-technologies.md) |
 |A custom management tool that uses Windows PowerShell from managed code   |[Exchange Management Shell](management/exchange-management-shell.md) |
 |A solution to back up or restore Exchange data  |[Backup and restore for Exchange](backup-restore/backup-and-restore-for-exchange-2013.md) |
 |An extension to support accessing messages in the transport pipeline   |[Transport agents in Exchange](transport-agents/transport-agents-in-exchange-2013.md)  |
-|A mailbox client for a mobile device   |[Exchange ActiveSync](https://technet.microsoft.com/en-us/library/aa998357.aspx) |
+|A mailbox client for a mobile device   |[Exchange ActiveSync](https://technet.microsoft.com/library/aa998357.aspx) |
 
 ## Exchange interactions with custom applications
 
@@ -51,8 +51,8 @@ Exchange interacts with custom applications in a variety of ways, depending on t
 
 ## See also
 
-- [Server API reference for Exchange](https://msdn.microsoft.com/en-us/library/dn186243(v=exchg.150).aspx)
-- [Read about Exchange on Office Blogs](https://www.microsoft.com/en-us/microsoft-365/blog/)
+- [Server API reference for Exchange](https://msdn.microsoft.com/library/dn186243(v=exchg.150).aspx)
+- [Read about Exchange on Office Blogs](https://www.microsoft.com/microsoft-365/blog/)
 - [Get 101 code samples for Exchange 2013](https://code.msdn.microsoft.com/office/Exchange-2013-101-Code-3c38582c)
 - [Get the EWS Managed API (GitHub)](https://github.com/OfficeDev/ews-managed-api/blob/master/README.md)
-- [Get support for Exchange Server](https://support.microsoft.com/en-us/getsupport?oaspworkflow=start_1.0.0.0&wf=0&wfname=productselection&gprid=730&x=13&y=7&st=1&wfxredirect=1&sd=gn&ccsid=635890984021344661&forceorigin=esmc)
+- [Get support for Exchange Server](https://support.microsoft.com/getsupport?oaspworkflow=start_1.0.0.0&wf=0&wfname=productselection&gprid=730&x=13&y=7&st=1&wfxredirect=1&sd=gn&ccsid=635890984021344661&forceorigin=esmc)
