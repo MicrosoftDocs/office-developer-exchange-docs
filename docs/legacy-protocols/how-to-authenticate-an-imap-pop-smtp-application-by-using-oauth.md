@@ -43,7 +43,17 @@ You can use one of our [MSAL client libraries](/azure/active-directory/develop/m
 
 Alternatively, you can follow the steps listed in [OAuth2 On-Behalf-Of flow](/azure/active-directory/develop/v2-oauth2-on-behalf-of-flow) to call the underlying identity platform REST APIs and retrieve an access token.
 
+Make sure to specify the full scopes, including Outlook resource URL's, when authorizing your application and requesting an access token. 
+
+| Protocol  | Permission scope string |
+|-----------|-------------------------|
+| IMAP      | `https://outlook.office365.com/IMAP.AccessAsUser.All` |
+| POP       | `https://outlook.office365.com/POP.AccessAsUser.All`  |
+| SMTP AUTH | `https://outlook.office365.com/SMTP.Send`             |
+
 ## Authenticate connection requests
+
+You can initiate a connection to Office 365 mail servers using the [IMAP and POP email settings for Office 365](https://support.office.com/en-us/article/pop-and-imap-email-settings-for-outlook-8361e398-8af4-4e97-b147-6c6c4ac95353) 
 
 ### SASL XOAUTH2
 
@@ -84,7 +94,7 @@ C: C01 CAPABILITY
 S: * CAPABILITY … AUTH=XOAUTH2
 S: C01 OK Completed
 C: A01 AUTHENTICATE XOAUTH2 dXNlcj1zb21ldXNlckBleGFtcGxlLmNvbQFhdXRoPUJlYXJlciB5YTI5LnZGOWRmdDRxbVRjMk52YjNSbGNrQmhkSFJoZG1semRHRXVZMjl0Q2cBAQ==
-S: A01 OK Success
+S: A01 OK AUTHENTICATE completed.
 ```
 
 Sample client-server message exchange that results in an authentication failure:
@@ -94,7 +104,7 @@ Sample client-server message exchange that results in an authentication failure:
 S: * CAPABILITY … AUTH=XOAUTH2
 S: C01 OK Completed
 C: A01 AUTHENTICATE XOAUTH2 dXNlcj1zb21ldXNlckBleGFtcGxlLmNvbQFhdXRoPUJlYXJlciB5YTI5LnZGOWRmdDRxbVRjMk52YjNSbGNrQmhkSFJoZG1semRHRXVZMjl0Q2cBAQ==
-S: A01 NO AUTHENTICATE failed
+S: A01 NO AUTHENTICATE failed.
 ```
 
 ### POP Protocol Exchange
@@ -129,5 +139,6 @@ S: + eyJzdGF0dXMiOiI0MDAiLCJzY2hlbWVzIjoiQmVhcmVyIiwic2NvcGUiOiJodHRwczovL21haWw
 ## See also
 
 - [Authentication and EWS in Exchange](../exchange-web-services/authentication-and-ews-in-exchange.md)
+- [IMAP, POP Connection settings](https://support.office.com/en-us/article/pop-and-imap-email-settings-for-outlook-8361e398-8af4-4e97-b147-6c6c4ac95353)
 - [Internet Message Access Protocol](https://tools.ietf.org/html/rfc3501)
 - [Post Office Protocol](https://tools.ietf.org/html/rfc1081)
