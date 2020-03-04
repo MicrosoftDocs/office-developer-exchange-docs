@@ -41,7 +41,10 @@ Make sure to add one or more of the following permission scopes that correspond 
 
 You can use one of our [MSAL client libraries](https://docs.microsoft.com/en-us/azure/active-directory/develop/msal-overview) to fetch an access token from your client application.
 
-Alternatively, you can follow the steps listed in [OAuth2 authorization code flow](https://docs.microsoft.com/en-us/azure/active-directory/develop/v2-oauth2-auth-code-flow) to call the underlying identity platform REST APIs and retrieve an access token.
+Alternatively, you can select an appropriate flow from the following list and follow the corresponding steps to call the underlying identity platform REST APIs and retrieve an access token. 
+1. [OAuth2 authorization code flow](https://docs.microsoft.com/en-us/azure/active-directory/develop/v2-oauth2-auth-code-flow)
+1. [OAuth2 implicit grant flow](https://docs.microsoft.com/en-us/azure/active-directory/develop/v2-oauth2-implicit-grant-flow)
+1. [OAuth2 Device authorization grant flow](https://docs.microsoft.com/en-us/azure/active-directory/develop/v2-oauth2-device-code)
 
 Make sure to specify the full scopes, including Outlook resource URL's, when authorizing your application and requesting an access token. 
 
