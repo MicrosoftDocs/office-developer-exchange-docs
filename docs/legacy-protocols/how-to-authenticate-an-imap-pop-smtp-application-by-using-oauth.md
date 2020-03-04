@@ -10,7 +10,7 @@ ms.audience: Developer
 
 Learn how to use OAuth authentication to connect with IMAP, POP or SMTP protocols in Exchange Online in Office 365 and Outlook.com.
 
-If you're not familiar with OAuth 2.0, start by reading the [Microsoft identity platform (v2.0) overview](/azure/active-directory/develop/v2-overview). That document introduces you to different components of Microsoft identity platform, including SDKs.
+If you're not familiar with OAuth 2.0, start by reading the [Microsoft identity platform (v2.0) overview](https://docs.microsoft.com/en-us/azure/active-directory/develop/v2-overview). That document introduces you to different components of Microsoft identity platform, including SDKs.
 
 You can use the OAuth authentication service provided by Azure Active Directory to enable your application to connect with IMAP, POP or SMTP protocols to access Exchange Online in Office 365, Outlook.com. To use OAuth with your application you will, at the minimum, need to:
 
@@ -23,11 +23,11 @@ You can use the OAuth authentication service provided by Azure Active Directory 
 
 To use OAuth, an application must be registered with Azure Active Directory.
 
-Follow the instructions listed in [Register an application with the Microsoft identity platform](/azure/active-directory/develop/quickstart-register-app) to create a new application.
+Follow the instructions listed in [Register an application with the Microsoft identity platform](https://docs.microsoft.com/en-us/azure/active-directory/develop/quickstart-register-app) to create a new application.
 
 ## Configure your application
 
-Follow the instructions listed in [Configure a client application to access web APIs](/azure/active-directory/develop/quickstart-configure-app-access-web-apis)
+Follow the instructions listed in [Configure a client application to access web APIs](https://docs.microsoft.com/en-us/azure/active-directory/develop/quickstart-configure-app-access-web-apis)
 
 Make sure to add one or more of the following permission scopes that correspond to the protocols you would like to integrate with. In the **Add a permission** wizard, select **Microsoft Graph** and then **Delegated permissions** to find the following permission scopes listed.
 
@@ -39,9 +39,9 @@ Make sure to add one or more of the following permission scopes that correspond 
 
 ## Get an access token
 
-You can use one of our [MSAL client libraries](/azure/active-directory/develop/msal-overview) to fetch an access token from your client application.
+You can use one of our [MSAL client libraries](https://docs.microsoft.com/en-us/azure/active-directory/develop/msal-overview) to fetch an access token from your client application.
 
-Alternatively, you can follow the steps listed in [OAuth2 On-Behalf-Of flow](/azure/active-directory/develop/v2-oauth2-on-behalf-of-flow) to call the underlying identity platform REST APIs and retrieve an access token.
+Alternatively, you can follow the steps listed in [OAuth2 authorization code flow](https://docs.microsoft.com/en-us/azure/active-directory/develop/v2-oauth2-auth-code-flow) to call the underlying identity platform REST APIs and retrieve an access token.
 
 Make sure to specify the full scopes, including Outlook resource URL's, when authorizing your application and requesting an access token. 
 
