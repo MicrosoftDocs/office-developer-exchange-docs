@@ -32,7 +32,7 @@ Exchange 2013 includes support for up to 100 databases. Each Exchange 2013 datab
    
 Exchange 2013 maintains a single set of transaction log files for each database. The transaction logs are important for backup and recovery operations. When you create a backup and restore application that uses the Volume Shadow Copy Service (VSS), you must ensure that you handle these logs correctly. For more information, see [Transaction logs and checkpoint files for backup and restore in Exchange 2013](transaction-logs-and-checkpoint-files-for-backup-and-restore-in-exchange.md). To back up a database and its log stream, you must back up the entire volume that contains the database and logs. Log truncation will occur only after a successful completion of a full backup of a volume or folders that contain an Exchange database.
   
-On each Exchange server, you can mount only one recovery database at a time. You can access the recovery database by using Exchange Management Shell cmdlets such as **New-MailboxRestoreRequest**. For more information about Exchange recovery databases, see [Recovery Databases](http://technet.microsoft.com/library/dd876954%28v=exchg.150%29.aspx) on TechNet. For more information about Exchange Management Shell cmdlets, see [Exchange 2013 Cmdlets](http://technet.microsoft.com/library/bb124413.aspx) on TechNet. 
+On each Exchange server, you can mount only one recovery database at a time. You can access the recovery database by using Exchange Management Shell cmdlets such as **New-MailboxRestoreRequest**. For more information about Exchange recovery databases, see [Recovery Databases](https://technet.microsoft.com/library/dd876954%28v=exchg.150%29.aspx) on TechNet. For more information about Exchange Management Shell cmdlets, see [Exchange 2013 Cmdlets](https://technet.microsoft.com/library/bb124413.aspx) on TechNet. 
   
 ## Circular logging
 <a name="bk_circularlogging"> </a>
@@ -45,7 +45,7 @@ If storage capacity is an issue, your administrator might enable circular loggin
     
 - You cannot perform incremental or differential backup operations. For more information about these types of backups, see [Types of backup operations for Exchange 2013](types-of-backup-operations-for-exchange-2013.md).
     
-If circular logging is enables, your administrator should disable it as soon as possible to ensure that your VSS backups don't fail. For more information, check out the blog post [Exchange Circular Logging and VSS Backups](http://blogs.technet.com/b/exchange/archive/2010/08/18/3410672.aspx). 
+If circular logging is enables, your administrator should disable it as soon as possible to ensure that your VSS backups don't fail. For more information, check out the blog post [Exchange Circular Logging and VSS Backups](https://blogs.technet.com/b/exchange/archive/2010/08/18/3410672.aspx). 
   
 ## Exchange database mobility
 <a name="bk_exchangedatabasemobility"> </a>

@@ -25,7 +25,7 @@ If you need to use Exchange Management Shell commands from within a hosting appl
 
 If you are familiar with creating Windows PowerShell host applications and want to see an example that shows how to call the Exchange Management Shell cmdlets from an application, or to see an example of the types of applications that you can create by using the Exchange Management Shell cmdlets, see [Get a list of mail users by using the Exchange Management Shell](how-to-get-a-list-of-mail-users-by-using-the-exchange-management-shell.md).
   
-The Exchange Management Shell cmdlets are extensions to Windows PowerShell, a task-based command-line shell and scripting language that is designed specifically for system administration. Windows PowerShell is built on the .NET Framework, and provides an object-oriented API for cmdlet, provider, and host application developers. To learn about Windows PowerShell programming, see the [Windows PowerShell SDK](http://msdn.microsoft.com/library/dd835506%28VS.85%29.aspx).
+The Exchange Management Shell cmdlets are extensions to Windows PowerShell, a task-based command-line shell and scripting language that is designed specifically for system administration. Windows PowerShell is built on the .NET Framework, and provides an object-oriented API for cmdlet, provider, and host application developers. To learn about Windows PowerShell programming, see the [Windows PowerShell SDK](https://msdn.microsoft.com/library/dd835506%28VS.85%29.aspx).
   
 The Exchange Management Shell cmdlets accept and return objects. For a list of Exchange management shell cmdlets and their input and output types, see [Exchange Management Shell cmdlet input and output types](exchange-management-shell-cmdlet-input-and-output-types.md).
   
@@ -41,6 +41,6 @@ The Exchange Management Shell cmdlets accept and return objects. For a list of E
 
 - [Exchange Management Shell namespaces](exchange-management-shell-namespaces.md)  
 - [Exchange Server PowerShell (Exchange Management Shell)](https://docs.microsoft.com/powershell/exchange/exchange-server/exchange-management-shell?view=exchange-ps)  
-- [Windows PowerShell](http://msdn.microsoft.com/library/dd835506%28v=vs.85%29.aspx)
+- [Windows PowerShell](https://msdn.microsoft.com/library/dd835506%28v=vs.85%29.aspx)
     
 

@@ -110,7 +110,7 @@ End Namespace
 ## Installing and enabling an agent
 <a name="bk_InstallEnable"> </a>
 
-After you compile your agent to a DLL, you must install and enable the agent on your development Exchange server. In the Exchange Management Shell, use the [Install-TransportAgent](http://technet.microsoft.com/library/aa997998.aspx) cmdlet to install your agent, and the [Enable-TransportAgent](http://technet.microsoft.com/library/bb124921.aspx) cmdlet to enable your agent. For information about how to use the Exchange Management Shell, see [Exchange Server PowerShell (Exchange Management Shell)](https://docs.microsoft.com/powershell/exchange/exchange-server/exchange-management-shell?view=exchange-ps).
+After you compile your agent to a DLL, you must install and enable the agent on your development Exchange server. In the Exchange Management Shell, use the [Install-TransportAgent](https://technet.microsoft.com/library/aa997998.aspx) cmdlet to install your agent, and the [Enable-TransportAgent](https://technet.microsoft.com/library/bb124921.aspx) cmdlet to enable your agent. For information about how to use the Exchange Management Shell, see [Exchange Server PowerShell (Exchange Management Shell)](https://docs.microsoft.com/powershell/exchange/exchange-server/exchange-management-shell?view=exchange-ps).
   
 > [!CAUTION]
 > Transport agents have full access to all email messages that they encounter. Exchange 2013 does not restrict the behavior of a transport agent. Transport agents that are unstable or that contain security flaws might affect the stability and security of Exchange 2013. Therefore, you should only install transport agents that you fully trust and that have been fully tested. 
@@ -129,7 +129,7 @@ To manage a transport agent in the Front End Transport service on a Client Acces
   
  `Get-TransportAgent -TransportService FrontEnd`
   
-For more information about installing, enabling, and managing your agent, see [Manage Transport Agents](http://technet.microsoft.com/library/bb125175%28v=exchg.150%29.aspx).
+For more information about installing, enabling, and managing your agent, see [Manage Transport Agents](https://technet.microsoft.com/library/bb125175%28v=exchg.150%29.aspx).
   
 ## In this section
 <a name="bk_inthissection"> </a>
