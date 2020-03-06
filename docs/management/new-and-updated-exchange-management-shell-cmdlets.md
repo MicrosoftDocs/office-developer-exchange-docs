@@ -729,6 +729,6 @@ The following cmdlets were removed from Exchange 2013:
 
 - [Exchange Management Shell cmdlet input and output types](exchange-management-shell-cmdlet-input-and-output-types.md)    
 - [Get a list of mail users by using the Exchange Management Shell](how-to-get-a-list-of-mail-users-by-using-the-exchange-management-shell.md)    
-- [Exchange 2013 cmdlets](http://technet.microsoft.com/en-us/library/bb124413%28v=exchg.150%29.aspx)
+- [Exchange 2013 cmdlets](https://technet.microsoft.com/library/bb124413%28v=exchg.150%29.aspx)
     
 
