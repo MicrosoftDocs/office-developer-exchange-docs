@@ -16,7 +16,7 @@ Find information about the components and architecture of backup and restore app
   
 **Applies to:** Exchange Server 2013 
   
-You can use the [Volume Shadow Copy Service (VSS)](http://msdn.microsoft.com/library/bb968832%28VS.85%29.aspx) in versions of Windows Server starting with Windows Server 2008 to create applications that back up and restore Exchange Server 2013 data. VSS provides an infrastructure that enables you to create and manage shadow copies across third-party storage management systems, business applications, and hardware. You can create solutions based on the VSS infrastructure that use shadow copies to back up and restore one or more Exchange 2013 databases. 
+You can use the [Volume Shadow Copy Service (VSS)](https://msdn.microsoft.com/library/bb968832%28VS.85%29.aspx) in versions of Windows Server starting with Windows Server 2008 to create applications that back up and restore Exchange Server 2013 data. VSS provides an infrastructure that enables you to create and manage shadow copies across third-party storage management systems, business applications, and hardware. You can create solutions based on the VSS infrastructure that use shadow copies to back up and restore one or more Exchange 2013 databases. 
   
 ## Backup and restore application prerequisites
 <a name="bk_systemrequirements"> </a>
@@ -96,7 +96,7 @@ Information required to successfully complete backup and restore operations amon
 
 - [Backup and restore for Exchange](backup-and-restore-for-exchange-2013.md) 
 - [CChkSGFiles class reference](cchksgfiles-class-reference.md) 
-- [Volume Shadow Copy Service](http://msdn.microsoft.com/library/bb968832%28VS.85%29.aspx) 
-- [Windows PowerShell](http://msdn.microsoft.com/library/dd835506%28v=vs.85%29.aspx)
+- [Volume Shadow Copy Service](https://msdn.microsoft.com/library/bb968832%28VS.85%29.aspx) 
+- [Windows PowerShell](https://msdn.microsoft.com/library/dd835506%28v=vs.85%29.aspx)
     
 

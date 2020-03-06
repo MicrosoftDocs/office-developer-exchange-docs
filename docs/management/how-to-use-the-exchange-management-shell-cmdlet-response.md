@@ -16,7 +16,7 @@ Learn how to use the response from an Exchange Management Shell cmdlet in your E
   
 **Applies to:** Exchange Online | Exchange Server 2013 | Office 365
   
-Each Exchange Management Shell cmdlet returns one or more [PSObject](http://msdn.microsoft.com/library/system.management.automation.psobject%28VS.85%29.aspx) instances that provide a consistent view of any object in the Exchange Management Shell environment. This article provides information about how to use the properties of a **PSObject** instance to return the property values of the underlying Exchange Server 2013 API object. 
+Each Exchange Management Shell cmdlet returns one or more [PSObject](https://msdn.microsoft.com/library/system.management.automation.psobject%28VS.85%29.aspx) instances that provide a consistent view of any object in the Exchange Management Shell environment. This article provides information about how to use the properties of a **PSObject** instance to return the property values of the underlying Exchange Server 2013 API object. 
   
 ## Prerequisites for using cmdlet responses
 <a name="prerequisites_bk"> </a>
@@ -38,7 +38,7 @@ The property bag in the response object contains a key/value pair for each publi
 ## Use the cmdlet response
 <a name="usingPSObject_bk"> </a>
 
-The [PSObject](http://msdn.microsoft.com/library/system.management.automation.psobject%28VS.85%29.aspx) class exposes the following three public properties that contain the values of the underlying Exchange 2013 API object: [Properties](http://msdn.microsoft.com/library/system.management.automation.psobject.properties%28VS.85%29.aspx), [Methods](http://msdn.microsoft.com/library/system.management.automation.psobject.methods%28VS.85%29.aspx), and [Members](http://msdn.microsoft.com/library/system.management.automation.psobject.members%28VS.85%29.aspx). Each property that is exposed by the Exchange 2013 API object has a corresponding key/value pair in the **Properties** and **Members** properties. Your application can index the **Properties** collection by the name of a property to retrieve the value of the property. 
+The [PSObject](https://msdn.microsoft.com/library/system.management.automation.psobject%28VS.85%29.aspx) class exposes the following three public properties that contain the values of the underlying Exchange 2013 API object: [Properties](https://msdn.microsoft.com/library/system.management.automation.psobject.properties%28VS.85%29.aspx), [Methods](https://msdn.microsoft.com/library/system.management.automation.psobject.methods%28VS.85%29.aspx), and [Members](https://msdn.microsoft.com/library/system.management.automation.psobject.members%28VS.85%29.aspx). Each property that is exposed by the Exchange 2013 API object has a corresponding key/value pair in the **Properties** and **Members** properties. Your application can index the **Properties** collection by the name of a property to retrieve the value of the property. 
   
 You can use the **TypeNames** property of the **PSObject** instance to determine the type of the underlying Exchange object that is encapsulated by the **PSObject** instance. The **TypeNames** property is a collection of strings that contains the object hierarchy of the represented type. You can use these names to determine the object that is represented by the **PSObject** instance so that you can extract the appropriate property. 
   

@@ -64,7 +64,7 @@ This method requires the following parameters:
     
 -  **schemaUri** &ndash; A string that contains the URI of the schema document that defines the Exchange Management Shell schema. The schema URI is `http://schemas.microsoft.com/powershell/Microsoft.Exchange`. 
     
--  **credentials** &ndash; A [PSCredential](http://msdn.microsoft.com/library/system.management.automation.pscredential%28VS.85%29.aspx) object that contains the credentials of the user who is running the application. 
+-  **credentials** &ndash; A [PSCredential](https://msdn.microsoft.com/library/system.management.automation.pscredential%28VS.85%29.aspx) object that contains the credentials of the user who is running the application. 
     
 -  **count** &ndash; The number of Exchange mailbox users to return. 
     
@@ -170,7 +170,7 @@ This method requires the following parameters:
    
 - **schemaUri** &ndash; A string that contains the URI of the schema document that defines the Exchange Management Shell schema. The schema URI is http://schemas.microsoft.com/powershell/Microsoft.Exchange. 
     
-- **credentials** &ndash; A [PSCredential](http://msdn.microsoft.com/library/system.management.automation.pscredential%28VS.85%29.aspx) object that contains the credentials of the user who is running the application. 
+- **credentials** &ndash; A [PSCredential](https://msdn.microsoft.com/library/system.management.automation.pscredential%28VS.85%29.aspx) object that contains the credentials of the user who is running the application. 
     
 - **count** &ndash; The number of Exchange mailbox users to return. 
     
@@ -207,7 +207,7 @@ public Collection<PSObject> GetUsersUsingKerberos(
 
 ## Get a list of mailbox users from a remote runspace
 
-The following code example defines the **GetUserInformation** method, which returns a collection of [PSObject](http://msdn.microsoft.com/library/system.management.automation.pscredential%28VS.85%29.aspx) instances that represent Exchange mailbox users. This method is called by the **GetUsersUsingBasicAuth**, **GetUsersUsingCertificate**, and **GetUsersUsingKerberos** methods to return the list of users from the remote server. 
+The following code example defines the **GetUserInformation** method, which returns a collection of [PSObject](https://msdn.microsoft.com/library/system.management.automation.pscredential%28VS.85%29.aspx) instances that represent Exchange mailbox users. This method is called by the **GetUsersUsingBasicAuth**, **GetUsersUsingCertificate**, and **GetUsersUsingKerberos** methods to return the list of users from the remote server. 
   
 This method requires the following parameters:
   

@@ -27,7 +27,7 @@ The Exchange Management Shell provides a rich set of commands, based on the Wind
 |Available test and debug tools  <br/> |You can use one of many third-party applications to test and debug Exchange Management Shell scripts.  <br/> You can use Visual Studio and third-party tools to test and debug managed Exchange Management Shell applications.  <br/> |
 |Server platform requirements  <br/> |You can use the Exchange Management Shell on any Exchange server that has Windows PowerShell 2.0 installed.  <br/> |
 |Client platform requirements  <br/> |Exchange Management Shell client applications require Windows PowerShell 2.0.  <br/> |
-|Permissions  <br/> |Running an Exchange Management Shell application requires that the user have role-based access control rights to the affected data on the Exchange store.<br/>For more information about role-based access control, see [Understanding Role Based Access Control](http://technet.microsoft.com/library/dd298183.aspx).  <br/> |
+|Permissions  <br/> |Running an Exchange Management Shell application requires that the user have role-based access control rights to the affected data on the Exchange store.<br/>For more information about role-based access control, see [Understanding Role Based Access Control](https://technet.microsoft.com/library/dd298183.aspx).  <br/> |
    
 The articles in this section describe Exchange Management Shell features that are important for creating Exchange management tools. For information about planning, configuring, or maintaining Exchange, see the [Exchange](https://docs.microsoft.com/exchange/) site.
   
