@@ -139,9 +139,38 @@ l0Q2cBAQ==
 S: + eyJzdGF0dXMiOiI0MDAiLCJzY2hlbWVzIjoiQmVhcmVyIiwic2NvcGUiOiJodHRwczovL21haWwuZ29vZ2xlLmNvbS8ifQ==
 ```
 
+### SMTP Protocol Exchange
+
+To authenticate a SMTP server connection, the client will have to respond with an `AUTH` command in the following format:
+
+```text
+AUTH XOAUTH2 <base64 string in XOAUTH2 format>
+```
+
+Sample client-server message exchange that results in an authentication success:
+
+```text
+[connection begins]
+auth xoauth2
+334
+dXNlcj1zb21ldXNlckBleGFtcGxlLmNvbQFhdXRoPUJlYXJlciB5YTI5LnZGOWRmdDRxbVRjMk52YjNSbGNrQmhkSFJoZG1semRHRXVZMjl0Q2cBAQ==
+235 2.7.0 Authentication successful
+[connection continues...]
+```
+
+Sample client-server message exchange that results in an authentication failure:
+
+```text
+[connection begins]
+auth xoauth2
+334
+dXNlcj1zb21ldXNlckBleGFtcGxlLmNvbQFhdXRoPUJlYXJlciB5YTI5LnZGOWRmdDRxbVRjMk52YjNSbGNrQmhkSFJoZG1semRHRXVZMjl0Q2cBAQ==
+535 5.7.3 Authentication unsuccessful [SN2PR00CA0018.namprd00.prod.outlook.com]
+```
 ## See also
 
 - [Authentication and EWS in Exchange](../exchange-web-services/authentication-and-ews-in-exchange.md)
 - [IMAP, POP Connection settings](https://support.office.com/en-us/article/pop-and-imap-email-settings-for-outlook-8361e398-8af4-4e97-b147-6c6c4ac95353)
 - [Internet Message Access Protocol](https://tools.ietf.org/html/rfc3501)
 - [Post Office Protocol](https://tools.ietf.org/html/rfc1081)
+- [SMTP Service extension for Authentication](https://tools.ietf.org/html/rfc4954)
