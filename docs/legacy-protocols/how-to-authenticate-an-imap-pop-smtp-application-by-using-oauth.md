@@ -122,10 +122,12 @@ Sample client-server message exchange that results in an authentication success:
 
 ```text
 [connection begins]
-C: AUTH XOAUTH2 dXNlcj1zb21ldXNlckBleGFtcGxlLmNvbQFhdXRoPUJlYX
+C: AUTH XOAUTH2 
+S: +
+C: dXNlcj1zb21ldXNlckBleGFtcGxlLmNvbQFhdXRoPUJlYX
 JlciB5YTI5LnZGOWRmdDRxbVRjMk52YjNSbGNrQmhkSFJoZG1semRHRXVZMjl0
 Q2cBAQ==
-S: +OK Welcome.
+S: +OK User successfully authenticated.
 [connection continues...]
 ```
 
@@ -133,10 +135,12 @@ Sample client-server message exchange that results in an authentication failure:
 
 ```text
 [connection begins]
-C: AUTH XOAUTH2 dXNlcj1zb21ldXNlckBleGFtcGxlLmNvbQFhdXRoPUJlY
+C: AUTH XOAUTH2 
+S: +
+C: dXNlcj1zb21ldXNlckBleGFtcGxlLmNvbQFhdXRoPUJlY
 XJlciB5YTI5LnZGOWRmdDRxbVRjMk52YjNSbGNrQmhkSFJoZG1semRHRXVZMj
-l0Q2cBAQ==
-S: + eyJzdGF0dXMiOiI0MDAiLCJzY2hlbWVzIjoiQmVhcmVyIiwic2NvcGUiOiJodHRwczovL21haWwuZ29vZ2xlLmNvbS8ifQ==
+l0Q2cBAQ=
+S: -ERR Authentication failure: unknown user name or bad password.
 ```
 
 ### SMTP Protocol Exchange
