@@ -46,6 +46,8 @@ Alternatively, you can select an appropriate flow from the following list and fo
 1. [OAuth2 implicit grant flow](https://docs.microsoft.com/en-us/azure/active-directory/develop/v2-oauth2-implicit-grant-flow)
 1. [OAuth2 Device authorization grant flow](https://docs.microsoft.com/en-us/azure/active-directory/develop/v2-oauth2-device-code)
 
+OAuth access to IMAP, POP, SMTP AUTH protocols via OAuth2 client credentials grant flow is not supported. If your application needs persistent access to all mailboxes in a Microsoft 365 organization, we recommend that you use the Microsoft Graph API’s which allow access without a user, enable granular permissions and let administrators scope such access to a specific set of mailboxes. 
+
 Make sure to specify the full scopes, including Outlook resource URL's, when authorizing your application and requesting an access token. 
 
 | Protocol  | Permission scope string |
