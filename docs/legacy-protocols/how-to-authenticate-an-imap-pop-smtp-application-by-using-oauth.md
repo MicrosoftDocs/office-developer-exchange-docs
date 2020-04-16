@@ -54,6 +54,8 @@ Make sure to specify the full scopes, including Outlook resource URL's, when aut
 | POP       | `https://outlook.office365.com/POP.AccessAsUser.All`  |
 | SMTP AUTH | `https://outlook.office365.com/SMTP.Send`             |
 
+In addition, you can request for [offline_access](https://docs.microsoft.com/en-us/azure/active-directory/develop/v2-permissions-and-consent#offline_access) scope. When a user approves the offline_access scope, your app can receive refresh tokens from the Microsoft identity platform token endpoint. Refresh tokens are long-lived. Your app can get new access tokens as older ones expire. 
+
 ## Authenticate connection requests
 
 You can initiate a connection to Office 365 mail servers using the [IMAP and POP email settings for Office 365](https://support.office.com/en-us/article/pop-and-imap-email-settings-for-outlook-8361e398-8af4-4e97-b147-6c6c4ac95353) 
