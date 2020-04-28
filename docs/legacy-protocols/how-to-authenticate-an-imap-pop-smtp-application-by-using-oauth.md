@@ -12,7 +12,7 @@ Learn how to use OAuth authentication to connect with IMAP, POP or SMTP protocol
 
 > OAuth2 support for IMAP, POP, SMTP protocols as described below is not supported for Outlook.com users. 
 
-If you're not familiar with OAuth 2.0, start by reading the [Microsoft identity platform (v2.0) overview](https://docs.microsoft.com/en-us/azure/active-directory/develop/v2-overview). That document introduces you to different components of Microsoft identity platform, including SDKs.
+If you're not familiar with OAuth 2.0, start by reading the [Microsoft identity platform (v2.0) overview](https://docs.microsoft.com/azure/active-directory/develop/v2-overview). That document introduces you to different components of Microsoft identity platform, including SDKs.
 
 You can use the OAuth authentication service provided by Azure Active Directory to enable your application to connect with IMAP, POP or SMTP protocols to access Exchange Online in Office 365. To use OAuth with your application you will, at the minimum, need to:
 
@@ -25,11 +25,11 @@ You can use the OAuth authentication service provided by Azure Active Directory 
 
 To use OAuth, an application must be registered with Azure Active Directory.
 
-Follow the instructions listed in [Register an application with the Microsoft identity platform](https://docs.microsoft.com/en-us/azure/active-directory/develop/quickstart-register-app) to create a new application.
+Follow the instructions listed in [Register an application with the Microsoft identity platform](https://docs.microsoft.com/azure/active-directory/develop/quickstart-register-app) to create a new application.
 
 ## Configure your application
 
-Follow the instructions listed in [Configure a client application to access web APIs](https://docs.microsoft.com/en-us/azure/active-directory/develop/quickstart-configure-app-access-web-apis)
+Follow the instructions listed in [Configure a client application to access web APIs](https://docs.microsoft.com/azure/active-directory/develop/quickstart-configure-app-access-web-apis)
 
 Make sure to add one or more of the following permission scopes that correspond to the protocols you would like to integrate with. In the **Add a permission** wizard, select **Microsoft Graph** and then **Delegated permissions** to find the following permission scopes listed.
 
@@ -41,11 +41,11 @@ Make sure to add one or more of the following permission scopes that correspond 
 
 ## Get an access token
 
-You can use one of our [MSAL client libraries](https://docs.microsoft.com/en-us/azure/active-directory/develop/msal-overview) to fetch an access token from your client application.
+You can use one of our [MSAL client libraries](https://docs.microsoft.com/azure/active-directory/develop/msal-overview) to fetch an access token from your client application.
 
 Alternatively, you can select an appropriate flow from the following list and follow the corresponding steps to call the underlying identity platform REST APIs and retrieve an access token. 
-1. [OAuth2 authorization code flow](https://docs.microsoft.com/en-us/azure/active-directory/develop/v2-oauth2-auth-code-flow)
-1. [OAuth2 Device authorization grant flow](https://docs.microsoft.com/en-us/azure/active-directory/develop/v2-oauth2-device-code)
+1. [OAuth2 authorization code flow](https://docs.microsoft.com/azure/active-directory/develop/v2-oauth2-auth-code-flow)
+1. [OAuth2 Device authorization grant flow](https://docs.microsoft.com/azure/active-directory/develop/v2-oauth2-device-code)
 
 OAuth access to IMAP, POP, SMTP AUTH protocols via OAuth2 client credentials grant flow is not supported. If your application needs persistent access to all mailboxes in a Microsoft 365 organization, we recommend that you use the Microsoft Graph API’s which allow access without a user, enable granular permissions and let administrators scope such access to a specific set of mailboxes. 
 
@@ -57,11 +57,11 @@ Make sure to specify the full scopes, including Outlook resource URL's, when aut
 | POP       | `https://outlook.office365.com/POP.AccessAsUser.All`  |
 | SMTP AUTH | `https://outlook.office365.com/SMTP.Send`             |
 
-In addition, you can request for [offline_access](https://docs.microsoft.com/en-us/azure/active-directory/develop/v2-permissions-and-consent#offline_access) scope. When a user approves the offline_access scope, your app can receive refresh tokens from the Microsoft identity platform token endpoint. Refresh tokens are long-lived. Your app can get new access tokens as older ones expire. 
+In addition, you can request for [offline_access](https://docs.microsoft.com/azure/active-directory/develop/v2-permissions-and-consent#offline_access) scope. When a user approves the offline_access scope, your app can receive refresh tokens from the Microsoft identity platform token endpoint. Refresh tokens are long-lived. Your app can get new access tokens as older ones expire. 
 
 ## Authenticate connection requests
 
-You can initiate a connection to Office 365 mail servers using the [IMAP and POP email settings for Office 365](https://support.office.com/en-us/article/pop-and-imap-email-settings-for-outlook-8361e398-8af4-4e97-b147-6c6c4ac95353) 
+You can initiate a connection to Office 365 mail servers using the [IMAP and POP email settings for Office 365](https://support.office.com/article/pop-and-imap-email-settings-for-outlook-8361e398-8af4-4e97-b147-6c6c4ac95353) 
 
 ### SASL XOAUTH2
 
@@ -155,7 +155,7 @@ S: 535 5.7.3 Authentication unsuccessful [SN2PR00CA0018.namprd00.prod.outlook.co
 ## See also
 
 - [Authentication and EWS in Exchange](../exchange-web-services/authentication-and-ews-in-exchange.md)
-- [IMAP, POP Connection settings](https://support.office.com/en-us/article/pop-and-imap-email-settings-for-outlook-8361e398-8af4-4e97-b147-6c6c4ac95353)
+- [IMAP, POP Connection settings](https://support.office.com/article/pop-and-imap-email-settings-for-outlook-8361e398-8af4-4e97-b147-6c6c4ac95353)
 - [Internet Message Access Protocol](https://tools.ietf.org/html/rfc3501)
 - [Post Office Protocol](https://tools.ietf.org/html/rfc1081)
 - [SMTP Service extension for Authentication](https://tools.ietf.org/html/rfc4954)
