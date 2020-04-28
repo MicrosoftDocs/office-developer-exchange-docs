@@ -8,7 +8,9 @@ ms.audience: Developer
 
 # Authenticate an IMAP, POP or SMTP connection using OAuth
 
-Learn how to use OAuth authentication to connect with IMAP, POP or SMTP protocols in Exchange Online in Office 365 and Outlook.com.
+Learn how to use OAuth authentication to connect with IMAP, POP or SMTP protocols and access email data for Office 365 users.
+
+> OAuth2 support for IMAP, POP, SMTP protocols as described below is not supported for Outlook.com users. 
 
 If you're not familiar with OAuth 2.0, start by reading the [Microsoft identity platform (v2.0) overview](https://docs.microsoft.com/en-us/azure/active-directory/develop/v2-overview). That document introduces you to different components of Microsoft identity platform, including SDKs.
 
@@ -43,7 +45,6 @@ You can use one of our [MSAL client libraries](https://docs.microsoft.com/en-us/
 
 Alternatively, you can select an appropriate flow from the following list and follow the corresponding steps to call the underlying identity platform REST APIs and retrieve an access token. 
 1. [OAuth2 authorization code flow](https://docs.microsoft.com/en-us/azure/active-directory/develop/v2-oauth2-auth-code-flow)
-1. [OAuth2 implicit grant flow](https://docs.microsoft.com/en-us/azure/active-directory/develop/v2-oauth2-implicit-grant-flow)
 1. [OAuth2 Device authorization grant flow](https://docs.microsoft.com/en-us/azure/active-directory/develop/v2-oauth2-device-code)
 
 OAuth access to IMAP, POP, SMTP AUTH protocols via OAuth2 client credentials grant flow is not supported. If your application needs persistent access to all mailboxes in a Microsoft 365 organization, we recommend that you use the Microsoft Graph API’s which allow access without a user, enable granular permissions and let administrators scope such access to a specific set of mailboxes. 
@@ -116,36 +117,8 @@ S: A01 NO AUTHENTICATE failed.
 
 ### POP Protocol Exchange
 
-To authenticate a POP server connection, the client will have to respond with an `AUTH` command in the following format:
+> Rollout of POP OAuth2 support is in progress. This section will be updated with corresponding instructions once the feature rollout is complete. 
 
-```text
-AUTH XOAUTH2 <base64 string in XOAUTH2 format>
-```
-
-Sample client-server message exchange that results in an authentication success:
-
-```text
-[connection begins]
-C: AUTH XOAUTH2 
-S: +
-C: dXNlcj1zb21ldXNlckBleGFtcGxlLmNvbQFhdXRoPUJlYX
-JlciB5YTI5LnZGOWRmdDRxbVRjMk52YjNSbGNrQmhkSFJoZG1semRHRXVZMjl0
-Q2cBAQ==
-S: +OK User successfully authenticated.
-[connection continues...]
-```
-
-Sample client-server message exchange that results in an authentication failure:
-
-```text
-[connection begins]
-C: AUTH XOAUTH2 
-S: +
-C: dXNlcj1zb21ldXNlckBleGFtcGxlLmNvbQFhdXRoPUJlY
-XJlciB5YTI5LnZGOWRmdDRxbVRjMk52YjNSbGNrQmhkSFJoZG1semRHRXVZMj
-l0Q2cBAQ=
-S: -ERR Authentication failure: unknown user name or bad password.
-```
 
 ### SMTP Protocol Exchange
 
@@ -159,10 +132,12 @@ Sample client-server message exchange that results in an authentication success:
 
 ```text
 [connection begins]
-auth xoauth2
-334
-dXNlcj1zb21ldXNlckBleGFtcGxlLmNvbQFhdXRoPUJlYXJlciB5YTI5LnZGOWRmdDRxbVRjMk52YjNSbGNrQmhkSFJoZG1semRHRXVZMjl0Q2cBAQ==
-235 2.7.0 Authentication successful
+C: auth xoauth2
+S: 334
+C: dXNlcj1zb21ldXNlckBleGFtcGxlLmNvbQFhdXRoPUJlY
+XJlciB5YTI5LnZGOWRmdDRxbVRjMk52YjNSbGNrQmhkSFJoZG1semRHRXVZMj
+l0Q2cBAQ==
+S: 235 2.7.0 Authentication successful
 [connection continues...]
 ```
 
@@ -170,10 +145,12 @@ Sample client-server message exchange that results in an authentication failure:
 
 ```text
 [connection begins]
-auth xoauth2
-334
-dXNlcj1zb21ldXNlckBleGFtcGxlLmNvbQFhdXRoPUJlYXJlciB5YTI5LnZGOWRmdDRxbVRjMk52YjNSbGNrQmhkSFJoZG1semRHRXVZMjl0Q2cBAQ==
-535 5.7.3 Authentication unsuccessful [SN2PR00CA0018.namprd00.prod.outlook.com]
+C: auth xoauth2
+S: 334
+C: dXNlcj1zb21ldXNlckBleGFtcGxlLmNvbQFhdXRoPUJlY
+XJlciB5YTI5LnZGOWRmdDRxbVRjMk52YjNSbGNrQmhkSFJoZG1semRHRXVZMj
+l0Q2cBAQ==
+S: 535 5.7.3 Authentication unsuccessful [SN2PR00CA0018.namprd00.prod.outlook.com]
 ```
 ## See also
 
