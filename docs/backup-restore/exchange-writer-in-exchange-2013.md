@@ -1,7 +1,5 @@
 ---
 title: "Exchange writer in Exchange 2013"
- 
- 
 manager: sethgros
 ms.date: 09/17/2015
 ms.audience: Developer
