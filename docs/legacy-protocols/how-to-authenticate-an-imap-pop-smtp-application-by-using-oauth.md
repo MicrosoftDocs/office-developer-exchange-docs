@@ -14,7 +14,7 @@ Learn how to use OAuth authentication to connect with IMAP, POP or SMTP protocol
 
 If you're not familiar with OAuth 2.0, start by reading the [Microsoft identity platform (v2.0) overview](https://docs.microsoft.com/en-us/azure/active-directory/develop/v2-overview). That document introduces you to different components of Microsoft identity platform, including SDKs.
 
-You can use the OAuth authentication service provided by Azure Active Directory to enable your application to connect with IMAP, POP or SMTP protocols to access Exchange Online in Office 365, Outlook.com. To use OAuth with your application you will, at the minimum, need to:
+You can use the OAuth authentication service provided by Azure Active Directory to enable your application to connect with IMAP, POP or SMTP protocols to access Exchange Online in Office 365. To use OAuth with your application you will, at the minimum, need to:
 
 1. [Register your application](#register-your-application) with Azure Active Directory.
 1. [Configure your application](#configure-your-application) in Azure Active Directory.
