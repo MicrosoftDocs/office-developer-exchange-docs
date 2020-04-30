@@ -1,9 +1,7 @@
 ---
 title: "RecurringMasterItemId"
- 
- 
 manager: sethgros
-ms.date: 9/17/2015
+ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
@@ -29,24 +27,24 @@ The **RecurringMasterItemId** element identifies a recurrence master item by ide
 
 The following sections describe attributes, child elements, and parent elements.
   
-#### Attributes
+### Attributes
 
 |**Attribute**|**Description**|
 |:-----|:-----|
 |**OccurrenceId** <br/> |Identifies a single occurrence of a recurring master item. This attribute is required.  <br/> |
 |**ChangeKey** <br/> |Identifies a specific version of a single occurrence of a recurring master item. Additionally, the recurring master item is also identified because it and the single occurrence will contain the same change key. This attribute is optional.  <br/> |
    
-#### Child elements
+### Child elements
 
 None.
   
-#### Parent elements
+### Parent elements
 
 |**Element**|**Description**|
 |:-----|:-----|
 |[GlobalItemIds](globalitemids.md) <br/> |Contains the collection of item identifiers for all conversation items in a mailbox.  <br/> |
-|[ItemChange](itemchange.md) <br/> |Contains an item identifier and the updates to apply to the item.  <br/> The following is the XPath expression to this element:  <br/>  `/UpdateItem/ItemChanges/ItemChange[i]` <br/> |
-|[ItemIds](itemids.md) <br/> | Contains the unique identities of items, occurrence items, and recurring master items that are used to delete, send, get, move, or copy items in the Exchange store.  <br/>  The following are the XPath expressions to this element:  <br/>  `/DeleteItem/ItemIds` <br/>  `/SendItem/ItemIds` <br/>  `/GetItem/ItemIds` <br/>  `/MoveItem/ItemIds` <br/>  `/CopyItem//ItemIds` <br/> |
+|[ItemChange](itemchange.md) <br/> |Contains an item identifier and the updates to apply to the item. <br/> <br/> The following is the XPath expression to this element: <br/> <br/>  `/UpdateItem/ItemChanges/ItemChange[i]` <br/> |
+|[ItemIds](itemids.md) <br/> | Contains the unique identities of items, occurrence items, and recurring master items that are used to delete, send, get, move, or copy items in the Exchange store. <br/> <br/>  The following are the XPath expressions to this element:  <br/><br/>  `/DeleteItem/ItemIds` <br/>  `/SendItem/ItemIds` <br/>  `/GetItem/ItemIds` <br/>  `/MoveItem/ItemIds` <br/>  `/CopyItem//ItemIds` <br/> |
    
 ## Text value
 
@@ -68,16 +66,13 @@ The following example identifies the recurring master item by identifying one of
 
 |||
 |:-----|:-----|
-|Namespace  <br/> |http://schemas.microsoft.com/exchange/services/2006/types  <br/> |
+|Namespace  <br/> |https://schemas.microsoft.com/exchange/services/2006/types  <br/> |
 |Schema Name  <br/> |Types schema  <br/> |
 |Validation File  <br/> |Types.xsd  <br/> |
 |Can be Empty  <br/> |False  <br/> |
    
 ## See also
 
-#### Reference
-
-[OccurrenceItemId](occurrenceitemid.md)
-  
-[FindConversation operation](findconversation-operation.md)
+- [OccurrenceItemId](occurrenceitemid.md)
+- [FindConversation operation](findconversation-operation.md)
 

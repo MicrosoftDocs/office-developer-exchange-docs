@@ -1,7 +1,7 @@
 ---
 title: "CallState (UM web service)"
 manager: sethgros
-ms.date: 9/17/2015
+ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
 localization_priority: Normal
@@ -23,7 +23,7 @@ The **CallState** element contains a value that indicates the status of a call.
   
 [CallState (UM web service)](callstate-um-web-service.md)
   
-```
+```xml
 <CallState/>
 ```
 
@@ -32,15 +32,15 @@ The **CallState** element contains a value that indicates the status of a call.
 
 The following sections describe attributes, child elements, and parent elements.
   
-#### Attributes
+### Attributes
 
 None.
   
-#### Child elements
+### Child elements
 
 None.
   
-#### Parent elements
+### Parent elements
 
 |**Element**|**Description**|
 |:-----|:-----|
@@ -70,14 +70,14 @@ A text value is required. The following are the possible values:
 
 |||
 |:-----|:-----|
-|Namespace  <br/> |http://schemas.microsoft.com/exchange/services/2006/message  <br/> |
+|Namespace  <br/> |https://schemas.microsoft.com/exchange/services/2006/message  <br/> |
 |Schema Name  <br/> |Messages  <br/> |
 |Validation File  <br/> |Messages.xsd  <br/> |
 |Can be Empty  <br/> |False  <br/> |
    
 ## See also
 
-#### Reference
+
 
 [GetCallInfo operation (UM web service)](getcallinfo-operation-um-web-service.md)
   

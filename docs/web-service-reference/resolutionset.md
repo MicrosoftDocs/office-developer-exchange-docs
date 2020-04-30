@@ -3,7 +3,7 @@ title: "ResolutionSet"
  
  
 manager: sethgros
-ms.date: 9/17/2015
+ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
@@ -28,7 +28,7 @@ The **ResolutionSet** element contains an array of resolutions for an ambiguous 
   
 [ResolutionSet](resolutionset.md)
   
-```
+```xml
 <ResolutionSet IndexedPagingOffset="" NumeratorOffset="" AbsoluteDenominator="" IncludesLastItemInRange="" TotalItemsInView="">
    <Resolution/>
 </ResolutionSet>
@@ -39,7 +39,7 @@ The **ResolutionSet** element contains an array of resolutions for an ambiguous 
 
 The following sections describe attributes, child elements, and parent elements.
   
-#### Attributes
+### Attributes
 
 |**Attribute**|**Description**|
 |:-----|:-----|
@@ -49,13 +49,13 @@ The following sections describe attributes, child elements, and parent elements.
 |**IncludesLastItemInRange** <br/> |This attribute will be true if the current results contain the last item in the query, so that additional paging is not needed.  <br/> |
 |**TotalItemsInView** <br/> |Represents the total number of items in the view.  <br/> |
    
-#### Child elements
+### Child elements
 
 |**Element**|**Description**|
 |:-----|:-----|
 |[Resolution](resolution.md) <br/> |Contains a single resolved entity.  <br/> |
    
-#### Parent elements
+### Parent elements
 
 |**Element**|**Description**|
 |:-----|:-----|
@@ -71,21 +71,21 @@ The schema that describes this element is located in the EWS virtual directory o
 
 |||
 |:-----|:-----|
-|Namespace  <br/> |http://schemas.microsoft.com/exchange/services/2006/messages  <br/> |
+|Namespace  <br/> |https://schemas.microsoft.com/exchange/services/2006/messages  <br/> |
 |Schema Name  <br/> |Messages schema  <br/> |
 |Validation File  <br/> |Messages.xsd  <br/> |
 |Can be Empty  <br/> |False  <br/> |
    
 ## See also
 
-#### Reference
+
 
 [ResolveNames](resolvenames.md)
   
 [ResolveNamesResponse](resolvenamesresponse.md)
   
 [ResolveNames operation](resolvenames-operation.md)
-#### Concepts
 
-[EWS XML elements in Exchange](ews-xml-elements-in-exchange.md)
+
+- [EWS XML elements in Exchange](ews-xml-elements-in-exchange.md)
 

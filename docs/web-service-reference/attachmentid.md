@@ -1,9 +1,7 @@
 ---
 title: "AttachmentId"
- 
- 
 manager: sethgros
-ms.date: 9/17/2015
+ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
@@ -20,7 +18,7 @@ description: "The AttachmentId element identifies an item or file attachment. Th
 
 The **AttachmentId** element identifies an item or file attachment. This element is used in CreateAttachment responses. 
   
-```
+```xml
 <AttachmentId Id="" RootItemId="" RootItemChangeKey="" />
 ```
 
@@ -29,7 +27,7 @@ The **AttachmentId** element identifies an item or file attachment. This element
 
 The following sections describe attributes, child elements, and parent elements.
   
-#### Attributes
+### Attributes
 
 |**Attribute**|**Description**|
 |:-----|:-----|
@@ -37,11 +35,11 @@ The following sections describe attributes, child elements, and parent elements.
 |**RootItemId** <br/> |Identifies the unique identifier of the root store item to which the attachment is attached.  <br/> |
 |**RootItemChangeKey** <br/> |Identifies the change key of the root store item to which the attachment is attached.  <br/> |
    
-#### Child elements
+### Child elements
 
 None.
   
-#### Parent elements
+### Parent elements
 
 |**Element**|**Description**|
 |:-----|:-----|
@@ -60,14 +58,12 @@ The schema that describes this element is located in the EWS virtual directory o
 
 |||
 |:-----|:-----|
-|Namespace  <br/> |http://schemas.microsoft.com/exchange/services/2006/types  <br/> |
+|Namespace  <br/> |https://schemas.microsoft.com/exchange/services/2006/types  <br/> |
 |Schema name  <br/> |Types schema  <br/> |
 |Validation file  <br/> |Types.xsd  <br/> |
 |Can be empty  <br/> |False  <br/> |
    
 ## See also
 
-#### Concepts
-
-[EWS XML elements in Exchange](ews-xml-elements-in-exchange.md)
+- [EWS XML elements in Exchange](ews-xml-elements-in-exchange.md)
 

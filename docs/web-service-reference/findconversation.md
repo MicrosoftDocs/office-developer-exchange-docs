@@ -3,7 +3,7 @@ title: "FindConversation"
  
  
 manager: sethgros
-ms.date: 9/17/2015
+ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
@@ -39,7 +39,7 @@ The **FindConversation** element defines a request to find conversations in a ma
 
 The following sections describe attributes, child elements, and parent elements.
   
-#### Attributes
+### Attributes
 
 ****
 
@@ -48,7 +48,7 @@ The following sections describe attributes, child elements, and parent elements.
 |Traversal  <br/> |Identifies the types of sub-tree traversal. This attribute is optional.  <br/> |
 |ViewFilter  <br/> |Identifies the types view filters. This attribute is optional.  <br/> |
    
-#### Traversal Attribute Values
+#### Traversal attribute values
 
 ****
 
@@ -57,7 +57,7 @@ The following sections describe attributes, child elements, and parent elements.
 |Shallow  <br/> |Indicates a shallow traversal.  <br/> |
 |Deep  <br/> |Indicates a deep traversal.  <br/> |
    
-#### ViewFilter Attribute Values
+#### ViewFilter attribute values
 
 ****
 
@@ -74,7 +74,7 @@ The following sections describe attributes, child elements, and parent elements.
 |NoClutter  <br/> |For internal use only.  <br/> |
 |Clutter  <br/> |For internal use only.  <br/> |
    
-#### Child elements
+### Child elements
 
 |**Element**|**Description**|
 |:-----|:-----|
@@ -86,7 +86,7 @@ The following sections describe attributes, child elements, and parent elements.
 |[QueryString (QueryStringType)](querystring-querystringtype.md) <br/> |Specifies a mailbox query string based on Advanced Query Syntax (AQS).  <br/> |
 |[ConversationShape](conversationshape.md) <br/> |Identifies the property set to return in a [FindConversation operation](findconversation-operation.md) response.  <br/> |
    
-#### Parent elements
+### Parent elements
 
 None.
   
@@ -98,20 +98,20 @@ The schema that describes this element is located in the IIS virtual directory t
 
 |||
 |:-----|:-----|
-|Namespace  <br/> |http://schemas.microsoft.com/exchange/services/2006/messages  <br/> |
+|Namespace  <br/> |https://schemas.microsoft.com/exchange/services/2006/messages  <br/> |
 |Schema Name  <br/> |Messages schema  <br/> |
 |Validation File  <br/> |Messages.xsd  <br/> |
 |Can be Empty  <br/> |False  <br/> |
    
 ## See also
 
-#### Reference
+
 
 [FindConversation operation](findconversation-operation.md)
-#### Concepts
 
-[EWS XML elements in Exchange](ews-xml-elements-in-exchange.md)
-#### Other resources
 
-[Conversations in EWS](http://msdn.microsoft.com/library/91e64629-db6c-4c94-9dcb-d386232e8467%28Office.15%29.aspx)
+- [EWS XML elements in Exchange](ews-xml-elements-in-exchange.md)
+
+
+[Conversations in EWS](https://msdn.microsoft.com/library/91e64629-db6c-4c94-9dcb-d386232e8467%28Office.15%29.aspx)
 

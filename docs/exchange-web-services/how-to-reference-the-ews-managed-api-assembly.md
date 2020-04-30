@@ -1,25 +1,26 @@
 ---
-title: "How to Reference the EWS Managed API assembly"
- 
- 
+title: "Reference the EWS Managed API assembly"
 manager: sethgros
-ms.date: 9/17/2015
+ms.date: 09/17/2015
 ms.audience: Developer
- 
- 
-localization_priority: Normal
 ms.assetid: 130990db-6297-42dc-9f5d-f68a2400872a
 description: "Find information about how to reference the EWS Managed API assembly."
+localization_priority: Priority
 ---
 
-# How to: Reference the EWS Managed API assembly
+# Reference the EWS Managed API assembly
 
 Find information about how to reference the EWS Managed API assembly.
   
-The EWS Managed API provides a simple and full-featured interface for developing and extending applications that use Exchange Web Services (EWS). Whether you are using Visual Studio or another code editor to develop your EWS Managed API application, you will need to make a reference to the EWS Managed API assembly. If you haven't installed the EWS Managed API already, be sure to [download the API](http://aka.ms/ews-managed-api-readme).
+The EWS Managed API provides a simple and full-featured interface for developing and extending applications that use Exchange Web Services (EWS). Whether you are using Visual Studio or another code editor to develop your EWS Managed API application, you will need to make a reference to the EWS Managed API assembly. If you haven't installed the EWS Managed API already, be sure to [download the API](https://aka.ms/ews-managed-api-readme).
   
 > [!NOTE]
->  The EWS Managed API is now available as an open source project on [GitHub](https://github.com/officedev/ews-managed-api). You can use the open source library to: >  Contribute bug fixes and enhancements to the API. >  Get fixes and enhancements before they are available in an official release. >  Access the most comprehensive and up-to-date implementation of the API, to use as a reference or to create new libraries on new platforms. >  We welcome your [contributions](https://github.com/OfficeDev/ews-managed-api/blob/master/CONTRIBUTING.md) via GitHub. 
+> The EWS Managed API is now available as an open source project on [GitHub](https://github.com/officedev/ews-managed-api). You can use the open source library to: 
+> - Contribute bug fixes and enhancements to the API. 
+> - Get fixes and enhancements before they are available in an official release. 
+> - Access the most comprehensive and up-to-date implementation of the API, to use as a reference or to create new libraries on new platforms.
+> 
+>  We welcome your [contributions](https://github.com/OfficeDev/ews-managed-api/blob/master/CONTRIBUTING.md) via GitHub. 
   
 ## Referencing the assembly
 
@@ -35,9 +36,9 @@ The most common way to add a reference is to use Visual Studio. We know that som
     
 4. To use the EWS Managed API in your application, add a **using** statement for the **Microsoft.Exchange.WebServices.Data** namespace. 
     
-  ```cs
-  using Microsoft.Exchange.WebServices.Data;
-  ```
+   ```cs
+    using Microsoft.Exchange.WebServices.Data;
+   ```
 
 ### To add a reference and build your application with the command-line compiler
 
@@ -45,23 +46,20 @@ The most common way to add a reference is to use Visual Studio. We know that som
     
 2. In your source code editor, add a **using** statement to the source code for the **Microsoft.Exchange.WebServices.Data** namespace. 
     
-  ```cs
-  using Microsoft.Exchange.WebServices.Data;
-  ```
+   ```cs
+    using Microsoft.Exchange.WebServices.Data;
+   ```
 
 3. Run the command-line compiler to build the application. The following command uses the .NET Framework C# compiler to build the Windows application defined in the source code file "program.cs". It assumes that the compiler is located in the default installation directory and that the Microsoft.Exchange.WebServices.dll file is in a subdirectory of the current directory named "build".
     
-  ```cs
-  c:\Windows\Microsoft.NET\Framework\3.5\csc /target: winexe /out: build\testApplication /reference: build\Microsoft.Exchange.WebServices.dll program.cs
-  ```
+   ```cs
+    c:\Windows\Microsoft.NET\Framework\3.5\csc /target: winexe /out: build\testApplication /reference: build\Microsoft.Exchange.WebServices.dll program.cs
+   ```
 
-## Additional resources
-<a name="bk_addresources"> </a>
+## See also
 
-- [Get started with EWS Managed API client applications](get-started-with-ews-managed-api-client-applications.md)
-    
-- [Setting up your Exchange application development environment](setting-up-your-exchange-application-development-environment.md)
-    
-- [How to: Communicate with EWS by using the EWS Managed API](how-to-communicate-with-ews-by-using-the-ews-managed-api.md)
+- [Get started with EWS Managed API client applications](get-started-with-ews-managed-api-client-applications.md)    
+- [Setting up your Exchange application development environment](setting-up-your-exchange-application-development-environment.md)   
+- [Communicate with EWS by using the EWS Managed API](how-to-communicate-with-ews-by-using-the-ews-managed-api.md)
     
 

@@ -3,7 +3,7 @@ title: "SyncFolderItems"
  
  
 manager: sethgros
-ms.date: 9/17/2015
+ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
@@ -20,7 +20,7 @@ description: "The SyncFolderItems element defines a request to synchronize items
 
 The **SyncFolderItems** element defines a request to synchronize items in an Exchange store folder. 
   
-```
+```xml
 <SyncFolderItems>
    <ItemShape/>
    <SyncFolderId/>
@@ -35,11 +35,11 @@ The **SyncFolderItems** element defines a request to synchronize items in an Exc
 
 The following sections describe attributes, child elements, and parent elements.
   
-#### Attributes
+### Attributes
 
 None.
   
-#### Child elements
+### Child elements
 
 |**Element**|**Description**|
 |:-----|:-----|
@@ -50,7 +50,7 @@ None.
 |[MaxChangesReturned](maxchangesreturned.md) <br/> |Describes the maximum number of changes that can be returned in a synchronization response. This element is required.  <br/> |
 |[SyncScope](syncscope.md) <br/> |Specifies whether just items or items and folder associated information are returned in a synchronization response. This element is optional.  <br/> |
    
-#### Parent elements
+### Parent elements
 
 None.
   
@@ -62,17 +62,17 @@ The schema that describes this element is located in the EWS virtual directory o
 
 |||
 |:-----|:-----|
-|Namespace  <br/> |http://schemas.microsoft.com/exchange/services/2006/messages  <br/> |
+|Namespace  <br/> |https://schemas.microsoft.com/exchange/services/2006/messages  <br/> |
 |Schema name  <br/> |messages schema  <br/> |
 |Validation file  <br/> |messages.xsd  <br/> |
 |Can be empty  <br/> |False  <br/> |
    
 ## See also
 
-#### Reference
+
 
 [SyncFolderItems operation](syncfolderitems-operation.md)
-#### Concepts
 
-[EWS XML elements in Exchange](ews-xml-elements-in-exchange.md)
+
+- [EWS XML elements in Exchange](ews-xml-elements-in-exchange.md)
 

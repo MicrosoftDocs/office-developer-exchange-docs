@@ -1,9 +1,7 @@
 ---
 title: "DictionaryKey"
- 
- 
 manager: sethgros
-ms.date: 9/17/2015
+ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
@@ -20,7 +18,7 @@ description: "The DictionaryKey element specifies the dictionary key for a dicti
 
 The **DictionaryKey** element specifies the dictionary key for a dictionary property. 
   
-```
+```xml
 <DictionaryKey>
    <Type/>
    <Value/>
@@ -32,18 +30,18 @@ The **DictionaryKey** element specifies the dictionary key for a dictionary prop
 
 The following sections describe attributes, child elements, and parent elements.
   
-#### Attributes
+### Attributes
 
 None.
   
-#### Child elements
+### Child elements
 
 |**Element**|**Description**|
 |:-----|:-----|
-|[Type (UserConfiguration)](type-userconfiguration.md) <br/> | Specifies a dictionary object type. The type can be one of the following string values:  <br/>  DateTime  <br/>  Boolean  <br/>  Byte  <br/>  String  <br/>  Integer32  <br/>  UnsignedInteger32  <br/>  Integer64  <br/>  UnsignedInteger64  <br/>  StringArray  <br/>  ByteArray  <br/> |
+|[Type (UserConfiguration)](type-userconfiguration.md) <br/> | Specifies a dictionary object type.<br/><br/>The type can be one of the following string values:<br/><br/>-  DateTime  <br/>-  Boolean  <br/>-  Byte  <br/>-  String  <br/>-  Integer32  <br/>-  UnsignedInteger32  <br/>-  Integer64  <br/>-  UnsignedInteger64  <br/>-  StringArray  <br/>-  ByteArray  <br/> |
 |[Value (UserConfiguration)](value-userconfiguration.md) <br/> |Specifies the dictionary object value as a string.  <br/> |
    
-#### Parent elements
+### Parent elements
 
 |**Element**|**Description**|
 |:-----|:-----|
@@ -61,14 +59,12 @@ The schema that describes this element is located in the IIS virtual directory t
 
 |||
 |:-----|:-----|
-|Namespace  <br/> |http://schemas.microsoft.com/exchange/services/2006/types  <br/> |
+|Namespace  <br/> |https://schemas.microsoft.com/exchange/services/2006/types  <br/> |
 |Schema Name  <br/> |Types schema  <br/> |
 |Validation File  <br/> |Types.xsd  <br/> |
 |Can be Empty  <br/> |False  <br/> |
    
 ## See also
 
-#### Concepts
-
-[EWS XML elements in Exchange](ews-xml-elements-in-exchange.md)
+- [EWS XML elements in Exchange](ews-xml-elements-in-exchange.md)
 

@@ -3,7 +3,7 @@ title: "RecurringMasterItemId (ItemIdType)"
  
  
 manager: sethgros
-ms.date: 3/9/2015
+ms.date: 03/9/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
@@ -25,7 +25,7 @@ The **RecurringMasterItemId (ItemIdType)** element identifies a recurrence maste
 
 The following sections describe attributes, child elements, and parent elements.
   
-#### Attributes
+### Attributes
 
 ****
 
@@ -34,11 +34,11 @@ The following sections describe attributes, child elements, and parent elements.
 |Id  <br/> |Identifies a single occurrence of a recurring master item. This attribute is required.  <br/> |
 |ChangeKey  <br/> |Identifies a specific version of a single occurrence of a recurring master item. Additionally, the recurring master item is also identified because it and the single occurrence will contain the same change key. This attribute is optional.  <br/> |
    
-#### Child elements
+### Child elements
 
 None.
   
-#### Parent elements
+### Parent elements
 
 [Reminder](reminder.md)
   
@@ -52,17 +52,17 @@ The schema that describes this element is located in the IIS virtual directory t
 
 |||
 |:-----|:-----|
-|Namespace  <br/> |http://schemas.microsoft.com/exchange/services/2006/types  <br/> |
+|Namespace  <br/> |https://schemas.microsoft.com/exchange/services/2006/types  <br/> |
 |Schema Name  <br/> |Types schema  <br/> |
 |Validation File  <br/> |Types.xsd  <br/> |
 |Can be Empty  <br/> |True  <br/> |
    
 ## See also
 
-#### Reference
+
 
 [Reminder](reminder.md)
-#### Concepts
 
-[EWS XML elements in Exchange](ews-xml-elements-in-exchange.md)
+
+- [EWS XML elements in Exchange](ews-xml-elements-in-exchange.md)
 

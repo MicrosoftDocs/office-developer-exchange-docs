@@ -3,7 +3,7 @@ title: "LobbyBypass"
  
  
 manager: sethgros
-ms.date: 9/17/2015
+ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
@@ -25,15 +25,15 @@ The **LobbyBypass** element specifies the online meeting setting to bypass the v
 
 The following sections describe attributes, child elements, and parent elements.
   
-#### Attributes
+### Attributes
 
 None.
   
-#### Child elements
+### Child elements
 
 None.
   
-#### Parent elements
+### Parent elements
 
 [OnlineMeetingSettings](onlinemeetingsettings.md)
   

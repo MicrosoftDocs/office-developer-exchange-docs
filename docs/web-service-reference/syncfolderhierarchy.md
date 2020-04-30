@@ -3,7 +3,7 @@ title: "SyncFolderHierarchy"
  
  
 manager: sethgros
-ms.date: 9/17/2015
+ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
@@ -20,7 +20,7 @@ description: "The SyncFolderHierarchy element defines a request to synchronize a
 
 The **SyncFolderHierarchy** element defines a request to synchronize a folder hierarchy on a client. 
   
-```
+```xml
 <SyncFolderHierarchy>
    <FolderShape/>   <SyncFolderId/>
    <SyncState/>
@@ -32,11 +32,11 @@ The **SyncFolderHierarchy** element defines a request to synchronize a folder hi
 
 The following sections describe attributes, child elements, and parent elements.
   
-#### Attributes
+### Attributes
 
 None.
   
-#### Child elements
+### Child elements
 
 |**Element**|**Description**|
 |:-----|:-----|
@@ -44,7 +44,7 @@ None.
 |[SyncFolderId](syncfolderid.md) <br/> |Represents the folder that contains the items to synchronize. This element is optional.  <br/> |
 |[SyncState](syncstate-ex15websvcsotherref.md) <br/> |Contains a base64-encoded form of the synchronization data that is updated after each successful request. This is used to identify the synchronization state.  <br/> |
    
-#### Parent elements
+### Parent elements
 
 None.
   
@@ -56,17 +56,17 @@ The schema that describes this element is located in the EWS virtual directory o
 
 |||
 |:-----|:-----|
-|Namespace  <br/> |http://schemas.microsoft.com/exchange/services/2006/messages  <br/> |
+|Namespace  <br/> |https://schemas.microsoft.com/exchange/services/2006/messages  <br/> |
 |Schema name  <br/> |Messages schema  <br/> |
 |Validation file  <br/> |Messages.xsd  <br/> |
 |Can be empty  <br/> |False  <br/> |
    
 ## See also
 
-#### Reference
+
 
 [SyncFolderHierarchy operation](syncfolderhierarchy-operation.md)
-#### Concepts
 
-[EWS XML elements in Exchange](ews-xml-elements-in-exchange.md)
+
+- [EWS XML elements in Exchange](ews-xml-elements-in-exchange.md)
 

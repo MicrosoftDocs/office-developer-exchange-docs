@@ -3,7 +3,7 @@ title: "ResolveNames"
  
  
 manager: sethgros
-ms.date: 9/17/2015
+ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
@@ -32,7 +32,7 @@ The **ResolveNames** element defines a request to resolve ambiguous names.
 
 The following sections describe attributes, child elements, and parent elements.
   
-#### Attributes
+### Attributes
 
 |**Attribute**|**Description**|
 |:-----|:-----|
@@ -40,14 +40,14 @@ The following sections describe attributes, child elements, and parent elements.
 |**SearchScope** <br/> |Identifies the order and scope for a ResolveNames search.  <br/> |
 |ContactDataShape  <br/> |Identifies the property set returned for contacts. This attribute was introduced in Exchange Server 2010 Service Pack 2 (SP2).  <br/> |
    
-#### ReturnFullContactData Attribute Values
+#### ReturnFullContactData attribute values
 
 |**Value**|**Description**|
 |:-----|:-----|
 |True  <br/> |Full contact details for public contacts are returned.  <br/> |
 |False  <br/> |Full contact details for public contacts are not returned.  <br/> |
    
-#### SearchScope Attribute Values
+#### SearchScope attribute values
 
 |**Value**|**Description**|
 |:-----|:-----|
@@ -56,22 +56,22 @@ The following sections describe attributes, child elements, and parent elements.
 |Contacts  <br/> |Only the contact folders that are identified by the [ParentFolderIds](parentfolderids.md) property are searched.  <br/> |
 |ContactsActiveDirectory  <br/> |Contact folders that are identified by the [ParentFolderIds](parentfolderids.md) property are searched first and then Active Directory is searched.  <br/> |
    
-#### ContactDataShape Attribute Values
+#### ContactDataShape attribute values
 
 |**Value**|**Description**|
 |:-----|:-----|
 |IdOnly  <br/> |The contact item identifier property is returned.  <br/> |
-|Default  <br/> |The Default set of contact item properties is returned. For more information, see [Response shapes in EWS](http://msdn.microsoft.com/library/1c5ddc0a-c4e0-4488-8972-7543b5b464df%28Office.15%29.aspx).  <br/> |
-|AllProperties  <br/> |The AllProperties set of contact item properties are returned. For more information, see [Response shapes in EWS](http://msdn.microsoft.com/library/1c5ddc0a-c4e0-4488-8972-7543b5b464df%28Office.15%29.aspx).  <br/> |
+|Default  <br/> |The Default set of contact item properties is returned. For more information, see [Response shapes in EWS](https://msdn.microsoft.com/library/1c5ddc0a-c4e0-4488-8972-7543b5b464df%28Office.15%29.aspx).  <br/> |
+|AllProperties  <br/> |The AllProperties set of contact item properties are returned. For more information, see [Response shapes in EWS](https://msdn.microsoft.com/library/1c5ddc0a-c4e0-4488-8972-7543b5b464df%28Office.15%29.aspx).  <br/> |
    
-#### Child elements
+### Child elements
 
 |**Element**|**Description**|
 |:-----|:-----|
 |[ParentFolderIds](parentfolderids.md) <br/> |Contains an array of contact folder identifiers that would be searched if the **SearchScope** attribute is set to ActiveDirectoryContacts, Contacts, or ContactsActiveDirectory. The ParentFolderIds array can only contain a single contact folder identifier. If the **ParentFolderIds** element is not present, the default Contacts folder is searched.  <br/> The folder identifier can be used for delegate access.  <br/> Active Directory searches are performed by using access control lists (ACLs). Some users might not have the rights to see some Active Directory objects.  <br/> This element is optional.  <br/> |
 |[UnresolvedEntry](unresolvedentry.md) <br/> |Contains the name of a contact or distribution list to resolve.  <br/> |
    
-#### Parent elements
+### Parent elements
 
 None.
   
@@ -83,24 +83,24 @@ The schema that describes this element is located in the IIS virtual directory t
 
 |||
 |:-----|:-----|
-|Namespace  <br/> |http://schemas.microsoft.com/exchange/services/2006/messages  <br/> |
+|Namespace  <br/> |https://schemas.microsoft.com/exchange/services/2006/messages  <br/> |
 |Schema name  <br/> |Messages schema  <br/> |
 |Validation file  <br/> |Messages.xsd  <br/> |
 |Can be empty  <br/> |False  <br/> |
    
 ## See also
 
-#### Reference
+
 
 [ResolveNames operation](resolvenames-operation.md)
   
 [ResolveNamesType](https://msdn.microsoft.com/library/ExchangeWebServices.ResolveNamesType.aspx)
   
 [ResolveNamesSearchScopeType](https://msdn.microsoft.com/library/ExchangeWebServices.ResolveNamesSearchScopeType.aspx)
-#### Concepts
 
-[EWS XML elements in Exchange](ews-xml-elements-in-exchange.md)
-#### Other resources
 
-[Using Name Resolution](http://msdn.microsoft.com/library/9257fb07-89d2-46eb-b885-e2173fe6fbc1%28Office.15%29.aspx)
+- [EWS XML elements in Exchange](ews-xml-elements-in-exchange.md)
+
+
+[Using Name Resolution](https://msdn.microsoft.com/library/9257fb07-89d2-46eb-b885-e2173fe6fbc1%28Office.15%29.aspx)
 

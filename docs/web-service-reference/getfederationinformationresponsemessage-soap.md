@@ -1,7 +1,7 @@
 ---
 title: "GetFederationInformationResponseMessage (SOAP)"
 manager: sethgros
-ms.date: 9/17/2015
+ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
 localization_priority: Normal
@@ -28,17 +28,17 @@ The **GetFederationInformationResponseMessage** element defines a response to a 
 
 The following sections describe attributes, child elements, and parent elements.
   
-#### Attributes
+### Attributes
 
 None.
   
-#### Child elements
+### Child elements
 
 |**Element**|**Description**|
 |:-----|:-----|
 |[Response (GetFederationInformation) (SOAP)](response-getfederationinformationsoap.md) <br/> |Contains the [GetFederationInformation operation (SOAP)](getfederationinformation-operation-soap.md) response information.  <br/> |
    
-#### Parent elements
+### Parent elements
 
 None.
   
@@ -46,14 +46,14 @@ None.
 
 |||
 |:-----|:-----|
-|Namespace  <br/> |http://schemas.microsoft.com/exchange/2010/Autodiscover  <br/> |
+|Namespace  <br/> |https://schemas.microsoft.com/exchange/2010/Autodiscover  <br/> |
 |Schema Name  <br/> |Autodiscover schema  <br/> |
 |Validation File  <br/> |Messages.xsd  <br/> |
 |Can be Empty  <br/> |True  <br/> |
    
 ## See also
 
-#### Reference
+
 
 [GetFederationInformation operation (SOAP)](getfederationinformation-operation-soap.md)
 

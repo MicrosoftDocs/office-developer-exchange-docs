@@ -3,7 +3,7 @@ title: "ConvertId"
  
  
 manager: sethgros
-ms.date: 9/17/2015
+ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
@@ -20,7 +20,7 @@ description: "The ConvertId element defines a request to convert item and folder
 
 The **ConvertId** element defines a request to convert item and folder identifiers between supported Exchange formats. This element was introduced in Microsoft Exchange Server 2007 Service Pack 1 (SP1). 
   
-```
+```xml
 <ConvertId DestinationFormat="">
    <SourceIds/>
 </ConvertId>
@@ -31,7 +31,7 @@ The **ConvertId** element defines a request to convert item and folder identifie
 
 The following sections describe attributes, child elements, and parent elements.
   
-#### Attributes
+### Attributes
 
 |**Attribute**|**Description**|
 |:-----|:-----|
@@ -48,13 +48,13 @@ The following sections describe attributes, child elements, and parent elements.
 |**StoreId** <br/> |Represents the Exchange store identifier.  <br/> |
 |**OwaId** <br/> |Represents the Outlook Web Access identifier format.  <br/> |
    
-#### Child elements
+### Child elements
 
 |**Element**|**Description**|
 |:-----|:-----|
 |[SourceIds](sourceids.md) <br/> |Contains the source identifiers to convert.  <br/> |
    
-#### Parent elements
+### Parent elements
 
 None.
   
@@ -66,20 +66,20 @@ The schema that describes this element is located in the EWS virtual directory o
 
 |||
 |:-----|:-----|
-|Namespace  <br/> |http://schemas.microsoft.com/exchange/services/2006/messages  <br/> |
+|Namespace  <br/> |https://schemas.microsoft.com/exchange/services/2006/messages  <br/> |
 |Schema Name  <br/> |messages schema  <br/> |
 |Validation File  <br/> |Messages.xsd  <br/> |
 |Can be Empty  <br/> |False  <br/> |
    
 ## See also
 
-#### Reference
+
 
 [ConvertId operation](convertid-operation.md)
-#### Concepts
 
-[EWS XML elements in Exchange](ews-xml-elements-in-exchange.md)
-#### Other resources
 
-[Converting Identifiers](http://msdn.microsoft.com/library/a5391746-b6ef-4f48-8fc8-8255258651aa%28Office.15%29.aspx)
+- [EWS XML elements in Exchange](ews-xml-elements-in-exchange.md)
+
+
+[Converting Identifiers](https://msdn.microsoft.com/library/a5391746-b6ef-4f48-8fc8-8255258651aa%28Office.15%29.aspx)
 

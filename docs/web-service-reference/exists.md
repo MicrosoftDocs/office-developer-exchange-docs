@@ -3,7 +3,7 @@ title: "Exists"
  
  
 manager: sethgros
-ms.date: 9/17/2015
+ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
@@ -20,7 +20,7 @@ description: "The Exists element represents a search expression that returns tru
 
 The **Exists** element represents a search expression that returns **true** if the supplied property exists on an item. 
   
-```
+```xml
 <Exists>
    <Path/>
 </Exists>
@@ -31,11 +31,11 @@ The **Exists** element represents a search expression that returns **true** if t
 
 The following sections describe attributes, child elements, and parent elements.
   
-#### Attributes
+### Attributes
 
 None.
   
-#### Child elements
+### Child elements
 
 |**Element**|**Description**|
 |:-----|:-----|
@@ -43,7 +43,7 @@ None.
 |[IndexedFieldURI](indexedfielduri.md) <br/> |Identifies individual members of a dictionary.  <br/> |
 |[ExtendedFieldURI](extendedfielduri.md) <br/> |Identifies MAPI properties.  <br/> |
    
-#### Parent elements
+### Parent elements
 
 |**Element**|**Description**|
 |:-----|:-----|
@@ -60,14 +60,14 @@ The schema that describes this element is located in the EWS virtual directory o
 
 |||
 |:-----|:-----|
-|Namespace  <br/> |http://schemas.microsoft.com/exchange/services/2006/types  <br/> |
+|Namespace  <br/> |https://schemas.microsoft.com/exchange/services/2006/types  <br/> |
 |Schema Name  <br/> |Types schema  <br/> |
 |Validation File  <br/> |Types.xsd  <br/> |
 |Can be Empty  <br/> |False  <br/> |
    
 ## See also
 
-#### Concepts
 
-[EWS XML elements in Exchange](ews-xml-elements-in-exchange.md)
+
+- [EWS XML elements in Exchange](ews-xml-elements-in-exchange.md)
 

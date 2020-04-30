@@ -1,9 +1,7 @@
 ---
 title: "ApiVersionSupported"
- 
- 
 manager: sethgros
-ms.date: 3/9/2015
+ms.date: 03/9/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
@@ -25,15 +23,15 @@ The **ApiVersionSupported** element contains the version of the JavaScript API f
 
 The following sections describe attributes, child elements, and parent elements.
   
-#### Attributes
+### Attributes
 
 None.
   
-#### Child elements
+### Child elements
 
 None.
   
-#### Parent elements
+### Parent elements
 
 [GetAppManifests](getappmanifests.md)
   
@@ -49,17 +47,13 @@ This element was introduced in Exchange Server 2013 Service Pack 1 (SP1).
 
 |||
 |:-----|:-----|
-|Namespace  <br/> | http://schemas.microsoft.com/exchange/services/2006/messages  <br/> |
+|Namespace  <br/> | https://schemas.microsoft.com/exchange/services/2006/messages  <br/> |
 |Schema Name  <br/> |Messages schema  <br/> |
 |Validation File  <br/> |Not applicable  <br/> |
 |Can be Empty  <br/> |False  <br/> |
    
 ## See also
 
-#### Reference
-
-[GetAppManifests](getappmanifests.md)
-#### Concepts
-
-[EWS XML elements in Exchange](ews-xml-elements-in-exchange.md)
+- [GetAppManifests](getappmanifests.md)
+- [EWS XML elements in Exchange](ews-xml-elements-in-exchange.md)
 

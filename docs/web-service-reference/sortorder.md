@@ -3,7 +3,7 @@ title: "SortOrder"
  
  
 manager: sethgros
-ms.date: 9/17/2015
+ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
@@ -20,7 +20,7 @@ description: "The SortOrder element defines how items are sorted in a FindItem o
 
 The **SortOrder** element defines how items are sorted in a **FindItem** or **FindConversation** request. 
   
-```
+```xml
 <SortOrder>
    <FieldOrder/>
 </SortOrder>
@@ -31,17 +31,17 @@ The **SortOrder** element defines how items are sorted in a **FindItem** or **Fi
 
 The following sections describe attributes, child elements, and parent elements.
   
-#### Attributes
+### Attributes
 
 None.
   
-#### Child elements
+### Child elements
 
 |**Element**|**Description**|
 |:-----|:-----|
 |[FieldOrder](fieldorder.md) <br/> |Represents a single field by which to sort results and indicates the direction for the sort. One or more of these elements may be included. [FieldOrder](fieldorder.md) elements are applied in the order specified for sorting.  <br/> |
    
-#### Parent elements
+### Parent elements
 
 |**Element**|**Description**|
 |:-----|:-----|
@@ -60,19 +60,19 @@ The schema that describes this element is located in the IIS virtual directory t
 
 |||
 |:-----|:-----|
-|Namespace  <br/> |http://schemas.microsoft.com/exchange/services/2006/messages  <br/> |
+|Namespace  <br/> |https://schemas.microsoft.com/exchange/services/2006/messages  <br/> |
 |Schema Name  <br/> |Messages schema  <br/> |
 |Validation File  <br/> |Messages.xsd  <br/> |
 |Can be Empty  <br/> |False  <br/> |
    
 ## See also
 
-#### Reference
+
 
 [FindItem operation](finditem-operation.md)
   
 [FindConversation operation](findconversation-operation.md)
-#### Concepts
 
-[EWS XML elements in Exchange](ews-xml-elements-in-exchange.md)
+
+- [EWS XML elements in Exchange](ews-xml-elements-in-exchange.md)
 

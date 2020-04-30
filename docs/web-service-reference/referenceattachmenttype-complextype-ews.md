@@ -3,7 +3,7 @@ title: "ReferenceAttachmentType complexType (EWS)"
  
  
 manager: sethgros
-ms.date: 3/9/2015
+ms.date: 03/9/2015
 ms.audience: ITPro
 ms.topic: article
 ms.prod: office-online-server
@@ -17,7 +17,7 @@ ms.assetid: 18bfa012-e903-d7f3-528a-31ccceb65463
 
 |||
 |:-----|:-----|
-|**Namespace** <br/> |http://schemas.microsoft.com/exchange/services/2006/types  <br/> |
+|**Namespace** <br/> |https://schemas.microsoft.com/exchange/services/2006/types  <br/> |
 |**Schema file** <br/> |types.xsd  <br/> |
 |**Extension base** <br/> |t:AttachmentType  <br/> |
    
@@ -44,7 +44,7 @@ If the schema defines specific requirements, such as **sequence**, **minOccurs**
 
 |**Element**|**Type**|**Description**|
 |:-----|:-----|:-----|
-|[AttachLongPathName](http://msdn.microsoft.com/library/98464422-2c13-8d33-0fe3-b1978f2d5b4a%28Office.15%29.aspx) <br/> |xs:string  <br/> ||
+|[AttachLongPathName](attachlongpathname.md) <br/> |xs:string  <br/> ||
    
 ### Attributes
 

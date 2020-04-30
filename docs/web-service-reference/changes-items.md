@@ -3,7 +3,7 @@ title: "Changes (Items)"
  
  
 manager: sethgros
-ms.date: 9/17/2015
+ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
@@ -28,7 +28,7 @@ The **Changes** element contains a sequence array of change types that represent
   
 [Changes (Items)](changes-items.md)
   
-```
+```xml
 <Changes>
    <Create/>
    <Update/>
@@ -41,11 +41,11 @@ The **Changes** element contains a sequence array of change types that represent
 
 The following sections describe attributes, child elements, and parent elements.
   
-#### Attributes
+### Attributes
 
 None.
   
-#### Child elements
+### Child elements
 
 |**Element**|**Description**|
 |:-----|:-----|
@@ -54,7 +54,7 @@ None.
 |[Delete (ItemSync)](delete-itemsync.md) <br/> |Identifies a single item to delete in the local client store.  <br/> |
 |[ReadFlagChange](readflagchange.md) <br/> |Returned in [SyncFolderItems operation](syncfolderitems-operation.md) responses when an item has been read. This property is read-only.  <br/> |
    
-#### Parent elements
+### Parent elements
 
 |**Element**|**Description**|
 |:-----|:-----|
@@ -68,17 +68,17 @@ The schema that describes this element is located in the EWS virtual directory o
 
 |||
 |:-----|:-----|
-|Namespace  <br/> |http://schemas.microsoft.com/exchange/services/2006/messages  <br/> |
+|Namespace  <br/> |https://schemas.microsoft.com/exchange/services/2006/messages  <br/> |
 |Schema name  <br/> |Messages schema  <br/> |
 |Validation file  <br/> |Messages.xsd  <br/> |
 |Can be empty  <br/> |False  <br/> |
    
 ## See also
 
-#### Reference
+
 
 [SyncFolderItems operation](syncfolderitems-operation.md)
-#### Concepts
 
-[EWS XML elements in Exchange](ews-xml-elements-in-exchange.md)
+
+- [EWS XML elements in Exchange](ews-xml-elements-in-exchange.md)
 

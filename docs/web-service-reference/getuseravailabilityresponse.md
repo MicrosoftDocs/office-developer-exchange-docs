@@ -3,7 +3,7 @@ title: "GetUserAvailabilityResponse"
  
  
 manager: sethgros
-ms.date: 9/17/2015
+ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
@@ -20,7 +20,7 @@ description: "The GetUserAvailabilityResponse element is the root element that c
 
 The **GetUserAvailabilityResponse** element is the root element that contains the properties that define user availability information or suggested meeting time information. 
   
-```
+```xml
 <GetUserAvailabilityResponse>
    <FreeBusyResponseArray>...</FreeBusyResponseArray>
    <SuggestionsResponse>...</SuggestionsResponse>
@@ -32,18 +32,18 @@ The **GetUserAvailabilityResponse** element is the root element that contains th
 
 The following sections describe attributes, child elements, and parent elements.
   
-#### Attributes
+### Attributes
 
 None.
   
-#### Child elements
+### Child elements
 
 |**Element**|**Description**|
 |:-----|:-----|
 |[FreeBusyResponseArray](freebusyresponsearray.md) <br/> |Contains the requested users' availability information and the response status.  <br/> |
 |[SuggestionsResponse](suggestionsresponse.md) <br/> |Contains response status information and suggestion data for requested meeting suggestions.  <br/> |
    
-#### Parent elements
+### Parent elements
 
 None.
   
@@ -59,14 +59,14 @@ The following example of a GetUserAvailability response shows a response to a Ge
 <?xml version="1.0" encoding="utf-8" ?>
 <GetUserAvailabilityResponse xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
                              xmlns:xsd="http://www.w3.org/2001/XMLSchema">
-  <FreeBusyResponseArray xmlns="http://schemas.microsoft.com/exchange/services/2006/messages">
+  <FreeBusyResponseArray xmlns="https://schemas.microsoft.com/exchange/services/2006/messages">
     <FreeBusyResponse>
       <ResponseMessage ResponseClass="Success">
         <Path select="/m:GetUserAvailabilityRequest/MailboxDataArray[0]" />
       </ResponseMessage>
       <FreeBusyView>
-        <FreeBusyViewType xmlns="http://schemas.microsoft.com/exchange/services/2006/types">Detailed</FreeBusyViewType>
-        <CalendarEventArray xmlns="http://schemas.microsoft.com/exchange/services/2006/types">
+        <FreeBusyViewType xmlns="https://schemas.microsoft.com/exchange/services/2006/types">Detailed</FreeBusyViewType>
+        <CalendarEventArray xmlns="https://schemas.microsoft.com/exchange/services/2006/types">
           <CalendarEvent>
             <StartTime>2006-02-28T19:00:00-08:00</StartTime>
             <EndTime>2006-02-28T23:30:00-08:00</EndTime>
@@ -83,7 +83,7 @@ The following example of a GetUserAvailability response shows a response to a Ge
             </CalendarEventDetails>
           </CalendarEvent>
         </CalendarEventArray>
-        <WorkingHours xmlns="http://schemas.microsoft.com/exchange/services/2006/types">
+        <WorkingHours xmlns="https://schemas.microsoft.com/exchange/services/2006/types">
           <TimeZone>
             <Bias>480</Bias>
             <StandardTime>
@@ -121,17 +121,17 @@ The [ID](id.md) element contents were shortened to preserve readability.
 
 |||
 |:-----|:-----|
-|Namespace  <br/> |http://schemas.microsoft.com/exchange/services/2006/messages  <br/> |
+|Namespace  <br/> |https://schemas.microsoft.com/exchange/services/2006/messages  <br/> |
 |Schema Name  <br/> |Messages schema  <br/> |
 |Validation File  <br/> |Messages.xsd  <br/> |
 |Can be Empty  <br/> |False  <br/> |
    
 ## See also
 
-#### Reference
+
 
 [GetUserAvailabilityRequest](getuseravailabilityrequest.md)
-#### Other resources
 
-[Getting User Availability](http://msdn.microsoft.com/library/d4133fcb-9b0f-4e6b-aadf-a389da83516a%28Office.15%29.aspx)
+
+[Getting User Availability](https://msdn.microsoft.com/library/d4133fcb-9b0f-4e6b-aadf-a389da83516a%28Office.15%29.aspx)
 

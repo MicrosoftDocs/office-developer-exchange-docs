@@ -3,7 +3,7 @@ title: "SyncState"
  
  
 manager: sethgros
-ms.date: 9/17/2015
+ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
@@ -20,7 +20,7 @@ description: "The SyncState element contains a base64-encoded form of the synchr
 
 The **SyncState** element contains a base64-encoded form of the synchronization data that is updated after each successful request. This is used to identify the synchronization state. 
   
-```
+```xml
 <SyncState/>
 ```
 
@@ -29,15 +29,15 @@ The **SyncState** element contains a base64-encoded form of the synchronization 
 
 The following sections describe attributes, child elements, and parent elements.
   
-#### Attributes
+### Attributes
 
 None.
   
-#### Child elements
+### Child elements
 
 None.
   
-#### Parent elements
+### Parent elements
 
 |**Element**|**Description**|
 |:-----|:-----|
@@ -58,19 +58,19 @@ The schema that describes this element is located in the EWS virtual directory o
 
 |||
 |:-----|:-----|
-|Namespace  <br/> |http://schemas.microsoft.com/exchange/services/2006/messages  <br/> |
+|Namespace  <br/> |https://schemas.microsoft.com/exchange/services/2006/messages  <br/> |
 |Schema name  <br/> |Messages schema  <br/> |
 |Validation file  <br/> |Messages.xsd  <br/> |
 |Can be empty  <br/> |False  <br/> |
    
 ## See also
 
-#### Reference
+
 
 [SyncFolderItems operation](syncfolderitems-operation.md)
   
 [SyncFolderHierarchy operation](syncfolderhierarchy-operation.md)
-#### Concepts
 
-[EWS XML elements in Exchange](ews-xml-elements-in-exchange.md)
+
+- [EWS XML elements in Exchange](ews-xml-elements-in-exchange.md)
 

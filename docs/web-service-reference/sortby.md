@@ -3,7 +3,7 @@ title: "SortBy"
  
  
 manager: sethgros
-ms.date: 9/17/2015
+ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
@@ -28,17 +28,17 @@ The **SortBy** element contains an item property used for sorting the search res
 
 The following sections describe attributes, child elements, and parent elements.
   
-#### Attributes
+### Attributes
 
 |**Attribute**|**Description**|
 |:-----|:-----|
 |Order  <br/> |The text value of the **Order** attribute is the sort order. A text value of **Ascending** indicates that the results are in ascending order. A text value of **Descending** indicates that the results are in descending order.  <br/> |
    
-#### Child elements
+### Child elements
 
 [FieldURI](fielduri.md) | [IndexedFieldURI](indexedfielduri.md)
   
-#### Parent elements
+### Parent elements
 
 [SearchMailboxes](searchmailboxes.md)
   
@@ -52,7 +52,7 @@ The schema that describes this element is located in the IIS virtual directory t
 
 |||
 |:-----|:-----|
-|Namespace  <br/> |http://schemas.microsoft.com/exchange/services/2006/messages  <br/> |
+|Namespace  <br/> |https://schemas.microsoft.com/exchange/services/2006/messages  <br/> |
 |Schema name  <br/> |Messages schema  <br/> |
 |Validation file  <br/> |Messages.xsd  <br/> |
 |Can be empty  <br/> ||

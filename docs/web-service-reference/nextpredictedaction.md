@@ -1,9 +1,7 @@
 ---
 title: "NextPredictedAction"
- 
- 
 manager: sethgros
-ms.date: 9/17/2015
+ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
@@ -15,24 +13,20 @@ description: "The NextPredictedAction element is intended for internal use only.
 # NextPredictedAction
 
 The **NextPredictedAction** element is intended for internal use only. 
-  
-```
-
-```
 
 ## Attributes and elements
 
 The following sections describe attributes, child elements, and parent elements.
   
-#### Attributes
+### Attributes
 
 None.
   
-#### Child elements
+### Child elements
 
 None.
   
-#### Parent elements
+### Parent elements
 
 None.
   

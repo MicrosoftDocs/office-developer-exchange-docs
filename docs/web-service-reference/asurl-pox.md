@@ -1,7 +1,7 @@
 ---
 title: "ASUrl (POX)"
 manager: sethgros
-ms.date: 9/17/2015
+ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
 localization_priority: Normal
@@ -9,25 +9,23 @@ api_type:
 - schema
 ms.assetid: 6727f282-ec4c-4e61-8414-e7ba5f9865e7
 description: "The ASUrl element specifies the URL of the best endpoint instance of Exchange Availability Web Services for a mail-enabled user."
- 
- 
 ---
 
 # ASUrl (POX)
 
 The **ASUrl** element specifies the URL of the best endpoint instance of Exchange Availability Web Services for a mail-enabled user. 
   
-[AutoDiscover (POX)](autodiscover-pox.md)
+- [AutoDiscover (POX)](autodiscover-pox.md)
   
-[Response (POX)](response-pox.md)
+- [Response (POX)](response-pox.md)
   
-[Account (POX)](account-pox.md)
+- [Account (POX)](account-pox.md)
   
-[Protocol (POX)](protocol-pox.md)
+- [Protocol (POX)](protocol-pox.md)
   
-[ASUrl (POX)](asurl-pox.md)
+- [ASUrl (POX)](asurl-pox.md)
   
-```
+```xml
 <ASUrl/>
 ```
 
@@ -35,15 +33,15 @@ The **ASUrl** element specifies the URL of the best endpoint instance of Exchang
 
 The following sections describe attributes, child elements, and parent elements.
   
-#### Attributes
+### Attributes
 
 None.
   
-#### Child elements
+### Child elements
 
 None.
   
-#### Parent elements
+### Parent elements
 
 |**Element**|**Description**|
 |:-----|:-----|
@@ -55,7 +53,5 @@ The text value contains the URL that is used to access the Availability service.
   
 ## See also
 
-#### Concepts
-
-[POX Autodiscover XML elements for Exchange](pox-autodiscover-xml-elements-for-exchange.md)
+- [POX Autodiscover XML elements for Exchange](pox-autodiscover-xml-elements-for-exchange.md)
 

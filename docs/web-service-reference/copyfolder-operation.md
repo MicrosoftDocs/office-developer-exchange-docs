@@ -1,9 +1,7 @@
 ---
 title: "CopyFolder operation"
- 
- 
 manager: sethgros
-ms.date: 9/17/2015
+ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
@@ -20,11 +18,11 @@ description: "The CopyFolder operation copies folders in a mailbox."
 
 The CopyFolder operation copies folders in a mailbox.
   
-## Using the CopyFolder Operation
+## Using the CopyFolder operation
 
 The CopyFolder operation is similar to the [MoveFolder operation](movefolder-operation.md). It copies identified folders and returns the **Id** and **ChangeKey** of the copied folders. 
   
-## CopyFolder Request Example
+## CopyFolder request example
 
 ### Description
 
@@ -38,9 +36,9 @@ The following example of a CopyFolder request shows how to copy folders into the
 ```XML
 <?xml version="1.0" encoding="utf-8"?>
 <soap:Envelope xmlns:soap="http://schemas.xmlsoap.org/soap/envelope/"
-  xmlns:t="http://schemas.microsoft.com/exchange/services/2006/types">
+  xmlns:t="https://schemas.microsoft.com/exchange/services/2006/types">
   <soap:Body>
-    <CopyFolder xmlns="http://schemas.microsoft.com/exchange/services/2006/messages">
+    <CopyFolder xmlns="https://schemas.microsoft.com/exchange/services/2006/messages">
       <ToFolderId>
         <t:DistinguishedFolderId Id="inbox"/>
       </ToFolderId>
@@ -57,7 +55,7 @@ The following example of a CopyFolder request shows how to copy folders into the
 
 Folders can be identified by either the [DistinguishedFolderId](distinguishedfolderid.md) element or the [FolderId](folderid.md) element for use in either the [ToFolderId](tofolderid.md) or the [FolderIds](folderids.md) elements. 
   
-### Request Elements
+### Request elements
 
 The following elements are used in the request:
   
@@ -76,7 +74,7 @@ The following elements are used in the request:
   
 To find other options for the request message of the CopyFolder operation, explore the schema hierarchy. Start at the [CopyFolder](copyfolder.md) element. 
   
-## Successful CopyFolder Response
+## Successful CopyFolder response
 
 ### Description
 
@@ -94,12 +92,12 @@ The following example shows a successful response to the CopyFolder request.
                xmlns:xsd="http://www.w3.org/2001/XMLSchema">
   <soap:Header>
     <t:ServerVersionInfo MajorVersion="8" MinorVersion="0" MajorBuildNumber="595" MinorBuildNumber="0" 
-                         xmlns:t="http://schemas.microsoft.com/exchange/services/2006/types" />
+                         xmlns:t="https://schemas.microsoft.com/exchange/services/2006/types" />
   </soap:Header>
   <soap:Body>
-    <CopyFolderResponse xmlns:m="http://schemas.microsoft.com/exchange/services/2006/messages" 
-                        xmlns:t="http://schemas.microsoft.com/exchange/services/2006/types" 
-                        xmlns="http://schemas.microsoft.com/exchange/services/2006/messages">
+    <CopyFolderResponse xmlns:m="https://schemas.microsoft.com/exchange/services/2006/messages" 
+                        xmlns:t="https://schemas.microsoft.com/exchange/services/2006/types" 
+                        xmlns="https://schemas.microsoft.com/exchange/services/2006/messages">
       <m:ResponseMessages>
         <m:CopyFolderResponseMessage ResponseClass="Success">
           <m:ResponseCode>NoError</m:ResponseCode>
@@ -119,7 +117,7 @@ The following example shows a successful response to the CopyFolder request.
 
 The [FolderId](folderid.md) element that is returned in the response represents the folder that was copied in the new folder location. 
   
-### Response Elements
+### Response elements
 
 The following elements are used in the response:
   
@@ -141,7 +139,7 @@ The following elements are used in the response:
     
 To find other options for the response message of the CopyFolder operation, explore the schema hierarchy. Start at the [CopyFolderResponse](copyfolderresponse.md) element. 
   
-## CopyFolder Error Response
+## CopyFolder error response
 
 ### Description
 
@@ -156,12 +154,12 @@ The following example shows an error response to a CopyFolder request. The error
                xmlns:xsd="http://www.w3.org/2001/XMLSchema">
   <soap:Header>
     <t:ServerVersionInfo MajorVersion="8" MinorVersion="0" MajorBuildNumber="628" MinorBuildNumber="0" 
-                         xmlns:t="http://schemas.microsoft.com/exchange/services/2006/types" />
+                         xmlns:t="https://schemas.microsoft.com/exchange/services/2006/types" />
   </soap:Header>
   <soap:Body>
-    <CopyFolderResponse xmlns:m="http://schemas.microsoft.com/exchange/services/2006/messages" 
-                        xmlns:t="http://schemas.microsoft.com/exchange/services/2006/types" 
-                        xmlns="http://schemas.microsoft.com/exchange/services/2006/messages">
+    <CopyFolderResponse xmlns:m="https://schemas.microsoft.com/exchange/services/2006/messages" 
+                        xmlns:t="https://schemas.microsoft.com/exchange/services/2006/types" 
+                        xmlns="https://schemas.microsoft.com/exchange/services/2006/messages">
       <m:ResponseMessages>
         <m:CopyFolderResponseMessage ResponseClass="Error">
           <m:MessageText>The move or copy operation failed.</m:MessageText>
@@ -175,7 +173,7 @@ The following example shows an error response to a CopyFolder request. The error
 </soap:Envelope>
 ```
 
-### Error Response Elements
+### Error response elements
 
 The following elements are used in the error response:
   
@@ -197,10 +195,6 @@ To find other options for the error response message of the CopyFolder operation
   
 ## See also
 
-#### Reference
-
-[MoveFolder operation](movefolder-operation.md)
-#### Concepts
-
-[EWS XML elements in Exchange](ews-xml-elements-in-exchange.md)
+- [MoveFolder operation](movefolder-operation.md)
+- [EWS XML elements in Exchange](ews-xml-elements-in-exchange.md)
 

@@ -3,13 +3,13 @@ title: "Develop web service clients for Exchange"
  
  
 manager: sethgros
-ms.date: 9/17/2015
+ms.date: 09/17/2015
 ms.audience: Developer
  
  
-localization_priority: Normal
 ms.assetid: 899ba15b-336d-4f9b-8563-318c61e43713
 description: "Find information to help you develop EWS and web service client applications for Exchange."
+localization_priority: Priority
 ---
 
 # Develop web service clients for Exchange
@@ -64,15 +64,11 @@ The articles in this section explain how to use EWS and web services in your Exc
     
 - [Verifying the results of an EWS or EWS Managed API call](verifying-the-results-of-an-ews-or-ews-managed-api-call.md)
     
-## Additional resources
-<a name="bk_addresources"> </a>
+## See also
 
-- [Explore the EWS Managed API, EWS, and web services in Exchange](http://msdn.microsoft.com/library/53553207-ff98-4fdb-8716-4ae02fee83bf%28Office.15%29.aspx)
-    
-- [Start using web services in Exchange](start-using-web-services-in-exchange.md)
-    
-- [EWS client design overview for Exchange](ews-client-design-overview-for-exchange.md)
-    
-- [Web services reference for Exchange](http://msdn.microsoft.com/library/6c969133-6036-448b-af39-a3caf9917e98%28Office.15%29.aspx)
+- [Explore the EWS Managed API, EWS, and web services in Exchange](explore-the-ews-managed-api-ews-and-web-services-in-exchange.md)     
+- [Start using web services in Exchange](start-using-web-services-in-exchange.md)  
+- [EWS client design overview for Exchange](ews-client-design-overview-for-exchange.md)  
+- [Web services reference for Exchange](../web-service-reference/web-services-reference-for-exchange.md)
     
 

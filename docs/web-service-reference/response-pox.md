@@ -1,7 +1,7 @@
 ---
 title: "Response (POX)"
 manager: sethgros
-ms.date: 3/9/2015
+ms.date: 03/9/2015
 ms.audience: Developer
 ms.topic: reference
 localization_priority: Normal
@@ -15,7 +15,7 @@ description: "Applies to:"
 
 # Response (POX)
 
- * **Applies to: *** 
+
   
 The **Response** element contains the response from the Autodiscover service. 
   
@@ -23,7 +23,7 @@ The **Response** element contains the response from the Autodiscover service.
   
 [Response (POX)](response-pox.md)
   
-```
+```xml
 <Response>
    <User/>
    <Account/>
@@ -34,18 +34,18 @@ The **Response** element contains the response from the Autodiscover service.
 
 The following sections describe attributes, child elements, and parent elements.
   
-#### Attributes
+### Attributes
 
 None.
   
-#### Child elements
+### Child elements
 
 |**Element**|**Description**|
 |:-----|:-----|
 |[User (POX)](user-pox.md) <br/> |Provides user-specific information. This element is optional.  <br/> |
 |[Account (POX)](account-pox.md) <br/> |Specifies account settings for the user.  <br/> |
    
-#### Parent elements
+### Parent elements
 
 |**Element**|**Description**|
 |:-----|:-----|
@@ -53,7 +53,7 @@ None.
    
 ## See also
 
-#### Concepts
+
 
 [POX Autodiscover XML elements for Exchange](pox-autodiscover-xml-elements-for-exchange.md)
 

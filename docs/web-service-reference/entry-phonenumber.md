@@ -1,9 +1,7 @@
 ---
 title: "Entry (PhoneNumber)"
- 
- 
 manager: sethgros
-ms.date: 9/17/2015
+ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
@@ -20,7 +18,7 @@ description: "The Entry element represents a telephone number for a contact."
 
 The **Entry** element represents a telephone number for a contact. 
   
-```
+```xml
 <Entry Key=""/>
 ```
 
@@ -29,17 +27,17 @@ The **Entry** element represents a telephone number for a contact.
 
 The following sections describe attributes, child elements, and parent elements.
   
-#### Attributes
+### Attributes
 
 |**Attribute**|**Description**|
 |:-----|:-----|
-|**Key** <br/> | Identifies the telephone number. The Key attribute is of type **PhoneNumberKeyType**. The following are the possible values for this attribute:  <br/>  AssistantPhone  <br/>  BusinessFax  <br/>  BusinessPhone  <br/>  BusinessPhone2  <br/>  Callback  <br/>  CarPhone  <br/>  CompanyMainPhone  <br/>  HomeFax  <br/>  HomePhone  <br/>  HomePhone2  <br/>  Isdn  <br/>  MobilePhone  <br/>  OtherFax  <br/>  OtherTelephone  <br/>  Pager  <br/>  PrimaryPhone  <br/>  RadioPhone  <br/>  Telex  <br/>  TtyTddPhone  <br/> |
+|**Key** <br/> | Identifies the telephone number. The Key attribute is of type **PhoneNumberKeyType**.<br/><br/> The following are the possible values for this attribute:<br/><br/>-  AssistantPhone  <br/>-  BusinessFax  <br/>-  BusinessPhone  <br/>-  BusinessPhone2  <br/>-  Callback  <br/>-  CarPhone  <br/>-  CompanyMainPhone  <br/>-  HomeFax  <br/>-  HomePhone  <br/>-  HomePhone2  <br/>-  Isdn  <br/>-  MobilePhone  <br/>-  OtherFax  <br/>-  OtherTelephone  <br/>-  Pager  <br/>-  PrimaryPhone  <br/>-  RadioPhone  <br/>-  Telex  <br/>-  TtyTddPhone  <br/> |
    
-#### Child elements
+### Child elements
 
 None.
   
-#### Parent elements
+### Parent elements
 
 |**Element**|**Description**|
 |:-----|:-----|
@@ -57,21 +55,15 @@ The schema that describes this element is located in the EWS virtual directory o
 
 |||
 |:-----|:-----|
-|Namespace  <br/> |http://schemas.microsoft.com/exchange/services/2006/types  <br/> |
+|Namespace  <br/> |https://schemas.microsoft.com/exchange/services/2006/types  <br/> |
 |Schema name  <br/> |Types schema  <br/> |
 |Validation file  <br/> |Types.xsd  <br/> |
 |Can be empty  <br/> |False  <br/> |
    
 ## See also
 
-#### Concepts
-
-[EWS XML elements in Exchange](ews-xml-elements-in-exchange.md)
-#### Other resources
-
-[Creating Contacts (Exchange Web Services)](http://msdn.microsoft.com/library/4845917e-70d1-481c-bbd7-011ec6571789%28Office.15%29.aspx)
-  
-[Updating Contacts](http://msdn.microsoft.com/library/9a865953-b94a-4229-b632-2dee433314be%28Office.15%29.aspx)
-  
-[Deleting Contacts](http://msdn.microsoft.com/library/fcc3dc84-cd3e-455e-a1a7-ae6921c9b588%28Office.15%29.aspx)
+- [EWS XML elements in Exchange](ews-xml-elements-in-exchange.md)
+- [Creating Contacts (Exchange Web Services)](https://msdn.microsoft.com/library/4845917e-70d1-481c-bbd7-011ec6571789%28Office.15%29.aspx) 
+- [Updating Contacts](https://msdn.microsoft.com/library/9a865953-b94a-4229-b632-2dee433314be%28Office.15%29.aspx)  
+- [Deleting Contacts](https://msdn.microsoft.com/library/fcc3dc84-cd3e-455e-a1a7-ae6921c9b588%28Office.15%29.aspx)
 

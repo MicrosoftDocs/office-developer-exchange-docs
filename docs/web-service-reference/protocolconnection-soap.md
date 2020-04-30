@@ -1,7 +1,7 @@
 ---
 title: "ProtocolConnection (SOAP)"
 manager: sethgros
-ms.date: 9/17/2015
+ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
 localization_priority: Normal
@@ -30,11 +30,11 @@ The **ProtocolConnection** element represents the protocol connection of the ser
 
 The following sections describe attributes, child elements, and parent elements.
   
-#### Attributes
+### Attributes
 
 None.
   
-#### Child elements
+### Child elements
 
 |**Element**|**Description**|
 |:-----|:-----|
@@ -42,7 +42,7 @@ None.
 |[Port (SOAP)](port-soap.md) <br/> |Represents the port number to use for the protocol.  <br/> |
 |[EncryptionMethod (SOAP)](encryptionmethod-soap.md) <br/> |Represents the cryptographic method that is used for the POP, IMAP, and SMTP protocols.  <br/> |
    
-#### Parent elements
+### Parent elements
 
 |**Element**|**Description**|
 |:-----|:-----|
@@ -56,14 +56,14 @@ None.
 
 |||
 |:-----|:-----|
-|Namespace  <br/> |http://schemas.microsoft.com/exchange/2010/Autodiscover  <br/> |
+|Namespace  <br/> |https://schemas.microsoft.com/exchange/2010/Autodiscover  <br/> |
 |Schema Name  <br/> |Autodiscover schema  <br/> |
 |Validation File  <br/> |Messages.xsd  <br/> |
 |Can be Empty  <br/> |True  <br/> |
    
 ## See also
 
-#### Reference
+
 
 [ProtocolConnectionCollectionSetting (SOAP)](protocolconnectioncollectionsetting-soap.md)
 

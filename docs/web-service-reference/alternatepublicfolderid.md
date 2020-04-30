@@ -1,9 +1,7 @@
 ---
 title: "AlternatePublicFolderId"
- 
- 
 manager: sethgros
-ms.date: 9/17/2015
+ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
@@ -20,13 +18,13 @@ description: "The AlternatePublicFolderId element describes a public folder iden
 
 The **AlternatePublicFolderId** element describes a public folder identifier to convert to another identifier format. This element was introduced in Microsoft Exchange Server 2007 Service Pack 1 (SP1). 
   
-[ConvertId](convertid.md)
+- [ConvertId](convertid.md)
   
-[SourceIds](sourceids.md)
+- [SourceIds](sourceids.md)
   
-[AlternatePublicFolderId](alternatepublicfolderid.md)
+- [AlternatePublicFolderId](alternatepublicfolderid.md)
   
-```
+```xml
 <AlternatePublicFolderId FolderId="" Format="" />
 ```
 
@@ -35,14 +33,14 @@ The **AlternatePublicFolderId** element describes a public folder identifier to 
 
 The following sections describe attributes, child elements, and parent elements.
   
-#### Attributes
+### Attributes
 
 |**Attribute**|**Description**|
 |:-----|:-----|
 |FolderId  <br/> |Contains the public folder identifier to convert. This attribute is required.  <br/> |
 |Format  <br/> |Identifies the format that describes the public folder identifier to convert. This attribute is required.  <br/> |
    
-#### Format Attribute
+#### Format attribute
 
 |**Value**|**Description**|
 |:-----|:-----|
@@ -53,11 +51,11 @@ The following sections describe attributes, child elements, and parent elements.
 |StoreId  <br/> |Describes Exchange store identifiers.  <br/> |
 |OwaId  <br/> |Describes an Outlook Web Access identifier.  <br/> |
    
-#### Child elements
+### Child elements
 
 None.
   
-#### Parent elements
+### Parent elements
 
 |**Element**|**Description**|
 |:-----|:-----|
@@ -67,20 +65,14 @@ None.
 
 |||
 |:-----|:-----|
-|Namespace  <br/> |http://schemas.microsoft.com/exchange/services/2006/types  <br/> |
+|Namespace  <br/> |https://schemas.microsoft.com/exchange/services/2006/types  <br/> |
 |Schema Name  <br/> |Types schema  <br/> |
 |Validation File  <br/> |Types.xsd  <br/> |
 |Can be Empty  <br/> |True  <br/> |
    
 ## See also
 
-#### Reference
-
-[ConvertId operation](convertid-operation.md)
-#### Concepts
-
-[EWS XML elements in Exchange](ews-xml-elements-in-exchange.md)
-#### Other resources
-
-[Converting Identifiers](http://msdn.microsoft.com/library/a5391746-b6ef-4f48-8fc8-8255258651aa%28Office.15%29.aspx)
+- [ConvertId operation](convertid-operation.md)
+- [EWS XML elements in Exchange](ews-xml-elements-in-exchange.md)
+- [Converting Identifiers](https://msdn.microsoft.com/library/a5391746-b6ef-4f48-8fc8-8255258651aa%28Office.15%29.aspx)
 

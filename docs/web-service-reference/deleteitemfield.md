@@ -1,9 +1,7 @@
 ---
 title: "DeleteItemField"
- 
- 
 manager: sethgros
-ms.date: 9/17/2015
+ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
@@ -19,33 +17,42 @@ description: "The DeleteItemField element represents an operation to delete a gi
 # DeleteItemField
 
 The **DeleteItemField** element represents an operation to delete a given property from an item during an UpdateItem call. 
+ 
+- [UpdateItem](updateitem.md)  
+- [ItemChanges](itemchanges.md) 
+- [ItemChange](itemchange.md) 
+- [Updates (Item)](updates-item.md) 
+- [DeleteItemField](deleteitemfield.md)
   
-[UpdateItem](updateitem.md)
-  
-[ItemChanges](itemchanges.md)
-  
-[ItemChange](itemchange.md)
-  
-[Updates (Item)](updates-item.md)
-  
-[DeleteItemField](deleteitemfield.md)
-  
-```
+```xml
 <DeleteItemField>
    <FieldURI/>
 </DeleteItemField>
 ```
 
- **DeleteItemFieldType**
+```xml
+<DeleteItemField>
+   <IndexedFieldURI/> 
+</DeleteItemField>
+```
+
+```xml
+<DeleteItemField>
+   <ExtendedFieldURI/>
+</DeleteItemField>
+```
+
+**DeleteItemFieldType**
+
 ## Attributes and elements
 
 The following sections describe attributes, child elements, and parent elements.
   
-#### Attributes
+### Attributes
 
 None.
   
-#### Child elements
+### Child elements
 
 |**Element**|**Description**|
 |:-----|:-----|
@@ -53,11 +60,11 @@ None.
 |[IndexedFieldURI](indexedfielduri.md) <br/> |Identifies individual members of a dictionary property.  <br/> |
 |[ExtendedFieldURI](extendedfielduri.md) <br/> |Identifies extended MAPI properties.  <br/> |
    
-#### Parent elements
+### Parent elements
 
 |**Element**|**Description**|
 |:-----|:-----|
-|[Updates (Item)](updates-item.md) <br/> |Contains a set of elements that define append, set, and delete changes to item properties.  <br/> The following is the XPath expression to this element:  `/UpdateItem/ItemChanges/ItemChange[i]/Updates` <br/> |
+|[Updates (Item)](updates-item.md) <br/> |Contains a set of elements that define append, set, and delete changes to item properties.  <br/><br/>The following is the XPath expression to this element:<br/>`/UpdateItem/ItemChanges/ItemChange[i]/Updates` <br/> |
    
 ## Remarks
 
@@ -67,14 +74,12 @@ The schema that describes this element is located in the EWS virtual directory o
 
 |||
 |:-----|:-----|
-|Namespace  <br/> |http://schemas.microsoft.com/exchange/services/2006/types  <br/> |
+|Namespace  <br/> |https://schemas.microsoft.com/exchange/services/2006/types  <br/> |
 |Schema Name  <br/> |types schema  <br/> |
 |Validation File  <br/> |Types.xsd  <br/> |
 |Can be Empty  <br/> |False  <br/> |
    
 ## See also
 
-#### Reference
-
-[UpdateItem operation](updateitem-operation.md)
+- [UpdateItem operation](updateitem-operation.md)
 

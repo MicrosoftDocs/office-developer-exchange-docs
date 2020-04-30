@@ -1,7 +1,7 @@
 ---
 title: "StringSetting (SOAP)"
 manager: sethgros
-ms.date: 9/17/2015
+ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
 localization_priority: Normal
@@ -29,18 +29,18 @@ The **StringSetting** element represents a user setting the value of which is of
 
 The following sections describe attributes, child elements, and parent elements.
   
-#### Attributes
+### Attributes
 
 None.
   
-#### Child elements
+### Child elements
 
 |**Element**|**Description**|
 |:-----|:-----|
 |[Name (SOAP)](name-soap.md) <br/> |Represents a user setting name.  <br/> |
 |[Value (SOAP)](value-soap.md) <br/> |Represents a user setting value.  <br/> |
    
-#### Parent elements
+### Parent elements
 
 None.
   
@@ -56,14 +56,14 @@ The **StringSetting** type extends the **UserSetting** type.
 
 |||
 |:-----|:-----|
-|Namespace  <br/> |http://schemas.microsoft.com/exchange/2010/Autodiscover  <br/> |
+|Namespace  <br/> |https://schemas.microsoft.com/exchange/2010/Autodiscover  <br/> |
 |Schema Name  <br/> |Autodiscover schema  <br/> |
 |Validation File  <br/> |Messages.xsd  <br/> |
 |Can be Empty  <br/> |True  <br/> |
    
 ## See also
 
-#### Reference
+
 
 [GetUserSettings operation (SOAP)](getusersettings-operation-soap.md)
   

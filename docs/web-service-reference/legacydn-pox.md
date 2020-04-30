@@ -1,7 +1,7 @@
 ---
 title: "LegacyDN (POX)"
 manager: sethgros
-ms.date: 9/17/2015
+ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
 localization_priority: Normal
@@ -9,15 +9,13 @@ api_type:
 - schema
 ms.assetid: 9fb9529f-52c5-4907-a84b-935b78de16c3
 description: "The LegacyDN element identifies a user's mailbox by legacy distinguished name."
- 
- 
 ---
 
 # LegacyDN (POX)
 
 The **LegacyDN** element identifies a user's mailbox by legacy distinguished name. 
   
-```
+```xml
 <LegacyDN/>
 ```
 
@@ -25,15 +23,15 @@ The **LegacyDN** element identifies a user's mailbox by legacy distinguished nam
 
 The following sections describe attributes, child elements, and parent elements.
   
-#### Attributes
+### Attributes
 
 None.
   
-#### Child elements
+### Child elements
 
 None.
   
-#### Parent elements
+### Parent elements
 
 |**Element**|**Description**|
 |:-----|:-----|
@@ -50,7 +48,5 @@ The [EmailAddress (NonEmptyStringType)](emailaddress-nonemptystringtype.md) elem
   
 ## See also
 
-#### Concepts
-
-[POX Autodiscover XML elements for Exchange](pox-autodiscover-xml-elements-for-exchange.md)
+- [POX Autodiscover XML elements for Exchange](pox-autodiscover-xml-elements-for-exchange.md)
 

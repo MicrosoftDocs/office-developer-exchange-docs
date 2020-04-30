@@ -1,7 +1,7 @@
 ---
 title: "Error (POX)"
 manager: sethgros
-ms.date: 9/17/2015
+ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
 localization_priority: Normal
@@ -25,7 +25,7 @@ The **Error** element contains an Autodiscover error response.
   
 [Error (POX)](error-pox.md)
   
-```
+```xml
 <Error Time="" Id="">
    <ErrorCode/>
    <Message/>
@@ -37,14 +37,14 @@ The **Error** element contains an Autodiscover error response.
 
 The following sections describe attributes, child elements, and parent elements.
   
-#### Attributes
+### Attributes
 
 |**Attribute**|**Description**|
 |:-----|:-----|
 |Time  <br/> |Represents the time when the error response was returned.  <br/> |
 |Id  <br/> |Represents a hash of the name of the computer that is running Microsoft Exchange Server 2007 that has the Client Access server role installed.  <br/> |
    
-#### Child elements
+### Child elements
 
 |**Element**|**Description**|
 |:-----|:-----|
@@ -52,7 +52,7 @@ The following sections describe attributes, child elements, and parent elements.
 |[Message (POX)](message-pox.md) <br/> |Contains the error message for an error Autodiscover response.  <br/> |
 |[DebugData (POX)](debugdata-pox.md) <br/> |Contains the debug data for an error Autodiscover response.  <br/> |
    
-#### Parent elements
+### Parent elements
 
 |**Element**|**Description**|
 |:-----|:-----|
@@ -60,7 +60,7 @@ The following sections describe attributes, child elements, and parent elements.
    
 ## See also
 
-#### Concepts
+
 
 [POX Autodiscover XML elements for Exchange](pox-autodiscover-xml-elements-for-exchange.md)
 

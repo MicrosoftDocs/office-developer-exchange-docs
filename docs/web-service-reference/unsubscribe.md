@@ -3,7 +3,7 @@ title: "Unsubscribe"
  
  
 manager: sethgros
-ms.date: 9/17/2015
+ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
@@ -22,7 +22,7 @@ The **Unsubscribe** element contains the properties used to unsubscribe from a s
   
 [Unsubscribe](unsubscribe.md)
   
-```
+```xml
 <Unsubscribe>
    <SubscriptionId/>
 </Unsubscribe>
@@ -33,17 +33,17 @@ The **Unsubscribe** element contains the properties used to unsubscribe from a s
 
 The following sections describe attributes, child elements, and parent elements.
   
-#### Attributes
+### Attributes
 
 None.
   
-#### Child elements
+### Child elements
 
 |**Element**|**Description**|
 |:-----|:-----|
 |[SubscriptionId (GetEvents)](subscriptionid-getevents.md) <br/> |Represents the identifier for a subscription.  <br/> |
    
-#### Parent elements
+### Parent elements
 
 None.
   
@@ -55,14 +55,14 @@ The schema that describes this element is located in the EWS virtual directory o
 
 |||
 |:-----|:-----|
-|Namespace  <br/> |http://schemas.microsoft.com/exchange/services/2006/messages  <br/> |
+|Namespace  <br/> |https://schemas.microsoft.com/exchange/services/2006/messages  <br/> |
 |Schema name  <br/> |Messages schema  <br/> |
 |Validation file  <br/> |Messages.xsd  <br/> |
 |Can be empty  <br/> |False  <br/> |
    
 ## See also
 
-#### Reference
+
 
 [Subscribe operation](subscribe-operation.md)
   

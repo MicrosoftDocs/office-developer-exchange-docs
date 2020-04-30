@@ -3,7 +3,7 @@ title: "UpdateItem operation (task)"
  
  
 manager: sethgros
-ms.date: 9/17/2015
+ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
@@ -40,7 +40,7 @@ For nonrecurring tasks or for the last occurrence of a recurring task, the Updat
   
 ## See also
 
-#### Reference
+
 
 [UpdateItem operation](updateitem-operation.md)
 

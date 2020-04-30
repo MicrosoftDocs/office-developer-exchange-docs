@@ -1,18 +1,14 @@
 ---
-title: "How to Perform an AQS search by using EWS in Exchange"
- 
- 
+title: "Perform an AQS search by using EWS in Exchange"
 manager: sethgros
-ms.date: 9/17/2015
+ms.date: 09/17/2015
 ms.audience: Developer
- 
- 
-localization_priority: Normal
 ms.assetid: c136901a-313e-4adf-a223-1d090d16917a
 description: "Find out how to search with query strings and AQS in your EWS Managed API or EWS application."
+localization_priority: Priority
 ---
 
-# How to: Perform an AQS search by using EWS in Exchange
+# Perform an AQS search by using EWS in Exchange
 
 Find out how to search with query strings and AQS in your EWS Managed API or EWS application.
   
@@ -31,9 +27,7 @@ Query strings provide an alternative to [search filters](how-to-use-search-filte
 
 Query strings in the EWS Managed API and EWS are interpreted as a subset of AQS syntax. AQS strings are composed of either values or keyword/value pairs, separated by a colon (:).
   
-```
-keyword:value
-```
+`keyword:value`
 
 When a value is specified without a keyword, all indexed properties are searched for the value. If a keyword is paired with a value, the keyword specifies a property to search for the corresponding value.
   
@@ -89,28 +83,17 @@ If you enclose multiple words in quotation marks, they are treated as a single p
 
 You can use the following item type values with the **kind** keyword to limit your search results to only a specific type of item, such as email or meeting requests: 
   
-- contacts
-    
-- docs
-    
-- email
-    
-- faxes
-    
-- im (corresponds to instant messages)
-    
-- journals
-    
-- meetings (corresponds to appointments and meeting requests)
-    
-- notes
-    
-- posts
-    
-- rssfeeds
-    
-- tasks
-    
+- contacts    
+- docs    
+- email    
+- faxes    
+- im (corresponds to instant messages)    
+- journals    
+- meetings (corresponds to appointments and meeting requests)    
+- notes    
+- posts    
+- rssfeeds    
+- tasks    
 - voicemail
     
 ### Using a date value type
@@ -123,20 +106,13 @@ Using the names of the days of the week is also an option. Searching with receiv
   
 Date value types also support a set of keywords for searches relative to the current time. The following keywords are supported:
   
-- today
-    
+- today  
 - tomorrow
-    
 - yesterday
-    
-- this week
-    
-- last week
-    
-- next month
-    
-- past month
-    
+- this week    
+- last week    
+- next month    
+- past month    
 - coming year
     
 Date value types can also be compared with relational operators like greater than or less than, or specified as a range with the range operator **..**. For example, received:\>11/30/2013, sent:\>=yesterday, and received:12/1/2013..today are all valid query strings. 
@@ -178,7 +154,7 @@ The default operator when multiple criteria are specified but no logical operato
 ## Example: Find items by using a query string and the EWS Managed API
 <a name="bk_ExampleEWSMA"> </a>
 
-In this example, a method called **SearchWithQueryString** is defined. It takes an [ExchangeService](http://msdn.microsoft.com/en-us/library/microsoft.exchange.webservices.data.exchangeservice%28v=exchg.80%29.aspx) object, a [WellKnownFolderName](http://msdn.microsoft.com/en-us/library/microsoft.exchange.webservices.data.wellknownfoldername%28v=exchg.80%29.aspx) object, and a **string** object that represents the query string as parameters. This example assumes that the **ExchangeService** object has been initialized with valid values in the [Credentials](http://msdn.microsoft.com/en-us/library/microsoft.exchange.webservices.data.exchangeservicebase.credentials%28v=exchg.80%29.aspx) and [Url](http://msdn.microsoft.com/en-us/library/microsoft.exchange.webservices.data.exchangeservice.url%28v=exchg.80%29.aspx) properties. 
+In this example, a method called **SearchWithQueryString** is defined. It takes an [ExchangeService](https://msdn.microsoft.com/library/microsoft.exchange.webservices.data.exchangeservice%28v=exchg.80%29.aspx) object, a [WellKnownFolderName](https://msdn.microsoft.com/library/microsoft.exchange.webservices.data.wellknownfoldername%28v=exchg.80%29.aspx) object, and a **string** object that represents the query string as parameters. This example assumes that the **ExchangeService** object has been initialized with valid values in the [Credentials](https://msdn.microsoft.com/library/microsoft.exchange.webservices.data.exchangeservicebase.credentials%28v=exchg.80%29.aspx) and [Url](https://msdn.microsoft.com/library/microsoft.exchange.webservices.data.exchangeservice.url%28v=exchg.80%29.aspx) properties. 
   
 ```cs
 using Microsoft.Exchange.WebServices.Data;
@@ -230,14 +206,14 @@ SearchWithQueryString(service, WellKnownFolderName.Inbox, queryString);
 ## Example: Find items by using a query string and EWS
 <a name="bk_ExampleEWS"> </a>
 
-In this example, a SOAP [FindItem](http://msdn.microsoft.com/library/ebad6aae-16e7-44de-ae63-a95b24539729%28Office.15%29.aspx) request finds all items in the Inbox with the phrase "project plan" in the subject. 
+In this example, a SOAP [FindItem](https://msdn.microsoft.com/library/ebad6aae-16e7-44de-ae63-a95b24539729%28Office.15%29.aspx) request finds all items in the Inbox with the phrase "project plan" in the subject. 
   
 ```XML
 <?xml version="1.0" encoding="utf-8"?>
 <soap:Envelope xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
-    xmlns:m="http://schemas.microsoft.com/exchange/services/2006/messages" 
-    xmlns:t="http://schemas.microsoft.com/exchange/services/2006/types" 
-    xmlns:soap="http://schemas.xmlsoap.org/soap/envelope/">
+    xmlns:m="https://schemas.microsoft.com/exchange/services/2006/messages" 
+    xmlns:t="https://schemas.microsoft.com/exchange/services/2006/types" 
+    xmlns:soap="https://schemas.xmlsoap.org/soap/envelope/">
   <soap:Header>
     <t:RequestServerVersion Version="Exchange2013" />
   </soap:Header>
@@ -272,16 +248,16 @@ The following example shows the response from the server with the search results
   
 ```XML
 <?xml version="1.0" encoding="utf-8"?>
-<s:Envelope xmlns:s="http://schemas.xmlsoap.org/soap/envelope/">
+<s:Envelope xmlns:s="https://schemas.xmlsoap.org/soap/envelope/">
   <s:Header>
     <h:ServerVersionInfo MajorVersion="15" MinorVersion="0" MajorBuildNumber="712" MinorBuildNumber="22" Version="V2_3" 
-        xmlns:h="http://schemas.microsoft.com/exchange/services/2006/types" 
-        xmlns="http://schemas.microsoft.com/exchange/services/2006/types" 
+        xmlns:h="https://schemas.microsoft.com/exchange/services/2006/types" 
+        xmlns="https://schemas.microsoft.com/exchange/services/2006/types" 
         xmlns:xsd="http://www.w3.org/2001/XMLSchema" 
         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" />
   </s:Header>
   <s:Body xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
-    <m:FindItemResponse xmlns:m="http://schemas.microsoft.com/exchange/services/2006/messages" xmlns:t="http://schemas.microsoft.com/exchange/services/2006/types">
+    <m:FindItemResponse xmlns:m="https://schemas.microsoft.com/exchange/services/2006/messages" xmlns:t="https://schemas.microsoft.com/exchange/services/2006/types">
       <m:ResponseMessages>
         <m:FindItemResponseMessage ResponseClass="Success">
           <m:ResponseCode>NoError</m:ResponseCode>
@@ -304,15 +280,11 @@ The following example shows the response from the server with the search results
 </s:Envelope>
 ```
 
-## Additional resources
-<a name="bk_addresources"> </a>
+## See also
 
-- [Search and EWS in Exchange](search-and-ews-in-exchange.md)
-    
-- [How to: Use search filters with EWS in Exchange](how-to-use-search-filters-with-ews-in-exchange.md)
-    
-- [ExchangeService.FindItems](http://msdn.microsoft.com/en-us/library/microsoft.exchange.webservices.data.exchangeservice.finditems%28v=exchg.80%29.aspx)
-    
-- [FindItem operation](http://msdn.microsoft.com/library/ebad6aae-16e7-44de-ae63-a95b24539729%28Office.15%29.aspx)
+- [Search and EWS in Exchange](search-and-ews-in-exchange.md)    
+- [Use search filters with EWS in Exchange](how-to-use-search-filters-with-ews-in-exchange.md)    
+- [ExchangeService.FindItems](https://msdn.microsoft.com/library/microsoft.exchange.webservices.data.exchangeservice.finditems%28v=exchg.80%29.aspx)    
+- [FindItem operation](https://msdn.microsoft.com/library/ebad6aae-16e7-44de-ae63-a95b24539729%28Office.15%29.aspx)
     
 

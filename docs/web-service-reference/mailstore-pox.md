@@ -1,7 +1,7 @@
 ---
 title: "MailStore (POX)"
 manager: sethgros
-ms.date: 9/17/2015
+ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
 localization_priority: Normal
@@ -36,18 +36,18 @@ The **MailStore** element contains the specifications for connecting a client to
 
 The following sections describe attributes, child elements, and parent elements.
   
-#### Attributes
+### Attributes
 
 None.
   
-#### Child elements
+### Child elements
 
 |**Element**|**Description**|
 |:-----|:-----|
 |[ExternalUrl (POX)](externalurl-pox.md) <br/> |Contains the URL that should be used to access the user's mailbox from outside the organization's network by means of the MAPI/HTTP protocol.  <br/> |
 |[InternalUrl (POX)](internalurl-pox.md) <br/> |Contains the URL that should be used to access the user's mailbox from inside the organization's network by means of the MAPI/HTTP protocol.  <br/> |
    
-#### Parent elements
+### Parent elements
 
 |**Element**|**Description**|
 |:-----|:-----|
@@ -61,7 +61,7 @@ The **MailStore** element is available to clients that implement the MAPI/HTTP p
   
 ## See also
 
-#### Concepts
+
 
 [POX Autodiscover XML elements for Exchange](pox-autodiscover-xml-elements-for-exchange.md)
 

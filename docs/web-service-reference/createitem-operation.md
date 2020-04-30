@@ -3,7 +3,7 @@ title: "CreateItem operation"
  
  
 manager: sethgros
-ms.date: 9/17/2015
+ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
@@ -61,7 +61,7 @@ The CreateItem operation also supports additional meeting objects. The following
    
 ## See also
 
-#### Reference
+
 
 [CreateItem operation (calendar item)](createitem-operation-calendar-item.md)
   

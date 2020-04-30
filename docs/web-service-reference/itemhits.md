@@ -3,7 +3,7 @@ title: "ItemHits"
  
  
 manager: sethgros
-ms.date: 9/17/2015
+ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
@@ -25,15 +25,15 @@ The **ItemHits** element identifies how many times a keyword was found.
 
 The following sections describe attributes, child elements, and parent elements.
   
-#### Attributes
+### Attributes
 
 None.
   
-#### Child elements
+### Child elements
 
 None.
   
-#### Parent elements
+### Parent elements
 
 [KeywordStat](keywordstat.md)
   

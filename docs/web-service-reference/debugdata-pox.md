@@ -1,7 +1,7 @@
 ---
 title: "DebugData (POX)"
 manager: sethgros
-ms.date: 9/17/2015
+ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
 localization_priority: Normal
@@ -9,19 +9,16 @@ api_type:
 - schema
 ms.assetid: bf614551-f5b0-4f80-bdac-628f685faee9
 description: "The DebugData element contains the debug data for an Autodiscover error response."
- 
- 
 ---
 
 # DebugData (POX)
 
 The **DebugData** element contains the debug data for an Autodiscover error response. 
   
-[Error (POX)](error-pox.md)
+- [Error (POX)](error-pox.md) 
+- [DebugData (POX)](debugdata-pox.md)
   
-[DebugData (POX)](debugdata-pox.md)
-  
-```
+```xml
 <DebugData/>
 ```
 
@@ -29,15 +26,15 @@ The **DebugData** element contains the debug data for an Autodiscover error resp
 
 The following sections describe attributes, child elements, and parent elements.
   
-#### Attributes
+### Attributes
 
 None.
   
-#### Child elements
+### Child elements
 
 None.
   
-#### Parent elements
+### Parent elements
 
 |**Element**|**Description**|
 |:-----|:-----|
@@ -49,7 +46,5 @@ The text value represents the debug data for an Autodiscover error response.
   
 ## See also
 
-#### Concepts
-
-[POX Autodiscover XML elements for Exchange](pox-autodiscover-xml-elements-for-exchange.md)
+- [POX Autodiscover XML elements for Exchange](pox-autodiscover-xml-elements-for-exchange.md)
 

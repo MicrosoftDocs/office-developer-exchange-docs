@@ -3,13 +3,13 @@ title: "EWS applications and the Exchange architecture"
  
  
 manager: sethgros
-ms.date: 9/17/2015
+ms.date: 09/17/2015
 ms.audience: Developer
  
  
-localization_priority: Normal
 ms.assetid: c10f308a-65bb-4a0b-8fdd-b4a61503f0fd
 description: "Learn about how EWS works within the Exchange architecture, and find out which protocols EWS relies on."
+localization_priority: Priority
 ---
 
 # EWS applications and the Exchange architecture
@@ -80,8 +80,8 @@ In addition, EWS applications must support the following authentication standard
     
 - OAuth 2.0 token authentication, for trusted partner applications and interoperability with Lync Server 2013 and SharePoint Server 2013.
     
-## Additional resources
-<a name="bk_addresources"> </a>
+## See also
+
 
 - [Start using web services in Exchange](start-using-web-services-in-exchange.md)
     

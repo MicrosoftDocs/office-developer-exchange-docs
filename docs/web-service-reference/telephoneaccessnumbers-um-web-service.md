@@ -1,7 +1,7 @@
 ---
 title: "TelephoneAccessNumbers (UM web service)"
 manager: sethgros
-ms.date: 9/17/2015
+ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
 localization_priority: Normal
@@ -23,7 +23,7 @@ The **TelephoneAccessNumbers** element contains a value that is a list of teleph
   
 [TelephoneAccessNumbers (UM web service)](telephoneaccessnumbers-um-web-service.md)
   
-```
+```xml
 <TelephoneAccessNumbers/>
 ```
 
@@ -32,15 +32,15 @@ The **TelephoneAccessNumbers** element contains a value that is a list of teleph
 
 The following sections describe attributes, child elements, and parent elements.
   
-#### Attributes
+### Attributes
 
 None.
   
-#### Child elements
+### Child elements
 
 None.
   
-#### Parent elements
+### Parent elements
 
 |**Element**|**Description**|
 |:-----|:-----|
@@ -54,14 +54,14 @@ A text value is required.
 
 |||
 |:-----|:-----|
-|Namespace  <br/> |http://schemas.microsoft.com/exchange/services/2006/messages  <br/> |
+|Namespace  <br/> |https://schemas.microsoft.com/exchange/services/2006/messages  <br/> |
 |Schema Name  <br/> |Messages  <br/> |
 |Validation File  <br/> |Messages.xsd  <br/> |
 |Can be Empty  <br/> |False  <br/> |
    
 ## See also
 
-#### Reference
+
 
 [GetUMProperties operation (UM web service)](getumproperties-operation-um-web-service.md)
 

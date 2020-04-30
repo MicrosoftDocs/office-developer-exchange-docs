@@ -1,7 +1,7 @@
 ---
 title: "LegacyDN (SOAP)"
 manager: sethgros
-ms.date: 9/17/2015
+ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
 localization_priority: Normal
@@ -9,8 +9,6 @@ api_type:
 - schema
 ms.assetid: 837072fa-1fd9-4288-b826-5e9fdb2ea35c
 description: "The LegacyDN element represents the alternate mailbox legacy distinguished name."
- 
- 
 ---
 
 # LegacyDN (SOAP)
@@ -21,20 +19,21 @@ The **LegacyDN** element represents the alternate mailbox legacy distinguished n
 <LegacyDN/>
 ```
 
- **string**
+**string**
+
 ## Attributes and elements
 
 The following sections describe attributes, child elements, and parent elements.
   
-#### Attributes
+### Attributes
 
 None.
   
-#### Child elements
+### Child elements
 
 None.
   
-#### Parent elements
+### Parent elements
 
 |**Element**|**Description**|
 |:-----|:-----|
@@ -48,14 +47,12 @@ The value of the **LegacyDN** element is the alternate mailbox legacy distinguis
 
 |||
 |:-----|:-----|
-|Namespace  <br/> |http://schemas.microsoft.com/exchange/2010/Autodiscover  <br/> |
+|Namespace  <br/> |https://schemas.microsoft.com/exchange/2010/Autodiscover  <br/> |
 |Schema Name  <br/> |Autodiscover schema  <br/> |
 |Validation File  <br/> |Messages.xsd  <br/> |
 |Can be Empty  <br/> |True  <br/> |
    
 ## See also
 
-#### Reference
-
-[AlternateMailboxCollectionSetting (SOAP)](alternatemailboxcollectionsetting-soap.md)
+- [AlternateMailboxCollectionSetting (SOAP)](alternatemailboxcollectionsetting-soap.md)
 

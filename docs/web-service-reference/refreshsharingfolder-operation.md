@@ -3,7 +3,7 @@ title: "RefreshSharingFolder operation"
  
  
 manager: sethgros
-ms.date: 9/17/2015
+ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
@@ -29,7 +29,7 @@ The **RefreshSharingFolder** operation can use the SOAP headers that are listed 
 |RequestVersion  <br/> |[RequestServerVersion](requestserverversion.md) <br/> |Identifies the schema version for the operation request.  <br/> |
 |ServerVersion  <br/> |[ServerVersionInfo](serverversioninfo.md) <br/> |Identifies the version of the server that responded to the request.  <br/> |
    
-## RefreshSharingFolder Request Example
+## RefreshSharingFolder request example
 
 ### Description
 
@@ -42,20 +42,20 @@ The following example shows how to form a request to refresh the specified local
 <soap:Envelope xmlns:soap="http://schemas.xmlsoap.org/soap/envelope/"
                xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
                xmlns:xsd="http://www.w3.org/2001/XMLSchema"
-               xmlns:m="http://schemas.microsoft.com/exchange/services/2006/messages"
-               xmlns:t="http://schemas.microsoft.com/exchange/services/2006/types">
+               xmlns:m="https://schemas.microsoft.com/exchange/services/2006/messages"
+               xmlns:t="https://schemas.microsoft.com/exchange/services/2006/types">
   <soap:Header>
     <t:RequestServerVersion Version="Exchange2010"/>
   </soap:Header>
   <soap:Body>
-    <RefreshSharingFolder xmlns="http://schemas.microsoft.com/exchange/services/2006/messages">
+    <RefreshSharingFolder xmlns="https://schemas.microsoft.com/exchange/services/2006/messages">
       <m:SharingFolderId Id="AAMkAD=" ChangeKey="AwAAA=" />
     </RefreshSharingFolder>
   </soap:Body>
 </soap:Envelope>
 ```
 
-### Request Elements
+### Request elements
 
 The following elements are used in the request:
   
@@ -84,20 +84,20 @@ The following example shows a successful response to a **RefreshSharingFolder** 
                          MajorBuildNumber="639" 
                          MinorBuildNumber="11" 
                          Version="Exchange2010" 
-                         xmlns:t="http://schemas.microsoft.com/exchange/services/2006/types" />
+                         xmlns:t="https://schemas.microsoft.com/exchange/services/2006/types" />
   </soap:Header>
   <soap:Body>
     <RefreshSharingFolderResponseMessage ResponseClass="Success"
-                                xmlns:t="http://schemas.microsoft.com/exchange/services/2006/types"
-                                xmlns:m="http://schemas.microsoft.com/exchange/services/2006/messages"
-                                xmlns="http://schemas.microsoft.com/exchange/services/2006/messages">
+                                xmlns:t="https://schemas.microsoft.com/exchange/services/2006/types"
+                                xmlns:m="https://schemas.microsoft.com/exchange/services/2006/messages"
+                                xmlns="https://schemas.microsoft.com/exchange/services/2006/messages">
       <m:ResponseCode>NoError</m:ResponseCode>
     </RefreshSharingFolderResponseMessage>
   </soap:Body>
 </soap:Envelope>
 ```
 
-### Successful Response Elements
+### Successful response elements
 
 The following elements are used in the response:
   
@@ -107,7 +107,7 @@ The following elements are used in the response:
     
 - [ResponseCode](responsecode.md)
     
-## RefreshSharingFolder Error Response
+## RefreshSharingFolder error response
 
 ### Description
 
@@ -126,13 +126,13 @@ The following example shows an error response to a **RefreshSharingFolder** requ
                          MajorBuildNumber="639" 
                          MinorBuildNumber="11" 
                          Version="Exchange2010" 
-                         xmlns:t="http://schemas.microsoft.com/exchange/services/2006/types" />
+                         xmlns:t="https://schemas.microsoft.com/exchange/services/2006/types" />
   </soap:Header>
   <soap:Body>
     <RefreshSharingFolderResponseMessage ResponseClass="Error"
-                                xmlns:t="http://schemas.microsoft.com/exchange/services/2006/types"
-                                xmlns:m="http://schemas.microsoft.com/exchange/services/2006/messages"
-                                xmlns="http://schemas.microsoft.com/exchange/services/2006/messages">
+                                xmlns:t="https://schemas.microsoft.com/exchange/services/2006/types"
+                                xmlns:m="https://schemas.microsoft.com/exchange/services/2006/messages"
+                                xmlns="https://schemas.microsoft.com/exchange/services/2006/messages">
       <m:MessageText>Failed to synchronize the sharing folder.</m:MessageText>
       <m:ResponseCode>ErrorSharingSynchronizationFailed</m:ResponseCode>
       <m:DescriptiveLinkKey>0</m:DescriptiveLinkKey>
@@ -144,7 +144,7 @@ The following example shows an error response to a **RefreshSharingFolder** requ
 </soap:Envelope>
 ```
 
-### Error Response Elements
+### Error response elements
 
 The following elements are used in the error response:
   
@@ -162,7 +162,7 @@ The following elements are used in the error response:
     
 ## See also
 
-#### Reference
+
 
 [RefreshSharingFolder](refreshsharingfolder.md)
   
@@ -171,9 +171,9 @@ The following elements are used in the error response:
 [RefreshSharingFolderResponseMessage](refreshsharingfolderresponsemessage.md)
   
 [RefreshSharingFolderResponseMessageType](https://msdn.microsoft.com/library/ExchangeWebServices.RefreshSharingFolderResponseMessageType.aspx)
-#### Concepts
+
 
 [EWS operations in Exchange](ews-operations-in-exchange.md)
   
-[EWS XML elements in Exchange](ews-xml-elements-in-exchange.md)
+- [EWS XML elements in Exchange](ews-xml-elements-in-exchange.md)
 

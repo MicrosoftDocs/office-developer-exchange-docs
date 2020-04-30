@@ -1,9 +1,7 @@
 ---
 title: "Updates (Folder)"
- 
- 
 manager: sethgros
-ms.date: 9/17/2015
+ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
@@ -20,15 +18,15 @@ description: "The Updates element contains a set of elements that define append,
 
 The **Updates** element contains a set of elements that define append, set, and delete changes to folder properties. 
   
-[UpdateFolder](updatefolder.md)
+- [UpdateFolder](updatefolder.md)
   
-[FolderChanges](folderchanges.md)
+- [FolderChanges](folderchanges.md)
   
-[FolderChange](folderchange.md)
+- [FolderChange](folderchange.md)
   
-[Updates (Folder)](updates-folder.md)
+- [Updates (Folder)](updates-folder.md)
   
-```
+```xml
 <Updates>
    <AppendToFolderField/>
    <SetFolderField/>
@@ -36,16 +34,17 @@ The **Updates** element contains a set of elements that define append, set, and 
 </Updates>
 ```
 
- **NonEmptyArrayOfFolderChangeDescriptionsType**
+**NonEmptyArrayOfFolderChangeDescriptionsType**
+
 ## Attributes and elements
 
 The following sections describe attributes, child elements, and parent elements.
   
-#### Attributes
+### Attributes
 
 None.
   
-#### Child elements
+### Child elements
 
 |**Element**|**Description**|
 |:-----|:-----|
@@ -53,7 +52,7 @@ None.
 |[SetFolderField](setfolderfield.md) <br/> |Represents an update to a single property on a folder in an [UpdateFolder operation](updatefolder-operation.md).  <br/> |
 |[DeleteFolderField](deletefolderfield.md) <br/> |Represents an operation to delete a given property from a folder during an [UpdateFolder operation](updatefolder-operation.md).  <br/> |
    
-#### Parent elements
+### Parent elements
 
 |**Element**|**Description**|
 |:-----|:-----|
@@ -67,17 +66,13 @@ The schema that describes this element is located in the EWS virtual directory o
 
 |||
 |:-----|:-----|
-|Namespace  <br/> |http://schemas.microsoft.com/exchange/services/2006/types  <br/> |
+|Namespace  <br/> |https://schemas.microsoft.com/exchange/services/2006/types  <br/> |
 |Schema Name  <br/> |Types schema  <br/> |
 |Validation File  <br/> |Types.xsd  <br/> |
 |Can be Empty  <br/> |False  <br/> |
    
 ## See also
 
-#### Reference
-
-[UpdateFolder operation](updatefolder-operation.md)
-#### Concepts
-
-[EWS XML elements in Exchange](ews-xml-elements-in-exchange.md)
+- [UpdateFolder operation](updatefolder-operation.md)
+- [EWS XML elements in Exchange](ews-xml-elements-in-exchange.md)
 

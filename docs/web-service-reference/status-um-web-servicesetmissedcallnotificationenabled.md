@@ -1,7 +1,7 @@
 ---
 title: "Status (UM web service - SetMissedCallNotificationEnabled)"
 manager: sethgros
-ms.date: 9/17/2015
+ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
 localization_priority: Normal
@@ -23,7 +23,7 @@ The **Status** element defines the value to use in a [SetMissedCallNotificationE
   
 [Status (UM web service - SetMissedCallNotificationEnabled)](status-um-web-servicesetmissedcallnotificationenabled.md)
   
-```
+```xml
 <SetMissedCallNotificationEnabled>
   <status/>
 </SetMissedCallNotificationEnabled>
@@ -34,15 +34,15 @@ The **Status** element defines the value to use in a [SetMissedCallNotificationE
 
 The following sections describe attributes, child elements, and parent elements.
   
-#### Attributes
+### Attributes
 
 None.
   
-#### Child elements
+### Child elements
 
 None.
   
-#### Parent elements
+### Parent elements
 
 |**Element**|**Description**|
 |:-----|:-----|
@@ -60,14 +60,14 @@ A Boolean text value is required. The following are the possible values:
 
 |||
 |:-----|:-----|
-|Namespace  <br/> |http://schemas.microsoft.com/exchange/services/2006/messages  <br/> |
+|Namespace  <br/> |https://schemas.microsoft.com/exchange/services/2006/messages  <br/> |
 |Schema Name  <br/> |Messages  <br/> |
 |Validation File  <br/> |Messages.xsd  <br/> |
 |Can be Empty  <br/> |False  <br/> |
    
 ## See also
 
-#### Reference
+
 
 [SetMissedCallNotificationEnabled operation (UM web service)](setmissedcallnotificationenabled-operation-um-web-service.md)
 

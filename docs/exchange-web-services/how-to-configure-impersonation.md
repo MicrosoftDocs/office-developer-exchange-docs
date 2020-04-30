@@ -1,36 +1,32 @@
 ---
-title: "How to Configure impersonation"
- 
- 
+title: "Configure impersonation"
 manager: sethgros
 ms.date: 11/16/2014
 ms.audience: Developer
- 
- 
-localization_priority: Normal
 ms.assetid: efcef39f-e26d-4eed-95ac-36a5bf8c089f
 description: "Learn how to grant the impersonation role to a service account by using the Exchange Management Shell."
+localization_priority: Priority
 ---
 
-# How to: Configure impersonation
+# Configure impersonation
 
 Learn how to grant the impersonation role to a service account by using the Exchange Management Shell. 
   
 Impersonation enables a caller, such as a service application, to impersonate a user account. The caller can perform operations by using the permissions that are associated with the impersonated account instead of the permissions associated with the caller's account.
   
-Exchange Online, Exchange Online as part of Office 365, and versions of Exchange starting with Exchange 2013 use role-based access control (RBAC) to assign permissions to accounts. Your Exchange server administrator will need to grant any service account that will be impersonating other users the **ApplicationImpersonation** role by using the [New-ManagementRoleAssignment](http://msdn.microsoft.com/library/34d4f2e3-f2c5-49e1-a6a9-1366da65a78c.aspx) cmdlet. 
+Exchange Online, Exchange Online as part of Office 365, and versions of Exchange starting with Exchange 2013 use role-based access control (RBAC) to assign permissions to accounts. Your Exchange server administrator will need to grant any service account that will be impersonating other users the **ApplicationImpersonation** role by using the [New-ManagementRoleAssignment](https://msdn.microsoft.com/library/34d4f2e3-f2c5-49e1-a6a9-1366da65a78c.aspx) cmdlet. 
   
 ## Configuring the ApplicationImpersonation role
 
 When you or your Exchanger server administrator assigns the **ApplicationImpersonation** role, use the following parameters of the **New-ManagementRoleAssignment** cmdlet: 
   
--  _Name_ — The friendly name of the role assignment. Each time that you assign a role, an entry is made in the RBAC roles list. You can verify role assignments by using the [Get-ManagementRoleAssignment](http://msdn.microsoft.com/library/a3a6ee46-061b-444a-8639-43a416309445.aspx) cmdlet. 
+-  _Name_ &ndash; The friendly name of the role assignment. Each time that you assign a role, an entry is made in the RBAC roles list. You can verify role assignments by using the [Get-ManagementRoleAssignment](https://msdn.microsoft.com/library/a3a6ee46-061b-444a-8639-43a416309445.aspx) cmdlet. 
     
--  _Role_ — The RBAC role to assign. When you set up impersonation, you assign the **ApplicationImpersonation** role. 
+-  _Role_ &ndash; The RBAC role to assign. When you set up impersonation, you assign the **ApplicationImpersonation** role. 
     
--  _User_ — The service account. 
+-  _User_ &ndash; The service account. 
     
--  _CustomRecipientScope_ — The scope of users that the service account can impersonate. The service account will only be allowed to impersonate other users within the specified scope. If no scope is specified, the service account is granted the **ApplicationImpersonation** role over all users in an organization. You can create custom management scopes by using the [New-ManagementScope](http://msdn.microsoft.com/library/1ea1f474-69d6-48c0-9beb-bfa4442c5dab.aspx) cmdlet. 
+-  _CustomRecipientScope_ &ndash; The scope of users that the service account can impersonate. The service account will only be allowed to impersonate other users within the specified scope. If no scope is specified, the service account is granted the **ApplicationImpersonation** role over all users in an organization. You can create custom management scopes by using the [New-ManagementScope](https://msdn.microsoft.com/library/1ea1f474-69d6-48c0-9beb-bfa4442c5dab.aspx) cmdlet. 
     
 Before you can configure impersonation, you need:
   
@@ -46,9 +42,9 @@ Before you can configure impersonation, you need:
     
 2. Run the **New-ManagementRoleAssignment** cmdlet to add the impersonation permission to the specified user. The following example shows how to configure impersonation to enable a service account to impersonate all other users in an organization. 
     
-  ```
-  New-ManagementRoleAssignment -name:impersonationAssignmentName -Role:ApplicationImpersonation -User:serviceAccount 
-  ```
+   ```powershell
+   New-ManagementRoleAssignment -name:impersonationAssignmentName -Role:ApplicationImpersonation -User:serviceAccount 
+   ```
 
 ### To configure impersonation for specific users or groups of users
 
@@ -56,36 +52,31 @@ Before you can configure impersonation, you need:
     
 2. Run the **New-ManagementScope** cmdlet to create a scope to which the impersonation role can be assigned. If an existing scope is available, you can skip this step. The following example shows how to create a management scope for a specific group. 
     
-  ```
-  New-ManagementScope -Name:scopeName -RecipientRestrictionFilter:recipientFilter
-  ```
+   ```powershell
+    New-ManagementScope -Name:scopeName -RecipientRestrictionFilter:recipientFilter
+   ```
 
-    The  _RecipientRestrictionFilter_ parameter of the **New-ManagementScope** cmdlet defines the members of the scope. You can use the properties of the **Identity** object to create the filter. The following example is a filter that restricts the result to a single user with the user name "john." 
+   The _RecipientRestrictionFilter_ parameter of the **New-ManagementScope** cmdlet defines the members of the scope. You can use the properties of the **Identity** object to create the filter. The following example is a filter that restricts the result to a single user with the user name "john." 
     
-  ```
-  Name -eq "john"
-  ```
+   ```powershell
+   Name -eq "john"
+   ```
 
 3. Run the **New-ManagementRoleAssignment** cmdlet to add the permission to impersonate the members of the specified scope. The following example shows how to configure a service account to impersonate all users in a scope. 
     
-  ```
-  New-ManagementRoleAssignment -Name:impersonationAssignmentName -Role:ApplicationImpersonation -User:serviceAccount -CustomRecipientWriteScope:scopeName
-  
-  ```
+   ```powershell
+    New-ManagementRoleAssignment -Name:impersonationAssignmentName -Role:ApplicationImpersonation -User:serviceAccount -CustomRecipientWriteScope:scopeName
+    
+   ```
 
-## 
 
-After your administrator grants impersonation permissions, you can use the service account to make calls against other users' accounts. You can verify role assignments by using the [Get-ManagementRoleAssignment](http://msdn.microsoft.com/library/a3a6ee46-061b-444a-8639-43a416309445.aspx) cmdlet. 
+After your administrator grants impersonation permissions, you can use the service account to make calls against other users' accounts. You can verify role assignments by using the [Get-ManagementRoleAssignment](https://msdn.microsoft.com/library/a3a6ee46-061b-444a-8639-43a416309445.aspx) cmdlet. 
   
-## Additional resources
-<a name="bk_addresources"> </a>
+## See also
 
 - [Impersonation and EWS in Exchange](impersonation-and-ews-in-exchange.md)
-    
-- [ApplicationImpersonation role](http://technet.microsoft.com/en-us/library/dd776119%28v=exchg.150%29.aspx)
-    
-- [New-ManagementRoleAssignment](http://msdn.microsoft.com/library/34d4f2e3-f2c5-49e1-a6a9-1366da65a78c.aspx)
-    
-- [Get-ManagementRoleAssignment](http://msdn.microsoft.com/library/a3a6ee46-061b-444a-8639-43a416309445.aspx)
+- [ApplicationImpersonation role](https://technet.microsoft.com/library/dd776119%28v=exchg.150%29.aspx)   
+- [New-ManagementRoleAssignment](https://msdn.microsoft.com/library/34d4f2e3-f2c5-49e1-a6a9-1366da65a78c.aspx)    
+- [Get-ManagementRoleAssignment](https://msdn.microsoft.com/library/a3a6ee46-061b-444a-8639-43a416309445.aspx)
     
 

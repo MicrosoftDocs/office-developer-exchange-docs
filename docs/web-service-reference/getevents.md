@@ -3,7 +3,7 @@ title: "GetEvents"
  
  
 manager: sethgros
-ms.date: 9/17/2015
+ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
@@ -22,7 +22,7 @@ The **GetEvents** element represents the operation used by pull clients to reque
   
 [GetEvents](getevents.md)
   
-```
+```xml
 <GetEvents>
    <SubscriptionId/>
    <Watermark/>
@@ -34,18 +34,18 @@ The **GetEvents** element represents the operation used by pull clients to reque
 
 The following sections describe attributes, child elements, and parent elements.
   
-#### Attributes
+### Attributes
 
 None.
   
-#### Child elements
+### Child elements
 
 |**Element**|**Description**|
 |:-----|:-----|
 |[SubscriptionId (GetEvents)](subscriptionid-getevents.md) <br/> |Represents the identifier for a subscription that is queried for events.  <br/> |
 |[Watermark](watermark.md) <br/> |Represents the last watermark returned to the client. If GetEvents has not been called for this subscription, the client uses the watermark returned from the Subscribe request. Otherwise, the watermark from the last event in the last GetEvents response is used.  <br/> |
    
-#### Parent elements
+### Parent elements
 
 None.
   
@@ -57,14 +57,14 @@ The schema that describes this element is located in the EWS virtual directory o
 
 |||
 |:-----|:-----|
-|Namespace  <br/> |http://schemas.microsoft.com/exchange/services/2006/messages  <br/> |
+|Namespace  <br/> |https://schemas.microsoft.com/exchange/services/2006/messages  <br/> |
 |Schema name  <br/> |Messages schema  <br/> |
 |Validation file  <br/> |Messages.xsd  <br/> |
 |Can be empty  <br/> |false  <br/> |
    
 ## See also
 
-#### Reference
+
 
 [Subscribe operation](subscribe-operation.md)
   

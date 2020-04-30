@@ -1,9 +1,7 @@
 ---
 title: "ParentFolderId (TargetFolderIdType)"
- 
- 
 manager: sethgros
-ms.date: 9/17/2015
+ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
@@ -20,29 +18,36 @@ description: "The ParentFolderId element identifies the folder in which a new fo
 
 The **ParentFolderId** element identifies the folder in which a new folder is created or the folder to search for the [FindConversation operation](findconversation-operation.md).
   
-```
+```xml
 <ParentFolderId>
    <DistinguishedFolderId/>
 </ParentFolderId>
 ```
 
- **TargetFolderIdType**
+```xml
+<ParentFolderId>
+   <FolderId/> 
+</ParentFolderId>
+```
+
+**TargetFolderIdType**
+
 ## Attributes and elements
 
 The **ParentFolderId** element contains two child elements. The child elements are mutually exclusive in the schema. 
   
-#### Attributes
+### Attributes
 
 None.
   
-#### Child elements
+### Child elements
 
 |**Element**|**Description**|
 |:-----|:-----|
 |[FolderId](folderid.md) <br/> |Contains the required identifier and the optional change key of a folder in which a new folder is created or the folder that is searched for the [FindConversation operation](findconversation-operation.md). Using this element excludes the use of the [DistinguishedFolderId](distinguishedfolderid.md) element.  <br/> |
 |[DistinguishedFolderId](distinguishedfolderid.md) <br/> |Identifies default Microsoft Exchange Server 2007 folders. Using this element excludes the use of the [FolderId](folderid.md) element.  <br/> |
    
-#### Parent elements
+### Parent elements
 
 |**Element**|**Description**|
 |:-----|:-----|
@@ -65,19 +70,14 @@ The schema that describes this element is located in the IIS virtual directory t
 
 |||
 |:-----|:-----|
-|Namespace  <br/> |http://schemas.microsoft.com/exchange/services/2006/messages  <br/> |
+|Namespace  <br/> |https://schemas.microsoft.com/exchange/services/2006/messages  <br/> |
 |Schema Name  <br/> |Message schema  <br/> |
 |Validation File  <br/> |Messages.xsd  <br/> |
 |Can be Empty  <br/> |False  <br/> |
    
 ## See also
 
-#### Reference
-
-[CreateFolder operation](createfolder-operation.md)
-  
-[FindConversation operation](findconversation-operation.md)
-#### Other resources
-
-[Creating Folders (Exchange Web Services)](http://msdn.microsoft.com/library/3b15b0ec-8691-45ed-9a24-a91ff732d6cf%28Office.15%29.aspx)
+- [CreateFolder operation](createfolder-operation.md)
+- [FindConversation operation](findconversation-operation.md)
+- [Creating Folders (Exchange Web Services)](https://msdn.microsoft.com/library/3b15b0ec-8691-45ed-9a24-a91ff732d6cf%28Office.15%29.aspx)
 

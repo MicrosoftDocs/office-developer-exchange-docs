@@ -3,7 +3,7 @@ title: "CreateItem operation (meeting request)"
  
  
 manager: sethgros
-ms.date: 9/17/2015
+ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
@@ -24,7 +24,7 @@ The CreateItem operation is used to respond to meeting requests.
 
 The CreateItem operation provides three options for responding to a meeting request: accept, tentatively accept, or decline. 
   
-## Accept Meeting Request Example
+## Accept Meeting request example
 
 ### Description
 
@@ -35,12 +35,12 @@ The following example shows how to accept a meeting request invitation.
 ```XML
 <?xml version="1.0" encoding="utf-8"?>
 <soap:Envelope xmlns:soap="http://schemas.xmlsoap.org/soap/envelope/"
-               xmlns:t="http://schemas.microsoft.com/exchange/services/2006/types">
+               xmlns:t="https://schemas.microsoft.com/exchange/services/2006/types">
   <soap:Body>
-    <CreateItem xmlns="http://schemas.microsoft.com/exchange/services/2006/messages"
+    <CreateItem xmlns="https://schemas.microsoft.com/exchange/services/2006/messages"
                 MessageDisposition="SendAndSaveCopy">
       <Items>
-        <AcceptItem xmlns="http://schemas.microsoft.com/exchange/services/2006/types">
+        <AcceptItem xmlns="https://schemas.microsoft.com/exchange/services/2006/types">
           <ReferenceItemId Id="AAAlAFVzZ"
                            ChangeKey="CwAAABYAA"/>
         </AcceptItem>
@@ -68,7 +68,7 @@ The following elements are used in the request:
     
 - [ReferenceItemId](referenceitemid.md)
     
-## Successful Accept Meeting Response Example
+## Successful Accept Meeting response example
 
 ### Description
 
@@ -83,12 +83,12 @@ The following example shows a successful response to the CreateItem request.
                xmlns:xsd="http://www.w3.org/2001/XMLSchema">
   <soap:Header>
     <t:ServerVersionInfo MajorVersion="8" MinorVersion="0" MajorBuildNumber="685" MinorBuildNumber="8" 
-                         xmlns:t="http://schemas.microsoft.com/exchange/services/2006/types" />
+                         xmlns:t="https://schemas.microsoft.com/exchange/services/2006/types" />
   </soap:Header>
   <soap:Body>
-    <CreateItemResponse xmlns:m="http://schemas.microsoft.com/exchange/services/2006/messages" 
-                        xmlns:t="http://schemas.microsoft.com/exchange/services/2006/types" 
-                        xmlns="http://schemas.microsoft.com/exchange/services/2006/messages">
+    <CreateItemResponse xmlns:m="https://schemas.microsoft.com/exchange/services/2006/messages" 
+                        xmlns:t="https://schemas.microsoft.com/exchange/services/2006/types" 
+                        xmlns="https://schemas.microsoft.com/exchange/services/2006/messages">
       <m:ResponseMessages>
         <m:CreateItemResponseMessage ResponseClass="Success">
           <m:ResponseCode>NoError</m:ResponseCode>
@@ -100,7 +100,7 @@ The following example shows a successful response to the CreateItem request.
 </soap:Envelope>
 ```
 
-### Successful Response Elements
+### Successful response elements
 
 The following elements are used in the response:
   
@@ -116,7 +116,7 @@ The following elements are used in the response:
     
 - [Items](items.md)
     
-## Accept Meeting Error Response Example
+## Accept Meeting Error response example
 
 ### Description
 
@@ -131,12 +131,12 @@ The following example shows an error response to CreateItem request. The error i
   xmlns:xsd="http://www.w3.org/2001/XMLSchema">
   <soap:Header>
     <t:ServerVersionInfo MajorVersion="8" MinorVersion="0" MajorBuildNumber="685" MinorBuildNumber="8" 
-                         xmlns:t="http://schemas.microsoft.com/exchange/services/2006/types" />
+                         xmlns:t="https://schemas.microsoft.com/exchange/services/2006/types" />
   </soap:Header>
   <soap:Body>
-    <CreateItemResponse xmlns:m="http://schemas.microsoft.com/exchange/services/2006/messages" 
-                        xmlns:t="http://schemas.microsoft.com/exchange/services/2006/types" 
-                        xmlns="http://schemas.microsoft.com/exchange/services/2006/messages">
+    <CreateItemResponse xmlns:m="https://schemas.microsoft.com/exchange/services/2006/messages" 
+                        xmlns:t="https://schemas.microsoft.com/exchange/services/2006/types" 
+                        xmlns="https://schemas.microsoft.com/exchange/services/2006/messages">
       <m:ResponseMessages>
         <m:CreateItemResponseMessage ResponseClass="Error">
           <m:MessageText>The specified object was not found in the store.</m:MessageText>
@@ -150,7 +150,7 @@ The following example shows an error response to CreateItem request. The error i
 </soap:Envelope>
 ```
 
-### Error Response Elements
+### Error response elements
 
 The following elements are used in the error response:
   
@@ -172,7 +172,7 @@ The following elements are used in the error response:
     
 ## See also
 
-#### Reference
+
 
 [CreateItem operation](createitem-operation.md)
   

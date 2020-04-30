@@ -1,9 +1,7 @@
 ---
 title: "ResponseMessages"
- 
- 
 manager: sethgros
-ms.date: 9/17/2015
+ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
@@ -26,16 +24,288 @@ The **ResponseMessages** element contains the response messages for an Exchange 
 </ResponseMessages>
 ```
 
- **ArrayOfResponseMessagesType**
+```xml
+<ResponseMessages>
+   <DeleteItemResponseMessage/>
+</ResponseMessages>
+```
+
+```xml 
+<ResponseMessages>
+   <GetItemResponseMessage/>
+</ResponseMessages>
+```
+
+```xml 
+<ResponseMessages>
+   <UpdateItemResponseMessage/>
+</ResponseMessages>
+```
+
+```xml 
+<ResponseMessages>
+   <SendItemResponseMessage/>
+</ResponseMessages>
+```
+
+```xml 
+<ResponseMessages>
+   <DeleteFolderResponseMessage/>
+</ResponseMessages>
+```
+
+```xml 
+<ResponseMessages>
+   <EmptyFolderResponseMessage/>
+</ResponseMessages>
+```
+
+```xml 
+<ResponseMessages>
+   <CreateFolderResponseMessage/>
+</ResponseMessages>
+```
+
+```xml 
+<ResponseMessages>
+   <GetFolderResponseMessage/>
+</ResponseMessages>
+```
+
+```xml 
+<ResponseMessages>
+   <FindFolderResponseMessage/>
+</ResponseMessages>
+```
+
+```xml 
+<ResponseMessages>
+   <UpdateFolderResponseMessage/>
+</ResponseMessages>
+```
+
+```xml 
+<ResponseMessages>
+   <MoveFolderResponseMessage/>
+</ResponseMessages>
+```
+
+```xml 
+<ResponseMessages>
+   <CopyFolderResponseMessage/>
+</ResponseMessages>
+```
+
+```xml 
+<ResponseMessages>
+   <CreateAttachmentResponseMessage/>
+</ResponseMessages>
+```
+
+```xml 
+<ResponseMessages>
+   <DeleteAttachmentResponseMessage/>
+</ResponseMessages>
+```
+
+```xml 
+<ResponseMessages>
+   <GetAttachmentResponseMessage/>
+</ResponseMessages>
+```
+
+```xml 
+<ResponseMessages>
+   <UploadItemsResponseMessage/>
+</ResponseMessages>
+```
+
+```xml 
+<ResponseMessages>
+   <ExportItemsResponseMessage/>
+</ResponseMessages>
+```
+
+```xml 
+<ResponseMessages>
+   <FindItemResponseMessage/>
+</ResponseMessages>
+```
+
+```xml 
+<ResponseMessages>
+   <MoveItemResponseMessage/>
+</ResponseMessages>
+```
+
+```xml 
+<ResponseMessages>
+   <CopyItemResponseMessage/>
+</ResponseMessages>
+```
+
+```xml 
+<ResponseMessages>
+   <ResolveNamesResponseMessage/>
+</ResponseMessages>
+```
+
+```xml 
+<ResponseMessages>
+   <ExpandDLResponseMessage/>
+</ResponseMessages>
+```
+
+```xml 
+<ResponseMessages>
+   <GetServerTimeZonesResponseMessage/>
+</ResponseMessages>
+```
+
+```xml 
+<ResponseMessages>
+   <GetEventsResponseMessage/>
+</ResponseMessages>
+```
+
+```xml 
+<ResponseMessages>
+   <GetStreamingEventsResponseMessage/>
+</ResponseMessages>
+```
+
+```xml 
+<ResponseMessages>
+   <SubscribeResponseMessage/>
+</ResponseMessages>
+```
+
+```xml 
+<ResponseMessages>
+   <UnsubscribeResponseMessage/>
+</ResponseMessages>
+```
+
+```xml 
+<ResponseMessages>
+   <SendNotificationResponseMessage/>
+</ResponseMessages>
+```
+
+```xml 
+<ResponseMessages>
+   <SyncFolderHierarchyResponseMessage/>
+</ResponseMessages>
+```
+
+```xml 
+<ResponseMessages>
+   <SyncFolderItemsResponseMessage/>
+</ResponseMessages>
+```
+
+```xml 
+<ResponseMessages>
+   <CreateManagedFolderResponseMessage/>
+</ResponseMessages>
+```
+
+```xml 
+<ResponseMessages>
+   <ConvertIdResponseMessage/>
+</ResponseMessages>
+```
+
+```xml 
+<ResponseMessages>
+   <GetSharingMetadataResponseMessage/>
+</ResponseMessages>
+```
+
+```xml 
+<ResponseMessages>
+   <RefreshSharingFolderResponseMessage/>
+</ResponseMessages>
+```
+
+```xml 
+<ResponseMessages>
+   <GetSharingFolderResponseMessage/>
+</ResponseMessages>
+```
+
+```xml 
+<ResponseMessages>
+   <CreateUserConfigurationResponseMessage/>
+</ResponseMessages>
+```
+
+```xml 
+<ResponseMessages>
+   <DeleteUserConfigurationResponseMessage/>
+</ResponseMessages>
+```
+
+```xml 
+<ResponseMessages>
+   <GetUserConfigurationResponseMessage/>
+</ResponseMessages>
+```
+
+```xml 
+<ResponseMessages>
+   <UpdateUserConfigurationResponseMessage/>
+</ResponseMessages>
+```
+
+```xml 
+<ResponseMessages>
+   <GetRoomListsResponse/>
+</ResponseMessages>
+```
+
+```xml 
+<ResponseMessages>
+   <GetRoomsResponse/>
+</ResponseMessages>
+```
+
+```xml 
+<ResponseMessages>
+   <GetRemindersResponse/>
+</ResponseMessages
+```
+
+```xml 
+<ResponseMessages>
+   <PerformReminderActionResponse/>
+</ResponseMessages>
+```
+
+```xml 
+<ResponseMessages>
+   <ApplyConversationActionResponseMessage/>
+</ResponseMessages>
+```
+
+```xml 
+<ResponseMessages>
+   <GetPasswordExpirationDateResponse />
+</ResponseMessages>
+```
+
+
+**ArrayOfResponseMessagesType**
+
 ## Attributes and elements
 
 The following sections describe attributes, child elements, and parent elements.
   
-#### Attributes
+### Attributes
 
 None.
   
-#### Child elements
+### Child elements
 
 |**Element**|**Description**|
 |:-----|:-----|
@@ -85,7 +355,7 @@ None.
 |[GetServerTimeZonesResponseMessage](getservertimezonesresponsemessage.md) <br/> |Contains the status and result of a single GetServerTimeZones request.  <br/> |
 |[ApplyConversationActionResponseMessage](applyconversationactionresponsemessage.md) <br/> |Contains the status and results of an [ApplyConversationAction operation](applyconversationaction-operation.md) request.  <br/> |
    
-#### Parent elements
+### Parent elements
 
 |**Element**|**Description**|
 |:-----|:-----|
@@ -140,19 +410,14 @@ The schema that describes this element is located in the IIS virtual directory t
 
 |||
 |:-----|:-----|
-|Namespace  <br/> |http://schemas.microsoft.com/exchange/services/2006/messages  <br/> |
+|Namespace  <br/> |https://schemas.microsoft.com/exchange/services/2006/messages  <br/> |
 |Schema Name  <br/> |Messages schema  <br/> |
 |Validation File  <br/> |Messages.xsd  <br/> |
 |Can be Empty  <br/> |False  <br/> |
    
 ## See also
 
-#### Reference
-
-[ExportItems operation](exportitems-operation.md)
-  
-[UploadItems operation](uploaditems-operation.md)
-#### Concepts
-
-[EWS XML elements in Exchange](ews-xml-elements-in-exchange.md)
+- [ExportItems operation](exportitems-operation.md) 
+- [UploadItems operation](uploaditems-operation.md)
+- [EWS XML elements in Exchange](ews-xml-elements-in-exchange.md)
 

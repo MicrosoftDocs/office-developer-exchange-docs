@@ -3,7 +3,7 @@ title: "GroupIdentifier"
  
  
 manager: sethgros
-ms.date: 9/17/2015
+ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
@@ -20,7 +20,7 @@ description: "The GroupIdentifier element represents a single security identifie
 
 The **GroupIdentifier** element represents a single security identifier and attribute for an Active Directory directory service object group of which the account is a member. 
   
-```
+```xml
 <GroupIdentifier>
    <SecurityIdentifier/>
 </GroupIdentifier>
@@ -31,19 +31,19 @@ The **GroupIdentifier** element represents a single security identifier and attr
 
 The following sections describe attributes, child elements, and parent elements.
   
-#### Attributes
+### Attributes
 
 |**Attribute**|**Description**|
 |:-----|:-----|
 |**Attributes** <br/> |Contains group attributes.  <br/> |
    
-#### Child elements
+### Child elements
 
 |**Element**|**Description**|
 |:-----|:-----|
 |[SecurityIdentifier](securityidentifier.md) <br/> |Represents the security descriptor definition language (SDDL) form of a security identifier ([SID](sid.md)) that represents the group.  <br/> |
    
-#### Parent elements
+### Parent elements
 
 |**Element**|**Description**|
 |:-----|:-----|
@@ -57,14 +57,14 @@ The schema that describes this element is located in the EWS virtual directory o
 
 |||
 |:-----|:-----|
-|Namespace  <br/> |http://schemas.microsoft.com/exchange/services/2006/types  <br/> |
+|Namespace  <br/> |https://schemas.microsoft.com/exchange/services/2006/types  <br/> |
 |Schema Name  <br/> |Types schema  <br/> |
 |Validation File  <br/> |Types.xsd  <br/> |
 |Can be Empty  <br/> |False  <br/> |
    
 ## See also
 
-#### Concepts
 
-[EWS XML elements in Exchange](ews-xml-elements-in-exchange.md)
+
+- [EWS XML elements in Exchange](ews-xml-elements-in-exchange.md)
 

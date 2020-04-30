@@ -1,7 +1,7 @@
 ---
 title: "MdbDN (POX)"
 manager: sethgros
-ms.date: 9/17/2015
+ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
 localization_priority: Normal
@@ -27,7 +27,7 @@ The **MdbDN** element represents the distinguished name of the mailbox database.
   
 [MdbDN (POX)](mdbdn-pox.md)
   
-```
+```xml
 <MdbDN/>
 ```
 
@@ -35,15 +35,15 @@ The **MdbDN** element represents the distinguished name of the mailbox database.
 
 The following sections describe attributes, child elements, and parent elements.
   
-#### Attributes
+### Attributes
 
 None.
   
-#### Child elements
+### Child elements
 
 None.
   
-#### Parent elements
+### Parent elements
 
 |**Element**|**Description**|
 |:-----|:-----|
@@ -55,7 +55,7 @@ The text value represents the distinguished name of the mailbox database.
   
 ## See also
 
-#### Concepts
+
 
 [POX Autodiscover XML elements for Exchange](pox-autodiscover-xml-elements-for-exchange.md)
 

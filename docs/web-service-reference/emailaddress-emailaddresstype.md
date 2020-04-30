@@ -1,9 +1,7 @@
 ---
 title: "EmailAddress (EmailAddressType)"
- 
- 
 manager: sethgros
-ms.date: 9/17/2015
+ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
@@ -16,7 +14,7 @@ description: "The EmailAddress element specifies the fully resolved SMTP address
 
 The **EmailAddress** element specifies the fully resolved SMTP address for the site mailbox or the associated persona. 
   
-```
+```xml
 <EmailAddress>
     <Name></Name>
     <EmailAddress></EmailAddress>
@@ -31,11 +29,11 @@ The **EmailAddress** element specifies the fully resolved SMTP address for the s
 
 The following sections describe attributes, child elements, and parent elements.
   
-#### Attributes
+### Attributes
 
 None.
   
-#### Child elements
+### Child elements
 
 |**Element**|**Description**|
 |:-----|:-----|
@@ -45,7 +43,7 @@ None.
 |[MailboxType](mailboxtype.md) <br/> |Represents the type of mailbox that is represented by the e-mail address.  <br/> |
 |[ItemId](itemid.md) <br/> |Contains the unique identifier and change key of an item in the Exchange store.  <br/> |
    
-#### Parent elements
+### Parent elements
 
 |**Element**|**Description**|
 |:-----|:-----|
@@ -65,14 +63,12 @@ The **EmailAddress** element is applicable for clients that target Exchange Onli
 
 |||
 |:-----|:-----|
-|Namespace  <br/> |http://schemas.microsoft.com/exchange/services/2006/types  <br/> |
+|Namespace  <br/> |https://schemas.microsoft.com/exchange/services/2006/types  <br/> |
 |Schema Name  <br/> |Type schema  <br/> |
 |Validation File  <br/> |types.xsd  <br/> |
 |Can Be Empty  <br/> ||
    
 ## See also
 
-#### Concepts
-
-[EWS XML elements in Exchange](ews-xml-elements-in-exchange.md)
+- [EWS XML elements in Exchange](ews-xml-elements-in-exchange.md)
 

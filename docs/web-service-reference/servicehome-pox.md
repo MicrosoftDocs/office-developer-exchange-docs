@@ -1,7 +1,7 @@
 ---
 title: "ServiceHome (POX)"
 manager: sethgros
-ms.date: 9/17/2015
+ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
 localization_priority: Normal
@@ -25,7 +25,7 @@ The **ServiceHome** element contains the URL of the home page of the Internet se
   
 [Image (POX)](image-pox.md)
   
-```
+```xml
 <ServiceHome/>
 ```
 
@@ -33,15 +33,15 @@ The **ServiceHome** element contains the URL of the home page of the Internet se
 
 The following sections describe attributes, child elements, and parent elements.
   
-#### Attributes
+### Attributes
 
 None.
   
-#### Child elements
+### Child elements
 
 None.
   
-#### Parent elements
+### Parent elements
 
 |**Element**|**Description**|
 |:-----|:-----|
@@ -53,7 +53,7 @@ The text value represents the URL of the home page of the ISP.
   
 ## See also
 
-#### Concepts
+
 
 [POX Autodiscover XML elements for Exchange](pox-autodiscover-xml-elements-for-exchange.md)
 

@@ -3,7 +3,7 @@ title: "ItemCount"
  
  
 manager: sethgros
-ms.date: 9/17/2015
+ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
@@ -25,15 +25,15 @@ The **ItemCount** element specifies the total number of items in a search result
 
 The following sections describe attributes, child elements, and parent elements.
   
-#### Attributes
+### Attributes
 
 None.
   
-#### Child elements
+### Child elements
 
 None.
   
-#### Parent elements
+### Parent elements
 
 [SearchMailboxesResult](searchmailboxesresult.md) | [MailboxStat](mailboxstat.md) | [NonIndexableItemStatistic](nonindexableitemstatistic.md)
   

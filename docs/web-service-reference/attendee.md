@@ -1,9 +1,7 @@
 ---
 title: "Attendee"
- 
- 
 manager: sethgros
-ms.date: 9/17/2015
+ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
@@ -20,7 +18,7 @@ description: "The Attendee element represents attendees and resources for a meet
 
 The **Attendee** element represents attendees and resources for a meeting. 
   
-```
+```xml
 <Attendee>
    <Mailbox/>
    <ResponseType/>
@@ -33,19 +31,21 @@ The **Attendee** element represents attendees and resources for a meeting.
 
 The following sections describe attributes, child elements, and parent elements.
   
-#### Attributes
+### Attributes
 
 None.
   
-#### Child elements
+### Child elements
 
 |**Element**|**Description**|
 |:-----|:-----|
 |[Mailbox](mailbox.md) <br/> |Identifies a fully resolved e-mail address.  <br/> |
 |[ResponseType](responsetype.md) <br/> |Represents the type of recipient response that is received for a meeting. This property is only relevant to a meeting organizer's calendar item.  <br/> |
 |[LastResponseTime](lastresponsetime.md) <br/> |Represents the date and time of the latest response that is received.  <br/> |
+|[ProposedStart](proposedstart-attendeetype.md) <br/> |Represents an attendee's proposed start time for a meeting. <br/> |
+|[ProposedEnd](proposedend-attendeetype.md) <br/> |Represents an attendee's proposed end time for a meeting. <br/> |
    
-#### Parent elements
+### Parent elements
 
 |**Element**|**Description**|
 |:-----|:-----|
@@ -61,14 +61,12 @@ The schema that describes this element is located in the EWS virtual directory o
 
 |||
 |:-----|:-----|
-|Namespace  <br/> |http://schemas.microsoft.com/exchange/services/2006/types  <br/> |
+|Namespace  <br/> |https://schemas.microsoft.com/exchange/services/2006/types  <br/> |
 |Schema name  <br/> |Types schema  <br/> |
 |Validation file  <br/> |Types.xsd  <br/> |
 |Can be empty  <br/> |False  <br/> |
    
 ## See also
 
-#### Concepts
-
-[EWS XML elements in Exchange](ews-xml-elements-in-exchange.md)
+- [EWS XML elements in Exchange](ews-xml-elements-in-exchange.md)
 

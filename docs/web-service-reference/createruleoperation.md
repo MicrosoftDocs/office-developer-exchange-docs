@@ -3,7 +3,7 @@ title: "CreateRuleOperation"
  
  
 manager: sethgros
-ms.date: 9/17/2015
+ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
@@ -24,7 +24,7 @@ The **CreateRuleOperation** element represents an operation to create a new Inbo
   
 [Operations](operations.md)
   
-```
+```xml
 <CreateRuleOperation>
     <Rule/>
 </CreateRuleOperation>
@@ -35,17 +35,17 @@ The **CreateRuleOperation** element represents an operation to create a new Inbo
 
 The following sections describe attributes, child elements, and parent elements.
   
-#### Attributes
+### Attributes
 
 None.
   
-#### Child elements
+### Child elements
 
 |**Element**|**Description**|
 |:-----|:-----|
 |[Rule (RuleType)](rule-ruletype.md) <br/> |Represents a rule to be created in a user's mailbox.  <br/> |
    
-#### Parent elements
+### Parent elements
 
 |**Element**|**Description**|
 |:-----|:-----|
@@ -63,21 +63,21 @@ The schema that describes this element is located in the IIS virtual directory t
 
 |||
 |:-----|:-----|
-|Namespace  <br/> |http://schemas.microsoft.com/exchange/services/2006/types  <br/> |
+|Namespace  <br/> |https://schemas.microsoft.com/exchange/services/2006/types  <br/> |
 |Schema Name  <br/> |Types schema  <br/> |
 |Validation File  <br/> |Types.xsd  <br/> |
 |Can be Empty  <br/> |False  <br/> |
    
 ## See also
 
-#### Reference
+
 
 [UpdateInboxRules](updateinboxrules.md)
   
 [SetRuleOperation](setruleoperation.md)
   
 [DeleteRuleOperation](deleteruleoperation.md)
-#### Concepts
 
-[EWS XML elements in Exchange](ews-xml-elements-in-exchange.md)
+
+- [EWS XML elements in Exchange](ews-xml-elements-in-exchange.md)
 

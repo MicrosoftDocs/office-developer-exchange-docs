@@ -1,7 +1,7 @@
 ---
 title: "IPv6End (POX)"
 manager: sethgros
-ms.date: 9/17/2015
+ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
 localization_priority: Normal
@@ -29,7 +29,7 @@ The **IPv6Start** element identifies the end of a range of IP version 6 (IPv6) a
   
 [IPv6End (POX)](ipv6end-pox.md)
   
-```
+```xml
 <IPv6End/>
 ```
 
@@ -37,15 +37,15 @@ The **IPv6Start** element identifies the end of a range of IP version 6 (IPv6) a
 
 The following sections describe attributes, child elements, and parent elements.
   
-#### Attributes
+### Attributes
 
 None.
   
-#### Child elements
+### Child elements
 
 None.
   
-#### Parent elements
+### Parent elements
 
 |**Element**|**Description**|
 |:-----|:-----|
@@ -57,7 +57,7 @@ The text value represents an IPv6 address.
   
 ## See also
 
-#### Concepts
+
 
 [POX Autodiscover XML elements for Exchange](pox-autodiscover-xml-elements-for-exchange.md)
 

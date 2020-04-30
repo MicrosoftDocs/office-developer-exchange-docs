@@ -1,9 +1,7 @@
 ---
 title: "Agents configuration file elements for Exchange 2013"
- 
- 
 manager: sethgros
-ms.date: 9/17/2015
+ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: overview
 ms.prod: office-online-server
@@ -20,15 +18,13 @@ description: "Find information about the XML elements in the agents.config and f
 
 Find information about the XML elements in the agents.config and fetagents.config configuration file in Exchange 2013.
   
- **Last modified:** September 17, 2015 
-  
- * **Applies to:** Exchange Server 2013 * 
+**Applies to:** Exchange Server 2013
   
 When you install the Client Access or the Mailbox server role on an Exchange server, the installer creates an XML file that contains configuration information about agents that are installed on the server. You cannot write directly to this file. 
   
 The Front End Transport service runs on Client Access servers and writes to a file named fetagents.config. The Transport service and the Mailbox Transport service run on Mailbox servers, and write to a file named agents.config. A computer that has both the Client Access server role and the Mailbox server role will have both a fetagents.config and an agents.config file. 
   
-The only supported way to write to these files is by using the transport agent cmdlets in the Exchange Management Shell. For information about the transport agent cmdlets, see [Mail Flow Cmdlets](http://technet.microsoft.com/en-us/library/aa998553%28v=exchg.150%29.aspx) on TechNet. 
+The only supported way to write to these files is by using the transport agent cmdlets in the Exchange Management Shell. For information about the transport agent cmdlets, see [Mail Flow Cmdlets](https://technet.microsoft.com/library/aa998553%28v=exchg.150%29.aspx) on TechNet. 
   
 > [!NOTE]
 > To distinguish between agents that extend the Front End Transport service on the Client Access server and the Transport service on the Mailbox server, transport agent cmdlets have a  _TransportService_ parameter with a value of "Hub" for the Transport service and "FrontEnd" for the Front End Transport service. 
@@ -86,17 +82,12 @@ The following code shows the element hierarchy in the configuration XML file.
     
 - [monitoring](monitoring.md)
     
-## Additional resources
-<a name="bk_elementreflist"> </a>
+## See also
 
-- [Transport agents in Exchange 2013](transport-agents-in-exchange-2013.md)
-    
+- [Transport agents in Exchange](transport-agents-in-exchange-2013.md)
 - [Transport agent concepts in Exchange 2013](transport-agent-concepts-in-exchange-2013.md)
-    
 - [Transport agent reference for Exchange 2013](transport-agent-reference-for-exchange-2013.md)
-    
 - [Transport agent namespaces in Exchange 2013](transport-agent-namespaces-in-exchange-2013.md)
-    
-- [Mail Flow Cmdlets](http://technet.microsoft.com/en-us/library/aa998553%28v=exchg.150%29.aspx)
+- [Mail Flow Cmdlets](https://docs.microsoft.com/powershell/exchange/?view=exchange-ps)
     
 

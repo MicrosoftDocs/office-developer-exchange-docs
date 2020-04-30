@@ -1,9 +1,7 @@
 ---
 title: "DistributionList"
- 
- 
 manager: sethgros
-ms.date: 9/17/2015
+ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
@@ -20,7 +18,7 @@ description: "The DistributionList element represents a distribution list."
 
 The **DistributionList** element represents a distribution list. 
   
-```
+```xml
 <DistributionList>
    <MimeContent/>
    <ItemId/>
@@ -72,11 +70,11 @@ The **DistributionList** element represents a distribution list.
 
 The following sections describe attributes, child elements, and parent elements.
   
-#### Attributes
+### Attributes
 
 None.
   
-#### Child elements
+### Child elements
 
 |**Element**|**Description**|
 |:-----|:-----|
@@ -123,7 +121,7 @@ None.
 |[ContactSource](contactsource.md) <br/> |Describes whether the contact is located in the Exchange store or in Active Directory Domain Services (AD DS).  <br/> |
 |[Members (MemberListType)](members-memberlisttype.md) <br/> |Contains a list of members of the distribution list.  <br/> |
    
-#### Parent elements
+### Parent elements
 
 |**Element**|**Description**|
 |:-----|:-----|
@@ -148,14 +146,12 @@ The schema that describes this element is located in the IIS virtual directory t
 
 |||
 |:-----|:-----|
-|Namespace  <br/> |http://schemas.microsoft.com/exchange/services/2006/types  <br/> |
+|Namespace  <br/> |https://schemas.microsoft.com/exchange/services/2006/types  <br/> |
 |Schema Name  <br/> |Types schema  <br/> |
 |Validation File  <br/> |Types.xsd  <br/> |
 |Can be Empty  <br/> |False  <br/> |
    
 ## See also
 
-#### Concepts
-
-[EWS XML elements in Exchange](ews-xml-elements-in-exchange.md)
+- [EWS XML elements in Exchange](ews-xml-elements-in-exchange.md)
 

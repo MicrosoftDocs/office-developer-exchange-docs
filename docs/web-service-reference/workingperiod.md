@@ -3,7 +3,7 @@ title: "WorkingPeriod"
  
  
 manager: sethgros
-ms.date: 9/17/2015
+ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
@@ -34,7 +34,7 @@ The **WorkingPeriod** element contains the work week days and hours of the mailb
   
 [WorkingPeriod](workingperiod.md)
   
-```
+```xml
 <WorkingPeriod>
    <DayOfWeek>...</DayOfWeek>
    <StartTimeInMinutes>...</StartTimeInMinutes>
@@ -47,11 +47,11 @@ The **WorkingPeriod** element contains the work week days and hours of the mailb
 
 The following sections describe attributes, child elements, and parent elements.
   
-#### Attributes
+### Attributes
 
 None.
   
-#### Child elements
+### Child elements
 
 |**Element**|**Description**|
 |:-----|:-----|
@@ -59,7 +59,7 @@ None.
 |[StartTimeInMinutes](starttimeinminutes.md) <br/> |Represents the start of the working day for a mailbox user.  <br/> |
 |[EndTimeInMinutes](endtimeinminutes.md) <br/> |Represents the end of the working day for a mailbox user.  <br/> |
    
-#### Parent elements
+### Parent elements
 
 |**Element**|**Description**|
 |:-----|:-----|
@@ -73,19 +73,19 @@ All the child elements are listed in the sequence in which they occur. The schem
 
 |||
 |:-----|:-----|
-|Namespace  <br/> |http://schemas.microsoft.com/exchange/services/2006/types  <br/> |
+|Namespace  <br/> |https://schemas.microsoft.com/exchange/services/2006/types  <br/> |
 |Schema Name  <br/> |Types schema  <br/> |
 |Validation File  <br/> |Types.xsd  <br/> |
 |Can be Empty  <br/> |False  <br/> |
    
 ## See also
 
-#### Reference
+
 
 [GetUserAvailability operation](getuseravailability-operation.md)
   
 [GetUserAvailabilityResponse](getuseravailabilityresponse.md)
-#### Other resources
 
-[Getting User Availability](http://msdn.microsoft.com/library/d4133fcb-9b0f-4e6b-aadf-a389da83516a%28Office.15%29.aspx)
+
+[Getting User Availability](https://msdn.microsoft.com/library/d4133fcb-9b0f-4e6b-aadf-a389da83516a%28Office.15%29.aspx)
 

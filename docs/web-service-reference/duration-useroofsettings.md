@@ -1,9 +1,7 @@
 ---
 title: "Duration (UserOofSettings)"
- 
- 
 manager: sethgros
-ms.date: 9/17/2015
+ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
@@ -32,23 +30,23 @@ The **Duration** element specifies the duration that the out of office (OOF) sta
 
 The following sections describe attributes, child elements, and parent elements.
   
-#### Attributes
+### Attributes
 
 None.
   
-#### Child elements
+### Child elements
 
 |**Element**|**Description**|
 |:-----|:-----|
 |[StartTime](starttime.md) <br/> |Represents the start of the time span set with an OOF status. This element is required.  <br/> |
 |[EndTime](endtime.md) <br/> |Represents the end of the time span set with an OOF status. This element is required.  <br/> |
    
-#### Parent elements
+### Parent elements
 
 |**Element**|**Description**|
 |:-----|:-----|
-|[UserOofSettings](useroofsettings.md) <br/> |Specifies the OOF settings.  <br/> The following is the XPath expression to this element:  <br/>  `/SetUserOofSettingsRequest/UserOofSettings` <br/> |
-|[OofSettings](oofsettings.md) <br/> |Contains the OOF settings.  <br/> The following is the XPath expression to this element:  <br/>  `/GetUserOofSettingsResponse/OofSettings` <br/> |
+|[UserOofSettings](useroofsettings.md) <br/> |Specifies the OOF settings.  <br/><br/>The following is the XPath expression to this element:<br/><br/>`/SetUserOofSettingsRequest/UserOofSettings` <br/> |
+|[OofSettings](oofsettings.md) <br/> |Contains the OOF settings.<br/><br/>The following is the XPath expression to this element:<br/><br/>`/GetUserOofSettingsResponse/OofSettings` <br/> |
 |[OutOfOffice](outofoffice.md) <br/> |Defines the Out of Office (OOF) response message and a duration time for sending the response message for a mailbox.  <br/> |
    
 ## Remarks
@@ -65,13 +63,13 @@ The following example of a [SetUserOofSettings operation](setuseroofsettings-ope
 <?xml version="1.0" encoding="utf-8"?>
 <soap:Envelope xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:soap="http://schemas.xmlsoap.org/soap/envelope/">
   <soap:Body>
-    <SetUserOofSettingsRequest xmlns="http://schemas.microsoft.com/exchange/services/2006/messages">
-      <Mailbox xmlns="http://schemas.microsoft.com/exchange/services/2006/types">
+    <SetUserOofSettingsRequest xmlns="https://schemas.microsoft.com/exchange/services/2006/messages">
+      <Mailbox xmlns="https://schemas.microsoft.com/exchange/services/2006/types">
         <Name>David Alexander</Name>
         <Address>someone@example.com</Address>
         <RoutingType>SMTP</RoutingType>
       </Mailbox>
-      <UserOofSettings xmlns="http://schemas.microsoft.com/exchange/services/2006/types">
+      <UserOofSettings xmlns="https://schemas.microsoft.com/exchange/services/2006/types">
         <OofState>Enabled</OofState>
         <ExternalAudience>All</ExternalAudience>
         <Duration>
@@ -95,16 +93,13 @@ The following example of a [SetUserOofSettings operation](setuseroofsettings-ope
 
 |||
 |:-----|:-----|
-|Namespace  <br/> |http://schemas.microsoft.com/exchange/services/2006/types  <br/> |
+|Namespace  <br/> |https://schemas.microsoft.com/exchange/services/2006/types  <br/> |
 |Schema Name  <br/> |Types schema  <br/> |
 |Validation File  <br/> |Types.xsd  <br/> |
 |Can be Empty  <br/> |False  <br/> |
    
 ## See also
 
-#### Reference
-
-[GetUserOofSettings operation](getuseroofsettings-operation.md)
-  
-[SetUserOofSettings operation](setuseroofsettings-operation.md)
+- [GetUserOofSettings operation](getuseroofsettings-operation.md)  
+- [SetUserOofSettings operation](setuseroofsettings-operation.md)
 

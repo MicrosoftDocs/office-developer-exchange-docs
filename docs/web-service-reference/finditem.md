@@ -1,9 +1,7 @@
 ---
 title: "FindItem"
- 
- 
 manager: sethgros
-ms.date: 9/17/2015
+ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
@@ -20,7 +18,7 @@ description: "The FindItem element defines a request to find items in a mailbox.
 
 The **FindItem** element defines a request to find items in a mailbox. 
   
-```
+```xml
 <FindItem Traversal="">
    <ItemShape/>
    <IndexedPageItemView/>
@@ -32,18 +30,92 @@ The **FindItem** element defines a request to find items in a mailbox.
 </FindItem>
 ```
 
- **FindItemType**
+```xml
+<FindItem Traversal="">
+   <ItemShape/>
+   <IndexedPageItemView/>
+   <DistinguishedGroupBy/>
+   <Restriction/>
+   <SortOrder/>
+   <ParentFolderIds/>
+   <QueryString/>
+</FindItem>
+```
+
+```xml
+<FindItem Traversal="">
+   <ItemShape/>
+   <ContactsView/>
+   <GroupBy/>
+   <Restriction/>
+   <SortOrder/>
+   <ParentFolderIds/>
+   <QueryString/>
+</FindItem>
+```
+
+```xml
+<FindItem Traversal="">
+   <ItemShape/>
+   <ContactsView/> 
+   <DistinguishedGroupBy/>
+   <Restriction/>
+   <SortOrder/>
+   <ParentFolderIds/>
+   <QueryString/>
+</FindItem>
+```
+
+```xml
+<FindItem Traversal="">
+   <ItemShape/>
+   <CalendarView/>
+   <GroupBy/>
+   <Restriction/>
+   <SortOrder/>
+   <ParentFolderIds/>
+   <QueryString/>
+</FindItem>
+```
+
+```xml
+<FindItem Traversal="">
+   <ItemShape/>
+   <FractionalPageItemView/>
+   <GroupBy/>
+   <Restriction/>
+   <SortOrder/>
+   <ParentFolderIds/>
+   <QueryString/>
+</FindItem>
+```
+
+```xml
+<FindItem Traversal="">
+   <ItemShape/>
+   <FractionalPageItemView/>
+   <DistinguishedGroupBy/>
+   <Restriction/>
+   <SortOrder/>
+   <ParentFolderIds/>
+   <QueryString/>
+</FindItem>
+```
+
+
+**FindItemType**
+
 ## Attributes and elements
 
 The following sections describe attributes, child elements, and parent elements.
   
-#### Attributes
+### Attributes
 
 |**Attribute**|**Description**|
 |:-----|:-----|
 |**Traversal** <br/> |Defines whether the search finds items in folders or the folders' dumpsters. This attribute is required.  <br/> |
    
-#### Traversal Attribute Values
+#### Traversal attribute values
 
 |**Value**|**Description**|
 |:-----|:-----|
@@ -51,7 +123,7 @@ The following sections describe attributes, child elements, and parent elements.
 |SoftDeleted  <br/> |Returns only the identities of items that are in a folder's dumpster. Note that a soft-deleted traversal combined with a search restriction will result in zero items returned even if there are items that match the search criteria.  <br/> |
 |Associated  <br/> |Returns only the identities of associated items in the folder.  <br/> |
    
-#### Child elements
+### Child elements
 
 |**Element**|**Description**|
 |:-----|:-----|
@@ -67,7 +139,7 @@ The following sections describe attributes, child elements, and parent elements.
 |[ParentFolderIds](parentfolderids.md) <br/> |Identifies folders to search for the FindItem and FindFolder operations.  <br/> |
 |[QueryString (QueryStringType)](querystring-querystringtype.md) <br/> |Contains a mailbox query string based on Advanced Query Syntax (AQS).  <br/> |
    
-#### Parent elements
+### Parent elements
 
 None.
   
@@ -81,17 +153,13 @@ The schema that describes this element is located in the IIS virtual directory t
 
 |||
 |:-----|:-----|
-|Namespace  <br/> |http://schemas.microsoft.com/exchange/services/2006/messages  <br/> |
+|Namespace  <br/> |https://schemas.microsoft.com/exchange/services/2006/messages  <br/> |
 |Schema Name  <br/> |Messages schema  <br/> |
 |Validation File  <br/> |Messages.xsd  <br/> |
 |Can be Empty  <br/> |False  <br/> |
    
 ## See also
 
-#### Reference
-
-[FindItem operation](finditem-operation.md)
-#### Other resources
-
-[Finding Items](http://msdn.microsoft.com/library/63af1f9c-464b-4fca-9ae3-3d60f24ca93c%28Office.15%29.aspx)
+- [FindItem operation](finditem-operation.md)
+- [Finding Items](https://msdn.microsoft.com/library/63af1f9c-464b-4fca-9ae3-3d60f24ca93c%28Office.15%29.aspx)
 

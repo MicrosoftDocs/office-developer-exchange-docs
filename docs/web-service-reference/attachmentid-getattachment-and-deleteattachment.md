@@ -1,9 +1,7 @@
 ---
 title: "AttachmentId (GetAttachment and DeleteAttachment)"
- 
- 
 manager: sethgros
-ms.date: 9/17/2015
+ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
@@ -20,7 +18,7 @@ description: "The AttachmentId element identifies a single attachment."
 
 The **AttachmentId** element identifies a single attachment. 
   
-```
+```xml
 <AttachmentId Id="" />
 ```
 
@@ -29,21 +27,21 @@ The **AttachmentId** element identifies a single attachment.
 
 The following sections describe attributes, child elements, and parent elements.
   
-#### Attributes
+### Attributes
 
 |**Attribute**|**Description**|
 |:-----|:-----|
 |**Id** <br/> |Specifies the attachment identifier.  <br/> |
    
-#### Child elements
+### Child elements
 
 None.
   
-#### Parent elements
+### Parent elements
 
 |**Element**|**Description**|
 |:-----|:-----|
-|[AttachmentIds](attachmentids.md) <br/> | Contains an array of attachment identifiers.  <br/>  The following are the XPath expressions to this element:  <br/>  `/DeleteAttachment/AttachmentIds` <br/>  `/GetAttachment/AttachmentIds` <br/> |
+|[AttachmentIds](attachmentids.md) <br/> | Contains an array of attachment identifiers.<br/><br/>  The following are the XPath expressions to this element:<br/><br/>`/DeleteAttachment/AttachmentIds`<br/><br/>`/GetAttachment/AttachmentIds` <br/> |
    
 ## Remarks
 
@@ -53,16 +51,13 @@ The schema that describes this element is located in the EWS virtual directory o
 
 |||
 |:-----|:-----|
-|Namespace  <br/> |http://schemas.microsoft.com/exchange/services/2006/types  <br/> |
+|Namespace  <br/> |https://schemas.microsoft.com/exchange/services/2006/types  <br/> |
 |Schema Name  <br/> |Types schema  <br/> |
 |Validation File  <br/> |Types.xsd  <br/> |
 |Can be Empty  <br/> |False  <br/> |
    
 ## See also
 
-#### Reference
-
-[DeleteAttachment operation](deleteattachment-operation.md)
-  
-[GetAttachment operation](getattachment-operation.md)
+- [DeleteAttachment operation](deleteattachment-operation.md)
+- [GetAttachment operation](getattachment-operation.md)
 

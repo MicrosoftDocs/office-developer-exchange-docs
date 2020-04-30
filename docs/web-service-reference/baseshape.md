@@ -1,9 +1,7 @@
 ---
 title: "BaseShape"
- 
- 
 manager: sethgros
-ms.date: 9/17/2015
+ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
@@ -20,7 +18,7 @@ description: "The BaseShape element identifies the set of properties to return i
 
 The **BaseShape** element identifies the set of properties to return in an item or folder response. 
   
-```
+```xml
 <BaseShape>IdOnly or Default or AllProperties</BaseShape>
 ```
 
@@ -29,20 +27,20 @@ The **BaseShape** element identifies the set of properties to return in an item 
 
 The following sections describe attributes, child elements, and parent elements.
   
-#### Attributes
+### Attributes
 
 None.
   
-#### Child elements
+### Child elements
 
 None
   
-#### Parent elements
+### Parent elements
 
 |**Element**|**Description**|
 |:-----|:-----|
-|[FolderShape](foldershape.md) <br/> | Identifies the folder properties to include in the GetFolder, FindFolder, or SyncFolderHierarchy response.  <br/>  The following are the XPath expressions to this element:  <br/>  `/GetFolder/FolderShape` <br/>  `/FindFolder/FolderShape` <br/>  `/SyncFolderHierarchy/FolderShape` <br/> |
-|[ItemShape](itemshape.md) <br/> | Identifies the item properties and content to include in a GetItem, FindItem, or SyncFolderItems response.  <br/>  The following are the XPath expressions to this element:  <br/>  `/GetItem/ItemShape` <br/>  `/FindItem/ItemShape` <br/>  `/SyncFolderItems/ItemShape` <br/> |
+|[FolderShape](foldershape.md) <br/> | Identifies the folder properties to include in the GetFolder, FindFolder, or SyncFolderHierarchy response.<br/><br/>The following are the XPath expressions to this element:<br/><br/>`/GetFolder/FolderShape` <br/>  `/FindFolder/FolderShape` <br/>  `/SyncFolderHierarchy/FolderShape` <br/> |
+|[ItemShape](itemshape.md) <br/> | Identifies the item properties and content to include in a GetItem, FindItem, or SyncFolderItems response.<br/><br/>The following are the XPath expressions to this element:<br/><br/>`/GetItem/ItemShape` <br/>  `/FindItem/ItemShape` <br/>  `/SyncFolderItems/ItemShape` <br/> |
    
 ## Text value
 
@@ -81,9 +79,9 @@ To return properties in addition to those identified by the [BaseShape](baseshap
 ```XML
 <?xml version="1.0" encoding="utf-8"?>
 <soap:Envelope xmlns:soap="http://schemas.xmlsoap.org/soap/envelope/"
-  xmlns:t="http://schemas.microsoft.com/exchange/services/2006/types">
+  xmlns:t="https://schemas.microsoft.com/exchange/services/2006/types">
   <soap:Body>
-    <FindFolder Traversal="Shallow" xmlns="http://schemas.microsoft.com/exchange/services/2006/messages">
+    <FindFolder Traversal="Shallow" xmlns="https://schemas.microsoft.com/exchange/services/2006/messages">
       <FolderShape>
         <t:BaseShape>Default</t:BaseShape>
       </FolderShape>
@@ -99,16 +97,13 @@ To return properties in addition to those identified by the [BaseShape](baseshap
 
 |||
 |:-----|:-----|
-|Namespace  <br/> |http://schemas.microsoft.com/exchange/services/2006/types  <br/> |
+|Namespace  <br/> |https://schemas.microsoft.com/exchange/services/2006/types  <br/> |
 |Schema Name  <br/> |Types schema  <br/> |
 |Validation File  <br/> |Types.xsd  <br/> |
 |Can be Empty  <br/> |False  <br/> |
    
 ## See also
 
-#### Reference
-
-[FolderShape](foldershape.md)
-  
-[ItemShape](itemshape.md)
+- [FolderShape](foldershape.md)
+- [ItemShape](itemshape.md)
 

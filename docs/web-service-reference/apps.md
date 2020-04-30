@@ -1,9 +1,7 @@
 ---
 title: "Apps"
- 
- 
 manager: sethgros
-ms.date: 3/9/2015
+ms.date: 03/9/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
@@ -26,15 +24,15 @@ The **Apps** element contains information about all the XML manifest files for a
 
 The following sections describe attributes, child elements, and parent elements.
   
-#### Attributes
+### Attributes
 
 None.
   
-#### Child elements
+### Child elements
 
 [App](app.md)
   
-#### Parent elements
+### Parent elements
 
 [GetAppManifestsResponse](getappmanifestsresponse.md)
   
@@ -48,19 +46,14 @@ The schema that describes this element is located in the IIS virtual directory t
 
 |||
 |:-----|:-----|
-|Namespace  <br/> |http://schemas.microsoft.com/exchange/services/2006/messages  <br/> |
+|Namespace  <br/> |https://schemas.microsoft.com/exchange/services/2006/messages  <br/> |
 |Schema Name  <br/> |Messages schema  <br/> |
 |Validation File  <br/> |Not applicable  <br/> |
 |Can be Empty  <br/> |False  <br/> |
    
 ## See also
 
-#### Reference
-
-[App](app.md)
-  
-[GetAppManifestsResponse](getappmanifestsresponse.md)
-#### Concepts
-
-[EWS XML elements in Exchange](ews-xml-elements-in-exchange.md)
+- [App](app.md)
+- [GetAppManifestsResponse](getappmanifestsresponse.md)
+- [EWS XML elements in Exchange](ews-xml-elements-in-exchange.md)
 

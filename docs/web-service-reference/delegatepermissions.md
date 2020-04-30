@@ -1,9 +1,7 @@
 ---
 title: "DelegatePermissions"
- 
- 
 manager: sethgros
-ms.date: 9/17/2015
+ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
@@ -20,7 +18,7 @@ description: "The DelegatePermissions element contains the delegate permission-l
 
 The **DelegatePermissions** element contains the delegate permission-level settings for a user. This element was introduced in Microsoft Exchange Server 2007 Service Pack 1 (SP1). 
   
-```
+```xml
 <DelegatePermissions>
    <CalendarFolderPermissionLevel/>
    <TasksFolderPermissionLevel/>
@@ -31,16 +29,17 @@ The **DelegatePermissions** element contains the delegate permission-level setti
 </DelegatePermissions>
 ```
 
- **DelegatePermissionsType**
+**DelegatePermissionsType**
+
 ## Attributes and elements
 
 The following sections describe attributes, child elements, and parent elements.
   
-#### Attributes
+### Attributes
 
 None.
   
-#### Child elements
+### Child elements
 
 |**Element**|**Description**|
 |:-----|:-----|
@@ -51,7 +50,7 @@ None.
 |[NotesFolderPermissionLevel](notesfolderpermissionlevel.md) <br/> |Contains the permissions for the default Notes folder. This element was introduced in Exchange 2007 SP1.  <br/> |
 |[JournalFolderPermissionLevel](journalfolderpermissionlevel.md) <br/> |Contains the permissions for the default Journal folder. This element was introduced in Exchange 2007 SP1.  <br/> |
    
-#### Parent elements
+### Parent elements
 
 |**Element**|**Description**|
 |:-----|:-----|
@@ -65,22 +64,15 @@ The schema that describes this element is located in the EWS virtual directory o
 
 |||
 |:-----|:-----|
-|Namespace  <br/> |http://schemas.microsoft.com/exchange/services/2006/types  <br/> |
+|Namespace  <br/> |https://schemas.microsoft.com/exchange/services/2006/types  <br/> |
 |Schema Name  <br/> |Types schema  <br/> |
 |Validation File  <br/> |Types.xsd  <br/> |
 |Can be Empty  <br/> |False  <br/> |
    
 ## See also
 
-#### Reference
-
-[AddDelegate operation](adddelegate-operation.md)
-  
-[UpdateDelegate operation](updatedelegate-operation.md)
-#### Concepts
-
-[EWS XML elements in Exchange](ews-xml-elements-in-exchange.md)
-#### Other resources
-
-[Adding Delegates](http://msdn.microsoft.com/library/3a744150-66a3-4a13-9433-793603ba5038%28Office.15%29.aspx)
+- [AddDelegate operation](adddelegate-operation.md) 
+- [UpdateDelegate operation](updatedelegate-operation.md)
+- [EWS XML elements in Exchange](ews-xml-elements-in-exchange.md)
+- [Adding Delegates](https://msdn.microsoft.com/library/3a744150-66a3-4a13-9433-793603ba5038%28Office.15%29.aspx)
 

@@ -1,9 +1,7 @@
 ---
 title: "configuration"
- 
- 
 manager: sethgros
-ms.date: 9/17/2015
+ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: overview
 ms.prod: office-online-server
@@ -17,16 +15,13 @@ description: "Last modified: September 17, 2015"
 ---
 
 # configuration
-
- **Last modified:** September 17, 2015 
   
- * **Applies to:** Exchange Server 2013 * 
+**Applies to:** Exchange Server 2013
   
 The **configuration** element is the root element for the agents configuration file. 
   
-[configuration](configuration.md)
-  
-[mexRuntime](mexruntime.md)
+- [configuration](configuration.md) 
+- [mexRuntime](mexruntime.md)
   
 ```XML
 <configuration>
@@ -34,22 +29,23 @@ The **configuration** element is the root element for the agents configuration f
 </configuration>
 ```
 
- **configurationType (complexType)**
+**configurationType (complexType)**
+
 ## Attributes and elements
 
 The following sections describe attributes, child elements, and parent elements.
   
-#### Attributes
+### Attributes
 
 None.
   
-#### Child elements
+### Child elements
 
 |**Element**|**Description**|
 |:-----|:-----|
 |[mexRuntime](mexruntime.md) <br/> |Contains elements that define configuration information for agent monitoring and configuration information for SMTP and routing agents that are installed.  <br/> |
    
-#### Parent elements
+### Parent elements
 
 None.
   
@@ -64,7 +60,5 @@ None.
    
 ## See also
 
-#### Concepts
-
-[Agents configuration file elements for Exchange 2013](agents-configuration-file-elements-for-exchange-2013.md)
+- [Agents configuration file elements for Exchange 2013](agents-configuration-file-elements-for-exchange-2013.md)
 

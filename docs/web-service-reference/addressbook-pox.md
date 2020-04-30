@@ -1,7 +1,7 @@
 ---
 title: "AddressBook (POX)"
 manager: sethgros
-ms.date: 9/17/2015
+ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
 localization_priority: Normal
@@ -36,18 +36,18 @@ The **AddressBook** element contains the specifications for connecting a client 
 
 The following sections describe attributes, child elements, and parent elements.
   
-#### Attributes
+### Attributes
 
 None.
   
-#### Child elements
+### Child elements
 
 |**Element**|**Description**|
 |:-----|:-----|
 |[ExternalUrl (POX)](externalurl-pox.md) <br/> |Contains the URL that should be used to access the address book from outside the organization's network by using the MAPI/HTTP protocol.  <br/> |
 |[InternalUrl (POX)](internalurl-pox.md) <br/> |Contains the URL that should be used to access the address book from inside the organization's network by using the MAPI/HTTP protocol.  <br/> |
    
-#### Parent elements
+### Parent elements
 
 |**Element**|**Description**|
 |:-----|:-----|
@@ -61,7 +61,5 @@ The **AddressBook** element is available to clients that implement the MAPI/HTTP
   
 ## See also
 
-#### Concepts
-
-[POX Autodiscover XML elements for Exchange](pox-autodiscover-xml-elements-for-exchange.md)
+- [POX Autodiscover XML elements for Exchange](pox-autodiscover-xml-elements-for-exchange.md)
 

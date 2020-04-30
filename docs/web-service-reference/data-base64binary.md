@@ -1,9 +1,7 @@
 ---
 title: "Data (base64Binary)"
- 
- 
 manager: sethgros
-ms.date: 9/17/2015
+ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
@@ -24,20 +22,21 @@ The **Data** element contains the data of a single exported item or an item to u
 <Data/>
 ```
 
- **xs:base64Binary**
+**xs:base64Binary**
+
 ## Attributes and elements
 
 The following sections describe attributes, child elements, and parent elements.
   
-#### Attributes
+### Attributes
 
 None.
   
-#### Child elements
+### Child elements
 
 None.
   
-#### Parent elements
+### Parent elements
 
 |**Element**|**Description**|
 |:-----|:-----|
@@ -56,16 +55,13 @@ The schema that describes this element is located in the IIS virtual directory t
 
 |||
 |:-----|:-----|
-|Namespace  <br/> |http://schemas.microsoft.com/exchange/services/2006/messages  <br/> |
+|Namespace  <br/> |https://schemas.microsoft.com/exchange/services/2006/messages  <br/> |
 |Schema Name  <br/> |Message schema  <br/> |
 |Validation File  <br/> |Messages.xsd  <br/> |
 |Can be Empty  <br/> |False  <br/> |
    
 ## See also
 
-#### Reference
-
-[ExportItems operation](exportitems-operation.md)
-  
-[UploadItems operation](uploaditems-operation.md)
+- [ExportItems operation](exportitems-operation.md)
+- [UploadItems operation](uploaditems-operation.md)
 

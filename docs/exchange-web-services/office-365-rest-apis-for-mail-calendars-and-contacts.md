@@ -1,60 +1,43 @@
 ---
-title: "Office 365 REST APIs for mail, calendars, and contacts"
- 
- 
+title: "Microsoft Graph Outlook API for mail, calendars, and contacts"
 manager: sethgros
-ms.date: 4/29/2016
+ms.date: 07/27/2018
 ms.audience: Developer
- 
- 
-localization_priority: Normal
 ms.assetid: 3b2e71a6-5fa5-4008-b243-d3a6e9173b3d
-description: "Find information about the Office 365 APIs that you can use to access mail, calendars, and contacts in Office 365 or Exchange Online."
+description: Find information about the Microsoft Graph API that you can use to access mail, calendars, and contacts in Office 365 or Exchange Online.
+localization_priority: Priority
 ---
 
-# Office 365 REST APIs for mail, calendars, and contacts
+# Microsoft Graph REST APIs for mail, calendars, and contacts
 
-Find information about the Office 365 APIs that you can use to access mail, calendars, and contacts in Office 365 or Exchange Online.
-  
-Office 365 and Exchange Online provide a new way to work with email, calendars, and contacts. The Mail, Calendar, and Contact REST APIs provide a powerful, easy-to-use way to access and manipulate Exchange data. These APIs are based on open standards: OAuth version 2.0 for authentication, and OData version 4.0 and JSON for data abstraction. This provides the following advantages:
-  
+Find information about the Microsoft Graph APIs that you can use to access mail, calendars, and contacts in Office 365, Exchange Online, or Exchange Server in hybrid deployments.
+
+Office 365, Exchange Online, and Exchange Server in hybrid deployments provide a new way to work with email, calendars, and contacts. The Microsoft Graph Mail, Calendar, and Contact REST APIs provide a powerful, easy-to-use way to access and manipulate Exchange data. These APIs are based on open standards: OAuth version 2.0 for authentication, and OData version 4.0 and JSON for data abstraction. This provides the following advantages:
+
 - Because these APIs require OAuth for authentication, your application does not have to handle or store user credentials.
-    
+
 - OAuth makes it possible to request tightly scoped permissions to user data. For example, you might design your application to request permission and read only a user's calendar.
-    
+
 ## Work with email and mail folders
 
-You can use the [Mail API](http://msdn.microsoft.com/office/office365/api/mail-rest-operations%28Office.15%29.aspx) to get, create, update, delete, move, copy, and send email. You can also get, create, update, and delete mail folders. 
+You can use the [Mail API](https://developer.microsoft.com/graph/docs/concepts/outlook-mail-concept-overview) to get, create, update, delete, move, copy, and send email. You can also get, create, update, and delete mail folders. 
   
 ## Work with events, calendars, and calendar groups
 
-You can use the [Calendar API](http://msdn.microsoft.com/office/office365/api/calendar-rest-operations%28Office.15%29.aspx) to get, create, update, and delete events. You can also get, create, update, and delete calendar groups and calendars. 
+You can use the [Calendar API](https://developer.microsoft.com/graph/docs/concepts/outlook-calendar-concept-overview) to get, create, update, and delete events. You can also get, create, update, and delete calendar groups and calendars. 
   
 ## Work with contacts and contact folders
 
-You can use the [Contacts API](http://msdn.microsoft.com/office/office365/api/contacts-rest-operations%28Office.15%29.aspx) to get, create, update, and delete contacts in a user's mailbox. You can also get contact folders. 
-  
-## Work with file providers
-
-You can use the [File Providers REST API](http://msdn.microsoft.com/library/8bab5403-de68-4b49-ab19-9a6470f2a2ce%28Office.15%29.aspx) to get, create, update, and delete information about supported file providers, such as mailbox, Dropbox, and so on. 
+You can use the [Contacts API](https://developer.microsoft.com/graph/docs/concepts/outlook-contacts-concept-overview) to get, create, update, and delete contacts in a user's mailbox. You can also get contact folders. 
   
 ## Next steps
 
-Head over to the [Developing on the Office 365 platform](http://msdn.microsoft.com/office/office365/howto/platform-development-overview%28Office.15%29.aspx) page to get more information about the Mail, Calendar, and Contacts APIs, including guidance for setting up your environment and getting started with the APIs. Also be sure to check out the [starter projects and code samples](http://msdn.microsoft.com/office/office365/howto/Starter-projects-and-code-samples%28Office.15%29.aspx) to see these APIs in action. 
-  
-## Additional resources
-<a name="bk_addresources"> </a>
+Head over to the [Microsoft Graph documentation](https://developer.microsoft.com/graph/docs/concepts/overview) page to get more information about the Mail, Calendar, and Contacts APIs, including guidance for setting up your environment and getting started with the APIs. 
 
-- [Developing on the Office 365 platform](http://msdn.microsoft.com/office/office365/howto/platform-development-overview%28Office.15%29.aspx)
-    
-- [Building an Office 365 ASP.NET MVC app](http://msdn.microsoft.com/office/office365/howto/Build-your-first-ASPNET-MVC-app%28Office.15%29.aspx)
-    
-- [Mail REST operations](http://msdn.microsoft.com/office/office365/api/mail-rest-operations%28Office.15%29.aspx)
-    
-- [Calendar REST operations](http://msdn.microsoft.com/office/office365/api/calendar-rest-operations%28Office.15%29.aspx)
-    
-- [Contacts REST operations](http://msdn.microsoft.com/office/office365/api/contacts-rest-operations%28Office.15%29.aspx)
-    
-- [Office 365 APIs starter projects and code samples](http://msdn.microsoft.com/office/office365/howto/Starter-projects-and-code-samples%28Office.15%29.aspx)
-    
+Also be sure to check out the [quick starts](https://developer.microsoft.com/graph/quick-start) and [code samples](https://developer.microsoft.com/office/gallery/?filterBy=Samples,Microsoft%20Graph) to see these APIs in action. 
+  
+## See also
+
+- [Microsoft Graph documentation](https://developer.microsoft.com/graph/docs/concepts/overview)   
+- [On-premises requirements for the REST API](https://blogs.technet.microsoft.com/exchange/2016/09/26/on-premises-architectural-requirements-for-the-rest-api)   
 

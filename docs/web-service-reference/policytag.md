@@ -3,7 +3,7 @@ title: "PolicyTag"
  
  
 manager: sethgros
-ms.date: 9/17/2015
+ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
@@ -16,7 +16,7 @@ description: "The PolicyTag element specifies the retention identifier on an ite
 
 The **PolicyTag** element specifies the retention identifier on an item or folder. 
   
-```
+```xml
 <PolicyTag IsExplicit="true | false"></PolicyTag>
 ```
 
@@ -25,17 +25,17 @@ The **PolicyTag** element specifies the retention identifier on an item or folde
 
 The following sections describe attributes, child elements, and parent elements.
   
-#### Attributes
+### Attributes
 
 |**Attribute**|**Description**|
 |:-----|:-----|
 |IsExplicit  <br/> |Indicates whether a policy tag was explicitly set on an item or folder.  <br/> A text value of **true** for the **IsExplicit** attribute indicates that the policy tag was explicitly set on the item or folder. A text value of **false** indicates that the policy tag was implicitly set on the item or folder based on the parent folder policy tag.  <br/> |
    
-#### Child elements
+### Child elements
 
 None.
   
-#### Parent elements
+### Parent elements
 
 [SearchPreviewItem](searchpreviewitem.md) | [Item](item.md) | [Contact](contact.md) | [Message](message-ex15websvcsotherref.md) | [DistributionList](distributionlist.md) | [CalendarItem](calendaritem.md) | [PostItem](postitem.md) | [Task](task.md)
   
@@ -53,7 +53,7 @@ The schema that describes this element is located in the IIS virtual directory t
 
 |||
 |:-----|:-----|
-|Namespace  <br/> |http://schemas.microsoft.com/exchange/services/2006/types  <br/> |
+|Namespace  <br/> |https://schemas.microsoft.com/exchange/services/2006/types  <br/> |
 |Schema name  <br/> |Types schema  <br/> |
 |Validation file  <br/> |Types.xsd  <br/> |
 |Can be empty  <br/> ||

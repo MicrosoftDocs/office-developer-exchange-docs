@@ -3,7 +3,7 @@ title: "FolderChanges"
  
  
 manager: sethgros
-ms.date: 9/17/2015
+ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
@@ -24,7 +24,7 @@ The **FolderChanges** element represents a collection of changes for a folder.
   
 [FolderChanges](folderchanges.md)
   
-```
+```xml
 <FolderChanges>
    <FolderChange/>
 </FolderChanges>
@@ -35,17 +35,17 @@ The **FolderChanges** element represents a collection of changes for a folder.
 
 The following sections describe attributes, child elements, and parent elements.
   
-#### Attributes
+### Attributes
 
 None.
   
-#### Child elements
+### Child elements
 
 |**Element**|**Description**|
 |:-----|:-----|
 |[FolderChange](folderchange.md) <br/> |Represents a single change to be performed on a single folder.  <br/> |
    
-#### Parent elements
+### Parent elements
 
 |**Element**|**Description**|
 |:-----|:-----|
@@ -59,14 +59,14 @@ The schema that describes this element is located in the EWS virtual directory o
 
 |||
 |:-----|:-----|
-|Namespace  <br/> |http://schemas.microsoft.com/exchange/services/2006/messages  <br/> |
+|Namespace  <br/> |https://schemas.microsoft.com/exchange/services/2006/messages  <br/> |
 |Schema Name  <br/> |Messages schema  <br/> |
 |Validation File  <br/> |Messages.xsd  <br/> |
 |Can be Empty  <br/> |False  <br/> |
    
 ## See also
 
-#### Reference
+
 
 [UpdateFolder operation](updatefolder-operation.md)
 

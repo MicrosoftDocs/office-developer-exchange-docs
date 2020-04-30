@@ -3,7 +3,7 @@ title: "CreateAttachment"
  
  
 manager: sethgros
-ms.date: 9/17/2015
+ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
@@ -20,7 +20,7 @@ description: "The CreateAttachment element defines a request to create an attach
 
 The **CreateAttachment** element defines a request to create an attachment to an item in the Exchange store. 
   
-```
+```xml
 <CreateAttachment>
    <ParentItemId/>
    <Attachments/>
@@ -32,18 +32,18 @@ The **CreateAttachment** element defines a request to create an attachment to an
 
 The following sections describe attributes, child elements, and parent elements.
   
-#### Attributes
+### Attributes
 
 None.
   
-#### Child elements
+### Child elements
 
 |**Element**|**Description**|
 |:-----|:-----|
 |[ParentItemId](parentitemid.md) <br/> |Identifies the parent Exchange store item that contains the created attachment. The [ParentItemId](parentitemid.md) element must provide the ID of a real Exchange store item. Real store items can be retrieved by using the [GetItem operation](getitem-operation.md); attachments are retrieved by using the [GetAttachment operation](getattachment-operation.md). An error occurs if the [ParentItemId](parentitemid.md) is passed the ID of a file attachment. If the [ParentItemId](parentitemid.md) represents the ID of an existing item attachment, the [CreateAttachment operation](createattachment-operation.md) adds the new attachment to the existing attachment.  <br/> This element is required for the [CreateAttachment operation](createattachment-operation.md).  <br/> |
 |[Attachments](attachments-ex15websvcsotherref.md) <br/> |Contains the items or files to attach to an item in the Exchange store.  <br/> |
    
-#### Parent elements
+### Parent elements
 
 None.
   
@@ -78,10 +78,10 @@ The following example shows how to create and attach an item to another item in 
 <soap:Envelope xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
                xmlns:xsd="http://www.w3.org/2001/XMLSchema"
                xmlns:soap="http://schemas.xmlsoap.org/soap/envelope/"
-               xmlns:t="http://schemas.microsoft.com/exchange/services/2006/types">
+               xmlns:t="https://schemas.microsoft.com/exchange/services/2006/types">
   <soap:Body>
-    <CreateAttachment xmlns="http://schemas.microsoft.com/exchange/services/2006/messages" 
-                  xmlns:t="http://schemas.microsoft.com/exchange/services/2006/types">
+    <CreateAttachment xmlns="https://schemas.microsoft.com/exchange/services/2006/messages" 
+                  xmlns:t="https://schemas.microsoft.com/exchange/services/2006/types">
       <ParentItemId Id="ASkAS"/>
       <Attachments>
         <t:ItemAttachment>
@@ -102,14 +102,14 @@ The following example shows how to create and attach an item to another item in 
 
 |||
 |:-----|:-----|
-|Namespace  <br/> |http://schemas.microsoft.com/exchange/services/2006/messages  <br/> |
+|Namespace  <br/> |https://schemas.microsoft.com/exchange/services/2006/messages  <br/> |
 |Schema Name  <br/> |Messages schema  <br/> |
 |Validation File  <br/> |Messages.xsd  <br/> |
 |Can be Empty  <br/> |False  <br/> |
    
 ## See also
 
-#### Reference
+
 
 [CreateAttachment operation](createattachment-operation.md)
   

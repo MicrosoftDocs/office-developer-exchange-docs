@@ -1,9 +1,7 @@
 ---
 title: "Data"
- 
- 
 manager: sethgros
-ms.date: 9/17/2015
+ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
@@ -20,28 +18,28 @@ description: "The Data element contains encrypted data that represents the share
 
 The **Data** element contains encrypted data that represents the shared data. 
   
-[EncryptedSharedFolderData](encryptedsharedfolderdata.md)
+- [EncryptedSharedFolderData](encryptedsharedfolderdata.md)  
+- [Data](data.md)
   
-[Data](data.md)
-  
-```
+```xml
 <Data/>
 ```
 
- **EncryptedDataContainerType**
+**EncryptedDataContainerType**
+
 ## Attributes and elements
 
 The following sections describe attributes, child elements, and parent elements.
   
-#### Attributes
+### Attributes
 
 None.
   
-#### Child elements
+### Child elements
 
 None.
   
-#### Parent elements
+### Parent elements
 
 |**Element**|**Description**|
 |:-----|:-----|
@@ -59,17 +57,13 @@ The schema that describes this element is located in the IIS virtual directory t
 
 |||
 |:-----|:-----|
-|Namespace  <br/> |http://schemas.microsoft.com/exchange/services/2006/types  <br/> |
+|Namespace  <br/> |https://schemas.microsoft.com/exchange/services/2006/types  <br/> |
 |Schema Name  <br/> |Types schema  <br/> |
 |Validation File  <br/> |Types.xsd  <br/> |
 |Can be Empty  <br/> |False  <br/> |
    
 ## See also
 
-#### Reference
-
-[GetSharingMetadata operation](getsharingmetadata-operation.md)
-#### Concepts
-
-[EWS XML elements in Exchange](ews-xml-elements-in-exchange.md)
+- [GetSharingMetadata operation](getsharingmetadata-operation.md)
+- [EWS XML elements in Exchange](ews-xml-elements-in-exchange.md)
 

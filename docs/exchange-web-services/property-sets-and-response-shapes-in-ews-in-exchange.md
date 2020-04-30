@@ -3,7 +3,7 @@ title: "Property sets and response shapes in EWS in Exchange"
  
  
 manager: sethgros
-ms.date: 9/17/2015
+ms.date: 09/17/2015
 ms.audience: Developer
  
  
@@ -18,23 +18,23 @@ Learn to manage the response shapes and property sets that are returned by the E
   
 The Exchange data store provides a flexible storage solution that enables you to store different items, such as contacts and calendar entries, in the same folder; however, it can make it difficult to manage the data that is returned from a call to an EWS operation or an EWS managed API method.
   
-To make it easier to manage the data that is returned by Exchange Online, Exchange Online as part of Office 365, or version of Excahange starting with Exchange 2013, the EWS Managed API uses property sets, and EWS uses response shapes. These are predefined collections that provide the most common properties of a store item. The set of properties that is returned is determined by the item type. That means that when you bind an item by using the Exchange Managed API [Item.Bind](http://msdn.microsoft.com/en-us/library/microsoft.exchange.webservices.data.item.bind%28v=exchg.80%29.aspx) method, you get a different set of properties depending on the type of item to which you bind. Binding to a calendar item will return a different set of properties than binding to a contact item. Likewise, if you are using EWS, the [GetItem operation](http://msdn.microsoft.com/library/e3590b8b-c2a7-4dad-a014-6360197b68e4%28Office.15%29.aspx) returns a different set of properties based on the type of item that is returned. 
+To make it easier to manage the data that is returned by Exchange Online, Exchange Online as part of Office 365, or version of Excahange starting with Exchange 2013, the EWS Managed API uses property sets, and EWS uses response shapes. These are predefined collections that provide the most common properties of a store item. The set of properties that is returned is determined by the item type. That means that when you bind an item by using the Exchange Managed API [Item.Bind](https://msdn.microsoft.com/library/microsoft.exchange.webservices.data.item.bind%28v=exchg.80%29.aspx) method, you get a different set of properties depending on the type of item to which you bind. Binding to a calendar item will return a different set of properties than binding to a contact item. Likewise, if you are using EWS, the [GetItem operation](https://msdn.microsoft.com/library/e3590b8b-c2a7-4dad-a014-6360197b68e4%28Office.15%29.aspx) returns a different set of properties based on the type of item that is returned. 
   
-Binding to a folder with the [Folder.Bind](http://msdn.microsoft.com/en-us/library/microsoft.exchange.webservices.data.folder.bind%28v=exchg.80%29.aspx) method or using the [GetFolder operation](http://msdn.microsoft.com/library/355bcf93-dc71-4493-b177-622afac5fdb9%28Office.15%29.aspx) also returns different sets of properties based on the folder that you request. 
+Binding to a folder with the [Folder.Bind](https://msdn.microsoft.com/library/microsoft.exchange.webservices.data.folder.bind%28v=exchg.80%29.aspx) method or using the [GetFolder operation](https://msdn.microsoft.com/library/355bcf93-dc71-4493-b177-622afac5fdb9%28Office.15%29.aspx) also returns different sets of properties based on the folder that you request. 
   
 **Table 1. Predefined response shapes**
 
 |**Response shape**|**EWS Managed API equivalent**|**Description**|
 |:-----|:-----|:-----|
-|ID only  <br/> |[BasePropertySet.IdOnly](http://msdn.microsoft.com/en-us/library/microsoft.exchange.webservices.data.basepropertyset%28v=exchg.80%29.aspx) <br/> |Returns only the identifier of the item or folder. Most applications should use this response shape and specify any additional properties that are required.  <br/> |
+|ID only  <br/> |[BasePropertySet.IdOnly](https://msdn.microsoft.com/library/microsoft.exchange.webservices.data.basepropertyset%28v=exchg.80%29.aspx) <br/> |Returns only the identifier of the item or folder. Most applications should use this response shape and specify any additional properties that are required.  <br/> |
 |Default  <br/> |N/A  <br/> |Returns a predefined set of properties that are the default for the item or folder (EWS only).  <br/> |
-|All properties  <br/> |[BasePropertySet.FirstClassProperties](http://msdn.microsoft.com/en-us/library/microsoft.exchange.webservices.data.basepropertyset%28v=exchg.80%29.aspx) <br/> |Returns the properties that client applications use most often. You can return additional properties by using a property path.  <br/> |
+|All properties  <br/> |[BasePropertySet.FirstClassProperties](https://msdn.microsoft.com/library/microsoft.exchange.webservices.data.basepropertyset%28v=exchg.80%29.aspx) <br/> |Returns the properties that client applications use most often. You can return additional properties by using a property path.  <br/> |
    
 ## Default response shapes
 
 EWS includes a set of default response shapes for folders and for items. 
   
-The following table lists the default properties that are returned for each folder by the [FindFolder](http://msdn.microsoft.com/library/7a9855aa-06cc-45ba-ad2a-645c15b7d031%28Office.15%29.aspx) and [GetFolder](http://msdn.microsoft.com/library/355bcf93-dc71-4493-b177-622afac5fdb9%28Office.15%29.aspx) EWS operations. 
+The following table lists the default properties that are returned for each folder by the [FindFolder](https://msdn.microsoft.com/library/7a9855aa-06cc-45ba-ad2a-645c15b7d031%28Office.15%29.aspx) and [GetFolder](https://msdn.microsoft.com/library/355bcf93-dc71-4493-b177-622afac5fdb9%28Office.15%29.aspx) EWS operations. 
   
 **Table 2. Default folder properties**
 
@@ -46,7 +46,7 @@ The following table lists the default properties that are returned for each fold
 |Total count  <br/> |X  <br/> ||X  <br/> |X  <br/> |X  <br/> |X  <br/> |X  <br/> |X  <br/> |
 |Unread count  <br/> |X  <br/> |||X  <br/> |X  <br/> ||X  <br/> |X  <br/> |
    
-The following table lists the default properties that are returned for each item type by the [FindItem](http://msdn.microsoft.com/library/ebad6aae-16e7-44de-ae63-a95b24539729%28Office.15%29.aspx) and [GetItem](http://msdn.microsoft.com/library/e3590b8b-c2a7-4dad-a014-6360197b68e4%28Office.15%29.aspx) EWS operations. 
+The following table lists the default properties that are returned for each item type by the [FindItem](https://msdn.microsoft.com/library/ebad6aae-16e7-44de-ae63-a95b24539729%28Office.15%29.aspx) and [GetItem](https://msdn.microsoft.com/library/e3590b8b-c2a7-4dad-a014-6360197b68e4%28Office.15%29.aspx) EWS operations. 
   
 **Table 3. Default item properties**
 
@@ -90,7 +90,7 @@ Notes:
     
 ### All properties set and response shape
 
-The following table lists the first-class properties that are returned by calling the EWS Managed API [Item.Bind](http://msdn.microsoft.com/en-us/library/microsoft.exchange.webservices.data.item.bind%28v=exchg.80%29.aspx) and [Item.FindItems](http://msdn.microsoft.com/en-us/library/office/microsoft.exchange.webservices.data.exchangeservice.finditems%28v=exchg.80%29.aspx) EWS Managed API methods, and the "all properties" response shape returned by the [FindItem](http://msdn.microsoft.com/library/ebad6aae-16e7-44de-ae63-a95b24539729%28Office.15%29.aspx) and [GetItem](http://msdn.microsoft.com/library/e3590b8b-c2a7-4dad-a014-6360197b68e4%28Office.15%29.aspx) EWS operations. 
+The following table lists the first-class properties that are returned by calling the EWS Managed API [Item.Bind](https://msdn.microsoft.com/library/microsoft.exchange.webservices.data.item.bind%28v=exchg.80%29.aspx) and [Item.FindItems](https://msdn.microsoft.com/library/office/microsoft.exchange.webservices.data.exchangeservice.finditems%28v=exchg.80%29.aspx) EWS Managed API methods, and the "all properties" response shape returned by the [FindItem](https://msdn.microsoft.com/library/ebad6aae-16e7-44de-ae63-a95b24539729%28Office.15%29.aspx) and [GetItem](https://msdn.microsoft.com/library/e3590b8b-c2a7-4dad-a014-6360197b68e4%28Office.15%29.aspx) EWS operations. 
   
 You can add additional properties to the property set or include extended properties. For details, see [Properties and extended properties in EWS in Exchange](properties-and-extended-properties-in-ews-in-exchange.md).
   
@@ -136,7 +136,7 @@ You can add additional properties to the property set or include extended proper
 |DateTimeStamp  <br/> |x  <br/> |||||
 |DelegationState  <br/> |||||x  <br/> |
 |Delegator  <br/> |||||x  <br/> |
-|DeletedOccurances  <br/> |x  <br/> |||||
+|DeletedOccurrences  <br/> |x  <br/> |||||
 |Department  <br/> ||x  <br/> ||||
 |DirectoryId  <br/> ||x  <br/> ||||
 |DirectReports  <br/> ||x  <br/> ||||
@@ -151,7 +151,7 @@ You can add additional properties to the property set or include extended proper
 |EndTimeZone  <br/> |x  <br/> |||||
 |FileAs  <br/> ||x  <br/> ||||
 |FileAsMapping  <br/> ||x  <br/> ||||
-|FirstOccurance  <br/> |x  <br/> |||||
+|FirstOccurrence  <br/> |x  <br/> |||||
 |From  <br/> |||x  <br/> |x  <br/> ||
 |Generation  <br/> ||x  <br/> ||||
 |GivenName  <br/> ||x  <br/> ||||
@@ -244,18 +244,18 @@ You can add additional properties to the property set or include extended proper
    
 Notes:
   
-1. Included when [binding to an item](http://msdn.microsoft.com/en-us/library/microsoft.exchange.webservices.data.item.bind%28v=exchg.80%29.aspx) and in the response from the [GetItem operation](http://msdn.microsoft.com/library/e3590b8b-c2a7-4dad-a014-6360197b68e4%28Office.15%29.aspx). Not included in the result of the [Item.FindItems](http://msdn.microsoft.com/en-us/library/office/microsoft.exchange.webservices.data.exchangeservice.finditems%28v=exchg.80%29.aspx) method or the response from the [FindItem operation](http://msdn.microsoft.com/library/ebad6aae-16e7-44de-ae63-a95b24539729%28Office.15%29.aspx).
+1. Included when [binding to an item](https://msdn.microsoft.com/library/microsoft.exchange.webservices.data.item.bind%28v=exchg.80%29.aspx) and in the response from the [GetItem operation](https://msdn.microsoft.com/library/e3590b8b-c2a7-4dad-a014-6360197b68e4%28Office.15%29.aspx). Not included in the result of the [Item.FindItems](https://msdn.microsoft.com/library/office/microsoft.exchange.webservices.data.exchangeservice.finditems%28v=exchg.80%29.aspx) method or the response from the [FindItem operation](https://msdn.microsoft.com/library/ebad6aae-16e7-44de-ae63-a95b24539729%28Office.15%29.aspx).
     
-## Additional resources
+## See also
 
 - [Develop web service clients for Exchange](develop-web-service-clients-for-exchange.md)
     
-- [FindItem operation](http://msdn.microsoft.com/library/ebad6aae-16e7-44de-ae63-a95b24539729%28Office.15%29.aspx)
+- [FindItem operation](https://msdn.microsoft.com/library/ebad6aae-16e7-44de-ae63-a95b24539729%28Office.15%29.aspx)
     
-- [GetItem operation](http://msdn.microsoft.com/library/e3590b8b-c2a7-4dad-a014-6360197b68e4%28Office.15%29.aspx)
+- [GetItem operation](https://msdn.microsoft.com/library/e3590b8b-c2a7-4dad-a014-6360197b68e4%28Office.15%29.aspx)
     
-- [FindFolder operation](http://msdn.microsoft.com/library/7a9855aa-06cc-45ba-ad2a-645c15b7d031%28Office.15%29.aspx)
+- [FindFolder operation](https://msdn.microsoft.com/library/7a9855aa-06cc-45ba-ad2a-645c15b7d031%28Office.15%29.aspx)
     
-- [GetFolder operation](http://msdn.microsoft.com/library/355bcf93-dc71-4493-b177-622afac5fdb9%28Office.15%29.aspx)
+- [GetFolder operation](https://msdn.microsoft.com/library/355bcf93-dc71-4493-b177-622afac5fdb9%28Office.15%29.aspx)
     
 

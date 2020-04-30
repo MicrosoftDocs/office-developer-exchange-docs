@@ -1,9 +1,7 @@
 ---
 title: "Excludes"
- 
- 
 manager: sethgros
-ms.date: 9/17/2015
+ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
@@ -20,23 +18,38 @@ description: "The Excludes element performs a bitwise mask of the specified prop
 
 The **Excludes** element performs a bitwise mask of the specified property and a supplied value. 
   
-```
+```xml
 <Excludes>
    <FieldURI/>
    <Bitmask/>
 </Excludes>
 ```
 
- **ExcludesType**
+```xml
+<Excludes>
+   <ExtendedFieldURI/> 
+   <Bitmask/>
+</Excludes>
+```
+
+```xml
+<Excludes>
+   <IndexedFieldURI/> 
+   <Bitmask/>
+</Excludes>
+```
+
+**ExcludesType**
+
 ## Attributes and elements
 
 The following sections describe attributes, child elements, and parent elements.
   
-#### Attributes
+### Attributes
 
 None.
   
-#### Child elements
+### Child elements
 
 |**Element**|**Description**|
 |:-----|:-----|
@@ -45,7 +58,7 @@ None.
 |[ExtendedFieldURI](extendedfielduri.md) <br/> |Identifies MAPI properties.  <br/> |
 |[Bitmask](bitmask.md) <br/> |Represents a hexadecimal or decimal mask to be used during an [Excludes](excludes.md) restriction operation. If the bitmask represents a hexadecimal number, it must be prefixed by 0x or 0X. Otherwise, it will be considered a decimal number.  <br/> |
    
-#### Parent elements
+### Parent elements
 
 |**Element**|**Description**|
 |:-----|:-----|
@@ -56,13 +69,13 @@ None.
    
 ## Remarks
 
- **Excludes** will resolve to **true** if an AND operation performed on the following resolves to 0: 
+**Excludes** will resolve to **true** if an AND operation performed on the following resolves to 0: 
   
 1. The bitwise value for the property
     
 2. The bitmask value for the property
     
- **Excludes** can only be applied to a property that has an integer value. If the property type is anything other than an integer, an error code of **ErrorUnsupportedPathForQuery** is returned in the response. 
+**Excludes** can only be applied to a property that has an integer value. If the property type is anything other than an integer, an error code of **ErrorUnsupportedPathForQuery** is returned in the response. 
   
 You can perform the reverse operation by calling Not(Excludes).
   
@@ -72,14 +85,12 @@ The schema that describes this element is located in the EWS virtual directory o
 
 |||
 |:-----|:-----|
-|Namespace  <br/> |http://schemas.microsoft.com/exchange/services/2006/types  <br/> |
+|Namespace  <br/> |https://schemas.microsoft.com/exchange/services/2006/types  <br/> |
 |Schema Name  <br/> |Types schema  <br/> |
 |Validation File  <br/> |Types.xsd  <br/> |
 |Can be Empty  <br/> |False  <br/> |
    
 ## See also
 
-#### Concepts
-
-[EWS XML elements in Exchange](ews-xml-elements-in-exchange.md)
+- [EWS XML elements in Exchange](ews-xml-elements-in-exchange.md)
 

@@ -1,9 +1,7 @@
 ---
 title: "DelegateUserResponseMessageType"
- 
- 
 manager: sethgros
-ms.date: 9/17/2015
+ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
@@ -20,7 +18,7 @@ description: "The DelegateUserResponseMessageType element contains the response 
 
 The **DelegateUserResponseMessageType** element contains the response message for a single delegate user. 
   
-```
+```xml
 <DelegateUserResponseMessageType>
    <MessageText/>
    <ResponseCode/>
@@ -30,16 +28,17 @@ The **DelegateUserResponseMessageType** element contains the response message fo
 </DelegateUserResponseMessageType>
 ```
 
- **DelegateUserResponseMessageType**
+**DelegateUserResponseMessageType**
+
 ## Attributes and elements
 
 The following sections describe attributes, child elements, and parent elements.
   
-#### Attributes
+### Attributes
 
 None.
   
-#### Child elements
+### Child elements
 
 |**Element**|**Description**|
 |:-----|:-----|
@@ -49,7 +48,7 @@ None.
 |[MessageXml](messagexml.md) <br/> |Provides additional error response information.  <br/> |
 |[DelegateUser](delegateuser.md) <br/> |Identifies a single delegate that is returned in a delegate management response.  <br/> |
    
-#### Parent elements
+### Parent elements
 
 |**Element**|**Description**|
 |:-----|:-----|
@@ -63,23 +62,16 @@ The schema that describes this element is located in the EWS virtual directory o
 
 |||
 |:-----|:-----|
-|Namespace  <br/> |http://schemas.microsoft.com/exchange/services/2006/messages  <br/> |
+|Namespace  <br/> |https://schemas.microsoft.com/exchange/services/2006/messages  <br/> |
 |Schema Name  <br/> |Messages schema  <br/> |
 |Validation File  <br/> |Messages.xsd  <br/> |
 |Can be Empty  <br/> |False  <br/> |
    
 ## See also
 
-#### Reference
-
-[AddDelegate operation](adddelegate-operation.md)
-  
-[GetDelegate operation](getdelegate-operation.md)
-  
-[UpdateDelegate operation](updatedelegate-operation.md)
-  
-[RemoveDelegate operation](removedelegate-operation.md)
-#### Concepts
-
-[EWS XML elements in Exchange](ews-xml-elements-in-exchange.md)
+- [AddDelegate operation](adddelegate-operation.md)  
+- [GetDelegate operation](getdelegate-operation.md) 
+- [UpdateDelegate operation](updatedelegate-operation.md)  
+- [RemoveDelegate operation](removedelegate-operation.md)
+- [EWS XML elements in Exchange](ews-xml-elements-in-exchange.md)
 

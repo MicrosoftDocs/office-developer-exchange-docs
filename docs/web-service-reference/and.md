@@ -1,9 +1,7 @@
 ---
 title: "And"
- 
- 
 manager: sethgros
-ms.date: 9/17/2015
+ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
@@ -20,7 +18,7 @@ description: "The And element represents a search expression that allows you to 
 
 The **And** element represents a search expression that allows you to perform a Boolean **AND** operation between two or more search expressions. The result of the **AND** operation is **true** if all the search expressions contained within the **And** element are **true**.
   
-```
+```xml
 <And>
    <SearchExpression/>
    <SearchExpression/>
@@ -32,17 +30,17 @@ The **And** element represents a search expression that allows you to perform a 
 
 The following sections describe attributes, child elements, and parent elements.
   
-#### Attributes
+### Attributes
 
 None.
   
-#### Child elements
+### Child elements
 
 |**Element**|**Description**|
 |:-----|:-----|
-|[SearchExpression](searchexpression.md) <br/> | Represents the base class for expressions within a restriction. There must be two or more search expressions in an And operation.  <br/>  One of the following elements must be substituted for the **SearchExpression** element:  <br/> [Exists](exists.md) <br/> [Excludes](excludes.md) <br/> [IsEqualTo](isequalto.md) <br/> [IsNotEqualTo](isnotequalto.md) <br/> [IsGreaterThan](isgreaterthan.md) <br/> [IsGreaterThanOrEqualTo](isgreaterthanorequalto.md) <br/> [IsLessThan](islessthan.md) <br/> [IsLessThanOrEqualTo](islessthanorequalto.md) <br/> [Contains](contains.md) <br/> [Not](not.md) <br/> **And** <br/> [Or](or.md) <br/> |
+|[SearchExpression](searchexpression.md) <br/> | Represents the base class for expressions within a restriction. There must be two or more search expressions in an And operation.<br/><br/>  One of the following elements must be substituted for the **SearchExpression** element:<ul><li> [Exists](exists.md)</li><li>[Excludes](excludes.md)</li><li>[IsEqualTo](isequalto.md)</li><li>[IsNotEqualTo](isnotequalto.md)</li><li>[IsGreaterThan](isgreaterthan.md)</li><li>[IsGreaterThanOrEqualTo](isgreaterthanorequalto.md)</li><li>[IsLessThan](islessthan.md)</li><li>[IsLessThanOrEqualTo](islessthanorequalto.md)</li><li>[Contains](contains.md)</li><li>[Not](not.md)</li><li>**And**</li><li>[Or](or.md) </li></ul> |
    
-#### Parent elements
+### Parent elements
 
 |**Element**|**Description**|
 |:-----|:-----|
@@ -59,14 +57,12 @@ The schema that describes this element is located in the EWS virtual directory o
 
 |||
 |:-----|:-----|
-|Namespace  <br/> |http://schemas.microsoft.com/exchange/services/2006/types  <br/> |
+|Namespace  <br/> |https://schemas.microsoft.com/exchange/services/2006/types  <br/> |
 |Schema Name  <br/> |Types schema  <br/> |
 |Validation File  <br/> |Types.xsd  <br/> |
 |Can be Empty  <br/> |False  <br/> |
    
 ## See also
 
-#### Concepts
-
-[EWS XML elements in Exchange](ews-xml-elements-in-exchange.md)
+- [EWS XML elements in Exchange](ews-xml-elements-in-exchange.md)
 

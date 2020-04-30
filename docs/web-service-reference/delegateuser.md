@@ -1,9 +1,7 @@
 ---
 title: "DelegateUser"
- 
- 
 manager: sethgros
-ms.date: 9/17/2015
+ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
@@ -20,7 +18,7 @@ description: "The DelegateUser element identifies a single delegate to add or up
 
 The **DelegateUser** element identifies a single delegate to add or update in a mailbox or a delegate returned in a delegate management response. This element was introduced in Microsoft Exchange Server 2007 Service Pack 1 (SP1). 
   
-```
+```xml
 <DelegateUser>
    <UserId/>
    <DelegatePermissions/>
@@ -29,16 +27,17 @@ The **DelegateUser** element identifies a single delegate to add or update in a 
 </DelegateUser>
 ```
 
- **DelegateUserType**
+**DelegateUserType**
+
 ## Attributes and elements
 
 The following sections describe attributes, child elements, and parent elements.
   
-#### Attributes
+### Attributes
 
 None.
   
-#### Child elements
+### Child elements
 
 |**Element**|**Description**|
 |:-----|:-----|
@@ -47,7 +46,7 @@ None.
 |[ReceiveCopiesOfMeetingMessages](receivecopiesofmeetingmessages.md) <br/> |Indicates whether a delegate receives copies of meeting-related messages that are addressed to the principal. This element was introduced in Exchange 2007 SP1.  <br/> |
 |[ViewPrivateItems](viewprivateitems.md) <br/> |Indicates whether a delegate has permission to view private calendar items in the principal's mailbox. This element was introduced in Exchange 2007 SP1.  <br/> |
    
-#### Parent elements
+### Parent elements
 
 |**Element**|**Description**|
 |:-----|:-----|
@@ -62,22 +61,15 @@ The schema that describes this element is located in the EWS virtual directory o
 
 |||
 |:-----|:-----|
-|Namespace  <br/> |http://schemas.microsoft.com/exchange/services/2006/types  <br/> |
+|Namespace  <br/> |https://schemas.microsoft.com/exchange/services/2006/types  <br/> |
 |Schema Name  <br/> |Types schema  <br/> |
 |Validation File  <br/> |Types.xsd  <br/> |
 |Can be Empty  <br/> |False  <br/> |
    
 ## See also
 
-#### Reference
-
-[AddDelegate operation](adddelegate-operation.md)
-  
-[UpdateDelegate operation](updatedelegate-operation.md)
-#### Concepts
-
-[EWS XML elements in Exchange](ews-xml-elements-in-exchange.md)
-#### Other resources
-
-[Adding Delegates](http://msdn.microsoft.com/library/3a744150-66a3-4a13-9433-793603ba5038%28Office.15%29.aspx)
+- [AddDelegate operation](adddelegate-operation.md) 
+- [UpdateDelegate operation](updatedelegate-operation.md)
+- [EWS XML elements in Exchange](ews-xml-elements-in-exchange.md)
+- [Adding Delegates](https://msdn.microsoft.com/library/3a744150-66a3-4a13-9433-793603ba5038%28Office.15%29.aspx)
 

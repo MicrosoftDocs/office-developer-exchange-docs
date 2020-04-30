@@ -1,9 +1,7 @@
 ---
 title: "FieldOrder"
- 
- 
 manager: sethgros
-ms.date: 9/17/2015
+ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
@@ -20,24 +18,37 @@ description: "The FieldOrder element represents a single field by which to sort 
 
 The **FieldOrder** element represents a single field by which to sort results and indicates the direction for the sort. 
   
-```
+```xml
 <FieldOrder Order="">
    <FieldURI/>
 </FieldOrder>
 ```
 
- **FieldOrderType**
+```xml
+<FieldOrder Order="">
+   <ExtendedFieldURI/> 
+</FieldOrder>
+```
+
+```xml
+<FieldOrder Order="">
+   <IndexedFieldURI/>
+</FieldOrder>
+```
+
+**FieldOrderType**
+
 ## Attributes and elements
 
 The following sections describe attributes, child elements, and parent elements.
   
-#### Attributes
+### Attributes
 
 |**Attribute**|**Description**|
 |:-----|:-----|
-|**Order** <br/> | Describes the sort order direction. The following are the possible values:  <br/>  Ascending  <br/>  Descending  <br/> |
+|**Order** <br/> | Describes the sort order direction.<br/><br/> The following are the possible values: <br/> <br/>-  Ascending  <br/>-  Descending  <br/> |
    
-#### Child elements
+### Child elements
 
 |**Element**|**Description**|
 |:-----|:-----|
@@ -45,7 +56,7 @@ The following sections describe attributes, child elements, and parent elements.
 |[IndexedFieldURI](indexedfielduri.md) <br/> |Identifies individual members of a dictionary.  <br/> |
 |[ExtendedFieldURI](extendedfielduri.md) <br/> |Identifies MAPI properties.  <br/> |
    
-#### Parent elements
+### Parent elements
 
 |**Element**|**Description**|
 |:-----|:-----|
@@ -59,14 +70,12 @@ The schema that describes this element is located in the EWS virtual directory o
 
 |||
 |:-----|:-----|
-|Namespace  <br/> |http://schemas.microsoft.com/exchange/services/2006/types  <br/> |
+|Namespace  <br/> |https://schemas.microsoft.com/exchange/services/2006/types  <br/> |
 |Schema Name  <br/> |Types schema  <br/> |
 |Validation File  <br/> |Types.xsd  <br/> |
 |Can be Empty  <br/> |False  <br/> |
    
 ## See also
 
-#### Concepts
-
-[EWS XML elements in Exchange](ews-xml-elements-in-exchange.md)
+- [EWS XML elements in Exchange](ews-xml-elements-in-exchange.md)
 

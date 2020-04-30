@@ -1,9 +1,7 @@
 ---
 title: "Message (Availability)"
- 
- 
 manager: sethgros
-ms.date: 9/17/2015
+ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
@@ -20,7 +18,7 @@ description: "The Message element contains the out of Office (OOF) response."
 
 The **Message** element contains the out of Office (OOF) response. 
   
-```
+```xml
 <Message/> 
 ```
 
@@ -29,20 +27,20 @@ The **Message** element contains the out of Office (OOF) response.
 
 The following sections describe attributes, child elements, and parent elements.
   
-#### Attributes
+### Attributes
 
 None.
   
-#### Child elements
+### Child elements
 
 None.
   
-#### Parent elements
+### Parent elements
 
 |**Element**|**Description**|
 |:-----|:-----|
-|[InternalReply](internalreply.md) <br/> | Contains the OOF message sent to other users in the sender's domain.  <br/>  The following are the possible XPath expressions to this element:  <br/>  `/SetUserOofSettingsRequest/UserOofSettings/InternalReply` <br/>  `/GetUserOofSettingsResponse/OofSettings/InternalReply` <br/> |
-|[ExternalReply](externalreply.md) <br/> | Contains the OOF message that is sent to addresses outside the sender's domain.  <br/>  The following are the possible XPath expressions to this element:  <br/>  `/SetUserOofSettingsRequest/UserOofSettings/ExternalReply` <br/>  `/GetUserOofSettingsResponse/OofSettings/ExternalReply` <br/> |
+|[InternalReply](internalreply.md) <br/> | Contains the OOF message sent to other users in the sender's domain. <br/> <br/>  The following are the possible XPath expressions to this element: <br/> <br/>  `/SetUserOofSettingsRequest/UserOofSettings/InternalReply` <br/><br/>  `/GetUserOofSettingsResponse/OofSettings/InternalReply` <br/> |
+|[ExternalReply](externalreply.md) <br/> | Contains the OOF message that is sent to addresses outside the sender's domain.  <br/> <br/> The following are the possible XPath expressions to this element:  <br/><br/>  `/SetUserOofSettingsRequest/UserOofSettings/ExternalReply` <br/><br/>  `/GetUserOofSettingsResponse/OofSettings/ExternalReply` <br/> |
 |[ReplyBody](replybody.md) <br/> |Contains an OOF message and the language used for the message.  <br/> |
    
 ## Text value
@@ -61,13 +59,13 @@ The following example of a [SetUserOofSettings operation](setuseroofsettings-ope
 <?xml version="1.0" encoding="utf-8"?>
 <soap:Envelope xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:soap="http://schemas.xmlsoap.org/soap/envelope/">
   <soap:Body>
-    <SetUserOofSettingsRequest xmlns="http://schemas.microsoft.com/exchange/services/2006/messages">
-      <Mailbox xmlns="http://schemas.microsoft.com/exchange/services/2006/types">
+    <SetUserOofSettingsRequest xmlns="https://schemas.microsoft.com/exchange/services/2006/messages">
+      <Mailbox xmlns="https://schemas.microsoft.com/exchange/services/2006/types">
         <Name>David Alexander</Name>
         <Address>someone@example.com</Address>
         <RoutingType>SMTP</RoutingType>
       </Mailbox>
-      <UserOofSettings xmlns="http://schemas.microsoft.com/exchange/services/2006/types">
+      <UserOofSettings xmlns="https://schemas.microsoft.com/exchange/services/2006/types">
         <OofState>Enabled</OofState>
         <ExternalAudience>All</ExternalAudience>
         <Duration>
@@ -90,17 +88,13 @@ The following example of a [SetUserOofSettings operation](setuseroofsettings-ope
 
 |||
 |:-----|:-----|
-|Namespace  <br/> |http://schemas.microsoft.com/exchange/services/2006/types  <br/> |
+|Namespace  <br/> |https://schemas.microsoft.com/exchange/services/2006/types  <br/> |
 |Schema Name  <br/> |Types schema  <br/> |
 |Validation File  <br/> |Types.xsd  <br/> |
 |Can be Empty  <br/> |False  <br/> |
    
 ## See also
 
-#### Reference
-
-[SetUserOofSettings operation](setuseroofsettings-operation.md)
-#### Concepts
-
-[EWS XML elements in Exchange](ews-xml-elements-in-exchange.md)
+- [SetUserOofSettings operation](setuseroofsettings-operation.md)
+- [EWS XML elements in Exchange](ews-xml-elements-in-exchange.md)
 

@@ -1,9 +1,7 @@
 ---
 title: "DeleteFolder operation"
- 
- 
 manager: sethgros
-ms.date: 9/17/2015
+ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
@@ -20,7 +18,7 @@ description: "The DeleteFolder operation deletes folders from a mailbox."
 
 The **DeleteFolder** operation deletes folders from a mailbox. 
   
-## DeleteFolder Request Example
+## DeleteFolder request example
 
 ### Description
 
@@ -31,10 +29,10 @@ This following example of a **DeleteFolder** request shows how to form a request
 ```XML
 <?xml version="1.0" encoding="utf-8"?>
 <soap:Envelope xmlns:soap="http://schemas.xmlsoap.org/soap/envelope/"
-               xmlns:t="http://schemas.microsoft.com/exchange/services/2006/types">
+               xmlns:t="https://schemas.microsoft.com/exchange/services/2006/types">
   <soap:Body>
-    <DeleteFolder xmlns="http://schemas.microsoft.com/exchange/services/2006/messages"
-                  xmlns:t="http://schemas.microsoft.com/exchange/services/2006/types" 
+    <DeleteFolder xmlns="https://schemas.microsoft.com/exchange/services/2006/messages"
+                  xmlns:t="https://schemas.microsoft.com/exchange/services/2006/types" 
                   DeleteType="HardDelete" >
       <FolderIds>
         <t:FolderId Id="AS4AUnVz=" />
@@ -51,7 +49,7 @@ This example performs a hard delete on the folder.
 > [!NOTE]
 > The folder ID has been shortened to preserve readability. 
   
-### Request Elements
+### Request elements
 
 The following elements are used in the request:
   
@@ -66,7 +64,7 @@ The following elements are used in the request:
   
 To find other options for the request message of the **DeleteFolder** operation, explore the schema hierarchy. Start at the [DeleteFolder](deletefolder.md) element. 
   
-## Successful DeleteFolder Response
+## Successful DeleteFolder response
 
 ### Description
 
@@ -81,12 +79,12 @@ The following example shows a successful response to the **DeleteFolder** reques
                xmlns:xsd="http://www.w3.org/2001/XMLSchema">
   <soap:Header>
     <t:ServerVersionInfo MajorVersion="8" MinorVersion="0" MajorBuildNumber="595" MinorBuildNumber="0" 
-                         xmlns:t="http://schemas.microsoft.com/exchange/services/2006/types" />
+                         xmlns:t="https://schemas.microsoft.com/exchange/services/2006/types" />
   </soap:Header>
   <soap:Body>
-    <DeleteFolderResponse xmlns:m="http://schemas.microsoft.com/exchange/services/2006/messages" 
-                          xmlns:t="http://schemas.microsoft.com/exchange/services/2006/types" 
-                          xmlns="http://schemas.microsoft.com/exchange/services/2006/messages">
+    <DeleteFolderResponse xmlns:m="https://schemas.microsoft.com/exchange/services/2006/messages" 
+                          xmlns:t="https://schemas.microsoft.com/exchange/services/2006/types" 
+                          xmlns="https://schemas.microsoft.com/exchange/services/2006/messages">
       <m:ResponseMessages>
         <m:DeleteFolderResponseMessage ResponseClass="Success">
           <m:ResponseCode>NoError</m:ResponseCode>
@@ -97,7 +95,7 @@ The following example shows a successful response to the **DeleteFolder** reques
 </soap:Envelope>
 ```
 
-### Response Elements
+### Response elements
 
 The following elements are used in the response:
   
@@ -113,7 +111,7 @@ The following elements are used in the response:
     
 To find other options for the response message of the **DeleteFolder** operation, explore the schema hierarchy. Start at the [DeleteFolderResponse](deletefolderresponse.md) element. 
   
-## DeleteFolder Error Response
+## DeleteFolder error response
 
 ### Description
 
@@ -128,12 +126,12 @@ The following example shows an error response to a **DeleteFolder** request. The
                xmlns:xsd="http://www.w3.org/2001/XMLSchema">
   <soap:Header>
     <t:ServerVersionInfo MajorVersion="8" MinorVersion="0" MajorBuildNumber="595" MinorBuildNumber="0" 
-                         xmlns:t="http://schemas.microsoft.com/exchange/services/2006/types" />
+                         xmlns:t="https://schemas.microsoft.com/exchange/services/2006/types" />
   </soap:Header>
   <soap:Body>
-    <DeleteFolderResponse xmlns:m="http://schemas.microsoft.com/exchange/services/2006/messages" 
-                          xmlns:t="http://schemas.microsoft.com/exchange/services/2006/types" 
-                          xmlns="http://schemas.microsoft.com/exchange/services/2006/messages">
+    <DeleteFolderResponse xmlns:m="https://schemas.microsoft.com/exchange/services/2006/messages" 
+                          xmlns:t="https://schemas.microsoft.com/exchange/services/2006/types" 
+                          xmlns="https://schemas.microsoft.com/exchange/services/2006/messages">
       <m:ResponseMessages>
         <m:DeleteFolderResponseMessage ResponseClass="Error">
           <m:MessageText>The specified object was not found in the store.</m:MessageText>
@@ -150,7 +148,7 @@ The following example shows an error response to a **DeleteFolder** request. The
 
 The **DeleteFolder** operation cannot be used on distinguished folders. 
   
-### Error Response Elements
+### Error response elements
 
 The following elements are used in the error response:
   
@@ -172,10 +170,6 @@ To find other options for the error response message of the **DeleteFolder** ope
   
 ## See also
 
-#### Concepts
-
-[EWS XML elements in Exchange](ews-xml-elements-in-exchange.md)
-#### Other resources
-
-[Deleting Folders](http://msdn.microsoft.com/library/1958add5-5071-4239-adb2-40f7a7d74aee%28Office.15%29.aspx)
+- [EWS XML elements in Exchange](ews-xml-elements-in-exchange.md)
+- [Deleting Folders](https://msdn.microsoft.com/library/1958add5-5071-4239-adb2-40f7a7d74aee%28Office.15%29.aspx)
 

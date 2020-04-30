@@ -1,7 +1,7 @@
 ---
 title: "SetPlayOnPhoneDialString operation (UM web service)"
 manager: sethgros
-ms.date: 9/17/2015
+ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
 localization_priority: Normal
@@ -19,7 +19,7 @@ description: "The SetPlayOnPhoneDialString operation sets the dial string to use
 
 The SetPlayOnPhoneDialString operation sets the dial string to use as the default for the [PlayOnPhone operation (UM web service)](playonphone-operation-um-web-service.md) and the [PlayOnPhoneGreeting operation (UM web service)](playonphonegreeting-operation-um-web-service.md).
   
-## SetPlayOnPhoneDialString Request Example
+## SetPlayOnPhoneDialString request example
 
 ### Description
 
@@ -31,14 +31,14 @@ The following example of a SetPlayOnPhoneDialString request shows how to form a 
 <?xml version="1.0" encoding="utf-8"?>
 <soap:Envelope xmlns:soap="http://schemas.xmlsoap.org/soap/envelope/">
   <soap:Body>
-    <SetPlayOnPhoneDialString xmlns="http://schemas.microsoft.com/exchange/services/2006/messages">
+    <SetPlayOnPhoneDialString xmlns="https://schemas.microsoft.com/exchange/services/2006/messages">
         <dialString>12345</dialString>
     </SetPlayOnPhoneDialString>
   </soap:Body>
 </soap:Envelope>
 ```
 
-## Successful SetPlayOnPhoneDialString Response Example
+## Successful SetPlayOnPhoneDialString response example
 
 ### Description
 
@@ -50,14 +50,14 @@ The following example of a SetPlayOnePhoneDialString response shows a response t
 <?xml version="1.0" encoding="utf-8" ?> 
 <soap:Envelope xmlns:soap="http://schemas.xmlsoap.org/soap/envelope/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
   <soap:Body>
-    <SetPlayOnPhoneDialStringResponse xmlns="http://schemas.microsoft.com/exchange/services/2006/messages" /> 
+    <SetPlayOnPhoneDialStringResponse xmlns="https://schemas.microsoft.com/exchange/services/2006/messages" /> 
   </soap:Body>
 </soap:Envelope>
 ```
 
 ## See also
 
-#### Reference
+
 
 [SetPlayOnPhoneDialString (UM web service)](setplayonphonedialstring-um-web-service.md)
   

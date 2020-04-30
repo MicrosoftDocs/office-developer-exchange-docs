@@ -1,7 +1,7 @@
 ---
 title: "SetTelephoneAccessFolderEmail operation (UM web service)"
 manager: sethgros
-ms.date: 9/17/2015
+ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
 localization_priority: Normal
@@ -19,7 +19,7 @@ description: "The SetTelephoneAccessFolderEmail operation sets the folder from w
 
 The SetTelephoneAccessFolderEmail operation sets the folder from which Unified Messaging will read back messages to the user over the telephone.
   
-## SetTelephoneAccessFolderEmail Request Example
+## SetTelephoneAccessFolderEmail request example
 
 ### Description
 
@@ -31,14 +31,14 @@ The following example of a SetTelephoneAccessFolderEmail request shows how to fo
 <?xml version="1.0" encoding="utf-8"?>
 <soap:Envelope xmlns:soap="http://schemas.xmlsoap.org/soap/envelope/">
   <soap:Body>
-    <SetTelephoneAccessFolderEmail xmlns="http://schemas.microsoft.com/exchange/services/2006/messages">
+    <SetTelephoneAccessFolderEmail xmlns="https://schemas.microsoft.com/exchange/services/2006/messages">
       <base64FolderID>AAAAAGsd2rbQLVtLobUGbrq/9IUBAEX2ikn/L8JJtI5WHI0FAW8AAAFXHhsAAA==</base64FolderID>
     </SetTelephoneAccessFolderEmail>
   </soap:Body>
 </soap:Envelope>
 ```
 
-## Successful SetTelephoneAccessFolderEmail Response Example
+## Successful SetTelephoneAccessFolderEmail response example
 
 ### Description
 
@@ -50,14 +50,14 @@ The following example of a SetTelephoneAccessFolderEmail response shows a respon
 <?xml version="1.0" encoding="utf-8" ?> 
 <soap:Envelope xmlns:soap="http://schemas.xmlsoap.org/soap/envelope/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
   <soap:Body>
-    <SetTelephoneAccessFolderEmailResponse xmlns="http://schemas.microsoft.com/exchange/services/2006/messages" /> 
+    <SetTelephoneAccessFolderEmailResponse xmlns="https://schemas.microsoft.com/exchange/services/2006/messages" /> 
   </soap:Body>
 </soap:Envelope>
 ```
 
 ## See also
 
-#### Reference
+
 
 [SetTelephoneAccessFolderEmail (UM web service)](settelephoneaccessfolderemail-um-web-service.md)
   

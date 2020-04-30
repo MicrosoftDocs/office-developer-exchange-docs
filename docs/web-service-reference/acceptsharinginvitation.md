@@ -1,9 +1,7 @@
 ---
 title: "AcceptSharingInvitation"
- 
- 
 manager: sethgros
-ms.date: 9/17/2015
+ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
@@ -20,7 +18,7 @@ description: "The AcceptSharingInvitation element is used to accept an invitatio
 
 The **AcceptSharingInvitation** element is used to accept an invitation that allows access to another user's calendar or contacts data. 
   
-```
+```xml
 <AcceptSharingInvitation>
    <ReferenceItemId/>
 </AcceptSharingInvitation>
@@ -31,17 +29,17 @@ The **AcceptSharingInvitation** element is used to accept an invitation that all
 
 The following sections describe attributes, child elements, and parent elements.
   
-#### Attributes
+### Attributes
 
 None.
   
-#### Child elements
+### Child elements
 
 |**Element**|**Description**|
 |:-----|:-----|
 |[ReferenceItemId](referenceitemid.md) <br/> |Identifies the item to which the response object refers.  <br/> |
    
-#### Parent elements
+### Parent elements
 
 |**Element**|**Description**|
 |:-----|:-----|
@@ -56,17 +54,13 @@ The schema that describes this element is located in the IIS virtual directory t
 
 |||
 |:-----|:-----|
-|Namespace  <br/> |http://schemas.microsoft.com/exchange/services/2006/types  <br/> |
+|Namespace  <br/> |https://schemas.microsoft.com/exchange/services/2006/types  <br/> |
 |Schema Name  <br/> |Types schema  <br/> |
 |Validation File  <br/> |Types.xsd  <br/> |
 |Can be Empty  <br/> |False  <br/> |
    
 ## See also
 
-#### Reference
-
-[CreateItem (AcceptSharingInvitation)](createitem-acceptsharinginvitation.md)
-#### Concepts
-
-[EWS XML elements in Exchange](ews-xml-elements-in-exchange.md)
+- [CreateItem (AcceptSharingInvitation)](createitem-acceptsharinginvitation.md)
+- [EWS XML elements in Exchange](ews-xml-elements-in-exchange.md)
 

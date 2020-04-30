@@ -1,7 +1,7 @@
 ---
 title: "IPv4Start (POX)"
 manager: sethgros
-ms.date: 9/17/2015
+ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
 localization_priority: Normal
@@ -29,7 +29,7 @@ The **IPv4Start** element identifies the start of a range of IP version 4 (IPv4)
   
 [IPv4Start (POX)](ipv4start-pox.md)
   
-```
+```xml
 <IPv4Start/>
 ```
 
@@ -37,15 +37,15 @@ The **IPv4Start** element identifies the start of a range of IP version 4 (IPv4)
 
 The following sections describe attributes, child elements, and parent elements.
   
-#### Attributes
+### Attributes
 
 None.
   
-#### Child elements
+### Child elements
 
 None.
   
-#### Parent elements
+### Parent elements
 
 |**Element**|**Description**|
 |:-----|:-----|
@@ -57,7 +57,7 @@ The text value represents an IPv4 address.
   
 ## See also
 
-#### Concepts
+
 
 [POX Autodiscover XML elements for Exchange](pox-autodiscover-xml-elements-for-exchange.md)
 

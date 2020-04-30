@@ -1,9 +1,7 @@
 ---
-title: "ExpandDL operation"
- 
- 
+title: "ExpandDL operation" 
 manager: sethgros
-ms.date: 9/17/2015
+ms.date: 07/27/2018
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
@@ -53,7 +51,7 @@ Private distribution lists are located in the Contacts folder of a user's mailbo
   
 For contacts or private distribution lists, the item identifiers are returned in the response. This can be used to get information about the object or to expand membership in a private distribution list.
   
-## ExpandDL Private Distribution List Request Example
+## ExpandDL Private Distribution List request example
 
 ### Description
 
@@ -61,17 +59,18 @@ The following example of an ExpandDL request shows how to form a request to expa
   
 ### Code
 
-```XML
+```xml
 <?xml version="1.0" encoding="utf-8"?>
-<soap:Envelope xmlns:soap="http://schemas.xmlsoap.org/soap/envelope/"
-               xmlns:t="http://schemas.microsoft.com/exchange/services/2006/types">
+<soap:Envelope xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:m="https://schemas.microsoft.com/exchange/services/2006/messages" xmlns:t="https://schemas.microsoft.com/exchange/services/2006/types" xmlns:soap="http://schemas.xmlsoap.org/soap/envelope/">
+  <soap:Header>
+    <t:RequestServerVersion Version="Exchange2013_SP1" />
+  </soap:Header>
   <soap:Body>
-    <ExpandDL xmlns="http://schemas.microsoft.com/exchange/services/2006/messages"
-              xmlns:t="http://schemas.microsoft.com/exchange/services/2006/types">
-        <t:Mailbox>
-          <t:ItemId Id="xASUAd==" ChangeKey="AAts0Q=="/>
-        </t:Mailbox>
-    </ExpandDL>
+    <m:ExpandDL>
+      <m:Mailbox>
+       <t:EmailAddress>test</t:EmailAddress>
+      </m:Mailbox>
+    </m:ExpandDL>
   </soap:Body>
 </soap:Envelope>
 ```
@@ -80,7 +79,7 @@ The following example of an ExpandDL request shows how to form a request to expa
 
 To expand a private distribution list, the [Mailbox](mailbox.md) element will contain the [ItemId](itemid.md) element that identifies a private distribution list in the user's mailbox. 
   
-## ExpandDL Public Distribution List Request Example
+## ExpandDL Public Distribution List request example
 
 ### Description
 
@@ -88,13 +87,13 @@ The following example of an ExpandDL request shows how to form a request to expa
   
 ### Code
 
-```XML
+```xml
 <?xml version="1.0" encoding="utf-8"?>
 <soap:Envelope xmlns:soap="http://schemas.xmlsoap.org/soap/envelope/"
-               xmlns:t="http://schemas.microsoft.com/exchange/services/2006/types">
+               xmlns:t="https://schemas.microsoft.com/exchange/services/2006/types">
   <soap:Body>
-    <ExpandDL xmlns="http://schemas.microsoft.com/exchange/services/2006/messages"
-              xmlns:t="http://schemas.microsoft.com/exchange/services/2006/types">
+    <ExpandDL xmlns="https://schemas.microsoft.com/exchange/services/2006/messages"
+              xmlns:t="https://schemas.microsoft.com/exchange/services/2006/types">
         <t:Mailbox>
           <t:EmailAddress>TheDistributionList</t:EmailAddress>
         </t:Mailbox>
@@ -107,7 +106,7 @@ The following example of an ExpandDL request shows how to form a request to expa
 
 The response to this request will contain **Mailbox** elements that identify each mailbox in the distribution list. If a distribution list is contained within a distribution list, a separate distribution list expansion must be performed on the embedded distribution list. If the distribution list has no members or the requested distribution list does not exist, the **ResponseClass** attribute will contain a value equal to Success. 
   
-### Request Elements
+### Request elements
 
 The following elements are used in the request:
   
@@ -120,7 +119,7 @@ The following elements are used in the request:
 > [!NOTE]
 > The schema that describes these elements is located in the EWS virtual directory of the computer that is running MicrosoftExchange Server 2007 that has the Client Access server role installed. 
   
-## Successful ExpandDL Response Example
+## Successful ExpandDL response example
 
 ### Description
 
@@ -143,7 +142,7 @@ The following example of an ExpandDL response shows a response to the request de
   
 ### Code
 
-```XML
+```xml
 <?xml version="1.0" encoding="utf-8" ?>
 <soap:Envelope xmlns:soap="http://schemas.xmlsoap.org/soap/envelope/" 
                xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
@@ -151,12 +150,12 @@ The following example of an ExpandDL response shows a response to the request de
   <soap:Header>
     <t:ServerVersionInfo MajorVersion="8" MinorVersion="0" 
                          MajorBuildNumber="628" MinorBuildNumber="0" 
-                         xmlns:t="http://schemas.microsoft.com/exchange/services/2006/types" />
+                         xmlns:t="https://schemas.microsoft.com/exchange/services/2006/types" />
   </soap:Header>
   <soap:Body>
-    <ExpandDLResponse xmlns:m="http://schemas.microsoft.com/exchange/services/2006/messages" 
-                      xmlns:t="http://schemas.microsoft.com/exchange/services/2006/types" 
-                      xmlns="http://schemas.microsoft.com/exchange/services/2006/messages">
+    <ExpandDLResponse xmlns:m="https://schemas.microsoft.com/exchange/services/2006/messages" 
+                      xmlns:t="https://schemas.microsoft.com/exchange/services/2006/types" 
+                      xmlns="https://schemas.microsoft.com/exchange/services/2006/messages">
       <m:ResponseMessages>
         <m:ExpandDLResponseMessage ResponseClass="Success">
           <m:ResponseCode>NoError</m:ResponseCode>
@@ -187,7 +186,7 @@ The following example of an ExpandDL response shows a response to the request de
 </soap:Envelope>
 ```
 
-### Successful Response Elements
+### Successful response elements
 
 The following elements are used in the response:
   
@@ -215,7 +214,7 @@ The following elements are used in the response:
     
 To find other options for the response message of the ExpandDL operation, explore the schema hierarchy. Start at the [ExpandDLResponse](expanddlresponse.md) element. 
   
-## ExpandDL Error Response
+## ExpandDL error response
 
 ### Description
 
@@ -223,7 +222,7 @@ The following example shows an error response to an ExpandDL request.
   
 ### Code
 
-```XML
+```xml
 <?xml version="1.0" encoding="utf-8" ?>
 <soap:Envelope xmlns:soap="http://schemas.xmlsoap.org/soap/envelope/" 
                xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
@@ -231,12 +230,12 @@ The following example shows an error response to an ExpandDL request.
   <soap:Header>
     <t:ServerVersionInfo MajorVersion="8" MinorVersion="0" 
                          MajorBuildNumber="628" MinorBuildNumber="0" 
-                         xmlns:t="http://schemas.microsoft.com/exchange/services/2006/types" />
+                         xmlns:t="https://schemas.microsoft.com/exchange/services/2006/types" />
   </soap:Header>
   <soap:Body>
-    <ExpandDLResponse xmlns:m="http://schemas.microsoft.com/exchange/services/2006/messages" 
-                      xmlns:t="http://schemas.microsoft.com/exchange/services/2006/types" 
-                      xmlns="http://schemas.microsoft.com/exchange/services/2006/messages">
+    <ExpandDLResponse xmlns:m="https://schemas.microsoft.com/exchange/services/2006/messages" 
+                      xmlns:t="https://schemas.microsoft.com/exchange/services/2006/types" 
+                      xmlns="https://schemas.microsoft.com/exchange/services/2006/messages">
       <m:ResponseMessages>
         <m:ExpandDLResponseMessage ResponseClass="Error">
           <m:MessageText>No results are found.</m:MessageText>
@@ -249,7 +248,7 @@ The following example shows an error response to an ExpandDL request.
 </soap:Envelope>
 ```
 
-### Error Response Elements
+### Error response elements
 
 The following elements are used in the error response:
   
@@ -271,10 +270,6 @@ To find other options for the response message of the ExpandDL operation, explor
   
 ## See also
 
-#### Reference
-
-[ResolveNames operation](resolvenames-operation.md)
-#### Concepts
-
-[EWS XML elements in Exchange](ews-xml-elements-in-exchange.md)
+- [ResolveNames operation](resolvenames-operation.md)
+- [EWS XML elements in Exchange](ews-xml-elements-in-exchange.md)
 

@@ -1,7 +1,5 @@
 ---
 title: "CChkSGFiles.ErrGetHeader function (reserved)"
- 
- 
 manager: sethgros
 ms.date: 11/16/2014
 ms.audience: Developer
@@ -18,9 +16,7 @@ description: "Last modified: February 22, 2013"
 
 # CChkSGFiles.ErrGetHeader function (reserved)
 
- **Last modified:** February 22, 2013 
-  
- * **Applies to:** Exchange Server 2003 | Exchange Server 2007 | Exchange Server 2010 | Exchange Server 2013 * 
+**Applies to:** Exchange Server 2003 | Exchange Server 2007 | Exchange Server 2010 | Exchange Server 2013
   
 Reserved for future use, and not implemented. Do not call this function. 
   
@@ -37,21 +33,21 @@ Vitual ERRErrGetHeader
 
 ## Parameters
 
- *wszFile* 
+### wszFile
   
-> Reserved for future use; do not use.
+Reserved for future use; do not use.
     
- *pvResult* 
+### pvResult
   
-> Reserved for future use; do not use.
+Reserved for future use; do not use.
     
- *cbMax* 
+### cbMax
   
-> Reserved for future use; do not use.
+Reserved for future use; do not use.
     
- *ulFlags* 
+### ulFlags
   
-> Reserved for future use; do not use.
+Reserved for future use; do not use.
     
 ## Return value
 

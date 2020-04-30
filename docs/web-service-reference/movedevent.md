@@ -1,9 +1,7 @@
 ---
 title: "MovedEvent"
- 
- 
 manager: sethgros
-ms.date: 9/17/2015
+ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
@@ -20,7 +18,7 @@ description: "The MovedEvent element represents an event in which an item or fol
 
 The **MovedEvent** element represents an event in which an item or folder is moved from one parent folder to another parent folder. 
   
-```
+```xml
 <MovedEvent>
    <Watermark/>
    <TimeStamp/>
@@ -31,16 +29,29 @@ The **MovedEvent** element represents an event in which an item or folder is mov
 </MovedEvent>
 ```
 
- **MovedCopiedEventType**
+```xml
+<MovedEvent>
+   <Watermark/>
+   <TimeStamp/>
+   <FolderId/>
+   <ParentFolderId/>
+   <OldFolderId/>
+   <OldParentFolderId/>
+</MovedEvent>
+```
+
+
+**MovedCopiedEventType**
+
 ## Attributes and elements
 
 The following sections describe attributes, child elements, and parent elements.
   
-#### Attributes
+### Attributes
 
 None.
   
-#### Child elements
+### Child elements
 
 |**Element**|**Description**|
 |:-----|:-----|
@@ -53,7 +64,7 @@ None.
 |[OldItemId](olditemid.md) <br/> |Contains the unique identifier of the original item before it was moved.  <br/> |
 |[OldParentFolderId](oldparentfolderid.md) <br/> |Contains the identifier of the original parent folder of an item or folder that was moved.  <br/> |
    
-#### Parent elements
+### Parent elements
 
 |**Element**|**Description**|
 |:-----|:-----|
@@ -67,18 +78,14 @@ The schema that describes this element is located in the EWS virtual directory o
 
 |||
 |:-----|:-----|
-|Namespace  <br/> |http://schemas.microsoft.com/exchange/services/2006/types  <br/> |
+|Namespace  <br/> |https://schemas.microsoft.com/exchange/services/2006/types  <br/> |
 |Schema name  <br/> |Types schema  <br/> |
 |Validation file  <br/> |Types.xsd  <br/> |
 |Can be empty  <br/> |False  <br/> |
    
 ## See also
 
-#### Reference
-
-[Subscribe operation](subscribe-operation.md)
-  
-[GetEvents operation](getevents-operation.md)
-  
-[Unsubscribe operation](unsubscribe-operation.md)
+- [Subscribe operation](subscribe-operation.md) 
+- [GetEvents operation](getevents-operation.md) 
+- [Unsubscribe operation](unsubscribe-operation.md)
 

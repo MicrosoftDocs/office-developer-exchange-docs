@@ -1,9 +1,7 @@
 ---
 title: "Action (ProtectionRuleActionType)"
- 
- 
 manager: sethgros
-ms.date: 9/17/2015
+ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
@@ -20,7 +18,7 @@ description: "The Action element identifies what action must be executed if the 
 
 The **Action** element identifies what action must be executed if the condition part of the rule matches. 
   
-```
+```xml
 <Action Name="">
    <Argument/>
 </Action>
@@ -32,19 +30,19 @@ The **Action** element identifies what action must be executed if the condition 
 
 The following sections describe attributes, child elements, and parent elements.
   
-#### Attributes
+### Attributes
 
 |**Attribute**|**Description**|
 |:-----|:-----|
 |**Name** <br/> |Identifies the name of the action.  <br/> |
    
-#### Child elements
+### Child elements
 
 |**Element**|**Description**|
 |:-----|:-----|
 |[Argument](argument.md) <br/> |Specifies arguments to the action. This element will not occur if the specified action does not require arguments to be specified. This element can occur one or more times if an action requires one or more arguments. The **RightsProtectMessage** action will contain a single argument.  <br/> |
    
-#### Parent elements
+### Parent elements
 
 |**Element**|**Description**|
 |:-----|:-----|
@@ -58,14 +56,12 @@ The schema that describes this element is located in the IIS virtual directory t
 
 |||
 |:-----|:-----|
-|Namespace  <br/> |http://schemas.microsoft.com/exchange/services/2006/types  <br/> |
+|Namespace  <br/> |https://schemas.microsoft.com/exchange/services/2006/types  <br/> |
 |Schema Name  <br/> |Types schema  <br/> |
 |Validation File  <br/> |Types.xsd  <br/> |
 |Can be Empty  <br/> |False  <br/> |
    
 ## See also
 
-#### Concepts
-
-[EWS XML elements in Exchange](ews-xml-elements-in-exchange.md)
+- [EWS XML elements in Exchange](ews-xml-elements-in-exchange.md)
 

@@ -1,7 +1,7 @@
 ---
 title: "EncryptionMethod (SOAP)"
 manager: sethgros
-ms.date: 9/17/2015
+ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
 localization_priority: Normal
@@ -9,8 +9,6 @@ api_type:
 - schema
 ms.assetid: bc632c85-ec74-4a00-baec-df5973e032fa
 description: "The EncryptionMethod element represents the cryptographic method that is used for the POP, IMAP, and SMTP protocols."
- 
- 
 ---
 
 # EncryptionMethod (SOAP)
@@ -26,15 +24,15 @@ The **EncryptionMethod** element represents the cryptographic method that is use
 
 The following sections describe attributes, child elements, and parent elements.
   
-#### Attributes
+### Attributes
 
 None.
   
-#### Child elements
+### Child elements
 
 None.
   
-#### Parent elements
+### Parent elements
 
 |**Element**|**Description**|
 |:-----|:-----|
@@ -48,14 +46,12 @@ The text value for this element is the cryptographic method that is used for the
 
 |||
 |:-----|:-----|
-|Namespace  <br/> |http://schemas.microsoft.com/exchange/2010/Autodiscover  <br/> |
+|Namespace  <br/> |https://schemas.microsoft.com/exchange/2010/Autodiscover  <br/> |
 |Schema Name  <br/> |Autodiscover schema  <br/> |
 |Validation File  <br/> |Messages.xsd  <br/> |
 |Can be Empty  <br/> |True  <br/> |
    
 ## See also
 
-#### Reference
-
-[GetUserSettings operation (SOAP)](getusersettings-operation-soap.md)
+- [GetUserSettings operation (SOAP)](getusersettings-operation-soap.md)
 

@@ -1,9 +1,7 @@
 ---
 title: "MessageText"
- 
- 
 manager: sethgros
-ms.date: 9/17/2015
+ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
@@ -29,19 +27,19 @@ The **MessageText** element provides a text description of the status of the res
 
 The following sections describe attributes, child elements, and parent elements.
   
-#### Attributes
+### Attributes
 
 None
   
-#### Child elements
+### Child elements
 
 None.
   
-#### Parent elements
+### Parent elements
 
 |**Element**|**Description**|
 |:-----|:-----|
-|[ResponseMessage](responsemessage.md) <br/> | Provides descriptive information about the response status.  <br/>  The following are some of the possible XPath expressions to this element:  <br/>  `/GetUserAvailabilityResponse/FreeBusyResponseArray/FreeBusyResponse/ResponseMessage` <br/>  `/GetUserAvailabilityResponse/SuggestionsResponse/ResponseMessage` <br/>  `/SetUserOofSettingsResponse/ResponseMessage` <br/>  `/GetUserOofSettingsResponse/ResponseMessage` <br/> |
+|[ResponseMessage](responsemessage.md) <br/> | Provides descriptive information about the response status.  <br/> <br/> The following are some of the possible XPath expressions to this element: <br/> <br/>  `/GetUserAvailabilityResponse/FreeBusyResponseArray/FreeBusyResponse/ResponseMessage` <br/> <br/> `/GetUserAvailabilityResponse/SuggestionsResponse/ResponseMessage` <br/><br/>  `/SetUserOofSettingsResponse/ResponseMessage` <br/><br/>  `/GetUserOofSettingsResponse/ResponseMessage` <br/> |
 |[DeleteItemResponseMessage](deleteitemresponsemessage.md) <br/> |Contains the status and result of a single DeleteItem request.  <br/> |
 |[SendItemResponseMessage](senditemresponsemessage.md) <br/> |Contains the status and result of a single SendItem request.  <br/> |
 |[DeleteFolderResponseMessage](deletefolderresponsemessage.md) <br/> |Contains the status and result of a single DeleteFolder request.  <br/> |
@@ -96,14 +94,12 @@ The schema that describes this element is located in the IIS virtual directory t
 
 |||
 |:-----|:-----|
-|Namespace  <br/> |http://schemas.microsoft.com/exchange/services/2006/messages  <br/> |
+|Namespace  <br/> |https://schemas.microsoft.com/exchange/services/2006/messages  <br/> |
 |Schema Name  <br/> |Messages schema  <br/> |
 |Validation File  <br/> |Messages.xsd  <br/> |
 |Can be Empty  <br/> |False  <br/> |
    
 ## See also
 
-#### Concepts
-
-[EWS XML elements in Exchange](ews-xml-elements-in-exchange.md)
+- [EWS XML elements in Exchange](ews-xml-elements-in-exchange.md)
 

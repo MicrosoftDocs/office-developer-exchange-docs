@@ -1,9 +1,7 @@
 ---
 title: "DeleteFolderResponse"
- 
- 
 manager: sethgros
-ms.date: 9/17/2015
+ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
@@ -20,7 +18,7 @@ description: "The DeleteFolderResponse element defines a response to a DeleteFol
 
 The **DeleteFolderResponse** element defines a response to a DeleteFolder request. 
   
-```
+```xml
 <DeleteFolderResponse>
    <ResponseMessages/>
 </DeleteFolderResponse>
@@ -31,17 +29,17 @@ The **DeleteFolderResponse** element defines a response to a DeleteFolder reques
 
 The following sections describe attributes, child elements, and parent elements.
   
-#### Attributes
+### Attributes
 
 None.
   
-#### Child elements
+### Child elements
 
 |**Element**|**Description**|
 |:-----|:-----|
 |[ResponseMessages](responsemessages.md) <br/> |Contains the response messages for an Exchange Web Services request.  <br/> |
    
-#### Parent elements
+### Parent elements
 
 None.
   
@@ -53,19 +51,14 @@ The schema that describes this element is located in the EWS virtual directory o
 
 |||
 |:-----|:-----|
-|Namespace  <br/> |http://schemas.microsoft.com/exchange/services/2006/messages  <br/> |
+|Namespace  <br/> |https://schemas.microsoft.com/exchange/services/2006/messages  <br/> |
 |Schema name  <br/> |Messages schema  <br/> |
 |Validation file  <br/> |Messages.xsd  <br/> |
 |Can be empty  <br/> |False  <br/> |
    
 ## See also
 
-#### Reference
-
-[DeleteFolder operation](deletefolder-operation.md)
-  
-[DeleteFolder](deletefolder.md)
-#### Concepts
-
-[EWS XML elements in Exchange](ews-xml-elements-in-exchange.md)
+- [DeleteFolder operation](deletefolder-operation.md) 
+- [DeleteFolder](deletefolder.md)
+- [EWS XML elements in Exchange](ews-xml-elements-in-exchange.md)
 

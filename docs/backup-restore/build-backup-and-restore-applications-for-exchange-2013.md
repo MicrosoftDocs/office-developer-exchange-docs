@@ -1,9 +1,7 @@
 ---
 title: "Build backup and restore applications for Exchange 2013"
- 
- 
 manager: sethgros
-ms.date: 9/17/2015
+ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: overview
 ms.prod: office-online-server
@@ -16,11 +14,9 @@ description: "Find information about the components and architecture of backup a
 
 Find information about the components and architecture of backup and restore applications for Exchange 2013, and the system requirements for creating a backup and restore application.
   
- **Last modified:** September 17, 2015 
+**Applies to:** Exchange Server 2013 
   
- * **Applies to:** Exchange Server 2013 * 
-  
-You can use the [Volume Shadow Copy Service (VSS)](http://msdn.microsoft.com/en-us/library/bb968832%28VS.85%29.aspx) in versions of Windows Server starting with Windows Server 2008 to create applications that back up and restore Exchange Server 2013 data. VSS provides an infrastructure that enables you to create and manage shadow copies across third-party storage management systems, business applications, and hardware. You can create solutions based on the VSS infrastructure that use shadow copies to back up and restore one or more Exchange 2013 databases. 
+You can use the [Volume Shadow Copy Service (VSS)](https://msdn.microsoft.com/library/bb968832%28VS.85%29.aspx) in versions of Windows Server starting with Windows Server 2008 to create applications that back up and restore Exchange Server 2013 data. VSS provides an infrastructure that enables you to create and manage shadow copies across third-party storage management systems, business applications, and hardware. You can create solutions based on the VSS infrastructure that use shadow copies to back up and restore one or more Exchange 2013 databases. 
   
 ## Backup and restore application prerequisites
 <a name="bk_systemrequirements"> </a>
@@ -52,7 +48,7 @@ VSS coordinates communication between the following components:
     
 To use VSS to back up Exchange 2013 data, your backup application must be an Exchange 2013-aware VSS requester. Exchange 2013 includes a VSS writer, called the Microsoft Exchange Writer, for the Windows Server backup program; however, the Exchange writer only backs up whole volumes. It does not back up individual Exchange 2013 databases. If you need more flexibility, you can use a third-party backup application that has an Exchange-aware VSS writer that can work with individual Exchange databases, or you can create a custom VSS requester.
   
-Before your application calls VSS to initiate a backup, it must obtain information about the storage configuration for the Exchange 2013 system that it is backing up. That information is stored in Active Directory Domain Services (AD DS). Your backup application can get Exchange storage configuration data by using Exchange Management Shell commands. For more information, see [Exchange Management Shell](http://technet.microsoft.com/en-us/library/bb123778%28v=exchg.150%29.aspx) on TechNet. 
+Before your application calls VSS to initiate a backup, it must obtain information about the storage configuration for the Exchange 2013 system that it is backing up. That information is stored in Active Directory Domain Services (AD DS). Your backup application can get Exchange storage configuration data by using Exchange Management Shell commands. For more information, see [Exchange Server PowerShell (Exchange Management Shell)](https://docs.microsoft.com/powershell/exchange/exchange-server/exchange-management-shell?view=exchange-ps). 
   
 Exchange 2013 backup applications call the VSS COM APIs to create full, copy, differential and incremental backups of Exchange databases; they do not interact directly with the VSS writer. The Database Availability Group (DAG) functionality in Exchange also enables your application to create a fully consistent backup, even if the initial full backup and later incremental backups come from different servers in the DAG. After VSS creates the copy of the Exchange data, your backup application stores the data onto the intended media.
   
@@ -92,19 +88,15 @@ Information required to successfully complete backup and restore operations amon
     
 - [Restoring Exchange 2013 databases](restoring-exchange-2013-databases.md)
     
-- [How to: Validate backup integrity by using the CHKSGFILES API in Exchange 2013](how-to-validate-backup-integrity-by-using-the-chksgfiles-api-in-exchange-2013.md)
+- [Validate backup integrity by using the CHKSGFILES API in Exchange 2013](how-to-validate-backup-integrity-by-using-the-chksgfiles-api-in-exchange.md)
     
-- [How to: Validate backup integrity by using the Eseutil tool in Exchange 2013](how-to-validate-backup-integrity-by-using-the-eseutil-tool-in-exchange-2013.md)
+- [Validate backup integrity by using the Eseutil tool in Exchange 2013](how-to-validate-backup-integrity-by-using-the-eseutil-tool-in-exchange-2013.md)
     
-## Additional resources
-<a name="bk_addresources"> </a>
+## See also
 
-- [Backup and restore for Exchange 2013](backup-and-restore-for-exchange-2013.md)
-    
-- [CChkSGFiles class reference](cchksgfiles-class-reference.md)
-    
-- [Volume Shadow Copy Service](http://msdn.microsoft.com/en-us/library/bb968832%28VS.85%29.aspx)
-    
-- [Windows PowerShell](http://msdn.microsoft.com/en-us/library/dd835506%28v=vs.85%29.aspx)
+- [Backup and restore for Exchange](backup-and-restore-for-exchange-2013.md) 
+- [CChkSGFiles class reference](cchksgfiles-class-reference.md) 
+- [Volume Shadow Copy Service](https://msdn.microsoft.com/library/bb968832%28VS.85%29.aspx) 
+- [Windows PowerShell](https://msdn.microsoft.com/library/dd835506%28v=vs.85%29.aspx)
     
 

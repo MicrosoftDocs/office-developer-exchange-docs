@@ -1,7 +1,7 @@
 ---
 title: "DomainResponse (SOAP)"
 manager: sethgros
-ms.date: 9/17/2015
+ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
 localization_priority: Normal
@@ -9,8 +9,6 @@ api_type:
 - schema
 ms.assetid: 6aa319be-3a01-4044-8dfc-8fa1318524c3
 description: "The DomainResponse element contains the requested settings for the specified domain."
- 
- 
 ---
 
 # DomainResponse (SOAP)
@@ -32,11 +30,11 @@ The **DomainResponse** element contains the requested settings for the specified
 
 The following sections describe attributes, child elements, and parent elements.
   
-#### Attributes
+### Attributes
 
 None.
   
-#### Child elements
+### Child elements
 
 |**Element**|**Description**|
 |:-----|:-----|
@@ -46,7 +44,7 @@ None.
 |[ErrorCode (SOAP)](errorcode-soap.md) <br/> |Specifies the error code that is associated with the specific request.  <br/> |
 |[ErrorMessage (SOAP)](errormessage-soap.md) <br/> |Specifies the error message that is associated with the specific request.  <br/> |
    
-#### Parent elements
+### Parent elements
 
 |**Element**|**Description**|
 |:-----|:-----|
@@ -61,14 +59,12 @@ None.
 
 |||
 |:-----|:-----|
-|Namespace  <br/> |http://schemas.microsoft.com/exchange/2010/Autodiscover  <br/> |
+|Namespace  <br/> |https://schemas.microsoft.com/exchange/2010/Autodiscover  <br/> |
 |Schema Name  <br/> |Autodiscover schema  <br/> |
 |Validation File  <br/> |Messages.xsd  <br/> |
 |Can be Empty  <br/> |True  <br/> |
    
 ## See also
 
-#### Reference
-
-[GetDomainSettings operation (SOAP)](getdomainsettings-operation-soap.md)
+- [GetDomainSettings operation (SOAP)](getdomainsettings-operation-soap.md)
 

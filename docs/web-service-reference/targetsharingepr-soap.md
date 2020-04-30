@@ -1,40 +1,37 @@
 ---
 title: "TargetSharingEpr (SOAP)"
 manager: sethgros
-ms.date: 3/9/2015
+ms.date: 03/9/2015
 ms.audience: Developer
 ms.topic: reference
 localization_priority: Normal
 ms.assetid: 0115a740-9264-4e57-a410-197bb39e6c81
-description: "Applies to:"
- 
- 
+description: The TargetSharingEpr element represents the TargetSharingEpr property. The TargetSharingEpr element is for internal use only.
 ---
 
 # TargetSharingEpr (SOAP)
-
- * **Applies to: *** 
-  
+ 
 The **TargetSharingEpr** element represents the **TargetSharingEpr** property. The **TargetSharingEpr** element is for internal use only. This element is not used by clients. 
   
 ```XML
 <TargetSharingEpr/>
 ```
 
- **anyURI**
+**anyURI**
+
 ## Attributes and elements
 
 The following sections describe attributes, child elements, and parent elements.
   
-#### Attributes
+### Attributes
 
 None.
   
-#### Child elements
+### Child elements
 
 None.
   
-#### Parent elements
+### Parent elements
 
 |**Element**|**Description**|
 |:-----|:-----|
@@ -48,14 +45,12 @@ This element specifies the URL of the target server for the external organizatio
 
 |||
 |:-----|:-----|
-|Namespace  <br/> |http://schemas.microsoft.com/exchange/2010/Autodiscover  <br/> |
+|Namespace  <br/> |https://schemas.microsoft.com/exchange/2010/Autodiscover  <br/> |
 |Schema Name  <br/> |Autodiscover schema  <br/> |
 |Validation File  <br/> |Messages.xsd  <br/> |
 |Can be Empty  <br/> |True  <br/> |
    
 ## See also
 
-#### Reference
-
-[GetOrganizationRelationshipSettings operation (SOAP)](getorganizationrelationshipsettings-operation-soap.md)
+- [GetOrganizationRelationshipSettings operation (SOAP)](getorganizationrelationshipsettings-operation-soap.md)
 

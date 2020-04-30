@@ -1,7 +1,7 @@
 ---
 title: "AuthRequired (POX)"
 manager: sethgros
-ms.date: 9/17/2015
+ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
 localization_priority: Normal
@@ -9,25 +9,23 @@ api_type:
 - schema
 ms.assetid: 241a23ee-d2a2-4724-b794-d0d523d480a2
 description: "The AuthRequired element specifies whether authentication is required."
- 
- 
 ---
 
 # AuthRequired (POX)
 
 The **AuthRequired** element specifies whether authentication is required. 
   
-[AutoDiscover (POX)](autodiscover-pox.md)
+- [AutoDiscover (POX)](autodiscover-pox.md)
   
-[Response (POX)](response-pox.md)
+- [Response (POX)](response-pox.md)
   
-[Account (POX)](account-pox.md)
+- [Account (POX)](account-pox.md)
   
-[Protocol (POX)](protocol-pox.md)
+- [Protocol (POX)](protocol-pox.md)
   
-[AuthRequired (POX)](authrequired-pox.md)
+- [AuthRequired (POX)](authrequired-pox.md)
   
-```
+```xml
 <AuthRequired>on or off</AuthRequired>
 ```
 
@@ -35,15 +33,15 @@ The **AuthRequired** element specifies whether authentication is required.
 
 The following sections describe attributes, child elements, and parent elements.
   
-#### Attributes
+### Attributes
 
 None.
   
-#### Child elements
+### Child elements
 
 None.
   
-#### Parent elements
+### Parent elements
 
 |**Element**|**Description**|
 |:-----|:-----|
@@ -55,7 +53,5 @@ The text value specifies whether authentication is required. The possible values
   
 ## See also
 
-#### Concepts
-
-[POX Autodiscover XML elements for Exchange](pox-autodiscover-xml-elements-for-exchange.md)
+- [POX Autodiscover XML elements for Exchange](pox-autodiscover-xml-elements-for-exchange.md)
 

@@ -1,9 +1,7 @@
 ---
 title: "DeletedEvent"
- 
- 
 manager: sethgros
-ms.date: 9/17/2015
+ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
@@ -20,7 +18,7 @@ description: "The DeletedEvent element represents an event in which an item or f
 
 The **DeletedEvent** element represents an event in which an item or folder is deleted. 
   
-```
+```xml
 <DeletedEvent>
    <Watermark/>
    <TimeStamp/>
@@ -29,16 +27,26 @@ The **DeletedEvent** element represents an event in which an item or folder is d
 </DeletedEvent>
 ```
 
- **BaseObjectChangedEventType**
+```xml
+<DeletedEvent>
+   <Watermark/>
+   <TimeStamp/>
+   <FolderId/>
+   <ParentFolderId/>
+</DeletedEvent>
+```
+
+**BaseObjectChangedEventType**
+
 ## Attributes and elements
 
 The following sections describe attributes, child elements, and parent elements.
   
-#### Attributes
+### Attributes
 
 None.
   
-#### Child elements
+### Child elements
 
 |**Element**|**Description**|
 |:-----|:-----|
@@ -48,7 +56,7 @@ None.
 |[ItemId](itemid.md) <br/> |Represents the identifier of the deleted item.  <br/> |
 |[ParentFolderId](parentfolderid.md) <br/> |Represents the identifier of the parent folder of the deleted item or folder before deletion.  <br/> |
    
-#### Parent elements
+### Parent elements
 
 |**Element**|**Description**|
 |:-----|:-----|
@@ -62,18 +70,14 @@ The schema that describes this element is located in the EWS virtual directory o
 
 |||
 |:-----|:-----|
-|Namespace  <br/> |http://schemas.microsoft.com/exchange/services/2006/types  <br/> |
+|Namespace  <br/> |https://schemas.microsoft.com/exchange/services/2006/types  <br/> |
 |Schema name  <br/> |Types schema  <br/> |
 |Validation file  <br/> |Types.xsd  <br/> |
 |Can be empty  <br/> |False  <br/> |
    
 ## See also
 
-#### Reference
-
-[Subscribe operation](subscribe-operation.md)
-  
-[GetEvents operation](getevents-operation.md)
-  
-[Unsubscribe operation](unsubscribe-operation.md)
+- [Subscribe operation](subscribe-operation.md)  
+- [GetEvents operation](getevents-operation.md)  
+- [Unsubscribe operation](unsubscribe-operation.md)
 

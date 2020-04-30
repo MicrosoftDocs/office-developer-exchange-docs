@@ -1,9 +1,7 @@
 ---
 title: "Bias (UTC)"
- 
- 
 manager: sethgros
-ms.date: 9/17/2015
+ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
@@ -20,30 +18,31 @@ description: "The Bias element represents the general offset from Coordinated Un
 
 The **Bias** element represents the general offset from Coordinated Universal Time (UTC). This value is in minutes. 
   
-```
+```xml
 <TimeZone>
    <Bias>int</Bias>
 </TimeZone>
 ```
 
- **int**
+**int**
+
 ## Attributes and elements
 
 The following sections describe attributes, child elements, and parent elements.
   
-#### Attributes
+### Attributes
 
 None.
   
-#### Child elements
+### Child elements
 
 None.
   
-#### Parent elements
+### Parent elements
 
 |**Element**|**Description**|
 |:-----|:-----|
-|[TimeZone (Availability)](timezone-availability.md) <br/> | The container that identifies the date-time information of the request. This element contains information about the transition between standard time and daylight saving time.  <br/>  The following are the XPath expressions to this element:  <br/>  `/GetUserAvailabilityResponse/FreeBusyResponseArray/FreeBusyResponse/FreeBusyView/WorkingHours/TimeZone` <br/>  `/GetUserAvailabilityRequest/TimeZone` <br/> |
+|[TimeZone (Availability)](timezone-availability.md) <br/> | The container that identifies the date-time information of the request. This element contains information about the transition between standard time and daylight saving time.  <br/><br/>The following are the XPath expressions to this element:<br/><br/>   `/GetUserAvailabilityResponse/FreeBusyResponseArray/FreeBusyResponse/FreeBusyView/WorkingHours/TimeZone` <br/><br/>`/GetUserAvailabilityRequest/TimeZone` <br/> |
    
 ## Text value
 
@@ -57,8 +56,8 @@ A second [Bias](bias.md) element in the schema represents the offset from the Co
 
 The following example shows part of an XML request that identifies an offset of 8 hours from UTC on the client application.
   
-```
-<TimeZone xmlns="http://schemas.microsoft.com/exchange/services/2006/types">
+```xml
+<TimeZone xmlns="https://schemas.microsoft.com/exchange/services/2006/types">
   <Bias>480</Bias>
   <StandardTime>
     <Bias>0</Bias>
@@ -81,19 +80,14 @@ The following example shows part of an XML request that identifies an offset of 
 
 |||
 |:-----|:-----|
-|Namespace  <br/> |http://schemas.microsoft.com/exchange/services/2006/types  <br/> |
+|Namespace  <br/> |https://schemas.microsoft.com/exchange/services/2006/types  <br/> |
 |Schema Name  <br/> |Types schema  <br/> |
 |Validation File  <br/> |Types.xsd  <br/> |
 |Can be Empty  <br/> |False  <br/> |
    
 ## See also
 
-#### Reference
-
-[GetUserAvailability operation](getuseravailability-operation.md)
-  
-[Bias](bias.md)
-#### Other resources
-
-[Getting User Availability](http://msdn.microsoft.com/library/d4133fcb-9b0f-4e6b-aadf-a389da83516a%28Office.15%29.aspx)
+- [GetUserAvailability operation](getuseravailability-operation.md)  
+- [Bias](bias.md)
+- [Getting User Availability](https://msdn.microsoft.com/library/d4133fcb-9b0f-4e6b-aadf-a389da83516a%28Office.15%29.aspx)
 

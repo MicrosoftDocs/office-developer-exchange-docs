@@ -3,7 +3,7 @@ title: "RelativeYearlyRecurrence"
  
  
 manager: sethgros
-ms.date: 9/17/2015
+ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
@@ -20,7 +20,7 @@ description: "The RelativeYearlyRecurrence element describes a relative yearly r
 
 The **RelativeYearlyRecurrence** element describes a relative yearly recurrence pattern. 
   
-```
+```xml
 <RelativeYearlyRecurrence>
    <DaysOfWeek/>
    <DayOfWeekIndex/>
@@ -33,11 +33,11 @@ The **RelativeYearlyRecurrence** element describes a relative yearly recurrence 
 
 The following sections describe attributes, child elements, and parent elements.
   
-#### Attributes
+### Attributes
 
 None.
   
-#### Child elements
+### Child elements
 
 |**Element**|**Description**|
 |:-----|:-----|
@@ -45,7 +45,7 @@ None.
 |[DayOfWeekIndex](dayofweekindex.md) <br/> |Describes which week in a month is used in a relative yearly recurrence pattern.  <br/> |
 |[Month (Item Recurrence)](month-item-recurrence.md) <br/> |Describes the month when a yearly recurring item occurs.  <br/> |
    
-#### Parent elements
+### Parent elements
 
 |**Element**|**Description**|
 |:-----|:-----|
@@ -62,14 +62,14 @@ The schema that describes this element is located in the EWS virtual directory o
 
 |||
 |:-----|:-----|
-|Namespace  <br/> |http://schemas.microsoft.com/exchange/services/2006/types  <br/> |
+|Namespace  <br/> |https://schemas.microsoft.com/exchange/services/2006/types  <br/> |
 |Schema Name  <br/> |Types schema  <br/> |
 |Validation File  <br/> |Types.xsd  <br/> |
 |Can be Empty  <br/> |False  <br/> |
    
 ## See also
 
-#### Concepts
 
-[EWS XML elements in Exchange](ews-xml-elements-in-exchange.md)
+
+- [EWS XML elements in Exchange](ews-xml-elements-in-exchange.md)
 

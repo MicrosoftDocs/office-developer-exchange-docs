@@ -7,9 +7,9 @@ ms.date: 11/16/2014
 ms.audience: Developer
  
  
-localization_priority: Normal
 ms.assetid: 7e1ea63c-eb29-43d2-827f-2f2b1846483b
 description: "Learn how and when to use impersonation in your Exchange service applications."
+localization_priority: Priority
 ---
 
 # Impersonation and EWS in Exchange
@@ -50,23 +50,23 @@ Impersonation enables a caller to impersonate a given user account. This enables
     
 - Typically, the **ApplicationImpersonation** role is granted to a service account dedicated to a particular application or group of applications, rather than a user account. You can create as many or as few service accounts as you need. 
     
-You can read more about [configuring impersonation](how-to-configure-impersonation.md), but you should work with your Exchange administrator to ensure that the service accounts that you need are created with the [permissions and access](http://technet.microsoft.com/en-us/library/dd351175%28v=exchg.150%29.aspx) that meet the security requirements of your organization. 
+You can read more about [configuring impersonation](how-to-configure-impersonation.md), but you should work with your Exchange administrator to ensure that the service accounts that you need are created with the [permissions and access](https://technet.microsoft.com/library/dd351175%28v=exchg.150%29.aspx) that meet the security requirements of your organization. 
   
 ## In this section
 
-- [How to: Configure impersonation](how-to-configure-impersonation.md)
+- [Configure impersonation](how-to-configure-impersonation.md)
     
-- [How to: Identify the account to impersonate](how-to-identify-the-account-to-impersonate.md)
+- [Identify the account to impersonate](how-to-identify-the-account-to-impersonate.md)
     
-- [How to: Add appointments by using Exchange impersonation](how-to-add-appointments-by-using-exchange-impersonation.md)
+- [Add appointments by using Exchange impersonation](how-to-add-appointments-by-using-exchange-impersonation.md)
     
-## Additional resources
-<a name="bk_addresources"> </a>
+## See also
+
 
 - [Develop web service clients for Exchange](develop-web-service-clients-for-exchange.md)
     
 - [Delegate access and EWS in Exchange](delegate-access-and-ews-in-exchange.md)
     
-- [Exchange 2013 Permissions](http://technet.microsoft.com/en-us/library/dd351175%28v=exchg.150%29.aspx)
+- [Exchange 2013 Permissions](https://technet.microsoft.com/library/dd351175%28v=exchg.150%29.aspx)
     
 

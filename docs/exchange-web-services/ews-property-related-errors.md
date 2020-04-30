@@ -3,7 +3,7 @@ title: "EWS property-related errors"
  
  
 manager: sethgros
-ms.date: 9/17/2015
+ms.date: 09/17/2015
 ms.audience: Developer
  
  
@@ -41,7 +41,7 @@ Most EWS client applications will use properties, which means that you will have
 |ErrorNoFolderClassOverride  <br/> |Set the folder class on a new folder that is not the base folder type.  <br/> |Using a generic folder type to set the folder class.  <br/> |
 |ErrorNoPropertyTagForCustomProperties  <br/> |Reference a custom extended property by its property tag.  <br/> |Updating your code to reference the custom extended property by property set identifier and either the property name or property dispatch identifier.  <br/> |
 |ErrorObjectTypeChanged  <br/> |Set or update the item class on an item that doesn't match with its schema type.  <br/> |Updating your code so that item class matches the item schema type.  <br/> |
-|ErrorPropertyUpdate  <br/> |Update a property with an invalid property value.  <br/> |Checking the property value before submitting it in an [UpdateItem](http://msdn.microsoft.com/library/5d027523-e0bc-4da2-b60b-0cb9fc1fdfe4%28Office.15%29.aspx) request.  <br/> |
+|ErrorPropertyUpdate  <br/> |Update a property with an invalid property value.  <br/> |Checking the property value before submitting it in an [UpdateItem](https://msdn.microsoft.com/library/5d027523-e0bc-4da2-b60b-0cb9fc1fdfe4%28Office.15%29.aspx) request.  <br/> |
 |ErrorRequiredPropertyMissing  <br/> |Send a CreateAttachment request that is missing a required property.  <br/> |Updating your code to set the missing property as specified by the property path returned in the response.  <br/> |
 |ErrorUnsupportedMapiPropertyType  <br/> |Use extended property types of type object, object array, error or null.  <br/> |Updating your code to not use the restricted extended property types.  <br/> |
 |ErrorUnsupportedPathForQuery  <br/> |Use an unsupported property path in a search restriction.  <br/> |Changing the search restriction to exclude the unsupported property path.  <br/> |
@@ -49,8 +49,8 @@ Most EWS client applications will use properties, which means that you will have
 |ErrorUnsupportedTypeForConversion  <br/> |Request a property type that cannot be converted to XML for EWS to return in a response.  <br/> |Updating your code to not request the unsupported property.  <br/> |
 |ErrorUpdatePropertyMismatch  <br/> |Update an item or folder the change description for which doesn't match the property that is specified to be updated.  <br/> |Changing your code so that the change description matches the item or folder type that is being updated.  <br/> |
    
-## Additional resources
-<a name="bk_addresources"> </a>
+## See also
+
 
 - [Properties and extended properties in EWS in Exchange](properties-and-extended-properties-in-ews-in-exchange.md)
     

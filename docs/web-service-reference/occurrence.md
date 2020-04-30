@@ -1,9 +1,7 @@
 ---
 title: "Occurrence"
- 
- 
 manager: sethgros
-ms.date: 9/17/2015
+ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
@@ -20,7 +18,7 @@ description: "The Occurrence element represents a single modified occurrence of 
 
 The **Occurrence** element represents a single modified occurrence of a recurring calendar item. 
   
-```
+```xml
 <Occurrence>
    <ItemId/>
    <Start/>
@@ -29,16 +27,17 @@ The **Occurrence** element represents a single modified occurrence of a recurrin
 </Occurrence>
 ```
 
- **OccurrenceInfoType**
+**OccurrenceInfoType**
+
 ## Attributes and elements
 
 The following sections describe attributes, child elements, and parent elements.
   
-#### Attributes
+### Attributes
 
 None.
   
-#### Child elements
+### Child elements
 
 |**Element**|**Description**|
 |:-----|:-----|
@@ -47,7 +46,7 @@ None.
 |[End ](end-ex15websvcsotherref.md) <br/> |Represents the end time of a modified occurrence of a recurring calendar item.  <br/> |
 |[OriginalStart](originalstart.md) <br/> |Represents the original start time of a modified occurrence of a recurring calendar item.  <br/> |
    
-#### Parent elements
+### Parent elements
 
 |**Element**|**Description**|
 |:-----|:-----|
@@ -61,14 +60,12 @@ The schema that describes this element is located in the EWS virtual directory o
 
 |||
 |:-----|:-----|
-|Namespace  <br/> |http://schemas.microsoft.com/exchange/services/2006/types  <br/> |
+|Namespace  <br/> |https://schemas.microsoft.com/exchange/services/2006/types  <br/> |
 |Schema name  <br/> |Types schema  <br/> |
 |Validation file  <br/> |Types.xsd  <br/> |
 |Can be empty  <br/> |False  <br/> |
    
 ## See also
 
-#### Concepts
-
-[EWS XML elements in Exchange](ews-xml-elements-in-exchange.md)
+- [EWS XML elements in Exchange](ews-xml-elements-in-exchange.md)
 

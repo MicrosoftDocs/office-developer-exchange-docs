@@ -1,7 +1,7 @@
 ---
 title: "SPA (POX)"
 manager: sethgros
-ms.date: 9/17/2015
+ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
 localization_priority: Normal
@@ -27,7 +27,7 @@ The **SPA** element indicates whether Secure Password Authentication (SPA) is re
   
 [SPA (POX)](spa-pox.md)
   
-```
+```xml
 <SPA/>
 ```
 
@@ -35,15 +35,15 @@ The **SPA** element indicates whether Secure Password Authentication (SPA) is re
 
 The following sections describe attributes, child elements, and parent elements.
   
-#### Attributes
+### Attributes
 
 None.
   
-#### Child elements
+### Child elements
 
 None.
   
-#### Parent elements
+### Parent elements
 
 |**Element**|**Description**|
 |:-----|:-----|
@@ -59,7 +59,7 @@ If this element is not present, the default value is set to **on**.
   
 ## See also
 
-#### Concepts
+
 
 [POX Autodiscover XML elements for Exchange](pox-autodiscover-xml-elements-for-exchange.md)
 

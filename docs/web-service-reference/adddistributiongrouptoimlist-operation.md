@@ -1,9 +1,7 @@
 ---
 title: "AddDistributionGroupToImList operation"
- 
- 
 manager: sethgros
-ms.date: 9/17/2015
+ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
@@ -42,8 +40,8 @@ The following example of an **AddDistributionGroupToImList** operation request s
 ```XML
 <?xml version="1.0" encoding="UTF-8"?>
 <soap:Envelope xmlns:soap="http://schemas.xmlsoap.org/soap/envelope/"
-               xmlns:t="http://schemas.microsoft.com/exchange/services/2006/types"
-               xmlns:m="http://schemas.microsoft.com/exchange/services/2006/messages">
+               xmlns:t="https://schemas.microsoft.com/exchange/services/2006/types"
+               xmlns:m="https://schemas.microsoft.com/exchange/services/2006/messages">
    <soap:Header>
       <t:RequestServerVersion Version="Exchange2013" />
       <t:MailboxCulture>en-US</t:MailboxCulture>
@@ -58,8 +56,7 @@ The following example of an **AddDistributionGroupToImList** operation request s
 
 The request SOAP body contains the following elements:
   
-- [AddDistributionGroupToImList](adddistributiongrouptoimlist.md)
-    
+- [AddDistributionGroupToImList](adddistributiongrouptoimlist.md)   
 - [SmtpAddress](smtpaddress.md)
     
 ## Successful AddDistributionGroupToImList operation response
@@ -71,8 +68,8 @@ The successful response contains the distribution group display name, the Exchan
 ```XML
 <?xml version="1.0" encoding="utf-8"?>
 <s:Envelope xmlns:s="http://schemas.xmlsoap.org/soap/envelope/"
-            xmlns:t="http://schemas.microsoft.com/exchange/services/2006/types"
-            xmlns:m="http://schemas.microsoft.com/exchange/services/2006/messages">
+            xmlns:t="https://schemas.microsoft.com/exchange/services/2006/types"
+            xmlns:m="https://schemas.microsoft.com/exchange/services/2006/messages">
    <s:Header>
       <t:ServerVersionInfo MajorVersion="15" 
                            MinorVersion="0" 
@@ -121,15 +118,15 @@ The following example shows an error response to an **AddDistributionGroupToImLi
                            MajorBuildNumber="349" 
                            MinorBuildNumber="0" 
                            Version="Exchange2013" 
-                           xmlns:h="http://schemas.microsoft.com/exchange/services/2006/types" 
-                           xmlns="http://schemas.microsoft.com/exchange/services/2006/types" 
+                           xmlns:h="https://schemas.microsoft.com/exchange/services/2006/types" 
+                           xmlns="https://schemas.microsoft.com/exchange/services/2006/types" 
                            xmlns:xsd="http://www.w3.org/2001/XMLSchema" 
                            xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"/>
    </s:Header>
    <s:Body xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
            xmlns:xsd="http://www.w3.org/2001/XMLSchema">
       <AddDistributionGroupToImListResponse ResponseClass="Error" 
-                                            xmlns="http://schemas.microsoft.com/exchange/services/2006/messages">
+                                            xmlns="https://schemas.microsoft.com/exchange/services/2006/messages">
          <MessageText>The specified IM distribution group SMTP address is invalid.</MessageText>
          <ResponseCode>ErrorInvalidImDistributionGroupSmtpAddress</ResponseCode>
          <DescriptiveLinkKey>0</DescriptiveLinkKey>
@@ -146,12 +143,10 @@ The error response SOAP body contains the following elements:
     
 - [DescriptiveLinkKey](descriptivelinkkey.md)
     
-## Additonal resources
+## See also
 
-- [People and contacts in EWS in Exchange](http://msdn.microsoft.com/library/043c33be-a0d1-4bad-a840-85715eda4813%28Office.15%29.aspx)
-    
-- [AddImGroup](addimgroup-operation.md)
-    
+- [People and contacts in EWS in Exchange](https://msdn.microsoft.com/library/043c33be-a0d1-4bad-a840-85715eda4813%28Office.15%29.aspx)   
+- [AddImGroup](addimgroup-operation.md)   
 - [RemoveImGroup](removeimgroup-operation.md)
     
 

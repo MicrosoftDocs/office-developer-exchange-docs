@@ -1,7 +1,7 @@
 ---
 title: "IsUMEnabled (UM web service)"
 manager: sethgros
-ms.date: 9/17/2015
+ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
 localization_priority: Normal
@@ -19,7 +19,7 @@ description: "The IsUMEnabled element indicates whether a mailbox is enabled for
 
 The **IsUMEnabled** element indicates whether a mailbox is enabled for Unified Messaging. 
   
-```
+```xml
 <IsUMEnabled/>
 ```
 
@@ -28,15 +28,15 @@ The **IsUMEnabled** element indicates whether a mailbox is enabled for Unified M
 
 The following sections describe attributes, child elements, and parent elements.
   
-#### Attributes
+### Attributes
 
 None.
   
-#### Child elements
+### Child elements
 
 None.
   
-#### Parent elements
+### Parent elements
 
 None.
   
@@ -52,17 +52,17 @@ To determine whether a mailbox is enabled for Unified Messaging, use the [IsUMEn
 
 |||
 |:-----|:-----|
-|Namespace  <br/> |http://schemas.microsoft.com/exchange/services/2006/messages  <br/> |
+|Namespace  <br/> |https://schemas.microsoft.com/exchange/services/2006/messages  <br/> |
 |Schema Name  <br/> |Messages  <br/> |
 |Validation File  <br/> |Messages.xsd  <br/> |
 |Can be Empty  <br/> |False  <br/> |
    
 ## See also
 
-#### Reference
+
 
 [IsUMEnabled operation (UM web service)](isumenabled-operation-um-web-service.md)
-#### Concepts
+
 
 [Unified Messaging web service XML elements for Exchange](unified-messaging-web-service-xml-elements-for-exchange.md)
 

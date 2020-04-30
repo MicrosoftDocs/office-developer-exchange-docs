@@ -3,7 +3,7 @@ title: "GetEvents operation"
  
  
 manager: sethgros
-ms.date: 9/17/2015
+ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
@@ -27,7 +27,7 @@ The **GetEvents** operation is used by pull subscription clients to request noti
 
 Changes to Calendar items may result in the generation of multiple events. These events are the result of temporary items being created in the mailbox, free/busy data storage items being changed as part of the normal Calendar operations, or both. Events for item class "IPM.SchedulePlus.FreeBusy.BinaryData" should be ignored by Web service clients. These temporary items are deleted after they are created; therefore, if an attempt is made to retrieve these items, an error will be returned that states that the item was not found.
   
-## GetEvents Request Example
+## GetEvents request example
 
 ### Description
 
@@ -38,9 +38,9 @@ The following example shows how to request the events and items that are associa
 ```XML
 <?xml version="1.0" encoding="utf-8"?>
 <soap:Envelope xmlns:soap="http://schemas.xmlsoap.org/soap/envelope/"
-  xmlns:t="http://schemas.microsoft.com/exchange/services/2006/types">
+  xmlns:t="https://schemas.microsoft.com/exchange/services/2006/types">
   <soap:Body>
-    <GetEvents xmlns="http://schemas.microsoft.com/exchange/services/2006/messages">
+    <GetEvents xmlns="https://schemas.microsoft.com/exchange/services/2006/messages">
       <SubscriptionId>f6bc657d-dde1-4f94-952d-143b95d6483d</SubscriptionId>
       <Watermark>AAAAAMAGAAAAAAAAAQ==</Watermark>
     </GetEvents>
@@ -58,7 +58,7 @@ The following elements are used in the request:
     
 - [Watermark](watermark.md)
     
-## Successful GetEvents Response Example
+## Successful GetEvents response example
 
 ### Description
 
@@ -73,12 +73,12 @@ The following example of a response shows a notification of the existence of two
                xmlns:xsd="http://www.w3.org/2001/XMLSchema">
   <soap:Header>
     <t:ServerVersionInfo MajorVersion="8" MinorVersion="0" MajorBuildNumber="628" MinorBuildNumber="0" 
-                         xmlns:t="http://schemas.microsoft.com/exchange/services/2006/types" />
+                         xmlns:t="https://schemas.microsoft.com/exchange/services/2006/types" />
   </soap:Header>
   <soap:Body>
-    <GetEventsResponse xmlns:m="http://schemas.microsoft.com/exchange/services/2006/messages" 
-                       xmlns:t="http://schemas.microsoft.com/exchange/services/2006/types" 
-                       xmlns="http://schemas.microsoft.com/exchange/services/2006/messages">
+    <GetEventsResponse xmlns:m="https://schemas.microsoft.com/exchange/services/2006/messages" 
+                       xmlns:t="https://schemas.microsoft.com/exchange/services/2006/types" 
+                       xmlns="https://schemas.microsoft.com/exchange/services/2006/messages">
       <m:ResponseMessages>
         <m:GetEventsResponseMessage ResponseClass="Success">
           <m:ResponseCode>NoError</m:ResponseCode>
@@ -111,7 +111,7 @@ The following example of a response shows a notification of the existence of two
 > [!NOTE]
 > The item and folder identifiers have been shortened to preserve readability. 
   
-### GetEvents Response Elements
+### GetEvents response elements
 
 The following elements are used in the response:
   
@@ -145,7 +145,7 @@ The following elements are used in the response:
     
 To find other options for the response message of the **GetEvents** operation, explore the schema hierarchy. Start at the [Notification](notification-ex15websvcsotherref.md) element. 
   
-## GetEvents Error Response Example
+## GetEvents Error response example
 
 ### Description
 
@@ -160,12 +160,12 @@ The following example shows an error response to a **GetEvents** request.
                  xmlns:xsd="http://www.w3.org/2001/XMLSchema">
   <soap:Header>
     <t:ServerVersionInfo MajorVersion="8" MinorVersion="0" MajorBuildNumber="628" MinorBuildNumber="0" 
-                         xmlns:t="http://schemas.microsoft.com/exchange/services/2006/types" />
+                         xmlns:t="https://schemas.microsoft.com/exchange/services/2006/types" />
   </soap:Header>
   <soap:Body>
-    <GetEventsResponse xmlns:m="http://schemas.microsoft.com/exchange/services/2006/messages" 
-                         xmlns:t="http://schemas.microsoft.com/exchange/services/2006/types" 
-                         xmlns="http://schemas.microsoft.com/exchange/services/2006/messages">
+    <GetEventsResponse xmlns:m="https://schemas.microsoft.com/exchange/services/2006/messages" 
+                         xmlns:t="https://schemas.microsoft.com/exchange/services/2006/types" 
+                         xmlns="https://schemas.microsoft.com/exchange/services/2006/messages">
       <m:ResponseMessages>
         <m:GetEventsResponseMessage ResponseClass="Error">
           <m:MessageText>Access is denied. Only the subscription owner may access the subscription.</m:MessageText>
@@ -198,12 +198,12 @@ When processing a **GetEvents** request, the Client Access server performs the f
     
 ## See also
 
-#### Reference
+
 
 [Subscribe operation](subscribe-operation.md)
   
 [Unsubscribe operation](unsubscribe-operation.md)
-#### Other resources
 
-[Using Pull Subscriptions](http://msdn.microsoft.com/library/f956bc0e-2b25-4613-966b-54c65456897c%28Office.15%29.aspx)
+
+[Using Pull Subscriptions](https://msdn.microsoft.com/library/f956bc0e-2b25-4613-966b-54c65456897c%28Office.15%29.aspx)
 

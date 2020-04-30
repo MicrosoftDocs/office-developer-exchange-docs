@@ -1,9 +1,7 @@
 ---
 title: "SavedItemFolderId"
- 
- 
 manager: sethgros
-ms.date: 9/17/2015
+ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
@@ -20,29 +18,36 @@ description: "The SavedItemFolderId element identifies the target folder for ope
 
 The **SavedItemFolderId** element identifies the target folder for operations that update, send, and create items in a mailbox. 
   
-```
+```xml
 <SavedItemFolderId>
    <FolderId/>
 </SavedItemFolderId>
 ```
 
- **TargetFolderIdType**
+```xml
+<SavedItemFolderId>
+   <DistinguishedFolderId/>
+</SavedItemFolderId>
+```
+
+**TargetFolderIdType**
+
 ## Attributes and elements
 
 The following sections describe attributes, child elements, and parent elements.
   
-#### Attributes
+### Attributes
 
 None.
   
-#### Child elements
+### Child elements
 
 |**Element**|**Description**|
 |:-----|:-----|
 |[FolderId](folderid.md) <br/> |Contains the identifier and change key of a target folder for operations that update, send, and create items in the Exchange store.  <br/> |
 |[DistinguishedFolderId](distinguishedfolderid.md) <br/> |Identifies a target folder by a named identifier for operations that update, send, and create items in the Exchange store.  <br/> |
    
-#### Parent elements
+### Parent elements
 
 |**Element**|**Description**|
 |:-----|:-----|
@@ -58,7 +63,7 @@ The schema that describes this element is located in the EWS virtual directory o
 
 |||
 |:-----|:-----|
-|Namespace  <br/> |http://schemas.microsoft.com/exchange/services/2006/messages  <br/> |
+|Namespace  <br/> |https://schemas.microsoft.com/exchange/services/2006/messages  <br/> |
 |Schema Name  <br/> |Messages schema  <br/> |
 |Validation File  <br/> |Messages.xsd  <br/> |
 |Can be Empty  <br/> |False  <br/> |

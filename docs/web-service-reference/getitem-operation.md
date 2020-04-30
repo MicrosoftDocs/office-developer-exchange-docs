@@ -3,17 +3,17 @@ title: "GetItem operation"
  
  
 manager: sethgros
-ms.date: 9/17/2015
+ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
 api_name:
 - GetItem
 api_type:
 - schema
 ms.assetid: e3590b8b-c2a7-4dad-a014-6360197b68e4
 description: "Find information about the GetItem EWS operation."
+localization_priority: Priority
 ---
 
 # GetItem operation
@@ -55,7 +55,7 @@ The **GetItem** operation can use the SOAP headers that are listed in the follow
   
 ## See also
 
-#### Concepts
+
 
 [EWS reference for Exchange](ews-reference-for-exchange.md)
 

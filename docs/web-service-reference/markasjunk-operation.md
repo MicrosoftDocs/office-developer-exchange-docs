@@ -3,7 +3,7 @@ title: "MarkAsJunk operation"
  
  
 manager: sethgros
-ms.date: 9/17/2015
+ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
@@ -56,8 +56,8 @@ The following example of a **MarkAsJunk** operation request shows how to add the
 ```XML
 <?xml version="1.0" encoding="utf-8"?>
 <soap:Envelope xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
-               xmlns:m="http://schemas.microsoft.com/exchange/services/2006/messages" 
-               xmlns:t="http://schemas.microsoft.com/exchange/services/2006/types" 
+               xmlns:m="https://schemas.microsoft.com/exchange/services/2006/messages" 
+               xmlns:t="https://schemas.microsoft.com/exchange/services/2006/types" 
                xmlns:soap="http://schemas.xmlsoap.org/soap/envelope/">
     <soap:Header>
         <t:RequestServerVersion Version="Exchange2013" />
@@ -94,15 +94,15 @@ The following example shows a successful response to a **MarkAsJunk** operation 
                              MajorBuildNumber="545" 
                              MinorBuildNumber="11" 
                              Version="Exchange2013" 
-                             xmlns:h="http://schemas.microsoft.com/exchange/services/2006/types" 
-                             xmlns="http://schemas.microsoft.com/exchange/services/2006/types" 
+                             xmlns:h="https://schemas.microsoft.com/exchange/services/2006/types" 
+                             xmlns="https://schemas.microsoft.com/exchange/services/2006/types" 
                              xmlns:xsd="http://www.w3.org/2001/XMLSchema" 
                              xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" />
     </s:Header>
     <s:Body xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
             xmlns:xsd="http://www.w3.org/2001/XMLSchema">
-        <m:MarkAsJunkResponse xmlns:m="http://schemas.microsoft.com/exchange/services/2006/messages" 
-                              xmlns:t="http://schemas.microsoft.com/exchange/services/2006/types">
+        <m:MarkAsJunkResponse xmlns:m="https://schemas.microsoft.com/exchange/services/2006/messages" 
+                              xmlns:t="https://schemas.microsoft.com/exchange/services/2006/types">
            <m:ResponseMessages>
                <m:MarkAsJunkResponseMessage ResponseClass="Success">
                   <m:ResponseCode>NoError</m:ResponseCode>
@@ -128,13 +128,13 @@ The response SOAP body contains the following elements:
     
 ## MarkAsJunk operation request example: Remove a sender from the blocked sender list
 
-The following example of a **MarkAsJunk** operation request shows how to remove the sender of an email message from the blocked sender list and move the email message to the Inbox folder. You need to keep an email message sent by the blocked sender to remove the sender from the blocked sender list. The sender's email address is associated with email messages that have been sent by the sender. Removing a sender from the blocked sender list will not succeed if the reference email message no longer exists in the user's mailbox. The item identifier used to associate an email message with its sender must be associated with an item that exists in the Exchange mailbox. We recommend that you create a hidden folder to store items sent by previously blocked senders so that the senders can be unblocked from the client application. In the event that an item has been removed from the Exchange mailbox, an administrator has to use the Exchange Management Console to access the blocked sender list to remove a sender from the list. For information about how to unblock a user by using the Exchange Management Console, see [How to configure the safe senders and blocked senders settings in Office 365](http://support.microsoft.com/kb/2545137).
+The following example of a **MarkAsJunk** operation request shows how to remove the sender of an email message from the blocked sender list and move the email message to the Inbox folder. You need to keep an email message sent by the blocked sender to remove the sender from the blocked sender list. The sender's email address is associated with email messages that have been sent by the sender. Removing a sender from the blocked sender list will not succeed if the reference email message no longer exists in the user's mailbox. The item identifier used to associate an email message with its sender must be associated with an item that exists in the Exchange mailbox. We recommend that you create a hidden folder to store items sent by previously blocked senders so that the senders can be unblocked from the client application. In the event that an item has been removed from the Exchange mailbox, an administrator has to use the Exchange Management Console to access the blocked sender list to remove a sender from the list. For information about how to unblock a user by using the Exchange Management Console, see [How to configure the safe senders and blocked senders settings in Office 365](https://support.microsoft.com/kb/2545137).
   
 ```XML
 <?xml version="1.0" encoding="utf-8"?>
 <soap:Envelope xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
-               xmlns:m="http://schemas.microsoft.com/exchange/services/2006/messages" 
-               xmlns:t="http://schemas.microsoft.com/exchange/services/2006/types" 
+               xmlns:m="https://schemas.microsoft.com/exchange/services/2006/messages" 
+               xmlns:t="https://schemas.microsoft.com/exchange/services/2006/types" 
                xmlns:soap="http://schemas.xmlsoap.org/soap/envelope/">
     <soap:Header>
       <t:RequestServerVersion Version="Exchange2013" />
@@ -173,15 +173,15 @@ The following example shows an error response to a **MarkAsJunk** operation requ
                          MajorBuildNumber="545" 
                          MinorBuildNumber="11" 
                          Version="Exchange2013" 
-                         xmlns:h="http://schemas.microsoft.com/exchange/services/2006/types" 
-                         xmlns="http://schemas.microsoft.com/exchange/services/2006/types" 
+                         xmlns:h="https://schemas.microsoft.com/exchange/services/2006/types" 
+                         xmlns="https://schemas.microsoft.com/exchange/services/2006/types" 
                          xmlns:xsd="http://www.w3.org/2001/XMLSchema" 
                          xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"/>
   </s:Header>
   <s:Body xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
           xmlns:xsd="http://www.w3.org/2001/XMLSchema">
-    <m:MarkAsJunkResponse xmlns:m="http://schemas.microsoft.com/exchange/services/2006/messages" 
-                          xmlns:t="http://schemas.microsoft.com/exchange/services/2006/types">
+    <m:MarkAsJunkResponse xmlns:m="https://schemas.microsoft.com/exchange/services/2006/messages" 
+                          xmlns:t="https://schemas.microsoft.com/exchange/services/2006/types">
       <m:ResponseMessages>
         <m:MarkAsJunkResponseMessage ResponseClass="Error">
           <m:MessageText>The specified object was not found in the store.</m:MessageText>
@@ -208,7 +208,7 @@ The error response SOAP body contains the following elements:
     
 - [DescriptiveLinkKey](descriptivelinkkey.md)
     
-## Additional resources
+## See also
 
 - [EWS operations in Exchange](ews-operations-in-exchange.md)
     

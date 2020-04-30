@@ -1,9 +1,7 @@
 ---
 title: "ResponseMessage"
- 
- 
 manager: sethgros
-ms.date: 9/17/2015
+ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
@@ -20,7 +18,7 @@ description: "The ResponseMessage element provides descriptive information about
 
 The **ResponseMessage** element provides descriptive information about the response status for a single entity within a request. 
   
-```
+```xml
 <ResponseMessage ResponseClass="">
    <MessageText/>
    <ResponseCode/>
@@ -34,21 +32,21 @@ The **ResponseMessage** element provides descriptive information about the respo
 
 The following sections describe attributes, child elements, and parent elements.
   
-#### Attributes
+### Attributes
 
 |**Attribute**|**Description**|
 |:-----|:-----|
-|**ResponseClass** <br/> | Represents the status of the response. The following values are valid for this attribute:  <br/>  Success  <br/>  Warning  <br/>  Error  <br/> |
+|**ResponseClass** <br/> | Represents the status of the response. <br/><br/>The following values are valid for this attribute:  <br/><br/>-  Success  <br/>-  Warning  <br/>-  Error  <br/> |
    
-#### ResponseClass Attribute Values
+#### ResponseClass attribute values
 
 |**Value**|**Description**|
 |:-----|:-----|
 |Success  <br/> |Describes a request that is fulfilled.  <br/> |
-|Warning  <br/> | Describes a request that was not processed. A warning may be returned if an error occurred while an item in the request was processing and subsequent items could not be processed. The following are some possible causes for warnings:  <br/>  The Exchange store is offline during the batch.  <br/>  The Active Directory directory service is offline.  <br/>  Mailboxes are moved.  <br/>  The message database (MDB) is offline.  <br/>  A password is expired.  <br/>  A quota is exceeded.  <br/> |
-|Error  <br/> | Describes a request that cannot be fulfilled. The following are some possible causes for errors:  <br/>  Invalid attributes or elements  <br/>  Attributes or elements out of range  <br/>  Unknown tag  <br/>  Attribute or element not valid in the context  <br/>  Unauthorized access attempt by any client  <br/>  Server-side failure in response to a valid client-side call  <br/>  Information about the error can be found in the [ResponseCode](responsecode.md) and [MessageText](messagetext.md) elements.  <br/> |
+|Warning  <br/> | Describes a request that was not processed. A warning may be returned if an error occurred while an item in the request was processing and subsequent items could not be processed. <br/><br/>The following are some possible causes for warnings:  <br/><br/>-  The Exchange store is offline during the batch.  <br/>-  The Active Directory directory service is offline.  <br/>-  Mailboxes are moved.  <br/>-  The message database (MDB) is offline.  <br/>-  A password is expired.  <br/>-  A quota is exceeded.  <br/> |
+|Error  <br/> | Describes a request that cannot be fulfilled. <br/><br/>The following are some possible causes for errors:  <br/><br/>-  Invalid attributes or elements  <br/>-  Attributes or elements out of range  <br/>-  Unknown tag  <br/>-  Attribute or element not valid in the context  <br/>-  Unauthorized access attempt by any client  <br/>-  Server-side failure in response to a valid client-side call  <br/> <br/> Information about the error can be found in the [ResponseCode](responsecode.md) and [MessageText](messagetext.md) elements.  <br/> |
    
-#### Child elements
+### Child elements
 
 |**Element**|**Description**|
 |:-----|:-----|
@@ -57,14 +55,14 @@ The following sections describe attributes, child elements, and parent elements.
 |[DescriptiveLinkKey](descriptivelinkkey.md) <br/> |Currently unused and is reserved for future use. It contains a value of 0.  <br/> |
 |[MessageXml](messagexml.md) <br/> |Provides additional error response information.  <br/> |
    
-#### Parent elements
+### Parent elements
 
 |**Element**|**Description**|
 |:-----|:-----|
-|[FreeBusyResponse](freebusyresponse.md) <br/> |Contains the free/busy information for a single mailbox user.  <br/> The following is the XPath 2.0 expression to this element:  <br/>  `/GetUserAvailabilityResponse/FreeBusyResponseArray[i]/FreeBusyResponse` <br/> |
-|[SuggestionsResponse](suggestionsresponse.md) <br/> |Contains response information and suggestion data for requested meeting suggestions.  <br/> The following is the XPath 2.0 expression to this element:  <br/>  `/GetUserAvailabilityResponse/SuggestionsResponse` <br/> |
-|[GetUserOofSettingsResponse](getuseroofsettingsresponse.md) <br/> |Contains the response results and the OOF settings for a user.  <br/> The following is the XPath 2.0 expression to this element:  <br/>  `/GetUserOofSettingsResponse` <br/> |
-|[SetUserOofSettingsResponse](setuseroofsettingsresponse.md) <br/> |Contains the result of an attempted [SetUserOofSettingsRequest](setuseroofsettingsrequest.md) message.  <br/> The following is the XPath 2.0 expression to this element:  <br/>  `/SetUserOofSettingsResponse` <br/> |
+|[FreeBusyResponse](freebusyresponse.md) <br/> |Contains the free/busy information for a single mailbox user. <br/> <br/> The following is the XPath 2.0 expression to this element: <br/> <br/>  `/GetUserAvailabilityResponse/FreeBusyResponseArray[i]/FreeBusyResponse` <br/> |
+|[SuggestionsResponse](suggestionsresponse.md) <br/> |Contains response information and suggestion data for requested meeting suggestions.  <br/><br/> The following is the XPath 2.0 expression to this element:<br/>  <br/>  `/GetUserAvailabilityResponse/SuggestionsResponse` <br/> |
+|[GetUserOofSettingsResponse](getuseroofsettingsresponse.md) <br/> |Contains the response results and the OOF settings for a user.  <br/><br/> The following is the XPath 2.0 expression to this element:  <br/><br/>  `/GetUserOofSettingsResponse` <br/> |
+|[SetUserOofSettingsResponse](setuseroofsettingsresponse.md) <br/> |Contains the result of an attempted [SetUserOofSettingsRequest](setuseroofsettingsrequest.md) message. <br/> <br/> The following is the XPath 2.0 expression to this element:  <br/><br/>  `/SetUserOofSettingsResponse` <br/> |
    
 ## Remarks
 
@@ -110,21 +108,15 @@ The **ApplyConversationActionResponseMessage** and **DeleteItemResponseMessageTy
 
 |||
 |:-----|:-----|
-|Namespace  <br/> |http://schemas.microsoft.com/exchange/services/2006/messages  <br/> |
+|Namespace  <br/> |https://schemas.microsoft.com/exchange/services/2006/messages  <br/> |
 |Schema Name  <br/> |Messages schema  <br/> |
 |Validation File  <br/> |Messages.xsd  <br/> |
 |Can be Empty  <br/> |False  <br/> |
    
 ## See also
 
-#### Reference
-
-[GetUserAvailability operation](getuseravailability-operation.md)
-  
-[SetUserOofSettings operation](setuseroofsettings-operation.md)
-  
-[GetUserOofSettings operation](getuseroofsettings-operation.md)
-#### Other resources
-
-[Getting User Availability](http://msdn.microsoft.com/library/d4133fcb-9b0f-4e6b-aadf-a389da83516a%28Office.15%29.aspx)
+- [GetUserAvailability operation](getuseravailability-operation.md)
+- [SetUserOofSettings operation](setuseroofsettings-operation.md)
+- [GetUserOofSettings operation](getuseroofsettings-operation.md)
+- [Getting User Availability](https://msdn.microsoft.com/library/d4133fcb-9b0f-4e6b-aadf-a389da83516a%28Office.15%29.aspx)
 

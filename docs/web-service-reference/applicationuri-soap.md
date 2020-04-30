@@ -1,7 +1,7 @@
 ---
 title: "ApplicationUri (SOAP)"
 manager: sethgros
-ms.date: 9/17/2015
+ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
 localization_priority: Normal
@@ -9,8 +9,6 @@ api_type:
 - schema
 ms.assetid: 02a213ac-ceb3-456c-8347-f1dbddf64d4f
 description: "The ApplicationUri element defines the location of an application."
- 
- 
 ---
 
 # ApplicationUri (SOAP)
@@ -26,15 +24,15 @@ The **ApplicationUri** element defines the location of an application.
 
 The following sections describe attributes, child elements, and parent elements.
   
-#### Attributes
+### Attributes
 
 None.
   
-#### Child elements
+### Child elements
 
 None.
   
-#### Parent elements
+### Parent elements
 
 |**Element**|**Description**|
 |:-----|:-----|
@@ -48,14 +46,12 @@ The text value represents the URI of the application.
 
 |||
 |:-----|:-----|
-|Namespace  <br/> |http://schemas.microsoft.com/exchange/2010/Autodiscover  <br/> |
+|Namespace  <br/> |https://schemas.microsoft.com/exchange/2010/Autodiscover  <br/> |
 |Schema Name  <br/> |Autodiscover schema  <br/> |
 |Validation File  <br/> |Mssages.xsd  <br/> |
 |Can be Empty  <br/> |True  <br/> |
    
 ## See also
 
-#### Reference
-
-[GetFederationInformation operation (SOAP)](getfederationinformation-operation-soap.md)
+- [GetFederationInformation operation (SOAP)](getfederationinformation-operation-soap.md)
 

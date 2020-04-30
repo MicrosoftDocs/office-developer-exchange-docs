@@ -1,19 +1,17 @@
 ---
 title: "ItemId"
- 
- 
 manager: sethgros
-ms.date: 9/17/2015
+ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
 api_name:
 - ItemId
 api_type:
 - schema
 ms.assetid: 3350b597-57a0-4961-8f44-8624946719b4
 description: "The ItemId element contains the unique identifier and change key of an item in the Exchange store."
+localization_priority: Priority
 ---
 
 # ItemId
@@ -29,18 +27,18 @@ The **ItemId** element contains the unique identifier and change key of an item 
 
 The following sections describe attributes, child elements, and parent elements.
   
-#### Attributes
+### Attributes
 
 |**Attribute**|**Description**|
 |:-----|:-----|
 |**Id** <br/> |Identifies a specific item in the Exchange store. **Id** is case-sensitive; therefore, comparisons between **Ids** must be case-sensitive or binary.  <br/> |
-|**ChangeKey** <br/> | Identifies a specific version of an item. A **ChangeKey** is required for the following scenarios:  <br/>  The [UpdateItem](updateitem.md) element requires a **ChangeKey** if the **ConflictResolution** attribute is set to AutoResolve. AutoResolve is a default value. If the **ChangeKey** attribute is not included, the response will return a [ResponseCode](responsecode.md) value equal to **ErrorChangeKeyRequired**.  <br/>  The [SendItem](senditem.md) element requires a **ChangeKey** to test whether the attempted operation will act upon the most recent version of an item. If the **ChangeKey** attribute is not included in the **ItemId** or if the **ChangeKey** is empty, the response will return a [ResponseCode](responsecode.md) value equal to **ErrorStaleObject**.  <br/> |
+|**ChangeKey** <br/> | Identifies a specific version of an item. <br/><br/>A **ChangeKey** is required for the following scenarios: <br/> <br/>-  The [UpdateItem](updateitem.md) element requires a **ChangeKey** if the **ConflictResolution** attribute is set to AutoResolve. AutoResolve is a default value. If the **ChangeKey** attribute is not included, the response will return a [ResponseCode](responsecode.md) value equal to **ErrorChangeKeyRequired**.  <br/><br/>-  The [SendItem](senditem.md) element requires a **ChangeKey** to test whether the attempted operation will act upon the most recent version of an item. If the **ChangeKey** attribute is not included in the **ItemId** or if the **ChangeKey** is empty, the response will return a [ResponseCode](responsecode.md) value equal to **ErrorStaleObject**.  <br/> |
    
-#### Child elements
+### Child elements
 
 None.
   
-#### Parent elements
+### Parent elements
 
 |**Element**|**Description**|
 |:-----|:-----|
@@ -57,8 +55,8 @@ None.
 |[Ignore](ignore.md) <br/> |Identifies items to skip during synchronization.  <br/> |
 |[Item](item.md) <br/> |Represents a generic Exchange item.  <br/> |
 |[Item (UploadItemType)](item-uploaditemtype.md) <br/> |Represents a single item to upload into a mailbox.  <br/> |
-|[ItemChange](itemchange.md) <br/> |Contains an item identifier and the updates to apply to the item.  <br/> The following is the XPath expression to this element:  <br/>  `/UpdateItem/ItemChanges/ItemChange[i]` <br/> |
-|[ItemIds](itemids.md) <br/> | Contains the unique identities of items, occurrence items, and recurring master items used to delete, send, get, move, or copy items in the Exchange store.  <br/>  The following are the XPath expressions to this element:  <br/>  `/DeleteItem/ItemIds` <br/>  `/SendItem/ItemIds` <br/>  `/GetItem/ItemIds` <br/>  `/MoveItem/ItemIds` <br/>  `/CopyItem//ItemIds` <br/> |
+|[ItemChange](itemchange.md) <br/> |Contains an item identifier and the updates to apply to the item.  <br/><br/> The following is the XPath expression to this element: <br/> <br/>  `/UpdateItem/ItemChanges/ItemChange[i]` <br/> |
+|[ItemIds](itemids.md) <br/> | Contains the unique identities of items, occurrence items, and recurring master items used to delete, send, get, move, or copy items in the Exchange store. <br/> <br/>  The following are the XPath expressions to this element: <br/> <br/>  `/DeleteItem/ItemIds` <br/>  `/SendItem/ItemIds` <br/>  `/GetItem/ItemIds` <br/>  `/MoveItem/ItemIds` <br/>  `/CopyItem//ItemIds` <br/> |
 |[ItemIds (NonEmptyArrayOfItemIdsType)](itemids-nonemptyarrayofitemidstype.md) <br/> |Contains an array of item identifiers that identify the items to export from a mailbox.  <br/> |
 |[LastOccurrence](lastoccurrence.md) <br/> |Represents the last occurrence of a recurring calendar item.  <br/> |
 |[Mailbox](mailbox.md) <br/> |Identifies a mail-enabled Active Directory directory service object.  <br/> |
@@ -90,21 +88,15 @@ The schema that describes this element is located in the IIS virtual directory t
 
 |||
 |:-----|:-----|
-|Namespace  <br/> |http://schemas.microsoft.com/exchange/services/2006/types  <br/> |
+|Namespace  <br/> |https://schemas.microsoft.com/exchange/services/2006/types  <br/> |
 |Schema Name  <br/> |Types schema  <br/> |
 |Validation File  <br/> |Types.xsd  <br/> |
 |Can be Empty  <br/> |False  <br/> |
    
 ## See also
 
-#### Reference
-
-[ExportItems operation](exportitems-operation.md)
-  
-[UploadItems operation](uploaditems-operation.md)
-  
-[FindConversation operation](findconversation-operation.md)
-#### Concepts
-
-[EWS XML elements in Exchange](ews-xml-elements-in-exchange.md)
+- [ExportItems operation](exportitems-operation.md)
+- [UploadItems operation](uploaditems-operation.md) 
+- [FindConversation operation](findconversation-operation.md)
+- [EWS XML elements in Exchange](ews-xml-elements-in-exchange.md)
 

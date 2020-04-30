@@ -1,9 +1,7 @@
 ---
 title: "Transport agent namespaces in Exchange 2013"
- 
- 
 manager: sethgros
-ms.date: 9/17/2015
+ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: overview
 ms.prod: office-online-server
@@ -14,19 +12,15 @@ description: "Learn about the .NET Framework classes and members that you can us
 
 # Transport agent namespaces in Exchange 2013
 
-Learn about the .NET Framework classes and members that you can use to create custom transport agents for Exchange 2013. 
+Learn about the .NET Framework classes and members that you can use to create custom transport agents for Exchange 2013.
   
- **Last modified:** September 17, 2015 
-  
- * **Applies to:** Exchange Server 2013 * 
+**Applies to:** Exchange Server 2013 
   
 This article provides information about the namespaces that contain reference information that you can use to create transport agents for Exchange Server 2013. It also describes the classes that your transport agents can use to read and modify email messages that pass through the transport pipeline.
   
 ## Transport agent class library
 
 The following namespaces contain types that you can use to create and extend transport agents.
-  
-### 
 
 **Table 1. .NET Framework namespaces**
 
@@ -47,14 +41,11 @@ The following namespaces contain types that you can use to create and extend tra
 |[Microsoft.Exchange.Data.Transport.Routing](https://msdn.microsoft.com/library/Microsoft.Exchange.Data.Transport.Routing.aspx) <br/> |Contains types that support the extension of the Exchange 2013 transport routing behavior.  <br/> |
 |[Microsoft.Exchange.Data.Transport.Smtp](https://msdn.microsoft.com/library/Microsoft.Exchange.Data.Transport.Smtp.aspx) <br/> |Contains types that support the extension of the Exchange 2013 transport SMTP behavior.  <br/> |
    
-## Additional resources
+## See also
 
-- [Transport agents in Exchange 2013](transport-agents-in-exchange-2013.md)
-    
-- [Transport agent concepts in Exchange 2013](transport-agent-concepts-in-exchange-2013.md)
-    
-- [Server API reference for Exchange](http://msdn.microsoft.com/library/6eddd052-f59f-45b4-b846-7e53d4d7eb16%28Office.15%29.aspx)
-    
+- [Transport agents in Exchange](transport-agents-in-exchange-2013.md)   
+- [Transport agent concepts in Exchange 2013](transport-agent-concepts-in-exchange-2013.md) 
+- [Server API reference for Exchange](https://msdn.microsoft.com/library/6eddd052-f59f-45b4-b846-7e53d4d7eb16%28Office.15%29.aspx)
 - [Agents configuration file elements for Exchange 2013](agents-configuration-file-elements-for-exchange-2013.md)
     
 

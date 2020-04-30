@@ -3,7 +3,7 @@ title: "ConvertId operation"
  
  
 manager: sethgros
-ms.date: 9/17/2015
+ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
@@ -27,17 +27,17 @@ The **ConvertId** Exchange Web Services (EWS) operation converts item and folder
 
 You can convert the following identifiers by using the **ConvertId** operation: 
   
-- The identifier format for EWS in the initial release version of Exchange 2007. This is represented by the  `EwsLegacyId` enumeration value in the [IdFormat](http://msdn.microsoft.com/en-us/library/microsoft.exchange.webservices.data.idformat%28v=exchg.80%29.aspx) enumeration. 
+- The identifier format for EWS in the initial release version of Exchange 2007. This is represented by the  `EwsLegacyId` enumeration value in the [IdFormat](https://msdn.microsoft.com/library/microsoft.exchange.webservices.data.idformat%28v=exchg.80%29.aspx) enumeration. 
     
-- The identifier format for EWS in Exchange 2007 SP1 or Exchange 2010. This is represented by the  `EwsId` enumeration value in [IdFormat](http://msdn.microsoft.com/en-us/library/microsoft.exchange.webservices.data.idformat%28v=exchg.80%29.aspx).
+- The identifier format for EWS in Exchange 2007 SP1 or Exchange 2010. This is represented by the  `EwsId` enumeration value in [IdFormat](https://msdn.microsoft.com/library/microsoft.exchange.webservices.data.idformat%28v=exchg.80%29.aspx).
     
-- The MAPI identifier, as in the **PR_ENTRYID** property. This is represented by the  `EntryId` enumeration value in the [IdFormat](http://msdn.microsoft.com/en-us/library/microsoft.exchange.webservices.data.idformat%28v=exchg.80%29.aspx) enumeration. 
+- The MAPI identifier, as in the **PR_ENTRYID** property. This is represented by the  `EntryId` enumeration value in the [IdFormat](https://msdn.microsoft.com/library/microsoft.exchange.webservices.data.idformat%28v=exchg.80%29.aspx) enumeration. 
     
-- The availability calendar event identifier. This is a hexadecimal-encoded representation of the **PR_ENTRYID** property. This is represented by the  `HexEntryId` enumeration value in [IdFormat](http://msdn.microsoft.com/en-us/library/microsoft.exchange.webservices.data.idformat%28v=exchg.80%29.aspx).
+- The availability calendar event identifier. This is a hexadecimal-encoded representation of the **PR_ENTRYID** property. This is represented by the  `HexEntryId` enumeration value in [IdFormat](https://msdn.microsoft.com/library/microsoft.exchange.webservices.data.idformat%28v=exchg.80%29.aspx).
     
-- The Exchange store identifier. This is represented by the  `StoreId` enumeration value in [IdFormat](http://msdn.microsoft.com/en-us/library/microsoft.exchange.webservices.data.idformat%28v=exchg.80%29.aspx). The **ConvertId** operation does not convert public folder identifiers from the EWS identifier to the store identifier. 
+- The Exchange store identifier. This is represented by the  `StoreId` enumeration value in [IdFormat](https://msdn.microsoft.com/library/microsoft.exchange.webservices.data.idformat%28v=exchg.80%29.aspx). The **ConvertId** operation does not convert public folder identifiers from the EWS identifier to the store identifier. 
     
-- The Outlook Web App identifier. This is represented by the  `OwaId` enumeration value in [IdFormat](http://msdn.microsoft.com/en-us/library/microsoft.exchange.webservices.data.idformat%28v=exchg.80%29.aspx)
+- The Outlook Web App identifier. This is represented by the  `OwaId` enumeration value in [IdFormat](https://msdn.microsoft.com/library/microsoft.exchange.webservices.data.idformat%28v=exchg.80%29.aspx)
     
     The passing of URLs that are created from this identifier to Outlook Web App is not supported. The Outlook Web App identifier is applicable to Exchange 2007 and Exchange 2010. Outlook Web App for Exchange Online and versions of Exchange starting with Exchange Server 2013 uses EWS identifiers.
     
@@ -83,13 +83,13 @@ The [RequestServerVersion](requestserverversion.md) element in the SOAP header m
 ```XML
 <?xml version="1.0" encoding="utf-8"?>
 <soap:Envelope xmlns:soap="http://schemas.xmlsoap.org/soap/envelope/"
-               xmlns:t="http://schemas.microsoft.com/exchange/services/2006/types">
+               xmlns:t="https://schemas.microsoft.com/exchange/services/2006/types">
   <soap:Header>
     <t:RequestServerVersion Version="Exchange2010"/>
   </soap:Header>
   <soap:Body>
-    <ConvertId xmlns="http://schemas.microsoft.com/exchange/services/2006/messages"
-               xmlns:t="http://schemas.microsoft.com/exchange/services/2006/types"
+    <ConvertId xmlns="https://schemas.microsoft.com/exchange/services/2006/messages"
+               xmlns:t="https://schemas.microsoft.com/exchange/services/2006/types"
                DestinationFormat="OwaId">
       <SourceIds>
         <t:AlternateId Format="EwsId" Id="AAMkAGZhN2IxYTA0LWNiNzItN="
@@ -117,10 +117,10 @@ The following example shows a successful response to a **ConvertId** request. Th
     <t:ServerVersionInfo MajorVersion="8" MinorVersion="1" 
                          MajorBuildNumber="191" MinorBuildNumber="0" 
                          Version="Exchange2010" 
-                         xmlns:t="http://schemas.microsoft.com/exchange/services/2006/types" />
+                         xmlns:t="https://schemas.microsoft.com/exchange/services/2006/types" />
   </soap:Header>
   <soap:Body>
-    <ConvertIdResponse xmlns="http://schemas.microsoft.com/exchange/services/2006/messages">
+    <ConvertIdResponse xmlns="https://schemas.microsoft.com/exchange/services/2006/messages">
       <ResponseMessages>
         <ConvertIdResponseMessage ResponseClass="Success">
           <ResponseCode>NoError</ResponseCode>
@@ -147,10 +147,10 @@ The following example shows the response to a request that contains the wrong ty
     <ServerVersionInfo MajorVersion="8" MinorVersion="1" 
                        MajorBuildNumber="206" MinorBuildNumber="0"
                        Version="Exchange2010" 
-                       xmlns="http://schemas.microsoft.com/exchange/services/2006/types" />
+                       xmlns="https://schemas.microsoft.com/exchange/services/2006/types" />
   </soap:Header>
   <soap:Body>
-    <ConvertIdResponse xmlns="http://schemas.microsoft.com/exchange/services/2006/messages">
+    <ConvertIdResponse xmlns="https://schemas.microsoft.com/exchange/services/2006/messages">
       <ResponseMessages>
         <ConvertIdResponseMessage ResponseClass="Error">
           <MessageText>Id is malformed.</MessageText>
@@ -170,10 +170,10 @@ The EWS identifier format changed between the initial release version of Exchang
   
 The **ConvertId** operation converts public folder identifiers from the EWS identifier to the store identifier in Exchange 2007 and Exchange 2010. 
   
-## Additional resources
+## See also
 <a name="bk_ConvertIdVersionDiff"> </a>
 
-- [Converting Identifiers](http://msdn.microsoft.com/library/a5391746-b6ef-4f48-8fc8-8255258651aa%28Office.15%29.aspx)
+- [Converting Identifiers](https://msdn.microsoft.com/library/a5391746-b6ef-4f48-8fc8-8255258651aa%28Office.15%29.aspx)
     
 - [ConvertIdType](https://msdn.microsoft.com/library/ExchangeWebServices.ConvertIdType.aspx)
     

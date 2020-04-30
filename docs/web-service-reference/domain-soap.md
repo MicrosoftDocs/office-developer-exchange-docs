@@ -1,7 +1,7 @@
 ---
 title: "Domain (SOAP)"
 manager: sethgros
-ms.date: 9/17/2015
+ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
 localization_priority: Normal
@@ -9,8 +9,6 @@ api_type:
 - schema
 ms.assetid: 849629a0-0467-422f-88f6-3b8a95c17bba
 description: "The Domain element contains a federated domain in a GetFederationInformation response or contains a domain the configuration settings for which are requested in a GetDomainSettings request."
- 
- 
 ---
 
 # Domain (SOAP)
@@ -26,15 +24,15 @@ The **Domain** element contains a federated domain in a **GetFederationInformati
 
 The following sections describe attributes, child elements, and parent elements.
   
-#### Attributes
+### Attributes
 
 None.
   
-#### Child elements
+### Child elements
 
 None.
   
-#### Parent elements
+### Parent elements
 
 |**Element**|**Description**|
 |:-----|:-----|
@@ -48,7 +46,7 @@ The text value of the **Domain** element represents a domain name.
 
 |||
 |:-----|:-----|
-|Namespace  <br/> |http://schemas.microsoft.com/exchange/2010/Autodiscover  <br/> |
+|Namespace  <br/> |https://schemas.microsoft.com/exchange/2010/Autodiscover  <br/> |
 |Schema Name  <br/> |Autodiscover schema  <br/> |
 |Validation File  <br/> |Messages.xsd  <br/> |
 |Can be Empty  <br/> |True  <br/> |

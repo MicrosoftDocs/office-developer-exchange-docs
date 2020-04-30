@@ -1,7 +1,7 @@
 ---
 title: "IsUMEnabledResponse (UM web service)"
 manager: sethgros
-ms.date: 9/17/2015
+ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
 localization_priority: Normal
@@ -21,7 +21,7 @@ The **IsUMEnabledResponse** element defines a response to an [IsUMEnabled operat
   
 [IsUMEnabledResponse (UM web service)](isumenabledresponse-um-web-service.md)
   
-```
+```xml
 <IsUMEnabledResponse/>
 ```
 
@@ -30,15 +30,15 @@ The **IsUMEnabledResponse** element defines a response to an [IsUMEnabled operat
 
 The following sections describe attributes, child elements, and parent elements.
   
-#### Attributes
+### Attributes
 
 None.
   
-#### Child elements
+### Child elements
 
 None.
   
-#### Parent elements
+### Parent elements
 
 None.
   
@@ -54,14 +54,14 @@ A Boolean text value is required. The following are the possible values:
 
 |||
 |:-----|:-----|
-|Namespace  <br/> |http://schemas.microsoft.com/exchange/services/2006/messages  <br/> |
+|Namespace  <br/> |https://schemas.microsoft.com/exchange/services/2006/messages  <br/> |
 |Schema Name  <br/> |Messages  <br/> |
 |Validation File  <br/> |Messages.xsd  <br/> |
 |Can be Empty  <br/> |False  <br/> |
    
 ## See also
 
-#### Reference
+
 
 [IsUMEnabled operation (UM web service)](isumenabled-operation-um-web-service.md)
 

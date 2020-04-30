@@ -1,18 +1,14 @@
 ---
-title: "How to Update the time zone for an appointment by using EWS in Exchange"
- 
- 
+title: "Update the time zone for an appointment by using EWS in Exchange"
 manager: sethgros
 ms.date: 11/16/2014
 ms.audience: Developer
- 
- 
 localization_priority: Normal
 ms.assetid: dc2240c1-5500-4d5c-97d5-09d63ffd30d5
 description: "Learn how to update the time zone for an existing appointment or meeting by using the EWS Managed API or EWS in Exchange."
 ---
 
-# How to: Update the time zone for an appointment by using EWS in Exchange
+# Update the time zone for an appointment by using EWS in Exchange
 
 Learn how to update the time zone for an existing appointment or meeting by using the EWS Managed API or EWS in Exchange.
   
@@ -26,7 +22,9 @@ You can change this behavior by explicitly setting the start and end times.
   
 ## Updating the time zone on an existing appointment by using the EWS Managed API
 
-In the following example, the EWS Managed API is used to update the time zone on an existing appointment to the Central time zone by updating the **Appointment.StartTimeZone** and **Appointment.EndTimeZone** properties. If the  _shiftAppointnment_ parameter is set to **true**, the code does not explicitly set the start and end times on the appointment. In this case, the server will shift the start and end times to keep them at the same time zone-relative times in the new time zone. If set to **false**, the code converts the start and end times explicitly to keep the appointment at the same time in UTC. This example assumes that the **ExchangeService** object has been initialized with valid values in the [Credentials](http://msdn.microsoft.com/en-us/library/microsoft.exchange.webservices.data.exchangeservicebase.credentials%28v=exchg.80%29.aspx) and [Url](http://msdn.microsoft.com/en-us/library/microsoft.exchange.webservices.data.exchangeservice.url%28v=exchg.80%29.aspx) properties. 
+In the following example, the EWS Managed API is used to update the time zone on an existing appointment to the Central time zone by updating the **Appointment.StartTimeZone** and **Appointment.EndTimeZone** properties. If the  _shiftAppointnment_ parameter is set to **true**, the code does not explicitly set the start and end times on the appointment. In this case, the server will shift the start and end times to keep them at the same time zone-relative times in the new time zone. If set to **false**, the code converts the start and end times explicitly to keep the appointment at the same time in UTC. 
+
+This example assumes that the **ExchangeService** object has been initialized with valid values in the [Credentials](https://msdn.microsoft.com/library/microsoft.exchange.webservices.data.exchangeservicebase.credentials%28v=exchg.80%29.aspx) and [Url](https://msdn.microsoft.com/library/microsoft.exchange.webservices.data.exchangeservice.url%28v=exchg.80%29.aspx) properties. 
   
 ```cs
 static void UpdateAppointmentTimeZone(ExchangeService service, ItemId apptId, bool shiftAppointment)
@@ -109,9 +107,9 @@ static void UpdateAppointmentTimeZone(ExchangeService service, ItemId apptId, bo
 }
 ```
 
-When the example is used to update an appointment that starts at 1:00 PM Eastern and ends at 2:00 PM Eastern, with the  _shiftAppointment_ parameter set to true, and the [ExchangeService.TimeZone](http://msdn.microsoft.com/en-us/library/microsoft.exchange.webservices.data.exchangeservice.timezone%28v=exchg.80%29.aspx) property set to the Eastern time zone, the output looks like the following. 
+When the example is used to update an appointment that starts at 1:00 PM Eastern and ends at 2:00 PM Eastern, with the  _shiftAppointment_ parameter set to true, and the [ExchangeService.TimeZone](https://msdn.microsoft.com/library/microsoft.exchange.webservices.data.exchangeservice.timezone%28v=exchg.80%29.aspx) property set to the Eastern time zone, the output looks like the following. 
   
-```
+```MS-DOS
 Before update:
   Start: 6/20/2014 1:00:00 PM
   Start time zone: (UTC-05:00) Eastern Time (US &amp; Canada)
@@ -128,7 +126,7 @@ After update:
 
 When the example is used to update the same appointment with the  _shiftAppointment_ parameter set to false, and with the **TimeZone** property again set to the Eastern time zone, the output looks a little different. 
   
-```
+```MS-DOS
 Before update:
   Start: 6/20/2014 1:00:00 PM
   Start time zone: (UTC-05:00) Eastern Time (US &amp; Canada)
@@ -147,14 +145,14 @@ Notice that the start and end times did not change. This is because the times ar
   
 ## Updating the time zone on an existing appointment by using EWS
 
-The following example EWS [UpdateItem operation](http://msdn.microsoft.com/library/5d027523-e0bc-4da2-b60b-0cb9fc1fdfe4%28Office.15%29.aspx) request updates the time zone on an appointment. This example only updates the [StartTimeZone](http://msdn.microsoft.com/library/d38c4dc1-4ecb-42a1-8d57-a451b16a2de2%28Office.15%29.aspx) and [EndTimeZone](http://msdn.microsoft.com/library/6c53c337-be60-4d22-9e9e-a0c140c5e913%28Office.15%29.aspx) elements, so the server will shift the start and end times of the appointment to keep it at the same time-zone-relative time in the new time zone. The value of the **ItemId** element is shortened for readability. 
+The following example EWS [UpdateItem operation](https://msdn.microsoft.com/library/5d027523-e0bc-4da2-b60b-0cb9fc1fdfe4%28Office.15%29.aspx) request updates the time zone on an appointment. This example only updates the [StartTimeZone](https://msdn.microsoft.com/library/d38c4dc1-4ecb-42a1-8d57-a451b16a2de2%28Office.15%29.aspx) and [EndTimeZone](https://msdn.microsoft.com/library/6c53c337-be60-4d22-9e9e-a0c140c5e913%28Office.15%29.aspx) elements, so the server will shift the start and end times of the appointment to keep it at the same time-zone-relative time in the new time zone. The value of the **ItemId** element is shortened for readability. 
   
 ```XML
 <?xml version="1.0" encoding="utf-8"?>
 <soap:Envelope xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
-    xmlns:m="http://schemas.microsoft.com/exchange/services/2006/messages" 
-    xmlns:t="http://schemas.microsoft.com/exchange/services/2006/types" 
-    xmlns:soap="http://schemas.xmlsoap.org/soap/envelope/">
+    xmlns:m="https://schemas.microsoft.com/exchange/services/2006/messages" 
+    xmlns:t="https://schemas.microsoft.com/exchange/services/2006/types" 
+    xmlns:soap="https://schemas.xmlsoap.org/soap/envelope/">
   <soap:Header>
     <t:RequestServerVersion Version="Exchange2010" />
   </soap:Header>
@@ -189,9 +187,9 @@ The following example request updates the time zone of the appointment, and also
 ```XML
 <?xml version="1.0" encoding="utf-8"?>
 <soap:Envelope xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
-    xmlns:m="http://schemas.microsoft.com/exchange/services/2006/messages" 
-    xmlns:t="http://schemas.microsoft.com/exchange/services/2006/types" 
-    xmlns:soap="http://schemas.xmlsoap.org/soap/envelope/">
+    xmlns:m="https://schemas.microsoft.com/exchange/services/2006/messages" 
+    xmlns:t="https://schemas.microsoft.com/exchange/services/2006/types" 
+    xmlns:soap="https://schemas.xmlsoap.org/soap/envelope/">
   <soap:Header>
     <t:RequestServerVersion Version="Exchange2010" />
   </soap:Header>
@@ -233,13 +231,10 @@ The following example request updates the time zone of the appointment, and also
 </soap:Envelope>
 ```
 
-## Additional resources
-<a name="bk_addresources"> </a>
+## See also
 
-- [Time zones and EWS in Exchange](time-zones-and-ews-in-exchange.md)
-    
-- [How to: Create appointments in a specific time zone by using EWS in Exchange](how-to-create-appointments-in-a-specific-time-zone-by-using-ews-in-exchange.md)
-    
-- [How to: Update appointments and meetings by using EWS in Exchange](how-to-update-appointments-and-meetings-by-using-ews-in-exchange.md)
+- [Time zones and EWS in Exchange](time-zones-and-ews-in-exchange.md)   
+- [Create appointments in a specific time zone by using EWS in Exchange](how-to-create-appointments-in-a-specific-time-zone-by-using-ews-in-exchange.md)   
+- [Update appointments and meetings by using EWS in Exchange](how-to-update-appointments-and-meetings-by-using-ews-in-exchange.md)
     
 

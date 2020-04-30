@@ -3,7 +3,7 @@ title: "GetInboxRules operation"
  
  
 manager: sethgros
-ms.date: 9/17/2015
+ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
@@ -20,7 +20,7 @@ description: "The GetInboxRules operation uses Exchange Web Services to retrieve
 
 The **GetInboxRules** operation uses Exchange Web Services to retrieve Inbox rules in the identified user's mailbox. 
   
-## GetInboxRules Request Example
+## GetInboxRules request example
 
 ### Description
 
@@ -31,8 +31,8 @@ The following example shows the request XML that the client sends to the server.
 ```XML
 <?xml version="1.0" encoding="utf-8"?>
 <soap:Envelope xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
-        xmlns:m="http://schemas.microsoft.com/exchange/services/2006/messages"
-        xmlns:t="http://schemas.microsoft.com/exchange/services/2006/types"
+        xmlns:m="https://schemas.microsoft.com/exchange/services/2006/messages"
+        xmlns:t="https://schemas.microsoft.com/exchange/services/2006/types"
         xmlns:soap="http://schemas.xmlsoap.org/soap/envelope/">
   <soap:Header>
     <t:RequestServerVersion Version="Exchange2010_SP1" />
@@ -45,13 +45,13 @@ The following example shows the request XML that the client sends to the server.
 </soap:Envelope>
 ```
 
-### Request Elements
+### Request elements
 
 The request includes the following optional element:
   
 - [MailboxSmtpAddress](mailboxsmtpaddress.md)
     
-## Successful GetInboxRules Response Example
+## Successful GetInboxRules response example
 
 ### Description
 
@@ -70,19 +70,19 @@ The following Simple Object Access Protocol (SOAP) body example shows a successf
         MinorVersion="1" MajorBuildNumber="139"
         MinorBuildNumber="0"
         Version="Exchange2010_SP1"
-        xmlns:h="http://schemas.microsoft.com/exchange/services/2006/types"
-        xmlns="http://schemas.microsoft.com/exchange/services/2006/types"
+        xmlns:h="https://schemas.microsoft.com/exchange/services/2006/types"
+        xmlns="https://schemas.microsoft.com/exchange/services/2006/types"
         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
         xmlns:xsd="http://www.w3.org/2001/XMLSchema" />
   </s:Header>
   <s:Body xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
         xmlns:xsd="http://www.w3.org/2001/XMLSchema">
     <GetInboxRulesResponse ResponseClass="Success"
-        xmlns="http://schemas.microsoft.com/exchange/services/2006/messages">
+        xmlns="https://schemas.microsoft.com/exchange/services/2006/messages">
       <ResponseCode>NoError</ResponseCode>
       <OutlookRuleBlobExists>true</OutlookRuleBlobExists>
       <InboxRules>
-        <Rule xmlns="http://schemas.microsoft.com/exchange/services/2006/types">
+        <Rule xmlns="https://schemas.microsoft.com/exchange/services/2006/types">
           <RuleId>dCsAAABjzvA=</RuleId>
           <DisplayName>MoveInterestingToJunk</DisplayName>
           <Priority>1</Priority>
@@ -104,7 +104,7 @@ The following Simple Object Access Protocol (SOAP) body example shows a successf
 </s:Envelope>
 ```
 
-### Response Elements
+### Response elements
 
 The following elements are included in the response:
   
@@ -118,7 +118,7 @@ The following elements are included in the response:
     
 ## See also
 
-#### Reference
+
 
 [UpdateInboxRules operation](updateinboxrules-operation.md)
 

@@ -1,9 +1,7 @@
 ---
 title: "MailboxStatisticsSearchResult"
- 
- 
 manager: sethgros
-ms.date: 3/9/2015
+ms.date: 03/9/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
@@ -16,8 +14,6 @@ description: "The MailboxStatisticsSearchResult element contains the results of 
 
 The **MailboxStatisticsSearchResult** element contains the results of a keyword search. 
   
- * **Applies to: *** 
-  
 ```XML
 <MailboxStatisticsSearchResult>
    <UserMailbox/>
@@ -25,20 +21,21 @@ The **MailboxStatisticsSearchResult** element contains the results of a keyword 
 </MailboxStatisticsSearchResult>
 ```
 
- **MailboxStatisticsSearchResultType**
+**MailboxStatisticsSearchResultType**
+
 ## Attributes and elements
 
 The following sections describe attributes, child elements, and parent elements.
   
-#### Attributes
+### Attributes
 
 None.
   
-#### Child elements
+### Child elements
 
 [UserMailbox](usermailbox.md) | [KeywordStatisticsSearchResult](keywordstatisticssearchresult.md)
   
-#### Parent elements
+### Parent elements
 
 [FindMailboxStatisticsByKeywordsResponseMessage](findmailboxstatisticsbykeywordsresponsemessage.md)
   
@@ -52,7 +49,7 @@ The schema that describes this element is located in the IIS virtual directory t
 
 |||
 |:-----|:-----|
-|Namespace  <br/> |http://schemas.microsoft.com/exchange/services/2006/messages  <br/> |
+|Namespace  <br/> |https://schemas.microsoft.com/exchange/services/2006/messages  <br/> |
 |Schema name  <br/> |messages schema  <br/> |
 |Validation file  <br/> |messages.xsd  <br/> |
 |Can be empty  <br/> ||

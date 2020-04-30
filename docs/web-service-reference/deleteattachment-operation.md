@@ -1,9 +1,7 @@
 ---
 title: "DeleteAttachment operation"
- 
- 
 manager: sethgros
-ms.date: 9/17/2015
+ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
@@ -24,7 +22,7 @@ The DeleteAttachment operation is used to delete file and item attachments from 
 
 This operation allows you to delete one or more attachments by ID.
   
-## DeleteAttachment Request Example
+## DeleteAttachment request example
 
 ### Description
 
@@ -37,10 +35,10 @@ The following example of a DeleteAttachment request shows how to delete an item 
 <soap:Envelope xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
                xmlns:xsd="http://www.w3.org/2001/XMLSchema"
                xmlns:soap="http://schemas.xmlsoap.org/soap/envelope/"
-               xmlns:t="http://schemas.microsoft.com/exchange/services/2006/types">
+               xmlns:t="https://schemas.microsoft.com/exchange/services/2006/types">
   <soap:Body>
-    <DeleteAttachment xmlns="http://schemas.microsoft.com/exchange/services/2006/messages"
-                      xmlns:t="http://schemas.microsoft.com/exchange/services/2006/types">
+    <DeleteAttachment xmlns="https://schemas.microsoft.com/exchange/services/2006/messages"
+                      xmlns:t="https://schemas.microsoft.com/exchange/services/2006/types">
       <AttachmentIds>
         <t:AttachmentId Id="AAAtAEFkbWluaX"/>
       </AttachmentIds>
@@ -53,7 +51,7 @@ The following example of a DeleteAttachment request shows how to delete an item 
 
 The attachment identifier has been shortened to preserve readability.
   
-### Request Elements
+### Request elements
 
 The following elements are used in the request:
   
@@ -63,7 +61,7 @@ The following elements are used in the request:
     
 - [AttachmentId](attachmentid.md)
     
-## DeleteAttachment Response Example
+## DeleteAttachment response example
 
 ### Description
 
@@ -78,12 +76,12 @@ The following example shows a successful response to a DeleteAttachment request.
                xmlns:xsd="http://www.w3.org/2001/XMLSchema">
   <soap:Header>
     <t:ServerVersionInfo MajorVersion="8" MinorVersion="0" MajorBuildNumber="662" MinorBuildNumber="0" 
-                         xmlns:t="http://schemas.microsoft.com/exchange/services/2006/types"/>
+                         xmlns:t="https://schemas.microsoft.com/exchange/services/2006/types"/>
   </soap:Header>
   <soap:Body>
-    <DeleteAttachmentResponse xmlns:m="http://schemas.microsoft.com/exchange/services/2006/messages" 
-                              xmlns:t="http://schemas.microsoft.com/exchange/services/2006/types" 
-                              xmlns="http://schemas.microsoft.com/exchange/services/2006/messages">
+    <DeleteAttachmentResponse xmlns:m="https://schemas.microsoft.com/exchange/services/2006/messages" 
+                              xmlns:t="https://schemas.microsoft.com/exchange/services/2006/types" 
+                              xmlns="https://schemas.microsoft.com/exchange/services/2006/messages">
       <m:ResponseMessages>
         <m:DeleteAttachmentResponseMessage xsi:type="m:DeleteAttachmentResponseMessageType" ResponseClass="Success">
           <m:ResponseCode>NoError</m:ResponseCode>
@@ -104,7 +102,7 @@ The DeleteAttachment response includes the ID of the parent item. When attachmen
 > [!NOTE]
 > The [RootItemId](rootitemid.md) identifier and ChangeKey have been shortened to preserve readability. 
   
-### Successful Response Elements
+### Successful response elements
 
 The following elements are used in the response:
   
@@ -122,9 +120,6 @@ The following elements are used in the response:
     
 ## See also
 
-#### Reference
-
-[CreateAttachment operation](createattachment-operation.md)
-  
-[GetAttachment operation](getattachment-operation.md)
+- [CreateAttachment operation](createattachment-operation.md) 
+- [GetAttachment operation](getattachment-operation.md)
 

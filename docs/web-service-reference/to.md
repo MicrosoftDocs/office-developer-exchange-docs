@@ -3,7 +3,7 @@ title: "To"
  
  
 manager: sethgros
-ms.date: 9/17/2015
+ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
@@ -20,7 +20,7 @@ description: "The To element specifies the target of the time zone transition. T
 
 The **To** element specifies the target of the time zone transition. The target is either a time zone period or a group of time zone transitions. 
   
-```
+```xml
 <To Kind=""/>
 ```
 
@@ -29,24 +29,24 @@ The **To** element specifies the target of the time zone transition. The target 
 
 The following sections describe attributes, child elements, and parent elements.
   
-#### Attributes
+### Attributes
 
 |**Attribute**|**Description**|
 |:-----|:-----|
 |Kind  <br/> |Indicates whether the time zone transition target is a time zone period or of a group of time zone transitions.  <br/> |
    
-#### Kind Attribute Values
+#### Kind attribute values
 
 |**Value**|**Description**|
 |:-----|:-----|
 |Period  <br/> |Specifies that the time zone transition target is a time zone period.  <br/> |
 |Group  <br/> |Specifies that the time zone transition target is a group of time zone transitions.  <br/> |
    
-#### Child elements
+### Child elements
 
 None.
   
-#### Parent elements
+### Parent elements
 
 |**Element**|**Description**|
 |:-----|:-----|
@@ -67,14 +67,14 @@ The schema that describes this element is located in the EWS virtual directory o
 
 |||
 |:-----|:-----|
-|Namespace  <br/> |http://schemas.microsoft.com/exchange/services/2006/types  <br/> |
+|Namespace  <br/> |https://schemas.microsoft.com/exchange/services/2006/types  <br/> |
 |Schema Name  <br/> |Types schema  <br/> |
 |Validation File  <br/> |Types.xsd  <br/> |
 |Can be Empty  <br/> |False  <br/> |
    
 ## See also
 
-#### Concepts
 
-[EWS XML elements in Exchange](ews-xml-elements-in-exchange.md)
+
+- [EWS XML elements in Exchange](ews-xml-elements-in-exchange.md)
 

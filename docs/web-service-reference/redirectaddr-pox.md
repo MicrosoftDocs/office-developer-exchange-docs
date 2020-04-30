@@ -1,7 +1,7 @@
 ---
 title: "RedirectAddr (POX)"
 manager: sethgros
-ms.date: 9/17/2015
+ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
 localization_priority: Normal
@@ -25,7 +25,7 @@ The **RedirectAddr** element specifies the e-mail address that should be used fo
   
 [RedirectAddr (POX)](redirectaddr-pox.md)
   
-```
+```xml
 <RedirectAddr/>
 ```
 
@@ -33,15 +33,15 @@ The **RedirectAddr** element specifies the e-mail address that should be used fo
 
 The following sections describe attributes, child elements, and parent elements.
   
-#### Attributes
+### Attributes
 
 None.
   
-#### Child elements
+### Child elements
 
 None.
   
-#### Parent elements
+### Parent elements
 
 |**Element**|**Description**|
 |:-----|:-----|
@@ -57,7 +57,7 @@ If this element is present in the Autodiscover response, make another request by
   
 ## See also
 
-#### Concepts
+
 
 [POX Autodiscover XML elements for Exchange](pox-autodiscover-xml-elements-for-exchange.md)
 

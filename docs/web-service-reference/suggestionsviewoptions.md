@@ -3,7 +3,7 @@ title: "SuggestionsViewOptions"
  
  
 manager: sethgros
-ms.date: 9/17/2015
+ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
@@ -24,7 +24,7 @@ The **SuggestionsViewOptions** element contains the options for obtaining meetin
   
 [SuggestionsViewOptions](suggestionsviewoptions.md)
   
-```
+```xml
 <SuggestionsViewOptions>
    <GoodThreshold>...</GoodThreshold>
    <MaximumResultsByDay>...</MaximumResultsByDay>
@@ -43,11 +43,11 @@ The **SuggestionsViewOptions** element contains the options for obtaining meetin
 
 The following sections describe attributes, child elements, and parent elements.
   
-#### Attributes
+### Attributes
 
 None.
   
-#### Child elements
+### Child elements
 
 |**Element**|**Description**|
 |:-----|:-----|
@@ -60,7 +60,7 @@ None.
 |[CurrentMeetingTime](currentmeetingtime.md) <br/> |Represents the start time of a meeting that you want to update with the suggested meeting time results.  <br/> |
 |[GlobalObjectId](globalobjectid.md) <br/> |This element is not used.  <br/> |
    
-#### Parent elements
+### Parent elements
 
 |**Element**|**Description**|
 |:-----|:-----|
@@ -77,17 +77,17 @@ This element is not required and can only occur once if used. This value can be 
 
 |||
 |:-----|:-----|
-|Namespace  <br/> |http://schemas.microsoft.com/exchange/services/2006/types  <br/> |
+|Namespace  <br/> |https://schemas.microsoft.com/exchange/services/2006/types  <br/> |
 |Schema Name  <br/> |Types schema  <br/> |
 |Validation File  <br/> |Types.xsd  <br/> |
 |Can be Empty  <br/> |False  <br/> |
    
 ## See also
 
-#### Reference
+
 
 [GetUserAvailability operation](getuseravailability-operation.md)
-#### Other resources
 
-[Getting User Availability](http://msdn.microsoft.com/library/d4133fcb-9b0f-4e6b-aadf-a389da83516a%28Office.15%29.aspx)
+
+[Getting User Availability](https://msdn.microsoft.com/library/d4133fcb-9b0f-4e6b-aadf-a389da83516a%28Office.15%29.aspx)
 

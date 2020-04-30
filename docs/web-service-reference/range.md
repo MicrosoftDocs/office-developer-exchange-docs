@@ -3,7 +3,7 @@ title: "Range"
  
  
 manager: sethgros
-ms.date: 9/17/2015
+ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
@@ -25,7 +25,7 @@ The **Range** element specifies a range of calendar item occurrences for a repea
 
 The following sections describe attributes, child elements, and parent elements.
   
-#### Attributes
+### Attributes
 
 |**Attribute**|**Description**|
 |:-----|:-----|
@@ -34,11 +34,11 @@ The following sections describe attributes, child elements, and parent elements.
 |**Count** <br/> |The text value of the **Count** attribute is the number of occurrences of the recurring item. This is an **integer** value.  <br/> |
 |**CompareOriginalStartTime** <br/> |The text value of **true** for the **CompareOriginalStartTime** attribute indicates that the client should compare the original start time with the new start time. A value of **false** indicates that the client does not need to compare the original start time with the new start time.  <br/> |
    
-#### Child elements
+### Child elements
 
 None.
   
-#### Parent elements
+### Parent elements
 
 [Ranges](ranges.md)
   
@@ -52,7 +52,7 @@ The schema that describes this element is located in the IIS virtual directory t
 
 |||
 |:-----|:-----|
-|Namespace  <br/> |http://schemas.microsoft.com/exchange/services/2006/types  <br/> |
+|Namespace  <br/> |https://schemas.microsoft.com/exchange/services/2006/types  <br/> |
 |Schema name  <br/> |Types schema  <br/> |
 |Validation file  <br/> |Types.xsd  <br/> |
 |Can be empty  <br/> ||

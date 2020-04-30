@@ -1,7 +1,7 @@
 ---
 title: "Request (POX)"
 manager: sethgros
-ms.date: 9/17/2015
+ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
 localization_priority: Normal
@@ -9,22 +9,26 @@ api_type:
 - schema
 ms.assetid: da54eb32-7ce5-4384-9893-255a2243a959
 description: "The Request element contains the request to the Autodiscover service."
- 
- 
 ---
 
 # Request (POX)
 
 The **Request** element contains the request to the Autodiscover service. 
   
-[AutoDiscover (POX)](autodiscover-pox.md)
+- [AutoDiscover (POX)](autodiscover-pox.md) 
+- [Request (POX)](request-pox.md)
   
-[Request (POX)](request-pox.md)
-  
-```
+```xml
 <Request>
    <AcceptableResponseSchema/>
    <EMailAddress/>
+</Request>
+```
+
+```xml
+<Request>
+   <AcceptableResponseSchema/> 
+   <LegacyDN/>
 </Request>
 ```
 
@@ -32,11 +36,11 @@ The **Request** element contains the request to the Autodiscover service.
 
 The following sections describe attributes, child elements, and parent elements.
   
-#### Attributes
+### Attributes
 
 None.
   
-#### Child elements
+### Child elements
 
 |**Element**|**Description**|
 |:-----|:-----|
@@ -44,7 +48,7 @@ None.
 |[EmailAddress (NonEmptyStringType)](emailaddress-nonemptystringtype.md) <br/> |Identifies the user's e-mail address.  <br/> |
 |[LegacyDN (POX)](legacydn-pox.md) <br/> |Identifies a user's mailbox by legacy distinguished name.  <br/> |
    
-#### Parent elements
+### Parent elements
 
 |**Element**|**Description**|
 |:-----|:-----|
@@ -52,7 +56,5 @@ None.
    
 ## See also
 
-#### Concepts
-
-[POX Autodiscover XML elements for Exchange](pox-autodiscover-xml-elements-for-exchange.md)
+- [POX Autodiscover XML elements for Exchange](pox-autodiscover-xml-elements-for-exchange.md)
 

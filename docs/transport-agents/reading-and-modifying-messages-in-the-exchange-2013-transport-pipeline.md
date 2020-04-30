@@ -1,9 +1,7 @@
 ---
 title: "Reading and modifying messages in the Exchange 2013 transport pipeline"
- 
- 
 manager: sethgros
-ms.date: 9/17/2015
+ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: overview
 ms.prod: office-online-server
@@ -16,25 +14,15 @@ description: "Learn about the .NET Framework classes you can use in your Exchang
 
 Learn about the .NET Framework classes you can use in your Exchange 2013 transport agents to read, write, and modify messages.
   
- **Last modified:** September 17, 2015 
+**Applies to:** Exchange Server 2013
   
- * **Applies to:** Exchange Server 2013 * 
-  
-[Classes used to read, write, or modify messages](#Namespaces.md)
-  
-[Encoders namespace](#Encoders.md)
-  
-[iCalendar namespace](#iCalendar.md)
-  
-[MIME namespace](#MIME.md)
-  
-[TextConverters namespace](#TextConverters.md)
-  
-[Tnef namespace](#TNEF.md)
-  
-[vCard namespace](#vCard.md)
-  
-[Additional resources](#bk_addiitionalresources.md)
+- Classes used to read, write, or modify messages
+- Encoders namespace
+- iCalendar namespace
+- MIME namespace
+- TextConverters namespace
+- Tnef namespace
+- vCard namespace
   
 As messages pass through the transport pipeline, your transport agent can read, write, and convert message content between different data formats. For example, you can read and write MIME data, identify incoming messages that are in Uuencoded or Quoted-printable (qp) format, and then convert them to a standard used by your organization, or read and then save calendar or contact information associated with incoming messages. 
   
@@ -44,9 +32,10 @@ This article provides information about the .NET Framework classes that you can 
   
 > [!CAUTION]
 > Many of the properties and parameters in the content conversion APIs allow values large enough to cause performance problems, including denial of service. When you use the content conversion APIs in a transport agent, you should implement limits on the property and parameter value sizes you support when reading or writing in order to limit resource consumption by your agent. 
-  
-## Classes used to read, write, or modify messages
+
 <a name="Namespaces"> </a>
+
+## Classes used to read, write, or modify messages
 
 The following table lists the .NET Framework classes that you can use to read, write, and modify email messages.
   
@@ -95,7 +84,7 @@ The iCalendar namespace provides a forward-only reader and writer for iCalendar 
   
 The [CalendarReader](https://msdn.microsoft.com/library/Microsoft.Exchange.Data.ContentTypes.iCalendar.CalendarReader.aspx) and [CalendarWriter](https://msdn.microsoft.com/library/Microsoft.Exchange.Data.ContentTypes.iCalendar.CalendarWriter.aspx) classes are used to read and write iCalendar stream data. 
   
-The CalendarReader takes a readable [Stream](https://msdn.microsoft.com/library/System.IO.Stream.aspx) as an argument to its constructors. You can then use the [ReadFirstChildComponent](https://msdn.microsoft.com/library/Microsoft.Exchange.Data.ContentTypes.iCalendar.CalendarReader.ReadFirstChildComponent.aspx) , [ReadNextSiblingComponent](https://msdn.microsoft.com/library/Microsoft.Exchange.Data.ContentTypes.iCalendar.CalendarReader.ReadNextSiblingComponent.aspx) , and [ReadNextComponent](https://msdn.microsoft.com/library/Microsoft.Exchange.Data.ContentTypes.iCalendar.CalendarReader.ReadNextComponent.aspx) methods to sequentially access the iCalendar components in the data stream. Based on the value that you have set for the [ComplianceMode](https://msdn.microsoft.com/library/Microsoft.Exchange.Data.ContentTypes.iCalendar.CalendarReader.ComplianceMode.aspx) property, errors in the iCalendar stream will cause an exception to be thrown or will cause the [ComplianceStatus](https://msdn.microsoft.com/library/Microsoft.Exchange.Data.ContentTypes.iCalendar.CalendarReader.ComplianceStatus.aspx) property to be set to a value other than [Compliant](https://msdn.microsoft.com/library/Microsoft.Exchange.Data.ContentTypes.iCalendar.CalendarComplianceStatus.Compliant.aspx) . You can check this property to discover any issues with incoming iCalendar data. 
+The CalendarReader takes a readable [Stream](https://msdn.microsoft.com/library/System.IO.Stream.aspx) as an argument to its constructors. You can then use the [ReadFirstChildComponent](https://msdn.microsoft.com/library/Microsoft.Exchange.Data.ContentTypes.iCalendar.CalendarReader.ReadFirstChildComponent.aspx), [ReadNextSiblingComponent](https://msdn.microsoft.com/library/Microsoft.Exchange.Data.ContentTypes.iCalendar.CalendarReader.ReadNextSiblingComponent.aspx), and [ReadNextComponent](https://msdn.microsoft.com/library/Microsoft.Exchange.Data.ContentTypes.iCalendar.CalendarReader.ReadNextComponent.aspx) methods to sequentially access the iCalendar components in the data stream. Based on the value that you have set for the [ComplianceMode](https://msdn.microsoft.com/library/Microsoft.Exchange.Data.ContentTypes.iCalendar.CalendarReader.ComplianceMode.aspx) property, errors in the iCalendar stream will cause an exception to be thrown or will cause the [ComplianceStatus](https://msdn.microsoft.com/library/Microsoft.Exchange.Data.ContentTypes.iCalendar.CalendarReader.ComplianceStatus.aspx) property to be set to a value other than [Compliant](https://msdn.microsoft.com/library/microsoft.exchange.data.contenttypes.icalendar.calendarcompliancestatus.aspx). You can check this property to discover any issues with incoming iCalendar data. 
   
 The [CalendarWriter](https://msdn.microsoft.com/library/Microsoft.Exchange.Data.ContentTypes.iCalendar.CalendarWriter.aspx) class takes a writable [Stream](https://msdn.microsoft.com/library/System.IO.Stream.aspx) as an argument to its constructors. 
   
@@ -122,7 +111,7 @@ The [MimeReader](https://msdn.microsoft.com/library/Microsoft.Exchange.Data.Mime
   
 The [MimeDocument](https://msdn.microsoft.com/library/Microsoft.Exchange.Data.Mime.MimeDocument.aspx) class encapsulates a DOM. The [MimeReader](https://msdn.microsoft.com/library/Microsoft.Exchange.Data.Mime.MimeReader.aspx) and [MimeWriter](https://msdn.microsoft.com/library/Microsoft.Exchange.Data.Mime.MimeWriter.aspx) classes represent state computers. Their states change based on the input received and the methods called. Figures 2 through 5 are simplified state transition diagrams that show, for the [MimeReader](https://msdn.microsoft.com/library/Microsoft.Exchange.Data.Mime.MimeReader.aspx) object, which methods are valid to call from each state and the state that will result. 
   
-To use these diagrams, follow the arrows from one state to the next, noting the method calls or return values that cause the state to change. For example, in the first diagram, assume that you are at the start of the stream that belongs to the MimeReader that you have created. To get to the Part Headers state, call one of [ReadNextPart](https://msdn.microsoft.com/library/Microsoft.Exchange.Data.Mime.MimeReader.ReadNextPart.aspx) or [ReadFirstChildPart](https://msdn.microsoft.com/library/Microsoft.Exchange.Data.Mime.MimeReader.ReadFirstChildPart.aspx) , in that order. If there are headers (that is, if the MIME is well-formed), you will enter into the Part Headers state. Otherwise, an exception will be thrown. 
+To use these diagrams, follow the arrows from one state to the next, noting the method calls or return values that cause the state to change. For example, in the first diagram, assume that you are at the start of the stream that belongs to the MimeReader that you have created. To get to the Part Headers state, call one of [ReadNextPart](https://msdn.microsoft.com/library/Microsoft.Exchange.Data.Mime.MimeReader.ReadNextPart.aspx) or [ReadFirstChildPart](https://msdn.microsoft.com/library/Microsoft.Exchange.Data.Mime.MimeReader.ReadFirstChildPart.aspx), in that order. If there are headers (that is, if the MIME is well-formed), you will enter into the Part Headers state. Otherwise, an exception will be thrown. 
   
 **Figure 2. Simplified state transition diagram for MimeReader objects**
 
@@ -222,15 +211,11 @@ The [TnefWriter](https://msdn.microsoft.com/library/Microsoft.Exchange.Data.Cont
 
 The vCard namespace contains classes, structures, and enumerations used to read and write contact information contained in an email message that is in the vCard data format. The namespace contains a contact reader and writer, an exception class, a property reader, a parameter reader, and supporting enumerations that allow you to read vCard data associated with an email message.
   
-## Additional resources
-<a name="bk_addiitionalresources"> </a>
+## See also
 
-- [Transport agents in Exchange 2013](transport-agents-in-exchange-2013.md)
-    
-- [Transport agent concepts in Exchange 2013](transport-agent-concepts-in-exchange-2013.md)
-    
+- [Transport agents in Exchange](transport-agents-in-exchange-2013.md)  
+- [Transport agent concepts in Exchange 2013](transport-agent-concepts-in-exchange-2013.md) 
 - [Transport agent reference for Exchange 2013](transport-agent-reference-for-exchange-2013.md)
-    
 - [MIME Media Types](http://www.iana.org/assignments/media-types)
     
 

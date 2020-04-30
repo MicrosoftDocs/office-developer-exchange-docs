@@ -1,7 +1,7 @@
 ---
 title: "SetMissedCallNotificationEnabled operation (UM web service)"
 manager: sethgros
-ms.date: 9/17/2015
+ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
 localization_priority: Normal
@@ -19,7 +19,7 @@ description: "The SetMissedCallNotificationEnabled operation enables or disables
 
 The SetMissedCallNotificationEnabled operation enables or disables missed call notifications.
   
-## SetMissedCallNotificationEnabled Request Example
+## SetMissedCallNotificationEnabled request example
 
 ### Description
 
@@ -31,14 +31,14 @@ The following example of a SetMissedCallNotificationEnabled request shows how to
 <?xml version="1.0" encoding="utf-8"?>
 <soap:Envelope xmlns:soap="http://schemas.xmlsoap.org/soap/envelope/">
   <soap:Body>
-    <SetMissedCallNotificationEnabled xmlns="http://schemas.microsoft.com/exchange/services/2006/messages">
+    <SetMissedCallNotificationEnabled xmlns="https://schemas.microsoft.com/exchange/services/2006/messages">
         <status>true</status>
     </SetMissedCallNotificationEnabled>
   </soap:Body>
 </soap:Envelope>
 ```
 
-## Successful SetMissedCallNotificationEnabled Response Example
+## Successful SetMissedCallNotificationEnabled response example
 
 ### Description
 
@@ -50,14 +50,14 @@ The following example of a PlayOnPhoneGreeting response shows a response to the 
 <?xml version="1.0" encoding="utf-8" ?> 
 <soap:Envelope xmlns:soap="http://schemas.xmlsoap.org/soap/envelope/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
   <soap:Body>
-    <SetMissedCallNotificationEnabledResponse xmlns="http://schemas.microsoft.com/exchange/services/2006/messages" /> 
+    <SetMissedCallNotificationEnabledResponse xmlns="https://schemas.microsoft.com/exchange/services/2006/messages" /> 
   </soap:Body>
 </soap:Envelope>
 ```
 
 ## See also
 
-#### Reference
+
 
 [SetMissedCallNotificationEnabled (UM web service)](setmissedcallnotificationenabled-um-web-service.md)
   

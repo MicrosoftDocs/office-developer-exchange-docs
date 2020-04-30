@@ -1,7 +1,7 @@
 ---
 title: "SetMissedCallNotificationEnabledResponse (UM web service)"
 manager: sethgros
-ms.date: 9/17/2015
+ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
 localization_priority: Normal
@@ -21,7 +21,7 @@ The **SetMissedCallNotificationEnabledResponse** element defines a response to a
   
 [SetMissedCallNotificationEnabledResponse (UM web service)](setmissedcallnotificationenabledresponse-um-web-service.md)
   
-```
+```xml
 <SetMissedCallNotificationEnabledResponse />
 ```
 
@@ -30,15 +30,15 @@ The **SetMissedCallNotificationEnabledResponse** element defines a response to a
 
 The following sections describe attributes, child elements, and parent elements.
   
-#### Attributes
+### Attributes
 
 None.
   
-#### Child elements
+### Child elements
 
 None.
   
-#### Parent elements
+### Parent elements
 
 None.
   
@@ -50,14 +50,14 @@ None.
 
 |||
 |:-----|:-----|
-|Namespace  <br/> |http://schemas.microsoft.com/exchange/services/2006/messages  <br/> |
+|Namespace  <br/> |https://schemas.microsoft.com/exchange/services/2006/messages  <br/> |
 |Schema Name  <br/> |Messages  <br/> |
 |Validation File  <br/> |Messages.xsd  <br/> |
 |Can be Empty  <br/> |True  <br/> |
    
 ## See also
 
-#### Reference
+
 
 [SetMissedCallNotificationEnabled operation (UM web service)](setmissedcallnotificationenabled-operation-um-web-service.md)
 

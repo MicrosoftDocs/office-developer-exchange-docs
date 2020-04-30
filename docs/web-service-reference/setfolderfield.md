@@ -1,9 +1,7 @@
 ---
 title: "SetFolderField"
- 
- 
 manager: sethgros
-ms.date: 9/17/2015
+ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
@@ -19,24 +17,124 @@ description: "The SetFolderField element represents an update that sets the valu
 # SetFolderField
 
 The **SetFolderField** element represents an update that sets the value for a single property on a folder in an UpdateFolder operation. 
-  
-```
+
+```xml
 <SetFolderField>
    <FieldURI/>
    <Folder/>
 </SetFolderField>
 ```
+  
+```xml
+<SetFolderField>
+   <IndexedFieldURI/> 
+   <SearchFolder/> 
+</SetFolderField>
+```
 
- **SetFolderFieldType**
+```xml
+<SetFolderField>
+   <FieldURI/> 
+   <TasksFolder/>
+</SetFolderField>
+```
+
+```xml
+<SetFolderField>
+   <ExtendedFieldURI/> 
+   <CalendarFolder/> 
+</SetFolderField>
+```
+
+```xml
+<SetFolderField>
+   <ExtendedFieldURI/> 
+   <SearchFolder/>
+</SetFolderField>
+```
+
+```xml
+<SetFolderField>
+   <ExtendedFieldURI/> 
+   <Folder/> 
+</SetFolderField>
+```
+
+```xml
+<SetFolderField>
+    <IndexedFieldURI/> 
+    <TasksFolder/>
+</SetFolderField>
+```
+
+```xml
+<SetFolderField>
+   <FieldURI/> 
+   <SearchFolder/>
+</SetFolderField>
+```
+
+```xml
+<SetFolderField>
+   <FieldURI/> 
+   <CalendarFolder/> 
+</SetFolderField>
+```
+
+```xml
+<SetFolderField>
+   <ExtendedFieldURI/> 
+   <TasksFolder/> 
+</SetFolderField>
+```
+
+```xml
+<SetFolderField>
+   <IndexedFieldURI/> 
+   <CalendarFolder/> 
+</SetFolderField>
+```
+
+```xml
+<SetFolderField>
+   <IndexedFieldURI/> 
+   <Folder/>
+</SetFolderField>
+```
+
+```xml
+<SetFolderField>
+    <FieldURI/> 
+    <ContactsFolder/>
+</SetFolderField>
+```
+
+```xml
+<SetFolderField>
+   <ExtendedFieldURI/> 
+   <ContactsFolder/>
+</SetFolderField>
+```
+
+```xml
+<SetFolderField>
+   <IndexedFieldURI/> 
+   <ContactsFolder/> 
+</SetFolderField>
+```
+
+
+**SetFolderFieldType**
+
 ## Attributes and elements
 
 The following sections describe attributes, child elements, and parent elements.
   
-#### Attributes
+### Attributes
 
 None.
   
-#### Child elements
+### Child elements
 
 |**Element**|**Description**|
 |:-----|:-----|
@@ -49,7 +147,7 @@ None.
 |[SearchFolder](searchfolder.md) <br/> |Represents a search folder that is contained in a mailbox.  <br/> |
 |[TasksFolder](tasksfolder.md) <br/> |Represents a Tasks folder that is contained in a mailbox.  <br/> |
    
-#### Parent elements
+### Parent elements
 
 |**Element**|**Description**|
 |:-----|:-----|
@@ -65,17 +163,13 @@ The schema that describes this element is located in the EWS virtual directory o
 
 |||
 |:-----|:-----|
-|Namespace  <br/> |http://schemas.microsoft.com/exchange/services/2006/types  <br/> |
+|Namespace  <br/> |https://schemas.microsoft.com/exchange/services/2006/types  <br/> |
 |Schema Name  <br/> |Types schema  <br/> |
 |Validation File  <br/> |Types.xsd  <br/> |
 |Can be Empty  <br/> |False  <br/> |
    
 ## See also
 
-#### Reference
-
-[UpdateFolder operation](updatefolder-operation.md)
-#### Concepts
-
-[EWS XML elements in Exchange](ews-xml-elements-in-exchange.md)
+- [UpdateFolder operation](updatefolder-operation.md)
+- [EWS XML elements in Exchange](ews-xml-elements-in-exchange.md)
 

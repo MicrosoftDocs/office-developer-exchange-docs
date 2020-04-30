@@ -3,7 +3,7 @@ title: "Item (UploadItemType)"
  
  
 manager: sethgros
-ms.date: 9/17/2015
+ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
@@ -35,7 +35,7 @@ The **Item** element represents a single item to upload into a mailbox.
 
 The following sections describe attributes, child elements, and parent elements.
   
-#### Attributes
+### Attributes
 
 |**Attribute**|**Description**|
 |:-----|:-----|
@@ -50,7 +50,7 @@ The following sections describe attributes, child elements, and parent elements.
 |**Update** <br/> |Specifies that the item indicated by the **ItemId** element will be updated. An error is returned if the **ItemId** element is not present or if the item does not exist in the folder identified by the [ParentFolderId](parentfolderid.md) element.  <br/> |
 |**UpdateOrCreate** <br/> |Indicates that an attempt is first made to update the item. If the item does not exist in the folder specified by the **ParentFolderId** element, a new item is created.  <br/> |
    
-#### Child elements
+### Child elements
 
 |**Element**|**Description**|
 |:-----|:-----|
@@ -58,7 +58,7 @@ The following sections describe attributes, child elements, and parent elements.
 |[ItemId](itemid.md) <br/> |Contains the unique identifier and change key of an item to create or update in the Exchange store.  <br/> |
 |[Data (base64Binary)](data-base64binary.md) <br/> |Contains the data of a single item to upload into a mailbox.  <br/> |
    
-#### Parent elements
+### Parent elements
 
 |**Element**|**Description**|
 |:-----|:-----|
@@ -76,14 +76,14 @@ The schema that describes this element is located in the IIS virtual directory t
 
 |||
 |:-----|:-----|
-|Namespace  <br/> |http://schemas.microsoft.com/exchange/services/2006/types  <br/> |
+|Namespace  <br/> |https://schemas.microsoft.com/exchange/services/2006/types  <br/> |
 |Schema Name  <br/> |Types schema  <br/> |
 |Validation File  <br/> |Types.xsd  <br/> |
 |Can be Empty  <br/> |False  <br/> |
    
 ## See also
 
-#### Reference
+
 
 [ExportItems operation](exportitems-operation.md)
   

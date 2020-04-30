@@ -3,7 +3,7 @@ title: "GetDelegate"
  
  
 manager: sethgros
-ms.date: 9/17/2015
+ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
@@ -20,7 +20,7 @@ description: "The GetDelegate element defines a request to get information about
 
 The **GetDelegate** element defines a request to get information about delegates to a mailbox. This element was introduced in Microsoft Exchange Server 2007 Service Pack 1 (SP1). 
   
-```
+```xml
 <GetDelegate IncludePermissions="">
       <Mailbox/>
    <UserIds/>
@@ -32,27 +32,27 @@ The **GetDelegate** element defines a request to get information about delegates
 
 The following sections describe attributes, child elements, and parent elements.
   
-#### Attributes
+### Attributes
 
 |**Attribute**|**Description**|
 |:-----|:-----|
 |**IncludePermissions** <br/> |Indicates whether the response contains permission settings for each delegate user.  <br/> |
    
-#### IncludePermissions Attribute Values
+#### IncludePermissions attribute values
 
 |**Value**|**Description**|
 |:-----|:-----|
 |**True** <br/> |Delegate user permissions are returned in addition to the delegate user information that is returned in the [UserId](userid.md) element.  <br/> |
 |**False** <br/> |[UserId](userid.md) information is returned.  <br/> |
    
-#### Child elements
+### Child elements
 
 |**Element**|**Description**|
 |:-----|:-----|
 |[Mailbox](mailbox.md) <br/> |Identifies the principal's mailbox.  <br/> |
 |[UserIds](userids.md) <br/> |Contains an array of delegate users to get from a principal's mailbox. This element was introduced in Exchange 2007 SP1.  <br/> |
    
-#### Parent elements
+### Parent elements
 
 None.
   
@@ -64,17 +64,17 @@ The schema that describes this element is located in the EWS virtual directory o
 
 |||
 |:-----|:-----|
-|Namespace  <br/> |http://schemas.microsoft.com/exchange/services/2006/messages  <br/> |
+|Namespace  <br/> |https://schemas.microsoft.com/exchange/services/2006/messages  <br/> |
 |Schema Name  <br/> |Messages schema  <br/> |
 |Validation File  <br/> |Messages.xsd  <br/> |
 |Can be Empty  <br/> |False  <br/> |
    
 ## See also
 
-#### Reference
+
 
 [GetDelegate operation](getdelegate-operation.md)
-#### Concepts
 
-[EWS XML elements in Exchange](ews-xml-elements-in-exchange.md)
+
+- [EWS XML elements in Exchange](ews-xml-elements-in-exchange.md)
 

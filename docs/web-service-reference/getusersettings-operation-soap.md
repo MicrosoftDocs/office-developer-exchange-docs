@@ -1,7 +1,7 @@
 ---
 title: "GetUserSettings operation (SOAP)"
 manager: sethgros
-ms.date: 9/17/2015
+ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
 localization_priority: Normal
@@ -17,7 +17,7 @@ description: "The GetUserSettings operation contains a query for users' client a
 
 The **GetUserSettings** operation contains a query for users' client access configuration. 
   
-## GetUserSettings Request Example
+## GetUserSettings request example
 
 ### Description
 
@@ -27,17 +27,17 @@ The following XML example shows an Autodiscover request body that requests a use
 
 ```XML
 <?xml version="1.0" encoding="utf-8"?>
-<soap:Envelope xmlns:a="http://schemas.microsoft.com/exchange/2010/Autodiscover"      
+<soap:Envelope xmlns:a="https://schemas.microsoft.com/exchange/2010/Autodiscover"      
                xmlns:wsa="http://www.w3.org/2005/08/addressing" 
                xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"      
                xmlns:soap="http://schemas.xmlsoap.org/soap/envelope/">
   <soap:Header>
     <a:RequestedServerVersion>Exchange2010</a:RequestedServerVersion>
-    <wsa:Action>http://schemas.microsoft.com/exchange/2010/Autodiscover/Autodiscover/GetUserSettings</wsa:Action>
+    <wsa:Action>https://schemas.microsoft.com/exchange/2010/Autodiscover/Autodiscover/GetUserSettings</wsa:Action>
     <wsa:To>https://myserver.contoso.com/autodiscover/autodiscover.svc</wsa:To>
   </soap:Header>
   <soap:Body>
-    <a:GetUserSettingsRequestMessage xmlns:a="http://schemas.microsoft.com/exchange/2010/Autodiscover">
+    <a:GetUserSettingsRequestMessage xmlns:a="https://schemas.microsoft.com/exchange/2010/Autodiscover">
       <a:Request>
         <a:Users>
           <a:User>
@@ -61,7 +61,7 @@ The following XML example shows an Autodiscover request body that requests a use
 
 ```
 
-### Request Elements
+### Request elements
 
 The following elements are used in the request body:
   
@@ -81,7 +81,7 @@ The following elements are used in the request body:
     
 - [Users (SOAP)](users-soap.md)
     
-## GetUserSettings Response Example
+## GetUserSettings response example
 
 ### Description
 
@@ -92,10 +92,10 @@ The following example shows a successful **GetUserSettings** response.
 ```XML
 <s:Envelope xmlns:s="http://schemas.xmlsoap.org/soap/envelope/" xmlns:a="http://www.w3.org/2005/08/addressing">
   <s:Header>
-    <a:Action s:mustUnderstand="1">http://schemas.microsoft.com/exchange/2010/Autodiscover/Autodiscover/GetUserSettingsResponse</a:Action>
+    <a:Action s:mustUnderstand="1">https://schemas.microsoft.com/exchange/2010/Autodiscover/Autodiscover/GetUserSettingsResponse</a:Action>
   </s:Header>
   <s:Body>
-  <GetUserSettingsResponseMessage xmlns="http://schemas.microsoft.com/exchange/2010/Autodiscover">
+  <GetUserSettingsResponseMessage xmlns="https://schemas.microsoft.com/exchange/2010/Autodiscover">
       <Response xmlns:i="http://www.w3.org/2001/XMLSchema-instance">
         <ErrorCode>NoError</ErrorCode>
         <ErrorMessage />
@@ -147,7 +147,7 @@ The following example shows a successful **GetUserSettings** response.
 </s:Envelope>
 ```
 
-### Response Elements
+### Response elements
 
 The following elements are used in the response body:
   
@@ -177,12 +177,12 @@ The following elements are used in the response body:
     
 ## See also
 
-#### Reference
+
 
 [GetDomainSettings operation (SOAP)](getdomainsettings-operation-soap.md)
   
 [GetFederationInformation operation (SOAP)](getfederationinformation-operation-soap.md)
-#### Concepts
+
 
 [SOAP Autodiscover XML elements for Exchange 2013](soap-autodiscover-xml-elements-for-exchange-2013.md)
 

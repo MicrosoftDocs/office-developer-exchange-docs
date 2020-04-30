@@ -3,7 +3,7 @@ title: "GetRoomLists operation"
  
  
 manager: sethgros
-ms.date: 9/17/2015
+ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
@@ -31,7 +31,7 @@ The **GetRoomLists** operation can use the SOAP headers that are listed and desc
 |RequestVersion  <br/> |[RequestServerVersion](requestserverversion.md) <br/> |Identifies the schema version for the operation request.  <br/> |
 |ServerVersion  <br/> |[ServerVersionInfo](serverversioninfo.md) <br/> |Identifies the version of the server that responded to the request.  <br/> |
    
-## GetRoomLists Request Example
+## GetRoomLists request example
 
 ### Description
 
@@ -43,8 +43,8 @@ The following is an example of a **GetRoomLists** request that returns the room 
 <?xml version="1.0" encoding="utf-8"?>
 <soap:Envelope xmlns:xsd="http://www.w3.org/2001/XMLSchema"
                xmlns:soap="http://schemas.xmlsoap.org/soap/envelope/"
-               xmlns:t="http://schemas.microsoft.com/exchange/services/2006/types"
-               xmlns:m="http://schemas.microsoft.com/exchange/services/2006/messages">
+               xmlns:t="https://schemas.microsoft.com/exchange/services/2006/types"
+               xmlns:m="https://schemas.microsoft.com/exchange/services/2006/messages">
   <soap:Header>
     <t:RequestServerVersion Version ="Exchange2010_SP1"/>
   </soap:Header>
@@ -55,13 +55,13 @@ The following is an example of a **GetRoomLists** request that returns the room 
 
 ```
 
-### Request Elements
+### Request elements
 
 The following element is used in the request:
   
 - [GetRoomLists](getroomlists.md)
     
-## Successful GetRoomLists Response Example
+## Successful GetRoomLists response example
 
 ### Description
 
@@ -73,13 +73,13 @@ The following is an example of a response to a **GetRoomLists** request. This re
 <?xml version="1.0" encoding="utf-8"?>
 <s:Envelope xmlns:s="http://schemas.xmlsoap.org/soap/envelope/">
   <s:Header>
-    <h:ServerVersionInfo MajorVersion="14" MinorVersion="1" MajorBuildNumber="164" MinorBuildNumber="0" Version="Exchange2010_SP1" xmlns:h="http://schemas.microsoft.com/exchange/services/2006/types" xmlns="http://schemas.microsoft.com/exchange/services/2006/types" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema"/>
+    <h:ServerVersionInfo MajorVersion="14" MinorVersion="1" MajorBuildNumber="164" MinorBuildNumber="0" Version="Exchange2010_SP1" xmlns:h="https://schemas.microsoft.com/exchange/services/2006/types" xmlns="https://schemas.microsoft.com/exchange/services/2006/types" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema"/>
   </s:Header>
   <s:Body xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
-    <GetRoomListsResponse ResponseClass="Success" xmlns="http://schemas.microsoft.com/exchange/services/2006/messages">
+    <GetRoomListsResponse ResponseClass="Success" xmlns="https://schemas.microsoft.com/exchange/services/2006/messages">
       <ResponseCode>NoError</ResponseCode>
-      <m:RoomLists xmlns:m="http://schemas.microsoft.com/exchange/services/2006/messages">
-        <t:Address xmlns:t="http://schemas.microsoft.com/exchange/services/2006/types">
+      <m:RoomLists xmlns:m="https://schemas.microsoft.com/exchange/services/2006/messages">
+        <t:Address xmlns:t="https://schemas.microsoft.com/exchange/services/2006/types">
           <t:Name>Room List</t:Name>
           <t:EmailAddress>RoomList@contoso.com</t:EmailAddress>
           <t:RoutingType>SMTP</t:RoutingType>
@@ -92,7 +92,7 @@ The following is an example of a response to a **GetRoomLists** request. This re
 
 ```
 
-### Successful GetRoomLists Response Elements
+### Successful GetRoomLists response elements
 
 The following elements are used in the response:
   
@@ -110,7 +110,7 @@ The following elements are used in the response:
     
 - [MailboxType](mailboxtype.md)
     
-### GetRoomLists Error Response Example
+### GetRoomLists Error response example
 
 #### Description
 
@@ -122,19 +122,19 @@ The following example shows the response to an attempt to get room lists from a 
 <?xml version="1.0" encoding="utf-8"?>
 <s:Envelope xmlns:s="http://schemas.xmlsoap.org/soap/envelope/">
   <s:Header>
-    <h:ServerVersionInfo MajorVersion="14" MinorVersion="1" MajorBuildNumber="164" MinorBuildNumber="0" Version="Exchange2010_SP1" xmlns:h="http://schemas.microsoft.com/exchange/services/2006/types" xmlns="http://schemas.microsoft.com/exchange/services/2006/types" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema"/>
+    <h:ServerVersionInfo MajorVersion="14" MinorVersion="1" MajorBuildNumber="164" MinorBuildNumber="0" Version="Exchange2010_SP1" xmlns:h="https://schemas.microsoft.com/exchange/services/2006/types" xmlns="https://schemas.microsoft.com/exchange/services/2006/types" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema"/>
   </s:Header>
   <s:Body xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
-    <GetRoomListsResponse ResponseClass="Success" xmlns="http://schemas.microsoft.com/exchange/services/2006/messages">
+    <GetRoomListsResponse ResponseClass="Success" xmlns="https://schemas.microsoft.com/exchange/services/2006/messages">
       <ResponseCode>NoError</ResponseCode>
-      <m:RoomLists xmlns:m="http://schemas.microsoft.com/exchange/services/2006/messages"/>
+      <m:RoomLists xmlns:m="https://schemas.microsoft.com/exchange/services/2006/messages"/>
     </GetRoomListsResponse>
   </s:Body>
 </s:Envelope>
 
 ```
 
-#### GetRoomLists Error Response Elements
+#### GetRoomLists Error response elements
 
 The following elements are used in the error response:
   
@@ -148,9 +148,9 @@ The following elements are used in the error response:
     
 ## See also
 
-#### Concepts
+
 
 [EWS operations in Exchange](ews-operations-in-exchange.md)
   
-[EWS XML elements in Exchange](ews-xml-elements-in-exchange.md)
+- [EWS XML elements in Exchange](ews-xml-elements-in-exchange.md)
 

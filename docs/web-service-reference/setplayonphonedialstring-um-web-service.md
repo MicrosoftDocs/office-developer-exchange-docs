@@ -1,7 +1,7 @@
 ---
 title: "SetPlayOnPhoneDialString (UM web service)"
 manager: sethgros
-ms.date: 9/17/2015
+ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
 localization_priority: Normal
@@ -21,7 +21,7 @@ The **SetPlayOnPhoneDialString** element defines a request to set the default di
   
 [SetPlayOnPhoneDialString (UM web service)](setplayonphonedialstring-um-web-service.md)
   
-```
+```xml
 <SetPlayOnPhoneDialString>
   <dialString>   </dialString>
 </SetPlayOnPhoneDialString>
@@ -32,17 +32,17 @@ The **SetPlayOnPhoneDialString** element defines a request to set the default di
 
 The following sections describe attributes, child elements, and parent elements.
   
-#### Attributes
+### Attributes
 
 None.
   
-#### Child elements
+### Child elements
 
 |**Element**|**Description**|
 |:-----|:-----|
 |[dialString (UM web service)](dialstring-um-web-service.md) <br/> |The telephone number to set as the default dial string.  <br/> |
    
-#### Parent elements
+### Parent elements
 
 None.
   
@@ -54,14 +54,14 @@ None.
 
 |||
 |:-----|:-----|
-|Namespace  <br/> |http://schemas.microsoft.com/exchange/services/2006/messages  <br/> |
+|Namespace  <br/> |https://schemas.microsoft.com/exchange/services/2006/messages  <br/> |
 |Schema Name  <br/> |Messages  <br/> |
 |Validation File  <br/> |Messages.xsd  <br/> |
 |Can be Empty  <br/> |False  <br/> |
    
 ## See also
 
-#### Reference
+
 
 [SetPlayOnPhoneDialString operation (UM web service)](setplayonphonedialstring-operation-um-web-service.md)
 

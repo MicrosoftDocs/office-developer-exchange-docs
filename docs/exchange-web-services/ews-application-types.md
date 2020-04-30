@@ -3,13 +3,13 @@ title: "EWS application types"
  
  
 manager: sethgros
-ms.date: 9/17/2015
+ms.date: 09/17/2015
 ms.audience: Developer
  
  
-localization_priority: Normal
 ms.assetid: ca4e8b90-d0d8-4d55-aa92-19e21659d4f5
 description: "Find out about the most common types of applications that you can create by using EWS in Exchange."
+localization_priority: Priority
 ---
 
 # EWS application types
@@ -51,8 +51,8 @@ A portal application extends an existing web page or portal to include Exchange 
 
 A service application is usually a background job built into an existing application that extends to Exchange to correlate data between the system and the Exchange store. Service applications typically do not have a user interface and use impersonation or OAuth for authentication and access. Creating a service account to impersonate users is common in EWS service apps because you can grant a single account permission to impersonate a set of users and perform mailbox operations for those accounts. For example, an EWS service application can synchronize data between marketing lists in a CRM solution and Exchange distribution groups by using a service account and impersonation.
   
-## Additional resources
-<a name="bk_addresources"> </a>
+## See also
+
 
 - [Start using web services in Exchange](start-using-web-services-in-exchange.md)
     

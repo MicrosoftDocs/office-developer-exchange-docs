@@ -1,7 +1,7 @@
 ---
 title: "POX Autodiscover request for Exchange"
 manager: sethgros
-ms.date: 3/9/2015
+ms.date: 03/9/2015
 ms.audience: Developer
 ms.topic: reference
 localization_priority: Normal
@@ -17,7 +17,7 @@ description: "The Autodiscover request contains a query for a user's client acce
 
 The Autodiscover request contains a query for a user's client access configuration.
   
-## Autodiscover Request Example
+## Autodiscover request example
 
 ### Description
 
@@ -26,10 +26,10 @@ The following XML example shows an Autodiscover request body.
 ### Code
 
 ```XML
-<Autodiscover xmlns="http://schemas.microsoft.com/exchange/autodiscover/outlook/requestschema/2006">
+<Autodiscover xmlns="https://schemas.microsoft.com/exchange/autodiscover/outlook/requestschema/2006">
    <Request>
      <EMailAddress>user@contoso.com</EMailAddress>
-     <AcceptableResponseSchema>http://schemas.microsoft.com/exchange/autodiscover/outlook/responseschema/2006a</AcceptableResponseSchema>
+     <AcceptableResponseSchema>https://schemas.microsoft.com/exchange/autodiscover/outlook/responseschema/2006a</AcceptableResponseSchema>
    </Request>
  </Autodiscover>
 ```
@@ -52,7 +52,7 @@ The following HTTP headers are optional when sending Autodiscover requests.
 |Negotiate  <br/> |15.00.0995.014  <br/> |If this value is present, the server will return a value of "Negotiate" in the [AuthPackage (POX)](authpackage-pox.md) element if the server is configured to accept Negotiate authentication. If this value is not present, the server will not return a value of "Negotiate" in the **AuthPackage** element.  <br/> |
 |ExHttpInfo  <br/> |15.00.0995.014  <br/> |If this value is present, the server will return a [Protocol (POX)](protocol-pox.md) element with a [Type (POX)](type-pox.md) element set to "EXHTTP" if the server is configured to accept RPC/HTTP connections. If this value is not present, the server will not return a **Protocol** element with a **Type** element set to "EXHTTP".  <br/> |
    
-### Request Elements
+### Request elements
 
 The following elements are used in the request body:
   
@@ -75,10 +75,10 @@ The X-ClientCanHandle header is available in Office 365, Exchange Online, and on
   
 ## See also
 
-#### Reference
+
 
 [POX Autodiscover response for Exchange](pox-autodiscover-response-for-exchange.md)
-#### Concepts
+
 
 [POX Autodiscover web service reference for Exchange](pox-autodiscover-web-service-reference-for-exchange.md)
   

@@ -3,7 +3,7 @@ title: "PushSubscriptionRequest"
  
  
 manager: sethgros
-ms.date: 9/17/2015
+ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
@@ -39,13 +39,13 @@ The **PushSubscriptionRequest** element represents a subscription to a push-base
 
 The following sections describe attributes, child elements, and parent elements.
   
-#### Attributes
+### Attributes
 
 |**Attribute**|**Description**|
 |:-----|:-----|
 |**SubscribeToAllFolders** <br/> |Indicates whether to subscribe to all available folders. This attribute is optional.  <br/> |
    
-#### Child elements
+### Child elements
 
 |**Element**|**Description**|
 |:-----|:-----|
@@ -55,7 +55,7 @@ The following sections describe attributes, child elements, and parent elements.
 |[StatusFrequency](statusfrequency.md) <br/> |Represents the frequency, specified in minutes, at which notification messages will be sent to the client when no events have occurred.  <br/> |
 |[Url ](url-ex15websvcsotherref.md) <br/> |Represents the location of the client Web service for push notifications.  <br/> |
    
-#### Parent elements
+### Parent elements
 
 |**Element**|**Description**|
 |:-----|:-----|
@@ -73,14 +73,14 @@ The schema that describes this element is located in the IIS virtual directory t
 
 |||
 |:-----|:-----|
-|Namespace  <br/> |http://schemas.microsoft.com/exchange/services/2006/messages  <br/> |
+|Namespace  <br/> |https://schemas.microsoft.com/exchange/services/2006/messages  <br/> |
 |Schema name  <br/> |Messages schema  <br/> |
 |Validation file  <br/> |Messages.xsd  <br/> |
 |Can be empty  <br/> |False  <br/> |
    
 ## See also
 
-#### Reference
+
 
 [Subscribe operation](subscribe-operation.md)
   

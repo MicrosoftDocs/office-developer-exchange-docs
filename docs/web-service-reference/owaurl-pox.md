@@ -1,7 +1,7 @@
 ---
 title: "OWAUrl (POX)"
 manager: sethgros
-ms.date: 9/17/2015
+ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
 localization_priority: Normal
@@ -29,7 +29,7 @@ The **OWAUrl** element describes the URL and authentication schema that is used 
   
 [OWAUrl (POX)](owaurl-pox.md)
   
-```
+```xml
 <OWAUrl AuthenticationMethod=""/>
 ```
 
@@ -37,7 +37,7 @@ The **OWAUrl** element describes the URL and authentication schema that is used 
 
 The following sections describe attributes, child elements, and parent elements.
   
-#### Attributes
+### Attributes
 
 |**Attribute**|**Description**|
 |:-----|:-----|
@@ -53,11 +53,11 @@ The following sections describe attributes, child elements, and parent elements.
 |Digest  <br/> |Digest authentication.  <br/> |
 |Basic  <br/> |Basic authentication.  <br/> |
    
-#### Child elements
+### Child elements
 
 None.
   
-#### Parent elements
+### Parent elements
 
 |**Element**|**Description**|
 |:-----|:-----|
@@ -69,7 +69,7 @@ The text value represents the URL for the Outlook Web Access service on a Client
   
 ## See also
 
-#### Concepts
+
 
 [POX Autodiscover XML elements for Exchange](pox-autodiscover-xml-elements-for-exchange.md)
 

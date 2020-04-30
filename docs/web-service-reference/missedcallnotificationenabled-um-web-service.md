@@ -1,7 +1,7 @@
 ---
 title: "MissedCallNotificationEnabled (UM web service)"
 manager: sethgros
-ms.date: 9/17/2015
+ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
 localization_priority: Normal
@@ -23,7 +23,7 @@ The **MissedCallNotificationEnabled** element contains a value that indicates wh
   
 [MissedCallNotificationEnabled (UM web service)](missedcallnotificationenabled-um-web-service.md)
   
-```
+```xml
 <MissedCallNotificationEnabled/>
 ```
 
@@ -32,15 +32,15 @@ The **MissedCallNotificationEnabled** element contains a value that indicates wh
 
 The following sections describe attributes, child elements, and parent elements.
   
-#### Attributes
+### Attributes
 
 None.
   
-#### Child elements
+### Child elements
 
 None.
   
-#### Parent elements
+### Parent elements
 
 |**Element**|**Description**|
 |:-----|:-----|
@@ -58,14 +58,14 @@ A Boolean text value is required. The following are the possible values:
 
 |||
 |:-----|:-----|
-|Namespace  <br/> |http://schemas.microsoft.com/exchange/services/2006/messages  <br/> |
+|Namespace  <br/> |https://schemas.microsoft.com/exchange/services/2006/messages  <br/> |
 |Schema Name  <br/> |Messages  <br/> |
 |Validation File  <br/> |Messages.xsd  <br/> |
 |Can be Empty  <br/> |False  <br/> |
    
 ## See also
 
-#### Reference
+
 
 [GetUMProperties operation (UM web service)](getumproperties-operation-um-web-service.md)
   

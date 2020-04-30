@@ -1,7 +1,7 @@
 ---
 title: "dialString (UM web service)"
 manager: sethgros
-ms.date: 9/17/2015
+ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
 localization_priority: Normal
@@ -11,23 +11,18 @@ api_type:
 - schema
 ms.assetid: d1e3cd23-48fe-4ebc-a5c5-2226d223f800
 description: "The dialString element contains the value for the telephone number to dial."
- 
- 
 ---
 
 # dialString (UM web service)
 
 The **dialString** element contains the value for the telephone number to dial. 
   
-[PlayOnPhone (UM web service)](playonphone-um-web-service.md)
+- [PlayOnPhone (UM web service)](playonphone-um-web-service.md) 
+- [dialString (UM web service)](dialstring-um-web-service.md) 
+- [PlayOnPhoneGreeting (UM web service)](playonphonegreeting-um-web-service.md) 
+- [dialString (UM web service)](dialstring-um-web-service.md)
   
-[dialString (UM web service)](dialstring-um-web-service.md)
-  
-[PlayOnPhoneGreeting (UM web service)](playonphonegreeting-um-web-service.md)
-  
-[dialString (UM web service)](dialstring-um-web-service.md)
-  
-```
+```xml
 <dialString/>
 ```
 
@@ -36,15 +31,15 @@ The **dialString** element contains the value for the telephone number to dial.
 
 The following sections describe attributes, child elements, and parent elements.
   
-#### Attributes
+### Attributes
 
 None.
   
-#### Child elements
+### Child elements
 
 None.
   
-#### Parent elements
+### Parent elements
 
 |**Element**|**Description**|
 |:-----|:-----|
@@ -59,20 +54,15 @@ A text value is required. The text value must contain a valid dialing number.
 
 |||
 |:-----|:-----|
-|Namespace  <br/> |http://schemas.microsoft.com/exchange/services/2006/messages  <br/> |
+|Namespace  <br/> |https://schemas.microsoft.com/exchange/services/2006/messages  <br/> |
 |Schema Name  <br/> |Messages  <br/> |
 |Validation File  <br/> |Messages.xsd  <br/> |
 |Can be Empty  <br/> |False  <br/> |
    
 ## See also
 
-#### Reference
-
-[PlayOnPhone (UM web service)](playonphone-um-web-service.md)
-  
-[PlayOnPhone operation (UM web service)](playonphone-operation-um-web-service.md)
-  
-[PlayOnPhoneGreeting (UM web service)](playonphonegreeting-um-web-service.md)
-  
-[PlayOnPhoneGreeting operation (UM web service)](playonphonegreeting-operation-um-web-service.md)
+- [PlayOnPhone (UM web service)](playonphone-um-web-service.md)  
+- [PlayOnPhone operation (UM web service)](playonphone-operation-um-web-service.md)  
+- [PlayOnPhoneGreeting (UM web service)](playonphonegreeting-um-web-service.md)  
+- [PlayOnPhoneGreeting operation (UM web service)](playonphonegreeting-operation-um-web-service.md)
 

@@ -1,7 +1,7 @@
 ---
 title: "Server (POX)"
 manager: sethgros
-ms.date: 9/17/2015
+ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
 localization_priority: Normal
@@ -27,7 +27,7 @@ The **Server** element specifies the name of the mail server.
   
 [Server (POX)](server-pox.md)
   
-```
+```xml
 <Server/>
 ```
 
@@ -35,15 +35,15 @@ The **Server** element specifies the name of the mail server.
 
 The following sections describe attributes, child elements, and parent elements.
   
-#### Attributes
+### Attributes
 
 None.
   
-#### Child elements
+### Child elements
 
 None.
   
-#### Parent elements
+### Parent elements
 
 |**Element**|**Description**|
 |:-----|:-----|
@@ -55,7 +55,7 @@ The text value identifies the server. For protocols such as POP3, SMTP, IMAP, or
   
 ## See also
 
-#### Concepts
+
 
 [POX Autodiscover XML elements for Exchange](pox-autodiscover-xml-elements-for-exchange.md)
 

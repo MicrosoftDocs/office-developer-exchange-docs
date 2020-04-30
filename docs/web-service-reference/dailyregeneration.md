@@ -1,9 +1,7 @@
 ---
 title: "DailyRegeneration"
- 
- 
 manager: sethgros
-ms.date: 9/17/2015
+ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
@@ -20,28 +18,29 @@ description: "The DailyRegeneration element describes the frequency, in days, in
 
 The **DailyRegeneration** element describes the frequency, in days, in which a task is regenerated. 
   
-```
+```xml
 <DailyRegeneration>
    <Interval/>
 </DailyRegeneration>
 ```
 
- **DailyRegeneratingPatternType**
+**DailyRegeneratingPatternType**
+
 ## Attributes and elements
 
 The following sections describe attributes, child elements, and parent elements.
   
-#### Attributes
+### Attributes
 
 None.
   
-#### Child elements
+### Child elements
 
 |**Element**|**Description**|
 |:-----|:-----|
 |[Interval](interval.md) <br/> |Defines the interval, in days, between two consecutive recurring items. The value must be in the range of 1 to 999.  <br/> |
    
-#### Parent elements
+### Parent elements
 
 |**Element**|**Description**|
 |:-----|:-----|
@@ -55,14 +54,12 @@ The schema that describes this element is located in the EWS virtual directory o
 
 |||
 |:-----|:-----|
-|Namespace  <br/> |http://schemas.microsoft.com/exchange/services/2006/types  <br/> |
+|Namespace  <br/> |https://schemas.microsoft.com/exchange/services/2006/types  <br/> |
 |Schema name  <br/> |Types schema  <br/> |
 |Validation file  <br/> |Types.xsd  <br/> |
 |Can be empty  <br/> |False  <br/> |
    
 ## See also
 
-#### Concepts
-
-[EWS XML elements in Exchange](ews-xml-elements-in-exchange.md)
+- [EWS XML elements in Exchange](ews-xml-elements-in-exchange.md)
 

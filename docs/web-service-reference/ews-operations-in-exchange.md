@@ -1,30 +1,28 @@
 ---
 title: "EWS operations in Exchange"
- 
- 
 manager: sethgros
-ms.date: 9/17/2015
+ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
 api_name:
 - Exchange
 api_type:
 - schema
 ms.assetid: cf6fd871-9a65-4f34-8557-c8c71dd7ce09
 description: "Find information about the EWS operations that are available in Exchange."
+localization_priority: Priority
 ---
 
 # EWS operations in Exchange
 
 Find information about the EWS operations that are available in Exchange.
   
-Exchange Web Services (EWS) provides many operations that enable you to access information from the Exchange store. The articles in this section provide information about the overall structure of the requests, responses, and error response messages for EWS operations, as well as XML examples for each operation. They provide an overview of the message structures that are sent between the client and the server. You can use this information to debug message structures and to find information about what you can do in an EWS request. For more information about what the XML structure represents, see [EWS XML elements in Exchange](ews-xml-elements-in-exchange.md).
+Exchange Web Services (EWS) provides many operations that enable you to access information from the Exchange store. The articles in this section provide information about the overall structure of the requests, responses, and error response messages for EWS operations, as well as XML examples for each operation. They provide an overview of the message structures that are sent between the client and the server. You can use this information to debug message structures and to find information about what you can do in an EWS request. For more information about what the XML structure represents, see - [EWS XML elements in Exchange](ews-xml-elements-in-exchange.md).
   
 All EWS functionality is associated with a version of the schema. New EWS schema versions are introduced in new releases of Exchange Server or Exchange Online. The [RequestServerVersion](requestserverversion.md) element contains a **Version** attribute that maps the server version to the schema version. This article provides information about when each operation was introduced. Specific functionality within an operation might require a later version of the service. The versioned schemas are implemented so that clients that are designed against an older version of EWS will work with a newer version of EWS. 
   
-These operations can target the EWS endpoint that services your mailbox. You can browse to the EWS endpoint by using a URL that is similar in structure to http://<clientaccessserver>.com/ews/exchange.asmx, where <clientaccessserver> is the Exchange Client Access server that services your mailbox. You can use Autodiscover to get the URL to the Client Access server that services your mailbox. For more information about Autodiscover, see [Autodiscover for Exchange](http://msdn.microsoft.com/library/da0f9402-4e35-42c7-a15e-1e9e4e966e8b%28Office.15%29.aspx).
+These operations can target the EWS endpoint that services your mailbox. You can browse to the EWS endpoint by using a URL that is similar in structure to http://<clientaccessserver>.com/ews/exchange.asmx, where <clientaccessserver> is the Exchange Client Access server that services your mailbox. You can use Autodiscover to get the URL to the Client Access server that services your mailbox. For more information about Autodiscover, see [Autodiscover for Exchange](../exchange-web-services/autodiscover-for-exchange.md).
   
 ## eDiscovery operations
 <a name="bk_eDiscovery"> </a>
@@ -69,7 +67,7 @@ The following table lists the Exchange mailbox data folder operations.
 |:-----|:-----|
 |[CreateFolder operation](createfolder-operation.md) <br/> |Exchange 2007  <br/> |
 |[CreateFolderPath operation](createfolderpath-operation.md) <br/> |Exchange 2013  <br/> |
-|[CreateManagedFolder operation](createmanagedfolder-operation.md) <br/> |Exchange 2007. This functionality has been deemphasized in versions of Exchange starting with Exchange 2010. For more information about how to migrate to using retention tags and policies for messaging records management, see [Migrate from Managed Folders](http://technet.microsoft.com/en-us/library/dd298032%28v=exchg.141%29.aspx).  <br/> |
+|[CreateManagedFolder operation](createmanagedfolder-operation.md) <br/> |Exchange 2007. This functionality has been deemphasized in versions of Exchange starting with Exchange 2010. For more information about how to migrate to using retention tags and policies for messaging records management, see [Migrate from Managed Folders](https://technet.microsoft.com/library/dd298032%28v=exchg.141%29.aspx).  <br/> |
 |[CopyFolder operation](copyfolder-operation.md) <br/> |Exchange 2007  <br/> |
 |[DeleteFolder operation](deletefolder-operation.md) <br/> |Exchange 2007  <br/> |
 |[EmptyFolder operation](emptyfolder-operation.md) <br/> |Exchange 2010  <br/> |
@@ -336,13 +334,10 @@ The following table lists the user configuration operations.
 |[GetUserConfiguration operation](getuserconfiguration-operation.md) <br/> |Exchange 2010  <br/> |
 |[UpdateUserConfiguration operation](updateuserconfiguration-operation.md) <br/> |Exchange 2010  <br/> |
    
-## Additional resources
-<a name="bk_addresources"> </a>
+## See also
 
-- [Explore the EWS Managed API, EWS, and web services in Exchange](http://msdn.microsoft.com/library/53553207-ff98-4fdb-8716-4ae02fee83bf%28Office.15%29.aspx)
-    
-- [Start using web services in Exchange](http://msdn.microsoft.com/library/e1b07a92-0595-4bf1-bd6b-c07e66a8c923%28Office.15%29.aspx)
-    
-- [Autodiscover for Exchange](http://msdn.microsoft.com/library/da0f9402-4e35-42c7-a15e-1e9e4e966e8b%28Office.15%29.aspx)
+- [Explore the EWS Managed API, EWS, and web services in Exchange](../exchange-web-services/explore-the-ews-managed-api-ews-and-web-services-in-exchange.md)
+- [Start using web services in Exchange](../exchange-web-services/start-using-web-services-in-exchange.md)
+- [Autodiscover for Exchange](../exchange-web-services/autodiscover-for-exchange.md)
     
 

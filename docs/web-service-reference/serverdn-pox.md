@@ -1,7 +1,7 @@
 ---
 title: "ServerDN (POX)"
 manager: sethgros
-ms.date: 9/17/2015
+ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
 localization_priority: Normal
@@ -27,7 +27,7 @@ The **ServerDN** element specifies the distinguished name of the computer that i
   
 [ServerDN (POX)](serverdn-pox.md)
   
-```
+```xml
 <ServerDN/>
 ```
 
@@ -35,15 +35,15 @@ The **ServerDN** element specifies the distinguished name of the computer that i
 
 The following sections describe attributes, child elements, and parent elements.
   
-#### Attributes
+### Attributes
 
 None.
   
-#### Child elements
+### Child elements
 
 None.
   
-#### Parent elements
+### Parent elements
 
 |**Element**|**Description**|
 |:-----|:-----|
@@ -59,7 +59,7 @@ The **ServerDN** value is only used when [Type (POX)](type-pox.md) is equal to E
   
 ## See also
 
-#### Concepts
+
 
 [POX Autodiscover XML elements for Exchange](pox-autodiscover-xml-elements-for-exchange.md)
 

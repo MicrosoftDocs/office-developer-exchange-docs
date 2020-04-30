@@ -1,9 +1,7 @@
 ---
 title: "StandardTime"
- 
- 
 manager: sethgros
-ms.date: 9/17/2015
+ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
@@ -20,11 +18,10 @@ description: "The StandardTime element represents an offset from the time relati
 
 The **StandardTime** element represents an offset from the time relative to Coordinated Universal Time (UTC) that is represented by the [Bias (UTC)](bias-utc.md) element. This element also contains information about the transition to standard time from daylight saving time in regions where daylight saving time is observed. 
   
-[TimeZone (Availability)](timezone-availability.md)
+- [TimeZone (Availability)](timezone-availability.md)
+- [StandardTime](standardtime.md)
   
-[StandardTime](standardtime.md)
-  
-```
+```xml
 <StandardTime>
    <Bias>int</Bias>
    <Time>string</Time>
@@ -40,11 +37,11 @@ The **StandardTime** element represents an offset from the time relative to Coor
 
 The following sections describe attributes, child elements, and parent elements.
   
-#### Attributes
+### Attributes
 
 None.
   
-#### Child elements
+### Child elements
 
 |**Element**|**Description**|
 |:-----|:-----|
@@ -55,11 +52,11 @@ None.
 |[DayOfWeek (TimeZone)](dayofweek-timezone.md) <br/> |Represents the day of the week when the transition to and from standard time and daylight saving time occurs.  <br/> |
 |[Year](year.md) <br/> |Defines a time zone that changes depending on the year. This element is optional. This element was introduced in Microsoft Exchange Server 2007 Service Pack 1 (SP1).  <br/> |
    
-#### Parent elements
+### Parent elements
 
 |**Element**|**Description**|
 |:-----|:-----|
-|[TimeZone (Availability)](timezone-availability.md) <br/> | Contains elements that identify time zone information. This element also contains information about the transition between standard time and daylight saving time. The following are the XPath expressions to this element:  <br/>  `/GetUserAvailabilityResponse/FreeBusyResponseArray/FreeBusyResponse/FreeBusyView/WorkingHours/TimeZone` <br/>  `/GetUserAvailabilityRequest/TimeZone` <br/> |
+|[TimeZone (Availability)](timezone-availability.md) <br/> | Contains elements that identify time zone information. This element also contains information about the transition between standard time and daylight saving time. <br/><br/>The following are the XPath expressions to this element: <br/> <br/>  `/GetUserAvailabilityResponse/FreeBusyResponseArray/FreeBusyResponse/FreeBusyView/WorkingHours/TimeZone` <br/> <br/> `/GetUserAvailabilityRequest/TimeZone` <br/> |
    
 ## Remarks
 
@@ -69,8 +66,8 @@ The **StandardTime** element represents an offset time that is represented by th
 
 The following example shows a region where daylight saving time is observed. The transition from daylight saving time to standard time is observed at 2 A.M. on the fifth Sunday of the tenth month.
   
-```
-<TimeZone xmlns="http://schemas.microsoft.com/exchange/services/2006/types">
+```xml
+<TimeZone xmlns="https://schemas.microsoft.com/exchange/services/2006/types">
   <Bias>480</Bias>
   <StandardTime>
     <Bias>0</Bias>
@@ -93,17 +90,13 @@ The following example shows a region where daylight saving time is observed. The
 
 |||
 |:-----|:-----|
-|Namespace  <br/> |http://schemas.microsoft.com/exchange/services/2006/types  <br/> |
+|Namespace  <br/> |https://schemas.microsoft.com/exchange/services/2006/types  <br/> |
 |Schema Name  <br/> |Types schema  <br/> |
 |Validation File  <br/> |Types.xsd  <br/> |
 |Can be Empty  <br/> |False  <br/> |
    
 ## See also
 
-#### Reference
-
-[GetUserAvailability operation](getuseravailability-operation.md)
-#### Other resources
-
-[Getting User Availability](http://msdn.microsoft.com/library/d4133fcb-9b0f-4e6b-aadf-a389da83516a%28Office.15%29.aspx)
+- [GetUserAvailability operation](getuseravailability-operation.md)
+- [Getting User Availability](https://msdn.microsoft.com/library/d4133fcb-9b0f-4e6b-aadf-a389da83516a%28Office.15%29.aspx)
 

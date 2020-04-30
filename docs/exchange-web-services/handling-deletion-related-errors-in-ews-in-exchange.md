@@ -3,7 +3,7 @@ title: "Handling deletion-related errors in EWS in Exchange"
  
  
 manager: sethgros
-ms.date: 9/17/2015
+ms.date: 09/17/2015
 ms.audience: Developer
  
  
@@ -31,13 +31,13 @@ If your application [deletes items and folders](deleting-items-by-using-ews-in-e
 |ErrorItemNotFound  <br/> |Access a permanently deleted item.  <br/> |Removing references to an item when it is deleted from the store. If an item is recovered, make sure that you reinstate required references to the client.  <br/> |
 |ErrorSendMeetingCancellationsRequired  <br/> |Delete a calendar item without specifying whether meeting cancellations should be sent.  <br/> |Specifying that meeting cancellations should or should not be sent.  <br/> |
    
-## Additional resources
-<a name="bk_addresources"> </a>
+## See also
+
 
 - [Deleting items by using EWS in Exchange](deleting-items-by-using-ews-in-exchange.md)
     
 - [Pull notifications for EWS deletion-related mailbox events in Exchange](pull-notifications-for-ews-deletion-related-mailbox-events-in-exchange.md)
     
-- [How to: Delete appointments and cancel meetings by using EWS in Exchange](how-to-delete-appointments-and-cancel-meetings-by-using-ews-in-exchange.md)
+- [Delete appointments and cancel meetings by using EWS in Exchange](how-to-delete-appointments-and-cancel-meetings-by-using-ews-in-exchange.md)
     
 

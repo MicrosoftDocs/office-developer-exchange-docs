@@ -1,7 +1,7 @@
 ---
 title: "POX Autodiscover response for Exchange"
 manager: sethgros
-ms.date: 9/17/2015
+ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
 localization_priority: Normal
@@ -17,7 +17,7 @@ description: "The Autodiscover response contains a response to an Autodiscover r
 
 The Autodiscover response contains a response to an Autodiscover request that includes a list of URLs that are used to establish a binding with Exchange Web Services (EWS).
   
-## Autodiscover Response Example
+## Autodiscover response example
 
 ### Description
 
@@ -26,8 +26,8 @@ The following example shows a successful Autodiscover response.
 ### Code
 
 ```XML
-<Autodiscover xmlns="http://schemas.microsoft.com/exchange/autodiscover/responseschema/2006">
-  <Response xmlns="http://schemas.microsoft.com/exchange/autodiscover/outlook/responseschema/2006a">
+<Autodiscover xmlns="https://schemas.microsoft.com/exchange/autodiscover/responseschema/2006">
+  <Response xmlns="https://schemas.microsoft.com/exchange/autodiscover/outlook/responseschema/2006a">
     <User>
       <DisplayName>First Last</DisplayName>
       <LegacyDN>/o=contoso/ou=First Administrative Group/cn=Recipients/cn=iuser885646</LegacyDN>
@@ -119,7 +119,7 @@ The following elements are used in the response body:
     
 - [OWAUrl (POX)](owaurl-pox.md)
     
-## Autodiscover Error Response Example
+## Autodiscover Error response example
 
 ### Description
 
@@ -129,8 +129,8 @@ The following example shows an Autodiscover error response.
 
 ```XML
 <?xml version="1.0" encoding="utf-8"?>
-<Autodiscover xmlns="http://schemas.microsoft.com/exchange/autodiscover/responseschema/2006">
-  <Response xmlns="http://schemas.microsoft.com/exchange/autodiscover/responseschema/2006">
+<Autodiscover xmlns="https://schemas.microsoft.com/exchange/autodiscover/responseschema/2006">
+  <Response xmlns="https://schemas.microsoft.com/exchange/autodiscover/responseschema/2006">
     <Error Time="21:25:04.8897083" Id="4130155072">
       <ErrorCode>600</ErrorCode>
       <Message>Invalid Request</Message>
@@ -140,7 +140,7 @@ The following example shows an Autodiscover error response.
 </Autodiscover>
 ```
 
-### Error Response Element
+### Error response element
 
 The following elements are used in the response body:
   
@@ -158,12 +158,7 @@ The following elements are used in the response body:
     
 ## See also
 
-#### Reference
-
-[POX Autodiscover request for Exchange](pox-autodiscover-request-for-exchange.md)
-#### Concepts
-
-[POX Autodiscover web service reference for Exchange](pox-autodiscover-web-service-reference-for-exchange.md)
-  
-[POX Autodiscover XML elements for Exchange](pox-autodiscover-xml-elements-for-exchange.md)
+- [POX Autodiscover request for Exchange](pox-autodiscover-request-for-exchange.md)
+- [POX Autodiscover web service reference for Exchange](pox-autodiscover-web-service-reference-for-exchange.md) 
+- [POX Autodiscover XML elements for Exchange](pox-autodiscover-xml-elements-for-exchange.md)
 

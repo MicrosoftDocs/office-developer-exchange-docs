@@ -1,9 +1,7 @@
 ---
 title: "CopiedEvent"
- 
- 
 manager: sethgros
-ms.date: 9/17/2015
+ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
@@ -20,7 +18,7 @@ description: "The CopiedEvent element represents an event in which an item or fo
 
 The **CopiedEvent** element represents an event in which an item or folder is copied. 
   
-```
+```xml
 <CopiedEvent>
    <Watermark/>
    <TimeStamp/>
@@ -31,16 +29,28 @@ The **CopiedEvent** element represents an event in which an item or folder is co
 </CopiedEvent>
 ```
 
- **MovedCopiedEventType**
+```xml
+<CopiedEvent>
+   <Watermark/>
+   <TimeStamp/>
+   <ItemId/>
+   <ParentFolderId/>
+   <OldFolderId/>
+   <OldParentFolderId/>
+</CopiedEvent>
+```
+
+**MovedCopiedEventType**
+
 ## Attributes and elements
 
 The following sections describe attributes, child elements, and parent elements.
   
-#### Attributes
+### Attributes
 
 None.
   
-#### Child elements
+### Child elements
 
 |**Element**|**Description**|
 |:-----|:-----|
@@ -53,7 +63,7 @@ None.
 |[OldItemId](olditemid.md) <br/> |Contains the unique identifier of the original item before it was copied.  <br/> |
 |[OldParentFolderId](oldparentfolderid.md) <br/> |Contains the identifier of the original parent folder of an item or folder that was copied.  <br/> |
    
-#### Parent elements
+### Parent elements
 
 |**Element**|**Description**|
 |:-----|:-----|
@@ -67,23 +77,16 @@ The schema that describes this element is located in the EWS virtual directory o
 
 |||
 |:-----|:-----|
-|Namespace  <br/> |http://schemas.microsoft.com/exchange/services/2006/types  <br/> |
+|Namespace  <br/> |https://schemas.microsoft.com/exchange/services/2006/types  <br/> |
 |Schema name  <br/> |Types schema  <br/> |
 |Validation file  <br/> |Types.xsd  <br/> |
 |Can be empty  <br/> |False  <br/> |
    
 ## See also
 
-#### Reference
-
-[Subscribe operation](subscribe-operation.md)
-  
-[GetEvents operation](getevents-operation.md)
-  
-[Unsubscribe operation](unsubscribe-operation.md)
-#### Other resources
-
-[Using Pull Subscriptions](http://msdn.microsoft.com/library/f956bc0e-2b25-4613-966b-54c65456897c%28Office.15%29.aspx)
-  
-[Push Notification Sample Application](http://msdn.microsoft.com/library/db1f8523-fa44-483f-bdb6-ab5939b52eee%28Office.15%29.aspx)
+- [Subscribe operation](subscribe-operation.md) 
+- [GetEvents operation](getevents-operation.md) 
+- [Unsubscribe operation](unsubscribe-operation.md)
+- [Using Pull Subscriptions](https://msdn.microsoft.com/library/f956bc0e-2b25-4613-966b-54c65456897c%28Office.15%29.aspx) 
+- [Push Notification Sample Application](https://msdn.microsoft.com/library/db1f8523-fa44-483f-bdb6-ab5939b52eee%28Office.15%29.aspx)
 

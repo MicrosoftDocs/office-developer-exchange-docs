@@ -1,9 +1,7 @@
 ---
 title: "AlternateId"
- 
- 
 manager: sethgros
-ms.date: 9/17/2015
+ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
@@ -29,7 +27,7 @@ The **AlternateId** element describes an identifier to convert in a request and 
 
 The following sections describe attributes, child elements, and parent elements.
   
-#### Attributes
+### Attributes
 
 |**Attribute**|**Description**|
 |:-----|:-----|
@@ -38,7 +36,7 @@ The following sections describe attributes, child elements, and parent elements.
 |Mailbox  <br/> |Describes the mailbox primary Simple Mail Transfer Protocol (SMTP) address that contains the identifiers to translate.  <br/> |
 |IsArchive  <br/> |Indicates whether the identifier represents an archived item or folder. A value of **true** indicates that the identifier represents an archived item or folder. This attribute is optional.  <br/> |
    
-#### Format Attribute Values
+#### Format attribute values
 
 |**Value**|**Description**|
 |:-----|:-----|
@@ -49,11 +47,11 @@ The following sections describe attributes, child elements, and parent elements.
 |StoreId  <br/> |Describes Exchange store identifiers.  <br/> |
 |OwaId  <br/> |Describes an Outlook Web App identifier.  <br/> |
    
-#### Child elements
+### Child elements
 
 None.
   
-#### Parent elements
+### Parent elements
 
 |**Element**|**Description**|
 |:-----|:-----|
@@ -74,20 +72,14 @@ The schema that describes this element is located in the IIS virtual directory t
 
 ||||
 |:-----|:-----|:-----|
-|Namespace  <br/> |http://schemas.microsoft.com/exchange/services/2006/messages  <br/> |http://schemas.microsoft.com/exchange/services/2006/types  <br/> |
+|Namespace  <br/> |https://schemas.microsoft.com/exchange/services/2006/messages  <br/> |https://schemas.microsoft.com/exchange/services/2006/types  <br/> |
 |Schema Name  <br/> |Messages schema  <br/> |Types schema  <br/> |
 |Validation File  <br/> |Messages.xsd  <br/> |Types.xsd  <br/> |
 |Can be Empty  <br/> |False  <br/> |False  <br/> |
    
 ## See also
 
-#### Reference
-
-[ConvertId operation](convertid-operation.md)
-#### Concepts
-
-[EWS XML elements in Exchange](ews-xml-elements-in-exchange.md)
-#### Other resources
-
-[Converting Identifiers](http://msdn.microsoft.com/library/a5391746-b6ef-4f48-8fc8-8255258651aa%28Office.15%29.aspx)
+- [ConvertId operation](convertid-operation.md)
+- [EWS XML elements in Exchange](ews-xml-elements-in-exchange.md)
+- [Converting Identifiers](https://msdn.microsoft.com/library/a5391746-b6ef-4f48-8fc8-8255258651aa%28Office.15%29.aspx)
 

@@ -3,7 +3,7 @@ title: "UpdateInboxRules"
  
  
 manager: sethgros
-ms.date: 9/17/2015
+ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
@@ -33,11 +33,11 @@ The **UpdateInboxRules** element defines a request to update the Inbox rules in 
 
 The following sections describe attributes, child elements, and parent elements.
   
-#### Attributes
+### Attributes
 
 None.
   
-#### Child elements
+### Child elements
 
 |**Element**|**Description**|
 |:-----|:-----|
@@ -45,7 +45,7 @@ None.
 |[RemoveOutlookRuleBlob](removeoutlookruleblob.md) <br/> |Indicates whether to remove the Microsoft Outlook rule blob.  <br/> |
 |[Operations](operations.md) <br/> |Contains an array of rule operations that can be performed on an Inbox.  <br/> |
    
-#### Parent elements
+### Parent elements
 
 None.
   
@@ -61,17 +61,17 @@ The schema that describes this element is located in the IIS virtual directory t
 
 |||
 |:-----|:-----|
-|Namespace  <br/> |http://schemas.microsoft.com/exchange/services/2006/messages  <br/> |
+|Namespace  <br/> |https://schemas.microsoft.com/exchange/services/2006/messages  <br/> |
 |Schema Name  <br/> |Messages schema  <br/> |
 |Validation File  <br/> |Messages.xsd  <br/> |
 |Can be Empty  <br/> |True  <br/> |
    
 ## See also
 
-#### Reference
+
 
 [UpdateInboxRules operation](updateinboxrules-operation.md)
-#### Concepts
 
-[EWS XML elements in Exchange](ews-xml-elements-in-exchange.md)
+
+- [EWS XML elements in Exchange](ews-xml-elements-in-exchange.md)
 

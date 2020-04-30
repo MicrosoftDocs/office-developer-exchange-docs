@@ -1,7 +1,7 @@
 ---
 title: "GetCallInfoResponse (UM web service)"
 manager: sethgros
-ms.date: 9/17/2015
+ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
 localization_priority: Normal
@@ -21,7 +21,7 @@ The **GetCallInfoResponse** element defines a response to a [GetCallInfo operati
   
 [GetCallInfoResponse (UM web service)](getcallinforesponse-um-web-service.md)
   
-```
+```xml
 <GetCallInfoResponse>
   <CallState/>
   <EventCause/>
@@ -33,18 +33,18 @@ The **GetCallInfoResponse** element defines a response to a [GetCallInfo operati
 
 The following sections describe attributes, child elements, and parent elements.
   
-#### Attributes
+### Attributes
 
 None.
   
-#### Child elements
+### Child elements
 
 |**Element**|**Description**|
 |:-----|:-----|
 |CallState  <br/> |Contains a value that indicates the status of a call for which the [GetCallInfo operation (UM web service)](getcallinfo-operation-um-web-service.md) requested information.  <br/> |
 |EventCause  <br/> |Contains a value that indicates the cause of an event for a call for which the [GetCallInfo operation (UM web service)](getcallinfo-operation-um-web-service.md) requested information.  <br/> |
    
-#### Parent elements
+### Parent elements
 
 None.
   
@@ -56,14 +56,14 @@ None.
 
 |||
 |:-----|:-----|
-|Namespace  <br/> |http://schemas.microsoft.com/exchange/services/2006/messages  <br/> |
+|Namespace  <br/> |https://schemas.microsoft.com/exchange/services/2006/messages  <br/> |
 |Schema Name  <br/> |Messages  <br/> |
 |Validation File  <br/> |Messages.xsd  <br/> |
 |Can be Empty  <br/> |False  <br/> |
    
 ## See also
 
-#### Reference
+
 
 [GetCallInfo operation (UM web service)](getcallinfo-operation-um-web-service.md)
   

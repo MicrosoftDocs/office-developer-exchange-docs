@@ -1,7 +1,5 @@
 ---
 title: "CChkSGFiles.ErrTerm function"
- 
- 
 manager: sethgros
 ms.date: 11/16/2014
 ms.audience: Developer
@@ -17,10 +15,8 @@ description: "Last modified: February 25, 2013"
 ---
 
 # CChkSGFiles.ErrTerm function
-
- **Last modified:** February 25, 2013 
   
- * **Applies to:** Exchange Server 2003 | Exchange Server 2007 | Exchange Server 2010 | Exchange Server 2013 * 
+**Applies to:** Exchange Server 2003 | Exchange Server 2007 | Exchange Server 2010 | Exchange Server 2013
   
 Provides an overall status of the database and log verification, which indicates whether all the database pages and logs were successfully verified.
   
@@ -37,9 +33,9 @@ Vitual ERRErrTerm
 
 ## Parameters
 
- *ulFlags* 
+### ulFlags
   
-> Optional input parameter. This value is reserved for future use. The value passed by this parameter should be 0 (zero).
+Optional input parameter. This value is reserved for future use. The value passed by this parameter should be 0 (zero).
     
 ## Return value
 

@@ -3,7 +3,7 @@ title: "CreateFolder"
  
  
 manager: sethgros
-ms.date: 9/17/2015
+ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
@@ -20,7 +20,7 @@ description: "The CreateFolder element defines a request to create a folder in t
 
 The **CreateFolder** element defines a request to create a folder in the Exchange store. 
   
-```
+```xml
 <CreateFolder>
    <ParentFolderId/>
    <Folders/>
@@ -32,18 +32,18 @@ The **CreateFolder** element defines a request to create a folder in the Exchang
 
 The following sections describe attributes, child elements, and parent elements.
   
-#### Attributes
+### Attributes
 
 None.
   
-#### Child elements
+### Child elements
 
 |**Element**|**Description**|
 |:-----|:-----|
 |[ParentFolderId (TargetFolderIdType)](parentfolderid-targetfolderidtype.md) <br/> |The element that identifies the location where the new folder is created.  <br/> |
 |[Folders](folders-ex15websvcsotherref.md) <br/> |The element that contains all the folders to create.  <br/> |
    
-#### Parent elements
+### Parent elements
 
 None.
   
@@ -55,17 +55,17 @@ The schema that describes this element is located in the EWS virtual directory o
 
 |||
 |:-----|:-----|
-|Namespace  <br/> |http://schemas.microsoft.com/exchange/services/2006/messages  <br/> |
+|Namespace  <br/> |https://schemas.microsoft.com/exchange/services/2006/messages  <br/> |
 |Schema Name  <br/> |Message schema  <br/> |
 |Validation File  <br/> |Messages.xsd  <br/> |
 |Can be Empty  <br/> |False  <br/> |
    
 ## See also
 
-#### Reference
+
 
 [CreateFolder operation](createfolder-operation.md)
-#### Other resources
 
-[Creating Folders (Exchange Web Services)](http://msdn.microsoft.com/library/3b15b0ec-8691-45ed-9a24-a91ff732d6cf%28Office.15%29.aspx)
+
+[Creating Folders (Exchange Web Services)](https://msdn.microsoft.com/library/3b15b0ec-8691-45ed-9a24-a91ff732d6cf%28Office.15%29.aspx)
 

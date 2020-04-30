@@ -1,9 +1,7 @@
 ---
 title: "New and updated Exchange Management Shell cmdlets"
- 
- 
 manager: sethgros
-ms.date: 9/17/2015
+ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: overview
 ms.prod: office-online-server
@@ -16,9 +14,7 @@ description: "Find information about what's new in the Exchange Management Shell
 
 Find information about what's new in the Exchange Management Shell in Exchange.
   
- **Last modified:** September 17, 2015 
-  
- * **Applies to:** Exchange Online | Exchange Server 2013 | Office 365 * 
+**Applies to:** Exchange Online | Exchange Server 2013 | Office 365
   
 This article provides information about new Exchange Management shell cmdlets, cmdlets that were modified in, and cmdlets that were removed from Exchange Online, Exchange Online as part of Office 365, or an on-premises version of Exchange.
   
@@ -729,13 +725,10 @@ The following cmdlets were removed from Exchange 2013:
     
 - **Set-UMServer**
     
-## Additional resources
-<a name="bk_addresources"> </a>
+## See also
 
-- [Exchange Management Shell cmdlet input and output types](exchange-management-shell-cmdlet-input-and-output-types.md)
-    
-- [How to: Get a list of mail users by using the Exchange Management Shell](how-to-get-a-list-of-mail-users-by-using-the-exchange-management-shell.md)
-    
-- [Exchange 2013 cmdlets](http://technet.microsoft.com/en-us/library/bb124413%28v=exchg.150%29.aspx)
+- [Exchange Management Shell cmdlet input and output types](exchange-management-shell-cmdlet-input-and-output-types.md)    
+- [Get a list of mail users by using the Exchange Management Shell](how-to-get-a-list-of-mail-users-by-using-the-exchange-management-shell.md)    
+- [Exchange 2013 cmdlets](https://technet.microsoft.com/library/bb124413%28v=exchg.150%29.aspx)
     
 

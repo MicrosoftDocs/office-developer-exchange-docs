@@ -1,9 +1,7 @@
 ---
 title: "DestinationFolderId"
- 
- 
 manager: sethgros
-ms.date: 9/17/2015
+ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
@@ -20,13 +18,10 @@ description: "The DestinationFolderId element indicates the destination folder f
 
 The **DestinationFolderId** element indicates the destination folder for copy and move actions. 
   
-[ApplyConversationAction](applyconversationaction.md)
-  
-[ConversationActions](conversationactions.md)
-  
-[ConversationAction](conversationaction.md)
-  
-[DestinationFolderId](destinationfolderid.md)
+- [ApplyConversationAction](applyconversationaction.md)  
+- [ConversationActions](conversationactions.md) 
+- [ConversationAction](conversationaction.md)  
+- [DestinationFolderId](destinationfolderid.md)
   
 ```XML
 <DestinationFolderId>
@@ -34,23 +29,30 @@ The **DestinationFolderId** element indicates the destination folder for copy an
 </DestinationFolderId>
 ```
 
- **TargetFolderIdType**
+```XML
+<DestinationFolderId>
+   <DistinguishedFolderId/>
+</DestinationFolderId>
+```
+
+**TargetFolderIdType**
+
 ## Attributes and elements
 
 The following sections describe attributes, child elements, and parent elements.
   
-#### Attributes
+### Attributes
 
 None.
   
-#### Child elements
+### Child elements
 
 |**Element**|**Description**|
 |:-----|:-----|
 |[FolderId](folderid.md) <br/> |Contains the identifier and change key of the destination folder.  <br/> |
 |[DistinguishedFolderId](distinguishedfolderid.md) <br/> |Identifies folders that can be referenced by name.  <br/> |
    
-#### Parent elements
+### Parent elements
 
 |**Element**|**Description**|
 |:-----|:-----|
@@ -68,14 +70,12 @@ The schema that describes this element is located in the IIS virtual directory t
 
 |||
 |:-----|:-----|
-|Namespace  <br/> |http://schemas.microsoft.com/exchange/services/2006/types  <br/> |
+|Namespace  <br/> |https://schemas.microsoft.com/exchange/services/2006/types  <br/> |
 |Schema Name  <br/> |Types schema  <br/> |
 |Validation File  <br/> |Types.xsd  <br/> |
 |Can be Empty  <br/> |False  <br/> |
    
 ## See also
 
-#### Reference
-
-[ApplyConversationAction operation](applyconversationaction-operation.md)
+- [ApplyConversationAction operation](applyconversationaction-operation.md)
 

@@ -1,9 +1,7 @@
 ---
 title: "AppendToItemField"
- 
- 
 manager: sethgros
-ms.date: 9/17/2015
+ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
@@ -20,17 +18,17 @@ description: "The AppendToItemField element identifies data to append to a singl
 
 The **AppendToItemField** element identifies data to append to a single property of an item during an [UpdateItem operation](updateitem-operation.md).
   
-[UpdateItem](updateitem.md)
+- [UpdateItem](updateitem.md)
   
-[ItemChanges](itemchanges.md)
+- [ItemChanges](itemchanges.md)
   
-[ItemChange](itemchange.md)
+- [ItemChange](itemchange.md)
   
-[Updates (Item)](updates-item.md)
+- [Updates (Item)](updates-item.md)
   
-[AppendToItemField](appendtoitemfield.md)
+- [AppendToItemField](appendtoitemfield.md)
   
-```
+```xml
 <AppendToItemField>
    <FieldURI/>
    <Item/>
@@ -42,11 +40,11 @@ The **AppendToItemField** element identifies data to append to a single property
 
 The following sections describe attributes, child elements, and parent elements.
   
-#### Attributes
+### Attributes
 
 None.
   
-#### Child elements
+### Child elements
 
 |**Element**|**Description**|
 |:-----|:-----|
@@ -64,7 +62,7 @@ None.
 |[MeetingCancellation](meetingcancellation.md) <br/> |Represents a meeting cancellation in the Exchange store.  <br/> |
 |[Task](task.md) <br/> |Represents a task in the Exchange store.  <br/> |
    
-#### Parent elements
+### Parent elements
 
 |**Element**|**Description**|
 |:-----|:-----|
@@ -85,17 +83,13 @@ The schema that describes this element is located in the EWS virtual directory o
 
 |||
 |:-----|:-----|
-|Namespace  <br/> |http://schemas.microsoft.com/exchange/services/2006/types  <br/> |
+|Namespace  <br/> |https://schemas.microsoft.com/exchange/services/2006/types  <br/> |
 |Schema Name  <br/> |Types schema  <br/> |
 |Validation File  <br/> |Types.xsd  <br/> |
 |Can be Empty  <br/> |False  <br/> |
    
 ## See also
 
-#### Reference
-
-[UpdateItem operation](updateitem-operation.md)
-#### Concepts
-
-[EWS XML elements in Exchange](ews-xml-elements-in-exchange.md)
+- [UpdateItem operation](updateitem-operation.md)
+- [EWS XML elements in Exchange](ews-xml-elements-in-exchange.md)
 

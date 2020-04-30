@@ -1,9 +1,7 @@
 ---
 title: "ItemChange"
- 
- 
 manager: sethgros
-ms.date: 9/17/2015
+ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
@@ -20,29 +18,42 @@ description: "The ItemChange element contains an item identifier and the updates
 
 The **ItemChange** element contains an item identifier and the updates to apply to the item. 
   
-[UpdateItem](updateitem.md)
+- [UpdateItem](updateitem.md) 
+- [ItemChanges](itemchanges.md)
+- [ItemChange](itemchange.md)
   
-[ItemChanges](itemchanges.md)
-  
-[ItemChange](itemchange.md)
-  
-```
+```xml
 <ItemChange>
    <ItemId/>
    <Updates>...</Updates>
 </ItemChange>
 ```
 
- **ItemChangeType**
+```xml
+<ItemChange>
+   <OccurrenceItemId>...</OccurrenceItemId>
+   <Updates>...</Updates>
+</ItemChange>
+```
+
+```xml
+<ItemChange>
+   <RecurringMasterItemId>...</RecurringMasterItemId>
+   <Updates>...</Updates>
+</ItemChange>
+```
+
+**ItemChangeType**
+
 ## Attributes and elements
 
 The following sections describe attributes, child elements, and parent elements.
   
-#### Attributes
+### Attributes
 
 None.
   
-#### Child elements
+### Child elements
 
 |**Element**|**Description**|
 |:-----|:-----|
@@ -51,7 +62,7 @@ None.
 |[RecurringMasterItemId](recurringmasteritemid.md) <br/> |Identifies a recurrence master item by identifying one of its related occurrence items' identifiers. This element is required if used. This element is required if the [OccurrenceItemId](occurrenceitemid.md) or [ItemId](itemid.md) element is not used.  <br/> |
 |[Updates (Item)](updates-item.md) <br/> |Contains an array that defines append, set, and delete changes to item properties. This element is required.  <br/> |
    
-#### Parent elements
+### Parent elements
 
 |**Element**|**Description**|
 |:-----|:-----|
@@ -67,14 +78,12 @@ The schema that describes this element is located in the EWS virtual directory o
 
 |||
 |:-----|:-----|
-|Namespace  <br/> |http://schemas.microsoft.com/exchange/services/2006/types  <br/> |
+|Namespace  <br/> |https://schemas.microsoft.com/exchange/services/2006/types  <br/> |
 |Schema Name  <br/> |Types schema  <br/> |
 |Validation File  <br/> |Types.xsd  <br/> |
 |Can be Empty  <br/> |False  <br/> |
    
 ## See also
 
-#### Reference
-
-[UpdateItem operation](updateitem-operation.md)
+- [UpdateItem operation](updateitem-operation.md)
 

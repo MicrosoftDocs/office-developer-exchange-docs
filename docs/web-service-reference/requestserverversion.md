@@ -3,7 +3,7 @@ title: "RequestServerVersion"
  
  
 manager: sethgros
-ms.date: 9/17/2015
+ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
@@ -29,13 +29,13 @@ The **RequestServerVersion** element contains the versioning information that id
 
 The following sections describe attributes, child elements, and parent elements.
   
-#### Attributes
+### Attributes
 
 |**Attribute**|**Description**|
 |:-----|:-----|
 |Version  <br/> |Describes the version to target for the request. This attribute is required when the target server version is a version of Exchange starting with Exchange Server 2010.  <br/> |
    
-#### Version Attribute Values
+#### Version attribute values
 
 |**Value**|**Description**|
 |:-----|:-----|
@@ -47,11 +47,11 @@ The following sections describe attributes, child elements, and parent elements.
 |Exchange2013  <br/> |Target the schema files for Exchange 2013.  <br/> |
 |Exchange2013_SP1  <br/> |Target the schema files for Exchange 2013 Service Pack 1 (SP1).  <br/> |
    
-#### Child elements
+### Child elements
 
 None.
   
-#### Parent elements
+### Parent elements
 
 The **RequestServerVersion** element is located in the SOAP header. 
   
@@ -63,17 +63,17 @@ The schema that describes this element is located in the IIS virtual directory t
 
 |||
 |:-----|:-----|
-|Namespace  <br/> |http://schemas.microsoft.com/exchange/services/2006/types  <br/> |
+|Namespace  <br/> |https://schemas.microsoft.com/exchange/services/2006/types  <br/> |
 |Schema Name  <br/> |Types schema  <br/> |
 |Validation File  <br/> |Types.xsd  <br/> |
 |Can be Empty  <br/> |False  <br/> |
    
 ## See also
 
-#### Concepts
 
-[EWS XML elements in Exchange](ews-xml-elements-in-exchange.md)
-#### Other resources
 
-[Versioning Requests](http://msdn.microsoft.com/library/76877b0a-d2e5-4c74-9295-7b445a41d46a%28Office.15%29.aspx)
+- [EWS XML elements in Exchange](ews-xml-elements-in-exchange.md)
+
+
+[Versioning Requests](https://msdn.microsoft.com/library/76877b0a-d2e5-4c74-9295-7b445a41d46a%28Office.15%29.aspx)
 

@@ -3,7 +3,7 @@ title: "UpdateFolder"
  
  
 manager: sethgros
-ms.date: 9/17/2015
+ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
@@ -20,7 +20,7 @@ description: "The UpdateFolder element represents the operation that is used to 
 
 The **UpdateFolder** element represents the operation that is used to update properties for a specified folder. 
   
-```
+```xml
 <UpdateFolder>
    <FolderChanges/>
 </UpdateFolder>
@@ -31,17 +31,17 @@ The **UpdateFolder** element represents the operation that is used to update pro
 
 The following sections describe attributes, child elements, and parent elements.
   
-#### Attributes
+### Attributes
 
 None.
   
-#### Child elements
+### Child elements
 
 |**Element**|**Description**|
 |:-----|:-----|
 |[FolderChanges](folderchanges.md) <br/> |Contains a collection of changes for a specified folder.  <br/> |
    
-#### Parent elements
+### Parent elements
 
 None.
   
@@ -53,14 +53,14 @@ The schema that describes this element is located in the EWS virtual directory o
 
 |||
 |:-----|:-----|
-|Namespace  <br/> |http://schemas.microsoft.com/exchange/services/2006/messages  <br/> |
+|Namespace  <br/> |https://schemas.microsoft.com/exchange/services/2006/messages  <br/> |
 |Schema Name  <br/> |Messages schema  <br/> |
 |Validation File  <br/> |Messages.xsd  <br/> |
 |Can be Empty  <br/> |False  <br/> |
    
 ## See also
 
-#### Reference
+
 
 [UpdateFolder operation](updatefolder-operation.md)
 

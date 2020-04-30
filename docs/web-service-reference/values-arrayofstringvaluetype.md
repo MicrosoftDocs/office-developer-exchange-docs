@@ -1,9 +1,7 @@
 ---
 title: "Values (ArrayOfStringValueType)"
- 
- 
 manager: sethgros
-ms.date: 9/17/2015
+ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
@@ -22,20 +20,21 @@ The **Values** element specifies the values in an array of persona properties as
 </Values>
 ```
 
- **ArrayOfStringValueType**
+**ArrayOfStringValueType**
+
 ## Attributes and elements
 
 The following sections describe attributes, child elements, and parent elements.
   
-#### Attributes
+### Attributes
 
 None.
   
-#### Child elements
+### Child elements
 
 [Value (ArrayOfStringValueType)](value-arrayofstringvaluetype.md)
   
-#### Parent elements
+### Parent elements
 
 [StringArrayAttributedValue](stringarrayattributedvalue.md)
   
@@ -49,7 +48,7 @@ The schema that describes this element is located in the IIS virtual directory t
 
 |||
 |:-----|:-----|
-|Namespace  <br/> |http://schemas.microsoft.com/exchange/services/2006/types  <br/> |
+|Namespace  <br/> |https://schemas.microsoft.com/exchange/services/2006/types  <br/> |
 |Schema name  <br/> |Types schema  <br/> |
 |Validation file  <br/> |Types.xsd  <br/> |
 |Can be empty  <br/> ||

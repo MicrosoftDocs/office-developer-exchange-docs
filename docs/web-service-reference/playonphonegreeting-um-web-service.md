@@ -1,7 +1,7 @@
 ---
 title: "PlayOnPhoneGreeting (UM web service)"
 manager: sethgros
-ms.date: 9/17/2015
+ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
 localization_priority: Normal
@@ -21,7 +21,7 @@ The **PlayOnPhoneGreeting** element defines a request to play a Unified Messagin
   
 [PlayOnPhoneGreeting (UM web service)](playonphonegreeting-um-web-service.md)
   
-```
+```xml
 <PlayOnPhoneGreeting>
   <GreetingType/>
   <DialString/>
@@ -33,18 +33,18 @@ The **PlayOnPhoneGreeting** element defines a request to play a Unified Messagin
 
 The following sections describe attributes, child elements, and parent elements.
   
-#### Attributes
+### Attributes
 
 None.
   
-#### Child elements
+### Child elements
 
 |**Element**|**Description**|
 |:-----|:-----|
 |[GreetingType (UM web service)](greetingtype-um-web-service.md) <br/> |Defines the type of greeting to use in a [PlayOnPhoneGreeting operation (UM web service)](playonphonegreeting-operation-um-web-service.md) request.  <br/> |
 |[dialString (UM web service)](dialstring-um-web-service.md) <br/> |Contains the value for the telephone number to dial.  <br/> |
    
-#### Parent elements
+### Parent elements
 
 None.
   
@@ -56,14 +56,14 @@ None.
 
 |||
 |:-----|:-----|
-|Namespace  <br/> |http://schemas.microsoft.com/exchange/services/2006/messages  <br/> |
+|Namespace  <br/> |https://schemas.microsoft.com/exchange/services/2006/messages  <br/> |
 |Schema Name  <br/> |Messages  <br/> |
 |Validation File  <br/> |Messages.xsd  <br/> |
 |Can be Empty  <br/> |False  <br/> |
    
 ## See also
 
-#### Reference
+
 
 [PlayOnPhoneGreeting operation (UM web service)](playonphonegreeting-operation-um-web-service.md)
 

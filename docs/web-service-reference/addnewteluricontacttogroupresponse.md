@@ -1,9 +1,7 @@
 ---
 title: "AddNewTelUriContactToGroupResponse"
- 
- 
 manager: sethgros
-ms.date: 9/17/2015
+ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
@@ -30,15 +28,15 @@ The **AddNewTelUriContactToGroupResponse** element specifies the result data for
 
 The following sections describe attributes, child elements, and parent elements.
   
-#### Attributes
+### Attributes
 
 None.
   
-#### Child elements
+### Child elements
 
 [Persona](persona.md) | [MessageText](messagetext.md) | [ResponseCode](responsecode.md) | [DescriptiveLinkKey](descriptivelinkkey.md)
   
-#### Parent elements
+### Parent elements
 
 None.
   
@@ -52,17 +50,13 @@ The schema that describes this element is located in the IIS virtual directory t
 
 |||
 |:-----|:-----|
-|Namespace  <br/> |http://schemas.microsoft.com/exchange/services/2006/messages  <br/> |
+|Namespace  <br/> |https://schemas.microsoft.com/exchange/services/2006/messages  <br/> |
 |Schema name  <br/> |Messages schema  <br/> |
 |Validation file  <br/> |Messages.xsd  <br/> |
 |Can be empty  <br/> |False  <br/> |
    
 ## See also
 
-#### Reference
-
-[AddNewTelUriContactToGroup operation](addnewteluricontacttogroup-operation.md)
-#### Concepts
-
-[EWS XML elements in Exchange](ews-xml-elements-in-exchange.md)
+- [AddNewTelUriContactToGroup operation](addnewteluricontacttogroup-operation.md)
+- [EWS XML elements in Exchange](ews-xml-elements-in-exchange.md)
 

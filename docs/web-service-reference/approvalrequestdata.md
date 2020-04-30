@@ -1,9 +1,7 @@
 ---
 title: "ApprovalRequestData"
- 
- 
 manager: sethgros
-ms.date: 3/9/2015
+ms.date: 03/9/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
@@ -16,7 +14,7 @@ description: "The ApprovalRequestData element specifies the approval state of an
 
 The **ApprovalRequestData** element specifies the approval state of an approval request message. 
   
-```
+```xml
 <ApprovalRequestData>
    <IsUndecidedApprovalRequest/>
    <ApprovalDecision/>
@@ -30,15 +28,15 @@ The **ApprovalRequestData** element specifies the approval state of an approval 
 
 The following sections describe attributes, child elements, and parent elements.
   
-#### Attributes
+### Attributes
 
 None.
   
-#### Child elements
+### Child elements
 
 [IsUndecidedApprovalRequest](isundecidedapprovalrequest.md) | [ApprovalDecision](approvaldecision.md) | [ApprovalDecisionMaker](approvaldecisionmaker.md) | [ApprovalDecisionTime](approvaldecisiontime.md)
   
-#### Parent elements
+### Parent elements
 
 [Message](message-ex15websvcsotherref.md)
   
@@ -52,17 +50,13 @@ The schema that describes this element is located in the IIS virtual directory t
 
 |||
 |:-----|:-----|
-|Namespace  <br/> |http://schemas.microsoft.com/exchange/services/2006/types  <br/> |
+|Namespace  <br/> |https://schemas.microsoft.com/exchange/services/2006/types  <br/> |
 |Schema Name  <br/> |Types schema  <br/> |
 |Validation File  <br/> |Types.xsd  <br/> |
 |Can be Empty  <br/> |True  <br/> |
    
 ## See also
 
-#### Reference
-
-[Message](message-ex15websvcsotherref.md)
-#### Concepts
-
-[EWS XML elements in Exchange](ews-xml-elements-in-exchange.md)
+- [Message](message-ex15websvcsotherref.md)
+- [EWS XML elements in Exchange](ews-xml-elements-in-exchange.md)
 

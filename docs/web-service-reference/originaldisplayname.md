@@ -3,7 +3,7 @@ title: "OriginalDisplayName"
  
  
 manager: sethgros
-ms.date: 9/17/2015
+ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
@@ -25,15 +25,15 @@ The **OriginalDisplayName** element contains the original display name associate
 
 The following sections describe attributes, child elements, and parent elements.
   
-#### Attributes
+### Attributes
 
 None.
   
-#### Child elements
+### Child elements
 
 None.
   
-#### Parent elements
+### Parent elements
 
 [SendingAs](sendingas.md) | [Mailbox](mailbox.md) | [EmailAddress (EmailAddressType)](emailaddress-emailaddresstype.md) | [RoomList](roomlist.md) | [ActingAs](actingas.md) | [Sender (EmailAddressType)](sender-emailaddresstype.md) | [PurportedSender](purportedsender.md) | [Recipient](recipient.md) | [FederatedDeliveryMailbox](federateddeliverymailbox.md) | [RecipientFilter](recipientfilter.md) | [Address (EmailAddressType)](address-emailaddresstype.md) | [Id (EmailAddressType)](id-emailaddresstype.md) | [Value (EmailAddressType)](value-emailaddresstype.md)
   
@@ -51,7 +51,7 @@ The schema that describes this element is located in the IIS virtual directory t
 
 |||
 |:-----|:-----|
-|Namespace  <br/> |http://schemas.microsoft.com/exchange/services/2006/types  <br/> |
+|Namespace  <br/> |https://schemas.microsoft.com/exchange/services/2006/types  <br/> |
 |Schema name  <br/> |Types schema  <br/> |
 |Validation file  <br/> |Types.xsd  <br/> |
 |Can be empty  <br/> ||

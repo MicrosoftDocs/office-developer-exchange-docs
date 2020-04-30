@@ -1,7 +1,7 @@
 ---
 title: "Account (POX)"
 manager: sethgros
-ms.date: 9/17/2015
+ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
 localization_priority: Normal
@@ -9,19 +9,15 @@ api_type:
 - schema
 ms.assetid: 488fdbdc-e9d9-4301-91ab-e22eb42e549e
 description: "The Account element specifies account settings for the user or contains error responses."
- 
- 
 ---
 
 # Account (POX)
 
 The **Account** element specifies account settings for the user or contains error responses. 
   
-[AutoDiscover (POX)](autodiscover-pox.md)
-  
-[Response (POX)](response-pox.md)
-  
-[Account (POX)](account-pox.md)
+- [AutoDiscover (POX)](autodiscover-pox.md)
+- [Response (POX)](response-pox.md)
+- [Account (POX)](account-pox.md)
   
 ```XML
 <Account>
@@ -37,15 +33,23 @@ The **Account** element specifies account settings for the user or contains erro
 </Account>
 ```
 
+<br/>
+
+```XML
+<Account> 
+    <Error/> 
+</Account>
+```
+
 ## Attributes and elements
 
 The following sections describe attributes, child elements, and parent elements.
   
-#### Attributes
+### Attributes
 
 None.
   
-#### Child elements
+### Child elements
 
 |**Element**|**Description**|
 |:-----|:-----|
@@ -60,7 +64,7 @@ None.
 |[PublicFolderInformation (POX)](publicfolderinformation-pox.md) <br/> |Contains information that clients can use to send an Autodiscover request to discover public folder information for the user.  <br/> |
 |[Error (POX)](error-pox.md) <br/> |Contains an Autodiscover error response.  <br/> |
    
-#### Parent elements
+### Parent elements
 
 |**Element**|**Description**|
 |:-----|:-----|
@@ -68,7 +72,5 @@ None.
    
 ## See also
 
-#### Concepts
-
-[POX Autodiscover XML elements for Exchange](pox-autodiscover-xml-elements-for-exchange.md)
+- [POX Autodiscover XML elements for Exchange](pox-autodiscover-xml-elements-for-exchange.md)
 

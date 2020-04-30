@@ -3,7 +3,7 @@ title: "UpdateFolder operation"
  
  
 manager: sethgros
-ms.date: 3/9/2015
+ms.date: 03/9/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
@@ -36,7 +36,7 @@ Three basic update actions can be performed on an item. These actions are listed
 |Set  <br/> |The set action replaces data for a property if it contains data, or creates the property and sets its value if it does not exist. The set action is only applicable to writable properties.  <br/> |
 |Delete  <br/> |The delete action removes a property from a folder. This is different than setting it to an empty value. When complete, the property does not exist for the folder. Delete is only applicable to writable properties.  <br/> |
    
-## UpdateFolder Request Example
+## UpdateFolder request example
 
 ### Description
 
@@ -47,10 +47,10 @@ The following example of an UpdateFolder request shows how to update a folder di
 ```XML
 <?xml version="1.0" encoding="utf-8"?>
 <soap:Envelope xmlns:soap="http://schemas.xmlsoap.org/soap/envelope/"
-               xmlns:t="http://schemas.microsoft.com/exchange/services/2006/types">
+               xmlns:t="https://schemas.microsoft.com/exchange/services/2006/types">
   <soap:Body>
-    <UpdateFolder xmlns="http://schemas.microsoft.com/exchange/services/2006/messages"
-                  xmlns:t="http://schemas.microsoft.com/exchange/services/2006/types">
+    <UpdateFolder xmlns="https://schemas.microsoft.com/exchange/services/2006/messages"
+                  xmlns:t="https://schemas.microsoft.com/exchange/services/2006/types">
       <FolderChanges>
         <t:FolderChange>
           <t:FolderId Id="AScA" ChangeKey="GO3u/"/>
@@ -76,7 +76,7 @@ This example changes the display name of the folder to NewFolderName.
 > [!NOTE]
 > The values of the **Id** and **ChangeKey** attributes of the [FolderId](folderid.md) element have been shortened for readability. 
   
-### Request Elements
+### Request elements
 
 The following elements are used in the request:
   
@@ -88,7 +88,7 @@ The following elements are used in the request:
     
 - [FolderId](folderid.md)
     
-- [Updates (Item)](updates-item.md)
+- [Updates (Folder)](updates-folder.md)
     
 - [SetFolderField](setfolderfield.md)
     
@@ -103,7 +103,7 @@ See the schema for additional elements that you can use to form an UpdateFolder 
 > [!NOTE]
 > The default location of the schema is in the EWS virtual directory on the computer that has the Client Access server role installed. 
   
-## UpdateFolder Response Example
+## UpdateFolder response example
 
 ### Description
 
@@ -118,12 +118,12 @@ The following example shows a successful response to the UpdateFolder request. I
                xmlns:xsd="http://www.w3.org/2001/XMLSchema">
   <soap:Header>
     <t:ServerVersionInfo MajorVersion="8" MinorVersion="0" MajorBuildNumber="685" MinorBuildNumber="8" 
-                         xmlns:t="http://schemas.microsoft.com/exchange/services/2006/types" />
+                         xmlns:t="https://schemas.microsoft.com/exchange/services/2006/types" />
   </soap:Header>
   <soap:Body>
-    <UpdateFolderResponse xmlns:m="http://schemas.microsoft.com/exchange/services/2006/messages" 
-                          xmlns:t="http://schemas.microsoft.com/exchange/services/2006/types" 
-                          xmlns="http://schemas.microsoft.com/exchange/services/2006/messages">
+    <UpdateFolderResponse xmlns:m="https://schemas.microsoft.com/exchange/services/2006/messages" 
+                          xmlns:t="https://schemas.microsoft.com/exchange/services/2006/types" 
+                          xmlns="https://schemas.microsoft.com/exchange/services/2006/messages">
       <m:ResponseMessages>
         <m:UpdateFolderResponseMessage ResponseClass="Success">
           <m:ResponseCode>NoError</m:ResponseCode>
@@ -146,7 +146,7 @@ The following example shows a successful response to the UpdateFolder request. I
   
 The folder ID that is returned in the response represents the updated folder.
   
-### Successful Response Elements
+### Successful response elements
 
 The following elements are used in the response:
   
@@ -166,7 +166,7 @@ The following elements are used in the response:
     
 - [FolderId](folderid.md)
     
-## UpdateFolder Error Response Example
+## UpdateFolder Error response example
 
 ### Description
 
@@ -181,12 +181,12 @@ The following example shows an error response to an UpdateFolder request.
                xmlns:xsd="http://www.w3.org/2001/XMLSchema">
   <soap:Header>
     <t:ServerVersionInfo MajorVersion="8" MinorVersion="0" MajorBuildNumber="685" MinorBuildNumber="8" 
-                         xmlns:t="http://schemas.microsoft.com/exchange/services/2006/types" />
+                         xmlns:t="https://schemas.microsoft.com/exchange/services/2006/types" />
   </soap:Header>
   <soap:Body>
-    <UpdateFolderResponse xmlns:m="http://schemas.microsoft.com/exchange/services/2006/messages" 
-                          xmlns:t="http://schemas.microsoft.com/exchange/services/2006/types" 
-                          xmlns="http://schemas.microsoft.com/exchange/services/2006/messages">
+    <UpdateFolderResponse xmlns:m="https://schemas.microsoft.com/exchange/services/2006/messages" 
+                          xmlns:t="https://schemas.microsoft.com/exchange/services/2006/types" 
+                          xmlns="https://schemas.microsoft.com/exchange/services/2006/messages">
       <m:ResponseMessages>
         <m:UpdateFolderResponseMessage ResponseClass="Error">
           <m:MessageText>The change key is invalid.</m:MessageText>
@@ -204,7 +204,7 @@ The following example shows an error response to an UpdateFolder request.
 
 This example shows an error response that is caused by an invalid **ChangeKey** attribute in the request. 
   
-### Error Response Elements
+### Error response elements
 
 The following elements are used in the error response:
   
@@ -226,7 +226,7 @@ The following elements are used in the error response:
     
 ## See also
 
-#### Concepts
 
-[EWS XML elements in Exchange](ews-xml-elements-in-exchange.md)
+
+- [EWS XML elements in Exchange](ews-xml-elements-in-exchange.md)
 

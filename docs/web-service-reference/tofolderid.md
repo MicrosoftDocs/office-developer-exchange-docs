@@ -1,9 +1,7 @@
 ---
 title: "ToFolderId"
- 
- 
 manager: sethgros
-ms.date: 9/17/2015
+ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
@@ -20,29 +18,36 @@ description: "The ToFolderId element represents the destination folder for a cop
 
 The **ToFolderId** element represents the destination folder for a copied or moved item or folder. 
   
-```
+```xml
 <ToFolderId>
    <FolderId/>
 </ToFolderId>
 ```
 
- **TargetFolderIdType**
+```xml
+<ToFolderId>
+   <DistinguishedFolderId/>
+</ToFolderId>
+```
+
+**TargetFolderIdType**
+
 ## Attributes and elements
 
 The following sections describe attributes, child elements, and parent elements.
   
-#### Attributes
+### Attributes
 
 None.
   
-#### Child elements
+### Child elements
 
 |**Element**|**Description**|
 |:-----|:-----|
 |[FolderId](folderid.md) <br/> |Contains the identifier of a destination folder for a copied or moved item or folder.  <br/> |
 |[DistinguishedFolderId](distinguishedfolderid.md) <br/> |Identifies a named destination folder for a copied or moved item or folder.  <br/> |
    
-#### Parent elements
+### Parent elements
 
 |**Element**|**Description**|
 |:-----|:-----|
@@ -59,20 +64,15 @@ The schema that describes this element is located in the EWS virtual directory o
 
 |||
 |:-----|:-----|
-|Namespace  <br/> |http://schemas.microsoft.com/exchange/services/2006/messages  <br/> |
+|Namespace  <br/> |https://schemas.microsoft.com/exchange/services/2006/messages  <br/> |
 |Schema Name  <br/> |Messages schema  <br/> |
 |Validation File  <br/> |Messages.xsd  <br/> |
 |Can be Empty  <br/> |False  <br/> |
    
 ## See also
 
-#### Reference
-
-[MoveFolder operation](movefolder-operation.md)
-  
-[CopyFolder operation](copyfolder-operation.md)
-  
-[MoveItem operation](moveitem-operation.md)
-  
-[CopyItem operation](copyitem-operation.md)
+- [MoveFolder operation](movefolder-operation.md)  
+- [CopyFolder operation](copyfolder-operation.md) 
+- [MoveItem operation](moveitem-operation.md) 
+- [CopyItem operation](copyitem-operation.md)
 

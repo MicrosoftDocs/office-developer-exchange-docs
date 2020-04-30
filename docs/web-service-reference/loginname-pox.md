@@ -1,7 +1,7 @@
 ---
 title: "LoginName (POX)"
 manager: sethgros
-ms.date: 9/17/2015
+ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
 localization_priority: Normal
@@ -27,7 +27,7 @@ The **LoginName** element specifies the user's logon name.
   
 [LoginName (POX)](loginname-pox.md)
   
-```
+```xml
 <LoginName/>
 ```
 
@@ -35,15 +35,15 @@ The **LoginName** element specifies the user's logon name.
 
 The following sections describe attributes, child elements, and parent elements.
   
-#### Attributes
+### Attributes
 
 None.
   
-#### Child elements
+### Child elements
 
 None.
   
-#### Parent elements
+### Parent elements
 
 |**Element**|**Description**|
 |:-----|:-----|
@@ -55,7 +55,7 @@ The text value specifies the user's logon name.
   
 ## See also
 
-#### Concepts
+
 
 [POX Autodiscover XML elements for Exchange](pox-autodiscover-xml-elements-for-exchange.md)
 

@@ -1,18 +1,18 @@
 ---
-title: "How to Generate a list of Autodiscover endpoints"
+title: "Generate a list of Autodiscover endpoints"
  
  
 manager: sethgros
-ms.date: 9/17/2015
+ms.date: 09/17/2015
 ms.audience: Developer
  
  
-localization_priority: Normal
 ms.assetid: 82394d3c-9fc7-4b3c-b48d-1fe983c198f7
 description: "Find out how to generate a prioritized list of Autodiscover endpoints."
+localization_priority: Priority
 ---
 
-# How to: Generate a list of Autodiscover endpoints
+# Generate a list of Autodiscover endpoints
 
 Find out how to generate a prioritized list of Autodiscover endpoints.
   
@@ -46,7 +46,7 @@ When SCP lookup doesn't work, or the endpoints returned by the SCP lookup don't 
     
   - "https://autodiscover." + domain + "/autodiscover/autodiscover"
     
-After you compile the list of endpoint URLs that derive from both SCP lookup and the user's email address, you might need to revise file name extensions in those URLs, depending on whether you're using the [SOAP Autodiscover web service](http://msdn.microsoft.com/library/61c21ea9-7fea-4f56-8ada-bf80e1e6b074%28Office.15%29.aspx) or the [POX Autodiscover web service](http://msdn.microsoft.com/library/877152f0-f4b1-4f63-b2ce-924f4bdf2d20%28Office.15%29.aspx).
+After you compile the list of endpoint URLs that derive from both SCP lookup and the user's email address, you might need to revise file name extensions in those URLs, depending on whether you're using the [SOAP Autodiscover web service](https://msdn.microsoft.com/library/61c21ea9-7fea-4f56-8ada-bf80e1e6b074%28Office.15%29.aspx) or the [POX Autodiscover web service](https://msdn.microsoft.com/library/877152f0-f4b1-4f63-b2ce-924f4bdf2d20%28Office.15%29.aspx).
   
 ## Add or replace file name extensions in endpoint URLs
 <a name="bk_FileExtensions"> </a>
@@ -73,12 +73,12 @@ The EWS application in this example prefers the SOAP Autodiscover web service, s
 
 After you generate a list of Autodiscover endpoints, try them by [sending requests to those endpoints](how-to-get-user-settings-from-exchange-by-using-autodiscover.md).
   
-## Additional resources
-<a name="bk_addresources"> </a>
+## See also
+
 
 - [Autodiscover for Exchange](autodiscover-for-exchange.md)
     
-- [How to: Find Autodiscover endpoints by using SCP lookup in Exchange](how-to-find-autodiscover-endpoints-by-using-scp-lookup-in-exchange.md)
+- [Find Autodiscover endpoints by using SCP lookup in Exchange](how-to-find-autodiscover-endpoints-by-using-scp-lookup-in-exchange.md)
     
 - [Handling Autodiscover error messages](handling-autodiscover-error-messages.md)
     

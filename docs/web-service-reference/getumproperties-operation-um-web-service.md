@@ -1,7 +1,7 @@
 ---
 title: "GetUMProperties operation (UM web service)"
 manager: sethgros
-ms.date: 9/17/2015
+ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
 localization_priority: Normal
@@ -19,7 +19,7 @@ description: "The GetUMProperties operation gets all the Unified Messaging prope
 
 The GetUMProperties operation gets all the Unified Messaging properties for the mailbox of the user who is making the request.
   
-## GetUMProperties Request Example
+## GetUMProperties request example
 
 ### Description
 
@@ -31,12 +31,12 @@ The following example of a GetUMProperties request shows how to form a request t
 <?xml version="1.0" encoding="utf-8"?>
 <soap:Envelope xmlns:soap="http://schemas.xmlsoap.org/soap/envelope/">
   <soap:Body>
-    <GetUMProperties xmlns="http://schemas.microsoft.com/exchange/services/2006/messages" />
+    <GetUMProperties xmlns="https://schemas.microsoft.com/exchange/services/2006/messages" />
   </soap:Body>
 </soap:Envelope>
 ```
 
-## Successful GetUMProperties Response Example
+## Successful GetUMProperties response example
 
 ### Description
 
@@ -48,7 +48,7 @@ The following example of a GetUMProperties response shows a response to the GetU
 <?xml version="1.0" encoding="utf-8" ?>
 <soap:Envelope xmlns:soap="http://schemas.xmlsoap.org/soap/envelope/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
   <soap:Body>
-    <GetUMPropertiesResponse xmlns="http://schemas.microsoft.com/exchange/services/2006/messages">
+    <GetUMPropertiesResponse xmlns="https://schemas.microsoft.com/exchange/services/2006/messages">
       <GetUMPropertiesResponse>
         <OofStatus>false</OofStatus> 
         <MissedCallNotificationEnabled>true</MissedCallNotificationEnabled> 
@@ -63,7 +63,7 @@ The following example of a GetUMProperties response shows a response to the GetU
 
 ## See also
 
-#### Reference
+
 
 [GetUMProperties (UM web service)](getumproperties-um-web-service.md)
   

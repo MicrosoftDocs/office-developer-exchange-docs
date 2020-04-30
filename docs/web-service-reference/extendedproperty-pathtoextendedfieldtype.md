@@ -1,9 +1,7 @@
 ---
 title: "ExtendedProperty (PathToExtendedFieldType)"
- 
- 
 manager: sethgros
-ms.date: 9/17/2015
+ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
@@ -16,23 +14,24 @@ description: "The ExtendedProperty element specifies an extended property for th
 
 The **ExtendedProperty** element specifies an extended property for the Unified Contact Store. 
   
-```
+```xml
 <ExtendedProperty DistinguishedPropertySetId="" PropertySetId="" PropertyTag="" PropertyName="" PropertyId="" PropertyType="" FieldURI="">
 </ExtendedProperty>
 ```
 
- **PathToExtendedFieldType**
+**PathToExtendedFieldType**
+
 ## Attributes and elements
 
 The following sections describe attributes, child elements, and parent elements.
   
-#### Attributes
+### Attributes
 
 |**Attribute**|**Description**|
 |:-----|:-----|
 |DistinguishedPropertySetId  <br/> |Indicates the distinguished property set identifier. This attribute is optional.  <br/> |
 |PropertySetId  <br/> |Indicates the GUID property set identifier. This attribute is optional.  <br/> |
-|PropertyTag  <br/> | Represents the property tag minus the type part. There are two options for representation:  <br/>  Hexadecimal: 0x3fa4  <br/>  Decimal: 0-65535  <br/>  This attribute is optional.  <br/> |
+|PropertyTag  <br/> | Represents the property tag minus the type part.<br/><br/>There are two options for representation:  <br/><br/>-  Hexadecimal: 0x3fa4  <br/>-  Decimal: 0-65535<br/><br/>  This attribute is optional.  <br/> |
 |PropertyName  <br/> |String that indicates the property name. This attribute is optional.  <br/> |
 |PropertyId  <br/> |Integer that indicates the property identifier. This attribute is optional.  <br/> |
 |PropertyType  <br/> |Indicates the property type. This attribute is required.  <br/> |
@@ -84,11 +83,11 @@ The following sections describe attributes, child elements, and parent elements.
 |String  <br/> |Indicates a string.  <br/> |
 |StringArray  <br/> |Indicates an array of strings.  <br/> |
    
-#### Child elements
+### Child elements
 
 None.
   
-#### Parent elements
+### Parent elements
 
 |**Element**|**Description**|
 |:-----|:-----|
@@ -104,14 +103,12 @@ The schema that describes this element is located in the IIS virtual directory t
 
 |||
 |:-----|:-----|
-|Namespace  <br/> |http://schemas.microsoft.com/exchange/services/2006/types  <br/> |
+|Namespace  <br/> |https://schemas.microsoft.com/exchange/services/2006/types  <br/> |
 |Schema Name  <br/> |Type schema  <br/> |
 |Validation File  <br/> |types.xsd  <br/> |
 |Can Be Empty  <br/> ||
    
 ## See also
 
-#### Concepts
-
-[EWS XML elements in Exchange](ews-xml-elements-in-exchange.md)
+- [EWS XML elements in Exchange](ews-xml-elements-in-exchange.md)
 

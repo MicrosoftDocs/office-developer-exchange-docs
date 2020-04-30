@@ -1,9 +1,7 @@
 ---
 title: "Mailbox (Availability)"
- 
- 
 manager: sethgros
-ms.date: 9/17/2015
+ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
@@ -20,7 +18,7 @@ description: "The Mailbox element represents the mailbox user for a SetUserOofSe
 
 The **Mailbox** element represents the mailbox user for a SetUserOofSettings or GetUserOofSettings request. 
   
-```
+```xml
 <Mailbox>
    <Name>...</Name>
    <Address>...</Address>
@@ -28,16 +26,17 @@ The **Mailbox** element represents the mailbox user for a SetUserOofSettings or 
 </Mailbox>
 ```
 
- **EmailAddressType**
+**EmailAddressType**
+
 ## Attributes and elements
 
 The following sections describe attributes, child elements, and parent elements.
   
-#### Attributes
+### Attributes
 
 None.
   
-#### Child elements
+### Child elements
 
 |**Element**|**Description**|
 |:-----|:-----|
@@ -45,7 +44,7 @@ None.
 |[Address (string)](address-string.md) <br/> |Represents the e-mail address of the mailbox user. This element is required.  <br/> |
 |[RoutingType (EmailAddress)](routingtype-emailaddress.md) <br/> |Represents the routing protocol for the message. This element is optional in the SetUserOofSettingsRequest. The GetUserOofSettingsRequest will return this element.  <br/> |
    
-#### Parent elements
+### Parent elements
 
 |**Element**|**Description**|
 |:-----|:-----|
@@ -62,16 +61,13 @@ The schema that describes this element is located in the EWS virtual directory o
 
 |||
 |:-----|:-----|
-|Namespace  <br/> |http://schemas.microsoft.com/exchange/services/2006/types  <br/> |
+|Namespace  <br/> |https://schemas.microsoft.com/exchange/services/2006/types  <br/> |
 |Schema Name  <br/> |Types schema  <br/> |
 |Validation File  <br/> |Types.xsd  <br/> |
 |Can be Empty  <br/> |False  <br/> |
    
 ## See also
 
-#### Reference
-
-[GetUserOofSettings operation](getuseroofsettings-operation.md)
-  
-[SetUserOofSettings operation](setuseroofsettings-operation.md)
+- [GetUserOofSettings operation](getuseroofsettings-operation.md)
+- [SetUserOofSettings operation](setuseroofsettings-operation.md)
 

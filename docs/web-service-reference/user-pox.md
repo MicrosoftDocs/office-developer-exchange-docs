@@ -1,7 +1,7 @@
 ---
 title: "User (POX)"
 manager: sethgros
-ms.date: 9/17/2015
+ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
 localization_priority: Normal
@@ -23,7 +23,7 @@ The **User** element provides user-specific information.
   
 [User (POX)](user-pox.md)
   
-```
+```xml
 <User>
    <DisplayName/>
    <LegacyDN/>
@@ -36,11 +36,11 @@ The **User** element provides user-specific information.
 
 The following sections describe attributes, child elements, and parent elements.
   
-#### Attributes
+### Attributes
 
 None.
   
-#### Child elements
+### Child elements
 
 |**Element**|**Description**|
 |:-----|:-----|
@@ -49,7 +49,7 @@ None.
 |[DeploymentId (POX)](deploymentid-pox.md) <br/> |Uniquely identifies the Exchange forest.  <br/> |
 |[AutoDiscoverSMTPAddress (POX)](autodiscoversmtpaddress-pox.md) <br/> |Contains the user's SMTP address that is used for the Autodiscover process.  <br/> |
    
-#### Parent elements
+### Parent elements
 
 |**Element**|**Description**|
 |:-----|:-----|
@@ -61,7 +61,7 @@ Autodiscover requests and responses must be UTF-8 encoded.
   
 ## See also
 
-#### Concepts
+
 
 [POX Autodiscover XML elements for Exchange](pox-autodiscover-xml-elements-for-exchange.md)
 

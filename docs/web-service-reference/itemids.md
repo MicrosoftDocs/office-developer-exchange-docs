@@ -1,9 +1,7 @@
 ---
 title: "ItemIds"
- 
- 
 manager: sethgros
-ms.date: 9/17/2015
+ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
@@ -17,13 +15,10 @@ description: "The ItemIds element contains the unique identities of items, occur
 ---
 
 # ItemIds
-
-> [!NOTE]
-> 
   
-The **ItemIds** element contains the unique identities of items, occurrence items, and recurring master items that are used to delete, send, get, move, or copy items in the Exchange store. 
+The **ItemIds** element contains the unique identities of items, occurrence items, and recurring master items that are used to delete, send, get, move, or copy items in the Exchange store.
   
-```
+```xml
 <ItemIds>
    <ItemId/>
    <OccurrenceItemId/>
@@ -31,16 +26,17 @@ The **ItemIds** element contains the unique identities of items, occurrence item
 </ItemIds>
 ```
 
- **NonEmptyArrayOfBaseItemIdsType**
+**NonEmptyArrayOfBaseItemIdsType**
+
 ## Attributes and elements
 
-The following sections describe attributes, child elements, and parent elements.
+The following sections describe attributes, child elements, and parent elements. 
   
-#### Attributes
+### Attributes
 
 None.
   
-#### Child elements
+### Child elements
 
 |**Element**|**Description**|
 |:-----|:-----|
@@ -48,7 +44,7 @@ None.
 |[OccurrenceItemId](occurrenceitemid.md) <br/> |Identifies a single occurrence of a recurring item.  <br/> |
 |[RecurringMasterItemId](recurringmasteritemid.md) <br/> |Identifies a recurrence master item by identifying one of its related occurrence items' identifiers.  <br/> |
    
-#### Parent elements
+### Parent elements
 
 |**Element**|**Description**|
 |:-----|:-----|
@@ -67,24 +63,17 @@ The schema that describes this element is located in the IIS virtual directory t
 
 |||
 |:-----|:-----|
-|Namespace  <br/> |http://schemas.microsoft.com/exchange/services/2006/messages  <br/> |
+|Namespace  <br/> |https://schemas.microsoft.com/exchange/services/2006/messages  <br/> |
 |Schema Name  <br/> |Messages schema  <br/> |
 |Validation File  <br/> |Messages.xsd  <br/> |
 |Can be Empty  <br/> |False  <br/> |
    
 ## See also
 
-#### Reference
-
-[DeleteItem operation](deleteitem-operation.md)
-  
-[SendItem operation](senditem-operation.md)
-  
-[GetItem operation](getitem-operation.md)
-  
-[MoveItem operation](moveitem-operation.md)
-  
-[CopyItem operation](copyitem-operation.md)
-  
-[FindConversation operation](findconversation-operation.md)
+- [DeleteItem operation](deleteitem-operation.md)
+- [SendItem operation](senditem-operation.md) 
+- [GetItem operation](getitem-operation.md)
+- [MoveItem operation](moveitem-operation.md)
+- [CopyItem operation](copyitem-operation.md)
+- [FindConversation operation](findconversation-operation.md)
 

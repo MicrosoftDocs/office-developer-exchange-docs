@@ -3,7 +3,7 @@ title: "FractionalPageFolderView"
  
  
 manager: sethgros
-ms.date: 9/17/2015
+ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
@@ -24,7 +24,7 @@ The **FractionalPageFolderView** element describes where the paged view starts a
   
 [FractionalPageFolderView](fractionalpagefolderview.md)
   
-```
+```xml
 <FractionalPageFolderView MaxEntriesReturned="" Numerator="" Denominator=""/>
 ```
 
@@ -33,7 +33,7 @@ The **FractionalPageFolderView** element describes where the paged view starts a
 
 The following sections describe attributes, child elements, and parent elements.
   
-#### Attributes
+### Attributes
 
 |**Attribute**|**Description**|
 |:-----|:-----|
@@ -41,11 +41,11 @@ The following sections describe attributes, child elements, and parent elements.
 |**Numerator** <br/> |Represents the numerator of the fractional offset from the start of the result set. This attribute is required. The numerator must be equal to or less than the denominator. This attribute must represent an integral value that is equal to or greater than zero. For more information, see Remarks later in this topic.  <br/> |
 |**Denominator** <br/> |Represents the denominator of the fractional offset from the start of the total number of folders in the result set. This attribute is required. This attribute must represent an integral value that is greater than one. For more information, see Remarks later in this topic.  <br/> |
    
-#### Child elements
+### Child elements
 
 None.
   
-#### Parent elements
+### Parent elements
 
 |**Element**|**Description**|
 |:-----|:-----|
@@ -66,17 +66,17 @@ The schema that describes this element is located in the EWS virtual directory o
 
 |||
 |:-----|:-----|
-|Namespace  <br/> |http://schemas.microsoft.com/exchange/services/2006/messages  <br/> |
+|Namespace  <br/> |https://schemas.microsoft.com/exchange/services/2006/messages  <br/> |
 |Schema Name  <br/> |Messages schema  <br/> |
 |Validation File  <br/> |Messages.xsd  <br/> |
 |Can be Empty  <br/> |False  <br/> |
    
 ## See also
 
-#### Reference
+
 
 [FindFolder operation](findfolder-operation.md)
-#### Other resources
 
-[Finding Folders](http://msdn.microsoft.com/library/9124d868-017a-43f0-b915-5c0082cacec9%28Office.15%29.aspx)
+
+[Finding Folders](https://msdn.microsoft.com/library/9124d868-017a-43f0-b915-5c0082cacec9%28Office.15%29.aspx)
 

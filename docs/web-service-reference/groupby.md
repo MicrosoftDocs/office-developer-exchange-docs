@@ -1,9 +1,7 @@
 ---
 title: "GroupBy"
- 
- 
 manager: sethgros
-ms.date: 9/17/2015
+ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
@@ -20,36 +18,50 @@ description: "The GroupBy element specifies an arbitrary grouping for FindItem q
 
 The **GroupBy** element specifies an arbitrary grouping for FindItem queries. 
   
-[FindItem](finditem.md)
+- [FindItem](finditem.md)
+- [GroupBy](groupby.md)
   
-[GroupBy](groupby.md)
-  
-```
+```xml
 <GroupBy Order="">
    <FieldURI/>
    <AggregateOn/>
 </GroupBy>
 ```
 
- **GroupByType**
+```xml
+<GroupBy Order="">
+   <ExtendededFieldURI/>
+   <AggregateOn/>
+</GroupBy>
+```
+
+```xml
+<GroupBy Order="">
+   <IndexedFieldURI/>
+   <AggregateOn/>
+</GroupBy>
+```
+
+**GroupByType**
+
 ## Attributes and elements
 
 The following sections describe attributes, child elements, and parent elements.
   
-#### Attributes
+### Attributes
 
 |**Attribute**|**Description**|
 |:-----|:-----|
 |**Order** <br/> | Determines the order of the groups in the grouped item array that is returned in the response. This attribute is of type SortDirectionType.  <br/> |
    
-#### Order Attribute Values
+#### Order attribute values
 
 |**Value**|**Description**|
 |:-----|:-----|
 |Ascending  <br/> |The groups are ordered in ascending order.  <br/> |
 |Descending  <br/> |The groups are ordered in descending order.  <br/> |
    
-#### Child elements
+### Child elements
 
 |**Element**|**Description**|
 |:-----|:-----|
@@ -58,11 +70,11 @@ The following sections describe attributes, child elements, and parent elements.
 |[ExtendedFieldURI](extendedfielduri.md) <br/> |Identifies extended MAPI properties to get, set, or create.  <br/> |
 |[AggregateOn](aggregateon.md) <br/> |Represents the field that is used to determine the order of groups in a response.  <br/> |
    
-#### Parent elements
+### Parent elements
 
 |**Element**|**Description**|
 |:-----|:-----|
-|[FindItem](finditem.md) <br/> |Defines a request to find items in a mailbox.  <br/> The following is the XPath expression to this element:  `/FindItem` <br/> |
+|[FindItem](finditem.md) <br/> |Defines a request to find items in a mailbox.  <br/><br/> The following is the XPath expression to this element:  `/FindItem` <br/> |
    
 ## Remarks
 
@@ -74,20 +86,14 @@ The schema that describes this element is located in the EWS virtual directory o
 
 |||
 |:-----|:-----|
-|Namespace  <br/> |http://schemas.microsoft.com/exchange/services/2006/messages  <br/> |
+|Namespace  <br/> |https://schemas.microsoft.com/exchange/services/2006/messages  <br/> |
 |Schema Name  <br/> |Messages schema  <br/> |
 |Validation File  <br/> |Messages.xsd  <br/> |
 |Can be Empty  <br/> |False  <br/> |
    
 ## See also
 
-#### Reference
-
-[FindItem operation](finditem-operation.md)
-#### Concepts
-
-[EWS XML elements in Exchange](ews-xml-elements-in-exchange.md)
-#### Other resources
-
-[Finding Items](http://msdn.microsoft.com/library/63af1f9c-464b-4fca-9ae3-3d60f24ca93c%28Office.15%29.aspx)
+- [FindItem operation](finditem-operation.md)
+- [EWS XML elements in Exchange](ews-xml-elements-in-exchange.md)
+- [Finding Items](https://msdn.microsoft.com/library/63af1f9c-464b-4fca-9ae3-3d60f24ca93c%28Office.15%29.aspx)
 

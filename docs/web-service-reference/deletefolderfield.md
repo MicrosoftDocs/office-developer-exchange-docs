@@ -1,9 +1,7 @@
 ---
 title: "DeleteFolderField"
- 
- 
 manager: sethgros
-ms.date: 9/17/2015
+ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
@@ -20,32 +18,41 @@ description: "The DeleteFolderField element represents an operation to delete a 
 
 The **DeleteFolderField** element represents an operation to delete a given property from a folder during an UpdateFolder call. 
   
-[UpdateFolder](updatefolder.md)
+- [UpdateFolder](updatefolder.md) 
+- [FolderChanges](folderchanges.md)  
+- [FolderChange](folderchange.md)  
+- [Updates (Folder)](updates-folder.md) 
+- [DeleteFolderField](deletefolderfield.md)
   
-[FolderChanges](folderchanges.md)
-  
-[FolderChange](folderchange.md)
-  
-[Updates (Folder)](updates-folder.md)
-  
-[DeleteFolderField](deletefolderfield.md)
-  
-```
+```xml
 <DeleteFolderField>
    <FieldURI/>
 </DeleteFolderField>
 ```
 
- **DeleteFolderFieldType**
+```xml
+<DeleteFolderField>
+   <ExtendedFieldURI/>
+</DeleteFolderField>
+```
+
+```xml
+<DeleteFolderField>
+   <IndexedFieldURI/>
+</DeleteFolderField>
+```
+
+**DeleteFolderFieldType**
+
 ## Attributes and elements
 
 The following sections describe attributes, child elements, and parent elements.
   
-#### Attributes
+### Attributes
 
 None.
   
-#### Child elements
+### Child elements
 
 |**Element**|**Description**|
 |:-----|:-----|
@@ -53,7 +60,7 @@ None.
 |[IndexedFieldURI](indexedfielduri.md) <br/> |Identifies individual members of a dictionary property.  <br/> |
 |[ExtendedFieldURI](extendedfielduri.md) <br/> |Identifies extended MAPI properties.  <br/> |
    
-#### Parent elements
+### Parent elements
 
 |**Element**|**Description**|
 |:-----|:-----|
@@ -67,14 +74,12 @@ The schema that describes this element is located in the EWS virtual directory o
 
 |||
 |:-----|:-----|
-|Namespace  <br/> |http://schemas.microsoft.com/exchange/services/2006/types  <br/> |
+|Namespace  <br/> |https://schemas.microsoft.com/exchange/services/2006/types  <br/> |
 |Schema Name  <br/> |Types schema  <br/> |
 |Validation File  <br/> |Types.xsd  <br/> |
 |Can be Empty  <br/> |False  <br/> |
    
 ## See also
 
-#### Reference
-
-[UpdateFolder operation](updatefolder-operation.md)
+- [UpdateFolder operation](updatefolder-operation.md)
 

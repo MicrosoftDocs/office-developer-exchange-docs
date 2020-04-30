@@ -1,7 +1,7 @@
 ---
 title: "PlayOnPhoneResponse (UM web service)"
 manager: sethgros
-ms.date: 9/17/2015
+ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
 localization_priority: Normal
@@ -21,7 +21,7 @@ The **PlayOnPhoneResponse** element defines a response to a [PlayOnPhone operati
   
 [PlayOnPhoneResponse (UM web service)](playonphoneresponse-um-web-service.md)
   
-```
+```xml
 <PlayOnPhoneResponse />
 ```
 
@@ -30,15 +30,15 @@ The **PlayOnPhoneResponse** element defines a response to a [PlayOnPhone operati
 
 The following sections describe attributes, child elements, and parent elements.
   
-#### Attributes
+### Attributes
 
 None.
   
-#### Child elements
+### Child elements
 
 None.
   
-#### Parent elements
+### Parent elements
 
 None.
   
@@ -50,14 +50,14 @@ A text value is required. The text value is the call identifier to use for the v
 
 |||
 |:-----|:-----|
-|Namespace  <br/> |http://schemas.microsoft.com/exchange/services/2006/messages  <br/> |
+|Namespace  <br/> |https://schemas.microsoft.com/exchange/services/2006/messages  <br/> |
 |Schema Name  <br/> |Messages  <br/> |
 |Validation File  <br/> |messages.xsd  <br/> |
 |Can be Empty  <br/> |False  <br/> |
    
 ## See also
 
-#### Reference
+
 
 [PlayOnPhone operation (UM web service)](playonphone-operation-um-web-service.md)
 

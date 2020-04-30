@@ -1,9 +1,7 @@
 ---
-title: "Transaction logs and checkpoint files for backup and restore in Exchange 2013"
- 
- 
+title: "Transaction logs and checkpoint files for backup and restore in Exchange"
 manager: sethgros
-ms.date: 9/17/2015
+ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: overview
 ms.prod: office-online-server
@@ -12,13 +10,11 @@ ms.assetid: 80e04b9f-87c7-4acf-89b1-aa66ffaf7e53
 description: "Find information about transaction logs and checkpoint files and how they are used to back up and restore Exchange 2013 data."
 ---
 
-# Transaction logs and checkpoint files for backup and restore in Exchange 2013
+# Transaction logs and checkpoint files for backup and restore in Exchange
 
 Find information about transaction logs and checkpoint files and how they are used to back up and restore Exchange 2013 data.
   
- **Last modified:** September 17, 2015 
-  
- * **Applies to:** Exchange Server 2013 * 
+**Applies to:** Exchange Server 2013 
   
 This article describes how Exchange Server 2013 uses transaction logs and checkpoint files to help prevent data loss. It is important to be aware of this information when you develop backup and restore applications that use the Volume Shadow Copy Service (VSS) in versions of Windows Server starting with Windows Server 2008.
   
@@ -38,13 +34,10 @@ Periodically, the Exchange store checks the in-memory database image, and then d
 
 A checkpoint file records which logged transactions have been written to the on-disk database files. The checkpoint is advanced when all the database pages that have been modified by entries in the transaction logs are successfully written to disk. Because the checkpoint file records which transactions are already in the on-disk database image, the Exchange store only needs to replay transactions that occurred after the checkpoint. Depending on the time period between backups, this can greatly decrease the number of transactions that must be replayed into the database if a system failure occurs.
   
-## Additional resources
-<a name="bk_AdditionalResources"> </a>
+## See also
 
 - [Backup and restore concepts for Exchange 2013](backup-and-restore-concepts-for-exchange-2013.md)
-    
 - [Types of backup operations for Exchange 2013](types-of-backup-operations-for-exchange-2013.md)
-    
 - [Restoring Exchange 2013 databases](restoring-exchange-2013-databases.md)
     
 

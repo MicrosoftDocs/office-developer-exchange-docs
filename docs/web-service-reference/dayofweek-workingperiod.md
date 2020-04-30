@@ -1,9 +1,7 @@
 ---
 title: "DayOfWeek (WorkingPeriod)"
- 
- 
 manager: sethgros
-ms.date: 9/17/2015
+ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
@@ -20,62 +18,50 @@ description: "The DayOfWeek element contains the list of working days scheduled 
 
 The **DayOfWeek** element contains the list of working days scheduled for the mailbox user. 
   
-[GetUserAvailabilityResponse](getuseravailabilityresponse.md)
+- [GetUserAvailabilityResponse](getuseravailabilityresponse.md)  
+- [FreeBusyResponseArray](freebusyresponsearray.md)  
+- [FreeBusyResponse](freebusyresponse.md)  
+- [FreeBusyView](freebusyview.md)  
+- [WorkingHours](workinghours-ex15websvcsotherref.md)  
+- [WorkingPeriodArray](workingperiodarray.md) 
+- [WorkingPeriod](workingperiod.md)  
+- [DayOfWeek (WorkingPeriod)](dayofweek-workingperiod.md)
   
-[FreeBusyResponseArray](freebusyresponsearray.md)
-  
-[FreeBusyResponse](freebusyresponse.md)
-  
-[FreeBusyView](freebusyview.md)
-  
-[WorkingHours](workinghours-ex15websvcsotherref.md)
-  
-[WorkingPeriodArray](workingperiodarray.md)
-  
-[WorkingPeriod](workingperiod.md)
-  
-[DayOfWeek (WorkingPeriod)](dayofweek-workingperiod.md)
-  
-```
+```xml
 <DayOfWeek>Sunday Monday Tuesday Wednesday Thursday Friday Saturday</DayOfWeek>
 ```
 
- **DaysOfWeek**
+**DaysOfWeek**
+
 ## Attributes and elements
 
 The following sections describe attributes, child elements, and parent elements.
   
-#### Attributes
+### Attributes
 
 None.
   
-#### Child elements
+### Child elements
 
 None.
   
-#### Parent elements
+### Parent elements
 
 |**Element**|**Description**|
 |:-----|:-----|
-|[WorkingPeriod](workingperiod.md) <br/> |Contains the work week days and hours of the mailbox user.  <br/> The following is the XPath expression to this element:  <br/>  `/GetUserAvailabilityResponse/FreeBusyResponseArray/FreeBusyResponse/FreeBusyView/WorkingHours/WorkingPeriodArray/WorkingPeriod[i[` <br/> |
+|[WorkingPeriod](workingperiod.md) <br/> |Contains the work week days and hours of the mailbox user.<br/><br/>The following is the XPath expression to this element:<br/><br/>`/GetUserAvailabilityResponse/FreeBusyResponseArray/FreeBusyResponse/FreeBusyView/WorkingHours/WorkingPeriodArray/WorkingPeriod[i[` <br/> |
    
 ## Text value
 
 A text value is returned if the mailbox user has days set to represent the work week. The following are the possible values for this element:
   
-- Sunday
-    
-- Monday
-    
-- Tuesday
-    
-- Wednesday
-    
-- Thursday
-    
-- Friday
-    
-- Saturday
+- Sunday    
+- Monday    
+- Tuesday    
+- Wednesday    
+- Thursday    
+- Friday    
+- Saturday 
     
 The text values will be returned in that order.
   
@@ -89,19 +75,14 @@ The schema that describes this element is located in the EWS virtual directory o
 
 |||
 |:-----|:-----|
-|Namespace  <br/> |http://schemas.microsoft.com/exchange/services/2006/types  <br/> |
+|Namespace  <br/> |https://schemas.microsoft.com/exchange/services/2006/types  <br/> |
 |Schema Name  <br/> |Types schema  <br/> |
 |Validation File  <br/> |Types.xsd  <br/> |
 |Can be Empty  <br/> |False  <br/> |
    
 ## See also
 
-#### Reference
-
-[GetUserAvailability operation](getuseravailability-operation.md)
-  
-[GetUserAvailabilityResponse](getuseravailabilityresponse.md)
-#### Other resources
-
-[Getting User Availability](http://msdn.microsoft.com/library/d4133fcb-9b0f-4e6b-aadf-a389da83516a%28Office.15%29.aspx)
+- [GetUserAvailability operation](getuseravailability-operation.md)  
+- [GetUserAvailabilityResponse](getuseravailabilityresponse.md)
+- [Getting User Availability](https://msdn.microsoft.com/library/d4133fcb-9b0f-4e6b-aadf-a389da83516a%28Office.15%29.aspx)
 

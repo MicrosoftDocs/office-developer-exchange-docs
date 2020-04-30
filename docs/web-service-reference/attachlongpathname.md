@@ -1,7 +1,5 @@
 ---
 title: "AttachLongPathName"
- 
- 
 manager: sethgros
 ms.date: 11/16/2014
 ms.audience: Developer
@@ -15,24 +13,20 @@ description: "The AttachLongPathName element is intended for internal use only."
 # AttachLongPathName
 
 The **AttachLongPathName** element is intended for internal use only. 
-  
-```
-
-```
 
 ## Attributes and elements
 
 The following sections describe attributes, child elements, and parent elements.
   
-#### Attributes
+### Attributes
 
 None.
   
-#### Child elements
+### Child elements
 
 None.
   
-#### Parent elements
+### Parent elements
 
 None.
   

@@ -3,7 +3,7 @@ title: "IsTranscriptionEnabledInMailboxConfig"
  
  
 manager: sethgros
-ms.date: 9/17/2015
+ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
@@ -20,20 +20,19 @@ The **IsTranscriptionEnabledInMailboxConfig** element is intended for internal u
 <IsTranscriptionEnabledInMailboxConfig />
 ```
 
- ****
 ## Attributes and elements
 
 The following sections describe attributes, child elements, and parent elements.
   
-#### Attributes
+### Attributes
 
 None.
   
-#### Child elements
+### Child elements
 
 None.
   
-#### Parent elements
+### Parent elements
 
 None.
   

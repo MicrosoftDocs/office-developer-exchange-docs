@@ -3,7 +3,7 @@ title: "GetStreamingEvents operation"
  
  
 manager: sethgros
-ms.date: 9/17/2015
+ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
@@ -33,10 +33,10 @@ The following example of a **GetStreamingEvents** operation shows how to request
 ```XML
 <?xml version="1.0" encoding="utf-8"?>
 <soap:Envelope xmlns:soap="http://schemas.xmlsoap.org/soap/envelope/"
-  xmlns:t="http://schemas.microsoft.com/exchange/services/2006/types"
-  xmlns:m="http://schemas.microsoft.com/exchange/services/2006/messages">
+  xmlns:t="https://schemas.microsoft.com/exchange/services/2006/types"
+  xmlns:m="https://schemas.microsoft.com/exchange/services/2006/messages">
   <soap:Body>
-    <GetStreamingEvents xmlns="http://schemas.microsoft.com/exchange/services/2006/messages">
+    <GetStreamingEvents xmlns="https://schemas.microsoft.com/exchange/services/2006/messages">
       <SubscriptionId>f6bc657d-dde1-4f94-952d-143b95d6483d</SubscriptionId>
       <ConnectionTimeout>30</ConnectionTimeout>
     </GetStreamingEvents>
@@ -65,10 +65,10 @@ The following example of a **GetStreamingEvents** response shows the notificatio
 ```XML
 <?xml version="1.0" encoding="utf-8" ?>
 <soap:Header xmlns:soap="http://schemas.xmlsoap.org/soap/envelope/">
-  <ServerVersionInfo xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" MajorVersion="15" MinorVersion="0" MajorBuildNumber="775" MinorBuildNumber="7" Version="V2_4" xmlns="http://schemas.microsoft.com/exchange/services/2006/types" />
+  <ServerVersionInfo xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" MajorVersion="15" MinorVersion="0" MajorBuildNumber="775" MinorBuildNumber="7" Version="V2_4" xmlns="https://schemas.microsoft.com/exchange/services/2006/types" />
 </soap:Header>
 <soap:Body xmlns:soap="http://schemas.xmlsoap.org/soap/envelope/">
-  <m:GetStreamingEventsResponse xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:t="http://schemas.microsoft.com/exchange/services/2006/types" xmlns:m="http://schemas.microsoft.com/exchange/services/2006/messages">
+  <m:GetStreamingEventsResponse xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:t="https://schemas.microsoft.com/exchange/services/2006/types" xmlns:m="https://schemas.microsoft.com/exchange/services/2006/messages">
     <m:ResponseMessages>
       <m:GetStreamingEventsResponseMessage ResponseClass="Success">
         <m:ResponseCode>NoError</m:ResponseCode>
@@ -132,12 +132,12 @@ The following example shows an error response to a **GetStreamingEvents** reques
                xmlns:xsd="http://www.w3.org/2001/XMLSchema">
   <soap:Header>
     <t:ServerVersionInfo MajorVersion="8" MinorVersion="0" MajorBuildNumber="628" MinorBuildNumber="0" 
-                         xmlns:t="http://schemas.microsoft.com/exchange/services/2006/types" />
+                         xmlns:t="https://schemas.microsoft.com/exchange/services/2006/types" />
   </soap:Header>
   <soap:Body>
-    <GetStreamingEventsResponse xmlns:m="http://schemas.microsoft.com/exchange/services/2006/messages" 
-                       xmlns:t="http://schemas.microsoft.com/exchange/services/2006/types" 
-                       xmlns="http://schemas.microsoft.com/exchange/services/2006/messages">
+    <GetStreamingEventsResponse xmlns:m="https://schemas.microsoft.com/exchange/services/2006/messages" 
+                       xmlns:t="https://schemas.microsoft.com/exchange/services/2006/types" 
+                       xmlns="https://schemas.microsoft.com/exchange/services/2006/messages">
       <m:ResponseMessages>
         <m:GetStreamingEventsResponseMessage ResponseClass="Error">
         <m:MessageText></m:MessageText>
@@ -170,7 +170,7 @@ When processing a **GetStreamingEvents** request, the Client Access server perfo
     
 ## See also
 
-#### Reference
+
 
 [Subscribe operation](subscribe-operation.md)
   

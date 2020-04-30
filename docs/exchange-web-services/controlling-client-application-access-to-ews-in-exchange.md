@@ -1,15 +1,11 @@
 ---
 title: "Controlling client application access to EWS in Exchange"
- 
- 
 manager: sethgros
-ms.date: 9/17/2015
+ms.date: 09/17/2015
 ms.audience: Developer
- 
- 
-localization_priority: Normal
 ms.assetid: 60ac3f7b-ba8a-4c93-99f7-c27002caff93
 description: "Learn about the options for managing client application access to EWS."
+localization_priority: Priority
 ---
 
 # Controlling client application access to EWS in Exchange
@@ -33,7 +29,7 @@ Your test or production server administrator can configure access control for cl
     
 Applications are identified by the user agent string that they send in the HTTP web request.
   
-> [!SECURITY NOTE]
+> [!IMPORTANT]
 > Application-level blocking is not a security feature. The user agent string is easily spoofed. If an application is allowed access to EWS, the application must still present credentials that the server authenticates before the application can connect to EWS. 
   
 Administrators can also configure access control for mailbox owners that connect to EWS in the following ways: 
@@ -69,23 +65,16 @@ To enable impersonation accounts, your test or production server administrator s
 
 Administrators use the following Exchange Management Shell cmdlets to configure EWS access controls: 
   
-- [Get-CASMailbox](http://technet.microsoft.com/en-us/library/bb124754.aspx)
+- [Get-CASMailbox](https://technet.microsoft.com/library/bb124754.aspx)   
+- [Set-CASMailbox](https://technet.microsoft.com/library/bb125264.aspx)   
+- [Get-OrganizationConfig](https://technet.microsoft.com/library/aa997571.aspx)   
+- [Set-OrganizationConfig](https://technet.microsoft.com/library/aa997443.aspx)
     
-- [Set-CASMailbox](http://technet.microsoft.com/en-us/library/bb125264.aspx)
-    
-- [Get-OrganizationConfig](http://technet.microsoft.com/en-us/library/aa997571.aspx)
-    
-- [Set-OrganizationConfig](http://technet.microsoft.com/en-us/library/aa997443.aspx)
-    
-## Additional resources
-<a name="bk_addresources"> </a>
+## See also
 
-- [Start using web services in Exchange](start-using-web-services-in-exchange.md)
-    
-- [How to: Control access to EWS in Exchange](how-to-control-access-to-ews-in-exchange.md)
-    
-- [Exchange Management Shell](http://technet.microsoft.com/en-us/library/aa998267.aspx)
-    
-- [Windows PowerShell](http://msdn.microsoft.com/en-us/library/dd835506%28v=vs.85%29.aspx)
+- [Start using web services in Exchange](start-using-web-services-in-exchange.md)  
+- [Control access to EWS in Exchange](how-to-control-access-to-ews-in-exchange.md)
+- [Exchange Server PowerShell (Exchange Management Shell)](https://docs.microsoft.com/powershell/exchange/exchange-server/exchange-management-shell?view=exchange-ps)
+- [Windows PowerShell](https://msdn.microsoft.com/library/dd835506%28v=vs.85%29.aspx)
     
 

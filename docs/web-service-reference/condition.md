@@ -1,9 +1,7 @@
 ---
 title: "Condition"
- 
- 
 manager: sethgros
-ms.date: 9/17/2015
+ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
@@ -20,22 +18,47 @@ description: "The Condition element identifies the condition that must be satisf
 
 The **Condition** element identifies the condition that must be satisfied for the action part of the rule to be executed. 
   
-```
+```xml
 <Condition>
    <AllInternal/>
 </Condition>
 ```
 
- **ProtectionRuleConditionType**
+```xml
+<Condition> 
+    <SenderDepartments/> 
+</Condition>
+```
+
+```xml
+<Condition> 
+    <True/> 
+</Condition>
+```
+
+```xml
+<Condition> 
+    <Recipients/> 
+</Condition>
+```
+
+```xml
+<Condition> 
+    <And/> 
+</Condition>
+```
+
+**ProtectionRuleConditionType**
+
 ## Attributes and elements
 
 The following sections describe attributes, child elements, and parent elements.
   
-#### Attributes
+### Attributes
 
 None.
   
-#### Child elements
+### Child elements
 
 |**Element**|**Description**|
 |:-----|:-----|
@@ -45,7 +68,7 @@ None.
 |[SenderDepartments](senderdepartments.md) <br/> |Specifies that the department of the sender matches any of the specified departments in the child [Value (ProtectionRuleValueType)](value-protectionrulevaluetype.md) elements.  <br/> |
 |[True](true.md) <br/> |Specifies a condition that always matches.  <br/> |
    
-#### Parent elements
+### Parent elements
 
 |**Element**|**Description**|
 |:-----|:-----|
@@ -63,14 +86,12 @@ The schema that describes this element is located in the IIS virtual directory t
 
 |||
 |:-----|:-----|
-|Namespace  <br/> |http://schemas.microsoft.com/exchange/services/2006/types  <br/> |
+|Namespace  <br/> |https://schemas.microsoft.com/exchange/services/2006/types  <br/> |
 |Schema Name  <br/> |Types schema  <br/> |
 |Validation File  <br/> |Types.xsd  <br/> |
 |Can be Empty  <br/> |False  <br/> |
    
 ## See also
 
-#### Concepts
-
-[EWS XML elements in Exchange](ews-xml-elements-in-exchange.md)
+- [EWS XML elements in Exchange](ews-xml-elements-in-exchange.md)
 

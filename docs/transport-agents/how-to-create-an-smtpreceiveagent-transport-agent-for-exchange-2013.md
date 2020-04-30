@@ -1,9 +1,7 @@
 ---
-title: "How to Create an SmtpReceiveAgent transport agent for Exchange 2013"
- 
- 
+title: "Create an SmtpReceiveAgent transport agent for Exchange 2013"
 manager: sethgros
-ms.date: 9/17/2015
+ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: overview
 ms.prod: office-online-server
@@ -12,15 +10,15 @@ ms.assetid: cdc7c462-74a7-49d6-95b2-155d783840e9
 description: "Find out how to create a custom SmtpReceiveAgent transport agent to use with Exchange 2013."
 ---
 
-# How to: Create an SmtpReceiveAgent transport agent for Exchange 2013
+# Create an SmtpReceiveAgent transport agent for Exchange 2013
 
 Find out how to create a custom SmtpReceiveAgent transport agent to use with Exchange 2013.
   
- **Last modified:** September 17, 2015 
+**Applies to:** Exchange Server 2013
   
- * **Applies to:** Exchange Server 2013 * 
-  
-![Related code snippets and sample apps](media/mod_icon_links_samples.png)[Exchange 2013: Build a body conversion transport agent](http://code.msdn.microsoft.com/Exchange/Exchange-2013-Build-a-body-ed36ecb0)
+Related code snippets and sample apps:
+
+- [Exchange 2013: Build a body conversion transport agent](https://code.msdn.microsoft.com/Exchange/Exchange-2013-Build-a-body-ed36ecb0)
   
 The [SmtpReceiveAgentFactory](https://msdn.microsoft.com/library/Microsoft.Exchange.Data.Transport.Smtp.SmtpReceiveAgentFactory.aspx) and [SmtpReceiveAgent](https://msdn.microsoft.com/library/Microsoft.Exchange.Data.Transport.Smtp.SmtpReceiveAgent.aspx) classes enable you to extend the behavior of the Front End Transport service on a Client Access Server or the Transport service on a Mailbox server. You can use these classes to implement transport agents that are designed to respond to messages as they come into your organization. 
   
@@ -47,19 +45,19 @@ The following procedure describes how to create a custom SmtpReceiveAgent transp
 
 1. Add references to the namespaces.
     
-  ```cs
+   ```cs
       using Microsoft.Exchange.Data.Transport;
       using Microsoft.Exchange.Data.Transport.Smtp;
       using Microsoft.Exchange.Data.Transport.Email;
       using Microsoft.Exchange.Data.TextConverters;
   
-  ```
+   ```
 
-    You can find these namespaces on your Exchange 2013 server. When you add a reference to these namespaces, you will have access to the [SmtpReceiveAgent](https://msdn.microsoft.com/library/Microsoft.Exchange.Data.Transport.Smtp.SmtpReceiveAgent.aspx) members as well as other classes used in the [Exchange 2013: Build a body conversion transport agent](http://code.msdn.microsoft.com/Exchange/Exchange-2013-Build-a-body-ed36ecb0) sample. 
+   You can find these namespaces on your Exchange 2013 server. When you add a reference to these namespaces, you will have access to the [SmtpReceiveAgent](https://msdn.microsoft.com/library/Microsoft.Exchange.Data.Transport.Smtp.SmtpReceiveAgent.aspx) members as well as other classes used in the [Exchange 2013: Build a body conversion transport agent](https://code.msdn.microsoft.com/Exchange/Exchange-2013-Build-a-body-ed36ecb0) sample. 
     
 2. Implement the derived class for the [SmtpReceiveAgentFactory](https://msdn.microsoft.com/library/Microsoft.Exchange.Data.Transport.Smtp.SmtpReceiveAgentFactory.aspx) class. 
     
-  ```cs
+   ```cs
       public class BodyConversionFactory : SmtpReceiveAgentFactory
       {
           /// <summary>
@@ -73,13 +71,13 @@ The following procedure describes how to create a custom SmtpReceiveAgent transp
           }
       }
   
-  ```
+   ```
 
-    This code will instantiate the derived class and override the **CreateAgent** method to create an instance of your new custom agent. 
+   This code will instantiate the derived class and override the **CreateAgent** method to create an instance of your new custom agent. 
     
 3. Define your agent.
     
-  ```cs
+   ```cs
      public class BodyConversion : SmtpReceiveAgent
       {
           // Your custom code goes here
@@ -93,18 +91,15 @@ The following procedure describes how to create a custom SmtpReceiveAgent transp
           }
       }
   
-  ```
+   ```
 
-    After you define your agent class, you can add your custom functionality. In this example, the [OnEndOfData](https://msdn.microsoft.com/library/Microsoft.Exchange.Data.Transport.Smtp.SmtpReceiveAgent.OnEndOfData.aspx) event is redirected to your custom event handler. 
+   After you define your agent class, you can add your custom functionality. In this example, the [OnEndOfData](https://msdn.microsoft.com/library/Microsoft.Exchange.Data.Transport.Smtp.SmtpReceiveAgent.OnEndOfData.aspx) event is redirected to your custom event handler. 
     
-## Additional resources
+## See also
 
-- [Transport agent concepts in Exchange 2013](transport-agent-concepts-in-exchange-2013.md)
-    
-- [Transport agent reference for Exchange 2013](transport-agent-reference-for-exchange-2013.md)
-    
-- [SmtpReceiveAgentFactory](https://msdn.microsoft.com/library/Microsoft.Exchange.Data.Transport.Smtp.SmtpReceiveAgentFactory.aspx)
-    
+- [Transport agent concepts in Exchange 2013](transport-agent-concepts-in-exchange-2013.md)    
+- [Transport agent reference for Exchange 2013](transport-agent-reference-for-exchange-2013.md)    
+- [SmtpReceiveAgentFactory](https://msdn.microsoft.com/library/Microsoft.Exchange.Data.Transport.Smtp.SmtpReceiveAgentFactory.aspx)    
 - [SmtpReceiveAgent](https://msdn.microsoft.com/library/Microsoft.Exchange.Data.Transport.Smtp.SmtpReceiveAgent.aspx)
     
 

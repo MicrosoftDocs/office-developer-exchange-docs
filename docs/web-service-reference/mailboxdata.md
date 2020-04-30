@@ -1,9 +1,7 @@
 ---
 title: "MailboxData"
- 
- 
 manager: sethgros
-ms.date: 9/17/2015
+ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
@@ -20,13 +18,13 @@ description: "The MailboxData element represents an individual mailbox user and 
 
 The **MailboxData** element represents an individual mailbox user and options for the type of data to be returned about the mailbox user. 
   
-[GetUserAvailabilityRequest](getuseravailabilityrequest.md)
+- [GetUserAvailabilityRequest](getuseravailabilityrequest.md)
   
-[MailboxDataArray](mailboxdataarray.md)
+- [MailboxDataArray](mailboxdataarray.md)
   
-[MailboxData](mailboxdata.md)
+- [MailboxData](mailboxdata.md)
   
-```
+```xml
 <MailboxData>
    <Email>...</Email>
    <AttendeeType>...</AttendeeType>
@@ -34,16 +32,17 @@ The **MailboxData** element represents an individual mailbox user and options fo
 <MailboxData>
 ```
 
- **MailboxData**
+**MailboxData**
+
 ## Attributes and elements
 
 The following sections describe attributes, child elements, and parent elements.
   
-#### Attributes
+### Attributes
 
 None.
   
-#### Child elements
+### Child elements
 
 |**Element**|**Description**|
 |:-----|:-----|
@@ -51,7 +50,7 @@ None.
 |[AttendeeType](attendeetype.md) <br/> |Represents the type of attendee identified in the [Email (EmailAddressType)](email-emailaddresstype.md) element. This is used in requests for meeting suggestions.  <br/> |
 |[ExcludeConflicts](excludeconflicts.md) <br/> |Specifies whether to return suggested times for calendar times that conflict among the attendees.  <br/> |
    
-#### Parent elements
+### Parent elements
 
 |**Element**|**Description**|
 |:-----|:-----|
@@ -66,9 +65,9 @@ A client application can define one to many **MailboxData** elements.
   
 ## Example
 
-```
+```xml
 <MailboxDataArray>
-  <MailboxData xmlns="http://schemas.microsoft.com/exchange/services/2006/types">
+  <MailboxData xmlns="https://schemas.microsoft.com/exchange/services/2006/types">
     <Email>
       <Name></Name>
       <Address>someone@ExServer.example.com</Address>
@@ -84,19 +83,14 @@ A client application can define one to many **MailboxData** elements.
 
 |||
 |:-----|:-----|
-|Namespace  <br/> |http://schemas.microsoft.com/exchange/services/2006/types  <br/> |
+|Namespace  <br/> |https://schemas.microsoft.com/exchange/services/2006/types  <br/> |
 |Schema Name  <br/> |Types schema  <br/> |
 |Validation File  <br/> |Types.xsd  <br/> |
 |Can be Empty  <br/> |False  <br/> |
    
 ## See also
 
-#### Reference
-
-[GetUserAvailability operation](getuseravailability-operation.md)
-  
-[GetUserAvailabilityRequest](getuseravailabilityrequest.md)
-#### Other resources
-
-[Getting User Availability](http://msdn.microsoft.com/library/d4133fcb-9b0f-4e6b-aadf-a389da83516a%28Office.15%29.aspx)
+- [GetUserAvailability operation](getuseravailability-operation.md)
+- [GetUserAvailabilityRequest](getuseravailabilityrequest.md)
+- [Getting User Availability](https://msdn.microsoft.com/library/d4133fcb-9b0f-4e6b-aadf-a389da83516a%28Office.15%29.aspx)
 

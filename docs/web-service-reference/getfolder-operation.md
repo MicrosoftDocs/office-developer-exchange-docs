@@ -3,24 +3,24 @@ title: "GetFolder operation"
  
  
 manager: sethgros
-ms.date: 9/17/2015
+ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
 api_name:
 - GetFolder
 api_type:
 - schema
 ms.assetid: 355bcf93-dc71-4493-b177-622afac5fdb9
 description: "The GetFolder operation gets folders from the Exchange store."
+localization_priority: Priority
 ---
 
 # GetFolder operation
 
 The **GetFolder** operation gets folders from the Exchange store. 
   
-## GetFolder Request Example
+## GetFolder request example
 
 ### Description
 
@@ -31,10 +31,10 @@ The following example of a **GetFolder** request shows how to obtain a folder id
 ```XML
 <?xml version="1.0" encoding="utf-8"?>
 <soap:Envelope xmlns:soap="http://schemas.xmlsoap.org/soap/envelope/"
-   xmlns:t="http://schemas.microsoft.com/exchange/services/2006/types">
+   xmlns:t="https://schemas.microsoft.com/exchange/services/2006/types">
   <soap:Body>
-    <GetFolder xmlns="http://schemas.microsoft.com/exchange/services/2006/messages"
-               xmlns:t="http://schemas.microsoft.com/exchange/services/2006/types">
+    <GetFolder xmlns="https://schemas.microsoft.com/exchange/services/2006/messages"
+               xmlns:t="https://schemas.microsoft.com/exchange/services/2006/types">
       <FolderShape>
         <t:BaseShape>Default</t:BaseShape>
       </FolderShape>
@@ -46,7 +46,7 @@ The following example of a **GetFolder** request shows how to obtain a folder id
 </soap:Envelope>
 ```
 
-### Request Elements
+### Request elements
 
 This **GetFolder** request includes the following elements: 
   
@@ -65,7 +65,7 @@ See the schema for additional elements that you can use to form a **GetFolder** 
 > [!NOTE]
 > The schema that describes this element is located in the IIS virtual directory that hosts Exchange Web Services. 
   
-## GetFolder Response Example
+## GetFolder response example
 
 ### Description
 
@@ -82,12 +82,12 @@ The following Simple Object Access Protocol (SOAP) body example shows a successf
                xmlns:xsd="http://www.w3.org/2001/XMLSchema">
   <soap:Header>
     <t:ServerVersionInfo MajorVersion="8" MinorVersion="0" MajorBuildNumber="628" MinorBuildNumber="0" 
-                         xmlns:t="http://schemas.microsoft.com/exchange/services/2006/types" />
+                         xmlns:t="https://schemas.microsoft.com/exchange/services/2006/types" />
   </soap:Header>
   <soap:Body>
-    <GetFolderResponse xmlns:m="http://schemas.microsoft.com/exchange/services/2006/messages" 
-                       xmlns:t="http://schemas.microsoft.com/exchange/services/2006/types" 
-                       xmlns="http://schemas.microsoft.com/exchange/services/2006/messages">
+    <GetFolderResponse xmlns:m="https://schemas.microsoft.com/exchange/services/2006/messages" 
+                       xmlns:t="https://schemas.microsoft.com/exchange/services/2006/types" 
+                       xmlns="https://schemas.microsoft.com/exchange/services/2006/messages">
       <m:ResponseMessages>
         <m:GetFolderResponseMessage ResponseClass="Success">
           <m:ResponseCode>NoError</m:ResponseCode>
@@ -107,7 +107,7 @@ The following Simple Object Access Protocol (SOAP) body example shows a successf
 </soap:Envelope>
 ```
 
-### Response Elements
+### Response elements
 
 This **GetFolder** response includes the following elements: 
   
@@ -131,7 +131,7 @@ This **GetFolder** response includes the following elements:
     
 - [UnreadCount](unreadcount.md)
     
-## GetFolder Error Response Example
+## GetFolder Error response example
 
 ### Description
 
@@ -146,12 +146,12 @@ The following SOAP body example shows an error response that is caused by an inc
                xmlns:xsd="http://www.w3.org/2001/XMLSchema">
   <soap:Header>
     <t:ServerVersionInfo MajorVersion="8" MinorVersion="0" MajorBuildNumber="628" MinorBuildNumber="0" 
-                         xmlns:t="http://schemas.microsoft.com/exchange/services/2006/types" />
+                         xmlns:t="https://schemas.microsoft.com/exchange/services/2006/types" />
   </soap:Header>
   <soap:Body>
-    <GetFolderResponse xmlns:m="http://schemas.microsoft.com/exchange/services/2006/messages" 
-                       xmlns:t="http://schemas.microsoft.com/exchange/services/2006/types" 
-                       xmlns="http://schemas.microsoft.com/exchange/services/2006/messages">
+    <GetFolderResponse xmlns:m="https://schemas.microsoft.com/exchange/services/2006/messages" 
+                       xmlns:t="https://schemas.microsoft.com/exchange/services/2006/types" 
+                       xmlns="https://schemas.microsoft.com/exchange/services/2006/messages">
       <m:ResponseMessages>
         <m:GetFolderResponseMessage ResponseClass="Error">
           <m:MessageText>Id is malformed.</m:MessageText>
@@ -165,7 +165,7 @@ The following SOAP body example shows an error response that is caused by an inc
 </soap:Envelope>
 ```
 
-### Response Elements
+### Response elements
 
 This **GetFolder** error response includes the following elements: 
   
@@ -189,7 +189,7 @@ For applications that target Exchange Online, Exchange Online as part of Office 
   
 ## See also
 
-#### Concepts
 
-[EWS XML elements in Exchange](ews-xml-elements-in-exchange.md)
+
+- [EWS XML elements in Exchange](ews-xml-elements-in-exchange.md)
 

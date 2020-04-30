@@ -1,7 +1,7 @@
 ---
 title: "DeploymentId (POX)"
 manager: sethgros
-ms.date: 9/17/2015
+ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
 localization_priority: Normal
@@ -9,23 +9,18 @@ api_type:
 - schema
 ms.assetid: b879c134-307e-4645-bb53-55d8ba4fad9c
 description: "The DeploymentId element uniquely identifies the Microsoft Exchange Server 2007 forest."
- 
- 
 ---
 
 # DeploymentId (POX)
 
 The **DeploymentId** element uniquely identifies the Microsoft Exchange Server 2007 forest. 
   
-[AutoDiscover (POX)](autodiscover-pox.md)
+- [AutoDiscover (POX)](autodiscover-pox.md)  
+- [Response (POX)](response-pox.md) 
+- [User (POX)](user-pox.md)  
+- [DeploymentId (POX)](deploymentid-pox.md)
   
-[Response (POX)](response-pox.md)
-  
-[User (POX)](user-pox.md)
-  
-[DeploymentId (POX)](deploymentid-pox.md)
-  
-```
+```xml
 <DeploymentId/>
 ```
 
@@ -33,15 +28,15 @@ The **DeploymentId** element uniquely identifies the Microsoft Exchange Server 2
 
 The following sections describe attributes, child elements, and parent elements.
   
-#### Attributes
+### Attributes
 
 None.
   
-#### Child elements
+### Child elements
 
 None.
   
-#### Parent elements
+### Parent elements
 
 |**Element**|**Description**|
 |:-----|:-----|
@@ -57,7 +52,5 @@ If you uninstall and then reinstall Exchange 2007 and you use the same server na
   
 ## See also
 
-#### Concepts
-
-[POX Autodiscover XML elements for Exchange](pox-autodiscover-xml-elements-for-exchange.md)
+- [POX Autodiscover XML elements for Exchange](pox-autodiscover-xml-elements-for-exchange.md)
 

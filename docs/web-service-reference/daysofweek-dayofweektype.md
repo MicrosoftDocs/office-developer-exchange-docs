@@ -1,9 +1,7 @@
 ---
 title: "DaysOfWeek (DayOfWeekType)"
- 
- 
 manager: sethgros
-ms.date: 9/17/2015
+ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
@@ -20,24 +18,25 @@ description: "The DaysOfWeek element describes days of the week that are used in
 
 The **DaysOfWeek** element describes days of the week that are used in item recurrence patterns. 
   
-```
+```xml
 <DaysOfWeek/>
 ```
 
- **DayOfWeekType**
+**DayOfWeekType**
+
 ## Attributes and elements
 
 The following sections describe attributes, child elements, and parent elements.
   
-#### Attributes
+### Attributes
 
 None.
   
-#### Child elements
+### Child elements
 
 None.
   
-#### Parent elements
+### Parent elements
 
 |**Element**|**Description**|
 |:-----|:-----|
@@ -48,24 +47,15 @@ None.
 
 A text value is required. The following are the possible values:
   
-- Sunday
-    
-- Monday
-    
-- Tuesday
-    
-- Wednesday
-    
-- Thursday
-    
-- Friday
-    
-- Saturday
-    
-- Day (not used in the TimeChangePatternTypes)
-    
-- Weekday (not used in the TimeChangePatternTypes)
-    
+- Sunday    
+- Monday    
+- Tuesday   
+- Wednesday    
+- Thursday    
+- Friday    
+- Saturday    
+- Day (not used in the TimeChangePatternTypes)    
+- Weekday (not used in the TimeChangePatternTypes)    
 - WeekendDay (not used in the TimeChangePatternTypes)
     
 ## Remarks
@@ -76,14 +66,12 @@ The schema that describes this element is located in the EWS virtual directory o
 
 |||
 |:-----|:-----|
-|Namespace  <br/> |http://schemas.microsoft.com/exchange/services/2006/types  <br/> |
+|Namespace  <br/> |https://schemas.microsoft.com/exchange/services/2006/types  <br/> |
 |Schema Name  <br/> |Types schema  <br/> |
 |Validation File  <br/> |Types.xsd  <br/> |
 |Can be Empty  <br/> |False  <br/> |
    
 ## See also
 
-#### Concepts
-
-[EWS XML elements in Exchange](ews-xml-elements-in-exchange.md)
+- [EWS XML elements in Exchange](ews-xml-elements-in-exchange.md)
 

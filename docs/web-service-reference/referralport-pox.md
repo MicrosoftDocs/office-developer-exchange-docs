@@ -1,7 +1,7 @@
 ---
 title: "ReferralPort (POX)"
 manager: sethgros
-ms.date: 9/17/2015
+ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
 localization_priority: Normal
@@ -27,7 +27,7 @@ The **ReferralPort** element specifies the port that is used to get a referral t
   
 [ReferralPort (POX)](referralport-pox.md)
   
-```
+```xml
 <ReferralPort/>
 ```
 
@@ -35,15 +35,15 @@ The **ReferralPort** element specifies the port that is used to get a referral t
 
 The following sections describe attributes, child elements, and parent elements.
   
-#### Attributes
+### Attributes
 
 None.
   
-#### Child elements
+### Child elements
 
 None.
   
-#### Parent elements
+### Parent elements
 
 |**Element**|**Description**|
 |:-----|:-----|
@@ -59,7 +59,7 @@ The **ReferralPort** element is only used when the [Type (POX)](type-pox.md) ele
   
 ## See also
 
-#### Concepts
+
 
 [POX Autodiscover XML elements for Exchange](pox-autodiscover-xml-elements-for-exchange.md)
 

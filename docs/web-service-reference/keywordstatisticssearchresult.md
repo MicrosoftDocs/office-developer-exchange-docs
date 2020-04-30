@@ -3,7 +3,7 @@ title: "KeywordStatisticsSearchResult"
  
  
 manager: sethgros
-ms.date: 3/9/2015
+ms.date: 03/9/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
@@ -16,7 +16,7 @@ description: "The KeywordStatisticsSearchResult element contains a single keywor
 
 The **KeywordStatisticsSearchResult** element contains a single keyword search result. 
   
- * **Applies to: *** 
+
   
 ```XML
 <KeywordStatisticsSearchResult>
@@ -31,15 +31,15 @@ The **KeywordStatisticsSearchResult** element contains a single keyword search r
 
 The following sections describe attributes, child elements, and parent elements.
   
-#### Attributes
+### Attributes
 
 None.
   
-#### Child elements
+### Child elements
 
 [Keyword](keyword.md) | [ItemHits](itemhits.md) | [Size (long)](size-long.md)
   
-#### Parent elements
+### Parent elements
 
 [MailboxStatisticsSearchResult](mailboxstatisticssearchresult.md)
   
@@ -53,7 +53,7 @@ The schema that describes this element is located in the IIS virtual directory t
 
 |||
 |:-----|:-----|
-|Namespace  <br/> |http://schemas.microsoft.com/exchange/services/2006/types  <br/> |
+|Namespace  <br/> |https://schemas.microsoft.com/exchange/services/2006/types  <br/> |
 |Schema name  <br/> |Types schema  <br/> |
 |Validation file  <br/> |Types.xsd  <br/> |
 |Can be empty  <br/> ||

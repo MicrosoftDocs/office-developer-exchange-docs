@@ -1,9 +1,7 @@
 ---
 title: "DistinguishedGroupBy"
- 
- 
 manager: sethgros
-ms.date: 9/17/2015
+ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
@@ -20,11 +18,10 @@ description: "The DistinguishedGroupBy element provides standard groupings for F
 
 The **DistinguishedGroupBy** element provides standard groupings for FindItem queries. 
   
-[FindItem](finditem.md)
+- [FindItem](finditem.md) 
+- [DistinguishedGroupBy](distinguishedgroupby.md)
   
-[DistinguishedGroupBy](distinguishedgroupby.md)
-  
-```
+```xml
 <DistinguishedGroupBy>
    <StandardGroupBy/>
 </DistinguishedGroupBy>
@@ -35,21 +32,21 @@ The **DistinguishedGroupBy** element provides standard groupings for FindItem qu
 
 The following sections describe attributes, child elements, and parent elements.
   
-#### Attributes
+### Attributes
 
 None.
   
-#### Child elements
+### Child elements
 
 |**Element**|**Description**|
 |:-----|:-----|
 |[StandardGroupBy](standardgroupby.md) <br/> |Represents the standard grouping and aggregating mechanisms for a grouped FindItem operation.  <br/> |
    
-#### Parent elements
+### Parent elements
 
 |**Element**|**Description**|
 |:-----|:-----|
-|[FindItem](finditem.md) <br/> |Defines a request to find items in a mailbox.  <br/> The following is the XPath expression to this element:  `/FindItem` <br/> |
+|[FindItem](finditem.md) <br/> |Defines a request to find items in a mailbox.<br/><br/>The following is the XPath expression to this element:  `/FindItem` <br/> |
    
 ## Remarks
 
@@ -61,17 +58,13 @@ The schema that describes this element is located in the EWS virtual directory o
 
 |||
 |:-----|:-----|
-|Namespace  <br/> |http://schemas.microsoft.com/exchange/services/2006/messages  <br/> |
+|Namespace  <br/> |https://schemas.microsoft.com/exchange/services/2006/messages  <br/> |
 |Schema Name  <br/> |Messages schema  <br/> |
 |Validation File  <br/> |Messages.xsd  <br/> |
 |Can be Empty  <br/> |False  <br/> |
    
 ## See also
 
-#### Reference
-
-[FindItem operation](finditem-operation.md)
-#### Other resources
-
-[Finding Items](http://msdn.microsoft.com/library/63af1f9c-464b-4fca-9ae3-3d60f24ca93c%28Office.15%29.aspx)
+- [FindItem operation](finditem-operation.md)
+- [Finding Items](https://msdn.microsoft.com/library/63af1f9c-464b-4fca-9ae3-3d60f24ca93c%28Office.15%29.aspx)
 

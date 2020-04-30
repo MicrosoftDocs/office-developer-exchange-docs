@@ -38,6 +38,7 @@
     "overwrite": [],
     "externalReference": [],
     "globalMetadata": {
+
       "breadcrumb_path": "/exchange/client-developer/breadcrumb/toc.json",
       "extendBreadcrumb": true,
       "ms.topic": "conceptual",
@@ -45,18 +46,20 @@
 	   "ms.suite": "office",
 	   "ms.prod" : "exchange",
 	   "ms.author": "o365devx",
-	   "author": "o365devx"
+	   "author": "o365devx",
+	   "contributors_to_exclude": ["nivnar"]
     },
     "fileMetadata": {
  	"ms.technology": 
        { 
-         "transport-agents/**.md" : "dev-overview",
+         "transport-agents/**.md" : "transport-agents",
 		 "management/**.md" : "management",
 		 "backup-restore/**.md" : "backup-restore",
 		 "exchange-web-services/**.md" : "ews",
 		 "web-service-reference/**.md" : "ews"		 
        }
 	},
+
     "template": [],
     "dest": "officedocs-dev-exchange-docs",
     "markdownEngineName": "markdig"

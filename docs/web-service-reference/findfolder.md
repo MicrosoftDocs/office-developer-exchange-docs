@@ -1,9 +1,7 @@
 ---
 title: "FindFolder"
- 
- 
 manager: sethgros
-ms.date: 9/17/2015
+ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
@@ -20,7 +18,7 @@ description: "The FindFolder element defines a request to find folders in a mail
 
 The **FindFolder** element defines a request to find folders in a mailbox. 
   
-```
+```xml
 <FindFolder Traversal="Shallow/Deep/SoftDeleted">
    <FolderShape/>
    <IndexedPageFolderView/>
@@ -29,18 +27,28 @@ The **FindFolder** element defines a request to find folders in a mailbox.
 </FindFolder>
 ```
 
- **FindFolderType**
+```xml
+<FindFolder Traversal="Shallow/Deep/SoftDeleted">
+   <FolderShape/>
+   <FractionalPageFolderView/>
+   <Restriction/>
+   <ParentFolderIds/>
+</FindFolder>
+```
+
+**FindFolderType**
+
 ## Attributes and elements
 
 The following sections describe attributes, child elements, and parent elements.
   
-#### Attributes
+### Attributes
 
 |**Attribute**|**Description**|
 |:-----|:-----|
 |Traversal  <br/> |Defines how a search is performed. This attribute is required.  <br/> |
    
-#### Traversal Attribute Values
+#### Traversal attribute values
 
 |**Value**|**Description**|
 |:-----|:-----|
@@ -48,7 +56,7 @@ The following sections describe attributes, child elements, and parent elements.
 |Deep  <br/> |Instructs the FindFolder operation to search in all child folders of the identified parent folder and to return only the folder IDs for items that have not been deleted. This is called a deep traversal.  <br/> |
 |SoftDeleted  <br/> |Instructs the FindFolder operation to perform a shallow traversal search for deleted items.  <br/> |
    
-#### Child elements
+### Child elements
 
 |**Element**|**Description**|
 |:-----|:-----|
@@ -58,7 +66,7 @@ The following sections describe attributes, child elements, and parent elements.
 |[Restriction](restriction.md) <br/> |Defines a restriction or query that is used to filter folders in a FindFolder operation. This element is optional.  <br/> |
 |[ParentFolderIds](parentfolderids.md) <br/> |Identifies folders for the FindFolder operation to search.  <br/> |
    
-#### Parent elements
+### Parent elements
 
 None.
   
@@ -70,12 +78,12 @@ The schema that describes this element is located in the EWS virtual directory o
 
 The following example of a FindFolder request shows how to form a request to find all the folders located in an Inbox.
   
-```
+```xml
 <?xml version="1.0" encoding="utf-8"?>
 <soap:Envelope xmlns:soap="http://schemas.xmlsoap.org/soap/envelope/"
-  xmlns:t="http://schemas.microsoft.com/exchange/services/2006/types">
+  xmlns:t="https://schemas.microsoft.com/exchange/services/2006/types">
   <soap:Body>
-    <FindFolder Traversal="Shallow" xmlns="http://schemas.microsoft.com/exchange/services/2006/messages">
+    <FindFolder Traversal="Shallow" xmlns="https://schemas.microsoft.com/exchange/services/2006/messages">
       <FolderShape>
         <t:BaseShape>Default</t:BaseShape>
       </FolderShape>
@@ -91,14 +99,12 @@ The following example of a FindFolder request shows how to form a request to fin
 
 |||
 |:-----|:-----|
-|Namespace  <br/> |http://schemas.microsoft.com/exchange/services/2006/messages  <br/> |
+|Namespace  <br/> |https://schemas.microsoft.com/exchange/services/2006/messages  <br/> |
 |Schema Name  <br/> |Messages schema  <br/> |
 |Validation File  <br/> |Messages.xsd  <br/> |
 |Can be Empty  <br/> |False  <br/> |
    
 ## See also
 
-#### Reference
-
-[FindFolder operation](findfolder-operation.md)
+- [FindFolder operation](findfolder-operation.md)
 

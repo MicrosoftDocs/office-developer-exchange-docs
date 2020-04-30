@@ -1,9 +1,7 @@
 ---
 title: "AttachmentIds"
- 
- 
 manager: sethgros
-ms.date: 9/17/2015
+ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
@@ -20,7 +18,7 @@ description: "The AttachmentIds element contains an array of attachment identifi
 
 The **AttachmentIds** element contains an array of attachment identifiers. 
   
-```
+```xml
 <AttachmentIds>
    <AttachmentId Id=""/>
 </AttachmentIds>
@@ -31,17 +29,17 @@ The **AttachmentIds** element contains an array of attachment identifiers.
 
 The following sections describe attributes, child elements, and parent elements.
   
-#### Attributes
+### Attributes
 
 None.
   
-#### Child elements
+### Child elements
 
 |**Element**|**Description**|
 |:-----|:-----|
 |[AttachmentId (GetAttachment and DeleteAttachment)](attachmentid-getattachment-and-deleteattachment.md) <br/> |The element that identifies a single attachment.  <br/> |
    
-#### Parent elements
+### Parent elements
 
 |**Element**|**Description**|
 |:-----|:-----|
@@ -56,16 +54,13 @@ The schema that describes this element is located in the EWS virtual directory o
 
 |||
 |:-----|:-----|
-|Namespace  <br/> |http://schemas.microsoft.com/exchange/services/2006/messages  <br/> |
+|Namespace  <br/> |https://schemas.microsoft.com/exchange/services/2006/messages  <br/> |
 |Schema Name  <br/> |Messages schema  <br/> |
 |Validation File  <br/> |Messages.xsd  <br/> |
 |Can be Empty  <br/> |False  <br/> |
    
 ## See also
 
-#### Reference
-
-[DeleteAttachment operation](deleteattachment-operation.md)
-  
-[GetAttachment operation](getattachment-operation.md)
+- [DeleteAttachment operation](deleteattachment-operation.md)
+- [GetAttachment operation](getattachment-operation.md)
 

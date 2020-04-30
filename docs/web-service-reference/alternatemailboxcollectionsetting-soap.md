@@ -1,7 +1,7 @@
 ---
 title: "AlternateMailboxCollectionSetting (SOAP)"
 manager: sethgros
-ms.date: 9/17/2015
+ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
 localization_priority: Normal
@@ -9,8 +9,6 @@ api_type:
 - schema
 ms.assetid: 0ba37d5b-3c19-4fdd-a196-b4723e6ba1b0
 description: "The AlternateMailboxCollectionSetting element contains a collection of alternate mailbox settings."
- 
- 
 ---
 
 # AlternateMailboxCollectionSetting (SOAP)
@@ -28,17 +26,17 @@ The **AlternateMailboxCollectionSetting** element contains a collection of alter
 
 The following sections describe attributes, child elements, and parent elements.
   
-#### Attributes
+### Attributes
 
 None.
   
-#### Child elements
+### Child elements
 
 |**Element**|**Description**|
 |:-----|:-----|
 |[AlternateMailboxes (SOAP)](alternatemailboxes-soap.md) <br/> |Represents a collection of alternate mailboxes.  <br/> |
    
-#### Parent elements
+### Parent elements
 
 None.
   
@@ -50,14 +48,12 @@ None.
 
 |||
 |:-----|:-----|
-|Namespace  <br/> |http://schemas.microsoft.com/exchange/2010/Autodiscover  <br/> |
+|Namespace  <br/> |https://schemas.microsoft.com/exchange/2010/Autodiscover  <br/> |
 |Schema Name  <br/> |Autodiscover schema  <br/> |
 |Validation File  <br/> |Messages.xsd  <br/> |
 |Can be Empty  <br/> |True  <br/> |
    
 ## See also
 
-#### Concepts
-
-[SOAP Autodiscover web service reference for Exchange](soap-autodiscover-web-service-reference-for-exchange.md)
+- [SOAP Autodiscover web service reference for Exchange](soap-autodiscover-web-service-reference-for-exchange.md)
 

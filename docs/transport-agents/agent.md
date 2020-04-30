@@ -1,9 +1,7 @@
 ---
 title: "agent"
- 
- 
 manager: sethgros
-ms.date: 9/17/2015
+ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: overview
 ms.prod: office-online-server
@@ -17,20 +15,15 @@ description: "Last modified: September 17, 2015"
 ---
 
 # agent
-
- **Last modified:** September 17, 2015 
   
- * **Applies to:** Exchange Server 2013 * 
+**Applies to:** Exchange Server 2013
   
 The **agent** element contains configuration information about an installed agent. 
   
-[configuration](configuration.md)
-  
-[mexRuntime](mexruntime.md)
-  
-[agentList](agentlist.md)
-  
-[agent](agent.md)
+- [configuration](configuration.md) 
+- [mexRuntime](mexruntime.md)
+- [agentList](agentlist.md)
+- [agent](agent.md)
   
 ```XML
 <agent
@@ -42,12 +35,13 @@ The **agent** element contains configuration information about an installed agen
 </agent>
 ```
 
- **agentType (complexType)**
+**agentType (complexType)**
+
 ## Attributes and elements
 
 The following sections describe attributes, child elements, and parent elements.
   
-#### Attributes
+### Attributes
 
 |**Attribute**|**Description**|
 |:-----|:-----|
@@ -57,11 +51,11 @@ The following sections describe attributes, child elements, and parent elements.
 |**assemblyPath** <br/> |The fully qualified path, including the file name, of the assembly that contains the code for the agent. This attribute requires a nonempty string value that contains at least one character.  <br/> |
 |**enabled** <br/> |A Boolean value that indicates whether the agent is enabled. The value is **true** if the agent is enabled; otherwise, the value is **false**. This attribute is required.  <br/> |
    
-#### Child elements
+### Child elements
 
 None.
   
-#### Parent elements
+### Parent elements
 
 |**Element**|**Description**|
 |:-----|:-----|
@@ -78,7 +72,5 @@ None.
    
 ## See also
 
-#### Concepts
-
-[Agents configuration file elements for Exchange 2013](agents-configuration-file-elements-for-exchange-2013.md)
+- [Agents configuration file elements for Exchange 2013](agents-configuration-file-elements-for-exchange-2013.md)
 

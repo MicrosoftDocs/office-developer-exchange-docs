@@ -3,7 +3,7 @@ title: "MoveFolder operation"
  
  
 manager: sethgros
-ms.date: 9/17/2015
+ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
@@ -24,7 +24,7 @@ The MoveFolder operation moves folders from a specified folder and puts them in 
 
 The MoveFolder operation is similar to the CopyFolder operation. You cannot move distinguished folders. You can move multiple folders at one time to the destination folder.
   
-## MoveFolder Request Example
+## MoveFolder request example
 
 ### Description
 
@@ -35,9 +35,9 @@ The following example of a MoveFolder request shows how to form a request to mov
 ```XML
 <?xml version="1.0" encoding="utf-8"?>
 <soap:Envelope xmlns:soap="http://schemas.xmlsoap.org/soap/envelope/"
-  xmlns:t="http://schemas.microsoft.com/exchange/services/2006/types">
+  xmlns:t="https://schemas.microsoft.com/exchange/services/2006/types">
   <soap:Body>
-    <MoveFolder xmlns="http://schemas.microsoft.com/exchange/services/2006/messages">
+    <MoveFolder xmlns="https://schemas.microsoft.com/exchange/services/2006/messages">
       <ToFolderId>
         <t:DistinguishedFolderId Id="junkemail"/>
       </ToFolderId>
@@ -54,7 +54,7 @@ The following example of a MoveFolder request shows how to form a request to mov
 > [!NOTE]
 > The value of the ID attribute of the [FolderId](folderid.md) element has been shortened for readability. 
   
-### Request Elements
+### Request elements
 
 This MoveFolder request includes the following elements:
   
@@ -73,7 +73,7 @@ See the schema for additional elements that you can use to form a MoveFolder req
 > [!NOTE]
 > The default location of the schema is in the EWS virtual directory on the computer that has the Client Access server role installed. 
   
-## Successful MoveFolder Response Example
+## Successful MoveFolder response example
 
 ### Description
 
@@ -88,12 +88,12 @@ The following example shows a successful response to the MoveFolder request.
                xmlns:xsd="http://www.w3.org/2001/XMLSchema">
   <soap:Header>
     <t:ServerVersionInfo MajorVersion="8" MinorVersion="0" MajorBuildNumber="685" MinorBuildNumber="8" 
-                         xmlns:t="http://schemas.microsoft.com/exchange/services/2006/types" />
+                         xmlns:t="https://schemas.microsoft.com/exchange/services/2006/types" />
   </soap:Header>
   <soap:Body>
-    <MoveFolderResponse xmlns:m="http://schemas.microsoft.com/exchange/services/2006/messages" 
-                        xmlns:t="http://schemas.microsoft.com/exchange/services/2006/types" 
-                        xmlns="http://schemas.microsoft.com/exchange/services/2006/messages">
+    <MoveFolderResponse xmlns:m="https://schemas.microsoft.com/exchange/services/2006/messages" 
+                        xmlns:t="https://schemas.microsoft.com/exchange/services/2006/types" 
+                        xmlns="https://schemas.microsoft.com/exchange/services/2006/messages">
       <m:ResponseMessages>
         <m:MoveFolderResponseMessage ResponseClass="Success">
           <m:ResponseCode>NoError</m:ResponseCode>
@@ -116,7 +116,7 @@ The following example shows a successful response to the MoveFolder request.
   
 The FolderId that is returned in the response represents the folder that was moved to the new the folder location.
   
-### Response Elements
+### Response elements
 
 The MoveFolder response includes the following elements:
   
@@ -134,7 +134,7 @@ The MoveFolder response includes the following elements:
     
 - [FolderId](folderid.md)
     
-## MoveFolder Error Response Example
+## MoveFolder Error response example
 
 ### Description
 
@@ -149,12 +149,12 @@ The following example shows an error response that occurs when you try to move a
                  xmlns:xsd="http://www.w3.org/2001/XMLSchema">
   <soap:Header>
     <t:ServerVersionInfo MajorVersion="8" MinorVersion="0" MajorBuildNumber="685" MinorBuildNumber="8" 
-                         xmlns:t="http://schemas.microsoft.com/exchange/services/2006/types" />
+                         xmlns:t="https://schemas.microsoft.com/exchange/services/2006/types" />
   </soap:Header>
   <soap:Body>
-    <MoveFolderResponse xmlns:m="http://schemas.microsoft.com/exchange/services/2006/messages" 
-                          xmlns:t="http://schemas.microsoft.com/exchange/services/2006/types" 
-                          xmlns="http://schemas.microsoft.com/exchange/services/2006/messages">
+    <MoveFolderResponse xmlns:m="https://schemas.microsoft.com/exchange/services/2006/messages" 
+                          xmlns:t="https://schemas.microsoft.com/exchange/services/2006/types" 
+                          xmlns="https://schemas.microsoft.com/exchange/services/2006/messages">
       <m:ResponseMessages>
         <m:MoveFolderResponseMessage ResponseClass="Error">
           <m:MessageText>Cannot move distinguished folder.</m:MessageText>
@@ -168,7 +168,7 @@ The following example shows an error response that occurs when you try to move a
 </soap:Envelope>
 ```
 
-### Error Response Elements
+### Error response elements
 
 The MoveFolder error response includes the following elements:
   
@@ -188,7 +188,7 @@ The MoveFolder error response includes the following elements:
     
 ## See also
 
-#### Reference
+
 
 [CopyFolder operation](copyfolder-operation.md)
 

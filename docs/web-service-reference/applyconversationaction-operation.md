@@ -1,9 +1,7 @@
 ---
 title: "ApplyConversationAction operation"
- 
- 
 manager: sethgros
-ms.date: 9/17/2015
+ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
@@ -20,7 +18,7 @@ description: "The ApplyConversationAction operation sets a one-time or follow up
 
 The **ApplyConversationAction** operation sets a one-time or follow up action on all the items in a conversation. The **ApplyConversationAction** operation allows you to categorize, move, copy, delete, and set the read state on all items in a conversation. Actions can also be set for new messages in a conversation. 
   
-## ApplyConversationAction Request Example
+## ApplyConversationAction request example
 
 ### Description
 
@@ -33,8 +31,8 @@ The following example of an **ApplyConversationAction** request shows how to mov
 <soap:Envelope xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
                xmlns:xsd="http://www.w3.org/2001/XMLSchema"
                xmlns:soap="http://schemas.xmlsoap.org/soap/envelope/"
-               xmlns:t="http://schemas.microsoft.com/exchange/services/2006/types"
-               xmlns:m="http://schemas.microsoft.com/exchange/services/2006/messages">
+               xmlns:t="https://schemas.microsoft.com/exchange/services/2006/types"
+               xmlns:m="https://schemas.microsoft.com/exchange/services/2006/messages">
   <soap:Header>
     <t:RequestServerVersion Version="Exchange2010_SP1" />
   </soap:Header>
@@ -58,7 +56,7 @@ The following example of an **ApplyConversationAction** request shows how to mov
 
 The conversation and folder identifiers have been shortened to preserve readability.
   
-## ApplyConversationAction Response Example
+## ApplyConversationAction response example
 
 ### Description
 
@@ -75,15 +73,15 @@ The following example shows a successful response to an **ApplyConversationActio
                          MajorBuildNumber="91" 
                          MinorBuildNumber="0" 
                          Version="Exchange2010_SP1" 
-                         xmlns:h="http://schemas.microsoft.com/exchange/services/2006/types" 
-                         xmlns="http://schemas.microsoft.com/exchange/services/2006/types" 
+                         xmlns:h="https://schemas.microsoft.com/exchange/services/2006/types" 
+                         xmlns="https://schemas.microsoft.com/exchange/services/2006/types" 
                          xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
                          xmlns:xsd="http://www.w3.org/2001/XMLSchema"/>
   </s:Header>
   <s:Body xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
           xmlns:xsd="http://www.w3.org/2001/XMLSchema">
-    <m:ApplyConversationActionResponse xmlns:m="http://schemas.microsoft.com/exchange/services/2006/messages" 
-                                       xmlns:t="http://schemas.microsoft.com/exchange/services/2006/types">
+    <m:ApplyConversationActionResponse xmlns:m="https://schemas.microsoft.com/exchange/services/2006/messages" 
+                                       xmlns:t="https://schemas.microsoft.com/exchange/services/2006/types">
       <m:ResponseMessages>
         <m:ApplyConversationActionResponseMessage ResponseClass="Success">
           <m:ResponseCode>NoError</m:ResponseCode>
@@ -96,15 +94,8 @@ The following example shows a successful response to an **ApplyConversationActio
 
 ## See also
 
-#### Reference
-
-[ApplyConversationAction operation](applyconversationaction-operation.md)
-#### Concepts
-
-[EWS operations in Exchange](ews-operations-in-exchange.md)
-  
-[EWS XML elements in Exchange](ews-xml-elements-in-exchange.md)
-#### Other resources
-
-[Conversations in EWS](http://msdn.microsoft.com/library/91e64629-db6c-4c94-9dcb-d386232e8467%28Office.15%29.aspx)
+- [ApplyConversationAction operation](applyconversationaction-operation.md)
+- [EWS operations in Exchange](ews-operations-in-exchange.md)
+- [EWS XML elements in Exchange](ews-xml-elements-in-exchange.md)
+- [Conversations in EWS](https://msdn.microsoft.com/library/91e64629-db6c-4c94-9dcb-d386232e8467%28Office.15%29.aspx)
 

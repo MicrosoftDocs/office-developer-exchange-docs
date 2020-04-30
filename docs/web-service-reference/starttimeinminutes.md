@@ -1,9 +1,7 @@
 ---
 title: "StartTimeInMinutes"
- 
- 
 manager: sethgros
-ms.date: 9/17/2015
+ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
@@ -20,40 +18,41 @@ description: "The StartTimeInMinutes element represents the start of the working
 
 The **StartTimeInMinutes** element represents the start of the working day for a mailbox user. 
   
-[GetUserAvailabilityResponse](getuseravailabilityresponse.md)
+- [GetUserAvailabilityResponse](getuseravailabilityresponse.md)
   
-[FreeBusyResponseArray](freebusyresponsearray.md)
+- [FreeBusyResponseArray](freebusyresponsearray.md)
   
-[FreeBusyResponse](freebusyresponse.md)
+- [FreeBusyResponse](freebusyresponse.md)
   
-[FreeBusyView](freebusyview.md)
+- [FreeBusyView](freebusyview.md)
   
-[WorkingHours](workinghours-ex15websvcsotherref.md)
+- [WorkingHours](workinghours-ex15websvcsotherref.md)
   
-[WorkingPeriodArray](workingperiodarray.md)
+- [WorkingPeriodArray](workingperiodarray.md)
   
-[WorkingPeriod](workingperiod.md)
+- [WorkingPeriod](workingperiod.md)
   
-[StartTimeInMinutes](starttimeinminutes.md)
+- [StartTimeInMinutes](starttimeinminutes.md)
   
-```
+```xml
 <StartTimeInMinutes>...</StartTimeInMinutes>
 ```
 
- **int**
+**int**
+
 ## Attributes and elements
 
 The following sections describe attributes, child elements, and parent elements.
   
-#### Attributes
+### Attributes
 
 None.
   
-#### Child elements
+### Child elements
 
 None.
   
-#### Parent elements
+### Parent elements
 
 |**Element**|**Description**|
 |:-----|:-----|
@@ -73,19 +72,14 @@ The schema that describes this element is located in the EWS virtual directory o
 
 |||
 |:-----|:-----|
-|Namespace  <br/> |http://schemas.microsoft.com/exchange/services/2006/types  <br/> |
+|Namespace  <br/> |https://schemas.microsoft.com/exchange/services/2006/types  <br/> |
 |Schema Name  <br/> |Types schema  <br/> |
 |Validation File  <br/> |Types.xsd  <br/> |
 |Can be Empty  <br/> |False  <br/> |
    
 ## See also
 
-#### Reference
-
-[GetUserAvailability operation](getuseravailability-operation.md)
-  
-[GetUserAvailabilityResponse](getuseravailabilityresponse.md)
-#### Other resources
-
-[Getting User Availability](http://msdn.microsoft.com/library/d4133fcb-9b0f-4e6b-aadf-a389da83516a%28Office.15%29.aspx)
+- [GetUserAvailability operation](getuseravailability-operation.md)
+- [GetUserAvailabilityResponse](getuseravailabilityresponse.md)
+- [Getting User Availability](https://msdn.microsoft.com/library/d4133fcb-9b0f-4e6b-aadf-a389da83516a%28Office.15%29.aspx)
 

@@ -1,7 +1,7 @@
 ---
 title: "SetOofStatus (UM web service)"
 manager: sethgros
-ms.date: 9/17/2015
+ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
 localization_priority: Normal
@@ -21,7 +21,7 @@ The **SetOofStatus** element defines a request to set the Unified Messaging Out 
   
 [SetOofStatus (UM web service)](setoofstatus-um-web-service.md)
   
-```
+```xml
 <SetOofStatus>
   <status/>
 </SetOofStatus>
@@ -32,17 +32,17 @@ The **SetOofStatus** element defines a request to set the Unified Messaging Out 
 
 The following sections describe attributes, child elements, and parent elements.
   
-#### Attributes
+### Attributes
 
 None.
   
-#### Child elements
+### Child elements
 
 |**Element**|**Description**|
 |:-----|:-----|
 |[Status (UM web service - SetOofStatus)](status-um-web-servicesetoofstatus.md) <br/> |Defines a value to use in a [SetOofStatus operation (UM web service)](setoofstatus-operation-um-web-service.md) request.  <br/> |
    
-#### Parent elements
+### Parent elements
 
 None.
   
@@ -54,14 +54,14 @@ None.
 
 |||
 |:-----|:-----|
-|Namespace  <br/> |http://schemas.microsoft.com/exchange/services/2006/messages  <br/> |
+|Namespace  <br/> |https://schemas.microsoft.com/exchange/services/2006/messages  <br/> |
 |Schema Name  <br/> |Messages  <br/> |
 |Validation File  <br/> |Messages.xsd  <br/> |
 |Can be Empty  <br/> |False  <br/> |
    
 ## See also
 
-#### Reference
+
 
 [SetOofStatus operation (UM web service)](setoofstatus-operation-um-web-service.md)
   

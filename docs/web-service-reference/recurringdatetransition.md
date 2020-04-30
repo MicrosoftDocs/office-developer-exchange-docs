@@ -3,7 +3,7 @@ title: "RecurringDateTransition"
  
  
 manager: sethgros
-ms.date: 9/17/2015
+ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
@@ -20,7 +20,7 @@ description: "The RecurringDateTransition element represents a time zone transit
 
 The **RecurringDateTransition** element represents a time zone transition that occurs on a specific date each year. 
   
-```
+```xml
 <RecurringDateTransition>
    <To/>
    <TimeOffset/>
@@ -34,11 +34,11 @@ The **RecurringDateTransition** element represents a time zone transition that o
 
 The following sections describe attributes, child elements, and parent elements.
   
-#### Attributes
+### Attributes
 
 None.
   
-#### Child elements
+### Child elements
 
 |**Element**|**Description**|
 |:-----|:-----|
@@ -47,7 +47,7 @@ None.
 |[Month (Time Zone Transition)](month-time-zone-transition.md) <br/> |Represents the month in which the time zone transition occurs.  <br/> |
 |[Day](day.md) <br/> |Represents the day of the month on which the time zone transition occurs.  <br/> |
    
-#### Parent elements
+### Parent elements
 
 |**Element**|**Description**|
 |:-----|:-----|
@@ -64,14 +64,14 @@ The schema that describes this element is located in the EWS virtual directory o
 
 |||
 |:-----|:-----|
-|Namespace  <br/> |http://schemas.microsoft.com/exchange/services/2006/types  <br/> |
+|Namespace  <br/> |https://schemas.microsoft.com/exchange/services/2006/types  <br/> |
 |Schema Name  <br/> |Types schema  <br/> |
 |Validation File  <br/> |Types.xsd  <br/> |
 |Can be Empty  <br/> |False  <br/> |
    
 ## See also
 
-#### Concepts
 
-[EWS XML elements in Exchange](ews-xml-elements-in-exchange.md)
+
+- [EWS XML elements in Exchange](ews-xml-elements-in-exchange.md)
 

@@ -1,9 +1,7 @@
 ---
 title: "Contains"
- 
- 
 manager: sethgros
-ms.date: 9/17/2015
+ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
@@ -20,26 +18,42 @@ description: "The Contains element represents a search expression that determine
 
 The **Contains** element represents a search expression that determines whether a given property contains the supplied constant string value. 
   
-```
+```xml
 <Contains ContainmentMode="" ContainmentComparison="">
    <FieldURI/>
    <Constant/>
 </Contains>
 ```
 
- **ContainsExpressionType**
+```xml
+<Contains ContainmentMode="" ContainmentComparison="">
+   <ExtendedFieldURI/>
+   <Constant/>
+</Contains>
+```
+
+```xml
+<Contains ContainmentMode="" ContainmentComparison="">
+   <IndexedFieldURI/>
+   <Constant/>
+</Contains>
+```
+
+
+**ContainsExpressionType**
+
 ## Attributes and elements
 
 The following sections describe attributes, child elements, and parent elements.
   
-#### Attributes
+### Attributes
 
 |**Attribute**|**Description**|
 |:-----|:-----|
 |**ContainmentMode** <br/> |Identifies the boundaries of a search.  <br/> |
 |**ContainmentComparison** <br/> |Determines whether the search ignores cases and spaces.  <br/> |
    
-#### ContainmentMode Attribute Values
+#### ContainmentMode attribute values
 
 |**Value**|**Description**|
 |:-----|:-----|
@@ -49,7 +63,7 @@ The following sections describe attributes, child elements, and parent elements.
 |PrefixOnWords  <br/> |The comparison is between a prefix on individual words in the string and the constant.  <br/> |
 |ExactPhrase  <br/> |The comparison is between an exact phrase in the string and the constant.  <br/> |
    
-#### ContainmentComparison Attribute Values
+#### ContainmentComparison attribute values
 
 |**Value**|**Description**|
 |:-----|:-----|
@@ -62,7 +76,7 @@ The following sections describe attributes, child elements, and parent elements.
 |LooseAndIgnoreNonSpace  <br/> |To be removed.  <br/> |
 |LooseAndIgnoreCaseAndIgnoreNonSpace  <br/> |To be removed.  <br/> |
    
-#### Child elements
+### Child elements
 
 |**Element**|**Description**|
 |:-----|:-----|
@@ -71,7 +85,7 @@ The following sections describe attributes, child elements, and parent elements.
 |[ExtendedFieldURI](extendedfielduri.md) <br/> |Identifies MAPI properties.  <br/> |
 |[Constant](constant.md) <br/> |Identifies a constant value in a restriction.  <br/> |
    
-#### Parent elements
+### Parent elements
 
 |**Element**|**Description**|
 |:-----|:-----|
@@ -90,14 +104,12 @@ The schema that describes this element is located in the EWS virtual directory o
 
 |||
 |:-----|:-----|
-|Namespace  <br/> |http://schemas.microsoft.com/exchange/services/2006/types  <br/> |
+|Namespace  <br/> |https://schemas.microsoft.com/exchange/services/2006/types  <br/> |
 |Schema Name  <br/> |Types schema  <br/> |
 |Validation File  <br/> |Types.xsd  <br/> |
 |Can be Empty  <br/> |False  <br/> |
    
 ## See also
 
-#### Concepts
-
-[EWS XML elements in Exchange](ews-xml-elements-in-exchange.md)
+- [EWS XML elements in Exchange](ews-xml-elements-in-exchange.md)
 

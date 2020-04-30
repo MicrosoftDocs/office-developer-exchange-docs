@@ -3,7 +3,7 @@ title: "Redistribution requirements for the EWS Managed API"
  
  
 manager: sethgros
-ms.date: 9/17/2015
+ms.date: 09/17/2015
 ms.audience: Developer
  
  
@@ -30,11 +30,11 @@ Unless your application is located on the Exchange server, you will need to redi
     
 The license terms are included in the EWS Managed API download. Review the terms for the authoritative information about what you can do with the EWS Managed API.
   
-## Additional resources
-<a name="bk_addresources"> </a>
+## See also
+
 
 - [EWS client design overview for Exchange](ews-client-design-overview-for-exchange.md)
     
-- [EWS Managed API (download)](http://aka.ms/ews-managed-api-readme)
+- [EWS Managed API (download)](https://aka.ms/ews-managed-api-readme)
     
 

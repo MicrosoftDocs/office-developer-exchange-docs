@@ -1,7 +1,7 @@
 ---
 title: "Domains (SOAP)"
 manager: sethgros
-ms.date: 9/17/2015
+ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
 localization_priority: Normal
@@ -9,8 +9,6 @@ api_type:
 - schema
 ms.assetid: 5f81d1b7-c6a4-456f-9935-13d04a3d92d7
 description: "The Domains element represents the domain collection that is returned in a GetDomainSettings operation (SOAP), the domains that the organization has federated in a GetFederationInformation operation (SOAP), or the domains with an organization relationship as returned by GetOrganizationRelationshipSettings operation (SOAP)."
- 
- 
 ---
 
 # Domains (SOAP)
@@ -28,17 +26,17 @@ The **Domains** element represents the domain collection that is returned in a [
 
 The following sections describe attributes, child elements, and parent elements.
   
-#### Attributes
+### Attributes
 
 None.
   
-#### Child elements
+### Child elements
 
 |**Element**|**Description**|
 |:-----|:-----|
 |[Domain (SOAP)](domain-soap.md) <br/> |Represents a single domain.  <br/> |
    
-#### Parent elements
+### Parent elements
 
 |**Element**|**Description**|
 |:-----|:-----|
@@ -54,16 +52,13 @@ None.
 
 |||
 |:-----|:-----|
-|Namespace  <br/> |http://schemas.microsoft.com/exchange/2010/Autodiscover  <br/> |
+|Namespace  <br/> |https://schemas.microsoft.com/exchange/2010/Autodiscover  <br/> |
 |Schema Name  <br/> |Autodiscover schema  <br/> |
 |Validation File  <br/> |Messages.xsd  <br/> |
 |Can be Empty  <br/> |True  <br/> |
    
 ## See also
 
-#### Reference
-
-[GetDomainSettingsRequest (SOAP)](getdomainsettingsrequest-soap.md)
-  
-[GetFederationInformationResponse (SOAP)](getfederationinformationresponse-soap.md)
+- [GetDomainSettingsRequest (SOAP)](getdomainsettingsrequest-soap.md)  
+- [GetFederationInformationResponse (SOAP)](getfederationinformationresponse-soap.md)
 

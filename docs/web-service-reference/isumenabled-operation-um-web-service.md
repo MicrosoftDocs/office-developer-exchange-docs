@@ -1,7 +1,7 @@
 ---
 title: "IsUMEnabled operation (UM web service)"
 manager: sethgros
-ms.date: 9/17/2015
+ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
 localization_priority: Normal
@@ -19,7 +19,7 @@ description: "The IsUMEnabled operation determines whether a mailbox is enabled 
 
 The IsUMEnabled operation determines whether a mailbox is enabled for Unified Messaging.
   
-## IsUMEnabled Request Example
+## IsUMEnabled request example
 
 ### Description
 
@@ -31,12 +31,12 @@ The following example of an IsUMEnabled request shows how to form a request to d
 <?xml version="1.0" encoding="utf-8"?>
 <soap:Envelope xmlns:soap="http://schemas.xmlsoap.org/soap/envelope/">
   <soap:Body>
-    <IsUMEnabled xmlns="http://schemas.microsoft.com/exchange/services/2006/messages" />
+    <IsUMEnabled xmlns="https://schemas.microsoft.com/exchange/services/2006/messages" />
   </soap:Body>
 </soap:Envelope>
 ```
 
-## Successful IsUMEnabled Response Example
+## Successful IsUMEnabled response example
 
 ### Description
 
@@ -48,7 +48,7 @@ The following example shows a successful response to an IsUMEnabled request.
 <?xml version="1.0" encoding="utf-8" ?>
 <soap:Envelope xmlns:soap="http://schemas.xmlsoap.org/soap/envelope/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
   <soap:Body>
-    <IsUMEnabledResponse xmlns="http://schemas.microsoft.com/exchange/services/2006/messages">
+    <IsUMEnabledResponse xmlns="https://schemas.microsoft.com/exchange/services/2006/messages">
       <IsUMEnabledResponse>true</IsUMEnabledResponse> 
     </IsUMEnabledResponse>
   </soap:Body>
@@ -57,12 +57,12 @@ The following example shows a successful response to an IsUMEnabled request.
 
 ## See also
 
-#### Reference
+
 
 [IsUMEnabled (UM web service)](isumenabled-um-web-service.md)
   
 [IsUMEnabledResponse (UM web service)](isumenabledresponse-um-web-service.md)
-#### Concepts
+
 
 [Unified Messaging web service XML elements for Exchange](unified-messaging-web-service-xml-elements-for-exchange.md)
 

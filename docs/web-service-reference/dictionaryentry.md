@@ -1,9 +1,7 @@
 ---
 title: "DictionaryEntry"
- 
- 
 manager: sethgros
-ms.date: 9/17/2015
+ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
@@ -20,7 +18,7 @@ description: "The DictionaryEntry element specifies the contents of a single dic
 
 The **DictionaryEntry** element specifies the contents of a single dictionary entry property. 
   
-```
+```xml
 <DictionaryEntry>
    <DictionaryKey/>
    <DictionaryValue/>
@@ -32,18 +30,18 @@ The **DictionaryEntry** element specifies the contents of a single dictionary en
 
 The following sections describe attributes, child elements, and parent elements.
   
-#### Attributes
+### Attributes
 
 None.
   
-#### Child elements
+### Child elements
 
 |**Element**|**Description**|
 |:-----|:-----|
 |[DictionaryKey](dictionarykey.md) <br/> |Specifies the dictionary key for a dictionary property.  <br/> |
 |[DictionaryValue](dictionaryvalue.md) <br/> |Specifies the dictionary value for a dictionary property.  <br/> |
    
-#### Parent elements
+### Parent elements
 
 |**Element**|**Description**|
 |:-----|:-----|
@@ -61,14 +59,12 @@ The schema that describes this element is located in the IIS virtual directory t
 
 |||
 |:-----|:-----|
-|Namespace  <br/> |http://schemas.microsoft.com/exchange/services/2006/types  <br/> |
+|Namespace  <br/> |https://schemas.microsoft.com/exchange/services/2006/types  <br/> |
 |Schema Name  <br/> |Types schema  <br/> |
 |Validation File  <br/> |Types.xsd  <br/> |
 |Can be Empty  <br/> |False  <br/> |
    
 ## See also
 
-#### Concepts
-
-[EWS XML elements in Exchange](ews-xml-elements-in-exchange.md)
+- [EWS XML elements in Exchange](ews-xml-elements-in-exchange.md)
 

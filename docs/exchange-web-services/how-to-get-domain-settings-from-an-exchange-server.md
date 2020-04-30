@@ -1,18 +1,18 @@
 ---
-title: "How to Get domain settings from an Exchange server"
+title: "Get domain settings from an Exchange server"
  
  
 manager: sethgros
-ms.date: 9/17/2015
+ms.date: 09/17/2015
 ms.audience: Developer
  
  
-localization_priority: Normal
 ms.assetid: 2f9acb81-5135-4f72-94e8-65c235d725e6
 description: "Learn how to get domain settings from an Exchange server by using the Autodiscover service."
+localization_priority: Priority
 ---
 
-# How to: Get domain settings from an Exchange server
+# Get domain settings from an Exchange server
 
 Learn how to get domain settings from an Exchange server by using the Autodiscover service.
   
@@ -59,7 +59,7 @@ Before you create an application that connects to the Autodiscover service to ge
 - An account that is authorized to use EWS. For information about how to configure an account, see [Controlling client application access to EWS in Exchange](controlling-client-application-access-to-ews-in-exchange.md).
     
 > [!NOTE]
-> If you are using the EWS Managed API, you must provide a certificate validation callback in some circumstances. You may also need a certificate validation callback with some generated proxy libraries, such as those created by Visual Studio. For more information, see [How to: Validate a server certificate for the EWS Managed API](how-to-validate-a-server-certificate-for-the-ews-managed-api.md). 
+> If you are using the EWS Managed API, you must provide a certificate validation callback in some circumstances. You may also need a certificate validation callback with some generated proxy libraries, such as those created by Visual Studio. For more information, see [Validate a server certificate for the EWS Managed API](how-to-validate-a-server-certificate-for-the-ews-managed-api.md). 
   
 ### Core concepts for getting domain settings
 <a name="bk_Core"> </a>
@@ -69,9 +69,9 @@ Before you use Autodiscover to get domain settings, you should be familiar with 
 |**Concept**|**Description**|
 |:-----|:-----|
 |[Autodiscover for Exchange](autodiscover-for-exchange.md) <br/> |Provides an overview of how the Autodiscover service works.  <br/> |
-|[How to: Use Autodiscover to find connection points](how-to-use-autodiscover-to-find-connection-points.md) <br/> |Describes the process used by the Autodiscover service to redirect your client application to the correct service endpoint.  <br/> |
+|[Use Autodiscover to find connection points](how-to-use-autodiscover-to-find-connection-points.md) <br/> |Describes the process used by the Autodiscover service to redirect your client application to the correct service endpoint.  <br/> |
    
-If you are using the EWS Managed API, you use the [Microsoft.Exchange.WebServices.Data.ExchangeService](http://msdn.microsoft.com/en-us/library/exchange/dd635811%28v=exchg.80%29.aspx) class in the [Microsoft.Exchange.WebServices.Data](http://msdn.microsoft.com/en-us/library/exchange/dd633907%28v=exchg.80%29.aspx) namespace to manage your connection to EWS. The code examples in this section assume that you reference the following namespaces in your code: 
+If you are using the EWS Managed API, you use the [Microsoft.Exchange.WebServices.Data.ExchangeService](https://msdn.microsoft.com/library/exchange/dd635811%28v=exchg.80%29.aspx) class in the [Microsoft.Exchange.WebServices.Data](https://msdn.microsoft.com/library/exchange/dd633907%28v=exchg.80%29.aspx) namespace to manage your connection to EWS. The code examples in this section assume that you reference the following namespaces in your code: 
   
 - **System.Net**
     
@@ -80,7 +80,7 @@ If you are using the EWS Managed API, you use the [Microsoft.Exchange.WebService
 ## Get domain settings by using the EWS Managed API
 <a name="bk_Managed"> </a>
 
-If you are using the EWS Managed API, you can use the [Microsoft.Exchange.WebServices.Data.AutodiscoverSettings.GetUserSettings](http://msdn.microsoft.com/en-us/library/exchange/microsoft.exchange.webservices.autodiscover.autodiscoverservice.getusersettings%28v=exchg.80%29.aspx) method of the [Microsoft.Exchange.WebServices.Data.AutodiscoverService](http://msdn.microsoft.com/en-us/library/exchange/dd634321%28v=exchg.80%29.aspx) object to generate the request that retrieves configuration information for a domain, as shown in the following example. In this example, only some of the possible domain settings are requested, and only the requested settings are returned from the server. 
+If you are using the EWS Managed API, you can use the [Microsoft.Exchange.WebServices.Data.AutodiscoverSettings.GetUserSettings](https://msdn.microsoft.com/library/exchange/microsoft.exchange.webservices.autodiscover.autodiscoverservice.getusersettings%28v=exchg.80%29.aspx) method of the [Microsoft.Exchange.WebServices.Data.AutodiscoverService](https://msdn.microsoft.com/library/exchange/dd634321%28v=exchg.80%29.aspx) object to generate the request that retrieves configuration information for a domain, as shown in the following example. In this example, only some of the possible domain settings are requested, and only the requested settings are returned from the server. 
   
 ```cs
 AutodiscoverService autodiscoverService = new AutodiscoverService("domain.contoso.com");
@@ -118,17 +118,17 @@ The following example shows a SOAP XML request to get both domain settings from 
   
 ```XML
 <?xml version="1.0" encoding="utf-8"?>
-<soap:Envelope xmlns:a="http://schemas.microsoft.com/exchange/2010/Autodiscover" 
+<soap:Envelope xmlns:a="https://schemas.microsoft.com/exchange/2010/Autodiscover" 
         xmlns:wsa="http://www.w3.org/2005/08/addressing" 
         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
-        xmlns:soap="http://schemas.xmlsoap.org/soap/envelope/">
+        xmlns:soap="https://schemas.xmlsoap.org/soap/envelope/">
   <soap:Header>
     <a:RequestedServerVersion>Exchange2013</a:RequestedServerVersion>
-    <wsa:Action>http://schemas.microsoft.com/exchange/2010/Autodiscover/Autodiscover/GetDomainSettings</wsa:Action>
+    <wsa:Action>https://schemas.microsoft.com/exchange/2010/Autodiscover/Autodiscover/GetDomainSettings</wsa:Action>
     <wsa:To>https://autodiscover.exchange.microsoft.com/autodiscover/autodiscover.svc</wsa:To>
   </soap:Header>
   <soap:Body>
-    <a:GetDomainSettingsRequestMessage xmlns:a="http://schemas.microsoft.com/exchange/2010/Autodiscover">
+    <a:GetDomainSettingsRequestMessage xmlns:a="https://schemas.microsoft.com/exchange/2010/Autodiscover">
       <a:Request>
         <a:Domains>
           <a:Domain>domain</a:Domain>
@@ -147,12 +147,12 @@ The following example shows a SOAP XML request to get both domain settings from 
 The following example shows the XML response that is returned by the server after it parses the request from the client.
   
 ```XML
-<s:Envelope xmlns:s="http://schemas.xmlsoap.org/soap/envelope/" 
+<s:Envelope xmlns:s="https://schemas.xmlsoap.org/soap/envelope/" 
         xmlns:a="http://www.w3.org/2005/08/addressing">
   <s:Header>
-    <a:Action s:mustUnderstand="1">http://schemas.microsoft.com/exchange/2010/
+    <a:Action s:mustUnderstand="1">https://schemas.microsoft.com/exchange/2010/
           Autodiscover/Autodiscover/GetDomainSettingsResponse</a:Action>
-    <h:ServerVersionInfo xmlns:h="http://schemas.microsoft.com/exchange/2010/Autodiscover" 
+    <h:ServerVersionInfo xmlns:h="https://schemas.microsoft.com/exchange/2010/Autodiscover" 
           xmlns:i="http://www.w3.org/2001/XMLSchema-instance">
       <h:MajorVersion>15</h:MajorVersion>
       <h:MinorVersion>0</h:MinorVersion>
@@ -162,7 +162,7 @@ The following example shows the XML response that is returned by the server afte
     </h:ServerVersionInfo>
   </s:Header>
   <s:Body>
-    <GetDomainSettingsResponseMessage xmlns="http://schemas.microsoft.com/exchange/2010/Autodiscover">
+    <GetDomainSettingsResponseMessage xmlns="https://schemas.microsoft.com/exchange/2010/Autodiscover">
       <Response xmlns:i="http://www.w3.org/2001/XMLSchema-instance">
         <ErrorCode>NoError</ErrorCode>
         <ErrorMessage />
@@ -195,15 +195,15 @@ The following example shows the XML response that is returned by the server afte
 
 Domain settings provide the basic information that your client needs to connect to EWS. You can use this information to connect to EWS, or you can retrieve additional configuration settings for an email account from the server. For more information, see the following article:
   
-- [How to: Get user settings from Exchange by using Autodiscover](how-to-get-user-settings-from-exchange-by-using-autodiscover.md)
+- [Get user settings from Exchange by using Autodiscover](how-to-get-user-settings-from-exchange-by-using-autodiscover.md)
     
-## Additional resources
-<a name="bk_addresources"> </a>
+## See also
+
 
 - [Setting up your EWS application](setting-up-your-ews-application.md)
     
-- [Autodiscover web service reference for Exchange](http://msdn.microsoft.com/library/a01124a8-a8cf-4b80-8625-d7ee05690bca%28Office.15%29.aspx)
+- [Autodiscover web service reference for Exchange](https://msdn.microsoft.com/library/a01124a8-a8cf-4b80-8625-d7ee05690bca%28Office.15%29.aspx)
     
-- [EWS reference for Exchange](http://msdn.microsoft.com/library/2a873474-1bb2-4cb1-a556-40e8c4159f4a%28Office.15%29.aspx)
+- [EWS reference for Exchange](https://msdn.microsoft.com/library/2a873474-1bb2-4cb1-a556-40e8c4159f4a%28Office.15%29.aspx)
     
 

@@ -1,9 +1,7 @@
 ---
 title: "ParentFolderIds"
- 
- 
 manager: sethgros
-ms.date: 9/17/2015
+ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
@@ -20,29 +18,36 @@ description: "The ParentFolderIds element identifies folders for the FindItem an
 
 The **ParentFolderIds** element identifies folders for the FindItem and FindFolder operations to search. 
   
-```
+```xml
 <ParentFolderIds>
    <DistinguishedFolderId/>
 <ParentFolderIds>
 ```
 
- **NonEmptyArrayOfBaseFolderIdsType**
+```xml
+<ParentFolderIds>
+   <FolderId/> 
+<ParentFolderIds>
+```
+
+**NonEmptyArrayOfBaseFolderIdsType**
+
 ## Attributes and elements
 
 The following sections describe attributes, child elements, and parent elements.
   
-#### Attributes
+### Attributes
 
 None.
   
-#### Child elements
+### Child elements
 
 |**Element**|**Description**|
 |:-----|:-----|
 |[FolderId](folderid.md) <br/> |Contains the identifier and change key of a folder. The **ParentFolderIds** element must use either this element or the [DistinguishedFolderId](distinguishedfolderid.md) element.  <br/> |
 |[DistinguishedFolderId](distinguishedfolderid.md) <br/> |Identifies Microsoft Exchange Server 2007 folders that can be referenced by name. The **ParentFolderIds** element must use either this element or the [FolderId](folderid.md) element.  <br/> |
    
-#### Parent elements
+### Parent elements
 
 |**Element**|**Description**|
 |:-----|:-----|
@@ -59,9 +64,9 @@ The **ParentFolderIds** element must use either the [FolderId](folderid.md) or t
 ```XML
 <?xml version="1.0" encoding="utf-8"?>
 <soap:Envelope xmlns:soap="http://schemas.xmlsoap.org/soap/envelope/"
-  xmlns:t="http://schemas.microsoft.com/exchange/services/2006/types">
+  xmlns:t="https://schemas.microsoft.com/exchange/services/2006/types">
   <soap:Body>
-    <FindFolder Traversal="Shallow" xmlns="http://schemas.microsoft.com/exchange/services/2006/messages">
+    <FindFolder Traversal="Shallow" xmlns="https://schemas.microsoft.com/exchange/services/2006/messages">
       <FolderShape>
         <t:BaseShape>Default</t:BaseShape>
       </FolderShape>
@@ -77,18 +82,14 @@ The **ParentFolderIds** element must use either the [FolderId](folderid.md) or t
 
 |||
 |:-----|:-----|
-|Namespace  <br/> |http://schemas.microsoft.com/exchange/services/2006/messages  <br/> |
+|Namespace  <br/> |https://schemas.microsoft.com/exchange/services/2006/messages  <br/> |
 |Schema Name  <br/> |Messages schema  <br/> |
 |Validation File  <br/> |Messages.xsd  <br/> |
 |Can be Empty  <br/> |False  <br/> |
    
 ## See also
 
-#### Reference
-
-[FindFolder operation](findfolder-operation.md)
-  
-[FindItem operation](finditem-operation.md)
-  
-[ResolveNames operation](resolvenames-operation.md)
+- [FindFolder operation](findfolder-operation.md)  
+- [FindItem operation](finditem-operation.md) 
+- [ResolveNames operation](resolvenames-operation.md)
 

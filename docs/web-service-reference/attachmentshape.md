@@ -1,9 +1,7 @@
 ---
 title: "AttachmentShape"
- 
- 
 manager: sethgros
-ms.date: 9/17/2015
+ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
@@ -20,11 +18,11 @@ description: "The AttachmentShape element identifies additional properties to re
 
 The **AttachmentShape** element identifies additional properties to return in a response to a [GetAttachment](getattachment.md) request. 
   
-[GetAttachment](getattachment.md)
+- [GetAttachment](getattachment.md)
   
-[AttachmentShape](attachmentshape.md)
+- [AttachmentShape](attachmentshape.md)
   
-```
+```xml
 <AttachmentShape>
    <IncludeMimeContent/>
    <BodyType/>
@@ -38,11 +36,11 @@ The **AttachmentShape** element identifies additional properties to return in a 
 
 The following sections describe attributes, child elements, and parent elements.
   
-#### Attributes
+### Attributes
 
 None.
   
-#### Child elements
+### Child elements
 
 |**Element**|**Description**|
 |:-----|:-----|
@@ -51,7 +49,7 @@ None.
 |[FilterHtmlContent](filterhtmlcontent.md) <br/> |Specifies whether potentially unsafe HTML content is filtered from an attachment. This element is optional.  <br/> |
 |[AdditionalProperties](additionalproperties.md) <br/> |Identifies additional properties to return in a response. This element is optional.  <br/> |
    
-#### Parent elements
+### Parent elements
 
 |**Element**|**Description**|
 |:-----|:-----|
@@ -69,17 +67,13 @@ The schema that describes this element is located in the IIS virtual directory t
 
 |||
 |:-----|:-----|
-|Namespace  <br/> |http://schemas.microsoft.com/exchange/services/2006/messages  <br/> |
+|Namespace  <br/> |https://schemas.microsoft.com/exchange/services/2006/messages  <br/> |
 |Schema Name  <br/> |Messages schema  <br/> |
 |Validation File  <br/> |Messages.xsd  <br/> |
 |Can be Empty  <br/> |False  <br/> |
    
 ## See also
 
-#### Reference
-
-[GetAttachment operation](getattachment-operation.md)
-#### Concepts
-
-[EWS XML elements in Exchange](ews-xml-elements-in-exchange.md)
+- [GetAttachment operation](getattachment-operation.md)
+- [EWS XML elements in Exchange](ews-xml-elements-in-exchange.md)
 

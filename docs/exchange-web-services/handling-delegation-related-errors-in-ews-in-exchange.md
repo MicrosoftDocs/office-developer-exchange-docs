@@ -3,7 +3,7 @@ title: "Handling delegation-related errors in EWS in Exchange"
  
  
 manager: sethgros
-ms.date: 9/17/2015
+ms.date: 09/17/2015
 ms.audience: Developer
  
  
@@ -16,13 +16,13 @@ description: "Find out how to handle delegation-related errors in applications t
 
 Find out how to handle delegation-related errors in applications that you develop by using the EWS Managed API or EWS in Exchange.
   
-If your application uses delegation or adds or removes delegates, you might have to handle delegation-related errors. You can handle these errors at runtime, or while you are developing your EWS application. These errors are defined by the EWS Managed API [ServiceError](http://msdn.microsoft.com/EN-US/library/microsoft.exchange.webservices.data.serviceerror%28v=exchg.80%29.aspx) enumeration and the EWS [ResponseCode](http://msdn.microsoft.com/library/4b84d670-74c9-4d6d-84e7-f0a9f76f0d93%28Office.15%29.aspx) element. 
+If your application uses delegation or adds or removes delegates, you might have to handle delegation-related errors. You can handle these errors at runtime, or while you are developing your EWS application. These errors are defined by the EWS Managed API [ServiceError](https://msdn.microsoft.com/library/microsoft.exchange.webservices.data.serviceerror%28v=exchg.80%29.aspx) enumeration and the EWS [ResponseCode](https://msdn.microsoft.com/library/4b84d670-74c9-4d6d-84e7-f0a9f76f0d93%28Office.15%29.aspx) element. 
   
 ## Delegation-related errors
 
 |**Error**|**Occurs when you try to…**|**Handle it by…**|
 |:-----|:-----|:-----|
-|ErrorItemNotFound  <br/> ErrorFolderNotFound  <br/> |Perform an operation on a mailbox, folder, or item that you do not have access to.  <br/> |Updating the delegate's permissions to enable them to access the folder or item by calling the [UpdateDelegates](http://msdn.microsoft.com/EN-US/library/microsoft.exchange.webservices.data.exchangeservice.updatedelegates%28v=exchg.80%29.aspx) EWS Managed API method or the [UpdateDelegate](http://msdn.microsoft.com/library/03f618ac-ad1a-4772-9b81-c5bb0f12d6ab%28Office.15%29.aspx) EWS operation, and then retrying the request.  <br/> |
+|ErrorItemNotFound  <br/> ErrorFolderNotFound  <br/> |Perform an operation on a mailbox, folder, or item that you do not have access to.  <br/> |Updating the delegate's permissions to enable them to access the folder or item by calling the [UpdateDelegates](https://msdn.microsoft.com/library/microsoft.exchange.webservices.data.exchangeservice.updatedelegates%28v=exchg.80%29.aspx) EWS Managed API method or the [UpdateDelegate](https://msdn.microsoft.com/library/03f618ac-ad1a-4772-9b81-c5bb0f12d6ab%28Office.15%29.aspx) EWS operation, and then retrying the request.  <br/> |
 |ErrorAccessDenied  <br/> |Modify an item that you do not have sufficient privileges to modify.  <br/> |Updating your delegate permissions by calling the **UpdateDelegate** EWS Managed API method or the **UpdateDelegate** EWS operation, and then retrying the request.  <br/> |
 |ErrorDelegateCannotAddOwner  <br/> |Attempt to add the mailbox owner as a delegate to their own mailbox.  <br/> |[Adding a different user as a delegate](how-to-add-and-remove-delegates-by-using-ews-in-exchange.md), not the mailbox owner.  <br/> |
 |ErrorDelegateAlreadyExists  <br/> |Add the delegate when the delegate already exists.  <br/> |Doing nothing, because the delegate already exists for the mailbox owner. Or, if you're trying to change the permissions of an existing delegate, then use the **UpdateDelegates** method or the **UpdateDelegate** operation.  <br/> |
@@ -32,8 +32,8 @@ If your application uses delegation or adds or removes delegates, you might have
 |ErrorWrongServerVersionDelegate  <br/> |Make a request from a delegate that has a different server version than the principal's mailbox server.  <br/> |Using a delegate or adding a delegate whose mailbox has the same server version as the mailbox owner.  <br/> |
 |ErrorMissingEmailAddress  <br/> |Make a request using a delegate account that does not have a mailbox.  <br/> |Adding a mailbox to the delegate's account.  <br/> |
    
-## Additional resources
-<a name="bk_addresources"> </a>
+## See also
+
 
 - [Delegate access and EWS in Exchange](delegate-access-and-ews-in-exchange.md)
     

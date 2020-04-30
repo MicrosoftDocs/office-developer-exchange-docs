@@ -1,12 +1,8 @@
 ---
 title: "Web service API feature availability in Exchange and the EWS Managed API"
- 
- 
 manager: sethgros
-ms.date: 9/17/2015
+ms.date: 09/17/2015
 ms.audience: Developer
- 
- 
 localization_priority: Normal
 ms.assetid: 07d3e6e8-d549-4ad7-baa4-bc531dfb7dd2
 description: "Learn about which EWS and web service API features are available in each version of Exchange and the EWS Managed API."
@@ -18,7 +14,7 @@ Learn about which EWS and web service API features are available in each version
   
 Exchange client applications often target many versions of Exchange. For this reason, you might want to design your application such that you can turn [EWS client features](ews-client-design-overview-for-exchange.md#EWSFeatures) on and off based on the version of Exchange that hosts your users' mailbox. This article provides information about which service API features are available in different versions of Exchange and the EWS Managed API. Use this information to design your application to apply broadly to customers running multiple versions of Exchange. 
   
-For detailed information about the differences between versions of Exchange, review the EWS schema files and the associated [reference documentation](http://msdn.microsoft.com/library/6c969133-6036-448b-af39-a3caf9917e98%28Office.15%29.aspx).
+For detailed information about the differences between versions of Exchange, review the EWS schema files and the associated [reference documentation](https://msdn.microsoft.com/library/6c969133-6036-448b-af39-a3caf9917e98%28Office.15%29.aspx).
   
 ## API features by Exchange version
 <a name="bk_apifeatures"> </a>
@@ -29,7 +25,7 @@ The following table indicates which API features are available in each version o
   
 **Table 1. Web service feature availability in versions of Exchange and the EWS Managed API**
 
-|**API feature**|**Exchange Online (Office 365)**|**EWS Managed API**|**Exchange 2013**|**Exchange 2010 SP2**|**Exchange 2010 SP1**|**Exchange 2010**|**Exchange 2007 SP1**|**Exchange 2007**|
+|API feature|Exchange Online (Office 365)|EWS Managed API|Exchange 2013|Exchange 2010 SP2|Exchange 2010 SP1|Exchange 2010|Exchange 2007 SP1|Exchange 2007|
 |:-----|:-----|:-----|:-----|:-----|:-----|:-----|:-----|:-----|
 |Ambiguous name resolution  <br/> |X  <br/> |X  <br/> |X  <br/> |X  <br/> |X  <br/> |X  <br/> |X  <br/> |X  <br/> |
 |Apps for Outlook management  <br/> |X  <br/> |X  <br/> |X  <br/> ||||||
@@ -56,7 +52,7 @@ The following table indicates which API features are available in each version o
 |[Mailbox events (streaming)](notification-subscriptions-mailbox-events-and-ews-in-exchange.md) <br/> |X  <br/> |X  <br/> |X  <br/> |X  <br/> |X  <br/> ||||
 |Mailtips  <br/> |X  <br/> |X  <br/> |X  <br/> |X  <br/> |X  <br/> ||||
 |Password expiration  <br/> |X  <br/> |X  <br/> |X  <br/> |X  <br/> |||||
-|[Personas](http://msdn.microsoft.com/library/ people-and-contacts-in-ews-in-exchange%28Office.15%29.aspx) <br/> |X  <br/> ||X  <br/> ||||||
+|[Personas](people-and-contacts-in-ews-in-exchange.md) <br/> |X  <br/> ||X  <br/> ||||||
 |Post items  <br/> |X  <br/> |X  <br/> |X  <br/> |X  <br/> |X  <br/> |X  <br/> |X  <br/> ||
 |[Public folder access](public-folder-access-with-ews-in-exchange.md) <br/> |X  <br/> |X  <br/> |X  <br/> |X  <br/> |X  <br/> |X  <br/> |X  <br/> ||
 |Retention policies  <br/> |X  <br/> |X  <br/> |X  <br/> ||||||
@@ -64,29 +60,26 @@ The following table indicates which API features are available in each version o
 |[Search (store)](search-and-ews-in-exchange.md) <br/> |X  <br/> |X  <br/> |X  <br/> |X  <br/> |X  <br/> |X  <br/> |X  <br/> |X  <br/> |
 |[Synchronization](mailbox-synchronization-and-ews-in-exchange.md) <br/> |X  <br/> |X  <br/> |X  <br/> |X  <br/> |X  <br/> |X  <br/> |X  <br/> |X  <br/> |
 |[Unified Contact Store](people-and-contacts-in-ews-in-exchange.md) <br/> |X  <br/> ||X  <br/> ||||||
-|[Unified Messaging Web Service](http://msdn.microsoft.com/library/83afea8a-c716-41df-9eb2-e1000357afb6%28Office.15%29.aspx) <br/> |X  <br/> ||X  <br/> |X  <br/> |X  <br/> |X  <br/> |X  <br/> |X  <br/> |
+|[Unified Messaging Web Service](https://msdn.microsoft.com/library/83afea8a-c716-41df-9eb2-e1000357afb6%28Office.15%29.aspx) <br/> |X  <br/> ||X  <br/> |X  <br/> |X  <br/> |X  <br/> |X  <br/> |X  <br/> |
 |Unified Messaging (EWS-based)  <br/> |X  <br/> |X  <br/> |X  <br/> |X  <br/> |X  <br/> |X  <br/> |||
 |[User configuration objects](persistent-application-settings-in-ews-in-exchange.md) <br/> |X  <br/> |X  <br/> |X  <br/> |X  <br/> |X  <br/> |X  <br/> |||
 |[User photos](how-to-get-user-photos-by-using-ews-in-exchange.md) <br/> |X  <br/> ||X  <br/> ||||||
    
-You can find more information about the web service features that are available in different versions of Exchange by reading about the [EWS operations](http://msdn.microsoft.com/library/cf6fd871-9a65-4f34-8557-c8c71dd7ce09%28Office.15%29.aspx), the [Autodiscover service](http://msdn.microsoft.com/library/a01124a8-a8cf-4b80-8625-d7ee05690bca%28Office.15%29.aspx), and the [ExchangeService methods](http://msdn.microsoft.com/en-us/library/office/microsoft.exchange.webservices.data.exchangeservice_methods%28v=exchg.80%29.aspx).
+You can find more information about the web service features that are available in different versions of Exchange by reading about the [EWS operations](https://msdn.microsoft.com/library/cf6fd871-9a65-4f34-8557-c8c71dd7ce09%28Office.15%29.aspx), the [Autodiscover service](https://msdn.microsoft.com/library/a01124a8-a8cf-4b80-8625-d7ee05690bca%28Office.15%29.aspx), and the [ExchangeService methods](https://msdn.microsoft.com/library/office/microsoft.exchange.webservices.data.exchangeservice_methods%28v=exchg.80%29.aspx).
   
 ## To learn more
 <a name="bk_apifeatures"> </a>
 
 If you want to go deeper to understand the specific differences between Exchange versions, you can do any of the following:
   
-- Explore the [EWS schema](http://msdn.microsoft.com/library/6c969133-6036-448b-af39-a3caf9917e98%28Office.15%29.aspx) to investigate the differences between each version of EWS in more detail. 
+- Explore the [EWS schema](https://msdn.microsoft.com/library/6c969133-6036-448b-af39-a3caf9917e98%28Office.15%29.aspx) to investigate the differences between each version of EWS in more detail. 
     
 - Download [EWSEditor](http://ewseditor.codeplex.com/). You can use EWSEditor to specify different target schema versions and submit queries based on the target schema version.
     
-## Additional resources
-<a name="bk_addresources"> </a>
+## See also
 
-- [EWS client design overview for Exchange](ews-client-design-overview-for-exchange.md)
-    
-- [Get started with EWS Managed API client applications](get-started-with-ews-managed-api-client-applications.md)
-    
-- [What's new in EWS and other web services in Exchange](what’s-new-in-ews-and-other-web-services-in-exchange.md)
+- [EWS client design overview for Exchange](ews-client-design-overview-for-exchange.md)   
+- [Get started with EWS Managed API client applications](get-started-with-ews-managed-api-client-applications.md) 
+- [What's new in EWS and other web services in Exchange](whats-new-in-ews-and-other-web-services-in-exchange.md)
     
 

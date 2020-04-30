@@ -1,15 +1,13 @@
 ---
 title: "EWS reference for Exchange"
- 
- 
 manager: sethgros
-ms.date: 9/17/2015
+ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
 ms.assetid: 2a873474-1bb2-4cb1-a556-40e8c4159f4a
 description: "Find reference information for the EWS XML elements and WSDL operations in Exchange."
+localization_priority: Priority
 ---
 
 # EWS reference for Exchange
@@ -27,13 +25,10 @@ The WSDL operation content in this section provides overview information and req
     
 - [EWS XML elements in Exchange](ews-xml-elements-in-exchange.md)
     
-## Additional resources
-<a name="bk_addresources"> </a>
+## See also
 
 - [Web services reference for Exchange](web-services-reference-for-exchange.md)
-    
-- [Explore the EWS Managed API, EWS, and web services in Exchange](http://msdn.microsoft.com/library/53553207-ff98-4fdb-8716-4ae02fee83bf%28Office.15%29.aspx)
-    
-- [Start using web services in Exchange](http://msdn.microsoft.com/library/e1b07a92-0595-4bf1-bd6b-c07e66a8c923%28Office.15%29.aspx)
+- [Explore the EWS Managed API, EWS, and web services in Exchange](../exchange-web-services/explore-the-ews-managed-api-ews-and-web-services-in-exchange.md)
+- [Start using web services in Exchange](../exchange-web-services/start-using-web-services-in-exchange.md)
     
 

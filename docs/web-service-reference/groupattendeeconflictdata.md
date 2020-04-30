@@ -1,9 +1,7 @@
 ---
 title: "GroupAttendeeConflictData"
- 
- 
 manager: sethgros
-ms.date: 9/17/2015
+ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
@@ -20,23 +18,16 @@ description: "The GroupAttendeeConflictData element contains aggregate conflict 
 
 The **GroupAttendeeConflictData** element contains aggregate conflict information about the number of users who are available, the number of users who have conflicts, and the number of users who do not have availability information in a distribution list for a suggested meeting time. 
   
-[GetUserAvailabilityResponse](getuseravailabilityresponse.md)
+- [GetUserAvailabilityResponse](getuseravailabilityresponse.md)
+- [SuggestionsResponse](suggestionsresponse.md)
+- [SuggestionDayResultArray](suggestiondayresultarray.md)
+- [SuggestionDayResult](suggestiondayresult.md)
+- [SuggestionArray](suggestionarray.md)
+- [Suggestion](suggestion.md)
+- [AttendeeConflictDataArray](attendeeconflictdataarray.md)
+- [GroupAttendeeConflictData](groupattendeeconflictdata.md)
   
-[SuggestionsResponse](suggestionsresponse.md)
-  
-[SuggestionDayResultArray](suggestiondayresultarray.md)
-  
-[SuggestionDayResult](suggestiondayresult.md)
-  
-[SuggestionArray](suggestionarray.md)
-  
-[Suggestion](suggestion.md)
-  
-[AttendeeConflictDataArray](attendeeconflictdataarray.md)
-  
-[GroupAttendeeConflictData](groupattendeeconflictdata.md)
-  
-```
+```xml
 <GroupAttendeeConflictData>
    <NumberOfMembers>...</NumberOfMembers>
    <NumberOfMembersAvailable>...</NumberOfMembersAvailable>
@@ -45,16 +36,17 @@ The **GroupAttendeeConflictData** element contains aggregate conflict informatio
 </GroupAttendeeConflictData>
 ```
 
- **GroupAttendeeConflictData**
+**GroupAttendeeConflictData**
+
 ## Attributes and elements
 
 The following sections describe attributes, child elements, and parent elements.
   
-#### Attributes
+### Attributes
 
 None.
   
-#### Child elements
+### Child elements
 
 |**Element**|**Description**|
 |:-----|:-----|
@@ -63,7 +55,7 @@ None.
 |[NumberOfMembersWithConflict](numberofmemberswithconflict.md) <br/> |Represents the number of distribution list members who have a conflict with a suggested meeting time. This element represents members who have a **Busy**, **OOF**, or **Tentative** status.  <br/> |
 |[NumberOfMembersWithNoData](numberofmemberswithnodata.md) <br/> |Represents the number of group members who do not have published free/busy data to compare to a suggested meeting time. This element represents members of a distribution list that is too large or members who have **No Data** status.  <br/> |
    
-#### Parent elements
+### Parent elements
 
 |**Element**|**Description**|
 |:-----|:-----|
@@ -79,19 +71,14 @@ The schema that describes this element is located in the EWS virtual directory o
 
 |||
 |:-----|:-----|
-|Namespace  <br/> |http://schemas.microsoft.com/exchange/services/2006/types  <br/> |
+|Namespace  <br/> |https://schemas.microsoft.com/exchange/services/2006/types  <br/> |
 |Schema Name  <br/> |Types schema  <br/> |
 |Validation File  <br/> |Types.xsd  <br/> |
 |Can be Empty  <br/> |False  <br/> |
    
 ## See also
 
-#### Reference
-
-[GetUserAvailability operation](getuseravailability-operation.md)
-  
-[GetUserAvailabilityResponse](getuseravailabilityresponse.md)
-#### Other resources
-
-[Getting User Availability](http://msdn.microsoft.com/library/d4133fcb-9b0f-4e6b-aadf-a389da83516a%28Office.15%29.aspx)
+- [GetUserAvailability operation](getuseravailability-operation.md)
+- [GetUserAvailabilityResponse](getuseravailabilityresponse.md)
+- [Getting User Availability](https://msdn.microsoft.com/library/d4133fcb-9b0f-4e6b-aadf-a389da83516a%28Office.15%29.aspx)
 

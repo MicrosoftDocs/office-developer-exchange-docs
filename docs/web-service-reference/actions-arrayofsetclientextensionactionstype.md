@@ -1,9 +1,7 @@
 ---
 title: "Actions (ArrayOfSetClientExtensionActionsType)"
- 
- 
 manager: sethgros
-ms.date: 9/17/2015
+ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
@@ -27,15 +25,15 @@ The **Actions** element identifies an array of actions to perform on a client ex
 
 The following sections describe attributes, child elements, and parent elements.
   
-#### Attributes
+### Attributes
 
 None.
   
-#### Child elements
+### Child elements
 
 [Action (SetClientExtensionActionType)](action-setclientextensionactiontype.md)
   
-#### Parent elements
+### Parent elements
 
 [SetClientExtension](setclientextension.md)
   
@@ -49,7 +47,7 @@ The schema that describes this element is located in the IIS virtual directory t
 
 |||
 |:-----|:-----|
-|Namespace  <br/> |http://schemas.microsoft.com/exchange/services/2006/messages  <br/> |
+|Namespace  <br/> |https://schemas.microsoft.com/exchange/services/2006/messages  <br/> |
 |Schema name  <br/> |Messages schema  <br/> |
 |Validation file  <br/> |Messages.xsd  <br/> |
 |Can be empty  <br/> ||

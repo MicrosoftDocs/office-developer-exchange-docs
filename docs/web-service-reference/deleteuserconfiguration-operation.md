@@ -1,9 +1,7 @@
 ---
 title: "DeleteUserConfiguration operation"
- 
- 
 manager: sethgros
-ms.date: 9/17/2015
+ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
@@ -23,7 +21,7 @@ The **DeleteUserConfiguration** operation deletes a user configuration object on
 > [!IMPORTANT]
 > The **DeleteUserConfiguration** operation will trigger a move event for the event notification system. The user configuration object will be moved to the dumpster. 
   
-## DeleteUserConfiguration Request Example
+## DeleteUserConfiguration request example
 
 ### Description
 
@@ -34,8 +32,8 @@ The following example of a **DeleteUserConfiguration** request shows how to form
 ```XML
 <?xml version="1.0" encoding="utf-8"?>
 <soap:Envelope xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
-               xmlns:m="http://schemas.microsoft.com/exchange/services/2006/messages"
-               xmlns:t="http://schemas.microsoft.com/exchange/services/2006/types"
+               xmlns:m="https://schemas.microsoft.com/exchange/services/2006/messages"
+               xmlns:t="https://schemas.microsoft.com/exchange/services/2006/types"
                xmlns:soap="http://schemas.xmlsoap.org/soap/envelope/"
                xmlns:xs="http://www.w3.org/2001/XMLSchema">
   <soap:Header>
@@ -51,7 +49,7 @@ The following example of a **DeleteUserConfiguration** request shows how to form
 </soap:Envelope>
 ```
 
-## DeleteUserConfiguration Response Example
+## DeleteUserConfiguration response example
 
 ### Description
 
@@ -68,15 +66,15 @@ The following example shows a successful response to the **DeleteUserConfigurati
                          MajorBuildNumber="639" 
                          MinorBuildNumber="20" 
                          Version="Exchange2010" 
-                         xmlns:h="http://schemas.microsoft.com/exchange/services/2006/types" 
-                         xmlns="http://schemas.microsoft.com/exchange/services/2006/types" 
+                         xmlns:h="https://schemas.microsoft.com/exchange/services/2006/types" 
+                         xmlns="https://schemas.microsoft.com/exchange/services/2006/types" 
                          xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
                          xmlns:xsd="http://www.w3.org/2001/XMLSchema"/>
   </s:Header>
   <s:Body xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
           xmlns:xsd="http://www.w3.org/2001/XMLSchema">
-    <m:DeleteUserConfigurationResponse xmlns:m="http://schemas.microsoft.com/exchange/services/2006/messages" 
-                                       xmlns:t="http://schemas.microsoft.com/exchange/services/2006/types">
+    <m:DeleteUserConfigurationResponse xmlns:m="https://schemas.microsoft.com/exchange/services/2006/messages" 
+                                       xmlns:t="https://schemas.microsoft.com/exchange/services/2006/types">
       <m:ResponseMessages>
         <m:DeleteUserConfigurationResponseMessage ResponseClass="Success">
           <m:ResponseCode>NoError</m:ResponseCode>
@@ -89,9 +87,6 @@ The following example shows a successful response to the **DeleteUserConfigurati
 
 ## See also
 
-#### Concepts
-
-[EWS operations in Exchange](ews-operations-in-exchange.md)
-  
-[EWS XML elements in Exchange](ews-xml-elements-in-exchange.md)
+- [EWS operations in Exchange](ews-operations-in-exchange.md) 
+- [EWS XML elements in Exchange](ews-xml-elements-in-exchange.md)
 

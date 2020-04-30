@@ -1,7 +1,7 @@
 ---
 title: "OOFUrl (POX)"
 manager: sethgros
-ms.date: 9/17/2015
+ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
 localization_priority: Normal
@@ -27,7 +27,7 @@ The **OOFUrl** element specifies the URL of the best instance of the Availabilit
   
 [OOFUrl (POX)](oofurl-pox.md)
   
-```
+```xml
 <OOFUrl/>
 ```
 
@@ -35,15 +35,15 @@ The **OOFUrl** element specifies the URL of the best instance of the Availabilit
 
 The following sections describe attributes, child elements, and parent elements.
   
-#### Attributes
+### Attributes
 
 None.
   
-#### Child elements
+### Child elements
 
 None.
   
-#### Parent elements
+### Parent elements
 
 |**Element**|**Description**|
 |:-----|:-----|
@@ -55,7 +55,7 @@ The text value specifies the out-of-office configuration server URL for an Excha
   
 ## See also
 
-#### Concepts
+
 
 [POX Autodiscover XML elements for Exchange](pox-autodiscover-xml-elements-for-exchange.md)
 

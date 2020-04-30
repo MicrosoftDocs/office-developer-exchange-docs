@@ -1,7 +1,5 @@
 ---
 title: "LegacyDn (NonEmptyArrayOfLegacyDNsType)"
- 
- 
 manager: sethgros
 ms.date: 11/16/2014
 ms.audience: Developer
@@ -15,24 +13,20 @@ description: "The LegacyDn (NonEmptyArrayOfLegacyDNsType) element is intended fo
 # LegacyDn (NonEmptyArrayOfLegacyDNsType)
 
 The **LegacyDn (NonEmptyArrayOfLegacyDNsType)** element is intended for internal use only. 
-  
-```
-
-```
 
 ## Attributes and elements
 
 The following sections describe attributes, child elements, and parent elements.
   
-#### Attributes
+### Attributes
 
 None.
   
-#### Child elements
+### Child elements
 
 None.
   
-#### Parent elements
+### Parent elements
 
 None.
   

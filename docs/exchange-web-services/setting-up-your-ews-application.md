@@ -3,13 +3,13 @@ title: "Setting up your EWS application"
  
  
 manager: sethgros
-ms.date: 9/17/2015
+ms.date: 09/17/2015
 ms.audience: Developer
  
  
-localization_priority: Normal
 ms.assetid: 0d45e347-f832-478d-b078-7c2852c0d204
 description: "Find information about the tasks you need to complete in order to create applications that use the EWS Managed API or EWS to communicate with Exchange."
+localization_priority: Priority
 ---
 
 # Setting up your EWS application
@@ -26,10 +26,10 @@ When you create a client application that calls web services on Exchange Online,
     
 - [Managing user access by using EWS in Exchange](managing-user-access-by-using-ews-in-exchange.md)
     
-- [How to: Validate a server certificate for the EWS Managed API](how-to-validate-a-server-certificate-for-the-ews-managed-api.md)
+- [Validate a server certificate for the EWS Managed API](how-to-validate-a-server-certificate-for-the-ews-managed-api.md)
     
-## Additional resources
-<a name="bk_addresources"> </a>
+## See also
+
 
 - [Start using web services in Exchange](start-using-web-services-in-exchange.md)
     
