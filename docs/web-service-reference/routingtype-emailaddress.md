@@ -44,7 +44,12 @@ None.
    
 ## Text value
 
-A text value is optional. The only valid value is SMTP. If no value is provided, the default value of SMTP is used.
+A text value is optional. The following are the possible values:
+
+* SMTP
+* EX
+
+If no value is provided, the default value of SMTP is used.
   
 ## Remarks
 
