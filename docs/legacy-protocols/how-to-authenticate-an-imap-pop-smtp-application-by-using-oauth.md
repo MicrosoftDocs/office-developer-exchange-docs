@@ -54,9 +54,9 @@ Make sure to specify the full scopes, including Outlook resource URLs, when auth
 
 | Protocol  | Permission scope string |
 |-----------|-------------------------|
-| IMAP      | `https://outlook.office365.com/IMAP.AccessAsUser.All` |
-| POP       | `https://outlook.office365.com/POP.AccessAsUser.All`  |
-| SMTP AUTH | `https://outlook.office365.com/SMTP.Send`             |
+| IMAP      | `https://outlook.office.com/IMAP.AccessAsUser.All` |
+| POP       | `https://outlook.office.com/POP.AccessAsUser.All`  |
+| SMTP AUTH | `https://outlook.office.com/SMTP.Send`             |
 
 In addition, you can request for [offline_access](/azure/active-directory/develop/v2-permissions-and-consent#offline_access) scope. When a user approves the offline_access scope, your app can receive refresh tokens from the Microsoft identity platform token endpoint. Refresh tokens are long-lived. Your app can get new access tokens as older ones expire.
 
@@ -118,8 +118,37 @@ S: A01 NO AUTHENTICATE failed.
 
 ### POP Protocol Exchange
 
-> [!IMPORTANT]
-> Rollout of POP OAuth2 support is in progress. This section will be updated with corresponding instructions once the feature rollout is complete.
+To authenticate a POP server connection, the client will have to respond with an `AUTH` command split into two lines in the following format:	 
+
+```text	
+AUTH XOAUTH2 
+<base64 string in XOAUTH2 format>	
+```	
+
+Sample client-server message exchange that results in an authentication success:	
+
+```text	
+[connection begins]	
+C: AUTH XOAUTH2 	
+S: +	
+C: dXNlcj1zb21ldXNlckBleGFtcGxlLmNvbQFhdXRoPUJlYX	
+JlciB5YTI5LnZGOWRmdDRxbVRjMk52YjNSbGNrQmhkSFJoZG1semRHRXVZMjl0	
+Q2cBAQ==	
+S: +OK User successfully authenticated.	
+[connection continues...]	
+```	
+
+Sample client-server message exchange that results in an authentication failure:	
+
+```text	
+[connection begins]	
+C: AUTH XOAUTH2 	
+S: +	
+C: dXNlcj1zb21ldXNlckBleGFtcGxlLmNvbQFhdXRoPUJlY	
+XJlciB5YTI5LnZGOWRmdDRxbVRjMk52YjNSbGNrQmhkSFJoZG1semRHRXVZMj	
+l0Q2cBAQ=	
+S: -ERR Authentication failure: unknown user name or bad password.	
+```
 
 ### SMTP Protocol Exchange
 
