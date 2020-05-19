@@ -118,10 +118,11 @@ S: A01 NO AUTHENTICATE failed.
 
 ### POP Protocol Exchange
 
-To authenticate a POP server connection, the client will have to respond with an `AUTH` command in the following format:	 
+To authenticate a POP server connection, the client will have to respond with an `AUTH` command split into two lines in the following format:	 
 
 ```text	
-AUTH XOAUTH2 <base64 string in XOAUTH2 format>	
+AUTH XOAUTH2 
+<base64 string in XOAUTH2 format>	
 ```	
 
 Sample client-server message exchange that results in an authentication success:	
