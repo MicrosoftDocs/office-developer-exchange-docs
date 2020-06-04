@@ -87,6 +87,10 @@ dXNlcj10ZXN0QGNvbnRvc28ub25taWNyb3NvZnQuY29tAWF1dGg9QmVhcmVy
 IEV3QkFBbDNCQUFVRkZwVUFvN0ozVmUwYmpMQldaV0NjbFJDM0VvQUEBAQ==
 ```
 
+### SASL XOAUTH2 authentication for shared mailbox in Office 365
+
+In case of shared mailbox access using OAuth, user needs to obtail it´s access token as for users mailbox access but replace the userName in the SASL XOAUTH2 encoded string with the email address of the shared mailbox. This will allow user to successfully authenticate and access the shared mailbox using it own access token. 
+
 ### IMAP Protocol Exchange
 
 To authenticate a IMAP server connection, the client will have to respond with an `AUTHENTICATE` command in the following format:
