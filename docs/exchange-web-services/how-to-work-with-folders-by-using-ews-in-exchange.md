@@ -197,7 +197,7 @@ In this example, a [FolderView](https://msdn.microsoft.com/library/microsoft.exc
   
 This example assumes that **service** is a valid [ExchangeService](https://msdn.microsoft.com/library/microsoft.exchange.webservices.data.exchangeservice%28v=exchg.80%29.aspx) object and that the user has been authenticated to an Exchange server. 
   
-```xml
+```csharp
 // Create a new folder view, and pass in the maximum number of folders to return.
 FolderView view = new FolderView(folderViewSize);
 // Create an extended property definition for the PR_ATTR_HIDDEN property,
