@@ -33,7 +33,7 @@ The following code example shows how to use the [Folder](https://msdn.microsoft.
   
 These examples assume that **service** is a valid [ExchangeService](https://msdn.microsoft.com/library/microsoft.exchange.webservices.data.exchangeservice%28v=exchg.80%29.aspx) object and that the user has been authenticated to an Exchange server. 
   
-```cs
+```csharp
 // Create a custom folder.
 Folder folder = new Folder(service);
 folder.DisplayName = "Custom Folder";
@@ -44,7 +44,7 @@ folder.Save(WellKnownFolderName.Inbox);
 
 To create a different type of folder, such as a [CalendarFolder](https://msdn.microsoft.com/library/microsoft.exchange.webservices.data.calendarfolder%28v=exchg.80%29.aspx), [ContactsFolder](https://msdn.microsoft.com/library/microsoft.exchange.webservices.data.contactsfolder%28v=exchg.80%29.aspx), [SearchFolder](https://msdn.microsoft.com/library/microsoft.exchange.webservices.data.searchfolder%28v=exchg.80%29.aspx), or [TasksFolder](https://msdn.microsoft.com/library/microsoft.exchange.webservices.data.tasksfolder%28v=exchg.80%29.aspx), create a new instance of the specific class (instead of the generic **Folder** class) and do not set the **FolderClass** property. For example, the following code example shows how to create a new [TasksFolder](https://msdn.microsoft.com/library/microsoft.exchange.webservices.data.tasksfolder%28v=exchg.80%29.aspx).
   
-```cs
+```csharp
 // Create a custom Tasks folder.
 TasksFolder folder = new TasksFolder(service);
 folder.DisplayName = "Custom Tasks";
@@ -66,7 +66,7 @@ To create a single folder, send a [CreateFolder](https://msdn.microsoft.com/libr
   
 This is also the XML request that the EWS Managed API sends when you create a new folder and call the [Folder.Save](https://msdn.microsoft.com/library/microsoft.exchange.webservices.data.folder.save%28v=exchg.80%29.aspx) method. 
   
-```XML
+```xml
 <?xml version="1.0" encoding="utf-8"?>
 <soap:Envelope xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
                xmlns:m="https://schemas.microsoft.com/exchange/services/2006/messages"
@@ -110,7 +110,7 @@ The following code example shows how to use the [Folder.Bind](https://msdn.micro
   
 This example assumes that **service** is a valid [ExchangeService](https://msdn.microsoft.com/library/microsoft.exchange.webservices.data.exchangeservice%28v=exchg.80%29.aspx) object and that the user has been authenticated to an Exchange server. 
   
-```cs
+```csharp
 // As a best practice, limit the properties returned to only those that are required.
 // In this scenario, you only need the FolderId.
 PropertySet propSet = new PropertySet(BasePropertySet.IdOnly);
@@ -134,7 +134,7 @@ This is also the XML request that the EWS Managed API sends when you bind to a f
   
 To get multiple folders, include multiple [FolderIds](https://msdn.microsoft.com/library/812948d8-c7db-45ce-bb3a-77233a53a974%28Office.15%29.aspx) elements in the **GetFolder** operation request message. 
   
-```XML
+```xml
 <?xml version="1.0" encoding="utf-8"?>
 <soap:Envelope xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:m="https://schemas.microsoft.com/exchange/services/2006/messages" xmlns:t="https://schemas.microsoft.com/exchange/services/2006/types" xmlns:soap="https://schemas.xmlsoap.org/soap/envelope/">
   <soap:Header>
@@ -155,7 +155,7 @@ To get multiple folders, include multiple [FolderIds](https://msdn.microsoft.com
 
 The following XML example shows the [GetFolderResponse](https://msdn.microsoft.com/library/47abeec8-78dd-4297-8525-099174ec880d%28Office.15%29.aspx) message that is sent from the server to the client in response to the **GetFolder** operation request. It only contains the [FolderId](https://msdn.microsoft.com/library/00d14e3e-4365-4f21-8f88-eaeea73b9bf7%28Office.15%29.aspx) value of the Inbox folder. The values of some attributes and elements have been shortened for readability. 
   
-```XML
+```xml
 <?xml version="1.0" encoding="utf-8"?>
 <s:Envelope xmlns:s="https://schemas.xmlsoap.org/soap/envelope/">
   <s:Header>
@@ -197,7 +197,7 @@ In this example, a [FolderView](https://msdn.microsoft.com/library/microsoft.exc
   
 This example assumes that **service** is a valid [ExchangeService](https://msdn.microsoft.com/library/microsoft.exchange.webservices.data.exchangeservice%28v=exchg.80%29.aspx) object and that the user has been authenticated to an Exchange server. 
   
-```XML
+```csharp
 // Create a new folder view, and pass in the maximum number of folders to return.
 FolderView view = new FolderView(folderViewSize);
 // Create an extended property definition for the PR_ATTR_HIDDEN property,
@@ -221,7 +221,7 @@ The following XML examples show how to use the [FindFolder](https://msdn.microso
   
 This is also the XML request that the EWS Managed API sends when you call the [FindFolders](https://msdn.microsoft.com/library/microsoft.exchange.webservices.data.exchangeservice.findfolders%28v=exchg.80%29.aspx) method. 
   
-```XML
+```xml
 <?xml version="1.0" encoding="utf-8"?>
 <soap:Envelope xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
                xmlns:m="https://schemas.microsoft.com/exchange/services/2006/messages"
@@ -255,7 +255,7 @@ The following XML example shows the [FindFolderResponse](https://msdn.microsoft.
   
 This is also the XML response that the EWS Managed API sends when you get multiple folders by using the [FindFolder](https://msdn.microsoft.com/library/microsoft.exchange.webservices.data.folder.findfolders%28v=exchg.80%29.aspx) method. The values of some attributes and elements have been shortened for readability, and some folders have not been included for brevity. 
   
-```XML
+```xml
 <?xml version="1.0" encoding="utf-8"?><s:Envelope xmlns:s="https://schemas.xmlsoap.org/soap/envelope/">
   <s:Header>
     <h:ServerVersionInfo MajorVersion="15"
@@ -363,7 +363,7 @@ Next, send an [UpdateFolder](https://msdn.microsoft.com/library/3494c996-b834-48
   
 This is also the XML request that the EWS Managed API sends when you update a folder by using the [Folder.Update](https://msdn.microsoft.com/library/microsoft.exchange.webservices.data.folder.update%28v=exchg.80%29.aspx) method. The values of some attributes and elements have been shortened for readability. 
   
-```XML
+```xml
 <?xml version="1.0" encoding="utf-8"?>
 <soap:Envelope xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:m="https://schemas.microsoft.com/exchange/services/2006/messages" xmlns:t="https://schemas.microsoft.com/exchange/services/2006/types" xmlns:soap="https://schemas.xmlsoap.org/soap/envelope/">
   <soap:Header>
@@ -420,7 +420,7 @@ Next, send a [DeleteFolder](https://msdn.microsoft.com/library/b0f92682-4895-4bc
   
 This is also the XML request that the EWS Managed API sends when you delete a folder by using the [Folder.Delete](https://msdn.microsoft.com/library/microsoft.exchange.webservices.data.folder.delete%28v=exchg.80%29.aspx) method. The values of some attributes and elements have been shortened for readability. 
   
-```XML
+```xml
 <?xml version="1.0" encoding="utf-8"?>
 <soap:Envelope xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
                xmlns:m="https://schemas.microsoft.com/exchange/services/2006/messages" 
