@@ -974,6 +974,7 @@ The following table lists the Exchange cmdlets and the input and output type for
 |**Start-HistoricalSearch** <br/> |[OrganizationIdParameter](https://msdn.microsoft.com/library/Microsoft.Exchange.Configuration.Tasks.OrganizationIdParameter.aspx) <br/> [DateTime](https://msdn.microsoft.com/library/System.DateTime.aspx) <br/> [CultureInfo](https://msdn.microsoft.com/library/System.Globalization.CultureInfo.aspx) <br/> [String](https://msdn.microsoft.com/library/System.String.aspx) <br/> ||
 |**Stop-HistoricalSearch** <br/> |[OrganizationIdParameter](https://msdn.microsoft.com/library/Microsoft.Exchange.Configuration.Tasks.OrganizationIdParameter.aspx) <br/> [Guid](https://msdn.microsoft.com/library/System.Guid.aspx) <br/> ||
 |**Suspend-SyncRequest** <br/> |[Fqdn](https://msdn.microsoft.com/library/Microsoft.Exchange.Data.Fqdn.aspx) <br/> [String](https://msdn.microsoft.com/library/System.String.aspx) <br/> ||
+|**Get-BlockedSenderAddress** <br/> |[SmtpAddress](https://msdn.microsoft.com/library/Microsoft.Exchange.Data.SmtpAddress.aspx) <br/> |[SmtpAddress](https://msdn.microsoft.com/library/Microsoft.Exchange.Data.SmtpAddress.aspx) <br/> |
    
 ## See also
 
