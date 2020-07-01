@@ -234,7 +234,7 @@ The **EWSMaxConcurrency** policy parameter can also be an issue for EWS notifica
 
 If the notification application is multi-threaded and makes simultaneous connection requests to get more information about a particular message that was received by a user account, the **EWSMaxConcurrency** policy limit can be exceeded. To account for this, consider monitoring the concurrent connections in your application, including those that might be used by the server, and implementing request queuing on the client.
 
-The **HangingConnectionLimit** is only applicable to streaming notifications. This limit is set in the web.config file, which means that an Exchange administrator can set this value on an on-premises Exchange server, but Exchange Online mailboxes must use the default value for this limit, which is 3 for both Exchange Online and Exchange 2013. To learn more, see [What throttling values do I need to take into consideration?](how-to-maintain-affinity-between-group-of-subscriptions-and-mailbox-server.md#bk_throttling).
+The **HangingConnectionLimit** is only applicable to streaming notifications. This limit is set in the web.config file, which means that an Exchange administrator can set this value on an on-premises Exchange server, but Exchange Online mailboxes must use the default value for this limit, which is 10 for Exchange Online, Exchange 2019, Exchange 2016 and 3 for Exchange 2013. To learn more, see [What throttling values do I need to take into consideration?](how-to-maintain-affinity-between-group-of-subscriptions-and-mailbox-server.md#bk_throttling).
 
 ## Throttling policy and application performance
 
