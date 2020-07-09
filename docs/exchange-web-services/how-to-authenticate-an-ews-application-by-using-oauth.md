@@ -207,6 +207,9 @@ namespace EwsOAuth
 
 The following is the complete code sample that demonstrates making an OAuth-authenticated EWS request using Application permissions.
 
+> [!NOTE]
+> When using impersonation you must always use the X-AnchorMailbox request header, which should be set to the SMTP of the impersonated mailbox.
+
 ```cs
 using System;
 using System.Configuration;
@@ -253,6 +256,9 @@ namespace ews_oauth_samples
 
                 //Impersonate the mailbox you'd like to access.
                 ewsClient.ImpersonatedUserId = new ImpersonatedUserId(ConnectingIdType.SmtpAddress, "test@demotenant.onmicrosoft.com");
+
+                //Include x-anchormailbox header
+                ewsClient.HttpHeaders.Add("X-AnchorMailbox", "test@demotenant.onmicrosoft.com");
 
                 // Make an EWS call
                 var folders = ewsClient.FindFolders(WellKnownFolderName.MsgFolderRoot, new FolderView(10));
