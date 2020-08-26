@@ -10,7 +10,7 @@ ms.audience: Developer
 
 Learn how to use OAuth authentication to connect with IMAP, POP or SMTP protocols and access email data for Office 365 users.
 
-> OAuth2 support for IMAP, POP, SMTP protocols as described below is supported for both Office365 and Outlook.com users.
+> OAuth2 support for IMAP, POP, SMTP protocols as described below is supported for both Microsoft 365 (which includes Office on the web) and Outlook.com users.
 
 If you're not familiar with OAuth 2.0, start by reading the [Microsoft identity platform (v2.0) overview](/azure/active-directory/develop/v2-overview). That document introduces you to different components of Microsoft identity platform, including SDKs.
 
