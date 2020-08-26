@@ -3,7 +3,7 @@ title: "Impersonation and EWS in Exchange"
  
  
 manager: sethgros
-ms.date: 11/16/2014
+ms.date: 08/24/2020
 ms.audience: Developer
  
  
@@ -59,6 +59,10 @@ You can read more about [configuring impersonation](how-to-configure-impersonati
 - [Identify the account to impersonate](how-to-identify-the-account-to-impersonate.md)
     
 - [Add appointments by using Exchange impersonation](how-to-add-appointments-by-using-exchange-impersonation.md)
+
+## Performance considerations for EWS impersonation
+
+When EWS Impersonation is used, the X-AnchorMailbox should always be correctly set.  Otherwise, you may get error messages 500 or 503 at times. It is critical for performance and also for notifications with Exchange Online/Exchange 2013.  Not setting it can double or more the time it takes to complete the call. In some cases, you can also get timeouts. 
     
 ## See also
 
