@@ -1,7 +1,7 @@
 ---
 title: "Get started with EWS client applications"
 manager: sethgros
-ms.date: 11/16/2014
+ms.date: 8/26/2020
 ms.audience: Developer
 ms.assetid: e6fd5c23-0ba5-4a7b-bdde-4a553447069f
 description: "Create your first application by using Exchange Web Services (EWS) in Exchange."
