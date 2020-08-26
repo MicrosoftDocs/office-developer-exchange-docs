@@ -20,7 +20,7 @@ You can call EWS operations from any operating system or language, because the E
 
 If you already have an Exchange mailbox account, you can skip this step. Otherwise, you have the following options for setting up an Exchange mailbox for your first EWS application:
   
-- [Get an Office 365 Developer Site ](https://msdn.microsoft.com/library/office/fp179924.aspx)(recommended). This is the quickest way for you to get an Exchange mailbox.
+- [Get an Office 365 Developer Site ](https://developer.microsoft.com/microsoft-365/dev-program)(recommended). This is the quickest way for you to get an Exchange mailbox.
     
 - Download [Exchange Server](https://office.microsoft.com/exchange/microsoft-exchange-try-or-buy-exchange-we-can-help-you-decide-FX103746846.aspx?WT%2Eintid1=ODC%5FENUS%5FFX103472230%5FXT103965589).
 
