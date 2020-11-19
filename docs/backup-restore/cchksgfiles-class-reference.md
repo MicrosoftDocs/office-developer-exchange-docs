@@ -30,7 +30,7 @@ By default, the CHKSGFILES DLL is installed in the C:\Program Files\Microsoft\Ex
   
 Exchange 2013 includes only a 64-bit (amd64) version of the CHKSGFILES API. 
   
-You can download a .zip file that includes the CHKSGFILE.lib library and CHKSGFILES.hxx header files for use in your custom application from the [Microsoft Download Center](http://www.microsoft.com/en-us/download/details.aspx?id=36802).
+You can download a .zip file that includes the CHKSGFILE.lib library and CHKSGFILES.hxx header files for use in your custom application from the [Microsoft Download Center](https://www.microsoft.com/download/details.aspx?id=36802).
   
 ## Development languages
 <a name="bk_developmentlanguages"> </a>
@@ -71,6 +71,6 @@ The CHKSGFILES API is intended for use with versions of Visual Studio starting w
 ## See also
 
 - [Exchange Online and Exchange development](../exchange-server-development.md)
-- [Backup, Restore, and Disaster Recovery](http://technet.microsoft.com/en-us/library/dd876874)
+- [Backup, Restore, and Disaster Recovery](https://technet.microsoft.com/library/dd876874)
     
 

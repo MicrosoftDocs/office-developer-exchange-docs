@@ -24,7 +24,7 @@ Before your application can validate the integrity of your backup, you must have
   
 - Files from your Exchange store backup.
 - A version of Visual Studio starting with Visual Studio 2010.
-- The CHKSGFILES library and header files. You can download the library and header files from the [Microsoft Download Center](http://www.microsoft.com/en-us/download/details.aspx?id=36802).
+- The CHKSGFILES library and header files. You can download the library and header files from the [Microsoft Download Center](https://www.microsoft.com/download/details.aspx?id=36802).
     
 ## Validate backup integrity
 

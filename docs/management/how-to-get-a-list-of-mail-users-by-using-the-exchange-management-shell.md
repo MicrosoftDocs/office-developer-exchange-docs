@@ -62,9 +62,9 @@ This method requires the following parameters:
   
 -  **liveIDConnectionUri** &ndash; A string that contains the URI of the Exchange Online server that will authenticate the application. If Exchange Online is running in Office 365, the URI is `https://outlook.office365.com/PowerShell-LiveID`; otherwise, the URI is `https://<servername>/PowerShell-LiveID`. 
     
--  **schemaUri** &ndash; A string that contains the URI of the schema document that defines the Exchange Management Shell schema. The schema URI is `http://schemas.microsoft.com/powershell/Microsoft.Exchange`. 
+-  **schemaUri** &ndash; A string that contains the URI of the schema document that defines the Exchange Management Shell schema. The schema URI is `https://schemas.microsoft.com/powershell/Microsoft.Exchange`. 
     
--  **credentials** &ndash; A [PSCredential](http://msdn.microsoft.com/en-us/library/system.management.automation.pscredential%28VS.85%29.aspx) object that contains the credentials of the user who is running the application. 
+-  **credentials** &ndash; A [PSCredential](https://msdn.microsoft.com/library/system.management.automation.pscredential%28VS.85%29.aspx) object that contains the credentials of the user who is running the application. 
     
 -  **count** &ndash; The number of Exchange mailbox users to return. 
     
@@ -118,7 +118,7 @@ This method requires the following parameters:
     |Exchange server using SSL  <br/> |`https://<servername>/PowerShell`  <br/> |
     |Exchange Online as part of Office 365  <br/> |`https://outlook.office365.com/PowerShell`  <br/> |
    
-- **schemaUri** &ndash; A string that contains the URI of the schema document that defines the Exchange Management Shell schema. The schema URI is http://schemas.microsoft.com/powershell/Microsoft.Exchange. 
+- **schemaUri** &ndash; A string that contains the URI of the schema document that defines the Exchange Management Shell schema. The schema URI is https://schemas.microsoft.com/powershell/Microsoft.Exchange. 
     
 - **count** &ndash; The number of Exchange mailbox users to return. 
     
@@ -168,9 +168,9 @@ This method requires the following parameters:
     |Exchange server without using SSL  <br/> |`http://<servername>/PowerShell`  <br/> |
     |Exchange server using SSL  <br/> |`https://<servername>/PowerShell`  <br/> |
    
-- **schemaUri** &ndash; A string that contains the URI of the schema document that defines the Exchange Management Shell schema. The schema URI is http://schemas.microsoft.com/powershell/Microsoft.Exchange. 
+- **schemaUri** &ndash; A string that contains the URI of the schema document that defines the Exchange Management Shell schema. The schema URI is https://schemas.microsoft.com/powershell/Microsoft.Exchange. 
     
-- **credentials** &ndash; A [PSCredential](http://msdn.microsoft.com/en-us/library/system.management.automation.pscredential%28VS.85%29.aspx) object that contains the credentials of the user who is running the application. 
+- **credentials** &ndash; A [PSCredential](https://msdn.microsoft.com/library/system.management.automation.pscredential%28VS.85%29.aspx) object that contains the credentials of the user who is running the application. 
     
 - **count** &ndash; The number of Exchange mailbox users to return. 
     
@@ -207,7 +207,7 @@ public Collection<PSObject> GetUsersUsingKerberos(
 
 ## Get a list of mailbox users from a remote runspace
 
-The following code example defines the **GetUserInformation** method, which returns a collection of [PSObject](http://msdn.microsoft.com/en-us/library/system.management.automation.pscredential%28VS.85%29.aspx) instances that represent Exchange mailbox users. This method is called by the **GetUsersUsingBasicAuth**, **GetUsersUsingCertificate**, and **GetUsersUsingKerberos** methods to return the list of users from the remote server. 
+The following code example defines the **GetUserInformation** method, which returns a collection of [PSObject](https://msdn.microsoft.com/library/system.management.automation.pscredential%28VS.85%29.aspx) instances that represent Exchange mailbox users. This method is called by the **GetUsersUsingBasicAuth**, **GetUsersUsingCertificate**, and **GetUsersUsingKerberos** methods to return the list of users from the remote server. 
   
 This method requires the following parameters:
   

@@ -35,8 +35,8 @@ The transport pipeline refers to the flow of message data within the boundaries 
 
 |**Service**|**Description**|**Classes supported**|
 |:-----|:-----|:-----|
-|Front End Transport  <br/> |Runs on all [Client Access servers](http://technet.microsoft.com/en-us/library/dd298114%28v=exchg.150%29.aspx) and acts as a stateless proxy for all inbound and outbound external SMTP traffic for the Exchange 2013 organization. The Front End Transport service doesn't inspect message content or queue any messages locally. It communicates with the Transport service on a [Mailbox server](http://technet.microsoft.com/en-us/library/jj150491%28v=exchg.150%29.aspx).  <br/> |[SmtpReceiveAgent](https://msdn.microsoft.com/library/Microsoft.Exchange.Data.Transport.Smtp.SmtpReceiveAgent.aspx) <br/> |
-|Transport  <br/> |Runs on all Mailbox servers and is similar to the [Hub Transport server](http://technet.microsoft.com/en-us/library/bb123494%28v=exchg.141%29.aspx) role in Exchange Server 2010. The Transport service routes messages between itself and the Mailbox Transport and Front End Transport services. This service does not communicate directly with mailbox databases.  <br/> |[SmtpReceiveAgent](https://msdn.microsoft.com/library/Microsoft.Exchange.Data.Transport.Smtp.SmtpReceiveAgent.aspx) <br/> [RoutingAgent](https://msdn.microsoft.com/library/Microsoft.Exchange.Data.Transport.Routing.RoutingAgent.aspx) <br/> [DeliveryAgent](https://msdn.microsoft.com/library/Microsoft.Exchange.Data.Transport.Delivery.DeliveryAgent.aspx) <br/> |
+|Front End Transport  <br/> |Runs on all [Client Access servers](https://technet.microsoft.com/library/dd298114%28v=exchg.150%29.aspx) and acts as a stateless proxy for all inbound and outbound external SMTP traffic for the Exchange 2013 organization. The Front End Transport service doesn't inspect message content or queue any messages locally. It communicates with the Transport service on a [Mailbox server](https://technet.microsoft.com/library/jj150491%28v=exchg.150%29.aspx).  <br/> |[SmtpReceiveAgent](https://msdn.microsoft.com/library/Microsoft.Exchange.Data.Transport.Smtp.SmtpReceiveAgent.aspx) <br/> |
+|Transport  <br/> |Runs on all Mailbox servers and is similar to the [Hub Transport server](https://technet.microsoft.com/library/bb123494%28v=exchg.141%29.aspx) role in Exchange Server 2010. The Transport service routes messages between itself and the Mailbox Transport and Front End Transport services. This service does not communicate directly with mailbox databases.  <br/> |[SmtpReceiveAgent](https://msdn.microsoft.com/library/Microsoft.Exchange.Data.Transport.Smtp.SmtpReceiveAgent.aspx) <br/> [RoutingAgent](https://msdn.microsoft.com/library/Microsoft.Exchange.Data.Transport.Routing.RoutingAgent.aspx) <br/> [DeliveryAgent](https://msdn.microsoft.com/library/Microsoft.Exchange.Data.Transport.Delivery.DeliveryAgent.aspx) <br/> |
 |Mailbox Transport  <br/> |Runs on all Mailbox servers and consists of two separate services: Mailbox Transport Submission and Mailbox Transport Delivery. Mailbox Transport Delivery receives SMTP messages from the Transport service, and connects to the mailbox database by using an Exchange remote procedure call (RPC) to deliver the message. Mailbox Transport Submission connects to the mailbox database using RPC to retrieve messages, and submits the messages via SMTP to the Transport service.  <br/> |None.  <br/> |
    
 ### Transport events
@@ -79,7 +79,7 @@ The following figure shows the interactions between the Exchange 2013 server rol
 
 ![An image shows interactions starting with arrows from client traffic passing through a layer 4 load balance that has 4 targets in the CAS: IIS/HTTP Proxy, POP/IMAP, SMTP, and UM. The arrows pass to their complimentary targets in the mailbox store.](media/Transport_Agent_Concepts_Fig_4.png)
   
-For more information about changes in the Exchange 2013 server role architecture, see [Exchange 2013 architecture](http://technet.microsoft.com/en-us/library/jj150540%28v=exchg.150%29.aspx#BKMK_Arch) in [What's New in Exchange 2013](http://technet.microsoft.com/en-us/library/jj150540%28v=exchg.150%29.aspx). 
+For more information about changes in the Exchange 2013 server role architecture, see [Exchange 2013 architecture](https://technet.microsoft.com/library/jj150540%28v=exchg.150%29.aspx#BKMK_Arch) in [What's New in Exchange 2013](https://technet.microsoft.com/library/jj150540%28v=exchg.150%29.aspx). 
   
 ## Transport agent classes
 <a name="Create"> </a>
@@ -95,7 +95,7 @@ The following table lists the classes from which to derive for each agent type.
 |Agent type  <br/> |Factory base class  <br/> |Agent base class  <br/> |
 |SMTP receive  <br/> |[SmtpReceiveAgentFactory](https://msdn.microsoft.com/library/Microsoft.Exchange.Data.Transport.Smtp.SmtpReceiveAgentFactory.aspx) <br/> |[SmtpReceiveAgent](https://msdn.microsoft.com/library/Microsoft.Exchange.Data.Transport.Smtp.SmtpReceiveAgent.aspx) <br/> |
 |Routing  <br/> |[RoutingAgentFactory](https://msdn.microsoft.com/library/Microsoft.Exchange.Data.Transport.Routing.RoutingAgentFactory.aspx) <br/> |[RoutingAgent](https://msdn.microsoft.com/library/Microsoft.Exchange.Data.Transport.Routing.RoutingAgent.aspx) <br/> |
-|Delivery  <br/> |[DeliveryAgentFactory\<Manager\>](https://msdn.microsoft.com/en-us/library/dd877550(v=exchg.150).aspx) <br/> |[DeliveryAgent](https://msdn.microsoft.com/en-us/library/microsoft.exchange.data.transport.delivery.deliveryagent(v=exchg.150).aspx) <br/> |
+|Delivery  <br/> |[DeliveryAgentFactory\<Manager\>](https://msdn.microsoft.com/library/dd877550(v=exchg.150).aspx) <br/> |[DeliveryAgent](https://msdn.microsoft.com/library/microsoft.exchange.data.transport.delivery.deliveryagent(v=exchg.150).aspx) <br/> |
    
 These factory and agent base classes provide properties and methods that you can use to access transport events and messages. Implement classes in your agent that inherit from these classes. In the agent factory derived class, override the **CreateAgent** method so that it returns a new instance of your agent class. 
   
@@ -113,18 +113,18 @@ The following namespaces contain types that you can use to read, write, and modi
     
 - [Microsoft.Exchange.Data.ContentTypes.vCard](https://msdn.microsoft.com/library/Microsoft.Exchange.Data.ContentTypes.vCard.aspx)
     
-After you write your transport agent, you [install and manage your agent](http://technet.microsoft.com/en-us/library/bb125175%28v=exchg.150%29.aspx) by using the Exchange Management Shell. For more information, see [Creating transport agents for Exchange 2013](creating-transport-agents-for-exchange-2013.md). 
+After you write your transport agent, you [install and manage your agent](https://technet.microsoft.com/library/bb125175%28v=exchg.150%29.aspx) by using the Exchange Management Shell. For more information, see [Creating transport agents for Exchange 2013](creating-transport-agents-for-exchange-2013.md). 
   
 ## See also
 
 - [Transport agents in Exchange](transport-agents-in-exchange-2013.md)    
 - [Transport agent reference for Exchange 2013](transport-agent-reference-for-exchange-2013.md)   
 - [Reading and modifying messages in the Exchange 2013 transport pipeline](reading-and-modifying-messages-in-the-exchange-2013-transport-pipeline.md)    
-- [What's New in Exchange 2013](http://technet.microsoft.com/en-us/library/jj150540%28v=exchg.150%29.aspx)   
-- [Exchange 2013 Server Role Architecture](http://blogs.technet.com/b/exchange/archive/2013/01/23/exchange-2013-server-role-architecture.aspx)    
-- [Mailbox and Client Access Servers](http://technet.microsoft.com/en-us/library/jj150519%28v=exchg.150%29.aspx)   
-- [Exchange Server 2013 Mail Flow](http://technet.microsoft.com/en-us/library/aa996349.aspx)
-- [Exchange Server 2013 Mail Routing](http://technet.microsoft.com/en-us/library/aa998825%28v=exchg.150%29.aspx)   
-- [Exchange Server PowerShell (Exchange Management Shell)](https://docs.microsoft.com/en-us/powershell/exchange/exchange-server/exchange-management-shell?view=exchange-ps)
+- [What's New in Exchange 2013](https://technet.microsoft.com/library/jj150540%28v=exchg.150%29.aspx)   
+- [Exchange 2013 Server Role Architecture](https://blogs.technet.com/b/exchange/archive/2013/01/23/exchange-2013-server-role-architecture.aspx)    
+- [Mailbox and Client Access Servers](https://technet.microsoft.com/library/jj150519%28v=exchg.150%29.aspx)   
+- [Exchange Server 2013 Mail Flow](https://technet.microsoft.com/library/aa996349.aspx)
+- [Exchange Server 2013 Mail Routing](https://technet.microsoft.com/library/aa998825%28v=exchg.150%29.aspx)   
+- [Exchange Server PowerShell (Exchange Management Shell)](https://docs.microsoft.com/powershell/exchange/exchange-server/exchange-management-shell?view=exchange-ps)
     
 
