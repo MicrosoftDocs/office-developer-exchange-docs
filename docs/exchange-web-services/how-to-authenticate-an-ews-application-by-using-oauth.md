@@ -26,7 +26,7 @@ You can use the OAuth authentication service provided by Azure Active Directory 
 To use the code in this article, you will need to have access to the following:
 
 - A Microsoft 365 account with an Exchange Online mailbox. If you do not have a Microsoft 365 account, you can [sign up for the Microsoft 365 Developer Program](https://developer.microsoft.com/microsoft-365/dev-program) to get a free Microsoft 365 subscription.
-- The [Microsoft Authentication Library for .NET](/dotnet/api/microsoft.identity.client?view=azure-dotnet).
+- The [Microsoft Authentication Library for .NET](/dotnet/api/microsoft.identity.client).
 - The [EWS Managed API](https://github.com/officedev/ews-managed-api).
 
 There are two types of OAuth permissions that can be used to access EWS APIs in Exchange Online. Before you proceed with the tutorial, you will need to choose the specific permission type to use.
