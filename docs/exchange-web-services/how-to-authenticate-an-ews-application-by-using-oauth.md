@@ -52,7 +52,7 @@ To use OAuth, an application must have an application ID issued by Azure Active 
 
 ### Configure for delegated authentication
 
-If your application uses delegated authentication, no further configuration is required. The [Microsoft identity platform] allows apps to request permissions dynamically, so you do not have to pre-configure permissions on the app registration. However, in some scenarios (like the [on-behalf-of flow](/azure/active-directory/develop/v2-oauth2-on-behalf-of-flow)) pre-configuring permissions is required. Use the following steps to pre-configure EWS permissions.
+If your application uses delegated authentication, no further configuration is required. The [Microsoft identity platform](/azure/active-directory/develop/v2-overview) allows apps to request permissions dynamically, so you do not have to pre-configure permissions on the app registration. However, in some scenarios (like the [on-behalf-of flow](/azure/active-directory/develop/v2-oauth2-on-behalf-of-flow)) pre-configuring permissions is required. Use the following steps to pre-configure EWS permissions.
 
 1. Select **Manifest** in the left-hand navigation under **Manage**.
 
