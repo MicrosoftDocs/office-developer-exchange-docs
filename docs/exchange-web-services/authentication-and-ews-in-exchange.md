@@ -72,7 +72,7 @@ Basic authentication provides a, well, basic level of security for your client a
 You need to decide if basic authentication meets the security requirements of your organization and customers. Basic authentication can be the right choice if you want to avoid extensive setup tasks, for example for simple test or demonstration applications.
 
 > [!NOTE]
-> Basic authentication is no more supported for EWS to connect to Exchange Online. Use OAuth authentication in all your new or existing EWS applications to connect to Exchange Online. OAuth authentication for EWS is only available in Exchange Online as part of Microsoft 365. EWS applications that use OAuth must be registered with Azure Active Directory first.
+> Basic authentication is no longer supported for EWS to connect to Exchange Online. Use OAuth authentication in all your new or existing EWS applications to connect to Exchange Online. OAuth authentication for EWS is only available in Exchange Online as part of Microsoft 365. EWS applications that use OAuth must be registered with Azure Active Directory first.
   
 ## See also
 - [Authenticate an EWS application by using OAuth](how-to-authenticate-an-ews-application-by-using-oauth.md)
