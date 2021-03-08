@@ -35,7 +35,7 @@ The **CopiedEvent** element represents an event in which an item or folder is co
    <TimeStamp/>
    <ItemId/>
    <ParentFolderId/>
-   <OldFolderId/>
+   <OldItemId/>
    <OldParentFolderId/>
 </CopiedEvent>
 ```
