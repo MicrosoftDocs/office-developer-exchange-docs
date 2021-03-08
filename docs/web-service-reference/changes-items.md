@@ -33,6 +33,7 @@ The **Changes** element contains a sequence array of change types that represent
    <Create/>
    <Update/>
    <Delete/>
+   <ReadFlagChange/>
 </Changes>
 ```
 
