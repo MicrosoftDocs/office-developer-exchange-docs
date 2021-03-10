@@ -74,6 +74,8 @@ The **MeetingResponse** element represents a meeting response in the Exchange st
    <EffectiveRights/>
    <ReceivedBy/>
    <ReceivedRepresenting/>
+   <ProposedStart/>
+   <ProposedEnd/>
 </MeetingResponse>
 ```
 
@@ -142,6 +144,8 @@ None.
 |[EffectiveRights](effectiverights.md) <br/> |Contains the client's rights based on the permission settings for the item or folder. This element is read-only. This element was introduced in Microsoft Exchange Server 2007 Service Pack 1 (SP1).  <br/> |
 |[ReceivedBy](receivedby.md) <br/> |Identifies the delegate in a delegate access scenario. This element was introduced in Exchange 2007 SP1.  <br/> |
 |[ReceivedRepresenting](receivedrepresenting.md) <br/> |Identifies the principal in a delegate access scenario. This element was introduced in Exchange 2007 SP1.  <br/> |
+|[ProposedStart](proposedstart.md) <br/> |Specifies the proposed start time of a meeting. This element was introduced in Microsoft Exchange Server 2013. <br/> |
+|[ProposedEnd](proposedend.md) <br/> |Specifies the proposed end time of a meeting. This element was introduced in Microsoft Exchange Server 2013. <br/> |
 |[UID](uid.md) <br/> |Identifies a calendar item.  <br/> |
 |[RecurrenceId](recurrenceid.md) <br/> |Used to identify a specific instance of a recurring calendar item.  <br/> |
 |[DateTimeStamp](datetimestamp.md) <br/> |Indicates the date and time that an instance of an iCalendar object was created.  <br/> |
