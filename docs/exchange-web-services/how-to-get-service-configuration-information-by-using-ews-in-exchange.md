@@ -37,9 +37,9 @@ private static void GetServiceConfiguration(ExchangeService service, NetworkCred
   const string getServiceConfigurationRequest = 
     "<?xml version=\"1.0\" encoding=\"utf-8\"?>\n" +
     "<soap:Envelope xmlns:xsi=\"http://www.w3.org/2001/XMLSchema-instance\"\n" +
-    "               xmlns:m=\"https://schemas.microsoft.com/exchange/services/2006/messages\"\n" +
-    "               xmlns:t=\"https://schemas.microsoft.com/exchange/services/2006/types\" \n" +
-    "               xmlns:soap=\"https://schemas.xmlsoap.org/soap/envelope/\"\n" +
+    "               xmlns:m=\"http://schemas.microsoft.com/exchange/services/2006/messages\"\n" +
+    "               xmlns:t=\"http://schemas.microsoft.com/exchange/services/2006/types\" \n" +
+    "               xmlns:soap=\"http://schemas.xmlsoap.org/soap/envelope/\"\n" +
     "               xmlns:xs=\"http://www.w3.org/2001/XMLSchema\">\n" +
     "  <soap:Header>\n" +
     "    <t:RequestServerVersion Version=\"Exchange2013\" />\n" +
