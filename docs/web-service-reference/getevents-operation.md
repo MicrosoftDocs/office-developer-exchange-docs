@@ -23,7 +23,7 @@ The **GetEvents** operation is used by pull subscription clients to request noti
 > [!IMPORTANT]
 > The **DeleteUserConfiguration** operation will trigger a move event for the event notification system. The user configuration object will be moved to the dumpster. 
   
-## Remarks
+## Notes
 
 Changes to Calendar items may result in the generation of multiple events. These events are the result of temporary items being created in the mailbox, free/busy data storage items being changed as part of the normal Calendar operations, or both. Events for item class "IPM.SchedulePlus.FreeBusy.BinaryData" should be ignored by Web service clients. These temporary items are deleted after they are created; therefore, if an attempt is made to retrieve these items, an error will be returned that states that the item was not found.
   
