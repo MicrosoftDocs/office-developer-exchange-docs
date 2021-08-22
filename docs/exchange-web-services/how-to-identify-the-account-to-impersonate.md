@@ -58,7 +58,7 @@ In an EWS SOAP request, the [PrimarySmtpAddress](https://msdn.microsoft.com/libr
 <soap:Header>
   <t:ExchangeImpersonation>
     <t:ConnectingSID>
-      <t:PrimarySmtpAddress>alisa@contoso.com</t: PrimarySmtpAddress>
+      <t:PrimarySmtpAddress>alisa@contoso.com</t:PrimarySmtpAddress>
     </t:ConnectingSID>
   </t:ExchangeImpersonation>
 </soap:Header>
