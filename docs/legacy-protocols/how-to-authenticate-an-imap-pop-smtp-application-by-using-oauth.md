@@ -2,7 +2,7 @@
 title: "Authenticate an IMAP, POP or SMTP connection using OAuth"
 description: "Learn how to use OAuth authentication with your IMAP, POP, and SMTP applications."
 author: svpsiva
-ms.date: 02/19/2020
+ms.date: 07/08/2021
 ms.audience: Developer
 ---
 
@@ -26,18 +26,6 @@ You can use the OAuth authentication service provided by Azure Active Directory 
 To use OAuth, an application must be registered with Azure Active Directory.
 
 Follow the instructions listed in [Register an application with the Microsoft identity platform](/azure/active-directory/develop/quickstart-register-app) to create a new application.
-
-## Configure your application
-
-Follow the instructions listed in [Configure a client application to access web APIs](/azure/active-directory/develop/quickstart-configure-app-access-web-apis)
-
-Make sure to add one or more of the following permission scopes that correspond to the protocols you would like to integrate with. In the **Add a permission** wizard, select **Microsoft Graph** and then **Delegated permissions** to find the following permission scopes listed.
-
-| Protocol  | Permission scope        |
-|-----------|-------------------------|
-| IMAP      | `IMAP.AccessAsUser.All` |
-| POP       | `POP.AccessAsUser.All`  |
-| SMTP AUTH | `SMTP.Send`             |
 
 ## Get an access token
 
