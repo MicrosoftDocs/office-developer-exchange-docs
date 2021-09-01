@@ -17,7 +17,9 @@ description: "The ManagerMailbox element contains SMTP information that identifi
 The **ManagerMailbox** element contains SMTP information that identifies the mailbox of the contact's manager. 
   
 ```XML
-<ManagerMailbox/>
+<ManagerMailbox>
+   <Mailbox/>
+</ManagerMailbox>
 ```
 
  **SingleRecipientType**
@@ -31,18 +33,16 @@ None.
   
 ### Child elements
 
-None.
+|**Element**|**Description**|
+|:-----|:-----|
+|[Mailbox](mailbox.md) <br/> |Identifies a mail enabled Active Directory object that identifies the sender.  <br/> |
   
 ### Parent elements
 
 |**Element name**|**Description**|
 |:-----|:-----|
 |[Contact](contact.md) <br/> |Represents a contact item in the Exchange store.  <br/> |
-   
-## Text value
 
-None.
-  
 ## Remarks
 
 The schema that describes this element is located in the IIS virtual directory that hosts Exchange Web Services.
