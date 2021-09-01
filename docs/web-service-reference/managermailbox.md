@@ -42,7 +42,7 @@ None.
 |**Element name**|**Description**|
 |:-----|:-----|
 |[Contact](contact.md) <br/> |Represents a contact item in the Exchange store.  <br/> |
-     
+
 ## Remarks
 
 The schema that describes this element is located in the IIS virtual directory that hosts Exchange Web Services.
