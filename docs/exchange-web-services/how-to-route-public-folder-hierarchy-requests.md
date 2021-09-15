@@ -3,7 +3,7 @@ title: "Route public folder hierarchy requests"
 manager: sethgros
 ms.date: 03/9/2015
 ms.audience: Developer
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: ec35df8e-4d75-4aa1-8b9c-ae1db7e05772
 description: "All requests for public folder information that require knowledge of the public folder hierarchy, such as moving, updating, deleting, or finding public folders, need to be routed to the default public folder hierarchy mailbox for the given user. To route the requests to that mailbox, you need to set the X-AnchorMailbox and X-PublicFolderMailbox headers to specific values returned by the Autodiscover service."
 ---

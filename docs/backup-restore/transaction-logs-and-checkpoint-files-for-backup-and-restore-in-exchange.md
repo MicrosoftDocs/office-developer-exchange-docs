@@ -5,7 +5,7 @@ ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: overview
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 80e04b9f-87c7-4acf-89b1-aa66ffaf7e53
 description: "Find information about transaction logs and checkpoint files and how they are used to back up and restore Exchange 2013 data."
 ---

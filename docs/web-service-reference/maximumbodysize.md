@@ -7,7 +7,7 @@ ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: cc52f7f5-c2a8-4cfb-937b-dfec6cd3ea0f
 description: "The MaximumBodySize element specifies the maximum size of the item body to return in a response."
 ---

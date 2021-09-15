@@ -7,7 +7,7 @@ ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: e924c66f-d17f-44e5-9e8e-e02d6117f431
 description: "The MiddleNames element specifies an array of middle name values and the identifiers of their source attributions for the associated persona."
 ---

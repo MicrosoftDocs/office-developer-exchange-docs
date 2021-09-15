@@ -7,7 +7,7 @@ ms.date: 03/9/2015
 ms.audience: Developer
  
  
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 455f475b-cb19-4e7a-8ff3-92f7028fceb0
 description: "Learn how to create, get, update, and delete batches of contacts in a single call by using the EWS Managed API or EWS in Exchange."
 ---

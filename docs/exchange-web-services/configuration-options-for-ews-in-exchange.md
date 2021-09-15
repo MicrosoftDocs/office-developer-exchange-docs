@@ -3,7 +3,7 @@ title: "Configuration options for EWS in Exchange"
 manager: sethgros
 ms.date: 09/17/2015
 ms.audience: Developer
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: f6562639-9366-4a13-9fdb-2fa737833329
 description: "Find information about configuration settings that your EWS client can access, and the configurable Exchange settings that can affect your EWS client."
 ---

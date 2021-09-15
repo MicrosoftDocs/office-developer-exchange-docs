@@ -6,7 +6,7 @@ ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: c9688ce8-2465-45bb-8bd2-94b32ed4885c
 description: "Find information about how to use the AddNewTelUriContactToGroup EWS operation."
 ---

@@ -5,7 +5,7 @@ ms.date: 11/16/2014
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 8c610de4-3853-478f-860c-873c4c1bf6ca
 description: "The IsMember (FederatedDirectoryGroupType) element is intended for internal use only."
 ---

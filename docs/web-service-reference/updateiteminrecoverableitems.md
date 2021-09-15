@@ -7,7 +7,7 @@ ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: c49816b1-dbb5-4716-86c7-30790e86f30e
 description: "The UpdateItemInRecoverableItems element specifies a request to update an item in recoverable items."
 ---

@@ -7,7 +7,7 @@ ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 86f66275-1e39-48ed-bd89-ac3bffc465a7
 description: "The ContactId element uniquely identifies a contact."
 ---

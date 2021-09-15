@@ -7,7 +7,7 @@ ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: f6e8143d-4235-428e-8f9c-ab6e9b1cfa6e
 description: "Find information about the GetUserPhoto EWS operation."
 ---

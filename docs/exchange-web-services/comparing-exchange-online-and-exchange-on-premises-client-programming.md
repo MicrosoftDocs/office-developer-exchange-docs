@@ -3,7 +3,7 @@ title: "Comparing Exchange Online and Exchange on-premises client programming"
 manager: sethgros
 ms.date: 09/17/2015
 ms.audience: Developer
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 3c2eabe4-52bc-461e-a6dd-f65f22f16e50
 description: "Learn about the design considerations for creating an EWS Managed API or EWS client application that works against Exchange Online and Exchange on-premises."
 ---

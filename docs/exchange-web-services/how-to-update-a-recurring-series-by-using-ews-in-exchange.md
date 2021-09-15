@@ -7,7 +7,7 @@ ms.date: 11/16/2014
 ms.audience: Developer
  
  
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: c922072f-ce33-4bff-97b0-1c1d0f9b880d
 description: "Learn how to update an entire recurring series at once by using the EWS Managed API or EWS in Exchange."
 ---

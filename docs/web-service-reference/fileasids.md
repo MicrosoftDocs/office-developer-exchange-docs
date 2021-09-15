@@ -7,7 +7,7 @@ ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 71cae100-b68e-454b-b9b6-ddbcb4d78f3f
 description: "The FileAsIds element specifies an array of StringAttributedValue elements and the identifiers of their source attributions for the associated persona."
 ---

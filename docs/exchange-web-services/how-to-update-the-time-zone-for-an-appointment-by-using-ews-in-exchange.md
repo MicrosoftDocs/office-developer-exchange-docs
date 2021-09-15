@@ -3,7 +3,7 @@ title: "Update the time zone for an appointment by using EWS in Exchange"
 manager: sethgros
 ms.date: 11/16/2014
 ms.audience: Developer
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: dc2240c1-5500-4d5c-97d5-09d63ffd30d5
 description: "Learn how to update the time zone for an existing appointment or meeting by using the EWS Managed API or EWS in Exchange."
 ---

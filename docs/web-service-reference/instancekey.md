@@ -7,7 +7,7 @@ ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: bb4dbe9b-aea0-4527-b7d6-e928066caf38
 description: "The InstanceKey element specifies an instance key for an item or conversation."
 ---

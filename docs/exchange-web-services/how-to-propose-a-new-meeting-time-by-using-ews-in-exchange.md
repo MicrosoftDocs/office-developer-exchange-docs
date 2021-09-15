@@ -7,7 +7,7 @@ ms.date: 09/17/2015
 ms.audience: Developer
  
  
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: d5ac8e5b-3876-4f20-b4d3-44505e066042
 description: "Find out how to propose new meeting times from your Exchange client application by using EWS in Exchange."
 ---

@@ -7,7 +7,7 @@ ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 6f1bcbfb-d7f6-4fa0-b6f8-681a0b067007
 description: "The SearchMailboxesResponseMessage element specifies the response message for a SearchMailboxes request."
 ---

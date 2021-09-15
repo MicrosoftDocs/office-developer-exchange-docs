@@ -5,7 +5,7 @@ ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 7d3c6314-2a5c-4fc3-b5f9-ae6d4946aac3
 description: "The TaskSuggestions element specifies an array of task suggestions extracted from an item."
 ---

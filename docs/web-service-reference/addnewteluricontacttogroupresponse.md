@@ -5,7 +5,7 @@ ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: abff2306-a3a7-489a-b548-2edbc1eb5cc4
 description: "The AddNewTelUriContactToGroupResponse element specifies the result data for the AddNewTelUriContactToGroup WSDL operation."
 ---

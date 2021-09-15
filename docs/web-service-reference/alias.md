@@ -5,7 +5,7 @@ ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 18aafbcd-a221-463a-935c-bc7c3fdbb08f
 description: "The Alias element contains the email alias of a contact."
 ---

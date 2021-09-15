@@ -5,7 +5,7 @@ ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 16d63d10-3566-4eda-802a-fcef5458d2e7
 description: "The AddImGroup element defines a request to add a new instant messaging group."
 ---

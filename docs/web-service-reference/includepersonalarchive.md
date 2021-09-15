@@ -7,7 +7,7 @@ ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: b373bb1a-6b1d-4959-98a1-4c4ea62973bc
 description: "The IncludePersonalArchive element specifies whether to include the personal archive in the search."
 ---

@@ -7,7 +7,7 @@ ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: a8b574dd-ce26-424f-b0f5-3311d93a4806
 description: "The ProposedEnd element specifies the proposed end time of a meeting."
 ---

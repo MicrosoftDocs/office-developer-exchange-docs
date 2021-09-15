@@ -7,7 +7,7 @@ ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: cddd6075-06b6-4858-9ffa-9db4d9d9b030
 description: "The Token element specifies a client access token."
 ---

@@ -7,7 +7,7 @@ ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: b0d9feae-6932-4de3-818b-aba38170b258
 description: "The SearchId element specifies the identifier of a discovery search."
 ---

@@ -7,7 +7,7 @@ ms.date: 03/9/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 6081777a-ae91-43d2-bf83-f3742030aa70
 description: "The ReminderTime element specifies the time for the reminder to occur."
 ---

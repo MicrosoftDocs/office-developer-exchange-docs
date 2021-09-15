@@ -7,7 +7,7 @@ ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 9e1388cc-ddc4-42f7-889b-17d781e80ace
 description: "The WeddingAnniversaries element specifies an array of wedding anniversary dates, stored as strings, and the identifiers of their source attributions for the associated persona."
 ---

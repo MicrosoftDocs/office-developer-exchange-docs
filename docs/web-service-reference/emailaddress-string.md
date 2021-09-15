@@ -5,7 +5,7 @@ ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 5b847017-fa89-4094-bfa1-cc436b760207
 description: "The EmailAddress element specifies a single email address."
 ---

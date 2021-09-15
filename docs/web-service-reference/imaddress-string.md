@@ -7,7 +7,7 @@ ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: fa10fcdb-f947-4958-ad5a-afaed1661f52
 description: "The ImAddress element contains the primary instant messaging address of a persona."
 ---

@@ -7,7 +7,7 @@ ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 10d0739c-2591-4768-935c-b131b26e974d
 description: "The SetClientExtension element contains a request to set a client extension."
 ---

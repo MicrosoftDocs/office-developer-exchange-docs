@@ -5,7 +5,7 @@ ms.date: 03/9/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 0ffcdcf4-8ea3-483c-bb7f-0cd84126120c
 description: "The ActionType element specifies the action to take on the reminder."
 ---

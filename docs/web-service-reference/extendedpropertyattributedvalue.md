@@ -7,7 +7,7 @@ ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 90f3c5c5-f612-4e1b-b1f5-f92dd8524179
 description: "The ExtendedPropertyAttributedValue element specifies extended properties for a persona."
 ---

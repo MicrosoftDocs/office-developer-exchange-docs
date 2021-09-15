@@ -7,7 +7,7 @@ ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 3f25e673-0df0-4285-bf03-a083a395cdab
 description: "The ModifyRecipientsAllowed element specifies whether modification of the recipients is enabled."
 ---

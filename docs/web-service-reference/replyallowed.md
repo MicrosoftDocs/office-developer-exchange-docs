@@ -7,7 +7,7 @@ ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 880af57e-0fa1-473c-b87c-f02f1133ba5e
 description: "The ReplyAllowed element specifies whether a reply is allowed for rights managed data."
 ---

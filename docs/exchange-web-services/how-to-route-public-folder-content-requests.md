@@ -3,7 +3,7 @@ title: "Route public folder content requests"
 manager: sethgros
 ms.date: 03/9/2015
 ms.audience: Developer
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 59d2f05e-90fb-471e-ac06-70becc15b295
 description: "All requests for public folder information that involve the content of the public folder need to be routed to the public folder mailbox that holds the content for the target folder. To route the requests to that mailbox, you need to set the X-AnchorMailbox and X-PublicFolderMailbox headers to specific values."
 ---

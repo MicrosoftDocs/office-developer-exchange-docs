@@ -7,7 +7,7 @@ ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: c466c845-9806-4a9a-8ba6-ee908b80d012
 description: "The Keywords element specifies keywords for a FindMailboxStatisticsByKeywords operation search."
 ---

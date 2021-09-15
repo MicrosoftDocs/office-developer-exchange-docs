@@ -7,7 +7,7 @@ ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 7707aa6a-381d-43f7-a454-54f6343ed127
 description: "Find information about the UninstallApp EWS operation."
 ---

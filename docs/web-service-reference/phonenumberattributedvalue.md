@@ -7,7 +7,7 @@ ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 8bf16552-b672-424a-91b6-6470e20a49ad
 description: "The PhoneNumberAttributedValue element specifies an instance of an array of phone numbers and their associated attributions."
 ---

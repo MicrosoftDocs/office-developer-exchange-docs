@@ -3,7 +3,7 @@ title: "EWS functionality in Exchange product versions"
 manager: sethgros
 ms.date: 03/9/2015
 ms.audience: Developer
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 186c51dc-ec33-4a5d-b739-c9fcb1d4cdd3
 description: "EWS implements new functionality in new product releases. Use the information in this article to determine whether the version of Exchange you're targeting includes support for the data or features you need access to."
 ---

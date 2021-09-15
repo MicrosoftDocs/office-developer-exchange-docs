@@ -7,7 +7,7 @@ ms.date: 03/9/2015
 ms.audience: Developer
  
  
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 71871ac7-ee1a-4f93-9e81-77f312d432f4
 description: "Learn how to delete attachments from items by using the EWS Managed API or EWS in Exchange."
 ---

@@ -5,7 +5,7 @@ ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: bb7aaa46-3a04-4197-aebb-8881ff10603f
 description: "The ParentId element specifies the identifier of the parent item in a search preview."
 ---

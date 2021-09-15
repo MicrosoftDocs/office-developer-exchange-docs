@@ -7,7 +7,7 @@ ms.date: 09/17/2015
 ms.audience: Developer
  
  
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: eb25cbd1-2244-4c3f-a71a-5ee20f81c41f
 description: "Find out how to use the EWS Managed API or EWS to subscribe to pull notifications and get events."
 ---

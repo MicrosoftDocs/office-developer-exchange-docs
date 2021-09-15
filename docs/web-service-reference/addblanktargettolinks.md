@@ -5,7 +5,7 @@ ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 30180298-2501-4369-9b8f-2f7663f02336
 description: "The AddBlankTargetToLinks element specifies that the target attribute in HTML links are set to open a new window."
 ---

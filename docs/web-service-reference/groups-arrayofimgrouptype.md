@@ -5,7 +5,7 @@ ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 544dbb60-d6cb-47e1-b157-f0166147b6cf
 description: "The Groups element represents an array of instant messaging (IM) groups."
 ---

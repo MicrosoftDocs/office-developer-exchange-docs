@@ -7,7 +7,7 @@ ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 2c016fc3-0e13-4624-9a5b-d3e84577a860
 description: "Find information about the GetAppMarketplaceUrl EWS operation."
 ---

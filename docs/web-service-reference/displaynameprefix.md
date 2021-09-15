@@ -5,7 +5,7 @@ ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 60363698-7603-4051-a66e-007c02db17cb
 description: "The DisplayNamePrefix element specifies the prefix of the display name of the associated persona."
 ---

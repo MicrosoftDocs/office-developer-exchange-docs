@@ -7,7 +7,7 @@ ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 49dcf69f-bf8d-4be6-a24c-03bbd13f4fe5
 description: "The Guid element specifies the globally unique identifier of the mailbox."
 ---

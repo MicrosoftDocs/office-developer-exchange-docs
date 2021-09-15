@@ -7,7 +7,7 @@ ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: bc32e0f4-61e9-4c9f-9a03-90a07eb51c53
 description: "The ForwardAllowed element specifies whether forwarding emails is enabled."
 ---

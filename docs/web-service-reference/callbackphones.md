@@ -7,7 +7,7 @@ ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 8a7c1377-aac3-42c5-820f-d01cd8e9cf5c
 description: "The CallbackPhones element specifies an array of call-back phone numbers and the identifiers of their source attributions for the associated persona."
 ---

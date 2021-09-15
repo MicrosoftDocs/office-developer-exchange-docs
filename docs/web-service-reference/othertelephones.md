@@ -7,7 +7,7 @@ ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: c2f3070c-81c6-43f7-ae48-cb3d2dcfac68
 description: "The OtherTelephones element specifies an array of telephone values and the identifiers of their source attributions for the associated persona."
 ---

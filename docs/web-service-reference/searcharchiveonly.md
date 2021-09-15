@@ -7,7 +7,7 @@ ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: cce5344c-b622-44d4-bc14-a0de346c9335
 description: "The SearchArchiveOnly element indicates whether only the archive mailbox is searched for non-indexable items."
 ---

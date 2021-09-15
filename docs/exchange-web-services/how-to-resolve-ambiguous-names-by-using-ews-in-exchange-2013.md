@@ -7,7 +7,7 @@ ms.date: 03/9/2015
 ms.audience: Developer
  
  
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 1ba21c54-ecd2-4a1e-80d4-0f4171dea84f
 description: "Learn how to use the EWS Managed API or EWS to resolve ambiguous names by getting possible matches from Active Directory Domain Services (AD DS) or a contacts folder in your user's mailbox."
 ---

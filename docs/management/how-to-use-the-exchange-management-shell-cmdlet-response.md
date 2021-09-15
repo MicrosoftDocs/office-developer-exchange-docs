@@ -5,7 +5,7 @@ ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: overview
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: dac8e526-11c6-4c2e-b9a2-f016b1fc738a
 description: "Learn how to use the response from an Exchange Management Shell cmdlet in your Exchange managed application."
 ---

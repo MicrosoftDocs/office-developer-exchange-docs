@@ -7,7 +7,7 @@ ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 78266287-481e-43c1-b143-2cafd0063c95
 description: "The RelevanceScore element specifies an integer that represents how relevant the associated persona is to the client."
 ---

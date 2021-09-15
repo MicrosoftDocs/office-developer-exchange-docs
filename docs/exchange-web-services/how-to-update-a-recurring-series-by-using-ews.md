@@ -7,7 +7,7 @@ ms.date: 11/16/2014
 ms.audience: Developer
  
  
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 7e61bee9-4840-4773-a0a7-47b11e1fdf59
 description: "Learn how to modify appointments in a recurring series by using the EWS Managed API or EWS in Exchange."
 ---

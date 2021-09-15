@@ -5,7 +5,7 @@ ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 9ac306c6-f72d-4403-ac6a-2c8beb245a17
 description: "The CallerData element in intended for internal use only."
 ---

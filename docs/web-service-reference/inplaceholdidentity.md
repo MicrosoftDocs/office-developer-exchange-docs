@@ -7,7 +7,7 @@ ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 54f45774-00a0-4392-af1b-8c5f2208a53f
 description: "The InPlaceHoldIdentity element specifies the identity of a hold that preserves the mailbox items."
 ---

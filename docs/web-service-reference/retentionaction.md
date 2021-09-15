@@ -7,7 +7,7 @@ ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 3bdf5955-1212-48a1-b3b5-743086866c91
 description: "The RetentionAction element specifies the action performed on items with the retention tag."
 ---

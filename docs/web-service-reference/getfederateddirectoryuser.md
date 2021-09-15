@@ -5,7 +5,7 @@ ms.date: 11/16/2014
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 9435a2db-44b6-4176-8453-f684ae44b535
 description: "The GetFederatedDirectoryUser element is intended for internal use only."
 ---

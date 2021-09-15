@@ -5,7 +5,7 @@ ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 38318ed6-3774-4342-b1bf-1d551ecf077c
 description: "The Photo element contains a value that encodes the photo of a contact."
 ---

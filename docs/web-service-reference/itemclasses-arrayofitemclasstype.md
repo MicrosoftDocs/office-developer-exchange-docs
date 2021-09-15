@@ -7,7 +7,7 @@ ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 971784d1-6860-4833-bb26-0e930fa11c21
 description: "The ItemClasses element contains a list of item classes that represents all the item classes of the conversation items in the current folder."
 ---

@@ -7,7 +7,7 @@ ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 89513c26-b751-4619-a300-0ed8f55b0102
 description: "The SearchItemKind element indicates the type of items that are searched for a FindMailboxStatisticsByKeyword operation."
 ---

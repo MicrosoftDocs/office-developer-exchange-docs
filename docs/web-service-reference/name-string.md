@@ -5,7 +5,7 @@ ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: cffb41de-b8d0-4efd-8a39-2804025332fe
 description: "The Name element specifies a search refiner name."
 ---

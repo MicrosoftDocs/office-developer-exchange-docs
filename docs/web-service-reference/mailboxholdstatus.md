@@ -5,7 +5,7 @@ ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 92608b77-8aa4-403b-a4de-01e3a60af3e0
 description: "The MailboxHoldStatus element specifies the hold status of the mailbox."
 ---

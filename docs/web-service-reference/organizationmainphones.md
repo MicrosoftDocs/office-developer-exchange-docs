@@ -7,7 +7,7 @@ ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 8e69ae44-0e6d-4fb8-97c6-37cf23577c38
 description: "The OrganizationMainPhones element specifies an array of organizational main phone numbers and the identifiers of their source attributions for the associated persona."
 ---

@@ -7,7 +7,7 @@ ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 7b47bc74-a60d-4308-8674-5d52444a1753
 description: "The Flag element specifies a flag on a mailbox item."
 ---

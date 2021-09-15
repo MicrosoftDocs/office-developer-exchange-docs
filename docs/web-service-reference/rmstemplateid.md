@@ -7,7 +7,7 @@ ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 95aca4bc-beeb-4f13-b44c-885d72a83491
 description: "The RMSTemplateId element specifies the identifier of the Rights Management template."
 ---

@@ -7,7 +7,7 @@ ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 713a30fe-17ad-48a3-88a2-4f83da9db7a5
 description: "The MeetingString element specifies the name of the meeting as the result of entity extraction."
 ---

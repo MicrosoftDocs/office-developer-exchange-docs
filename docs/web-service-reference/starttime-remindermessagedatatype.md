@@ -5,7 +5,7 @@ ms.date: 03/9/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: cdfc4edd-463c-409b-9bef-6fb915d00b99
 description: "The StartTime (ReminderMessageDataType) element specifies the starting time of the item that the reminder is for."
 ---

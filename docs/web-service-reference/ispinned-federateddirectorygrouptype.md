@@ -5,7 +5,7 @@ ms.date: 11/16/2014
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 147121c9-516a-41f5-a506-0f646cdc653b
 description: "The IsPinned (FederatedDirectoryGroupType) element is intended for internal use only."
 ---

@@ -5,7 +5,7 @@ ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: overview
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 9347d5f6-95bb-4045-9c86-0dc0ded24fe8
 description: "Find reference information for the CHKSGFILES API in Exchange 2013."
 ---

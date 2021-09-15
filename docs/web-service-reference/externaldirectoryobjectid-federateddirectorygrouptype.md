@@ -5,7 +5,7 @@ ms.date: 11/16/2014
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: ca21028a-fe15-4cf4-a70f-05b0ed7b7480
 description: "The ExternalDirectoryObjectId (FederatedDirectoryGroupType) element is intended for internal use only."
 ---

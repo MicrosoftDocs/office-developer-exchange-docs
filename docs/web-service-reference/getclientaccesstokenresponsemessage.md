@@ -7,7 +7,7 @@ ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 45ca2500-ceab-4c98-9576-cb9e158e5896
 description: "The GetClientAccessTokenResponseMessage element specifies the response message for a GetClientAccessToken request."
 ---

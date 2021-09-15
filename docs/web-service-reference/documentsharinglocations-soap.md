@@ -4,7 +4,7 @@ manager: sethgros
 ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 394f6015-721b-4800-9286-039d430f09b3
 description: "The DocumentSharingLocations element contains a list of location and metadata information for a document sharing location."
 ---

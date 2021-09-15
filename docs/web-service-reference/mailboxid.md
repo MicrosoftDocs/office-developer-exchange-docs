@@ -5,7 +5,7 @@ ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: bcef790d-094f-40ba-b4cf-8abd9c79cc7a
 description: "The MailboxId element specifies an identifier for the mailbox that is accessed by discovery search."
 ---

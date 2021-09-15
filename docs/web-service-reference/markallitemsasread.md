@@ -7,7 +7,7 @@ ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 22244afb-99ec-41b4-8f73-3fbccd56d1ab
 description: "The MarkAllItemsAsRead element contains the request to mark all the items in a folder as read."
 ---

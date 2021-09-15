@@ -7,7 +7,7 @@ ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 0fcc2f53-742b-46ae-bbab-c3295a3d69e7
 description: "The GetSearchableMailboxesResponse element contains the response to a GetSearchableMailboxes request."
 ---

@@ -7,7 +7,7 @@ ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 95084659-aa5a-4bac-8977-00db3b87883e
 description: "The EmailAddresses element specifies an array of all email addresses of the associated persona."
 ---

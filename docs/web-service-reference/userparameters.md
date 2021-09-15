@@ -7,7 +7,7 @@ ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: bad7311f-7ecd-4f0c-b8e7-dd8f7d378f55
 description: "The UserParameters element contains a list of enabled and disabled client extensions."
 ---

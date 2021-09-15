@@ -3,7 +3,7 @@ title: "Access email as a delegate by using EWS in Exchange"
 manager: sethgros
 ms.date: 03/9/2015
 ms.audience: Developer
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: a8123604-c7c0-405d-a0ed-7a9b4a431bfd
 description: "Learn how to access email as a delegate by using the EWS Managed API or EWS in Exchange."
 ---

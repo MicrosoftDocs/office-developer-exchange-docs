@@ -4,7 +4,7 @@ manager: sethgros
 ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: b2d62fd0-741c-4a41-9762-cc7d0ff01c9c
 description: "The AddressBook element contains the specifications for connecting a client to the address book server by using the MAPI/HTTP protocol."
  

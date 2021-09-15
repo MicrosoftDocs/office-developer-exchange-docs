@@ -7,7 +7,7 @@ ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 7b0d54f5-1a04-4781-9f4a-d3e933a8b235
 description: "The ItemHits element identifies how many times a keyword was found."
 ---

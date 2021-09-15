@@ -7,7 +7,7 @@ ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: b6942ac5-9942-4c68-876c-d02d049e7966
 description: "The TemplateName element specifies the name of the Rights Management template."
 ---

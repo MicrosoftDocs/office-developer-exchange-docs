@@ -5,7 +5,7 @@ ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 2fca9474-f5f8-44e8-975d-145fc7696edf
 description: "The AddImGroupResponse defines a response to an AddImGroup request."
 ---

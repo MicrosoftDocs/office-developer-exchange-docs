@@ -7,7 +7,7 @@ ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 49db6a4f-4a20-4495-8f76-d756cc895b66
 description: "The RetentionPeriod element specifies the number of days that the retention policy is in effect."
 ---

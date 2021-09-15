@@ -7,7 +7,7 @@ ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: c9850a25-1560-4ed8-969c-dc3e59dde207
 description: "The WorkCity element specifies the city where the associated persona works."
 ---

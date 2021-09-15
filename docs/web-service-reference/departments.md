@@ -5,7 +5,7 @@ ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: a0a6b0a4-f0dd-4945-af69-628da93f5452
 description: "The Departments element specifies an array of department names and the identifiers of their source attributions for the associated persona."
 ---

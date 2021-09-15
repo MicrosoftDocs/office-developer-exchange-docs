@@ -7,7 +7,7 @@ ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: ecbe4f1c-1c9e-44e0-a8f7-08c160a0fddb
 description: "The BusinessPhoneNumbers element specifies an array of business phone numbers and the identifiers of their source attributions for the associated persona."
 ---

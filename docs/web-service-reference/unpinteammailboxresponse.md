@@ -7,7 +7,7 @@ ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 82dfa204-e316-432f-a753-5bd97f576389
 description: "The UnpinTeamMailboxResponse element contains a response to a request to unpin a site mailbox."
 ---

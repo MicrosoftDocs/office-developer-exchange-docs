@@ -5,7 +5,7 @@ ms.date: 11/16/2014
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: cdf3a923-cd82-485b-b2ca-757ec8727134
 description: "The SetEncryptionConfigurationResponse element is intended for internal use only."
 ---

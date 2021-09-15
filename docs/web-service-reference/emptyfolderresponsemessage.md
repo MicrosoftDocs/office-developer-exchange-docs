@@ -5,7 +5,7 @@ ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 678dd5ce-8d9e-4939-bf1b-a8e148f4f449
 description: "The EmptyFolderResponseMessage element contains the status and result of a single EmptyFolder request."
 ---

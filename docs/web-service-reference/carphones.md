@@ -7,7 +7,7 @@ ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: ad096246-113c-42ea-9e63-861b546003e8
 description: "The CarPhone element specifies an array of car phone numbers and the identifiers of their source attributions for the associated persona."
 ---

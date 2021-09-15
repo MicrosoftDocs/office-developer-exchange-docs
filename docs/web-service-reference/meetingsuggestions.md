@@ -7,7 +7,7 @@ ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: c99e9a60-9e38-425d-ad03-47c8917f41da
 description: "The MeetingSuggestions element specifies an array of MeetingSuggestion elements that contain entity extraction results."
 ---

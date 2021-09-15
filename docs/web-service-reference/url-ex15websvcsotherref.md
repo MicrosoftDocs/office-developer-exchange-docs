@@ -7,7 +7,7 @@ ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: c0d41b95-36b9-4e7a-a442-cdea37467abd
 description: "The Url element represents the location of the client Web service for push notifications."
 ---

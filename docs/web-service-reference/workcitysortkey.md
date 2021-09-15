@@ -7,7 +7,7 @@ ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: cfaea527-613c-4bbf-b174-f408147d9768
 description: "The WorkCitySortKey element contains the sort key for the work city values associated with a persona."
 ---

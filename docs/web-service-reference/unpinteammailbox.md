@@ -7,7 +7,7 @@ ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 1034b013-ef34-4e72-99b3-38bff475b3e8
 description: "The UnpinTeamMailbox element contains the request to unpin a site mailbox from the client by removing it from the Autodiscover response."
 ---

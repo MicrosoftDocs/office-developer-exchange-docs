@@ -7,7 +7,7 @@ ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: f4f958ed-9cf4-4ebf-9b01-e2df9a7cbd63
 description: "The GetPasswordExpirationDate element defines a request to get the password expiration date for an email account. This element is the base element for the GetPasswordExpirationDate operation operation."
 ---

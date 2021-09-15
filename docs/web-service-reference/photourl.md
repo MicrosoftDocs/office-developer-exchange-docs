@@ -5,7 +5,7 @@ ms.date: 11/16/2014
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 0d6d1709-01b2-4599-8145-47f51da4bb26
 description: "The PhotoUrl element is intended for internal use only."
 ---

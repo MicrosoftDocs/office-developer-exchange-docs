@@ -7,7 +7,7 @@ ms.date: 03/9/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: d0278642-2b15-4605-974e-325b829a0528
 description: "The KeywordStatisticsSearchResult element contains a single keyword search result."
 ---

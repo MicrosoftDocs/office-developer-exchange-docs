@@ -4,7 +4,7 @@ manager: sethgros
 ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 984ccd97-c337-47b6-ba42-3405a8b55a71
 description: "The SmtpAddress element contains the SMTP address assigned to the public folder message store configured for the user."
 ---

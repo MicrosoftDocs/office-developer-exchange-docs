@@ -4,7 +4,7 @@ manager: sethgros
 ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 4a37bbfb-c763-4a3c-93ea-14c2e7355dbc
 description: "The EcpUrl-photo element specifies a partial URL that can be combined with the EcpUrl (POX) element's value to generate a URL that can be used to view or change a mail-enabled user's current photo."
  

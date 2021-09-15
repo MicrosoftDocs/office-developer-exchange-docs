@@ -5,7 +5,7 @@ ms.date: 11/16/2014
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 6a20b0d3-3048-4349-8df4-1922ea90bae2
 description: "The LegacyDn (FederatedDirectoryGroupType) element is intended for internal use only."
 ---

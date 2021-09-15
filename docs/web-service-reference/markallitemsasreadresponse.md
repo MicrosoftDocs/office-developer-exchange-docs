@@ -7,7 +7,7 @@ ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 07dedaa8-17aa-4553-b8e2-e3f82c40ae1e
 description: "The MarkAllItemsAsReadResponse element specifies the response to a MarkAllItemsAsRead request."
 ---

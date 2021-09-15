@@ -7,7 +7,7 @@ ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: e15dbfca-3b9d-463e-94ec-4f1b6115bee3
 description: "The GetDiscoverySearchConfiguration element specifies a request to retrieve the eDiscovery search configuration."
 ---

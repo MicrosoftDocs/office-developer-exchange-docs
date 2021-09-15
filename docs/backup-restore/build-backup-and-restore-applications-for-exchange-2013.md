@@ -5,7 +5,7 @@ ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: overview
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: e5e952a5-add1-417c-a3c2-230f4dc99b00
 description: "Find information about the components and architecture of backup and restore applications for Exchange 2013, and the system requirements for creating a backup and restore application."
 ---

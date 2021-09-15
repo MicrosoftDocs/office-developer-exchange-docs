@@ -3,7 +3,7 @@ title: "Handling notification-related errors in EWS in Exchange"
 manager: sethgros
 ms.date: 09/17/2015
 ms.audience: Developer
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 519e1e52-5f1f-4f06-931e-8c20a586a563
 description: "Find out how to handle notification-related errors in applications that you develop by using the EWS Managed API or EWS in Exchange."
 ---

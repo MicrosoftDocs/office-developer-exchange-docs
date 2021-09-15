@@ -5,7 +5,7 @@ ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: f41b5be6-9b79-4e83-8cdb-aa779e13cb3f
 description: "The DisableReason element specifies the reason for disabling an app."
 ---

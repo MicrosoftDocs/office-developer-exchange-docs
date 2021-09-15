@@ -7,7 +7,7 @@ ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: ee2891e4-3aa6-4258-9727-1f2ee9622508
 description: "The Range element specifies a range of calendar item occurrences for a repeating calendar item."
 ---

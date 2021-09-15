@@ -5,7 +5,7 @@ ms.date: 11/16/2014
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 38bf6de4-1522-4c59-bcb2-1912dca287e2
 description: "The Alias (FederatedDirectoryGroupType) element is intended for internal use only."
 ---

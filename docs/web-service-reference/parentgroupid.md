@@ -5,7 +5,7 @@ ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: d9d9bd36-95bd-4d3f-9ef9-db6f50b5a6ca
 description: "The ParentGroupId element is intended for internal use only."
 ---

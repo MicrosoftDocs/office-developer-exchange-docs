@@ -3,7 +3,7 @@ title: "Distribution groups and EWS in Exchange"
 manager: sethgros
 ms.date: 03/9/2015
 ms.audience: Developer
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: fe08c2e3-92a0-43ec-bc61-69b14caee8fe
 description: "Learn about the different types of distribution groups that are available in Exchange and how you can manage them in your EWS Managed API or EWS application."
 ---

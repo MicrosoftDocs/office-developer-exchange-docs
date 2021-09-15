@@ -7,7 +7,7 @@ ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: ddeb11db-797d-4939-91d5-3e44be5f0778
 description: "The HasBlockedImages element specifies a Boolean value that indicates whether the item has blocked images."
 ---

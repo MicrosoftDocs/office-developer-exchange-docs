@@ -5,7 +5,7 @@ ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: e898d737-b6e4-4403-9c2c-aec52a48a83d
 description: "The Mailbox element contains the mailbox identifier and the user's primary Simple Mail Transfer Protocol (SMTP) address."
 ---

@@ -7,7 +7,7 @@ ms.date: 09/17/2015
 ms.audience: Developer
  
  
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 78ae179b-ae4f-4f64-911a-e0c70e0fa314
 description: "Learn about archiving in EWS in Exchange."
 ---

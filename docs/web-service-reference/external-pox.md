@@ -4,7 +4,7 @@ manager: sethgros
 ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 8eed1f79-6eb3-4a88-80fb-d4edf9f34fda
 description: "The External element contains a collection of URLs that a client can use to connect to Exchange from outside of the organization's network."
  

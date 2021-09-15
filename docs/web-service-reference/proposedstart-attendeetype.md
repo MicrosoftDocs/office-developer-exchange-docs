@@ -7,7 +7,7 @@ ms.date: 03/9/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 94a233d8-2eb4-4cec-913d-965aca4c975b
 description: "The ProposedStart (AttendeeType) element specifies an attendee's proposed start time for a meeting."
 ---

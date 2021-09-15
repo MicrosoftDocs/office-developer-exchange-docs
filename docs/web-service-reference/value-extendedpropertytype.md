@@ -5,7 +5,7 @@ ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 7a210393-0e8e-4f43-9360-4512b6dcba35
 description: "The Value element specifies an array of extended properties for a persona."
 ---

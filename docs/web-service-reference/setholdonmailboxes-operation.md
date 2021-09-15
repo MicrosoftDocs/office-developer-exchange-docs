@@ -7,7 +7,7 @@ ms.date: 01/24/2020
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 9015a0d8-3495-461b-aa79-797d23169585
 description: "Find information about the SetHoldOnMailboxes EWS operation."
 ---

@@ -7,7 +7,7 @@ ms.date: 09/17/2015
 ms.audience: Developer
  
  
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: a0807b90-645a-4ea6-aee1-96828df14be0
 description: "Find out how to handle synchronization-related errors in applications that you develop by using the EWS Managed API or EWS in Exchange."
 ---

@@ -7,7 +7,7 @@ ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 15ff513d-f39e-44ed-a13f-ab3f86fa37e1
 description: "The HasChanged element indicates whether a user's photo has changed."
 ---

@@ -7,7 +7,7 @@ ms.date: 03/9/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 943c3d5d-7d29-4d70-932c-8a4fe44a0037
 description: "The GetReminders element specifies a request to get reminders."
 ---

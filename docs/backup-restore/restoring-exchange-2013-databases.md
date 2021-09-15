@@ -7,7 +7,7 @@ ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: overview
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: e0804bb1-fd66-448a-b2cb-9ae2726ae888
 description: "Find information about the different ways that you can restore your Exchange 2013 databases."
 ---

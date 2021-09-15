@@ -7,7 +7,7 @@ ms.date: 03/9/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 169e7825-4480-46d2-9f84-cdab27c8bcfb
 description: "The UID (ReminderType) element identifies the calendar item associated with a reminder."
 ---

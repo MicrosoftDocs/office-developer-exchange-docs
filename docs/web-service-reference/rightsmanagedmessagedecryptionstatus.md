@@ -7,7 +7,7 @@ ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 17c7af54-aa44-4065-86ce-ac9f2edbf464
 description: "The RightsManagedMessageDecryptionStatus element specifies the rights management decryption status of an item."
 ---

@@ -7,7 +7,7 @@ ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: cab51a28-dfad-4c70-aafe-e239321b784e
 description: "The ImAddresses3 element specifies an array of instant message addresses and the identifiers of their source attributions for the associated persona."
 ---

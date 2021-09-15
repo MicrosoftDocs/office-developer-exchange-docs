@@ -7,7 +7,7 @@ ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 446106b7-ff2d-4107-90c1-29f4d38ba128
 description: "Find information about the FindPeople EWS operation."
 ---

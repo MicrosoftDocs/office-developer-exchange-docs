@@ -7,7 +7,7 @@ ms.date: 03/9/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 1b1c7288-2a98-4142-8961-4d2ebca5c37c
 description: "The GetRemindersResponse element specifies the response to a GetReminders request."
 ---

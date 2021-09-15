@@ -4,7 +4,7 @@ manager: sethgros
 ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 7358bb88-c441-4f2c-9647-c030e7303e8a
 description: "The IsDefault element indicates whether a document sharing location is the user's default sharing location."
  

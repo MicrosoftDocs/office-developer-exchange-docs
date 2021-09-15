@@ -7,7 +7,7 @@ ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: b4ffdf0f-1210-429d-8eea-665db2aad3bb
 description: "The LastAttemptTime element contains the time and date at which the last attempt to index the item was made."
 ---

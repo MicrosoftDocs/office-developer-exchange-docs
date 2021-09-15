@@ -7,7 +7,7 @@ ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 5a84c19e-57cd-448e-af4f-c8005fd5f2a2
 description: "The Birthdays element specifies an array of birthdays, stored as strings, and the identifiers of their source attributions for the associated persona."
 ---

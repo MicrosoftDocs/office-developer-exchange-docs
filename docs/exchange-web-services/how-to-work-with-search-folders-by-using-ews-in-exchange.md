@@ -3,7 +3,7 @@ title: "Work with search folders by using EWS in Exchange"
 manager: sethgros
 ms.date: 09/17/2015
 ms.audience: Developer
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: abe703c5-6d85-46d9-bf20-230c34782a9f
 description: "Find out how to create, get, update, and delete search folders by using the EWS Managed API or EWS in Exchange."
 ---
