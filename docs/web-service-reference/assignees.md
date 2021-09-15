@@ -5,7 +5,7 @@ ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 20ef18c2-daa0-4f65-a515-e84e9993a77f
 description: "The Assignees element specifies the people to whom a task is assigned."
 ---

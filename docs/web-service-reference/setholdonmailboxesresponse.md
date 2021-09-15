@@ -7,7 +7,7 @@ ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 909194d6-e2b1-4774-bf29-04ed4318df1d
 description: "The SetHoldOnMailboxesResponse element represents a response to a SetHoldOnMailboxes request."
 ---

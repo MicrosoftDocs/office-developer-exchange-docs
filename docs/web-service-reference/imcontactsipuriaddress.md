@@ -7,7 +7,7 @@ ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 4a3d12a2-0736-4f60-b3b8-14586467df3c
 description: "The ImContactSipUriAddress element contains the SIP URI address of a contact that is added to an instant messaging (IM) group."
 ---

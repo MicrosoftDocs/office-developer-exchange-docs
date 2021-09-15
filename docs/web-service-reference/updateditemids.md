@@ -7,7 +7,7 @@ ms.date: 03/9/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 9199aeb2-abdf-40c5-8743-40b61853c951
 description: "The UpdatedItemIds element specifies the identifiers of updated reminder items."
 ---

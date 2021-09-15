@@ -3,7 +3,7 @@ title: "Search and EWS in Exchange"
 manager: sethgros
 ms.date: 09/17/2015
 ms.audience: Developer
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 9fa5b836-857e-401d-9450-51e7dbc69104
 description: "Find out how to search for items in Exchange by using the EWS Managed API or EWS."
 ---

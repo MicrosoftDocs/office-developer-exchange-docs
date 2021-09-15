@@ -4,7 +4,7 @@ manager: sethgros
 ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: e13c0edd-2ab1-49bb-a993-54a8db2dfbb9
 description: "The TargetApplicationUri element defines the target application URI. The TargetApplicationUri element is for internal use only. This element is not used by clients."
  

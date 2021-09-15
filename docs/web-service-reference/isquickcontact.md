@@ -7,7 +7,7 @@ ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 1c9542d6-ef72-4743-828a-bb671e783836
 description: "The IsQuickContact element specifies a Boolean value that indicates whether the underlying contact is a quick contact."
 ---

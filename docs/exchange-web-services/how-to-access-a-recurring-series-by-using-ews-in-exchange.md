@@ -3,7 +3,7 @@ title: "Access a recurring series by using EWS in Exchange"
 manager: sethgros
 ms.date: 03/9/2015
 ms.audience: Developer
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 196a5671-2836-4696-b734-d5ecfdbf8962
 description: "Learn how to access calendar items in a recurring series by using the EWS Managed API or EWS in Exchange."
 ---

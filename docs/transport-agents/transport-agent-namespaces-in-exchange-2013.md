@@ -5,7 +5,7 @@ ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: overview
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 5c40788e-c182-4502-9202-206e6aaa53f8
 description: "Learn about the .NET Framework classes and members that you can use to create custom transport agents for Exchange 2013."
 ---

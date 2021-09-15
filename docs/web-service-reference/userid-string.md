@@ -7,7 +7,7 @@ ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 1796c2f2-5248-4a07-9aa0-0ca7453d7217
 description: "The UserId element specifies the user identifier of an email user."
 ---

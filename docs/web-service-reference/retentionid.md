@@ -7,7 +7,7 @@ ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 07be3c51-6537-49b5-b25d-ff51759aba1f
 description: "The RetentionId element specifies the retention tag identifier."
 ---

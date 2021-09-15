@@ -5,7 +5,7 @@ ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 345df672-4254-4372-af06-c4816be7e33d
 description: "The RecognitionResult element is intended for internal use only."
 ---

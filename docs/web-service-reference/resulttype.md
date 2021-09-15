@@ -7,7 +7,7 @@ ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 488ee828-343f-4382-a5e8-eed1005f5dbc
 description: "The ResultType element contains the type of search to perform. The type of search can be statistics only or preview only."
 ---

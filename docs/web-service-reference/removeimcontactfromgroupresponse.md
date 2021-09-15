@@ -7,7 +7,7 @@ ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: cd97bd7f-55ed-4acb-b2e6-a69797b87a41
 description: "The RemoveImContactFromGroupResponse element defines a response to a RemoveImContactFromGroup request."
 ---

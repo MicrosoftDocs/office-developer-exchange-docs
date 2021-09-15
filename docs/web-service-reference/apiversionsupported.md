@@ -5,7 +5,7 @@ ms.date: 03/9/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: d9264e74-eba7-4279-b193-af7e5130268d
 description: "The ApiVersionSupported element contains the version of the JavaScript API for Office supported by the client."
 ---

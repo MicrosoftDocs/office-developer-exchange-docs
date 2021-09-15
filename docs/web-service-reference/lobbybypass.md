@@ -7,7 +7,7 @@ ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: e05ed6eb-00ae-49c8-8341-43f6e0d728ff
 description: "The LobbyBypass element specifies the online meeting setting to bypass the virtual lobby."
 ---

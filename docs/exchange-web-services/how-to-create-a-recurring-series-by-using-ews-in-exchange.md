@@ -7,7 +7,7 @@ ms.date: 03/9/2015
 ms.audience: Developer
  
  
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 88ed6e87-25f7-4a54-83fa-d757a0ff2528
 description: "Learn how to create recurring meetings by using the EWS Managed API or EWS in Exchange."
 ---

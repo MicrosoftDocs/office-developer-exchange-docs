@@ -5,7 +5,7 @@ ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: overview
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 46e4812f-37a8-449f-bd37-bc4a94605db9
 description: "Find information to get started creating Exchange Management Shell tools for Exchange."
 ---

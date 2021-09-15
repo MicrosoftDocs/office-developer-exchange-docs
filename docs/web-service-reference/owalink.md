@@ -7,7 +7,7 @@ ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: a0d217b6-d7c0-4b99-ada9-19c758ae4a5b
 description: "The OwaLink element specifies the link to preview an item in Microsoft Outlook Web App."
 ---

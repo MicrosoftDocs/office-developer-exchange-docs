@@ -7,7 +7,7 @@ ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 0f92aa41-1499-4d96-a973-24529ec64d24
 description: "The PostalAddressAttributedValue element specifies an instance of an array of postal addresses and their associated attributions."
 ---

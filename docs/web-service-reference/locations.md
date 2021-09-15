@@ -7,7 +7,7 @@ ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 764d6a6e-e13b-4cd5-ad68-60bb422eebce
 description: "The Locations element specifies an array of location values and the identifiers of their source attributions for the associated persona."
 ---

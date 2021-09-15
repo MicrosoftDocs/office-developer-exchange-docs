@@ -5,7 +5,7 @@ ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 50bebbab-2fef-4a27-a5a9-32d7200820b6
 description: "The AdditionalInfo element specifies additional information about the hold status of a mailbox."
 ---

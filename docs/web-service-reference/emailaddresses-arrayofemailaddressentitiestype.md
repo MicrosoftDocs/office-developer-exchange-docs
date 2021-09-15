@@ -7,7 +7,7 @@ ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 2fc4a8e8-5377-4059-8fb4-3fdabfd30fe3
 description: "The EmailAddresses element specifies an array of email address entities."
 ---

@@ -5,7 +5,7 @@ ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: overview
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 626345ec-918f-4d91-932f-e6ce92553ccb
 description: "Find information about the sample transport agents that are available for Exchange 2013."
 ---

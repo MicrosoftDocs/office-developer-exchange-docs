@@ -5,7 +5,7 @@ ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: overview
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 8cc0c4fa-9e13-45cb-88da-0486f2ac1bd0
 description: "Find information about how to use the Exchange Management Shell to develop tools for Exchange server administration."
 ---

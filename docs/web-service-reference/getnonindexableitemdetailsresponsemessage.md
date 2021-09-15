@@ -7,7 +7,7 @@ ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 00566965-6cbd-4f31-9fa9-85b3e5559c0c
 description: "The GetNonIndexableItemDetailsResponseMessage element specifies the response message for a GetNonIndexableItemDetails request."
 ---

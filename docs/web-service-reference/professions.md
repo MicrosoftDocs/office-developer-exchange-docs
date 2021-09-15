@@ -7,7 +7,7 @@ ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: d82d0d47-6bc2-4bc8-a796-b770adfdfeb6
 description: "The Professions element specifies an array of Profession values and the identifiers of their source attributions for the associated persona."
 ---

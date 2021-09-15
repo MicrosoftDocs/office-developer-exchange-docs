@@ -5,7 +5,7 @@ ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: c4cb0718-37cd-41aa-86e7-b492c4bb86aa
 description: "The ArchiveTag element specifies the retention identifier of the archive tag set on an item or folder."
 ---

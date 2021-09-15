@@ -7,7 +7,7 @@ ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 47505e29-a530-4371-8bef-5fa6026b5ab3
 description: "The RemoveDistributionGroupFromImListResponse element represents a response to a RemoveDistributionGroupFromImList request."
 ---

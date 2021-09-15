@@ -7,7 +7,7 @@ ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 3dc4ab23-26b0-42b3-8930-f1c7eefecdeb
 description: "The SortBy element contains an item property used for sorting the search result."
 ---

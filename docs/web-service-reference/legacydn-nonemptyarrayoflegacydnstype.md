@@ -5,7 +5,7 @@ ms.date: 11/16/2014
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 194f7ce3-8f6c-4da7-abc5-bf8283bdfb83
 description: "The LegacyDn (NonEmptyArrayOfLegacyDNsType) element is intended for internal use only."
 ---

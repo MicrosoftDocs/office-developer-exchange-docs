@@ -7,7 +7,7 @@ ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: f6ea8816-04cc-4ccf-8498-bc89d46a32e8
 description: "The ConversationShape element identifies the property set to return in a FindConversation operation response."
 ---

@@ -5,7 +5,7 @@ ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 822dc5a6-2d57-474b-8a7d-da150898e5b6
 description: "The DateTimePrecision element specifies the precision for returned date/time values."
 ---

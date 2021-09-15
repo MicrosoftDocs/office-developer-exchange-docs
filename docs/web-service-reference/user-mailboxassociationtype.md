@@ -5,7 +5,7 @@ ms.date: 11/16/2014
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: d6e2677b-2b60-4def-8566-015a50da8605
 description: "The User (MailboxAssociationType) element is intended for internal use only."
 ---

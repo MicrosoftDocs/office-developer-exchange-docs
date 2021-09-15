@@ -7,7 +7,7 @@ ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 9fa53810-d6ec-406b-bdde-ddf33f03600f
 description: "The UniqueHash element specifies a unique hash value used for de-duplication."
 ---

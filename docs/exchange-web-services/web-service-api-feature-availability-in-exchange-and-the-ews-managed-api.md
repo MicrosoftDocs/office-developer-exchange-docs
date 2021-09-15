@@ -3,7 +3,7 @@ title: "Web service API feature availability in Exchange and the EWS Managed API
 manager: sethgros
 ms.date: 09/17/2015
 ms.audience: Developer
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 07d3e6e8-d549-4ad7-baa4-bc531dfb7dd2
 description: "Learn about which EWS and web service API features are available in each version of Exchange and the EWS Managed API."
 ---

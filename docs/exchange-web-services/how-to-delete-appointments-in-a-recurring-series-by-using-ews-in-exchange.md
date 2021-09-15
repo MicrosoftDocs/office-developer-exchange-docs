@@ -7,7 +7,7 @@ ms.date: 11/16/2014
 ms.audience: Developer
  
  
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: a9d5244a-bc4a-4e9c-9c6c-ff361e04cbf8
 description: "Learn how to delete appointments in a recurring series by using the EWS Managed API or EWS in Exchange."
 ---

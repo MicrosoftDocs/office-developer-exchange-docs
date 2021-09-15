@@ -7,7 +7,7 @@ ms.date: 03/9/2015
 ms.audience: ITPro
 ms.topic: article
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 18bfa012-e903-d7f3-528a-31ccceb65463
 ---
 

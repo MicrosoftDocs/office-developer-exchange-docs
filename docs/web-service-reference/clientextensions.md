@@ -7,7 +7,7 @@ ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 0073d195-75fd-4c89-97e0-2ad6d91f99f9
 description: "The ClientExtensions element contains an array of user and configuration information about apps."
 ---

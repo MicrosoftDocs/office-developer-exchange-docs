@@ -5,7 +5,7 @@ ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: ab88739f-9018-4887-ae46-f1471242628c
 description: "The DirectReports element contains SMTP information that identifies the direct reports of a contact."
 ---

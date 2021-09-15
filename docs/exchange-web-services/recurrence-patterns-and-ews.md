@@ -7,7 +7,7 @@ ms.date: 03/9/2015
 ms.audience: Developer
  
  
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: fd9ef706-1e01-49fa-af6f-2f6d3e173c16
 description: "Learn about recurrence patterns and recurring series in Exchange."
 ---

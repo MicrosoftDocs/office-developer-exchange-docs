@@ -7,7 +7,7 @@ ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: a7d2bbd6-5fb8-44d3-8d0d-ad623a117870
 description: "The Personas element specifies an array of personas returned from the GetImItems and GetImItemList operations."
 ---

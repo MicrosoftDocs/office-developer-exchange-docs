@@ -5,7 +5,7 @@ ms.date: 11/16/2014
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 8372fecd-9dd2-40e5-b3e9-18ab9151590b
 description: "The PredictedActionReason element is intended for internal use only."
 ---

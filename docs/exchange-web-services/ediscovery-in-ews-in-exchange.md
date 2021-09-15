@@ -7,7 +7,7 @@ ms.date: 09/17/2015
 ms.audience: Developer
  
  
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 3128419f-dd5f-46d2-bb0d-0940738d0bb6
 description: "Learn about eDiscovery in EWS in Exchange."
 ---

@@ -7,7 +7,7 @@ ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 282576cb-a921-49f7-8748-64158fd50c41
 description: "The CreateFolderPath element is used to create a folder path and includes a parent folder Id and a relative folder path."
 ---

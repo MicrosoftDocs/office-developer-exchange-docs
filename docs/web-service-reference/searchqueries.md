@@ -7,7 +7,7 @@ ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 67328dab-321b-45ad-929e-cd83e65ad87e
 description: "The SearchQueries element contains a list of mailboxes and associated queries for discovery search."
 ---

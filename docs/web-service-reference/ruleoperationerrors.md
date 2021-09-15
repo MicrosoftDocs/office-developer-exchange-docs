@@ -7,7 +7,7 @@ ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: f15c7b9e-a670-4a11-bb62-2a298c91f142
 description: "The RuleOperationErrors element represents an array of rule validation errors on each rule field that has an error."
 ---

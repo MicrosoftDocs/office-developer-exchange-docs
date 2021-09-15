@@ -7,7 +7,7 @@ ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 1a7ee364-b7da-4197-aab2-57134537109a
 description: "The SearchFilter element contains the query string to filter the mailboxes to be returned from a GetSearchableMailboxes request."
 ---

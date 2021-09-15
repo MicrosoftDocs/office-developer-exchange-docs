@@ -7,7 +7,7 @@ ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 8989e96b-8fa1-4858-93b2-2cbdb30b9ca9
 description: "The ExpandGroupMembership element indicates whether to expand the membership of the group returned from a GetSearchableMailboxes request."
 ---

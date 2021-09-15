@@ -7,7 +7,7 @@ ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: c8294eee-6588-4e42-965d-c8261a4770c9
 description: "The UserDisabledExtensions element lists the disabled apps."
 ---

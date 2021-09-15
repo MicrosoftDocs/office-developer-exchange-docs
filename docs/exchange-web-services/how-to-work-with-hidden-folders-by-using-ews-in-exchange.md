@@ -7,7 +7,7 @@ ms.date: 03/9/2015
 ms.audience: Developer
  
  
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 7ae7c045-cd90-4c9f-baf5-0464d5058f45
 description: "Learn how to make a folder hidden and find hidden folders by using the EWS Managed API or EWS in Exchange."
 ---

@@ -7,7 +7,7 @@ ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: b115c990-3a2d-4536-9af3-ac1fd06d00dc
 description: "The Persona element specifies a set of persona data returned by a GetPersona request."
 ---

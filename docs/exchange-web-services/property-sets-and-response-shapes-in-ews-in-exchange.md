@@ -7,7 +7,7 @@ ms.date: 09/17/2015
 ms.audience: Developer
  
  
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 04a29804-6067-48e7-9f5c-534e253a230e
 description: "Learn to manage the response shapes and property sets that are returned by the EWS managed API and EWS in Exchange."
 ---

@@ -7,7 +7,7 @@ ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: a7034730-210d-4916-b992-dda342f890f8
 description: "The ExtendedProperties element specifies an array of additional properties."
 ---

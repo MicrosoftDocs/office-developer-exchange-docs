@@ -5,7 +5,7 @@ ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 9e433049-3ff9-467d-ad2a-c767a22f9fbb
 description: "The Mailboxes element contains an array of mailboxes."
 ---

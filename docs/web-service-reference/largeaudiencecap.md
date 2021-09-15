@@ -7,7 +7,7 @@ ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 90709f5b-4a1d-49d2-9236-ecd02bb3cdf8
 description: "The LargeAudienceCap element specifies the maximum number of recipients for an email message."
 ---

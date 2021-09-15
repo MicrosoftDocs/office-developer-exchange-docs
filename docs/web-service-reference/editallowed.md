@@ -7,7 +7,7 @@ ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: e63c4f7e-77c0-4826-b4e2-43b795d03914
 description: "The EditAllowed element specifies whether Information Rights Management can be edited."
 ---

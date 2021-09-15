@@ -7,7 +7,7 @@ ms.date: 11/16/2014
 ms.audience: Developer
  
  
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 0fcb484b-4ffc-41a5-aeed-8c797766b70c
 description: "Learn how to create all-day events by using the EWS Managed API or EWS in Exchange."
 ---

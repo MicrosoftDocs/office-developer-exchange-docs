@@ -5,7 +5,7 @@ ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 09475586-00fa-4e82-a915-5ca263ab4d1c
 description: "The AccessLevel element specifies the access level for an online meeting."
 ---

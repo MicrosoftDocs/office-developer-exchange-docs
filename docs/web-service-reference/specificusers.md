@@ -7,7 +7,7 @@ ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 121b0063-5447-4063-8e54-d3fcbb8cd2be
 description: "The SpecificUsers element specifies the email accounts that can access the app."
 ---

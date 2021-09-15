@@ -5,7 +5,7 @@ ms.date: 11/16/2014
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 2866b1ec-64ba-4d18-9152-a09568d45aa7
 description: "The DisplayName (MasterMailboxType) element is intended for internal use only."
 ---

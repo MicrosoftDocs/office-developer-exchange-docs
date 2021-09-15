@@ -5,7 +5,7 @@ ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: f61d843c-bca5-4c88-9667-fd03d2a963a1
 description: "The Attributions element specifies an array of attribution information for one or more of the contacts or Active Directory recipients aggregated into the associated persona."
 ---

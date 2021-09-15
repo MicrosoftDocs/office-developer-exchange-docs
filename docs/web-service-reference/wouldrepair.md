@@ -5,7 +5,7 @@ ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: b6987bac-7e16-4a6c-b5f7-ef0e99ff520b
 description: "The WouldRepair element is intended for internal use only."
 ---

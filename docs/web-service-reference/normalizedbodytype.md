@@ -7,7 +7,7 @@ ms.date: 03/9/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: c6973aee-ec7b-44c1-b328-f2204d9de5d1
 description: "The NormalizedBodyType element specifies whether the normalized body is returned in text or HTML format."
 ---

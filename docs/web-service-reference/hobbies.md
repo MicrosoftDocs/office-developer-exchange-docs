@@ -7,7 +7,7 @@ ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: f771b066-e42e-4880-bf18-709ad033d2af
 description: "The Hobbies element specifies an array of hobbies and the identifiers of their source attributions for the associated persona."
 ---

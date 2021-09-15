@@ -7,7 +7,7 @@ ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 7b9e2fdd-5678-4178-9297-7f12a3ca9d64
 description: "The BaseShape element specifies either the default preview with all properties returned or a compact preview with fewer properties returned."
 ---

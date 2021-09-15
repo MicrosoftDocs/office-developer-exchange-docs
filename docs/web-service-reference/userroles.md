@@ -7,7 +7,7 @@ ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: be003e12-3496-468d-a61c-48af0b819654
 description: "The UserRoles element specifies the user roles that the calling user, or the user that the calling partner application is acting as, wants to apply to the current call."
 ---

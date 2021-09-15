@@ -4,7 +4,7 @@ manager: sethgros
 ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: a51189db-f6e5-428d-833d-65a209204a5b
 description: "The EcpUrl-publish element specifies a partial URL that can be combined with the EcpUrl (POX) element's value to generate a URL that can be used to access calendar publishing settings for a mail-enabled user."
  

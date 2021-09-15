@@ -5,7 +5,7 @@ ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 0cdabfcb-7658-4c7d-bb03-1e776ed11e43
 description: "The EmailAddress element specifies the fully resolved SMTP address for the site mailbox or the associated persona."
 ---

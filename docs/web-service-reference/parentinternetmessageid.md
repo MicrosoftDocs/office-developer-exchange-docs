@@ -5,7 +5,7 @@ ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: b8769d30-045a-4fa7-814d-d00702f0c258
 description: "The ParentInternetMessageId element specifies the Internet message identifier of the parent message in a conversation."
 ---

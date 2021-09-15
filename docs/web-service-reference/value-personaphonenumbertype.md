@@ -5,7 +5,7 @@ ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 963eff79-5aa0-4b9f-8eff-80f9fb7ad654
 description: "The Value element specifies a phone number and type information and is associated with a set of attributions."
 ---

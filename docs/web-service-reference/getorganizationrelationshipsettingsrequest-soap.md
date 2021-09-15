@@ -4,7 +4,7 @@ manager: sethgros
 ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 4e8aa3b3-4bfc-40c3-b96b-9f7062b09309
 description: "The GetOrganizationRelationshipSettingsRequest element represents the parameters of a call to the GetOrganizationRelationshipSettings operation (SOAP) operation. The GetOrganizationRelationshipSettingsRequest element is for internal use only. This element is not used by clients."
  

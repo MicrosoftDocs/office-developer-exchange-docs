@@ -7,7 +7,7 @@ ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 4cb08a3b-74aa-4506-abda-c000ae97f981
 description: "The GetAppMarketplaceUrl element specifies the request to retrieve the URL for an app."
 ---

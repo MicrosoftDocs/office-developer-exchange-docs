@@ -7,7 +7,7 @@ ms.date: 03/9/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 0370b1c0-b7e5-46e0-ac11-3fe801709fc8
 description: "The Scope (ClientAccessTokenRequestType) element specifies a token scope."
 ---

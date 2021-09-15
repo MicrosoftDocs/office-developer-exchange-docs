@@ -7,7 +7,7 @@ ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 12f2934a-008c-4236-b8b3-7c7b6b5707e2
 description: "The NonIndexableItemStatistics element contains an array of statistics for items that could not be indexed."
 ---

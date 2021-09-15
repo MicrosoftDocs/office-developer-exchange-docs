@@ -7,7 +7,7 @@ ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: c5e0582d-c1e1-453b-93ed-c31165c82697
 description: "The InstallAppResponse element specifies the response to an InstallApp request."
 ---

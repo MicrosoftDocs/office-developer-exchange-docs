@@ -3,7 +3,7 @@ title: "Get service configuration information by using EWS in Exchange"
 manager: sethgros
 ms.date: 09/17/2015
 ms.audience: Developer
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 9379740a-96e1-490d-a229-0f9937c548d2
 description: "Find out how to get service configuration information for UM, policy nudges, mail tips, and protection rules from EWS in Exchange."
 ---

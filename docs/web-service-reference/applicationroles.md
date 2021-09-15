@@ -5,7 +5,7 @@ ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 00003b9b-f8f1-4452-a0af-157f789f8892
 description: "The ApplicationRoles element specifies the application roles that the calling partner application uses for the current call."
 ---

@@ -7,7 +7,7 @@ ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 7b340fef-61cd-4a56-bb69-d935f7f7f552
 description: "The GetImItemsResponse element defines a response to a GetImItems request."
 ---

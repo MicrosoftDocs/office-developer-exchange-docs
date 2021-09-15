@@ -7,7 +7,7 @@ ms.date: 09/17/2015
 ms.audience: Developer
  
  
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 394d4e70-8517-4073-809a-5b61780ff923
 description: "Learn about the different options that your EWS Managed API or EWS application can use to create persistent custom application settings in Exchange."
 ---

@@ -5,7 +5,7 @@ ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: d5913619-0c13-429d-b9d2-057e8af220f1
 description: "The AddNewImContactToGroup element defines a request to add a new instant messaging contact to an instant messaging group."
 ---

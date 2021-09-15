@@ -5,7 +5,7 @@ ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: overview
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: b53ed47a-3d01-4c4e-ad32-fb0532872aad
 description: "Learn about the .NET Framework classes you can use in your Exchange 2013 transport agents to read, write, and modify messages."
 ---

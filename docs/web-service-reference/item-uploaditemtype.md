@@ -7,7 +7,7 @@ ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: ab7058f2-615f-4393-a0d4-af76727f37e9
 description: "The Item element represents a single item to upload into a mailbox."
 ---

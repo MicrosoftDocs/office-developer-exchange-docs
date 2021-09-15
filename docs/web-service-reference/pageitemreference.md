@@ -7,7 +7,7 @@ ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: efeb5a93-c77f-44f1-b9af-8759acd2c8b5
 description: "The PageItemReference element specifies the reference for a page item."
 ---

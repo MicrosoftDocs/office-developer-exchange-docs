@@ -5,7 +5,7 @@ ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: overview
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: ff849238-06b7-4891-884b-c51ce0f1ebbc
 description: "Find information about the namespaces for the Exchange Management Shell in Exchange."
 ---

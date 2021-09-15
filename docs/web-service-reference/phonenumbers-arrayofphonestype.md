@@ -7,7 +7,7 @@ ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 748663cc-13ef-4799-91ce-f559050a9fb1
 description: "The PhoneNumbers element specifies an array of phone numbers."
 ---

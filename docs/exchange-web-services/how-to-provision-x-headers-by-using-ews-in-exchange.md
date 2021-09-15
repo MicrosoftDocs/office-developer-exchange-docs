@@ -7,7 +7,7 @@ ms.date: 09/17/2015
 ms.audience: Developer
  
  
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 45a99a14-a85f-47f8-af48-18eb6c6cc230
 description: "Learn how to provision x-headers for a mailbox by using the EWS Managed API or EWS in Exchange."
 ---

@@ -7,7 +7,7 @@ ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 3d4c9816-54bb-4932-b4ba-f057c9173a1a
 description: "The FailedMailbox element specifies the error message for a mailbox that failed on search."
 ---

@@ -7,7 +7,7 @@ ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 2e930650-7848-4bf2-a975-026309b3ea02
 description: "The GetConversationItemsResponseMessage element specifies the response message for a GetConversationItems request."
 ---

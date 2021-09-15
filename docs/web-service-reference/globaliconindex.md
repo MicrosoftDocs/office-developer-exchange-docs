@@ -7,7 +7,7 @@ ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 3d28ed70-4cfe-46e4-8d15-593c6e355bcf
 description: "The GlobalIconIndex element identifies the global icon index for all items in a conversation."
 ---

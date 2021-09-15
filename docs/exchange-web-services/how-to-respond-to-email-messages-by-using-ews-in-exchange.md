@@ -7,7 +7,7 @@ ms.date: 09/17/2015
 ms.audience: Developer
  
  
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 9d584991-4d67-4d36-ae2f-99970af8488f
 description: "Learn how to respond to email messages by using the EWS Managed API or EWS in Exchange."
 ---

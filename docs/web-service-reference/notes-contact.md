@@ -7,7 +7,7 @@ ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: e851914a-24be-431c-8d6c-cbedfc0652a9
 description: "The Notes element contains supplementary contact information."
 ---

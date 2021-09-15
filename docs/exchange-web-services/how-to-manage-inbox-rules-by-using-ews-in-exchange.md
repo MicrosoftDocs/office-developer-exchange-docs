@@ -7,7 +7,7 @@ ms.date: 09/17/2015
 ms.audience: Developer
  
  
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 982ddb78-5606-44b0-8aba-dbffc60d6085
 description: "Find out how to get, create, update, and delete Inbox rules by using the EWS Managed API or EWS in Exchange."
 ---

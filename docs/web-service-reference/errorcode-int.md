@@ -7,7 +7,7 @@ ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 65537d96-edf9-41ee-9ad5-91ffe37e2269
 description: "The ErrorCode element specifies the error code of a failed search performed against a mailbox."
 ---

@@ -7,7 +7,7 @@ ms.date: 09/17/2015
 ms.audience: Developer
  
  
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 1bbe8507-7730-45e5-9232-c4f6fc39c2d9
 description: "Find out how to handle deletion-related errors in applications that you develop by using the EWS Managed API or EWS in Exchange."
 ---

@@ -5,7 +5,7 @@ ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: aadc1f90-e9ab-4411-b51f-2d43e5e22f2a
 description: "The AltitudeAccuracy element specifies the accuracy of the altitude property for a postal address."
 ---

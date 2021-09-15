@@ -3,7 +3,7 @@ title: "Instrumenting client requests for EWS and REST in Exchange"
 manager: sethgros
 ms.date: 4/13/2016
 ms.audience: Developer
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 330de503-498d-447e-b4a9-c20fc1699fd1
 description: "Learn about the HTTP headers in EWS and REST requests and responses that can help you monitor and troubleshoot your Exchange application."
 ---

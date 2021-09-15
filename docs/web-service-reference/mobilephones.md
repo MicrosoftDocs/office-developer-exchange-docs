@@ -7,7 +7,7 @@ ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: c67069e9-0c11-47c5-8b99-82932a6b7f98
 description: "The MobilePhones element specifies an array of mobile phone numbers and the identifiers of their source attributions for the associated persona."
 ---

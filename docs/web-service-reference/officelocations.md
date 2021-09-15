@@ -7,7 +7,7 @@ ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: f3488d56-a00d-4c41-a348-45aad4af6439
 description: "The OfficeLocations element specifies an array of office locations and the identifiers of their source attributions for the associated persona."
 ---

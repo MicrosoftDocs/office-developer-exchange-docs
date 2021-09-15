@@ -7,7 +7,7 @@ ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 6a819bff-b6fc-4082-b311-179267ae8b4f
 description: "The JoinOnlineMeetingUrl element specifies the URL to join an online meeting."
 ---
