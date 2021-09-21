@@ -1,12 +1,8 @@
 ---
-title: "Tools and resources for troubleshooting EWS applications for Exchange"
- 
- 
+title: "Tools and resources for troubleshooting EWS applications for Exchange" 
 manager: sethgros
 ms.date: 03/9/2015
-ms.audience: Developer
- 
- 
+ms.audience: Developer 
 ms.assetid: ee7fcd05-35d7-47bf-bac4-e719c49c11fe
 description: "Find resources to help you troubleshoot your EWS Managed API or EWS application."
 localization_priority: Priority
@@ -125,6 +121,4 @@ Download the following:
     
 - [EWSEditor](http://ewseditor.codeplex.com/)
     
-- [Exchange Web Services Managed API](https://go.microsoft.com/fwlink/?LinkID=255472)
-    
-
+- [Exchange Web Services Managed API](https://www.nuget.org/packages/Microsoft.Exchange.WebServices/)
