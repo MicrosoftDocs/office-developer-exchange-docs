@@ -175,6 +175,7 @@ A text value is required if this element is used. The following table describes 
 |ErrorClientIntentInvalidStateDefinition  <br/> |This error is intended for internal use only.  <br/> |
 |ErrorClientIntentNotFound  <br/> |This error is intended for internal use only.  <br/> |
 |ErrorConnectionFailed  <br/> |This error occurs when Exchange Web Services cannot connect to the mailbox.  <br/> |
+|ErrorConnectionFailedTransientError  <br/> |This error occurs when Exchange Web Services cannot connect to the mailbox. This error code indicates a transient error. Clients can retry to connect to the server when this error is received. <br/> |
 |ErrorContainsFilterWrongType  <br/> |This error indicates that the property that was inspected for a Contains filter is not a string type.  <br/> |
 |ErrorContentConversionFailed  <br/> |The **GetItem** operation returns this error when Exchange Web Services is unable to retrieve the MIME content for the item requested. <br/><br/>The **CreateItem** operation returns this error when Exchange Web Services is unable to create the item from the supplied MIME content. Usually this is an indication that the item property is corrupted or truncated.  <br/> |
 |ErrorContentIndexingNotEnabled  <br/> |This error occurs when a search request is made using the QueryString option and content indexing is not enabled for the target mailbox.  <br/> |
