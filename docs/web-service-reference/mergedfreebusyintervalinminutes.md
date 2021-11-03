@@ -51,7 +51,7 @@ None.
    
 ## Text value
 
-A text value is required. The text value represents time in minutes. The default value is 30 minutes. Six minutes is the minimum interval and one day (1440 minutes) is the maximum interval for this element.
+A text value is required. The text value represents time in minutes. The default value is 30 minutes. Five minutes is the minimum interval and one day (1440 minutes) is the maximum interval for this element.
   
 ## Remarks
 
