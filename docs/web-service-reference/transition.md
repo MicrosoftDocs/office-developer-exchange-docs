@@ -45,6 +45,7 @@ None.
 
 |**Element**|**Description**|
 |:-----|:-----|
+|[TransitionsGroup](transitionsgroup.md) <br/> |Represents a collection of time zone transitions.  <br/> |
 |[Transitions](transitions.md) <br/> |Represents a collection of time zone transitions.  <br/> |
    
 ## Remarks
