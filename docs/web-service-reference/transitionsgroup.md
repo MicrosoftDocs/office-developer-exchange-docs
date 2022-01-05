@@ -22,6 +22,7 @@ The **TransitionsGroup** element represents an array of time zone transitions.
   
 ```xml
 <TransitionsGroup Id="">
+   <Transition/>
    <AbsoluteDateTransition/>
    <RecurringDayTransition/>
    <RecurringDateTransition/>
@@ -46,6 +47,7 @@ The following sections describe attributes, child elements, and parent elements.
 |[AbsoluteDateTransition](absolutedatetransition.md) <br/> |Represents a time zone transition that occurs on a specific date and at a specific time.  <br/> |
 |[RecurringDayTransition](recurringdaytransition.md) <br/> |Represents a time zone transition that occurs on the same day each year.  <br/> |
 |[RecurringDateTransition](recurringdatetransition.md) <br/> |Represents a time zone transition that occurs on a specified day of the year.  <br/> |
+|[Transition](transition.md) <br/> |Represents a time zone transition.  <br/> |
    
 ### Parent elements
 
