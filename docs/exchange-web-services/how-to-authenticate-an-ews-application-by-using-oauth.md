@@ -46,7 +46,7 @@ To use OAuth, an application must have an application ID issued by Azure Active 
 
     - Set **Name** to a friendly name for your app.
     - Set **Supported account types** to the choice that makes sense for your scenario.
-    - For **Redirect URI**, change the dropdown to **Public client (mobile & desktop)** and set the value to `urn:ietf:wg:oauth:2.0:oob`.
+    - For **Redirect URI**, change the dropdown to **Public client (mobile & desktop)** and set the value to `https://login.microsoftonline.com/common/oauth2/nativeclient`.
 
 1. Choose **Register**. On the next page, copy the values of the **Application (client) ID** and **Directory (tenant) ID** and save them, you will need them later.
 
