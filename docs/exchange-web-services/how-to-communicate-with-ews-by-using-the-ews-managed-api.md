@@ -11,6 +11,10 @@ localization_priority: Priority
 # Communicate with EWS by using the EWS Managed API
 
 Find information about how to use the EWS Managed API to communicate with EWS in Exchange.
+
+
+> [!NOTE]
+> We’re removing the ability to use Basic authentication in Exchange Online for EWS beginning October 2022  [Deprecation of Basic authentication in Exchange Online](/exchange/clients-and-mobile-in-exchange-online/deprecation-of-basic-authentication-exchange-online). You should use OAuth authentication instead. [Authenticate an EWS application by using OAuth](/exchange/client-developer/exchange-web-services/how-to-authenticate-an-ews-application-by-using-oauth) 
   
 The [ExchangeService](https://msdn.microsoft.com/library/microsoft.exchange.webservices.data.exchangeservice%28v=exchg.80%29.aspx) class in the EWS Managed API contains the methods and properties that you use to set user credentials, identify the EWS endpoint, send and receive SOAP messages, and configure the binding to communicate with EWS. Before you can use the EWS Managed API to perform any task, you have to create an instance of the **ExchangeService** class and bind it to EWS. 
   
