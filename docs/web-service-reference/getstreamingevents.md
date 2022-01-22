@@ -24,7 +24,9 @@ The **GetStreamingEvents** element represents the operation that is used by clie
   
 ```XML
 <GetStreamingEvents>
-   <SubscriptionId/>
+   <SubscriptionIds>
+     <SubscriptionId/>
+   </SubscriptionIds>
    <ConnectionTimeout/>
 </GetStreamingEvents>
 ```
@@ -42,7 +44,7 @@ None.
 
 |**Element**|**Description**|
 |:-----|:-----|
-|[SubscriptionId (GetStreamingEvents)](subscriptionid-getstreamingevents.md) <br/> |Represents the identifier for a subscription that is queried for events.  <br/> |
+|[SubscriptionIds](subscriptionids.md) <br/> |Contains an array of subscription identifiers that identify the subscriptions to get streaming events for.  <br/> |
 |[ConnectionTimeout](connectiontimeout.md) <br/> |Represents the number of minutes to keep a connection open.  <br/> |
    
 ### Parent elements

@@ -175,6 +175,7 @@ A text value is required if this element is used. The following table describes 
 |ErrorClientIntentInvalidStateDefinition  <br/> |This error is intended for internal use only.  <br/> |
 |ErrorClientIntentNotFound  <br/> |This error is intended for internal use only.  <br/> |
 |ErrorConnectionFailed  <br/> |This error occurs when Exchange Web Services cannot connect to the mailbox.  <br/> |
+|ErrorConnectionFailedTransientError  <br/> |This error occurs when Exchange Web Services cannot connect to the mailbox. This error code indicates a transient error. Clients can retry to connect to the server when this error is received. <br/> |
 |ErrorContainsFilterWrongType  <br/> |This error indicates that the property that was inspected for a Contains filter is not a string type.  <br/> |
 |ErrorContentConversionFailed  <br/> |The **GetItem** operation returns this error when Exchange Web Services is unable to retrieve the MIME content for the item requested. <br/><br/>The **CreateItem** operation returns this error when Exchange Web Services is unable to create the item from the supplied MIME content. Usually this is an indication that the item property is corrupted or truncated.  <br/> |
 |ErrorContentIndexingNotEnabled  <br/> |This error occurs when a search request is made using the QueryString option and content indexing is not enabled for the target mailbox.  <br/> |
@@ -472,7 +473,7 @@ A text value is required if this element is used. The following table describes 
 |ErrorSubscriptionAccessDenied  <br/> |This error occurs when you try to access a subscription by using an account that did not create that subscription. Each subscription can only be accessed by the creator of the subscription.  <br/> |
 |ErrorSubscriptionDelegateAccessNotSupported  <br/> |This error indicates that you cannot create a subscription if you are not the owner or do not have owner access to the mailbox.  <br/> |
 |ErrorSubscriptionNotFound  <br/> |This error occurs if the subscription that corresponds to the specified [SubscriptionId (GetEvents)](subscriptionid-getevents.md) is not found. The subscription may have expired, the Exchange Web Services process may have been restarted, or an invalid subscription was passed in. If the subscription was valid, re-create the subscription with the latest watermark. This is returned by the [Unsubscribe operation](unsubscribe-operation.md) or the [GetEvents operation](getevents-operation.md) responses.  <br/> |
-|ErrorSubscriptionUnsubsribed  <br/> |This error code must be returned when a request is made for a subscription that has been unsubscribed.  <br/> |
+|ErrorSubscriptionUnsubscribed  <br/> |This error code must be returned when a request is made for a subscription that has been unsubscribed.  <br/> |
 |ErrorSyncFolderNotFound  <br/> |This error is returned by the [SyncFolderItems operation](syncfolderitems-operation.md) if the parent folder that is specified cannot be found.  <br/> |
 |ErrorTeamMailboxNotFound  <br/> |This error indicates that a team mailbox was not found. This error was introduced in Exchange 2013.  <br/> |
 |ErrorTeamMailboxNotLinkedToSharePoint  <br/> |This error indicates that a team mailbox was found but that it is not linked to a SharePoint Server. This error was introduced in Exchange 2013.  <br/> |

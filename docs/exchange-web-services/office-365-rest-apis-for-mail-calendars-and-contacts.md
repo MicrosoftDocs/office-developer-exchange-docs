@@ -39,5 +39,5 @@ Also be sure to check out the [quick starts](https://developer.microsoft.com/gra
 ## See also
 
 - [Microsoft Graph documentation](https://developer.microsoft.com/graph/docs/concepts/overview)   
-- [On-premises requirements for the REST API](https://blogs.technet.microsoft.com/exchange/2016/09/26/on-premises-architectural-requirements-for-the-rest-api)   
+- [On-premises requirements for the REST API](https://techcommunity.microsoft.com/t5/exchange-team-blog/on-premises-architectural-requirements-for-the-rest-api/ba-p/605609)   
 
