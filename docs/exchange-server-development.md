@@ -17,7 +17,7 @@ You can use the how to, get started, new feature, and API reference documentatio
 You can use Graph API, REST API, Exchange Web Services (EWS), Autodiscover, Outlook add-ins, or other APIs to develop your applications. This page helps you choose the right Exchange technology.
 
 > [!NOTE]
-> We’re removing the ability to use Basic authentication in Exchange Online for EWS beginning October 2022  [Deprecation of Basic authentication in Exchange Online](/exchange/clients-and-mobile-in-exchange-online/deprecation-of-basic-authentication-exchange-online). You should use OAuth authentication instead. [Authenticate an EWS application by using OAuth](/exchange/client-developer/exchange-web-services/how-to-authenticate-an-ews-application-by-using-oauth) and [Authenticate an IMAP, POP or SMTP connection using OAuth](/exchange/client-developer/legacy-protocols/how-to-authenticate-an-imap-pop-smtp-application-by-using-oauth)
+> We’re removing the ability to use Basic authentication in Exchange Online for EWS beginning October 2022. For more information, see [Deprecation of Basic authentication in Exchange Online](/exchange/clients-and-mobile-in-exchange-online/deprecation-of-basic-authentication-exchange-online). You should use OAuth authentication instead. [Authenticate an EWS application by using OAuth](/exchange/client-developer/exchange-web-services/how-to-authenticate-an-ews-application-by-using-oauth) and [Authenticate an IMAP, POP or SMTP connection using OAuth](/exchange/client-developer/legacy-protocols/how-to-authenticate-an-imap-pop-smtp-application-by-using-oauth).
 
 ## Exchange developer content
 
