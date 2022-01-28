@@ -72,6 +72,8 @@ The **MeetingMessage** element represents a meeting in the Exchange store.
    <HasBeenProcessed/>
    <ResponseType/>
    <EffectiveRights/>
+   <ReceivedBy/>
+   <ReceivedRepresenting/>
    <LastModifiedName/>
    <LastModifiedTime/>
    <IsAssociated/>
@@ -145,6 +147,8 @@ None.
 |[HasBeenProcessed](hasbeenprocessed.md) <br/> |Indicates whether a meeting message item has been processed.  <br/> |
 |[ResponseType](responsetype.md) <br/> |Represents the type of recipient response received for a meeting.  <br/> |
 |[EffectiveRights](effectiverights.md) <br/> |Contains the client's rights based on the permission settings for the item or folder. This element is read-only. This element was introduced in Microsoft Exchange Server 2007 Service Pack 1 (SP1).  <br/> |
+|[ReceivedBy](receivedby.md) <br/> |Identifies the delegate in a delegate access scenario.  <br/> |
+|[ReceivedRepresenting](receivedrepresenting.md) <br/> |Identifies the principal in a delegate access scenario.  <br/> |
 |[LastModifiedName](lastmodifiedname.md) <br/> |Contains the display name of the last user to modify an item.  <br/> |
 |[LastModifiedTime](lastmodifiedtime.md) <br/> |Indicates when an item was last modified.  <br/> |
 |[IsAssociated](isassociated.md) <br/> |Indicates whether the item is associated with a folder.  <br/> |
