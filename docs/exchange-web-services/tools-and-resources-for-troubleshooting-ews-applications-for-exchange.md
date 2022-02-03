@@ -76,7 +76,7 @@ IIS provides two different logging methods: [IIS logging](http://www.iis.net/lea
 
 Now that you've learned about the tools and resources that you can use to troubleshoot, you might need help understanding the information provided by those tools. The following are some options for getting help:
   
-- [Exchange Server Development forum on Q&A](https://docs.microsoft.com/en-us/answers/topics/192527/office-exchange-server-dev.html) — Ask a question of the Q&A Exchange Server development community. 
+- [Exchange Server Development forum on Q&A](https://docs.microsoft.com/answers/topics/192527/office-exchange-server-dev.html) — Ask a question of the Q&A Exchange Server development community. 
     
 - [StackOverflow](http://stackoverflow.com/tags/ews) — Ask a question of the StackOverflow community. Be sure to tag your post with "ews". 
     
