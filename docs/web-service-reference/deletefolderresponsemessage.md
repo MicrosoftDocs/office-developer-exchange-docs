@@ -40,7 +40,7 @@ The following sections describe attributes, child elements, and parent elements.
 
 |**Attribute**|**Description**|
 |:-----|:-----|
-|**ResponseClass** <br/> | Describes the status of a [DeleteFolder operation](deletefolder-operation.md) response.<br/><br/>The following values are valid for this attribute:<br/><br/>-  Success  <br/>-  Warning  <br/>-  Error  <br/> |
+|**ResponseClass** <br/> | Describes the status of a [DeleteFolder operation](deletefolder-operation.md) response.<br/><br/>The following values are valid for this attribute:<br/><br/>- Success  <br/>- Warning  <br/>- Error  <br/> |
    
 #### ResponseClass attribute values
 

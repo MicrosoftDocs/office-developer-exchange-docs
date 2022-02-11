@@ -18,7 +18,7 @@ description: "Last modified: February 22, 2013"
 
 **Applies to:** Exchange Server 2003 | Exchange Server 2007 | Exchange Server 2010 | Exchange Server 2013
   
-Reserved for future use, and not implemented. Do not call this function. 
+Reserved for future use, and not implemented. Do not call this function.
   
 ```cs
 Vitual ERRErrGetHeader  
@@ -36,19 +36,19 @@ Vitual ERRErrGetHeader
 ### wszFile
   
 Reserved for future use; do not use.
-    
+
 ### pvResult
   
 Reserved for future use; do not use.
-    
+
 ### cbMax
   
 Reserved for future use; do not use.
-    
+
 ### ulFlags
   
 Reserved for future use; do not use.
-    
+
 ## Return value
 
 None.
@@ -60,5 +60,3 @@ None.
 ## Requirements
 
 Exchange Server 2013 only includes a 64-bit version of the CHKSGFILES API.
-  
-
