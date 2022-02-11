@@ -64,11 +64,11 @@ The **ErrInit** function registers the databases and log files that are to be ch
   
 You must provide all the database names, the log file path, and the base name as null-terminated Unicode strings.
   
-You can check only the database files, only the log files, or both the database and log files. However, when calling this function, the application must specify at least one entity to be checked. Passing 0 (zero) for  **cDB**  and NULL for  **wszLogPath**  will return an error.
+You can check only the database files, only the log files, or both the database and log files. However, when calling this function, the application must specify at least one entity to be checked. Passing 0 (zero) forcDBand NULL forwszLogPathwill return an error.
   
-If the value of  **cDB**  is other than 0 (zero), passing NULL for  **rgwszDb**  will result in an error. To check the database files, the application must provide the database names.
+If the value ofcDBis other than 0 (zero), passing NULL forrgwszDbwill result in an error. To check the database files, the application must provide the database names.
   
-If NULL is passed for  **wszBaseName**  but  **wszLogPath**  is not NULL, an error will be returned. A log file base name is always required when checking log files.
+If NULL is passed forwszBaseNamebutwszLogPathis not NULL, an error will be returned. A log file base name is always required when checking log files.
   
 If you're using CHKSGFILES in a multithreaded application, you must call the **ErrInit** function in the single-threaded portion of the application, and you can call it only once for each **CCheckSGFiles** object.
   
