@@ -1,7 +1,7 @@
 ---
 title: "CChkSGFiles.ErrGetHeader function (reserved)"
 manager: sethgros
-ms.date: 11/16/2014
+ms.date: 02/11/2022
 ms.audience: Developer
 ms.topic: overview
 ms.prod: office-online-server
@@ -11,7 +11,7 @@ api_name:
 api_type:
 - dllExport
 ms.assetid: eed4d88b-8ac5-4c03-9ed9-e529e6072450
-description: "Last modified: February 22, 2013"
+description: "Do not call CChkSGFiles.ErrGetHeader function; reserved for future use."
 ---
 
 # CChkSGFiles.ErrGetHeader function (reserved)
