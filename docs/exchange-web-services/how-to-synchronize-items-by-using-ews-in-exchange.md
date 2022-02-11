@@ -1,7 +1,7 @@
 ---
 title: "Synchronize items by using EWS in Exchange"
 manager: sethgros
-ms.date: 09/17/2015
+ms.date: 02/11/2022
 ms.audience: Developer
 ms.localizationpriority: medium
 ms.assetid: 886e7d35-9096-480b-8a8c-a7db27da06c2
@@ -170,7 +170,7 @@ After you retrieve the list of new items on the server, [create the items on the
   
 ## Get the changes since the last sync by using EWS
 
-The following example shows the XML request to get the list of changes to items in the Inbox by using the [SyncFolderItems](https://msdn.microsoft.com/library/7f0de089-8876-47ec-a871-df118ceae75d%28Office.15%29.aspx) operation. This is also the XML request that the EWS Managed API sends when [retrieving the list of changes to the Inbox](#get-the-list-of-all-items-or-changed-items-by-using-the-ews-managed-api). This example sets the [SyncState](https://msdn.microsoft.com/library/e5ebaae3-0f07-481d-ac67-d9687a3c7ac3%28Office.15%29.aspx) element value to the value returned in the [previous response](#get-the-response-by-using-the-syncfolder-items-method). And for demonstration purposes, this example sets the [BaseShape](https://msdn.microsoft.com/library/42c04f3b-abaa-4197-a3d6-d21677ffb1c0%28Office.15%29.aspx) element to **AllProperties** instead of **IdOnly** to show the additional properties returned. Setting the [BaseShape](https://msdn.microsoft.com/library/42c04f3b-abaa-4197-a3d6-d21677ffb1c0%28Office.15%29.aspx) element to **IdOnly** is a [synchronization best practice](mailbox-synchronization-and-ews-in-exchange.md#bk_bestpractices). The value of **SyncState** has been shortened for readability.
+The following example shows the XML request to get the list of changes to items in the Inbox by using the [SyncFolderItems](https://msdn.microsoft.com/library/7f0de089-8876-47ec-a871-df118ceae75d%28Office.15%29.aspx) operation. This is also the XML request that the EWS Managed API sends when [retrieving the list of changes to the Inbox](#get-the-list-of-all-items-or-changed-items-by-using-the-ews-managed-api). This example sets the [SyncState](https://msdn.microsoft.com/library/e5ebaae3-0f07-481d-ac67-d9687a3c7ac3%28Office.15%29.aspx) element value to the value returned in the [previous response](#get-the-response-by-using-the-syncfolderitems-method). And for demonstration purposes, this example sets the [BaseShape](https://msdn.microsoft.com/library/42c04f3b-abaa-4197-a3d6-d21677ffb1c0%28Office.15%29.aspx) element to **AllProperties** instead of **IdOnly** to show the additional properties returned. Setting the [BaseShape](https://msdn.microsoft.com/library/42c04f3b-abaa-4197-a3d6-d21677ffb1c0%28Office.15%29.aspx) element to **IdOnly** is a [synchronization best practice](mailbox-synchronization-and-ews-in-exchange.md#bk_bestpractices). The value of **SyncState** has been shortened for readability.
   
 ```XML
 <?xml version="1.0" encoding="utf-8"?>
