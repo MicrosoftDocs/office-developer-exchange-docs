@@ -1,7 +1,7 @@
 ---
 title: "CChkSGFiles.PAGE_INFO struct"
 manager: sethgros
-ms.date: 11/16/2014
+ms.date: 1/22/2022
 ms.audience: Developer
 ms.topic: overview
 ms.prod: office-online-server
@@ -11,7 +11,7 @@ api_name:
 api_type:
 - dllExport
 ms.assetid: 408335e1-6977-441f-bfad-ede791d1630c
-description: "Last modified: February 22, 2013"
+description: "Last modified: January 22, 2022"
 ---
 
 # CChkSGFiles.PAGE_INFO struct
@@ -73,7 +73,7 @@ Unsigned 64-bit integer. Reserved for future use. The value of this field must b
 
 When calling the **ErrCheckDbPages** function, the **rgPageInfo** parameter is an array of **PAGE\_INFO** structures. There must be one **PAGE\_INFO** structure for each database page to be checked.
   
-The application must set the **ulPgnomember** to the proper value, and must also set the **ulFlags** member to 0 (zero) before calling **ErrCheckDbPages**.
+The application must set the **ulPgno** member to the proper value, and must also set the **ulFlags** member to 0 (zero) before calling **ErrCheckDbPages**.
   
 ## Requirements
 

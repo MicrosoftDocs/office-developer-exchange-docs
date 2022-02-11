@@ -1,7 +1,7 @@
 ---
 title: "Exchange Online and Exchange development"
 manager: sethgros
-ms.date: 03/9/2015
+ms.date: 01/22/2022
 ms.audience: Developer
 ms.assetid: f33d1093-75ba-4ff2-8d15-b0bf73a401bf
 description: "Find in-depth developer documentation for Exchange Server, including Exchange Online as part of Office 365 and Exchange Server on-premises versions."
@@ -15,6 +15,9 @@ Find in-depth developer documentation for Exchange Server, including Exchange On
 You can use the how to, get started, new feature, and API reference documentation to develop tools to access and manage mailbox data from services, websites, desktop computers, and mobile devices, and to create custom solutions for email, calendar, contacts, and other items that are stored in Exchange Online or on an Exchange 2010, 2013, 2016, and 2019 server.
 
 You can use Graph API, REST API, Exchange Web Services (EWS), Autodiscover, Outlook add-ins, or other APIs to develop your applications. This page helps you choose the right Exchange technology.
+
+> [!NOTE]
+> We’re removing the ability to use Basic authentication in Exchange Online for EWS beginning October 2022. For more information, see [Deprecation of Basic authentication in Exchange Online](/exchange/clients-and-mobile-in-exchange-online/deprecation-of-basic-authentication-exchange-online). You should use OAuth authentication instead. [Authenticate an EWS application by using OAuth](/exchange/client-developer/exchange-web-services/how-to-authenticate-an-ews-application-by-using-oauth) and [Authenticate an IMAP, POP or SMTP connection using OAuth](/exchange/client-developer/legacy-protocols/how-to-authenticate-an-imap-pop-smtp-application-by-using-oauth).
 
 ## Exchange developer content
 
@@ -54,5 +57,5 @@ Exchange interacts with custom applications in a variety of ways, depending on t
 - [Server API reference for Exchange](https://msdn.microsoft.com/library/dn186243(v=exchg.150).aspx)
 - [Read about Exchange on Office Blogs](https://www.microsoft.com/microsoft-365/blog/)
 - [Get 101 code samples for Exchange 2013](https://code.msdn.microsoft.com/office/Exchange-2013-101-Code-3c38582c)
-- [Get the EWS Managed API (GitHub)](https://github.com/OfficeDev/ews-managed-api/blob/master/README.md)
+- [Get the EWS Managed API (GitHub)](https://github.com/OfficeDev/ews-managed-api/blob/main/README.md)
 - [Get support for Exchange Server](https://support.microsoft.com/getsupport?oaspworkflow=start_1.0.0.0&wf=0&wfname=productselection&gprid=730&x=13&y=7&st=1&wfxredirect=1&sd=gn&ccsid=635890984021344661&forceorigin=esmc)

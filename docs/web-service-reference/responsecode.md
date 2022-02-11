@@ -591,10 +591,10 @@ The schema that describes this element is located in the IIS virtual directory t
 
 |||
 |:-----|:-----|
-|Namespace |https://schemas.microsoft.com/exchange/services/2006/messages |
-|Schema Name |Messages schema |
-|Validation File |Messages.xsd |
-|Can be Empty |False |
+|Namespace | https://schemas.microsoft.com/exchange/services/2006/messages |
+|Schema Name | Messages schema |
+|Validation File | Messages.xsd |
+|Can be Empty | False |
 
 ## See also
 

@@ -1,7 +1,7 @@
 ---
 title: "Create a RoutingAgent transport agent for Exchange 2013"
 manager: sethgros
-ms.date: 09/17/2015
+ms.date: 09/21/2021
 ms.audience: Developer
 ms.topic: overview
 ms.prod: office-online-server
@@ -18,9 +18,9 @@ Find out how to create a custom RoutingAgent transport agent to use with Exchang
   
 Related code snippets and sample apps:
 
-- [Exchange 2013: Build a bandwidth logging transport agent](https://code.msdn.microsoft.com/Exchange/Exchange-2013-Build-a-d61a4aaa)
+- [Exchange 2013: Build a bandwidth logging transport agent](/exchange/client-developer/transport-agents/transport-agent-code-samples-for-exchange-2013.md)
   
-The [RoutingAgentFactory](https://msdn.microsoft.com/library/Microsoft.Exchange.Data.Transport.Routing.RoutingAgentFactory.aspx) and [RoutingAgent](https://msdn.microsoft.com/library/Microsoft.Exchange.Data.Transport.Routing.RoutingAgent.aspx) classes are the base classes for transport agents that are designed to run on the transport service on an Exchange Server 2013 Mailbox server. The [RoutingAgent](https://msdn.microsoft.com/library/Microsoft.Exchange.Data.Transport.Routing.RoutingAgent.aspx) class provides the events listed in the following table for which you might implement handlers in your RoutingAgent transport agent. 
+The [RoutingAgentFactory](https://docs.microsoft.com/previous-versions/office/exchange-server-api/aa564164(v=exchg.150)) and [RoutingAgent](https://docs.microsoft.com/previous-versions/office/exchange-server-api/aa564421(v=exchg.150)) classes are the base classes for transport agents that are designed to run on the transport service on an Exchange Server 2013 Mailbox server. The [RoutingAgent](https://docs.microsoft.com/previous-versions/office/exchange-server-api/aa564421(v=exchg.150)) class provides the events listed in the following table for which you might implement handlers in your RoutingAgent transport agent. 
   
 **Table 1. RoutingAgent class events**
 

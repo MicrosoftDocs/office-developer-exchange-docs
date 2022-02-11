@@ -65,10 +65,10 @@ The schema that describes this element is located in the EWS virtual directory o
 
 |||
 |:-----|:-----|
-|Namespace |https://schemas.microsoft.com/exchange/services/2006/types |
-|Schema Name |Types schema |
-|Validation File |Types.xsd |
-|Can be Empty |False |
+|Namespace | https://schemas.microsoft.com/exchange/services/2006/types |
+|Schema Name | Types schema |
+|Validation File | Types.xsd |
+|Can be Empty | False |
 
 ## See also
 

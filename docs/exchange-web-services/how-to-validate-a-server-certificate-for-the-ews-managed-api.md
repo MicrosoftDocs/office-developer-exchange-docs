@@ -21,6 +21,7 @@ By default, versions of Exchange starting with Exchange 2007 SP1 use self-signed
 To set up to validate a server certificate, ensure that the following are true:
   
 - Your Exchange server is using a self-signed certificate for EWS. If the administrator has installed a valid certificate that traces to a root certificate, you do not need to create a validation callback method.
+
 - You are creating a managed application that includes a reference to the following required .NET Framework namespaces:
 
   - **System.Net**
@@ -103,7 +104,11 @@ ServicePointManager.ServerCertificateValidationCallback = CertificateValidationC
 After you have created the validation callback method for the EWS Managed API, you can use the Autodiscover service to get connection points and user and domain settings from an Exchange server. For more information, see the following articles:
   
 - [Use Autodiscover to find connection points](how-to-use-autodiscover-to-find-connection-points.md)
+
 - [Get user settings from Exchange by using Autodiscover](how-to-get-user-settings-from-exchange-by-using-autodiscover.md)
+
+- [Get user settings from Exchange by using Autodiscover](how-to-get-user-settings-from-exchange-by-using-autodiscover.md)
+
 - [Get domain settings from an Exchange server](how-to-get-domain-settings-from-an-exchange-server.md)
 
 ## See also
