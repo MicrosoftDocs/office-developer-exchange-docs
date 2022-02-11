@@ -46,7 +46,7 @@ The following sections describe attributes, child elements, and parent elements.
 
 |**Attribute**|**Description**|
 |:-----|:-----|
-|**Order** <br/> | Describes the sort order direction.<br/><br/> The following are the possible values: <br/> <br/>-  Ascending  <br/>-  Descending  <br/> |
+|**Order** <br/> | Describes the sort order direction.<br/><br/> The following are the possible values: <br/> <br/>- Ascending  <br/>- Descending  <br/> |
    
 ### Child elements
 
