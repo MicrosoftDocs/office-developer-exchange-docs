@@ -77,4 +77,3 @@ If you're using CHKSGFILES in a multithreaded application, you must call the **E
 Exchange 2013 only includes a 64-bit version of the CHKSGFILES API.
   
 The account that the application is running under must have read access permissions to the database and log files that are to be checked.
-  

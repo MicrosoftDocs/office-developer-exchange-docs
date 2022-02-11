@@ -35,26 +35,26 @@ The following table lists the throttling policy parameters that affect applicati
 
 |**Throttling policy parameter name**|**Applies to**|**Description**|
 |:-----|:-----|:-----|
-|**DiscoveryMaxConcurrency** <br/> |Exchange 2013  <br/> Exchange Online  <br/> |Specifies the number of concurrent discovery search connections that a user can have at the same time.  <br/> |
-|**DiscoveryMaxKeywords** <br/> |Exchange 2013  <br/> Exchange Online  <br/> |Specifies the maximum number of keywords that a user can include in a discovery search.  <br/> |
-|**DiscoveryMaxKeywordsPerPage** <br/> |Exchange 2013  <br/> Exchange Online  <br/> |Specifies the number of keywords for which to show statistics.  <br/> |
-|**DiscoveryMaxMailboxes** <br/> |Exchange 2013  <br/> Exchange Online  <br/> |Specifies the maximum number of source mailboxes that a user can include in a discovery search.  <br/> |
-|**DiscoveryMaxMailboxesResultsOnly** <br/> |Exchange 2013  <br/> Exchange Online  <br/> |Specifies the maximum number of mailboxes you can search in an In-Place eDiscovery search without being able to view the statistics.  <br/> |
-|**DiscoveryPreviewSearchResultsPageSize** <br/> |Exchange 2013  <br/> Exchange Online  <br/> |Specifies the number of messages returned in a eDiscovery search preview response.  <br/> |
-|**EwsCutoffBalance** <br/> |Exchange 2013  <br/> Exchange Online  <br/> |Defines the resource consumption limits for EWS user before that user is completely blocked from performing operations on a specific component.  <br/> |
-|**EwsMaxBurst** <br/> |Exchange 2013  <br/> Exchange Online  <br/> |Defines the amount of time that an EWS user can consume an elevated amount of resources before being throttled. This is measured in milliseconds. This value is set separately for each component.  <br/> |
-|**EwsRechargeRate** <br/> |Exchange 2013  <br/> Exchange Online  <br/> |Defines the rate at which an EWS user's budget is recharged (budget grows by) during the budget time.  <br/> |
-|**EWSMaxSubscriptions** <br/> |Exchange 2010  <br/> Exchange 2013  <br/> Exchange Online  <br/> |Defines the maximum number of active push, pull, and streaming notification subscriptions that a user can have on a specific Client Access server at one time. This is budgeted differently for different Exchange versions.  <br/> |
-|**EWSFastSearchTimeoutInSeconds** <br/> |Exchange 2010  <br/> |Defines the amount of time in seconds that fast searches made by using Exchange Search in EWS continue before they time out. Fast searches are searches made by using an Advanced Query Syntax (AQS) query string in a [FindItem operation](https://msdn.microsoft.com/library/ebad6aae-16e7-44de-ae63-a95b24539729%28Office.15%29.aspx).  <br/> |
-|**EWSFindCountLimit** <br/> |Exchange 2010  <br/> Exchange 2013  <br/> Exchange Online  <br/> |Defines the maximum number of items from a [FindItem operation](https://msdn.microsoft.com/library/ebad6aae-16e7-44de-ae63-a95b24539729%28Office.15%29.aspx) or [FindFolder operation](https://msdn.microsoft.com/library/7a9855aa-06cc-45ba-ad2a-645c15b7d031%28Office.15%29.aspx) that can exist in memory on the Client Access server at one time for one user. The default value for this property is 1000. The [fallback value](https://technet.microsoft.com/library/dd297964%28v=exchg.141%29.aspx#fallback)for this value is 1000.  <br/> In Exchange Online and on-premises versions of Exchange starting with Exchange 2013, this throttling policy cannot be queried or configured by a cmdlet. In Exchange Online and on-premises versions of Exchange starting with Exchange 2013, the EWSFindCountLimit for [AQS search](how-to-perform-an-aqs-search-by-using-ews-in-exchange.md) and any Exchange search with a restriction is 250 results. An Exchange search without a restriction will return up to 1000 results.  <br/> |
-|**EWSPercentTimeInAD** <br/> |Exchange 2010  <br/> |Defines the percentage of time per minute during which a specific user can execute Active Directory requests.  <br/> |
-|**EWSPercentTimeInCAS** <br/> |Exchange 2010  <br/> |Defines the percentage of time per minute during which a specific user can execute Client Access server code.  <br/> |
-|**EWSPercentTimeInMailboxRPC** <br/> |Exchange 2010  <br/> |Defines the percentage of time per minute during which a specific user can execute mailbox RPC requests  <br/> |
-|**EWSMaxConcurrency** <br/> |Exchange 2010  <br/> Exchange 2013  <br/> Exchange Online  <br/> |Defines the number of concurrent open connections that a specific user can have against an Exchange server that is using EWS at one time. The default value for Exchange 2010 is 10. The default value for Exchange 2013 and Exchange Online is 27.  <br/> This policy applies to all operations except for streaming notifications. Streaming notifications use the **HangingConnectionLimit** to indicate the number of open streaming event connections that are available. For more information, see [What throttling values do I need to take into consideration?](how-to-maintain-affinity-between-group-of-subscriptions-and-mailbox-server.md#bk_throttling).  <br/> |
-|**MessageRateLimit** <br/> |Exchange 2010  <br/> Exchange 2013  <br/> Exchange Online  <br/> |Defines the number of messages per minute that can be submitted.  <br/> |
-|**RecipientRateLimit** <br/> |Exchange 2010  <br/> Exchange 2013  <br/> Exchange Online  <br/> |Defines the limit to the number of recipients that a user can address in a 24-hour period.  <br/> |
-|**ForwardeeLimit** <br/> |Exchange 2010  <br/> Exchange 2013  <br/> Exchange Online  <br/> |Defines the limit to the number of recipients for Inbox forward/redirect actions in a 24-hour period.  <br/> |
-|**ConcurrentSyncCalls** <br/> |Exchange 2019  <br/> Exchange 2016  <br/> Exchange Online  <br/> |Defines the limit to the number of concurrent sync calls (SyncFolderHierarchy, SyncFolderItems) for a user. <br/> |
+|**DiscoveryMaxConcurrency** |Exchange 2013 Exchange Online |Specifies the number of concurrent discovery search connections that a user can have at the same time. |
+|**DiscoveryMaxKeywords** |Exchange 2013 Exchange Online |Specifies the maximum number of keywords that a user can include in a discovery search. |
+|**DiscoveryMaxKeywordsPerPage** |Exchange 2013 Exchange Online |Specifies the number of keywords for which to show statistics. |
+|**DiscoveryMaxMailboxes** |Exchange 2013 Exchange Online |Specifies the maximum number of source mailboxes that a user can include in a discovery search. |
+|**DiscoveryMaxMailboxesResultsOnly** |Exchange 2013 Exchange Online |Specifies the maximum number of mailboxes you can search in an In-Place eDiscovery search without being able to view the statistics. |
+|**DiscoveryPreviewSearchResultsPageSize** |Exchange 2013 Exchange Online |Specifies the number of messages returned in a eDiscovery search preview response. |
+|**EwsCutoffBalance** |Exchange 2013 Exchange Online |Defines the resource consumption limits for EWS user before that user is completely blocked from performing operations on a specific component. |
+|**EwsMaxBurst** |Exchange 2013 Exchange Online |Defines the amount of time that an EWS user can consume an elevated amount of resources before being throttled. This is measured in milliseconds. This value is set separately for each component. |
+|**EwsRechargeRate** |Exchange 2013 Exchange Online |Defines the rate at which an EWS user's budget is recharged (budget grows by) during the budget time. |
+|**EWSMaxSubscriptions** |Exchange 2010 Exchange 2013 Exchange Online |Defines the maximum number of active push, pull, and streaming notification subscriptions that a user can have on a specific Client Access server at one time. This is budgeted differently for different Exchange versions. |
+|**EWSFastSearchTimeoutInSeconds** |Exchange 2010 |Defines the amount of time in seconds that fast searches made by using Exchange Search in EWS continue before they time out. Fast searches are searches made by using an Advanced Query Syntax (AQS) query string in a [FindItem operation](https://msdn.microsoft.com/library/ebad6aae-16e7-44de-ae63-a95b24539729%28Office.15%29.aspx). |
+|**EWSFindCountLimit** |Exchange 2010 Exchange 2013 Exchange Online |Defines the maximum number of items from a [FindItem operation](https://msdn.microsoft.com/library/ebad6aae-16e7-44de-ae63-a95b24539729%28Office.15%29.aspx) or [FindFolder operation](https://msdn.microsoft.com/library/7a9855aa-06cc-45ba-ad2a-645c15b7d031%28Office.15%29.aspx) that can exist in memory on the Client Access server at one time for one user. The default value for this property is 1000. The [fallback value](https://technet.microsoft.com/library/dd297964%28v=exchg.141%29.aspx#fallback)for this value is 1000. In Exchange Online and on-premises versions of Exchange starting with Exchange 2013, this throttling policy cannot be queried or configured by a cmdlet. In Exchange Online and on-premises versions of Exchange starting with Exchange 2013, the EWSFindCountLimit for [AQS search](how-to-perform-an-aqs-search-by-using-ews-in-exchange.md) and any Exchange search with a restriction is 250 results. An Exchange search without a restriction will return up to 1000 results. |
+|**EWSPercentTimeInAD** |Exchange 2010 |Defines the percentage of time per minute during which a specific user can execute Active Directory requests. |
+|**EWSPercentTimeInCAS** |Exchange 2010 |Defines the percentage of time per minute during which a specific user can execute Client Access server code. |
+|**EWSPercentTimeInMailboxRPC** |Exchange 2010 |Defines the percentage of time per minute during which a specific user can execute mailbox RPC requests |
+|**EWSMaxConcurrency** |Exchange 2010 Exchange 2013 Exchange Online |Defines the number of concurrent open connections that a specific user can have against an Exchange server that is using EWS at one time. The default value for Exchange 2010 is 10. The default value for Exchange 2013 and Exchange Online is 27. This policy applies to all operations except for streaming notifications. Streaming notifications use the **HangingConnectionLimit** to indicate the number of open streaming event connections that are available. For more information, see [What throttling values do I need to take into consideration?](how-to-maintain-affinity-between-group-of-subscriptions-and-mailbox-server.md#bk_throttling). |
+|**MessageRateLimit** |Exchange 2010 Exchange 2013 Exchange Online |Defines the number of messages per minute that can be submitted. |
+|**RecipientRateLimit** |Exchange 2010 Exchange 2013 Exchange Online |Defines the limit to the number of recipients that a user can address in a 24-hour period. |
+|**ForwardeeLimit** |Exchange 2010 Exchange 2013 Exchange Online |Defines the limit to the number of recipients for Inbox forward/redirect actions in a 24-hour period. |
+|**ConcurrentSyncCalls** |Exchange 2019 Exchange 2016 Exchange Online |Defines the limit to the number of concurrent sync calls (SyncFolderHierarchy, SyncFolderItems) for a user. |
 
 > [!CAUTION]
 > Do not set throttling polices to **null**. This will set the policy to equal unlimited, which indicates that a throttling policy isn't set.
@@ -63,7 +63,7 @@ The following table lists the throttling policy parameters that affect applicati
 
 Exchange on-premises provides Exchange Management Shell cmdlets that you can use to set and get throttling policy. Exchange Online does not provide access to the throttling policy cmdlets.
 
-You can use the following cmdlets to display throttling polices for an on-premises Exchange Server deployment:
+Use the following cmdlets to display throttling polices for an on-premises Exchange Server deployment:
 
 - **Get-ThrottlingPolicy** — Gets the client throttling settings for one or more throttling policies. For more information, see [Get-ThrottlingPolicy](https://technet.microsoft.com/library/dd351264.aspx) on TechNet.
 
@@ -71,15 +71,15 @@ You can use the following cmdlets to display throttling polices for an on-premis
 
 Use the following command to show the default throttling policy for Exchange 2010.
 
-**Get-ThrottlingPolicy | Where-Object {$_.IsDefault -eq "True"} | format-list**
+- **Get-ThrottlingPolicy | Where-Object {$_.IsDefault -eq "True"} | format-list**
 
 Use the following command to show the global throttling policy (which equates to the default throttling policy in Exchange 2010) in Exchange 2013.
 
-**Get-ThrottlingPolicy | Where-Object {$_.ThrottlingPolicyScope -eq "Global"} | format-list**
+- **Get-ThrottlingPolicy | Where-Object {$_.ThrottlingPolicyScope -eq "Global"} | format-list**
 
 Use the following command to show the throttling policy associated with a user in Exchange 2010 or Exchange 2013. Replace the user name john@contoso.com with the user name of the target user for whom you want to get throttling policy information.
 
-**Get-ThrottlingPolicyAssociation john@contoso.com | format-list**
+- **Get-ThrottlingPolicyAssociation john@contoso.com | format-list**
 
 Running this command in Exchange Management Shell results in an output similar to the following.
 
@@ -114,17 +114,11 @@ When impersonation is used, the budgets for all the throttling thresholds apply 
 - When you use Impersonation, the service account has a separate budget for the following policy parameters:
 
   - **EWSMaxConcurrency**
-
   - **EWSPercentTimeInAD**
-
   - **EWSPercentTimeInCAS**
-
   - **EWSPercentTimeInMailboxRPC**
-
   - **EWSMaxSubscriptions**
-
   - **EWSFastSearchTimeoutInSeconds**
-
   - **EWSFindCountLimit**
 
 - The **EWSMaxConcurrency** budget is shared for the service account and the account being impersonated for all connections to versions of Exchange earlier than Exchange 2010 Service Pack 2 (SP2) Update Rollup 4 (RU4). Starting with Exchange 2010 SP2 RU4, and including Exchange Online, the service account access uses a separate budget from the user **EWSMaxConcurrency** budget. For more information about the update to the Exchange concurrent connection throttling policy for EWS, see [Description of Update Rollup 4 for Exchange Server 2010 Service Pack 2](https://support.microsoft.com/kb/2706690).
@@ -139,14 +133,14 @@ When impersonation is used, the budgets for all the throttling thresholds apply 
 
    |**Exchange version**|**EWSMaxSubscriptions throttling budget accounting**|
    |:-----|:-----|
-   |Exchange Online  <br/> |Charged against the target mailbox.  <br/> |
-   |Exchange 2013  <br/> |Charged against the target mailbox.  <br/> |
-   |Exchange 2010 SP3  <br/> |Charged against the target mailbox.  <br/> |
-   |Exchange 2010 SP2  <br/> |Charged against the calling account. Starting with Exchange 2010 SP2 RU4, the budget is charged against the target mailbox.  <br/> |
-   |Exchange 2010 SP1  <br/> |Charged against the calling account.  <br/> |
-   |Exchange 2010  <br/> |Charged against the calling account.  <br/> |
+   |Exchange Online |Charged against the target mailbox. |
+   |Exchange 2013 |Charged against the target mailbox. |
+   |Exchange 2010 SP3 |Charged against the target mailbox. |
+   |Exchange 2010 SP2 |Charged against the calling account. Starting with Exchange 2010 SP2 RU4, the budget is charged against the target mailbox. |
+   |Exchange 2010 SP1 |Charged against the calling account. |
+   |Exchange 2010 |Charged against the calling account. |
 
-- Because the **EWSMaxSubscriptions** throttling budget is charged against the account being impersonated, there is no limit on the number of mailboxes a service account can subscribe to and receive streaming notifications for, as long as impersonation is being used. For the account being impersonated, you can't have more than  _n_ concurrent requests per target mailbox, where  _n_ is the **EWSMaxSubscriptions** value. If you were not using impersonation, the same service account could not have more than  _n_ concurrent requests total. So, the takeaway is that by using impersonation on a service account, you exponentially increase the number of mailboxes you can service. For more information, see [Maintain affinity between a group of subscriptions and the Mailbox server in Exchange](how-to-maintain-affinity-between-group-of-subscriptions-and-mailbox-server.md).
+- Because the **EWSMaxSubscriptions** throttling budget is charged against the account being impersonated, there is no limit on the number of mailboxes a service account can subscribe to and receive streaming notifications for, as long as impersonation is being used. For the account being impersonated, you can't have more than _n_ concurrent requests per target mailbox, where _n_ is the **EWSMaxSubscriptions** value. If you were not using impersonation, the same service account could not have more than _n_ concurrent requests total. So, the takeaway is that by using impersonation on a service account, you exponentially increase the number of mailboxes you can service. For more information, see [Maintain affinity between a group of subscriptions and the Mailbox server in Exchange](how-to-maintain-affinity-between-group-of-subscriptions-and-mailbox-server.md).
 
 - The **EWSPercentTimeInMailboxRPC**, **EWSPercentTimeInCAS**, and **EWSPercentTimeInAD** policy parameters refer to actions performed by a single thread. When an application performs multiple concurrent operations, you should account for the cumulative effect of these operations on the user resource budget.
 
@@ -192,7 +186,7 @@ FindItemsResults<Item> fiFindItemResults = service.FindItems(WellKnownFolderName
 > [!NOTE]
 > The default policy in Exchange limits the page size to 1000 items. Setting the page size to a value that is greater than this number has no practical effect.
 
-Applications should also account for the fact that the  _EWSFindCountLimit_ throttling parameter value may result in a partial result set being returned for applications that make concurrent requests. The following example shows how to use the **MoreAvailable** property in the EWS Managed API to ensure that all results are included in a query.
+Applications should also account for the fact that the _EWSFindCountLimit_ throttling parameter value may result in a partial result set being returned for applications that make concurrent requests. The following example shows how to use the **MoreAvailable** property in the EWS Managed API to ensure that all results are included in a query.
 
 ```cs
 ItemView iv = new ItemView(1000);
@@ -241,9 +235,7 @@ The **HangingConnectionLimit** is only applicable to streaming notifications. Th
 The following three parameters of the **PercentTimeIn** throttling policy affect the amount of time an EWS application can consume on a Client Access server:
 
 - **EWSPercentTimeInAD**
-
 - **EWSPercentTimeInCAS**
-
 - **EWSPercentTimeInMailboxRPC**
 
 The values specified in the **PercentTimeIn** policy parameters indicate the amount of time that one thread making one request is allocated. For example, assuming a **EWSPercentTimeInCAS** value of 90, if a process makes two concurrent requests that spend 54 seconds each running code on the Client Access server, the process uses 108 seconds in a 60 second window. This represents an **EWSPercentTimeInCAS** parameter value of 180 percent.
@@ -274,10 +266,10 @@ When throttling polices are exceeded, EWS generates one of the errors listed in 
 
 |**Error**|**Throttling policy parameter**|**Description**|
 |:-----|:-----|:-----|
-|ErrorExceededConnectionCount  <br/> |**EWSMaxConcurrency** <br/> |Indicates that there are more concurrent requests against the server than are allowed by a user's policy.  <br/> |
-|ErrorExceededSubscriptionCount  <br/> |**EWSMaxSubscriptions** <br/> |Indicates that a user's throttling policy maximum subscription count has been exceeded.  <br/> |
-|ErrorExceededFindCountLimit  <br/> |**EWSFindCountLimit** <br/> |Indicates that a search operation call has exceeded the total number of items that can be returned.  <br/> |
-|ErrorServerBusy  <br/> |**EWSPercentTimeInMailboxRPC**         **EWSPercentTimeInCAS**         **EWSPercentTimeInAD** <br/> |Occurs when the server is busy. The BackOffMilliseconds value returned with ErrorServerBusy errors indicates to the client the amount of time it should wait until it should resubmit the request that caused the response that returned this error code.  <br/> |
+|ErrorExceededConnectionCount |**EWSMaxConcurrency** |Indicates that there are more concurrent requests against the server than are allowed by a user's policy. |
+|ErrorExceededSubscriptionCount |**EWSMaxSubscriptions** |Indicates that a user's throttling policy maximum subscription count has been exceeded. |
+|ErrorExceededFindCountLimit |**EWSFindCountLimit** |Indicates that a search operation call has exceeded the total number of items that can be returned. |
+|ErrorServerBusy |**EWSPercentTimeInMailboxRPC**<br/>**EWSPercentTimeInCAS**<br/>**EWSPercentTimeInAD** |Occurs when the server is busy. The BackOffMilliseconds value returned with ErrorServerBusy errors indicates to the client the amount of time it should wait until it should resubmit the request that caused the response that returned this error code. |
 
 The following table lists the HTTP status codes that are returned by throttling errors.
 
@@ -285,9 +277,9 @@ The following table lists the HTTP status codes that are returned by throttling 
 
 |**HTTP status code**|**Description**|
 |:-----|:-----|
-|HTTP 503  <br/> |Indicates that EWS requests are queuing with IIS. The client should delay sending additional requests until a later time.  <br/> |
-|HTTP 500  <br/> |Indicates an internal server error with the ErrorServerBusy error code. This indicates that the client should delay sending additional requests until a later time. The response may contain a back off hint called BackOffMilliseconds. If present, the value of BackOffMilliseconds should be used as the duration until the client resubmits a request.  <br/> |
-|HTTP 200  <br/> |Contains an EWS schema-based error response with an ErrorInternalServerError error code. An inner ErrorServerBusy error code may be present. This indicates that the client should delay sending additional requests until a later time.  <br/> |
+|HTTP 503 |Indicates that EWS requests are queuing with IIS. The client should delay sending additional requests until a later time. |
+|HTTP 500 |Indicates an internal server error with the ErrorServerBusy error code. This indicates that the client should delay sending additional requests until a later time. The response may contain a back off hint called BackOffMilliseconds. If present, the value of BackOffMilliseconds should be used as the duration until the client resubmits a request. |
+|HTTP 200 |Contains an EWS schema-based error response with an ErrorInternalServerError error code. An inner ErrorServerBusy error code may be present. This indicates that the client should delay sending additional requests until a later time. |
 
 ## See also
 
@@ -297,7 +289,6 @@ The following table lists the HTTP status codes that are returned by throttling 
 - [ThrottlingPolicy Class](https://msdn.microsoft.com/library/ff342496%28v=EXCHG.140%29.aspx)
 - [Throttling Policies and the EWSFindCountLimit](https://blogs.msdn.com/b/exchangedev/archive/2010/03/12/throttling-policies-and-the-ewsfindcountlimit.aspx)
 - [Budget Snapshots in the IIS Logs](https://blogs.msdn.com/b/exchangedev/archive/2010/03/10/budget-snapshots-in-the-iis-logs.aspx)
-
 - [Effects of Throttling on Your Deployment in Exchange 2010 SP1](http://msexchangeteam.com/archive/2010/08/27/456040.aspx)
 - [Throttling Policy Associations in Exchange 2010 SP1](http://msexchangeteam.com/archive/2010/08/02/455707.aspx)
 - [Throttling Policies and CPUStartPercent](https://blogs.msdn.com/b/exchangedev/archive/2010/03/11/throttling-policies-and-cpustartpercent.aspx)

@@ -46,7 +46,7 @@ None.
 
 |**Element**|**Description**|
 |:-----|:-----|
-|[SuggestionDayResult](suggestiondayresult.md) <br/> |Represents a single day that contains suggested meeting times.  <br/><br/>The following is the XPath 2.0 expression to this element:<br/><br/>`/GetUserAvailabilityResponse/SuggestionsResponse/SuggestionDayResultArray/SuggestionDayResult[i]` <br/> |
+|[SuggestionDayResult](suggestiondayresult.md) |Represents a single day that contains suggested meeting times. <br/>The following is the XPath 2.0 expression to this element: <br/>`/GetUserAvailabilityResponse/SuggestionsResponse/SuggestionDayResultArray/SuggestionDayResult[i]` |
 
 ## Text value
 
@@ -65,10 +65,10 @@ The schema that describes this element is located in the EWS virtual directory o
 
 |||
 |:-----|:-----|
-|Namespace  <br/> |https://schemas.microsoft.com/exchange/services/2006/types  <br/> |
-|Schema Name  <br/> |Types schema  <br/> |
-|Validation File  <br/> |Types.xsd  <br/> |
-|Can be Empty  <br/> |False  <br/> |
+|Namespace | https://schemas.microsoft.com/exchange/services/2006/types |
+|Schema Name | Types schema |
+|Validation File | Types.xsd |
+|Can be Empty | False |
 
 ## See also
 

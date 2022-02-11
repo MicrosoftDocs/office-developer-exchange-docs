@@ -21,7 +21,7 @@ description: "Last modified: February 22, 2013"
 Returns the maximum number of databases allowed in a single Exchange server storage group.
   
 ```cs
-Static ULONG  __stdcall CMaxDbPerSG  ();
+Static ULONG __stdcall CMaxDbPerSG  ();
 
 ```
 
