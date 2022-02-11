@@ -11,7 +11,7 @@ api_name:
 api_type:
 - dllExport
 ms.assetid: 61bb3af1-8b51-4bae-8e25-90a4dc1226c5
-description: "Last modified: January 22, 2022"
+description: "Initializes the CChkSGFiles object by specifying the databases to be checked and the path and base name of the transaction log files to be checked."
 ---
 
 # CChkSGFiles.ErrInit function
