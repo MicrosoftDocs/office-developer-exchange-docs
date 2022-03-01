@@ -50,7 +50,7 @@ A text value that represents a Boolean value is required if this element is used
   
 ## Remarks
 
-The IsOnlineMeeting property is read-writable for the organizer's calendar item. It is read-only for meeting requests and for attendees' calendar items.
+The IsOnlineMeeting property is read-only.
   
 The schema that describes this element is located in the EWS virtual directory of the computer that is running MicrosoftExchange 2007 that has the Client Access server role installed.
   
