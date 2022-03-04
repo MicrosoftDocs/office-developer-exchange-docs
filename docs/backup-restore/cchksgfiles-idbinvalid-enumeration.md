@@ -11,6 +11,7 @@ api_name:
 api_type:
 - dllExport
 ms.assetid: 3d2b754f-2161-4377-b5f8-35abe3033b68
+description: Indicates an invalid database index.
 ---
 
 # CChkSGFiles.iDbInvalid enumeration

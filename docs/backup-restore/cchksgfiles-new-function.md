@@ -11,6 +11,7 @@ api_name:
 api_type:
 - dllExport
 ms.assetid: 588d8c74-c9ce-4d5e-8a79-a2a68676e858
+description: Creates a new instance of the CChkSGFiles class.
 ---
 
 # CChkSGFiles.New function
