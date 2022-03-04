@@ -25,7 +25,7 @@ The essential difference between meetings and appointments is that meetings have
 
 The following code example shows how to use the [Appointment object](https://msdn.microsoft.com/library/microsoft.exchange.webservices.data.appointment%28v=exchg.80%29.aspx) to update properties associated with an appointment and the [Update](https://msdn.microsoft.com/library/microsoft.exchange.webservices.data.appointment.update%28v=exchg.80%29.aspx) method to save the appointment to your calendar folder. 
   
-This example assumes that you have authenticated to an Exchange server and have acquired an [ExchangeService](https://msdn.microsoft.com/library/microsoft.exchange.webservices.data.exchangeservice%28v=exchg.80%29.aspx) object named **service**. The local variable  `appointmentId` is an identifier associated with an existing appointment. 
+This example assumes that you have authenticated to an Exchange server and have acquired an [ExchangeService](https://msdn.microsoft.com/library/microsoft.exchange.webservices.data.exchangeservice%28v=exchg.80%29.aspx) object named **service**. The local variable `appointmentId` is an identifier associated with an existing appointment. 
   
 ```cs
 // Instantiate an appointment object by binding to it by using the ItemId.
@@ -123,7 +123,7 @@ hange/services/2006/types">
 
 When you update a meeting, in addition to saving the modified appointment item to the calendar folder, you also typically want to send updated meeting requests to attendees. The following code example shows how to update a meeting and send meeting requests.
   
-This example assumes that you have authenticated to an Exchange server and have acquired an [ExchangeService](https://msdn.microsoft.com/library/microsoft.exchange.webservices.data.exchangeservice%28v=exchg.80%29.aspx) object named **service**. The local variable  `meetingId` is an identifier that is associated with an existing appointment. 
+This example assumes that you have authenticated to an Exchange server and have acquired an [ExchangeService](https://msdn.microsoft.com/library/microsoft.exchange.webservices.data.exchangeservice%28v=exchg.80%29.aspx) object named **service**. The local variable `meetingId` is an identifier that is associated with an existing appointment. 
   
 ```cs
 // Instantiate an appointment object by binding to it using the ItemId.
