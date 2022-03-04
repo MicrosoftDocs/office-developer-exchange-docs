@@ -11,7 +11,6 @@ api_name:
 api_type:
 - dllExport
 ms.assetid: cec0df4b-4679-4682-bacf-69b4f4aef343
-description: "Last modified: February 22, 2013"
 ---
 
 # CChkSGFiles.ErrCheckLogs function

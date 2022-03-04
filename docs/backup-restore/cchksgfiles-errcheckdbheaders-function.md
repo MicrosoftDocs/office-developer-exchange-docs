@@ -11,7 +11,6 @@ api_name:
 api_type:
 - dllExport
 ms.assetid: 75289cd2-35b1-4f75-a651-dce01f1ddda1
-description: "Last modified: February 22, 2013"
 ---
 
 # CChkSGFiles.ErrCheckDbHeaders function

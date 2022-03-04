@@ -11,7 +11,6 @@ api_name:
 api_type:
 - dllExport
 ms.assetid: 869e927f-7df2-4247-88ef-b8b05b29a700
-description: "Last modified: February 22, 2013"
 ---
 
 # CChkSGFiles.Delete function
