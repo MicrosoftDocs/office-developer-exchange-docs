@@ -12,10 +12,10 @@ localization_priority: Priority
 
 Develop a simple Hello World email client application for Exchange by using the EWS Managed API.
   
-The [EWS Managed API](https://aka.ms/ews-managed-api-readme) provides an intuitive, easy-to-use object model for sending and receiving web service messages from client applications, portal applications, and service applications. You can access almost all the information stored in an Exchange Online, Exchange Online as part of Office 365, or an Exchange server mailbox by using the EWS Managed API. You can use the information in this article to help you develop your first EWS Managed API client application. 
+The [EWS Managed API](https://aka.ms/ews-managed-api-readme) provides an intuitive, easy-to-use object model for sending and receiving web service messages from client applications, portal applications, and service applications. You can access almost all the information stored in an Exchange Online, Exchange Online as part of Office 365, or an Exchange server mailbox by using the EWS Managed API. You can use the information in this article to help you develop your first EWS Managed API client application.
 
 > [!NOTE]
-> We’re removing the ability to use Basic authentication in Exchange Online for EWS beginning October 2022: [Deprecation of Basic authentication in Exchange Online](/exchange/clients-and-mobile-in-exchange-online/deprecation-of-basic-authentication-exchange-online). You should use OAuth authentication instead. [Authenticate an EWS application by using OAuth](/exchange/client-developer/exchange-web-services/how-to-authenticate-an-ews-application-by-using-oauth) 
+> We’re removing the ability to use Basic authentication in Exchange Online for EWS beginning October 2022: [Deprecation of Basic authentication in Exchange Online](/exchange/clients-and-mobile-in-exchange-online/deprecation-of-basic-authentication-exchange-online). You should use OAuth authentication instead. [Authenticate an EWS application by using OAuth](/exchange/client-developer/exchange-web-services/how-to-authenticate-an-ews-application-by-using-oauth)
   
 > [!NOTE]
 > The EWS Managed API is now available as an open source project on [GitHub](https://github.com/officedev/ews-managed-api). You can use the open source library to:
@@ -24,7 +24,7 @@ The [EWS Managed API](https://aka.ms/ews-managed-api-readme) provides an intuiti
 > - Get fixes and enhancements before they are available in an official release.
 > - Access the most comprehensive and up-to-date implementation of the API, to use as a reference or to create new libraries on new platforms.
 >
-> We welcome your [contributions](https://github.com/OfficeDev/ews-managed-api/blob/main/CONTRIBUTING.md) via GitHub.
+> We welcome your [contributions](https://github.com/OfficeDev/ews-managed-api/blob/main/CONTRIBUTING.md) on GitHub.
   
 ## You'll need an Exchange server
 
@@ -123,7 +123,7 @@ This validation callback will be passed to the **ExchangeService** object in ste
 
    If your client targets an Exchange Online or Office 365 Developer Site mailbox, verify that [UseDefaultCredentials](https://msdn.microsoft.com/library/microsoft.exchange.webservices.data.exchangeservicebase.usedefaultcredentials%28v=exchg.80%29.aspx) is set to **false**, which is the default value. Your client is ready to make the first call to the Autodiscover service to get the service URL for calls to the EWS service.
 
-5. The **AutodiscoverUrl** method on the **ExchangeService** object performs a series of calls to the Autodiscover service to get the service URL. If this method call is successful, the URL property on the **ExchangeService** object will be set with the service URL. Pass the user's email address and the **RedirectionUrlValidationCallback** to the **AutodiscoverUrl** method. Add the following code after the credentials have been specified in step 3 or 4. Change  `user1@contoso.com` to your email address so that the Autodiscover service finds your EWS endpoint.
+5. The **AutodiscoverUrl** method on the **ExchangeService** object performs a series of calls to the Autodiscover service to get the service URL. If this method call is successful, the URL property on the **ExchangeService** object will be set with the service URL. Pass the user's email address and the **RedirectionUrlValidationCallback** to the **AutodiscoverUrl** method. Add the following code after the credentials have been specified in step 3 or 4. Change `user1@contoso.com` to your email address so that the Autodiscover service finds your EWS endpoint.
 
    ```cs
     service.AutodiscoverUrl("user1@contoso.com", RedirectionUrlValidationCallback);
@@ -141,7 +141,7 @@ At this point, your client is set up to make calls to EWS to access mailbox data
 
    You now have an email message on which the service binding is set. Any calls initiated on the **EmailMessage** object will be targeted at the service.
 
-2. Now set the To: line recipient of the email message. To do this, change  `user1@contoso.com` to use your SMTP address.
+2. Now set the To: line recipient of the email message. To do this, change `user1@contoso.com` to use your SMTP address.
 
    ```cs
     email.ToRecipients.Add("user1@contoso.com");

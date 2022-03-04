@@ -29,12 +29,9 @@ The most common way to add a reference is to use Visual Studio. We know that som
   
 ### To add a reference by using Visual Studio
 
-1. Put the Microsoft.Exchange.WebServices.dll file and the Microsoft.Exchange.WebServices.xml file into a folder of your choice. By default, the files are installed in  `C:\Program Files\Microsoft\Exchange\Web Services\2.0\`, but you can store the files anywhere on your computer.
-
+1. Put the Microsoft.Exchange.WebServices.dll file and the Microsoft.Exchange.WebServices.xml file into a folder of your choice. By default, the files are installed in `C:\Program Files\Microsoft\Exchange\Web Services\2.0\`, but you can store the files anywhere on your computer.
 2. In the Solution Explorer pane in Visual Studio, select **References**, and then choose **Add Reference**. This opens the Add Reference window.
-
 3. In the Add Reference window, navigate to the **Browse** tab, browse to the location of the Microsoft.Exchange.WebServices.dll file, select that file, and then select **OK**.
-
 4. To use the EWS Managed API in your application, add a **using** statement for the **Microsoft.Exchange.WebServices.Data** namespace.
 
    ```cs
@@ -44,7 +41,6 @@ The most common way to add a reference is to use Visual Studio. We know that som
 ### To add a reference and build your application with the command-line compiler
 
 1. Put the Microsoft.Exchange.WebServices.dll file into a folder of your choice. This folder will be the output folder for the compiler.
-
 2. In your source code editor, add a **using** statement to the source code for the **Microsoft.Exchange.WebServices.Data** namespace.
 
    ```cs
