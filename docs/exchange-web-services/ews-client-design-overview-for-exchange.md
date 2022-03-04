@@ -88,6 +88,8 @@ For some applications that use a small set of EWS functionality, you might creat
   
 ## EWS client features
 
+<a name="EWSFeatures"> </a>
+
 Regardless of the development option that you choose, you should consider how EWS features are implemented in your client. Feature availability is based on the EWS schema version that your application targets. Because EWS schemas are backward- and forward-compatible, if you create an application that targets an earlier schema version, such as Exchange Server 2007 SP1, your application will also work against a later schema version, such as the Exchange Server 2013 SP1 service, as well as Exchange Online.
   
 Because features and feature updates are driven by the schema, we recommend that you use the earliest common code base that targets the EWS features that you want to implement in your client application. Many applications can target the Exchange2007_SP1 version, because the Exchange 2007 SP1 schema contains almost all the core Exchange functionality for working with items and folders in the Exchange store. We recommend that you maintain code forks for each EWS schema version. The following are the schema versions that are currently available.
