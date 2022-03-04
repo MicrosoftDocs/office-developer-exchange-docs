@@ -11,7 +11,6 @@ api_name:
 api_type:
 - dllExport
 ms.assetid: 3d69ca6d-5ed1-4038-859e-106e776eeec1
-description: "Last modified: February 22, 2013"
 ---
 
 # CChkSGFiles.PgnoFromFileOffset function
