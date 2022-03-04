@@ -7,7 +7,7 @@ ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 3ba567bf-2c6c-4a6b-9ae8-3eea22d849de
 description: "The YomiCompanyName element specifies the phonetic Japanese company name of the associated persona."
 ---

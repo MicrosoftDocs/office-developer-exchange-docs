@@ -7,7 +7,7 @@ ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: a9909ed2-fdc5-4b1f-b7db-1f517add8eb3
 description: "The Id element specifies the identifier of an item."
 ---

@@ -5,7 +5,7 @@ ms.date: 11/16/2014
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 196278d4-5e77-4e0a-8af6-8ac065610510
 description: "The Value (ExendedAttributeType) element is intended for internal use only."
 ---

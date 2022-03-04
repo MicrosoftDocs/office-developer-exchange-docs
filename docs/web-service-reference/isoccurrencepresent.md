@@ -5,7 +5,7 @@ ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 2c738518-d99e-4043-bbf0-463085b58eb0
 description: "The IsOccurrencePresent element is intended for internal use only."
 ---

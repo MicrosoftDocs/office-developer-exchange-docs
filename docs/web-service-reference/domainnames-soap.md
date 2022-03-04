@@ -4,7 +4,7 @@ manager: sethgros
 ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 79ffc3f9-25c4-40b5-84ce-09a3c5f892fa
 description: "The DomainNames element represents the domain names collection. The DomainNames element is for internal use only. This element is not used by clients."
 ---

@@ -5,7 +5,7 @@ ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 771039e6-5438-49ef-b213-58dd969e156b
 description: "The StateDefinition element is intended for internal use only."
 ---

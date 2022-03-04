@@ -5,7 +5,7 @@ ms.date: 11/16/2014
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 2c0e86ed-8156-48de-9b22-c627db273e1e
 description: "The SharePointUrl (MasterMailboxType) element is intended for internal use only."
 ---

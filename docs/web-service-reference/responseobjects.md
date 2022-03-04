@@ -7,7 +7,7 @@ ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 api_name:
 - ResponseObjects
 api_type:
@@ -25,6 +25,7 @@ The **ResponseObjects** element contains a collection of all the response object
    <AcceptItem/>
    <TentativelyAcceptItem/>
    <DeclineItem/>
+   <ProposeNewTime>
    <ReplyToItem/>
    <ForwardItem/>
    <ReplyAllToItem/>
@@ -52,6 +53,7 @@ None.
 |[AcceptItem](acceptitem.md) <br/> |Represents an Accept reply to a meeting request.  <br/> |
 |[TentativelyAcceptItem](tentativelyacceptitem.md) <br/> |Represents a Tentative reply to a meeting request.  <br/> |
 |[DeclineItem](declineitem.md) <br/> |Represents a Decline reply to a meeting request.  <br/> |
+|[ProposeNewTime](proposenewtime.md) <br/> |Indicates that the meeting attendee can propose a new meeting time. This element was introduced in Microsoft Exchange Server 2013 Service Pack 1 (SP1).  <br/> |
 |[ReplyToItem](replytoitem.md) <br/> |Contains a reply to the creator of an item in the Exchange store.  <br/> |
 |[ForwardItem](forwarditem.md) <br/> |Contains an Exchange store item to forward to recipients.  <br/> |
 |[ReplyAllToItem](replyalltoitem.md) <br/> |Contains a reply to all identified recipients of an item in the Exchange store.  <br/> |

@@ -7,7 +7,7 @@ ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: dda6534d-7e52-4654-b746-3631c454cb4d
 description: "The ConversationIndex element specifies the location of a node in a conversation."
 ---

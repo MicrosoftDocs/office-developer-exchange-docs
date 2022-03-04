@@ -7,7 +7,7 @@ ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 6faad98f-1a92-4373-bde5-dd12af61765f
 description: "The Type element specifies the type of folder used in a retention policy."
 ---

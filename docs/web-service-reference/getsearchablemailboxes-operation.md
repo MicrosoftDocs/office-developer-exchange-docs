@@ -5,7 +5,7 @@ ms.date: 01/24/2020
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 47f8ff57-4835-4d2d-9136-44afb31a4cbe
 description: "Find information about the GetSearchableMailboxes EWS operation."
 ---

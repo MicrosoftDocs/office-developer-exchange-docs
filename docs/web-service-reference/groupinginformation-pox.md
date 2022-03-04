@@ -4,7 +4,7 @@ manager: sethgros
 ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 2d8a007f-d79c-43c8-90e3-2c6d883f3a7c
 description: "The GroupingInformation element contains a value that is used to group the user's mailbox to maintain affinity when subscribing to notifications across multiple mailboxes."
  

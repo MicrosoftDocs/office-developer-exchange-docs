@@ -5,7 +5,7 @@ ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 42d2a888-fa62-4970-8306-9ddde4eeb1f0
 description: "The DisableApp element specifies a request to disable an app."
 ---

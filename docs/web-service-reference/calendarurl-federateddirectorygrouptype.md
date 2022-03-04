@@ -5,7 +5,7 @@ ms.date: 11/16/2014
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 0606c8a9-813c-4d7c-8080-db812069668e
 description: "The CalendarUrl (FederatedDirectoryGroupType) element is intended for internal use only."
 ---

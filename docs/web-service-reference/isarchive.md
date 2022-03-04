@@ -7,7 +7,7 @@ ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: b89d8a78-5c18-4547-aaf4-4b16a93190a7
 description: "The IsArchive element specifies a Boolean value that indicates whether the mailbox is an archive mailbox."
 ---

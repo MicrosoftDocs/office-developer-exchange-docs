@@ -5,7 +5,7 @@ ms.date: 11/16/2014
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: a255edd9-9904-4fd7-8be6-db692c74202d
 description: "The GetFederatedDirectoryGroupResponse element is intended for internal use only."
 ---

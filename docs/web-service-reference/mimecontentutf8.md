@@ -7,7 +7,7 @@ ms.date: 03/9/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 31544c95-5231-4b57-958c-2a689464d29b
 description: "The MimeContentUTF8 element contains the UTF-8 MIME stream of an object that is represented in base64Binary format and supports email address internationalization and [RFC6530]."
 ---

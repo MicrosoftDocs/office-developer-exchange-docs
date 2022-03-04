@@ -7,7 +7,7 @@ ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 92827350-f317-46da-99c0-5d7960686194
 description: "The MarkAsJunkResponse element specifies the response to a MarkAsJunk request."
 ---

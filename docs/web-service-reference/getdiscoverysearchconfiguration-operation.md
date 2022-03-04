@@ -7,7 +7,7 @@ ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 8a54a6dc-110c-4972-a8bc-5ddb43c4b857
 description: "Find information about the GetDiscoverySearchConfiguration EWS operation."
 ---

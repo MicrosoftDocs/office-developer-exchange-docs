@@ -4,7 +4,7 @@ manager: sethgros
 ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 1fbc2ea9-3f94-441b-ab42-647326bf0021
 description: "The EcpUrl-tmEditing element specifies a partial URL that can be combined with the EcpUrl (POX) element's value to generate a URL that can be used to edit an existing site mailbox."
  

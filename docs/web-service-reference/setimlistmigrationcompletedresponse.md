@@ -7,7 +7,7 @@ ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 7e9ab484-7100-422d-ab22-d8ddb97098c1
 description: "The SetImListMigrationCompletedResponse element represents a response to a SetImListMigrationCompleted request."
 ---

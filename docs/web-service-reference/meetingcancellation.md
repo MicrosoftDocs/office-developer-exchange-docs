@@ -7,7 +7,7 @@ ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 api_name:
 - MeetingCancellation
 api_type:
@@ -53,6 +53,8 @@ The **MeetingCancellation** element represents a meeting cancellation in the Exc
    <ExtendedProperty/>
    <Culture/>
    <EffectiveRights/>
+   <ReceivedBy/>
+   <ReceivedRepresenting/>
    <LastModifiedName/>
    <LastModifiedTime/>
    <IsAssociated/>
@@ -126,6 +128,8 @@ None.
 |[ExtendedProperty](extendedproperty.md) <br/> |Identifies extended properties on folders and items.  <br/> |
 |[Culture](culture.md) <br/> |Represents the culture for a given item in a mailbox.  <br/> |
 |[EffectiveRights](effectiverights.md) <br/> |Contains the client's rights based on the permission settings for the item or folder. This element is read-only.  <br/> |
+|[ReceivedBy](receivedby.md) <br/> |Identifies the delegate in a delegate access scenario.  <br/> |
+|[ReceivedRepresenting](receivedrepresenting.md) <br/> |Identifies the principal in a delegate access scenario.  <br/> |
 |[LastModifiedName](lastmodifiedname.md) <br/> |Contains the display name of the last user to modify an item.  <br/> |
 |[LastModifiedTime](lastmodifiedtime.md) <br/> |Indicates when an item was last modified.  <br/> |
 |[IsAssociated](isassociated.md) <br/> |Indicates whether the item is associated with a folder.  <br/> |

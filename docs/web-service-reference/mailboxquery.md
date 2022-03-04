@@ -5,7 +5,7 @@ ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: e4b496f7-63fa-479a-b045-73276573f64f
 description: "The MailboxQuery element specifies a query and the scope of a discovery search."
 ---

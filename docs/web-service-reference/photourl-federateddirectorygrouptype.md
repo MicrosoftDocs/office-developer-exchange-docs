@@ -5,7 +5,7 @@ ms.date: 11/16/2014
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: e7a3a16e-67a3-4083-be40-b5f72656b9ca
 description: "The PhotoUrl (FederatedDirectoryGroupType) element is intended for internal use only."
 ---

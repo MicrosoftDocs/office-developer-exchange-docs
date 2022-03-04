@@ -7,7 +7,7 @@ ms.date: 11/16/2014
 ms.audience: Developer
  
  
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 25ee84e7-63bc-4f51-9b7d-e7f46fd574d5
 description: "Learn how to expand a distribution group by using the EWS Managed API or EWS in Exchange."
 ---

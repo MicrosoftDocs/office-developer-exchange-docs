@@ -5,7 +5,7 @@ ms.date: 11/16/2014
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 77c7b3f7-e639-4a19-8156-a70d3955db8b
 description: "The IsMember element is intended for internal use only."
 ---

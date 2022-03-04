@@ -5,13 +5,13 @@ ms.date: 11/16/2014
 ms.audience: Developer
 ms.topic: overview
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 api_name:
 - CMaxDbPerSG
 api_type:
 - dllExport
 ms.assetid: 5871988b-a5d7-42cc-9b83-8fededb5072f
-description: "Last modified: February 22, 2013"
+description: "CChkSGFiles.CMaxDbPerSG function returns the maximum number of databases allowed in a single Exchange server storage group."
 ---
 
 # CChkSGFiles.CMaxDbPerSG function
@@ -21,7 +21,7 @@ description: "Last modified: February 22, 2013"
 Returns the maximum number of databases allowed in a single Exchange server storage group.
   
 ```cs
-Static ULONG  __stdcall CMaxDbPerSG  ();
+Static ULONG __stdcall CMaxDbPerSG  ();
 
 ```
 
@@ -35,7 +35,7 @@ The maximum number of databases that the specified Exchange server allows per st
   
 ## Remarks
 
-You can use the **CCheckSGFiles** object to validate databases (and transaction log files) in only one storage group, so the value returned by the **CMaxDbPerSG** function also represents the maximum number of databases that you can check by using an instance of the **CCheckSGFiles** class. 
+You can use the **CCheckSGFiles** object to validate databases (and transaction log files) in only one storage group, so the value returned by the **CMaxDbPerSG** function also represents the maximum number of databases that you can check by using an instance of the **CCheckSGFiles** class.
   
 Note that by default, Exchange Server 2003 and Exchange Server 2007 allow a maximum of five databases per storage group.
   
@@ -44,5 +44,4 @@ Note that by default, Exchange Server 2003 and Exchange Server 2007 allow a maxi
 Exchange 2013 only includes a 64-bit version of the CHKSGFILES API.
   
 The account that the application is running under must have read access permissions to the database and log files that are to be checked.
-  
-
+ 

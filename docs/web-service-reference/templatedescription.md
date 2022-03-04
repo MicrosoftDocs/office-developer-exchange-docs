@@ -7,7 +7,7 @@ ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 95afb55b-a4e8-4b04-9b06-a3a882cb8af5
 description: "The TemplateDescription element specifies the description of the Rights Management template."
 ---

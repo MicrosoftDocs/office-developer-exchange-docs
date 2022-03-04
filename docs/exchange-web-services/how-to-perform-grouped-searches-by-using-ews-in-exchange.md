@@ -3,7 +3,7 @@ title: "Perform grouped searches by using EWS in Exchange"
 manager: sethgros
 ms.date: 09/17/2015
 ms.audience: Developer
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 55de92eb-8e8b-4156-8ad9-dd3828024242
 description: "Find out how to perform grouped searches in your EWS Managed API or EWS application that targets Exchange."
 ---

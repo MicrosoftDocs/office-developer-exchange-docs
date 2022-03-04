@@ -5,7 +5,7 @@ ms.date: 11/16/2014
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 157e8649-ecfc-48ef-a70b-c2c7368d72e0
 description: "The IsPin element is intended for internal use only."
 ---

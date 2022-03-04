@@ -5,7 +5,7 @@ ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 11ebe618-d759-4f16-be99-eaaa817ba782
 description: "The DisableAppResponse element specifies the response to a DisableApp request."
 ---

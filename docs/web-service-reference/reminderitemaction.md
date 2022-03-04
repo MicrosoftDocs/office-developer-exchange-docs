@@ -7,7 +7,7 @@ ms.date: 03/9/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: fe67512c-5b15-4f07-8628-74cf873c2d71
 description: "The ReminderItemAction element specifies the action for a reminder item."
 ---

@@ -3,7 +3,7 @@ title: "Refresh configuration information by using Autodiscover"
 manager: sethgros
 ms.date: 09/17/2015
 ms.audience: Developer
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: c2f3c6a5-e8ea-4375-b41a-686a6f238d33
 description: "Learn how and when to refresh configuration information for your Exchange connection by using Autodiscover."
 ---

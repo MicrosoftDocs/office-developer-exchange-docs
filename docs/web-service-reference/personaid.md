@@ -7,7 +7,7 @@ ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: eec3a468-afd5-4d72-a61e-cd1964fb686c
 description: "The PersonaId element specifies the persona identifier for the associated persona."
 ---

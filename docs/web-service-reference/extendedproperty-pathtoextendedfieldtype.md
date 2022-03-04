@@ -5,7 +5,7 @@ ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: fa620b48-2ce3-437d-b51e-541247eea1d9
 description: "The ExtendedProperty element specifies an extended property for the Unified Contact Store."
 ---
@@ -31,7 +31,7 @@ The following sections describe attributes, child elements, and parent elements.
 |:-----|:-----|
 |DistinguishedPropertySetId  <br/> |Indicates the distinguished property set identifier. This attribute is optional.  <br/> |
 |PropertySetId  <br/> |Indicates the GUID property set identifier. This attribute is optional.  <br/> |
-|PropertyTag  <br/> | Represents the property tag minus the type part.<br/><br/>There are two options for representation:  <br/><br/>-  Hexadecimal: 0x3fa4  <br/>-  Decimal: 0-65535<br/><br/>  This attribute is optional.  <br/> |
+|PropertyTag  <br/> | Represents the property tag minus the type part.<br/><br/>There are two options for representation:  <br/><br/>- Hexadecimal: 0x3fa4  <br/>- Decimal: 0-65535<br/><br/>  This attribute is optional.  <br/> |
 |PropertyName  <br/> |String that indicates the property name. This attribute is optional.  <br/> |
 |PropertyId  <br/> |Integer that indicates the property identifier. This attribute is optional.  <br/> |
 |PropertyType  <br/> |Indicates the property type. This attribute is required.  <br/> |

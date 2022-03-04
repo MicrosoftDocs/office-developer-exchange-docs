@@ -7,7 +7,7 @@ ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 4c7af00c-8dca-40f4-9420-e042a0b5303c
 description: "The OnlineMeetingSettings element specifies the settings for online meetings."
 ---

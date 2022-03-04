@@ -7,7 +7,7 @@ ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: a2192ff3-25c9-424a-ae4a-506ab7b0993d
 description: "The ProposedStart element specifies the proposed start time of a meeting."
 ---

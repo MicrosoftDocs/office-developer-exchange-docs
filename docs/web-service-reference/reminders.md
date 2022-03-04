@@ -7,7 +7,7 @@ ms.date: 03/9/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 19294300-ab84-4784-8aa7-3395a08de640
 description: "The Reminders element specifies the reminders returned in the response to a GetReminders request."
 ---

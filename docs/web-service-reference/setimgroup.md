@@ -7,7 +7,7 @@ ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 3c107b8d-714b-4cd5-ad1b-97b7cbcb90d6
 description: "The SetImGroup element represents a request to change the display name of an instant messaging group."
 ---

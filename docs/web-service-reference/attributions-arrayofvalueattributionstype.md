@@ -5,7 +5,7 @@ ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 7f36b6ee-8ecf-48c9-8cb6-dfb2da0ce2a2
 description: "The Attributions element specifies an array of attributions for its associated Value element."
 ---

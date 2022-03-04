@@ -7,7 +7,7 @@ ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 20049467-c01a-4c7d-8ada-ca1801cc95ed
 description: "The EmailAddressEntity element specifies a single email address entity."
 ---

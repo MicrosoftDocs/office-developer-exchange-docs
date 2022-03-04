@@ -7,7 +7,7 @@ ms.date: 11/16/2014
 ms.audience: Developer
  
  
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: c922072f-ce33-4bff-97b0-1c1d0f9b880d
 description: "Learn how to update an entire recurring series at once by using the EWS Managed API or EWS in Exchange."
 ---
@@ -20,19 +20,17 @@ You can use the EWS Managed API or EWS to update a recurring series by either up
   
 In general, updating a recurring series is very similar to [modifying a single appointment](how-to-update-appointments-and-meetings-by-using-ews-in-exchange.md). You use the same methods and operations, but you use the item ID of the series' recurring master. In some cases you might not start with the recurring master, and you might need to [find the item ID for the recurring master](how-to-access-a-recurring-series-by-using-ews-in-exchange.md).
   
-However, there is one key difference to consider when updating a recurring series: updating the recurrence pattern. Updating the recurrence pattern is only possible with the recurring master, and changes to the pattern can add or remove occurrences. For example, if you modify the [Recurrence.EndDate](https://msdn.microsoft.com/library/microsoft.exchange.webservices.data.recurrence.enddate%28v=exchg.80%29.aspx) property to a date later than its current value, the recurrence pattern is reevaluated, and additional occurrences might be added. 
+However, there is one key difference to consider when updating a recurring series: updating the recurrence pattern. Updating the recurrence pattern is only possible with the recurring master, and changes to the pattern can add or remove occurrences. For example, if you modify the [Recurrence.EndDate](https://msdn.microsoft.com/library/microsoft.exchange.webservices.data.recurrence.enddate%28v=exchg.80%29.aspx) property to a date later than its current value, the recurrence pattern is reevaluated, and additional occurrences might be added.
   
 ## Modify all occurrences in a series by using the EWS Managed API
 
 To modify all occurrences in a series you:
   
-1. Bind to the recurring master for the series by using the [Appointment.BindToRecurringMaster](https://msdn.microsoft.com/library/office/microsoft.exchange.webservices.data.appointment.bindtorecurringmaster%28v=exchg.80%29.aspx) or [Appointment.Bind](https://msdn.microsoft.com/library/microsoft.exchange.webservices.data.appointment.bind%28v=exchg.80%29.aspx) method on a recurring master. 
-    
-2. Update the properties on the recurring master [Appointment](https://msdn.microsoft.com/library/microsoft.exchange.webservices.data.appointment%28v=exchg.80%29.aspx) object. 
-    
-3. Save the changes to the recurring master by using the [Appointment.Save](https://msdn.microsoft.com/library/office/microsoft.exchange.webservices.data.appointment.save%28v=exchg.80%29.aspx) method. 
-    
-The following example updates a recurring series to change the location, add an attendee, and modify the recurrence pattern. This example assumes that the [ExchangeService](https://msdn.microsoft.com/library/microsoft.exchange.webservices.data.exchangeservice%28v=exchg.80%29.aspx) object passed in the  _service_ parameter has been initialized with valid values in the [Credentials](https://msdn.microsoft.com/library/microsoft.exchange.webservices.data.exchangeservicebase.credentials%28v=exchg.80%29.aspx) and [Url](https://msdn.microsoft.com/library/microsoft.exchange.webservices.data.exchangeservice.url%28v=exchg.80%29.aspx) properties. The  _recurringAppointment_ parameter is an **Appointment** object bound to either an occurrence or the recurring master for the series to be updated. 
+1. Bind to the recurring master for the series by using the [Appointment.BindToRecurringMaster](https://msdn.microsoft.com/library/office/microsoft.exchange.webservices.data.appointment.bindtorecurringmaster%28v=exchg.80%29.aspx) or [Appointment.Bind](https://msdn.microsoft.com/library/microsoft.exchange.webservices.data.appointment.bind%28v=exchg.80%29.aspx) method on a recurring master.
+2. Update the properties on the recurring master [Appointment](https://msdn.microsoft.com/library/microsoft.exchange.webservices.data.appointment%28v=exchg.80%29.aspx) object.
+3. Save the changes to the recurring master by using the [Appointment.Save](https://msdn.microsoft.com/library/office/microsoft.exchange.webservices.data.appointment.save%28v=exchg.80%29.aspx) method.
+
+The following example updates a recurring series to change the location, add an attendee, and modify the recurrence pattern. This example assumes that the [ExchangeService](https://msdn.microsoft.com/library/microsoft.exchange.webservices.data.exchangeservice%28v=exchg.80%29.aspx) object passed in the _service_ parameter has been initialized with valid values in the [Credentials](https://msdn.microsoft.com/library/microsoft.exchange.webservices.data.exchangeservicebase.credentials%28v=exchg.80%29.aspx) and [Url](https://msdn.microsoft.com/library/microsoft.exchange.webservices.data.exchangeservice.url%28v=exchg.80%29.aspx) properties. The _recurringAppointment_ parameter is an **Appointment** object bound to either an occurrence or the recurring master for the series to be updated.
   
 ```cs
 using Microsoft.Exchange.WebServices.Data;
@@ -134,16 +132,14 @@ public static bool UpdateRecurringSeries(ExchangeService service, Appointment re
 
 ## Modify all occurrences in a series by using EWS
 
-To modify all occurrences in a series, you need to use the [UpdateItem operation](https://msdn.microsoft.com/library/5d027523-e0bc-4da2-b60b-0cb9fc1fdfe4%28Office.15%29.aspx) with the item ID of the recurring master in the [ItemId](https://msdn.microsoft.com/library/3350b597-57a0-4961-8f44-8624946719b4%28Office.15%29.aspx) element in the request. The structure of the request is the same as a request to update a single appointment. 
+To modify all occurrences in a series, you need to use the [UpdateItem operation](https://msdn.microsoft.com/library/5d027523-e0bc-4da2-b60b-0cb9fc1fdfe4%28Office.15%29.aspx) with the item ID of the recurring master in the [ItemId](https://msdn.microsoft.com/library/3350b597-57a0-4961-8f44-8624946719b4%28Office.15%29.aspx) element in the request. The structure of the request is the same as a request to update a single appointment.
   
 The following example updates the recurring series in the following ways:
   
-- Updates the location of the series by setting the [Location](https://msdn.microsoft.com/library/3fcf7133-ae1c-47b4-a187-660045f71df0%28Office.15%29.aspx) element. 
-    
-- Updates the attendees by setting the [RequiredAttendees](https://msdn.microsoft.com/library/422f8d44-b0eb-49ca-af0f-0e22b54c78d2%28Office.15%29.aspx) element. 
-    
-- Updates the recurrence by setting the [Recurrence (RecurrenceType)](https://msdn.microsoft.com/library/3d1c2c1c-4103-47ce-ad3c-ad16ec6e9b12%28Office.15%29.aspx) element. 
-    
+- Updates the location of the series by setting the [Location](https://msdn.microsoft.com/library/3fcf7133-ae1c-47b4-a187-660045f71df0%28Office.15%29.aspx) element.
+- Updates the attendees by setting the [RequiredAttendees](https://msdn.microsoft.com/library/422f8d44-b0eb-49ca-af0f-0e22b54c78d2%28Office.15%29.aspx) element.
+- Updates the recurrence by setting the [Recurrence (RecurrenceType)](https://msdn.microsoft.com/library/3d1c2c1c-4103-47ce-ad3c-ad16ec6e9b12%28Office.15%29.aspx) element.
+
 ```XML
 <?xml version="1.0" encoding="utf-8"?>
 <soap:Envelope xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
@@ -222,15 +218,8 @@ The server responds with an [UpdateItemResponse](https://msdn.microsoft.com/libr
   
 ## See also
 
-
 - [Calendars and EWS in Exchange](calendars-and-ews-in-exchange.md)
-    
 - [Recurrence patterns and EWS](recurrence-patterns-and-ews.md)
-    
 - [Update appointments and meetings by using EWS in Exchange](how-to-update-appointments-and-meetings-by-using-ews-in-exchange.md)
-    
 - [Update a recurring series by using EWS](how-to-update-a-recurring-series-by-using-ews.md)
-    
 - [Access a recurring series by using EWS in Exchange](how-to-access-a-recurring-series-by-using-ews-in-exchange.md)
-    
-

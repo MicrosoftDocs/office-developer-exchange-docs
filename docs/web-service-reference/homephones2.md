@@ -7,7 +7,7 @@ ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: ba9bb159-362d-48e0-889d-823cb46ecebf
 description: "The HomePhones2 element specifies an array of HomePhone2 values and the identifiers of their source attributions for the associated persona."
 ---

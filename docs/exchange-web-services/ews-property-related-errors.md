@@ -7,7 +7,7 @@ ms.date: 09/17/2015
 ms.audience: Developer
  
  
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 1c4c5969-7bdd-4021-be0e-cae99e86cf2c
 description: "Find out how to handle property-related errors in your EWS application."
 ---

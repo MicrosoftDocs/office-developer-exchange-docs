@@ -7,7 +7,7 @@ ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: fb70326a-2b34-43d1-a1a1-5fb0049d32f3
 description: "The Refiners element specifies a list of one or more Refiner elements."
 ---

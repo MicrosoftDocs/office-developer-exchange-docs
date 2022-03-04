@@ -5,7 +5,7 @@ ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: ab88739f-9018-4887-ae46-f1471242628c
 description: "The DirectReports element contains SMTP information that identifies the direct reports of a contact."
 ---
@@ -15,7 +15,9 @@ description: "The DirectReports element contains SMTP information that identifie
 The **DirectReports** element contains SMTP information that identifies the direct reports of a contact. 
   
 ```XML
-<DirectReports/>
+<DirectReports>
+   <Mailbox/>
+</DirectReports>
 ```
 
  **SingleRecipientType**
@@ -29,18 +31,16 @@ None.
   
 ### Child elements
 
-None.
-  
+|**Element**|**Description**|
+|:-----|:-----|
+|[Mailbox](mailbox.md) <br/> |Identifies a mail-enabled Active Directory directory service object.  <br/> |
+     
 ### Parent elements
 
 |**Element name**|**Description**|
 |:-----|:-----|
 |[Contact](contact.md) <br/> |Represents contact item in the Exchange store.  <br/> |
    
-## Text value
-
-None.
-  
 ## Remarks
 
 The schema that describes this element is located in the IIS virtual directory that hosts Exchange Web Services.

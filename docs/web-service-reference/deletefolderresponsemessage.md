@@ -5,7 +5,7 @@ ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 api_name:
 - DeleteFolderResponseMessage
 api_type:
@@ -40,7 +40,7 @@ The following sections describe attributes, child elements, and parent elements.
 
 |**Attribute**|**Description**|
 |:-----|:-----|
-|**ResponseClass** <br/> | Describes the status of a [DeleteFolder operation](deletefolder-operation.md) response.<br/><br/>The following values are valid for this attribute:<br/><br/>-  Success  <br/>-  Warning  <br/>-  Error  <br/> |
+|**ResponseClass** <br/> | Describes the status of a [DeleteFolder operation](deletefolder-operation.md) response.<br/><br/>The following values are valid for this attribute:<br/><br/>- Success  <br/>- Warning  <br/>- Error  <br/> |
    
 #### ResponseClass attribute values
 

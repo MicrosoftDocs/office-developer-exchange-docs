@@ -7,7 +7,7 @@ ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 3365e58c-adb3-4d92-92cc-acc95ce36cca
 description: "The SetClientExtensionResponseMessage element specifies the response message for a SetClientExtension request."
 ---

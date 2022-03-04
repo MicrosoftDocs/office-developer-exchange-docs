@@ -7,7 +7,7 @@ ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: ef4b1aba-a55d-4d64-ac80-5d4e6c4e72bd
 description: "The GetClientExtensionResponse element contains the response to get configuration information about an app."
 ---

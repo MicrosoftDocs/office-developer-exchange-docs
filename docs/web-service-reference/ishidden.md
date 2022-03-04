@@ -7,7 +7,7 @@ ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 2377b584-bd1e-49fc-b80a-a6634721a297
 description: "The IsHidden element contains a Boolean value that indicates whether the underlying contact should be hidden or displayed as part of the persona."
 ---

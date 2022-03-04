@@ -7,7 +7,7 @@ ms.date: 03/9/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 22cb5a30-75d9-49a8-9d98-255f2e8a722d
 description: "The SendPrompt element specifies the type of action allowed for a voting option."
 ---

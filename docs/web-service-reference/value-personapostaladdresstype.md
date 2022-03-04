@@ -5,7 +5,7 @@ ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: be838fc2-cfcb-4856-b095-a8e5366bb6c6
 description: "The Value element specifies information associated with a postal address."
 ---

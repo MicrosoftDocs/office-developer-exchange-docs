@@ -7,7 +7,7 @@ ms.date: 03/9/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 351c8dfe-cf8c-45ba-a07d-d764f8189773
 description: "The VotingInformation element specifies voting information on a voting message and approval request message whereApproveandRejectare the voting options."
 ---

@@ -7,7 +7,7 @@ ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 6b860638-d655-4a49-91c4-60e59b596b48
 description: "The Items element specifies a list of items available for preview as the results of a SearchMailboxes operation."
 ---

@@ -5,7 +5,7 @@ ms.date: 03/9/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 052055b5-4630-40ed-9b24-9e7f4bf7ba1d
 description: "The EmailAddress (GetPersonaType) element specifies the email address associated with the persona."
 ---

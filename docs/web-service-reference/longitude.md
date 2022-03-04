@@ -7,7 +7,7 @@ ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 5c000b36-13b6-4ce2-a686-6e0bc207553d
 description: "The Longitude element specifies the longitude of the location of the associated postal address."
 ---

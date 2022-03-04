@@ -7,7 +7,7 @@ ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: a0eb444d-8e2e-478b-b785-2b9787ffb226
 description: "The HasEndTimeChanged element specifies whether the end time for a meeting has changed."
 ---

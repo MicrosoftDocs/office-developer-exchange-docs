@@ -3,7 +3,7 @@ title: "Work with conversations by using EWS in Exchange"
 manager: sethgros
 ms.date: 09/17/2015
 ms.audience: Developer
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 7750528c-acb2-43e5-a1e1-ee201c0e1730
 description: "Learn about how to find conversations, apply actions to conversations, and get items in conversations by using the EWS Managed API or EWS in Exchange."
 ---

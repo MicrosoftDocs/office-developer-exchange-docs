@@ -7,7 +7,7 @@ ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 8a67c1d8-d021-4e68-aa62-35f7d9c2edc7
 description: "Find information about the SearchMailboxes EWS operation."
 ---

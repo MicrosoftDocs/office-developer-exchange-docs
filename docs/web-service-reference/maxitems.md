@@ -7,7 +7,7 @@ ms.date: 03/9/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 4ddba6b8-0f38-42cd-96a1-0d4283f6375b
 description: "The MaxItems element specifies the maximum number of items to return in the request."
 ---

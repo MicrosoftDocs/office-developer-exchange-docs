@@ -7,7 +7,7 @@ ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: ddb62dce-c87a-4714-8023-a6b697a29699
 description: "The SearchDumpster element specifies whether to search in the Exchange Dumpster."
 ---

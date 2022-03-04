@@ -7,7 +7,7 @@ ms.date: 11/16/2014
 ms.audience: Developer
  
  
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: acec6e73-c016-419d-be1a-8ec5d993addb
 description: "Learn how to create a contact group by using the EWS Managed API or EWS in Exchange."
 ---

@@ -7,7 +7,7 @@ ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 api_name:
 - Transition
 api_type:
@@ -45,6 +45,7 @@ None.
 
 |**Element**|**Description**|
 |:-----|:-----|
+|[TransitionsGroup](transitionsgroup.md) <br/> |Represents a collection of time zone transitions.  <br/> |
 |[Transitions](transitions.md) <br/> |Represents a collection of time zone transitions.  <br/> |
    
 ## Remarks

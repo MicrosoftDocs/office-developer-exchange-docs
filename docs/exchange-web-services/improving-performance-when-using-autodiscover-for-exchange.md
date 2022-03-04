@@ -7,7 +7,7 @@ ms.date: 11/16/2014
 ms.audience: Developer
  
  
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: e65ff6b2-3810-43ad-9728-27308891b193
 description: "Learn about ways to improve the performance of the Autodiscover process in your application."
 ---

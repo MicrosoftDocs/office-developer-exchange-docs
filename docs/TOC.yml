@@ -3557,6 +3557,8 @@
                     href: web-service-reference/subscriptionid-getevents.md
                   - name: SubscriptionId (GetStreamingEvents)
                     href: web-service-reference/subscriptionid-getstreamingevents.md
+                  - name: SubscriptionIds
+                    href: web-service-reference/subscriptionids.md
                   - name: SubscriptionStatus
                     href: web-service-reference/subscriptionstatus.md
                   - name: Suffix

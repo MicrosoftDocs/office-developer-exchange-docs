@@ -3,7 +3,7 @@ title: "Manage persistent application settings by using EWS in Exchange"
 manager: sethgros
 ms.date: 09/17/2015
 ms.audience: Developer
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 90f561f2-e40e-4f5b-b321-f86dbf4a1b71
 description: "Learn how to create, find, get, update, and delete persistent application settings by using the EWS Managed API or EWS in Exchange."
 ---

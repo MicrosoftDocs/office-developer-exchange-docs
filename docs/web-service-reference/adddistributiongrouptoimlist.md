@@ -5,7 +5,7 @@ ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: adbffbfc-e436-4620-acfc-5dfd41a88cb8
 description: "The AddDistributionGroupToImList element defines a request to add a distribution list to an instant message list."
 ---

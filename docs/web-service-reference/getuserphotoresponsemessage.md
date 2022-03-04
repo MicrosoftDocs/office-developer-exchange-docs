@@ -7,7 +7,7 @@ ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 54d43fe6-9f7b-4f84-920a-bd686c65b059
 description: "The GetUserPhotoResponseMessage element contains the response to a GetUserPhoto request."
 ---

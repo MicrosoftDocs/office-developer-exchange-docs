@@ -7,7 +7,7 @@ ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: abce5b3e-971d-42fc-aeea-caa7202214de
 description: "The RetentionPolicyType element specifies the retention policy type applied to items in a conversation."
 ---

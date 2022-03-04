@@ -7,7 +7,7 @@ ms.date: 09/17/2015
 ms.audience: Developer
  
  
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 982ddb78-5606-44b0-8aba-dbffc60d6085
 description: "Find out how to get, create, update, and delete Inbox rules by using the EWS Managed API or EWS in Exchange."
 ---
@@ -187,13 +187,13 @@ private static void CreateInboxRule(ExchangeService service, string emailAddress
     {
         Console.WriteLine("Error getting inbox rules: {0}", ex.ErrorCode.ToString());
     }
-    if (currentRules != null &amp;&amp; currentRules.OutlookRuleBlobExists)
+    if (currentRules != null && currentRules.OutlookRuleBlobExists)
     {
         Console.WriteLine("WARNING: Adding a new rule will delete the Outlook rule BLOB.");
         Console.WriteLine("This can lead to a loss of any disabled rules.");
         Console.Write("Hit Y to proceed (any other key to cancel): ");
         ConsoleKeyInfo cki = Console.ReadKey();
-        if (cki.KeyChar != 'Y' &amp;&amp; cki.KeyChar != 'y')
+        if (cki.KeyChar != 'Y' && cki.KeyChar != 'y')
         {
             Console.WriteLine("\nCanceling addition of new rule...");
             return;
@@ -322,13 +322,13 @@ private static void UpdateInboxRule(ExchangeService service, string emailAddress
     {
         Console.WriteLine("Error getting inbox rules: {0}", ex.ErrorCode.ToString());
     }
-    if (currentRules != null &amp;&amp; currentRules.OutlookRuleBlobExists)
+    if (currentRules != null && currentRules.OutlookRuleBlobExists)
     {
         Console.WriteLine("WARNING: Updating an existing rule will delete the Outlook rule BLOB.");
         Console.WriteLine("This can lead to a loss of any disabled rules.");
         Console.Write("Hit Y to proceed (any other key to cancel): ");
         ConsoleKeyInfo cki = Console.ReadKey();
-        if (cki.KeyChar != 'Y' &amp;&amp; cki.KeyChar != 'y')
+        if (cki.KeyChar != 'Y' && cki.KeyChar != 'y')
         {
             Console.WriteLine("\nCanceling update of rule...");
             return;
@@ -459,13 +459,13 @@ private static void DeleteInboxRule(ExchangeService service, string emailAddress
     {
         Console.WriteLine("Error getting inbox rules: {0}", ex.ErrorCode.ToString());
     }
-    if (currentRules != null &amp;&amp; currentRules.OutlookRuleBlobExists)
+    if (currentRules != null && currentRules.OutlookRuleBlobExists)
     {
         Console.WriteLine("WARNING: Deleting a rule will delete the Outlook rule BLOB.");
         Console.WriteLine("This can lead to a loss of any disabled rules.");
         Console.Write("Hit Y to proceed (any other key to cancel): ");
         ConsoleKeyInfo cki = Console.ReadKey();
-        if (cki.KeyChar != 'Y' &amp;&amp; cki.KeyChar != 'y')
+        if (cki.KeyChar != 'Y' && cki.KeyChar != 'y')
         {
             Console.WriteLine("\nCancelling deletion of new rule...");
             return;

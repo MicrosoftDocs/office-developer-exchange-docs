@@ -7,7 +7,7 @@ ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: da064035-17e1-4945-8f40-1b241040ce01
 description: "The OtherAddresses element specifies an array of address values and the identifiers of their source attributions for the associated persona."
 ---

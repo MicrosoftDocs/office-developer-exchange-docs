@@ -7,7 +7,7 @@ ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 api_name:
 - GetStreamingEvents
 api_type:
@@ -37,7 +37,9 @@ The following example of a **GetStreamingEvents** operation shows how to request
   xmlns:m="https://schemas.microsoft.com/exchange/services/2006/messages">
   <soap:Body>
     <GetStreamingEvents xmlns="https://schemas.microsoft.com/exchange/services/2006/messages">
-      <SubscriptionId>f6bc657d-dde1-4f94-952d-143b95d6483d</SubscriptionId>
+      <SubscriptionIds>
+        <SubscriptionId>f6bc657d-dde1-4f94-952d-143b95d6483d</SubscriptionId>
+      </SubscriptionIds>
       <ConnectionTimeout>30</ConnectionTimeout>
     </GetStreamingEvents>
   </soap:Body>
@@ -50,7 +52,7 @@ The following elements are used in the request:
   
 - [GetStreamingEvents](getstreamingevents.md)
     
-- [SubscriptionId (GetStreamingEvents)](subscriptionid-getstreamingevents.md)
+- [SubscriptionIds](subscriptionids.md)
     
 - [ConnectionTimeout](connectiontimeout.md)
     

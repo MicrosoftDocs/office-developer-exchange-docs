@@ -138,7 +138,7 @@ static void PageSearchItems(ExchangeService service, WellKnownFolderName folder)
         {
             FindItemsResults<Item> results = service.FindItems(folder, view);
             moreItems = results.MoreAvailable;
-            if (moreItems &amp;&amp; anchorId != null)
+            if (moreItems && anchorId != null)
             {
                 // Check the first result to make sure it matches
                 // the last result (anchor) from the previous page.
@@ -151,12 +151,23 @@ static void PageSearchItems(ExchangeService service, WellKnownFolderName folder)
             }
             if (moreItems)
                 view.Offset += pageSize;
+                
             anchorId = results.Items.Last<Item>().Id;
+            
             // Because you're including an additional item on the end of your results
             // as an anchor, you don't want to display it.
             // Set the number to loop as the smaller value between
             // the number of items in the collection and the page size.
-            int displayCount = results.Items.Count > pageSize ? pageSize : results.Items.Count;
+            int displayCount = 0;
+            if ((results.MoreAvailable == false && results.Items.Count > pageSize) || (results.Items.Count < pageSize))
+            {
+                displayCount = results.Items.Count;
+            }
+            else
+            {
+                displayCount = pageSize;
+            }
+            
             for (int i = 0; i < displayCount; i++)
             {
                 Item item = results.Items[i];

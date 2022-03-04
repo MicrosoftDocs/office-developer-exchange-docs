@@ -7,7 +7,7 @@ ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: bfd516a4-15f5-4303-b695-820537636b11
 description: "The RequestedExtensionIds element contains an array of extension identifiers."
 ---

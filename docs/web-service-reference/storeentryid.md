@@ -7,7 +7,7 @@ ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: f536e264-8c4d-4cc5-bab8-22a4fa38de39
 description: "The StoreEntryId element contains the Exchange store identifier of an item."
 ---

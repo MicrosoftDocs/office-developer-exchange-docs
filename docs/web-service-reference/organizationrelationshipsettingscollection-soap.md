@@ -4,7 +4,7 @@ manager: sethgros
 ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 33456abf-a1b6-46da-a864-3ec8af2780de
 description: "The OrganizationRelationshipSettingsCollection element represents a list of organization relationships that match the query. The OrganizationRelationshipSettingsCollection element is for internal use only. This element is not used by clients."
  

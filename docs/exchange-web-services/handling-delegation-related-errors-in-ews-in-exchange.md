@@ -7,7 +7,7 @@ ms.date: 09/17/2015
 ms.audience: Developer
  
  
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 631d364f-e324-4838-a92c-820286f771f8
 description: "Find out how to handle delegation-related errors in applications that you develop by using the EWS Managed API or EWS in Exchange."
 ---

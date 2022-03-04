@@ -7,7 +7,7 @@ ms.date: 03/9/2015
 ms.audience: Developer
  
  
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: dd3d3221-c98e-4fa0-81f0-77f733d2f432
 description: "Learn how to import appointments, emails, contacts, tasks, and other items by using the EWS Managed API or EWS in Exchange."
 ---

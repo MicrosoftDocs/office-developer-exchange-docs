@@ -7,7 +7,7 @@ ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: af1dd9bf-df47-473d-a2ce-ab9a01a37606
 description: "The FindMailboxStatisticsByKeywordsResponse element specifies the response to a FindMailboxStatisticsByKeywords request."
 ---

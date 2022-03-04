@@ -7,7 +7,7 @@ ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 637560b5-2b08-4787-a5d8-e0467f83acca
 description: "The Generations element specifies an array of generation values and the identifiers of their source attributions for the associated persona."
 ---

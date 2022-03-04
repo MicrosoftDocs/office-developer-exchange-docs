@@ -5,7 +5,7 @@ ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: e0d14b7f-5bde-4c0b-b6f7-816d11081286
 description: "The Accuracy element specifies the accuracy of the latitude and longitude of the associated postal address."
 ---

@@ -7,7 +7,7 @@ ms.date: 09/17/2015
 ms.audience: Developer
  
  
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 8b206274-eaa4-40d3-b504-af27335c8f43
 description: "Find out how you can redistribute the EWS Managed API assemblies with your application."
 ---

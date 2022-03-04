@@ -5,7 +5,7 @@ ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 api_name:
 - CopiedEvent
 api_type:
@@ -35,7 +35,7 @@ The **CopiedEvent** element represents an event in which an item or folder is co
    <TimeStamp/>
    <ItemId/>
    <ParentFolderId/>
-   <OldFolderId/>
+   <OldItemId/>
    <OldParentFolderId/>
 </CopiedEvent>
 ```

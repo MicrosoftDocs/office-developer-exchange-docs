@@ -5,7 +5,7 @@ ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 api_name:
 - StandardTime
 api_type:
@@ -33,6 +33,7 @@ The **StandardTime** element represents an offset from the time relative to Coor
 ```
 
  **SerializableTimeZoneTime**
+
 ## Attributes and elements
 
 The following sections describe attributes, child elements, and parent elements.
@@ -45,22 +46,22 @@ None.
 
 |**Element**|**Description**|
 |:-----|:-----|
-|[Bias](bias.md) <br/> |Represents the offset from the UTC offset that is identified by the [Bias (UTC)](bias-utc.md) element for standard time and daylight saving time. This value is in minutes.  <br/> |
-|[Time](time.md) <br/> |Represents the transition time of day to and from standard time and daylight saving time.  <br/> |
-|[DayOrder](dayorder.md) <br/> |Represents the  _n_th occurrence of the day that is specified in the [DayOfWeek (TimeZone)](dayofweek-timezone.md) element that represents the date of transition from and to standard time and daylight saving time.  <br/> |
-|[Month](month.md) <br/> |Represents the transition month of the year to and from standard time and daylight saving time.  <br/> |
-|[DayOfWeek (TimeZone)](dayofweek-timezone.md) <br/> |Represents the day of the week when the transition to and from standard time and daylight saving time occurs.  <br/> |
-|[Year](year.md) <br/> |Defines a time zone that changes depending on the year. This element is optional. This element was introduced in Microsoft Exchange Server 2007 Service Pack 1 (SP1).  <br/> |
-   
+|[Bias](bias.md) |Represents the offset from the UTC offset that is identified by the [Bias (UTC)](bias-utc.md) element for standard time and daylight saving time. This value is in minutes. |
+|[Time](time.md) |Represents the transition time of day to and from standard time and daylight saving time. |
+|[DayOrder](dayorder.md) |Represents the _n_th occurrence of the day that is specified in the [DayOfWeek (TimeZone)](dayofweek-timezone.md) element that represents the date of transition from and to standard time and daylight saving time. |
+|[Month](month.md) |Represents the transition month of the year to and from standard time and daylight saving time. |
+|[DayOfWeek (TimeZone)](dayofweek-timezone.md) |Represents the day of the week when the transition to and from standard time and daylight saving time occurs. |
+|[Year](year.md) |Defines a time zone that changes depending on the year. This element is optional. This element was introduced in Microsoft Exchange Server 2007 Service Pack 1 (SP1). |
+
 ### Parent elements
 
 |**Element**|**Description**|
 |:-----|:-----|
-|[TimeZone (Availability)](timezone-availability.md) <br/> | Contains elements that identify time zone information. This element also contains information about the transition between standard time and daylight saving time. <br/><br/>The following are the XPath expressions to this element: <br/> <br/>  `/GetUserAvailabilityResponse/FreeBusyResponseArray/FreeBusyResponse/FreeBusyView/WorkingHours/TimeZone` <br/> <br/> `/GetUserAvailabilityRequest/TimeZone` <br/> |
-   
+|[TimeZone (Availability)](timezone-availability.md) | Contains elements that identify time zone information. This element also contains information about the transition between standard time and daylight saving time. The following are the XPath expressions to this element:  `/GetUserAvailabilityResponse/FreeBusyResponseArray/FreeBusyResponse/FreeBusyView/WorkingHours/TimeZone` `/GetUserAvailabilityRequest/TimeZone` |
+
 ## Remarks
 
-The **StandardTime** element represents an offset time that is represented by the [Bias (UTC)](bias-utc.md) element. When the child [Bias](bias.md) element equals 0, the standard time is equal to the bias offset from UTC that is represented by the [Bias (UTC)](bias-utc.md) element. 
+The **StandardTime** element represents an offset time that is represented by the [Bias (UTC)](bias-utc.md) element. When the child [Bias](bias.md) element equals 0, the standard time is equal to the bias offset from UTC that is represented by the [Bias (UTC)](bias-utc.md) element.
   
 ## Example
 
@@ -90,13 +91,12 @@ The following example shows a region where daylight saving time is observed. The
 
 |||
 |:-----|:-----|
-|Namespace  <br/> |https://schemas.microsoft.com/exchange/services/2006/types  <br/> |
-|Schema Name  <br/> |Types schema  <br/> |
-|Validation File  <br/> |Types.xsd  <br/> |
-|Can be Empty  <br/> |False  <br/> |
-   
+|Namespace |https://schemas.microsoft.com/exchange/services/2006/types |
+|Schema Name |Types schema |
+|Validation File |Types.xsd |
+|Can be Empty |False |
+
 ## See also
 
 - [GetUserAvailability operation](getuseravailability-operation.md)
 - [Getting User Availability](https://msdn.microsoft.com/library/d4133fcb-9b0f-4e6b-aadf-a389da83516a%28Office.15%29.aspx)
-

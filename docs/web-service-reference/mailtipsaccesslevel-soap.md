@@ -4,7 +4,7 @@ manager: sethgros
 ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 730e349e-8250-4236-af53-cd9039c74d8f
 description: "The MailTipsAccessLevel element represents the MailTipsAccessLevel property. The MailTipsAccessLevel element is for internal use only. This element is not used by clients."
  

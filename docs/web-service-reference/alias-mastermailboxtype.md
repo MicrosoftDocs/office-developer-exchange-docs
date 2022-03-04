@@ -5,7 +5,7 @@ ms.date: 11/16/2014
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: db21bc31-0e83-46ea-8570-1865e90ebde7
 description: "The Alias (MasterMailboxType) element is intended for internal use only."
 ---

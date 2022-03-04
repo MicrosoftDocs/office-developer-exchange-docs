@@ -7,7 +7,7 @@ ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: d2932d04-4427-4fc7-97a1-1c57cf736072
 description: "The OtherPhones2 element specifies an array of phone values and the identifiers of their source attributions for the associated persona."
 ---

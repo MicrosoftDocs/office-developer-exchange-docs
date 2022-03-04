@@ -7,7 +7,7 @@ ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 1601ad86-d391-449f-889b-50ecbd310dd5
 description: "The GetClientIntent element is intended for internal use only."
 ---

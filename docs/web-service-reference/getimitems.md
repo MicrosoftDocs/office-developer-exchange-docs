@@ -7,7 +7,7 @@ ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 455e5709-6c06-49fd-bfb2-403fc912287c
 description: "The GetImItems request element defines a request to get information about the specified instant messaging groups and instant messaging contact personas."
 ---

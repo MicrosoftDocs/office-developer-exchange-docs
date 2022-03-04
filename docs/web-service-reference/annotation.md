@@ -5,7 +5,7 @@ ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: e0392635-9d0f-46d5-84ef-0a8a3036479a
 description: "The Annotation element contains optional notes added by a user."
 ---

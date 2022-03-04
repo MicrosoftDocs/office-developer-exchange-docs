@@ -5,7 +5,7 @@ ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: fcbc9f67-a211-4a6a-b816-0a9b0a81a283
 description: "The StartFindInGALSpeechRecognition element is intended for internal use only."
 ---

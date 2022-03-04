@@ -7,7 +7,7 @@ ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: cc02bd86-c618-446a-92f0-749423cbc4ee
 description: "The Emails1 element specifies an array of EmailAddressAttributedValue values and the identifiers of their source attributions for the associated persona."
 ---

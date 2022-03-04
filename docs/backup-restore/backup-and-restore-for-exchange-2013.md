@@ -5,7 +5,7 @@ ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: overview
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 329902d9-0ecb-4cfb-86dd-5ce863deff3f
 description: "Find information about creating backup and restore applications for Exchange 2013."
 ---

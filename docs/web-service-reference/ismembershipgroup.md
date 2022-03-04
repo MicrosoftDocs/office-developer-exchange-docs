@@ -7,7 +7,7 @@ ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 0dc3e285-8f49-48ad-b844-37041c0d782b
 description: "The IsMembershipGroup element specifies a Boolean value that indicates whether the entity is a distribution group or a mailbox."
 ---

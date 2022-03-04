@@ -7,7 +7,7 @@ ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 919509f6-ee58-4eac-a689-c167a36349cc
 description: "The StringArrayAttributedValue element specifies an instance of an array of string data for a persona element."
 ---

@@ -7,7 +7,7 @@ ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: a5c3eac6-b4e4-4155-8555-3b5df3f4da17
 description: "The ReminderNextTime element specifies the date and time for the next reminder."
 ---

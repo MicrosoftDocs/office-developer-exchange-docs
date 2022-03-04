@@ -4,7 +4,7 @@ manager: sethgros
 ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 9b9ae15b-3ac1-45ac-85ba-38c7231fe508
 description: "The EcpUrl-tmHiding element specifies a partial URL that can be combined with the EcpUrl (POX) element's value to generate a URL that can be used to unsubscribe the user from a site mailbox."
  

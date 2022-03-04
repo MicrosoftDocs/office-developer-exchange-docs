@@ -5,7 +5,7 @@ ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 api_name:
 - ResolveNamesResponseMessage
 api_type:
@@ -41,15 +41,15 @@ The following sections describe attributes, child elements, and parent elements.
 
 |**Attribute**|**Description**|
 |:-----|:-----|
-|**ResponseClass** <br/> | Describes the status of a [ResolveNames operation](resolvenames-operation.md) response. <br/><br/>The following values are valid for this attribute:  <br/><br/>-  Success  <br/>-  Warning  <br/>-  Error  <br/> |
+|**ResponseClass** <br/> | Describes the status of a [ResolveNames operation](resolvenames-operation.md) response. <br/><br/>The following values are valid for this attribute:  <br/><br/>- Success  <br/>- Warning  <br/>- Error  <br/> |
    
 #### ResponseClass Attribute
 
 |**Value**|**Description**|
 |:-----|:-----|
 |**Success** <br/> |Describes a request that is fulfilled. This occurs when the requested name is unambiguous and the response contains a single recipient.  <br/> |
-|**Warning** <br/> | Describes a request that was not processed. A warning may be returned if an error occurred while an item in the request was processing and subsequent items could not be processed. <br/><br/>The following are example of sources of warnings:  <br/><br/>-  The Exchange store goes offline during the batch.  <br/>-  Active Directory Domain Services (AD DS) goes offline.  <br/>-  Mailboxes are moved.  <br/>-  The mailbox database (MDB) goes offline.  <br/>-  A password is expired.  <br/>-  A quota is exceeded.  <br/>-  The requested name is ambiguous and the response contains multiple recipients.  <br/> |
-|**Error** <br/> | Describes a request that cannot be fulfilled. <br/><br/>The following are examples of sources of errors:  <br/><br/>-  The requested name could not be resolved.  <br/>-  Attributes or elements are invalid.  <br/>-  Attributes or elements are out of range.  <br/>-  A tag is unknown.  <br/>-  An attribute or element is not valid in the context.  <br/>-  An unauthorized access attempt by any client occurred.  <br/>-  A server-side failure occurred in response to a valid client-side call.  <br/>  <br/>Information about the error can be found in the [ResponseCode](responsecode.md) and [MessageText](messagetext.md) elements.  <br/> |
+|**Warning** <br/> | Describes a request that was not processed. A warning may be returned if an error occurred while an item in the request was processing and subsequent items could not be processed. <br/><br/>The following are example of sources of warnings:  <br/><br/>- The Exchange store goes offline during the batch.  <br/>- Active Directory Domain Services (AD DS) goes offline.  <br/>- Mailboxes are moved.  <br/>- The mailbox database (MDB) goes offline.  <br/>- A password is expired.  <br/>- A quota is exceeded.  <br/>- The requested name is ambiguous and the response contains multiple recipients.  <br/> |
+|**Error** <br/> | Describes a request that cannot be fulfilled. <br/><br/>The following are examples of sources of errors:  <br/><br/>- The requested name could not be resolved.  <br/>- Attributes or elements are invalid.  <br/>- Attributes or elements are out of range.  <br/>- A tag is unknown.  <br/>- An attribute or element is not valid in the context.  <br/>- An unauthorized access attempt by any client occurred.  <br/>- A server-side failure occurred in response to a valid client-side call.  <br/>  <br/>Information about the error can be found in the [ResponseCode](responsecode.md) and [MessageText](messagetext.md) elements.  <br/> |
    
 ### Child elements
 

@@ -7,7 +7,7 @@ ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: a190bbec-c71b-4e6a-880b-55854c724d8c
 description: "Find information about the RemoveImContactFromGroup EWS operation."
 ---

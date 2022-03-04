@@ -5,7 +5,7 @@ ms.date: 03/9/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 12e055c3-e7a4-4dbc-8385-bbf69571a0ce
 description: "The ApprovalDecisionMaker element specifies the display name of the person who made the approval decision."
 ---

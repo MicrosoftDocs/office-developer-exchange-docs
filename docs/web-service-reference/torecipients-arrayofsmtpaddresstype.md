@@ -7,7 +7,7 @@ ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 0e6fb89c-de19-48e7-af63-c41ebdf0b8e9
 description: "The ToRecipients element specifies a list of recipients to whom the item was sent."
 ---

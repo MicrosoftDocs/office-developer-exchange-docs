@@ -5,7 +5,7 @@ ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: a38acc3d-29a8-4466-81a4-73cb30fe5e80
 description: "The Deduplication element indicates whether the search result should remove duplicate items."
 ---

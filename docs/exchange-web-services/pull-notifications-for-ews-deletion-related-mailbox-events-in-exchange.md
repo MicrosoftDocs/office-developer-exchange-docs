@@ -7,7 +7,7 @@ ms.date: 09/17/2015
 ms.audience: Developer
  
  
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 83511eea-e0b5-4ef0-83b1-0c5434e6d3ab
 description: "Discover which mailbox events are raised when you delete items by using EWS in Exchange."
 ---

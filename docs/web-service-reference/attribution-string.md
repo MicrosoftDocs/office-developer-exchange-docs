@@ -5,7 +5,7 @@ ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 736be0bc-12c4-410e-bd17-a89f996ac432
 description: "The Attribution element specifies a string used to identify an attribute of a persona."
 ---

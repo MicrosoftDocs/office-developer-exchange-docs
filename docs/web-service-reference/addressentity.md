@@ -5,7 +5,7 @@ ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: ead22eab-f1e7-48b4-a165-db0e49fe86a8
 description: "The AddressEntity element specifies a single address entity."
 ---

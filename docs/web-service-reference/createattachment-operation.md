@@ -1,13 +1,11 @@
 ---
-title: "CreateAttachment operation"
- 
- 
+title: "CreateAttachment operation" 
 manager: sethgros
 ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 api_name:
 - CreateAttachment
 api_type:
@@ -22,12 +20,8 @@ The CreateAttachment operation creates either an item or file attachment and att
   
 ## File CreateAttachment request example
 
-### Description
-
 The following example of a CreateAttachment request shows how to create a file attachment.
   
-### Code
-
 ```XML
 <?xml version="1.0" encoding="utf-8"?>
 <soap:Envelope xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
@@ -49,37 +43,26 @@ The following example of a CreateAttachment request shows how to create a file a
 </soap:Envelope>
 ```
 
-### Comment
-
 A name for the attachment must be provided.
   
 > [!NOTE]
-> The parent item identifier and change key have been shortened to preserve readability. 
+> The parent item identifier and change key have been shortened to preserve readability.
   
-### Request elements
+### File CreateAttachment request elements
 
 The following elements are used in the request:
   
 - [CreateAttachment](createattachment.md)
-    
 - [ParentItemId](parentitemid.md)
-    
 - [Attachments](attachments-ex15websvcsotherref.md)
-    
 - [FileAttachment](fileattachment.md)
-    
 - [Name (AttachmentType)](name-attachmenttype.md)
-    
 - [Content](content.md)
-    
-## Successful File CreateAttachment response example
 
-### Description
+## Successful file CreateAttachment response example
 
 The following example shows a successful response to the CreateAttachment request.
   
-### Code
-
 ```XML
 <?xml version="1.0" encoding="utf-8"?>
 <soap:Envelope xmlns:soap="http://schemas.xmlsoap.org/soap/envelope/" 
@@ -108,38 +91,25 @@ The following example shows a successful response to the CreateAttachment reques
 </soap:Envelope>
 ```
 
-### Comment
-
 The response contains the identifier of the attached file. It also contains the identifier and change key of the root item. The item identifiers and change key have been shortened to preserve readability.
   
-### Successful response elements
+### Successful file CreateAttachment response elements
 
 The following elements are used in the response:
   
 - [ServerVersionInfo](serverversioninfo.md)
-    
 - [CreateAttachmentResponse](createattachmentresponse.md)
-    
 - [ResponseMessages](responsemessages.md)
-    
 - [CreateAttachmentResponseMessage](createattachmentresponsemessage.md)
-    
 - [ResponseCode](responsecode.md)
-    
 - [Attachments](attachments-ex15websvcsotherref.md)
-    
 - [FileAttachment](fileattachment.md)
-    
 - [AttachmentId](attachmentid.md)
-    
-## Item CreateAttachment request example
 
-### Description
+## Item CreateAttachment request example
 
 The following example of a CreateAttachment request shows how to create an item attachment.
   
-### Code
-
 ```XML
 <?xml version="1.0" encoding="utf-8"?>
 <soap:Envelope xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
@@ -163,38 +133,24 @@ The following example of a CreateAttachment request shows how to create an item 
 </soap:Envelope>
 ```
 
-### Comment
-
-A name for the attachment must be provided.
+A name for the attachment must be provided. The parent item identifier and change key have been shortened to preserve readability.
   
- **Note** The parent item identifier and change key have been shortened to preserve readability. 
-  
-### Request elements
+### Item CreateAttachement request elements
 
 The following elements are used in the request:
   
 - [CreateAttachment](createattachment.md)
-    
 - [ParentItemId](parentitemid.md)
-    
 - [Attachments](attachments-ex15websvcsotherref.md)
-    
 - [ItemAttachment](itemattachment.md)
-    
 - [Name (AttachmentType)](name-attachmenttype.md)
-    
 - [Message](message-ex15websvcsotherref.md)
-    
 - [Subject](subject.md)
-    
-## Successful Item CreateAttachment response example
 
-### Description
+## Successful item CreateAttachment response example
 
 The following example shows a successful response to the CreateAttachment request.
   
-### Code
-
 ```XML
 <?xml version="1.0" encoding="utf-8"?>
 <soap:Envelope xmlns:soap="http://schemas.xmlsoap.org/soap/envelope/" 
@@ -223,38 +179,25 @@ The following example shows a successful response to the CreateAttachment reques
 </soap:Envelope>
 ```
 
-### Comment
-
 The response contains the identifier of the new attachment. It also contains the identifier and change key of the root item. The root item is the item that contains the attachment. The item identifiers and change key have been shortened to preserve readability.
   
-### Successful response elements
+### Successful item CreateAttachment response elements
 
 The following elements are used in the response:
   
 - [ServerVersionInfo](serverversioninfo.md)
-    
 - [CreateAttachmentResponse](createattachmentresponse.md)
-    
 - [ResponseMessages](responsemessages.md)
-    
 - [CreateAttachmentResponseMessage](createattachmentresponsemessage.md)
-    
 - [ResponseCode](responsecode.md)
-    
 - [Attachments](attachments-ex15websvcsotherref.md)
-    
 - [ItemAttachment](itemattachment.md)
-    
 - [AttachmentId](attachmentid.md)
-    
-## CreateAttachment Error response example
 
-### Description
+## CreateAttachment error response example
 
 The following example shows an error response to the CreateAttachment request. The error is due to the fact that the name of the attachment was not specified.
   
-### Code
-
 ```XML
 <?xml version="1.0" encoding="utf-8"?>
 <soap:Envelope xmlns:soap="http://schemas.xmlsoap.org/soap/envelope/" 
@@ -284,39 +227,26 @@ The following example shows an error response to the CreateAttachment request. T
 </soap:Envelope>
 ```
 
-### Error response elements
+### CreateAttachment error response elements
 
 The following elements are used in the error response:
   
 - [ServerVersionInfo](serverversioninfo.md)
-    
 - [CreateAttachmentResponse](createattachmentresponse.md)
-    
 - [ResponseMessages](responsemessages.md)
-    
 - [CreateAttachmentResponseMessage](createattachmentresponsemessage.md)
-    
 - [MessageText](messagetext.md)
-    
 - [ResponseCode](responsecode.md)
-    
 - [DescriptiveLinkKey](descriptivelinkkey.md)
-    
 - [MessageXml](messagexml.md)
-    
 - [ExceptionFieldURI](exceptionfielduri.md)
-    
 - [Attachments](attachments-ex15websvcsotherref.md)
-    
+
 ## Remarks
 
 If multiple attachments are attached to an item in a single round trip, the RootItemChangeKey in the last response message is the one that represents the new change key of the item that has the attachments.
   
 ## See also
 
-
-
 [DeleteAttachment operation](deleteattachment-operation.md)
-  
 [GetAttachment operation](getattachment-operation.md)
-

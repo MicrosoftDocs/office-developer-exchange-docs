@@ -5,7 +5,7 @@ ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 53d86631-58b0-4cfd-8209-0ce65e259f16
 description: "The Value element specifies the value of a BodyContentAttributedValue element."
 ---

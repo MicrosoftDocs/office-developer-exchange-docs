@@ -3,7 +3,7 @@ title: "Managing user access by using EWS in Exchange"
 manager: sethgros
 ms.date: 09/17/2015
 ms.audience: Developer
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 48f0170c-8786-405f-86cb-568b7314a425
 description: "Find out what your options are for managing user account access to your Exchange server."
 ---

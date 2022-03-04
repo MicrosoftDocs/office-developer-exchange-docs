@@ -5,7 +5,7 @@ ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: f50449b9-e73b-43c5-af96-6433bf434dce
 description: "The ActionType element indicates the type of action for the hold."
 ---

@@ -4,7 +4,7 @@ manager: sethgros
 ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 2d7be675-626c-4173-89e9-e32beef81ad5
 description: "The TokenIssuer element specifies the Uri (SOAP) and Endpoint (SOAP) for the security token service."
  

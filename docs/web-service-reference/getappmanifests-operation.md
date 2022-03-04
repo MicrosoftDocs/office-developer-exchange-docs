@@ -7,7 +7,7 @@ ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 21a4987c-c24d-4a6e-ace4-e81edcda6303
 description: "Find information about the GetAppManifests EWS operation."
 ---

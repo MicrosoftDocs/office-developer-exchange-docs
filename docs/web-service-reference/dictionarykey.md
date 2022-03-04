@@ -5,7 +5,7 @@ ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 api_name:
 - DictionaryKey
 api_type:
@@ -38,7 +38,7 @@ None.
 
 |**Element**|**Description**|
 |:-----|:-----|
-|[Type (UserConfiguration)](type-userconfiguration.md) <br/> | Specifies a dictionary object type.<br/><br/>The type can be one of the following string values:<br/><br/>-  DateTime  <br/>-  Boolean  <br/>-  Byte  <br/>-  String  <br/>-  Integer32  <br/>-  UnsignedInteger32  <br/>-  Integer64  <br/>-  UnsignedInteger64  <br/>-  StringArray  <br/>-  ByteArray  <br/> |
+|[Type (UserConfiguration)](type-userconfiguration.md) <br/> | Specifies a dictionary object type.<br/><br/>The type can be one of the following string values:<br/><br/>- DateTime  <br/>- Boolean  <br/>- Byte  <br/>- String  <br/>- Integer32  <br/>- UnsignedInteger32  <br/>- Integer64  <br/>- UnsignedInteger64  <br/>- StringArray  <br/>- ByteArray  <br/> |
 |[Value (UserConfiguration)](value-userconfiguration.md) <br/> |Specifies the dictionary object value as a string.  <br/> |
    
 ### Parent elements

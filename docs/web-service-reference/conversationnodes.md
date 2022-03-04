@@ -7,7 +7,7 @@ ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 5c8a35b8-a940-4b3e-8768-9ba95766fd79
 description: "The ConversationNodes element specifies a collection of conversation nodes."
 ---

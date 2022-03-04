@@ -5,7 +5,7 @@ ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: d392e138-a514-4bce-81b1-1f484e353d1c
 description: "The DisplayNameLastFirst element specifies the display name of the associated persona in the format,Last Name,First Name."
 ---

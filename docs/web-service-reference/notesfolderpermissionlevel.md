@@ -7,7 +7,7 @@ ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 api_name:
 - NotesFolderPermissionLevel
 api_type:
@@ -27,6 +27,7 @@ The **NotesFolderPermissionLevel** element contains the permissions for the defa
 ```
 
  **DelegateFolderPermissionLevelType**
+ 
 ## Attributes and elements
 
 The following sections describe attributes, child elements, and parent elements.
@@ -43,7 +44,7 @@ None.
 
 |**Element**|**Description**|
 |:-----|:-----|
-|[DelegatePermissions](delegatepermissions.md) <br/> |Contains the delegate permission level settings for a user. This element was introduced in Exchange 2007 SP1.  <br/> |
+|[DelegatePermissions](delegatepermissions.md)|Contains the delegate permission level settings for a user. This element was introduced in Exchange 2007 SP1. |
    
 ## Text value
 
@@ -53,11 +54,11 @@ The following table lists the text values that represent the permission levels.
 
 |**Permission level**|**Description**|
 |:-----|:-----|
-|None  <br/> |The delegate user has no access permissions to the Notes folder.  <br/> |
-|Reviewer  <br/> |The delegate user can read items in the Notes folder.  <br/> |
-|Author  <br/> |The delegate user can read and create items in the Notes folder.  <br/> |
-|Editor  <br/> |The delegate user can read, create, and modify items in the Notes folder.  <br/> |
-|Custom  <br/> |The delegate user has custom access permissions to the Notes folder.  <br/> |
+|None |The delegate user has no access permissions to the Notes folder. |
+|Reviewer |The delegate user can read items in the Notes folder. |
+|Author |The delegate user can read and create items in the Notes folder. |
+|Editor |The delegate user can read, create, and modify items in the Notes folder. |
+|Custom |The delegate user has custom access permissions to the Notes folder. |
    
 ## Remarks
 
@@ -67,10 +68,10 @@ The schema that describes this element is located in the EWS virtual directory o
 
 |||
 |:-----|:-----|
-|Namespace  <br/> |https://schemas.microsoft.com/exchange/services/2006/types  <br/> |
-|Schema Name  <br/> |Types schema  <br/> |
-|Validation File  <br/> |Types.xsd  <br/> |
-|Can be Empty  <br/> |False  <br/> |
+|Namespace |https://schemas.microsoft.com/exchange/services/2006/types |
+|Schema Name |Types schema |
+|Validation File |Types.xsd |
+|Can be Empty |False |
    
 ## See also
 

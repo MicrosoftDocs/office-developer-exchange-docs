@@ -5,7 +5,7 @@ ms.date: 11/16/2014
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 287d7fcb-b871-454c-a436-c8e3c95f413a
 description: "The UpdateMailboxAssociation element is intended for internal use only."
 ---

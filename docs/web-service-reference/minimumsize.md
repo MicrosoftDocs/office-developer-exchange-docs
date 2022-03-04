@@ -7,7 +7,7 @@ ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 841d229c-140c-48bd-b3a7-21478fcea2fb
 description: "The MinimumSize element represents the minimum size that a message must be in order for the condition or exception to apply."
 ---

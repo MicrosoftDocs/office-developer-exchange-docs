@@ -3,7 +3,7 @@ title: "Comparing Exchange Online and Exchange on-premises client programming"
 manager: sethgros
 ms.date: 09/17/2015
 ms.audience: Developer
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 3c2eabe4-52bc-461e-a6dd-f65f22f16e50
 description: "Learn about the design considerations for creating an EWS Managed API or EWS client application that works against Exchange Online and Exchange on-premises."
 ---
@@ -100,19 +100,6 @@ The following EWS Managed API functionality is only applicable to Exchange Onlin
 <a name="exo"> </a>
 
 Different feature sets might be available in different Office 365 and Exchange Online plans, or in the standard and enterprise versions of Exchange Server. Be aware that some API functionality might not be available to your client application depending on the Exchange Online plan or Exchange Server edition that hosts a user's mailbox. 
-  
-**Table 3. API feature variations across plans and editions**
-
-|**API feature**|**Plan or edition considerations**|
-|:-----|:-----|
-
-|EWS access to accounts, except via Exchange impersonation  <br/> |Not allowed in the [Office 365 for business—Kiosk plans](https://office.microsoft.com/business/compare-office-365-kiosk-plans-FX103178917.aspx).  <br/> |
-
-
-|Unified Messaging (UM)  <br/> |Only available with Office 365 Enterprise (E3) plan, Exchange Online Plan 2, and the Exchange Server 2013 Enterprise editions.  <br/> |
-|Active Directory Domain Services (AD DS) integration  <br/> |Not available with the Office 365 Small Business and Office 365 Small Business Premium plan.  <br/> |
-|Information Rights Management, archiving, and legal holds  <br/> |Only available with the Office 365 Enterprise (E3 and E4) plans.  <br/> |
-|Data Loss Protection  <br/> |Only available with the Office 365 Enterprise plans, Exchange Online Plan 2, and Exchange Server 2013 Enterprise editions.  <br/> |
    
 Because feature availability can change, we recommend that you check the Exchange Online plans and Exchange Server editions to evaluate how feature availability might affect your client. You can also design your client to check feature availability by using the [GetServiceConfiguration operation](how-to-get-service-configuration-information-by-using-ews-in-exchange.md) or by sending test requests for the operations that implement the features. If the feature isn't available, the response from the server will indicate as such. 
   

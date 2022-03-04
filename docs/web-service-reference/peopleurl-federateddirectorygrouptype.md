@@ -5,7 +5,7 @@ ms.date: 11/16/2014
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: d0b9db28-f9f5-4793-be5c-edd5e4afb0bb
 description: "The PeopleUrl (FederatedDirectoryGroupType) element is intended for internal use only."
 ---

@@ -1,11 +1,11 @@
 ---
 title: "Reading and modifying messages in the Exchange 2013 transport pipeline"
 manager: sethgros
-ms.date: 09/17/2015
+ms.date: 09/17/2021
 ms.audience: Developer
 ms.topic: overview
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: b53ed47a-3d01-4c4e-ad32-fb0532872aad
 description: "Learn about the .NET Framework classes you can use in your Exchange 2013 transport agents to read, write, and modify messages."
 ---
@@ -126,7 +126,7 @@ To use these diagrams, follow the arrows from one state to the next, noting the 
   
 **Figure 4. Expansion of Header state from Figure 3 when a parameter has been encountered in a header**
 
-![Expansion of 'Part Headers' state](media/MimeReader_StateDiagram_03.gif)
+![Expansion of 'Part Headers' state when a parameter has been encountered in a header](media/MimeReader_StateDiagram_03.gif)
   
 > [!NOTE]
 > The state represented by Figure 5 is recursive in that, if an address group is encountered, you can use the [GroupRecipientReader](https://msdn.microsoft.com/library/Microsoft.Exchange.Data.Mime.MimeAddressReader.GroupRecipientReader.aspx) property to read the addresses in the group. 

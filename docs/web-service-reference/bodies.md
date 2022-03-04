@@ -7,7 +7,7 @@ ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: a71a75f0-0b77-4cb9-8f9d-319de72fc1fd
 description: "The Bodies element specifies an array of BodyContentAttributedValue elements."
 ---

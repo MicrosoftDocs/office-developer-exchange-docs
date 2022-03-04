@@ -4,7 +4,7 @@ manager: sethgros
 ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
-localization_priority: Normal
+ms.localizationpriority: medium
 api_type:
 - schema
 ms.assetid: 758d965c-ef63-4de4-9120-e293abf14ff8
@@ -124,7 +124,7 @@ The following example shows a successful **GetUserSettings** response.
               </UserSetting>
               <UserSetting i:type="StringSetting">
                 <Name>EwsSupportedSchemas</Name>
-                <Value>Exchange2007,  Exchange2010</Value>
+                <Value>Exchange2007, Exchange2010</Value>
               </UserSetting>
               <UserSetting i:type="StringSetting">
                 <Name>InternalMailboxServer</Name>

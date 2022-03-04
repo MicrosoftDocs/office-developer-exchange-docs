@@ -7,7 +7,7 @@ ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 5fd465b4-6070-4cd0-9ac3-ed9d2bfd5951
 description: "The HasLocationChanged element specifies whether the location property of a meeting has changed."
 ---

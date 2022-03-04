@@ -7,7 +7,7 @@ ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 410efc09-5c38-46fb-85b5-eb365be0ba35
 description: "The HomeCity element specifies the city of the home address of the associated persona."
 ---

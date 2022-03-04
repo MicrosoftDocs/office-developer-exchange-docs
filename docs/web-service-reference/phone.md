@@ -7,7 +7,7 @@ ms.date: 09/17/2015
 ms.audience: ITPro
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 9381d8e0-b705-49fd-a822-00fb485bdbab
 description: "The Phone element specifies a single phone number that results from a contact entity extraction."
 ---

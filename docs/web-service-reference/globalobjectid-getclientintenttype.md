@@ -5,7 +5,7 @@ ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 7244dda1-cb35-4513-a64f-301e7645e790
 description: "The GlobalObjectId element is intended for internal use only."
 ---

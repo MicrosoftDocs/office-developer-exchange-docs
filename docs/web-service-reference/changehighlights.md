@@ -7,7 +7,7 @@ ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: f9bd7323-44db-4d2f-aaaa-94c2dfdeead6
 description: "The ChangeHighlights element specifies what has changed between two versions of a meeting request message."
 ---

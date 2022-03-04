@@ -7,7 +7,7 @@ ms.date: 03/9/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: c1cc609b-65ff-4998-8d2b-545f0fdcb54c
 description: "The Metadata element contains metadata about the mail app."
 ---

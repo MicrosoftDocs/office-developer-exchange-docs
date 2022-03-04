@@ -5,7 +5,7 @@ ms.date: 4/18/2016
 ms.audience: ITPro
 ms.topic: article
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 00e40197-5794-4268-b937-bd65aa044890
 description: "The AddEntityFeedback operation returns error information corresponding to server-side issues."
 ---

@@ -7,7 +7,7 @@ ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 4b806441-0429-44c4-90b7-1ae5c6ab9128
 description: "The SetImListMigrationCompleted element represents a request to indicate whether the Exchange store contains the instant messaging items used by instant messaging clients."
 ---

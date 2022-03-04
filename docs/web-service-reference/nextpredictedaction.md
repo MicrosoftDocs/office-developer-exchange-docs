@@ -5,7 +5,7 @@ ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 767bc328-b527-4e9a-85c6-f11897e43960
 description: "The NextPredictedAction element is intended for internal use only."
 ---

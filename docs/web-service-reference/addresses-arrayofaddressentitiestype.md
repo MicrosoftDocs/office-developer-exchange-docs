@@ -5,7 +5,7 @@ ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 0c1f3fd3-1b78-46ee-8dd4-b2aff51e767e
 description: "The Addresses element specifies an array of AddressEntity elements."
 ---

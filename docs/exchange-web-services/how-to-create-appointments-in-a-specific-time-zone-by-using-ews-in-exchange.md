@@ -7,7 +7,7 @@ ms.date: 11/16/2014
 ms.audience: Developer
  
  
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: e68aaa27-250e-4170-b099-077a979c127c
 description: "Learn how to create appointments in specific time zones by using the EWS Managed API or EWS in Exchange."
 ---

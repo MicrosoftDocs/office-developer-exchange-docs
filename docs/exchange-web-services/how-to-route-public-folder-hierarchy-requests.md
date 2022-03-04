@@ -3,7 +3,7 @@ title: "Route public folder hierarchy requests"
 manager: sethgros
 ms.date: 03/9/2015
 ms.audience: Developer
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: ec35df8e-4d75-4aa1-8b9c-ae1db7e05772
 description: "All requests for public folder information that require knowledge of the public folder hierarchy, such as moving, updating, deleting, or finding public folders, need to be routed to the default public folder hierarchy mailbox for the given user. To route the requests to that mailbox, you need to set the X-AnchorMailbox and X-PublicFolderMailbox headers to specific values returned by the Autodiscover service."
 ---
@@ -16,8 +16,8 @@ All requests for public folder information that require knowledge of the public 
 
 |Header|What do I need?|How do I get it?|
 |:-----|:-----|:-----|
-|**X-AnchorMailbox** <br/> |The [PublicFolderInformation](https://msdn.microsoft.com/library/dn751006%28v=exchg.150%29.aspx) value from a [GetUserSettings](https://msdn.microsoft.com/library/office/dd877096%28v=exchg.150%29.aspx) Autodiscover SOAP response, which becomes the value of the **X-AnchorMailbox** header.<br/><br/> ![TODO](media/Ex15_PF_PFH_Anchor.png)| 1. Send a **GetUserSetting** request with the SMTP address for the user's mailbox.<br/><br/>2. Cache the value of the **PublicFolderInformation** element that the Autodiscover service returns. This can be a cached from an existing Autodiscover call in your code, or a new [EWS Managed API GetUserSettings call](#bk_getpfinfoewsma) or a [GetUserSettings SOAP request](#bk_getpfinfoews).  <br/><br/>3. Use the **PublicFolderInformation** element to populate the value of the **X-AnchorMailbox** header. The value of the **PublicFolderInformation** element is an SMTP address.  <br/> |
-|**X-PublicFolderMailbox** <br/> |The [Server](https://msdn.microsoft.com/library/bb204084%28v=exchg.150%29.aspx) value from a [POX Autodiscover response](https://msdn.microsoft.com/library/bb204082%28v=exchg.150%29.aspx), which becomes the value of the **X-PublicFolderMailbox** header.<br/><br/> ![TODO](media/Ex15_PF_PFH_PFMailbox.png)|1. [Call the POX Autodiscover](#bk_makeautodrequest) service using the **X-AnchorMailbox** email address.  <br/><br/>2. Use the **Server** element returned by the Autodiscover service to populate the value of the **X-PublicFolderMailbox** header. The value of the **X-PublicFolderMailbox** is an SMTP address where the username is a GUID.  <br/> |
+|**X-AnchorMailbox** <br/> |The [PublicFolderInformation](https://msdn.microsoft.com/library/dn751006%28v=exchg.150%29.aspx) value from a [GetUserSettings](https://msdn.microsoft.com/library/office/dd877096%28v=exchg.150%29.aspx) Autodiscover SOAP response, which becomes the value of the **X-AnchorMailbox** header.<br/><br/> ![X-AnchorMailbox response](media/Ex15_PF_PFH_Anchor.png)| 1. Send a **GetUserSetting** request with the SMTP address for the user's mailbox.<br/><br/>2. Cache the value of the **PublicFolderInformation** element that the Autodiscover service returns. This can be a cached from an existing Autodiscover call in your code, or a new [EWS Managed API GetUserSettings call](#bk_getpfinfoewsma) or a [GetUserSettings SOAP request](#bk_getpfinfoews).  <br/><br/>3. Use the **PublicFolderInformation** element to populate the value of the **X-AnchorMailbox** header. The value of the **PublicFolderInformation** element is an SMTP address.  <br/> |
+|**X-PublicFolderMailbox** <br/> |The [Server](https://msdn.microsoft.com/library/bb204084%28v=exchg.150%29.aspx) value from a [POX Autodiscover response](https://msdn.microsoft.com/library/bb204082%28v=exchg.150%29.aspx), which becomes the value of the **X-PublicFolderMailbox** header.<br/><br/> ![X-PublicFolderMailbox response](media/Ex15_PF_PFH_PFMailbox.png)|1. [Call the POX Autodiscover](#bk_makeautodrequest) service using the **X-AnchorMailbox** email address.  <br/><br/>2. Use the **Server** element returned by the Autodiscover service to populate the value of the **X-PublicFolderMailbox** header. The value of the **X-PublicFolderMailbox** is an SMTP address where the username is a GUID.  <br/> |
 
 <br/>
 
@@ -52,17 +52,17 @@ The following code example shows how to retrieve the **PublicFolderInformation**
   
 ```XML
 <?xml version="1.0" encoding="utf-8"?>
-<soap:Envelope xmlns:a="https://schemas.microsoft.com/exchange/2010/Autodiscover"
+<soap:Envelope xmlns:a="http://schemas.microsoft.com/exchange/2010/Autodiscover"
                xmlns:wsa="http://www.w3.org/2005/08/addressing"
                xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
-               xmlns:soap="https://schemas.xmlsoap.org/soap/envelope/">
+               xmlns:soap="http://schemas.xmlsoap.org/soap/envelope/">
   <soap:Header>
     <a:RequestedServerVersion>Exchange2007_SP1</a:RequestedServerVersion>
     <wsa:Action>https://schemas.microsoft.com/exchange/2010/Autodiscover/Autodiscover/GetUserSettings</wsa:Action>
     <wsa:To>https://pod51042.outlook.com/autodiscover/autodiscover.svc</wsa:To>
   </soap:Header>
   <soap:Body>
-    <a:GetUserSettingsRequestMessage xmlns:a="https://schemas.microsoft.com/exchange/2010/Autodiscover">
+    <a:GetUserSettingsRequestMessage xmlns:a="http://schemas.microsoft.com/exchange/2010/Autodiscover">
       <a:Request>
         <a:Users>
           <a:User>
@@ -109,8 +109,8 @@ For example, when SharedPublicFolder@contoso.com is the SMTP address of the **Pu
 When you run the **Exchange 2013: Get user settings with Autodiscover** sample, the last Autodiscover response should be successful and include all the user settings associated with the mailbox GUID. The [Server](https://msdn.microsoft.com/library/bb204084%28v=exchg.150%29.aspx) value associated with the EXCH [Protocol](https://msdn.microsoft.com/library/bb204278%28v=exchg.150%29.aspx)[Type](https://msdn.microsoft.com/library/office/bb204223%28v=exchg.150%29.aspx) element is the **X-PublicFolderInformation** header value. 
   
 ```XML
-<Autodiscover xmlns="https://schemas.microsoft.com/exchange/autodiscover/responseschema/2006">
-  <Response xmlns="https://schemas.microsoft.com/exchange/autodiscover/outlook/responseschema/2006a">
+<Autodiscover xmlns="http://schemas.microsoft.com/exchange/autodiscover/responseschema/2006">
+  <Response xmlns="http://schemas.microsoft.com/exchange/autodiscover/outlook/responseschema/2006a">
     …
     <Account>
       <AccountType>email</AccountType>
@@ -125,7 +125,7 @@ Alternatively, if you do not want to use the **Exchange 2013: Get user settings 
   
 ```XML
 <?xml version="1.0" encoding="utf-8"?>
-<Autodiscover xmlns="https://schemas.microsoft.com/exchange/autodiscover/outlook/requestschema/2006">
+<Autodiscover xmlns="http://schemas.microsoft.com/exchange/autodiscover/outlook/requestschema/2006">
   <Request>
     <EMailAddress>SharedPublicFolder@contoso.com</EMailAddress>
     <AcceptableResponseSchema>https://schemas.microsoft.com/exchange/autodiscover/outlook/responseschema/2006a</AcceptableResponseSchema>
@@ -170,7 +170,7 @@ Content-Length: 1174
 Expect: 100-continue
 Connection: Keep-Alive
 <?xml version="1.0" encoding="utf-8"?>
-<soap:Envelope xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:m="https://schemas.microsoft.com/exchange/services/2006/messages" xmlns:t="https://schemas.microsoft.com/exchange/services/2006/types" xmlns:soap="https://schemas.xmlsoap.org/soap/envelope/">
+<soap:Envelope xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:m="http://schemas.microsoft.com/exchange/services/2006/messages" xmlns:t="http://schemas.microsoft.com/exchange/services/2006/types" xmlns:soap="http://schemas.xmlsoap.org/soap/envelope/">
   <soap:Header>
     <t:RequestServerVersion Version="Exchange2013_SP1" />
   </soap:Header>

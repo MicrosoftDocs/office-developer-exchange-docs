@@ -7,7 +7,7 @@ ms.date: 09/17/2015
 ms.audience: Developer
  
  
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 3dfa0fc9-64bb-4d18-bff7-bf6b3bed4a0d
 description: "Find out how you can manage your Inbox in your EWS Managed API or EWS application by using Inbox rules and the blocked senders list."
 ---

@@ -7,7 +7,7 @@ ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 542e7b90-eafe-4711-a9d7-71bbc30d9646
 description: "The IsPartiallyIndexed element indicates whether the item is partially indexed."
 ---

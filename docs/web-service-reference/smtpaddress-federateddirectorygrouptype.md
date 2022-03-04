@@ -5,7 +5,7 @@ ms.date: 11/16/2014
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 78b69794-7aea-4cca-a6d8-a6f1e642c7c5
 description: "The SmtpAddress (FederatedDirectoryGroupType) element is intended for internal use only."
 ---

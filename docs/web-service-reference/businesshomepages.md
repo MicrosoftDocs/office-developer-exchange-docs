@@ -7,7 +7,7 @@ ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 9961c0c2-7cac-4af1-84ac-0eafdce0a6ab
 description: "The BusinessHomePages element specifies an array of business home pages and the identifiers of their source attributions for the associated persona."
 ---

@@ -7,7 +7,7 @@ ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 api_name:
 - MeetingRequest
 api_type:
@@ -113,6 +113,8 @@ The **MeetingRequest** element represents a meeting request in the Exchange stor
    <MeetingWorkspaceUrl/>
    <NetShowUrl/>
    <EffectiveRights/>
+   <ReceivedBy/>
+   <ReceivedRepresenting/>
    <LastModifiedName/>
    <LastModifiedTime/>
    <IsAssociated/>
@@ -227,6 +229,8 @@ None.
 |[MeetingWorkspaceUrl](meetingworkspaceurl.md) <br/> |Contains the URL for the meeting workspace that is linked to by the calendar item.  <br/> |
 |[NetShowUrl](netshowurl.md) <br/> |Specifies the URL for a Microsoft Netshow online meeting.  <br/> |
 |[EffectiveRights](effectiverights.md) <br/> |Contains the rights of the client based on the permission settings for the item or folder. This element is read-only.  <br/> |
+|[ReceivedBy](receivedby.md) <br/> |Identifies the delegate in a delegate access scenario.  <br/> |
+|[ReceivedRepresenting](receivedrepresenting.md) <br/> |Identifies the principal in a delegate access scenario.  <br/> |
 |[LastModifiedName](lastmodifiedname.md) <br/> |Contains the display name of the last user to modify an item.  <br/> |
 |[LastModifiedTime](lastmodifiedtime.md) <br/> |Indicates when an item was last modified.  <br/> |
 |[IsAssociated](isassociated.md) <br/> |Indicates whether the item is associated with a folder.  <br/> |

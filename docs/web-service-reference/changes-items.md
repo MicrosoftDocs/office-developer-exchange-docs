@@ -7,7 +7,7 @@ ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 api_name:
 - Changes
 api_type:
@@ -33,6 +33,7 @@ The **Changes** element contains a sequence array of change types that represent
    <Create/>
    <Update/>
    <Delete/>
+   <ReadFlagChange/>
 </Changes>
 ```
 

@@ -7,7 +7,7 @@ ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 api_name:
 - CreateItem
 api_type:
@@ -36,16 +36,16 @@ The following example of a CreateItem request shows how to create a meeting with
 <soap:Envelope xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
                xmlns:xsd="http://www.w3.org/2001/XMLSchema"
                xmlns:soap="http://schemas.xmlsoap.org/soap/envelope/"
-               xmlns:t="https://schemas.microsoft.com/exchange/services/2006/types">
+               xmlns:t="http://schemas.microsoft.com/exchange/services/2006/types">
   <soap:Body>
-    <CreateItem xmlns="https://schemas.microsoft.com/exchange/services/2006/messages"
-                xmlns:t="https://schemas.microsoft.com/exchange/services/2006/types" 
+    <CreateItem xmlns="http://schemas.microsoft.com/exchange/services/2006/messages"
+                xmlns:t="http://schemas.microsoft.com/exchange/services/2006/types" 
                 SendMeetingInvitations="SendToAllAndSaveCopy" >
       <SavedItemFolderId>
         <t:DistinguishedFolderId Id="calendar"/>
       </SavedItemFolderId>
       <Items>
-        <t:CalendarItem xmlns="https://schemas.microsoft.com/exchange/services/2006/types">
+        <t:CalendarItem xmlns="http://schemas.microsoft.com/exchange/services/2006/types">
           <Subject>Planning Meeting</Subject>
           <Body BodyType="Text">Plan the agenda for next week's meeting.</Body>
           <ReminderIsSet>true</ReminderIsSet>
@@ -133,12 +133,12 @@ The following example shows a successful response to the CreateItem request.
                xmlns:xsd="http://www.w3.org/2001/XMLSchema">
   <soap:Header>
     <t:ServerVersionInfo MajorVersion="8" MinorVersion="0" MajorBuildNumber="685" MinorBuildNumber="8" 
-                         xmlns:t="https://schemas.microsoft.com/exchange/services/2006/types" />
+                         xmlns:t="http://schemas.microsoft.com/exchange/services/2006/types" />
   </soap:Header>
   <soap:Body>
-    <CreateItemResponse xmlns:m="https://schemas.microsoft.com/exchange/services/2006/messages" 
-                        xmlns:t="https://schemas.microsoft.com/exchange/services/2006/types" 
-                        xmlns="https://schemas.microsoft.com/exchange/services/2006/messages">
+    <CreateItemResponse xmlns:m="http://schemas.microsoft.com/exchange/services/2006/messages" 
+                        xmlns:t="http://schemas.microsoft.com/exchange/services/2006/types" 
+                        xmlns="http://schemas.microsoft.com/exchange/services/2006/messages">
       <m:ResponseMessages>
         <m:CreateItemResponseMessage ResponseClass="Success">
           <m:ResponseCode>NoError</m:ResponseCode>

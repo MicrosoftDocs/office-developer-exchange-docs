@@ -168,7 +168,7 @@ namespace ScpLookup
                     {
                         // Save the first SCP pointer that is not scoped to a domain as a fallback
                         // in case you do not get any results from this server.
-                        if (entryKeywords.Count == 1 &amp;&amp; string.IsNullOrEmpty(fallBackLdapPath))
+                        if (entryKeywords.Count == 1 && string.IsNullOrEmpty(fallBackLdapPath))
                         {
                             fallBackLdapPath = ptrLdapPath;
                             Console.WriteLine("Saved fallback SCP pointer: " + fallBackLdapPath);
@@ -278,7 +278,7 @@ namespace ScpLookup
                 }
                 // If after all this, you still have no URLs in your list,
                 // try the fallback SCP pointer, if you have one.
-                if (scpUrlList.Count == 0 &amp;&amp; fallBackLdapPath != null)
+                if (scpUrlList.Count == 0 && fallBackLdapPath != null)
                 {
                     return GetScpUrls(fallBackLdapPath, domain);
                 }

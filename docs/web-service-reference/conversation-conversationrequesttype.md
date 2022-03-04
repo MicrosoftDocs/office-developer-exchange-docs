@@ -7,7 +7,7 @@ ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 0308b71c-d4ff-44a8-b9ca-d5965291ee1d
 description: "The Conversation element represents a single conversation returned in a GetConversationItems response."
 ---

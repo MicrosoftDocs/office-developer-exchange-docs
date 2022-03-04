@@ -7,7 +7,7 @@ ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 0cec33a6-4b10-4259-8ac3-3f39a642b34c
 description: "The ErrorMessage element represents the reason for the validation error."
 ---

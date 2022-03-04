@@ -4,7 +4,7 @@ manager: sethgros
 ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 2ab522bc-40ea-4e43-aa57-6d2562db35e9
 description: "The DeliveryReportEnabled element represents the DeliveryReportEnabled() flag. The DeliveryReportEnabled element is for internal use only. This element is not used by clients."
 ---

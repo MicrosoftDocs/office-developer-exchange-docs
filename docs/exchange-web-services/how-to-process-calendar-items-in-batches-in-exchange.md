@@ -3,7 +3,7 @@ title: "Process calendar items in batches in Exchange"
 manager: sethgros
 ms.date: 09/17/2015
 ms.audience: Developer
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: fb2952e2-cbfe-43ac-b746-f071faa7665c
 description: "Learn how to create, get, update, or delete batches of calendar items in a single call by using the EWS Managed API or EWS in Exchange."
 ---

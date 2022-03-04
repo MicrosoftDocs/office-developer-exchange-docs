@@ -4,7 +4,7 @@ manager: sethgros
 ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: e6bbe800-3cbc-48b2-87b3-2043f575e88b
 description: "The Response element contains the GetOrganizationRelationshipSettings operation (SOAP) response information. The Response element is for internal use only. This element is not used by clients."
  

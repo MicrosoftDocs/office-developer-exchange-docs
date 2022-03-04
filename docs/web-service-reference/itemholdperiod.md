@@ -7,7 +7,7 @@ ms.date: 03/9/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 30369db5-4d45-40e8-bc83-3236667fc404
 description: "The ItemHoldPeriod element specifies the amount of time to hold content that matches the mailbox query."
 ---

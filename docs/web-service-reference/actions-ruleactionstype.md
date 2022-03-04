@@ -5,7 +5,7 @@ ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 2afba70c-65f7-458c-a4e6-a2cd9bccc0f9
 description: "The Actions element contains a list of actions associated with Inbox rules."
 ---
