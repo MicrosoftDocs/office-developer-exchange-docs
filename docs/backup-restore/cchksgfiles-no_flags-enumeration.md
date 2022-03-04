@@ -11,6 +11,7 @@ api_name:
 api_type:
 - dllExport
 ms.assetid: 6b18b645-fec4-429a-9900-62ad0f19bf96
+description: Serves as a placeholder value for the ulFlags parameters that are accepted by most CCheckSGFiles class functions. 
 ---
 
 # CChkSGFiles.NO_FLAGS enumeration
