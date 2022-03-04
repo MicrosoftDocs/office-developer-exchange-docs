@@ -12,7 +12,7 @@ localization_priority: Priority
 
 Learn how to delete appointments and meetings by using the EWS Managed API or EWS in Exchange.
   
-The essential difference between meetings and appointments is that meetings have attendees, and appointments don't. Both appointments and meetings can be single instances or part of a recurring series, but because appointments don't include attendees, rooms, or resources, they do not require a message to be sent. Internally, Exchange uses the same object for both meetings and appointments. You use the EWS Managed API [Appointment class](https://msdn.microsoft.com/library/microsoft.exchange.webservices.data.appointment%28v=exchg.80%29.aspx) or the EWS [CalendarItem](https://msdn.microsoft.com/library/Title Topic ID Project Name Writer Editor Publish Preview.aspx) element to work with meetings and appointments. 
+The essential difference between meetings and appointments is that meetings have attendees, and appointments don't. Both appointments and meetings can be single instances or part of a recurring series, but because appointments don't include attendees, rooms, or resources, they do not require a message to be sent. Internally, Exchange uses the same object for both meetings and appointments. You use the EWS Managed API [Appointment class](https://msdn.microsoft.com/library/microsoft.exchange.webservices.data.appointment%28v=exchg.80%29.aspx) or the EWS [CalendarItem](<https://msdn.microsoft.com/library/Title> Topic ID Project Name Writer Editor Publish Preview.aspx) element to work with meetings and appointments.
   
 **Table 1. EWS Managed API methods and EWS operations for deleting appointments and meetings**
 
@@ -20,16 +20,16 @@ The essential difference between meetings and appointments is that meetings have
 |:-----|:-----|:-----|
 |[Appointment.Delete](https://msdn.microsoft.com/library/microsoft.exchange.webservices.data.appointment.delete%28v=exchg.80%29.aspx) <br/> |[DeleteItem](../web-service-reference/deleteitem-operation.md) <br/> |Deletes an appointment.  <br/> |
 |[Appointment.Delete](https://msdn.microsoft.com/library/microsoft.exchange.webservices.data.appointment.delete%28v=exchg.80%29.aspx) <br/> |[CreateItem (calendar item)](../web-service-reference/createitem-operation-calendar-item.md) <br/> |Deletes a meeting.  <br/> |
-   
-Note that when you delete an appointment by using EWS, you use the [DeleteItem](../web-service-reference/deleteitem-operation.md) operation, but when you delete a meeting, you use the [CreateItem](../web-service-reference/createitem-operation-calendar-item.md) operation. This might seem counterintuitive, but it is because you have to create a meeting response object to send meeting cancellation messages to attendees. 
+
+Note that when you delete an appointment by using EWS, you use the [DeleteItem](../web-service-reference/deleteitem-operation.md) operation, but when you delete a meeting, you use the [CreateItem](../web-service-reference/createitem-operation-calendar-item.md) operation. This might seem counterintuitive, but it is because you have to create a meeting response object to send meeting cancellation messages to attendees.
 
 <a name="bk_DeleteApptEWSMA"> </a>
 
 ## Delete an appointment by using the EWS Managed API
 
-The following code example shows how to use the [Delete](https://msdn.microsoft.com/library/microsoft.exchange.webservices.data.appointment.delete%28v=exchg.80%29.aspx) method to delete an appointment from your calendar folder, and the [ExchangeService.FindItems](https://msdn.microsoft.com/library/microsoft.exchange.webservices.data.exchangeservice.finditems%28v=exchg.80%29.aspx) method to verify that the appointment was deleted by looking for it in the Deleted Items folder. 
+The following code example shows how to use the [Delete](https://msdn.microsoft.com/library/microsoft.exchange.webservices.data.appointment.delete%28v=exchg.80%29.aspx) method to delete an appointment from your calendar folder, and the [ExchangeService.FindItems](https://msdn.microsoft.com/library/microsoft.exchange.webservices.data.exchangeservice.finditems%28v=exchg.80%29.aspx) method to verify that the appointment was deleted by looking for it in the Deleted Items folder.
   
-This example assumes that you have authenticated to an Exchange server and have acquired an [ExchangeService](https://msdn.microsoft.com/library/microsoft.exchange.webservices.data.exchangeservice%28v=exchg.80%29.aspx) object named **service**. The local variable  `appointmentId` is an identifier associated with an existing appointment. 
+This example assumes that you have authenticated to an Exchange server and have acquired an [ExchangeService](https://msdn.microsoft.com/library/microsoft.exchange.webservices.data.exchangeservice%28v=exchg.80%29.aspx) object named **service**. The local variable `appointmentId` is an identifier associated with an existing appointment.
   
 ```cs
 // Instantiate an appointment object by binding to it by using the ItemId.
@@ -52,14 +52,15 @@ Console.WriteLine("The appointment " + "\"" + deletedItem.Subject + "\"" + " is 
 
 This example shows a simple way to verify that the appointment was deleted, by verifying that the subject of the first item in the Deleted Items folder matches that of the deleted appointment. How you choose to verify that your appointment was deleted will vary based the needs of your application.
   
-As you can see, deleting an appointment is straightforward and pretty much what you might expect. Note when you create your verification step that the appointment item in the Deleted Items folder has a different ItemId than the appointment item in the calendar folder. The item is copied and deleted rather than simply moved to the Deleted Items folder. 
+As you can see, deleting an appointment is straightforward and pretty much what you might expect. Note when you create your verification step that the appointment item in the Deleted Items folder has a different ItemId than the appointment item in the calendar folder. The item is copied and deleted rather than simply moved to the Deleted Items folder.
   
 ## Delete an appointment by using EWS
+
 <a name="bk_DeleteApptEWSMA"> </a>
 
 The request and response XML in the following examples correspond to calls made by the EWS Managed API code in [Delete an appointment by using the EWS Managed API](#bk_DeleteApptEWSMA). The request and response XML that verifies that the appointment item is in the Deleted Items folder is shown as well.
   
-The following example shows the request XML for the [DeleteItem](../web-service-reference/deleteitem-operation.md) operation to delete an appointment. 
+The following example shows the request XML for the [DeleteItem](../web-service-reference/deleteitem-operation.md) operation to delete an appointment.
   
 ```XML
 <?xml version="1.0" encoding="utf-8"?>
@@ -82,7 +83,7 @@ The following example shows the request XML for the [DeleteItem](../web-service-
 
 ```
 
-The following example shows the response XML that is returned by the [DeleteItem](../web-service-reference/deleteitem-operation.md) operation. The **ItemId** and **ChangeKey** attributes are shortened for readability. 
+The following example shows the response XML that is returned by the [DeleteItem](../web-service-reference/deleteitem-operation.md) operation. The **ItemId** and **ChangeKey** attributes are shortened for readability.
   
 ```XML
 <?xml version="1.0" encoding="utf-8"?>
@@ -107,7 +108,7 @@ The following example shows the response XML that is returned by the [DeleteItem
 
 ```
 
-The following example shows the request XML for the [FindItem](https://msdn.microsoft.com/library/ebad6aae-16e7-44de-ae63-a95b24539729%28Office.15%29.aspx) operation that retrieves the first item in the Deleted Items folder in order to compare the item's subject with that of the deleted appointment object. 
+The following example shows the request XML for the [FindItem](https://msdn.microsoft.com/library/ebad6aae-16e7-44de-ae63-a95b24539729%28Office.15%29.aspx) operation that retrieves the first item in the Deleted Items folder in order to compare the item's subject with that of the deleted appointment object.
   
 ```XML
 <?xml version="1.0" encoding="utf-8"?>
@@ -139,10 +140,10 @@ The following example shows the request XML for the [FindItem](https://msdn.micr
 
 ```
 
-The following example shows the response XML that is returned by the [FindItem](https://msdn.microsoft.com/library/ebad6aae-16e7-44de-ae63-a95b24539729%28Office.15%29.aspx) operation during the verification step. 
+The following example shows the response XML that is returned by the [FindItem](https://msdn.microsoft.com/library/ebad6aae-16e7-44de-ae63-a95b24539729%28Office.15%29.aspx) operation during the verification step.
   
 > [!NOTE]
-> The **ItemId** and **ChangeKey** attributes are shortened for readability. 
+> The **ItemId** and **ChangeKey** attributes are shortened for readability.
   
 ```XML
 <?xml version="1.0" encoding="utf-8"?>
@@ -183,16 +184,14 @@ xmlns:t="https://schemas.microsoft.com/exchange/services/2006/types">
 When you delete a meeting, in addition to removing the appointment item from the calendar folder, you might also want to send meeting cancellations to attendees. You can use the following three methods to cancel a meeting:
   
 - [Appointment.Delete](https://msdn.microsoft.com/library/microsoft.exchange.webservices.data.appointment.delete%28v=exchg.80%29.aspx)
-    
 - [Appointment.CancelMeeting](https://msdn.microsoft.com/library/microsoft.exchange.webservices.data.appointment.cancelmeeting%28v=exchg.80%29.aspx)
-    
 - [CancelMeetingMessage](https://msdn.microsoft.com/library/microsoft.exchange.webservices.data.cancelmeetingmessage%28v=exchg.80%29.aspx)
-    
-The method that you choose depends on the level of detail you need to provide in your cancellation message. [Appointment.CancelMeeting](https://msdn.microsoft.com/library/microsoft.exchange.webservices.data.appointment.cancelmeeting%28v=exchg.80%29.aspx) makes it easy to update the cancellation message by passing an updated message as a parameter. [CancelMeetingMessage](https://msdn.microsoft.com/library/microsoft.exchange.webservices.data.cancelmeetingmessage%28v=exchg.80%29.aspx) allows you to modify properties on your message before sending a cancellation, so you can do things like request a receipt. 
+
+The method that you choose depends on the level of detail you need to provide in your cancellation message. [Appointment.CancelMeeting](https://msdn.microsoft.com/library/microsoft.exchange.webservices.data.appointment.cancelmeeting%28v=exchg.80%29.aspx) makes it easy to update the cancellation message by passing an updated message as a parameter. [CancelMeetingMessage](https://msdn.microsoft.com/library/microsoft.exchange.webservices.data.cancelmeetingmessage%28v=exchg.80%29.aspx) allows you to modify properties on your message before sending a cancellation, so you can do things like request a receipt.
   
-The code examples in this section show the different ways to delete a meeting and send meeting cancellations. The examples assume that you have authenticated to an Exchange server and have acquired an [ExchangeService](https://msdn.microsoft.com/library/microsoft.exchange.webservices.data.exchangeservice%28v=exchg.80%29.aspx) object named **service**. The local variable  `meetingId` is an identifier associated with an existing meeting where the target user is the meeting organizer. 
+The code examples in this section show the different ways to delete a meeting and send meeting cancellations. The examples assume that you have authenticated to an Exchange server and have acquired an [ExchangeService](https://msdn.microsoft.com/library/microsoft.exchange.webservices.data.exchangeservice%28v=exchg.80%29.aspx) object named **service**. The local variable `meetingId` is an identifier associated with an existing meeting where the target user is the meeting organizer.
   
-The following code example shows how to delete a meeting by using the [Appointment.Delete](https://msdn.microsoft.com/library/microsoft.exchange.webservices.data.appointment.delete%28v=exchg.80%29.aspx) method. 
+The following code example shows how to delete a meeting by using the [Appointment.Delete](https://msdn.microsoft.com/library/microsoft.exchange.webservices.data.appointment.delete%28v=exchg.80%29.aspx) method.
   
 ```cs
 // Instantiate an appointment object for the meeting by binding to it using the ItemId.
@@ -214,7 +213,7 @@ Console.WriteLine("The meeting " + "\"" + deletedItem.Subject + "\"" + " is now 
 
 ```
 
-The following code example shows how to delete a meeting by using the [CancelMeeting](https://msdn.microsoft.com/library/microsoft.exchange.webservices.data.appointment.cancelmeeting%28v=exchg.80%29.aspx) method. 
+The following code example shows how to delete a meeting by using the [CancelMeeting](https://msdn.microsoft.com/library/microsoft.exchange.webservices.data.appointment.cancelmeeting%28v=exchg.80%29.aspx) method.
   
 ```cs
 // Instantiate an appointment object by binding to it using the ItemId.
@@ -225,7 +224,7 @@ meeting.CancelMeeting("The outdoor meeting has been cancelled due to hailstorms.
 
 ```
 
-The following code example shows how to delete a meeting by using the [Appointment.CreateCancelMeetingMessage](https://msdn.microsoft.com/library/microsoft.exchange.webservices.data.appointment.createcancelmeetingmessage%28v=exchg.80%29.aspx) method. 
+The following code example shows how to delete a meeting by using the [Appointment.CreateCancelMeetingMessage](https://msdn.microsoft.com/library/microsoft.exchange.webservices.data.appointment.createcancelmeetingmessage%28v=exchg.80%29.aspx) method.
   
 ```cs
 // Instantiate an appointment object by binding to it using the ItemId.
@@ -240,11 +239,12 @@ cancelMessage.SendAndSaveCopy();
 ```
 
 ## Delete a meeting by using EWS
+
 <a name="bk_EWSDeleteApptAndMeeting"> </a>
 
-The request and response XML in the following examples correspond to calls made by the EWS Managed API code in [Delete a meeting by using the EWS Managed API](#bk_DeleteMtgEWSMA) by using the [Appointment.Delete](https://msdn.microsoft.com/library/microsoft.exchange.webservices.data.appointment.delete%28v=exchg.80%29.aspx) method. 
+The request and response XML in the following examples correspond to calls made by the EWS Managed API code in [Delete a meeting by using the EWS Managed API](#bk_DeleteMtgEWSMA) by using the [Appointment.Delete](https://msdn.microsoft.com/library/microsoft.exchange.webservices.data.appointment.delete%28v=exchg.80%29.aspx) method.
   
-The following example shows the request XML when you use the [CreateItem](https://msdn.microsoft.com/library/aa4a7c94-f668-4bd2-8079-c855f6ab17e1%28Office.15%29.aspx) operation to send cancellation messages to attendees and delete a meeting. 
+The following example shows the request XML when you use the [CreateItem](https://msdn.microsoft.com/library/aa4a7c94-f668-4bd2-8079-c855f6ab17e1%28Office.15%29.aspx) operation to send cancellation messages to attendees and delete a meeting.
   
 ```XML
 <?xml version="1.0" encoding="utf-8"?>
@@ -270,10 +270,10 @@ The following example shows the request XML when you use the [CreateItem](https:
 
 ```
 
-The following example shows the XML that is returned in response to a [CreateItem](https://msdn.microsoft.com/library/aa4a7c94-f668-4bd2-8079-c855f6ab17e1%28Office.15%29.aspx) operation request used to delete a meeting. 
+The following example shows the XML that is returned in response to a [CreateItem](https://msdn.microsoft.com/library/aa4a7c94-f668-4bd2-8079-c855f6ab17e1%28Office.15%29.aspx) operation request used to delete a meeting.
   
 > [!NOTE]
-> The **ItemId** and **ChangeKey** attributes are shortened for readability. 
+> The **ItemId** and **ChangeKey** attributes are shortened for readability.
   
 ```XML
 <?xml version="1.0" encoding="utf-8"?>
@@ -302,7 +302,7 @@ The following example shows the XML that is returned in response to a [CreateIte
 
 ```
 
-The following example shows the request XML for the [FindItem](https://msdn.microsoft.com/library/ebad6aae-16e7-44de-ae63-a95b24539729%28Office.15%29.aspx) operation that retrieves the first item in the Deleted Items folder in order to compare the item's subject with that of the deleted appointment object. 
+The following example shows the request XML for the [FindItem](https://msdn.microsoft.com/library/ebad6aae-16e7-44de-ae63-a95b24539729%28Office.15%29.aspx) operation that retrieves the first item in the Deleted Items folder in order to compare the item's subject with that of the deleted appointment object.
   
 ```XML
 <?xml version="1.0" encoding="utf-8"?>
@@ -334,10 +334,10 @@ The following example shows the request XML for the [FindItem](https://msdn.micr
 
 ```
 
-The following example shows the XML that is returned by the [FindItem](https://msdn.microsoft.com/library/ebad6aae-16e7-44de-ae63-a95b24539729%28Office.15%29.aspx) operation during the verification step. 
+The following example shows the XML that is returned by the [FindItem](https://msdn.microsoft.com/library/ebad6aae-16e7-44de-ae63-a95b24539729%28Office.15%29.aspx) operation during the verification step.
   
 > [!NOTE]
-> The **Id** and **ChangeKey** attributes are shortened for readability. 
+> The **Id** and **ChangeKey** attributes are shortened for readability.
   
 ```XML
 <?xml version="1.0" encoding="utf-8"?>
@@ -373,11 +373,9 @@ xmlns:t="https://schemas.microsoft.com/exchange/services/2006/types">
 
 ## See also
 
-- [Calendars and EWS in Exchange](calendars-and-ews-in-exchange.md)    
+- [Calendars and EWS in Exchange](calendars-and-ews-in-exchange.md)
 - [Create appointments and meetings by using EWS in Exchange 2013](how-to-create-appointments-and-meetings-by-using-ews-in-exchange-2013.md)  
-- [Get appointments and meetings by using EWS in Exchange](how-to-get-appointments-and-meetings-by-using-ews-in-exchange.md) 
+- [Get appointments and meetings by using EWS in Exchange](how-to-get-appointments-and-meetings-by-using-ews-in-exchange.md)
 - [Update appointments and meetings by using EWS in Exchange](how-to-update-appointments-and-meetings-by-using-ews-in-exchange.md)  
-- [Propose a new meeting time by using EWS in Exchange](how-to-propose-a-new-meeting-time-by-using-ews-in-exchange.md) 
 - [Propose a new meeting time by using EWS in Exchange](how-to-propose-a-new-meeting-time-by-using-ews-in-exchange.md)
-    
-
+- [Propose a new meeting time by using EWS in Exchange](how-to-propose-a-new-meeting-time-by-using-ews-in-exchange.md)
