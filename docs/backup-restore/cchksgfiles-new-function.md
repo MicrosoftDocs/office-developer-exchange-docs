@@ -11,7 +11,6 @@ api_name:
 api_type:
 - dllExport
 ms.assetid: 588d8c74-c9ce-4d5e-8a79-a2a68676e858
-description: "Last modified: February 22, 2013"
 ---
 
 # CChkSGFiles.New function

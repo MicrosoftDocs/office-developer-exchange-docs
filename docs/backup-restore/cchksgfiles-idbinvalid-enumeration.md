@@ -11,7 +11,6 @@ api_name:
 api_type:
 - dllExport
 ms.assetid: 3d2b754f-2161-4377-b5f8-35abe3033b68
-description: "Last modified: February 22, 2013"
 ---
 
 # CChkSGFiles.iDbInvalid enumeration

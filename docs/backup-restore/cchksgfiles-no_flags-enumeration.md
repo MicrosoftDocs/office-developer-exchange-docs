@@ -11,7 +11,6 @@ api_name:
 api_type:
 - dllExport
 ms.assetid: 6b18b645-fec4-429a-9900-62ad0f19bf96
-description: "Last modified: February 22, 2013"
 ---
 
 # CChkSGFiles.NO_FLAGS enumeration
