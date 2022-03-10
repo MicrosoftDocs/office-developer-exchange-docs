@@ -33,10 +33,10 @@ The following example of a CreateItem request shows how to create a task item in
 <soap:Envelope xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
                xmlns:xsd="http://www.w3.org/2001/XMLSchema"
                xmlns:soap="http://schemas.xmlsoap.org/soap/envelope/"
-               xmlns:t="https://schemas.microsoft.com/exchange/services/2006/types">
+               xmlns:t="http://schemas.microsoft.com/exchange/services/2006/types">
   <soap:Body>
-    <CreateItem xmlns="https://schemas.microsoft.com/exchange/services/2006/messages"
-                xmlns:t="https://schemas.microsoft.com/exchange/services/2006/types" 
+    <CreateItem xmlns="http://schemas.microsoft.com/exchange/services/2006/messages"
+                xmlns:t="http://schemas.microsoft.com/exchange/services/2006/types" 
                 MessageDisposition="SaveOnly">
       <Items>
         <t:Task>
@@ -108,9 +108,9 @@ The following example shows a successful response to the CreateItem request.
                          xmlns:t="https://schemas.microsoft.com/exchange/services/2006/types"/>
   </soap:Header>
   <soap:Body>
-    <CreateItemResponse xmlns:m="https://schemas.microsoft.com/exchange/services/2006/messages" 
-                        xmlns:t="https://schemas.microsoft.com/exchange/services/2006/types" 
-                        xmlns="https://schemas.microsoft.com/exchange/services/2006/messages">
+    <CreateItemResponse xmlns:m="http://schemas.microsoft.com/exchange/services/2006/messages" 
+                        xmlns:t="http://schemas.microsoft.com/exchange/services/2006/types" 
+                        xmlns="http://schemas.microsoft.com/exchange/services/2006/messages">
       <m:ResponseMessages>
         <m:CreateItemResponseMessage ResponseClass="Success">
           <m:ResponseCode>NoError</m:ResponseCode>
