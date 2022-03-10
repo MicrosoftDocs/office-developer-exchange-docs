@@ -85,7 +85,7 @@ The following partial GetUserAvailability request represents a client applicatio
 
 ## Element information
 
-|||
+| Element | Example |
 |:-----|:-----|
 |Namespace |https://schemas.microsoft.com/exchange/services/2006/types |
 |Schema Name |Types schema |
