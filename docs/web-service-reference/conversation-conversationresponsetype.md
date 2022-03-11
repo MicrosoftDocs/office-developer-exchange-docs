@@ -59,7 +59,7 @@ Microsoft.Win32.RegistryKey#4
   
 ## Element information
 
-||
+| Element|
 |:-----|
 |Namespace  <br/> |
 |Schema name  <br/> |
