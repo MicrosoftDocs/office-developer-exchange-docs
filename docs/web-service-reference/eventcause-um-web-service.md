@@ -62,7 +62,7 @@ A text value is required. The following are the possible values:
     
 ## Element information
 
-|||
+|**Name**|**Value**|
 |:-----|:-----|
 |Namespace  <br/> |https://schemas.microsoft.com/exchange/services/2006/messages  <br/> |
 |Schema Name  <br/> |Messages  <br/> |
