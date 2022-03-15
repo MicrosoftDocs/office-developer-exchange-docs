@@ -48,10 +48,10 @@ The endpoint is used for communicating with the security token web service.
   
 ## Element information
 
-|||
+|Name|Value|
 |:-----|:-----|
 |Namespace  <br/> |https://schemas.microsoft.com/exchange/2010/Autodiscover  <br/> |
-|Schema Name  <br/> |Autodiscover schema  <br/> |
+|Schema Name  <br/> |Auto-discover schema  <br/> |
 |Validation File  <br/> |Messages.xsd  <br/> |
 |Can be Empty  <br/> |True  <br/> |
    
