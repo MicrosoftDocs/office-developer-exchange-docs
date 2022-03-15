@@ -20,7 +20,7 @@ The **Conversation** (GetConversationItemsResponseMessageType) element represent
 
  **ConversationResponseType**
 
-|** Element information**|
+|**Element information**|
 |:-----|
 |Namespace  <br/> |
 |Schema name  <br/> |
