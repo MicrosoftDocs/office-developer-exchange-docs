@@ -7,7 +7,7 @@ ms.topic: reference
 ms.prod: office-online-server
 ms.localizationpriority: medium
 ms.assetid: 57310ba7-f411-43fa-a096-acef0481afec
-description: "Represents a single conversation returned in a GetConversationItems response."
+description: "Conversation (ConversationResponseType) represents a single conversation returned in a GetConversationItems response."
 ---
 
 # Conversation (ConversationResponseType)
