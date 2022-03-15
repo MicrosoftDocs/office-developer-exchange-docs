@@ -11,7 +11,7 @@ api_name:
 api_type:
 - schema
 ms.assetid: eabb2f12-10a7-4ce2-ae4b-9c04010c765f
-description: "Last modified: September 17, 2015"
+description: "Contains elements that define configuration information for agent monitoring and configuration information for SMTP and routing agents that are installed."
 ---
 
 # mexRuntime
