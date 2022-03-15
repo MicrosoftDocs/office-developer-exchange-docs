@@ -47,7 +47,7 @@ The schema that describes this element is located in the IIS virtual directory t
   
 ## Element information
 
-|||
+| Element | Example |
 |:-----|:-----|
 |Namespace  <br/> |https://schemas.microsoft.com/exchange/services/2006/messages  <br/> |
 |Schema Name  <br/> |Message schema  <br/> |
