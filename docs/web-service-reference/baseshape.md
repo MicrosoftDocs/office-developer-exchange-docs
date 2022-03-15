@@ -95,7 +95,7 @@ To return properties in addition to those identified by the [BaseShape](baseshap
 
 ## Element information
 
-|||
+| Element | Example |
 |:-----|:-----|
 |Namespace  <br/> |https://schemas.microsoft.com/exchange/services/2006/types  <br/> |
 |Schema Name  <br/> |Types schema  <br/> |
