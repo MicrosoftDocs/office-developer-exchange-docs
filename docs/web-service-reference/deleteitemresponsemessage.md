@@ -75,7 +75,7 @@ In versions of Exchange starting with build 15.00.0986.00, the **DeleteItemRespo
   
 ## Element information
 
-|||
+| Element | Example |
 |:-----|:-----|
 |Namespace  <br/> |https://schemas.microsoft.com/exchange/services/2006/messages  <br/> |
 |Schema Name  <br/> |Messages schema  <br/> |
