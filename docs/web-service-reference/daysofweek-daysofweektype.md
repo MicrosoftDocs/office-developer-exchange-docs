@@ -11,7 +11,7 @@ api_name:
 api_type:
 - schema
 ms.assetid: c56f997d-28f3-4590-97b0-cb71f016dbe4
-description: "The DaysOfWeek element describes days of the week that are used in item recurrence patterns."
+description: "The DaysOfWeek (DaysOfWeekType) element describes days of the week that are used in item recurrence patterns."
 ---
 
 # DaysOfWeek (DaysOfWeekType)
@@ -65,7 +65,7 @@ The schema that describes this element is located in the EWS virtual directory o
   
 ## Element information
 
-|||
+| Element | Example |
 |:-----|:-----|
 |Namespace  <br/> |https://schemas.microsoft.com/exchange/services/2006/types  <br/> |
 |Schema Name  <br/> |Types schema  <br/> |

@@ -1,7 +1,7 @@
 ---
 title: "agentList"
-manager: sethgros
-ms.date: 09/17/2015
+manager: lindalu
+ms.date: 03/11/2022
 ms.audience: Developer
 ms.topic: overview
 ms.prod: office-online-server
@@ -11,7 +11,7 @@ api_name:
 api_type:
 - schema
 ms.assetid: e877b7ef-e303-4270-964d-8d116ff2a865
-description: "Last modified: September 17, 2015"
+description: "The agentList element contains an agent element for each installed agent."
 ---
 
 # agentList
@@ -64,4 +64,3 @@ None.
 ## See also
 
 - [Agents configuration file elements for Exchange 2013](agents-configuration-file-elements-for-exchange-2013.md)
-
