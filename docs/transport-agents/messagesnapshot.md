@@ -11,7 +11,7 @@ api_name:
 api_type:
 - schema
 ms.assetid: f157e44c-b950-463f-b086-31d5da94b7ff
-description: "Contains an attribute that specifies whether the pipeline tracing feature is enabled for the Exchange server that has the Client Access or the Mailbox server role installed. "
+description: "Contains an attribute that specifies whether the pipeline tracing feature is enabled for the Exchange server that has the Client Access or the Mailbox server role installed."
 ---
 
 # messageSnapshot
