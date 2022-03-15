@@ -63,7 +63,7 @@ You should also verify that the [default authentication settings](https://techne
 
 Sometimes it is helpful to try the same request from another client and compare results. If another client gets different results, what is different? Figuring out what is different between a successful request and a failed request can help explain why a particular request is failing.
   
-While you can certainly write another client to test with, you don't have to! [EWSEditor](http://ewseditor.codeplex.com/) is a sample client that uses the EWS Managed API and EWS. You can download the client (including the source code) and use it to try the same requests that are failing in your application. 
+While you can certainly write another client to test with, you don't have to! [EWSEditor](https://github.com/dseph/EwsEditor/releases) is a sample client that uses the EWS Managed API and EWS. You can download the client (including the source code) and use it to try the same requests that are failing in your application. 
   
 ## Examine IIS logs
 
@@ -76,7 +76,7 @@ IIS provides two different logging methods: [IIS logging](http://www.iis.net/lea
 
 Now that you've learned about the tools and resources that you can use to troubleshoot, you might need help understanding the information provided by those tools. The following are some options for getting help:
   
-- [Exchange Server Development forum on Q&A](https://docs.microsoft.com/answers/topics/192527/office-exchange-server-dev.html) — Ask a question of the Q&A Exchange Server development community. 
+- [Exchange Server Development forum on Q&A](/answers/topics/192527/office-exchange-server-dev.html) — Ask a question of the Q&A Exchange Server development community. 
     
 - [StackOverflow](http://stackoverflow.com/tags/ews) — Ask a question of the StackOverflow community. Be sure to tag your post with "ews". 
     

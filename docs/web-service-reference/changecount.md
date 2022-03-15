@@ -49,7 +49,7 @@ The schema that describes this element is located in the EWS virtual directory o
   
 ## Element information
 
-|||
+| Element | Example |
 |:-----|:-----|
 |Namespace  <br/> |https://schemas.microsoft.com/exchange/services/2006/types  <br/> |
 |Schema name  <br/> |Types schema  <br/> |

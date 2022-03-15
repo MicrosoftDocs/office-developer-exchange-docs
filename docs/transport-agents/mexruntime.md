@@ -55,7 +55,7 @@ None.
    
 ## Element information
 
-|||
+| Element | Example |
 |:-----|:-----|
 |Namespace  <br/> |This file does not define a namespace.  <br/> |
 |Schema Name  <br/> |Not available.  <br/> |

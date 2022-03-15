@@ -124,7 +124,7 @@ The following example shows a successful **GetUserSettings** response.
               </UserSetting>
               <UserSetting i:type="StringSetting">
                 <Name>EwsSupportedSchemas</Name>
-                <Value>Exchange2007,  Exchange2010</Value>
+                <Value>Exchange2007, Exchange2010</Value>
               </UserSetting>
               <UserSetting i:type="StringSetting">
                 <Name>InternalMailboxServer</Name>

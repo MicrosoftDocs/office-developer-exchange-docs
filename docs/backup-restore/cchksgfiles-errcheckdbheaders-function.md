@@ -11,7 +11,7 @@ api_name:
 api_type:
 - dllExport
 ms.assetid: 75289cd2-35b1-4f75-a651-dce01f1ddda1
-description: "Last modified: February 22, 2013"
+description: Validates the headers of the database files specified by the ErrInit function. This function also returns the page size and number of pages in each of the specified databases. 
 ---
 
 # CChkSGFiles.ErrCheckDbHeaders function

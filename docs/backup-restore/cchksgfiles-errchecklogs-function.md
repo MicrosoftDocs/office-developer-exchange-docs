@@ -11,7 +11,7 @@ api_name:
 api_type:
 - dllExport
 ms.assetid: cec0df4b-4679-4682-bacf-69b4f4aef343
-description: "Last modified: February 22, 2013"
+description: Validates the log files of all the database files specified in the ErrInit function.
 ---
 
 # CChkSGFiles.ErrCheckLogs function
