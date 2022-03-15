@@ -1,7 +1,7 @@
 ---
 title: "agentExecution"
-manager: sethgros
-ms.date: 09/17/2015
+manager: lindalu
+ms.date: 03/14/2022
 ms.audience: Developer
 ms.topic: overview
 ms.prod: office-online-server
@@ -11,7 +11,7 @@ api_name:
 api_type:
 - schema
 ms.assetid: 600c4690-941c-45af-a906-5528748d09cd
-description: "Last modified: September 17, 2015"
+description: "Defines the time, in milliseconds, for the Client Access or Mailbox server to wait for an agent to return from an event before it writes to the event log."
 ---
 
 # agentExecution
