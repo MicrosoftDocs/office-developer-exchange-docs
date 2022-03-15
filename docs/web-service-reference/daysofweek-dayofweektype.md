@@ -11,7 +11,7 @@ api_name:
 api_type:
 - schema
 ms.assetid: ba8f990d-d37d-403d-b31f-55e5208c8ad5
-description: "The DaysOfWeek element describes days of the week that are used in item recurrence patterns."
+description: "The DaysOfWeek (DayOfWeekType) element describes days of the week that are used in item recurrence patterns."
 ---
 
 # DaysOfWeek (DayOfWeekType)
