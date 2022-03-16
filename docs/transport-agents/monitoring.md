@@ -1,7 +1,7 @@
 ---
 title: "monitoring"
-manager: sethgros
-ms.date: 09/17/2015
+manager: lindalu
+ms.date: 03/10/2022
 ms.audience: Developer
 ms.topic: overview
 ms.prod: office-online-server
@@ -11,7 +11,7 @@ api_name:
 api_type:
 - schema
 ms.assetid: 350d7b46-9260-41a7-8613-3cb8cc1b29a5
-description: "Last modified: September 17, 2015"
+description: "The monitoring element contains configuration information that defines how and when the Front End transport service or the Transport service monitors agents that are installed."
 ---
 
 # monitoring
@@ -56,7 +56,7 @@ None.
    
 ## Element information
 
-|||
+|**Element** |**Example** |
 |:-----|:-----|
 |Namespace  <br/> |This file does not define a namespace.  <br/> |
 |Schema Name  <br/> |Not available.  <br/> |
@@ -66,4 +66,3 @@ None.
 ## See also
 
 - [Agents configuration file elements for Exchange 2013](agents-configuration-file-elements-for-exchange-2013.md)
-

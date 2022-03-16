@@ -237,7 +237,7 @@ If the method you called returns a **ServiceResponseCollection**, and the value 
     
 If the information provided by the **ServiceResponse** properties doesn't provide enough information to correct your method call or unblock you, see [Next steps](#bk_nextsteps) to dig up more information on **ErrorCode** values. 
   
-## 
+ 
 <a name="bk_nextsteps"> </a>
 
 You can look up additional troubleshooting information in the following topics:

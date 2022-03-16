@@ -189,7 +189,7 @@ To sort the items in a group, use the [SortOrder](sortorder.md) element.
   
 ## Element information
 
-|||
+| Element | Example |
 |:-----|:-----|
 |Namespace  <br/> |https://schemas.microsoft.com/exchange/services/2006/types  <br/> |
 |Schema Name  <br/> |Types schema  <br/> |

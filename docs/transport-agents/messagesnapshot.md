@@ -1,7 +1,7 @@
 ---
 title: "messageSnapshot"
-manager: sethgros
-ms.date: 09/17/2015
+manager: lindalu
+ms.date: 03/14/2022
 ms.audience: Developer
 ms.topic: overview
 ms.prod: office-online-server
@@ -11,7 +11,7 @@ api_name:
 api_type:
 - schema
 ms.assetid: f157e44c-b950-463f-b086-31d5da94b7ff
-description: "Last modified: September 17, 2015"
+description: "Contains an attribute that specifies whether the pipeline tracing feature is enabled for the Exchange server that has the Client Access or the Mailbox server role installed."
 ---
 
 # messageSnapshot
@@ -53,7 +53,7 @@ None.
    
 ## Element information
 
-|||
+| Element | Example |
 |:-----|:-----|
 |Namespace  <br/> |This file does not define a namespace.  <br/> |
 |Schema Name  <br/> |Not available.  <br/> |

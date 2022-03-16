@@ -96,9 +96,8 @@ You can add additional properties to the property set or include extended proper
   
 **Table 4. First-class properties**
 
-|||||||
+|Property  <br/>|Calendar item  <br/>|Contact item  <br/>|Message item  <br/>|Post item  <br/>|Task item  <br/>|
 |:-----|:-----|:-----|:-----|:-----|:-----|
-|Property  <br/> |Calendar item  <br/> |Contact item  <br/> |Message item  <br/> |Post item  <br/> |Task item  <br/> |
 |ActualWork  <br/> |||||x  <br/> |
 |AdjacentMeetingCount  <br/> |x  <br/> |||||
 |AdjacentMeetings  <br/> |x  <br/> |||||

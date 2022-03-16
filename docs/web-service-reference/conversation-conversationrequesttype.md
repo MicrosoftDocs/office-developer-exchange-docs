@@ -9,7 +9,7 @@ ms.topic: reference
 ms.prod: office-online-server
 ms.localizationpriority: medium
 ms.assetid: 0308b71c-d4ff-44a8-b9ca-d5965291ee1d
-description: "The Conversation element represents a single conversation returned in a GetConversationItems response."
+description: "Represents a single conversation returned in a GetConversationItems response."
 ---
 
 # Conversation (ConversationRequestType)
@@ -48,7 +48,7 @@ The schema that describes this element is located in the IIS virtual directory t
   
 ## Element information
 
-|||
+| Element | Example |
 |:-----|:-----|
 |Namespace  <br/> |https://schemas.microsoft.com/exchange/services/2006/types  <br/> |
 |Schema name  <br/> |Types schema  <br/> |

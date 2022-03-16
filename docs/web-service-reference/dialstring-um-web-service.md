@@ -52,7 +52,7 @@ A text value is required. The text value must contain a valid dialing number.
   
 ## Element information
 
-|||
+| Element | Example |
 |:-----|:-----|
 |Namespace  <br/> |https://schemas.microsoft.com/exchange/services/2006/messages  <br/> |
 |Schema Name  <br/> |Messages  <br/> |

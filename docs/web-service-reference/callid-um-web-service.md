@@ -61,7 +61,7 @@ To initial a call, use the [PlayOnPhone operation (UM web service)](playonphone-
   
 ## Element information
 
-|||
+| Element | Example |
 |:-----|:-----|
 |Namespace  <br/> |https://schemas.microsoft.com/exchange/services/2006/messages  <br/> |
 |Schema Name  <br/> |Messages  <br/> |
