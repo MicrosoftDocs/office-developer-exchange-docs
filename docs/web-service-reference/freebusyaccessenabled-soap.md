@@ -48,7 +48,7 @@ Use this element to allow or suppress free/busy information from the server.
   
 ## Element information
 
-|Element|Type|
+|Element|Example|
 |:-----|:-----|
 |Namespace  <br/> |https://schemas.microsoft.com/exchange/2010/Autodiscover  <br/> |
 |Schema Name  <br/> |Autodiscover schema  <br/> |

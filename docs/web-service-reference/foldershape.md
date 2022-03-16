@@ -80,7 +80,7 @@ The following example of a request demonstrates how to find all folders located 
 
 ## Element information
 
-|Element|Type|
+|Element|Example|
 |:-----|:-----|
 |Namespace  <br/> |https://schemas.microsoft.com/exchange/services/2006/messages  <br/> |
 |Schema Name  <br/> |Messages schema  <br/> |
