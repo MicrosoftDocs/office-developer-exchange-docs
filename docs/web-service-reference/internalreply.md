@@ -89,7 +89,7 @@ The following example of a SetUserOofSettings request sets the [OofState](oofsta
 
 ## Element information
 
-|||
+|Element|Type|
 |:-----|:-----|
 |Namespace  <br/> |https://schemas.microsoft.com/exchange/services/2006/types  <br/> |
 |Schema Name  <br/> |Types schema  <br/> |
