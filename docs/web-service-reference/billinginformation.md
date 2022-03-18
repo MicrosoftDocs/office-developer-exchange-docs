@@ -23,6 +23,7 @@ The **BillingInformation** element holds billing information for a task.
 ```
 
  **String**
+ 
 ## Attributes and elements
 
 The following sections describe attributes, child elements, and parent elements.
@@ -34,21 +35,21 @@ None.
 ### Child elements
 
 None.
-  
+ 
 ### Parent elements
 
 |**Element**|**Description**|
 |:-----|:-----|
 |[Task](task.md) <br/> |Represents a task in the Exchange store.  <br/> |
-   
+ 
 ## Text value
 
 The text value represents task-related billing information.
-  
+
 ## Remarks
 
 The schema that describes this element is located in the EWS virtual directory of the computer that is running MicrosoftExchange Server 2007 that has the Client Access server role installed.
-  
+
 ## Element information
 
 |Element part|Information|
@@ -57,10 +58,7 @@ The schema that describes this element is located in the EWS virtual directory o
 |Schema name  <br/> |Types schema  <br/> |
 |Validation file  <br/> |Types.xsd  <br/> |
 |Can be empty  <br/> |False  <br/> |
-   
+
 ## See also
 
-
-
-- [EWS XML elements in Exchange](ews-xml-elements-in-exchange.md)
-
+[EWS XML elements in Exchange](ews-xml-elements-in-exchange.md)
