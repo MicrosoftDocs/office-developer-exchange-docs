@@ -70,7 +70,7 @@ The schema that describes this element is located in the IIS virtual directory t
   
 ## Element information
 
-||||
+| Element | Example | Type |
 |:-----|:-----|:-----|
 |Namespace  <br/> |https://schemas.microsoft.com/exchange/services/2006/messages  <br/> |https://schemas.microsoft.com/exchange/services/2006/types  <br/> |
 |Schema Name  <br/> |Messages schema  <br/> |Types schema  <br/> |
