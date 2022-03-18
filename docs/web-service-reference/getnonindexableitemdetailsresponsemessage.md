@@ -15,7 +15,7 @@ description: "The GetNonIndexableItemDetailsResponseMessage element specifies th
 # GetNonIndexableItemDetailsResponseMessage
 
 The **GetNonIndexableItemDetailsResponseMessage** element specifies the response message for a **GetNonIndexableItemDetails** request. 
-  
+
 ```XML
 <GetNonIndexableItemDetailsResponseMessage>
    <MessageText/>
@@ -30,32 +30,30 @@ The **GetNonIndexableItemDetailsResponseMessage** element specifies the response
 ## Attributes and elements
 
 The following sections describe attributes, child elements, and parent elements.
-  
+
 ### Attributes
 
 None.
-  
+
 ### Child elements
 
 [MessageText](messagetext.md) | [ResponseCode](responsecode.md) | [DescriptiveLinkKey](descriptivelinkkey.md) | [MessageXml](messagexml.md) | [NonIndexableItemDetailsResult](nonindexableitemdetailsresult.md)
-  
+
 ### Parent elements
 
 [ResponseMessages](responsemessages.md)
-  
+
 ## Remarks
 
 This element was introduced in Exchange Server 2013.
-  
+
 The schema that describes this element is located in the IIS virtual directory that hosts Exchange Web Services.
-  
+
 ## Element information
 
-|Element|Type|
+|**Element**|**Type**|
 |:-----|:-----|
 |Namespace  <br/> |https://schemas.microsoft.com/exchange/services/2006/messages  <br/> |
 |Schema name  <br/> |Messages schema  <br/> |
 |Validation file  <br/> |Messages.xsd  <br/> |
-|Can be empty  <br/> |false  <br/> |
-   
-
+|Can be empty  <br/> |false  <br/> |  
