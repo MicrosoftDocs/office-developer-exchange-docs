@@ -54,8 +54,8 @@ The schema that describes this element is located in the EWS virtual directory o
   
 ## Element information
 
-|||
 |**Element**|**Description**|
+|:-----|:-----|
 |Namespace  <br/> |https://schemas.microsoft.com/exchange/services/2006/types  <br/> |
 |Schema Name  <br/> |Types schema  <br/> |
 |Validation File  <br/> |Types.xsd  <br/> |
@@ -63,5 +63,4 @@ The schema that describes this element is located in the EWS virtual directory o
    
 ## See also
 
-- [EWS XML elements in Exchange](ews-xml-elements-in-exchange.md)
-
+[EWS XML elements in Exchange](ews-xml-elements-in-exchange.md)
