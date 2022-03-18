@@ -86,7 +86,7 @@ The following example of a [SetUserOofSettings operation](setuseroofsettings-ope
 
 ## Element information
 
-|||
+|**Name**|**Value**|
 |:-----|:-----|
 |Namespace  <br/> |https://schemas.microsoft.com/exchange/services/2006/types  <br/> |
 |Schema Name  <br/> |Types schema  <br/> |

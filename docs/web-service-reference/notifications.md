@@ -57,7 +57,7 @@ The schema that describes this element is located in the IIS virtual directory t
   
 ## Element information
 
-|||
+|**Name**|**Value**|
 |:-----|:-----|
 |Namespace  <br/> |https://schemas.microsoft.com/exchange/services/2006/messages and https://schemas.microsoft.com/exchange/services/2006/types  <br/> |
 |Schema Name  <br/> |Messages schema; Types schema  <br/> |
@@ -69,7 +69,7 @@ The schema that describes this element is located in the IIS virtual directory t
 
 
 [GetFolder operation](getfolder-operation.md)
-  
+
 [DeleteFolder operation](deletefolder-operation.md)
   
 [MoveFolder operation](movefolder-operation.md)
