@@ -1,7 +1,5 @@
 ---
-title: "BillingInformation"
- 
- 
+title: "BillingInformation" 
 manager: sethgros
 ms.date: 09/17/2015
 ms.audience: Developer
@@ -53,7 +51,7 @@ The schema that describes this element is located in the EWS virtual directory o
   
 ## Element information
 
-|||
+|Element part|Information|
 |:-----|:-----|
 |Namespace  <br/> |https://schemas.microsoft.com/exchange/services/2006/types  <br/> |
 |Schema name  <br/> |Types schema  <br/> |
