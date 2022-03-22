@@ -66,8 +66,8 @@ This element was introduced in Exchange Server 2010 Service Pack 2 (SP2).
   
 ## Element information
 
-||
-|:-----|
+|**Name**|**Value**
+|:-----|:-----|
 |Namespace  <br/> |
 |Schema Name  <br/> |
 |Validation File  <br/> |
