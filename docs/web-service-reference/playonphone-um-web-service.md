@@ -54,7 +54,7 @@ None.
   
 ## Element information
 
-|||
+|**Name**|**Value**|
 |:-----|:-----|
 |Namespace  <br/> |https://schemas.microsoft.com/exchange/services/2006/messages  <br/> |
 |Schema Name  <br/> |Messages  <br/> |
@@ -63,7 +63,4 @@ None.
    
 ## See also
 
-
-
-[PlayOnPhone operation (UM web service)](playonphone-operation-um-web-service.md)
-
+- [PlayOnPhone operation (UM web service)](playonphone-operation-um-web-service.md)
