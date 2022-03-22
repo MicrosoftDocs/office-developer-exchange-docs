@@ -57,7 +57,7 @@ This property is used with the [UID](uid.md) property to identify a specific ins
   
 ## Element information
 
-|||
+|**Name**|**Value**|
 |:-----|:-----|
 |Namespace  <br/> |https://schemas.microsoft.com/exchange/services/2006/types  <br/> |
 |Schema Name  <br/> |Types schema  <br/> |
@@ -66,7 +66,4 @@ This property is used with the [UID](uid.md) property to identify a specific ins
    
 ## See also
 
-
-
 - [EWS XML elements in Exchange](ews-xml-elements-in-exchange.md)
-
