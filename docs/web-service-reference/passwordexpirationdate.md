@@ -51,7 +51,7 @@ This element was introduced in Exchange Server 2010 Service Pack 2 (SP2).
   
 ## Element information
 
-|||
+| Element | Example |
 |:-----|:-----|
 |Namespace  <br/> |https://schemas.microsoft.com/exchange/services/2006/types  <br/> |
 |Schema Name  <br/> |Types schema  <br/> |
