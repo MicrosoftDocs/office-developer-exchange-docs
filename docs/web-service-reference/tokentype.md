@@ -1,7 +1,5 @@
 ---
-title: "TokenType"
- 
- 
+title: "TokenType" 
 manager: sethgros
 ms.date: 09/17/2015
 ms.audience: Developer
@@ -49,11 +47,9 @@ The schema that describes this element is located in the IIS virtual directory t
   
 ## Element information
 
-| Element | Example |
+| **Element** | **Example** |
 |:-----|:-----|
 |Namespace  <br/> |https://schemas.microsoft.com/exchange/services/2006/types  <br/> |
 |Schema name  <br/> |Types schema  <br/> |
 |Validation file  <br/> |Types.xsd  <br/> |
 |Can be empty  <br/> |false  <br/> |
-   
-
