@@ -87,7 +87,7 @@ The Id attribute has been shortened to preserve readability.
   
 ## Element information
 
-|||
+|**Element**|**Description**|
 |:-----|:-----|
 |Namespace  <br/> |https://schemas.microsoft.com/exchange/services/2006/types  <br/> |
 |Schema Name  <br/> |Types schema  <br/> |

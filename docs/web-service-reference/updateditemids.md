@@ -50,7 +50,7 @@ If the [PerformReminderAction](performreminderaction-operation.md) operation did
   
 ## Element information
 
-|||
+|**Name**|**Value**|
 |:-----|:-----|
 |Namespace  <br/> |https://schemas.microsoft.com/exchange/services/2006/messages  <br/> |
 |Schema Name  <br/> |Messages schema  <br/> |
@@ -59,10 +59,6 @@ If the [PerformReminderAction](performreminderaction-operation.md) operation did
    
 ## See also
 
-
-
-[PerformReminderActionResponse](performreminderactionresponse.md)
-
+- [PerformReminderActionResponse](performreminderactionresponse.md)
 
 - [EWS XML elements in Exchange](ews-xml-elements-in-exchange.md)
-

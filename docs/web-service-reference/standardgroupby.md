@@ -59,7 +59,7 @@ The schema that describes this element is located in the EWS virtual directory o
   
 ## Element information
 
-|||
+|**Name**|**Value**|
 |:-----|:-----|
 |Namespace  <br/> |https://schemas.microsoft.com/exchange/services/2006/types  <br/> |
 |Schema Name  <br/> |Types schema  <br/> |
@@ -68,12 +68,8 @@ The schema that describes this element is located in the EWS virtual directory o
    
 ## See also
 
-
-
-[FindItem operation](finditem-operation.md)
+- [FindItem operation](finditem-operation.md)
   
-[FindItem](finditem.md)
+- [FindItem](finditem.md)
 
-
-[Finding Items](https://msdn.microsoft.com/library/63af1f9c-464b-4fca-9ae3-3d60f24ca93c%28Office.15%29.aspx)
-
+- [Finding Items](https://msdn.microsoft.com/library/63af1f9c-464b-4fca-9ae3-3d60f24ca93c%28Office.15%29.aspx)
