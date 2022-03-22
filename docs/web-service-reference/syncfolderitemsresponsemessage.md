@@ -77,7 +77,7 @@ The schema that describes this element is located in the EWS virtual directory o
   
 ## Element information
 
-|||
+|**Name**|**Value**|
 |:-----|:-----|
 |Namespace  <br/> |https://schemas.microsoft.com/exchange/services/2006/messages  <br/> |
 |Schema Name  <br/> |Messages schema  <br/> |
@@ -88,4 +88,3 @@ The schema that describes this element is located in the EWS virtual directory o
 
 - [SyncFolderItems operation](syncfolderitems-operation.md)
 - [EWS XML elements in Exchange](ews-xml-elements-in-exchange.md)
-

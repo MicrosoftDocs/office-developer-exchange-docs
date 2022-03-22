@@ -72,7 +72,7 @@ In versions of Exchange earlier than major version 15, the item identifier for t
   
 ## Element information
 
-|||
+|**Name**|**Value**|
 |:-----|:-----|
 |Namespace  <br/> |https://schemas.microsoft.com/exchange/services/2006/types  <br/> |
 |Schema Name  <br/> |Types schema  <br/> |
@@ -81,7 +81,4 @@ In versions of Exchange earlier than major version 15, the item identifier for t
    
 ## See also
 
-
-
 - [EWS XML elements in Exchange](ews-xml-elements-in-exchange.md)
-

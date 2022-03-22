@@ -71,7 +71,7 @@ The schema that describes this element is located in the IIS virtual directory t
   
 ## Element information
 
-|||
+|**Name**|**Value**|
 |:-----|:-----|
 |Namespace  <br/> |https://schemas.microsoft.com/exchange/services/2006/messages  <br/> |
 |Schema name  <br/> |Messages schema  <br/> |
@@ -80,11 +80,8 @@ The schema that describes this element is located in the IIS virtual directory t
    
 ## See also
 
-
-
 [Subscribe operation](subscribe-operation.md)
   
 [GetEvents operation](getevents-operation.md)
   
 [Unsubscribe operation](unsubscribe-operation.md)
-

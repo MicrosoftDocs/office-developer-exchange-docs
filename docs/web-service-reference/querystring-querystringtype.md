@@ -208,7 +208,7 @@ The following example shows a successful response to the request.
 
 ## Element information
 
-|||
+|**Code**|**Name**|
 |:-----|:-----|
 |Namespace  <br/> |https://schemas.microsoft.com/exchange/services/2006/messages  <br/> |
 |Schema name  <br/> |Messages schema  <br/> |

@@ -49,7 +49,7 @@ The schema that describes this element is located in the IIS virtual directory t
   
 ## Element information
 
-|||
+|**Name**|**Value**|
 |:-----|:-----|
 |Namespace  <br/> |https://schemas.microsoft.com/exchange/services/2006/messages  <br/> |
 |Schema Name  <br/> |Messages schema  <br/> |
@@ -58,10 +58,6 @@ The schema that describes this element is located in the IIS virtual directory t
    
 ## See also
 
-
-
-[GetReminders](getreminders.md)
-
+- [GetReminders](getreminders.md)
 
 - [EWS XML elements in Exchange](ews-xml-elements-in-exchange.md)
-
