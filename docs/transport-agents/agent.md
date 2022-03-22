@@ -1,7 +1,7 @@
 ---
 title: "agent"
-manager: sethgros
-ms.date: 09/17/2015
+manager: lindalu
+ms.date: 03/10/2022
 ms.audience: Developer
 ms.topic: overview
 ms.prod: office-online-server
@@ -11,7 +11,7 @@ api_name:
 api_type:
 - schema
 ms.assetid: 0bf744a5-9d79-4c82-8ea7-45fdb3f55300
-description: "Last modified: September 17, 2015"
+description: "Configuration information about an installed agent. "
 ---
 
 # agent
@@ -63,7 +63,7 @@ None.
    
 ## Element information
 
-|||
+|**Element**|**Example**|
 |:-----|:-----|
 |Namespace  <br/> |This file does not define a namespace.  <br/> |
 |Schema Name  <br/> |Not available.  <br/> |

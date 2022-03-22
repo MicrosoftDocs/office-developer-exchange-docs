@@ -69,7 +69,7 @@ The **GetAppManifestsResponseMessage** element is applicable for clients that ta
   
 ## Element information
 
-|||
+| Element | Example |
 |:-----|:-----|
 |Namespace  <br/> |https://schemas.microsoft.com/exchange/services/2006/messages  <br/> |
 |Schema Name  <br/> |Message schema  <br/> |

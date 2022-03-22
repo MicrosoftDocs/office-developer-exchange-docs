@@ -61,7 +61,7 @@ This element was introduced in Exchange Server 2010 Service Pack 1 (SP1).The sch
   
 ## Element information
 
-|||
+|Element|Type|
 |:-----|:-----|
 |Namespace  <br/> |https://schemas.microsoft.com/exchange/services/2006/types  <br/> |
 |Schema name  <br/> |Types schema  <br/> |

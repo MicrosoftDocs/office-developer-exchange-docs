@@ -253,7 +253,7 @@ The following example shows the response to a request to get the MIME stream. Th
 </s:Envelope>
 ```
 
-## 
+ 
 <a name="bk_exportfullfidelity"> </a>
 
 After exporting items, you might want to [import items into Exchange](how-to-import-items-by-using-ews-in-exchange.md).

@@ -48,7 +48,7 @@ This element specifies the Autodiscover URL of the server for the external organ
   
 ## Element information
 
-|||
+|**Name**|**Value**|
 |:-----|:-----|
 |Namespace  <br/> |https://schemas.microsoft.com/exchange/2010/Autodiscover  <br/> |
 |Schema Name  <br/> |Autodiscover schema  <br/> |
@@ -57,7 +57,4 @@ This element specifies the Autodiscover URL of the server for the external organ
    
 ## See also
 
-
-
-[GetOrganizationRelationshipSettings operation (SOAP)](getorganizationrelationshipsettings-operation-soap.md)
-
+- [GetOrganizationRelationshipSettings operation (SOAP)](getorganizationrelationshipsettings-operation-soap.md)
