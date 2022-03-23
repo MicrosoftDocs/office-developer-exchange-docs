@@ -50,7 +50,7 @@ To determine whether a mailbox is enabled for Unified Messaging, use the [IsUMEn
   
 ## Element information
 
-|||
+| Element | Example |
 |:-----|:-----|
 |Namespace  <br/> |https://schemas.microsoft.com/exchange/services/2006/messages  <br/> |
 |Schema Name  <br/> |Messages  <br/> |
