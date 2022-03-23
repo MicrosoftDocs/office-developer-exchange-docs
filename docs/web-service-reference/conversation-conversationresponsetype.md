@@ -20,6 +20,40 @@ The **Conversation** (GetConversationItemsResponseMessageType) element represent
 
  **ConversationResponseType**
 
+The following sections describe attributes, child elements, and parent elements.
+  
+### Attributes
+
+|**Attribute**|**Description**|
+|:-----|:-----|
+||| 
+    
+|**Value**|**Description**|
+|:-----|:-----|
+|||
+
+### Child elements
+
+|**Element**|**Description**|
+|:-----|:-----|
+|||
+  
+### Parent elements
+
+|**Element**|**Description**|
+|:-----|:-----|
+|||
+
+## Remarks
+
+This element was introduced in Exchange Server 2013.
+  
+## Example
+
+Microsoft.Win32.RegistryKey#4
+  
+## Element information
+
 |**Element information**|
 |:-----|
 |Namespace  <br/> |
