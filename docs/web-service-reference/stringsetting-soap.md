@@ -54,7 +54,7 @@ The **StringSetting** type extends the **UserSetting** type.
   
 ## Element information
 
-|||
+|**Name**|**Value**|
 |:-----|:-----|
 |Namespace  <br/> |https://schemas.microsoft.com/exchange/2010/Autodiscover  <br/> |
 |Schema Name  <br/> |Autodiscover schema  <br/> |

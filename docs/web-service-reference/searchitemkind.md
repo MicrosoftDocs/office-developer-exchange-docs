@@ -61,7 +61,7 @@ The schema that describes this element is located in the IIS virtual directory t
   
 ## Element information
 
-|||
+| Element | Example |
 |:-----|:-----|
 |Namespace |https://schemas.microsoft.com/exchange/services/2006/types |
 |Schema name |Types schema |

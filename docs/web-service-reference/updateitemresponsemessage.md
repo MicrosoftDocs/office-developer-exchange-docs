@@ -75,7 +75,7 @@ The schema that describes this element is located in the EWS virtual directory o
   
 ## Element information
 
-|||
+|**Name**|**Value**|
 |:-----|:-----|
 |Namespace  <br/> |https://schemas.microsoft.com/exchange/services/2006/messages  <br/> |
 |Schema Name  <br/> |Messages schema  <br/> |
@@ -87,4 +87,3 @@ The schema that describes this element is located in the EWS virtual directory o
 - [UpdateItem operation](updateitem-operation.md)
 - [Updating Contacts](https://msdn.microsoft.com/library/9a865953-b94a-4229-b632-2dee433314be%28Office.15%29.aspx)
 - [Updating Tasks](https://msdn.microsoft.com/library/0a1bf360-d40c-4a99-929b-4c73a14394d5%28Office.15%29.aspx)
-

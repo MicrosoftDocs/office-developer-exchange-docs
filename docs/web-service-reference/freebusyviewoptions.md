@@ -117,7 +117,7 @@ The following example obtains a list of meetings and a free/busy stream in 60-mi
 
 ## Element information
 
-|||
+|**Name**|**Value**|
 |:-----|:-----|
 |Namespace  <br/> |https://schemas.microsoft.com/exchange/services/2006/types  <br/> |
 |Schema Name  <br/> |Types schema  <br/> |
