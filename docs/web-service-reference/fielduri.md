@@ -446,7 +446,7 @@ The following example shows how to use the FieldURI element.
 
 ## Element information
 
-|||
+|Element|Example|
 |:-----|:-----|
 |Namespace  <br/> |https://schemas.microsoft.com/exchange/services/2006/types  <br/> |
 |Schema Name  <br/> |Types schema  <br/> |

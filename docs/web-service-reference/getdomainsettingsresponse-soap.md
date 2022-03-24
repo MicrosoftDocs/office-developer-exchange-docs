@@ -1,7 +1,7 @@
 ---
 title: "GetDomainSettingsResponse (SOAP)"
-manager: sethgros
-ms.date: 09/17/2015
+manager: lindalu
+ms.date: 03/22/2022
 ms.audience: Developer
 ms.topic: reference
 ms.localizationpriority: medium
@@ -10,13 +10,12 @@ api_type:
 ms.assetid: 43ebd17b-3a70-4878-9254-97a4c2c87b77
 description: "The GetDomainSettingsResponse element represents the response to a GetDomainSettings operation (SOAP), which returns the domain settings."
  
- 
 ---
 
 # GetDomainSettingsResponse (SOAP)
 
 The **GetDomainSettingsResponse** element represents the response to a [GetDomainSettings operation (SOAP)](getdomainsettings-operation-soap.md), which returns the domain settings.
-  
+
 ```XML
 <GetDomainSettingsResponse>
    <DomainResponses/>
@@ -29,11 +28,11 @@ The **GetDomainSettingsResponse** element represents the response to a [GetDomai
 ## Attributes and elements
 
 The following sections describe attributes, child elements, and parent elements.
-  
+
 ### Attributes
 
 None.
-  
+
 ### Child elements
 
 |**Element**|**Description**|
@@ -45,14 +44,14 @@ None.
 ### Parent elements
 
 None.
-  
+
 ## Text value
 
 None.
-  
+
 ## Element information
 
-| Element | Example |
+| **Element** | **Example** |
 |:-----|:-----|
 |Namespace  <br/> |https://schemas.microsoft.com/exchange/2010/Autodiscover  <br/> |
 |Schema Name  <br/> |Autodiscover schema  <br/> |
@@ -61,7 +60,4 @@ None.
    
 ## See also
 
-
-
 [GetDomainSettings operation (SOAP)](getdomainsettings-operation-soap.md)
-

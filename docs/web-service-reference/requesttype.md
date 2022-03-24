@@ -51,7 +51,7 @@ A text value is required for this element. The following are the possible values
     
 ## Element information
 
-|||
+| Element | Example |
 |:-----|:-----|
 |Namespace  <br/> |https://schemas.microsoft.com/exchange/services/2006/types  <br/> |
 |Schema name  <br/> |Types schema  <br/> |

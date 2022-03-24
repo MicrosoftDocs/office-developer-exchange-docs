@@ -75,7 +75,7 @@ This element is not required and can only occur once if used. This value can be 
   
 ## Element information
 
-|||
+|**Name**|**Value**|
 |:-----|:-----|
 |Namespace  <br/> |https://schemas.microsoft.com/exchange/services/2006/types  <br/> |
 |Schema Name  <br/> |Types schema  <br/> |

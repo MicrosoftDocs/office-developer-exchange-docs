@@ -46,7 +46,7 @@ The text value of the **Server** element is the name of the alternate mailbox se
   
 ## Element information
 
-|||
+| Element | Example |
 |:-----|:-----|
 |Namespace  <br/> |https://schemas.microsoft.com/exchange/2010/Autodiscover  <br/> |
 |Schema Name  <br/> |Autodiscover schema  <br/> |

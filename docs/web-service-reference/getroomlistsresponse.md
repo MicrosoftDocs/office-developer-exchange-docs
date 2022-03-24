@@ -68,7 +68,7 @@ The following sections describe attributes, child elements, and parent elements.
    
 ## Element information
 
-|||
+| Element | Example |
 |:-----|:-----|
 |Namespace  <br/> |https://schemas.microsoft.com/exchange/services/2006/messages  <br/> |
 |Schema Name  <br/> |Messages schema  <br/> |

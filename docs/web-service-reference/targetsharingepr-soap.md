@@ -43,7 +43,7 @@ This element specifies the URL of the target server for the external organizatio
   
 ## Element information
 
-|||
+|**Name**|**Value**|
 |:-----|:-----|
 |Namespace  <br/> |https://schemas.microsoft.com/exchange/2010/Autodiscover  <br/> |
 |Schema Name  <br/> |Autodiscover schema  <br/> |
@@ -53,4 +53,3 @@ This element specifies the URL of the target server for the external organizatio
 ## See also
 
 - [GetOrganizationRelationshipSettings operation (SOAP)](getorganizationrelationshipsettings-operation-soap.md)
-
