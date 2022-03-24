@@ -98,7 +98,7 @@ The following example of a SetUserOofSettings request sets the OoFState to **Ena
 
 ## Element information
 
-|||
+| Element | Example |
 |:-----|:-----|
 |Namespace  <br/> |https://schemas.microsoft.com/exchange/services/2006/messages  <br/> |
 |Schema Name  <br/> |messages schema  <br/> |
