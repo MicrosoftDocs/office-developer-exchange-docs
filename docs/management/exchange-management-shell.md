@@ -39,7 +39,7 @@ The articles in this section describe Exchange Management Shell features that ar
     
 ## See also
   
-- [Windows PowerShell documentation](https://docs.microsoft.com/powershell/scripting/getting-started/getting-started-with-windows-powershell?view=powershell-6)
+- [Windows PowerShell documentation](/powershell/scripting/getting-started/getting-started-with-windows-powershell?view=powershell-6)
 - [PowerShell scripting](/powershell/scripting/overview?view=powershell-7.2)
     
 
