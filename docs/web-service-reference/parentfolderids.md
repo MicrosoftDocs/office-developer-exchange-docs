@@ -80,7 +80,7 @@ The **ParentFolderIds** element must use either the [FolderId](folderid.md) or t
 
 ## Element information
 
-|||
+|Element|Example|
 |:-----|:-----|
 |Namespace  <br/> |https://schemas.microsoft.com/exchange/services/2006/messages  <br/> |
 |Schema Name  <br/> |Messages schema  <br/> |

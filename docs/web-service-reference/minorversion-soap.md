@@ -46,7 +46,7 @@ An integer value that represents the minor version number of the server that pro
   
 ## Element information
 
-|||
+|Element|Example|
 |:-----|:-----|
 |Namespace  <br/> |https://schemas.microsoft.com/exchange/2010/Autodiscover  <br/> |
 |Schema Name  <br/> |Autodiscover schema  <br/> |
