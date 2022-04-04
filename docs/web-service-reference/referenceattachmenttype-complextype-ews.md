@@ -1,9 +1,8 @@
 ---
 title: "ReferenceAttachmentType complexType (EWS)"
- 
- 
+description: "Element information for ReferenceAttachmentType complexType"
 manager: sethgros
-ms.date: 03/9/2015
+ms.date: 04/04/2022
 ms.audience: ITPro
 ms.topic: article
 ms.prod: office-online-server
@@ -15,7 +14,7 @@ ms.assetid: 18bfa012-e903-d7f3-528a-31ccceb65463
 
 ## Type information
 
-|||
+|Element|Description|
 |:-----|:-----|
 |**Namespace** <br/> |https://schemas.microsoft.com/exchange/services/2006/types  <br/> |
 |**Schema file** <br/> |types.xsd  <br/> |
@@ -49,5 +48,3 @@ If the schema defines specific requirements, such as **sequence**, **minOccurs**
 ### Attributes
 
 None.
-  
-
