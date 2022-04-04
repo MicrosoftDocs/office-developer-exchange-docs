@@ -15,7 +15,7 @@ ms.assetid: 18bfa012-e903-d7f3-528a-31ccceb65463
 
 ## Type information
 
-|||
+|Type|Example|
 |:-----|:-----|
 |**Namespace** <br/> |https://schemas.microsoft.com/exchange/services/2006/types  <br/> |
 |**Schema file** <br/> |types.xsd  <br/> |
