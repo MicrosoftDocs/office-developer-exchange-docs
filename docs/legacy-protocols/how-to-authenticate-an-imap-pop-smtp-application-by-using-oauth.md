@@ -26,6 +26,20 @@ To use OAuth, an application must be registered with Azure Active Directory.
 
 Follow the instructions listed in [Register an application with the Microsoft identity platform](/azure/active-directory/develop/quickstart-register-app) to create a new application.
 
+Once registered, make the following changes to grant users delegated permissions to call the APIs:
+1. Assign Microsoft Graph API permissions:
+    1. Go to *API permissions* for the new application registration
+    1. Select *Add a permission*
+    1. Select *Microsoft Graph*
+    1. Select *Delegated permissions*
+    1. Search for and select *IMAP.AccessAsUser.All*, *SMTP.Send*, or *POP.AccessAsUser.All*, depending on which protocol will be used
+    1. Click *Add permissions* to save the changes
+    1. If necessary, grant permissions to your organisation by clicking the grant admin consent button
+1. Enable user sign-in for Exchange Online
+    1. Navigate to *Enterprise Applications* in your AAD
+    1. Search for Office 365 Exchange Online (you may need to change the filter to All Applications) 
+    1. Select the *Office 365 Excahnge Online application* and in the Properties for this app, and ensure that the "Enabled for users to sign-in?" setting is set to Yes
+
 ## Get an access token
 
 You can use one of our [MSAL client libraries](/azure/active-directory/develop/msal-overview) to fetch an access token from your client application.
