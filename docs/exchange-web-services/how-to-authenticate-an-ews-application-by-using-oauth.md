@@ -327,3 +327,4 @@ The sample code in both cases requires an **App.config** file with the following
 ## See also
 
 - [Authentication and EWS in Exchange](authentication-and-ews-in-exchange.md)
+- [What to do with EWS Managed API PowerShell scripts that use Basic Authentication](https://github.com/gscales/EWS-BasicToOAuth-Info/blob/main/What%20to%20do%20with%20EWS%20Managed%20API%20PowerShell%20scripts%20that%20use%20Basic%20Authentication.md)
