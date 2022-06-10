@@ -18,9 +18,9 @@ Find out how to create a custom RoutingAgent transport agent to use with Exchang
   
 Related code snippets and sample apps:
 
-- [Exchange 2013: Build a bandwidth logging transport agent](/exchange/client-developer/transport-agents/transport-agent-code-samples-for-exchange-2013.md)
+- [Exchange 2013: Build a bandwidth logging transport agent](/exchange/client-developer/transport-agents/transport-agent-code-samples-for-exchange-2013)
   
-The [RoutingAgentFactory](https://docs.microsoft.com/previous-versions/office/exchange-server-api/aa564164(v=exchg.150)) and [RoutingAgent](https://docs.microsoft.com/previous-versions/office/exchange-server-api/aa564421(v=exchg.150)) classes are the base classes for transport agents that are designed to run on the transport service on an Exchange Server 2013 Mailbox server. The [RoutingAgent](https://docs.microsoft.com/previous-versions/office/exchange-server-api/aa564421(v=exchg.150)) class provides the events listed in the following table for which you might implement handlers in your RoutingAgent transport agent. 
+The [RoutingAgentFactory](/previous-versions/office/exchange-server-api/aa564164(v=exchg.150)) and [RoutingAgent](/previous-versions/office/exchange-server-api/aa564421(v=exchg.150)) classes are the base classes for transport agents that are designed to run on the transport service on an Exchange Server 2013 Mailbox server. The [RoutingAgent](/previous-versions/office/exchange-server-api/aa564421(v=exchg.150)) class provides the events listed in the following table for which you might implement handlers in your RoutingAgent transport agent. 
   
 **Table 1. RoutingAgent class events**
 
@@ -88,5 +88,3 @@ The following procedure describes how to create a custom RoutingAgent transport 
 - [Transport agent reference for Exchange 2013](transport-agent-reference-for-exchange-2013.md)    
 - [RoutingAgentFactory](https://msdn.microsoft.com/library/Microsoft.Exchange.Data.Transport.Routing.RoutingAgentFactory.aspx)    
 - [RoutingAgent](https://msdn.microsoft.com/library/Microsoft.Exchange.Data.Transport.Routing.RoutingAgent.aspx)
-    
-

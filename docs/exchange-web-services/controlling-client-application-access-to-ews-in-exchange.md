@@ -74,7 +74,5 @@ Administrators use the following Exchange Management Shell cmdlets to configure 
 
 - [Start using web services in Exchange](start-using-web-services-in-exchange.md)  
 - [Control access to EWS in Exchange](how-to-control-access-to-ews-in-exchange.md)
-- [Exchange Server PowerShell (Exchange Management Shell)](https://docs.microsoft.com/powershell/exchange/exchange-server/exchange-management-shell?view=exchange-ps)
+- [Exchange Server PowerShell (Exchange Management Shell)](/powershell/exchange/exchange-server/exchange-management-shell?view=exchange-ps)
 - [Windows PowerShell](https://msdn.microsoft.com/library/dd835506%28v=vs.85%29.aspx)
-    
-

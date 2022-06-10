@@ -111,7 +111,7 @@ Setting the traversal on the view controls the depth and scope of the search.
 |Shallow  <br/> |Items and Folders  <br/> |Shallow searches are limited to direct children of the folder being searched.  <br/> |
 |Deep  <br/> |Items (only with search folders) and Folders  <br/> |Deep searches recursively search the folder being searched and subfolders.  <br/> |
 |Associated  <br/> |Items  <br/> |Associated searches only include associated items from the folder being searched. Associated items are hidden items within the folder.  <br/> |
-|SoftDeleted  <br/> |Items and Folders  <br/> |This traversal type is deprecated. SoftDeleted searches only include items that are in the dumpster. The dumpster has been replaced by the [Recoverable Items Folder](https://docs.microsoft.com/exchange/policy-and-compliance/recoverable-items-folder/recoverable-items-folder) in Exchange Online, Exchange Online as part of Office 365, and versions of Exchange starting with Exchange 2010.  <br/> |
+|SoftDeleted  <br/> |Items and Folders  <br/> |This traversal type is deprecated. SoftDeleted searches only include items that are in the dumpster. The dumpster has been replaced by the [Recoverable Items Folder](/exchange/policy-and-compliance/recoverable-items-folder/recoverable-items-folder) in Exchange Online, Exchange Online as part of Office 365, and versions of Exchange starting with Exchange 2010.  <br/> |
 
 ## Managing search results
 <a name="bk_ManageSearchResults"> </a>
@@ -183,7 +183,7 @@ static void CreateSearchFolder(ExchangeService service)
 
 - [Develop web service clients for Exchange](develop-web-service-clients-for-exchange.md)
 
-- [Recoverable Items Folder](https://docs.microsoft.com/exchange/policy-and-compliance/recoverable-items-folder/recoverable-items-folder)
+- [Recoverable Items Folder](/exchange/policy-and-compliance/recoverable-items-folder/recoverable-items-folder)
 
 - [ExchangeService.FindItems](https://msdn.microsoft.com/library/microsoft.exchange.webservices.data.exchangeservice.finditems%28v=exchg.80%29.aspx)
 

@@ -15,7 +15,7 @@ description: "Find information about the GetHoldOnMailboxes EWS operation."
 # GetHoldOnMailboxes operation
 
 > [!IMPORTANT]
-> Starting on April 1, 2020, the GetHoldOnMailboxes operation will no longer be available in Exchange Online. This operation won't be affected in on-premises versions of Exchange Server. For more information, see [Retirement of legacy eDiscovery tools in Exchange Online](https://docs.microsoft.com/microsoft-365/compliance/legacy-ediscovery-retirement#getsearchablemailboxes-setholdonmailboxes-and-getholdonmailboxes-operations-in-the-ews-api).
+> Starting on April 1, 2020, the GetHoldOnMailboxes operation will no longer be available in Exchange Online. This operation won't be affected in on-premises versions of Exchange Server. For more information, see [Retirement of legacy eDiscovery tools in Exchange Online](/microsoft-365/compliance/legacy-ediscovery-retirement#getsearchablemailboxes-setholdonmailboxes-and-getholdonmailboxes-operations-in-the-ews-api).
 
 Find information about the **GetHoldOnMailboxes** EWS operation. 
   
@@ -189,5 +189,3 @@ For additional error codes that are generic to EWS and specific to this operatio
 - [GetNonIndexableItemDetails operation](getnonindexableitemdetails-operation.md)
     
 - [GetNonIndexableItemStatistics operation](getnonindexableitemstatistics-operation.md)
-    
-
