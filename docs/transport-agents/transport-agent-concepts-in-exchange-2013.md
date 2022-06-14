@@ -128,4 +128,4 @@ After you write your transport agent, you [install and manage your agent](https:
 - [Mailbox and Client Access Servers](https://technet.microsoft.com/library/jj150519%28v=exchg.150%29.aspx)
 - [Exchange Server 2013 Mail Flow](https://technet.microsoft.com/library/aa996349.aspx)
 - [Exchange Server 2013 Mail Routing](https://technet.microsoft.com/library/aa998825%28v=exchg.150%29.aspx)
-- [Exchange Server PowerShell (Exchange Management Shell)](https://docs.microsoft.com/powershell/exchange/exchange-server/exchange-management-shell?view=exchange-ps&preserve-view=true)
+- [Exchange Server PowerShell (Exchange Management Shell)](/powershell/exchange/exchange-management-shell?view=exchange-ps&preserve-view=true)

@@ -4598,4 +4598,4 @@
             - name: Authenticate an IMAP, POP, SMTP application by using OAuth
               href: legacy-protocols/how-to-authenticate-an-imap-pop-smtp-application-by-using-oauth.md
         - name: Server API reference for Exchange
-          href: https://docs.microsoft.com/previous-versions/office/exchange-server-api/dn186243(v=exchg.150)
+          href: /previous-versions/office/exchange-server-api/dn186243(v=exchg.150)

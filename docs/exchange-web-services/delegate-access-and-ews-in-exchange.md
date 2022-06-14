@@ -36,7 +36,7 @@ When is it appropriate to modify folder permissions directly? Generally, when yo
   
 If you only need to modify folder permissions to achieve your goal, and do not need to add a delegate (that is, you don't need "send on behalf of" permissions), see [Set folder permissions for another user by using EWS in Exchange](how-to-set-folder-permissions-for-another-user-by-using-ews-in-exchange.md). 
 
-Note that you can also use [Outlook](https://office.microsoft.com/outlook-help/allow-someone-else-to-manage-your-mail-and-calendar-HA102749417.aspx) or the [Exchange Server PowerShell (Exchange Management Shell)](https://docs.microsoft.com/powershell/exchange/exchange-server/exchange-management-shell?view=exchange-ps) to set up delegate access. 
+Note that you can also use [Outlook](https://office.microsoft.com/outlook-help/allow-someone-else-to-manage-your-mail-and-calendar-HA102749417.aspx) or the [Exchange Server PowerShell (Exchange Management Shell)](/powershell/exchange/exchange-server/exchange-management-shell?view=exchange-ps) to set up delegate access. 
 
   
 ## How does delegate access work?
@@ -167,4 +167,3 @@ If an item ID was retrieved by the [FindItem](https://msdn.microsoft.com/library
 - [Allow someone else to manage your mail and calendar](https://office.microsoft.com/outlook-help/allow-someone-else-to-manage-your-mail-and-calendar-HA102749417.aspx)  
 
 - [Add- MailboxPermission](https://technet.microsoft.com/library/bb124097%28v=exchg.150%29.aspx)
-    

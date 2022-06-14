@@ -74,13 +74,13 @@ The service callback token is an opaque token that the third-party service attac
 
 - [Mailbox.makeEwsRequestAsync method (JavaScript API for Office)](https://msdn.microsoft.com/library/2ec380e0-4a67-4146-92a6-6a39f65dc6f2%28Office.15%29.aspx)
 
-- [Outlook add-ins](https://docs.microsoft.com/outlook/add-ins)
+- [Outlook add-ins](/office/dev/add-ins/outlook/outlook-add-ins-overview)
 
 - [Mailbox.getUserIdentityTokenAsync method (JavaScript API for Office)](https://msdn.microsoft.com/library/c658518b-6867-41a0-99cf-810303e4c539%28Office.15%29.aspx)
 
 - [Authenticate an Outlook add-in by using Exchange identity tokens](https://msdn.microsoft.com/library/c0520a1e-d9ba-495a-a99f-6816d7d2a23e%28Office.15%29.aspx)
 
-- [Understanding Outlook add-in permissions](https://docs.microsoft.com/outlook/add-ins/understanding-outlook-add-in-permissions)
+- [Understanding Outlook add-in permissions](/office/dev/add-ins/outlook/understanding-outlook-add-in-permissions)
 
 - [Set-WebServicesVirtualDirectory](https://technet.microsoft.com/library/aa997233%28v=exchg.150%29.aspx)
 
