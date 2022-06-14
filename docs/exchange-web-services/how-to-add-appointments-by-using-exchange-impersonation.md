@@ -187,4 +187,4 @@ Again, this is the same XML that is returned when you use the **CreateItem** ope
 - [Identify the account to impersonate](how-to-identify-the-account-to-impersonate.md)
 - [Create appointments and meetings by using EWS in Exchange 2013](how-to-create-appointments-and-meetings-by-using-ews-in-exchange-2013.md)
 - [CreateItem operation (calendar item)](../web-service-reference/createitem-operation-calendar-item.md)
-- [ExchangeService.ImpersonatedUserId property](https://docs.microsoft.com/dotnet/api/microsoft.exchange.webservices.data.exchangeservice.impersonateduserid?view=exchange-ews-api)
+- [ExchangeService.ImpersonatedUserId property](/dotnet/api/microsoft.exchange.webservices.data.exchangeservice.impersonateduserid?view=exchange-ews-api)

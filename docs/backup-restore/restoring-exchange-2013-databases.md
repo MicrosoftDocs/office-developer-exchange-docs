@@ -28,7 +28,7 @@ The Exchange writer that is included in Exchange Server 2013 allows for some fle
     
 When your restore application restores information to the original database, the log files must be restored to the directory path specified in Active Directory Domain Services (AD DS) for that database. If your application restores a database to a different location, the log files must be restored to a folder named **_restoredLogs** that is located inside the database log file directory. 
   
-When restoring to a server or database that is different than the original database, your restore application must make sure that the database directory paths provided to VSS match those in AD DS. You can use the [get-MailboxDatabase](https://technet.microsoft.com/library/bb124924%28v=exchg.150%29.aspx)Exchange Management Shell cmdlet to get information about existing databases. For more information about the Exchange Management Shell, see [Exchange Server PowerShell (Exchange Management Shell)](https://docs.microsoft.com/powershell/exchange/exchange-server/exchange-management-shell?view=exchange-ps). 
+When restoring to a server or database that is different than the original database, your restore application must make sure that the database directory paths provided to VSS match those in AD DS. You can use the [get-MailboxDatabase](https://technet.microsoft.com/library/bb124924%28v=exchg.150%29.aspx)Exchange Management Shell cmdlet to get information about existing databases. For more information about the Exchange Management Shell, see [Exchange Server PowerShell (Exchange Management Shell)](/powershell/exchange/exchange-server/exchange-management-shell?view=exchange-ps). 
   
 The following figure shows the sequence of events in a typical restore of an Exchange database that is managed by the Volume Shadow Copy Service (VSS).
   
@@ -75,5 +75,3 @@ In these scenarios, the file paths for the target database as well as its object
 - [Backup and restore concepts for Exchange 2013](backup-and-restore-concepts-for-exchange-2013.md)
     
 - [CChkSGFiles class reference](cchksgfiles-class-reference.md)
-    
-

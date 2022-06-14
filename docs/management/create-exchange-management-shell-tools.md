@@ -40,7 +40,5 @@ The Exchange Management Shell cmdlets accept and return objects. For a list of E
 ## See also
 
 - [Exchange Management Shell namespaces](exchange-management-shell-namespaces.md)  
-- [Exchange Server PowerShell (Exchange Management Shell)](https://docs.microsoft.com/powershell/exchange/exchange-server/exchange-management-shell?view=exchange-ps)  
+- [Exchange Server PowerShell (Exchange Management Shell)](/powershell/exchange/exchange-server/exchange-management-shell?view=exchange-ps)  
 - [Windows PowerShell](https://msdn.microsoft.com/library/dd835506%28v=vs.85%29.aspx)
-    
-

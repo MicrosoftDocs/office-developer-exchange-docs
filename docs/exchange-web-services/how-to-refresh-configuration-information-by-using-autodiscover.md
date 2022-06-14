@@ -60,8 +60,8 @@ Refreshing your cached configuration information can help with some errors, but 
 
 |**Error**|**EWS Managed API implementation**|**Notes**|
 |:-----|:-----|:-----|
-|DNS or network failure errors<br/><br/> Example: Host name could not be found.  <br/> |[ServiceRemoteException](https://docs.microsoft.com/dotnet/api/microsoft.exchange.webservices.data.serviceremoteexception?view=exchange-ews-api) <br/> |Any error that indicates that the server could not be found or could not be reached might be resolved by trying Autodiscover. <br/><br/> Your cached EWS endpoint might no longer be valid, and Autodiscover might be able to point you to the new server.  <br/> |
-|HTTP status errors<br/><br/> Example: 503 Service Unavailable  <br/> |[ServiceRemoteException](https://docs.microsoft.com/dotnet/api/microsoft.exchange.webservices.data.serviceremoteexception?view=exchange-ews-api) <br/> |HTTP status errors can happen for many different reasons.<br/><br/> However, it's a good idea to try Autodiscover to see if a new EWS endpoint is available for the user.  <br/> |
+|DNS or network failure errors<br/><br/> Example: Host name could not be found.  <br/> |[ServiceRemoteException](/dotnet/api/microsoft.exchange.webservices.data.serviceremoteexception?view=exchange-ews-api) <br/> |Any error that indicates that the server could not be found or could not be reached might be resolved by trying Autodiscover. <br/><br/> Your cached EWS endpoint might no longer be valid, and Autodiscover might be able to point you to the new server.  <br/> |
+|HTTP status errors<br/><br/> Example: 503 Service Unavailable  <br/> |[ServiceRemoteException](/dotnet/api/microsoft.exchange.webservices.data.serviceremoteexception?view=exchange-ews-api) <br/> |HTTP status errors can happen for many different reasons.<br/><br/> However, it's a good idea to try Autodiscover to see if a new EWS endpoint is available for the user.  <br/> |
 |EWS error codes <br/><br/> Example: ErrorConnectionFailed <br/> |[ResponseCodeType](../web-service-reference/responsecode.md) <br/> | Most EWS error codes don't warrant refreshing your configuration information.<br/><br/> However, the following specifically indicate that the configuration information needs to be updated:<br/>- **ErrorConnectionFailed** <br/>- **ErrorMailboxMoveInProgress** <br/> |
    
 ## See also
@@ -69,5 +69,3 @@ Refreshing your cached configuration information can help with some errors, but 
 - [Autodiscover for Exchange](autodiscover-for-exchange.md)  
 - [Generate a list of Autodiscover endpoints](how-to-generate-a-list-of-autodiscover-endpoints.md)   
 - [Get user settings from Exchange by using Autodiscover](how-to-get-user-settings-from-exchange-by-using-autodiscover.md)
-    
-

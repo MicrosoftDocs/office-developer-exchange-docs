@@ -45,7 +45,7 @@ If you can't use the EWS Managed API to develop your application, you can:
 
 If you plan to use an object model generator, you can use the XML reference to help you understand the generated object model. The object model is generated from the XML structures that are described in the schema. Typically, the classes created by object model generators map to the complex types in the schema. Properties typically map to the XML elements.
 
-View the [ExchangeWebServices Namespace](https://docs.microsoft.com/dotnet/api/exchangewebservices?view=exchange-ews-proxy).
+View the [ExchangeWebServices Namespace](/dotnet/api/exchangewebservices?view=exchange-ews-proxy).
 
 ## See also
 
