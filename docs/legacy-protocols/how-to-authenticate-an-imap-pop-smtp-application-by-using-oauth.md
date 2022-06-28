@@ -28,7 +28,7 @@ Follow the instructions listed in [Register an application with the Microsoft id
 
 Once registered, to grant users delegated permissions to call the APIs, make the following changes.
 1. Assign Microsoft Graph API permissions.
-    1. Go to *API permissions* for the new application registration
+    1. For the new application registration, go to **API permissions**.
     1. Select *Add a permission*
     1. Select *Microsoft Graph*
     1. Select *Delegated permissions*
