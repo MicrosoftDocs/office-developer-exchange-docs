@@ -218,7 +218,7 @@ Here is an example of registering an AAD application's service principal in Exch
 New-ServicePrincipal –Identity <Service principal object ID in AAD> -AppId <Application ID in AAD> [-Organization <Org ID>]
 ```
 
-Your tenant admin can now add the specific mailboxes in the tenant that will be allowed to be access by your application. This is done with the [`Add-MailboxPermission` cmdlet](/powershell/module/exchange/add-mailboxpermission?view=exchange-ps).
+Your tenant admin can now add the specific mailboxes in the tenant that will be allowed to be access by your application. This is done with the [`Add-MailboxPermission` cmdlet](/powershell/module/exchange/add-mailboxpermission).
 
 Here is an example of giving your application access to one mailbox:
 
