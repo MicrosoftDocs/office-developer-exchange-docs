@@ -236,7 +236,11 @@ The access tokens generated can be used to authenticate POP and IMAP connections
 ## See also
 
 - [Authentication and EWS in Exchange](../exchange-web-services/authentication-and-ews-in-exchange.md)
+
 - [IMAP, POP Connection settings](https://support.office.com/article/pop-and-imap-email-settings-for-outlook-8361e398-8af4-4e97-b147-6c6c4ac95353)
+
 - [Internet Message Access Protocol](https://tools.ietf.org/html/rfc3501)
+
 - [Post Office Protocol](https://tools.ietf.org/html/rfc1081)
+
 - [SMTP Service extension for Authentication](https://tools.ietf.org/html/rfc4954)
