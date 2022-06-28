@@ -32,7 +32,7 @@ Once registered, to grant users delegated permissions to call the APIs, make the
     1. Select **Add a permission**.
     1. Select **Microsoft Graph**.
     1. Select **Delegated permissions**.
-    1. Search for and select *IMAP.AccessAsUser.All*, *SMTP.Send*, or *POP.AccessAsUser.All*, depending on which protocol will be used
+    1. Depending on which protocol will be used, search for **IMAP.AccessAsUser.All**, **SMTP.Send**, or **POP.AccessAsUser.All** and select.
     1. Click *Add permissions* to save the changes
     1. If necessary, grant permissions to your organisation by clicking the grant admin consent button
 1. Enable user sign-in for Exchange Online
