@@ -34,7 +34,7 @@ Once registered, to grant users delegated permissions to call the APIs, make the
     1. Select **Delegated permissions**.
     1. Depending on which protocol will be used, search for **IMAP.AccessAsUser.All**, **SMTP.Send**, or **POP.AccessAsUser.All** and select.
     1. To save changes, select **Add permissions**.
-    1. If necessary, grant permissions to your organisation by clicking the grant admin consent button
+    1. If necessary, to grant permissions to your organization select **Grant admin consent**.
 1. Enable user sign-in for Exchange Online.
     1. In Azure AD, navigate to **Enterprise Applications**.
     1. Search for Office 365 Exchange Online. Note, you may need to change the filter to **All Applications**.
