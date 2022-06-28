@@ -30,7 +30,7 @@ Once registered, to grant users delegated permissions to call the APIs, make the
 1. Assign Microsoft Graph API permissions.
     1. For the new application registration, go to **API permissions**.
     1. Select **Add a permission**.
-    1. Select *Microsoft Graph*
+    1. Select **Microsoft Graph**.
     1. Select *Delegated permissions*
     1. Search for and select *IMAP.AccessAsUser.All*, *SMTP.Send*, or *POP.AccessAsUser.All*, depending on which protocol will be used
     1. Click *Add permissions* to save the changes
