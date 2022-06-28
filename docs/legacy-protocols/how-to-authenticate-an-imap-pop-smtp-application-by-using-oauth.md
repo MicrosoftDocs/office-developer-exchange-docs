@@ -27,7 +27,7 @@ To use OAuth, an application must be registered with Azure Active Directory.
 Follow the instructions listed in [Register an application with the Microsoft identity platform](/azure/active-directory/develop/quickstart-register-app) to create a new application.
 
 Once registered, to grant users delegated permissions to call the APIs, make the following changes.
-1. Assign Microsoft Graph API permissions:
+1. Assign Microsoft Graph API permissions.
     1. Go to *API permissions* for the new application registration
     1. Select *Add a permission*
     1. Select *Microsoft Graph*
