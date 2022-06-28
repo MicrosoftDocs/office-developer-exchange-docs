@@ -36,7 +36,7 @@ Once registered, to grant users delegated permissions to call the APIs, make the
     1. Click *Add permissions* to save the changes
     1. If necessary, grant permissions to your organisation by clicking the grant admin consent button
 1. Enable user sign-in for Exchange Online
-    1. Navigate to *Enterprise Applications* in your AAD
+    1. In Azure AD, navigate to **Enterprise Applications**.
     1. Search for Office 365 Exchange Online (you may need to change the filter to All Applications) 
     1. Select the *Office 365 Excahnge Online application* and in the Properties for this app, and ensure that the "Enabled for users to sign-in?" setting is set to Yes
 
