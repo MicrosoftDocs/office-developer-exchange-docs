@@ -26,9 +26,13 @@ The **SyncFolderItems** element defines a request to synchronize items in an Exc
    <SyncFolderId/>
    <SyncState/>
    <Ignore/>
-   <MaxChangesReturned/>   <SyncScope/>
+   <MaxChangesReturned/>
+   <SyncScope/>
 </SyncFolderItems>
 ```
+
+> [!NOTE]
+> SyncFolderItems operation is not supported for use against Office 365 Group mailboxes.
 
  **SyncFolderItemsType**
 ## Attributes and elements
