@@ -34,7 +34,7 @@ Alternatively, you can select an appropriate flow from the following list and fo
 
 1. [OAuth2 authorization code flow](/azure/active-directory/develop/v2-oauth2-auth-code-flow)
 2. [OAuth2 device authorization grant flow](/azure/active-directory/develop/v2-oauth2-device-code)
-3. [OAuth2 client credentials grant flow](#using-client-credentials-grant-flow-to-authenticate-imap-and-pop-connections)
+3. [OAuth2 client credentials grant flow](#use-client-credentials-grant-flow-to-authenticate-imap-and-pop-connections) 
 
 Make sure to specify the full scopes, including Outlook resource URLs, when authorizing your application and requesting an access token.
 
@@ -209,7 +209,7 @@ https://login.microsoftonline.com/{tenant}/v2.0/adminconsent?client_id=<CLIENT_I
 
 ### Register service principals in Exchange
 
-Once your Azure AD application is consented to by a tenant admin, the tenant admin must register your AAD application's service principal in Exchange via Exchange Online PowerShell. This is enabled by the [`New-ServicePrincipal` cmdlet](https://docs.microsoft.com/en-us/powershell/module/exchange/new-serviceprincipal).
+Once your Azure AD application is consented to by a tenant admin, the tenant admin must register your AAD application's service principal in Exchange via Exchange Online PowerShell. This is enabled by the [`New-ServicePrincipal` cmdlet](/powershell/module/exchange/new-serviceprincipal).
 
 The following is an example of registering an Azure AD application's service principal in Exchange:
 
