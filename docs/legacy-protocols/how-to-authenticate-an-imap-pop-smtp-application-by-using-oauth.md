@@ -245,7 +245,7 @@ The tenant admin can find the service principal identifiers referenced above in 
 You can get your registered service principal's identifier using the [`Get-ServicePrincipal` cmdlet](/powershell/module/exchange/get-serviceprincipal).
 
 ```text
-Get-ServicePrincipal -Organization <ORGANIZATION_ID>
+Get-ServicePrincipal -Organization <ORGANIZATION_ID> | fl
 ```
 
 This identifier is different than the enterprise application instance identifier in the Azure Portal used earlier.
