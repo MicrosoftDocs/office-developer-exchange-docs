@@ -213,13 +213,22 @@ You should now have the POP or IMAP application permissions added to your AAD ap
 
 To access Exchange mailboxes via POP or IMAP, your AAD application must get tenant admin consent for each tenant. To learn more, see [tenant admin consent process](/azure/active-directory/develop/v2-permissions-and-consent).
 
-In your OAuth 2.0 tenant authorization request, the `scope` query parameter should be `https://ps.outlook.com/.default` for both the POP and IMAP application scopes.
+#### How to grant consent if the application is registered/configured for multiple tenant usage e.g. for Partner/ISV developed centraly registered application
 
+If your ISV/partner registered the Azure AD Appliacation with the option "Accounts in any organizational directory", you need to add this application and consent it using the following steps by leveraging the authorization request URL.
+
+In your OAuth 2.0 tenant authorization request, the `scope` query parameter should be `https://ps.outlook.com/.default` for both the POP and IMAP application scopes.
 The following is an example of the OAuth 2.0 authorization request URL:
 
 ```text
 https://login.microsoftonline.com/{tenant}/v2.0/adminconsent?client_id=<CLIENT_ID>&redirect_uri=<REDIRECT_URI>&scope=https://ps.outlook.com/.default
 ```
+
+#### How to grant consent if you registered the application for your our tenent 
+If you registered your application in your own tenant using "Accounts in this organizational directory only", you can simply go forward and use the application configuration page within the Azure AD admin center to grant the admin consent, and don´t need to use the authorization request URL approch.
+
+![image](https://user-images.githubusercontent.com/31959947/177141210-8aa8a82d-4822-4c2e-86ea-9626b2c4ac32.png)
+
 
 ### Register service principals in Exchange
 
@@ -236,7 +245,7 @@ The tenant admin can find the service principal identifiers referenced above in 
 You can get your registered service principal's identifier using the [`Get-ServicePrincipal` cmdlet](/powershell/module/exchange/get-serviceprincipal).
 
 ```text
-Get-ServicePrincipal -Organization <ORGANIZATION_ID>
+Get-ServicePrincipal -Organization <ORGANIZATION_ID> | fl
 ```
 
 This identifier is different than the enterprise application instance identifier in the Azure Portal used earlier.
@@ -257,6 +266,8 @@ You must use `https://outlook.office365.com/.default` in the `scope` property in
 The access tokens generated can be used as tokens to authenticate POP and IMAP connections via SASL XOAUTH2 format as described previously.
 
 ## See also
+
+- [IMAP OAuth testing using powershell script](https://github.com/DanijelkMSFT/ThisandThat/blob/main/Get-IMAPAccessToken.ps1)
 
 - [Authentication and EWS in Exchange](../exchange-web-services/authentication-and-ews-in-exchange.md)
 
