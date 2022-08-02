@@ -26,20 +26,6 @@ To use OAuth, an application must be registered with Azure Active Directory.
 
 Follow the instructions listed in [Register an application with the Microsoft identity platform](/azure/active-directory/develop/quickstart-register-app) to create a new application.
 
-Once registered, to grant users delegated permissions to call the APIs, make the following changes.
-1. Assign Microsoft Graph API permissions.
-    1. For the new application registration, go to **API permissions**.
-    1. Select **Add a permission**.
-    1. Select **Microsoft Graph**.
-    1. Select **Delegated permissions**.
-    1. Depending on which protocol will be used, search for **IMAP.AccessAsUser.All**, **SMTP.Send**, or **POP.AccessAsUser.All** and select.
-    1. To save changes, select **Add permissions**.
-    1. If necessary, to grant permissions to your organization select **Grant admin consent**.
-1. Enable user sign-in for Exchange Online.
-    1. In Azure AD, navigate to **Enterprise Applications**.
-    1. Search for Office 365 Exchange Online. Note, you may need to change the filter to **All Applications**.
-    1. Select **Office 365 Exchange Online application** and in the **Properties** for this app, ensure that the **Enable for users to sign-in?** setting is set to *Yes*.
-
 ## Get an access token
 
 You can use one of our [MSAL client libraries](/azure/active-directory/develop/msal-overview) to fetch an access token from your client application.
@@ -155,6 +141,8 @@ S: -ERR Authentication failure: unknown user name or bad password.
 ```
 
 ### SMTP Protocol Exchange
+
+**Note** As per the current test with SMTP Oauth 2.0 client credential flow with non-interactive sign in is not supported.
 
 To authenticate an SMTP server connection, the client must respond with an `AUTH` command in the following format:
 
