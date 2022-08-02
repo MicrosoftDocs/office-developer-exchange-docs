@@ -142,6 +142,8 @@ S: -ERR Authentication failure: unknown user name or bad password.
 
 ### SMTP Protocol Exchange
 
+**Note** As per the current test with SMTP Oauth 2.0 client credential flow with non-interactive sign in is not supported.
+
 To authenticate an SMTP server connection, the client must respond with an `AUTH` command in the following format:
 
 ```text
