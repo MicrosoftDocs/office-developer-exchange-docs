@@ -48,7 +48,7 @@ The following example of a **FindPeople** operation request shows how to return 
    <soap:Header>
       <t:RequestServerVersion Version="Exchange2013" />
    </soap:Header>
-   <soap:Body >
+   <soap:Body>
       <m:FindPeople>
          <m:IndexedPageItemView BasePoint="Beginning" MaxEntriesReturned="100" Offset="0"/>
          <m:ParentFolderId>
@@ -79,7 +79,7 @@ The following example of a **FindPeople** operation request shows how to return 
    <soap:Header>
     <t:RequestServerVersion Version="Exchange2013" />
    </soap:Header>
-   <soap:Body >
+   <soap:Body>
     <m:FindPeople>
       <m:PersonaShape>
         <t:BaseShape>IdOnly</t:BaseShape>
