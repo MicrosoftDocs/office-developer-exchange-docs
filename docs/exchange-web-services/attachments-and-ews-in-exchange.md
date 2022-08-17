@@ -1,14 +1,10 @@
 ---
-title: "Attachments and EWS in Exchange"
- 
- 
+title: "Attachments and EWS in Exchange" 
+description: "Learn about attachments and how your EWS Managed API or EWS in Exchange client represents them."
 manager: sethgros
 ms.date: 7/11/2016
-ms.audience: Developer
- 
- 
+ms.audience: Developer 
 ms.assetid: 8e4289a4-ec9d-4502-9854-c593c95d5f98
-description: "Learn about attachments and how your EWS Managed API or EWS in Exchange client represents them."
 localization_priority: Priority
 ---
 
@@ -58,7 +54,7 @@ An attachment is an inline attachment if the EWS Managed API [IsInline](https://
   
 - EWS Managed API — [ContentId](https://msdn.microsoft.com/library/microsoft.exchange.webservices.data.attachment.contentid%28v=exchg.80%29.aspx) or [ContentLocation](https://msdn.microsoft.com/library/microsoft.exchange.webservices.data.attachment.contentlocation%28v=exchg.80%29.aspx) properties. 
     
-- EWS — [ContentId](https://msdn.microsoft.com/library/bc59100d-6079-414b-a6e0-7c15feaa3184%28Office.15%29.aspx) or [ContentLocation](https://msdn.microsoft.com/library/d91cf587-24e3-4c13-8784-5ca29787cca7%28Office.15%29.aspx) element. 
+- EWS — [ContentId](/exchange/client-developer/web-service-reference/contentid) or [ContentLocation](https://msdn.microsoft.com/library/d91cf587-24e3-4c13-8784-5ca29787cca7%28Office.15%29.aspx) element. 
     
 Note that the EWS Managed API [HasAttachments](https://msdn.microsoft.com/library/microsoft.exchange.webservices.data.item.hasattachments%28v=exchg.80%29.aspx) property and the EWS [HasAttachments](https://msdn.microsoft.com/library/538b7a85-11d7-4daa-8458-09b540760e8b%28Office.15%29.aspx) element do not reflect the existence of inline attachments, and that's why inline attachments are also called hidden attachments. So if you set the EWS Managed API [IsInline](https://msdn.microsoft.com/library/microsoft.exchange.webservices.data.attachment.isinline%28v=exchg.80%29.aspx) property or the EWS [IsInline](https://msdn.microsoft.com/library/5e7712c8-372a-4a16-be64-360c5ff3961a%28Office.15%29.aspx) element to true, and the item has no other attachments, **HasAttachments** will be set to false. If your client uses **HasAttachments** to populate an attachment indicator or icon on an email, be aware that the icon will not appear for emails with inline attachments. 
   
