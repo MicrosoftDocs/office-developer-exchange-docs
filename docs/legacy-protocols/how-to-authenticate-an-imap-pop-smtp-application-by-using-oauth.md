@@ -230,7 +230,7 @@ Import-module ExchangeOnlineManagement
 Connect-ExchangeOnline -Organization {tenantId}
 ```
 
-If after these steps you still get error running the New-ServicePrincipal Cmdlet, it is probably due to the fact that your user does not have enough permission in the Exchange online to perform the operation. 
+If you still get and error running the New-ServicePrincipal Cmdlet after you perform these steps, it is likely due to the fact that the user does'nt have enough permissions in Exchange online to perform the operation. 
 
 
 The following is an example of registering an Azure AD application's service principal in Exchange:
