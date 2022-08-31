@@ -18,8 +18,8 @@ All requests for public folder information that require knowledge of the public 
 |:-----|:-----|:-----|
 |**X-AnchorMailbox** <br/>|The [PublicFolderInformation](/dotnet/api/microsoft.exchange.webservices.autodiscover.usersettingname) value from a [GetUserSettings](/exchange/client-developer/web-service-reference/getusersettings-operation-soap) Autodiscover SOAP response, which becomes the value of the **X-AnchorMailbox** header.|1. Send a **GetUserSetting** request with the SMTP address for the user's mailbox.<br/><br/>2. Use the **PublicFolderInformation** element to populate the value of the **X-AnchorMailbox** header. The value of the **PublicFolderInformation** element is an SMTP address.  <br/>
 |**X-PublicFolderMailbox** <br/> |The [InternalRpcClientServer](/exchange/client-developer/web-service-reference/setting-soap) value from a [GetUserSettings](/exchange/client-developer/web-service-reference/getusersettings-operation-soap) Autodiscover SOAP response, which becomes the value of the **X-PublicFolderMailbox** header.|1. Send a **GetUserSetting** request with the SMTP address for the user's mailbox.<br/><br/>2. Use the **InternalRpcClientServer** element returned by the Autodiscover service to populate the value of the **X-PublicFolderMailbox** header. The value of the **X-PublicFolderMailbox** element is an SMTP address where the user part of the address is a GUID.<br/> |
-<br/>
 
+<br/>
 After you have determined the header values, include them [when you make public folder hierarchy requests](#bk_setheadervalues).
   
 The steps in this article are specific to public folder hierarchy requests. To determine whether your request is a public folder hierarchy or content request, see [Routing public folder requests](public-folder-access-with-ews-in-exchange.md#bk_routing).
