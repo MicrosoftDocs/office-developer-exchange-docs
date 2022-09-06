@@ -39,7 +39,7 @@ After running the code, the following information is displayed on the console:
 `X-AnchorMailbox for public folder hierarchy requests: SharedPublicFolder@contoso.com`<br/>
 `X-PublicFolderMailbox value for public folder hierarchy requests: 1ec2a236-ed93-4f88-b9c6-33e63fa4aa44@contoso.com`
 
-Now that you have the **PublicFolderInformation** value, include it as the value for the X-AnchorMailbox header in all public folder hierarchy requests.  The **InternalRpcClientServer** value is used for the X-PublicFolderMailbox header.  Both headers are required.
+Now that you have the **PublicFolderInformation** value, include it as the value for the X-AnchorMailbox header in all public folder hierarchy requests. The **InternalRpcClientServer** value is used for the X-PublicFolderMailbox header.  Both headers are required.
   
 `X-AnchorMailbox: SharedPublicFolder@contoso.com`<br/>
 `X-PublicFolderMailbox: 1ec2a236-ed93-4f88-b9c6-33e63fa4aa44@contoso.com`
