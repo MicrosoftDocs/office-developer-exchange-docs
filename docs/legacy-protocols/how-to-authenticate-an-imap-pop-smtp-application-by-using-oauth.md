@@ -227,7 +227,7 @@ To use the New-ServicePrincipal cmdlet, install the ExchangeOnlineManagement and
 ```text
 Install-Module -Name ExchangeOnlineManagement -allowprerelease
 Import-module ExchangeOnlineManagement 
-Connect-ExchangeOnline -Organization {tenantId}
+Connect-ExchangeOnline -Organization <tenantId>
 ```
 
 If you still get an error running the New-ServicePrincipal Cmdlet after you perform these steps, it is likely due to the fact that the user does'nt have enough permissions in Exchange online to perform the operation. 
