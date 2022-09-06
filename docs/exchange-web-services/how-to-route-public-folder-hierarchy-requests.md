@@ -47,7 +47,7 @@ Now that you have the **PublicFolderInformation** value, include it as the value
 ## Determine the the header values using SOAP
 <a name="bk_getpfinfoews"></a>
 
-The following code example shows how to retrieve the **PublicFolderInformation** and **InternalRpcClientServer** values by using the [GetUserSettings](/exchange/client-developer/web-service-reference/getusersettings-operation-soap) SOAP operation. The mailbox user is specified in the [Mailbox](/exchange/client-developer/web-service-reference/mailbox-soap) element, and the [RequestedSettings](/exchange/client-developer/web-service-reference/requestedsettings-soap) element limits the response to the [PublicFolderInformation](/dotnet/api/microsoft.exchange.webservices.autodiscover.usersettingname) and [InternalRpcClientServer](/exchange/client-developer/web-service-reference/setting-soap) values.
+The following code example shows how to retrieve the **PublicFolderInformation** and **InternalRpcClientServer** values using the [GetUserSettings](/exchange/client-developer/web-service-reference/getusersettings-operation-soap) SOAP operation. The mailbox user is specified in the [Mailbox](/exchange/client-developer/web-service-reference/mailbox-soap) element, and the [RequestedSettings](/exchange/client-developer/web-service-reference/requestedsettings-soap) element limits the response to the [PublicFolderInformation](/dotnet/api/microsoft.exchange.webservices.autodiscover.usersettingname) and [InternalRpcClientServer](/exchange/client-developer/web-service-reference/setting-soap) values.
   
 ```XML
 <?xml version="1.0" encoding="utf-8"?>
