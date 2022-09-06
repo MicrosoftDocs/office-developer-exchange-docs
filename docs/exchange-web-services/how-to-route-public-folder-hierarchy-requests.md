@@ -23,7 +23,7 @@ After you have determined the header values, include them [when you make public 
   
 The steps in this article are specific to public folder hierarchy requests. To determine whether your request is a public folder hierarchy or content request, see [Routing public folder requests](public-folder-access-with-ews-in-exchange.md#bk_routing). 
   
-## Determine the header values by using the EWS Managed API
+## Determine the header values using the EWS Managed API
 <a name="bk_getpfinfoewsma"> </a>
 
 You can use a single call to [GetUserSettings](/exchange/client-developer/web-service-reference/getusersettings-operation-soap) by using the following code, which retrieves both **InternalRpcClientServer** and **PublicFolderInformation** elements. Include the SMTP address of the mailbox user as an input parameter.
