@@ -91,7 +91,7 @@ The response includes the **PublicFolderInformation** value.
 </UserSetting>
 ```
 
-Now that you have the **PublicFolderInformation** value, include it as the value for the X-AnchorMailbox header in all public folder hierarchy requests.  The **InternalRpcClientServer** value is used for the X-PublicFolderMailbox header.  Both headers are required.
+Now that you have the **PublicFolderInformation** value, include it as the value for the X-AnchorMailbox header in all public folder hierarchy requests. Use the **InternalRpcClientServer** value for the X-PublicFolderMailbox header. Both headers are required.
   
 `X-AnchorMailbox: SharedPublicFolder@contoso.com`<br/>
 `X-PublicFolderMailbox: 1ec2a236-ed93-4f88-b9c6-33e63fa4aa44@contoso.com`
