@@ -247,7 +247,7 @@ You can get your registered service principal's identifier using the [`Get-Servi
 Get-ServicePrincipal -Organization <ORGANIZATION_ID> | fl
 ```
 
-This identifier is different than the enterprise application instance identifier in the Azure Portal used earlier.
+The OBJECT_ID is the Object ID from the Overview page of the Enterprise Application node (Azure Portal) for the application registration. It is **not** the Object ID from the Overview of the App Registrations node. Using the incorrect Object ID will cause an authentication failure.
 
 The tenant admin can now add the specific mailboxes in the tenant that will be allowed to be access by your application. This is done with the [`Add-MailboxPermission` cmdlet](/powershell/module/exchange/add-mailboxpermission).
 
