@@ -26,7 +26,7 @@ The steps in this article are specific to public folder hierarchy requests. To d
 ## Determine the header values using the EWS Managed API
 <a name="bk_getpfinfoewsma"> </a>
 
-You can use a single call to [GetUserSettings](/exchange/client-developer/web-service-reference/getusersettings-operation-soap) by using the following code, which retrieves both **InternalRpcClientServer** and **PublicFolderInformation** elements. Include the SMTP address of the mailbox user as an input parameter.
+You can use a single call to [GetUserSettings](/exchange/client-developer/web-service-reference/getusersettings-operation-soap) using the following code, which retrieves both **InternalRpcClientServer** and **PublicFolderInformation** elements. Include the SMTP address of the mailbox user as an input parameter.
   
 ```cs
 GetUserSettingsResponse userResponse = GetUserSettings(adservice, "sonyaf@contoso.com", 3, UserSettingName.PublicFolderInformation, UserSettingName.InternalRpcClientServer);
