@@ -121,9 +121,5 @@ You can access Autodiscover either by using the SOAP or the POX web service. The
     
 ## See also
 
-- [Start using web services in Exchange](start-using-web-services-in-exchange.md)    
-- [Exchange 2013: Get user settings with Autodiscover](https://code.msdn.microsoft.com/Exchange-2013-Get-user-7e22c86e)
-- [Autodiscover Checker sample](https://code.msdn.microsoft.com/exchange/Autodiscover-Checker-e1ebca42)  
+- [Start using web services in Exchange](start-using-web-services-in-exchange.md)
 - [Develop web service clients for Exchange](develop-web-service-clients-for-exchange.md)
-    
-
