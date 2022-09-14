@@ -78,4 +78,4 @@ The following code shows the element hierarchy in the configuration XML file.
 - [Transport agent concepts in Exchange 2013](transport-agent-concepts-in-exchange-2013.md)
 - [Transport agent reference for Exchange 2013](transport-agent-reference-for-exchange-2013.md)
 - [Transport agent namespaces in Exchange 2013](transport-agent-namespaces-in-exchange-2013.md)
-- [Mail Flow Cmdlets](https://docs.microsoft.com/powershell/exchange/?view=exchange-ps)
+- [Mail Flow Cmdlets](/powershell/exchange/?view=exchange-ps)

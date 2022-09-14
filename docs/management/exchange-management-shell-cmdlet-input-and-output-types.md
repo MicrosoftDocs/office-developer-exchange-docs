@@ -16,7 +16,7 @@ Find input and output types for Exchange cmdlets.
   
 **Applies to**: Exchange Online | Exchange Server 2013 | Exchange Server 2016 | Exchange Server 2019 | Office 365
   
-The following table lists the Exchange cmdlets and the input and output type for each cmdlet. For more information about the Exchange cmdlets, see [Exchange PowerShell](https://docs.microsoft.com/powershell/exchange/). 
+The following table lists the Exchange cmdlets and the input and output type for each cmdlet. For more information about the Exchange cmdlets, see [Exchange PowerShell](/powershell/exchange/). 
   
 ## Exchange Management Shell cmdlet input and output types
 

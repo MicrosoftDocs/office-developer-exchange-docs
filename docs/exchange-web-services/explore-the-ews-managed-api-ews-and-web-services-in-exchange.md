@@ -34,6 +34,4 @@ Use the following table to find to the content that will help you learn about an
    
 ## See also
     
-- [Sign up for an Exchange Online and Office 365 Developer Site](https://docs.microsoft.com/sharepoint/dev/sp-add-ins/set-up-a-development-environment-for-sharepoint-add-ins-on-office-365)
-    
-
+- [Sign up for an Exchange Online and Office 365 Developer Site](/sharepoint/dev/sp-add-ins/set-up-a-development-environment-for-sharepoint-add-ins-on-office-365)

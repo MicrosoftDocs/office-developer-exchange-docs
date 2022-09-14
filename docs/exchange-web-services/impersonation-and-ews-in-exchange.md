@@ -46,7 +46,9 @@ Impersonation enables a caller to impersonate a given user account. This enables
   
 - Only accounts that have been granted the **ApplicationImpersonation** role by an Exchange server administrator can use impersonation. 
     
-- You should create a management scope that limits impersonation to a specified group of accounts. If you do not create a management scope, the **ApplicationImpersonation** role is granted to all accounts in an organization. 
+- For Exchange on-premises, you should create a management scope that limits impersonation to a specified group of accounts. If you do not create a management scope, the **ApplicationImpersonation** role is granted to all accounts in an organization.
+
+- For Exchange Online, you should create application access policies to limit the scope of the impersonation.  Please see [New-ApplicationAccessPolicy cmdlet](/powershell/module/exchange/new-applicationaccesspolicy).  If you do not create an application access policy, then the **full_access_as_app** permission is granted to all accounts in a tenant.
     
 - Typically, the **ApplicationImpersonation** role is granted to a service account dedicated to a particular application or group of applications, rather than a user account. You can create as many or as few service accounts as you need. 
     

@@ -45,7 +45,7 @@ The value of the **LegacyDN** element is the alternate mailbox legacy distinguis
   
 ## Element information
 
-|||
+| Element | Example |
 |:-----|:-----|
 |Namespace  <br/> |https://schemas.microsoft.com/exchange/2010/Autodiscover  <br/> |
 |Schema Name  <br/> |Autodiscover schema  <br/> |

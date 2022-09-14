@@ -36,13 +36,13 @@ We recommend that all new applications use the OAuth standard to connect to Exch
 |:-----|:-----|
 | OAuth is an industry-standard authentication protocol.<br/><br/>Authentication is managed by a third-party provider. Your application does not have to collect and store the Exchange credentials.<br/><br/>Fewer worries for you, because your application only receives an opaque token from the authentication provider; therefore, a security breach in your application can only expose the token, not the user's Exchange credentials.  <br/> | OAuth relies on a third-party authentication provider. This can impose additional costs on your organization or your customers.<br/><br/>The OAuth standard is more difficult to implement than basic authentication.<br/><br/>To implement OAuth, you need to integrate your application with both the authentication provider and the Exchange server.  <br/> |
    
-To help minimize the disadvantages, you can use the [Microsoft Azure AD Authentication Library](https://docs.microsoft.com/azure/active-directory/develop/active-directory-authentication-libraries) (ADAL) to authenticate users to Active Directory Domain Services (AD DS) in the cloud or on-premises and then obtain access tokens for securing calls to an Exchange server. Exchange Online requires tokens issued by the Azure Active Directory service, which is supported by the ADAL; however, you can use any third-party library. 
+To help minimize the disadvantages, you can use the [Microsoft Azure AD Authentication Library](/azure/active-directory/develop/active-directory-authentication-libraries) (ADAL) to authenticate users to Active Directory Domain Services (AD DS) in the cloud or on-premises and then obtain access tokens for securing calls to an Exchange server. Exchange Online requires tokens issued by the Azure Active Directory service, which is supported by the ADAL; however, you can use any third-party library. 
   
 To learn more about using OAuth authentication in your EWS application, see the following resources:
   
-- [Office 365 trial](https://docs.microsoft.com/office/developer-program/office-365-developer-program), to set up an Exchange server to use to test your client application.
+- [Office 365 trial](/office/developer-program/microsoft-365-developer-program), to set up an Exchange server to use to test your client application.
     
-- [Azure AD Authentication Library for .NET](https://docs.microsoft.com/azure/active-directory/develop/active-directory-authentication-libraries)
+- [Azure AD Authentication Library for .NET](/azure/active-directory/azuread-dev/active-directory-authentication-libraries)
     
 - [Configure Azure Active Directory](https://msdn.microsoft.com/library/055e1155-2d4d-4c85-b44e-d406872ba595%28Office.15%29.aspx), to enable your application to use OAuth tokens for authentication.
     
@@ -81,4 +81,3 @@ You need to decide if basic authentication meets the security requirements of yo
 - [Control access to EWS in Exchange](how-to-control-access-to-ews-in-exchange.md)    
 - [Controlling client application access to EWS in Exchange](controlling-client-application-access-to-ews-in-exchange.md)   
 - [Supported token and claim types](https://msdn.microsoft.com/library/9d35e4bc-7b72-49d1-b723-5464eee6be2c%28Office.15%29.aspx)
- 

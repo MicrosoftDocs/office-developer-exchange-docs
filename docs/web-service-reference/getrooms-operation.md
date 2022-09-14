@@ -17,6 +17,8 @@ description: "The GetRooms operation gets the rooms within the specified room li
 # GetRooms operation
 
 The **GetRooms** operation gets the rooms within the specified room list. 
+
+Note : Rooms which are marked "Hidden from GAL" can't be retrieved through this method.
   
 ## SOAP Headers
 

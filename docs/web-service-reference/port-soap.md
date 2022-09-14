@@ -46,7 +46,7 @@ The value is the port number to use for the protocol.
   
 ## Element information
 
-|||
+|Element|Example|
 |:-----|:-----|
 |Namespace  <br/> |https://schemas.microsoft.com/exchange/2010/Autodiscover  <br/> |
 |Schema Name  <br/> |Autodiscover schema  <br/> |

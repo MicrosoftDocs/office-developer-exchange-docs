@@ -48,7 +48,7 @@ VSS coordinates communication between the following components:
     
 To use VSS to back up Exchange 2013 data, your backup application must be an Exchange 2013-aware VSS requester. Exchange 2013 includes a VSS writer, called the Microsoft Exchange Writer, for the Windows Server backup program; however, the Exchange writer only backs up whole volumes. It does not back up individual Exchange 2013 databases. If you need more flexibility, you can use a third-party backup application that has an Exchange-aware VSS writer that can work with individual Exchange databases, or you can create a custom VSS requester.
   
-Before your application calls VSS to initiate a backup, it must obtain information about the storage configuration for the Exchange 2013 system that it is backing up. That information is stored in Active Directory Domain Services (AD DS). Your backup application can get Exchange storage configuration data by using Exchange Management Shell commands. For more information, see [Exchange Server PowerShell (Exchange Management Shell)](https://docs.microsoft.com/powershell/exchange/exchange-server/exchange-management-shell?view=exchange-ps). 
+Before your application calls VSS to initiate a backup, it must obtain information about the storage configuration for the Exchange 2013 system that it is backing up. That information is stored in Active Directory Domain Services (AD DS). Your backup application can get Exchange storage configuration data by using Exchange Management Shell commands. For more information, see [Exchange Server PowerShell (Exchange Management Shell)](/powershell/exchange/exchange-management-shell?view=exchange-ps). 
   
 Exchange 2013 backup applications call the VSS COM APIs to create full, copy, differential and incremental backups of Exchange databases; they do not interact directly with the VSS writer. The Database Availability Group (DAG) functionality in Exchange also enables your application to create a fully consistent backup, even if the initial full backup and later incremental backups come from different servers in the DAG. After VSS creates the copy of the Exchange data, your backup application stores the data onto the intended media.
   
@@ -98,5 +98,3 @@ Information required to successfully complete backup and restore operations amon
 - [CChkSGFiles class reference](cchksgfiles-class-reference.md) 
 - [Volume Shadow Copy Service](https://msdn.microsoft.com/library/bb968832%28VS.85%29.aspx) 
 - [Windows PowerShell](https://msdn.microsoft.com/library/dd835506%28v=vs.85%29.aspx)
-    
-
