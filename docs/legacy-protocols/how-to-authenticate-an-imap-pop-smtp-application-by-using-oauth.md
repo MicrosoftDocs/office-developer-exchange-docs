@@ -244,7 +244,7 @@ The tenant admin can find the service principal identifiers referenced above in 
 You can get your registered service principal's identifier using the [`Get-ServicePrincipal` cmdlet](/powershell/module/exchange/get-serviceprincipal).
 
 ```text
-Get-ServicePrincipal -Organization <ORGANIZATION_ID> | fl
+Get-ServicePrincipal | fl
 ```
 
 The OBJECT_ID is the Object ID from the Overview page of the Enterprise Application node (Azure Portal) for the application registration. It is **not** the Object ID from the Overview of the App Registrations node. Using the incorrect Object ID will cause an authentication failure.
