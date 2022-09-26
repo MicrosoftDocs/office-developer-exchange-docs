@@ -133,7 +133,7 @@ The following sections describe attributes, child elements, and parent elements.
 |meeting:HasBeenProcessed  <br/> |Identifies the **HasBeenProcessed** property.  <br/> |
 |meeting:ResponseType  <br/> |Identifies the **ResponseType** property.  <br/> |
 |meeting:ProposedStart  <br/> |Identifies the **ProposedStart** property.  <br/> |
-|meeting:PropsedEnd  <br/> |Identifies the **ProposedEnd** property.  <br/> |
+|meeting:ProposedEnd  <br/> |Identifies the **ProposedEnd** property.  <br/> |
 |meetingRequest:MeetingRequestType  <br/> |Identifies the **MeetingRequestType** property.  <br/> |
 |meetingRequest:IntendedFreeBusyStatus  <br/> |Identifies the **IntendedFreeBusyStatus** property.  <br/> |
 |meetingRequest:ChangeHighlights  <br/> |Identifies the **ChangeHighlights** property.  <br/> |
