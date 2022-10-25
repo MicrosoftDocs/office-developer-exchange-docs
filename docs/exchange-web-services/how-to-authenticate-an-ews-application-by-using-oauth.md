@@ -280,7 +280,7 @@ namespace EwsOAuth
                 ewsClient.HttpHeaders.Add("X-AnchorMailbox", "meganb@contoso.onmicrosoft.com");
 
                 // Make an EWS call
-                var folders = ewsClient.FindFolders(WellKnownFolderName.MsgFolderRoot, new FolderView(10));
+                var folders = await ewsClient.FindFolders(WellKnownFolderName.MsgFolderRoot, new FolderView(10));
                 foreach(var folder in folders)
                 {
                     Console.WriteLine($"Folder: {folder.DisplayName}");

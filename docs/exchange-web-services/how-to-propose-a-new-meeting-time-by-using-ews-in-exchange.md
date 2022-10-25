@@ -44,9 +44,9 @@ The following XML shows what is sent to request the response objects on an item.
 <?xml version="1.0" encoding="utf-8"?>
 <soap:Envelope xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
                xmlns:xsd="http://www.w3.org/2001/XMLSchema"
-               xmlns:soap="https://schemas.xmlsoap.org/soap/envelope/"
-               xmlns:t="https://schemas.microsoft.com/exchange/services/2006/types"
-               xmlns:m="https://schemas.microsoft.com/exchange/services/2006/messages">
+               xmlns:soap="http://schemas.xmlsoap.org/soap/envelope/"
+               xmlns:t="http://schemas.microsoft.com/exchange/services/2006/types"
+               xmlns:m="http://schemas.microsoft.com/exchange/services/2006/messages">
   <soap:Header>
     <t:RequestServerVersion Version="Exchange2013" />
     <t:MailboxCulture>en-US</t:MailboxCulture>
@@ -80,15 +80,15 @@ The **GetItem** operation response will look similar to the following XML if you
                          MajorBuildNumber="815" 
                          MinorBuildNumber="6" 
                          Version="V2_7" 
-                         xmlns:h="https://schemas.microsoft.com/exchange/services/2006/types" 
-                         xmlns="https://schemas.microsoft.com/exchange/services/2006/types" 
+                         xmlns:h="http://schemas.microsoft.com/exchange/services/2006/types" 
+                         xmlns="http://schemas.microsoft.com/exchange/services/2006/types" 
                          xmlns:xsd="http://www.w3.org/2001/XMLSchema" 
                          xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"/>
   </s:Header>
   <s:Body xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
           xmlns:xsd="http://www.w3.org/2001/XMLSchema">
-    <m:GetItemResponse xmlns:m="https://schemas.microsoft.com/exchange/services/2006/messages" 
-                       xmlns:t="https://schemas.microsoft.com/exchange/services/2006/types">
+    <m:GetItemResponse xmlns:m="http://schemas.microsoft.com/exchange/services/2006/messages" 
+                       xmlns:t="http://schemas.microsoft.com/exchange/services/2006/types">
       <m:ResponseMessages>
         <m:GetItemResponseMessage ResponseClass="Success">
           <m:ResponseCode>NoError</m:ResponseCode>
@@ -123,9 +123,9 @@ If you received a **ProposeNewTime** response object when you used the **GetItem
   
 ```XML
 <?xml version="1.0" encoding="UTF-8"?>
-<soap:Envelope xmlns:soap="https://schemas.xmlsoap.org/soap/envelope/"
-               xmlns:t="https://schemas.microsoft.com/exchange/services/2006/types"
-               xmlns:m="https://schemas.microsoft.com/exchange/services/2006/messages">
+<soap:Envelope xmlns:soap="http://schemas.xmlsoap.org/soap/envelope/"
+               xmlns:t="http://schemas.microsoft.com/exchange/services/2006/types"
+               xmlns:m="http://schemas.microsoft.com/exchange/services/2006/messages">
   <soap:Header>
     <t:RequestServerVersion Version="Exchange2013"/>
   </soap:Header>
@@ -147,22 +147,22 @@ If you received a **ProposeNewTime** response object when you used the **GetItem
 The response to this request contains the identifier of the calendar item that was added to the attendee's calendar and a copy of the meeting request that was placed in the attendee's Deleted Items folder. The response message with the new time proposal was also saved in the attendee's Sent Items folder (you will need to find the meeting response message to get a handle on it).
   
 ```XML
-<s:Envelope xmlns:s="https://schemas.xmlsoap.org/soap/envelope/">
+<s:Envelope xmlns:s="http://schemas.xmlsoap.org/soap/envelope/">
   <s:Header>
     <h:ServerVersionInfo MajorVersion="15" 
                          MinorVersion="0" 
                          MajorBuildNumber="815" 
                          MinorBuildNumber="6" 
                          Version="V2_7" 
-                         xmlns:h="https://schemas.microsoft.com/exchange/services/2006/types" 
-                         xmlns="https://schemas.microsoft.com/exchange/services/2006/types" 
+                         xmlns:h="http://schemas.microsoft.com/exchange/services/2006/types" 
+                         xmlns="http://schemas.microsoft.com/exchange/services/2006/types" 
                          xmlns:xsd="http://www.w3.org/2001/XMLSchema" 
                          xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"/>
   </s:Header>
   <s:Body xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
           xmlns:xsd="http://www.w3.org/2001/XMLSchema">
-    <m:CreateItemResponse xmlns:m="https://schemas.microsoft.com/exchange/services/2006/messages" 
-                          xmlns:t="https://schemas.microsoft.com/exchange/services/2006/types">
+    <m:CreateItemResponse xmlns:m="http://schemas.microsoft.com/exchange/services/2006/messages" 
+                          xmlns:t="http://schemas.microsoft.com/exchange/services/2006/types">
       <m:ResponseMessages>
         <m:CreateItemResponseMessage ResponseClass="Success">
           <m:ResponseCode>NoError</m:ResponseCode>
