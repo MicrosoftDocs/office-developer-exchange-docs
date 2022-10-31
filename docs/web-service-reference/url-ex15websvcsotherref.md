@@ -1,7 +1,6 @@
 ---
 title: "Url"
- 
- 
+description: "The Url element represents the location of the client Web service for push notifications."
 manager: sethgros
 ms.date: 09/17/2015
 ms.audience: Developer
@@ -9,7 +8,6 @@ ms.topic: reference
 ms.prod: office-online-server
 ms.localizationpriority: medium
 ms.assetid: c0d41b95-36b9-4e7a-a442-cdea37467abd
-description: "The Url element represents the location of the client Web service for push notifications."
 ---
 
 # Url
@@ -20,7 +18,8 @@ The **Url** element represents the location of the client Web service for push n
 <Url></Url>
 ```
 
- **string**
+**string**
+
 ## Attributes and elements
 
 The following sections describe attributes, child elements, and parent elements.
@@ -49,11 +48,8 @@ The schema that describes this element is located in the IIS virtual directory t
   
 ## Element information
 
-||
-|:-----|
+|Element i|:-----|
 |Namespace  <br/> |
 |Schema Name  <br/> |
 |Validation File  <br/> |
 |Can be Empty  <br/> |
-   
-
