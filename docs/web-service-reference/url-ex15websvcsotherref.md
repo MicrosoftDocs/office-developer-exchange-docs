@@ -45,12 +45,3 @@ The text value of **Url** element is the location of the client Web service for 
 ## Remarks
 
 The schema that describes this element is located in the IIS virtual directory that hosts Exchange Web Services.
-  
-## Element information
-
-|Element info |
-|:-----|
-|Namespace  <br/> |
-|Schema Name  <br/> |
-|Validation File  <br/> |
-|Can be Empty  <br/> |
