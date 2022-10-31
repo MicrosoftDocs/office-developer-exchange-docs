@@ -1,7 +1,6 @@
 ---
 title: "SendItemResponse"
- 
- 
+description: "The SendItemResponse element defines a response to a SendItem request."
 manager: sethgros
 ms.date: 09/17/2015
 ms.audience: Developer
@@ -13,7 +12,6 @@ api_name:
 api_type:
 - schema
 ms.assetid: 26ac41c7-57d9-473e-ab7a-bae93e1d2aba
-description: "The SendItemResponse element defines a response to a SendItem request."
 ---
 
 # SendItemResponse
@@ -26,7 +24,8 @@ The **SendItemResponse** element defines a response to a SendItem request.
 </SendItemResponse>
 ```
 
- **SendItemResponseType**
+**SendItemResponseType**
+
 ## Attributes and elements
 
 The following sections describe attributes, child elements, and parent elements.
@@ -51,7 +50,7 @@ The schema that describes this element is located in the EWS virtual directory o
   
 ## Element information
 
-|||
+|Item|Value|
 |:-----|:-----|
 |Namespace  <br/> |https://schemas.microsoft.com/exchange/services/2006/messages  <br/> |
 |Schema name  <br/> |Messages schema  <br/> |
@@ -60,12 +59,6 @@ The schema that describes this element is located in the EWS virtual directory o
    
 ## See also
 
-
-
-[SendItem operation](senditem-operation.md)
-  
+[SendItem operation](senditem-operation.md)  
 [SendItem](senditem.md)
-
-
-- [EWS XML elements in Exchange](ews-xml-elements-in-exchange.md)
-
+[EWS XML elements in Exchange](ews-xml-elements-in-exchange.md)

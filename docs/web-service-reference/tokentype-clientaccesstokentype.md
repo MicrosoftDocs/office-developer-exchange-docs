@@ -1,7 +1,6 @@
 ---
 title: "TokenType (ClientAccessTokenType)"
- 
- 
+description: "The TokenType element identifies the type of client access token that will be returned in the GetClientAccessToken response."
 manager: sethgros
 ms.date: 09/17/2015
 ms.audience: Developer
@@ -9,7 +8,6 @@ ms.topic: reference
 ms.prod: office-online-server
 ms.localizationpriority: medium
 ms.assetid: 96103f15-a3e0-497c-af21-90adbf9a4b14
-description: "The TokenType element identifies the type of client access token that will be returned in the GetClientAccessToken response."
 ---
 
 # TokenType (ClientAccessTokenType)
@@ -20,7 +18,8 @@ The **TokenType** element identifies the type of client access token that will b
 <TokenType>CallerIdentity | ExtensionCallback | ScopedToken</TokenType>
 ```
 
- **ClientAccessTokenTypeType**
+**ClientAccessTokenTypeType**
+
 ## Attributes and elements
 
 The following sections describe attributes, child elements, and parent elements.
@@ -49,11 +48,9 @@ The schema that describes this element is located in the IIS virtual directory t
   
 ## Element information
 
-|||
+|Element info|value|
 |:-----|:-----|
 |Namespace  <br/> |https://schemas.microsoft.com/exchange/services/2006/types  <br/> |
 |Schema name  <br/> |Types schema  <br/> |
 |Validation file  <br/> |Types.xsd  <br/> |
-|Can be empty  <br/> |false  <br/> |
-   
-
+|Can be empty  <br/> |false  <br/> |   

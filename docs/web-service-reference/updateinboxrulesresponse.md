@@ -1,5 +1,6 @@
 ---
 title: "UpdateInboxRulesResponse"
+description: "The UpdateInboxRulesResponse element defines a response to an UpdateInboxRules request."
 manager: sethgros
 ms.date: 09/17/2015
 ms.audience: Developer
@@ -11,7 +12,6 @@ api_name:
 api_type:
 - schema
 ms.assetid: 0947b6aa-0d95-421b-aebb-d03021ecc110
-description: "The UpdateInboxRulesResponse element defines a response to an UpdateInboxRules request."
 ---
 
 # UpdateInboxRulesResponse
@@ -28,7 +28,8 @@ The **UpdateInboxRulesResponse** element defines a response to an UpdateInboxRul
 </UpdateInboxRulesResponse>
 ```
 
- **UpdateInboxRulesResponseType**
+**UpdateInboxRulesResponseType**
+
 ## Attributes and elements
 
 The following sections describe attributes, child elements, and parent elements.
@@ -71,7 +72,7 @@ The schema that describes this element is located in the IIS virtual directory t
   
 ## Element information
 
-|||
+|Element info|value|
 |:-----|:-----|
 |Namespace  <br/> |https://schemas.microsoft.com/exchange/services/2006/messages  <br/> |
 |Schema name  <br/> |Messages schema  <br/> |
@@ -83,4 +84,3 @@ The schema that describes this element is located in the IIS virtual directory t
 - [UpdateInboxRules](updateinboxrules.md)
 - [UpdateInboxRules operation](updateinboxrules-operation.md)
 - [EWS XML elements in Exchange](ews-xml-elements-in-exchange.md)
-

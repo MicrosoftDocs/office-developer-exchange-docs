@@ -1,7 +1,5 @@
 ---
-title: "EndTimeZoneId"
- 
- 
+title: "EndTimeZoneId" 
 manager: sethgros
 ms.date: 09/17/2015
 ms.audience: Developer
@@ -20,8 +18,9 @@ The **EndTimeZoneId** element specifies the time zone in which a meeting takes p
 <EndTimeZoneId></EndTimeZoneId>
 ```
 
- **string**
-## Attributes and elements
+**string**
+ 
+ ## Attributes and elements
 
 The following sections describe attributes, child elements, and parent elements.
   
@@ -51,7 +50,7 @@ The schema that describes this element is located in the IIS virtual directory t
   
 ## Element information
 
-|||
+|Item|Value|
 |:-----|:-----|
 |Namespace  <br/> |https://schemas.microsoft.com/exchange/services/2006/types  <br/> |
 |Schema Name  <br/> |Type schema  <br/> |
@@ -60,7 +59,4 @@ The schema that describes this element is located in the IIS virtual directory t
    
 ## See also
 
-
-
 - [EWS XML elements in Exchange](ews-xml-elements-in-exchange.md)
-

@@ -1,7 +1,5 @@
 ---
-title: "BccRecipients"
- 
- 
+title: "BccRecipients" 
 manager: sethgros
 ms.date: 09/17/2015
 ms.audience: Developer
@@ -26,7 +24,8 @@ The **BccRecipients** element represents a collection of recipients to receive a
 </BccRecipients>
 ```
 
- **ArrayOfRecipientsType**
+**ArrayOfRecipientsType**
+
 ## Attributes and elements
 
 The following sections describe attributes, child elements, and parent elements.
@@ -67,7 +66,7 @@ The schema that describes this element is located in the EWS virtual directory o
   
 ## Element information
 
-|||
+|Item|Value|
 |:-----|:-----|
 |Namespace  <br/> |https://schemas.microsoft.com/exchange/services/2006/types  <br/> |
 |Schema Name  <br/> |Types schema  <br/> |
@@ -76,7 +75,4 @@ The schema that describes this element is located in the EWS virtual directory o
    
 ## See also
 
-
-
 - [EWS XML elements in Exchange](ews-xml-elements-in-exchange.md)
-

@@ -1,7 +1,6 @@
 ---
 title: "ItemClass"
- 
- 
+description: "The ItemClass element represents the message class of an item."
 manager: sethgros
 ms.date: 09/17/2015
 ms.audience: Developer
@@ -13,7 +12,6 @@ api_name:
 api_type:
 - schema
 ms.assetid: 56020078-50b4-4880-894a-a9f234033cfb
-description: "The ItemClass element represents the message class of an item."
 ---
 
 # ItemClass
@@ -24,7 +22,8 @@ The **ItemClass** element represents the message class of an item.
 <ItemClass/>
 ```
 
- **ItemClassType**
+**ItemClassType**
+ 
 ## Attributes and elements
 
 The following sections describe attributes, child elements, and parent elements.
@@ -70,7 +69,7 @@ The schema that describes this element is located in the IIS virtual directory t
   
 ## Element information
 
-|||
+|Item|Value|
 |:-----|:-----|
 |Namespace  <br/> |https://schemas.microsoft.com/exchange/services/2006/types  <br/> |
 |Schema Name  <br/> |Types schema  <br/> |
