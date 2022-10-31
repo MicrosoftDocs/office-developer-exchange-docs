@@ -48,7 +48,8 @@ The schema that describes this element is located in the IIS virtual directory t
   
 ## Element information
 
-|Element i|:-----|
+|Element info |
+|:-----|
 |Namespace  <br/> |
 |Schema Name  <br/> |
 |Validation File  <br/> |
