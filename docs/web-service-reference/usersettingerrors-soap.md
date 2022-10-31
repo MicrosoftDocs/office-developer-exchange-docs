@@ -1,5 +1,6 @@
 ---
 title: "UserSettingErrors (SOAP)"
+description: "The UserSettingErrors element represents a collection of information about settings that could not be returned."
 manager: sethgros
 ms.date: 09/17/2015
 ms.audience: Developer
@@ -8,9 +9,6 @@ ms.localizationpriority: medium
 api_type:
 - schema
 ms.assetid: a9b94bae-cab9-412d-a811-801e849ed6c5
-description: "The UserSettingErrors element represents a collection of information about settings that could not be returned."
- 
- 
 ---
 
 # UserSettingErrors (SOAP)
@@ -23,7 +21,8 @@ The **UserSettingErrors** element represents a collection of information about s
 </UserSettingErrors>
 ```
 
- **UserSettingErrors**
+**UserSettingErrors**
+
 ## Attributes and elements
 
 The following sections describe attributes, child elements, and parent elements.
@@ -50,7 +49,7 @@ None.
   
 ## Element information
 
-|||
+|Element info|Value|
 |:-----|:-----|
 |Namespace  <br/> |https://schemas.microsoft.com/exchange/2010/Autodiscover  <br/> |
 |Schema Name  <br/> |Autodiscover schema  <br/> |
@@ -59,7 +58,4 @@ None.
    
 ## See also
 
-
-
 [SOAP Autodiscover XML elements for Exchange 2013](soap-autodiscover-xml-elements-for-exchange-2013.md)
-
