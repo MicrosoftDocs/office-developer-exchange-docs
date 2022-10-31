@@ -1,5 +1,6 @@
 ---
 title: "UserConfigurationName"
+description: "The UserConfigurationName element represents the name of a user configuration object. The user configuration object name is the identifier for a user configuration object."
 manager: sethgros
 ms.date: 09/17/2015
 ms.audience: Developer
@@ -11,7 +12,6 @@ api_name:
 api_type:
 - schema
 ms.assetid: 6947dd03-9727-4379-9b9d-42373fa120c7
-description: "The UserConfigurationName element represents the name of a user configuration object. The user configuration object name is the identifier for a user configuration object."
 ---
 
 # UserConfigurationName
@@ -67,7 +67,7 @@ The schema that describes this element is located in the IIS virtual directory t
   
 ## Element information
 
-|||
+|Element info|value|
 |:-----|:-----|
 |Namespace  <br/> |https://schemas.microsoft.com/exchange/services/2006/types  <br/> |
 |Schema Name  <br/> |Types schema  <br/> |
@@ -76,5 +76,4 @@ The schema that describes this element is located in the IIS virtual directory t
    
 ## See also
 
-- [EWS XML elements in Exchange](ews-xml-elements-in-exchange.md)
-
+[EWS XML elements in Exchange](ews-xml-elements-in-exchange.md)
