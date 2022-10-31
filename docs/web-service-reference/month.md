@@ -1,5 +1,6 @@
 ---
 title: "Month"
+description: "The Month element represents the transition month of the year to and from standard time and daylight saving time."
 manager: sethgros
 ms.date: 09/17/2015
 ms.audience: Developer
@@ -11,7 +12,6 @@ api_name:
 api_type:
 - schema
 ms.assetid: b12ac64f-b230-4573-be05-c86a428c4965
-description: "The Month element represents the transition month of the year to and from standard time and daylight saving time."
 ---
 
 # Month
@@ -22,7 +22,8 @@ The **Month** element represents the transition month of the year to and from st
 <Month>...</Month>
 ```
 
- **Short**
+**Short**
+
 ## Attributes and elements
 
 The following sections describe attributes, child elements, and parent elements.
@@ -52,7 +53,7 @@ A [StandardTime](standardtime.md) element that contains a [DayOrder](dayorder.md
   
 ## Element information
 
-|||
+|Item|Value|
 |:-----|:-----|
 |Namespace  <br/> |https://schemas.microsoft.com/exchange/services/2006/types  <br/> |
 |Schema Name  <br/> |Types schema  <br/> |
@@ -62,5 +63,4 @@ A [StandardTime](standardtime.md) element that contains a [DayOrder](dayorder.md
 ## See also
 
 - [GetUserAvailability operation](getuseravailability-operation.md)
-- [Getting User Availability](https://msdn.microsoft.com/library/d4133fcb-9b0f-4e6b-aadf-a389da83516a%28Office.15%29.aspx)
-
+- [Getting User Availability](https://learn.microsoft.com/previous-versions/office/developer/exchange-server-2010/aa494212(v=exchg.140))
