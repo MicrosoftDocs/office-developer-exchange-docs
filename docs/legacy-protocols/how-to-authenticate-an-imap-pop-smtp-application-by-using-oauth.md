@@ -258,6 +258,19 @@ Add-MailboxPermission -Identity "john.smith@contoso.com" -User
 <SERVICE_PRINCIPAL_ID> -AccessRights FullAccess
 ```
 
+
+Different ID have to be used during creation of the Exchange ServicePrincipal and also later grating mailbox permissions. The further example should help you to use the right IDs in the differenz stages. As the exmaple is using Azure AD cmdelts you would need additionally install Azure AD Powershell module (https://learn.microsoft.com/en-us/powershell/azure/active-directory/install-adv2?view=azureadps-2.0#installing-the-azure-ad-module). 
+
+```text
+$AADServicePrincipalDetails = Get-AzureADServicePrincipal -SearchString YourAppName
+
+New-ServicePrincipal -AppId $AADServicePrincipalDetails.AppId -ServiceId $AADServicePrincipalDetails.ObjectId -DisplayName "EXO Serviceprincipal for AzureAD App $($AADServicePrincipalDetails.Displayname)"
+
+$EXOServicePrincipal = Get-ServicePrincipal -Identity "EXO Serviceprincipal for AzureAD App YourAppName"
+
+Add-MailboxPermission -Identity "john.smith@contoso.com" -User $EXOServicePrincipal.Identity -AccessRights FullAccess
+```
+
 Your Azure AD application can now access the allowed mailboxes via the POP or IMAP protocols using the OAuth 2.0 client credentials grant flow. For more information, see the instructions in [Permissions and consent in the Microsoft identity platform](/azure/active-directory/develop/v2-oauth2-client-creds-grant-flow).
 
 You must use `https://outlook.office365.com/.default` in the `scope` property in the body payload for the access token request.
