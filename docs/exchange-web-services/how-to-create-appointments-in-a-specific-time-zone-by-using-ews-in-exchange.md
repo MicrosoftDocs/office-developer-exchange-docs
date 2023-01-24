@@ -140,9 +140,9 @@ The following example [CreateItem operation](https://msdn.microsoft.com/library/
 ```XML
 <?xml version="1.0" encoding="utf-8"?>
 <soap:Envelope xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
-    xmlns:m="https://schemas.microsoft.com/exchange/services/2006/messages" 
-    xmlns:t="https://schemas.microsoft.com/exchange/services/2006/types" 
-    xmlns:soap="https://schemas.xmlsoap.org/soap/envelope/">
+    xmlns:m="http://schemas.microsoft.com/exchange/services/2006/messages" 
+    xmlns:t="http://schemas.microsoft.com/exchange/services/2006/types" 
+    xmlns:soap="http://schemas.xmlsoap.org/soap/envelope/">
   <soap:Header>
     <t:RequestServerVersion Version="Exchange2010" />
   </soap:Header>
@@ -152,8 +152,8 @@ The following example [CreateItem operation](https://msdn.microsoft.com/library/
         <t:CalendarItem>
           <t:Subject>Appointment created using UTC</t:Subject>
           <t:Body BodyType="HTML">Time zone: UTC</t:Body>
-          <t:Start>2014-06-07T17:00:00.000Z</t:Start>
-          <t:End>2014-06-07T18:00:00.000Z</t:End>
+          <t:Start>2023-02-07T17:00:00.000Z</t:Start>
+          <t:End>2023-02-07T18:00:00.000Z</t:End>
         </t:CalendarItem>
       </m:Items>
     </m:CreateItem>
@@ -166,9 +166,9 @@ The following example [CreateItem operation](https://msdn.microsoft.com/library/
 ```XML
 <?xml version="1.0" encoding="utf-8"?>
 <soap:Envelope xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
-    xmlns:m="https://schemas.microsoft.com/exchange/services/2006/messages" 
-    xmlns:t="https://schemas.microsoft.com/exchange/services/2006/types" 
-    xmlns:soap="https://schemas.xmlsoap.org/soap/envelope/">
+    xmlns:m="http://schemas.microsoft.com/exchange/services/2006/messages" 
+    xmlns:t="http://schemas.microsoft.com/exchange/services/2006/types" 
+    xmlns:soap="http://schemas.xmlsoap.org/soap/envelope/">
   <soap:Header>
     <t:RequestServerVersion Version="Exchange2010" />
   </soap:Header>
@@ -178,8 +178,8 @@ The following example [CreateItem operation](https://msdn.microsoft.com/library/
         <t:CalendarItem>
           <t:Subject>Appointment created using Central time zone</t:Subject>
           <t:Body BodyType="HTML">Time zone: (UTC-06:00) Central Time (US &amp;amp; Canada)</t:Body>
-          <t:Start>2014-06-07T18:00:00.000Z</t:Start>
-          <t:End>2014-06-07T19:00:00.000Z</t:End>
+          <t:Start>2023-02-07T18:00:00.000</t:Start>
+          <t:End>2023-02-07T19:00:00.000</t:End>
           <t:StartTimeZone Id="Central Standard Time" />
           <t:EndTimeZone Id="Central Standard Time" />
         </t:CalendarItem>
@@ -194,9 +194,9 @@ The following example [CreateItem operation](https://msdn.microsoft.com/library/
 ```XML
 <?xml version="1.0" encoding="utf-8"?>
 <soap:Envelope xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
-    xmlns:m="https://schemas.microsoft.com/exchange/services/2006/messages" 
-    xmlns:t="https://schemas.microsoft.com/exchange/services/2006/types" 
-    xmlns:soap="https://schemas.xmlsoap.org/soap/envelope/">
+    xmlns:m="http://schemas.microsoft.com/exchange/services/2006/messages" 
+    xmlns:t="http://schemas.microsoft.com/exchange/services/2006/types" 
+    xmlns:soap="http://schemas.xmlsoap.org/soap/envelope/">
   <soap:Header>
     <t:RequestServerVersion Version="Exchange2010" />
     <t:TimeZoneContext>
@@ -209,8 +209,8 @@ The following example [CreateItem operation](https://msdn.microsoft.com/library/
         <t:CalendarItem>
           <t:Subject>Appointment created using Mountain time zone</t:Subject>
           <t:Body BodyType="HTML">Time zone: (UTC-07:00) Mountain Time (US &amp;amp; Canada)</t:Body>
-          <t:Start>2014-06-07T19:00:00.000Z</t:Start>
-          <t:End>2014-06-07T20:00:00.000Z</t:End>
+          <t:Start>2023-02-07T19:00:00.000</t:Start>
+          <t:End>2023-02-07T20:00:00.000</t:End>
         </t:CalendarItem>
       </m:Items>
     </m:CreateItem>
