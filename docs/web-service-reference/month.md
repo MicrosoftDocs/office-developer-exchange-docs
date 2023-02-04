@@ -63,4 +63,4 @@ A [StandardTime](standardtime.md) element that contains a [DayOrder](dayorder.md
 ## See also
 
 - [GetUserAvailability operation](getuseravailability-operation.md)
-- [Getting User Availability](https://learn.microsoft.com/previous-versions/office/developer/exchange-server-2010/aa494212(v=exchg.140))
+- [Getting User Availability](/previous-versions/office/developer/exchange-server-2010/aa494212(v=exchg.140))
