@@ -1,35 +1,29 @@
 ---
 title: "Create appointments in a specific time zone by using EWS in Exchange"
- 
- 
 manager: sethgros
-ms.date: 11/16/2014
-ms.audience: Developer
- 
- 
+ms.date: 02/04/2023
+ms.audience: Developer 
 ms.localizationpriority: medium
 ms.assetid: e68aaa27-250e-4170-b099-077a979c127c
-description: "Learn how to create appointments in specific time zones by using the EWS Managed API or EWS in Exchange."
+description: Create appointments in specific time zones by using the EWS Managed API or EWS in Exchange
 ---
 
 # Create appointments in a specific time zone by using EWS in Exchange
 
-Learn how to create appointments in specific time zones by using the EWS Managed API or EWS in Exchange.
-  
 When an appointment or meeting is created on an Exchange calendar, the time zone used to specify the start and end times is saved as the creation time zone for the appointment. That time zone is also used to [interpret date and time values that do not have an explicit time zone specified](time-zones-and-ews-in-exchange.md), so it is important to understand your options to specify the time zone.
   
-## Creating appointments in different time zones by using the EWS Managed API
+## Create appointments in different time zones by using the EWS Managed API
 
 When creating appointments or meetings using the EWS Managed API, you have three options for specifying the time zone:
   
-- To use the time zone of the computer where your EWS Managed API is executing, do not specify a time zone when creating the [ExchangeService](https://msdn.microsoft.com/library/microsoft.exchange.webservices.data.exchangeservice%28v=exchg.80%29.aspx) object. 
+- To use the time zone of the computer where your EWS Managed API is executing, do not specify a time zone when creating the [ExchangeService](/dotnet/api/microsoft.exchange.webservices.data.exchangeservice) object. 
     
 - To use a specific time zone for all date/time properties, including properties when creating a new appointment or meeting, specify a time zone in the constructor for the **ExchangeService** object. 
     
-- To use a different time zone than the one specified in the [ExchangeService.TimeZone](https://msdn.microsoft.com/library/microsoft.exchange.webservices.data.exchangeservice.timezone%28v=exchg.80%29.aspx) property, use the [Appointment.StartTimeZone](https://msdn.microsoft.com/library/microsoft.exchange.webservices.data.appointment.starttimezone%28v=exchg.80%29.aspx) and [Appointment.EndTimeZone](https://msdn.microsoft.com/library/microsoft.exchange.webservices.data.appointment.endtimezone%28v=exchg.80%29.aspx) properties. 
-    
-    > [!NOTE]
-    > The **EndTimeZone** property is only available when the [ExchangeService.RequestedServerVersion](https://msdn.microsoft.com/library/microsoft.exchange.webservices.data.exchangeservicebase.requestedserverversion%28v=exchg.80%29.aspx) property is set to **Exchange2010** or later. If it is not available, setting the **StartTimeZone** applies to both the start and end times of the appointment. 
+- To use a different time zone than the one specified in the [ExchangeService.TimeZone](/dotnet/api/microsoft.exchange.webservices.data.exchangeservice.timezone) property, use the [Appointment.StartTimeZone](/dotnet/api/microsoft.exchange.webservices.data.appointment.starttimezone) and [Appointment.EndTimeZone](/dotnet/api/microsoft.exchange.webservices.data.appointment.endtimezone) properties. 
+
+> [!NOTE]
+> The **EndTimeZone** property is only available when the [ExchangeService.RequestedServerVersion](https://learn.microsoft.com/dotnet/api/microsoft.exchange.webservices.data.exchangeservicebase.requestedserverversion) property is set to **Exchange2010** or later. If it's not available, setting the **StartTimeZone** applies to both the start and end times of the appointment. 
   
 In the following example, the EWS Managed API is used to create three appointments. Each appointment is set to start at 1:00 PM two days from now, in an unspecified time zone, and end one hour later. The first appointment is created in the client computer's time zone by using default EWS Managed API behavior. The second is created in the Central time zone by using the **Appointment.StartTimeZone** and **Appointment.EndTimeZone** properties, in this case we also set the TimeZoneDescription Extended Property to the same value as TimeZone being used. The third is created in the Mountain time zone by using the **ExchangeService.TimeZone** property. 
   
@@ -126,18 +120,19 @@ static void CreateAppointments(string userEmail, SecureString userPass)
     }
 }
 ```
-   > [!NOTE]
-   > In the second example, the TimeZoneDescription Extended Property need to be set to avoid a potention issue when meeting updates are being sent out to enternal recipient. 
+
+> [!NOTE]
+> In the second example, the TimeZoneDescription Extended Property need to be set to avoid a potention issue when meeting updates are being sent out to enternal recipient. 
 
 When this example is executed on a client computer configured in the Eastern time zone, and the three appointments it creates are viewed from a client configured in the Eastern time zone, they appear at 1:00 PM, 2:00 PM, and 3:00 PM, respectively.
   
-## Creating appointments in different time zones by using EWS
+## Create appointments in different time zones by using EWS
 
 When creating appointments or meetings using EWS, you have three options for specifying the time zone:
   
-- To use Coordinated Universal Time (UTC), do not include a [TimeZoneContext](https://msdn.microsoft.com/library/573c462b-aa1d-4ba0-8852-e3f48b26873b%28Office.15%29.aspx) element, [MeetingTimeZone](https://msdn.microsoft.com/library/413b47d9-8126-462c-9a4f-4e771a5e8889%28Office.15%29.aspx) element (Exchange 2007 only), or [StartTimeZone](https://msdn.microsoft.com/library/d38c4dc1-4ecb-42a1-8d57-a451b16a2de2%28Office.15%29.aspx) and [EndTimeZone](https://msdn.microsoft.com/library/6c53c337-be60-4d22-9e9e-a0c140c5e913%28Office.15%29.aspx) elements (Exchange 2010 and later) in the [CreateItem operation](https://msdn.microsoft.com/library/78a52120-f1d0-4ed7-8748-436e554f75b6%28Office.15%29.aspx) request. 
+- To use Coordinated Universal Time (UTC), do not include a [TimeZoneContext](/exchange/client-developer/web-service-reference/timezonecontex.md) element, [MeetingTimeZone](/exchange/client-developer/web-service-reference/meetingtimezone.md) element (Exchange 2007 only), or [StartTimeZone](/exchange/client-developer/web-service-reference/starttimezone.md) and [EndTimeZone](/exchange/client-developer/web-service-reference/endtimezone.md) elements (Exchange 2010 and later) in the [CreateItem operation](/exchange/client-developer/web-service-reference/createitem-operation.md) request. 
     
-- To use a specific time zone for all date/time properties, including properties when creating a new appointment or meeting, specify a time zone in the [TimeZoneContext](https://msdn.microsoft.com/library/573c462b-aa1d-4ba0-8852-e3f48b26873b%28Office.15%29.aspx) element in the [CreateItem operation](https://msdn.microsoft.com/library/78a52120-f1d0-4ed7-8748-436e554f75b6%28Office.15%29.aspx) request. 
+- To use a specific time zone for all date/time properties, including properties when creating a new appointment or meeting, specify a time zone in the [TimeZoneContext](/exchange/client-developer/web-service-reference/timezonecontext.md) element in the [CreateItem operation](/exchange/client-developer/web-service-reference/createitem-operation.md) request. 
     
 - To use a different time zone than the one specified in the [TimeZoneContext](https://msdn.microsoft.com/library/573c462b-aa1d-4ba0-8852-e3f48b26873b%28Office.15%29.aspx) element, include a [TimeZoneContext](https://msdn.microsoft.com/library/573c462b-aa1d-4ba0-8852-e3f48b26873b%28Office.15%29.aspx) element, [MeetingTimeZone](https://msdn.microsoft.com/library/413b47d9-8126-462c-9a4f-4e771a5e8889%28Office.15%29.aspx) element (Exchange 2007 only), or [StartTimeZone](https://msdn.microsoft.com/library/d38c4dc1-4ecb-42a1-8d57-a451b16a2de2%28Office.15%29.aspx) and [EndTimeZone](https://msdn.microsoft.com/library/6c53c337-be60-4d22-9e9e-a0c140c5e913%28Office.15%29.aspx) elements (Exchange 2010 and later) in the [CreateItem operation](https://msdn.microsoft.com/library/78a52120-f1d0-4ed7-8748-436e554f75b6%28Office.15%29.aspx) request. 
     
@@ -167,7 +162,7 @@ The following example [CreateItem operation](https://msdn.microsoft.com/library/
 </soap:Envelope>
 ```
 
-The following example [CreateItem operation](https://msdn.microsoft.com/library/78a52120-f1d0-4ed7-8748-436e554f75b6%28Office.15%29.aspx) request uses the **StartTimeZone** and **EndTimeZone** elements to specify the Central time zone for the appointment. Notice that the **TimeZoneContext** element is absent. However, if it were present, the values of the **StartTimeZone** and **EndTimeZone** elements would override its value. Again, the **Start** and **End** element values are expressed in UTC. 
+The following example [CreateItem operation](/exchange/client-developer/web-service-reference/createitem-operation.md) request uses the **StartTimeZone** and **EndTimeZone** elements to specify the Central time zone for the appointment. Notice that the **TimeZoneContext** element is absent. However, if it were present, the values of the **StartTimeZone** and **EndTimeZone** elements would override its value. Again, the **Start** and **End** element values are expressed in UTC. 
   
 ```XML
 <?xml version="1.0" encoding="utf-8"?>
@@ -195,7 +190,7 @@ The following example [CreateItem operation](https://msdn.microsoft.com/library/
 </soap:Envelope>
 ```
 
-The following example [CreateItem operation](https://msdn.microsoft.com/library/78a52120-f1d0-4ed7-8748-436e554f75b6%28Office.15%29.aspx) request sets the **TimeZoneContext** element to the Mountain time zone. Notice that the **StartTimeZone** and **EndTimeZone** elements are absent. Again, the **Start** and **End** element values are expressed in UTC. 
+The following example [CreateItem operation](/exchange/client-developer/web-service-reference/createitem-operation.md) request sets the **TimeZoneContext** element to the Mountain time zone. Notice that the **StartTimeZone** and **EndTimeZone** elements are absent. Again, the **Start** and **End** element values are expressed in UTC. 
   
 ```XML
 <?xml version="1.0" encoding="utf-8"?>
@@ -226,15 +221,12 @@ The following example [CreateItem operation](https://msdn.microsoft.com/library/
 
 When the three appointments created by the previous EWS example requests are viewed from a client configured in the Eastern time zone, they appear at 1:00 PM, 2:00 PM, and 3:00 PM, respectively. 
 
-Now that you know how to create appointments in specific time zones, you might want to [update the time zones on existing appointments](how-to-update-the-time-zone-for-an-appointment-by-using-ews-in-exchange.md) to a different one. 
+Now that you know how to create appointments in specific time zones, you can [update the time zones on existing appointments](how-to-update-the-time-zone-for-an-appointment-by-using-ews-in-exchange.md) to a different one. 
   
 ## See also
-
 
 - [Time zones and EWS in Exchange](time-zones-and-ews-in-exchange.md)
     
 - [Update the time zone for an appointment by using EWS in Exchange](how-to-update-the-time-zone-for-an-appointment-by-using-ews-in-exchange.md)
     
 - [Create appointments and meetings by using EWS in Exchange 2013](how-to-create-appointments-and-meetings-by-using-ews-in-exchange-2013.md)
-    
-
