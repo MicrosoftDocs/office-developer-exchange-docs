@@ -85,4 +85,4 @@ The schema that describes this element is located in the EWS virtual directory o
 
 [GetUserAvailability operation](getuseravailability-operation.md)  
 [GetUserAvailabilityResponse](getuseravailabilityresponse.md)
-[Getting User Availability](https://learn.microsoft.com/previous-versions/office/developer/exchange-server-2010/aa494212(v=exchg.140))
+[Getting User Availability](/previous-versions/office/developer/exchange-server-2010/aa494212(v=exchg.140))
