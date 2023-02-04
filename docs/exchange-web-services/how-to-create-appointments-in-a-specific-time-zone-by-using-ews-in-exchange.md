@@ -31,7 +31,7 @@ When creating appointments or meetings using the EWS Managed API, you have three
     > [!NOTE]
     > The **EndTimeZone** property is only available when the [ExchangeService.RequestedServerVersion](https://msdn.microsoft.com/library/microsoft.exchange.webservices.data.exchangeservicebase.requestedserverversion%28v=exchg.80%29.aspx) property is set to **Exchange2010** or later. If it is not available, setting the **StartTimeZone** applies to both the start and end times of the appointment. 
   
-In the following example, the EWS Managed API is used to create three appointments. Each appointment is set to start at 1:00 PM two days from now, in an unspecified time zone, and end one hour later. The first appointment is created in the client computer's time zone by using default EWS Managed API behavior. The second is created in the Central time zone by using the **Appointment.StartTimeZone** and **Appointment.EndTimeZone** properties. The third is created in the Mountain time zone by using the **ExchangeService.TimeZone** property. 
+In the following example, the EWS Managed API is used to create three appointments. Each appointment is set to start at 1:00 PM two days from now, in an unspecified time zone, and end one hour later. The first appointment is created in the client computer's time zone by using default EWS Managed API behavior. The second is created in the Central time zone by using the **Appointment.StartTimeZone** and **Appointment.EndTimeZone** properties, in this case we also set the TimeZoneDescription Extended Property to the same value as TimeZone being used. The third is created in the Mountain time zone by using the **ExchangeService.TimeZone** property. 
   
 ```cs
 using Microsoft.Exchange.WebServices.Data;
@@ -70,6 +70,8 @@ static void CreateAppointments(string userEmail, SecureString userPass)
     // Create an appointment in the Central time zone by
     // using the StartTimeZone property.
     // *****************************************************
+    // Extended Property for the TimeZone Description
+    ExtendedPropertyDefinition tzDescription = new ExtendedPropertyDefinition(DefaultExtendedPropertySet.Appointment, 33332, MapiPropertyType.String);
     // Retrieve the Central time zone.
     TimeZoneInfo centralTZ = TimeZoneInfo.FindSystemTimeZoneById("Central Standard Time");
     // Create the appointment.
@@ -83,6 +85,8 @@ static void CreateAppointments(string userEmail, SecureString userPass)
     centralTZAppt.Start = startTime;
     // Set the end time to 2:00 PM on that same day.
     centralTZAppt.End = endTime;
+    // Set the TimeZone Description on the appointment/meeting
+    centralTZAppt.SetExtendedProperty(tzDescription, centralTZ.DisplayName);
     // Save the appointment to the default calendar.
     try
     {
@@ -122,6 +126,8 @@ static void CreateAppointments(string userEmail, SecureString userPass)
     }
 }
 ```
+   > [!NOTE]
+   > In the second example, the TimeZoneDescription Extended Property need to be set to avoid a potention issue when meeting updates are being sent out to enternal recipient. 
 
 When this example is executed on a client computer configured in the Eastern time zone, and the three appointments it creates are viewed from a client configured in the Eastern time zone, they appear at 1:00 PM, 2:00 PM, and 3:00 PM, respectively.
   

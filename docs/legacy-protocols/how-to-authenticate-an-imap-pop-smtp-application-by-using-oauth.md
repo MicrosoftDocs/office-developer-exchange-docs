@@ -203,7 +203,7 @@ To access Exchange mailboxes via POP or IMAP, your AAD application must get tena
 
 #### How to grant consent if the application is registered/configured for multiple tenant usage e.g. for Partner/ISV developed centraly registered application
 
-If your ISV/partner registered the Azure AD Appliacation with the option "Accounts in any organizational directory", you need to add this application and consent it using the following steps by leveraging the authorization request URL.
+If your ISV/partner registered the Azure AD Application with the option "Accounts in any organizational directory", you need to add this application and consent it using the following steps by leveraging the authorization request URL.
 
 In your OAuth 2.0 tenant authorization request, the `scope` query parameter should be `https://ps.outlook.com/.default` for both the POP and IMAP application scopes.
 The following is an example of the OAuth 2.0 authorization request URL:
@@ -256,6 +256,19 @@ The following is an example of how to give your application's service principal 
 ```text
 Add-MailboxPermission -Identity "john.smith@contoso.com" -User 
 <SERVICE_PRINCIPAL_ID> -AccessRights FullAccess
+```
+
+
+Different IDs are used during creation of the Exchange ServicePrincipal and also later when granting mailbox permissions. The following example may help you to use the correct ID for the different stages. The example uses Azure AD cmdelts so you'll need to install the Azure AD PowerShell module, if you haven't already. For more information, see [Install Azure Active Directory PowerShell for Graph](https://learn.microsoft.com/powershell/azure/active-directory/install-adv2?view=azureadps-2.0#installing-the-azure-ad-module).
+
+```text
+$AADServicePrincipalDetails = Get-AzureADServicePrincipal -SearchString YourAppName
+
+New-ServicePrincipal -AppId $AADServicePrincipalDetails.AppId -ServiceId $AADServicePrincipalDetails.ObjectId -DisplayName "EXO Serviceprincipal for AzureAD App $($AADServicePrincipalDetails.Displayname)"
+
+$EXOServicePrincipal = Get-ServicePrincipal -Identity "EXO Serviceprincipal for AzureAD App YourAppName"
+
+Add-MailboxPermission -Identity "john.smith@contoso.com" -User $EXOServicePrincipal.Identity -AccessRights FullAccess
 ```
 
 Your Azure AD application can now access the allowed mailboxes via the POP or IMAP protocols using the OAuth 2.0 client credentials grant flow. For more information, see the instructions in [Permissions and consent in the Microsoft identity platform](/azure/active-directory/develop/v2-oauth2-client-creds-grant-flow).
