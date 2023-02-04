@@ -18,7 +18,8 @@ The **DisplayNameLastFirstSortKey** element contains the sort key for a display 
 <DisplayNameLastFirstSortKey></DisplayNameLastFirstSortKey>
 ```
 
- **string**
+**string**
+
 ## Attributes and elements
 
 The following sections describe attributes, child elements, and parent elements.
@@ -47,11 +48,9 @@ The schema that describes this element is located in the IIS virtual directory t
   
 ## Element information
 
-|||
+|Item|Value|
 |:-----|:-----|
 |Namespace  <br/> |https://schemas.microsoft.com/exchange/services/2006/types  <br/> |
 |Schema name  <br/> |Types schema  <br/> |
 |Validation file  <br/> |Types.xsd  <br/> |
 |Can be empty  <br/> ||
-   
-

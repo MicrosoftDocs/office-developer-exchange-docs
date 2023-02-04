@@ -12,7 +12,6 @@ api_type:
 ms.assetid: 19873b72-ec12-4811-ae5f-6b61f2dbf0cc
 description: "The GetUMProperties element defines a GetUMProperties operation (UM web service) request."
  
- 
 ---
 
 # GetUMProperties (UM web service)
@@ -25,7 +24,8 @@ The **GetUMProperties** element defines a [GetUMProperties operation (UM web ser
 <GetUMProperties />
 ```
 
- **complexType**
+**complexType**
+
 ## Attributes and elements
 
 The following sections describe attributes, child elements, and parent elements.
@@ -48,7 +48,7 @@ None.
   
 ## Element information
 
-|||
+|Element info|Value|
 |:-----|:-----|
 |Namespace  <br/> |https://schemas.microsoft.com/exchange/services/2006/messages  <br/> |
 |Schema Name  <br/> |Messages  <br/> |
@@ -57,7 +57,4 @@ None.
    
 ## See also
 
-
-
 [GetUMProperties operation (UM web service)](getumproperties-operation-um-web-service.md)
-

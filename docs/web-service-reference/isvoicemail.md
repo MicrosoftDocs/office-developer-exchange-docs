@@ -1,7 +1,5 @@
 ---
-title: "IsVoicemail"
- 
- 
+title: "IsVoicemail" 
 manager: sethgros
 ms.date: 09/17/2015
 ms.audience: Developer
@@ -24,7 +22,8 @@ The **IsVoicemail** element indicates whether incoming messages must be voice ma
 <IsVoicemail>true | false</IsVoicemail>
 ```
 
- **Boolean**
+**Boolean**
+
 ## Attributes and elements
 
 The following sections describe attributes, child elements, and parent elements.
@@ -54,7 +53,7 @@ The schema that describes this element is located in the IIS virtual directory t
   
 ## Element information
 
-|||
+|Item|Value|
 |:-----|:-----|
 |Namespace  <br/> |https://schemas.microsoft.com/exchange/services/2006/messages  <br/> |
 |Schema Name  <br/> |Messages schema  <br/> |
@@ -63,7 +62,4 @@ The schema that describes this element is located in the IIS virtual directory t
    
 ## See also
 
-
-
 - [EWS XML elements in Exchange](ews-xml-elements-in-exchange.md)
-

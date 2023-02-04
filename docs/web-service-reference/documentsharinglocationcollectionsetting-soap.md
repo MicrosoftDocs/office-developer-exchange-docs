@@ -1,12 +1,12 @@
 ---
 title: "DocumentSharingLocationCollectionSetting (SOAP)"
+description: "DocumentSharingLocationCollectionSetting element represents a user setting that is a collection of documentation sharing locations and metadata."
 manager: sethgros
 ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
 ms.localizationpriority: medium
 ms.assetid: 0e3346f9-7a55-4e87-b121-9b1ee7f227f4
-description: "The DocumentSharingLocationCollectionSetting element represents a user setting that is a collection of documentation sharing locations and metadata."
 ---
 
 # DocumentSharingLocationCollectionSetting (SOAP)
@@ -21,7 +21,8 @@ The **DocumentSharingLocationCollectionSetting** element represents a user setti
 </DocumentSharingLocationCollectionSetting>
 ```
 
- **DocumentSharingLocationCollectionSetting**
+**DocumentSharingLocationCollectionSetting**
+
 ## Attributes and elements
 
 The following sections describe attributes, child elements, and parent elements.
@@ -44,7 +45,7 @@ None.
    
 ## Element information
 
-|||
+|Element info|Value|
 |:-----|:-----|
 |Namespace  <br/> |https://schemas.microsoft.com/exchange/2010/Autodiscover  <br/> |
 |Schema Name  <br/> |Autodiscover schema  <br/> |
@@ -53,7 +54,6 @@ None.
    
 ## See also
 
-- [GetUserSettings operation (SOAP)](getusersettings-operation-soap.md)
-- [Autodiscover web service reference for Exchange](autodiscover-web-service-reference-for-exchange.md)
-- [SOAP Autodiscover XML elements for Exchange 2013](soap-autodiscover-xml-elements-for-exchange-2013.md)
-
+[GetUserSettings operation (SOAP)](getusersettings-operation-soap.md)
+[Autodiscover web service reference for Exchange](autodiscover-web-service-reference-for-exchange.md)
+[SOAP Autodiscover XML elements for Exchange 2013](soap-autodiscover-xml-elements-for-exchange-2013.md)

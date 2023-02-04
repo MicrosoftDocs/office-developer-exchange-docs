@@ -1,5 +1,6 @@
 ---
 title: "TasksFolder"
+description: "The TasksFolder element represents a Tasks folder that is contained in a mailbox."
 manager: sethgros
 ms.date: 09/17/2015
 ms.audience: Developer
@@ -11,7 +12,6 @@ api_name:
 api_type:
 - schema
 ms.assetid: 5a9a4612-8064-4986-b467-c44f268c64df
-description: "The TasksFolder element represents a Tasks folder that is contained in a mailbox."
 ---
 
 # TasksFolder
@@ -76,7 +76,7 @@ The schema that describes this element is located in the EWS virtual directory o
   
 ## Element information
 
-|||
+|Element info|Value|
 |:-----|:-----|
 |Namespace  <br/> |https://schemas.microsoft.com/exchange/services/2006/types  <br/> |
 |Schema Name  <br/> |Types schema  <br/> |
@@ -85,5 +85,4 @@ The schema that describes this element is located in the EWS virtual directory o
    
 ## See also
 
-- [EWS XML elements in Exchange](ews-xml-elements-in-exchange.md)
-
+[EWS XML elements in Exchange](ews-xml-elements-in-exchange.md)
