@@ -203,7 +203,7 @@ To access Exchange mailboxes via POP or IMAP, your AAD application must get tena
 
 #### How to grant consent if the application is registered/configured for multiple tenant usage e.g. for Partner/ISV developed centraly registered application
 
-If your ISV/partner registered the Azure AD Appliacation with the option "Accounts in any organizational directory", you need to add this application and consent it using the following steps by leveraging the authorization request URL.
+If your ISV/partner registered the Azure AD Application with the option "Accounts in any organizational directory", you need to add this application and consent it using the following steps by leveraging the authorization request URL.
 
 In your OAuth 2.0 tenant authorization request, the `scope` query parameter should be `https://ps.outlook.com/.default` for both the POP and IMAP application scopes.
 The following is an example of the OAuth 2.0 authorization request URL:
