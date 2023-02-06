@@ -162,7 +162,7 @@ The following example [CreateItem operation](https://msdn.microsoft.com/library/
 </soap:Envelope>
 ```
 
-The following example [CreateItem operation](/exchange/client-developer/web-service-reference/createitem-operation.md) request uses the **StartTimeZone** and **EndTimeZone** elements to specify the Central time zone for the appointment. Notice that the **TimeZoneContext** element is absent. However, if it were present, the values of the **StartTimeZone** and **EndTimeZone** elements would override its value. Again, the **Start** and **End** element values are expressed in UTC. 
+The following example [CreateItem operation](/exchange/client-developer/web-service-reference/createitem-operation.md) request uses the **StartTimeZone** and **EndTimeZone** elements to specify the Central time zone for the appointment. Notice that the **TimeZoneContext** element is absent. However, if it were present, the values of the **StartTimeZone** and **EndTimeZone** elements would override its value. Again, the **Start** and **End** element values are expressed in UTC. We also set the TimeZoneDescription Extended Property to the same value as TimeZone being used.
   
 ```XML
 <?xml version="1.0" encoding="utf-8"?>
@@ -179,6 +179,10 @@ The following example [CreateItem operation](/exchange/client-developer/web-serv
         <t:CalendarItem>
           <t:Subject>Appointment created using Central time zone</t:Subject>
           <t:Body BodyType="HTML">Time zone: (UTC-06:00) Central Time (US &amp;amp; Canada)</t:Body>
+          <t:ExtendedProperty>
+             <t:ExtendedFieldURI DistinguishedPropertySetId="Appointment" PropertyId="33332" PropertyType="String" />
+             <t:Value>(UTC-06:00) Central Time (US &amp; Canada)</t:Value>
+          </t:ExtendedProperty>
           <t:Start>2023-02-07T18:00:00.000</t:Start>
           <t:End>2023-02-07T19:00:00.000</t:End>
           <t:StartTimeZone Id="Central Standard Time" />
