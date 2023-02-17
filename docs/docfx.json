@@ -62,8 +62,7 @@
          "transport-agents/**.md" : "transport-agents",
 		 "management/**.md" : "management",
 		 "backup-restore/**.md" : "backup-restore",
-		 "exchange-web-services/**.md" : "ews",
-		 "legacy-protocols/**.md" : "ews"
+		 "exchange-web-services/**.md" : "ews"
        }
 	},
 
