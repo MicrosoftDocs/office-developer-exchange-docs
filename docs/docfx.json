@@ -54,15 +54,21 @@
          "transport-agents/**.md" : "exchange",
 		 "management/**.md" : "exchange",
 		 "backup-restore/**.md" : "exchange",
-		 "exchange-web-services/**.md" : "exchange",
 		 "legacy-protocols/**.md" : "exchange"
        },
  	"ms.technology": 
        { 
          "transport-agents/**.md" : "transport-agents",
 		 "management/**.md" : "management",
-		 "backup-restore/**.md" : "backup-restore",
-		 "exchange-web-services/**.md" : "ews"
+		 "backup-restore/**.md" : "backup-restore"
+       }
+ 	"ms.service": 
+       { 
+         "exchange-web-services/**.md" : "exchange"
+       }
+ 	"ms.subservice": 
+       { 
+         "exchange-web-services/**.md" : "exchange-web-services"
        }
 	},
 
