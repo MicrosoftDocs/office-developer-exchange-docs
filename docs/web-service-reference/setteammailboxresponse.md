@@ -7,6 +7,7 @@ ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
+ms.technology: ews
 ms.localizationpriority: medium
 ms.assetid: 78e0784b-8fe8-42f1-aa6f-4f4a0bc2505e
 description: "The SetTeamMailboxResponse element represents a response to a SetTeamMailbox request."

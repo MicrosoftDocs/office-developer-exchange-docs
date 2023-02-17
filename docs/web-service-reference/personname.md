@@ -7,6 +7,7 @@ ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
+ms.technology: ews
 ms.localizationpriority: medium
 ms.assetid: dbd102b8-db70-4196-affe-d7ed66bf3371
 description: "The PersonName element specifies the name of an individual found by means of entity extraction."

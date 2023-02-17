@@ -5,6 +5,7 @@ ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
+ms.technology: ews
 ms.localizationpriority: medium
 ms.assetid: 113b049f-69a1-40a3-ab98-8a2facd32391
 description: "The DisplayNameLastFirstSortKey element contains the sort key for a display name in last name, first name order."

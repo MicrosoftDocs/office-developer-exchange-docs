@@ -7,6 +7,7 @@ ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
+ms.technology: ews
 ms.localizationpriority: medium
 ms.assetid: ea5b1cb6-6998-46fb-a99c-a6d3da77591f
 description: "Find information about the MarkAllItemsAsRead EWS operation."

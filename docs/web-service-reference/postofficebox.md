@@ -7,6 +7,7 @@ ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
+ms.technology: ews
 ms.localizationpriority: medium
 ms.assetid: a3ab9bcf-7dab-44f0-9ab6-b06543c0fdc2
 description: "The PostOfficeBox element specifies thepost office boxportion of a postal address."

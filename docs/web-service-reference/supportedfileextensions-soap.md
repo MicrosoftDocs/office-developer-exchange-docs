@@ -5,6 +5,8 @@ manager: sethgros
 ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
+ms.service: exchange
+ms.subservice: exchange-web-services
 ms.localizationpriority: medium
 ms.assetid: 6f73d18c-7bb1-4ab6-a23b-6d948e590b53 
 ---

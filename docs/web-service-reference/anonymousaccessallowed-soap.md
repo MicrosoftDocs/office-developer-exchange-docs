@@ -4,6 +4,8 @@ manager: sethgros
 ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
+ms.service: exchange
+ms.subservice: exchange-web-services
 ms.localizationpriority: medium
 ms.assetid: bf819a65-30f2-4881-a34f-cb30a9c2b6a7
 description: "The AnonymousAccessAllowed element indicates whether a document sharing location requires an authenticated user."

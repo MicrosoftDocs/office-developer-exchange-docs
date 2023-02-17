@@ -4,6 +4,8 @@ manager: sethgros
 ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
+ms.service: exchange
+ms.subservice: exchange-web-services
 ms.localizationpriority: medium
 ms.assetid: f5e5e589-ee16-42a8-9cd4-ae3909fc869b
 description: "The EcpUrl-sms element specifies a partial URL that can be combined with the EcpUrl (POX) element's value to generate a URL that can be used to access Short Message Service (SMS) settings for a mail-enabled user."

@@ -7,6 +7,7 @@ ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
+ms.technology: ews
 ms.localizationpriority: medium
 ms.assetid: 7f7119b7-f5b4-484d-a7de-fa74836d9aee
 description: "The Contact element specifies a contact in the Unified Contact Store."

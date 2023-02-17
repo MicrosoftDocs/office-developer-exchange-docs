@@ -7,6 +7,7 @@ ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
+ms.technology: ews
 ms.localizationpriority: medium
 ms.assetid: f0805560-7a2f-455b-94d2-ec4f1e3652c3
 description: "The SuppressReadReceipts element indicates whether read receipts should be suppressed."

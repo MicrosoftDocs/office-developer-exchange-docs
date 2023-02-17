@@ -7,6 +7,7 @@ ms.date: 03/9/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
+ms.technology: ews
 ms.localizationpriority: medium
 ms.assetid: 34eab81c-d832-4925-9f76-d69f24b36931
 description: "The Language (DiscoverySearchConfigurationType) element identifies the culture to be used for the culture-specific format of date ranges. It also specifies the language used in a search query."

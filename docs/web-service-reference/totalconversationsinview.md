@@ -7,6 +7,7 @@ ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
+ms.technology: ews
 ms.localizationpriority: medium
 ms.assetid: fc82c00b-979c-4d1b-a5ca-7268dbce634a
 description: "The TotalConversationsInView element contains the count of conversations returned in a FindConversation response."

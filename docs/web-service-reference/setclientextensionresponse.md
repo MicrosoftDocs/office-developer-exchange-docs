@@ -7,6 +7,7 @@ ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
+ms.technology: ews
 ms.localizationpriority: medium
 ms.assetid: e335b166-3ddc-469e-81cb-5679bfad5c14
 description: "The SetClientExtensionResponse element contains the response to a SetClientExtension request."

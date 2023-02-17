@@ -7,6 +7,7 @@ ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
+ms.technology: ews
 ms.localizationpriority: medium
 ms.assetid: bfb813e4-642d-4f1b-9e91-1fee89dbd083
 description: "The NormalizedBody element specifies an HTML representation of the Body property of an item as a fragment that can be inserted into another HTML body."

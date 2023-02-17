@@ -5,6 +5,7 @@ ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
+ms.technology: ews
 ms.localizationpriority: medium
 ms.assetid: 3d3fff1f-ef13-46d5-bd7f-ef535eb80c72
 description: "The GetPasswordExpirationDateResponse element defines the response to a GetPasswordExpirationDate operation operation request."

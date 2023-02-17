@@ -5,6 +5,7 @@ ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
+ms.technology: ews
 ms.localizationpriority: medium
 ms.assetid: 5ae2292f-fc5f-49fa-88a7-34ba86ff21f9
 description: "The StartWallClock element specifies the start time of a meeting in the time zone of the location in which the meeting takes place."

@@ -7,6 +7,7 @@ ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
+ms.technology: ews
 ms.localizationpriority: medium
 ms.assetid: aeef79e4-31e1-4213-b627-9bac676be018
 description: "The ReturnNewItemIds element indicates whether the item identifiers of new items are returned in the response."

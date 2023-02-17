@@ -7,6 +7,7 @@ ms.date: 03/9/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
+ms.technology: ews
 ms.localizationpriority: medium
 ms.assetid: 8f7276aa-e354-40e4-b9cb-950fad46ac93
 description: "The UniqueBodyType element specifies whether the unique body is returned in text or HTML format."

@@ -5,6 +5,7 @@ ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
+ms.technology: ews
 ms.localizationpriority: medium
 ms.assetid: 70fe6730-1c9a-4550-acc4-7737ff407871
 description: "The AddDistributionGroupToImListResponse element defines a response to a AddDistributionGroupToImList request."

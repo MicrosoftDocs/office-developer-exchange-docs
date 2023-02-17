@@ -7,6 +7,7 @@ ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
+ms.technology: ews
 ms.localizationpriority: medium
 ms.assetid: fef0db2a-f126-4a38-b433-64194b22eab4
 description: "The MaxItemsToReturn element identifies the maximum number of conversations items to return in a GetConversationItems response."

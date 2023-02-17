@@ -7,6 +7,7 @@ ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
+ms.technology: ews
 ms.localizationpriority: medium
 ms.assetid: 5e788016-68e0-4a3f-9243-03f6b6c6b389
 description: "Find information about the RemoveImGroup EWS operation."

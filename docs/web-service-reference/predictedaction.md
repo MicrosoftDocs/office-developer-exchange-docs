@@ -5,6 +5,7 @@ ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
+ms.technology: ews
 ms.localizationpriority: medium
 ms.assetid: 442d353e-b074-495f-aa85-10b10d9071f6
 description: "The PredictedAction element is intended for internal use only."

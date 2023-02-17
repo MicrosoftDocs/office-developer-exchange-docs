@@ -7,6 +7,7 @@ ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
+ms.technology: ews
 ms.localizationpriority: medium
 ms.assetid: 5d33f557-c9d5-4f7f-82c0-d800412f8b7e
 description: "The Preview element specifies the first 256 characters of an item for display."

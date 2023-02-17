@@ -7,6 +7,7 @@ ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
+ms.technology: ews
 ms.localizationpriority: medium
 ms.assetid: 41a7c520-a9ce-4548-9ff7-0ac756523d65
 description: "The RemoveContactFromImList element represents a request to remove an instant messaging contact from all instant messaging groups."

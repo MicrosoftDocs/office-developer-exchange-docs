@@ -44,19 +44,26 @@
       "ms.topic": "conceptual",
 	  "uhfHeaderId": "MSDocsHeader-Dev_Office",
 	   "ms.suite": "office",
-	   "ms.prod" : "exchange",
 	   "ms.author": "o365devx",
 	   "author": "o365devx",
 	   "contributors_to_exclude": ["nivnar"]
     },
     "fileMetadata": {
+	"ms.prod": 
+       { 
+         "transport-agents/**.md" : "exchange",
+		 "management/**.md" : "exchange",
+		 "backup-restore/**.md" : "exchange",
+		 "exchange-web-services/**.md" : "exchange",
+		 "legacy-protocols/**.md" : "exchange"
+       },
  	"ms.technology": 
        { 
          "transport-agents/**.md" : "transport-agents",
 		 "management/**.md" : "management",
 		 "backup-restore/**.md" : "backup-restore",
 		 "exchange-web-services/**.md" : "ews",
-		 "web-service-reference/**.md" : "ews"		 
+		 "legacy-protocols/**.md" : "ews"
        }
 	},
 

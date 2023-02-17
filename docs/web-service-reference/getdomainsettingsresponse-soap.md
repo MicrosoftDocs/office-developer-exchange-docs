@@ -4,6 +4,8 @@ manager: lindalu
 ms.date: 03/22/2022
 ms.audience: Developer
 ms.topic: reference
+ms.service: exchange
+ms.subservice: exchange-web-services
 ms.localizationpriority: medium
 api_type:
 - schema

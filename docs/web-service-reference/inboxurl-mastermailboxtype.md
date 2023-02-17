@@ -5,6 +5,7 @@ ms.date: 11/16/2014
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
+ms.technology: ews
 ms.localizationpriority: medium
 ms.assetid: 42f3bceb-759e-422a-a3f0-e1b3b2f51d03
 description: "The InboxUrl (MasterMailboxType) element is intended for internal use only."

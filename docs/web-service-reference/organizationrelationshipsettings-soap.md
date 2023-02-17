@@ -4,6 +4,8 @@ manager: sethgros
 ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
+ms.service: exchange
+ms.subservice: exchange-web-services
 ms.localizationpriority: medium
 ms.assetid: 917481bb-46fc-4b88-8683-4cf812dcb0ab
 description: "The OrganizationRelationshipSettings element represents a list of organization relationships for a single organization. The OrganizationRelationshipSettings element is for internal use only. This element is not used by clients."

@@ -7,6 +7,7 @@ ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
+ms.technology: ews
 ms.localizationpriority: medium
 ms.assetid: ddb276c4-6c8a-46ef-a2eb-46b6a0bfce09
 description: "The SearchMailboxesResult element contains the result of the SearchMailboxes request."

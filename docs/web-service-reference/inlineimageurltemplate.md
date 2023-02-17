@@ -7,6 +7,7 @@ ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
+ms.technology: ews
 ms.localizationpriority: medium
 ms.assetid: 40238799-25f0-431c-91be-34b915110f03
 description: "The InlineImageUrlTemplate element specifies a template for an inline image URL."

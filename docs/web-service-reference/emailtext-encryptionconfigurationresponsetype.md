@@ -5,6 +5,7 @@ ms.date: 11/16/2014
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
+ms.technology: ews
 ms.localizationpriority: medium
 ms.assetid: 10ee69ac-efce-40b7-9861-23779a5c4660
 description: "The EmailText (EncryptionConfigurationResponseType) element is intended for internal use only."

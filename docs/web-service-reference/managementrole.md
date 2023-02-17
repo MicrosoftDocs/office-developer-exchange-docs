@@ -7,6 +7,7 @@ ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
+ms.technology: ews
 ms.localizationpriority: medium
 ms.assetid: a5ee3299-1b2c-4a2a-9fe4-997febc7267a
 description: "The ManagementRole element specifies a list of user and application management roles."

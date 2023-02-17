@@ -7,6 +7,7 @@ ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
+ms.technology: ews
 ms.localizationpriority: medium
 ms.assetid: 74c4b9d8-d336-4954-b9c2-7563bc7740fa
 description: "The CompleteFindInGALSpeechRecognitionResponse element is intended for internal use only."

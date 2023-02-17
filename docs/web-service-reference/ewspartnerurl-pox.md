@@ -4,6 +4,8 @@ manager: sethgros
 ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
+ms.service: exchange
+ms.subservice: exchange-web-services
 ms.localizationpriority: medium
 ms.assetid: 2ebae21c-3efa-4239-9b49-4a3a8871449b
 description: "The EwsPartnerUrl element specifies the URL of the best endpoint instance for Exchange Web Services (EWS) for a mail-enabled user."

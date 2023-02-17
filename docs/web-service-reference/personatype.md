@@ -7,6 +7,7 @@ ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
+ms.technology: ews
 ms.localizationpriority: medium
 ms.assetid: 81c157f0-16ae-4cd5-abf3-6aaf22ca8c70
 description: "The PersonaType element specifies the type of the persona, for example, a person or a distribution list."

@@ -7,6 +7,7 @@ ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
+ms.technology: ews
 ms.localizationpriority: medium
 ms.assetid: 339005cd-a3b9-47dd-bc7b-a860b699625b
 description: "The SearchableMailbox element specifies a mailbox returned from a GetSearchableMailboxes request."

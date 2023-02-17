@@ -7,6 +7,7 @@ ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
+ms.technology: ews
 ms.localizationpriority: medium
 ms.assetid: f012c2e3-9719-47fc-81ef-ba613263779b
 description: "The Country element identifies a country identifier in a postal address."

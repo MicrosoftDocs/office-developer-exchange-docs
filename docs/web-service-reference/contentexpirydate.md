@@ -7,6 +7,7 @@ ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
+ms.technology: ews
 ms.localizationpriority: medium
 ms.assetid: 475351f7-e8c1-4494-92e5-83bdb4bf2eaf
 description: "The ContentExpiryDate element specifies the expiration date of the content."

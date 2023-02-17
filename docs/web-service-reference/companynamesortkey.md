@@ -7,6 +7,7 @@ ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
+ms.technology: ews
 ms.localizationpriority: medium
 ms.assetid: ef4e7fae-205b-461c-a222-b4287bb24aea
 description: "The CompanyNameSortKey element contains the sort key for a company name."

@@ -7,6 +7,7 @@ ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
+ms.technology: ews
 ms.localizationpriority: medium
 ms.assetid: 54fd2192-54ca-4e42-b630-a3fbdd8e4239
 description: "The PhoneString element specifies the phone number for an extracted contact."

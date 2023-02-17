@@ -7,6 +7,7 @@ ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
+ms.technology: ews
 ms.localizationpriority: medium
 ms.assetid: aefecfe3-bf4d-4efe-833b-cdd15ecd1f8c
 description: "The Latitude element specifies the latitude of the location of the associated postal address."

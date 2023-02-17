@@ -5,6 +5,7 @@ ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
+ms.technology: ews
 ms.localizationpriority: medium
 ms.assetid: 837bb372-39eb-48ae-9c09-0d2552511f93
 description: "The Attendees element specifies the recipients of an invitation to a meeting."

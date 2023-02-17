@@ -7,6 +7,7 @@ ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
+ms.technology: ews
 ms.localizationpriority: medium
 ms.assetid: a26d4c02-f1bd-40c4-9257-5db45e839f17
 description: "The NonIndexableItemDetail element specifies detail information about an item that cannot be indexed."

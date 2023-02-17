@@ -7,6 +7,7 @@ ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
+ms.technology: ews
 ms.localizationpriority: medium
 ms.assetid: af7f202b-2889-447e-bdeb-aaad18ce6b46
 description: "The IncludeNonIndexableItems element contains a Boolean value to indicate whether to include items that cannot be indexed."

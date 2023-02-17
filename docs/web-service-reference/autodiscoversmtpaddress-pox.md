@@ -4,6 +4,8 @@ manager: sethgros
 ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
+ms.service: exchange
+ms.subservice: exchange-web-services
 ms.localizationpriority: medium
 ms.assetid: 7763d11a-b338-4a02-8a01-938859c05dfb
 description: "The AutoDiscoverSMTPAddress element contains the user's SMTP address that is used for the Autodiscover process."

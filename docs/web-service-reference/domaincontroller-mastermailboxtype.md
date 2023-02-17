@@ -5,6 +5,7 @@ ms.date: 11/16/2014
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
+ms.technology: ews
 ms.localizationpriority: medium
 ms.assetid: 9d952237-a3be-48b9-ab53-7b268db2b693
 description: "The DomainController (MasterMailboxType) element is intended for internal use only."

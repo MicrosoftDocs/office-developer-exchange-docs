@@ -7,6 +7,7 @@ ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
+ms.technology: ews
 ms.localizationpriority: medium
 ms.assetid: f784c433-5f5f-4171-a973-04ee6215c6b8
 description: "The RemoveContactFromImListResponse element represents a response to a RemoveContactFromImList request."

@@ -7,6 +7,7 @@ ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
+ms.technology: ews
 ms.localizationpriority: medium
 ms.assetid: ad333be3-1bd9-4e4a-a17d-9fcf7131cf76
 description: "The TokenValue element specifies the encoded client access token."

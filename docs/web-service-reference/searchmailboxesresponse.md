@@ -7,6 +7,7 @@ ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
+ms.technology: ews
 ms.localizationpriority: medium
 ms.assetid: b4a8914b-3e5e-4766-adf8-6b4f80a65e35
 description: "The SearchMailboxesResponse element contains the response to a SearchMailboxes WSDL operation request."

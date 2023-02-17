@@ -7,6 +7,7 @@ ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
+ms.technology: ews
 ms.localizationpriority: medium
 ms.assetid: c3c26063-9f3d-414d-84b7-4a2e12281157
 description: "The ContactString element specifies the display name of a contact."

@@ -4,6 +4,8 @@ manager: sethgros
 ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
+ms.service: exchange
+ms.subservice: exchange-web-services
 ms.localizationpriority: medium
 ms.assetid: 9693de1a-0c76-4898-8f4d-a8693fb005b3
 description: "The CanModifyPermissions element indicates whether a user can modify access permissions to a document sharing location."

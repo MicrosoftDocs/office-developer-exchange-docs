@@ -7,6 +7,7 @@ ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
+ms.technology: ews
 ms.localizationpriority: medium
 ms.assetid: 9279c3ad-f7c8-4bbc-b0a7-2c78416cb39a
 description: "Find information about the GetNonIndexableItemDetails EWS operation."

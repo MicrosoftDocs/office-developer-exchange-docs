@@ -5,6 +5,7 @@ ms.date: 11/16/2014
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
+ms.technology: ews
 ms.localizationpriority: medium
 ms.assetid: 93c72a15-2e1d-473c-a6f7-c1c8c7f78758
 description: "The JoinDate element is intended for internal use only."

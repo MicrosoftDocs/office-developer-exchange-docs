@@ -4,6 +4,8 @@ manager: sethgros
 ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
+ms.service: exchange
+ms.subservice: exchange-web-services
 ms.localizationpriority: medium
 ms.assetid: f81807e6-93de-4e47-afee-1e1ae6a85054
 description: "The EcpUrl-extinstall element specifies a partial URL that can be combined with the EcpUrl (POX) element's value to generate a URL that can be used to view or change the mail apps currently installed in the user's mailbox."

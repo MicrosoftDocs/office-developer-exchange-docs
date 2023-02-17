@@ -7,6 +7,7 @@ ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
+ms.technology: ews
 ms.localizationpriority: medium
 ms.assetid: ebdf224d-3796-4179-aa0a-87942e7585ff
 description: "The EmailAddressAttributedValue element specifies an instance of an array of email addresses and their associated attributions."

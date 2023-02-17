@@ -5,6 +5,7 @@ ms.date: 03/9/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
+ms.technology: ews
 ms.localizationpriority: medium
 ms.assetid: e70f1a3d-03cf-4252-804f-3eef0ce4a1a9
 description: "The ApprovalDecisionTime element specifies the time at which the approval decision was made."

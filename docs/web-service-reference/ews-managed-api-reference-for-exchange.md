@@ -4,6 +4,8 @@ manager: sethgros
 ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
+ms.service: exchange
+ms.subservice: exchange-web-services
 api_type:
 - schema
 ms.assetid: c6ca36f4-a67c-4e3c-aae7-9ead7b704e15

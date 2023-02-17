@@ -7,6 +7,7 @@ ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
+ms.technology: ews
 ms.localizationpriority: medium
 ms.assetid: d22f68cf-b18b-45d0-a9ff-414b7db0e67e
 description: "The ReplyAllAllowed element specifies whether a reply all is allowed for rights managed data."

@@ -7,6 +7,7 @@ ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
+ms.technology: ews
 ms.localizationpriority: medium
 ms.assetid: 376acc42-2684-4596-aca1-82a4a10865c9
 description: "Find information about the AddImContactToGroup EWS operation."

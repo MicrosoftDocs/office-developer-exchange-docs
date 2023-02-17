@@ -7,6 +7,7 @@ ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
+ms.technology: ews
 ms.localizationpriority: medium
 ms.assetid: b3b86720-d086-47c3-94af-921fdd719edf
 description: "The SeekToConditionPageItemView element identifies the condition that is used to identify the end of a search, the starting index of a search, the maximum entries to return, and the search directions for a FindItem or FindConversation search."

@@ -4,6 +4,8 @@ manager: sethgros
 ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
+ms.service: exchange
+ms.subservice: exchange-web-services
 ms.localizationpriority: medium
 ms.assetid: 5221745b-572c-44a5-afdb-41b58af44971
 description: "The EcpUrl-mt element specifies a partial URL that can be combined with the EcpUrl (POX) element's value to generate a URL that can be used to access email message tracking settings for a mail-enabled user."

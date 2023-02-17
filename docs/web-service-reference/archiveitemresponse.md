@@ -5,6 +5,7 @@ ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
+ms.technology: ews
 ms.localizationpriority: medium
 ms.assetid: 68109a92-c49e-4c0e-b6ec-e90d38d4be4d
 description: "The ArchiveItemResponse element specifies the response to an ArchiveItem request."

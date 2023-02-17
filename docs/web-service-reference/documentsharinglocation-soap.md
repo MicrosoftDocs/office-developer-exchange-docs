@@ -4,6 +4,8 @@ manager: sethgros
 ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
+ms.service: exchange
+ms.subservice: exchange-web-services
 ms.localizationpriority: medium
 ms.assetid: 21bc388c-33be-422b-a89d-30ade0fae8f1
 description: "The DocumentSharingLocation element contains location and metadata information for a document sharing location."

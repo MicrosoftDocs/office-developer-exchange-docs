@@ -6,6 +6,7 @@ ms.date: 04/04/2022
 ms.audience: ITPro
 ms.topic: article
 ms.prod: office-online-server
+ms.technology: ews
 ms.localizationpriority: medium
 ms.assetid: 18bfa012-e903-d7f3-528a-31ccceb65463
 ---

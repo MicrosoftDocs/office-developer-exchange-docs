@@ -7,6 +7,7 @@ ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
+ms.technology: ews
 ms.localizationpriority: medium
 ms.assetid: efdb30a2-9877-4703-b09e-059d1669c041
 description: "The MobilePhones2 element specifies an array of MobilePhone values and the identifiers of their source attributions for the associated persona."

@@ -7,6 +7,7 @@ ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
+ms.technology: ews
 ms.localizationpriority: medium
 ms.assetid: 9d91aa89-9f9f-4877-846d-aaf48bbeec7c
 description: "The ReadFlag element indicates the read state to set on items in a folder."

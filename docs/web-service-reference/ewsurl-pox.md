@@ -4,6 +4,8 @@ manager: sethgros
 ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
+ms.service: exchange
+ms.subservice: exchange-web-services
 ms.localizationpriority: medium
 ms.assetid: 73cebc8c-770a-4f1b-b93e-51e7e2f3e342
 description: "The EwsUrl element specifies the URL of the best endpoint instance for Exchange Web Services (EWS) for a mail-enabled user."

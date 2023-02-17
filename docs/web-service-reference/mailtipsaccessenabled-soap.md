@@ -4,6 +4,8 @@ manager: sethgros
 ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
+ms.service: exchange
+ms.subservice: exchange-web-services
 ms.localizationpriority: medium
 ms.assetid: 205606b0-8b39-4acf-941a-e544efcedd6c
 description: "The MailTipsAccessEnabled element represents the MailTipsAccessEnabled() flag. The MailTipsAccessEnabled element is for internal use only. This element is not used by clients."

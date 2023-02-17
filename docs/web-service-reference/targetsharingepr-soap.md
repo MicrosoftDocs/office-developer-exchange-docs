@@ -4,6 +4,8 @@ manager: sethgros
 ms.date: 03/9/2015
 ms.audience: Developer
 ms.topic: reference
+ms.service: exchange
+ms.subservice: exchange-web-services
 ms.localizationpriority: medium
 ms.assetid: 0115a740-9264-4e57-a410-197bb39e6c81
 description: The TargetSharingEpr element represents the TargetSharingEpr property. The TargetSharingEpr element is for internal use only.

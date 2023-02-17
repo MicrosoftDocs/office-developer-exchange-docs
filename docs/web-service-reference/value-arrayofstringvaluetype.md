@@ -5,6 +5,7 @@ ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
+ms.technology: ews
 ms.localizationpriority: medium
 ms.assetid: 83865da6-0bcd-445a-ba3c-0eff481b14ab
 description: "The Value element specifies a value in an array of persona properties associated with an attributions array."

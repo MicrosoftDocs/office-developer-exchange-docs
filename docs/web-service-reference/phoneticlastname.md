@@ -7,6 +7,7 @@ ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
+ms.technology: ews
 ms.localizationpriority: medium
 ms.assetid: 2d8cefc4-b16a-45d0-9ad7-543f83a8eb15
 description: "The PhoneticLastName element contains the last name of a contact, spelled phonetically."

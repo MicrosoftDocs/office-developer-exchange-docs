@@ -5,6 +5,7 @@ ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
+ms.technology: ews
 ms.localizationpriority: medium
 ms.assetid: 5aa9bec8-71cf-4a6e-8ec8-b4965b40fd4a
 description: "Find information about the AddDistributionGroupToImList EWS operation."

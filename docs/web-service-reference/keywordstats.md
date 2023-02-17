@@ -7,6 +7,7 @@ ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
+ms.technology: ews
 ms.localizationpriority: medium
 ms.assetid: 79b24034-6456-4c9c-adf6-03d06024c4e8
 description: "The KeywordStats element specifies a list of one or more KeywordStat elements."

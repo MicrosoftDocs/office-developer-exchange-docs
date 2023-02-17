@@ -7,6 +7,7 @@ ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
+ms.technology: ews
 ms.localizationpriority: medium
 ms.assetid: 0c1df5e2-b56a-4947-a047-2b73b32e5fb7
 description: "The RetentionDate element specifies the last date that an item must be retained."

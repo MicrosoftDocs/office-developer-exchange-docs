@@ -7,6 +7,7 @@ ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
+ms.technology: ews
 ms.localizationpriority: medium
 ms.assetid: 086876cc-e22c-4e89-89f9-19e78af51217
 description: "Find information about the GetClientAccessToken EWS operation."

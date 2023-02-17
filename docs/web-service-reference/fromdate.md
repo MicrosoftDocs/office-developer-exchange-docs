@@ -7,6 +7,7 @@ ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
+ms.technology: ews
 ms.localizationpriority: medium
 ms.assetid: cbb1320c-479e-4bd3-a462-4ab14c24b1c5
 description: "The FromDate element specifies the date that the message was sent."

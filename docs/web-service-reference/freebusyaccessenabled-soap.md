@@ -4,6 +4,8 @@ manager: sethgros
 ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
+ms.service: exchange
+ms.subservice: exchange-web-services
 ms.localizationpriority: medium
 ms.assetid: 8d2d3276-b180-424e-a707-7256d14a1776
 description: "The FreeBusyAccessEnabled element represents the FreeBusyAccessEnabled() flag. The FreeBusyAccessEnabled element is for internal use only. This element is not used by clients."

@@ -7,6 +7,7 @@ ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
+ms.technology: ews
 ms.localizationpriority: medium
 ms.assetid: 01057872-4f1a-4246-86ba-73d10ef854a0
 description: "The Presenters element specifies the presenters for an online meeting."

@@ -7,6 +7,7 @@ ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
+ms.technology: ews
 ms.localizationpriority: medium
 ms.assetid: 4f4dc589-4530-4a35-b2a6-0c83cac23637
 description: "The Emails3 element specifies an array of EmailAddressAttributedValue values and the identifiers of their source attributions for the associated persona."

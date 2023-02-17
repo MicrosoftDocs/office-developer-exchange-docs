@@ -5,6 +5,7 @@ ms.date: 11/16/2014
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
+ms.technology: ews
 ms.localizationpriority: medium
 ms.assetid: 584cc338-9d98-44bc-a89d-f8636bbb6c91
 description: "The GroupType (FederatedDirectoryGroupType) element is intended for internal use only."

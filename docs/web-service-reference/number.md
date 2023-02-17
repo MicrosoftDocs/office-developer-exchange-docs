@@ -7,6 +7,7 @@ ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
+ms.technology: ews
 ms.localizationpriority: medium
 ms.assetid: 19866c08-d670-4791-bcda-95eed0b73a7c
 description: "The Number element specifies a phone number."

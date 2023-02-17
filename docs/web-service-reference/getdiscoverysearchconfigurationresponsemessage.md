@@ -7,6 +7,7 @@ ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
+ms.technology: ews
 ms.localizationpriority: medium
 ms.assetid: 1b84a4c6-cb0a-4bca-85b2-fec32227930b
 description: "The GetDiscoverySearchConfigurationResponseMessage element specifies the response message for a GetDiscoverySearchConfiguration request."

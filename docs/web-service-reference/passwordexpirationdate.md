@@ -7,6 +7,7 @@ ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
+ms.technology: ews
 ms.localizationpriority: medium
 ms.assetid: 57fa2599-8629-438a-85a7-dd3d54cfb8da
 description: "The PasswordExpirationDate element provides the password expiration date for a mailbox account."

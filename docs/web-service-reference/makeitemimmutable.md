@@ -7,6 +7,7 @@ ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
+ms.technology: ews
 ms.localizationpriority: medium
 ms.assetid: de1d2a60-aeeb-4625-8b11-23c42e1e7bae
 description: "The MakeItemImmutable element specifies a Boolean value that indicates whether an item should be made read-only."

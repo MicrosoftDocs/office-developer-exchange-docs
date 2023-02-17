@@ -7,6 +7,7 @@ ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
+ms.technology: ews
 ms.localizationpriority: medium
 ms.assetid: 4a53989e-eca6-45c4-afac-4d6ac19597d2
 description: "The SearchScope element specifies the scope of a search."
