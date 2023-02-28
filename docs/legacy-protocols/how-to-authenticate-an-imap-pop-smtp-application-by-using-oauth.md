@@ -288,4 +288,3 @@ The access tokens generated can be used as tokens to authenticate POP and IMAP c
 - [Post Office Protocol](https://tools.ietf.org/html/rfc1081)
 
 - [SMTP Service extension for Authentication](https://tools.ietf.org/html/rfc4954)
-- 
