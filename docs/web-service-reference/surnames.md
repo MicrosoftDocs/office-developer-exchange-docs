@@ -7,6 +7,7 @@ ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
+ms.technology: ews
 ms.localizationpriority: medium
 ms.assetid: 87440a49-64e2-4d97-bb1d-443c04ad24e8
 description: "The Surnames element specifies an array of surname values and the identifiers of their source attributions for the associated persona."

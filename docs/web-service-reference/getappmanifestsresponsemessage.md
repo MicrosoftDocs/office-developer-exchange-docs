@@ -7,6 +7,7 @@ ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
+ms.technology: ews
 ms.localizationpriority: medium
 ms.assetid: 815908f1-4223-42d8-92dc-f8bdfc6b5df8
 description: "The GetAppManifestsResponseMessage element specifies the response message for a GetAppManifests request."

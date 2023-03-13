@@ -5,6 +5,7 @@ ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
+ms.technology: ews
 ms.localizationpriority: medium
 ms.assetid: 085384f9-dca4-4534-82e2-dd782471d0da
 description: "The DiscoverySearchConfiguration element specifies the configuration for eDiscovery search."

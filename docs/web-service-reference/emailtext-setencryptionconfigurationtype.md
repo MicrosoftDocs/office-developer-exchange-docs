@@ -5,6 +5,7 @@ ms.date: 11/16/2014
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
+ms.technology: ews
 ms.localizationpriority: medium
 ms.assetid: df981e16-c8b2-416f-90dc-9732065a20bf
 description: "The EmailText (SetEncryptionConfigurationType) element is intended for internal use only."

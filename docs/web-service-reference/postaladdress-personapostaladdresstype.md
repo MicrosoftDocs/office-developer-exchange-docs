@@ -7,6 +7,7 @@ ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
+ms.technology: ews
 ms.localizationpriority: medium
 ms.assetid: 075f7d65-9d05-47cb-af26-0dd6d5593439
 description: "The PostalAddress element specifies the postal address for a persona."

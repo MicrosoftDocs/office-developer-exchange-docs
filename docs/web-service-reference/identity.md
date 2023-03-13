@@ -5,6 +5,7 @@ ms.date: 11/16/2014
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
+ms.technology: ews
 ms.localizationpriority: medium
 ms.assetid: ecb533ba-c24a-4940-a852-7988cb385113
 description: "The Identity element is intended for internal use only."

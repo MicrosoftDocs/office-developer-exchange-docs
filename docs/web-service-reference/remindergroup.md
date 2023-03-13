@@ -7,6 +7,7 @@ ms.date: 03/9/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
+ms.technology: ews
 ms.localizationpriority: medium
 ms.assetid: 3e23c2a1-05d8-4fec-897c-f684a5b97e4c
 description: "The ReminderGroup element specifies whether the reminder is for a calendar item or a task."

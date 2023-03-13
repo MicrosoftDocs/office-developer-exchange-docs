@@ -7,6 +7,7 @@ ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
+ms.technology: ews
 ms.localizationpriority: medium
 ms.assetid: 0bb00cee-c66b-4f34-b99d-355458f5e83b
 description: "The ErrorCode element represents a rule validation error code that describes what failed validation for each rule predicate or action."

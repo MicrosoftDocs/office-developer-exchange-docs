@@ -5,6 +5,7 @@ ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
+ms.technology: ews
 ms.localizationpriority: medium
 ms.assetid: ca77431e-2d6c-48e0-a20e-e8616c6fa157
 description: "The DisplayNameLastFirstHeader element specifies the header for the display name, last name first."

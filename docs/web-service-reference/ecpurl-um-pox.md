@@ -4,6 +4,8 @@ manager: sethgros
 ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
+ms.service: exchange
+ms.subservice: exchange-web-services
 ms.localizationpriority: medium
 ms.assetid: 455c77c6-c03f-49a7-a8ca-aa0023b6e73b
 description: "The EcpUrl-um element specifies a partial URL that can be combined with the EcpUrl (POX) element's value to generate a URL that can be used to access voice mail settings for a mail-enabled user."

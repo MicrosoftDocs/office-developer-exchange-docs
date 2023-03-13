@@ -7,6 +7,7 @@ ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
+ms.technology: ews
 ms.localizationpriority: medium
 ms.assetid: dcff5ccc-31dc-4941-9f71-d6519133aebb
 description: "The ExportAllowed element specifies whether exporting is enabled."

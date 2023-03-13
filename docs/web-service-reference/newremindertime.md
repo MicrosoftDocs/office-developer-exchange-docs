@@ -7,6 +7,7 @@ ms.date: 03/9/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
+ms.technology: ews
 ms.localizationpriority: medium
 ms.assetid: ff1b6b1c-3557-41d4-8aa6-9528fdb3a21a
 description: "The NewReminderTime element specifies a new time for a reminder."

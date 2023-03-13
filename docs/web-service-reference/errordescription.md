@@ -7,6 +7,7 @@ ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
+ms.technology: ews
 ms.localizationpriority: medium
 ms.assetid: 409c7893-7b69-4b0b-9d5b-112a0dfacde7
 description: "The ErrorDescription element describes the error that is returned in information about an item that cannot be indexed."

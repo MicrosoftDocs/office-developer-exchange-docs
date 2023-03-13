@@ -7,6 +7,7 @@ ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
+ms.technology: ews
 ms.localizationpriority: medium
 ms.assetid: f81efc37-bb70-4d52-a614-cec87d1b0f04
 description: "The FileAses element specifies an array of StringAttributedValue elements and the identifiers of their source attributions for the associated persona."

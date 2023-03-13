@@ -7,6 +7,7 @@ ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
+ms.technology: ews
 ms.localizationpriority: medium
 ms.assetid: 8f4fa52b-e98e-4678-90cc-299bcbb7bac3
 description: "The Titles element specifies an array of job titles and the identifiers of their source attributions for the associated persona."

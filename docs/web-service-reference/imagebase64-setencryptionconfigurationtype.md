@@ -5,6 +5,7 @@ ms.date: 11/16/2014
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
+ms.technology: ews
 ms.localizationpriority: medium
 ms.assetid: 64905c0b-b923-4e31-84aa-e687eba31b17
 description: "The ImageBase64 (SetEncryptionConfigurationType) element is intended for internal use only."

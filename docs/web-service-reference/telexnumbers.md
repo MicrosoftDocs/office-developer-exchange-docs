@@ -7,6 +7,7 @@ ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
+ms.technology: ews
 ms.localizationpriority: medium
 ms.assetid: 51992f35-54be-4424-8d3f-c3a3a1d05a4d
 description: "The TelexNumbers element specifies an array of Telex numbers and the identifiers of their source attributions for the associated persona."

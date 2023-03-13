@@ -7,6 +7,7 @@ ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
+ms.technology: ews
 ms.localizationpriority: medium
 ms.assetid: b95d0a8b-15a6-4711-b014-55698dbd679c
 description: "The ImAddresses element specifies an array of instant message addresses and the identifiers of their source attributions for the associated persona."

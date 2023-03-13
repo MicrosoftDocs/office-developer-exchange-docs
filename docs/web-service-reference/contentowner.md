@@ -7,6 +7,7 @@ ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
+ms.technology: ews
 ms.localizationpriority: medium
 ms.assetid: a1741eda-c232-4d89-8abc-50b2627ad29b
 description: "The ContentOwner element specifies the name of the content owner."

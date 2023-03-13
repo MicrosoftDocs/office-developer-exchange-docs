@@ -5,6 +5,7 @@ ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
+ms.technology: ews
 ms.localizationpriority: medium
 ms.assetid: c228f7e7-6dc8-476d-9b8c-99cd5b6f9f0c
 description: "The DraftItemIds element contains an array of item identifiers to draft items in a conversation."

@@ -5,6 +5,7 @@ ms.date: 03/22/2022
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
+ms.technology: ews
 ms.localizationpriority: medium
 api_name:
 - GroupSids

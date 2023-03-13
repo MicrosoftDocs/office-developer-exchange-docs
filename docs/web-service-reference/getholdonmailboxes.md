@@ -7,6 +7,7 @@ ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
+ms.technology: ews
 ms.localizationpriority: medium
 ms.assetid: 4c94cfb7-42e2-42e4-9c6d-a1b0f4747f83
 description: "The GetHoldOnMailboxes element indicates the beginning of the GetHoldOnMailboxes request."

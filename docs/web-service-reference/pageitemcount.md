@@ -7,6 +7,7 @@ ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
+ms.technology: ews
 ms.localizationpriority: medium
 ms.assetid: 4bc48bfb-a9ae-4e87-97a6-f3e0c9c89bc1
 description: "The PageItemCount element specifies the number of pages returned in a search result pagination."

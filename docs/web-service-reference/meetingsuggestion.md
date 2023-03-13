@@ -7,6 +7,7 @@ ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
+ms.technology: ews
 ms.localizationpriority: medium
 ms.assetid: d6012063-eb67-4e83-a4a6-33482685083f
 description: "The MeetingSuggestion element specifies a proposed meeting."

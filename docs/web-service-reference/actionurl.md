@@ -5,6 +5,7 @@ ms.date: 03/9/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
+ms.technology: ews
 ms.localizationpriority: medium
 ms.assetid: 9697f2e5-a5f7-471a-a052-ae79e06eb09d
 description: "The ActionUrl element identifies the URL that the user should navigate to, in order to fix an issue indicated by the AppStatus element."

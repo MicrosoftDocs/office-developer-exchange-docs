@@ -7,6 +7,7 @@ ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
+ms.technology: ews
 ms.localizationpriority: medium
 ms.assetid: ea0f0afc-32fe-46cb-8530-62a6ce9490f6
 description: "The IsOwner element specifies whether the specified email user is the owner."

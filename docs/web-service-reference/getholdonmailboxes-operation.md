@@ -7,6 +7,7 @@ ms.date: 01/24/2020
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
+ms.technology: ews
 ms.localizationpriority: medium
 ms.assetid: 9157f329-80b4-4cd0-a158-378064966ae6
 description: "Find information about the GetHoldOnMailboxes EWS operation."

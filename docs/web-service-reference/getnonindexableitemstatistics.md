@@ -7,6 +7,7 @@ ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
+ms.technology: ews
 ms.localizationpriority: medium
 ms.assetid: dd16d1fb-d82d-42e5-b64a-bc6c19c48fa8
 description: "The GetNonIndexableItemStatistics element specifies a request to retrieve nonindexable item statistics."

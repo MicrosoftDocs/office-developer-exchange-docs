@@ -7,6 +7,7 @@ ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
+ms.technology: ews
 ms.localizationpriority: medium
 ms.assetid: 828f8f62-7abf-44d4-8d58-f706d595a812
 description: "The BusinessAddresses element specifies an array of business addresses and the identifiers of their source attributions for the associated persona."

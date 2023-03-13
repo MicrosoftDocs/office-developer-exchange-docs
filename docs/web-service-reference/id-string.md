@@ -7,6 +7,7 @@ ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
+ms.technology: ews
 ms.localizationpriority: medium
 ms.assetid: 3febe5b5-9c42-4074-b4d9-75b871b2f582
 description: "The ID element specifies the identifier of an app."

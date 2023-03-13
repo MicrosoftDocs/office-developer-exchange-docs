@@ -7,6 +7,7 @@ ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
+ms.technology: ews
 ms.localizationpriority: medium
 ms.assetid: a62b0640-9800-45a6-a297-2105ff36881e
 description: "The RemoveImContactFromGroup element defines a request to remove an instant messaging contact from an instant messaging group."

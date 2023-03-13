@@ -4,6 +4,8 @@ manager: sethgros
 ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
+ms.service: exchange
+ms.subservice: exchange-web-services
 ms.localizationpriority: medium
 ms.assetid: af338f99-9e62-4124-9bff-8d7cc2008161
 description: "The MailStore element contains the specifications for connecting a client to the user's mailbox by using the MAPI/HTTP protocol."

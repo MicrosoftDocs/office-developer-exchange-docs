@@ -5,6 +5,7 @@ ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
+ms.technology: ews
 ms.localizationpriority: medium
 ms.assetid: bbafce39-7fc6-4099-bc27-b40c0ad44c77
 description: "The Nicknames element specifies an array of nickname values and the identifiers of their source attributions for the associated persona."

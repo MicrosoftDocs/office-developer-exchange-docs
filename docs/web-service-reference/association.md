@@ -5,6 +5,7 @@ ms.date: 11/16/2014
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
+ms.technology: ews
 ms.localizationpriority: medium
 ms.assetid: 021e49c4-3019-465b-9de1-e1fa8169bea6
 description: "The Association element is intended for internal use only."

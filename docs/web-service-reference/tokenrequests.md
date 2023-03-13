@@ -7,6 +7,7 @@ ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
+ms.technology: ews
 ms.localizationpriority: medium
 ms.assetid: fbab89e9-b41a-44c4-8ad3-d46aa8e56652
 description: "The TokenRequests element contains an array of token requests."

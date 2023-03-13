@@ -4,6 +4,8 @@ manager: sethgros
 ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
+ms.service: exchange
+ms.subservice: exchange-web-services
 ms.localizationpriority: medium
 ms.assetid: ec9ad6a0-1a3c-405b-a6ea-b8dd4323c22a
 description: "The GetOrganizationRelationshipSettingRequestMessage element represents a GetOrganizationRelationshipSettings operation (SOAP) operation request. The GetOrganizationRelationshipSettingRequestMessage element is for internal use only. This element is not used by clients."

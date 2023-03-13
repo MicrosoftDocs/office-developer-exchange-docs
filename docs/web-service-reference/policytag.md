@@ -7,6 +7,7 @@ ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
+ms.technology: ews
 ms.localizationpriority: medium
 ms.assetid: fa4b1447-dc7b-47ad-a677-78fcee443dc6
 description: "The PolicyTag element specifies the retention identifier on an item or folder."

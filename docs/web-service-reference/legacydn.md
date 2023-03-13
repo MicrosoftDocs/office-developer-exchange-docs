@@ -5,6 +5,7 @@ ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
+ms.technology: ews
 ms.localizationpriority: medium
 ms.assetid: 72cec5ec-8485-431c-95b7-b9c2247669d6
 description: "The LegacyDN element identifies a mailbox by its legacy distinguished name."

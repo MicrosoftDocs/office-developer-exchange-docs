@@ -5,6 +5,7 @@ ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
+ms.technology: ews
 ms.localizationpriority: medium
 ms.assetid: 14c2c8bd-db54-4b03-9a97-190ff9e908b3
 description: "The Altitude element specifies the altitude of a postal address."

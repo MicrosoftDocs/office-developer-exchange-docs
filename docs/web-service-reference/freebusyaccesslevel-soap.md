@@ -4,6 +4,8 @@ manager: sethgros
 ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
+ms.service: exchange
+ms.subservice: exchange-web-services
 ms.localizationpriority: medium
 ms.assetid: a287b9c3-7fb6-4f2f-a8dc-15d4bc32394c
 description: "The FreeBusyAccessLevel element represents the FreeBusyAccessLevel property. The FreeBusyAccessLevel element is for internal use only. This element is not used by clients."

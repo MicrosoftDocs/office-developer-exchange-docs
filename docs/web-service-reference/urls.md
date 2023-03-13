@@ -7,6 +7,7 @@ ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
+ms.technology: ews
 ms.localizationpriority: medium
 ms.assetid: 65a7ef52-9992-49b1-b002-868fb2d3a6f6
 description: "The Urls element specifies an array of URLs for a persona."

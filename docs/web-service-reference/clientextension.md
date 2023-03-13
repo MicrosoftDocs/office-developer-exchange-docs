@@ -7,6 +7,7 @@ ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
+ms.technology: ews
 ms.localizationpriority: medium
 ms.assetid: 3445ef2b-1bb1-43ea-bc93-85c72401e5b6
 description: "The ClientExtension element contains user and configuration information about an app."

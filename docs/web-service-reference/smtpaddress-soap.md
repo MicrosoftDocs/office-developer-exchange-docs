@@ -4,6 +4,8 @@ manager: sethgros
 ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
+ms.service: exchange
+ms.subservice: exchange-web-services
 ms.localizationpriority: medium
 ms.assetid: e833351c-4bd9-4937-8752-c743a7ce57ea
 description: "The SmtpAddress element represents the alternate mailbox SMTP address."

@@ -5,6 +5,7 @@ ms.date: 11/16/2014
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
+ms.technology: ews
 ms.localizationpriority: medium
 ms.assetid: 90b71f6a-b894-43a8-bb83-38d3db8329ed
 description: "The ExtendedAttributes element is intended for internal use only."

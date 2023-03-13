@@ -6,6 +6,7 @@ ms.date: 7/7/2016
 ms.audience: ITPro
 ms.topic: article
 ms.prod: office-online-server
+ms.technology: ews
 ms.localizationpriority: medium
 ms.assetid: b9bde862-6b75-4a81-8033-00a47be4dc2f
 description: "The ReferenceAttachment element specifies XXX."

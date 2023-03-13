@@ -7,6 +7,7 @@ ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
+ms.technology: ews
 ms.localizationpriority: medium
 ms.assetid: 183f4a06-c056-4770-b00b-ad850b97e03d
 description: "The PreviewItemResponseShape element contains the requested property set to be returned in a discovery search."

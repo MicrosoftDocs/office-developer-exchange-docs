@@ -7,6 +7,7 @@ ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
+ms.technology: ews
 ms.localizationpriority: medium
 ms.assetid: 643b99ab-ff90-4411-864c-1077623028d6
 description: "The EntityExtractionResult element specifies the EntityExtractionResult property of an item."

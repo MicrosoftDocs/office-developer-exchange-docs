@@ -4,6 +4,8 @@ manager: sethgros
 ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
+ms.service: exchange
+ms.subservice: exchange-web-services
 ms.localizationpriority: medium
 ms.assetid: 2da25452-3111-489c-9d75-14337a5200e0
 description: "The LocationUrl element represents the URL of a document sharing location."

@@ -7,6 +7,7 @@ ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
+ms.technology: ews
 ms.localizationpriority: medium
 ms.assetid: 59b0b2db-a0ae-4162-a2cb-5f37f42fe872
 description: "The SearchPreviewItem element specifies the item preview for a discovery search."

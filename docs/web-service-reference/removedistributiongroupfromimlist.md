@@ -7,6 +7,7 @@ ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
+ms.technology: ews
 ms.localizationpriority: medium
 ms.assetid: 35d2e592-38c1-4861-8293-f7fba3328f4e
 description: "The RemoveDistributionGroupFromImList element represents a request to remove a specific instant messaging distribution list group."

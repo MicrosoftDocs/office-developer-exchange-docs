@@ -7,6 +7,7 @@ ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
+ms.technology: ews
 ms.localizationpriority: medium
 ms.assetid: c66c28a5-1b2c-4913-b0c5-e3d9849aa4af
 description: "The PhoneticFirstName element contains the first name of a contact, spelled phonetically."

@@ -7,6 +7,7 @@ ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
+ms.technology: ews
 ms.localizationpriority: medium
 ms.assetid: 3b16170c-cb46-4ac5-9ce1-884f1b00b974
 description: "The Scope element specifies the string to be highlighted."

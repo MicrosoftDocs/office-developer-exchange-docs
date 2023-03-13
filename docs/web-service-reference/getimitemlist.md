@@ -7,6 +7,7 @@ ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
+ms.technology: ews
 ms.localizationpriority: medium
 ms.assetid: 2a243852-362f-4bde-95ab-fe42ead61a85
 description: "The GetImItemList element defines a request to get a list of instant messaging groups and contacts."

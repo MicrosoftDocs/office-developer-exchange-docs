@@ -7,6 +7,7 @@ ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
+ms.technology: ews
 ms.localizationpriority: medium
 ms.assetid: 37f0c542-7e4c-41b6-8629-537ef11b610b
 description: "The Base64Binary element contains a Base64-encoded value."

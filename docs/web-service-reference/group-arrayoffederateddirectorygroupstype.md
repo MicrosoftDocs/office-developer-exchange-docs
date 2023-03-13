@@ -5,6 +5,7 @@ ms.date: 11/16/2014
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
+ms.technology: ews
 ms.localizationpriority: medium
 ms.assetid: 0474a5b4-1a48-4df6-a094-baf35d9a1083
 description: "The Group (ArrayOfFederatedDirectoryGroupsType) element is intended for internal use only."

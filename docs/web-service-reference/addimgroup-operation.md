@@ -7,6 +7,7 @@ ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
+ms.technology: ews
 ms.localizationpriority: medium
 ms.assetid: 6df6e504-b7c8-4773-b10f-ffa5defac229
 description: "Find information about the AddImGroup EWS operation."

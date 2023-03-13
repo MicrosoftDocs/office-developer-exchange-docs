@@ -5,6 +5,7 @@ ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
+ms.technology: ews
 ms.localizationpriority: medium
 ms.assetid: ba686738-e654-404d-ab54-83c71d030350
 description: "The FindPeopleResponseMessage element specifies the response message for a FindPeople request."

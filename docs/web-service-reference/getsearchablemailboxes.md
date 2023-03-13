@@ -7,6 +7,7 @@ ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
+ms.technology: ews
 ms.localizationpriority: medium
 ms.assetid: 949871f7-0d10-498e-84aa-f0652f1193be
 description: "The GetSearchableMailboxes element contains a request to get a list of mailboxes that the client has permission to perform an eDiscovery search."

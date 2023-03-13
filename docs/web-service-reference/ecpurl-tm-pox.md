@@ -4,6 +4,8 @@ manager: sethgros
 ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
+ms.service: exchange
+ms.subservice: exchange-web-services
 ms.localizationpriority: medium
 ms.assetid: 3f35d5ac-55be-4d3a-ad03-7d6e9349d923
 description: "The EcpUrl-tm element specifies a partial URL that can be combined with the EcpUrl (POX) element's value to generate a URL that can be used to access a list of all site mailboxes of which a mail-enabled user is currently a member."

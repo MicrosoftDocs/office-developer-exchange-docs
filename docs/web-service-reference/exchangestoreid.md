@@ -7,6 +7,7 @@ ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
+ms.technology: ews
 ms.localizationpriority: medium
 ms.assetid: 5acceb42-a757-4c74-ab1c-b1abf7bf1e0a
 description: "The ExchangeStoreId element specifies the instant messaging (IM) group identifier."

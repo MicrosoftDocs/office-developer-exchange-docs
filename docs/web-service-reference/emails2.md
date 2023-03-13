@@ -7,6 +7,7 @@ ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
+ms.technology: ews
 ms.localizationpriority: medium
 ms.assetid: 6ad95936-f61b-431a-9d86-df160b5d4b2d
 description: "The Emails2 element contains an array of EmailAddressAttributedValue values and the identifiers of their source attributions for the associated persona."

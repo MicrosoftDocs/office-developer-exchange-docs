@@ -7,6 +7,7 @@ ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
+ms.technology: ews
 ms.localizationpriority: medium
 ms.assetid: 4f7bcd0f-140c-4cbc-a5ed-daeffded1df1
 description: "The GetConversationItems element defines a request to get a set of items that are related by being in the same conversation."
