@@ -5,6 +5,7 @@ ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
+ms.technology: ews
 ms.localizationpriority: medium
 ms.assetid: 70399ab7-0530-4d22-9cfb-ffcc58588ef5
 description: "The AttemptCount element represents the number of attempts that have been made to index the item."

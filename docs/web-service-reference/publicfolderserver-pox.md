@@ -4,6 +4,8 @@ manager: sethgros
 ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
+ms.service: exchange
+ms.subservice: exchange-web-services
 ms.localizationpriority: medium
 ms.assetid: 37ad46ab-7817-4fdd-ad2d-26cb525cd96b
 description: "The PublicFolderServer element contains the fully-qualified domain name (FQDN) of the public folder server for the user."

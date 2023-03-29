@@ -7,6 +7,7 @@ ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
+ms.technology: ews
 ms.localizationpriority: medium
 ms.assetid: 083a23d9-acc3-4c15-9d30-c20bf7e6808d
 description: "The OptedInto element specifies a Boolean value that indicates whether the user opted in to the retention policy."

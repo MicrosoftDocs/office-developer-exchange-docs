@@ -7,6 +7,7 @@ ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
+ms.technology: ews
 ms.localizationpriority: medium
 ms.assetid: 204da113-539b-403d-8316-f43d7428fc61
 description: "The SearchQuery element specifies the discovery search query."

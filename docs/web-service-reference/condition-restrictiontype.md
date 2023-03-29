@@ -7,6 +7,7 @@ ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
+ms.technology: ews
 ms.localizationpriority: medium
 ms.assetid: 4fdb373e-bf1b-4cb0-bbfb-444c6c6cec50
 description: "The Condition element specifies the condition that is used to identify the end of a search for a FindItem or a FindConversation operation."

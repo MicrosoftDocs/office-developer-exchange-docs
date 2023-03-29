@@ -7,6 +7,7 @@ ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
+ms.technology: ews
 ms.localizationpriority: medium
 ms.assetid: 5c31552f-22b8-4bf0-8cac-046fd92ac0d4
 description: "The GroupType element specifies the group class of an instant messaging (IM) group."

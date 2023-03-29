@@ -5,6 +5,7 @@ ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
+ms.technology: ews
 ms.localizationpriority: medium
 ms.assetid: 0f7b3507-713d-4ccf-8518-75fa6f967d6d
 description: "The CreateFolderPathResponseMessage element specifies the response message for a CreateFolderPath request."

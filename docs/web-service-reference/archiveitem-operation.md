@@ -5,6 +5,7 @@ ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
+ms.technology: ews
 ms.localizationpriority: medium
 ms.assetid: 1af216b3-13ea-498e-b4fc-23513755d731
 description: "Find information about the ArchiveItem EWS operation."

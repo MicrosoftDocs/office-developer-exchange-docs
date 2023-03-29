@@ -5,6 +5,7 @@ ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
+ms.technology: ews
 ms.localizationpriority: medium
 ms.assetid: 915b2ee9-8284-4bf6-8995-1fd0785e9e48
 description: "The DistinguishedFolderId element identifies folders that can be referenced by name."

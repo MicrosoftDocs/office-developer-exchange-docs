@@ -5,6 +5,7 @@ ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
+ms.technology: ews
 ms.localizationpriority: medium
 ms.assetid: ade9ea3b-bdf1-4999-ac7d-44c6452cef36
 description: "The TaskSuggestion element contains a task suggestion that resulted from an entity extracted from an item."

@@ -4,6 +4,8 @@ manager: sethgros
 ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
+ms.service: exchange
+ms.subservice: exchange-web-services
 ms.localizationpriority: medium
 ms.assetid: 73d09137-d3bd-46b3-954a-a358ead07c91
 description: "The MailBoxMoveEnabled element represents the MailboxMoveEnabled() flag. The MailBoxMoveEnabled element is for internal use only. This element is not used by clients."

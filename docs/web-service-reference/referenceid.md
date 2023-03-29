@@ -7,6 +7,7 @@ ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
+ms.technology: ews
 ms.localizationpriority: medium
 ms.assetid: 6ec106a5-82f7-4b28-a951-11936877e303
 description: "The ReferenceId element specifies the reference identifier for the mailbox."

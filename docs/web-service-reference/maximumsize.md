@@ -7,6 +7,7 @@ ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
+ms.technology: ews
 ms.localizationpriority: medium
 ms.assetid: fb7c3ab3-ef97-44c7-83e0-93cfe8c48e84
 description: "The MaximumSize element represents the maximum size that a message must be in order for the condition or exception to apply."

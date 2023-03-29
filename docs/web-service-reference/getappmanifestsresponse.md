@@ -5,6 +5,7 @@ ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
+ms.technology: ews
 ms.localizationpriority: medium
 ms.assetid: 86cf88f4-09c4-436a-a100-ac5cba0c4388
 description: "The GetAppManifestsResponse element defines the response for a GetAppManifests operation request."

@@ -5,6 +5,7 @@ ms.date: 11/16/2014
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
+ms.technology: ews
 ms.localizationpriority: medium
 ms.assetid: 53b6befb-a1b7-4f56-904a-9a32306570e3
 description: "The Owners element is intended for internal use only."

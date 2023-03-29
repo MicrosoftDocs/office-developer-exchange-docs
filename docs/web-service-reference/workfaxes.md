@@ -7,6 +7,7 @@ ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
+ms.technology: ews
 ms.localizationpriority: medium
 ms.assetid: 95d115a1-2743-4416-af6f-1ef1be8c4e93
 description: "The WorkFaxes element specifies an array of work fax numbers and the identifiers of their source attributions for the associated persona."

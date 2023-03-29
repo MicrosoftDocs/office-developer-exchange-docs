@@ -5,6 +5,7 @@ ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
+ms.technology: ews
 ms.localizationpriority: medium
 ms.assetid: 922c8b21-04a9-4229-b48c-187c3095422e
 description: "The EmailAddress element is intended for internal use only."

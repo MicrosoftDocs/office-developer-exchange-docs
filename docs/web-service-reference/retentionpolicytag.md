@@ -7,6 +7,7 @@ ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
+ms.technology: ews
 ms.localizationpriority: medium
 ms.assetid: f46679d0-9236-41e2-8624-72300079c67c
 description: "The RetentionPolicyTag element specifies the retention policy for a mailbox item."

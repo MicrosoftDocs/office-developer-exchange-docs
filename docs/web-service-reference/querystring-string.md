@@ -7,6 +7,7 @@ ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
+ms.technology: ews
 ms.localizationpriority: medium
 ms.assetid: f81b1b3d-9fe4-4ab3-b517-42e4207fa596
 description: "The QueryString element specifies a set of values to be returned that match the query string in a FindPeople operation request. A search with no QueryString specified returns all items from the specified folder."

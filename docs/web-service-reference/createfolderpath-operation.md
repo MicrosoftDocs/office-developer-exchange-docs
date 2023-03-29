@@ -7,6 +7,7 @@ ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
+ms.technology: ews
 ms.localizationpriority: medium
 ms.assetid: 5a10aa5e-3f25-4ec3-a0b9-284c30918a1f
 description: "Find information about the CreateFolderPath EWS operation."

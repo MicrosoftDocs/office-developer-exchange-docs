@@ -5,6 +5,7 @@ ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
+ms.technology: ews
 ms.localizationpriority: medium
 ms.assetid: e75f8da2-d0a4-44f4-a597-1554757fdf55
 description: "The AddImContactToGroupResponse element defines a response to an AddImContactToGroup request."

@@ -7,6 +7,7 @@ ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
+ms.technology: ews
 ms.localizationpriority: medium
 ms.assetid: 060c0cf1-c632-484c-87f5-f577017a7090
 description: "The Initials element specifies an array of initials values and the identifiers of their source attributions for the associated persona."

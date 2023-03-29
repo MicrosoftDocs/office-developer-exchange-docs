@@ -4,6 +4,8 @@ manager: sethgros
 ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
+ms.service: exchange
+ms.subservice: exchange-web-services
 ms.localizationpriority: medium
 ms.assetid: 70946a1a-a121-4b47-8e67-ccbc1a25b0f1
 description: "The ServiceUrl element represents the URL of a document sharing web service."

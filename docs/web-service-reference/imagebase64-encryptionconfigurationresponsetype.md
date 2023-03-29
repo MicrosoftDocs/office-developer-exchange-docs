@@ -5,6 +5,7 @@ ms.date: 11/16/2014
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
+ms.technology: ews
 ms.localizationpriority: medium
 ms.assetid: 16b97e95-a980-47eb-8108-28a70d3dfea4
 description: "The ImageBase64 element is intended for internal use only."

@@ -7,6 +7,7 @@ ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
+ms.technology: ews
 ms.localizationpriority: medium
 ms.assetid: 96514301-9195-420f-ba17-5f512116ee46
 description: "The Size element specifies the total size of one or more mailbox items."

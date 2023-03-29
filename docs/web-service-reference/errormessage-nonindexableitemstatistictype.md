@@ -7,6 +7,7 @@ ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
+ms.technology: ews
 ms.localizationpriority: medium
 ms.assetid: b676d5be-07f8-4b0b-80bc-28a79a4a7cf4
 description: "The ErrorMessage element contains the error message that describes why an item is not indexable."

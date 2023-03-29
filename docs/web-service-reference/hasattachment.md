@@ -7,6 +7,7 @@ ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
+ms.technology: ews
 ms.localizationpriority: medium
 ms.assetid: de152be6-fc2f-48bc-a05d-1211935da20a
 description: "The HasAttachment element specifies a Boolean value to indicate whether the item has attachments."

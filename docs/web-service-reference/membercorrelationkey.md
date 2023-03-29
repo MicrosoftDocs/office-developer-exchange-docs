@@ -5,6 +5,7 @@ ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
+ms.technology: ews
 ms.localizationpriority: medium
 ms.assetid: 60cc7094-2e31-49d2-8598-181bcfb5f130
 description: "The MemberCorrelationKey element specifies the identifiers of the contacts that are part of the instant messaging (IM) group."

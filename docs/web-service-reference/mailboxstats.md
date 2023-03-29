@@ -5,6 +5,7 @@ ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
+ms.technology: ews
 ms.localizationpriority: medium
 ms.assetid: 022d6512-7e91-4b60-8a7b-3bcd571f3107
 description: "The MailboxStats element specifies a list of one or more MailboxStat elements."

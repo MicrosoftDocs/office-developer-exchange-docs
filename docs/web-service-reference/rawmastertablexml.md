@@ -7,6 +7,7 @@ ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
+ms.technology: ews
 ms.localizationpriority: medium
 ms.assetid: e8bd1ace-28ba-493f-8d9c-cbaaec166a6f
 description: "The RawMasterTableXml element is not used."

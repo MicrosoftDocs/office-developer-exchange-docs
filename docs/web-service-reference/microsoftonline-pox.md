@@ -4,6 +4,8 @@ manager: sethgros
 ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
+ms.service: exchange
+ms.subservice: exchange-web-services
 ms.localizationpriority: medium
 ms.assetid: 0b88f02a-9c50-44b3-841b-560b24e37af5
 description: "The MicrosoftOnline element contains a value that indicates whether the user's mailbox is hosted in Exchange Online or Exchange Online as part of Office 365."

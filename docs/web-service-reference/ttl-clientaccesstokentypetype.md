@@ -7,6 +7,7 @@ ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
+ms.technology: ews
 ms.localizationpriority: medium
 ms.assetid: cc8f8caa-fced-49b6-9861-d112590b218a
 description: "The TTL element indicates the time to live value for the token."

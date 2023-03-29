@@ -4,6 +4,8 @@ manager: sethgros
 ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
+ms.service: exchange
+ms.subservice: exchange-web-services
 ms.localizationpriority: medium
 ms.assetid: 85dc155c-fad0-4756-b9a8-dedf5040a7c6
 description: "The Request element represents a GetOrganizationRelationshipSettingsRequest (SOAP) request. The Request element is for internal use only. This element is not used by clients."

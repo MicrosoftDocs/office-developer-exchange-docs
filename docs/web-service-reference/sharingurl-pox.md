@@ -4,6 +4,8 @@ manager: sethgros
 ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
+ms.service: exchange
+ms.subservice: exchange-web-services
 ms.localizationpriority: medium
 ms.assetid: d590188a-5aa6-46c6-ab5f-2a0dd6793109
 description: "The SharingUrl element contains the URL of the sharing server used for cross-organization sharing of calendars and contacts."

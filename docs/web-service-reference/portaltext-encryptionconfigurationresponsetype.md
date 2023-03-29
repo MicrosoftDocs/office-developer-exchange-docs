@@ -5,6 +5,7 @@ ms.date: 11/16/2014
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
+ms.technology: ews
 ms.localizationpriority: medium
 ms.assetid: 7c9b5e1d-0c61-4cab-bd51-e1982eaa43a8
 description: "The PortalText (EncryptionConfigurationResponseType) element is intended for internal use only."

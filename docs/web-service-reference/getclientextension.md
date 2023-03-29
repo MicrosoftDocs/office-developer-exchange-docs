@@ -7,6 +7,7 @@ ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
+ms.technology: ews
 ms.localizationpriority: medium
 ms.assetid: c96c2b4c-45cb-482a-a3bb-7a11a0fff43b
 description: "The GetClientExtension element represents a request to get a client extension."

@@ -7,6 +7,7 @@ ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
+ms.technology: ews
 ms.localizationpriority: medium
 ms.assetid: bc213f0e-a655-44e9-9ac9-bc1673bae1fe
 description: "The ExtractAllowed element specifies whether entity extraction is enabled."

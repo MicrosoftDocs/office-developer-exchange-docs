@@ -7,6 +7,7 @@ ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
+ms.technology: ews
 ms.localizationpriority: medium
 ms.assetid: 4ac8fb39-6b92-4a88-bc13-17715ef6b63c
 description: "The NewDisplayName element contains the updated display name of an instant messaging group."

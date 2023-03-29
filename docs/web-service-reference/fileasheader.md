@@ -7,6 +7,7 @@ ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
+ms.technology: ews
 ms.localizationpriority: medium
 ms.assetid: 0dbc22f8-9b71-4b8f-b1d4-6ae2e4bc1db6
 description: "The FileAsHeader specifies the header for the File As option."

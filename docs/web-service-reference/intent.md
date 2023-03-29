@@ -5,6 +5,7 @@ ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
+ms.technology: ews
 ms.localizationpriority: medium
 ms.assetid: 1e9a5bae-5b24-43cd-9b83-a21da58c9fdd
 description: "The Intent element is intended for internal use only."

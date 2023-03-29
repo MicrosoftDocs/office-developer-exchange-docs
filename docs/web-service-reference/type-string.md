@@ -7,6 +7,7 @@ ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
+ms.technology: ews
 ms.localizationpriority: medium
 ms.assetid: d5eea7a8-c40d-42a6-8e0d-67f3252496cf
 description: "The Type element specifies the type of postal address or phone number, for example,HomeorBusiness."

@@ -7,6 +7,7 @@ ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
+ms.technology: ews
 ms.localizationpriority: medium
 ms.assetid: af0d7435-fef6-4f0d-bd22-00e3fa576315
 description: "The Manifest element contains the base64-encoded app manifest file."

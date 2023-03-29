@@ -7,6 +7,7 @@ ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
+ms.technology: ews
 ms.localizationpriority: medium
 ms.assetid: a573b4af-9bed-41cf-aea4-5f9cc0ab43a6
 description: "The Ranges element specifies an array of recurrence ranges."

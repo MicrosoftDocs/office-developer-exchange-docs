@@ -7,6 +7,7 @@ ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
+ms.technology: ews
 ms.localizationpriority: medium
 ms.assetid: ea650c84-0b3e-4099-bb76-9619949b4092
 description: "The RadioPhones element specifies an array of radio phone numbers and the identifiers of their source attributions for the associated persona."

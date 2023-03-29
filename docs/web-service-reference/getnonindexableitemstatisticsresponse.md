@@ -5,6 +5,7 @@ ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
+ms.technology: ews
 ms.localizationpriority: medium
 ms.assetid: 8f68b73c-d6b0-4bb5-b89a-fd398d09346c
 description: "The GetNonIndexableItemStatisticsResponse element specifies the response to a GetNonIndexableItemStatistics request."

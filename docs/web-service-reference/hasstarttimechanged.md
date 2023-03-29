@@ -7,6 +7,7 @@ ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
+ms.technology: ews
 ms.localizationpriority: medium
 ms.assetid: 04a6968d-7fb5-47ee-b66e-dc99c35dbb63
 description: "The HasStartTimeChanged element specifies whether the start time for a meeting has changed."

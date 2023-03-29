@@ -7,6 +7,7 @@ ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
+ms.technology: ews
 ms.localizationpriority: medium
 ms.assetid: 9991d6e0-8c31-4e73-8af3-da4298474b66
 description: "The GetUserRetentionPolicyTagsResponseMessage element specifies the response message for a GetUserRetentionPolicyTags request."

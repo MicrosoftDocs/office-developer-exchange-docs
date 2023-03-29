@@ -7,6 +7,7 @@ ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
+ms.technology: ews
 ms.localizationpriority: medium
 ms.assetid: 459ddb1c-8cff-4125-b6fa-dc93c183dee8
 description: "The HomeFaxes element specifies an array of home fax numbers and the identifiers of their source attributions for the associated persona."

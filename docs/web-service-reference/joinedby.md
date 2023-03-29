@@ -5,6 +5,7 @@ ms.date: 11/16/2014
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
+ms.technology: ews
 ms.localizationpriority: medium
 ms.assetid: 49c74470-fe11-4229-b4e5-1fc8588a44d7
 description: "The JoinedBy element is intended for internal use only."

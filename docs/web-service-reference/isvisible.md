@@ -7,6 +7,7 @@ ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
+ms.technology: ews
 ms.localizationpriority: medium
 ms.assetid: 403acdd5-3b79-46f4-9894-ba57e10085e4
 description: "The IsVisible element indicates whether the retention policy is visible to users."

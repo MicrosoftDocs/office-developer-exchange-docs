@@ -7,6 +7,7 @@ ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
+ms.technology: ews
 ms.localizationpriority: medium
 ms.assetid: 1e10ca10-3cf6-4f84-92f1-61eaa277f83a
 description: "The TTYTDDPhoneNumbers element specifies an array of TTY or TDD text telephone numbers and the identifiers of their source attributions for the associated persona."

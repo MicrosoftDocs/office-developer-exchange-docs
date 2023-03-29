@@ -7,6 +7,7 @@ ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
+ms.technology: ews
 ms.localizationpriority: medium
 ms.assetid: a5bf44c6-c46b-442d-98d4-8b49fdf14b30
 description: "The GetPersonaResponseMessage contains the response data resulting from a GetPersona request."
