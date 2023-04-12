@@ -261,7 +261,7 @@ Add-MailboxPermission -Identity "john.smith@contoso.com" -User
 ```
 
 
-Different IDs are used during creation of the Exchange ServicePrincipal and also later when granting mailbox permissions. The following example may help you to use the correct ID for the different stages. The example uses Azure AD cmdelts so you'll need to install the Azure AD PowerShell module, if you haven't already. For more information, see [Install Azure Active Directory PowerShell for Graph](/powershell/azure/active-directory/install-adv2?view=azureadps-2.0#installing-the-azure-ad-module).
+Different IDs are used during creation of the Exchange ServicePrincipal and also later when granting mailbox permissions. The following example may help you to use the correct ID for the different stages. The example uses Azure AD cmdelts so you'll need to install the Azure AD PowerShell module, if you haven't already. For more information, see [Install Azure Active Directory PowerShell for Graph](/powershell/azure/active-directory/install-adv2?view=azureadps-2.0#installing-the-azure-ad-module&preserve-view=true).
 
 ```text
 $AADServicePrincipalDetails = Get-AzureADServicePrincipal -SearchString YourAppName
