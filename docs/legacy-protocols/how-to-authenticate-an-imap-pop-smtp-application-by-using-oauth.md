@@ -177,6 +177,9 @@ S: 535 5.7.3 Authentication unsuccessful [SN2PR00CA0018.namprd00.prod.outlook.co
 
 Service principals in Exchange are used to enable applications to access Exchange mailboxes via client credentials flow with the POP and IMAP protocols.
 
+>[!NOTE]
+> Currently, Exchange Online does not support SMTP Oauth 2.0 client credential flow with non-interactive sign in. We are working on this and it will be available by the end of 2023.
+
 ### Add the POP and IMAP permissions to your AAD application
 
 1. In the Azure portal, choose the **API Permissions** blade in your Azure AD application's management view.
@@ -210,7 +213,8 @@ The following is an example of the OAuth 2.0 authorization request URL:
 https://login.microsoftonline.com/{tenant}/v2.0/adminconsent?client_id=<CLIENT_ID>&redirect_uri=<REDIRECT_URI>&scope=https://ps.outlook.com/.default
 ```
 
-#### How to grant consent if you registered the application for your own tenent 
+#### How to grant consent if you registered the application for your own tenant
+
 If you registered your application in your own tenant using "Accounts in this organizational directory only", you can simply go forward and use the application configuration page within the Azure AD admin center to grant the admin consent, and don´t need to use the authorization request URL approch.
 
 ![image](https://user-images.githubusercontent.com/31959947/177141210-8aa8a82d-4822-4c2e-86ea-9626b2c4ac32.png)
