@@ -177,6 +177,9 @@ S: 535 5.7.3 Authentication unsuccessful [SN2PR00CA0018.namprd00.prod.outlook.co
 
 Service principals in Exchange are used to enable applications to access Exchange mailboxes via client credentials flow with the POP and IMAP protocols.
 
+>[!NOTE]
+> Currently, Exchange Online doesn't support SMTP Oauth 2.0 client credential flow with non-interactive sign in. We are working on this, and it will be available by the end of 2023.
+
 ### Add the POP and IMAP permissions to your AAD application
 
 1. In the Azure portal, choose the **API Permissions** blade in your Azure AD application's management view.
@@ -210,7 +213,8 @@ The following is an example of the OAuth 2.0 authorization request URL:
 https://login.microsoftonline.com/{tenant}/v2.0/adminconsent?client_id=<CLIENT_ID>&redirect_uri=<REDIRECT_URI>&scope=https://ps.outlook.com/.default
 ```
 
-#### How to grant consent if you registered the application for your own tenent 
+#### How to grant consent if you registered the application for your own tenant
+
 If you registered your application in your own tenant using "Accounts in this organizational directory only", you can simply go forward and use the application configuration page within the Azure AD admin center to grant the admin consent, and don´t need to use the authorization request URL approch.
 
 ![image](https://user-images.githubusercontent.com/31959947/177141210-8aa8a82d-4822-4c2e-86ea-9626b2c4ac32.png)
@@ -257,7 +261,7 @@ Add-MailboxPermission -Identity "john.smith@contoso.com" -User
 ```
 
 
-Different IDs are used during creation of the Exchange ServicePrincipal and also later when granting mailbox permissions. The following example may help you to use the correct ID for the different stages. The example uses Azure AD cmdelts so you'll need to install the Azure AD PowerShell module, if you haven't already. For more information, see [Install Azure Active Directory PowerShell for Graph](/powershell/azure/active-directory/install-adv2?view=azureadps-2.0#installing-the-azure-ad-module).
+Different IDs are used during creation of the Exchange ServicePrincipal and also later when granting mailbox permissions. The following example may help you to use the correct ID for the different stages. The example uses Azure AD cmdelts so you'll need to install the Azure AD PowerShell module, if you haven't already. For more information, see [Install Azure Active Directory PowerShell for Graph](/powershell/azure/active-directory/install-adv2?view=azureadps-2.0#installing-the-azure-ad-module&preserve-view=true).
 
 ```text
 $AADServicePrincipalDetails = Get-AzureADServicePrincipal -SearchString YourAppName
