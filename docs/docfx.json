@@ -38,6 +38,7 @@
     "overwrite": [],
     "externalReference": [],
     "globalMetadata": {
+      "feedback_system": "Standard",
 
       "breadcrumb_path": "/exchange/client-developer/breadcrumb/toc.json",
       "extendBreadcrumb": true,
