@@ -6,7 +6,7 @@ manager: sethgros
 ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: reference
-ms.prod: office-online-server
+ms.service: office-online-server
 ms.technology: ews
 ms.localizationpriority: medium
 ms.assetid: f77af99d-5c77-4f46-851e-261faa03f68a

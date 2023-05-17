@@ -4,7 +4,7 @@ manager: sethgros
 ms.date: 11/16/2014
 ms.audience: Developer
 ms.topic: overview
-ms.prod: office-online-server
+ms.service: office-online-server
 ms.localizationpriority: medium
 api_name:
 - ErrTerm
