@@ -4,7 +4,7 @@ manager: sethgros
 ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: overview
-ms.prod: office-online-server
+ms.service: office-online-server
 ms.localizationpriority: medium
 ms.assetid: 0a1ad73a-3085-4793-af4d-e4216484c93e
 description: "Find out which APIs are new or updated in Exchange 2013 for transport agents."
