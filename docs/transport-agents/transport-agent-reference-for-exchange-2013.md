@@ -4,7 +4,7 @@ manager: sethgros
 ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: overview
-ms.prod: office-online-server
+ms.service: office-online-server
 ms.localizationpriority: medium
 ms.assetid: 342fc275-5b16-49d1-8fde-bf17ce289339
 description: "Find reference information for transport agents in Exchange 2013."

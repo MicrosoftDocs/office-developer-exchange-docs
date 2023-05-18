@@ -6,7 +6,7 @@ manager: sethgros
 ms.date: 10/18/2021
 ms.audience: Developer
 ms.topic: reference
-ms.prod: office-online-server
+ms.service: office-online-server
 ms.technology: ews
 ms.localizationpriority: medium
 api_name:

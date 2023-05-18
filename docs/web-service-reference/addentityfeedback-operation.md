@@ -4,7 +4,7 @@ manager: luken
 ms.date: 4/18/2016
 ms.audience: ITPro
 ms.topic: article
-ms.prod: office-online-server
+ms.service: office-online-server
 ms.technology: ews
 ms.localizationpriority: medium
 ms.assetid: 00e40197-5794-4268-b937-bd65aa044890

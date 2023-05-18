@@ -4,7 +4,7 @@ manager: sethgros
 ms.date: 03/13/2019
 ms.audience: Developer
 ms.topic: overview
-ms.prod: office-online-server
+ms.service: office-online-server
 ms.assetid: daca33d3-22f8-4bac-9cfd-6324e85a45c7
 description: "Find input and output types for Exchange cmdlets."
 localization_priority: Priority

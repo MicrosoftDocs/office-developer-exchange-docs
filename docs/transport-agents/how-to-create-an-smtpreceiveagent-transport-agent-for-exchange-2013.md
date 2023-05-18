@@ -4,7 +4,7 @@ manager: sethgros
 ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: overview
-ms.prod: office-online-server
+ms.service: office-online-server
 ms.localizationpriority: medium
 ms.assetid: cdc7c462-74a7-49d6-95b2-155d783840e9
 description: "Find out how to create a custom SmtpReceiveAgent transport agent to use with Exchange 2013."
