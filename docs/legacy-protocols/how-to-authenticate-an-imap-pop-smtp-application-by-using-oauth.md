@@ -217,7 +217,7 @@ https://login.microsoftonline.com/{tenant}/v2.0/adminconsent?client_id=<CLIENT_I
 
 #### SMTP Guidance 
 
-For SMTP, in your OAuth 2.0 tenant authorization request, the `scope` query parameter should be `https://outlook.office365.com/.default` only for SMTP. The following is an example of the OAuth 2.0 authorization request URL for SMTP: 
+In your OAuth 2.0 tenant authorization request, the `scope` query parameter should be `https://outlook.office365.com/.default` only for SMTP. The following is an example of the OAuth 2.0 authorization request URL: 
 
 ```text
 https://login.microsoftonline.com/{tenant}/v2.0/adminconsent?client_id=<CLIENT_ID>&redirect_uri=<REDIRECT_URI>&scope=https://outlook.office365.com/.default 
