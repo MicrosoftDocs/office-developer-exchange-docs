@@ -173,14 +173,14 @@ l0Q2cBAQ==
 S: 535 5.7.3 Authentication unsuccessful [SN2PR00CA0018.namprd00.prod.outlook.com]
 ```
 
-## Use client credentials grant flow to authenticate IMAP and POP connections
+## Use client credentials grant flow to authenticate SMTP, IMAP and POP connections 
 
-Service principals in Exchange are used to enable applications to access Exchange mailboxes via client credentials flow with the POP and IMAP protocols.
+Service principals in Exchange are used to enable applications to access Exchange mailboxes via client credentials flow with the SMTP, POP and IMAP protocols. 
 
 >[!NOTE]
 > Currently, Exchange Online doesn't support SMTP Oauth 2.0 client credential flow with non-interactive sign in. We are working on this, and it will be available by the end of 2023.
 
-### Add the POP and IMAP permissions to your AAD application
+### Add the POP, IMAP, or SMTP permissions to your AAD application 
 
 1. In the Azure portal, choose the **API Permissions** blade in your Azure AD application's management view.
 
@@ -190,13 +190,13 @@ Service principals in Exchange are used to enable applications to access Exchang
 
 4. Click **Application permissions**.
 
-5. For POP access, choose the **POP.AccessAsApp** permission. For IMAP access, choose the **IMAP.AccessAsApp** permission.
+5. For POP access, choose the **POP.AccessAsApp** permission. For IMAP access, choose the **IMAP.AccessAsApp** permission. For SMTP access, choose the **SMTP.SendAsApp** permission. 
 
    ![pop-imap-permission](media/pop-imap-api-permissions.png)
 
 6. Once you've chosen which type of permission, select **Add permissions**.
 
-You should now have the POP or IMAP application permissions added to your AAD application's permissions.
+You should now have the SMTP, POP or IMAP application permissions added to your AAD application's permissions. 
 
 ### Get tenant admin consent
 
