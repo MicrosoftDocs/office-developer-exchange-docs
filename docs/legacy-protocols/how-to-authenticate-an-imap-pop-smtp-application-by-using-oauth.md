@@ -34,7 +34,7 @@ Alternatively, you can select an appropriate flow from the following list and fo
 
 1. [OAuth2 authorization code flow](/azure/active-directory/develop/v2-oauth2-auth-code-flow)
 2. [OAuth2 device authorization grant flow](/azure/active-directory/develop/v2-oauth2-device-code)
-3. [OAuth2 client credentials grant flow](#use-client-credentials-grant-flow-to-authenticate-imap-and-pop-connections) 
+3. [OAuth2 client credentials grant flow](#use-client-credentials-grant-flow-to-authenticate-smtp-imap-and-pop-connections) 
 
 Make sure to specify the full scopes, including Outlook resource URLs, when authorizing your application and requesting an access token.
 
