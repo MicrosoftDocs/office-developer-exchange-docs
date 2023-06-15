@@ -34,7 +34,7 @@ Alternatively, you can select an appropriate flow from the following list and fo
 
 1. [OAuth2 authorization code flow](/azure/active-directory/develop/v2-oauth2-auth-code-flow)
 2. [OAuth2 device authorization grant flow](/azure/active-directory/develop/v2-oauth2-device-code)
-3. [OAuth2 client credentials grant flow](#use-client-credentials-grant-flow-to-authenticate-imap-and-pop-connections) 
+3. [OAuth2 client credentials grant flow](#use-client-credentials-grant-flow-to-authenticate-smtp-imap-and-pop-connections) 
 
 Make sure to specify the full scopes, including Outlook resource URLs, when authorizing your application and requesting an access token.
 
@@ -173,14 +173,14 @@ l0Q2cBAQ==
 S: 535 5.7.3 Authentication unsuccessful [SN2PR00CA0018.namprd00.prod.outlook.com]
 ```
 
-## Use client credentials grant flow to authenticate IMAP and POP connections
+## Use client credentials grant flow to authenticate SMTP, IMAP and POP connections 
 
-Service principals in Exchange are used to enable applications to access Exchange mailboxes via client credentials flow with the POP and IMAP protocols.
+Service principals in Exchange are used to enable applications to access Exchange mailboxes via client credentials flow with the SMTP, POP and IMAP protocols. 
 
 >[!NOTE]
 > Currently, Exchange Online doesn't support SMTP Oauth 2.0 client credential flow with non-interactive sign in. We are working on this, and it will be available by the end of 2023.
 
-### Add the POP and IMAP permissions to your AAD application
+### Add the POP, IMAP, or SMTP permissions to your AAD application 
 
 1. In the Azure portal, choose the **API Permissions** blade in your Azure AD application's management view.
 
@@ -190,13 +190,13 @@ Service principals in Exchange are used to enable applications to access Exchang
 
 4. Click **Application permissions**.
 
-5. For POP access, choose the **POP.AccessAsApp** permission. For IMAP access, choose the **IMAP.AccessAsApp** permission.
+5. For POP access, choose the **POP.AccessAsApp** permission. For IMAP access, choose the **IMAP.AccessAsApp** permission. For SMTP access, choose the **SMTP.SendAsApp** permission. 
 
    ![pop-imap-permission](media/pop-imap-api-permissions.png)
 
 6. Once you've chosen which type of permission, select **Add permissions**.
 
-You should now have the POP or IMAP application permissions added to your AAD application's permissions.
+You should now have the SMTP, POP or IMAP application permissions added to your AAD application's permissions. 
 
 ### Get tenant admin consent
 
@@ -206,11 +206,21 @@ To access Exchange mailboxes via POP or IMAP, your AAD application must get tena
 
 If your ISV/partner registered the Azure AD Application with the option "Accounts in any organizational directory", you need to add this application and consent it using the following steps by leveraging the authorization request URL.
 
+#### POP and IMAP Guidance 
+
 In your OAuth 2.0 tenant authorization request, the `scope` query parameter should be `https://ps.outlook.com/.default` for both the POP and IMAP application scopes.
 The following is an example of the OAuth 2.0 authorization request URL:
 
 ```text
 https://login.microsoftonline.com/{tenant}/v2.0/adminconsent?client_id=<CLIENT_ID>&redirect_uri=<REDIRECT_URI>&scope=https://ps.outlook.com/.default
+```
+
+#### SMTP Guidance 
+
+In your OAuth 2.0 tenant authorization request, the `scope` query parameter should be `https://outlook.office365.com/.default` only for SMTP. The following is an example of the OAuth 2.0 authorization request URL: 
+
+```text
+https://login.microsoftonline.com/{tenant}/v2.0/adminconsent?client_id=<CLIENT_ID>&redirect_uri=<REDIRECT_URI>&scope=https://outlook.office365.com/.default 
 ```
 
 #### How to grant consent if you registered the application for your own tenant
@@ -273,11 +283,11 @@ $EXOServicePrincipal = Get-ServicePrincipal -Identity "EXO Serviceprincipal for 
 Add-MailboxPermission -Identity "john.smith@contoso.com" -User $EXOServicePrincipal.Identity -AccessRights FullAccess
 ```
 
-Your Azure AD application can now access the allowed mailboxes via the POP or IMAP protocols using the OAuth 2.0 client credentials grant flow. For more information, see the instructions in [Permissions and consent in the Microsoft identity platform](/azure/active-directory/develop/v2-oauth2-client-creds-grant-flow).
+Your Azure AD application can now access the allowed mailboxes via the SMTP, POP or IMAP protocols using the OAuth 2.0 client credentials grant flow. For more information, see the instructions in [Permissions and consent in the Microsoft identity platform](/azure/active-directory/develop/v2-oauth2-client-creds-grant-flow).
 
 You must use `https://outlook.office365.com/.default` in the `scope` property in the body payload for the access token request.
 
-The access tokens generated can be used as tokens to authenticate POP and IMAP connections via SASL XOAUTH2 format as described previously.
+The access tokens generated can be used as tokens to authenticate SMTP, POP and IMAP connections via SASL XOAUTH2 format as described previously.
 
 ## See also
 
