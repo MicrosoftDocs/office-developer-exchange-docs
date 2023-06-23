@@ -192,7 +192,7 @@ Service principals in Exchange are used to enable applications to access Exchang
 
 5. For POP access, choose the **POP.AccessAsApp** permission. For IMAP access, choose the **IMAP.AccessAsApp** permission. For SMTP access, choose the **SMTP.SendAsApp** permission. 
 
-   ![pop-imap-permission](media/pop-imap-permission.png)
+   ![pop-imap-permission](media/pop-imap-smtp-permission.png)
 
 6. Once you've chosen which type of permission, select **Add permissions**.
 
