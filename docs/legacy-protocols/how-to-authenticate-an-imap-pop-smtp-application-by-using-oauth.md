@@ -42,7 +42,7 @@ Make sure to specify the full scopes, including Outlook resource URLs, when auth
 |-----------|-------------------------|
 | IMAP      | `https://outlook.office.com/IMAP.AccessAsUser.All` |
 | POP       | `https://outlook.office.com/POP.AccessAsUser.All`  |
-| SMTP AUTH | `https://outlook.office.com/SMTP.Send`             |
+| SMTP AUTH | `https://outlook.office.com/SMTP.SendAsApp`             |
 
 In addition, you can request for [offline_access](/azure/active-directory/develop/v2-permissions-and-consent#offline_access) scope. When a user approves the offline_access scope, your app can receive refresh tokens from the Microsoft identity platform token endpoint. Refresh tokens are long-lived. Your app can get new access tokens as older ones expire.
 
@@ -192,7 +192,7 @@ Service principals in Exchange are used to enable applications to access Exchang
 
 5. For POP access, choose the **POP.AccessAsApp** permission. For IMAP access, choose the **IMAP.AccessAsApp** permission. For SMTP access, choose the **SMTP.SendAsApp** permission. 
 
-   ![pop-imap-permission](media/pop-imap-api-permissions.png)
+   ![pop-imap-permission](media/pop-imap-smtp-permission.png)
 
 6. Once you've chosen which type of permission, select **Add permissions**.
 
