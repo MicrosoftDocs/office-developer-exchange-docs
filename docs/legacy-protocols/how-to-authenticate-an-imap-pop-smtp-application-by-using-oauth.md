@@ -242,13 +242,13 @@ Import-module ExchangeOnlineManagement
 Connect-ExchangeOnline -Organization <tenantId>
 ```
 
-If you still get an error running the New-ServicePrincipal Cmdlet after you perform these steps, it is likely due to the fact that the user does'nt have enough permissions in Exchange online to perform the operation. 
+If you still get an error running the New-ServicePrincipal Cmdlet after you perform these steps, it is likely due to the fact that the user doesn't have enough permissions in Exchange online to perform the operation. 
 
 
 The following is an example of registering an Azure AD application's service principal in Exchange:
 
 ```text
-New-ServicePrincipal -AppId <APPLICATION_ID> -ServiceId <OBJECT_ID> [-Organization <ORGANIZATION_ID>]
+New-ServicePrincipal -AppId <APPLICATION_ID> -ObjectId <OBJECT_ID> [-Organization <ORGANIZATION_ID>]
 ```
 
 The tenant admin can find the service principal identifiers referenced above in your AAD application's enterprise application instance on the tenant. You can find the list of the enterprise application instances on the tenant in the **Enterprise applications** blade in the Azure Active Directory view in Azure Portal.
@@ -276,7 +276,7 @@ Different IDs are used during creation of the Exchange ServicePrincipal and also
 ```text
 $AADServicePrincipalDetails = Get-AzureADServicePrincipal -SearchString YourAppName
 
-New-ServicePrincipal -AppId $AADServicePrincipalDetails.AppId -ServiceId $AADServicePrincipalDetails.ObjectId -DisplayName "EXO Serviceprincipal for AzureAD App $($AADServicePrincipalDetails.Displayname)"
+New-ServicePrincipal -AppId $AADServicePrincipalDetails.AppId -ObjectId $AADServicePrincipalDetails.ObjectId -DisplayName "EXO Serviceprincipal for AzureAD App $($AADServicePrincipalDetails.Displayname)"
 
 $EXOServicePrincipal = Get-ServicePrincipal -Identity "EXO Serviceprincipal for AzureAD App YourAppName"
 
