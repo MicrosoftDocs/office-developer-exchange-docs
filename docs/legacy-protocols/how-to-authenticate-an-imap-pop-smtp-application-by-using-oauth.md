@@ -177,9 +177,6 @@ S: 535 5.7.3 Authentication unsuccessful [SN2PR00CA0018.namprd00.prod.outlook.co
 
 Service principals in Exchange are used to enable applications to access Exchange mailboxes via client credentials flow with the SMTP, POP and IMAP protocols. 
 
->[!NOTE]
-> Currently, Exchange Online doesn't support SMTP Oauth 2.0 client credential flow with non-interactive sign in. We are working on this, and it will be available by the end of 2023.
-
 ### Add the POP, IMAP, or SMTP permissions to your AAD application 
 
 1. In the Azure portal, choose the **API Permissions** blade in your Azure AD application's management view.
