@@ -224,7 +224,7 @@ https://login.microsoftonline.com/{tenant}/v2.0/adminconsent?client_id=<CLIENT_I
 
 If you registered your application in your own tenant using "Accounts in this organizational directory only", you can go forward and use the application configuration page within the Azure AD admin center to grant the admin consent, and you don´t have to use the authorization request URL approach.
 
-![image](https://user-images.githubusercontent.com/31959947/177141210-8aa8a82d-4822-4c2e-86ea-9626b2c4ac32.png)
+![granting-consent-for-tenant](media/grant-consent.png)
 
 ### Register service principals in Exchange
 
