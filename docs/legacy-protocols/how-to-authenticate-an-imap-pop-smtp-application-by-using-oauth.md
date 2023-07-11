@@ -8,13 +8,13 @@ ms.audience: Developer
 
 # Authenticate an IMAP, POP or SMTP connection using OAuth
 
-Learn how to use OAuth authentication to connect with IMAP, POP or SMTP protocols and access email data for Office 365 users.
+Learn how to use OAuth authentication to connect with IMAP, POP, or SMTP protocols and to access email data for Office 365 users.
 
-> OAuth2 support for IMAP, POP, SMTP protocols as described below is supported for both Microsoft 365 (which includes Office on the web) and Outlook.com users.
+> OAuth2 support for IMAP, POP, and SMTP protocols as described below is available  for both Microsoft 365 (which includes Office on the web) and Outlook.com users.
 
-If you're not familiar with the OAuth 2.0 protocol, start by reading the [OAuth 2.0 protocol on Microsoft identity platform overview](/azure/active-directory/develop/active-directory-v2-protocols). To learn more about the Microsoft Authentication Libraries (MSAL), which implement the OAuth 2.0 protocol to authenticate users and access secure APIs, read the [MSAL overview](/azure/active-directory/develop/msal-overview).
+If you're not familiar with the OAuth 2.0 protocol, see [OAuth 2.0 protocol on Microsoft identity platform overview](/azure/active-directory/develop/active-directory-v2-protocols). For more information about the Microsoft Authentication Libraries (MSAL), which implement the OAuth 2.0 protocol to authenticate users and access secure APIs, see [MSAL overview](/azure/active-directory/develop/msal-overview).
 
-You can use the OAuth authentication service provided by Azure Active Directory (Azure AD) to enable your application to connect with IMAP, POP or SMTP protocols to access Exchange Online in Office 365. To use OAuth with your application, you need to:
+You can use the OAuth authentication service provided by Azure Active Directory (Azure AD) to enable your application connect with IMAP, POP, or SMTP protocols to access Exchange Online in Office 365. To use OAuth with your application, you need to:
 
 1. [Register your application](#register-your-application) with Azure AD.
 2. [Get an access token](#get-an-access-token) from a token server.
@@ -22,7 +22,7 @@ You can use the OAuth authentication service provided by Azure Active Directory 
 
 ## Register your application
 
-To use OAuth, an application must be registered with Azure Active Directory.
+To use OAuth, an application must be registered with Azure AD.
 
 Follow the instructions listed in [Register an application with the Microsoft identity platform](/azure/active-directory/develop/quickstart-register-app) to create a new application.
 
@@ -36,7 +36,7 @@ Alternatively, you can select an appropriate flow from the following list and fo
 2. [OAuth2 device authorization grant flow](/azure/active-directory/develop/v2-oauth2-device-code)
 3. [OAuth2 client credentials grant flow](#use-client-credentials-grant-flow-to-authenticate-smtp-imap-and-pop-connections) 
 
-Make sure to specify the full scopes, including Outlook resource URLs, when authorizing your application and requesting an access token.
+Ensure to specify the full scopes, including Outlook resource URLs, when authorizing your application and requesting an access token.
 
 | Protocol  | Permission scope string |
 |-----------|-------------------------|
@@ -52,7 +52,7 @@ You can initiate a connection to Office 365 mail servers using the [IMAP and POP
 
 ### SASL XOAUTH2
 
-OAuth integration requires your application to use SASL XOAUTH2 format to encode and transmit the access token. SASL XOAUTH2 encodes the username, access token together in the following format:
+OAuth integration requires your application to use SASL XOAUTH2 format to encode and transmit the access token. SASL XOAUTH2 encodes the username and access token together in the following format:
 
 ```text
 base64("user=" + userName + "^Aauth=Bearer " + accessToken + "^A^A")
@@ -66,7 +66,7 @@ For example, the SASL XOAUTH2 format to access `test@contoso.onmicrosoft.com` wi
 base64("user=test@contoso.onmicrosoft.com^Aauth=Bearer EwBAAl3BAAUFFpUAo7J3Ve0bjLBWZWCclRC3EoAA^A^A")
 ```
 
-After base64 encoding, this translates to the following string. Note that line breaks are inserted for readability.
+After base64 encoding, this format translates to the following string. The line breaks are inserted for readability.
 
 ```text
 dXNlcj10ZXN0QGNvbnRvc28ub25taWNyb3NvZnQuY29tAWF1dGg9QmVhcmVy
@@ -75,7 +75,7 @@ IEV3QkFBbDNCQUFVRkZwVUFvN0ozVmUwYmpMQldaV0NjbFJDM0VvQUEBAQ==
 
 ### SASL XOAUTH2 authentication for shared mailboxes in Office 365
 
-In case of shared mailbox access using OAuth, application needs to obtain the access token on behalf of a user but replace the userName field in the SASL XOAUTH2 encoded string with the email address of the shared mailbox. 
+In case of shared mailbox access using OAuth, an application needs to obtain the access token on behalf of a user but replace the **userName** field in the SASL XOAUTH2 encoded string with the email address of the shared mailbox. 
 
 ### IMAP Protocol Exchange
 
@@ -108,7 +108,7 @@ S: A01 NO AUTHENTICATE failed.
 
 ### POP Protocol Exchange
 
-To authenticate a POP server connection, the client will have to respond with an `AUTH` command split into two lines in the following format:	 
+To authenticate a POP server connection, the client will have to respond with an `AUTH` command split into two lines in the following format: 
 
 ```text	
 AUTH XOAUTH2 
@@ -173,12 +173,9 @@ l0Q2cBAQ==
 S: 535 5.7.3 Authentication unsuccessful [SN2PR00CA0018.namprd00.prod.outlook.com]
 ```
 
-## Use client credentials grant flow to authenticate SMTP, IMAP and POP connections 
+## Use client credentials grant flow to authenticate SMTP, IMAP, and POP connections 
 
-Service principals in Exchange are used to enable applications to access Exchange mailboxes via client credentials flow with the SMTP, POP and IMAP protocols. 
-
->[!NOTE]
-> Currently, Exchange Online doesn't support SMTP Oauth 2.0 client credential flow with non-interactive sign in. We are working on this, and it will be available by the end of 2023.
+Service principals in Exchange are used to enable applications to access Exchange mailboxes via client credentials flow with the SMTP, POP, and IMAP protocols. 
 
 ### Add the POP, IMAP, or SMTP permissions to your AAD application 
 
@@ -194,30 +191,30 @@ Service principals in Exchange are used to enable applications to access Exchang
 
    ![pop-imap-permission](media/pop-imap-smtp-permission.png)
 
-6. Once you've chosen which type of permission, select **Add permissions**.
+6. Once you've chosen the type of permission, select **Add permissions**.
 
-You should now have the SMTP, POP or IMAP application permissions added to your AAD application's permissions. 
+You should now have the SMTP, POP, or IMAP application permissions added to your AAD application's permissions. 
 
 ### Get tenant admin consent
 
-To access Exchange mailboxes via POP or IMAP, your AAD application must get tenant admin consent for each tenant. To learn more, see [tenant admin consent process](/azure/active-directory/develop/v2-permissions-and-consent).
+To access Exchange mailboxes via POP or IMAP, your AAD application must get tenant admin consent for each tenant. For more information, see [tenant admin consent process](/azure/active-directory/develop/v2-permissions-and-consent).
 
-#### How to grant consent if the application is registered/configured for multiple tenant usage e.g. for Partner/ISV developed centraly registered application
+#### How to grant consent if the application is registered/configured for multiple tenant usage, for example, for Partner/ISV developed centrally registered application
 
-If your ISV/partner registered the Azure AD Application with the option "Accounts in any organizational directory", you need to add this application and consent it using the following steps by leveraging the authorization request URL.
+If your ISV/partner registered the Azure AD application with the option "Accounts in any organizational directory", you need to add this application and consent it using the following steps by leveraging the authorization request URL.
 
-#### POP and IMAP Guidance 
+##### POP and IMAP Guidance 
 
 In your OAuth 2.0 tenant authorization request, the `scope` query parameter should be `https://ps.outlook.com/.default` for both the POP and IMAP application scopes.
-The following is an example of the OAuth 2.0 authorization request URL:
+The OAuth 2.0 authorization request URL is shown in the following example:
 
 ```text
 https://login.microsoftonline.com/{tenant}/v2.0/adminconsent?client_id=<CLIENT_ID>&redirect_uri=<REDIRECT_URI>&scope=https://ps.outlook.com/.default
 ```
 
-#### SMTP Guidance 
+##### SMTP Guidance 
 
-In your OAuth 2.0 tenant authorization request, the `scope` query parameter should be `https://outlook.office365.com/.default` only for SMTP. The following is an example of the OAuth 2.0 authorization request URL: 
+In your OAuth 2.0 tenant authorization request, the `scope` query parameter should be `https://outlook.office365.com/.default` only for SMTP. The OAuth 2.0 authorization request URL is shown in the following example:
 
 ```text
 https://login.microsoftonline.com/{tenant}/v2.0/adminconsent?client_id=<CLIENT_ID>&redirect_uri=<REDIRECT_URI>&scope=https://outlook.office365.com/.default 
@@ -225,16 +222,15 @@ https://login.microsoftonline.com/{tenant}/v2.0/adminconsent?client_id=<CLIENT_I
 
 #### How to grant consent if you registered the application for your own tenant
 
-If you registered your application in your own tenant using "Accounts in this organizational directory only", you can simply go forward and use the application configuration page within the Azure AD admin center to grant the admin consent, and don´t need to use the authorization request URL approch.
+If you registered your application in your own tenant using "Accounts in this organizational directory only", you can go forward and use the application configuration page within the Azure AD admin center to grant the admin consent, and you don´t have to use the authorization request URL approach.
 
 ![image](https://user-images.githubusercontent.com/31959947/177141210-8aa8a82d-4822-4c2e-86ea-9626b2c4ac32.png)
 
-
 ### Register service principals in Exchange
 
-Once your Azure AD application is consented to by a tenant admin, the tenant admin must register your AAD application's service principal in Exchange via Exchange Online PowerShell. This is enabled by the [`New-ServicePrincipal` cmdlet](/powershell/module/exchange/new-serviceprincipal).
+Once a tenant admin consents your Azure AD application, they must register your AAD application's service principal in Exchange via Exchange Online PowerShell. This registration is enabled by the [`New-ServicePrincipal` cmdlet](/powershell/module/exchange/new-serviceprincipal).
 
-To use the New-ServicePrincipal cmdlet, install the ExchangeOnlineManagement and connect to your tenant as shown in the following snippet.
+To use the *New-ServicePrincipal* cmdlet, install ExchangeOnlineManagement and connect to your tenant as shown in the following snippet:
 
 ```text
 Install-Module -Name ExchangeOnlineManagement -allowprerelease
@@ -242,16 +238,15 @@ Import-module ExchangeOnlineManagement
 Connect-ExchangeOnline -Organization <tenantId>
 ```
 
-If you still get an error running the New-ServicePrincipal Cmdlet after you perform these steps, it is likely due to the fact that the user doesn't have enough permissions in Exchange online to perform the operation. 
+If you still get an error running the *New-ServicePrincipal* cmdlet after you perform these steps, it's likely because the user doesn't have enough permissions in Exchange online to perform the operation. 
 
-
-The following is an example of registering an Azure AD application's service principal in Exchange:
+Registration of an Azure AD application's service principal in Exchange is shown in the following example:
 
 ```text
 New-ServicePrincipal -AppId <APPLICATION_ID> -ObjectId <OBJECT_ID> [-Organization <ORGANIZATION_ID>]
 ```
 
-The tenant admin can find the service principal identifiers referenced above in your AAD application's enterprise application instance on the tenant. You can find the list of the enterprise application instances on the tenant in the **Enterprise applications** blade in the Azure Active Directory view in Azure Portal.
+The tenant admin can find the service principal identifiers referenced above in your AAD application's enterprise application instance on the tenant. You can find the list of the enterprise application instances on the tenant in the **Enterprise applications** blade in the Azure AD view in Azure Portal.
 
 You can get your registered service principal's identifier using the [`Get-ServicePrincipal` cmdlet](/powershell/module/exchange/get-serviceprincipal).
 
@@ -259,19 +254,18 @@ You can get your registered service principal's identifier using the [`Get-Servi
 Get-ServicePrincipal | fl
 ```
 
-The OBJECT_ID is the Object ID from the Overview page of the Enterprise Application node (Azure Portal) for the application registration. It is **not** the Object ID from the Overview of the App Registrations node. Using the incorrect Object ID will cause an authentication failure.
+The OBJECT_ID is the Object ID from the Overview page of the Enterprise Application node (Azure Portal) for the application registration. It is **not** the Object ID from the Overview page of the App Registrations node. Using the incorrect Object ID will cause an authentication failure.
 
-The tenant admin can now add the specific mailboxes in the tenant that will be allowed to be access by your application. This is done with the [`Add-MailboxPermission` cmdlet](/powershell/module/exchange/add-mailboxpermission).
+The tenant admin can now add the specific mailboxes in the tenant that will be allowed to be accessed by your application. This configuration is done with the [`Add-MailboxPermission` cmdlet](/powershell/module/exchange/add-mailboxpermission).
 
-The following is an example of how to give your application's service principal access to one mailbox:
+The following example shows how to give your application's service principal access to one mailbox:
 
 ```text
 Add-MailboxPermission -Identity "john.smith@contoso.com" -User 
 <SERVICE_PRINCIPAL_ID> -AccessRights FullAccess
 ```
 
-
-Different IDs are used during creation of the Exchange ServicePrincipal and also later when granting mailbox permissions. The following example may help you to use the correct ID for the different stages. The example uses Azure AD cmdelts so you'll need to install the Azure AD PowerShell module, if you haven't already. For more information, see [Install Azure Active Directory PowerShell for Graph](/powershell/azure/active-directory/install-adv2?view=azureadps-2.0#installing-the-azure-ad-module&preserve-view=true).
+Different IDs are used during creation of the Exchange service principal and also later when granting mailbox permissions. The following example may help you to use the correct ID for the different stages. This example uses Azure AD cmdlets; so, you'll need to install the Azure AD PowerShell module, if you haven't already. For more information, see [Install Azure Active Directory PowerShell for Graph](/powershell/azure/active-directory/install-adv2?view=azureadps-2.0#installing-the-azure-ad-module&preserve-view=true).
 
 ```text
 $AADServicePrincipalDetails = Get-AzureADServicePrincipal -SearchString YourAppName
@@ -283,11 +277,11 @@ $EXOServicePrincipal = Get-ServicePrincipal -Identity "EXO Serviceprincipal for 
 Add-MailboxPermission -Identity "john.smith@contoso.com" -User $EXOServicePrincipal.Identity -AccessRights FullAccess
 ```
 
-Your Azure AD application can now access the allowed mailboxes via the SMTP, POP or IMAP protocols using the OAuth 2.0 client credentials grant flow. For more information, see the instructions in [Permissions and consent in the Microsoft identity platform](/azure/active-directory/develop/v2-oauth2-client-creds-grant-flow).
+Your Azure AD application can now access the allowed mailboxes via the SMTP, POP, or IMAP protocols using the OAuth 2.0 client credentials grant flow. For more information, see the instructions in [Permissions and consent in the Microsoft identity platform](/azure/active-directory/develop/v2-oauth2-client-creds-grant-flow).
 
 You must use `https://outlook.office365.com/.default` in the `scope` property in the body payload for the access token request.
 
-The access tokens generated can be used as tokens to authenticate SMTP, POP and IMAP connections via SASL XOAUTH2 format as described previously.
+The generated access tokens can be used as tokens to authenticate SMTP, POP, and IMAP connections via SASL XOAUTH2 format as described previously.
 
 ## See also
 
