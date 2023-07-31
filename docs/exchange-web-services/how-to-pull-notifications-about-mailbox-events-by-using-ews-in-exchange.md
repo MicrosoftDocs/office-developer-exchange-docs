@@ -48,25 +48,29 @@ After you receive an event from the server, you can [synchronize those changes w
 The following example shows the XML request to send to the server to subscribe to all [EventTypes](https://msdn.microsoft.com/library/29ded9e5-f191-4aa3-bc3e-500de2fc8818%28Office.15%29.aspx) in the Inbox folder by using the [Subscribe operation](https://msdn.microsoft.com/library/f17c3d08-c79e-41f1-ba31-6e41e7aafd87%28Office.15%29.aspx). This is also the XML request that the EWS Managed API sends when subscribing to pull notifications by using the [SubscribeToPullNotifications](https://msdn.microsoft.com/library/microsoft.exchange.webservices.data.exchangeservice.subscribetopullnotifications%28v=exchg.80%29.aspx) method. 
   
 ```XML
-<?xml version="1.0" encoding="utf-8"?>
-<Subscribe xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
-           xmlns:xsd="http://www.w3.org/2001/XMLSchema">
-  <PullSubscriptionRequest xmlns="https://schemas.microsoft.com/exchange/services/2006/messages">
-    <FolderIds xmlns="https://schemas.microsoft.com/exchange/services/2006/types">
-      <DistinguishedFolderId Id="inbox" />
-    </FolderIds>
-    <EventTypes xmlns="https://schemas.microsoft.com/exchange/services/2006/types">
-            <EventType>NewMailEvent</EventType>
-            <EventType>CreatedEvent</EventType>
-            <EventType>DeletedEvent</EventType>
-            <EventType>ModifiedEvent</EventType>
-            <EventType>MovedEvent</EventType>
-            <EventType>CopiedEvent</EventType>
-            <EventType>FreeBusyChangedEvent</EventType>
-    </EventTypes>
-    <Timeout xmlns="https://schemas.microsoft.com/exchange/services/2006/types">30</Timeout>
-  </PullSubscriptionRequest>
-</Subscribe>
+<soap:Envelope xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:m="http://schemas.microsoft.com/exchange/services/2006/messages" xmlns:t="http://schemas.microsoft.com/exchange/services/2006/types" xmlns:soap="http://schemas.xmlsoap.org/soap/envelope/">
+  <soap:Header>
+    <t:RequestServerVersion Version="Exchange2016" />
+  </soap:Header>
+  <soap:Body>
+    <m:Subscribe>
+      <m:PullSubscriptionRequest>
+        <t:FolderIds xmlns="http://schemas.microsoft.com/exchange/services/2006/types">
+            <t:DistinguishedFolderId Id="inbox" />
+        </t:FolderIds>
+        <t:EventTypes>
+          <t:EventType>CopiedEvent</t:EventType>
+          <t:EventType>CreatedEvent</t:EventType>
+          <t:EventType>DeletedEvent</t:EventType>
+          <t:EventType>ModifiedEvent</t:EventType>
+          <t:EventType>MovedEvent</t:EventType>
+          <t:EventType>NewMailEvent</t:EventType>
+        </t:EventTypes>
+        <t:Timeout>5</t:Timeout>
+      </m:PullSubscriptionRequest>
+    </m:Subscribe>
+  </soap:Body>
+</soap:Envelope>
 ```
 
 The following XML example shows the [SubscribeResponse](https://msdn.microsoft.com/library/fd87e9b7-c231-44fa-9f5b-19ae96cda5cc%28Office.15%29.aspx) message that is sent from the server to the client in response to the **Subscribe** operation request. The inclusion of the NoError value for the [ResponseCode](https://msdn.microsoft.com/library/4b84d670-74c9-4d6d-84e7-f0a9f76f0d93%28Office.15%29.aspx) element means that the subscription was created successfully. The [SubscriptionId](https://msdn.microsoft.com/library/77c0abab-69e8-428e-8c20-22258e4ef71b%28Office.15%29.aspx) element uniquely identifies the pull notification subscription on the server. The [Watermark](https://msdn.microsoft.com/library/e1545046-94f9-4ac7-af1c-ea81dfb6822c%28Office.15%29.aspx) element represents a bookmark in the mailbox event queue. 
@@ -75,7 +79,7 @@ The following XML example shows the [SubscribeResponse](https://msdn.microsoft.c
 <?xml version="1.0" encoding="utf-8"?>
 <SubscribeResponse xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
                    xmlns:xsd="http://www.w3.org/2001/XMLSchema">
-  <ResponseMessages xmlns="https://schemas.microsoft.com/exchange/services/2006/messages">
+  <ResponseMessages xmlns="http//schemas.microsoft.com/exchange/services/2006/messages">
     <SubscribeResponseMessage ResponseClass="Success">
       <ResponseCode>NoError</ResponseCode>
       <SubscriptionId>d581ab79-a2ec-4653-9c8e-564d7cfc1d8c</SubscriptionId>
@@ -94,11 +98,17 @@ The following XML example shows the [GetEvents operation](https://msdn.microsoft
   
 ```XML
 <?xml version="1.0" encoding="utf-8"?>
-<GetEvents xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
-               xmlns:xsd="http://www.w3.org/2001/XMLSchema">
-  <SubscriptionId xmlns="https://schemas.microsoft.com/exchange/services/2006/messages">d581ab79-a2ec-4653-9c8e-564d7cfc1d8c</SubscriptionId>
-  <Watermark xmlns="https://schemas.microsoft.com/exchange/services/2006/messages">AAAAAGUhAAAAAAAAAQ==</Watermark>
-</GetEvents>
+<soap:Envelope xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:m="http://schemas.microsoft.com/exchange/services/2006/messages" xmlns:t="http://schemas.microsoft.com/exchange/services/2006/types" xmlns:soap="http://schemas.xmlsoap.org/soap/envelope/">
+  <soap:Header>
+    <t:RequestServerVersion Version="Exchange2016" />
+  </soap:Header>
+  <soap:Body>
+    <m:GetEvents>
+      <m:SubscriptionId>d581ab79-a2ec-4653-9c8e-564d7cfc1d8c</m:SubscriptionId>
+      <m:Watermark>AAAAAGUhAAAAAAAAAQ==</m:Watermark>
+    </m:GetEvents>
+  </soap:Body>
+</soap:Envelope>
 ```
 
 The following XML example shows the **GetEvents** response message that is sent from the server to the client. Each **GetEvents** response includes information about one or more events. A **Watermark** is returned for each event. The last **Watermark** must be saved and used in the next **GetEvents** request. If no store events have occurred since the last **GetEvents** request, a status event is returned. 
@@ -107,14 +117,14 @@ The following XML example shows the **GetEvents** response message that is sent 
 <?xml version="1.0" encoding="utf-8"?>
 <GetEventsResponseType xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
                        xmlns:xsd="http://www.w3.org/2001/XMLSchema">
-  <ResponseMessages xmlns="https://schemas.microsoft.com/exchange/services/2006/messages">
+  <ResponseMessages xmlns="http://schemas.microsoft.com/exchange/services/2006/messages">
     <GetEventsResponseMessage ResponseClass="Success">
       <ResponseCode>NoError</ResponseCode>
       <Notification>
-        <SubscriptionId xmlns="https://schemas.microsoft.com/exchange/services/2006/types">d581ab79-a2ec-4653-9c8e-564d7cfc1d8c</SubscriptionId>
-        <PreviousWatermark xmlns="https://schemas.microsoft.com/exchange/services/2006/types">AAAAAGUhAAAAAAAAAQ==</PreviousWatermark>
-        <MoreEvents xmlns="https://schemas.microsoft.com/exchange/services/2006/types">false</MoreEvents>
-        <NewMailEvent xmlns="https://schemas.microsoft.com/exchange/services/2006/types">
+        <SubscriptionId xmlns="http://schemas.microsoft.com/exchange/services/2006/types">d581ab79-a2ec-4653-9c8e-564d7cfc1d8c</SubscriptionId>
+        <PreviousWatermark xmlns="http://schemas.microsoft.com/exchange/services/2006/types">AAAAAGUhAAAAAAAAAQ==</PreviousWatermark>
+        <MoreEvents xmlns="http://schemas.microsoft.com/exchange/services/2006/types">false</MoreEvents>
+        <NewMailEvent xmlns="http://schemas.microsoft.com/exchange/services/2006/types">
           <Watermark>AAAAAHMhAAAAAAAAAQ==</Watermark>
           <TimeStamp>2013-09-15T21:37:01Z</TimeStamp>
           <ItemId Id="AAAtA=" ChangeKey="CQAAAA==" />
