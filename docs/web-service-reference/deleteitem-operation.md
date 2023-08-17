@@ -36,9 +36,9 @@ The following example of a **DeleteItem** request shows how to perform a hard de
 ```XML
 <?xml version="1.0" encoding="utf-8"?>
 <soap:Envelope xmlns:soap="http://schemas.xmlsoap.org/soap/envelope/"
-  xmlns:t="https://schemas.microsoft.com/exchange/services/2006/types">
+  xmlns:t="http://schemas.microsoft.com/exchange/services/2006/types">
   <soap:Body>
-    <DeleteItem DeleteType="HardDelete" xmlns="https://schemas.microsoft.com/exchange/services/2006/messages">
+    <DeleteItem DeleteType="HardDelete" xmlns="http://schemas.microsoft.com/exchange/services/2006/messages">
       <ItemIds>
         <t:ItemId Id="AS4AUn=="/>
       </ItemIds>
@@ -74,12 +74,12 @@ The following example shows a successful response to the **DeleteItem** request.
                xmlns:xsd="http://www.w3.org/2001/XMLSchema">
   <soap:Header>
     <t:ServerVersionInfo MajorVersion="8" MinorVersion="0" MajorBuildNumber="595" MinorBuildNumber="0" 
-                         xmlns:t="https://schemas.microsoft.com/exchange/services/2006/types" />
+                         xmlns:t="http://schemas.microsoft.com/exchange/services/2006/types" />
   </soap:Header>
   <soap:Body>
-    <DeleteItemResponse xmlns:m="https://schemas.microsoft.com/exchange/services/2006/messages" 
-                        xmlns:t="https://schemas.microsoft.com/exchange/services/2006/types" 
-                        xmlns="https://schemas.microsoft.com/exchange/services/2006/messages">
+    <DeleteItemResponse xmlns:m="http://schemas.microsoft.com/exchange/services/2006/messages" 
+                        xmlns:t="http://schemas.microsoft.com/exchange/services/2006/types" 
+                        xmlns="http://schemas.microsoft.com/exchange/services/2006/messages">
       <m:ResponseMessages>
         <m:DeleteItemResponseMessage ResponseClass="Success">
           <m:ResponseCode>NoError</m:ResponseCode>
@@ -121,12 +121,12 @@ The following example shows an error response to a **DeleteItem** request. The e
                xmlns:xsd="http://www.w3.org/2001/XMLSchema">
   <soap:Header>
     <t:ServerVersionInfo MajorVersion="8" MinorVersion="0" MajorBuildNumber="595" MinorBuildNumber="0" 
-                         xmlns:t="https://schemas.microsoft.com/exchange/services/2006/types" />
+                         xmlns:t="http://schemas.microsoft.com/exchange/services/2006/types" />
   </soap:Header>
   <soap:Body>
-    <DeleteItemResponse xmlns:m="https://schemas.microsoft.com/exchange/services/2006/messages" 
-                        xmlns:t="https://schemas.microsoft.com/exchange/services/2006/types" 
-                        xmlns="https://schemas.microsoft.com/exchange/services/2006/messages">
+    <DeleteItemResponse xmlns:m="http://schemas.microsoft.com/exchange/services/2006/messages" 
+                        xmlns:t="http://schemas.microsoft.com/exchange/services/2006/types" 
+                        xmlns="http://schemas.microsoft.com/exchange/services/2006/messages">
       <m:ResponseMessages>
         <m:DeleteItemResponseMessage ResponseClass="Error">
           <m:MessageText>The specified object was not found in the store.</m:MessageText>
