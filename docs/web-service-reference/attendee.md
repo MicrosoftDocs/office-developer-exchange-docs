@@ -24,6 +24,8 @@ The **Attendee** element represents attendees and resources for a meeting.
    <Mailbox/>
    <ResponseType/>
    <LastResponseTime/>
+   <ProposedStart/>
+   <ProposedEnd/>
 </Attendee>
 ```
 
