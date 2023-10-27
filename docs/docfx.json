@@ -41,7 +41,6 @@
       "feedback_system": "Standard",
 
       "breadcrumb_path": "/exchange/client-developer/breadcrumb/toc.json",
-      "extendBreadcrumb": true,
       "ms.topic": "conceptual",
 	  "uhfHeaderId": "MSDocsHeader-Dev_Office",
 	   "ms.suite": "office",
