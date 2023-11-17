@@ -38,7 +38,7 @@ There are two types of OAuth permissions that can be used to access EWS APIs in 
 
 To use OAuth, an application must have an application ID issued by Azure Active Directory. In this tutorial, it is assumed that the application is a console application, so you need to register your application as a public client with Azure Active Directory. You can register an application in the Azure Active Directory admin center or by using Microsoft Graph.
 
-1. Open a browser and navigate to the [Azure Active Directory admin center](https://aad.portal.azure.com) and login using a **personal account** (aka: Microsoft Account) or **Work or School Account**.
+1. Open a browser and navigate to the [Azure Active Directory admin center](https://aad.portal.azure.com) and login using a **Work or School Account**.
 
 1. Select **Azure Active Directory** in the left-hand navigation, then select **App registrations** under **Manage**.
 
@@ -49,6 +49,10 @@ To use OAuth, an application must have an application ID issued by Azure Active 
     - For **Redirect URI**, change the dropdown to **Public client (mobile & desktop)** and set the value to `https://login.microsoftonline.com/common/oauth2/nativeclient`.
 
 1. Choose **Register**. On the next page, copy the values of the **Application (client) ID** and **Directory (tenant) ID** and save them, you will need them later.
+
+> [!NOTE]
+> Developers can log in with a work or school account to register an app in an Entra ID directory, or log in with a personal account (MSA) that is a guest in an Entra ID directory.
+> If developers do not have an Entra ID directory, they can get one for free from the M365 Developer Program.
 
 ### Configure for delegated authentication
 
