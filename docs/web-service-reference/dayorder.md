@@ -46,7 +46,7 @@ None.
 
 ## Text value
 
-A text value is required. The value for the **DayOrder** element can be 1 through 5. The maximum value for this element can be either 4 or 5, depending on the month and year.
+A text value is required. The value for the **DayOrder** element can be 1 through 5. The maximum value for this element can be either 4 or 5, depending on the month and year. A value of 0 is used in the Timezone–StandardTime–DayOrder and Timezone–DaylightTime–DayOrder elements if the timezone does not observe DST.
   
 ## Remarks
 
