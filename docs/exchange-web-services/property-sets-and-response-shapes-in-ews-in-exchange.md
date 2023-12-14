@@ -53,7 +53,7 @@ The following table lists the default properties that are returned for each item
 |**Property**|**Calendar item**|**Contact item**|**Message item**|**Task item**|
 |:-----|:-----|:-----|:-----|:-----|
 |Body  <br/> |||X(1)  <br/> ||
-|CalendarItemType  <br/> ||x  <br/> |||
+|CalendarItemType  <br/> |x|  <br/> |||
 |CompanyName  <br/> ||x  <br/> |||
 |CompleteName  <br/> ||x  <br/> |||
 |DateTimeCreated  <br/> |||x  <br/> ||
