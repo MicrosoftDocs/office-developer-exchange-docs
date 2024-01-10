@@ -17,15 +17,15 @@ Learn how to use OAuth authentication to connect with IMAP, POP, or SMTP protoco
 
 If you're not familiar with the OAuth 2.0 protocol, see [OAuth 2.0 protocol on Microsoft identity platform overview](/azure/active-directory/develop/active-directory-v2-protocols). For more information about the Microsoft Authentication Libraries (MSAL), which implement the OAuth 2.0 protocol to authenticate users and access secure APIs, see [MSAL overview](/azure/active-directory/develop/msal-overview).
 
-You can use the OAuth authentication service provided by Microsoft Entra (Azure AD) to enable your application connect with IMAP, POP, or SMTP protocols to access Exchange Online in Office 365. To use OAuth with your application, you need to:
+You can use the OAuth authentication service provided by Microsoft Entra (Microsoft Entra) to enable your application connect with IMAP, POP, or SMTP protocols to access Exchange Online in Office 365. To use OAuth with your application, you need to:
 
-1. [Register your application](#register-your-application) with Azure AD.
+1. [Register your application](#register-your-application) with Microsoft Entra.
 2. [Get an access token](#get-an-access-token) from a token server.
 3. [Authenticate connection requests](#authenticate-connection-requests) with an access token.
 
 ## Register your application
 
-To use OAuth, an application must be registered with Azure AD.
+To use OAuth, an application must be registered with Microsoft Entra.
 
 Follow the instructions listed in [Register an application with the Microsoft identity platform](/azure/active-directory/develop/quickstart-register-app) to create a new application.
 
@@ -182,7 +182,7 @@ Service principals in Exchange are used to enable applications to access Exchang
 
 ### Add the POP, IMAP, or SMTP permissions to your AAD application 
 
-1. In the Azure portal, choose the **API Permissions** blade in your Azure AD application's management view.
+1. In the Azure portal, choose the **API Permissions** blade in your Microsoft Entra application's management view.
 
 2. Select **Add permission**.
 
@@ -204,7 +204,7 @@ To access Exchange mailboxes via POP or IMAP, your AAD application must get tena
 
 #### How to grant consent if the application is registered/configured for multiple tenant usage, for example, for Partner/ISV developed centrally registered application
 
-If your ISV/partner registered the Azure AD application with the option "Accounts in any organizational directory", you need to add this application and consent it using the following steps by leveraging the authorization request URL.
+If your ISV/partner registered the Microsoft Entra application with the option "Accounts in any organizational directory", you need to add this application and consent it using the following steps by leveraging the authorization request URL.
 
 ##### POP and IMAP Guidance 
 
@@ -225,13 +225,13 @@ https://login.microsoftonline.com/{tenant}/v2.0/adminconsent?client_id=<CLIENT_I
 
 #### How to grant consent if you registered the application for your own tenant
 
-If you registered your application in your own tenant using "Accounts in this organizational directory only", you can go forward and use the application configuration page within the Azure AD admin center to grant the admin consent, and you don´t have to use the authorization request URL approach.
+If you registered your application in your own tenant using "Accounts in this organizational directory only", you can go forward and use the application configuration page within the Microsoft Entra admin center to grant the admin consent, and you don´t have to use the authorization request URL approach.
 
 ![granting-consent-for-tenant](media/grant-consent.png)
 
 ### Register service principals in Exchange
 
-Once a tenant admin consents your Azure AD application, they must register your AAD application's service principal in Exchange via Exchange Online PowerShell. This registration is enabled by the [`New-ServicePrincipal` cmdlet](/powershell/module/exchange/new-serviceprincipal).
+Once a tenant admin consents your Microsoft Entra application, they must register your AAD application's service principal in Exchange via Exchange Online PowerShell. This registration is enabled by the [`New-ServicePrincipal` cmdlet](/powershell/module/exchange/new-serviceprincipal).
 
 To use the *New-ServicePrincipal* cmdlet, install ExchangeOnlineManagement and connect to your tenant as shown in the following snippet:
 
@@ -243,13 +243,13 @@ Connect-ExchangeOnline -Organization <tenantId>
 
 If you still get an error running the *New-ServicePrincipal* cmdlet after you perform these steps, it's likely because the user doesn't have enough permissions in Exchange online to perform the operation. 
 
-Registration of an Azure AD application's service principal in Exchange is shown in the following example:
+Registration of an Microsoft Entra application's service principal in Exchange is shown in the following example:
 
 ```text
 New-ServicePrincipal -AppId <APPLICATION_ID> -ObjectId <OBJECT_ID> [-Organization <ORGANIZATION_ID>]
 ```
 
-The tenant admin can find the service principal identifiers referenced above in your AAD application's enterprise application instance on the tenant. You can find the list of the enterprise application instances on the tenant in the **Enterprise applications** blade in the Azure AD view in Azure Portal.
+The tenant admin can find the service principal identifiers referenced above in your AAD application's enterprise application instance on the tenant. You can find the list of the enterprise application instances on the tenant in the **Enterprise applications** blade in the Microsoft Entra view in Azure Portal.
 
 You can get your registered service principal's identifier using the [`Get-ServicePrincipal` cmdlet](/powershell/module/exchange/get-serviceprincipal).
 
@@ -268,7 +268,7 @@ Add-MailboxPermission -Identity "john.smith@contoso.com" -User
 <SERVICE_PRINCIPAL_ID> -AccessRights FullAccess
 ```
 
-Different IDs are used during creation of the Exchange service principal and also later when granting mailbox permissions. The following example may help you to use the correct ID for the different stages. This example uses Azure AD cmdlets; so, you'll need to install the Azure AD PowerShell module, if you haven't already. For more information, see [Install Microsoft Entra PowerShell for Graph](/powershell/azure/active-directory/install-adv2?view=azureadps-2.0#installing-the-azure-ad-module&preserve-view=true).
+Different IDs are used during creation of the Exchange service principal and also later when granting mailbox permissions. The following example may help you to use the correct ID for the different stages. This example uses Microsoft Entra cmdlets; so, you'll need to install the Microsoft Entra PowerShell module, if you haven't already. For more information, see [Install Microsoft Entra PowerShell for Graph](/powershell/azure/active-directory/install-adv2?view=azureadps-2.0#installing-the-azure-ad-module&preserve-view=true).
 
 ```text
 $AADServicePrincipalDetails = Get-AzureADServicePrincipal -SearchString YourAppName
@@ -280,7 +280,7 @@ $EXOServicePrincipal = Get-ServicePrincipal -Identity "EXO Serviceprincipal for 
 Add-MailboxPermission -Identity "john.smith@contoso.com" -User $EXOServicePrincipal.Identity -AccessRights FullAccess
 ```
 
-Your Azure AD application can now access the allowed mailboxes via the SMTP, POP, or IMAP protocols using the OAuth 2.0 client credentials grant flow. For more information, see the instructions in [Permissions and consent in the Microsoft identity platform](/azure/active-directory/develop/v2-oauth2-client-creds-grant-flow).
+Your Microsoft Entra application can now access the allowed mailboxes via the SMTP, POP, or IMAP protocols using the OAuth 2.0 client credentials grant flow. For more information, see the instructions in [Permissions and consent in the Microsoft identity platform](/azure/active-directory/develop/v2-oauth2-client-creds-grant-flow).
 
 You must use `https://outlook.office365.com/.default` in the `scope` property in the body payload for the access token request.
 
