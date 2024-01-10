@@ -14,14 +14,14 @@ localization_priority: Priority
 
 Learn how to use OAuth authentication with your EWS Managed API applications.
 
-You can use the OAuth authentication service provided by Azure Active Directory to enable your EWS Managed API applications to access Exchange Online in Office 365. To use OAuth with your application you will need to:
+You can use the OAuth authentication service provided by Microsoft Entra to enable your EWS Managed API applications to access Exchange Online in Office 365. To use OAuth with your application you will need to:
 
-1. [Register your application](#register-your-application) with Azure Active Directory.
+1. [Register your application](#register-your-application) with Microsoft Entra.
 1. [Add code to get an authentication token](#add-code-to-get-an-authentication-token) to get an authentication token from a token server.
 1. [Add an authentication token to EWS requests](#add-an-authentication-token-to-ews-requests) that you send.
 
 > [!NOTE]
-> OAuth authentication for EWS is only available in Exchange Online as part of Microsoft 365. EWS applications that use OAuth must be registered with Azure Active Directory.
+> OAuth authentication for EWS is only available in Exchange Online as part of Microsoft 365. EWS applications that use OAuth must be registered with Microsoft Entra.
 
 To use the code in this article, you will need to have access to the following:
 
@@ -36,7 +36,7 @@ There are two types of OAuth permissions that can be used to access EWS APIs in 
 
 ## Register your application
 
-To use OAuth, an application must have an application ID issued by Azure Active Directory. In this tutorial, it is assumed that the application is a console application, so you need to register your application as a public client with Azure Active Directory. You can register an application in the Azure Active Directory admin center or by using Microsoft Graph.
+To use OAuth, an application must have an application ID issued by Microsoft Entra. In this tutorial, it is assumed that the application is a console application, so you need to register your application as a public client with Microsoft Entra. You can register an application in the Microsoft Entra admin center or by using Microsoft Graph.
 
 1. Open a browser and navigate to the [Microsoft Entra admin center](https://entra.microsoft.com) and login using a **Work or School Account**.
 
