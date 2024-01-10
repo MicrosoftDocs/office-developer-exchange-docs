@@ -38,9 +38,9 @@ There are two types of OAuth permissions that can be used to access EWS APIs in 
 
 To use OAuth, an application must have an application ID issued by Azure Active Directory. In this tutorial, it is assumed that the application is a console application, so you need to register your application as a public client with Azure Active Directory. You can register an application in the Azure Active Directory admin center or by using Microsoft Graph.
 
-1. Open a browser and navigate to the [Azure Active Directory admin center](https://aad.portal.azure.com) and login using a **Work or School Account**.
+1. Open a browser and navigate to the [Microsoft Entra admin center](https://entra.microsoft.com) and login using a **Work or School Account**.
 
-1. Select **Azure Active Directory** in the left-hand navigation, then select **App registrations** under **Manage**.
+1. Select **Identity** in the left-hand navigation, then select **App registrations** under **Applications**.
 
 1. Select **New registration**. On the **Register an application** page, set the values as follows.
 
