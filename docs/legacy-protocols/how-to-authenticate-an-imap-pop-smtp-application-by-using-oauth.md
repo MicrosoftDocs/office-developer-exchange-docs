@@ -13,7 +13,7 @@ Learn how to use OAuth authentication to connect with IMAP, POP, or SMTP protoco
 > OAuth2 support for IMAP, POP, and SMTP protocols as described below is available  for both Microsoft 365 (which includes Office on the web) and Outlook.com users.
 
 > [!IMPORTANT]
-> This documentation uses the [deprecated Outlook REST API scope](https://learn.microsoft.com/en-us/outlook/rest/compare-graph). New applications should use the [Graph REST API Endpoint](https://learn.microsoft.com/en-us/graph/outlook-mail-concept-overview) instead.
+> This documentation uses the [deprecated Outlook REST API scope](/outlook/rest/compare-graph). New applications should use the [Graph REST API Endpoint](/graph/outlook-mail-concept-overview) instead.
 
 If you're not familiar with the OAuth 2.0 protocol, see [OAuth 2.0 protocol on Microsoft identity platform overview](/azure/active-directory/develop/active-directory-v2-protocols). For more information about the Microsoft Authentication Libraries (MSAL), which implement the OAuth 2.0 protocol to authenticate users and access secure APIs, see [MSAL overview](/azure/active-directory/develop/msal-overview).
 
