@@ -17,7 +17,7 @@ Learn how to use OAuth authentication to connect with IMAP, POP, or SMTP protoco
 
 If you're not familiar with the OAuth 2.0 protocol, see [OAuth 2.0 protocol on Microsoft identity platform overview](/azure/active-directory/develop/active-directory-v2-protocols). For more information about the Microsoft Authentication Libraries (MSAL), which implement the OAuth 2.0 protocol to authenticate users and access secure APIs, see [MSAL overview](/azure/active-directory/develop/msal-overview).
 
-You can use the OAuth authentication service provided by Azure Active Directory (Azure AD) to enable your application connect with IMAP, POP, or SMTP protocols to access Exchange Online in Office 365. To use OAuth with your application, you need to:
+You can use the OAuth authentication service provided by Microsoft Entra (Azure AD) to enable your application connect with IMAP, POP, or SMTP protocols to access Exchange Online in Office 365. To use OAuth with your application, you need to:
 
 1. [Register your application](#register-your-application) with Azure AD.
 2. [Get an access token](#get-an-access-token) from a token server.
@@ -268,7 +268,7 @@ Add-MailboxPermission -Identity "john.smith@contoso.com" -User
 <SERVICE_PRINCIPAL_ID> -AccessRights FullAccess
 ```
 
-Different IDs are used during creation of the Exchange service principal and also later when granting mailbox permissions. The following example may help you to use the correct ID for the different stages. This example uses Azure AD cmdlets; so, you'll need to install the Azure AD PowerShell module, if you haven't already. For more information, see [Install Azure Active Directory PowerShell for Graph](/powershell/azure/active-directory/install-adv2?view=azureadps-2.0#installing-the-azure-ad-module&preserve-view=true).
+Different IDs are used during creation of the Exchange service principal and also later when granting mailbox permissions. The following example may help you to use the correct ID for the different stages. This example uses Azure AD cmdlets; so, you'll need to install the Azure AD PowerShell module, if you haven't already. For more information, see [Install Microsoft Entra PowerShell for Graph](/powershell/azure/active-directory/install-adv2?view=azureadps-2.0#installing-the-azure-ad-module&preserve-view=true).
 
 ```text
 $AADServicePrincipalDetails = Get-AzureADServicePrincipal -SearchString YourAppName
