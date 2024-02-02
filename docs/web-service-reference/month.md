@@ -46,7 +46,7 @@ None.
    
 ## Text value
 
-A text value is required. The value represents the ordinal rank of the month by occurrence and must be a number between 1 and 12. This is a short integer data type.
+A text value is required. The value represents the ordinal rank of the month by occurrence and must be a number between 1 and 12. A value of 0 is used in the Timezone–StandardTime–Month and Timezone–DaylightTime–Month elements if the timezone does not observe DST. This is a short integer data type.
   
 ## Remarks
 
