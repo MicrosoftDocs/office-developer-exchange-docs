@@ -6,7 +6,7 @@ manager: sethgros
 ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: overview
-ms.service: office-online-server
+ms.service: exchange
 ms.localizationpriority: medium
 ms.assetid: 70510902-9583-4177-be3d-afbf757a1ec0
 description: "Find information about the different types of backups you can perform on your Exchange 2013 store databases, including full, copy, incremental, and differential backups."

@@ -4,7 +4,7 @@ manager: sethgros
 ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: overview
-ms.service: office-online-server
+ms.service: exchange
 ms.localizationpriority: medium
 ms.assetid: 607cbeb9-0a02-4079-8a4d-34bdeb560224
 description: "Find out how to use the CHKSGFILES API to validate a backup of the Exchange store in Exchange 2013."

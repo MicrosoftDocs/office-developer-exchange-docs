@@ -4,7 +4,7 @@ manager: sethgros
 ms.date: 09/21/2021
 ms.audience: Developer
 ms.topic: overview
-ms.service: office-online-server
+ms.service: exchange
 ms.localizationpriority: medium
 ms.assetid: 3f0e745f-9289-4f31-8877-926692a8c133
 description: "Find out how to create a custom RoutingAgent transport agent to use with Exchange 2013."

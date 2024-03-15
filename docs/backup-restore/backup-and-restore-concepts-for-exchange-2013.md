@@ -4,7 +4,7 @@ manager: sethgros
 ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: overview
-ms.service: office-online-server
+ms.service: exchange
 ms.localizationpriority: medium
 ms.assetid: 9a1c4709-9313-4ccf-9f8a-673a51d51f23
 description: "Find information about Exchange databases that will help you create your backup and restore applications for Exchange 2013."

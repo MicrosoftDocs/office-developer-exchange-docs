@@ -4,6 +4,7 @@ description: "Learn how to use OAuth authentication with your IMAP, POP, and SMT
 author: svpsiva
 ms.date: 09/21/2021
 ms.audience: Developer
+ms.service: exchange
 ---
 
 # Authenticate an IMAP, POP or SMTP connection using OAuth

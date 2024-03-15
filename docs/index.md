@@ -1,5 +1,5 @@
 ---
 title: "Welcome!"
-ms.prod: exchange
+ms.service: exchange
 ---
 # Welcome to officedocs-dev-exchange-docs!

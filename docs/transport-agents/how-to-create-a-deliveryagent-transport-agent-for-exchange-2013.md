@@ -4,7 +4,7 @@ manager: sethgros
 ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: overview
-ms.service: office-online-server
+ms.service: exchange
 ms.localizationpriority: medium
 ms.assetid: 4af904d7-b315-4849-92b1-66018f76ffdf
 description: "Find out how to create a custom DeliveryAgent transport agent to use with Exchange 2013."

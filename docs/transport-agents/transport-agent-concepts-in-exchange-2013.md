@@ -4,7 +4,7 @@ manager: sethgros
 ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: overview
-ms.service: office-online-server
+ms.service: exchange
 ms.localizationpriority: medium
 ms.assetid: 0c700af8-2792-4d3f-8571-8860e0550d8e
 description: "Find information about how the transport agent pipeline and server role architecture in Exchange 2013 affect transport agent development, and the classes that you can use to develop transport agents."
