@@ -417,6 +417,39 @@ None.
 This element is part of the [Path](path.md) substitution group. 
   
 The schema that describes this element is located in the IIS virtual directory that hosts Exchange Web Services.
+
+Only a subset of the persona attributes are supported for the [FindPeople](https://learn.microsoft.com/exchange/client-developer/web-service-reference/findpeople-operation) operation:
+
+```csharp
+"persona:Alias"
+"persona:Attributions"
+"persona:CompanyName"
+"persona:CreationTime"
+"persona:Departments"
+"persona:DisplayName"
+"persona:DisplayNameFirstLast"
+"persona:DisplayNameFirstLastHeader"
+"persona:DisplayNameLastFirst"
+"persona:DisplayNameLastFirstHeader"
+"persona:DisplayNamePrefix"
+"persona:EmailAddress"
+"persona:EmailAddresses"
+"persona:ExternalDirectoryObjectId"
+"persona:FileAs"
+"persona:Generation"
+"persona:GivenName"
+"persona:HomeCity"
+"persona:ImAddress"
+"persona:ImAddresses"
+"persona:OfficeLocations"
+"persona:PersonaId"
+"persona:PersonaType"
+"persona:RelevanceScore"
+"persona:Surname"
+"persona:ThirdPartyPhotoUrls"
+"persona:Title"
+"persona:WorkCity"
+```
   
 ## Example
 
