@@ -4,7 +4,7 @@ manager: sethgros
 ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: overview
-ms.service: office-online-server
+ms.service: exchange
 ms.localizationpriority: medium
 ms.assetid: b0d325ba-4482-4ca2-9a69-c890f985b206
 description: "Find out how to use the Eseutil command-line tool to validate a backup of the Exchange store."

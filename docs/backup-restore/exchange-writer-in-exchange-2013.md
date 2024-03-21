@@ -4,7 +4,7 @@ manager: sethgros
 ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: overview
-ms.service: office-online-server
+ms.service: exchange
 ms.localizationpriority: medium
 ms.assetid: ec126433-9f0a-46ec-a685-ff4af2f97bc1
 description: "Find information about the Exchange writer in Exchange 2013 for backup and restore operations."

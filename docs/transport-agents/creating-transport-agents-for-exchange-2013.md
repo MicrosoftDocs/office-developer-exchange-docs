@@ -4,7 +4,7 @@ manager: sethgros
 ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: overview
-ms.service: office-online-server
+ms.service: exchange
 ms.localizationpriority: medium
 ms.assetid: d291ab78-7cdd-4dbe-a5f4-9dc8e9650a33
 description: "Find information about how to create custom transport agents for Exchange 2013, and the system requirements for creating a custom agent."
