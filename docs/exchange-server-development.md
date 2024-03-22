@@ -3,10 +3,10 @@ title: "Exchange Online and Exchange development"
 manager: sethgros
 ms.date: 01/22/2022
 ms.audience: Developer
-ms.prod: exchange
 ms.assetid: f33d1093-75ba-4ff2-8d15-b0bf73a401bf
 description: "Find in-depth developer documentation for Exchange Server, including Exchange Online as part of Office 365 and Exchange Server on-premises versions."
 localization_priority: Priority
+ms.service: exchange
 ---
 
 # Exchange Online and Exchange development
