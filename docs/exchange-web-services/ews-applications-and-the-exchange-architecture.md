@@ -74,11 +74,11 @@ To communicate with an Exchange server, EWS applications must support the follow
    
 In addition, EWS applications must support the following authentication standards:
   
-- Basic authentication over SSL, for applications that target Exchange Online or Exchange on-premises.
+- Basic authentication over SSL, for applications that target Exchange on-premises.
     
-- NTLM authentication over SSL, for applications that support Exchange on-premises.
+- NTLM authentication over SSL, for applications that target Exchange on-premises.
     
-- OAuth 2.0 token authentication, for trusted partner applications and interoperability with Lync Server 2013 and SharePoint Server 2013.
+- OAuth 2.0 token authentication, for applications that target Exchange Online, trusted partner applications and interoperability with Lync Server 2013 and SharePoint Server 2013.
     
 ## See also
 
