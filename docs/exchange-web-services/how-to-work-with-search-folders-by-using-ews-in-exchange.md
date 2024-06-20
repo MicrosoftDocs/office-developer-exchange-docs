@@ -77,8 +77,8 @@ If you are using EWS, use the [CreateFolder operation](https://msdn.microsoft.co
 ```XML
 <?xml version="1.0" encoding="utf-8"?>
 <soap:Envelope xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
-    xmlns:m="https://schemas.microsoft.com/exchange/services/2006/messages" 
-    xmlns:t="https://schemas.microsoft.com/exchange/services/2006/types" 
+    xmlns:m="http://schemas.microsoft.com/exchange/services/2006/messages" 
+    xmlns:t="http://schemas.microsoft.com/exchange/services/2006/types" 
     xmlns:soap="https://schemas.xmlsoap.org/soap/envelope/">
   <soap:Header>
     <t:RequestServerVersion Version="Exchange2007_SP1" />
@@ -167,8 +167,8 @@ If you're using EWS, use the [FindFolder operation](https://msdn.microsoft.com/l
 ```XML
 <?xml version="1.0" encoding="utf-8"?>
 <soap:Envelope xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
-    xmlns:m="https://schemas.microsoft.com/exchange/services/2006/messages" 
-    xmlns:t="https://schemas.microsoft.com/exchange/services/2006/types" 
+    xmlns:m="http://schemas.microsoft.com/exchange/services/2006/messages" 
+    xmlns:t="http://schemas.microsoft.com/exchange/services/2006/types" 
     xmlns:soap="https://schemas.xmlsoap.org/soap/envelope/">
   <soap:Header>
     <t:RequestServerVersion Version="Exchange2007_SP1" />
@@ -200,14 +200,14 @@ The server returns the following response, which shows one search folder.
 <s:Envelope xmlns:s="https://schemas.xmlsoap.org/soap/envelope/">
   <s:Header>
     <h:ServerVersionInfo MajorVersion="15" MinorVersion="0" MajorBuildNumber="712" MinorBuildNumber="22" Version="V2_3" 
-        xmlns:h="https://schemas.microsoft.com/exchange/services/2006/types" 
-        xmlns="https://schemas.microsoft.com/exchange/services/2006/types" 
+        xmlns:h="http://schemas.microsoft.com/exchange/services/2006/types" 
+        xmlns="http://schemas.microsoft.com/exchange/services/2006/types" 
         xmlns:xsd="http://www.w3.org/2001/XMLSchema" 
         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" />
   </s:Header>
   <s:Body xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
-    <m:FindFolderResponse xmlns:m="https://schemas.microsoft.com/exchange/services/2006/messages" 
-        xmlns:t="https://schemas.microsoft.com/exchange/services/2006/types">
+    <m:FindFolderResponse xmlns:m="http://schemas.microsoft.com/exchange/services/2006/messages" 
+        xmlns:t="http://schemas.microsoft.com/exchange/services/2006/types">
       <m:ResponseMessages>
         <m:FindFolderResponseMessage ResponseClass="Success">
           <m:ResponseCode>NoError</m:ResponseCode>
@@ -231,8 +231,8 @@ The following example of a request uses the value of the [FolderId](https://msdn
 ```XML
 <?xml version="1.0" encoding="utf-8"?>
 <soap:Envelope xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
-    xmlns:m="https://schemas.microsoft.com/exchange/services/2006/messages" 
-    xmlns:t="https://schemas.microsoft.com/exchange/services/2006/types" 
+    xmlns:m="http://schemas.microsoft.com/exchange/services/2006/messages" 
+    xmlns:t="http://schemas.microsoft.com/exchange/services/2006/types" 
     xmlns:soap="https://schemas.xmlsoap.org/soap/envelope/">
   <soap:Header>
     <t:RequestServerVersion Version="Exchange2007_SP1" />
@@ -260,14 +260,14 @@ The server returns the following response with all the first-class properties fo
 <s:Envelope xmlns:s="https://schemas.xmlsoap.org/soap/envelope/">
   <s:Header>
     <h:ServerVersionInfo MajorVersion="15" MinorVersion="0" MajorBuildNumber="712" MinorBuildNumber="22" Version="V2_3" 
-        xmlns:h="https://schemas.microsoft.com/exchange/services/2006/types" 
-        xmlns="https://schemas.microsoft.com/exchange/services/2006/types" 
+        xmlns:h="http://schemas.microsoft.com/exchange/services/2006/types" 
+        xmlns="http://schemas.microsoft.com/exchange/services/2006/types" 
         xmlns:xsd="http://www.w3.org/2001/XMLSchema" 
         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" />
   </s:Header>
   <s:Body xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
-    <m:GetFolderResponse xmlns:m="https://schemas.microsoft.com/exchange/services/2006/messages" 
-        xmlns:t="https://schemas.microsoft.com/exchange/services/2006/types">
+    <m:GetFolderResponse xmlns:m="http://schemas.microsoft.com/exchange/services/2006/messages" 
+        xmlns:t="http://schemas.microsoft.com/exchange/services/2006/types">
       <m:ResponseMessages>
         <m:GetFolderResponseMessage ResponseClass="Success">
           <m:ResponseCode>NoError</m:ResponseCode>
@@ -359,8 +359,8 @@ If you're using EWS, use the [UpdateFolder operation](https://msdn.microsoft.com
 ```XML
 <?xml version="1.0" encoding="utf-8"?>
 <soap:Envelope xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
-    xmlns:m="https://schemas.microsoft.com/exchange/services/2006/messages" 
-    xmlns:t="https://schemas.microsoft.com/exchange/services/2006/types" 
+    xmlns:m="http://schemas.microsoft.com/exchange/services/2006/messages" 
+    xmlns:t="http://schemas.microsoft.com/exchange/services/2006/types" 
     xmlns:soap="https://schemas.xmlsoap.org/soap/envelope/">
   <soap:Header>
     <t:RequestServerVersion Version="Exchange2007_SP1" />
@@ -443,8 +443,8 @@ If you're using EWS, use the [DeleteFolder operation](https://msdn.microsoft.com
 ```XML
 <?xml version="1.0" encoding="utf-8"?>
 <soap:Envelope xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
-    xmlns:m="https://schemas.microsoft.com/exchange/services/2006/messages" 
-    xmlns:t="https://schemas.microsoft.com/exchange/services/2006/types" 
+    xmlns:m="http://schemas.microsoft.com/exchange/services/2006/messages" 
+    xmlns:t="http://schemas.microsoft.com/exchange/services/2006/types" 
     xmlns:soap="https://schemas.xmlsoap.org/soap/envelope/">
   <soap:Header>
     <t:RequestServerVersion Version="Exchange2007_SP1" />

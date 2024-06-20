@@ -32,9 +32,9 @@ The following example of a GetItem request shows how to form a request to get th
 ```XML
 <?xml version="1.0" encoding="utf-8"?>
 <soap:Envelope xmlns:soap="http://schemas.xmlsoap.org/soap/envelope/"
-  xmlns:t="https://schemas.microsoft.com/exchange/services/2006/types">
+  xmlns:t="http://schemas.microsoft.com/exchange/services/2006/types">
   <soap:Body>
-    <GetItem xmlns="https://schemas.microsoft.com/exchange/services/2006/messages">
+    <GetItem xmlns="http://schemas.microsoft.com/exchange/services/2006/messages">
       <ItemShape>
         <t:BaseShape>IdOnly</t:BaseShape>
         <t:AdditionalProperties>
@@ -90,12 +90,12 @@ The following example shows a successful response to the GetItem request. The re
                xmlns:xsd="http://www.w3.org/2001/XMLSchema">
   <soap:Header>
     <t:ServerVersionInfo MajorVersion="8" MinorVersion="0" MajorBuildNumber="602" MinorBuildNumber="0" 
-                       xmlns:t="https://schemas.microsoft.com/exchange/services/2006/types"/>
+                       xmlns:t="http://schemas.microsoft.com/exchange/services/2006/types"/>
   </soap:Header>
   <soap:Body>
-    <GetItemResponse xmlns:m="https://schemas.microsoft.com/exchange/services/2006/messages" 
-                   xmlns:t="https://schemas.microsoft.com/exchange/services/2006/types" 
-                   xmlns="https://schemas.microsoft.com/exchange/services/2006/messages">
+    <GetItemResponse xmlns:m="http://schemas.microsoft.com/exchange/services/2006/messages" 
+                   xmlns:t="http://schemas.microsoft.com/exchange/services/2006/types" 
+                   xmlns="http://schemas.microsoft.com/exchange/services/2006/messages">
       <m:ResponseMessages>
         <m:GetItemResponseMessage ResponseClass="Success">
           <m:ResponseCode>NoError</m:ResponseCode>
@@ -127,12 +127,12 @@ The following example shows a successful response to the GetItem request. The re
                 xmlns:xsd="http://www.w3.org/2001/XMLSchema">
   <soap:Header>
     <t:ServerVersionInfo MajorVersion="8" MinorVersion="0" MajorBuildNumber="602" MinorBuildNumber="0" 
-                         xmlns:t="https://schemas.microsoft.com/exchange/services/2006/types"/>
+                         xmlns:t="http://schemas.microsoft.com/exchange/services/2006/types"/>
   </soap:Header>
   <soap:Body>
-    <GetItemResponse xmlns:m="https://schemas.microsoft.com/exchange/services/2006/messages" 
-                     xmlns:t="https://schemas.microsoft.com/exchange/services/2006/types" 
-                     xmlns="https://schemas.microsoft.com/exchange/services/2006/messages">
+    <GetItemResponse xmlns:m="http://schemas.microsoft.com/exchange/services/2006/messages" 
+                     xmlns:t="http://schemas.microsoft.com/exchange/services/2006/types" 
+                     xmlns="http://schemas.microsoft.com/exchange/services/2006/messages">
       <m:ResponseMessages>
         <m:GetItemResponseMessage ResponseClass="Success">
           <m:ResponseCode>NoError</m:ResponseCode>
@@ -175,12 +175,12 @@ The following example shows a successful response to the GetItem request. The re
                xmlns:xsd="http://www.w3.org/2001/XMLSchema">
   <soap:Header>
     <t:ServerVersionInfo MajorVersion="8" MinorVersion="0" MajorBuildNumber="602" MinorBuildNumber="0" 
-                         xmlns:t="https://schemas.microsoft.com/exchange/services/2006/types"/>
+                         xmlns:t="http://schemas.microsoft.com/exchange/services/2006/types"/>
   </soap:Header>
   <soap:Body>
-    <GetItemResponse xmlns:m="https://schemas.microsoft.com/exchange/services/2006/messages" 
-                     xmlns:t="https://schemas.microsoft.com/exchange/services/2006/types" 
-                     xmlns="https://schemas.microsoft.com/exchange/services/2006/messages">
+    <GetItemResponse xmlns:m="http://schemas.microsoft.com/exchange/services/2006/messages" 
+                     xmlns:t="http://schemas.microsoft.com/exchange/services/2006/types" 
+                     xmlns="http://schemas.microsoft.com/exchange/services/2006/messages">
       <m:ResponseMessages>
         <m:GetItemResponseMessage ResponseClass="Success">
           <m:ResponseCode>NoError</m:ResponseCode>

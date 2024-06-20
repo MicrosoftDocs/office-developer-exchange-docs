@@ -592,7 +592,7 @@ The schema that describes this element is located in the IIS virtual directory t
 
 | Element | Example |
 |:-----|:-----|
-|Namespace | https://schemas.microsoft.com/exchange/services/2006/messages |
+|Namespace | http://schemas.microsoft.com/exchange/services/2006/messages |
 |Schema Name | Messages schema |
 |Validation File | Messages.xsd |
 |Can be Empty | False |

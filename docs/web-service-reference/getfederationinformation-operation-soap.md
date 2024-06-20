@@ -29,8 +29,8 @@ The following example of a **GetFederationInformation** request shows a request 
 
 ```XML
 <?xml version="1.0" encoding="utf-8"?> 
-<soap:Envelope xmlns:exm="https://schemas.microsoft.com/exchange/services/2006/messages"
-           xmlns:ext="https://schemas.microsoft.com/exchange/services/2006/types"
+<soap:Envelope xmlns:exm="http://schemas.microsoft.com/exchange/services/2006/messages"
+           xmlns:ext="http://schemas.microsoft.com/exchange/services/2006/types"
            xmlns:a="http://www.w3.org/2005/08/addressing"
            xmlns:soap="http://schemas.xmlsoap.org/soap/envelope/"
            xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 

@@ -52,7 +52,7 @@ A text value is required. The text value is the call identifier to use for the v
 
 | Element | Example |
 |:-----|:-----|
-|Namespace  <br/> |https://schemas.microsoft.com/exchange/services/2006/messages  <br/> |
+|Namespace  <br/> |http://schemas.microsoft.com/exchange/services/2006/messages  <br/> |
 |Schema Name  <br/> |Messages  <br/> |
 |Validation File  <br/> |messages.xsd  <br/> |
 |Can be Empty  <br/> |False  <br/> |
