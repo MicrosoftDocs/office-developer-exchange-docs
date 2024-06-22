@@ -146,7 +146,7 @@ X-AnchorMailbox: alfred@contoso.com
 X-PreferServerAffinity: true
 Host: outlook.office365.com
 <?xml version="1.0" encoding="utf-8"?>
-<soap:Envelope xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:m="https://schemas.microsoft.com/exchange/services/2006/messages" xmlns:t="https://schemas.microsoft.com/exchange/services/2006/types" xmlns:soap="https://schemas.xmlsoap.org/soap/envelope/">
+<soap:Envelope xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:m="http://schemas.microsoft.com/exchange/services/2006/messages" xmlns:t="http://schemas.microsoft.com/exchange/services/2006/types" xmlns:soap="https://schemas.xmlsoap.org/soap/envelope/">
   <soap:Header>
     <t:RequestServerVersion Version="Exchange2013" />
     <t:ExchangeImpersonation>
@@ -188,15 +188,15 @@ Set-Cookie: X-BackEndCookie=alfred@contoso.com=Ox8XKzcXLxg==;
                          MajorBuildNumber="775"
                          MinorBuildNumber="7"
                          Version="V2_4"
-                         xmlns:h="https://schemas.microsoft.com/exchange/services/2006/types"
-                         xmlns="https://schemas.microsoft.com/exchange/services/2006/types"
+                         xmlns:h="http://schemas.microsoft.com/exchange/services/2006/types"
+                         xmlns="http://schemas.microsoft.com/exchange/services/2006/types"
                          xmlns:xsd="http://www.w3.org/2001/XMLSchema"
                          xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"/>
   </s:Header>
   <s:Body xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
           xmlns:xsd="http://www.w3.org/2001/XMLSchema">
-    <m:SubscribeResponse xmlns:m="https://schemas.microsoft.com/exchange/services/2006/messages"
-                         xmlns:t="https://schemas.microsoft.com/exchange/services/2006/types">
+    <m:SubscribeResponse xmlns:m="http://schemas.microsoft.com/exchange/services/2006/messages"
+                         xmlns:t="http://schemas.microsoft.com/exchange/services/2006/types">
       <m:ResponseMessages>
         <m:SubscribeResponseMessage ResponseClass="Success">
           <m:ResponseCode>NoError</m:ResponseCode>
@@ -220,7 +220,7 @@ X-PreferServerAffinity: true
 Host: outlook.office365.com
 Cookie: X-BackEndOverrideCookie=CO1PR06MB222.namprd06.prod.outlook.com~1941996295
 <?xml version="1.0" encoding="utf-8"?>
-<soap:Envelope xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:m="https://schemas.microsoft.com/exchange/services/2006/messages" xmlns:t="https://schemas.microsoft.com/exchange/services/2006/types" xmlns:soap="https://schemas.xmlsoap.org/soap/envelope/">
+<soap:Envelope xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:m="http://schemas.microsoft.com/exchange/services/2006/messages" xmlns:t="http://schemas.microsoft.com/exchange/services/2006/types" xmlns:soap="https://schemas.xmlsoap.org/soap/envelope/">
   <soap:Header>
     <t:RequestServerVersion Version="Exchange2013" />
     <t:ExchangeImpersonation>
@@ -261,15 +261,15 @@ Set-Cookie: X-BackEndCookie=alfred@contoso.com=Ox8XKzcXLxg==;
                          MajorBuildNumber="775"
                          MinorBuildNumber="7"
                          Version="V2_4"
-                         xmlns:h="https://schemas.microsoft.com/exchange/services/2006/types"
-                         xmlns="https://schemas.microsoft.com/exchange/services/2006/types"
+                         xmlns:h="http://schemas.microsoft.com/exchange/services/2006/types"
+                         xmlns="http://schemas.microsoft.com/exchange/services/2006/types"
                          xmlns:xsd="http://www.w3.org/2001/XMLSchema"
                          xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"/>
   </s:Header>
   <s:Body xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
           xmlns:xsd="http://www.w3.org/2001/XMLSchema">
-    <m:SubscribeResponse xmlns:m="https://schemas.microsoft.com/exchange/services/2006/messages"
-                         xmlns:t="https://schemas.microsoft.com/exchange/services/2006/types">
+    <m:SubscribeResponse xmlns:m="http://schemas.microsoft.com/exchange/services/2006/messages"
+                         xmlns:t="http://schemas.microsoft.com/exchange/services/2006/types">
       <m:ResponseMessages>
         <m:SubscribeResponseMessage ResponseClass="Success">
           <m:ResponseCode>NoError</m:ResponseCode>
@@ -293,7 +293,7 @@ X-PreferServerAffinity: true
 Host: outlook.office365.com
 Cookie: X-BackEndOverrideCookie=CO1PR06MB222.namprd06.prod.outlook.com~1941996295
 <?xml version="1.0" encoding="utf-8"?>
-<soap:Envelope xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:m="https://schemas.microsoft.com/exchange/services/2006/messages" xmlns:t="https://schemas.microsoft.com/exchange/services/2006/types" xmlns:soap="https://schemas.xmlsoap.org/soap/envelope/">
+<soap:Envelope xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:m="http://schemas.microsoft.com/exchange/services/2006/messages" xmlns:t="http://schemas.microsoft.com/exchange/services/2006/types" xmlns:soap="https://schemas.xmlsoap.org/soap/envelope/">
   <soap:Header>
     <t:RequestServerVersion Version="Exchange2013" />
     <t:ExchangeImpersonation>

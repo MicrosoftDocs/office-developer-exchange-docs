@@ -45,8 +45,8 @@ The following example of an **AddNewTelUriContactToGroup** operation request sho
 ```XML
 <?xml version="1.0" encoding="UTF-8"?>
 <soap:Envelope xmlns:soap="http://schemas.xmlsoap.org/soap/envelope/"
-               xmlns:t="https://schemas.microsoft.com/exchange/services/2006/types"
-               xmlns:m="https://schemas.microsoft.com/exchange/services/2006/messages">
+               xmlns:t="http://schemas.microsoft.com/exchange/services/2006/types"
+               xmlns:m="http://schemas.microsoft.com/exchange/services/2006/messages">
    <soap:Header>
       <t:RequestServerVersion Version="Exchange2013" />
       <t:MailboxCulture>en-US</t:MailboxCulture>
@@ -83,19 +83,19 @@ The following example shows a successful response to an **AddNewTelUriContactToG
 <s:Envelope xmlns:s="http://schemas.xmlsoap.org/soap/envelope/"                           
             xmlns:xsd="http://www.w3.org/2001/XMLSchema"
             xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
-            xmlns:t="https://schemas.microsoft.com/exchange/services/2006/types">
+            xmlns:t="http://schemas.microsoft.com/exchange/services/2006/types">
    <s:Header>
       <h:ServerVersionInfo MajorVersion="15" 
                            MinorVersion="0" 
                            MajorBuildNumber="545" 
                            MinorBuildNumber="11" 
                            Version="Exchange2013" 
-                           xmlns:h="https://schemas.microsoft.com/exchange/services/2006/types" 
-                           xmlns="https://schemas.microsoft.com/exchange/services/2006/types" />
+                           xmlns:h="http://schemas.microsoft.com/exchange/services/2006/types" 
+                           xmlns="http://schemas.microsoft.com/exchange/services/2006/types" />
    </s:Header>
    <s:Body>
       <AddNewTelUriContactToGroupResponse ResponseClass="Success" 
-                                          xmlns="https://schemas.microsoft.com/exchange/services/2006/messages">
+                                          xmlns="http://schemas.microsoft.com/exchange/services/2006/messages">
          <ResponseCode>NoError</ResponseCode>
          <Persona>
             <t:PersonaId Id="AAQkADE686dX3s="/>
@@ -221,15 +221,15 @@ The following example shows an error response to an **AddNewTelUriContactToGroup
                            MajorBuildNumber="545" 
                            MinorBuildNumber="11" 
                            Version="Exchange2013" 
-                           xmlns:h="https://schemas.microsoft.com/exchange/services/2006/types" 
-                           xmlns="https://schemas.microsoft.com/exchange/services/2006/types" 
+                           xmlns:h="http://schemas.microsoft.com/exchange/services/2006/types" 
+                           xmlns="http://schemas.microsoft.com/exchange/services/2006/types" 
                            xmlns:xsd="http://www.w3.org/2001/XMLSchema" 
                            xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"/>
    </s:Header>
    <s:Body xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
            xmlns:xsd="http://www.w3.org/2001/XMLSchema">
       <AddNewTelUriContactToGroupResponse ResponseClass="Error" 
-                                          xmlns="https://schemas.microsoft.com/exchange/services/2006/messages">
+                                          xmlns="http://schemas.microsoft.com/exchange/services/2006/messages">
          <MessageText>The specified object was not found in the store.</MessageText>
          <ResponseCode>ErrorItemNotFound</ResponseCode>
          <DescriptiveLinkKey>0</DescriptiveLinkKey>

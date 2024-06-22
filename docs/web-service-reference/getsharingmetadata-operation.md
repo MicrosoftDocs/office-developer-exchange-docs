@@ -43,8 +43,8 @@ The following example shows how to form a request to get an opaque authenticatio
 <soap:Envelope xmlns:soap="http://schemas.xmlsoap.org/soap/envelope/"
                xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
                xmlns:xsd="http://www.w3.org/2001/XMLSchema"
-               xmlns:m="https://schemas.microsoft.com/exchange/services/2006/messages"
-               xmlns:t="https://schemas.microsoft.com/exchange/services/2006/types">
+               xmlns:m="http://schemas.microsoft.com/exchange/services/2006/messages"
+               xmlns:t="http://schemas.microsoft.com/exchange/services/2006/types">
   <soap:Header>
     <t:RequestServerVersion Version="Exchange2010"/>
   </soap:Header>
@@ -84,13 +84,13 @@ The following example shows a successful response to a **GetSharingMetadata** re
                          MajorBuildNumber="639" 
                          MinorBuildNumber="11" 
                          Version="Exchange2010" 
-                         xmlns:t="https://schemas.microsoft.com/exchange/services/2006/types" />
+                         xmlns:t="http://schemas.microsoft.com/exchange/services/2006/types" />
   </soap:Header>
   <soap:Body>
     <GetSharingMetadataResponseMessage ResponseClass="Success" 
-                                xmlns:t="https://schemas.microsoft.com/exchange/services/2006/types"
-                                xmlns:m="https://schemas.microsoft.com/exchange/services/2006/messages"
-                                xmlns="https://schemas.microsoft.com/exchange/services/2006/messages">
+                                xmlns:t="http://schemas.microsoft.com/exchange/services/2006/types"
+                                xmlns:m="http://schemas.microsoft.com/exchange/services/2006/messages"
+                                xmlns="http://schemas.microsoft.com/exchange/services/2006/messages">
       <m:ResponseCode>NoError</ResponseCode>
       <m:EncryptedSharedFolderDataCollection>
         <t:EncryptedSharedFolderData>
@@ -179,13 +179,13 @@ The following example shows an error response to a **GetSharingMetadata** reques
                          MajorBuildNumber="639" 
                          MinorBuildNumber="11" 
                          Version="Exchange2010" 
-                         xmlns:t="https://schemas.microsoft.com/exchange/services/2006/types" />
+                         xmlns:t="http://schemas.microsoft.com/exchange/services/2006/types" />
   </soap:Header>
   <soap:Body>
     <GetSharingMetadataResponseMessage ResponseClass="Error" 
-                                xmlns:t="https://schemas.microsoft.com/exchange/services/2006/types"
-                                xmlns:m="https://schemas.microsoft.com/exchange/services/2006/messages"
-                                xmlns="https://schemas.microsoft.com/exchange/services/2006/messages">
+                                xmlns:t="http://schemas.microsoft.com/exchange/services/2006/types"
+                                xmlns:m="http://schemas.microsoft.com/exchange/services/2006/messages"
+                                xmlns="http://schemas.microsoft.com/exchange/services/2006/messages">
       <m:MessageText>The SMTP address format is invalid.</MessageText>
       <m:ResponseCode>ErrorInvalidSmtpAddress</ResponseCode>
       <m:DescriptiveLinkKey>0</DescriptiveLinkKey>

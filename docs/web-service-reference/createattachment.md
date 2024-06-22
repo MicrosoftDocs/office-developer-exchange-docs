@@ -79,10 +79,10 @@ The following example shows how to create and attach an item to another item in 
 <soap:Envelope xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
                xmlns:xsd="http://www.w3.org/2001/XMLSchema"
                xmlns:soap="http://schemas.xmlsoap.org/soap/envelope/"
-               xmlns:t="https://schemas.microsoft.com/exchange/services/2006/types">
+               xmlns:t="http://schemas.microsoft.com/exchange/services/2006/types">
   <soap:Body>
-    <CreateAttachment xmlns="https://schemas.microsoft.com/exchange/services/2006/messages" 
-                  xmlns:t="https://schemas.microsoft.com/exchange/services/2006/types">
+    <CreateAttachment xmlns="http://schemas.microsoft.com/exchange/services/2006/messages" 
+                  xmlns:t="http://schemas.microsoft.com/exchange/services/2006/types">
       <ParentItemId Id="ASkAS"/>
       <Attachments>
         <t:ItemAttachment>
@@ -103,7 +103,7 @@ The following example shows how to create and attach an item to another item in 
 
 | Element | Example |
 |:-----|:-----|
-|Namespace  <br/> |https://schemas.microsoft.com/exchange/services/2006/messages  <br/> |
+|Namespace  <br/> |http://schemas.microsoft.com/exchange/services/2006/messages  <br/> |
 |Schema Name  <br/> |Messages schema  <br/> |
 |Validation File  <br/> |Messages.xsd  <br/> |
 |Can be Empty  <br/> |False  <br/> |

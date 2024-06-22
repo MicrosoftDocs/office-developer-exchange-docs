@@ -60,7 +60,7 @@ The schema that describes this element is located in the IIS virtual directory t
 
 |Name|Value|
 |:-----|:-----|
-|Namespace  <br/> |https://schemas.microsoft.com/exchange/services/2006/messages and https://schemas.microsoft.com/exchange/services/2006/types  <br/> |
+|Namespace  <br/> |http://schemas.microsoft.com/exchange/services/2006/messages and http://schemas.microsoft.com/exchange/services/2006/types  <br/> |
 |Schema Name  <br/> |Messages schema; Types schema  <br/> |
 |Validation File  <br/> |Messages.xsd; Types.xsd  <br/> |
 |Can be Empty  <br/> |False  <br/> |

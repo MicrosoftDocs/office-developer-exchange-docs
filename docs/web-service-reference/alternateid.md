@@ -73,7 +73,7 @@ The schema that describes this element is located in the IIS virtual directory t
 
 | Element | Example | Type |
 |:-----|:-----|:-----|
-|Namespace  <br/> |https://schemas.microsoft.com/exchange/services/2006/messages  <br/> |https://schemas.microsoft.com/exchange/services/2006/types  <br/> |
+|Namespace  <br/> |http://schemas.microsoft.com/exchange/services/2006/messages  <br/> |http://schemas.microsoft.com/exchange/services/2006/types  <br/> |
 |Schema Name  <br/> |Messages schema  <br/> |Types schema  <br/> |
 |Validation File  <br/> |Messages.xsd  <br/> |Types.xsd  <br/> |
 |Can be Empty  <br/> |False  <br/> |False  <br/> |

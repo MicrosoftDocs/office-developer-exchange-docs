@@ -74,10 +74,10 @@ The following example of a **FindItem** request shows how to obtain the item ide
 ```XML
 <?xml version="1.0" encoding="utf-8"?>
 <soap:Envelope xmlns:soap="http://schemas.xmlsoap.org/soap/envelope/"
-               xmlns:t="https://schemas.microsoft.com/exchange/services/2006/types">
+               xmlns:t="http://schemas.microsoft.com/exchange/services/2006/types">
   <soap:Body>
-    <FindItem xmlns="https://schemas.microsoft.com/exchange/services/2006/messages"
-               xmlns:t="https://schemas.microsoft.com/exchange/services/2006/types"
+    <FindItem xmlns="http://schemas.microsoft.com/exchange/services/2006/messages"
+               xmlns:t="http://schemas.microsoft.com/exchange/services/2006/types"
               Traversal="Shallow">
       <ItemShape>
         <t:BaseShape>IdOnly</t:BaseShape>
@@ -117,12 +117,12 @@ The following example shows a successful response to the **FindItem** request.
                xmlns:xsd="http://www.w3.org/2001/XMLSchema">
   <soap:Header>
     <t:ServerVersionInfo MajorVersion="8" MinorVersion="0" MajorBuildNumber="595" MinorBuildNumber="0" 
-                         xmlns:t="https://schemas.microsoft.com/exchange/services/2006/types" />
+                         xmlns:t="http://schemas.microsoft.com/exchange/services/2006/types" />
   </soap:Header>
   <soap:Body>
-    <FindItemResponse xmlns:m="https://schemas.microsoft.com/exchange/services/2006/messages" 
-                      xmlns:t="https://schemas.microsoft.com/exchange/services/2006/types" 
-                      xmlns="https://schemas.microsoft.com/exchange/services/2006/messages">
+    <FindItemResponse xmlns:m="http://schemas.microsoft.com/exchange/services/2006/messages" 
+                      xmlns:t="http://schemas.microsoft.com/exchange/services/2006/types" 
+                      xmlns="http://schemas.microsoft.com/exchange/services/2006/messages">
       <m:ResponseMessages>
         <m:FindItemResponseMessage ResponseClass="Success">
           <m:ResponseCode>NoError</m:ResponseCode>
@@ -176,12 +176,12 @@ The following example shows an error response to a **FindItem** request.
                xmlns:xsd="http://www.w3.org/2001/XMLSchema">
   <soap:Header>
     <t:ServerVersionInfo MajorVersion="8" MinorVersion="0" MajorBuildNumber="595" MinorBuildNumber="0" 
-                         xmlns:t="https://schemas.microsoft.com/exchange/services/2006/types" />
+                         xmlns:t="http://schemas.microsoft.com/exchange/services/2006/types" />
   </soap:Header>
   <soap:Body>
-    <FindItemResponse xmlns:m="https://schemas.microsoft.com/exchange/services/2006/messages" 
-                      xmlns:t="https://schemas.microsoft.com/exchange/services/2006/types" 
-                      xmlns="https://schemas.microsoft.com/exchange/services/2006/messages">
+    <FindItemResponse xmlns:m="http://schemas.microsoft.com/exchange/services/2006/messages" 
+                      xmlns:t="http://schemas.microsoft.com/exchange/services/2006/types" 
+                      xmlns="http://schemas.microsoft.com/exchange/services/2006/messages">
       <m:ResponseMessages>
         <m:FindItemResponseMessage ResponseClass="Error">
           <m:MessageText>Id is malformed.</m:MessageText>

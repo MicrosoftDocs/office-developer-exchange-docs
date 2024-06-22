@@ -45,24 +45,24 @@ It might take a few more lines of code, but you can create a contact group by us
   
 ```XML
 <?xml version="1.0" encoding="utf-8"?>
-   <CreateItem xmlns="https://schemas.microsoft.com/exchange/services/2006/messages" 
+   <CreateItem xmlns="http://schemas.microsoft.com/exchange/services/2006/messages" 
 MessageDisposition="SaveOnly">
-      <Items xmlns:m="https://schemas.microsoft.com/exchange/services/2006/messages">
-         <DistributionList xmlns="https://schemas.microsoft.com/exchange/services/2006/types">
-            <DisplayName xmlns="https://schemas.microsoft.com/exchange/services/2006/types">
+      <Items xmlns:m="http://schemas.microsoft.com/exchange/services/2006/messages">
+         <DistributionList xmlns="http://schemas.microsoft.com/exchange/services/2006/types">
+            <DisplayName xmlns="http://schemas.microsoft.com/exchange/services/2006/types">
                My Contact Group
             </DisplayName>
-            <Members xmlns="https://schemas.microsoft.com/exchange/services/2006/types">
-               <Member xmlns="https://schemas.microsoft.com/exchange/services/2006/types">
-                  <Mailbox xmlns="https://schemas.microsoft.com/exchange/services/2006/types">
-                     <EmailAddress xmlns="https://schemas.microsoft.com/exchange/services/2006/types">
+            <Members xmlns="http://schemas.microsoft.com/exchange/services/2006/types">
+               <Member xmlns="http://schemas.microsoft.com/exchange/services/2006/types">
+                  <Mailbox xmlns="http://schemas.microsoft.com/exchange/services/2006/types">
+                     <EmailAddress xmlns="http://schemas.microsoft.com/exchange/services/2006/types">
                         sadie@contoso.com
                      </EmailAddress>
                   </Mailbox>
                </Member>
-               <Member xmlns="https://schemas.microsoft.com/exchange/services/2006/types">
-                  <Mailbox xmlns="https://schemas.microsoft.com/exchange/services/2006/types">
-                     <EmailAddress xmlns="https://schemas.microsoft.com/exchange/services/2006/types">
+               <Member xmlns="http://schemas.microsoft.com/exchange/services/2006/types">
+                  <Mailbox xmlns="http://schemas.microsoft.com/exchange/services/2006/types">
+                     <EmailAddress xmlns="http://schemas.microsoft.com/exchange/services/2006/types">
                         alfred@contoso.com
                      </EmailAddress>
                   </Mailbox>
@@ -77,16 +77,16 @@ The following is an example of a successful XML response to the request. Notice 
   
 ```XML
 <?xml version="1.0" encoding="utf-8"?>
-   <CreateItemResponse xmlns="https://schemas.microsoft.com/exchange/services/2006/messages">
-      <ResponseMessages xmlns="https://schemas.microsoft.com/exchange/services/2006/messages">
+   <CreateItemResponse xmlns="http://schemas.microsoft.com/exchange/services/2006/messages">
+      <ResponseMessages xmlns="http://schemas.microsoft.com/exchange/services/2006/messages">
          <CreateItemResponseMessage ResponseClass="Success" 
-             xmlns="https://schemas.microsoft.com/exchange/services/2006/messages">
-            <ResponseCode xmlns="https://schemas.microsoft.com/exchange/services/2006/messages">
+             xmlns="http://schemas.microsoft.com/exchange/services/2006/messages">
+            <ResponseCode xmlns="http://schemas.microsoft.com/exchange/services/2006/messages">
                NoError
             </ResponseCode>
-            <Items xmlns="https://schemas.microsoft.com/exchange/services/2006/messages">
-               <DistributionList xmlns="https://schemas.microsoft.com/exchange/services/2006/types">
-                  <ItemId xmlns="https://schemas.microsoft.com/exchange/services/2006/types" 
+            <Items xmlns="http://schemas.microsoft.com/exchange/services/2006/messages">
+               <DistributionList xmlns="http://schemas.microsoft.com/exchange/services/2006/types">
+                  <ItemId xmlns="http://schemas.microsoft.com/exchange/services/2006/types" 
                           Id="AAMkADBlY…" 
                           ChangeKey="EgAAABYAAAAD7hO1SJPWTbICFWZ4U3NMAABXzQiK" />
                </DistributionList>

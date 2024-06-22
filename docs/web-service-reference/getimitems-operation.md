@@ -46,8 +46,8 @@ The following example of a **GetImItems** operation request shows how to request
 ```XML
 <?xml version="1.0" encoding="UTF-8"?>
 <soap:Envelope xmlns:soap="http://schemas.xmlsoap.org/soap/envelope/"
-               xmlns:t="https://schemas.microsoft.com/exchange/services/2006/types"
-               xmlns:m="https://schemas.microsoft.com/exchange/services/2006/messages">
+               xmlns:t="http://schemas.microsoft.com/exchange/services/2006/types"
+               xmlns:m="http://schemas.microsoft.com/exchange/services/2006/messages">
    <soap:Header>
       <t:RequestServerVersion Version="Exchange2013" />
       <t:MailboxCulture>en-US</t:MailboxCulture>
@@ -95,18 +95,18 @@ The following example shows a successful response to a **GetImItems** request to
                            MajorBuildNumber="556" 
                            MinorBuildNumber="8" 
                            Version="Exchange2013" 
-                           xmlns:h="https://schemas.microsoft.com/exchange/services/2006/types" 
-                           xmlns="https://schemas.microsoft.com/exchange/services/2006/types" 
+                           xmlns:h="http://schemas.microsoft.com/exchange/services/2006/types" 
+                           xmlns="http://schemas.microsoft.com/exchange/services/2006/types" 
                            xmlns:xsd="http://www.w3.org/2001/XMLSchema" 
                            xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"/>
    </s:Header>
    <s:Body xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
            xmlns:xsd="http://www.w3.org/2001/XMLSchema">
       <GetImItemsResponse ResponseClass="Success" 
-                          xmlns="https://schemas.microsoft.com/exchange/services/2006/messages">
+                          xmlns="http://schemas.microsoft.com/exchange/services/2006/messages">
          <ResponseCode>NoError</ResponseCode>
          <ImItemList>
-            <Groups xmlns="https://schemas.microsoft.com/exchange/services/2006/types">
+            <Groups xmlns="http://schemas.microsoft.com/exchange/services/2006/types">
                <ImGroup>
                   <DisplayName>Exchange SDK Team</DisplayName>
                   <GroupType>IPM.DistList.MOC.UserGroup</GroupType>
@@ -122,7 +122,7 @@ The following example shows a successful response to a **GetImItems** request to
                   </ExtendedProperties>
                </ImGroup>
             </Groups>
-            <Personas xmlns="https://schemas.microsoft.com/exchange/services/2006/types">
+            <Personas xmlns="http://schemas.microsoft.com/exchange/services/2006/types">
                <Persona>
                   <PersonaId Id="AAQkADEzOTBZImBzN5J/uHXc="/>
                   <PersonaType>Person</PersonaType>

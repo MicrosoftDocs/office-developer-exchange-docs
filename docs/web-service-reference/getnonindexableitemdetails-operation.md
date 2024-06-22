@@ -48,8 +48,8 @@ The following example of a **GetNonIndexableItemDetails** operation request show
 ```XML
 <?xml version="1.0" encoding="UTF-8"?>
 <soap:Envelope xmlns:soap="http://schemas.xmlsoap.org/soap/envelope/"
-               xmlns:t="https://schemas.microsoft.com/exchange/services/2006/types"
-               xmlns:m="https://schemas.microsoft.com/exchange/services/2006/messages">
+               xmlns:t="http://schemas.microsoft.com/exchange/services/2006/types"
+               xmlns:m="http://schemas.microsoft.com/exchange/services/2006/messages">
    <soap:Header>
       <t:RequestServerVersion Version="Exchange2013" />
    </soap:Header>
@@ -88,18 +88,18 @@ The following example shows a successful response to a **GetNonIndexableItemDeta
                            MajorBuildNumber="526" 
                            MinorBuildNumber="0" 
                            Version="Exchange2013" 
-                           xmlns:h="https://schemas.microsoft.com/exchange/services/2006/types" 
-                           xmlns="https://schemas.microsoft.com/exchange/services/2006/types" 
+                           xmlns:h="http://schemas.microsoft.com/exchange/services/2006/types" 
+                           xmlns="http://schemas.microsoft.com/exchange/services/2006/types" 
                            xmlns:xsd="http://www.w3.org/2001/XMLSchema" 
                            xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"/>
    </s:Header>
    <s:Body xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
            xmlns:xsd="http://www.w3.org/2001/XMLSchema">
       <GetNonIndexableItemDetailsResponse ResponseClass="Success" 
-                                          xmlns="https://schemas.microsoft.com/exchange/services/2006/messages">
+                                          xmlns="http://schemas.microsoft.com/exchange/services/2006/messages">
          <ResponseCode>NoError</ResponseCode>
          <NonIndexableItemDetailsResult>
-            <Items xmlns="https://schemas.microsoft.com/exchange/services/2006/types">
+            <Items xmlns="http://schemas.microsoft.com/exchange/services/2006/types">
                <NonIndexableItemDetail>
                   <ItemId Id="AQMkAGVmNDAyOQAAAY2fUAAAAA==" ChangeKey="CQAAAA=="/>
                   <ErrorCode>DocumentParserFailure</ErrorCode>
@@ -160,13 +160,13 @@ The following example shows an error response to a **GetNonIndexableItemDetails*
                            MajorBuildNumber="526" 
                            MinorBuildNumber="0" 
                            Version="Exchange2013" 
-                           xmlns:h="https://schemas.microsoft.com/exchange/services/2006/types" 
-                           xmlns="https://schemas.microsoft.com/exchange/services/2006/types" 
+                           xmlns:h="http://schemas.microsoft.com/exchange/services/2006/types" 
+                           xmlns="http://schemas.microsoft.com/exchange/services/2006/types" 
                            xmlns:xsd="http://www.w3.org/2001/XMLSchema" 
                            xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"/>
    </s:Header>
    <s:Body xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
-      <GetNonIndexableItemDetailsResponse ResponseClass="Error" xmlns="https://schemas.microsoft.com/exchange/services/2006/messages">
+      <GetNonIndexableItemDetailsResponse ResponseClass="Error" xmlns="http://schemas.microsoft.com/exchange/services/2006/messages">
          <MessageText>Multiple mailboxes is currently not supported, only single mailbox is supported.</MessageText>
          <ResponseCode>ErrorInvalidArgument</ResponseCode>
          <DescriptiveLinkKey>0</DescriptiveLinkKey>

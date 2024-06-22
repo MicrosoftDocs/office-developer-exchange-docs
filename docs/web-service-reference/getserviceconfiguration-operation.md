@@ -32,8 +32,8 @@ The following example of a **GetServiceConfiguration** request shows how to form
 ```XML
 <?xml version="1.0" encoding="utf-8"?>
 <soap:Envelope xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
-               xmlns:m="https://schemas.microsoft.com/exchange/services/2006/messages"
-               xmlns:t="https://schemas.microsoft.com/exchange/services/2006/types"
+               xmlns:m="http://schemas.microsoft.com/exchange/services/2006/messages"
+               xmlns:t="http://schemas.microsoft.com/exchange/services/2006/types"
                xmlns:soap="http://schemas.xmlsoap.org/soap/envelope/"
                xmlns:xs="http://www.w3.org/2001/XMLSchema">
   <soap:Header>
@@ -66,23 +66,23 @@ The following example shows a successful response to the **GetServiceConfigurati
                          MajorBuildNumber="639" 
                          MinorBuildNumber="20" 
                          Version="Exchange2010" 
-                         xmlns:h="https://schemas.microsoft.com/exchange/services/2006/types" 
-                         xmlns="https://schemas.microsoft.com/exchange/services/2006/types" 
+                         xmlns:h="http://schemas.microsoft.com/exchange/services/2006/types" 
+                         xmlns="http://schemas.microsoft.com/exchange/services/2006/types" 
                          xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
                          xmlns:xsd="http://www.w3.org/2001/XMLSchema"/>
   </s:Header>
   <s:Body xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
           xmlns:xsd="http://www.w3.org/2001/XMLSchema">
     <GetServiceConfigurationResponse ResponseClass="Success" 
-                                     xmlns="https://schemas.microsoft.com/exchange/services/2006/messages">
+                                     xmlns="http://schemas.microsoft.com/exchange/services/2006/messages">
       <ResponseCode>NoError</ResponseCode>
       <ResponseMessages>
         <ServiceConfigurationResponseMessageType ResponseClass="Success">
           <ResponseCode>NoError</ResponseCode>
-          <m:UnifiedMessagingConfiguration xmlns:m="https://schemas.microsoft.com/exchange/services/2006/messages">
-            <t:UmEnabled xmlns:t="https://schemas.microsoft.com/exchange/services/2006/types">true</t:UmEnabled>
-            <t:PlayOnPhoneDialString xmlns:t="https://schemas.microsoft.com/exchange/services/2006/types">user@contoso.com</t:PlayOnPhoneDialString>
-            <t:PlayOnPhoneEnabled xmlns:t="https://schemas.microsoft.com/exchange/services/2006/types">true</t:PlayOnPhoneEnabled>
+          <m:UnifiedMessagingConfiguration xmlns:m="http://schemas.microsoft.com/exchange/services/2006/messages">
+            <t:UmEnabled xmlns:t="http://schemas.microsoft.com/exchange/services/2006/types">true</t:UmEnabled>
+            <t:PlayOnPhoneDialString xmlns:t="http://schemas.microsoft.com/exchange/services/2006/types">user@contoso.com</t:PlayOnPhoneDialString>
+            <t:PlayOnPhoneEnabled xmlns:t="http://schemas.microsoft.com/exchange/services/2006/types">true</t:PlayOnPhoneEnabled>
           </m:UnifiedMessagingConfiguration>
         </ServiceConfigurationResponseMessageType>
       </ResponseMessages>
@@ -104,21 +104,21 @@ The following example shows an error response to the **GetServiceConfiguration**
 <s:Envelope xmlns:s="http://schemas.xmlsoap.org/soap/envelope/">
   <s:Body>
     <s:Fault>
-      <faultcode xmlns:a="https://schemas.microsoft.com/exchange/services/2006/types">a:ErrorSchemaValidation</faultcode>
+      <faultcode xmlns:a="http://schemas.microsoft.com/exchange/services/2006/types">a:ErrorSchemaValidation</faultcode>
       <faultstring xml:lang="en-US">The request failed schema validation: 
-      The 'https://schemas.microsoft.com/exchange/services/2006/messages:ConfigurationName' element 
+      The 'http://schemas.microsoft.com/exchange/services/2006/messages:ConfigurationName' element 
       is invalid - The value 'UUnifiedMessagingConfiguration' is invalid according to its 
-      datatype 'https://schemas.microsoft.com/exchange/services/2006/types:ServiceConfigurationType' 
+      datatype 'http://schemas.microsoft.com/exchange/services/2006/types:ServiceConfigurationType' 
       - The Enumeration constraint failed.</faultstring>
       <detail>
-        <e:ResponseCode xmlns:e="https://schemas.microsoft.com/exchange/services/2006/errors">ErrorSchemaValidation</e:ResponseCode>
-        <e:Message xmlns:e="https://schemas.microsoft.com/exchange/services/2006/errors">The request failed schema validation.</e:Message>
-        <t:MessageXml xmlns:t="https://schemas.microsoft.com/exchange/services/2006/types">
+        <e:ResponseCode xmlns:e="http://schemas.microsoft.com/exchange/services/2006/errors">ErrorSchemaValidation</e:ResponseCode>
+        <e:Message xmlns:e="http://schemas.microsoft.com/exchange/services/2006/errors">The request failed schema validation.</e:Message>
+        <t:MessageXml xmlns:t="http://schemas.microsoft.com/exchange/services/2006/types">
           <t:LineNumber>13</t:LineNumber>
           <t:LinePosition>62</t:LinePosition>
-          <t:Violation>The 'https://schemas.microsoft.com/exchange/services/2006/messages:ConfigurationName' element 
+          <t:Violation>The 'http://schemas.microsoft.com/exchange/services/2006/messages:ConfigurationName' element 
           is invalid - The value 'UUnifiedMessagingConfiguration' is invalid according to its 
-          datatype 'https://schemas.microsoft.com/exchange/services/2006/types:ServiceConfigurationType'
+          datatype 'http://schemas.microsoft.com/exchange/services/2006/types:ServiceConfigurationType'
           - The Enumeration constraint failed.</t:Violation>
         </t:MessageXml>
       </detail>

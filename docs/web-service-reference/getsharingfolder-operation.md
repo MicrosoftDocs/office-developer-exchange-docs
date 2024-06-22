@@ -43,8 +43,8 @@ The following code example shows how to form a request to get the identifier of 
 <soap:Envelope xmlns:soap="http://schemas.xmlsoap.org/soap/envelope/"
                xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
                xmlns:xsd="http://www.w3.org/2001/XMLSchema"
-               xmlns:m="https://schemas.microsoft.com/exchange/services/2006/messages"
-               xmlns:t="https://schemas.microsoft.com/exchange/services/2006/types">
+               xmlns:m="http://schemas.microsoft.com/exchange/services/2006/messages"
+               xmlns:t="http://schemas.microsoft.com/exchange/services/2006/types">
   <soap:Header>
     <t:RequestServerVersion Version="Exchange2010"/>
   </soap:Header>
@@ -68,8 +68,8 @@ The following code example shows how to form a request to get the identifier of 
 <soap:Envelope xmlns:soap="http://schemas.xmlsoap.org/soap/envelope/"
                xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
                xmlns:xsd="http://www.w3.org/2001/XMLSchema"
-               xmlns:m="https://schemas.microsoft.com/exchange/services/2006/messages"
-               xmlns:t="https://schemas.microsoft.com/exchange/services/2006/types">
+               xmlns:m="http://schemas.microsoft.com/exchange/services/2006/messages"
+               xmlns:t="http://schemas.microsoft.com/exchange/services/2006/types">
   <soap:Header>
     <t:RequestServerVersion Version="Exchange2010"/>
   </soap:Header>
@@ -105,13 +105,13 @@ The following example shows a successful response to a **GetSharingFolder** requ
                          MajorBuildNumber="639" 
                          MinorBuildNumber="11" 
                          Version="Exchange2010" 
-                         xmlns:t="https://schemas.microsoft.com/exchange/services/2006/types" />
+                         xmlns:t="http://schemas.microsoft.com/exchange/services/2006/types" />
   </soap:Header>
   <soap:Body>
     <GetSharingFolderResponseMessage ResponseClass="Success"
-                                xmlns:t="https://schemas.microsoft.com/exchange/services/2006/types"
-                                xmlns:m="https://schemas.microsoft.com/exchange/services/2006/messages"
-                                xmlns="https://schemas.microsoft.com/exchange/services/2006/messages">
+                                xmlns:t="http://schemas.microsoft.com/exchange/services/2006/types"
+                                xmlns:m="http://schemas.microsoft.com/exchange/services/2006/messages"
+                                xmlns="http://schemas.microsoft.com/exchange/services/2006/messages">
       <m:ResponseCode>NoError</m:ResponseCode>
       <m:SharingFolderId Id="AAMkAD=" ChangeKey="AwAAA=" />
     </GetSharingFolderResponseMessage>
@@ -138,13 +138,13 @@ The following example shows an error response to a **GetSharingFolder** request.
                          MajorBuildNumber="639" 
                          MinorBuildNumber="11" 
                          Version="Exchange2010" 
-                         xmlns:t="https://schemas.microsoft.com/exchange/services/2006/types" />
+                         xmlns:t="http://schemas.microsoft.com/exchange/services/2006/types" />
   </soap:Header>
   <soap:Body>
     <GetSharingFolderResponseMessage ResponseClass="Error" 
-                                xmlns:t="https://schemas.microsoft.com/exchange/services/2006/types"
-                                xmlns:m="https://schemas.microsoft.com/exchange/services/2006/messages"
-                                xmlns="https://schemas.microsoft.com/exchange/services/2006/messages">
+                                xmlns:t="http://schemas.microsoft.com/exchange/services/2006/types"
+                                xmlns:m="http://schemas.microsoft.com/exchange/services/2006/messages"
+                                xmlns="http://schemas.microsoft.com/exchange/services/2006/messages">
       <m:MessageText>Either DataType or SharedFolderId must be specified, but not both.</m:MessageText>
       <m:ResponseCode>ErrorInvalidGetSharingFolderRequest</m:ResponseCode>
       <m:DescriptiveLinkKey>0</m:DescriptiveLinkKey>

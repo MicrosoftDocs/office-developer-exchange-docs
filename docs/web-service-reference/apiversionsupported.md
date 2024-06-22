@@ -48,7 +48,7 @@ This element was introduced in Exchange Server 2013 Service Pack 1 (SP1).
 
 |**Element**|**Description**|
 |:-----|:-----|
-|Namespace  <br/> | https://schemas.microsoft.com/exchange/services/2006/messages  <br/> |
+|Namespace  <br/> | http://schemas.microsoft.com/exchange/services/2006/messages  <br/> |
 |Schema Name  <br/> |Messages schema  <br/> |
 |Validation File  <br/> |Not applicable  <br/> |
 |Can be Empty  <br/> |False  <br/> |

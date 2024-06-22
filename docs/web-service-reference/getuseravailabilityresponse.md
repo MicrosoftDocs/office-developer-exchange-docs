@@ -60,14 +60,14 @@ The following example of a GetUserAvailability response shows a response to a Ge
 <?xml version="1.0" encoding="utf-8" ?>
 <GetUserAvailabilityResponse xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
                              xmlns:xsd="http://www.w3.org/2001/XMLSchema">
-  <FreeBusyResponseArray xmlns="https://schemas.microsoft.com/exchange/services/2006/messages">
+  <FreeBusyResponseArray xmlns="http://schemas.microsoft.com/exchange/services/2006/messages">
     <FreeBusyResponse>
       <ResponseMessage ResponseClass="Success">
         <Path select="/m:GetUserAvailabilityRequest/MailboxDataArray[0]" />
       </ResponseMessage>
       <FreeBusyView>
-        <FreeBusyViewType xmlns="https://schemas.microsoft.com/exchange/services/2006/types">Detailed</FreeBusyViewType>
-        <CalendarEventArray xmlns="https://schemas.microsoft.com/exchange/services/2006/types">
+        <FreeBusyViewType xmlns="http://schemas.microsoft.com/exchange/services/2006/types">Detailed</FreeBusyViewType>
+        <CalendarEventArray xmlns="http://schemas.microsoft.com/exchange/services/2006/types">
           <CalendarEvent>
             <StartTime>2006-02-28T19:00:00-08:00</StartTime>
             <EndTime>2006-02-28T23:30:00-08:00</EndTime>
@@ -84,7 +84,7 @@ The following example of a GetUserAvailability response shows a response to a Ge
             </CalendarEventDetails>
           </CalendarEvent>
         </CalendarEventArray>
-        <WorkingHours xmlns="https://schemas.microsoft.com/exchange/services/2006/types">
+        <WorkingHours xmlns="http://schemas.microsoft.com/exchange/services/2006/types">
           <TimeZone>
             <Bias>480</Bias>
             <StandardTime>
@@ -122,7 +122,7 @@ The [ID](id.md) element contents were shortened to preserve readability.
 
 |**Name**|**Value**|
 |:-----|:-----|
-|Namespace  <br/> |https://schemas.microsoft.com/exchange/services/2006/messages  <br/> |
+|Namespace  <br/> |http://schemas.microsoft.com/exchange/services/2006/messages  <br/> |
 |Schema Name  <br/> |Messages schema  <br/> |
 |Validation File  <br/> |Messages.xsd  <br/> |
 |Can be Empty  <br/> |False  <br/> |

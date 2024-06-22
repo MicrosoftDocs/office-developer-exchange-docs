@@ -33,7 +33,7 @@ The following example of an IsUMEnabled request shows how to form a request to d
 <?xml version="1.0" encoding="utf-8"?>
 <soap:Envelope xmlns:soap="http://schemas.xmlsoap.org/soap/envelope/">
   <soap:Body>
-    <IsUMEnabled xmlns="https://schemas.microsoft.com/exchange/services/2006/messages" />
+    <IsUMEnabled xmlns="http://schemas.microsoft.com/exchange/services/2006/messages" />
   </soap:Body>
 </soap:Envelope>
 ```
@@ -50,7 +50,7 @@ The following example shows a successful response to an IsUMEnabled request.
 <?xml version="1.0" encoding="utf-8" ?>
 <soap:Envelope xmlns:soap="http://schemas.xmlsoap.org/soap/envelope/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
   <soap:Body>
-    <IsUMEnabledResponse xmlns="https://schemas.microsoft.com/exchange/services/2006/messages">
+    <IsUMEnabledResponse xmlns="http://schemas.microsoft.com/exchange/services/2006/messages">
       <IsUMEnabledResponse>true</IsUMEnabledResponse> 
     </IsUMEnabledResponse>
   </soap:Body>

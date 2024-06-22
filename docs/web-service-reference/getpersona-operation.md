@@ -42,11 +42,11 @@ The following example of a **GetPersona** operation request shows how to return 
 ```XML
 <?xml version="1.0" encoding="utf-8"?>
 <soap:Envelope xmlns:soap="http://schemas.xmlsoap.org/soap/envelope/"
-               xmlns:t="https://schemas.microsoft.com/exchange/services/2006/types">
+               xmlns:t="http://schemas.microsoft.com/exchange/services/2006/types">
    <soap:Header>
       <t:RequestServerVersion Version="Exchange2013"/>
    </soap:Header>
-   <soap:Body xmlns="https://schemas.microsoft.com/exchange/services/2006/messages">
+   <soap:Body xmlns="http://schemas.microsoft.com/exchange/services/2006/messages">
       <GetPersona>
          <PersonaId Id="AAQkADEzAQAKtOtR/l4MlLqHWORfhSYKU="/>
       </GetPersona>
@@ -77,31 +77,31 @@ The following example shows a successful response to a **GetPersona** operation 
                            MajorBuildNumber="432" 
                            MinorBuildNumber="5" 
                            Version="Exchange2013"
-                           xmlns:h="https://schemas.microsoft.com/exchange/services/2006/types"
-                     xmlns="https://schemas.microsoft.com/exchange/services/2006/types"
+                           xmlns:h="http://schemas.microsoft.com/exchange/services/2006/types"
+                     xmlns="http://schemas.microsoft.com/exchange/services/2006/types"
       xmlns:xsd="http://www.w3.org/2001/XMLSchema"
          xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"/>
    </s:Header>
    <s:Body xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
            xmlns:xsd="http://www.w3.org/2001/XMLSchema">
       <GetPersonaResponseMessage ResponseClass="Success"
-                      xmlns="https://schemas.microsoft.com/exchange/services/2006/messages">
+                      xmlns="http://schemas.microsoft.com/exchange/services/2006/messages">
          <ResponseCode>NoError</ResponseCode>
          <Persona>
             <PersonaId Id="AAQkADEzAQAKtOtR="
-              xmlns="https://schemas.microsoft.com/exchange/services/2006/types"/>
-            <PersonaType xmlns="https://schemas.microsoft.com/exchange/services/2006/types">Person</PersonaType>
-            <CreationTime xmlns="https://schemas.microsoft.com/exchange/services/2006/types">2012-06-01T17:00:34Z</CreationTime>
-            <DisplayName xmlns="https://schemas.microsoft.com/exchange/services/2006/types">Brian Johnson</DisplayName>
-            <DisplayNameFirstLast xmlns="https://schemas.microsoft.com/exchange/services/2006/types">Brian Johnson</DisplayNameFirstLast>
-            <DisplayNameLastFirst xmlns="https://schemas.microsoft.com/exchange/services/2006/types">Johnson Brian</DisplayNameLastFirst>
-            <FileAs xmlns="https://schemas.microsoft.com/exchange/services/2006/types">Johnson, Brian</FileAs>
-            <FileAsId xmlns="https://schemas.microsoft.com/exchange/services/2006/types">None</FileAsId>
-            <GivenName xmlns="https://schemas.microsoft.com/exchange/services/2006/types">Brian</GivenName>
-            <Surname xmlns="https://schemas.microsoft.com/exchange/services/2006/types">Johnsoon</Surname>
-            <CompanyName xmlns="https://schemas.microsoft.com/exchange/services/2006/types">Contoso</CompanyName>
-            <RelevanceScore xmlns="https://schemas.microsoft.com/exchange/services/2006/types">4255550110</RelevanceScore>
-            <Attributions xmlns="https://schemas.microsoft.com/exchange/services/2006/types">
+              xmlns="http://schemas.microsoft.com/exchange/services/2006/types"/>
+            <PersonaType xmlns="http://schemas.microsoft.com/exchange/services/2006/types">Person</PersonaType>
+            <CreationTime xmlns="http://schemas.microsoft.com/exchange/services/2006/types">2012-06-01T17:00:34Z</CreationTime>
+            <DisplayName xmlns="http://schemas.microsoft.com/exchange/services/2006/types">Brian Johnson</DisplayName>
+            <DisplayNameFirstLast xmlns="http://schemas.microsoft.com/exchange/services/2006/types">Brian Johnson</DisplayNameFirstLast>
+            <DisplayNameLastFirst xmlns="http://schemas.microsoft.com/exchange/services/2006/types">Johnson Brian</DisplayNameLastFirst>
+            <FileAs xmlns="http://schemas.microsoft.com/exchange/services/2006/types">Johnson, Brian</FileAs>
+            <FileAsId xmlns="http://schemas.microsoft.com/exchange/services/2006/types">None</FileAsId>
+            <GivenName xmlns="http://schemas.microsoft.com/exchange/services/2006/types">Brian</GivenName>
+            <Surname xmlns="http://schemas.microsoft.com/exchange/services/2006/types">Johnsoon</Surname>
+            <CompanyName xmlns="http://schemas.microsoft.com/exchange/services/2006/types">Contoso</CompanyName>
+            <RelevanceScore xmlns="http://schemas.microsoft.com/exchange/services/2006/types">4255550110</RelevanceScore>
+            <Attributions xmlns="http://schemas.microsoft.com/exchange/services/2006/types">
                <Attribution>
                   <Id>0</Id>
                   <SourceId Id="AAMkA =" ChangeKey="EQAAABY+"/>
@@ -112,7 +112,7 @@ The following example shows a successful response to a **GetPersona** operation 
                   <FolderId Id="AAMkA=" ChangeKey="AQAAAA=="/>
                </Attribution>
             </Attributions>
-            <DisplayNames xmlns="https://schemas.microsoft.com/exchange/services/2006/types">
+            <DisplayNames xmlns="http://schemas.microsoft.com/exchange/services/2006/types">
                <StringAttributedValue>
                   <Value>Brian Johnson</Value>
                   <Attributions>
@@ -120,7 +120,7 @@ The following example shows a successful response to a **GetPersona** operation 
                   </Attributions>
                </StringAttributedValue>
             </DisplayNames>
-            <FileAses xmlns="https://schemas.microsoft.com/exchange/services/2006/types">
+            <FileAses xmlns="http://schemas.microsoft.com/exchange/services/2006/types">
                <StringAttributedValue>
                   <Value>Johnson, Brian</Value>
                   <Attributions>
@@ -128,7 +128,7 @@ The following example shows a successful response to a **GetPersona** operation 
                   </Attributions>
                </StringAttributedValue>
             </FileAses>
-            <FileAsIds xmlns="https://schemas.microsoft.com/exchange/services/2006/types">
+            <FileAsIds xmlns="http://schemas.microsoft.com/exchange/services/2006/types">
                <StringAttributedValue>
                   <Value>None</Value>
                   <Attributions>
@@ -136,7 +136,7 @@ The following example shows a successful response to a **GetPersona** operation 
                   </Attributions>
                </StringAttributedValue>
             </FileAsIds>
-            <GivenNames xmlns="https://schemas.microsoft.com/exchange/services/2006/types">
+            <GivenNames xmlns="http://schemas.microsoft.com/exchange/services/2006/types">
                <StringAttributedValue>
                   <Value>Brian</Value>
                   <Attributions>
@@ -144,7 +144,7 @@ The following example shows a successful response to a **GetPersona** operation 
                   </Attributions>
                </StringAttributedValue>
             </GivenNames>
-            <Surnames xmlns="https://schemas.microsoft.com/exchange/services/2006/types">
+            <Surnames xmlns="http://schemas.microsoft.com/exchange/services/2006/types">
                <StringAttributedValue>
                   <Value>Johnson</Value>
                   <Attributions>
@@ -152,7 +152,7 @@ The following example shows a successful response to a **GetPersona** operation 
                   </Attributions>
                </StringAttributedValue>
             </Surnames>
-            <MobilePhones xmlns="https://schemas.microsoft.com/exchange/services/2006/types">
+            <MobilePhones xmlns="http://schemas.microsoft.com/exchange/services/2006/types">
                <PhoneNumberAttributedValue>
                   <Value>
                      <Number>(425)555-0110</Number>
@@ -163,7 +163,7 @@ The following example shows a successful response to a **GetPersona** operation 
                   </Attributions>
                </PhoneNumberAttributedValue>
             </MobilePhones>
-            <CompanyNames xmlns="https://schemas.microsoft.com/exchange/services/2006/types">
+            <CompanyNames xmlns="http://schemas.microsoft.com/exchange/services/2006/types">
                <StringAttributedValue>
                   <Value>Contoso</Value>
                   <Attributions>
@@ -269,15 +269,15 @@ The following example shows an error response to a **GetPersona** operation requ
                            MajorBuildNumber="578" 
                            MinorBuildNumber="11" 
                            Version="Exchange2013" 
-                           xmlns:h="https://schemas.microsoft.com/exchange/services/2006/types" 
-                           xmlns="https://schemas.microsoft.com/exchange/services/2006/types" 
+                           xmlns:h="http://schemas.microsoft.com/exchange/services/2006/types" 
+                           xmlns="http://schemas.microsoft.com/exchange/services/2006/types" 
                            xmlns:xsd="http://www.w3.org/2001/XMLSchema" 
                            xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"/>
    </s:Header>
    <s:Body xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
            xmlns:xsd="http://www.w3.org/2001/XMLSchema">
       <GetPersonaResponseMessage ResponseClass="Error" 
-                                 xmlns="https://schemas.microsoft.com/exchange/services/2006/messages">
+                                 xmlns="http://schemas.microsoft.com/exchange/services/2006/messages">
          <MessageText>Id is malformed.</MessageText>
          <ResponseCode>ErrorInvalidIdMalformed</ResponseCode>
          <DescriptiveLinkKey>0</DescriptiveLinkKey>

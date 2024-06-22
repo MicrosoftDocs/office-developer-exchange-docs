@@ -32,9 +32,9 @@ The following example of a CreateFolder request shows how to form a request to c
 ```XML
 <?xml version="1.0" encoding="utf-8"?>
 <soap:Envelope xmlns:soap="http://schemas.xmlsoap.org/soap/envelope/"
-      xmlns:t="https://schemas.microsoft.com/exchange/services/2006/types">
+      xmlns:t="http://schemas.microsoft.com/exchange/services/2006/types">
   <soap:Body>
-    <CreateFolder xmlns="https://schemas.microsoft.com/exchange/services/2006/messages">
+    <CreateFolder xmlns="http://schemas.microsoft.com/exchange/services/2006/messages">
       <ParentFolderId>
         <t:DistinguishedFolderId Id="msgfolderroot"/>
       </ParentFolderId>
@@ -95,12 +95,12 @@ The following example shows a successful response to the CreateFolder request. I
                xmlns:xsd="http://www.w3.org/2001/XMLSchema">
   <soap:Header>
     <t:ServerVersionInfo MajorVersion="8" MinorVersion="0" MajorBuildNumber="595" MinorBuildNumber="0" 
-                         xmlns:t="https://schemas.microsoft.com/exchange/services/2006/types" />
+                         xmlns:t="http://schemas.microsoft.com/exchange/services/2006/types" />
   </soap:Header>
   <soap:Body>
-    <CreateFolderResponse xmlns:m="https://schemas.microsoft.com/exchange/services/2006/messages" 
-                          xmlns:t="https://schemas.microsoft.com/exchange/services/2006/types" 
-                          xmlns="https://schemas.microsoft.com/exchange/services/2006/messages">
+    <CreateFolderResponse xmlns:m="http://schemas.microsoft.com/exchange/services/2006/messages" 
+                          xmlns:t="http://schemas.microsoft.com/exchange/services/2006/types" 
+                          xmlns="http://schemas.microsoft.com/exchange/services/2006/messages">
       <m:ResponseMessages>
         <m:CreateFolderResponseMessage ResponseClass="Success">
           <m:ResponseCode>NoError</m:ResponseCode>
@@ -161,12 +161,12 @@ The following example shows an error response to a CreateFolder request.
                xmlns:xsd="http://www.w3.org/2001/XMLSchema">
   <soap:Header>
     <t:ServerVersionInfo MajorVersion="8" MinorVersion="0" MajorBuildNumber="595" MinorBuildNumber="0" 
-                         xmlns:t="https://schemas.microsoft.com/exchange/services/2006/types" />
+                         xmlns:t="http://schemas.microsoft.com/exchange/services/2006/types" />
   </soap:Header>
   <soap:Body>
-    <CreateFolderResponse xmlns:m="https://schemas.microsoft.com/exchange/services/2006/messages" 
-                          xmlns:t="https://schemas.microsoft.com/exchange/services/2006/types" 
-                          xmlns="https://schemas.microsoft.com/exchange/services/2006/messages">
+    <CreateFolderResponse xmlns:m="http://schemas.microsoft.com/exchange/services/2006/messages" 
+                          xmlns:t="http://schemas.microsoft.com/exchange/services/2006/types" 
+                          xmlns="http://schemas.microsoft.com/exchange/services/2006/messages">
       <m:ResponseMessages>
         <m:CreateFolderResponseMessage ResponseClass="Error">
           <m:MessageText>A folder with the specified name already exists.</m:MessageText>

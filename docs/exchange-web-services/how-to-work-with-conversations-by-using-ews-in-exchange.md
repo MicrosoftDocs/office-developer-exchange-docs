@@ -75,8 +75,8 @@ You can find conversations by using the [FindConversation](https://msdn.microsof
 ```XML
 <?xml version="1.0" encoding="utf-8"?>
 <soap:Envelope xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
-               xmlns:m="https://schemas.microsoft.com/exchange/services/2006/messages"
-               xmlns:t="https://schemas.microsoft.com/exchange/services/2006/types"
+               xmlns:m="http://schemas.microsoft.com/exchange/services/2006/messages"
+               xmlns:t="http://schemas.microsoft.com/exchange/services/2006/types"
                xmlns:soap="https://schemas.xmlsoap.org/soap/envelope/">
   <soap:Header>
     <t:RequestServerVersion Version="Exchange2013" />
@@ -109,18 +109,18 @@ The **ItemId**, **ChangeKey**, and **ConversationId** elements have been shorten
                          MajorBuildNumber="883"
                          MinorBuildNumber="10"
                          Version="V2_10"
-                         xmlns:h="https://schemas.microsoft.com/exchange/services/2006/types"
-                         xmlns="https://schemas.microsoft.com/exchange/services/2006/types"
+                         xmlns:h="http://schemas.microsoft.com/exchange/services/2006/types"
+                         xmlns="http://schemas.microsoft.com/exchange/services/2006/types"
                          xmlns:xsd="http://www.w3.org/2001/XMLSchema"
                          xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" />
   </s:Header>
   <s:Body xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
           xmlns:xsd="http://www.w3.org/2001/XMLSchema">
     <FindConversationResponse ResponseClass="Success"
-                              xmlns="https://schemas.microsoft.com/exchange/services/2006/messages">
+                              xmlns="http://schemas.microsoft.com/exchange/services/2006/messages">
       <ResponseCode>NoError</ResponseCode>
       <Conversations>
-        <Conversation xmlns="https://schemas.microsoft.com/exchange/services/2006/types">
+        <Conversation xmlns="http://schemas.microsoft.com/exchange/services/2006/types">
           <ConversationId Id="aO2NM+Q=" />
           <ConversationTopic>Today's top news headlines</ConversationTopic>
           <UniqueRecipients>
@@ -221,8 +221,8 @@ The **ConversationId** element has been shortened for readability.
 ```XML
 <?xml version="1.0" encoding="utf-8"?>
 <soap:Envelope xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
-               xmlns:m="https://schemas.microsoft.com/exchange/services/2006/messages"
-               xmlns:t="https://schemas.microsoft.com/exchange/services/2006/types"
+               xmlns:m="http://schemas.microsoft.com/exchange/services/2006/messages"
+               xmlns:t="http://schemas.microsoft.com/exchange/services/2006/types"
                xmlns:soap="https://schemas.xmlsoap.org/soap/envelope/">
   <soap:Header>
     <t:RequestServerVersion Version="Exchange2013" />
@@ -402,8 +402,8 @@ To get items from more than one conversation, include additional **Conversation*
 ```XML
 <?xml version="1.0" encoding="utf-8"?>
 <soap:Envelope xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
-               xmlns:m=https://schemas.microsoft.com/exchange/services/2006/messages
-               xmlns:t="https://schemas.microsoft.com/exchange/services/2006/types"
+               xmlns:m="http://schemas.microsoft.com/exchange/services/2006/messages"
+               xmlns:t="http://schemas.microsoft.com/exchange/services/2006/types"
                xmlns:soap="https://schemas.xmlsoap.org/soap/envelope/">
   <soap:Header>
     <t:RequestServerVersion Version="Exchange2013" />
@@ -444,15 +444,15 @@ The **ItemId**, **SyncState**, and **ConversationId** elements have been shorten
                          MajorBuildNumber="873"
                          MinorBuildNumber="9"
                          Version="V2_9"
-                         xmlns:h="https://schemas.microsoft.com/exchange/services/2006/types"
-                         xmlns="https://schemas.microsoft.com/exchange/services/2006/types"
+                         xmlns:h="http://schemas.microsoft.com/exchange/services/2006/types"
+                         xmlns="http://schemas.microsoft.com/exchange/services/2006/types"
                          xmlns:xsd="http://www.w3.org/2001/XMLSchema"
                          xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" />
   </s:Header>
   <s:Body xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
           xmlns:xsd="http://www.w3.org/2001/XMLSchema">
-    <m:GetConversationItemsResponse xmlns:m="https://schemas.microsoft.com/exchange/services/2006/messages"
-                                    xmlns:t="https://schemas.microsoft.com/exchange/services/2006/types">
+    <m:GetConversationItemsResponse xmlns:m="http://schemas.microsoft.com/exchange/services/2006/messages"
+                                    xmlns:t="http://schemas.microsoft.com/exchange/services/2006/types">
       <m:ResponseMessages>
         <m:GetConversationItemsResponseMessage ResponseClass="Success">
           <m:ResponseCode>NoError</m:ResponseCode>

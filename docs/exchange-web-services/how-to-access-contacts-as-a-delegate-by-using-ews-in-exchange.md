@@ -110,8 +110,8 @@ This is also the XML request that the EWS Managed API sends when you use the **S
 ```XML
 <?xml version="1.0" encoding="utf-8"?>
 <soap:Envelope xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
-               xmlns:m="https://schemas.microsoft.com/exchange/services/2006/messages"
-               xmlns:t="https://schemas.microsoft.com/exchange/services/2006/types"
+               xmlns:m="http://schemas.microsoft.com/exchange/services/2006/messages"
+               xmlns:t="http://schemas.microsoft.com/exchange/services/2006/types"
                xmlns:soap="https://schemas.xmlsoap.org/soap/envelope/">
   <soap:Header>
     <t:RequestServerVersion Version="Exchange2007_SP1" />
@@ -192,8 +192,8 @@ This is also the XML request that the EWS Managed API sends when you use the **R
 ```xml
  <?xml version="1.0" encoding="utf-8"?>
 <soap:Envelope xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
-               xmlns:m="https://schemas.microsoft.com/exchange/services/2006/messages"
-               xmlns:t="https://schemas.microsoft.com/exchange/services/2006/types"
+               xmlns:m="http://schemas.microsoft.com/exchange/services/2006/messages"
+               xmlns:t="http://schemas.microsoft.com/exchange/services/2006/types"
                xmlns:soap="https://schemas.xmlsoap.org/soap/envelope/">
   <soap:Header>
     <t:RequestServerVersion Version="Exchange2007_SP1" />
@@ -227,14 +227,14 @@ The value of the **ItemId** element has been shortened for readability.
                          MajorBuildNumber="893"
                          MinorBuildNumber="17"
                          Version="V2_10"
-                         xmlns:h="https://schemas.microsoft.com/exchange/services/2006/types"
-                         xmlns="https://schemas.microsoft.com/exchange/services/2006/types"
+                         xmlns:h="http://schemas.microsoft.com/exchange/services/2006/types"
+                         xmlns="http://schemas.microsoft.com/exchange/services/2006/types"
                          xmlns:xsd="http://www.w3.org/2001/XMLSchema"
                          xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" />
   </s:Header>
   <s:Body>
-    <m:ResolveNamesResponse xmlns:m="https://schemas.microsoft.com/exchange/services/2006/messages"
-                            xmlns:t="https://schemas.microsoft.com/exchange/services/2006/types">
+    <m:ResolveNamesResponse xmlns:m="http://schemas.microsoft.com/exchange/services/2006/messages"
+                            xmlns:t="http://schemas.microsoft.com/exchange/services/2006/types">
       <m:ResponseMessages>
         <m:ResolveNamesResponseMessage ResponseClass="Warning">
           <m:MessageText>Multiple results were found.</m:MessageText>
