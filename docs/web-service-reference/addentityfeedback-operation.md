@@ -24,8 +24,8 @@ The **AddEntityFeedback** operation provides a way for clients to log details of
 ```XML
 <?xml version="1.0" encoding="UTF-8"?>
 <soap:Envelope xmlns:soap="http://schemas.xmlsoap.org/soap/envelope/"
-                             xmlns:t="https://schemas.microsoft.com/exchange/services/2006/types"
-                             xmlns:m="https://schemas.microsoft.com/exchange/services/2006/messages">
+                             xmlns:t="http://schemas.microsoft.com/exchange/services/2006/types"
+                             xmlns:m="http://schemas.microsoft.com/exchange/services/2006/messages">
    <soap:Header>
       <t:RequestServerVersion Version="Exchange2013" />
    </soap:Header>
@@ -83,13 +83,13 @@ The soap request contains a single element **EntityFeedbackEntries**. This in tu
                                 MajorBuildNumber="228" 
                                 MinorBuildNumber="0" 
                                 Version="V2_49" 
-                                xmlns:h="https://schemas.microsoft.com/exchange/services/2006/types" 
+                                xmlns:h="http://schemas.microsoft.com/exchange/services/2006/types" 
                                 xmlns:xsd="http://www.w3.org/2001/XMLSchema" 
                                 xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" />
     </s:Header>
     <s:Body>
         <AddEntityFeedbackResponse ResponseClass="Success" 
-                                                              xmlns="https://schemas.microsoft.com/exchange/services/2006/messages" 
+                                                              xmlns="http://schemas.microsoft.com/exchange/services/2006/messages" 
                                                               xmlns:xsd="http://www.w3.org/2001/XMLSchema" 
                                                               xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
             <ResponseCode>NoError</ResponseCode>
@@ -152,8 +152,8 @@ For error codes that are generic to EWS, see [ResponseCode](responsecode.md).
 ```XML
 <?xml version="1.0" encoding="UTF-8"?>
 <soap:Envelope xmlns:soap="http://schemas.xmlsoap.org/soap/envelope/"
-               xmlns:t="https://schemas.microsoft.com/exchange/services/2006/types"
-               xmlns:m="https://schemas.microsoft.com/exchange/services/2006/messages">
+               xmlns:t="http://schemas.microsoft.com/exchange/services/2006/types"
+               xmlns:m="http://schemas.microsoft.com/exchange/services/2006/messages">
   <soap:Header>
     <t:RequestServerVersion Version="Exchange2013" />
   </soap:Header>
@@ -174,13 +174,13 @@ For error codes that are generic to EWS, see [ResponseCode](responsecode.md).
 <?xml version="1.0" encoding="utf-8"?>
 <s:Envelope xmlns:s="http://schemas.xmlsoap.org/soap/envelope/">
     <s:Header>
-        <h:ServerVersionInfo MajorVersion="15" MinorVersion="1" MajorBuildNumber="302" MinorBuildNumber="0" Version="V2_68" xmlns:h="https://schemas.microsoft.com/exchange/services/2006/types" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" />
+        <h:ServerVersionInfo MajorVersion="15" MinorVersion="1" MajorBuildNumber="302" MinorBuildNumber="0" Version="V2_68" xmlns:h="http://schemas.microsoft.com/exchange/services/2006/types" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" />
     </s:Header>
     <s:Body>
-        <FindPeopleResponse ResponseClass="Success" xmlns="https://schemas.microsoft.com/exchange/services/2006/messages" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+        <FindPeopleResponse ResponseClass="Success" xmlns="http://schemas.microsoft.com/exchange/services/2006/messages" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
             <ResponseCode>NoError</ResponseCode>
             <People>
-                <Persona xmlns="https://schemas.microsoft.com/exchange/services/2006/types">
+                <Persona xmlns="http://schemas.microsoft.com/exchange/services/2006/types">
                     <PersonaId Id="AAUQAFjZ4UxX8SZCqSPFsmh0cSo=" />
                     <PersonaType>Person</PersonaType>
                     <CreationTime>2015-10-02T23:25:42</CreationTime>
@@ -203,8 +203,8 @@ For error codes that are generic to EWS, see [ResponseCode](responsecode.md).
 ```XML
 <?xml version="1.0" encoding="UTF-8"?>
 <soap:Envelope xmlns:soap="http://schemas.xmlsoap.org/soap/envelope/"
-               xmlns:t="https://schemas.microsoft.com/exchange/services/2006/types"
-               xmlns:m="https://schemas.microsoft.com/exchange/services/2006/messages">
+               xmlns:t="http://schemas.microsoft.com/exchange/services/2006/types"
+               xmlns:m="http://schemas.microsoft.com/exchange/services/2006/messages">
    <soap:Header>
       <t:RequestServerVersion Version="Exchange2013" />
    </soap:Header>
@@ -239,10 +239,10 @@ For error codes that are generic to EWS, see [ResponseCode](responsecode.md).
 <?xml version="1.0" encoding="utf-8"?>
 <s:Envelope xmlns:s="http://schemas.xmlsoap.org/soap/envelope/">
     <s:Header>
-        <h:ServerVersionInfo MajorVersion="15" MinorVersion="1" MajorBuildNumber="302" MinorBuildNumber="0" Version="V2_68" xmlns:h="https://schemas.microsoft.com/exchange/services/2006/types" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" />
+        <h:ServerVersionInfo MajorVersion="15" MinorVersion="1" MajorBuildNumber="302" MinorBuildNumber="0" Version="V2_68" xmlns:h="http://schemas.microsoft.com/exchange/services/2006/types" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" />
     </s:Header>
     <s:Body>
-        <AddEntityFeedbackResponse ResponseClass="Success" xmlns="https://schemas.microsoft.com/exchange/services/2006/messages" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+        <AddEntityFeedbackResponse ResponseClass="Success" xmlns="http://schemas.microsoft.com/exchange/services/2006/messages" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
             <ResponseCode>NoError</ResponseCode>
             <ErrorCount>0</ErrorCount>
             <ErrorDetails />

@@ -32,9 +32,9 @@ The following code example shows how to subscribe to a pull event notification s
 ```XML
 <?xml version="1.0" encoding="utf-8"?>
 <soap:Envelope xmlns:soap="http://schemas.xmlsoap.org/soap/envelope/"
-  xmlns:t="https://schemas.microsoft.com/exchange/services/2006/types">
+  xmlns:t="http://schemas.microsoft.com/exchange/services/2006/types">
   <soap:Body>
-    <Subscribe xmlns="https://schemas.microsoft.com/exchange/services/2006/messages">
+    <Subscribe xmlns="http://schemas.microsoft.com/exchange/services/2006/messages">
       <PullSubscriptionRequest>
         <t:FolderIds>
           <t:DistinguishedFolderId Id="inbox"/>
@@ -85,12 +85,12 @@ The following example shows a successful pull subscription response. The respons
                xmlns:xsd="http://www.w3.org/2001/XMLSchema">
   <soap:Header>
     <t:ServerVersionInfo MajorVersion="8" MinorVersion="0" MajorBuildNumber="628" MinorBuildNumber="0" 
-                         xmlns:t="https://schemas.microsoft.com/exchange/services/2006/types" />
+                         xmlns:t="http://schemas.microsoft.com/exchange/services/2006/types" />
   </soap:Header>
   <soap:Body>
-    <SubscribeResponse xmlns:m="https://schemas.microsoft.com/exchange/services/2006/messages" 
-                       xmlns:t="https://schemas.microsoft.com/exchange/services/2006/types" 
-                       xmlns="https://schemas.microsoft.com/exchange/services/2006/messages">
+    <SubscribeResponse xmlns:m="http://schemas.microsoft.com/exchange/services/2006/messages" 
+                       xmlns:t="http://schemas.microsoft.com/exchange/services/2006/types" 
+                       xmlns="http://schemas.microsoft.com/exchange/services/2006/messages">
       <m:ResponseMessages>
         <m:SubscribeResponseMessage ResponseClass="Success">
           <m:ResponseCode>NoError</m:ResponseCode>
@@ -136,12 +136,12 @@ The following example shows an error response to a Subscribe request. The error 
                xmlns:xsd="http://www.w3.org/2001/XMLSchema">
   <soap:Header>
     <t:ServerVersionInfo MajorVersion="8" MinorVersion="0" MajorBuildNumber="685" MinorBuildNumber="8" 
-                         xmlns:t="https://schemas.microsoft.com/exchange/services/2006/types" />
+                         xmlns:t="http://schemas.microsoft.com/exchange/services/2006/types" />
   </soap:Header>
   <soap:Body>
-    <SubscribeResponse xmlns:m="https://schemas.microsoft.com/exchange/services/2006/messages" 
-                       xmlns:t="https://schemas.microsoft.com/exchange/services/2006/types" 
-                       xmlns="https://schemas.microsoft.com/exchange/services/2006/messages">
+    <SubscribeResponse xmlns:m="http://schemas.microsoft.com/exchange/services/2006/messages" 
+                       xmlns:t="http://schemas.microsoft.com/exchange/services/2006/types" 
+                       xmlns="http://schemas.microsoft.com/exchange/services/2006/messages">
       <m:ResponseMessages>
         <m:SubscribeResponseMessage ResponseClass="Error">
           <m:MessageText>Subscriptions are not supported for delegate user access.</m:MessageText>
@@ -183,15 +183,15 @@ The following code example shows how to subscribe to a push event notification s
 ```XML
 <?xml version="1.0" encoding="utf-8"?>
 <soap:Envelope xmlns:soap="http://schemas.xmlsoap.org/soap/envelope/"
-               xmlns:t="https://schemas.microsoft.com/exchange/services/2006/types">
+               xmlns:t="http://schemas.microsoft.com/exchange/services/2006/types">
   <soap:Body>
     <Subscribe xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
                xmlns:xsd="http://www.w3.org/2001/XMLSchema">
-      <PushSubscriptionRequest xmlns="https://schemas.microsoft.com/exchange/services/2006/messages">
-        <FolderIds xmlns="https://schemas.microsoft.com/exchange/services/2006/types">
+      <PushSubscriptionRequest xmlns="http://schemas.microsoft.com/exchange/services/2006/messages">
+        <FolderIds xmlns="http://schemas.microsoft.com/exchange/services/2006/types">
           <DistinguishedFolderId Id="inbox" />
         </FolderIds>
-        <EventTypes xmlns="https://schemas.microsoft.com/exchange/services/2006/types">
+        <EventTypes xmlns="http://schemas.microsoft.com/exchange/services/2006/types">
           <EventType>NewMailEvent</EventType>
           <EventType>CopiedEvent</EventType>
           <EventType>CreatedEvent</EventType>
@@ -199,8 +199,8 @@ The following code example shows how to subscribe to a push event notification s
           <EventType>ModifiedEvent</EventType>
           <EventType>MovedEvent</EventType>
         </EventTypes>
-        <StatusFrequency xmlns="https://schemas.microsoft.com/exchange/services/2006/types">1</StatusFrequency>
-        <URL xmlns="https://schemas.microsoft.com/exchange/services/2006/types">http://clientWebService/Service.asmx</URL>
+        <StatusFrequency xmlns="http://schemas.microsoft.com/exchange/services/2006/types">1</StatusFrequency>
+        <URL xmlns="http://schemas.microsoft.com/exchange/services/2006/types">http://clientWebService/Service.asmx</URL>
       </PushSubscriptionRequest>
     </Subscribe>
   </soap:Body>
@@ -248,12 +248,12 @@ The following example shows a successful push subscription response.
                xmlns:xsd="http://www.w3.org/2001/XMLSchema">
   <soap:Header>
     <t:ServerVersionInfo MajorVersion="8" MinorVersion="0" MajorBuildNumber="628" MinorBuildNumber="0" 
-                         xmlns:t="https://schemas.microsoft.com/exchange/services/2006/types" />
+                         xmlns:t="http://schemas.microsoft.com/exchange/services/2006/types" />
   </soap:Header>
   <soap:Body>
-    <SubscribeResponse xmlns:m="https://schemas.microsoft.com/exchange/services/2006/messages" 
-                       xmlns:t="https://schemas.microsoft.com/exchange/services/2006/types" 
-                       xmlns="https://schemas.microsoft.com/exchange/services/2006/messages">
+    <SubscribeResponse xmlns:m="http://schemas.microsoft.com/exchange/services/2006/messages" 
+                       xmlns:t="http://schemas.microsoft.com/exchange/services/2006/types" 
+                       xmlns="http://schemas.microsoft.com/exchange/services/2006/messages">
       <ResponseMessages>
         <SubscribeResponseMessage ResponseClass="Success">
           <ResponseCode>NoError</ResponseCode>

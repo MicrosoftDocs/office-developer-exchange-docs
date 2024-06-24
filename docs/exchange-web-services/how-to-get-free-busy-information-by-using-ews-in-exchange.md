@@ -105,8 +105,8 @@ You can get both a list of suggested meeting times and all the scheduled event t
 ```XML
 <?xml version="1.0" encoding="utf-8"?>
 <soap:Envelope xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
-               xmlns:m="https://schemas.microsoft.com/exchange/services/2006/messages" 
-               xmlns:t="https://schemas.microsoft.com/exchange/services/2006/types"
+               xmlns:m="http://schemas.microsoft.com/exchange/services/2006/messages" 
+               xmlns:t="http://schemas.microsoft.com/exchange/services/2006/types"
                xmlns:soap="https://schemas.xmlsoap.org/soap/envelope/">
   <soap:Header>
     <t:RequestServerVersion Version="Exchange2010" />
@@ -213,21 +213,21 @@ The server responds to the [GetUserAvailability request](https://msdn.microsoft.
 <s:Envelope xmlns:s="https://schemas.xmlsoap.org/soap/envelope/">
   <s:Header>
     <h:ServerVersionInfo MajorVersion="15" MinorVersion="0" MajorBuildNumber="873" MinorBuildNumber="9" Version="V2_9" 
-                         xmlns:h="https://schemas.microsoft.com/exchange/services/2006/types" 
-                         xmlns="https://schemas.microsoft.com/exchange/services/2006/types" 
+                         xmlns:h="http://schemas.microsoft.com/exchange/services/2006/types" 
+                         xmlns="http://schemas.microsoft.com/exchange/services/2006/types" 
                          xmlns:xsd="http://www.w3.org/2001/XMLSchema" 
                          xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" />
   </s:Header>
   <s:Body xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
-    <GetUserAvailabilityResponse xmlns="https://schemas.microsoft.com/exchange/services/2006/messages">
+    <GetUserAvailabilityResponse xmlns="http://schemas.microsoft.com/exchange/services/2006/messages">
       <FreeBusyResponseArray>
         <FreeBusyResponse>
           <ResponseMessage ResponseClass="Success">
             <ResponseCode>NoError</ResponseCode>
           </ResponseMessage>
           <FreeBusyView>
-            <FreeBusyViewType xmlns="https://schemas.microsoft.com/exchange/services/2006/types">FreeBusy</FreeBusyViewType>
-            <CalendarEventArray xmlns="https://schemas.microsoft.com/exchange/services/2006/types">
+            <FreeBusyViewType xmlns="http://schemas.microsoft.com/exchange/services/2006/types">FreeBusy</FreeBusyViewType>
+            <CalendarEventArray xmlns="http://schemas.microsoft.com/exchange/services/2006/types">
               <CalendarEvent>
                 <StartTime>2014-02-13T08:00:00</StartTime>
                 <EndTime>2014-02-13T10:00:00</EndTime>
@@ -239,7 +239,7 @@ The server responds to the [GetUserAvailability request](https://msdn.microsoft.
                 <BusyType>Busy</BusyType>
               </CalendarEvent>
             </CalendarEventArray>
-            <WorkingHours xmlns="https://schemas.microsoft.com/exchange/services/2006/types">
+            <WorkingHours xmlns="http://schemas.microsoft.com/exchange/services/2006/types">
               <TimeZone>
                 <Bias>480</Bias>
                 <StandardTime>
@@ -272,8 +272,8 @@ The server responds to the [GetUserAvailability request](https://msdn.microsoft.
             <ResponseCode>NoError</ResponseCode>
           </ResponseMessage>
           <FreeBusyView>
-            <FreeBusyViewType xmlns="https://schemas.microsoft.com/exchange/services/2006/types">FreeBusy</FreeBusyViewType>
-            <CalendarEventArray xmlns="https://schemas.microsoft.com/exchange/services/2006/types">
+            <FreeBusyViewType xmlns="http://schemas.microsoft.com/exchange/services/2006/types">FreeBusy</FreeBusyViewType>
+            <CalendarEventArray xmlns="http://schemas.microsoft.com/exchange/services/2006/types">
               <CalendarEvent>
                 <StartTime>2014-02-12T00:00:00</StartTime>
                 <EndTime>2014-02-13T00:00:00</EndTime>
@@ -295,7 +295,7 @@ The server responds to the [GetUserAvailability request](https://msdn.microsoft.
                 <BusyType>Tentative</BusyType>
               </CalendarEvent>
             </CalendarEventArray>
-            <WorkingHours xmlns="https://schemas.microsoft.com/exchange/services/2006/types">
+            <WorkingHours xmlns="http://schemas.microsoft.com/exchange/services/2006/types">
               <TimeZone>
                 <Bias>480</Bias>
                 <StandardTime>
@@ -329,7 +329,7 @@ The server responds to the [GetUserAvailability request](https://msdn.microsoft.
           <ResponseCode>NoError</ResponseCode>
         </ResponseMessage>
         <SuggestionDayResultArray>
-          <SuggestionDayResult xmlns="https://schemas.microsoft.com/exchange/services/2006/types">
+          <SuggestionDayResult xmlns="http://schemas.microsoft.com/exchange/services/2006/types">
             <Date>2014-02-13T00:00:00</Date>
             <DayQuality>Excellent</DayQuality>
             <SuggestionArray>

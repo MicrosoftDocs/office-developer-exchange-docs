@@ -56,7 +56,7 @@ A [StandardTime](standardtime.md) element that contains a **DayOrder** element t
 
 | Element | Example |
 |:-----|:-----|
-|Namespace  |https://schemas.microsoft.com/exchange/services/2006/types  |
+|Namespace  |http://schemas.microsoft.com/exchange/services/2006/types  |
 |Schema Name  |Types schema  |
 |Validation File  |Types.xsd  |
 |Can be Empty  |False  |

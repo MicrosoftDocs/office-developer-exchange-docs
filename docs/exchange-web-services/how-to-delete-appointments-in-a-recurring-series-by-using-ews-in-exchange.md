@@ -127,8 +127,8 @@ This example uses the [CreateItem operation](https://msdn.microsoft.com/library/
 ```XML
 <?xml version="1.0" encoding="utf-8"?>
 <soap:Envelope xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
-    xmlns:m="https://schemas.microsoft.com/exchange/services/2006/messages" 
-    xmlns:t="https://schemas.microsoft.com/exchange/services/2006/types" 
+    xmlns:m="http://schemas.microsoft.com/exchange/services/2006/messages" 
+    xmlns:t="http://schemas.microsoft.com/exchange/services/2006/types" 
     xmlns:soap="https://schemas.xmlsoap.org/soap/envelope/">
   <soap:Header>
     <t:RequestServerVersion Version="Exchange2007_SP1" />
@@ -154,8 +154,8 @@ This example uses the **CreateItem operation** with a [DeclineItem](https://msdn
 ```XML
 <?xml version="1.0" encoding="utf-8"?>
 <soap:Envelope xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
-    xmlns:m="https://schemas.microsoft.com/exchange/services/2006/messages" 
-    xmlns:t="https://schemas.microsoft.com/exchange/services/2006/types" 
+    xmlns:m="http://schemas.microsoft.com/exchange/services/2006/messages" 
+    xmlns:t="http://schemas.microsoft.com/exchange/services/2006/types" 
     xmlns:soap="https://schemas.xmlsoap.org/soap/envelope/">
   <soap:Header>
     <t:RequestServerVersion Version="Exchange2007_SP1" />
@@ -180,8 +180,8 @@ This example uses the [DeleteItem operation](https://msdn.microsoft.com/library/
 ```XML
 <?xml version="1.0" encoding="utf-8"?>
 <soap:Envelope xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
-    xmlns:m="https://schemas.microsoft.com/exchange/services/2006/messages" 
-    xmlns:t="https://schemas.microsoft.com/exchange/services/2006/types" 
+    xmlns:m="http://schemas.microsoft.com/exchange/services/2006/messages" 
+    xmlns:t="http://schemas.microsoft.com/exchange/services/2006/types" 
     xmlns:soap="https://schemas.xmlsoap.org/soap/envelope/">
   <soap:Header>
     <t:RequestServerVersion Version="Exchange2007_SP1" />

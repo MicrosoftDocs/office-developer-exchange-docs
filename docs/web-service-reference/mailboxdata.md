@@ -68,7 +68,7 @@ A client application can define one to many **MailboxData** elements.
 
 ```xml
 <MailboxDataArray>
-  <MailboxData xmlns="https://schemas.microsoft.com/exchange/services/2006/types">
+  <MailboxData xmlns="http://schemas.microsoft.com/exchange/services/2006/types">
     <Email>
       <Name></Name>
       <Address>someone@ExServer.example.com</Address>
@@ -84,7 +84,7 @@ A client application can define one to many **MailboxData** elements.
 
 | Element | Example |
 |:-----|:-----|
-|Namespace  <br/> |https://schemas.microsoft.com/exchange/services/2006/types  <br/> |
+|Namespace  <br/> |http://schemas.microsoft.com/exchange/services/2006/types  <br/> |
 |Schema Name  <br/> |Types schema  <br/> |
 |Validation File  <br/> |Types.xsd  <br/> |
 |Can be Empty  <br/> |False  <br/> |

@@ -64,7 +64,7 @@ The schema that describes this element is located in the EWS virtual directory o
 
 | Element | Example |
 |:-----|:-----|
-|Namespace |https://schemas.microsoft.com/exchange/services/2006/types |
+|Namespace |http://schemas.microsoft.com/exchange/services/2006/types |
 |Schema Name |Types schema |
 |Validation File |Types.xsd |
 |Can be Empty |False |

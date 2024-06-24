@@ -48,10 +48,10 @@ The following example of an UpdateFolder request shows how to update a folder di
 ```XML
 <?xml version="1.0" encoding="utf-8"?>
 <soap:Envelope xmlns:soap="http://schemas.xmlsoap.org/soap/envelope/"
-               xmlns:t="https://schemas.microsoft.com/exchange/services/2006/types">
+               xmlns:t="http://schemas.microsoft.com/exchange/services/2006/types">
   <soap:Body>
-    <UpdateFolder xmlns="https://schemas.microsoft.com/exchange/services/2006/messages"
-                  xmlns:t="https://schemas.microsoft.com/exchange/services/2006/types">
+    <UpdateFolder xmlns="http://schemas.microsoft.com/exchange/services/2006/messages"
+                  xmlns:t="http://schemas.microsoft.com/exchange/services/2006/types">
       <FolderChanges>
         <t:FolderChange>
           <t:FolderId Id="AScA" ChangeKey="GO3u/"/>
@@ -119,12 +119,12 @@ The following example shows a successful response to the UpdateFolder request. I
                xmlns:xsd="http://www.w3.org/2001/XMLSchema">
   <soap:Header>
     <t:ServerVersionInfo MajorVersion="8" MinorVersion="0" MajorBuildNumber="685" MinorBuildNumber="8" 
-                         xmlns:t="https://schemas.microsoft.com/exchange/services/2006/types" />
+                         xmlns:t="http://schemas.microsoft.com/exchange/services/2006/types" />
   </soap:Header>
   <soap:Body>
-    <UpdateFolderResponse xmlns:m="https://schemas.microsoft.com/exchange/services/2006/messages" 
-                          xmlns:t="https://schemas.microsoft.com/exchange/services/2006/types" 
-                          xmlns="https://schemas.microsoft.com/exchange/services/2006/messages">
+    <UpdateFolderResponse xmlns:m="http://schemas.microsoft.com/exchange/services/2006/messages" 
+                          xmlns:t="http://schemas.microsoft.com/exchange/services/2006/types" 
+                          xmlns="http://schemas.microsoft.com/exchange/services/2006/messages">
       <m:ResponseMessages>
         <m:UpdateFolderResponseMessage ResponseClass="Success">
           <m:ResponseCode>NoError</m:ResponseCode>
@@ -182,12 +182,12 @@ The following example shows an error response to an UpdateFolder request.
                xmlns:xsd="http://www.w3.org/2001/XMLSchema">
   <soap:Header>
     <t:ServerVersionInfo MajorVersion="8" MinorVersion="0" MajorBuildNumber="685" MinorBuildNumber="8" 
-                         xmlns:t="https://schemas.microsoft.com/exchange/services/2006/types" />
+                         xmlns:t="http://schemas.microsoft.com/exchange/services/2006/types" />
   </soap:Header>
   <soap:Body>
-    <UpdateFolderResponse xmlns:m="https://schemas.microsoft.com/exchange/services/2006/messages" 
-                          xmlns:t="https://schemas.microsoft.com/exchange/services/2006/types" 
-                          xmlns="https://schemas.microsoft.com/exchange/services/2006/messages">
+    <UpdateFolderResponse xmlns:m="http://schemas.microsoft.com/exchange/services/2006/messages" 
+                          xmlns:t="http://schemas.microsoft.com/exchange/services/2006/types" 
+                          xmlns="http://schemas.microsoft.com/exchange/services/2006/messages">
       <m:ResponseMessages>
         <m:UpdateFolderResponseMessage ResponseClass="Error">
           <m:MessageText>The change key is invalid.</m:MessageText>

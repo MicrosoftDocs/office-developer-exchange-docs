@@ -73,8 +73,8 @@ The following example obtains a list of meetings and a free/busy stream in 60-mi
                xmlns:xsd="http://www.w3.org/2001/XMLSchema" 
                xmlns:soap="http://schemas.xmlsoap.org/soap/envelope/">
   <soap:Body>
-    <GetUserAvailabilityRequest xmlns="https://schemas.microsoft.com/exchange/services/2006/messages">
-      <TimeZone xmlns="https://schemas.microsoft.com/exchange/services/2006/types">
+    <GetUserAvailabilityRequest xmlns="http://schemas.microsoft.com/exchange/services/2006/messages">
+      <TimeZone xmlns="http://schemas.microsoft.com/exchange/services/2006/types">
         <Bias>480</Bias>
         <StandardTime>
           <Bias>0</Bias>
@@ -92,7 +92,7 @@ The following example obtains a list of meetings and a free/busy stream in 60-mi
         </DaylightTime>
       </TimeZone>
       <MailboxDataArray>
-        <MailboxData xmlns="https://schemas.microsoft.com/exchange/services/2006/types">
+        <MailboxData xmlns="http://schemas.microsoft.com/exchange/services/2006/types">
           <Email>
             <Name></Name>
             <Address>someone@ExServer.example.com</Address>
@@ -103,7 +103,7 @@ The following example obtains a list of meetings and a free/busy stream in 60-mi
           <ExcludeNonWorkingHours>false</ExcludeNonWorkingHours>
         </MailboxData>
       </MailboxDataArray>
-      <FreeBusyViewOptions xmlns="https://schemas.microsoft.com/exchange/services/2006/types">
+      <FreeBusyViewOptions xmlns="http://schemas.microsoft.com/exchange/services/2006/types">
         <TimeWindow>
           <StartTime>2006-02-06T00:00:00</StartTime>
           <EndTime>2006-02-25T23:59:59</EndTime>
@@ -120,7 +120,7 @@ The following example obtains a list of meetings and a free/busy stream in 60-mi
 
 |**Name**|**Value**|
 |:-----|:-----|
-|Namespace  <br/> |https://schemas.microsoft.com/exchange/services/2006/types  <br/> |
+|Namespace  <br/> |http://schemas.microsoft.com/exchange/services/2006/types  <br/> |
 |Schema Name  <br/> |Types schema  <br/> |
 |Validation File  <br/> |Types.xsd  <br/> |
 |Can be Empty  <br/> |False  <br/> |
