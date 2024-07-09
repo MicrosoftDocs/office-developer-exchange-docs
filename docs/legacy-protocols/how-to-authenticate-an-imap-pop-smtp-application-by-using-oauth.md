@@ -13,9 +13,6 @@ Learn how to use OAuth authentication to connect with IMAP, POP, or SMTP protoco
 
 > OAuth2 support for IMAP, POP, and SMTP protocols as described below is available  for both Microsoft 365 (which includes Office on the web) and Outlook.com users.
 
-> [!IMPORTANT]
-> This documentation uses the [deprecated Outlook REST API scope](/outlook/rest/compare-graph). New applications should use the [Graph REST API Endpoint](/graph/outlook-mail-concept-overview) instead.
-
 If you're not familiar with the OAuth 2.0 protocol, see [OAuth 2.0 protocol on Microsoft identity platform overview](/azure/active-directory/develop/active-directory-v2-protocols). For more information about the Microsoft Authentication Libraries (MSAL), which implement the OAuth 2.0 protocol to authenticate users and access secure APIs, see [MSAL overview](/azure/active-directory/develop/msal-overview).
 
 You can use the OAuth authentication service provided by Microsoft Entra (Microsoft Entra) to enable your application connect with IMAP, POP, or SMTP protocols to access Exchange Online in Office 365. To use OAuth with your application, you need to:
@@ -38,7 +35,6 @@ Alternatively, you can select an appropriate flow from the following list and fo
 
 1. [OAuth2 authorization code flow](/azure/active-directory/develop/v2-oauth2-auth-code-flow)
 2. [OAuth2 device authorization grant flow](/azure/active-directory/develop/v2-oauth2-device-code)
-3. [OAuth2 client credentials grant flow](#use-client-credentials-grant-flow-to-authenticate-smtp-imap-and-pop-connections)
 
 Ensure to specify the full scopes, including Outlook resource URLs, when authorizing your application and requesting an access token.
 
@@ -46,9 +42,11 @@ Ensure to specify the full scopes, including Outlook resource URLs, when authori
 |-----------|-------------------------|
 | IMAP      | `https://outlook.office.com/IMAP.AccessAsUser.All` |
 | POP       | `https://outlook.office.com/POP.AccessAsUser.All`  |
-| SMTP AUTH | `https://outlook.office.com/SMTP.SendAsApp`             |
+| SMTP AUTH | `https://outlook.office.com/SMTP.Send`             |
 
 In addition, you can request for [offline_access](/azure/active-directory/develop/v2-permissions-and-consent#offline_access) scope. When a user approves the offline_access scope, your app can receive refresh tokens from the Microsoft identity platform token endpoint. Refresh tokens are long-lived. Your app can get new access tokens as older ones expire.
+
+Alternatively, you can use [OAuth2 client credentials grant flow](#use-client-credentials-grant-flow-to-authenticate-smtp-imap-and-pop-connections) to fetch an access token, instead of OAuth2 authorization code flow or OAuth2 device authorization grant flow.
 
 ## Authenticate connection requests
 
