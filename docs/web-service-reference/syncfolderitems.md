@@ -33,7 +33,7 @@ The **SyncFolderItems** element defines a request to synchronize items in an Exc
 ```
 
 > [!NOTE]
-> SyncFolderItems operation is not supported for use against Office 365 Group mailboxes.
+> SyncFolderItems operation is not supported for use against Office 365 Group mailboxes or Public Folders.
 
  **SyncFolderItemsType**
 ## Attributes and elements
