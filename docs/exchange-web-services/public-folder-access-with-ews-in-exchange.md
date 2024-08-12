@@ -66,7 +66,7 @@ The following operations are not supported, or are partially supported, for publ
     
 EWS and the EWS Managed API do not support the following functionality for public folders:
   
-- Using **SyncFolderHierarchy**. Use the **FindFolder**, **GetFolder** and **SyncFolderItems** operations to synchronize items and folders in a public folder mailbox. 
+- Using **SyncFolderHierarchy**. Use the **FindFolder**, **GetFolder**, **FindItem** and **GetItem** operations to synchronize items and folders in a public folder mailbox. 
     
 - Deep-traversal searches of a public folder hierarchy. Use recursive **FindFolder** operation calls to traverse the public folder hierarchy. 
     
