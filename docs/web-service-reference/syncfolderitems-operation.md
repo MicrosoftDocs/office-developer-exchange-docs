@@ -20,6 +20,9 @@ description: "The SyncFolderItems operation synchronizes items between the Excha
 # SyncFolderItems operation
 
 The SyncFolderItems operation synchronizes items between the Exchange server and the client.
+
+> [!NOTE]
+> SyncFolderItems operation is not supported for use against Office 365 Group mailboxes or Public Folders.
   
 ## Remarks
 
