@@ -5,7 +5,7 @@ ms.date: 7/17/2015
 ms.audience: Developer
 ms.assetid: d9372057-1deb-45de-8f98-b9149604429a
 description: "Learn about how to use EWS and the EWS Managed API to access public folders and route public folder requests in Exchange."
-localization_priority: medium
+ms.localizationpriority: medium
 ---
 
 # Public folder access with EWS in Exchange
