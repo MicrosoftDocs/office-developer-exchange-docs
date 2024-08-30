@@ -285,6 +285,9 @@ You must use `https://outlook.office365.com/.default` in the `scope` property in
 
 The generated access tokens can be used as tokens to authenticate SMTP, POP, and IMAP connections via SASL XOAUTH2 format as described previously.
 
+> [!NOTE]
+> If you are trying to use Client Credential Grant Flow with SendAs, you need to grant SendAs permissions to the sender: [Add-RecipientPermission (ExchangePowerShell) | Microsoft Learn](/powershell/module/exchange/add-recipientpermission?view=exchange-ps).
+
 ## See also
 
 - [IMAP OAuth testing using powershell script](https://github.com/DanijelkMSFT/ThisandThat/blob/main/Get-IMAPAccessToken.ps1)
