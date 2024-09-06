@@ -19,8 +19,11 @@ description: "The SyncFolderHierarchy element defines a request to synchronize a
 
 # SyncFolderHierarchy
 
+> [!NOTE]
+> SyncFolderHierarchy is not supported for use against Office 365 Group mailboxes or Public Folders.
+
 The **SyncFolderHierarchy** element defines a request to synchronize a folder hierarchy on a client. 
-  
+
 ```xml
 <SyncFolderHierarchy>
    <FolderShape/>   <SyncFolderId/>
