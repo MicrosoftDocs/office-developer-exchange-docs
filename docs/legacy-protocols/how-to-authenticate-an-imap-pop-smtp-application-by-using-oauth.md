@@ -274,7 +274,7 @@ $AADServicePrincipalDetails = Get-AzureADServicePrincipal -SearchString YourAppN
 
 New-ServicePrincipal -AppId $AADServicePrincipalDetails.AppId -ObjectId $AADServicePrincipalDetails.ObjectId -DisplayName "EXO Serviceprincipal for EntraAD App $($AADServicePrincipalDetails.Displayname)"
 
-$EXOServicePrincipal = Get-ServicePrincipal -Identity "EXO Serviceprincipal for EntraAD App YourAppName"
+$EXOServicePrincipal = Get-ServicePrincipal -Identity "EXO Serviceprincipal for EntraAD App $($AADServicePrincipalDetails.Displayname)"
 
 Add-MailboxPermission -Identity "john.smith@contoso.com" -User $EXOServicePrincipal.Identity -AccessRights FullAccess
 ```
