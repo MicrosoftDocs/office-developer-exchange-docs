@@ -260,7 +260,7 @@ The OBJECT_ID is the Object ID from the Overview page of the Enterprise Applicat
 
 The following example finds the correct Object ID, which begins with '6d':
 
-:::image type="content" source="media/find-correct-object-id.png" alt-text="Screenshot of example of finding the correct object id." lightbox="media/find-correct-object-id.png":::
+:::image type="content" source="media/object-id.png" alt-text="Screenshot of example of finding the correct object id." lightbox="media/object-id.png":::
 
 The tenant admin can now add the specific mailboxes in the tenant that will be allowed to be accessed by your application. This configuration is done with the [`Add-MailboxPermission` cmdlet](/powershell/module/exchange/add-mailboxpermission).
 
