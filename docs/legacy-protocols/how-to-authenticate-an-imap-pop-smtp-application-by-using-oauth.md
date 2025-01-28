@@ -189,7 +189,8 @@ Service principals in Exchange are used to enable applications to access Exchang
 
 4. Click **Application permissions**.
 
-5. For POP access, choose the **POP.AccessAsApp** permission. For IMAP access, choose the **IMAP.AccessAsApp** permission. For SMTP access, choose the **SMTP.SendAsApp** permission.
+5. For POP access, choose the **POP.AccessAsApp** permission. For IMAP access, choose the **IMAP.AccessAsApp** permission. For SMTP access, choose the **SMTP.SendAsApp** permission.<br>
+The following screenshot shows the permissions selected:
 
    ![pop-imap-permission](media/pop-imap-smtp-permission.png)
 
@@ -226,7 +227,9 @@ https://login.microsoftonline.com/{tenant}/v2.0/adminconsent?client_id=<CLIENT_I
 
 If you registered your application in your own tenant using "Accounts in this organizational directory only", you can go forward and use the application configuration page within the Microsoft Entra admin center to grant the admin consent, and you don´t have to use the authorization request URL approach.
 
-![granting-consent-for-tenant](media/grant-consent.png)
+The following screenshot shows how to grant admin consent using the application configuration page within the Microsoft Entra admin center.
+
+:::image type="content" source="media/grant-consent.png" alt-text="Screenshot of how to grant admin consent." lightbox="media/grant-consent.png":::
 
 ### Register service principals in Exchange
 
@@ -258,7 +261,7 @@ Get-ServicePrincipal | fl
 
 The OBJECT_ID is the Object ID from the Overview page of the Enterprise Application node (Azure Portal) for the application registration. It is **not** the Object ID from the Overview page of the App Registrations node. Using the incorrect Object ID will cause an authentication failure.
 
-The following example finds the correct Object ID, which begins with '6d':
+The following screenshot shows an example that finds the correct Object ID, which begins with '6d':
 
 :::image type="content" source="media/object-id.png" alt-text="Screenshot of example of finding the correct object id." lightbox="media/object-id.png":::
 
