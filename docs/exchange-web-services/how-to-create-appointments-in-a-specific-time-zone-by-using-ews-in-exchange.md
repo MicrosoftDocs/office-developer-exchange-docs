@@ -130,9 +130,9 @@ When this example is executed on a client computer configured in the Eastern tim
 
 When creating appointments or meetings using EWS, you have three options for specifying the time zone:
   
-- To use Coordinated Universal Time (UTC), do not include a [TimeZoneContext](/exchange/client-developer/web-service-reference/timezonecontex.md) element, [MeetingTimeZone](/exchange/client-developer/web-service-reference/meetingtimezone.md) element (Exchange 2007 only), or [StartTimeZone](/exchange/client-developer/web-service-reference/starttimezone.md) and [EndTimeZone](/exchange/client-developer/web-service-reference/endtimezone.md) elements (Exchange 2010 and later) in the [CreateItem operation](/exchange/client-developer/web-service-reference/createitem-operation.md) request. 
+- To use Coordinated Universal Time (UTC), do not include a [TimeZoneContext](/exchange/client-developer/web-service-reference/timezonecontex.md) element, [MeetingTimeZone](/exchange/client-developer/web-service-reference/meetingtimezone) element (Exchange 2007 only), or [StartTimeZone](/exchange/client-developer/web-service-reference/starttimezone) and [EndTimeZone](/exchange/client-developer/web-service-reference/endtimezone) elements (Exchange 2010 and later) in the [CreateItem operation](/exchange/client-developer/web-service-reference/createitem-operation) request. 
     
-- To use a specific time zone for all date/time properties, including properties when creating a new appointment or meeting, specify a time zone in the [TimeZoneContext](/exchange/client-developer/web-service-reference/timezonecontext.md) element in the [CreateItem operation](/exchange/client-developer/web-service-reference/createitem-operation.md) request. 
+- To use a specific time zone for all date/time properties, including properties when creating a new appointment or meeting, specify a time zone in the [TimeZoneContext](/exchange/client-developer/web-service-reference/timezonecontext) element in the [CreateItem operation](/exchange/client-developer/web-service-reference/createitem-operation) request. 
     
 - To use a different time zone than the one specified in the [TimeZoneContext](https://msdn.microsoft.com/library/573c462b-aa1d-4ba0-8852-e3f48b26873b%28Office.15%29.aspx) element, include a [TimeZoneContext](https://msdn.microsoft.com/library/573c462b-aa1d-4ba0-8852-e3f48b26873b%28Office.15%29.aspx) element, [MeetingTimeZone](https://msdn.microsoft.com/library/413b47d9-8126-462c-9a4f-4e771a5e8889%28Office.15%29.aspx) element (Exchange 2007 only), or [StartTimeZone](https://msdn.microsoft.com/library/d38c4dc1-4ecb-42a1-8d57-a451b16a2de2%28Office.15%29.aspx) and [EndTimeZone](https://msdn.microsoft.com/library/6c53c337-be60-4d22-9e9e-a0c140c5e913%28Office.15%29.aspx) elements (Exchange 2010 and later) in the [CreateItem operation](https://msdn.microsoft.com/library/78a52120-f1d0-4ed7-8748-436e554f75b6%28Office.15%29.aspx) request. 
     
@@ -162,7 +162,7 @@ The following example [CreateItem operation](https://msdn.microsoft.com/library/
 </soap:Envelope>
 ```
 
-The following example [CreateItem operation](/exchange/client-developer/web-service-reference/createitem-operation.md) request uses the **StartTimeZone** and **EndTimeZone** elements to specify the Central time zone for the appointment. Notice that the **TimeZoneContext** element is absent. However, if it were present, the values of the **StartTimeZone** and **EndTimeZone** elements would override its value. Again, the **Start** and **End** element values are expressed in UTC. We also set the TimeZoneDescription Extended Property to the same value as TimeZone being used.
+The following example [CreateItem operation](/exchange/client-developer/web-service-reference/createitem-operation) request uses the **StartTimeZone** and **EndTimeZone** elements to specify the Central time zone for the appointment. Notice that the **TimeZoneContext** element is absent. However, if it were present, the values of the **StartTimeZone** and **EndTimeZone** elements would override its value. Again, the **Start** and **End** element values are expressed in UTC. We also set the TimeZoneDescription Extended Property to the same value as TimeZone being used.
   
 ```XML
 <?xml version="1.0" encoding="utf-8"?>
@@ -194,7 +194,7 @@ The following example [CreateItem operation](/exchange/client-developer/web-serv
 </soap:Envelope>
 ```
 
-The following example [CreateItem operation](/exchange/client-developer/web-service-reference/createitem-operation.md) request sets the **TimeZoneContext** element to the Mountain time zone. Notice that the **StartTimeZone** and **EndTimeZone** elements are absent. Again, the **Start** and **End** element values are expressed in UTC. 
+The following example [CreateItem operation](/exchange/client-developer/web-service-reference/createitem-operation) request sets the **TimeZoneContext** element to the Mountain time zone. Notice that the **StartTimeZone** and **EndTimeZone** elements are absent. Again, the **Start** and **End** element values are expressed in UTC. 
   
 ```XML
 <?xml version="1.0" encoding="utf-8"?>
