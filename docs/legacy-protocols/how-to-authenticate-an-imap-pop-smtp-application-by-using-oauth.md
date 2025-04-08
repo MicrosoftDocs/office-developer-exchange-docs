@@ -179,7 +179,7 @@ S: 535 5.7.3 Authentication unsuccessful [SN2PR00CA0018.namprd00.prod.outlook.co
 
 Service principals in Exchange are used to enable applications to access Exchange mailboxes via client credentials flow with the SMTP, POP, and IMAP protocols.
 
-### Add the POP, IMAP, or SMTP permissions to your Entra AD application
+### Add the POP, IMAP, or SMTP permissions to your Microsoft Entra application
 
 1. In the Azure portal, choose the **API Permissions** blade in your Microsoft Entra application's management view.
 
@@ -196,11 +196,11 @@ The following screenshot shows the permissions selected:
 
 6. Once you've chosen the type of permission, select **Add permissions**.
 
-You should now have the SMTP, POP, or IMAP application permissions added to your Entra AD application's permissions.
+You should now have the SMTP, POP, or IMAP application permissions added to your Entra application's permissions.
 
 ### Get tenant admin consent
 
-To access Exchange mailboxes via POP or IMAP, your Entra AD application must get tenant admin consent for each tenant. For more information, see [tenant admin consent process](/azure/active-directory/develop/v2-permissions-and-consent).
+To access Exchange mailboxes via POP or IMAP, your Entra application must get tenant admin consent for each tenant. For more information, see [tenant admin consent process](/azure/active-directory/develop/v2-permissions-and-consent).
 
 #### How to grant consent if the application is registered/configured for multiple tenant usage, for example, for Partner/ISV developed centrally registered application
 
@@ -233,7 +233,7 @@ The following screenshot shows how to grant admin consent using the application 
 
 ### Register service principals in Exchange
 
-Once a tenant admin consents your Microsoft Entra application, they must register your Entra AD application's service principal in Exchange via Exchange Online PowerShell. This registration is enabled by the [`New-ServicePrincipal` cmdlet](/powershell/module/exchange/new-serviceprincipal).
+Once a tenant admin consents your Microsoft Entra application, they must register your Entra application's service principal in Exchange via Exchange Online PowerShell. This registration is enabled by the [`New-ServicePrincipal` cmdlet](/powershell/module/exchange/new-serviceprincipal).
 
 To use the *New-ServicePrincipal* cmdlet, install ExchangeOnlineManagement and connect to your tenant as shown in the following snippet:
 
@@ -251,7 +251,7 @@ Registration of an Microsoft Entra application's service principal in Exchange i
 New-ServicePrincipal -AppId <APPLICATION_ID> -ObjectId <OBJECT_ID> [-Organization <ORGANIZATION_ID>]
 ```
 
-The tenant admin can find the service principal identifiers referenced above in your Entra AD application's enterprise application instance on the tenant. You can find the list of the enterprise application instances on the tenant in the **Enterprise applications** blade in the Microsoft Entra view in Azure Portal.
+The tenant admin can find the service principal identifiers referenced above in your Entra application's enterprise application instance on the tenant. You can find the list of the enterprise application instances on the tenant in the **Enterprise applications** blade in the Microsoft Entra view in Azure Portal.
 
 You can get your registered service principal's identifier using the [`Get-ServicePrincipal` cmdlet](/powershell/module/exchange/get-serviceprincipal).
 
