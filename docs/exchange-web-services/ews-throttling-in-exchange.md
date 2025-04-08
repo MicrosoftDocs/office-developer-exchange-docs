@@ -1,6 +1,4 @@
----In the article, the EWSMaxConcurrency value for Exchange Online is mentioned as 27. However, during a recent call with the customer, one of our Product Group engineers stated that the value is 16, which caused confusion. As a result, the customer submitted a GetHelp request to obtain the correct value for configuring their applications accordingly.
-Could you please confirm the correct EWSMaxConcurrency limit? If it is indeed 27, we will update the customer accordingly. If the value has changed, kindly update the article to reflect the correct information
-
+---
 title: "EWS throttling in Exchange"
 manager: sethgros
 ms.date: 05/10/2019
