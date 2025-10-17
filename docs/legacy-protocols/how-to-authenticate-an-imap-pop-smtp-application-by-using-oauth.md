@@ -11,11 +11,11 @@ ms.service: exchange
 
 Learn how to use OAuth authentication to connect with IMAP, POP, or SMTP protocols and to access email data for Office 365 users.
 
-> OAuth2 support for IMAP, POP, and SMTP protocols as described below is available  for both Microsoft 365 (which includes Office on the web) and Outlook.com users.
+> OAuth2 support for IMAP, POP, and SMTP protocols as described below is available for both Microsoft 365 (which includes Office on the web) and Outlook.com users.
 
 If you're not familiar with the OAuth 2.0 protocol, see [OAuth 2.0 protocol on Microsoft identity platform overview](/azure/active-directory/develop/active-directory-v2-protocols). For more information about the Microsoft Authentication Libraries (MSAL), which implement the OAuth 2.0 protocol to authenticate users and access secure APIs, see [MSAL overview](/azure/active-directory/develop/msal-overview).
 
-You can use the OAuth authentication service provided by Microsoft Entra (Microsoft Entra) to enable your application connect with IMAP, POP, or SMTP protocols to access Exchange Online in Office 365. To use OAuth with your application, you need to:
+You can use the OAuth authentication service provided by Microsoft Entra to enable your application connect with IMAP, POP, or SMTP protocols to access Exchange Online in Office 365. To use OAuth with your application, you need to:
 
 1. [Register your application](#register-your-application) with Microsoft Entra.
 2. [Get an access token](#get-an-access-token) from a token server.

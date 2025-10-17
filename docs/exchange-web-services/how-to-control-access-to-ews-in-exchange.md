@@ -12,7 +12,7 @@ ms.localizationpriority: high
 
 Find out how to control access to EWS for users, applications, or the entire organization.
   
-Whether you are using the EWS Managed API, or EWS directly, in your application, you can control access to Exchange Web Services (EWS). If you have administrator access to your Exchange server, you can manage access to EWS by using the Exchange Management Shell to control access globally, for each user, and for each application.
+Whether you are using the EWS Managed API, or EWS directly, in your application, you can control access to Exchange Web Services (EWS). If you have administrator access to your Exchange server, you can manage access to EWS by using the Exchange Management Shell to control access globally, for each user, and for each application. For more information, see [Connect to Exchange servers using remote PowerShell](/powershell/exchange/connect-to-exchange-servers-using-remote-powershell).
   
 ## Exchange Management Shell cmdlets for configuring access control
 <a name="bk_Cmdlets"> </a>
