@@ -3,13 +3,12 @@
 # For more information, see https://learn.microsoft.com/en-us/help/platform/learn-editor-add-metadata
 # For valid values of ms.service, ms.prod, and ms.topic, see https://learn.microsoft.com/en-us/help/platform/metadata-taxonomies
 
-title:       # Add a title for the browser tab
-description: # Add a meaningful description for search results
+title: Configure SMTP onboarding to App RBAC
+description: RBAC for Applications in Exchange Online allows admins to grant permissions to an application that's independently accessing data in Exchange Online. This grant can be paired with a scope of access (resource scope) to specify which mailboxes an app can access. This feature extends the current RBAC model in Exchange Online and it replaces the need for Application Access Policies.
 author:      Ian-MSFT-2019 # GitHub alias
 ms.author:   iamcdo # Microsoft alias
-ms.service:  # Add the ms.service or ms.prod value
-# ms.prod:   # To use ms.prod, uncomment it and delete ms.service
-ms.topic:    # Add the ms.topic value
+ms.service: exchange-online
+ms.topic: feature-guide
 ms.date:     10/17/2025
 ---
 
