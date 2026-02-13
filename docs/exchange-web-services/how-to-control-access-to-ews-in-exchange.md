@@ -39,7 +39,7 @@ Let's take a look at a few scenarios that show you how you can control access to
 |Allow all client applications to use EWS except those that are specifically blocked. | `Set-OrganizationConfig -EwsApplicationAccessPolicy:EnforceBlockList -EwsBlockList:"OWA/*"`<br/> <br/>This example only blocks applications from using EWS that have a user agent string that starts with "OWA/". |
 |Allow all client applications to use EWS. | `Set-OrganizationConfig -EwsApplicationAccessPolicy:EnforceBlockList` <br/><br/> Because no BlockList is specified, all applications can use EWS. |
 |Block the entire organization from using EWS. | `Set-OrganizationConfig -EwsEnabled:$false` <br/><br/> **Important**: Disabling EWS in the organization also disables per-user EWS overrides. |
-|Allow the entire organization to use EWS. | `Set-OrganizationConfig -EwsEnabled:$true`|
+|Allow the entire organization to use EWS. | `Set-OrganizationConfig -EwsEnabled:$true` <br/><br/> **Important**: The default value Null is treated as EwsEnabled set to True.|
 |Block an individual mailbox from using EWS. | `Set-CASMailbox -Identity adam@contoso.com -EwsEnabled:$false`|
 |Allow an individual mailbox to use EWS. | `Set-CASMailbox -Identity adam@contoso.com -EwsEnabled:$true`|
    
