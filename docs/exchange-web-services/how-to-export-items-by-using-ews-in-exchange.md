@@ -1,15 +1,11 @@
 ---
-title: "Export items by using EWS in Exchange"
- 
- 
-manager: sethgros
-ms.date: 11/16/2014
-ms.audience: Developer
- 
- 
+title: "Export items by using EWS in Exchange" 
+manager: lindalu
+ms.date: 04/28/2026
+ms.audience: Developer 
 ms.assetid: e93ee68c-e134-4469-9070-fba404d46cb4
 description: "Learn how to export appointments, emails, contacts, tasks, and other items by using the EWS Managed API or EWS in Exchange."
-localization_priority: Priority
+ms.localizationpriority: medium
 ---
 
 # Export items by using EWS in Exchange
@@ -85,6 +81,9 @@ The server responds to the **ExportItems** request with an [ExportItemsResponse]
   </m:ExportItemsResponse>
 </s:Body>
 ```
+
+> [!IMPORTANT]
+> It's possible for data to be truncated in some uncommon scenarios. This can happen due to various reasons, such as a failure to run a full backup, a backup software error, or a lack of disk space. If this happens, the EWS response will contain the string `=== Truncated Data ===` at the end.  To address this issue, the client application should treat this as a transient error and retry the request.
 
 ## Use the MIME stream to export into common file formats
 <a name="bk_exportfullfidelity"> </a>
@@ -260,13 +259,10 @@ After exporting items, you might want to [import items into Exchange](how-to-imp
   
 ## See also
 
-
 - [Exporting and importing items by using EWS in Exchange](exporting-and-importing-items-by-using-ews-in-exchange.md)
     
 - [Import items by using EWS in Exchange](how-to-import-items-by-using-ews-in-exchange.md)
     
 - [Folders and items in EWS in Exchange](folders-and-items-in-ews-in-exchange.md)
     
-- [Mailbox synchronization and EWS in Exchange](mailbox-synchronization-and-ews-in-exchange.md)
-    
-
+- [Mailbox synchronization and EWS in Exchange](mailbox-synchronization-and-ews-in-exchange.md)    
