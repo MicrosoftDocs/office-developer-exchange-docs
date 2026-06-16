@@ -24,7 +24,8 @@ You can use the following Exchange Management Shell cmdlets to view the current 
 - [Get-OrganizationConfig](/powershell/module/exchange/get-organizationconfig) - Shows you the parameters for the entire organization.    
 - [Set-OrganizationConfig](/powershell/module/exchange/set-organizationconfig) - Sets the parameters for the entire organization. 
 
-**Note** The way the EWSEnabled parameter operates will change in October 2026 due to the EWS Deprecation. Please see: https://techcommunity.microsoft.com/blog/exchange/exchange-online-ews-your-time-is-almost-up/4492361
+> [!NOTE]
+> The way the EWSEnabled parameter operates will change in October 2026 due to the EWS Deprecation. For more information, see [Exchange Online EWS, Your Time is Almost Up](https://techcommunity.microsoft.com/blog/exchange/exchange-online-ews-your-time-is-almost-up/4492361).
 
 <a name="bk_Examples"> </a>
 
