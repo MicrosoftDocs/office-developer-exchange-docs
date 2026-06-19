@@ -24,6 +24,9 @@ You can use the following Exchange Management Shell cmdlets to view the current 
 - [Get-OrganizationConfig](/powershell/module/exchange/get-organizationconfig) - Shows you the parameters for the entire organization.    
 - [Set-OrganizationConfig](/powershell/module/exchange/set-organizationconfig) - Sets the parameters for the entire organization. 
 
+> [!NOTE]
+> The way the EWSEnabled parameter operates will change in October 2026 due to the EWS Deprecation. For more information, see [Exchange Online EWS, Your Time is Almost Up](https://techcommunity.microsoft.com/blog/exchange/exchange-online-ews-your-time-is-almost-up/4492361).
+
 <a name="bk_Examples"> </a>
 
 ## Examples: Controlling access to EWS
@@ -35,9 +38,10 @@ Let's take a look at a few scenarios that show you how you can control access to
 |If you want to |Use this command|
 |:-----|:-----|
 |Block all client applications from using EWS. | `Set-OrganizationConfig -EwsApplicationAccessPolicy:EnforceAllowList`<br/><br/>This allows applications listed in the AllowList to connect. In this example, no applications are included in the AllowList, so no applications can use EWS. |
-|Allow a list of client applications to use EWS. | `Set-OrganizationConfig -EwsApplicationAccessPolicy:EnforceAllowList -EwsAllowList:"OWA/*"`<br/><br/>This allows specific applications to use EWS. In this example, any application that has a user agent string that starts with "OWA/" is allowed access. |
-|Allow all client applications to use EWS except those that are specifically blocked. | `Set-OrganizationConfig -EwsApplicationAccessPolicy:EnforceBlockList -EwsBlockList:"OWA/*"`<br/> <br/>This example only blocks applications from using EWS that have a user agent string that starts with "OWA/". |
-|Allow all client applications to use EWS. | `Set-OrganizationConfig -EwsApplicationAccessPolicy:EnforceBlockList` <br/><br/> Because no BlockList is specified, all applications can use EWS. |
+|Allow a list of client applications to use EWS (Based on User Agent). | `Set-OrganizationConfig -EwsApplicationAccessPolicy:EnforceAllowList -EwsAllowList:"OWA/*"`<br/><br/>This allows specific applications to use EWS. In this example, any application that has a user agent string that starts with "OWA/" is allowed access. |
+|Allow a list of client applications to use EWS (Based on Application ID). | `Set-OrganizationConfig -EwsAllowedAppIDs "11111111-2222-3333-4444-555555555555,aaaaaaaa-bbbb-cccc-dddd-eeeeeeeeeeee"`<br/><br/> When EWSEnabled is set to True, only the Application IDs in this list can use EWS. |
+|Allow all client applications to use EWS except those that are specifically blocked (Based on User Agent). | `Set-OrganizationConfig -EwsApplicationAccessPolicy:EnforceBlockList -EwsBlockList:"OWA/*"`<br/> <br/>This example only blocks applications from using EWS that have a user agent string that starts with "OWA/". |
+|Allow all client applications to use EWS. | `Set-OrganizationConfig -EwsApplicationAccessPolicy:EnforceBlockList` <br/><br/> Because no BlockList is specified, all applications can use EWS unless blocked by Application ID. |
 |Block the entire organization from using EWS. | `Set-OrganizationConfig -EwsEnabled:$false` <br/><br/> **Important**: Disabling EWS in the organization also disables per-user EWS overrides. |
 |Allow the entire organization to use EWS. | `Set-OrganizationConfig -EwsEnabled:$true` <br/><br/> **Important**: The default value Null is treated as EwsEnabled set to True.|
 |Block an individual mailbox from using EWS. | `Set-CASMailbox -Identity adam@contoso.com -EwsEnabled:$false`|

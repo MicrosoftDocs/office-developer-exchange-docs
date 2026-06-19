@@ -83,7 +83,7 @@ The server responds to the **ExportItems** request with an [ExportItemsResponse]
 ```
 
 > [!IMPORTANT]
-> It's possible for data to be truncated in some uncommon scenarios. This can happen due to various reasons, such as a failure to run a full backup, a backup software error, or a lack of disk space. If this happens, the EWS response will contain the string `=== Truncated Data ===` at the end.  To address this issue, the client application should treat this as a transient error and retry the request.
+> Data can occasionally be truncated during normal service operations, such as mailbox failovers, server failovers, network interruptions, or maintenance activities. If data is truncated, the EWS response ends with "=== Truncated Data ===". Treat this condition as a transient error and retry the request using an exponential backoff strategy. Resolution can take several minutes or, in some cases, several hours. If truncated responses continue for more than eight hours, open a support case.
 
 ## Use the MIME stream to export into common file formats
 <a name="bk_exportfullfidelity"> </a>
