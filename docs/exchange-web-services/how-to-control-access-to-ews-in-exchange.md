@@ -44,6 +44,9 @@ Let's take a look at a few scenarios that show you how you can control access to
 |Allow the entire organization to use EWS. | `Set-OrganizationConfig -EwsEnabled:$true` <br/><br/> **Important**: The default value Null is treated as EwsEnabled set to True.|
 |Block an individual mailbox from using EWS. | `Set-CASMailbox -Identity adam@contoso.com -EwsEnabled:$false`|
 |Allow an individual mailbox to use EWS. | `Set-CASMailbox -Identity adam@contoso.com -EwsEnabled:$true`|
+
+> [!NOTE]
+> EwsAllowedAppIDs and the EWSAllowList/EWSBlockList are both evaluated for each connection, and both must pass for a connection to be allowed. If a tenant uses EwsApplicationAccessPolicy:EnforceAllowList in addition to configuring the EWSAllowedAppIDs list, they must keep all required user agents in the EwsAllowList. For example, it must include 'Teams CalendarSkypeSpaces/1.0a$*+' when the Teams AppID cc15fd57-2c6c-4117-a88c-83b1d56b4bbe is allowed, otherwise Teams Calendar will be blocked.
    
 ## See also
 
