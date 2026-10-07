@@ -47,6 +47,103 @@ Let's take a look at a few scenarios that show you how you can control access to
 
 > [!NOTE]
 > EwsAllowedAppIDs and the EWSAllowList/EWSBlockList are both evaluated for each connection, and both must pass for a connection to be allowed. If a tenant uses EwsApplicationAccessPolicy:EnforceAllowList in addition to configuring the EWSAllowedAppIDs list, they must keep all required user agents in the EwsAllowList. For example, it must include 'Teams CalendarSkypeSpaces/1.0a$*+' when the Teams AppID cc15fd57-2c6c-4117-a88c-83b1d56b4bbe is allowed, otherwise Teams Calendar will be blocked.
+
+## Understand HTTP 403 responses in Exchange Online
+
+When the EWS access controls described above block a request, Exchange Online returns **HTTP 403 Forbidden** with diagnostic information in the **`X-EWS-Policy-Reason`** response header. Applications should inspect this header rather than rely on an error message in the response body.
+
+### Three reasons an application can be blocked
+
+1. **EWS is disabled for the user or organization.**  
+The applicable `EwsEnabled` setting prevents access. Organization-wide disablement also blocks users whose mailbox-level setting is enabled.
+2. **The application is not allowed by the Application ID allow list.**  
+When Application ID restrictions apply, the application's ID must be included in `EwsAllowedAppIDs`.
+3. **The application is blocked by a User-Agent policy.**  
+With `EnforceAllowList`, the application's User-Agent must match an entry in `EwsAllowList`. With `EnforceBlockList`, it must not match an entry in `EwsBlockList`.
+
+### Two diagnostic messages
+
+There are **two possible values for one response header**, not a separate error message for each blocking condition. Application ID and User-Agent policy blocks return the same message.
+
+|`X-EWS-Policy-Reason` value|Meaning|Configuration to inspect|
+|-|-|-|
+|`EWS is disabled for this user or tenant`|EWS is disabled by the applicable user or organization configuration.|Organization and mailbox `EwsEnabled` settings.|
+|`EWS is blocked by policy for this user or tenant`|An application access policy prevents the request. The message does not distinguish Application ID blocking from User-Agent blocking.|`EwsAllowedAppIDs`, and the applicable `EwsApplicationAccessPolicy`, `EwsAllowList`, or `EwsBlockList` settings.|
+
+For example, when EWS is disabled:
+
+```http
+HTTP/1.1 403 Forbidden
+X-EWS-Policy-Reason: EWS is disabled for this user or tenant
+```
+
+When an application is blocked by an Application ID or User-Agent policy:
+
+```http
+HTTP/1.1 403 Forbidden
+X-EWS-Policy-Reason: EWS is blocked by policy for this user or tenant
+```
+
+Both policy types use the second header value.
+
+> \[!NOTE]
+> An HTTP 403 status alone does not establish that EWS disablement or one of these application policies caused the failure. These diagnostic messages identify the access-control blocks described in this section; other access restrictions can also produce HTTP 403 responses.
+
+## Troubleshoot a blocked EWS request
+
+### 1\. Inspect the response header
+
+Check the HTTP status and the `X-EWS-Policy-Reason` value. Use the diagnostic message to determine whether to investigate EWS disablement or application access policies.
+
+### 2\. Review the organization configuration
+
+Inspect organization-level EWS enablement and User-Agent policies:
+
+```powershell
+Get-OrganizationConfig |
+    Format-List EwsEnabled,EwsApplicationAccessPolicy,EwsAllowList,EwsBlockList
+```
+
+Retrieve the Application ID allow list separately:
+
+```powershell
+Get-OrganizationConfig -RetrieveEwsOperationAccessPolicy |
+    Format-List EwsAllowedAppIDs
+```
+
+Use `-RetrieveEwsOperationAccessPolicy` to retrieve the configured `EwsAllowedAppIDs` value.
+
+### 3\. Review the affected mailbox
+
+Check whether EWS is enabled for the mailbox:
+
+```powershell
+Get-CASMailbox -Identity adam@contoso.com |
+    Format-List EwsEnabled
+```
+
+Inspect the mailbox setting as well as the organization setting. Enabling EWS for a mailbox does not override organization-wide disablement.
+
+### 4\. Identify the applicable restriction
+
+If the header says **`EWS is disabled for this user or tenant`**:
+
+* Review organization and mailbox `EwsEnabled` settings.
+* If access should be permitted, correct the applicable disablement setting.
+* Do not expect an Application ID or User-Agent allow-list change to restore access while EWS remains disabled.
+
+If the header says **`EWS is blocked by policy for this user or tenant`**:
+
+* Check whether the application's ID is included in `EwsAllowedAppIDs` when Application ID restrictions apply.
+* Check whether its User-Agent satisfies the applicable allow-list or block-list policy.
+* Review both policy types. The header does not identify which one blocked the request, and passing one check does not bypass the other.
+
+Before changing a restriction, confirm that the application should be permitted under your organization's access policy.
+
+### 5\. Allow time for changes to take effect
+
+Changes to `EwsAllowedAppIDs` can take up to **24 hours** to take effect because of caching. An immediate retry might still reflect the previous configuration.
+
    
 ## See also
 
